@@ -122,7 +122,27 @@ function wikiSearchUrl(name) {
   return `https://en.wikipedia.org/w/index.php?search=${encodeURIComponent(`${name} aircraft`)}`;
 }
 
+async function fetchWikipediaSummary(title) {
+  const response = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`, {
+    headers: { "User-Agent": "MilipediaStarter/1.0 (educational static site)" }
+  });
+  if (!response.ok) throw new Error(`Summary failed: ${response.status}`);
+  const data = await response.json();
+  return {
+    title: data.title || title,
+    summary: data.extract || "",
+    image: data.thumbnail?.source || "",
+    page_url: data.content_urls?.desktop?.page || `https://en.wikipedia.org/wiki/${encodeURIComponent(title.replaceAll(" ", "_"))}`
+  };
+}
+
 async function getWikipediaSummary(name) {
+  try {
+    return await fetchWikipediaSummary(name);
+  } catch {
+    // Fall back to search only if an exact page title is not available.
+  }
+
   const searchUrl = new URL("https://en.wikipedia.org/w/api.php");
   searchUrl.search = new URLSearchParams({
     action: "query",
@@ -141,17 +161,7 @@ async function getWikipediaSummary(name) {
     const title = searchData?.query?.search?.[0]?.title;
     if (!title) throw new Error("No title");
 
-    const summaryResponse = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`, {
-      headers: { "User-Agent": "MilipediaStarter/1.0 (educational static site)" }
-    });
-    if (!summaryResponse.ok) throw new Error(`Summary failed: ${summaryResponse.status}`);
-    const summaryData = await summaryResponse.json();
-    return {
-      title,
-      summary: summaryData.extract || "",
-      image: summaryData.thumbnail?.source || "",
-      page_url: summaryData.content_urls?.desktop?.page || wikiSearchUrl(name)
-    };
+    return await fetchWikipediaSummary(title);
   } catch {
     return {
       title: name,
@@ -160,6 +170,150 @@ async function getWikipediaSummary(name) {
       page_url: wikiSearchUrl(name)
     };
   }
+}
+
+function sentence(value) {
+  return String(value || "").replace(/\.$/, "");
+}
+
+function makeFootnotes(wiki) {
+  return [
+    {
+      id: "fn-main",
+      title: wiki.title,
+      url: wiki.page_url,
+      publisher: "Wikipedia",
+      note: "Used for the starter overview, source discovery, and cross-checking. Milipedia should verify detailed specifications against primary or specialist sources."
+    },
+    {
+      id: "fn-wikidata",
+      title: "Wikidata Query Service",
+      url: "https://query.wikidata.org/",
+      publisher: "Wikidata",
+      note: "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+    },
+    {
+      id: "fn-method",
+      title: "Milipedia data accuracy rules",
+      url: "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
+      publisher: "Milipedia",
+      note: "Local rules for neutral wording, estimates, variant differences, and source handling."
+    }
+  ];
+}
+
+function cite(text, id) {
+  return { text, refs: [id] };
+}
+
+function makeArticleSections(record, wiki) {
+  const origin = sentence(record.country_of_origin);
+  const manufacturer = sentence(record.manufacturer);
+  const status = sentence(record.status);
+  const aircraftType = sentence(record.aircraft_type).toLowerCase();
+  const role = sentence(record.role).toLowerCase();
+  const era = sentence(record.era);
+  const sourceLead = wiki.summary
+    ? wiki.summary
+    : `${record.name} is a post-1945 production military aircraft included in the Milipedia starter database.`;
+
+  return [
+    {
+      id: "overview",
+      title: "Overview",
+      paragraphs: [
+        cite(sourceLead, "fn-main"),
+        cite(
+          `${record.name} is categorized in Milipedia as a ${aircraftType} with the primary role of ${role}. Its country of origin is listed as ${origin}, and the manufacturer is recorded as ${manufacturer}.`,
+          "fn-wikidata"
+        ),
+        cite(
+          `The entry is intentionally written in neutral encyclopedia language. Variant-specific figures, disputed claims, and classified performance estimates should be checked against the cited sources before being treated as final.`,
+          "fn-method"
+        )
+      ]
+    },
+    {
+      id: "development",
+      title: "Development",
+      paragraphs: [
+        cite(
+          `${record.name} first flew in ${record.first_flight} and entered service or was introduced around ${record.introduction_date}. Those dates place it in the ${era} aviation context.`,
+          "fn-main"
+        ),
+        cite(
+          `The aircraft was produced by ${manufacturer}. In later Milipedia data passes, this section should separate original design requirements, prototype development, production blocks, export versions, and major modernization programs.`,
+          "fn-wikidata"
+        )
+      ]
+    },
+    {
+      id: "design",
+      title: "Design and Capabilities",
+      paragraphs: [
+        cite(
+          `The recorded crew requirement is ${record.crew}, with ${record.engine_type.toLowerCase()} propulsion and a broad speed category of ${record.speed_category}.`,
+          "fn-main"
+        ),
+        cite(
+          `Milipedia currently records carrier capability as ${record.carrier_capable ? "yes" : "no"} and stealth characteristics as ${record.stealth ? "yes" : "no"}. These fields describe broad capability categories rather than full technical performance.`,
+          "fn-method"
+        ),
+        cite(
+          `Armament is summarized as: ${record.armament} Exact weapon compatibility can differ significantly by variant, operator, upgrade package, and time period.`,
+          "fn-main"
+        )
+      ]
+    },
+    {
+      id: "service",
+      title: "Operational History",
+      paragraphs: [
+        cite(
+          `The current Milipedia status for ${record.name} is ${status}. For aircraft with long service lives, this may vary by operator because some air forces retire a type while others continue to fly upgraded variants.`,
+          "fn-main"
+        ),
+        cite(
+          `Operational claims should be handled carefully. Combat history, loss claims, and performance comparisons should be attributed to dated sources and kept separate from propaganda, marketing language, or unsourced assertions.`,
+          "fn-method"
+        )
+      ]
+    },
+    {
+      id: "variants",
+      title: "Variants",
+      paragraphs: [
+        cite(
+          `${record.name} may include multiple production blocks, export models, trainer versions, reconnaissance versions, or local upgrade programs. Detailed variant lists should be added only when each variant can be sourced.`,
+          "fn-main"
+        )
+      ]
+    },
+    {
+      id: "operators",
+      title: "Operators",
+      paragraphs: [
+        cite(
+          `Operator data is intentionally conservative in this starter build. Future versions should list current and former operators separately, with dates where available and special notes for license-built or locally upgraded aircraft.`,
+          "fn-wikidata"
+        )
+      ]
+    },
+    {
+      id: "specifications",
+      title: "Specifications",
+      paragraphs: [
+        cite(
+          `This starter entry records core comparable fields: crew ${record.crew}, propulsion type ${record.engine_type}, maximum speed category ${record.speed_category}, first flight ${record.first_flight}, and introduction ${record.introduction_date}.`,
+          "fn-main"
+        ),
+        cite(
+          `Detailed dimensions, weights, range, combat radius, service ceiling, and climb rate should be stored by exact variant. Milipedia should avoid mixing prototype, export, and modernized figures in a single unqualified table.`,
+          "fn-method"
+        )
+      ]
+    }
+  ];
 }
 
 const records = [];
@@ -184,7 +338,7 @@ for (const item of aircraft) {
   ] = item;
 
   const wiki = await getWikipediaSummary(name);
-  records.push({
+  const baseRecord = {
     id,
     name,
     alternative_names: [],
@@ -229,13 +383,30 @@ for (const item of aircraft) {
       : [],
     sources: [
       {
+        id: "fn-main",
         title: wiki.title,
         url: wiki.page_url,
+        publisher: "Wikipedia",
         note: "Starter reference page. Verify exact specifications against primary or specialist sources before publishing detailed figures."
       },
-      BASE_SOURCE
+      {
+        id: "fn-wikidata",
+        ...BASE_SOURCE,
+        publisher: "Wikidata"
+      },
+      {
+        id: "fn-method",
+        title: "Milipedia data accuracy rules",
+        url: "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
+        publisher: "Milipedia",
+        note: "Local rules for neutral wording, estimates, variant differences, and source handling."
+      }
     ]
-  });
+  };
+
+  baseRecord.footnotes = makeFootnotes(wiki);
+  baseRecord.article_sections = makeArticleSections(baseRecord, wiki);
+  records.push(baseRecord);
 }
 
 if (records.length !== 100) {

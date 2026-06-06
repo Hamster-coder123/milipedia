@@ -426,6 +426,136 @@ dd {
   align-items: start;
 }
 
+.wiki-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: 18px;
+  align-items: start;
+}
+
+.wiki-article,
+.infobox {
+  border: 1px solid var(--line);
+  border-radius: 34px;
+  background: var(--panel);
+}
+
+.wiki-article {
+  padding: clamp(24px, 5vw, 52px);
+}
+
+.article-lead {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 28px;
+}
+
+.article-lead h2 {
+  margin-top: 18px;
+  font-size: clamp(2.5rem, 7vw, 6.5rem);
+}
+
+.article-lead p,
+.article-section p {
+  color: #d8d8dc;
+  font-size: 1.04rem;
+  line-height: 1.72;
+}
+
+.toc {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 8px;
+  margin: 28px 0;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 16px;
+  background: #050505;
+}
+
+.toc strong {
+  grid-column: 1 / -1;
+  color: var(--ink);
+}
+
+.toc a {
+  color: var(--blue);
+  font-size: 0.94rem;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.toc a:hover {
+  text-decoration: underline;
+}
+
+.article-section {
+  border-top: 1px solid var(--line);
+  padding: 28px 0 6px;
+  scroll-margin-top: 78px;
+}
+
+.article-section h3 {
+  margin: 0 0 14px;
+  font-size: clamp(1.55rem, 3vw, 2.35rem);
+}
+
+.ref {
+  margin-left: 2px;
+  font-size: 0.72em;
+  line-height: 0;
+  vertical-align: super;
+}
+
+.ref a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.references {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding-left: 22px;
+  color: var(--soft);
+}
+
+.references li {
+  padding-left: 6px;
+}
+
+.references a {
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.references span {
+  display: block;
+  color: var(--soft);
+  font-size: 0.94rem;
+}
+
+.infobox {
+  position: sticky;
+  top: 72px;
+  overflow: hidden;
+}
+
+.infobox h3 {
+  margin: 0;
+  padding: 18px 18px 0;
+  font-size: 1.35rem;
+}
+
+.infobox .info-table {
+  margin: 8px 18px 18px;
+  width: calc(100% - 36px);
+}
+
+.infobox .detail-actions {
+  margin: 0;
+  padding: 0 18px 18px;
+}
+
 .detail-hero,
 .detail-panel,
 .source-panel {
@@ -577,7 +707,8 @@ dd {
 @media (max-width: 1020px) {
   .toolbar,
   .compare-picker,
-  .detail-shell {
+  .detail-shell,
+  .wiki-layout {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -600,8 +731,14 @@ dd {
   .stats,
   .toolbar,
   .compare-picker,
-  .detail-shell {
+  .detail-shell,
+  .wiki-layout {
     grid-template-columns: 1fr;
+  }
+
+  .infobox {
+    position: static;
+    order: -1;
   }
 
   .hero-search {

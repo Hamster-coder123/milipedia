@@ -46,6 +46,15 @@ function splitValues(value) {
     .filter(Boolean);
 }
 
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
 function setOptions(select, values, label) {
   select.innerHTML = `<option value="">${label}</option>`;
   values.forEach((value) => {
@@ -135,14 +144,63 @@ function infoRows(item) {
     ["Era", item.era],
     ["First flight", item.first_flight],
     ["Introduction", item.introduction_date],
+    ["Retirement", item.retirement_date || "Not retired / varies by operator"],
     ["Status", item.status],
+    ["Number built", item.number_built],
     ["Crew", item.crew],
     ["Engine type", item.engine_type],
+    ["Engines", item.engines],
     ["Max speed category", item.max_speed],
+    ["Range", item.range],
+    ["Combat range", item.combat_range],
+    ["Service ceiling", item.service_ceiling],
     ["Carrier capable", item.carrier_capable ? "Yes" : "No"],
     ["Stealth", item.stealth ? "Yes" : "No"],
     ["Armament", item.armament]
   ];
+}
+
+function renderRefLinks(refs = []) {
+  return refs
+    .map((ref) => {
+      const index = state.currentFootnoteMap?.get(ref);
+      if (!index) return "";
+      return `<sup class="ref"><a href="#ref-${escapeHtml(ref)}">[${index}]</a></sup>`;
+    })
+    .join("");
+}
+
+function renderArticleSections(item) {
+  state.currentFootnoteMap = new Map((item.footnotes || item.sources || []).map((source, index) => [source.id || `source-${index + 1}`, index + 1]));
+
+  return (item.article_sections || [])
+    .map((section) => {
+      const paragraphs = section.paragraphs
+        .map((paragraph) => `<p>${escapeHtml(paragraph.text)}${renderRefLinks(paragraph.refs)}</p>`)
+        .join("");
+      return `
+        <section class="article-section" id="${escapeHtml(section.id)}">
+          <h3>${escapeHtml(section.title)}</h3>
+          ${paragraphs}
+        </section>
+      `;
+    })
+    .join("");
+}
+
+function renderFootnotes(item) {
+  const footnotes = item.footnotes || item.sources || [];
+  return footnotes
+    .map((source, index) => {
+      const id = source.id || `source-${index + 1}`;
+      return `
+        <li id="ref-${escapeHtml(id)}">
+          <a href="${escapeHtml(source.url)}">${escapeHtml(source.title)}</a>
+          <span>${escapeHtml(source.publisher || "Source")}. ${escapeHtml(source.note || "")}</span>
+        </li>
+      `;
+    })
+    .join("");
 }
 
 function renderDetail(id) {
@@ -153,37 +211,56 @@ function renderDetail(id) {
   }
 
   const sourceLinks = item.sources
-    .map((source) => `<a class="button secondary" href="${source.url}">${source.title}</a>`)
+    .map((source) => `<a class="button secondary" href="${escapeHtml(source.url)}">${escapeHtml(source.title)}</a>`)
     .join("");
 
   const tableRows = infoRows(item)
-    .map(([key, value]) => `<tr><th>${key}</th><td>${value || "Unknown"}</td></tr>`)
+    .map(([key, value]) => `<tr><th>${escapeHtml(key)}</th><td>${escapeHtml(value || "Unknown")}</td></tr>`)
     .join("");
 
   const image = item.images?.[0]?.url
-    ? `style="background-image: linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0.44)), url('${item.images[0].url}')"`
+    ? `style="background-image: linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0.44)), url('${escapeHtml(item.images[0].url)}')"`
     : "";
 
+  state.currentFootnoteMap = new Map((item.footnotes || item.sources || []).map((source, index) => [source.id || `source-${index + 1}`, index + 1]));
+
+  const toc = (item.article_sections || [])
+    .map((section) => `<a href="#${escapeHtml(section.id)}">${escapeHtml(section.title)}</a>`)
+    .join("");
+
   els.detailContent.innerHTML = `
-    <div class="detail-shell">
-      <article class="detail-hero">
-        <div class="detail-image" ${image}></div>
-        <div class="detail-copy">
+    <div class="wiki-layout">
+      <article class="wiki-article">
+        <div class="article-lead">
           <div class="pill-row">
-            <span class="data-pill">${item.aircraft_type}</span>
-            <span class="data-pill">${item.status}</span>
-            <span class="data-pill">${item.era}</span>
+            <span class="data-pill">${escapeHtml(item.aircraft_type)}</span>
+            <span class="data-pill">${escapeHtml(item.status)}</span>
+            <span class="data-pill">${escapeHtml(item.era)}</span>
           </div>
-          <h2>${item.name}</h2>
-          <p>${item.short_summary}</p>
+          <h2>${escapeHtml(item.name)}</h2>
+          <p>${escapeHtml(item.short_summary)}${renderRefLinks(["fn-main"])}</p>
           <div class="detail-actions">
             <a class="button primary" href="#database">Back to Database</a>
-            <a class="button secondary" href="#compare" data-compare-id="${item.id}">Compare this aircraft</a>
+            <a class="button secondary" href="#compare" data-compare-id="${escapeHtml(item.id)}">Compare this aircraft</a>
           </div>
         </div>
+
+        <nav class="toc" aria-label="Article contents">
+          <strong>Contents</strong>
+          ${toc}
+        </nav>
+
+        ${renderArticleSections(item)}
+
+        <section class="article-section references-section" id="references">
+          <h3>References</h3>
+          <ol class="references">${renderFootnotes(item)}</ol>
+        </section>
       </article>
-      <aside class="detail-panel">
-        <h3>Aircraft Data</h3>
+
+      <aside class="infobox">
+        <div class="detail-image" ${image}></div>
+        <h3>${escapeHtml(item.name)}</h3>
         <table class="info-table">${tableRows}</table>
         <h3>Sources</h3>
         <div class="detail-actions">${sourceLinks}</div>
