@@ -1,5 +1,14 @@
-<div class="wiki-layout template-layout">
+<div class="wiki-layout template-layout f16-layout">
   <style>
+    .f16-layout {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .f16-layout .wiki-article {
+      width: min(1120px, 100%);
+      margin: 0 auto;
+    }
+
     .f16-article .inline-flag {
       display: inline-block;
       width: 28px;
@@ -46,6 +55,73 @@
     .f16-article .history-entry h3 {
       margin-top: 18px;
     }
+
+    .f16-top-overview {
+      display: grid;
+      grid-template-columns: minmax(260px, 0.78fr) minmax(0, 1.22fr);
+      gap: 18px;
+      margin-top: 26px;
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 16px;
+      background: #050505;
+    }
+
+    .f16-top-overview figure {
+      margin: 0;
+    }
+
+    .f16-top-overview img.overview-image {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 11;
+      object-fit: cover;
+      border-radius: 16px;
+    }
+
+    .f16-top-overview figcaption {
+      margin-top: 10px;
+      color: var(--soft);
+      font-size: 0.88rem;
+      line-height: 1.45;
+    }
+
+    .f16-overview-groups {
+      display: grid;
+      gap: 16px;
+      align-content: start;
+    }
+
+    .f16-overview-group {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+      padding-bottom: 14px;
+    }
+
+    .f16-overview-group:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .f16-overview-group h3 {
+      margin: 0 0 8px;
+      font-size: 1.05rem;
+    }
+
+    .f16-overview-group p {
+      margin: 0 0 6px;
+      font-size: 0.96rem;
+      line-height: 1.55;
+    }
+
+    .f16-overview-group p:last-child {
+      margin-bottom: 0;
+    }
+
+    @media (max-width: 820px) {
+      .f16-top-overview {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
   <article class="wiki-article template-article f16-article">
     <div class="article-lead">
@@ -60,6 +136,55 @@
           <span class="flag-badge" title="Creator country"><img class="inline-flag" src="https://flagcdn.com/w40/us.png" srcset="https://flagcdn.com/w80/us.png 2x" alt="Flag of the United States">United States</span>
         </span>
       </h1>
+
+      <section class="f16-top-overview" aria-labelledby="f16-quick-overview">
+        <figure>
+          <img class="overview-image" src="https://media.defense.gov/2021/Jul/16/2002803983/-1/-1/0/210618-F-ET937-9355.JPG" alt="F-16 Fighting Falcon in flight during RED FLAG-Alaska 21-2">
+          <figcaption>F-16 Fighting Falcon during RED FLAG-Alaska 21-2, 18 June 2021. U.S. Air Force photo by Airman 1st Class Mario Calabro.</figcaption>
+        </figure>
+        <div class="f16-overview-groups">
+          <section class="f16-overview-group">
+            <h3 id="f16-quick-overview">Quick Overview</h3>
+            <p><strong>Aircraft name:</strong> F-16 Fighting Falcon.</p>
+            <p><strong>Full designation:</strong> General Dynamics F-16 Fighting Falcon.</p>
+            <p><strong>Nickname:</strong> Fighting Falcon; Viper.</p>
+            <p><strong>NATO reporting name:</strong> Not applicable.</p>
+          </section>
+          <section class="f16-overview-group">
+            <h3>Role and Origin</h3>
+            <p><strong>Type:</strong> Single-engine supersonic combat aircraft.</p>
+            <p><strong>Role:</strong> Multirole fighter.</p>
+            <p><strong>Generation:</strong> Fourth generation.</p>
+            <p><strong>National origin:</strong> <img class="inline-flag" src="https://flagcdn.com/w40/us.png" srcset="https://flagcdn.com/w80/us.png 2x" alt="Flag of the United States"> United States.</p>
+          </section>
+          <section class="f16-overview-group">
+            <h3>Companies and Designers</h3>
+            <p><strong>Manufacturer:</strong> General Dynamics; Lockheed Martin.</p>
+            <p><strong>Major subcontractors:</strong> Northrop Grumman, Pratt &amp; Whitney, General Electric, and European consortium companies.</p>
+            <p><strong>Designer / design bureau:</strong> General Dynamics design team; Harry Hillaker is associated with the F-16 design origin.</p>
+            <p><strong>Program name:</strong> Lightweight Fighter; Air Combat Fighter.</p>
+          </section>
+          <section class="f16-overview-group">
+            <h3>Dates and Status</h3>
+            <p><strong>First flight:</strong> 20 January 1974, YF-16 flight zero; 2 February 1974 official YF-16 flight.</p>
+            <p><strong>Introduction:</strong> January 1979.</p>
+            <p><strong>Status:</strong> Active.</p>
+            <p><strong>Produced:</strong> 1970s-present production and modernization family.</p>
+          </section>
+          <section class="f16-overview-group">
+            <h3>Production and Users</h3>
+            <p><strong>Number built:</strong> More than 4,600 aircraft worldwide.</p>
+            <p><strong>Primary users:</strong> United States Air Force, Israel, Turkey, Egypt, South Korea, Taiwan, Greece, Poland, United Arab Emirates, and other listed operators.</p>
+            <p><strong>Unit cost:</strong> F-16A/B: $14.6 million; F-16C/D: $18.8 million in fiscal 1998 constant dollars, USAF fact sheet.</p>
+          </section>
+          <section class="f16-overview-group">
+            <h3>Systems and Weapons</h3>
+            <p><strong>Powerplant:</strong> Pratt &amp; Whitney F100 or General Electric F110 afterburning turbofan.</p>
+            <p><strong>Radar:</strong> AN/APG-66, AN/APG-68, or AN/APG-83 AESA depending variant.</p>
+            <p><strong>Main weapons:</strong> M61A1 20 mm cannon, AIM-9, AIM-120, AGM-65, anti-radiation missiles, guided bombs, and conventional bombs.</p>
+          </section>
+        </div>
+      </section>
       <p>The General Dynamics F-16 Fighting Falcon is an American single-engine, supersonic, fourth-generation multirole fighter developed by General Dynamics for the United States Air Force. General Dynamics built the aircraft until the 1990s, and Lockheed Martin became the prime manufacturer after the Lockheed-General Dynamics aircraft business transfer. The F-16 entered operational USAF service with the 388th Tactical Fighter Wing at Hill Air Force Base, Utah, in January 1979.<sup class="ref"><a href="#ref-usaf">[1]</a></sup></p>
       <p>The aircraft was created from the USAF Lightweight Fighter program and then expanded into the Air Combat Fighter procurement. It combined relaxed static stability, fly-by-wire flight controls, a side-mounted control stick, a 30-degree reclined ejection seat, a frameless bubble canopy, and a single afterburning turbofan. Production and modernization created the F-16A/B, F-16C/D, F-16E/F Block 60, and F-16V Block 70/72 families.<sup class="ref"><a href="#ref-nmusaf">[2]</a></sup><sup class="ref"><a href="#ref-lockheed">[3]</a></sup></p>
       <p>F-16s have flown combat missions in Operation Desert Storm, Operation Allied Force, Operation Enduring Freedom, Operation Iraqi Freedom, Operation Inherent Resolve, and multiple national air campaigns by export operators. U.S. Air Force F-16s flew more sorties in Operation Desert Storm than any other aircraft type in the coalition air campaign.<sup class="ref"><a href="#ref-usaf">[1]</a></sup></p>
@@ -67,6 +192,7 @@
         <a class="button primary" href="index.html#database">Back to Database</a>
         <a class="button secondary" href="index.html?compare=f-16-fighting-falcon#compare">Compare this aircraft</a>
       </div>
+
     </div>
 
     <nav class="toc" aria-label="Article contents">
@@ -620,40 +746,4 @@
     </section>
   </article>
 
-  <aside class="infobox template-infobox">
-    <img class="infobox-image" src="https://media.defense.gov/2021/Jul/16/2002803983/-1/-1/0/210618-F-ET937-9355.JPG" alt="F-16 Fighting Falcon in flight">
-    <h3>General Dynamics F-16 Fighting Falcon</h3>
-    <table class="info-table">
-      <tr><th>Aircraft name</th><td>F-16 Fighting Falcon</td></tr>
-      <tr><th>Full designation</th><td>General Dynamics F-16 Fighting Falcon</td></tr>
-      <tr><th>Nickname</th><td>Fighting Falcon; Viper</td></tr>
-      <tr><th>NATO reporting name</th><td>Not applicable</td></tr>
-      <tr><th>Type</th><td>Single-engine supersonic combat aircraft</td></tr>
-      <tr><th>Role</th><td>Multirole fighter</td></tr>
-      <tr><th>Generation</th><td>Fourth generation</td></tr>
-      <tr><th>National origin</th><td>🇺🇸 United States</td></tr>
-      <tr><th>Manufacturer</th><td>General Dynamics; Lockheed Martin</td></tr>
-      <tr><th>Major subcontractors</th><td>Northrop Grumman, Pratt &amp; Whitney, General Electric, European consortium companies</td></tr>
-      <tr><th>Designer / design bureau</th><td>General Dynamics design team; Harry Hillaker associated with F-16 design origin</td></tr>
-      <tr><th>Program name</th><td>Lightweight Fighter; Air Combat Fighter</td></tr>
-      <tr><th>First flight</th><td>20 January 1974, YF-16 flight zero; 2 February 1974 official YF-16 flight</td></tr>
-      <tr><th>Introduction</th><td>January 1979</td></tr>
-      <tr><th>Retired</th><td>Active aircraft; early blocks retired by several operators</td></tr>
-      <tr><th>Status</th><td>Active</td></tr>
-      <tr><th>Primary users</th><td>United States Air Force, Israel, Turkey, Egypt, South Korea, Taiwan, Greece, Poland, United Arab Emirates, and other listed operators</td></tr>
-      <tr><th>Produced</th><td>1970s-present production and modernization family</td></tr>
-      <tr><th>Number built</th><td>More than 4,600 aircraft worldwide</td></tr>
-      <tr><th>Unit cost</th><td>F-16A/B: $14.6 million; F-16C/D: $18.8 million in fiscal 1998 constant dollars, USAF fact sheet</td></tr>
-      <tr><th>Program cost</th><td>Not listed in cited public sources</td></tr>
-      <tr><th>Developed from</th><td>YF-16 Lightweight Fighter prototype</td></tr>
-      <tr><th>Developed into</th><td>F-16C/D, F-16E/F Block 60, F-16V Block 70/72, QF-16</td></tr>
-      <tr><th>Related aircraft</th><td>F-16XL; F/A-18 Hornet through YF-17 competition history</td></tr>
-      <tr><th>Main variants</th><td>F-16A/B, F-16C/D, F-16E/F, F-16I, F-16V, QF-16</td></tr>
-      <tr><th>Powerplant</th><td>Pratt &amp; Whitney F100 or General Electric F110 afterburning turbofan</td></tr>
-      <tr><th>Radar</th><td>AN/APG-66, AN/APG-68, AN/APG-83 AESA depending variant</td></tr>
-      <tr><th>Fire-control system</th><td>Variant-specific radar, mission computer, HUD, and stores-management systems</td></tr>
-      <tr><th>Electronic warfare suite</th><td>Warning systems and modular countermeasure pods; variant-specific internal and podded systems</td></tr>
-      <tr><th>Main weapons</th><td>M61A1 20 mm cannon, AIM-9, AIM-120, AGM-65, anti-radiation missiles, guided bombs, conventional bombs</td></tr>
-    </table>
-  </aside>
 </div>
