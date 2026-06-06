@@ -1,5 +1,5 @@
 const articleRoot = document.querySelector("#aircraft-article");
-const NOT_RECORDED = "Not listed";
+const NOT_LISTED = "Not listed";
 
 function escapeHtml(value) {
   return String(value ?? "")
@@ -23,7 +23,7 @@ function infoRows(item) {
     ["Era", item.era],
     ["First flight", item.first_flight],
     ["Introduction", item.introduction_date],
-    ["Retirement", item.retirement_date || NOT_RECORDED],
+    ["Retirement", item.retirement_date || NOT_LISTED],
     ["Status", item.status],
     ["Number built", item.number_built],
     ["Crew", item.crew],
@@ -110,7 +110,7 @@ function renderFootnotes(item) {
 function renderArticle(item) {
   const footnoteMap = createFootnoteMap(item);
   const tableRows = infoRows(item)
-    .map(([key, value]) => `<tr><th>${escapeHtml(key)}</th><td>${escapeHtml(value || "Unknown")}</td></tr>`)
+    .map(([key, value]) => `<tr><th>${escapeHtml(key)}</th><td>${escapeHtml(value || NOT_LISTED)}</td></tr>`)
     .join("");
   const sourceLinks = item.sources
     .map((source) => `<a class="button secondary" href="${escapeHtml(source.url)}">${escapeHtml(source.title)}</a>`)
@@ -185,6 +185,13 @@ function renderArticle(item) {
   `;
 }
 
+async function renderF16Template() {
+  const response = await fetch("data/f16-template.html");
+  if (!response.ok) throw new Error(`Could not load F-16 article template: ${response.status}`);
+  document.title = "General Dynamics F-16 Fighting Falcon - Milipedia";
+  articleRoot.innerHTML = await response.text();
+}
+
 async function initArticlePage() {
   const id = getAircraftId();
   if (!id) {
@@ -199,6 +206,10 @@ async function initArticlePage() {
     const item = aircraft.find((entry) => entry.id === id);
     if (!item) {
       articleRoot.innerHTML = `<div class="empty-state">Aircraft not found. <a href="index.html#database">Open the database</a>.</div>`;
+      return;
+    }
+    if (id === "f-16-fighting-falcon") {
+      await renderF16Template();
       return;
     }
     renderArticle(item);
