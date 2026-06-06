@@ -489,6 +489,10 @@ dd {
 }
 
 .article-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
   margin: 18px 0 0;
   font-size: clamp(2.5rem, 7vw, 6.5rem);
   font-weight: 700;
@@ -506,10 +510,15 @@ dd {
   line-height: 1.72;
 }
 
+.title-flags,
 .flag-row {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+}
+
+.title-flags {
+  align-items: center;
   margin-top: 16px;
 }
 

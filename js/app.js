@@ -11,7 +11,7 @@ const state = {
     status: ""
   }
 };
-const NOT_RECORDED = "Not recorded in Milipedia dataset";
+const NOT_RECORDED = "Not listed";
 
 const els = {
   heroSearchForm: document.querySelector("#hero-search-form"),

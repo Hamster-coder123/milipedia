@@ -1,5 +1,5 @@
 const articleRoot = document.querySelector("#aircraft-article");
-const NOT_RECORDED = "Not recorded in Milipedia dataset";
+const NOT_RECORDED = "Not listed";
 
 function escapeHtml(value) {
   return String(value ?? "")
@@ -122,9 +122,9 @@ function renderArticle(item) {
     ? `style="background-image: linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0.44)), url('${escapeHtml(item.images[0].url)}')"`
     : "";
   const flags = item.country_flags?.length
-    ? `<div class="flag-row">${item.country_flags
-        .map((flag) => `<span class="flag-badge"><span>${escapeHtml(flag.emoji)}</span>${escapeHtml(flag.label)}</span>`)
-        .join("")}</div>`
+    ? `<span class="title-flags">${item.country_flags
+        .map((flag) => `<span class="flag-badge" title="${escapeHtml(flag.label)}"><span>${escapeHtml(flag.emoji)}</span>${escapeHtml(flag.label)}</span>`)
+        .join("")}</span>`
     : "";
   const eventGallery = item.event_gallery?.length
     ? `<section class="article-section event-gallery-section" id="event-images">
@@ -152,8 +152,7 @@ function renderArticle(item) {
             <span class="data-pill">${escapeHtml(item.status)}</span>
             <span class="data-pill">${escapeHtml(item.era)}</span>
           </div>
-          ${flags}
-          <h1 class="article-title">${escapeHtml(item.name)}</h1>
+          <h1 class="article-title"><span>${escapeHtml(item.name)}</span>${flags}</h1>
           <p>${escapeHtml(item.short_summary)}${renderRefLinks(["fn-main"], footnoteMap)}</p>
           <div class="detail-actions">
             <a class="button primary" href="index.html#database">Back to Database</a>
