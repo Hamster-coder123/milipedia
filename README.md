@@ -4,6 +4,10 @@ Milipedia is a planned Wikipedia-style encyclopedia for military aircraft, cover
 
 This repository contains a working static version of the Milipedia website.
 
+## Live Site
+
+Visit Milipedia at [https://hamster-coder123.github.io/milipedia/](https://hamster-coder123.github.io/milipedia/).
+
 The current build includes:
 
 - 100 post-1945 production military aircraft
