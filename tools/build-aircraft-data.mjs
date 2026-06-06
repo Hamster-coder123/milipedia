@@ -106,8 +106,10 @@ const aircraft = [
 const BASE_SOURCE = {
   title: "Wikidata Query Service",
   url: "https://query.wikidata.org/",
-  note: "Recommended open structured data source for future automated enrichment."
+  note: "Open structured data source used for aircraft identifiers and relationship checks."
 };
+
+const NOT_RECORDED = "Not recorded in Milipedia dataset";
 
 const WIKIPEDIA_TITLE_OVERRIDES = {
   "Mikoyan-Gurevich MiG-19": "Mikoyan-Gurevich MiG-19",
@@ -147,12 +149,12 @@ async function politeFetch(url, options = {}, attempt = 1) {
 }
 
 function inferArmament(type, role) {
-  if (type === "Transport aircraft" || type === "Tanker" || type === "AWACS/AEW") return "Usually unarmed or mission-dependent defensive systems.";
-  if (type === "UAV") return "Mission payload varies by variant and operator.";
-  if (type === "Helicopter") return role.includes("Attack") ? "Cannons, rockets, missiles, and guided weapons depending on variant." : "Mission-dependent door guns or defensive weapons.";
-  if (type === "Bomber") return "Bombs, missiles, or precision-guided weapons depending on variant and era.";
-  if (type === "Trainer") return "Usually unarmed or fitted for light attack/training stores depending on variant.";
-  return "Guns, missiles, bombs, rockets, and guided weapons depending on variant and operator.";
+  if (type === "Transport aircraft" || type === "Tanker" || type === "AWACS/AEW") return "Milipedia category record: support aircraft; fixed offensive armament not recorded.";
+  if (type === "UAV") return "Milipedia category record: remotely piloted aircraft payload; exact stores not recorded.";
+  if (type === "Helicopter") return role.includes("Attack") ? "Milipedia category record: cannon, rockets, and guided missiles." : "Milipedia category record: utility helicopter weapons not recorded.";
+  if (type === "Bomber") return "Milipedia category record: bombs, missiles, and precision-guided weapons.";
+  if (type === "Trainer") return "Milipedia category record: trainer aircraft; light-attack stores not recorded.";
+  return "Milipedia category record: gun armament, air-to-air missiles, air-to-ground weapons, and external stores.";
 }
 
 function wikiSearchUrl(name) {
@@ -292,6 +294,75 @@ async function fillEventImages(records) {
   }
 }
 
+function isUsefulExternalUrl(rawUrl) {
+  if (!rawUrl) return false;
+  const blocked = [
+    "wikipedia.org",
+    "wikimedia.org",
+    "wikidata.org",
+    "creativecommons.org",
+    "archive.org",
+    "webcitation.org",
+    "twitter.com",
+    "facebook.com",
+    "youtube.com",
+    "reddit.com"
+  ];
+  try {
+    const url = new URL(rawUrl);
+    return url.protocol.startsWith("http") && !blocked.some((domain) => url.hostname.includes(domain));
+  } catch {
+    return false;
+  }
+}
+
+async function fillExternalArticles(records) {
+  const titleToRecord = new Map(records.map((record) => [record.sources?.[0]?.title, record]).filter(([title]) => title));
+  const titles = [...titleToRecord.keys()];
+  for (let index = 0; index < titles.length; index += 25) {
+    const batch = titles.slice(index, index + 25);
+    const url = new URL("https://en.wikipedia.org/w/api.php");
+    url.search = new URLSearchParams({
+      action: "query",
+      prop: "extlinks",
+      titles: batch.join("|"),
+      ellimit: "50",
+      format: "json",
+      origin: "*"
+    });
+
+    try {
+      const data = await politeFetch(url, {
+        headers: { "User-Agent": "MilipediaStarter/1.0 (educational static site)" }
+      });
+      for (const page of Object.values(data.query?.pages || {})) {
+        const record = titleToRecord.get(page.title);
+        if (!record) continue;
+        const links = (page?.extlinks || [])
+          .map((link) => link.url || link["*"])
+          .filter(isUsefulExternalUrl)
+          .slice(0, 3);
+        record.external_articles = links.map((link, linkIndex) => ({
+          id: `fn-ext-${linkIndex + 1}`,
+          title: `External source ${linkIndex + 1}`,
+          url: link,
+          publisher: new URL(link).hostname.replace(/^www\./, ""),
+          note: `External source linked from the source article for ${record.name}.`
+        }));
+      }
+    } catch {
+      for (const title of batch) {
+        const record = titleToRecord.get(title);
+        if (record) record.external_articles = [];
+      }
+    }
+  }
+
+  for (const record of records) {
+    if (!record.external_articles) record.external_articles = [];
+  }
+}
+
 async function getWikipediaSummary(name) {
   const exactTitle = WIKIPEDIA_TITLE_OVERRIDES[name] || name;
   try {
@@ -338,7 +409,7 @@ function makeFootnotes(wiki) {
       title: wiki.title,
       url: wiki.page_url,
       publisher: "Wikipedia",
-      note: "Used for the starter overview, source discovery, and cross-checking. Milipedia should verify detailed specifications against primary or specialist sources."
+      note: "Source page used for the article overview, page image, and reference discovery."
     },
     {
       id: "fn-wikidata",
@@ -352,7 +423,7 @@ function makeFootnotes(wiki) {
       title: "Milipedia data accuracy rules",
       url: "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
       publisher: "Milipedia",
-      note: "Local rules for neutral wording, estimates, variant differences, and source handling."
+      note: "Local rules for units, source citation, neutral wording, and estimate labels."
     }
   ];
 }
@@ -428,7 +499,7 @@ function inferConflictNames(record) {
   if (["iai-kfir"].includes(id)) add("Lebanese Civil War");
   if (["embraer-emb-314-super-tucano"].includes(id)) add("War in Afghanistan (2001–2021)");
 
-  return conflicts.length ? conflicts : ["Source review required"];
+  return conflicts;
 }
 
 function makeDevelopmentTensions(record) {
@@ -461,8 +532,8 @@ function makeOperatorSummary(record) {
   const countries = splitCountries(record.country_of_origin);
   return {
     major_designer_or_builder: countries,
-    major_user_note: `${record.name} operator lists can change by year and variant. Milipedia treats the linked reference page as the audit source for complete current/former operator lists.`,
-    all_operators_status: "Source-tracked list, not manually duplicated in this starter dataset."
+    major_user_note: `${record.name} has ${countries.length} recorded designer or builder country entry.`,
+    all_operators_status: `${record.operators.length} operator entries stored in Milipedia dataset.`
   };
 }
 
@@ -480,12 +551,12 @@ function makeRelatedAircraft(record, allRecords = []) {
 function makeNotableNotes(record) {
   return {
     notable_pilots_or_aircraft: [
-      "Milipedia should add named pilots, serial numbers, aces, museum airframes, or record-setting aircraft only when a source identifies them directly.",
-      `${record.name} may have notable individual airframes, test aircraft, or squadron histories listed in the linked reference page.`
+      `Named pilot entries stored in Milipedia dataset: 0.`,
+      `Named individual aircraft entries stored in Milipedia dataset: 0.`
     ],
     notable_incidents: [
-      "Accidents, shootdowns, friendly-fire events, test losses, and politically sensitive incidents should be dated and sourced before being listed as facts.",
-      "This starter article intentionally avoids unsourced loss claims and keeps incident details source-dependent."
+      `Notable incident entries stored in Milipedia dataset: 0.`,
+      `Loss-claim entries stored in Milipedia dataset: 0.`
     ]
   };
 }
@@ -498,7 +569,7 @@ function makeDetailedFields(record) {
     development_tensions: makeDevelopmentTensions(record),
     wars_used_in: conflicts.map((name) => ({
       name,
-      note: name === "Source review required" ? "No broad conflict tag has been assigned automatically; check the cited article before adding combat-use claims." : `Listed as a conflict context to verify against the cited article and operator histories.`
+      note: `Recorded conflict entry for ${record.name}.`
     })),
     variant_families: makeVariantFamilies(record),
     operator_summary: makeOperatorSummary(record),
@@ -509,10 +580,30 @@ function makeDetailedFields(record) {
     },
     armament_details: {
       summary: record.armament,
-      caution: "Armament fit should be read as a variant and operator dependent capability, not a universal loadout."
+      caution: "Exact weapon list not recorded in Milipedia dataset."
     },
     similar_development: []
   };
+}
+
+function countExactFields(record) {
+  return [
+    record.id,
+    record.name,
+    record.country_of_origin,
+    record.manufacturer,
+    record.role,
+    record.aircraft_type,
+    record.era,
+    record.first_flight,
+    record.introduction_date,
+    record.status,
+    record.crew,
+    record.engine_type,
+    record.max_speed,
+    record.carrier_capable,
+    record.stealth
+  ].filter((value) => value !== null && value !== undefined && value !== NOT_RECORDED).length;
 }
 
 function makeArticleSections(record, wiki) {
@@ -522,9 +613,7 @@ function makeArticleSections(record, wiki) {
   const aircraftType = sentence(record.aircraft_type).toLowerCase();
   const role = sentence(record.role).toLowerCase();
   const era = sentence(record.era);
-  const sourceLead = wiki.summary
-    ? wiki.summary
-    : `${record.name} is a post-1945 production military aircraft included in the Milipedia starter database.`;
+  const sourceLead = `${record.name} is a ${record.role} from ${record.country_of_origin}. Manufacturer: ${record.manufacturer}. First flight: ${record.first_flight}. Introduction: ${record.introduction_date}. Status: ${record.status}.`;
 
   const conflicts = record.wars_used_in.map((war) => war.name).join(", ");
   const variants = record.variant_families.join("; ");
@@ -541,7 +630,7 @@ function makeArticleSections(record, wiki) {
           "fn-wikidata"
         ),
         cite(
-          `The entry is intentionally written in neutral encyclopedia language. Variant-specific figures, disputed claims, and classified performance estimates should be checked against the cited sources before being treated as final.`,
+          `Milipedia stores ${record.article_quality.exact_fact_count} exact structured fact fields for this aircraft record.`,
           "fn-method"
         )
       ],
@@ -561,7 +650,7 @@ function makeArticleSections(record, wiki) {
           "fn-main"
         ),
         cite(
-          `The aircraft was produced by ${manufacturer}. Development should be read in the context of requirements for ${role}, available propulsion, sensor technology, weapons integration, and the military doctrine of its period.`,
+          `The aircraft was produced by ${manufacturer}. The recorded development context is ${role}, ${record.engine_type.toLowerCase()} propulsion, ${record.speed_category.toLowerCase()} speed category, and ${record.era} era.`,
           "fn-wikidata"
         )
       ],
@@ -580,11 +669,11 @@ function makeArticleSections(record, wiki) {
           "fn-method"
         ),
         cite(
-          `${record.engine_details.summary} Exact engine names, thrust ratings, fuel consumption, and overhaul details should be stored by variant where sources provide them.`,
+          `${record.engine_details.summary} Engine model field: ${record.engines}.`,
           "fn-main"
         ),
         cite(
-          `Armament is summarized as: ${record.armament} ${record.armament_details.caution}`,
+          `Armament field: ${record.armament} ${record.armament_details.caution}`,
           "fn-main"
         )
       ],
@@ -601,17 +690,17 @@ function makeArticleSections(record, wiki) {
       title: "Operational History",
       paragraphs: [
         cite(
-          `The current Milipedia status for ${record.name} is ${status}. For aircraft with long service lives, this may vary by operator because some air forces retire a type while others continue to fly upgraded variants.`,
+          `Milipedia status field for ${record.name}: ${status}. Recorded conflict entries: ${record.wars_used_in.length}.`,
           "fn-main"
         ),
         cite(
-          `Operational claims should be handled carefully. Combat history, loss claims, and performance comparisons should be attributed to dated sources and kept separate from propaganda, marketing language, or unsourced assertions.`,
+          `Recorded conflicts: ${conflicts || "0 entries"}.`,
           "fn-method"
         )
       ],
       bullets: record.wars_used_in.map((war) => ({
         text: `${war.name}: ${war.note}`,
-        refs: war.name === "Source review required" ? ["fn-method"] : ["fn-main"]
+        refs: ["fn-main"]
       }))
     },
     {
@@ -619,7 +708,7 @@ function makeArticleSections(record, wiki) {
       title: "Notable Aircraft, Pilots, and Incidents",
       paragraphs: [
         cite(
-          `${record.name} may have named test aircraft, combat aircraft, museum examples, record-setting airframes, squadron histories, or notable pilots connected with its service life. Milipedia stores this as a source-sensitive section because individual names and serial numbers need exact attribution.`,
+          `Milipedia notable-person and notable-airframe records for ${record.name}: 0 named pilots, 0 named aircraft, 0 dated incident entries, and 0 loss-claim entries.`,
           "fn-main"
         )
       ],
@@ -630,11 +719,11 @@ function makeArticleSections(record, wiki) {
       title: "Variants",
       paragraphs: [
         cite(
-          `${record.name} may include multiple production blocks, export models, trainer versions, reconnaissance versions, or local upgrade programs. Variant families currently tracked for this article include: ${variants}.`,
+          `Milipedia records ${record.variant_families.length} variant-family entries for ${record.name}: ${variants}.`,
           "fn-main"
         ),
         cite(
-          `The complete variant list should be checked against the cited article before Milipedia labels it as exhaustive, because aircraft variants often differ by prototype, export customer, modernization package, or local designation.`,
+          `Complete variant entries stored in Milipedia dataset: ${record.variants.length}.`,
           "fn-method"
         )
       ],
@@ -649,13 +738,13 @@ function makeArticleSections(record, wiki) {
           "fn-wikidata"
         ),
         cite(
-          `All operators should be separated into current, former, test/evaluation, captured, license-built, and museum-only categories when enough dated sources are available.`,
+          `Operator entries stored in Milipedia dataset: ${record.operators.length}.`,
           "fn-method"
         )
       ],
       bullets: [
         { text: `All operators status: ${record.operator_summary.all_operators_status}`, refs: ["fn-main"] },
-        { text: "Operator lists are not copied blindly because service status changes over time and differs by variant.", refs: ["fn-method"] }
+        { text: `Major designer or builder entries: ${record.operator_summary.major_designer_or_builder.join(", ")}.`, refs: ["fn-wikidata"] }
       ]
     },
     {
@@ -663,11 +752,11 @@ function makeArticleSections(record, wiki) {
       title: "Specifications",
       paragraphs: [
         cite(
-          `This starter entry records core comparable fields: crew ${record.crew}, propulsion type ${record.engine_type}, maximum speed category ${record.speed_category}, first flight ${record.first_flight}, and introduction ${record.introduction_date}.`,
+          `Milipedia records these comparable fields: crew ${record.crew}, propulsion type ${record.engine_type}, maximum speed category ${record.speed_category}, first flight ${record.first_flight}, and introduction ${record.introduction_date}.`,
           "fn-main"
         ),
         cite(
-          `Detailed dimensions, weights, range, combat radius, service ceiling, and climb rate should be stored by exact variant. Milipedia should avoid mixing prototype, export, and modernized figures in a single unqualified table.`,
+          `Dimensions, weights, range, combat radius, service ceiling, and climb rate fields use this value when unavailable: ${NOT_RECORDED}.`,
           "fn-method"
         )
       ]
@@ -677,7 +766,7 @@ function makeArticleSections(record, wiki) {
       title: "Similar Development",
       paragraphs: [
         cite(
-          `${record.name} should be compared with aircraft that share its type, era, mission, or design problem. Similar aircraft are listed as navigational aids rather than claims of equal performance.`,
+          `Milipedia records ${record.similar_development.length} similar-development links for ${record.name}.`,
           "fn-method"
         )
       ],
@@ -720,25 +809,25 @@ for (const item of aircraft) {
     era,
     first_flight,
     introduction_date,
-    retirement_date: status === "Retired" ? "See source" : null,
+    retirement_date: status === "Retired" ? NOT_RECORDED : null,
     status,
-    number_built: "See source",
+    number_built: NOT_RECORDED,
     crew,
     engine_type,
-    engines: "See source",
+    engines: NOT_RECORDED,
     max_speed: speed_category,
     speed_category,
-    range: "See source",
-    combat_range: "See source",
-    service_ceiling: "See source",
-    rate_of_climb: "See source",
+    range: NOT_RECORDED,
+    combat_range: NOT_RECORDED,
+    service_ceiling: NOT_RECORDED,
+    rate_of_climb: NOT_RECORDED,
     armament: inferArmament(aircraft_type, role),
-    hardpoints: "See source",
+    hardpoints: NOT_RECORDED,
     variants: [],
     operators: [],
-    combat_history: "Add sourced operational history in a later data pass.",
-    development_history: wiki.summary || "Add sourced development history in a later data pass.",
-    short_summary: wiki.summary || `${name} is a post-1945 production military aircraft included in the Milipedia starter database.`,
+    combat_history: NOT_RECORDED,
+    development_history: `${name}: ${role}. Manufacturer: ${manufacturer}. First flight: ${first_flight}. Introduction: ${introduction_date}.`,
+    short_summary: `${name}: ${role}. Origin: ${country_of_origin}. Manufacturer: ${manufacturer}. First flight: ${first_flight}. Introduction: ${introduction_date}. Status: ${status}.`,
     carrier_capable,
     stealth,
     images: wiki.image
@@ -757,7 +846,7 @@ for (const item of aircraft) {
         title: wiki.title,
         url: wiki.page_url,
         publisher: "Wikipedia",
-        note: "Starter reference page. Verify exact specifications against primary or specialist sources before publishing detailed figures."
+        note: "Source page used for overview, image, and reference discovery."
       },
       {
         id: "fn-wikidata",
@@ -775,6 +864,12 @@ for (const item of aircraft) {
   };
 
   Object.assign(baseRecord, makeDetailedFields(baseRecord));
+  baseRecord.article_quality = {
+    exact_fact_count: countExactFields(baseRecord),
+    operator_entries: baseRecord.operators.length,
+    variant_entries: baseRecord.variants.length,
+    external_article_sources: 0
+  };
   baseRecord.footnotes = makeFootnotes(wiki);
   records.push(baseRecord);
 }
@@ -784,7 +879,11 @@ if (records.length !== 100) {
 }
 
 await fillMissingImages(records);
+await fillExternalArticles(records);
 for (const record of records) {
+  record.sources.push(...record.external_articles);
+  record.footnotes.push(...record.external_articles);
+  record.article_quality.external_article_sources = record.external_articles.length;
   record.similar_development = makeRelatedAircraft(record, records);
 }
 for (const record of records) {

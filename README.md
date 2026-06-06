@@ -2,7 +2,7 @@
 
 Milipedia is a planned Wikipedia-style encyclopedia for military aircraft, covering fighters, bombers, transports, tankers, AWACS aircraft, reconnaissance aircraft, helicopters, UAVs, trainers, experimental aircraft, prototypes, retired aircraft, and cancelled aircraft.
 
-This repository contains a working static starter version of the Milipedia website.
+This repository contains a working static version of the Milipedia website.
 
 The current build includes:
 

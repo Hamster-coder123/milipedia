@@ -1,4 +1,5 @@
 const articleRoot = document.querySelector("#aircraft-article");
+const NOT_RECORDED = "Not recorded in Milipedia dataset";
 
 function escapeHtml(value) {
   return String(value ?? "")
@@ -22,7 +23,7 @@ function infoRows(item) {
     ["Era", item.era],
     ["First flight", item.first_flight],
     ["Introduction", item.introduction_date],
-    ["Retirement", item.retirement_date || "Not retired / varies by operator"],
+    ["Retirement", item.retirement_date || NOT_RECORDED],
     ["Status", item.status],
     ["Number built", item.number_built],
     ["Crew", item.crew],

@@ -11,6 +11,7 @@ const state = {
     status: ""
   }
 };
+const NOT_RECORDED = "Not recorded in Milipedia dataset";
 
 const els = {
   heroSearchForm: document.querySelector("#hero-search-form"),
@@ -169,7 +170,7 @@ function infoRows(item) {
     ["Era", item.era],
     ["First flight", item.first_flight],
     ["Introduction", item.introduction_date],
-    ["Retirement", item.retirement_date || "Not retired / varies by operator"],
+    ["Retirement", item.retirement_date || NOT_RECORDED],
     ["Status", item.status],
     ["Number built", item.number_built],
     ["Crew", item.crew],
