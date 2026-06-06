@@ -58,10 +58,33 @@ function renderArticleSections(item, footnoteMap) {
       const paragraphs = section.paragraphs
         .map((paragraph) => `<p>${escapeHtml(paragraph.text)}${renderRefLinks(paragraph.refs, footnoteMap)}</p>`)
         .join("");
+      const bullets = section.bullets?.length
+        ? `<ul class="article-list">${section.bullets.map((bullet) => `<li>${escapeHtml(bullet.text || bullet)}${renderRefLinks(bullet.refs, footnoteMap)}</li>`).join("")}</ul>`
+        : "";
+      const cards = section.cards?.length
+        ? `<div class="fact-card-grid">${section.cards
+            .map(
+              (card) => `
+                <article class="fact-card">
+                  <strong>${escapeHtml(card.title)}</strong>
+                  <span>${escapeHtml(card.text)}</span>
+                </article>
+              `
+            )
+            .join("")}</div>`
+        : "";
+      const links = section.links?.length
+        ? `<div class="related-links">${section.links
+            .map((link) => `<a href="${escapeHtml(link.url)}">${escapeHtml(link.label)}</a>`)
+            .join("")}</div>`
+        : "";
       return `
         <section class="article-section" id="${escapeHtml(section.id)}">
           <h3>${escapeHtml(section.title)}</h3>
           ${paragraphs}
+          ${bullets}
+          ${cards}
+          ${links}
         </section>
       `;
     })
@@ -97,6 +120,26 @@ function renderArticle(item) {
   const image = item.images?.[0]?.url
     ? `style="background-image: linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0.44)), url('${escapeHtml(item.images[0].url)}')"`
     : "";
+  const flags = item.country_flags?.length
+    ? `<div class="flag-row">${item.country_flags
+        .map((flag) => `<span class="flag-badge"><span>${escapeHtml(flag.emoji)}</span>${escapeHtml(flag.label)}</span>`)
+        .join("")}</div>`
+    : "";
+  const eventGallery = item.event_gallery?.length
+    ? `<section class="article-section event-gallery-section" id="event-images">
+        <h3>Images from Related Events</h3>
+        <div class="event-gallery">${item.event_gallery
+          .map(
+            (imageItem) => `
+              <figure>
+                <img src="${escapeHtml(imageItem.url)}" alt="${escapeHtml(imageItem.caption)}" loading="lazy">
+                <figcaption>${escapeHtml(imageItem.caption)}<br><a href="${escapeHtml(imageItem.source_url)}">Source event page</a></figcaption>
+              </figure>
+            `
+          )
+          .join("")}</div>
+      </section>`
+    : "";
 
   document.title = `${item.name} - Milipedia`;
   articleRoot.innerHTML = `
@@ -108,6 +151,7 @@ function renderArticle(item) {
             <span class="data-pill">${escapeHtml(item.status)}</span>
             <span class="data-pill">${escapeHtml(item.era)}</span>
           </div>
+          ${flags}
           <h1 class="article-title">${escapeHtml(item.name)}</h1>
           <p>${escapeHtml(item.short_summary)}${renderRefLinks(["fn-main"], footnoteMap)}</p>
           <div class="detail-actions">
@@ -122,6 +166,7 @@ function renderArticle(item) {
         </nav>
 
         ${renderArticleSections(item, footnoteMap)}
+        ${eventGallery}
 
         <section class="article-section references-section" id="references">
           <h3>References</h3>
