@@ -3,688 +3,160 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Milipedia Project Plan</title>
+    <title>Milipedia</title>
     <meta
       name="description"
-      content="Milipedia is a planned Wikipedia-style encyclopedia for military aircraft."
+      content="Milipedia is a modern encyclopedia for post-1945 military aircraft."
     >
-    <style>
-      :root {
-        color-scheme: dark;
-        --black: #000000;
-        --ink: #f5f5f7;
-        --soft: #a1a1a6;
-        --muted: #6e6e73;
-        --panel: #101010;
-        --panel-2: #161617;
-        --line: #2c2c2e;
-        --blue: #2997ff;
-        --green: #30d158;
-      }
-
-      * {
-        box-sizing: border-box;
-      }
-
-      html {
-        scroll-behavior: smooth;
-      }
-
-      body {
-        margin: 0;
-        min-height: 100vh;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-        background: var(--black);
-        color: var(--ink);
-        line-height: 1.45;
-        overflow-x: hidden;
-      }
-
-      a {
-        color: inherit;
-      }
-
-      .nav {
-        position: sticky;
-        top: 0;
-        z-index: 10;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        background: rgba(0, 0, 0, 0.76);
-        backdrop-filter: blur(18px);
-      }
-
-      .nav-inner {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: min(1120px, calc(100% - 32px));
-        min-height: 48px;
-        margin: 0 auto;
-      }
-
-      .brand {
-        font-size: 0.96rem;
-        font-weight: 700;
-        letter-spacing: 0;
-        text-decoration: none;
-      }
-
-      .nav-links {
-        display: flex;
-        align-items: center;
-        gap: 22px;
-        color: var(--soft);
-        font-size: 0.82rem;
-      }
-
-      .nav-links a {
-        text-decoration: none;
-        transition: color 180ms ease;
-      }
-
-      .nav-links a:hover {
-        color: var(--ink);
-      }
-
-      .nav-cta {
-        border-radius: 999px;
-        padding: 5px 12px;
-        color: #fff;
-        background: var(--blue);
-      }
-
-      main {
-        width: 100%;
-      }
-
-      .hero {
-        position: relative;
-        display: grid;
-        min-height: calc(100vh - 48px);
-        padding: 72px 16px 40px;
-        overflow: hidden;
-        place-items: center;
-        text-align: center;
-        isolation: isolate;
-      }
-
-      .hero::before {
-        position: absolute;
-        inset: 9% auto auto 50%;
-        z-index: -1;
-        width: min(900px, 92vw);
-        height: min(420px, 42vh);
-        border: 1px solid rgba(255, 255, 255, 0.11);
-        border-radius: 999px;
-        background:
-          linear-gradient(90deg, transparent 0 18%, rgba(255, 255, 255, 0.16) 18% 20%, transparent 20% 100%),
-          linear-gradient(0deg, transparent 0 48%, rgba(255, 255, 255, 0.18) 48% 51%, transparent 51% 100%),
-          #070707;
-        box-shadow: inset 0 0 0 14px #000, 0 44px 120px rgba(0, 0, 0, 0.88);
-        content: "";
-        opacity: 0.72;
-        transform: translateX(-50%) perspective(900px) rotateX(64deg);
-      }
-
-      .hero-content {
-        width: min(1080px, 100%);
-      }
-
-      .kicker {
-        margin: 0 0 18px;
-        color: var(--soft);
-        font-size: clamp(1.05rem, 2vw, 1.32rem);
-        font-weight: 600;
-        letter-spacing: 0;
-      }
-
-      h1 {
-        margin: 0;
-        font-size: clamp(4.2rem, 16vw, 12.5rem);
-        font-weight: 700;
-        letter-spacing: 0;
-        line-height: 0.86;
-      }
-
-      .hero-subtitle {
-        max-width: 780px;
-        margin: 28px auto 0;
-        color: var(--soft);
-        font-size: clamp(1.32rem, 3vw, 2.3rem);
-        font-weight: 600;
-        letter-spacing: 0;
-        line-height: 1.12;
-      }
-
-      .hero-actions {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 14px;
-        margin-top: 34px;
-      }
-
-      .button {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 46px;
-        border: 1px solid transparent;
-        border-radius: 999px;
-        padding: 0 22px;
-        font-weight: 600;
-        text-decoration: none;
-        transition: transform 180ms ease, background 180ms ease, border-color 180ms ease;
-      }
-
-      .button:hover {
-        transform: translateY(-2px);
-      }
-
-      .button.primary {
-        background: var(--blue);
-        color: #fff;
-      }
-
-      .button.secondary {
-        border-color: rgba(255, 255, 255, 0.24);
-        color: var(--blue);
-        background: #000;
-      }
-
-      .button.secondary:hover {
-        border-color: var(--blue);
-      }
-
-      .scroll-cue {
-        position: absolute;
-        bottom: 24px;
-        left: 50%;
-        width: 2px;
-        height: 42px;
-        border-radius: 999px;
-        background: var(--line);
-        overflow: hidden;
-        transform: translateX(-50%);
-      }
-
-      .scroll-cue::after {
-        display: block;
-        width: 100%;
-        height: 18px;
-        border-radius: inherit;
-        background: var(--ink);
-        content: "";
-        animation: scrollPulse 1.8s ease-in-out infinite;
-      }
-
-      .section {
-        width: min(1120px, calc(100% - 32px));
-        margin: 0 auto;
-        padding: 96px 0;
-      }
-
-      .section-header {
-        max-width: 820px;
-        margin-bottom: 32px;
-      }
-
-      h2 {
-        margin: 0;
-        font-size: clamp(2.35rem, 6vw, 5.5rem);
-        font-weight: 700;
-        letter-spacing: 0;
-        line-height: 0.98;
-      }
-
-      .section-copy {
-        margin: 18px 0 0;
-        color: var(--soft);
-        font-size: clamp(1.08rem, 2vw, 1.38rem);
-        font-weight: 500;
-      }
-
-      .feature-grid {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 14px;
-      }
-
-      .feature-card {
-        min-height: 260px;
-        border: 1px solid var(--line);
-        border-radius: 26px;
-        padding: 22px;
-        background: var(--panel);
-        transition: transform 220ms ease, border-color 220ms ease, background 220ms ease;
-      }
-
-      .feature-card:hover {
-        border-color: rgba(255, 255, 255, 0.34);
-        background: var(--panel-2);
-        transform: translateY(-6px);
-      }
-
-      .feature-card.large {
-        grid-column: span 2;
-      }
-
-      .feature-card strong {
-        display: block;
-        margin-bottom: 10px;
-        font-size: 1.45rem;
-        letter-spacing: 0;
-      }
-
-      .feature-card p {
-        margin: 0;
-        color: var(--soft);
-        font-size: 1rem;
-      }
-
-      .stat {
-        display: flex;
-        min-height: 230px;
-        flex-direction: column;
-        justify-content: flex-end;
-        border-radius: 26px;
-        padding: 24px;
-        background: #f5f5f7;
-        color: #000;
-      }
-
-      .stat-number {
-        font-size: clamp(3rem, 7vw, 6.2rem);
-        font-weight: 700;
-        letter-spacing: 0;
-        line-height: 0.9;
-      }
-
-      .stat-label {
-        margin-top: 12px;
-        color: #1d1d1f;
-        font-size: 1rem;
-        font-weight: 600;
-      }
-
-      .showcase {
-        display: grid;
-        grid-template-columns: 1.12fr 0.88fr;
-        gap: 14px;
-        align-items: stretch;
-      }
-
-      .screen {
-        position: relative;
-        min-height: 540px;
-        border: 1px solid var(--line);
-        border-radius: 34px;
-        padding: 22px;
-        background: #050505;
-        overflow: hidden;
-      }
-
-      .screen::before {
-        position: absolute;
-        inset: 22px;
-        border: 1px solid rgba(255, 255, 255, 0.12);
-        border-radius: 24px;
-        content: "";
-        pointer-events: none;
-      }
-
-      .screen-top {
-        display: flex;
-        position: relative;
-        z-index: 1;
-        justify-content: space-between;
-        color: var(--muted);
-        font-size: 0.78rem;
-        font-weight: 700;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-      }
-
-      .aircraft-mark {
-        position: absolute;
-        right: -70px;
-        bottom: 88px;
-        width: min(560px, 78vw);
-        height: 104px;
-        background: #f5f5f7;
-        clip-path: polygon(0 46%, 52% 46%, 64% 0, 72% 0, 67% 46%, 100% 46%, 100% 55%, 67% 55%, 72% 100%, 64% 100%, 52% 55%, 0 55%);
-        filter: drop-shadow(0 26px 42px rgba(255, 255, 255, 0.16));
-        opacity: 0.94;
-        transform: rotate(-11deg);
-      }
-
-      .radar {
-        position: absolute;
-        left: 48px;
-        bottom: 44px;
-        width: 220px;
-        height: 220px;
-        border: 1px solid rgba(48, 209, 88, 0.42);
-        border-radius: 50%;
-        background:
-          linear-gradient(90deg, transparent 49%, rgba(48, 209, 88, 0.18) 50%, transparent 51%),
-          linear-gradient(0deg, transparent 49%, rgba(48, 209, 88, 0.18) 50%, transparent 51%),
-          #070707;
-      }
-
-      .radar::after {
-        position: absolute;
-        inset: 50% 50% auto auto;
-        width: 50%;
-        height: 1px;
-        background: var(--green);
-        content: "";
-        transform-origin: left center;
-        animation: sweep 4s linear infinite;
-      }
-
-      .spec-panel {
-        display: grid;
-        gap: 14px;
-      }
-
-      .spec-row {
-        display: flex;
-        justify-content: space-between;
-        gap: 18px;
-        border-bottom: 1px solid var(--line);
-        padding: 18px 0;
-      }
-
-      .spec-row span {
-        color: var(--muted);
-      }
-
-      .spec-row b {
-        text-align: right;
-      }
-
-      .pill-row {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        margin-top: 24px;
-      }
-
-      .pill {
-        border: 1px solid var(--line);
-        border-radius: 999px;
-        padding: 8px 13px;
-        color: var(--soft);
-        background: #050505;
-        font-size: 0.92rem;
-      }
-
-      .final-panel {
-        border-radius: 34px;
-        padding: clamp(28px, 6vw, 68px);
-        background: #f5f5f7;
-        color: #000;
-        text-align: center;
-      }
-
-      .final-panel h2 {
-        color: #000;
-      }
-
-      .final-panel p {
-        max-width: 680px;
-        margin: 18px auto 0;
-        color: #424245;
-        font-size: 1.18rem;
-        font-weight: 500;
-      }
-
-      .final-panel .button {
-        margin-top: 28px;
-      }
-
-      .reveal {
-        opacity: 0;
-        transform: translateY(34px);
-        transition: opacity 700ms ease, transform 700ms ease;
-      }
-
-      .reveal.visible {
-        opacity: 1;
-        transform: translateY(0);
-      }
-
-      @keyframes scrollPulse {
-        0% {
-          transform: translateY(-24px);
-          opacity: 0;
-        }
-
-        35% {
-          opacity: 1;
-        }
-
-        100% {
-          transform: translateY(52px);
-          opacity: 0;
-        }
-      }
-
-      @keyframes sweep {
-        to {
-          transform: rotate(360deg);
-        }
-      }
-
-      @media (max-width: 900px) {
-        .nav-links a:not(.nav-cta) {
-          display: none;
-        }
-
-        .feature-grid,
-        .showcase {
-          grid-template-columns: 1fr;
-        }
-
-        .feature-card.large {
-          grid-column: span 1;
-        }
-
-        .screen {
-          min-height: 440px;
-        }
-      }
-
-      @media (max-width: 560px) {
-        .hero {
-          min-height: 760px;
-          padding-top: 56px;
-        }
-
-        .hero-actions {
-          align-items: stretch;
-          flex-direction: column;
-        }
-
-        .button {
-          width: 100%;
-        }
-
-        .section {
-          padding: 68px 0;
-        }
-
-        .feature-card,
-        .stat,
-        .screen,
-        .final-panel {
-          border-radius: 22px;
-        }
-
-        .aircraft-mark {
-          right: -20px;
-          width: min(340px, 88vw);
-        }
-      }
-
-      @media (prefers-reduced-motion: reduce) {
-        *,
-        *::before,
-        *::after {
-          scroll-behavior: auto !important;
-          animation-duration: 1ms !important;
-          animation-iteration-count: 1 !important;
-          transition-duration: 1ms !important;
-        }
-
-        .reveal {
-          opacity: 1;
-          transform: none;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <nav class="nav" aria-label="Primary navigation">
       <div class="nav-inner">
-        <a class="brand" href="#">Milipedia</a>
+        <a class="brand" href="#home">Milipedia</a>
         <div class="nav-links">
-          <a href="#features">Features</a>
-          <a href="#interface">Interface</a>
-          <a href="#mvp">MVP</a>
+          <a href="#database">Database</a>
+          <a href="#compare">Compare</a>
+          <a href="#sources">Sources</a>
           <a class="nav-cta" href="MILIPEDIA_PLAN.md">Plan</a>
         </div>
       </div>
     </nav>
 
     <main>
-      <section class="hero">
+      <section class="hero" id="home">
         <div class="hero-content reveal">
-          <p class="kicker">Military aircraft, organized with precision.</p>
+          <p class="kicker">100 post-1945 production military aircraft.</p>
           <h1>Milipedia</h1>
           <p class="hero-subtitle">
-            A modern encyclopedia plan for fighters, bombers, helicopters, UAVs, prototypes, and retired aircraft.
+            Search, filter, inspect, and compare fighters, bombers, transports, helicopters, UAVs, trainers, and support aircraft.
           </p>
-          <div class="hero-actions">
-            <a class="button primary" href="MILIPEDIA_PLAN.md">Read the Plan</a>
-            <a class="button secondary" href="https://github.com/Hamster-coder123/milipedia">GitHub Repo</a>
+
+          <form class="hero-search" id="hero-search-form">
+            <label class="sr-only" for="hero-search">Search aircraft</label>
+            <input id="hero-search" type="search" placeholder="Search F-16, Rafale, J-20, Apache...">
+            <button type="submit">Search</button>
+          </form>
+
+          <div class="stats" aria-label="Database stats">
+            <div>
+              <strong id="stat-total">100</strong>
+              <span>aircraft</span>
+            </div>
+            <div>
+              <strong id="stat-countries">0</strong>
+              <span>origins</span>
+            </div>
+            <div>
+              <strong id="stat-types">0</strong>
+              <span>types</span>
+            </div>
           </div>
         </div>
-        <div class="scroll-cue" aria-hidden="true"></div>
       </section>
 
-      <section class="section reveal" id="features">
+      <section class="section reveal" id="database">
+        <div class="section-header split">
+          <div>
+            <h2>Aircraft Database</h2>
+            <p class="section-copy">
+              Browse the starter encyclopedia dataset. Every result opens a working detail page with source links.
+            </p>
+          </div>
+          <a class="button secondary" href="#compare">Open Compare</a>
+        </div>
+
+        <div class="toolbar" aria-label="Aircraft search and filters">
+          <input id="search-input" type="search" placeholder="Search by name, country, role, manufacturer...">
+          <select id="type-filter" aria-label="Filter by type">
+            <option value="">All types</option>
+          </select>
+          <select id="country-filter" aria-label="Filter by country">
+            <option value="">All origins</option>
+          </select>
+          <select id="era-filter" aria-label="Filter by era">
+            <option value="">All eras</option>
+          </select>
+          <select id="status-filter" aria-label="Filter by status">
+            <option value="">All statuses</option>
+          </select>
+          <button id="reset-filters" type="button">Reset</button>
+        </div>
+
+        <div class="result-line">
+          <span id="result-count">Loading aircraft...</span>
+          <span>Click any aircraft for details.</span>
+        </div>
+
+        <div class="aircraft-grid" id="aircraft-grid"></div>
+      </section>
+
+      <section class="section detail-section" id="detail" hidden>
+        <div id="detail-content"></div>
+      </section>
+
+      <section class="section reveal" id="compare">
         <div class="section-header">
-          <h2>Built for serious aircraft research.</h2>
+          <h2>Compare Aircraft</h2>
           <p class="section-copy">
-            The first release focuses on a clean reference experience: searchable aircraft data, consistent page templates,
-            transparent citations, and quick comparisons.
+            Select 2 to 4 aircraft and compare their core encyclopedia fields side by side.
           </p>
         </div>
 
-        <div class="feature-grid">
-          <article class="feature-card large">
-            <strong>Aircraft encyclopedia</strong>
-            <p>Standard pages for specifications, operators, combat history, development, variants, images, and sources.</p>
-          </article>
-          <article class="feature-card">
-            <strong>Search</strong>
-            <p>Find aircraft by name, country, manufacturer, role, type, era, NATO reporting name, and operator.</p>
-          </article>
-          <article class="feature-card">
-            <strong>Filters</strong>
-            <p>Narrow the database by type, country, era, status, engine type, speed category, stealth, and crew.</p>
-          </article>
-          <article class="stat">
-            <span class="stat-number">20</span>
-            <span class="stat-label">starter aircraft entries for the MVP.</span>
-          </article>
-          <article class="feature-card large">
-            <strong>Comparison workspace</strong>
-            <p>Compare 2 to 4 aircraft side by side across country, role, first flight, crew, engines, speed, range, armament, and status.</p>
-          </article>
-          <article class="feature-card">
-            <strong>Citations</strong>
-            <p>Every entry should separate confirmed facts from estimates, disputed claims, and variant-specific figures.</p>
-          </article>
+        <div class="compare-picker">
+          <select class="compare-select" aria-label="Comparison aircraft 1"></select>
+          <select class="compare-select" aria-label="Comparison aircraft 2"></select>
+          <select class="compare-select" aria-label="Comparison aircraft 3"></select>
+          <select class="compare-select" aria-label="Comparison aircraft 4"></select>
+        </div>
+
+        <div class="compare-table-wrap">
+          <table class="compare-table" id="compare-table"></table>
         </div>
       </section>
 
-      <section class="section reveal" id="interface">
-        <div class="section-header">
-          <h2>A black technical interface with no clutter.</h2>
-          <p class="section-copy">
-            Solid colors, quiet motion, precise tables, and blueprint-style panels give Milipedia a premium reference feel.
-          </p>
-        </div>
-
-        <div class="showcase">
-          <div class="screen" aria-label="Milipedia aircraft profile concept">
-            <div class="screen-top">
-              <span>Profile</span>
-              <span>F-16 Fighting Falcon</span>
-            </div>
-            <div class="aircraft-mark" aria-hidden="true"></div>
-            <div class="radar" aria-hidden="true"></div>
-          </div>
-
-          <div class="feature-card">
-            <strong>Aircraft profile template</strong>
-            <div class="spec-panel">
-              <div class="spec-row">
-                <span>Role</span>
-                <b>Multirole fighter</b>
-              </div>
-              <div class="spec-row">
-                <span>Origin</span>
-                <b>United States</b>
-              </div>
-              <div class="spec-row">
-                <span>Status</span>
-                <b>Active</b>
-              </div>
-              <div class="spec-row">
-                <span>First flight</span>
-                <b>1974</b>
-              </div>
-            </div>
-            <div class="pill-row" aria-label="Planned filters">
-              <span class="pill">Fighter</span>
-              <span class="pill">Cold War</span>
-              <span class="pill">Modern</span>
-              <span class="pill">Jet</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section reveal" id="mvp">
-        <div class="final-panel">
-          <h2>Plan first. Website next.</h2>
+      <section class="section reveal" id="sources">
+        <div class="source-panel">
+          <h2>Data Sources</h2>
           <p>
-            This deployed preview contains the Milipedia project plan and a visual direction for the future site.
-            The full encyclopedia build comes after the data model, MVP scope, and source rules are locked in.
+            This starter build uses a curated list of 100 post-1945 production aircraft, enriched with Wikipedia summaries
+            and thumbnails where available. Each aircraft also links to Wikidata Query Service as the preferred open
+            structured data source for future automated enrichment.
           </p>
-          <a class="button primary" href="MILIPEDIA_PLAN.md">Open MILIPEDIA_PLAN.md</a>
+          <div class="source-actions">
+            <a class="button primary" href="https://query.wikidata.org/">Wikidata Query Service</a>
+            <a class="button secondary" href="MILIPEDIA_PLAN.md">Project Plan</a>
+          </div>
         </div>
       </section>
     </main>
 
-    <script>
-      const observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              entry.target.classList.add("visible");
-              observer.unobserve(entry.target);
-            }
-          });
-        },
-        { threshold: 0.18 }
-      );
+    <template id="aircraft-card-template">
+      <article class="aircraft-card">
+        <a class="card-link">
+          <div class="thumb"></div>
+          <div class="card-body">
+            <div class="card-topline">
+              <span class="type-pill"></span>
+              <span class="status-pill"></span>
+            </div>
+            <h3></h3>
+            <p></p>
+            <dl>
+              <div>
+                <dt>Origin</dt>
+                <dd class="origin"></dd>
+              </div>
+              <div>
+                <dt>First flight</dt>
+                <dd class="first-flight"></dd>
+              </div>
+            </dl>
+          </div>
+        </a>
+      </article>
+    </template>
 
-      document.querySelectorAll(".reveal").forEach((item) => observer.observe(item));
-    </script>
+    <script src="js/app.js" defer></script>
   </body>
 </html>

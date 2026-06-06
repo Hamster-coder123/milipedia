@@ -1,0 +1,373 @@
+const state = {
+  aircraft: [],
+  filtered: [],
+  search: "",
+  filters: {
+    type: "",
+    country: "",
+    era: "",
+    status: ""
+  }
+};
+
+const els = {
+  heroSearchForm: document.querySelector("#hero-search-form"),
+  heroSearch: document.querySelector("#hero-search"),
+  search: document.querySelector("#search-input"),
+  type: document.querySelector("#type-filter"),
+  country: document.querySelector("#country-filter"),
+  era: document.querySelector("#era-filter"),
+  status: document.querySelector("#status-filter"),
+  reset: document.querySelector("#reset-filters"),
+  grid: document.querySelector("#aircraft-grid"),
+  resultCount: document.querySelector("#result-count"),
+  detailSection: document.querySelector("#detail"),
+  detailContent: document.querySelector("#detail-content"),
+  compareSelects: [...document.querySelectorAll(".compare-select")],
+  compareTable: document.querySelector("#compare-table"),
+  statTotal: document.querySelector("#stat-total"),
+  statCountries: document.querySelector("#stat-countries"),
+  statTypes: document.querySelector("#stat-types"),
+  cardTemplate: document.querySelector("#aircraft-card-template")
+};
+
+function normalize(value) {
+  return String(value || "").toLowerCase();
+}
+
+function unique(values) {
+  return [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b));
+}
+
+function splitValues(value) {
+  return String(value || "")
+    .split("/")
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
+
+function setOptions(select, values, label) {
+  select.innerHTML = `<option value="">${label}</option>`;
+  values.forEach((value) => {
+    const option = document.createElement("option");
+    option.value = value;
+    option.textContent = value;
+    select.append(option);
+  });
+}
+
+function aircraftSearchText(item) {
+  return [
+    item.name,
+    item.alternative_names?.join(" "),
+    item.nato_reporting_name,
+    item.country_of_origin,
+    item.manufacturer,
+    item.role,
+    item.aircraft_type,
+    item.era,
+    item.status,
+    item.engine_type,
+    item.speed_category,
+    item.short_summary
+  ]
+    .map(normalize)
+    .join(" ");
+}
+
+function applyFilters() {
+  const query = normalize(state.search);
+  state.filtered = state.aircraft.filter((item) => {
+    const matchesSearch = !query || aircraftSearchText(item).includes(query);
+    const matchesType = !state.filters.type || item.aircraft_type === state.filters.type;
+    const matchesCountry =
+      !state.filters.country || splitValues(item.country_of_origin).includes(state.filters.country) || item.country_of_origin === state.filters.country;
+    const matchesEra = !state.filters.era || splitValues(item.era).includes(state.filters.era) || item.era === state.filters.era;
+    const matchesStatus = !state.filters.status || item.status === state.filters.status;
+    return matchesSearch && matchesType && matchesCountry && matchesEra && matchesStatus;
+  });
+  renderGrid();
+}
+
+function renderGrid() {
+  els.grid.innerHTML = "";
+  els.resultCount.textContent = `${state.filtered.length} aircraft shown`;
+
+  if (!state.filtered.length) {
+    const empty = document.createElement("div");
+    empty.className = "empty-state";
+    empty.textContent = "No aircraft match the current search and filters.";
+    els.grid.append(empty);
+    return;
+  }
+
+  state.filtered.forEach((item) => {
+    const fragment = els.cardTemplate.content.cloneNode(true);
+    const card = fragment.querySelector(".aircraft-card");
+    const link = fragment.querySelector(".card-link");
+    const thumb = fragment.querySelector(".thumb");
+    const type = fragment.querySelector(".type-pill");
+    const status = fragment.querySelector(".status-pill");
+    const title = fragment.querySelector("h3");
+    const summary = fragment.querySelector("p");
+
+    link.href = `#aircraft/${item.id}`;
+    if (item.images?.[0]?.url) {
+      thumb.style.backgroundImage = `linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0.42)), url("${item.images[0].url}")`;
+    }
+    type.textContent = item.aircraft_type;
+    status.textContent = item.status;
+    title.textContent = item.name;
+    summary.textContent = item.short_summary;
+    fragment.querySelector(".origin").textContent = item.country_of_origin;
+    fragment.querySelector(".first-flight").textContent = item.first_flight;
+    card.dataset.id = item.id;
+    els.grid.append(fragment);
+  });
+}
+
+function infoRows(item) {
+  return [
+    ["Country of origin", item.country_of_origin],
+    ["Manufacturer", item.manufacturer],
+    ["Role", item.role],
+    ["Aircraft type", item.aircraft_type],
+    ["Era", item.era],
+    ["First flight", item.first_flight],
+    ["Introduction", item.introduction_date],
+    ["Status", item.status],
+    ["Crew", item.crew],
+    ["Engine type", item.engine_type],
+    ["Max speed category", item.max_speed],
+    ["Carrier capable", item.carrier_capable ? "Yes" : "No"],
+    ["Stealth", item.stealth ? "Yes" : "No"],
+    ["Armament", item.armament]
+  ];
+}
+
+function renderDetail(id) {
+  const item = state.aircraft.find((aircraft) => aircraft.id === id);
+  if (!item) {
+    els.detailSection.hidden = true;
+    return;
+  }
+
+  const sourceLinks = item.sources
+    .map((source) => `<a class="button secondary" href="${source.url}">${source.title}</a>`)
+    .join("");
+
+  const tableRows = infoRows(item)
+    .map(([key, value]) => `<tr><th>${key}</th><td>${value || "Unknown"}</td></tr>`)
+    .join("");
+
+  const image = item.images?.[0]?.url
+    ? `style="background-image: linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0.44)), url('${item.images[0].url}')"`
+    : "";
+
+  els.detailContent.innerHTML = `
+    <div class="detail-shell">
+      <article class="detail-hero">
+        <div class="detail-image" ${image}></div>
+        <div class="detail-copy">
+          <div class="pill-row">
+            <span class="data-pill">${item.aircraft_type}</span>
+            <span class="data-pill">${item.status}</span>
+            <span class="data-pill">${item.era}</span>
+          </div>
+          <h2>${item.name}</h2>
+          <p>${item.short_summary}</p>
+          <div class="detail-actions">
+            <a class="button primary" href="#database">Back to Database</a>
+            <a class="button secondary" href="#compare" data-compare-id="${item.id}">Compare this aircraft</a>
+          </div>
+        </div>
+      </article>
+      <aside class="detail-panel">
+        <h3>Aircraft Data</h3>
+        <table class="info-table">${tableRows}</table>
+        <h3>Sources</h3>
+        <div class="detail-actions">${sourceLinks}</div>
+      </aside>
+    </div>
+  `;
+  els.detailSection.hidden = false;
+  els.detailSection.scrollIntoView({ behavior: "smooth", block: "start" });
+
+  const compareLink = els.detailContent.querySelector("[data-compare-id]");
+  compareLink?.addEventListener("click", () => {
+    setCompareSelection(item.id);
+  });
+}
+
+function setCompareSelection(id) {
+  const selected = new Set(els.compareSelects.map((select) => select.value).filter(Boolean));
+  if (!selected.has(id)) {
+    const empty = els.compareSelects.find((select) => !select.value);
+    if (empty) empty.value = id;
+    else els.compareSelects[0].value = id;
+  }
+  renderCompare();
+}
+
+function renderCompareOptions() {
+  els.compareSelects.forEach((select, index) => {
+    select.innerHTML = `<option value="">Aircraft ${index + 1}</option>`;
+    state.aircraft.forEach((item) => {
+      const option = document.createElement("option");
+      option.value = item.id;
+      option.textContent = item.name;
+      select.append(option);
+    });
+  });
+
+  const defaults = ["f-16-fighting-falcon", "mig-29", "rafale", "chengdu-j-20"];
+  els.compareSelects.forEach((select, index) => {
+    select.value = defaults[index] || "";
+  });
+}
+
+function renderCompare() {
+  const selectedIds = [...new Set(els.compareSelects.map((select) => select.value).filter(Boolean))];
+  const selected = selectedIds.map((id) => state.aircraft.find((item) => item.id === id)).filter(Boolean);
+
+  if (selected.length < 2) {
+    els.compareTable.innerHTML = `
+      <tbody>
+        <tr><td>Select at least two aircraft to compare.</td></tr>
+      </tbody>
+    `;
+    return;
+  }
+
+  const fields = [
+    ["Country", "country_of_origin"],
+    ["Role", "role"],
+    ["Type", "aircraft_type"],
+    ["Era", "era"],
+    ["First flight", "first_flight"],
+    ["Introduction", "introduction_date"],
+    ["Crew", "crew"],
+    ["Engine type", "engine_type"],
+    ["Max speed", "max_speed"],
+    ["Carrier capable", (item) => (item.carrier_capable ? "Yes" : "No")],
+    ["Stealth", (item) => (item.stealth ? "Yes" : "No")],
+    ["Status", "status"],
+    ["Armament", "armament"]
+  ];
+
+  const header = `<thead><tr><th>Category</th>${selected.map((item) => `<th>${item.name}</th>`).join("")}</tr></thead>`;
+  const body = fields
+    .map(([label, accessor]) => {
+      const cells = selected
+        .map((item) => {
+          const value = typeof accessor === "function" ? accessor(item) : item[accessor];
+          return `<td>${value || "Unknown"}</td>`;
+        })
+        .join("");
+      return `<tr><th>${label}</th>${cells}</tr>`;
+    })
+    .join("");
+
+  els.compareTable.innerHTML = `${header}<tbody>${body}</tbody>`;
+}
+
+function updateRoute() {
+  const hash = window.location.hash;
+  const match = hash.match(/^#aircraft\/(.+)$/);
+  if (match) {
+    renderDetail(match[1]);
+  }
+}
+
+function setupFilters() {
+  setOptions(els.type, unique(state.aircraft.map((item) => item.aircraft_type)), "All types");
+  setOptions(
+    els.country,
+    unique(state.aircraft.flatMap((item) => splitValues(item.country_of_origin))),
+    "All origins"
+  );
+  setOptions(els.era, unique(state.aircraft.flatMap((item) => splitValues(item.era))), "All eras");
+  setOptions(els.status, unique(state.aircraft.map((item) => item.status)), "All statuses");
+}
+
+function setupEvents() {
+  els.heroSearchForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    state.search = els.heroSearch.value.trim();
+    els.search.value = state.search;
+    applyFilters();
+    window.location.hash = "database";
+  });
+
+  els.search.addEventListener("input", () => {
+    state.search = els.search.value.trim();
+    applyFilters();
+  });
+
+  [
+    [els.type, "type"],
+    [els.country, "country"],
+    [els.era, "era"],
+    [els.status, "status"]
+  ].forEach(([select, key]) => {
+    select.addEventListener("change", () => {
+      state.filters[key] = select.value;
+      applyFilters();
+    });
+  });
+
+  els.reset.addEventListener("click", () => {
+    state.search = "";
+    state.filters = { type: "", country: "", era: "", status: "" };
+    els.search.value = "";
+    els.heroSearch.value = "";
+    [els.type, els.country, els.era, els.status].forEach((select) => {
+      select.value = "";
+    });
+    applyFilters();
+  });
+
+  els.compareSelects.forEach((select) => select.addEventListener("change", renderCompare));
+  window.addEventListener("hashchange", updateRoute);
+}
+
+function setupRevealAnimations() {
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.16 }
+  );
+
+  document.querySelectorAll(".reveal").forEach((item) => observer.observe(item));
+}
+
+async function init() {
+  try {
+    const response = await fetch("data/aircraft.json");
+    if (!response.ok) throw new Error(`Could not load data: ${response.status}`);
+    state.aircraft = await response.json();
+    state.filtered = [...state.aircraft];
+    els.statTotal.textContent = state.aircraft.length;
+    els.statCountries.textContent = unique(state.aircraft.flatMap((item) => splitValues(item.country_of_origin))).length;
+    els.statTypes.textContent = unique(state.aircraft.map((item) => item.aircraft_type)).length;
+    setupFilters();
+    setupEvents();
+    renderGrid();
+    renderCompareOptions();
+    renderCompare();
+    updateRoute();
+  } catch (error) {
+    els.resultCount.textContent = "Aircraft data failed to load.";
+    els.grid.innerHTML = `<div class="empty-state">${error.message}</div>`;
+  }
+
+  setupRevealAnimations();
+}
+
+init();
