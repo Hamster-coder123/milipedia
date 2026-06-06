@@ -40,7 +40,7 @@ function infoRows(item) {
 }
 
 function createFootnoteMap(item) {
-  return new Map((item.footnotes || item.sources || []).map((source, index) => [source.id || `source-${index + 1}`, index + 1]));
+  return new Map(usableSources(item).map((source, index) => [source.id || `source-${index + 1}`, index + 1]));
 }
 
 function renderRefLinks(refs = [], footnoteMap) {
@@ -53,14 +53,43 @@ function renderRefLinks(refs = [], footnoteMap) {
     .join("");
 }
 
+function usableSources(item) {
+  return (item.footnotes || item.sources || []).filter((source) => {
+    const id = source.id || "";
+    const publisher = source.publisher || "";
+    const url = source.url || "";
+    return id !== "fn-method" && publisher !== "Milipedia" && !url.startsWith("MILIPEDIA_PLAN");
+  });
+}
+
+function sourceMap(item) {
+  return new Map(usableSources(item).map((source, index) => [source.id || `source-${index + 1}`, index + 1]));
+}
+
+function isUsefulText(text) {
+  const value = String(text || "").trim();
+  if (!value) return false;
+  return ![
+    /^Exact structured fact fields:/i,
+    /^Named pilots listed:/i,
+    /^Named individual aircraft listed:/i,
+    /^Notable incidents listed:/i,
+    /^Loss claims listed:/i,
+    /^0 operator entries listed\./i,
+    /^Exact weapon list:\s*Not listed\.?$/i
+  ].some((pattern) => pattern.test(value));
+}
+
 function renderArticleSections(item, footnoteMap) {
   return (item.article_sections || [])
     .map((section) => {
-      const paragraphs = section.paragraphs
+      const paragraphs = (section.paragraphs || [])
+        .filter((paragraph) => isUsefulText(paragraph.text))
         .map((paragraph) => `<p>${escapeHtml(paragraph.text)}${renderRefLinks(paragraph.refs, footnoteMap)}</p>`)
         .join("");
-      const bullets = section.bullets?.length
-        ? `<ul class="article-list">${section.bullets.map((bullet) => `<li>${escapeHtml(bullet.text || bullet)}${renderRefLinks(bullet.refs, footnoteMap)}</li>`).join("")}</ul>`
+      const usefulBullets = (section.bullets || []).filter((bullet) => isUsefulText(bullet.text || bullet));
+      const bullets = usefulBullets.length
+        ? `<ul class="article-list">${usefulBullets.map((bullet) => `<li>${escapeHtml(bullet.text || bullet)}${renderRefLinks(bullet.refs, footnoteMap)}</li>`).join("")}</ul>`
         : "";
       const cards = section.cards?.length
         ? `<div class="fact-card-grid">${section.cards
@@ -81,7 +110,7 @@ function renderArticleSections(item, footnoteMap) {
         : "";
       return `
         <section class="article-section" id="${escapeHtml(section.id)}">
-          <h3>${escapeHtml(section.title)}</h3>
+          <h2>${escapeHtml(section.title)}</h2>
           ${paragraphs}
           ${bullets}
           ${cards}
@@ -93,7 +122,7 @@ function renderArticleSections(item, footnoteMap) {
 }
 
 function renderFootnotes(item) {
-  const footnotes = item.footnotes || item.sources || [];
+  const footnotes = usableSources(item);
   return footnotes
     .map((source, index) => {
       const id = source.id || `source-${index + 1}`;
@@ -105,6 +134,289 @@ function renderFootnotes(item) {
       `;
     })
     .join("");
+}
+
+function splitCountryNames(value) {
+  return String(value || "")
+    .split("/")
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
+
+function flagCode(country) {
+  const codes = {
+    "United States": "us",
+    Italy: "it"
+  };
+  return codes[country] || "";
+}
+
+function renderFlag(country) {
+  const code = flagCode(country);
+  if (!code) return escapeHtml(country);
+  return `<img class="inline-flag" src="https://flagcdn.com/w40/${code}.png" srcset="https://flagcdn.com/w80/${code}.png 2x" alt="Flag of ${escapeHtml(country)}">`;
+}
+
+function renderFlagBadge(country) {
+  return `<span class="flag-badge" title="${escapeHtml(country)}">${renderFlag(country)}${escapeHtml(country)}</span>`;
+}
+
+function renderTitleFlags(item) {
+  const countries = item.country_flags?.length
+    ? item.country_flags.map((flag) => flag.label).filter(Boolean)
+    : splitCountryNames(item.country_of_origin);
+  const uniqueCountries = [...new Set(countries)];
+  return uniqueCountries.length ? `<span class="title-flags">${uniqueCountries.map(renderFlagBadge).join("")}</span>` : "";
+}
+
+function fieldValue(value) {
+  const text = String(value || "").trim();
+  return text && text !== NOT_LISTED ? text : "";
+}
+
+function renderFact(label, value) {
+  const text = fieldValue(value);
+  return text ? `<p><strong>${escapeHtml(label)}:</strong> ${escapeHtml(text)}.</p>` : "";
+}
+
+function renderTopOverview(item) {
+  const mainImage = item.images?.[0];
+  const countries = splitCountryNames(item.country_of_origin);
+  const countryText = countries.length
+    ? countries.map((country) => `${renderFlag(country)} ${escapeHtml(country)}`).join(" ")
+    : escapeHtml(item.country_of_origin || NOT_LISTED);
+  const variants = (item.variant_families || item.variants || []).slice(0, 5).map((variant) => escapeHtml(variant.name || variant)).join("; ");
+  const similar = (item.similar_development || []).slice(0, 5).map((link) => escapeHtml(link.name || link)).join("; ");
+  return `
+    <section class="f16-top-overview" aria-labelledby="quick-overview">
+      <figure>
+        ${
+          mainImage?.url
+            ? `<img class="overview-image" src="${escapeHtml(mainImage.url)}" alt="${escapeHtml(mainImage.caption || item.name)}">`
+            : ""
+        }
+        ${mainImage?.caption ? `<figcaption>${escapeHtml(mainImage.caption)}${mainImage.credit ? `. ${escapeHtml(mainImage.credit)}` : ""}</figcaption>` : ""}
+      </figure>
+      <div class="f16-overview-groups">
+        <section class="f16-overview-group">
+          <h3 id="quick-overview">Quick Overview</h3>
+          ${renderFact("Aircraft name", item.name)}
+          ${renderFact("Alternative names", item.alternative_names?.join("; "))}
+          ${renderFact("NATO reporting name", item.nato_reporting_name)}
+          ${renderFact("Aircraft type", item.aircraft_type)}
+        </section>
+        <section class="f16-overview-group">
+          <h3>Role and Origin</h3>
+          ${renderFact("Role", item.role)}
+          ${renderFact("Era", item.era)}
+          ${renderFact("Status", item.status)}
+          <p><strong>National origin:</strong> ${countryText}.</p>
+        </section>
+        <section class="f16-overview-group">
+          <h3>Companies and Designers</h3>
+          ${renderFact("Manufacturer", item.manufacturer)}
+          ${renderFact("Designer / design bureau", (item.designers || []).join("; "))}
+          ${renderFact("Development history", item.development_history)}
+        </section>
+        <section class="f16-overview-group">
+          <h3>Dates and Production</h3>
+          ${renderFact("First flight", item.first_flight)}
+          ${renderFact("Introduction", item.introduction_date)}
+          ${renderFact("Retirement", item.retirement_date)}
+          ${renderFact("Number built", item.number_built)}
+        </section>
+        <section class="f16-overview-group">
+          <h3>Systems and Performance</h3>
+          ${renderFact("Crew", item.crew)}
+          ${renderFact("Engines", item.engines || item.engine_details?.summary)}
+          ${renderFact("Max speed", item.max_speed)}
+          ${renderFact("Range", item.range)}
+          ${renderFact("Combat range", item.combat_range)}
+          ${renderFact("Service ceiling", item.service_ceiling)}
+        </section>
+        <section class="f16-overview-group">
+          <h3>Weapons and Related Aircraft</h3>
+          ${renderFact("Armament", item.armament_details?.summary || item.armament)}
+          ${renderFact("Hardpoints", item.hardpoints)}
+          ${renderFact("Main variants", variants)}
+          ${renderFact("Similar development", similar)}
+        </section>
+      </div>
+    </section>
+  `;
+}
+
+function renderTemplateStyles() {
+  return `
+    <style>
+      .f16-layout {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .f16-layout .wiki-article {
+        width: min(1120px, 100%);
+        margin: 0 auto;
+      }
+
+      .f16-article .inline-flag {
+        display: inline-block;
+        width: 28px;
+        height: 19px;
+        object-fit: cover;
+        border: 1px solid rgba(255, 255, 255, 0.22);
+        border-radius: 2px;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.24);
+        vertical-align: -3px;
+      }
+
+      .f16-top-overview {
+        display: grid;
+        grid-template-columns: minmax(260px, 0.78fr) minmax(0, 1.22fr);
+        gap: 18px;
+        margin-top: 26px;
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        padding: 16px;
+        background: #050505;
+      }
+
+      .f16-top-overview figure {
+        margin: 0;
+      }
+
+      .f16-top-overview img.overview-image {
+        display: block;
+        width: 100%;
+        aspect-ratio: 16 / 11;
+        object-fit: cover;
+        border-radius: 16px;
+      }
+
+      .f16-top-overview figcaption {
+        margin-top: 10px;
+        color: var(--soft);
+        font-size: 0.88rem;
+        line-height: 1.45;
+      }
+
+      .f16-overview-groups {
+        display: grid;
+        gap: 16px;
+        align-content: start;
+      }
+
+      .f16-overview-group {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+        padding-bottom: 14px;
+      }
+
+      .f16-overview-group:last-child {
+        border-bottom: 0;
+        padding-bottom: 0;
+      }
+
+      .f16-overview-group h3 {
+        margin: 0 0 8px;
+        font-size: 1.05rem;
+      }
+
+      .f16-overview-group p {
+        margin: 0 0 6px;
+        font-size: 0.96rem;
+        line-height: 1.55;
+      }
+
+      .f16-overview-group p:last-child {
+        margin-bottom: 0;
+      }
+
+      @media (max-width: 820px) {
+        .f16-top-overview {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  `;
+}
+
+function renderGallery(item) {
+  const galleryItems = [
+    ...(item.images || []).map((image) => ({
+      url: image.url,
+      caption: image.caption || item.name,
+      source_url: item.sources?.[0]?.url || image.url,
+      credit: image.credit
+    })),
+    ...(item.event_gallery || [])
+  ].filter((image) => image.url);
+  if (!galleryItems.length) return "";
+  return `
+    <section class="article-section event-gallery-section" id="gallery">
+      <h2>Gallery</h2>
+      <div class="event-gallery">${galleryItems
+        .map(
+          (imageItem) => `
+            <figure>
+              <img src="${escapeHtml(imageItem.url)}" alt="${escapeHtml(imageItem.caption)}" loading="lazy">
+              <figcaption>${escapeHtml(imageItem.caption)}${imageItem.credit ? `. ${escapeHtml(imageItem.credit)}` : ""}<br><a href="${escapeHtml(imageItem.source_url || imageItem.url)}">Source page</a></figcaption>
+            </figure>
+          `
+        )
+        .join("")}</div>
+    </section>
+  `;
+}
+
+function isAmericanAircraft(item) {
+  return splitCountryNames(item.country_of_origin).includes("United States");
+}
+
+function renderAmericanArticle(item) {
+  const footnoteMap = sourceMap(item);
+  const tocSections = [
+    ...(item.article_sections || []).map((section) => ({ id: section.id, title: section.title })),
+    { id: "gallery", title: "Gallery" },
+    { id: "sources", title: "Sources" }
+  ];
+  const toc = tocSections
+    .filter((section) => section.id !== "gallery" || (item.images?.length || item.event_gallery?.length))
+    .map((section) => `<a href="#${escapeHtml(section.id)}">${escapeHtml(section.title)}</a>`)
+    .join("");
+  document.title = `${item.name} - Milipedia`;
+  articleRoot.innerHTML = `
+    <div class="wiki-layout template-layout f16-layout">
+      ${renderTemplateStyles()}
+      <article class="wiki-article template-article f16-article">
+        <div class="article-lead">
+          <div class="pill-row">
+            <span class="data-pill">${escapeHtml(item.aircraft_type)}</span>
+            <span class="data-pill">${escapeHtml(item.status)}</span>
+            <span class="data-pill">${escapeHtml(item.country_of_origin)}</span>
+          </div>
+          <h1 class="article-title"><span>${escapeHtml(item.name)}</span>${renderTitleFlags(item)}</h1>
+          ${renderTopOverview(item)}
+          <p>${escapeHtml(item.short_summary)}${renderRefLinks(["fn-main"], footnoteMap)}</p>
+          <div class="detail-actions">
+            <a class="button primary" href="index.html#database">Back to Database</a>
+            <a class="button secondary" href="index.html?compare=${encodeURIComponent(item.id)}#compare">Compare this aircraft</a>
+          </div>
+        </div>
+
+        <nav class="toc" aria-label="Article contents">
+          <strong>Contents</strong>
+          ${toc}
+        </nav>
+
+        ${renderArticleSections(item, footnoteMap)}
+        ${renderGallery(item)}
+
+        <section class="article-section references-section" id="sources">
+          <h2>Sources</h2>
+          <ol class="references">${renderFootnotes(item)}</ol>
+        </section>
+      </article>
+    </div>
+  `;
 }
 
 function renderArticle(item) {
@@ -210,6 +522,10 @@ async function initArticlePage() {
     }
     if (id === "f-16-fighting-falcon") {
       await renderF16Template();
+      return;
+    }
+    if (isAmericanAircraft(item)) {
+      renderAmericanArticle(item);
       return;
     }
     renderArticle(item);
