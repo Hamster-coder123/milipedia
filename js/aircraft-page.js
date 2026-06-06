@@ -497,10 +497,25 @@ function renderArticle(item) {
   `;
 }
 
-async function renderF16Template() {
-  const response = await fetch("data/f16-template.html");
-  if (!response.ok) throw new Error(`Could not load F-16 article template: ${response.status}`);
-  document.title = "General Dynamics F-16 Fighting Falcon - Milipedia";
+const STATIC_ARTICLE_TEMPLATES = {
+  "f-16-fighting-falcon": {
+    title: "General Dynamics F-16 Fighting Falcon - Milipedia",
+    path: "data/f16-template.html"
+  },
+  "f-4-phantom-ii": {
+    title: "McDonnell Douglas F-4 Phantom II - Milipedia",
+    path: "data/f4-template.html"
+  },
+  "f-15-eagle": {
+    title: "McDonnell Douglas F-15 Eagle - Milipedia",
+    path: "data/f15-template.html"
+  }
+};
+
+async function renderStaticTemplate(template) {
+  const response = await fetch(template.path);
+  if (!response.ok) throw new Error(`Could not load article template: ${response.status}`);
+  document.title = template.title;
   articleRoot.innerHTML = await response.text();
 }
 
@@ -520,8 +535,9 @@ async function initArticlePage() {
       articleRoot.innerHTML = `<div class="empty-state">Aircraft not found. <a href="index.html#database">Open the database</a>.</div>`;
       return;
     }
-    if (id === "f-16-fighting-falcon") {
-      await renderF16Template();
+    const staticTemplate = STATIC_ARTICLE_TEMPLATES[id];
+    if (staticTemplate) {
+      await renderStaticTemplate(staticTemplate);
       return;
     }
     if (isAmericanAircraft(item)) {
