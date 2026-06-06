@@ -13,11 +13,11 @@
   <body>
     <nav class="nav" aria-label="Primary navigation">
       <div class="nav-inner">
-        <a class="brand" href="#home">Milipedia</a>
+        <a class="brand" href="index.html#home">Milipedia</a>
         <div class="nav-links">
-          <a href="#database">Database</a>
-          <a href="#compare">Compare</a>
-          <a href="#sources">Sources</a>
+          <a href="index.html#database">Database</a>
+          <a href="index.html#compare">Compare</a>
+          <a href="index.html#sources">Sources</a>
           <a class="nav-cta" href="MILIPEDIA_PLAN.md">Plan</a>
         </div>
       </div>
@@ -60,7 +60,7 @@
           <div>
             <h2>Aircraft Database</h2>
             <p class="section-copy">
-              Browse the starter encyclopedia dataset. Every result opens a working detail page with source links.
+              Browse the starter encyclopedia dataset. Every result opens a dedicated aircraft article page.
             </p>
           </div>
           <a class="button secondary" href="#compare">Open Compare</a>
@@ -85,14 +85,11 @@
 
         <div class="result-line">
           <span id="result-count">Loading aircraft...</span>
-          <span>Click any aircraft for details.</span>
+          <span>Click any aircraft to open its article page.</span>
         </div>
 
         <div class="aircraft-grid" id="aircraft-grid"></div>
-      </section>
-
-      <section class="section detail-section" id="detail" hidden>
-        <div id="detail-content"></div>
+        <div class="pagination" id="pagination" aria-label="Aircraft database pages"></div>
       </section>
 
       <section class="section reveal" id="compare">

@@ -2,6 +2,8 @@ const state = {
   aircraft: [],
   filtered: [],
   search: "",
+  page: 1,
+  pageSize: 24,
   filters: {
     type: "",
     country: "",
@@ -23,6 +25,7 @@ const els = {
   resultCount: document.querySelector("#result-count"),
   detailSection: document.querySelector("#detail"),
   detailContent: document.querySelector("#detail-content"),
+  pagination: document.querySelector("#pagination"),
   compareSelects: [...document.querySelectorAll(".compare-select")],
   compareTable: document.querySelector("#compare-table"),
   statTotal: document.querySelector("#stat-total"),
@@ -95,22 +98,28 @@ function applyFilters() {
     const matchesStatus = !state.filters.status || item.status === state.filters.status;
     return matchesSearch && matchesType && matchesCountry && matchesEra && matchesStatus;
   });
+  state.page = 1;
   renderGrid();
 }
 
 function renderGrid() {
   els.grid.innerHTML = "";
-  els.resultCount.textContent = `${state.filtered.length} aircraft shown`;
+  const totalPages = Math.max(1, Math.ceil(state.filtered.length / state.pageSize));
+  state.page = Math.min(state.page, totalPages);
+  const start = (state.page - 1) * state.pageSize;
+  const visibleAircraft = state.filtered.slice(start, start + state.pageSize);
+  els.resultCount.textContent = `${state.filtered.length} aircraft found, page ${state.page} of ${totalPages}`;
 
   if (!state.filtered.length) {
     const empty = document.createElement("div");
     empty.className = "empty-state";
     empty.textContent = "No aircraft match the current search and filters.";
     els.grid.append(empty);
+    renderPagination();
     return;
   }
 
-  state.filtered.forEach((item) => {
+  visibleAircraft.forEach((item) => {
     const fragment = els.cardTemplate.content.cloneNode(true);
     const card = fragment.querySelector(".aircraft-card");
     const link = fragment.querySelector(".card-link");
@@ -120,7 +129,7 @@ function renderGrid() {
     const title = fragment.querySelector("h3");
     const summary = fragment.querySelector("p");
 
-    link.href = `#aircraft/${item.id}`;
+    link.href = `aircraft.html?id=${encodeURIComponent(item.id)}`;
     if (item.images?.[0]?.url) {
       thumb.style.backgroundImage = `linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0.42)), url("${item.images[0].url}")`;
     }
@@ -133,6 +142,22 @@ function renderGrid() {
     card.dataset.id = item.id;
     els.grid.append(fragment);
   });
+  renderPagination();
+}
+
+function renderPagination() {
+  if (!els.pagination) return;
+  const totalPages = Math.max(1, Math.ceil(state.filtered.length / state.pageSize));
+  if (totalPages <= 1) {
+    els.pagination.innerHTML = "";
+    return;
+  }
+
+  els.pagination.innerHTML = `
+    <button type="button" data-page="prev" ${state.page === 1 ? "disabled" : ""}>Previous</button>
+    <span>Page ${state.page} of ${totalPages}</span>
+    <button type="button" data-page="next" ${state.page === totalPages ? "disabled" : ""}>Next</button>
+  `;
 }
 
 function infoRows(item) {
@@ -404,8 +429,17 @@ function setupEvents() {
     applyFilters();
   });
 
+  els.pagination?.addEventListener("click", (event) => {
+    const button = event.target.closest("button[data-page]");
+    if (!button) return;
+    const totalPages = Math.max(1, Math.ceil(state.filtered.length / state.pageSize));
+    if (button.dataset.page === "prev") state.page = Math.max(1, state.page - 1);
+    if (button.dataset.page === "next") state.page = Math.min(totalPages, state.page + 1);
+    renderGrid();
+    document.querySelector("#database")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+
   els.compareSelects.forEach((select) => select.addEventListener("change", renderCompare));
-  window.addEventListener("hashchange", updateRoute);
 }
 
 function setupRevealAnimations() {
@@ -437,8 +471,11 @@ async function init() {
     setupEvents();
     renderGrid();
     renderCompareOptions();
+    const compareId = new URLSearchParams(window.location.search).get("compare");
+    if (compareId) {
+      setCompareSelection(compareId);
+    }
     renderCompare();
-    updateRoute();
   } catch (error) {
     els.resultCount.textContent = "Aircraft data failed to load.";
     els.grid.innerHTML = `<div class="empty-state">${error.message}</div>`;

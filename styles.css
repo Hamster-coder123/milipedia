@@ -314,6 +314,40 @@ h2 {
   font-size: 0.96rem;
 }
 
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.pagination button {
+  min-height: 42px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0 16px;
+  color: var(--ink);
+  background: #111;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.pagination button:not(:disabled):hover {
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+.pagination button:disabled {
+  cursor: not-allowed;
+  opacity: 0.42;
+}
+
+.pagination span {
+  color: var(--soft);
+  font-weight: 700;
+}
+
 .aircraft-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -452,6 +486,17 @@ dd {
 .article-lead h2 {
   margin-top: 18px;
   font-size: clamp(2.5rem, 7vw, 6.5rem);
+}
+
+.article-title {
+  margin: 18px 0 0;
+  font-size: clamp(2.5rem, 7vw, 6.5rem);
+  font-weight: 700;
+  line-height: 0.98;
+}
+
+.article-page-section {
+  padding-top: 42px;
 }
 
 .article-lead p,

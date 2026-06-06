@@ -109,6 +109,43 @@ const BASE_SOURCE = {
   note: "Recommended open structured data source for future automated enrichment."
 };
 
+const WIKIPEDIA_TITLE_OVERRIDES = {
+  "Mikoyan-Gurevich MiG-19": "Mikoyan-Gurevich MiG-19",
+  "Mikoyan-Gurevich MiG-21": "Mikoyan-Gurevich MiG-21",
+  "Mikoyan-Gurevich MiG-23": "Mikoyan-Gurevich MiG-23",
+  "Mikoyan-Gurevich MiG-25": "Mikoyan-Gurevich MiG-25",
+  "Mikoyan MiG-29": "Mikoyan MiG-29",
+  "Mikoyan MiG-31": "Mikoyan MiG-31"
+};
+
+let lastRequestAt = 0;
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function politeFetch(url, options = {}, attempt = 1) {
+  const elapsed = Date.now() - lastRequestAt;
+  if (elapsed < 350) {
+    await sleep(350 - elapsed);
+  }
+  lastRequestAt = Date.now();
+  const response = await fetch(url, options);
+  const text = await response.text();
+
+  if (text.includes("too many requests") || text.includes("making too many requests")) {
+    if (attempt >= 4) throw new Error("Rate limited by Wikimedia API");
+    await sleep(1500 * attempt);
+    return politeFetch(url, options, attempt + 1);
+  }
+
+  if (!response.ok) {
+    throw new Error(`Request failed: ${response.status}`);
+  }
+
+  return JSON.parse(text);
+}
+
 function inferArmament(type, role) {
   if (type === "Transport aircraft" || type === "Tanker" || type === "AWACS/AEW") return "Usually unarmed or mission-dependent defensive systems.";
   if (type === "UAV") return "Mission payload varies by variant and operator.";
@@ -123,11 +160,9 @@ function wikiSearchUrl(name) {
 }
 
 async function fetchWikipediaSummary(title) {
-  const response = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`, {
+  const data = await politeFetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`, {
     headers: { "User-Agent": "MilipediaStarter/1.0 (educational static site)" }
   });
-  if (!response.ok) throw new Error(`Summary failed: ${response.status}`);
-  const data = await response.json();
   return {
     title: data.title || title,
     summary: data.extract || "",
@@ -136,9 +171,80 @@ async function fetchWikipediaSummary(title) {
   };
 }
 
-async function getWikipediaSummary(name) {
+async function fetchWikipediaPageImage(title) {
+  const url = new URL("https://en.wikipedia.org/w/api.php");
+  url.search = new URLSearchParams({
+    action: "query",
+    prop: "pageimages",
+    titles: title,
+    pithumbsize: "1200",
+    redirects: "1",
+    format: "json",
+    origin: "*"
+  });
+
   try {
-    return await fetchWikipediaSummary(name);
+    const data = await politeFetch(url, {
+      headers: { "User-Agent": "MilipediaStarter/1.0 (educational static site)" }
+    });
+    const page = Object.values(data.query?.pages || {})[0];
+    return page?.thumbnail?.source || "";
+  } catch {
+    return "";
+  }
+}
+
+async function fillMissingImages(records) {
+  const missing = records.filter((record) => !record.images?.[0]?.url);
+  const batches = [];
+  for (let index = 0; index < missing.length; index += 45) {
+    batches.push(missing.slice(index, index + 45));
+  }
+
+  for (const batch of batches) {
+    const url = new URL("https://en.wikipedia.org/w/api.php");
+    url.search = new URLSearchParams({
+      action: "query",
+      prop: "pageimages",
+      titles: batch.map((record) => record.sources?.[0]?.title || record.name).join("|"),
+      pithumbsize: "1200",
+      redirects: "1",
+      format: "json",
+      origin: "*"
+    });
+
+    try {
+      const data = await politeFetch(url, {
+        headers: { "User-Agent": "MilipediaStarter/1.0 (educational static site)" }
+      });
+      const pagesByTitle = new Map(
+        Object.values(data.query?.pages || {}).map((page) => [page.title, page.thumbnail?.source || ""])
+      );
+
+      for (const record of batch) {
+        const title = record.sources?.[0]?.title || record.name;
+        const image = pagesByTitle.get(title);
+        if (image) {
+          record.images = [
+            {
+              url: image,
+              caption: record.name,
+              credit: "Wikimedia/Wikipedia page image source",
+              license: "Verify original file license before reuse."
+            }
+          ];
+        }
+      }
+    } catch (error) {
+      console.warn(`Image batch failed: ${error.message}`);
+    }
+  }
+}
+
+async function getWikipediaSummary(name) {
+  const exactTitle = WIKIPEDIA_TITLE_OVERRIDES[name] || name;
+  try {
+    return await fetchWikipediaSummary(exactTitle);
   } catch {
     // Fall back to search only if an exact page title is not available.
   }
@@ -153,11 +259,9 @@ async function getWikipediaSummary(name) {
   });
 
   try {
-    const searchResponse = await fetch(searchUrl, {
+    const searchData = await politeFetch(searchUrl, {
       headers: { "User-Agent": "MilipediaStarter/1.0 (educational static site)" }
     });
-    if (!searchResponse.ok) throw new Error(`Search failed: ${searchResponse.status}`);
-    const searchData = await searchResponse.json();
     const title = searchData?.query?.search?.[0]?.title;
     if (!title) throw new Error("No title");
 
@@ -412,6 +516,8 @@ for (const item of aircraft) {
 if (records.length !== 100) {
   throw new Error(`Expected 100 aircraft, found ${records.length}`);
 }
+
+await fillMissingImages(records);
 
 await mkdir(new URL("../data/", import.meta.url), { recursive: true });
 await writeFile(new URL("../data/aircraft.json", import.meta.url), `${JSON.stringify(records, null, 2)}\n`);
