@@ -440,7 +440,6 @@ function renderFlagMarquee() {
       return `
         <span class="flag-chip" title="${escapeHtml(country)}">
           <img src="${escapeHtml(src)}"${srcset} alt="${escapeHtml(country)} flag">
-          <span>${escapeHtml(country)}</span>
         </span>
       `;
     })

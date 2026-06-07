@@ -1336,14 +1336,20 @@ h2 {
 
 /* Front-page refinement: compact hero, animated country ribbon, and softer scroll reveals. */
 .flag-marquee {
-  position: relative;
-  height: 38px;
+  position: absolute;
+  inset: 22% -10vw auto;
+  z-index: 0;
+  height: 50svh;
   overflow: hidden;
-  border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+  pointer-events: none;
+  border-top: 0 !important;
   background:
-    linear-gradient(90deg, rgba(255, 255, 255, 0.035), transparent 18%, transparent 82%, rgba(255, 255, 255, 0.035)),
-    #000 !important;
-  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+    radial-gradient(ellipse at center, rgba(255, 255, 255, 0.08), transparent 58%),
+    transparent !important;
+  mask-image:
+    linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent),
+    linear-gradient(180deg, transparent, #000 18%, #000 82%, transparent);
+  mask-composite: intersect;
 }
 
 .flag-track {
@@ -1352,9 +1358,11 @@ h2 {
   min-width: 100%;
   height: 100%;
   align-items: center;
-  gap: 10px;
-  padding-inline: 14px;
-  animation: flagMarquee 48s linear infinite;
+  gap: clamp(14px, 2vw, 28px);
+  padding-inline: clamp(20px, 4vw, 56px);
+  opacity: 0.36;
+  filter: saturate(0.95) brightness(0.72) contrast(1.08);
+  animation: flagMarquee 58s linear infinite;
 }
 
 .flag-marquee:hover .flag-track {
@@ -1365,21 +1373,21 @@ h2 {
   display: inline-flex;
   flex: 0 0 auto;
   align-items: center;
-  gap: 8px;
-  min-height: 26px;
-  padding: 0 12px;
-  border-radius: 999px;
+  min-height: 0;
+  padding: 0;
+  border-radius: 18px;
   color: rgba(255, 255, 255, 0.78) !important;
-  background: rgba(255, 255, 255, 0.045) !important;
+  background: transparent !important;
   font-size: 0.74rem;
   font-weight: 650;
   white-space: nowrap;
+  overflow: hidden;
 }
 
 .flag-chip img {
   display: block;
-  width: 22px;
-  height: 15px;
+  width: clamp(132px, 16vw, 238px);
+  height: clamp(86px, 10.5vw, 154px);
   object-fit: cover;
 }
 
@@ -1394,7 +1402,7 @@ h2 {
 }
 
 .hero {
-  min-height: calc(100svh - 86px);
+  min-height: calc(100svh - 48px);
   padding-top: clamp(34px, 6vh, 76px);
   padding-bottom: clamp(42px, 7vh, 82px);
 }
@@ -1409,6 +1417,8 @@ h2 {
 
 .hero-content {
   display: grid;
+  position: relative;
+  z-index: 2;
   width: min(900px, 100%) !important;
   max-width: 900px !important;
   justify-items: center;
@@ -1453,7 +1463,8 @@ h1 {
   margin-top: 24px;
   padding: 0;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.055) !important;
+  background: rgba(82, 82, 88, 0.74) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
 }
 
 .hero-search input {
@@ -1497,7 +1508,7 @@ h1 {
 
 .toolbar {
   grid-template-columns: repeat(4, minmax(132px, 1fr)) auto;
-  top: 87px;
+  top: 49px;
 }
 
 .toolbar > input.sr-only {
@@ -1538,21 +1549,27 @@ h1 {
   }
 
   .flag-marquee {
-    height: 34px;
+    inset: 24% -34vw auto;
+    height: 48svh;
   }
 
   .flag-track {
-    animation-duration: 38s;
+    gap: 14px;
+    opacity: 0.32;
+    animation-duration: 42s;
   }
 
   .flag-chip {
-    min-height: 23px;
-    padding: 0 10px;
     font-size: 0.68rem;
   }
 
+  .flag-chip img {
+    width: clamp(112px, 36vw, 150px);
+    height: clamp(74px, 24vw, 100px);
+  }
+
   .hero {
-    min-height: calc(100svh - 80px);
+    min-height: calc(100svh - 46px);
     padding-top: 36px;
   }
 
@@ -1603,7 +1620,7 @@ h1 {
 
   .toolbar {
     grid-template-columns: 1fr 1fr !important;
-    top: 82px;
+    top: 48px;
   }
 
   .toolbar button {
