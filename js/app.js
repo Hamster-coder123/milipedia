@@ -39,6 +39,20 @@ function normalize(value) {
   return String(value || "").toLowerCase();
 }
 
+function compactDesignation(value) {
+  return normalize(value).replace(/[^a-z0-9]/g, "");
+}
+
+function designationTokens(item) {
+  const values = [item.id, item.name, ...(item.alternative_names || [])];
+  return values.flatMap((value) => {
+    const text = normalize(value);
+    const compact = compactDesignation(value);
+    const matches = text.match(/\b(?:[a-z]{1,3}\/)?[a-z]{1,4}[-\s]?\d+[a-z]{0,3}\b/g) || [];
+    return [compact, ...matches.map(compactDesignation)];
+  });
+}
+
 function unique(values) {
   return [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b));
 }
@@ -71,6 +85,7 @@ function setOptions(select, values, label) {
 
 function aircraftSearchText(item) {
   return [
+    ...designationTokens(item),
     item.name,
     item.alternative_names?.join(" "),
     item.nato_reporting_name,
@@ -90,8 +105,10 @@ function aircraftSearchText(item) {
 
 function applyFilters() {
   const query = normalize(state.search);
+  const compactQuery = compactDesignation(state.search);
   state.filtered = state.aircraft.filter((item) => {
-    const matchesSearch = !query || aircraftSearchText(item).includes(query);
+    const searchText = aircraftSearchText(item);
+    const matchesSearch = !query || searchText.includes(query) || (compactQuery && searchText.includes(compactQuery));
     const matchesType = !state.filters.type || item.aircraft_type === state.filters.type;
     const matchesCountry =
       !state.filters.country || splitValues(item.country_of_origin).includes(state.filters.country) || item.country_of_origin === state.filters.country;
@@ -266,7 +283,7 @@ function renderDetail(id) {
           <h2>${escapeHtml(item.name)}</h2>
           <p>${escapeHtml(item.short_summary)}${renderRefLinks(["fn-main"])}</p>
           <div class="detail-actions">
-            <a class="button primary" href="#database">Back to Database</a>
+            <a class="button primary" href="#database">Back to Aircraft</a>
             <a class="button secondary" href="#compare" data-compare-id="${escapeHtml(item.id)}">Compare this aircraft</a>
           </div>
         </div>

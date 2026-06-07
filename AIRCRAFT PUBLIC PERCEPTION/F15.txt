@@ -1,0 +1,79 @@
+# Public Perception Research: F-15 Eagle / Strike Eagle
+
+Aircraft: McDonnell Douglas F-15 Eagle, McDonnell Douglas F-15E Strike Eagle, Boeing F-15EX Eagle II
+
+This file is reputation research for the F-15 article. It separates public language from confirmed facts. Fan claims, social-media language, and nickname culture are not used as performance proof unless they are supported by official, museum, safety, or aviation-history sources.
+
+## 1. General Reputation
+
+The F-15 is publicly associated with air superiority, high speed, large radar, strong climb performance, Israeli combat use, Desert Storm, and long service life. Aviation communities commonly treat it as the benchmark fourth-generation air-superiority fighter.
+
+The most common public reputation terms are:
+
+| Term | Meaning | Exact treatment |
+| --- | --- | --- |
+| 104-0 | Shorthand for the F-15 air-to-air record | Use only as a claim about confirmed air-to-air combat losses, not all losses |
+| Undefeated Eagle | Fan phrase based on the air-to-air record | Explain that accidents, ground-fire losses, structural failures, and friendly-fire incidents are separate categories |
+| Mudhen | F-15E Strike Eagle nickname | Use as unofficial nickname culture |
+| Missile truck | F-15EX payload shorthand | Use as public debate language, not an official mission title |
+| One-wing Eagle | Reference to the 1 May 1983 Israeli F-15D landing | State the exact event instead of treating the phrase literally |
+
+## 2. What the F-15 Is Known For
+
+The F-15 is known for:
+
+- F-15A first flight on 27 July 1972.
+- First Eagle delivery in November 1974.
+- First combat-squadron delivery in January 1976.
+- Israeli first combat victories on 27 June 1979.
+- F-15C and F-15D entry into USAF inventory in 1979.
+- Bekaa Valley / Lebanon air combat in 1982.
+- Israeli one-wing landing on 1 May 1983.
+- F-15E initial operating capability in September 1989.
+- Desert Storm air-superiority role and F-15E Scud-hunting missions.
+- F-15E GBU-10 kill against an Iraqi Mi-24 on 14 February 1991.
+- Black Hawk fratricide on 14 April 1994.
+- Missouri F-15C longeron failure and breakup on 2 November 2007.
+- F-15EX acceptance on 10 March 2021.
+- F-15EX Eagle II naming on 7 April 2021.
+- F-15EX full-rate production approval in June 2024.
+
+## 3. Public Debates
+
+| Debate | Public claim | Exact article treatment |
+| --- | --- | --- |
+| Air-to-air record | The F-15 is undefeated | State that no confirmed F-15 air-to-air combat loss is established in the common record; do not imply no F-15 has ever been lost |
+| F-15EX | The Eagle II replaces stealth fighters | State that F-15EX complements fifth-generation aircraft with payload, range, open architecture, and capacity; it is not a low-observable aircraft |
+| One-wing landing | The F-15 can fly without a wing | State that an Israeli F-15D landed after losing most of one wing in a specific emergency |
+| F-15 versus F-16 | One is always better | Treat the comparison as mission, cost, payload, range, and force-structure dependent |
+| F-15 versus F-22/F-35 | The F-15 is obsolete because it is not stealthy | State that lack of stealth is a real limitation but not proof of zero usefulness |
+| F-15 versus Su-27 | Western heavyweight versus Soviet heavyweight | Treat as a doctrine and era comparison; avoid unsourced one-plane-wins claims |
+
+## 4. Incidents That Shape Reputation
+
+| Date | Event | Why it matters |
+| --- | --- | --- |
+| 27 June 1979 | Israeli F-15s achieved the type's first combat victories | Establishes that the first combat reputation came from Israel |
+| June 1982 | Israeli F-15s fought in the Lebanon / Bekaa Valley air battles | Builds the Eagle's early combat reputation |
+| 1 May 1983 | Israeli F-15D landed after losing most of one wing | Central public toughness legend |
+| 17-20 January 1991 | USAF lost two F-15E Strike Eagles during Desert Storm to ground defenses according to aviation-history summaries | Corrects misuse of the air-to-air record as an all-losses claim |
+| 14 February 1991 | F-15E crew destroyed an Iraqi Mi-24 with a GBU-10 | Unusual air-to-air story associated with the Strike Eagle |
+| 14 April 1994 | Two USAF F-15s shot down two U.S. Army UH-60 Black Hawks, killing 26 people | Necessary counterweight to celebratory F-15 reputation |
+| 2 November 2007 | Missouri Air National Guard F-15C broke apart after upper right longeron failure | Shows structural-aging and manufacturing-conformance risk |
+| June 2024 | F-15EX full-rate production approval | Shows the Eagle family remained in active procurement after five decades |
+
+## 5. Balanced Summary
+
+The F-15 is remembered as the heavyweight benchmark of fourth-generation air superiority: large, fast, heavily armed, combat-proven, and surrounded by a public mythology that is mostly rooted in real events but often overstated online. The article should praise exact achievements while also covering friendly-fire, ground-loss, accident, aging, and non-stealth limitations.
+
+## 6. Sources Used In This Research
+
+- U.S. Air Force F-15 Eagle fact sheet: https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104501/f-15-eagle/
+- U.S. Air Force F-15E Strike Eagle fact sheet: https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104499/f-15e-strike-eagle/
+- Air & Space Forces Magazine, "Ascendent Eagle": https://www.airandspaceforces.com/article/0713eagle/
+- GAO, "Operation Provide Comfort": https://www.gao.gov/products/osi-98-4
+- U.S. Air Force, "F-15 Eagle accident report released": https://www.af.mil/News/Article-Display/Article/124659/f-15-eagle-accident-report-released/
+- DOT&E FY2024 F-15EX report: https://www.dote.osd.mil/Portals/97/pub/reports/FY2024/af/2024f-15ex.pdf
+- The Aviation Geek Club, "Eagle undefeated: Fact or Fiction?": https://theaviationgeekclub.com/eagle-undefeated-fact-or-fiction-the-story-behind-the-rumours-of-the-f-15-jet-fighters-shot-down-in-air-to-air-combat/
+- Task & Purpose, F-15E GBU-10 helicopter engagement: https://taskandpurpose.com/history/air-force-f-15-gulf-war-bomb-iraqi-helicopter/
+- Business Insider, 1982 Lebanon War air combat: https://www.businessinsider.com/israel-massive-air-combat-win-in-the-1982-lebanon-war-2024-5

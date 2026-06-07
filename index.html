@@ -15,7 +15,7 @@
       <div class="nav-inner">
         <a class="brand" href="index.html#home">Milipedia</a>
         <div class="nav-links">
-          <a href="index.html#database">Database</a>
+          <a href="index.html#database">Aircraft</a>
           <a href="index.html#compare">Compare</a>
           <a href="index.html#sources">Sources</a>
           <a class="nav-cta" href="MILIPEDIA_PLAN.md">Plan</a>
@@ -38,7 +38,7 @@
             <button type="submit">Search</button>
           </form>
 
-          <div class="stats" aria-label="Database stats">
+          <div class="stats" aria-label="Aircraft stats">
             <div>
               <strong id="stat-total">100</strong>
               <span>aircraft</span>
@@ -58,7 +58,7 @@
       <section class="section reveal" id="database">
         <div class="section-header split">
           <div>
-            <h2>Aircraft Database</h2>
+            <h2>Aircraft</h2>
             <p class="section-copy">
               Browse the aircraft dataset. Every result opens a dedicated aircraft article page.
             </p>
@@ -67,7 +67,7 @@
         </div>
 
         <div class="toolbar" aria-label="Aircraft search and filters">
-          <input id="search-input" type="search" placeholder="Search by name, country, role, manufacturer...">
+          <input id="search-input" type="search" placeholder="Search F-16, F-15, F-4, Rafale, J-20...">
           <select id="type-filter" aria-label="Filter by type">
             <option value="">All types</option>
           </select>
@@ -89,7 +89,7 @@
         </div>
 
         <div class="aircraft-grid" id="aircraft-grid"></div>
-        <div class="pagination" id="pagination" aria-label="Aircraft database pages"></div>
+        <div class="pagination" id="pagination" aria-label="Aircraft pages"></div>
       </section>
 
       <section class="section reveal" id="compare">
@@ -153,6 +153,6 @@
       </article>
     </template>
 
-    <script src="js/app.js" defer></script>
+    <script src="js/app.js?v=designation-search" defer></script>
   </body>
 </html>

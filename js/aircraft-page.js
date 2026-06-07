@@ -397,7 +397,7 @@ function renderAmericanArticle(item) {
           ${renderTopOverview(item)}
           <p>${escapeHtml(item.short_summary)}${renderRefLinks(["fn-main"], footnoteMap)}</p>
           <div class="detail-actions">
-            <a class="button primary" href="index.html#database">Back to Database</a>
+            <a class="button primary" href="index.html#database">Back to Aircraft</a>
             <a class="button secondary" href="index.html?compare=${encodeURIComponent(item.id)}#compare">Compare this aircraft</a>
           </div>
         </div>
@@ -467,7 +467,7 @@ function renderArticle(item) {
           <h1 class="article-title"><span>${escapeHtml(item.name)}</span>${flags}</h1>
           <p>${escapeHtml(item.short_summary)}${renderRefLinks(["fn-main"], footnoteMap)}</p>
           <div class="detail-actions">
-            <a class="button primary" href="index.html#database">Back to Database</a>
+            <a class="button primary" href="index.html#database">Back to Aircraft</a>
             <a class="button secondary" href="index.html?compare=${encodeURIComponent(item.id)}#compare">Compare this aircraft</a>
           </div>
         </div>
@@ -500,15 +500,15 @@ function renderArticle(item) {
 const STATIC_ARTICLE_TEMPLATES = {
   "f-16-fighting-falcon": {
     title: "General Dynamics F-16 Fighting Falcon - Milipedia",
-    path: "data/f16-template.html?v=public-perception-3"
+    path: "data/f16-template.html?v=aircraft-labels"
   },
   "f-4-phantom-ii": {
     title: "McDonnell Douglas F-4 Phantom II - Milipedia",
-    path: "data/f4-template.html?v=f4-expanded"
+    path: "data/f4-template.html?v=aircraft-labels"
   },
   "f-15-eagle": {
     title: "McDonnell Douglas F-15 Eagle - Milipedia",
-    path: "data/f15-template.html"
+    path: "data/f15-template.html?v=f15-expanded"
   }
 };
 
@@ -522,7 +522,7 @@ async function renderStaticTemplate(template) {
 async function initArticlePage() {
   const id = getAircraftId();
   if (!id) {
-    articleRoot.innerHTML = `<div class="empty-state">No aircraft selected. <a href="index.html#database">Open the database</a>.</div>`;
+    articleRoot.innerHTML = `<div class="empty-state">No aircraft selected. <a href="index.html#database">Open Aircraft</a>.</div>`;
     return;
   }
 
@@ -532,7 +532,7 @@ async function initArticlePage() {
     const aircraft = await response.json();
     const item = aircraft.find((entry) => entry.id === id);
     if (!item) {
-      articleRoot.innerHTML = `<div class="empty-state">Aircraft not found. <a href="index.html#database">Open the database</a>.</div>`;
+      articleRoot.innerHTML = `<div class="empty-state">Aircraft not found. <a href="index.html#database">Open Aircraft</a>.</div>`;
       return;
     }
     const staticTemplate = STATIC_ARTICLE_TEMPLATES[id];
