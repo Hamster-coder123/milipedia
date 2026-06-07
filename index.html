@@ -16,7 +16,6 @@
         <a class="brand" href="index.html#home">Milipedia</a>
         <div class="nav-links">
           <a href="index.html#database">Aircraft</a>
-          <a href="index.html#compare">Compare</a>
           <a href="index.html#sources">Sources</a>
         </div>
       </div>
@@ -31,7 +30,7 @@
           <p class="kicker">100 post-1945 production military aircraft.</p>
           <h1>Milipedia</h1>
           <p class="hero-subtitle">
-            Search, filter, inspect, and compare fighters, bombers, transports, helicopters, UAVs, trainers, and support aircraft.
+            Search, filter, and inspect fighters, bombers, transports, helicopters, UAVs, trainers, and support aircraft.
           </p>
 
           <form class="hero-search" id="hero-search-form">
@@ -57,15 +56,16 @@
       </section>
 
       <section class="section reveal" id="database">
-        <div class="section-header split">
+        <div class="section-header">
           <div>
             <h2>Aircraft</h2>
             <p class="section-copy">
               Browse the aircraft dataset. Every result opens a dedicated aircraft article page.
             </p>
           </div>
-          <a class="button secondary" href="#compare">Open Compare</a>
         </div>
+
+        <div class="country-flag-filters" id="country-flag-filters" aria-label="Filter aircraft by country"></div>
 
         <div class="toolbar" aria-label="Aircraft search and filters">
           <input id="search-input" class="sr-only" type="search" placeholder="Search F-16, F-15, F-4, Rafale, J-20..." tabindex="-1" aria-hidden="true">
@@ -91,26 +91,6 @@
 
         <div class="aircraft-grid" id="aircraft-grid"></div>
         <div class="pagination" id="pagination" aria-label="Aircraft pages"></div>
-      </section>
-
-      <section class="section reveal" id="compare">
-        <div class="section-header">
-          <h2>Compare Aircraft</h2>
-          <p class="section-copy">
-            Select 2 to 4 aircraft and compare their core encyclopedia fields side by side.
-          </p>
-        </div>
-
-        <div class="compare-picker">
-          <select class="compare-select" aria-label="Comparison aircraft 1"></select>
-          <select class="compare-select" aria-label="Comparison aircraft 2"></select>
-          <select class="compare-select" aria-label="Comparison aircraft 3"></select>
-          <select class="compare-select" aria-label="Comparison aircraft 4"></select>
-        </div>
-
-        <div class="compare-table-wrap">
-          <table class="compare-table" id="compare-table"></table>
-        </div>
       </section>
 
       <section class="section reveal" id="sources">

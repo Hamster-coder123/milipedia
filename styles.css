@@ -256,10 +256,10 @@ h1 {
 }
 
 .stats div {
-  border: 1px solid var(--line);
-  border-radius: 22px;
-  padding: 18px;
-  background: var(--panel);
+  padding: 8px 10px;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
 }
 
 .stats strong {
@@ -319,6 +319,65 @@ h2 {
   padding: 10px;
   background: rgba(0, 0, 0, 0.78);
   backdrop-filter: blur(18px);
+}
+
+.country-flag-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 0 16px;
+}
+
+.country-flag-button {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 10px;
+  min-height: 48px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 999px;
+  padding: 8px 14px 8px 8px;
+  color: rgba(255, 255, 255, 0.74);
+  background: rgba(255, 255, 255, 0.03);
+  cursor: pointer;
+  transition: border-color 180ms ease, background 180ms ease, color 180ms ease, transform 180ms ease;
+}
+
+.country-flag-button:hover {
+  transform: translateY(-1px);
+  border-color: rgba(255, 255, 255, 0.24);
+  color: #fff;
+}
+
+.country-flag-button.active {
+  border-color: rgba(255, 255, 255, 0.42);
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.country-flag-button img {
+  display: block;
+  width: 38px;
+  height: 26px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.24);
+}
+
+.country-flag-button span {
+  font-size: 0.84rem;
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+.country-flag-button.all-origins {
+  padding-inline: 14px;
+}
+
+.country-flag-button.all-origins span {
+  font-size: 0.82rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .toolbar button {
@@ -1503,8 +1562,8 @@ h1 {
 }
 
 .stats div {
-  padding: 12px 10px;
-  background: rgba(255, 255, 255, 0.035) !important;
+  padding: 6px 10px;
+  background: transparent !important;
 }
 
 .stats strong {
@@ -1522,6 +1581,24 @@ h1 {
 .toolbar {
   grid-template-columns: repeat(4, minmax(132px, 1fr)) auto;
   top: 49px;
+}
+
+.country-flag-filters {
+  gap: 8px;
+}
+
+.country-flag-button {
+  min-height: 44px;
+  padding-right: 12px;
+}
+
+.country-flag-button img {
+  width: 34px;
+  height: 24px;
+}
+
+.country-flag-button span {
+  font-size: 0.78rem;
 }
 
 .toolbar > input.sr-only {
@@ -1620,7 +1697,7 @@ h1 {
   }
 
   .stats div {
-    padding: 10px 6px;
+    padding: 4px 6px;
   }
 
   .stats strong {
@@ -1629,6 +1706,32 @@ h1 {
 
   .stats span {
     font-size: 0.68rem;
+  }
+
+  .country-flag-filters {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-bottom: 14px;
+    padding-bottom: 2px;
+    scrollbar-width: none;
+  }
+
+  .country-flag-filters::-webkit-scrollbar {
+    display: none;
+  }
+
+  .country-flag-button {
+    min-height: 42px;
+    padding: 7px 12px 7px 7px;
+  }
+
+  .country-flag-button img {
+    width: 32px;
+    height: 22px;
+  }
+
+  .country-flag-button span {
+    font-size: 0.76rem;
   }
 
   .toolbar {

@@ -22,13 +22,12 @@ const els = {
   era: document.querySelector("#era-filter"),
   status: document.querySelector("#status-filter"),
   reset: document.querySelector("#reset-filters"),
+  countryFlagFilters: document.querySelector("#country-flag-filters"),
   grid: document.querySelector("#aircraft-grid"),
   resultCount: document.querySelector("#result-count"),
   detailSection: document.querySelector("#detail"),
   detailContent: document.querySelector("#detail-content"),
   pagination: document.querySelector("#pagination"),
-  compareSelects: [...document.querySelectorAll(".compare-select")],
-  compareTable: document.querySelector("#compare-table"),
   statTotal: document.querySelector("#stat-total"),
   statCountries: document.querySelector("#stat-countries"),
   statTypes: document.querySelector("#stat-types"),
@@ -144,6 +143,7 @@ function applyFilters() {
     return matchesSearch && matchesType && matchesCountry && matchesEra && matchesStatus;
   });
   state.page = 1;
+  syncCountryFlagFilters();
   renderGrid();
 }
 
@@ -311,7 +311,6 @@ function renderDetail(id) {
           <p>${escapeHtml(item.short_summary)}${renderRefLinks(["fn-main"])}</p>
           <div class="detail-actions">
             <a class="button primary" href="#database">Back to Aircraft</a>
-            <a class="button secondary" href="#compare" data-compare-id="${escapeHtml(item.id)}">Compare this aircraft</a>
           </div>
         </div>
 
@@ -339,83 +338,6 @@ function renderDetail(id) {
   `;
   els.detailSection.hidden = false;
   els.detailSection.scrollIntoView({ behavior: "smooth", block: "start" });
-
-  const compareLink = els.detailContent.querySelector("[data-compare-id]");
-  compareLink?.addEventListener("click", () => {
-    setCompareSelection(item.id);
-  });
-}
-
-function setCompareSelection(id) {
-  const selected = new Set(els.compareSelects.map((select) => select.value).filter(Boolean));
-  if (!selected.has(id)) {
-    const empty = els.compareSelects.find((select) => !select.value);
-    if (empty) empty.value = id;
-    else els.compareSelects[0].value = id;
-  }
-  renderCompare();
-}
-
-function renderCompareOptions() {
-  els.compareSelects.forEach((select, index) => {
-    select.innerHTML = `<option value="">Aircraft ${index + 1}</option>`;
-    state.aircraft.forEach((item) => {
-      const option = document.createElement("option");
-      option.value = item.id;
-      option.textContent = item.name;
-      select.append(option);
-    });
-  });
-
-  const defaults = ["f-16-fighting-falcon", "mig-29", "rafale", "chengdu-j-20"];
-  els.compareSelects.forEach((select, index) => {
-    select.value = defaults[index] || "";
-  });
-}
-
-function renderCompare() {
-  const selectedIds = [...new Set(els.compareSelects.map((select) => select.value).filter(Boolean))];
-  const selected = selectedIds.map((id) => state.aircraft.find((item) => item.id === id)).filter(Boolean);
-
-  if (selected.length < 2) {
-    els.compareTable.innerHTML = `
-      <tbody>
-        <tr><td>Select at least two aircraft to compare.</td></tr>
-      </tbody>
-    `;
-    return;
-  }
-
-  const fields = [
-    ["Country", "country_of_origin"],
-    ["Role", "role"],
-    ["Type", "aircraft_type"],
-    ["Era", "era"],
-    ["First flight", "first_flight"],
-    ["Introduction", "introduction_date"],
-    ["Crew", "crew"],
-    ["Engine type", "engine_type"],
-    ["Max speed", "max_speed"],
-    ["Carrier capable", (item) => (item.carrier_capable ? "Yes" : "No")],
-    ["Stealth", (item) => (item.stealth ? "Yes" : "No")],
-    ["Status", "status"],
-    ["Armament", "armament"]
-  ];
-
-  const header = `<thead><tr><th>Category</th>${selected.map((item) => `<th>${item.name}</th>`).join("")}</tr></thead>`;
-  const body = fields
-    .map(([label, accessor]) => {
-      const cells = selected
-        .map((item) => {
-          const value = typeof accessor === "function" ? accessor(item) : item[accessor];
-          return `<td>${value || "Unknown"}</td>`;
-        })
-        .join("");
-      return `<tr><th>${label}</th>${cells}</tr>`;
-    })
-    .join("");
-
-  els.compareTable.innerHTML = `${header}<tbody>${body}</tbody>`;
 }
 
 function updateRoute() {
@@ -463,6 +385,48 @@ function renderFlagMarquee() {
   els.flagTrack.innerHTML = `${flagItems}${flagItems}`;
 }
 
+function renderCountryFlagFilters() {
+  if (!els.countryFlagFilters) return;
+  const countries = unique(state.aircraft.flatMap((item) => splitValues(item.country_of_origin)));
+  const items = countries
+    .map((country) => {
+      const asset = flagAsset(COUNTRY_FLAGS[country]);
+      if (!asset) return "";
+      const srcset = asset.srcset ? ` srcset="${escapeHtml(asset.srcset)}"` : "";
+      return `
+        <button type="button" class="country-flag-button" data-country="${escapeHtml(country)}" title="${escapeHtml(country)}">
+          <img
+            src="${escapeHtml(asset.src)}"${srcset}
+            alt=""
+            loading="lazy"
+            decoding="async"
+            referrerpolicy="no-referrer"
+          >
+          <span>${escapeHtml(country)}</span>
+        </button>
+      `;
+    })
+    .join("");
+
+  els.countryFlagFilters.innerHTML = `
+    <button type="button" class="country-flag-button all-origins" data-country="">
+      <span>All origins</span>
+    </button>
+    ${items}
+  `;
+  syncCountryFlagFilters();
+}
+
+function syncCountryFlagFilters() {
+  if (!els.countryFlagFilters) return;
+  const activeCountry = state.filters.country;
+  els.countryFlagFilters.querySelectorAll("[data-country]").forEach((button) => {
+    const isActive = button.dataset.country === activeCountry || (!activeCountry && button.dataset.country === "");
+    button.classList.toggle("active", isActive);
+    button.setAttribute("aria-pressed", isActive ? "true" : "false");
+  });
+}
+
 function setupEvents() {
   els.heroSearchForm.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -507,6 +471,15 @@ function setupEvents() {
     applyFilters();
   });
 
+  els.countryFlagFilters?.addEventListener("click", (event) => {
+    const button = event.target.closest("button[data-country]");
+    if (!button) return;
+    const selectedCountry = button.dataset.country;
+    state.filters.country = state.filters.country === selectedCountry ? "" : selectedCountry;
+    els.country.value = state.filters.country;
+    applyFilters();
+  });
+
   els.pagination?.addEventListener("click", (event) => {
     const button = event.target.closest("button[data-page]");
     if (!button) return;
@@ -516,8 +489,6 @@ function setupEvents() {
     renderGrid();
     document.querySelector("#database")?.scrollIntoView({ behavior: "smooth", block: "start" });
   });
-
-  els.compareSelects.forEach((select) => select.addEventListener("change", renderCompare));
 }
 
 function setupRevealAnimations() {
@@ -561,14 +532,9 @@ async function init() {
     els.statTypes.textContent = unique(state.aircraft.map((item) => item.aircraft_type)).length;
     setupFilters();
     renderFlagMarquee();
+    renderCountryFlagFilters();
     setupEvents();
     renderGrid();
-    renderCompareOptions();
-    const compareId = new URLSearchParams(window.location.search).get("compare");
-    if (compareId) {
-      setCompareSelection(compareId);
-    }
-    renderCompare();
   } catch (error) {
     els.resultCount.textContent = "Aircraft data failed to load.";
     els.grid.innerHTML = `<div class="empty-state">${error.message}</div>`;
