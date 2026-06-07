@@ -500,11 +500,11 @@ function renderArticle(item) {
 const STATIC_ARTICLE_TEMPLATES = {
   "f-16-fighting-falcon": {
     title: "General Dynamics F-16 Fighting Falcon - Milipedia",
-    path: "data/f16-template.html?v=public-perception-2"
+    path: "data/f16-template.html?v=public-perception-3"
   },
   "f-4-phantom-ii": {
     title: "McDonnell Douglas F-4 Phantom II - Milipedia",
-    path: "data/f4-template.html"
+    path: "data/f4-template.html?v=public-perception"
   },
   "f-15-eagle": {
     title: "McDonnell Douglas F-15 Eagle - Milipedia",
