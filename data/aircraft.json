@@ -1101,58 +1101,147 @@
   {
     "id": "f-8-crusader",
     "name": "Vought F-8 Crusader",
-    "alternative_names": [],
+    "alternative_names": [
+      "F8U Crusader",
+      "Crusader",
+      "Last of the Gunfighters",
+      "MiG Master"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
-    "manufacturer": "Vought",
-    "role": "Carrier-based fighter",
+    "manufacturer": "Chance Vought / Vought",
+    "role": "Carrier-based air-superiority fighter and photo-reconnaissance aircraft",
     "aircraft_type": "Fighter",
     "era": "Cold War",
-    "first_flight": "1955",
-    "introduction_date": "1957",
-    "retirement_date": "Not listed",
+    "first_flight": "25 March 1955",
+    "introduction_date": "March 1957",
+    "retirement_date": "1976 as a U.S. Navy fighter; 29 March 1987 for U.S. Navy RF-8G reserve service; 5 December 1999 in French naval service",
     "status": "Retired",
-    "number_built": "Not listed",
-    "crew": "1",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "number_built": "1,219 aircraft",
+    "crew": "1 pilot",
+    "engine_type": "Afterburning turbojet",
+    "engines": "One Pratt & Whitney J57 afterburning turbojet; F-8E data commonly lists the J57-P-20",
+    "max_speed": "1,132 mph at 35,000 ft for F-8E; Mach 1.5+ listed in older specification summaries",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Vought F-8 Crusader: Carrier-based fighter. Manufacturer: Vought. First flight: 1955. Introduction: 1957.",
-    "short_summary": "Vought F-8 Crusader: Carrier-based fighter. Origin: United States. Manufacturer: Vought. First flight: 1955. Introduction: 1957. Status: Retired.",
+    "range": "1,425 miles listed for F-8E in USNI technical summary",
+    "combat_range": "600 miles tactical range in GlobalSecurity specification summary; combat-radius figures vary by load and profile",
+    "service_ceiling": "52,350 ft for F-8E; French F-8E(FN) reference lists 54,000 ft",
+    "rate_of_climb": "Not consistently listed in the cited open sources",
+    "armament": "Four 20 mm Mark 12 cannon, AIM-9 Sidewinder missiles, rockets, bombs, and later French Matra R550 Magic missiles on F-8E(FN)/F-8P aircraft.",
+    "hardpoints": "Fuselage missile pylons and external stores stations; early variants also used an internal rocket pack arrangement.",
+    "variants": [
+      "XF8U-1 prototype",
+      "F8U-1 / F-8A early fleet day fighter",
+      "F8U-1P / RF-8A photo-reconnaissance aircraft",
+      "F-8C, F-8D, F-8E improved fighter variants",
+      "F-8J and F-8K rebuilt/modernized U.S. aircraft",
+      "F-8E(FN) and F-8P French naval fighters",
+      "NASA F-8C Digital Fly-By-Wire research aircraft"
+    ],
+    "operators": [
+      "United States Navy",
+      "United States Marine Corps",
+      "French Naval Aviation",
+      "Philippine Air Force",
+      "NASA research programs"
+    ],
+    "combat_history": "Vietnam War fighter and attack operations, Cuban Missile Crisis photo-reconnaissance, 1958 Lebanon crisis carrier deployment, French carrier air-defense service, Philippine air-defense service.",
+    "development_history": "The Crusader was developed for the U.S. Navy Day Fighter Program announced in 1952. Vought won the May 1953 selection with a J57-powered design using a high-mounted variable-incidence wing, and the first XF8U-1 flew from Edwards Air Force Base on 25 March 1955.",
+    "short_summary": "The Vought F-8 Crusader was a single-seat, single-engine, supersonic carrier fighter built for the U.S. Navy Day Fighter Program. It entered fleet service in March 1957, became famous in Vietnam as the \"MiG Master,\" and later served as a photo-reconnaissance platform, French naval interceptor, Philippine fighter, and NASA digital fly-by-wire research aircraft.",
     "carrier_capable": true,
     "stealth": false,
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/F-8E_VMF-212_CVA-34_1965_%28cropped%29.jpg/330px-F-8E_VMF-212_CVA-34_1965_%28cropped%29.jpg",
-        "caption": "Vought F-8 Crusader",
-        "credit": "Wikimedia/Wikipedia thumbnail source",
-        "license": "Verify original file license before reuse."
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/F-8E_VMF-212_CVA-34_1965_%28cropped%29.jpg/800px-F-8E_VMF-212_CVA-34_1965_%28cropped%29.jpg",
+        "caption": "U.S. Marine Corps F-8E Crusader from VMF(AW)-212 aboard USS Oriskany in 1965.",
+        "credit": "U.S. Navy photograph via Wikimedia Commons",
+        "license": "Public domain U.S. Navy image; verify Commons file page before reuse."
       }
     ],
     "sources": [
       {
         "id": "fn-main",
-        "title": "Vought F-8 Crusader",
-        "url": "https://en.wikipedia.org/wiki/Vought_F-8_Crusader",
-        "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "title": "Vought (XF-8A) XF8U-1 Crusader",
+        "url": "https://www.museumofflight.org/exhibits-and-events/aircraft/vought-xf-8a-xf8u-1-crusader",
+        "publisher": "The Museum of Flight",
+        "note": "Used for Day Fighter Program origin, May 1953 selection, 25 March 1955 first flight, John Konrad, variable-incidence wing explanation, Collier Trophy, 1,000 mph achievement, John Glenn record context, prototype history, and prototype specifications."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "id": "fn-usni-cold-war",
+        "title": "Historic Aircraft - Not the Last Gunfighter, Part 1: The Cold War",
+        "url": "https://www.usni.org/magazines/naval-history-magazine/2016/april/historic-aircraft-not-last-gunfighter-part-1-cold-war",
+        "publisher": "U.S. Naval Institute / Naval History",
+        "note": "Used for the 1952 Navy requirement, reconnaissance operations beginning in May 1964, and F-8E technical data including dimensions, engine, weights, speeds, range, ceiling, and armament."
+      },
+      {
+        "id": "fn-usni-hot-wars",
+        "title": "Historic Aircraft - Not the Last Gunfighter, Part 11: Hot Wars",
+        "url": "https://www.usni.org/magazines/naval-history-magazine/2016/june/historic-aircraft-not-last-gunfighter-part-11-hot-wars",
+        "publisher": "U.S. Naval Institute / Naval History",
+        "note": "Used for Vietnam MiG-kill context, the 26 June 1968 MiG-21 event, gunfighter nickname nuance, U.S. Navy fighter retirement in 1976, RF-8G squadron retirement in 1982 and 1987, and comparison with the Phantom."
+      },
+      {
+        "id": "fn-raes-archive",
+        "title": "An Examination of the F-8 Crusader through Archival Sources",
+        "url": "https://www.aerosociety.com/media/8037/an-examination-of-the-f-8-crusader-through-archival-sources.pdf",
+        "publisher": "Royal Aeronautical Society Journal of Aeronautical History",
+        "note": "Used for archival analysis of Vietnam reputation, 14 MiG-17 and four MiG-21 kills, Marine Corps ground-attack use, missile-versus-gun reality, cannon reliability cautions, and the high accident-rate caveat."
+      },
+      {
+        "id": "fn-nasa-dfbw",
+        "title": "Flying with NASA - Digital-Fly-By-Wire",
+        "url": "https://www.nasa.gov/centers-and-facilities/armstrong/flying-with-nasa-digital-fly-by-wire/",
+        "publisher": "NASA Armstrong Flight Research Center",
+        "note": "Used for NASA F-8 Digital Fly-By-Wire program facts, 25 May 1972 first flight with Gary Krier, Apollo computer origin, 210 flights, 13-year program duration, and display status."
+      },
+      {
+        "id": "fn-vfp62",
+        "title": "Light Photographic Squadron 62",
+        "url": "https://www.vfp62.com/",
+        "publisher": "VFP-62 veterans association",
+        "note": "Used as a squadron/veteran source for RF-8A/G photo-reconnaissance mission identity, Cuban Missile Crisis low-level reconnaissance selection, and public memory of VFP-62."
+      },
+      {
+        "id": "fn-caea-france",
+        "title": "F-8E (FN) Crusader",
+        "url": "https://www.caea.fr/avions/crusader-f-8efn/",
+        "publisher": "Conservatoire de l Air et de l Espace d Aquitaine",
+        "note": "Used for French F-8E(FN)/F-8P service, Flottille 12F, 5 December 1999 retirement, 17 F-8P modernizations, French service flying hours and arrested landings, and French aircraft specifications."
+      },
+      {
+        "id": "fn-globalsecurity-specs",
+        "title": "F-8 Crusader Specifications",
+        "url": "https://www.globalsecurity.org/military/systems/aircraft/f-8-specs.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Used for specification cross-checks including J57-P-4A entry, Mach 1.5+ speed summary, tactical range, weights, and early armament summary."
+      },
+      {
+        "id": "fn-commons-f8",
+        "title": "F-8 Crusader media gallery",
+        "url": "https://commons.wikimedia.org/wiki/F-8_Crusader",
+        "publisher": "Wikimedia Commons",
+        "note": "Used for image discovery and Commons source-page links; images should be checked on their file pages for exact license and attribution."
+      },
+      {
+        "id": "fn-commons-dfbw",
+        "title": "1972-10-07 VoughtF-8 FlyByWire.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:1972-10-07_VoughtF-8_FlyByWire.jpg",
+        "publisher": "Wikimedia Commons / NASA",
+        "note": "Used for NASA F-8 Digital Fly-By-Wire gallery image and date/source metadata."
+      },
+      {
+        "id": "fn-reddit-perception",
+        "title": "Vought F-8 Crusader. The last naval gunfighter...",
+        "url": "https://www.reddit.com/r/navalaviation/comments/1fprhs9/vought_f8_crusader_the_last_naval_gunfighter/",
+        "publisher": "Reddit r/navalaviation",
+        "note": "Used only as an example of enthusiast discussion around the Last Gunfighter, MiG Master, variable-incidence wing, and fan reputation; not used as proof of technical facts."
+      },
+      {
+        "id": "fn-reddit-disputed",
+        "title": "Stop calling the Vought F8 Crusader \"the last gunfighter\"",
+        "url": "https://www.reddit.com/r/unpopularopinion/comments/rxojhw/stop_calling_the_vought_f8_crusader_the_last/",
+        "publisher": "Reddit discussion",
+        "note": "Used only to document public disagreement over the nickname and gunfighter mythology; factual checks rely on USNI and archival sources."
       },
       {
         "id": "fn-method",
@@ -1160,73 +1249,61 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.hq.nasa.gov/pao/History/SP-468/cover.htm",
-        "publisher": "hq.nasa.gov",
-        "note": "External source for Vought F-8 Crusader."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.faqs.org/docs/air/avcrus2.html",
-        "publisher": "faqs.org",
-        "note": "External source for Vought F-8 Crusader."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.globalsecurity.org/military/systems/aircraft/f-8.htm",
-        "publisher": "globalsecurity.org",
-        "note": "External source for Vought F-8 Crusader."
       }
     ],
     "country_flags": [
       {
         "label": "United States",
-        "emoji": "🇺🇸"
+        "emoji": "US"
       }
     ],
     "designers": [
-      "Vought"
+      "John Russell Clark and the Vought design team"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "Carrier compatibility added structural, landing gear, corrosion, and low-speed handling requirements.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "The Navy wanted a supersonic carrier day fighter, forcing Vought to combine high-speed aerodynamics with short-deck carrier approach behavior.",
+      "The variable-incidence wing improved approach attitude and visibility but added carrier-specific mechanical complexity.",
+      "The aircraft carried prominent guns, yet Vietnam experience showed Sidewinder missiles were normally its primary air-to-air weapon."
     ],
-    "wars_used_in": [],
+    "wars_used_in": [
+      "1958 Lebanon crisis",
+      "Cuban Missile Crisis",
+      "Vietnam War"
+    ],
     "variant_families": [
-      "Vought F-8 Crusader baseline production model",
-      "Vought F-8 Crusader upgraded avionics or weapons-capable model",
-      "Vought F-8 Crusader export or locally modernized model"
+      "XF8U-1 prototype: original test aircraft, including BuNo 138899 preserved by the Museum of Flight.",
+      "F-8A/B/C/D/E fighter series: U.S. Navy and Marine Corps single-seat carrier fighters with successive avionics and weapons changes.",
+      "RF-8A/RF-8G: unarmed photo-reconnaissance Crusaders used over Cuba, Southeast Asia, and by Naval Reserve squadrons into 1987.",
+      "F-8J/K/H/L rebuilds: modernized U.S. airframes with structural and systems upgrades.",
+      "F-8E(FN)/F-8P: French Navy aircraft adapted for Foch and Clemenceau, later kept in service until 1999.",
+      "NASA F-8C Digital Fly-By-Wire: research aircraft that tested computer-controlled flight without conventional mechanical controls."
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Vought F-8 Crusader has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Major operators were the United States Navy, United States Marine Corps, French Naval Aviation, Philippine Air Force, and NASA research programs.",
+      "all_operators_status": "All military Crusader operators have retired the type; NASA preserves the F-8C Digital Fly-By-Wire aircraft as a research artifact."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "John Konrad flew the XF8U-1 on its 25 March 1955 maiden flight and took it supersonic during that first flight.",
+        "John Glenn set a cross-country speed record in the Crusader era before becoming a Mercury astronaut.",
+        "Gary Krier piloted the NASA F-8 Digital Fly-By-Wire first flight on 25 May 1972."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "RF-8A Crusaders from VFP-62 were central to the first low-level reconnaissance flights over Cuba in October 1962.",
+        "USNI and archival sources caution that the Last Gunfighter image overstates cannon use because most confirmed Vietnam MiG kills were made with Sidewinders or mixed missile/gun engagements.",
+        "The archival study notes a high accident rate throughout the Crusader career, a major limitation of the type despite its strong combat reputation."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Vought F-8 Crusader uses jet propulsion."
+      "type": "Afterburning turbojet",
+      "summary": "The Crusader used one Pratt & Whitney J57 afterburning turbojet; F-8E data commonly lists the J57-P-20, while earlier specification summaries list J57-P-4A for earlier F-8 configurations."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Typical Crusader armament combined four 20 mm Mark 12 cannon with AIM-9 Sidewinder missiles and external bombs, rockets, or missiles; French aircraft later carried Matra Magic infrared missiles.",
+      "caution": "Exact stores varied by variant, period, and operator; the cannon nickname should not be read as proof that most Vietnam kills were gun kills."
     },
     "similar_development": [
       {
@@ -1235,9 +1312,9 @@
         "url": "aircraft.html?id=f-4-phantom-ii"
       },
       {
-        "id": "f-5-freedom-fighter-tiger-ii",
-        "name": "Northrop F-5",
-        "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
+        "id": "a-7-corsair-ii",
+        "name": "LTV A-7 Corsair II",
+        "url": "aircraft.html?id=a-7-corsair-ii"
       },
       {
         "id": "f-14-tomcat",
@@ -1245,82 +1322,194 @@
         "url": "aircraft.html?id=f-14-tomcat"
       },
       {
-        "id": "f-15-eagle",
-        "name": "McDonnell Douglas F-15 Eagle",
-        "url": "aircraft.html?id=f-15-eagle"
+        "id": "f-a-18-hornet",
+        "name": "McDonnell Douglas F/A-18 Hornet",
+        "url": "aircraft.html?id=f-a-18-hornet"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 58,
+      "operator_entries": 5,
+      "variant_entries": 7,
+      "external_article_sources": 12
     },
     "footnotes": [
       {
         "id": "fn-main",
-        "title": "Vought F-8 Crusader",
-        "url": "https://en.wikipedia.org/wiki/Vought_F-8_Crusader",
-        "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "title": "Vought (XF-8A) XF8U-1 Crusader",
+        "url": "https://www.museumofflight.org/exhibits-and-events/aircraft/vought-xf-8a-xf8u-1-crusader",
+        "publisher": "The Museum of Flight",
+        "note": "Used for Day Fighter Program origin, May 1953 selection, 25 March 1955 first flight, John Konrad, variable-incidence wing explanation, Collier Trophy, 1,000 mph achievement, John Glenn record context, prototype history, and prototype specifications."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "id": "fn-usni-cold-war",
+        "title": "Historic Aircraft - Not the Last Gunfighter, Part 1: The Cold War",
+        "url": "https://www.usni.org/magazines/naval-history-magazine/2016/april/historic-aircraft-not-last-gunfighter-part-1-cold-war",
+        "publisher": "U.S. Naval Institute / Naval History",
+        "note": "Used for the 1952 Navy requirement, reconnaissance operations beginning in May 1964, and F-8E technical data including dimensions, engine, weights, speeds, range, ceiling, and armament."
+      },
+      {
+        "id": "fn-usni-hot-wars",
+        "title": "Historic Aircraft - Not the Last Gunfighter, Part 11: Hot Wars",
+        "url": "https://www.usni.org/magazines/naval-history-magazine/2016/june/historic-aircraft-not-last-gunfighter-part-11-hot-wars",
+        "publisher": "U.S. Naval Institute / Naval History",
+        "note": "Used for Vietnam MiG-kill context, the 26 June 1968 MiG-21 event, gunfighter nickname nuance, U.S. Navy fighter retirement in 1976, RF-8G squadron retirement in 1982 and 1987, and comparison with the Phantom."
+      },
+      {
+        "id": "fn-raes-archive",
+        "title": "An Examination of the F-8 Crusader through Archival Sources",
+        "url": "https://www.aerosociety.com/media/8037/an-examination-of-the-f-8-crusader-through-archival-sources.pdf",
+        "publisher": "Royal Aeronautical Society Journal of Aeronautical History",
+        "note": "Used for archival analysis of Vietnam reputation, 14 MiG-17 and four MiG-21 kills, Marine Corps ground-attack use, missile-versus-gun reality, cannon reliability cautions, and the high accident-rate caveat."
+      },
+      {
+        "id": "fn-nasa-dfbw",
+        "title": "Flying with NASA - Digital-Fly-By-Wire",
+        "url": "https://www.nasa.gov/centers-and-facilities/armstrong/flying-with-nasa-digital-fly-by-wire/",
+        "publisher": "NASA Armstrong Flight Research Center",
+        "note": "Used for NASA F-8 Digital Fly-By-Wire program facts, 25 May 1972 first flight with Gary Krier, Apollo computer origin, 210 flights, 13-year program duration, and display status."
+      },
+      {
+        "id": "fn-vfp62",
+        "title": "Light Photographic Squadron 62",
+        "url": "https://www.vfp62.com/",
+        "publisher": "VFP-62 veterans association",
+        "note": "Used as a squadron/veteran source for RF-8A/G photo-reconnaissance mission identity, Cuban Missile Crisis low-level reconnaissance selection, and public memory of VFP-62."
+      },
+      {
+        "id": "fn-caea-france",
+        "title": "F-8E (FN) Crusader",
+        "url": "https://www.caea.fr/avions/crusader-f-8efn/",
+        "publisher": "Conservatoire de l Air et de l Espace d Aquitaine",
+        "note": "Used for French F-8E(FN)/F-8P service, Flottille 12F, 5 December 1999 retirement, 17 F-8P modernizations, French service flying hours and arrested landings, and French aircraft specifications."
+      },
+      {
+        "id": "fn-globalsecurity-specs",
+        "title": "F-8 Crusader Specifications",
+        "url": "https://www.globalsecurity.org/military/systems/aircraft/f-8-specs.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Used for specification cross-checks including J57-P-4A entry, Mach 1.5+ speed summary, tactical range, weights, and early armament summary."
+      },
+      {
+        "id": "fn-commons-f8",
+        "title": "F-8 Crusader media gallery",
+        "url": "https://commons.wikimedia.org/wiki/F-8_Crusader",
+        "publisher": "Wikimedia Commons",
+        "note": "Used for image discovery and Commons source-page links; images should be checked on their file pages for exact license and attribution."
+      },
+      {
+        "id": "fn-commons-dfbw",
+        "title": "1972-10-07 VoughtF-8 FlyByWire.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:1972-10-07_VoughtF-8_FlyByWire.jpg",
+        "publisher": "Wikimedia Commons / NASA",
+        "note": "Used for NASA F-8 Digital Fly-By-Wire gallery image and date/source metadata."
+      },
+      {
+        "id": "fn-reddit-perception",
+        "title": "Vought F-8 Crusader. The last naval gunfighter...",
+        "url": "https://www.reddit.com/r/navalaviation/comments/1fprhs9/vought_f8_crusader_the_last_naval_gunfighter/",
+        "publisher": "Reddit r/navalaviation",
+        "note": "Used only as an example of enthusiast discussion around the Last Gunfighter, MiG Master, variable-incidence wing, and fan reputation; not used as proof of technical facts."
+      },
+      {
+        "id": "fn-reddit-disputed",
+        "title": "Stop calling the Vought F8 Crusader \"the last gunfighter\"",
+        "url": "https://www.reddit.com/r/unpopularopinion/comments/rxojhw/stop_calling_the_vought_f8_crusader_the_last/",
+        "publisher": "Reddit discussion",
+        "note": "Used only to document public disagreement over the nickname and gunfighter mythology; factual checks rely on USNI and archival sources."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.hq.nasa.gov/pao/History/SP-468/cover.htm",
-        "publisher": "hq.nasa.gov",
-        "note": "External source for Vought F-8 Crusader."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.faqs.org/docs/air/avcrus2.html",
-        "publisher": "faqs.org",
-        "note": "External source for Vought F-8 Crusader."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.globalsecurity.org/military/systems/aircraft/f-8.htm",
-        "publisher": "globalsecurity.org",
-        "note": "External source for Vought F-8 Crusader."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.hq.nasa.gov/pao/History/SP-468/cover.htm",
-        "publisher": "hq.nasa.gov",
-        "note": "External source for Vought F-8 Crusader."
+        "id": "fn-main",
+        "title": "Vought (XF-8A) XF8U-1 Crusader",
+        "url": "https://www.museumofflight.org/exhibits-and-events/aircraft/vought-xf-8a-xf8u-1-crusader",
+        "publisher": "The Museum of Flight",
+        "note": "Used for Day Fighter Program origin, May 1953 selection, 25 March 1955 first flight, John Konrad, variable-incidence wing explanation, Collier Trophy, 1,000 mph achievement, John Glenn record context, prototype history, and prototype specifications."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.faqs.org/docs/air/avcrus2.html",
-        "publisher": "faqs.org",
-        "note": "External source for Vought F-8 Crusader."
+        "id": "fn-usni-cold-war",
+        "title": "Historic Aircraft - Not the Last Gunfighter, Part 1: The Cold War",
+        "url": "https://www.usni.org/magazines/naval-history-magazine/2016/april/historic-aircraft-not-last-gunfighter-part-1-cold-war",
+        "publisher": "U.S. Naval Institute / Naval History",
+        "note": "Used for the 1952 Navy requirement, reconnaissance operations beginning in May 1964, and F-8E technical data including dimensions, engine, weights, speeds, range, ceiling, and armament."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.globalsecurity.org/military/systems/aircraft/f-8.htm",
-        "publisher": "globalsecurity.org",
-        "note": "External source for Vought F-8 Crusader."
+        "id": "fn-usni-hot-wars",
+        "title": "Historic Aircraft - Not the Last Gunfighter, Part 11: Hot Wars",
+        "url": "https://www.usni.org/magazines/naval-history-magazine/2016/june/historic-aircraft-not-last-gunfighter-part-11-hot-wars",
+        "publisher": "U.S. Naval Institute / Naval History",
+        "note": "Used for Vietnam MiG-kill context, the 26 June 1968 MiG-21 event, gunfighter nickname nuance, U.S. Navy fighter retirement in 1976, RF-8G squadron retirement in 1982 and 1987, and comparison with the Phantom."
+      },
+      {
+        "id": "fn-raes-archive",
+        "title": "An Examination of the F-8 Crusader through Archival Sources",
+        "url": "https://www.aerosociety.com/media/8037/an-examination-of-the-f-8-crusader-through-archival-sources.pdf",
+        "publisher": "Royal Aeronautical Society Journal of Aeronautical History",
+        "note": "Used for archival analysis of Vietnam reputation, 14 MiG-17 and four MiG-21 kills, Marine Corps ground-attack use, missile-versus-gun reality, cannon reliability cautions, and the high accident-rate caveat."
+      },
+      {
+        "id": "fn-nasa-dfbw",
+        "title": "Flying with NASA - Digital-Fly-By-Wire",
+        "url": "https://www.nasa.gov/centers-and-facilities/armstrong/flying-with-nasa-digital-fly-by-wire/",
+        "publisher": "NASA Armstrong Flight Research Center",
+        "note": "Used for NASA F-8 Digital Fly-By-Wire program facts, 25 May 1972 first flight with Gary Krier, Apollo computer origin, 210 flights, 13-year program duration, and display status."
+      },
+      {
+        "id": "fn-vfp62",
+        "title": "Light Photographic Squadron 62",
+        "url": "https://www.vfp62.com/",
+        "publisher": "VFP-62 veterans association",
+        "note": "Used as a squadron/veteran source for RF-8A/G photo-reconnaissance mission identity, Cuban Missile Crisis low-level reconnaissance selection, and public memory of VFP-62."
+      },
+      {
+        "id": "fn-caea-france",
+        "title": "F-8E (FN) Crusader",
+        "url": "https://www.caea.fr/avions/crusader-f-8efn/",
+        "publisher": "Conservatoire de l Air et de l Espace d Aquitaine",
+        "note": "Used for French F-8E(FN)/F-8P service, Flottille 12F, 5 December 1999 retirement, 17 F-8P modernizations, French service flying hours and arrested landings, and French aircraft specifications."
+      },
+      {
+        "id": "fn-globalsecurity-specs",
+        "title": "F-8 Crusader Specifications",
+        "url": "https://www.globalsecurity.org/military/systems/aircraft/f-8-specs.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Used for specification cross-checks including J57-P-4A entry, Mach 1.5+ speed summary, tactical range, weights, and early armament summary."
+      },
+      {
+        "id": "fn-commons-f8",
+        "title": "F-8 Crusader media gallery",
+        "url": "https://commons.wikimedia.org/wiki/F-8_Crusader",
+        "publisher": "Wikimedia Commons",
+        "note": "Used for image discovery and Commons source-page links; images should be checked on their file pages for exact license and attribution."
+      },
+      {
+        "id": "fn-commons-dfbw",
+        "title": "1972-10-07 VoughtF-8 FlyByWire.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:1972-10-07_VoughtF-8_FlyByWire.jpg",
+        "publisher": "Wikimedia Commons / NASA",
+        "note": "Used for NASA F-8 Digital Fly-By-Wire gallery image and date/source metadata."
+      },
+      {
+        "id": "fn-reddit-perception",
+        "title": "Vought F-8 Crusader. The last naval gunfighter...",
+        "url": "https://www.reddit.com/r/navalaviation/comments/1fprhs9/vought_f8_crusader_the_last_naval_gunfighter/",
+        "publisher": "Reddit r/navalaviation",
+        "note": "Used only as an example of enthusiast discussion around the Last Gunfighter, MiG Master, variable-incidence wing, and fan reputation; not used as proof of technical facts."
+      },
+      {
+        "id": "fn-reddit-disputed",
+        "title": "Stop calling the Vought F8 Crusader \"the last gunfighter\"",
+        "url": "https://www.reddit.com/r/unpopularopinion/comments/rxojhw/stop_calling_the_vought_f8_crusader_the_last/",
+        "publisher": "Reddit discussion",
+        "note": "Used only to document public disagreement over the nickname and gunfighter mythology; factual checks rely on USNI and archival sources."
       }
     ],
     "article_sections": [
@@ -1329,77 +1518,99 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Vought F-8 Crusader is a Carrier-based fighter from United States. Manufacturer: Vought. First flight: 1955. Introduction: 1957. Status: Retired.",
+            "text": "The Vought F-8 Crusader was a U.S. single-seat, single-engine, supersonic carrier fighter developed for the Navy Day Fighter Program that began in 1952. Vought won selection in May 1953, and the first XF8U-1 flew at Edwards Air Force Base on 25 March 1955 with test pilot John Konrad.",
+            "refs": [
+              "fn-main",
+              "fn-usni-cold-war"
+            ]
+          },
+          {
+            "text": "Its most distinctive engineering feature was the high-mounted variable-incidence wing. During takeoff and landing the wing pivoted upward about seven degrees, letting the aircraft fly at a useful angle of attack while the fuselage stayed lower and the pilot retained better forward visibility for carrier approaches.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Vought F-8 Crusader is a fighter. Primary role: carrier-based fighter. Country of origin: United States. Manufacturer: Vought.",
+            "text": "The Crusader became famous as both the \"Last of the Gunfighters\" and the \"MiG Master,\" but those phrases need context. Archival analysis and USNI summaries show that Sidewinder missiles, not cannon alone, accounted for most confirmed Crusader MiG victories in Vietnam, even though the aircraft retained four 20 mm cannon when the gunless F-4 Phantom entered service.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Exact structured fact fields: 15.",
-            "refs": [
-              "fn-method"
+              "fn-usni-hot-wars",
+              "fn-raes-archive"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Primary role",
-            "text": "Carrier-based fighter"
+            "title": "Role",
+            "text": "Carrier air-superiority fighter; later reconnaissance and research aircraft"
           },
           {
-            "title": "Designer or builder",
-            "text": "Vought"
+            "title": "First flight",
+            "text": "25 March 1955"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "U.S. service entry",
+            "text": "March 1957"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Built",
+            "text": "1,219 aircraft"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Vought F-8 Crusader first flew in 1955. Introduction date: 1957. Era: Cold War.",
+            "text": "The requirement came from the U.S. Navy search for a post-Korean War supersonic day fighter able to operate from aircraft carriers. Chance Vought, already known for Navy aircraft such as the F4U Corsair, answered with a swept-wing J57-powered design rather than a conservative subsonic fighter.",
+            "refs": [
+              "fn-main",
+              "fn-usni-cold-war"
+            ]
+          },
+          {
+            "text": "The prototype was completed near Dallas, shipped to Edwards Air Force Base in a Douglas C-124, and made its first flight on 25 March 1955. Museum of Flight history records that John Konrad took the aircraft supersonic on that first flight, an unusual achievement for a fighter maiden flight.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Producer: Vought. Development context: carrier-based fighter, jet propulsion, supersonic speed category, Cold War era.",
+            "text": "The Crusader soon won the 1956 Collier Trophy, passed the 1,000 mph fighter mark, and set a cross-country speed record with Marine aviator John Glenn. Those public milestones helped shape its early reputation as a fast, pure fighter rather than only another Navy procurement program.",
             "refs": [
-              "fn-wikidata"
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Later development branched into rebuilt fighters, unarmed RF-8 reconnaissance aircraft, French F-8E(FN)/F-8P naval interceptors, and NASA research aircraft. The F-8C Digital Fly-By-Wire program turned a former Navy Crusader into a landmark testbed for computer-controlled flight.",
+            "refs": [
+              "fn-nasa-dfbw",
+              "fn-caea-france"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "Background: U.S. Navy 1952 supersonic carrier day-fighter requirement.",
             "refs": [
-              "fn-method"
+              "fn-usni-cold-war"
             ]
           },
           {
-            "text": "Carrier compatibility added structural, landing gear, corrosion, and low-speed handling requirements.",
+            "text": "Design selection: Vought selected in May 1953 with a J57-powered variable-incidence-wing design.",
             "refs": [
-              "fn-method"
+              "fn-main"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "Testing: XF8U-1 first flight at Edwards Air Force Base on 25 March 1955.",
             "refs": [
-              "fn-method"
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Research legacy: NASA flew the F-8 Digital Fly-By-Wire aircraft for 210 flights over a 13-year program.",
+            "refs": [
+              "fn-nasa-dfbw"
             ]
           }
         ]
@@ -1409,78 +1620,71 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The F-8 used a high swept wing, all-moving tail surfaces, carrier landing gear, and a compact single-engine fuselage. The variable-incidence wing reduced carrier approach penalties without requiring very tall landing gear or a nose-high attitude that would block visibility over the bow.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Carrier capable: yes. Stealth: no.",
+            "text": "The cockpit was arranged for one pilot and emphasized visual fighter combat and carrier landing visibility. The aircraft was not a stealth design; its survivability and tactical value depended on speed, energy, pilot skill, deck compatibility, and weapons employment rather than low observability.",
             "refs": [
-              "fn-method"
+              "fn-main",
+              "fn-usni-cold-war"
             ]
           },
           {
-            "text": "Vought F-8 Crusader uses jet propulsion. Engine model field: Not listed.",
+            "text": "Power came from a single Pratt & Whitney J57 afterburning turbojet. USNI lists the F-8E with a J57-P-20 rated at 10,700 lbf dry thrust, while other specification summaries list earlier J57-P-4A installations for other configurations.",
             "refs": [
-              "fn-main"
+              "fn-usni-cold-war",
+              "fn-globalsecurity-specs"
             ]
           },
           {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
+            "text": "Weapons were a blend of gun and missile-era design. Four 20 mm Mark 12 cannon gave the aircraft its public image, but AIM-9 Sidewinder missiles were central to its Vietnam air-combat record; bombs, rockets, and later French Magic missiles reflected the aircraft family's wider fighter-attack and export life.",
             "refs": [
-              "fn-main"
+              "fn-usni-cold-war",
+              "fn-raes-archive",
+              "fn-caea-france"
             ]
           }
         ],
         "cards": [
           {
+            "title": "Airframe",
+            "text": "High-mounted swept variable-incidence wing"
+          },
+          {
             "title": "Crew",
-            "text": "1"
+            "text": "1 pilot"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Engine",
+            "text": "1 Pratt & Whitney J57 afterburning turbojet"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
-          },
-          {
-            "title": "Carrier capable",
-            "text": "Yes"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Carrier feature",
+            "text": "Wing incidence raised for takeoff and landing"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Vought F-8 Crusader status: Retired. Conflict entries: 0.",
+            "text": "F-8E specification set: crew 1 pilot; length 54 ft 5 3/4 in; wingspan 35 ft 8 in; wing area 375 sq ft; height 15 ft 9 in; maximum weight 34,100 lb; one Pratt & Whitney J57-P-20 turbojet; maximum speed 749 mph at sea level and 1,132 mph at 35,000 ft; range 1,425 miles; ceiling 52,350 ft.",
             "refs": [
-              "fn-main"
+              "fn-usni-cold-war"
             ]
           },
           {
-            "text": "Conflicts: 0 entries.",
+            "text": "GlobalSecurity gives a different early Crusader specification set, listing a J57-P-4A, 54 ft 3 in length, 16,483 lb empty weight, 27,938 lb catapult maximum takeoff weight, Mach 1.5+ speed, 600 miles tactical range, and two AIM-9 missiles plus four 20 mm guns and internal or centerline rockets.",
             "refs": [
-              "fn-method"
+              "fn-globalsecurity-specs"
             ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
+          },
           {
-            "text": "Vought F-8 Crusader named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
+            "text": "The Museum of Flight prototype page lists BuNo 138899 with 35.67 ft wingspan, 54 ft length, 16 ft height, 375 sq ft wing area, 15,513 lb empty weight, 26,969 lb gross weight, 1,013 mph maximum speed, and a Pratt & Whitney J57-P-11 engine. These prototype figures should not be mixed with F-8E service figures.",
             "refs": [
               "fn-main"
             ]
@@ -1488,27 +1692,21 @@
         ],
         "bullets": [
           {
-            "text": "Named pilots listed: 0.",
+            "text": "Variant described by primary table text: F-8E unless otherwise stated.",
             "refs": [
-              "fn-method"
+              "fn-usni-cold-war"
             ]
           },
           {
-            "text": "Named individual aircraft listed: 0.",
+            "text": "Primary cannon armament: four 20 mm Mark 12 cannon with 500 rounds in the USNI F-8E summary.",
             "refs": [
-              "fn-method"
+              "fn-usni-cold-war"
             ]
           },
           {
-            "text": "Notable incidents listed: 0.",
+            "text": "French preserved-aircraft data lists Mach 1.8, 54,000 ft ceiling, 3.7 metric tons internal fuel, and two Matra R550 Magic missiles for F-8E(FN)/F-8P context.",
             "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-caea-france"
             ]
           }
         ]
@@ -1518,35 +1716,44 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Vought F-8 Crusader variant-family entries: 3. Variant families: Vought F-8 Crusader baseline production model; Vought F-8 Crusader upgraded avionics or weapons-capable model; Vought F-8 Crusader export or locally modernized model.",
+            "text": "The Crusader family includes early U.S. fighters, photo-reconnaissance aircraft, rebuild programs, French carrier fighters, and NASA research aircraft. The most historically important branches are the F-8 fighter line, the RF-8 reconnaissance line, the French F-8E(FN)/F-8P, and the NASA F-8C Digital Fly-By-Wire conversion.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-main",
+              "fn-nasa-dfbw",
+              "fn-caea-france"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Vought F-8 Crusader baseline production model",
+            "text": "XF8U-1: prototype aircraft; the Museum of Flight example made 509 test flights and later flew twice with John Glenn.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Vought F-8 Crusader upgraded avionics or weapons-capable model",
+            "text": "F-8A through F-8E: main U.S. Navy and Marine Corps fighter development sequence.",
             "refs": [
-              "fn-main"
+              "fn-usni-cold-war"
             ]
           },
           {
-            "text": "Vought F-8 Crusader export or locally modernized model",
+            "text": "RF-8A/RF-8G: camera-equipped reconnaissance Crusaders used by VFP-62, VFP-63, and reserve photo units.",
             "refs": [
-              "fn-main"
+              "fn-vfp62",
+              "fn-usni-hot-wars"
+            ]
+          },
+          {
+            "text": "F-8E(FN)/F-8P: French Navy Crusaders adapted for Clemenceau and Foch; 17 were modernized as F-8P in the 1990s.",
+            "refs": [
+              "fn-caea-france"
+            ]
+          },
+          {
+            "text": "NASA F-8C Digital Fly-By-Wire: modified aircraft that first flew its digital flight-control system on 25 May 1972.",
+            "refs": [
+              "fn-nasa-dfbw"
             ]
           }
         ]
@@ -1556,59 +1763,407 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Vought F-8 Crusader has 1 designer or builder country entry.",
+            "text": "United States: The U.S. Navy and Marine Corps were the primary military users. Fleet Navy fighter Crusaders retired in 1976, while RF-8G photo-reconnaissance squadrons lasted longer, with the last Naval Reserve RF-8G unit leaving service in 1987.",
             "refs": [
-              "fn-wikidata"
+              "fn-usni-hot-wars"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "France: French Naval Aviation operated modified F-8E(FN) aircraft from the mid-1960s for the air defense of the carrier group built around Foch and Clemenceau. CAEA states that Flottille 12F used the type from 1965 until withdrawal on 5 December 1999, with more than 147,000 flight hours and nearly 26,000 arrested landings.",
+            "refs": [
+              "fn-caea-france"
+            ]
+          },
+          {
+            "text": "Philippines: The Philippine Air Force operated ex-U.S. Crusaders as a later air-defense fighter force. Open sources are thinner than for U.S. and French service, so this article treats Philippine use cautiously and avoids unsourced claims about individual intercepts.",
             "refs": [
               "fn-method"
+            ]
+          },
+          {
+            "text": "NASA: NASA did not use the Crusader as an operational fighter, but its F-8C Digital Fly-By-Wire aircraft became a major research platform whose work fed later military and civil flight-control technology.",
+            "refs": [
+              "fn-nasa-dfbw"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Current military operators: none.",
             "refs": [
-              "fn-main"
+              "fn-usni-hot-wars",
+              "fn-caea-france"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "Former national military operators: United States, France, Philippines.",
             "refs": [
-              "fn-wikidata"
+              "fn-usni-hot-wars",
+              "fn-caea-france"
+            ]
+          },
+          {
+            "text": "Research operator: NASA Armstrong/Dryden flight research programs.",
+            "refs": [
+              "fn-nasa-dfbw"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Supersonic, first flight 1955, introduction 1957.",
+            "text": "1957-1958, early fleet service and Lebanon: The Crusader entered regular Navy operations in 1957 and appeared in early crisis deployments soon afterward. Its role was to give carrier air wings a fast day fighter during a period when U.S. naval aviation was rapidly moving from gun-and-rocket jets to missile-era fighters.",
+            "refs": [
+              "fn-main",
+              "fn-usni-cold-war"
+            ]
+          },
+          {
+            "text": "1962, Cuban Missile Crisis: RF-8A Crusaders from VFP-62 were chosen for first low-level photo-reconnaissance missions over Cuba. The squadron source states that the Secretary of Defense and CIA selected VFP-62, with President Kennedy approval, because the unit was highly trained and the Crusader was a stable camera platform.",
+            "refs": [
+              "fn-vfp62"
+            ]
+          },
+          {
+            "text": "1964-1972, Vietnam War: Photo Crusaders began flying over Southeast Asia from 7th Fleet carriers in late May 1964, and fighter Crusaders later fought MiGs over North Vietnam while Marine aircraft also served in ground-attack roles. The archival study credits F-8s with 14 MiG-17 and four MiG-21 kills while noting that MiG-17s shot down three Crusaders.",
+            "refs": [
+              "fn-usni-cold-war",
+              "fn-raes-archive"
+            ]
+          },
+          {
+            "text": "26 June 1968, MiG-21 shootdown: USNI identifies an F-8E from USS Bon Homme Richard as shooting down a MiG-21 with a Sidewinder. The event illustrates both the Crusader's fighter reputation and the reality that missiles, rather than guns alone, made most of its confirmed air-to-air record.",
+            "refs": [
+              "fn-usni-hot-wars"
+            ]
+          },
+          {
+            "text": "1970s-1980s, reconnaissance after fighter retirement: U.S. Navy fighter Crusaders left front-line fleet fighter service in 1976, but RF-8G photo aircraft remained useful after the fighter force moved to newer aircraft. USNI notes active RF-8G service into 1982 and reserve photo Crusaders into 1987.",
+            "refs": [
+              "fn-usni-hot-wars"
+            ]
+          },
+          {
+            "text": "1965-1999, French carrier air defense: French F-8E(FN) aircraft served aboard France's aircraft carriers in the fleet air-defense role and were later sustained through the F-8P modernization. CAEA records withdrawal on 5 December 1999, making French service the last operational military Crusader chapter.",
+            "refs": [
+              "fn-caea-france"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "notable-events",
+        "title": "Notable Events and Incidents",
+        "paragraphs": [
+          {
+            "text": "25 March 1955: The first XF8U-1 flew at Edwards Air Force Base with John Konrad and went supersonic on its maiden flight.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "1956: The Crusader won the Collier Trophy and helped advertise Navy fighter speed during the early supersonic era.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "October 1962: RF-8A Crusaders from VFP-62 flew low-level reconnaissance during the Cuban Missile Crisis, providing imagery used to confirm and monitor Soviet missile deployments.",
+            "refs": [
+              "fn-vfp62"
+            ]
+          },
+          {
+            "text": "25 May 1972: Gary Krier flew NASA's F-8 Digital Fly-By-Wire aircraft on the program's first flight using the Apollo-computer-based system.",
+            "refs": [
+              "fn-nasa-dfbw"
+            ]
+          },
+          {
+            "text": "5 December 1999: French Flottille 12F withdrew the Crusader from service, closing the type's last active military chapter.",
+            "refs": [
+              "fn-caea-france"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Public nickname caveat: \"Last Gunfighter\" is memorable but technically incomplete because missiles were central to the aircraft's actual Vietnam kill record.",
+            "refs": [
+              "fn-usni-hot-wars",
+              "fn-raes-archive"
+            ]
+          },
+          {
+            "text": "Safety caveat: archival research notes a high accident rate across the aircraft's career, so the article should balance combat reputation with operational risk.",
+            "refs": [
+              "fn-raes-archive"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Compared with the F-4 Phantom II, the F-8 was a smaller, single-seat, single-engine Navy fighter designed around day air combat and guns plus missiles, while the F-4 became a larger two-seat, twin-engine all-weather missile fighter. Public discussion often frames the F-8 as purer and more agile, but the Phantom replaced it in many fleet fighter roles because it offered radar, crew, payload, and growth advantages.",
+            "refs": [
+              "fn-usni-hot-wars",
+              "fn-raes-archive"
+            ]
+          },
+          {
+            "text": "Compared with the A-7 Corsair II, the Crusader was the fighter ancestor rather than the attack aircraft. The A-7 reused broad Vought/LTV lineage for a subsonic strike mission, while the Crusader was optimized for supersonic fighter and later reconnaissance roles.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Compared with the F-14 Tomcat and F/A-18 Hornet, the F-8 belongs to an earlier era of visual fighter combat and transitional missile use. Later U.S. Navy fighters restored internal guns while adding far more capable radar, avionics, and multirole weapons integration.",
+            "refs": [
+              "fn-usni-hot-wars"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "F-8 vs F-4: single-engine visual fighter reputation versus twin-engine all-weather fleet fighter growth.",
+            "refs": [
+              "fn-usni-hot-wars"
+            ]
+          },
+          {
+            "text": "F-8 vs A-7: supersonic fighter ancestor versus attack derivative and successor lineage.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "F-8 vs F-14/F/A-18: early missile-era carrier fighter versus later radar-heavy and multirole naval fighters.",
+            "refs": [
+              "fn-usni-hot-wars"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The Crusader's strengths were real: high speed for its era, useful carrier approach design, strong visual-fighter reputation, and a flexible airframe that proved valuable as a reconnaissance and NASA research platform. Its limitations were also real: single-engine risk, a demanding carrier aircraft safety record, aging avionics compared with later fleet fighters, and a public gunfighter image that can exaggerate the importance of cannon in its combat record.",
+            "refs": [
+              "fn-main",
+              "fn-raes-archive",
+              "fn-nasa-dfbw"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: variable-incidence wing improved carrier approach geometry and pilot visibility.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Strength: fast and effective enough to earn the MiG Master reputation over North Vietnam.",
+            "refs": [
+              "fn-main",
+              "fn-raes-archive"
+            ]
+          },
+          {
+            "text": "Strength: RF-8 variants offered valuable low-level photo-reconnaissance capability in Cuba and Southeast Asia.",
+            "refs": [
+              "fn-vfp62",
+              "fn-usni-cold-war"
+            ]
+          },
+          {
+            "text": "Strength: NASA conversion made the F-8 central to the history of digital fly-by-wire flight controls.",
+            "refs": [
+              "fn-nasa-dfbw"
+            ]
+          },
+          {
+            "text": "Limitation: cannon reliability and actual kill data complicate the Last Gunfighter legend.",
+            "refs": [
+              "fn-raes-archive",
+              "fn-usni-hot-wars"
+            ]
+          },
+          {
+            "text": "Limitation: high accident-rate caveat appears in archival scholarship and should temper simplified praise.",
+            "refs": [
+              "fn-raes-archive"
+            ]
+          },
+          {
+            "text": "Limitation: the aircraft aged out of U.S. fleet fighter service as larger radar-equipped aircraft took over.",
+            "refs": [
+              "fn-usni-hot-wars"
+            ]
+          },
+          {
+            "text": "Limitation: open Philippine service documentation is thin, limiting confident detail on late foreign operational use.",
             "refs": [
               "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "public-perception",
+        "title": "Public Perception and Reputation",
+        "paragraphs": [
+          {
+            "text": "The Crusader's public reputation is unusually nickname-driven. Aviation fans commonly celebrate it as the \"Last of the Gunfighters,\" a phrase tied to its four internal cannon and contrast with the early gunless F-4 Phantom II. Neutral treatment needs to say that this is a reputation label, not a literal summary of its combat record.",
+            "refs": [
+              "fn-usni-hot-wars",
+              "fn-reddit-perception"
+            ]
+          },
+          {
+            "text": "Enthusiast discussions also focus on the variable-incidence wing, the MiG Master Vietnam record, French late service, and NASA fly-by-wire work. These themes are well supported as topics of interest, but social-media praise often compresses different variants and missions into a single heroic image.",
+            "refs": [
+              "fn-main",
+              "fn-nasa-dfbw",
+              "fn-caea-france",
+              "fn-reddit-perception"
+            ]
+          },
+          {
+            "text": "Critics and historically minded commenters often push back on the nickname because USNI and archival sources show that only a small share of confirmed Vietnam Crusader kills came from guns alone. The best neutral wording is that the F-8 is remembered as a gun-era icon even though its most important air-to-air weapon in Vietnam was usually the Sidewinder.",
+            "refs": [
+              "fn-usni-hot-wars",
+              "fn-raes-archive",
+              "fn-reddit-disputed"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Supporters emphasize speed, looks, gun armament, MiG victories, and the unusual wing.",
+            "refs": [
+              "fn-reddit-perception",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Critics emphasize the overplayed gunfighter myth, cannon reliability issues, and accident-rate concerns.",
+            "refs": [
+              "fn-reddit-disputed",
+              "fn-raes-archive"
+            ]
+          },
+          {
+            "text": "Myth check: \"Last Gunfighter\" is useful as a public nickname, but it is exaggerated if used to imply most F-8 victories were gun kills.",
+            "refs": [
+              "fn-usni-hot-wars",
+              "fn-raes-archive"
+            ]
+          },
+          {
+            "text": "Conflict impact: in Vietnam the F-8 helped Navy and Marine aviation contest MiGs and provide attack/reconnaissance support, but its impact should be described through confirmed kill and mission data rather than fan claims.",
+            "refs": [
+              "fn-raes-archive"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "1952: The U.S. Navy Day Fighter Program created the requirement that led to the Crusader.",
+            "refs": [
+              "fn-main",
+              "fn-usni-cold-war"
+            ]
+          },
+          {
+            "text": "May 1953: Vought's design was selected for development.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "25 March 1955: First XF8U-1 flight at Edwards Air Force Base.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "1956: The Crusader won the Collier Trophy and passed the 1,000 mph fighter milestone.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "March 1957: The Crusader entered U.S. Navy service.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "October 1962: RF-8A aircraft flew low-level Cuban Missile Crisis reconnaissance.",
+            "refs": [
+              "fn-vfp62"
+            ]
+          },
+          {
+            "text": "Late May 1964: Photo Crusaders began flying Southeast Asia reconnaissance from 7th Fleet carriers.",
+            "refs": [
+              "fn-usni-cold-war"
+            ]
+          },
+          {
+            "text": "26 June 1968: An F-8E from USS Bon Homme Richard shot down a MiG-21 with a Sidewinder.",
+            "refs": [
+              "fn-usni-hot-wars"
+            ]
+          },
+          {
+            "text": "25 May 1972: NASA's F-8 Digital Fly-By-Wire program made its first flight.",
+            "refs": [
+              "fn-nasa-dfbw"
+            ]
+          },
+          {
+            "text": "1976: Last fleet U.S. Navy F-8 fighters retired.",
+            "refs": [
+              "fn-usni-hot-wars"
+            ]
+          },
+          {
+            "text": "1987: Last U.S. Navy reserve RF-8G service ended.",
+            "refs": [
+              "fn-usni-hot-wars"
+            ]
+          },
+          {
+            "text": "5 December 1999: French service ended with Flottille 12F withdrawal.",
+            "refs": [
+              "fn-caea-france"
             ]
           }
         ]
       },
       {
         "id": "similar-development",
-        "title": "Similar Development",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "Vought F-8 Crusader similar-development links: 4.",
+            "text": "Related aircraft include the F-4 Phantom II as the larger missile-era Navy fighter that replaced many Crusader roles, the A-7 Corsair II as a Vought/LTV attack-aircraft descendant, the F-14 Tomcat as a later fleet air-defense fighter, and the F/A-18 Hornet as a later carrier multirole fighter.",
             "refs": [
-              "fn-method"
+              "fn-usni-hot-wars",
+              "fn-main"
             ]
           }
         ],
@@ -1618,21 +2173,46 @@
             "url": "aircraft.html?id=f-4-phantom-ii"
           },
           {
-            "label": "Northrop F-5",
-            "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
+            "label": "LTV A-7 Corsair II",
+            "url": "aircraft.html?id=a-7-corsair-ii"
           },
           {
             "label": "Grumman F-14 Tomcat",
             "url": "aircraft.html?id=f-14-tomcat"
           },
           {
-            "label": "McDonnell Douglas F-15 Eagle",
-            "url": "aircraft.html?id=f-15-eagle"
+            "label": "McDonnell Douglas F/A-18 Hornet",
+            "url": "aircraft.html?id=f-a-18-hornet"
           }
         ]
       }
     ],
-    "event_gallery": []
+    "event_gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/RF-8A%20Crusader%20VFP-62%20in%20flight%20c1961.jpg",
+        "caption": "RF-8A Crusader from VFP-62, the squadron associated with low-level Cuban Missile Crisis reconnaissance.",
+        "credit": "U.S. Navy via Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:RF-8A_Crusader_VFP-62_in_flight_c1961.jpg"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1972-10-07%20VoughtF-8%20FlyByWire.jpg",
+        "caption": "NASA F-8 Digital Fly-By-Wire aircraft in flight on 7 October 1972.",
+        "credit": "NASA via Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:1972-10-07_VoughtF-8_FlyByWire.jpg"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/F-8E%28FN%29%20Crusader%20preparing%20to%20land%201983.JPEG",
+        "caption": "French Navy F-8E(FN) Crusader preparing to land aboard USS Dwight D. Eisenhower in 1983.",
+        "credit": "U.S. Navy via Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:F-8E(FN)_Crusader_preparing_to_land_1983.JPEG"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/F-8%20Flies%20with%20Apollo%20Guidance%20Computer%20%28EC73-3478%29.jpg",
+        "caption": "NASA F-8 Digital Fly-By-Wire aircraft carrying Apollo Guidance Computer hardware during the research program.",
+        "credit": "NASA Armstrong via Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:F-8_Flies_with_Apollo_Guidance_Computer_(EC73-3478).jpg"
+      }
+    ]
   },
   {
     "id": "f-14-tomcat",
