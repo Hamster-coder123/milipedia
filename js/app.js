@@ -32,7 +32,25 @@ const els = {
   statTotal: document.querySelector("#stat-total"),
   statCountries: document.querySelector("#stat-countries"),
   statTypes: document.querySelector("#stat-types"),
+  flagTrack: document.querySelector("#flag-track"),
   cardTemplate: document.querySelector("#aircraft-card-template")
+};
+
+const COUNTRY_FLAGS = {
+  Brazil: { code: "br" },
+  China: { code: "cn" },
+  France: { code: "fr" },
+  Germany: { code: "de" },
+  India: { code: "in" },
+  Israel: { code: "il" },
+  Italy: { code: "it" },
+  "Multinational Europe": { code: "eu" },
+  Pakistan: { code: "pk" },
+  Russia: { code: "ru" },
+  "Soviet Union": { url: "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Soviet%20Union.svg" },
+  Sweden: { code: "se" },
+  "United Kingdom": { code: "gb" },
+  "United States": { code: "us" }
 };
 
 function normalize(value) {
@@ -410,6 +428,26 @@ function setupFilters() {
   setOptions(els.status, unique(state.aircraft.map((item) => item.status)), "All statuses");
 }
 
+function renderFlagMarquee() {
+  if (!els.flagTrack) return;
+  const countries = unique(state.aircraft.flatMap((item) => splitValues(item.country_of_origin)));
+  const flagItems = countries
+    .map((country) => {
+      const flag = COUNTRY_FLAGS[country];
+      if (!flag) return "";
+      const src = flag.url || `https://flagcdn.com/w40/${flag.code}.png`;
+      const srcset = flag.url ? "" : ` srcset="https://flagcdn.com/w80/${flag.code}.png 2x"`;
+      return `
+        <span class="flag-chip" title="${escapeHtml(country)}">
+          <img src="${escapeHtml(src)}"${srcset} alt="${escapeHtml(country)} flag">
+          <span>${escapeHtml(country)}</span>
+        </span>
+      `;
+    })
+    .join("");
+  els.flagTrack.innerHTML = `${flagItems}${flagItems}`;
+}
+
 function setupEvents() {
   els.heroSearchForm.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -419,8 +457,15 @@ function setupEvents() {
     window.location.hash = "database";
   });
 
+  els.heroSearch.addEventListener("input", () => {
+    state.search = els.heroSearch.value.trim();
+    els.search.value = state.search;
+    applyFilters();
+  });
+
   els.search.addEventListener("input", () => {
     state.search = els.search.value.trim();
+    els.heroSearch.value = state.search;
     applyFilters();
   });
 
@@ -461,6 +506,17 @@ function setupEvents() {
 }
 
 function setupRevealAnimations() {
+  const revealVisibleItems = () => {
+    const min = window.innerHeight * 0.12;
+    const max = window.innerHeight * 0.88;
+    document.querySelectorAll(".reveal:not(.visible)").forEach((item) => {
+      const rect = item.getBoundingClientRect();
+      if (rect.top < max && rect.bottom > min) {
+        item.classList.add("visible");
+      }
+    });
+  };
+
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
@@ -474,6 +530,9 @@ function setupRevealAnimations() {
   );
 
   document.querySelectorAll(".reveal").forEach((item) => observer.observe(item));
+  window.addEventListener("scroll", revealVisibleItems, { passive: true });
+  window.addEventListener("resize", revealVisibleItems);
+  requestAnimationFrame(revealVisibleItems);
 }
 
 async function init() {
@@ -486,6 +545,7 @@ async function init() {
     els.statCountries.textContent = unique(state.aircraft.flatMap((item) => splitValues(item.country_of_origin))).length;
     els.statTypes.textContent = unique(state.aircraft.map((item) => item.aircraft_type)).length;
     setupFilters();
+    renderFlagMarquee();
     setupEvents();
     renderGrid();
     renderCompareOptions();

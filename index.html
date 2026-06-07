@@ -8,7 +8,7 @@
       name="description"
       content="Milipedia is a modern encyclopedia for post-1945 military aircraft."
     >
-    <link rel="stylesheet" href="styles.css?v=edge-black">
+    <link rel="stylesheet" href="styles.css?v=front-page-polish">
   </head>
   <body>
     <nav class="nav" aria-label="Primary navigation">
@@ -18,8 +18,10 @@
           <a href="index.html#database">Aircraft</a>
           <a href="index.html#compare">Compare</a>
           <a href="index.html#sources">Sources</a>
-          <a class="nav-cta" href="MILIPEDIA_PLAN.md">Plan</a>
         </div>
+      </div>
+      <div class="flag-marquee" aria-label="Aircraft countries">
+        <div class="flag-track" id="flag-track"></div>
       </div>
     </nav>
 
@@ -34,8 +36,7 @@
 
           <form class="hero-search" id="hero-search-form">
             <label class="sr-only" for="hero-search">Search aircraft</label>
-            <input id="hero-search" type="search" placeholder="Search F-16, Rafale, J-20, Apache...">
-            <button type="submit">Search</button>
+            <input id="hero-search" type="search" placeholder="F-16, F-15, Rafale, J-20">
           </form>
 
           <div class="stats" aria-label="Aircraft stats">
@@ -67,7 +68,7 @@
         </div>
 
         <div class="toolbar" aria-label="Aircraft search and filters">
-          <input id="search-input" type="search" placeholder="Search F-16, F-15, F-4, Rafale, J-20...">
+          <input id="search-input" class="sr-only" type="search" placeholder="Search F-16, F-15, F-4, Rafale, J-20..." tabindex="-1" aria-hidden="true">
           <select id="type-filter" aria-label="Filter by type">
             <option value="">All types</option>
           </select>
@@ -121,7 +122,6 @@
           </p>
           <div class="source-actions">
             <a class="button primary" href="https://query.wikidata.org/">Wikidata Query Service</a>
-            <a class="button secondary" href="MILIPEDIA_PLAN.md">Project Plan</a>
           </div>
         </div>
       </section>
@@ -153,6 +153,6 @@
       </article>
     </template>
 
-    <script src="js/app.js?v=designation-search" defer></script>
+    <script src="js/app.js?v=front-page-polish" defer></script>
   </body>
 </html>
