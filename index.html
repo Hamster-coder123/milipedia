@@ -8,7 +8,7 @@
       name="description"
       content="Milipedia is a modern encyclopedia for post-1945 military aircraft."
     >
-    <link rel="stylesheet" href="styles.css?v=hero-flag-ribbon">
+    <link rel="stylesheet" href="styles.css?v=hero-flag-ribbon-globe">
   </head>
   <body>
     <nav class="nav" aria-label="Primary navigation">
@@ -25,6 +25,9 @@
       <section class="hero" id="home">
         <div class="flag-marquee hero-flag-ribbon" aria-label="Aircraft countries">
           <div class="flag-track" id="flag-track"></div>
+        </div>
+        <div class="hero-globe" aria-hidden="true">
+          <canvas class="hero-globe-canvas" id="hero-globe-canvas"></canvas>
         </div>
         <div class="hero-content reveal">
           <p class="kicker">100 post-1945 production military aircraft.</p>
@@ -133,6 +136,6 @@
       </article>
     </template>
 
-    <script src="js/app.js?v=hero-flag-ribbon" defer></script>
+    <script src="js/app.js?v=hero-flag-ribbon-globe" defer></script>
   </body>
 </html>

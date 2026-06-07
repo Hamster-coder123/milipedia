@@ -394,7 +394,13 @@ function renderCountryFlagFilters() {
       if (!asset) return "";
       const srcset = asset.srcset ? ` srcset="${escapeHtml(asset.srcset)}"` : "";
       return `
-        <button type="button" class="country-flag-button" data-country="${escapeHtml(country)}" title="${escapeHtml(country)}">
+        <button
+          type="button"
+          class="country-flag-button"
+          data-country="${escapeHtml(country)}"
+          title="${escapeHtml(country)}"
+          aria-label="${escapeHtml(country)}"
+        >
           <img
             src="${escapeHtml(asset.src)}"${srcset}
             alt=""
@@ -402,18 +408,11 @@ function renderCountryFlagFilters() {
             decoding="async"
             referrerpolicy="no-referrer"
           >
-          <span>${escapeHtml(country)}</span>
         </button>
       `;
     })
     .join("");
-
-  els.countryFlagFilters.innerHTML = `
-    <button type="button" class="country-flag-button all-origins" data-country="">
-      <span>All origins</span>
-    </button>
-    ${items}
-  `;
+  els.countryFlagFilters.innerHTML = items;
   syncCountryFlagFilters();
 }
 
@@ -421,10 +420,171 @@ function syncCountryFlagFilters() {
   if (!els.countryFlagFilters) return;
   const activeCountry = state.filters.country;
   els.countryFlagFilters.querySelectorAll("[data-country]").forEach((button) => {
-    const isActive = button.dataset.country === activeCountry || (!activeCountry && button.dataset.country === "");
+    const isActive = button.dataset.country === activeCountry;
     button.classList.toggle("active", isActive);
     button.setAttribute("aria-pressed", isActive ? "true" : "false");
   });
+}
+
+function initHeroGlobe() {
+  const canvas = document.querySelector("#hero-globe-canvas");
+  if (!canvas) return;
+  const context = canvas.getContext("2d");
+  if (!context) return;
+
+  let width = 0;
+  let height = 0;
+  let radius = 0;
+  let dpr = 1;
+  let starPoints = [];
+
+  const resize = () => {
+    width = Math.max(canvas.clientWidth, 1);
+    height = Math.max(canvas.clientHeight, 1);
+    dpr = Math.min(window.devicePixelRatio || 1, 2);
+    canvas.width = Math.round(width * dpr);
+    canvas.height = Math.round(height * dpr);
+    context.setTransform(dpr, 0, 0, dpr, 0, 0);
+    radius = Math.min(width, height) * 0.33;
+    starPoints = Array.from({ length: 170 }, (_, index) => {
+      const phi = Math.acos(1 - (2 * (index + 0.5)) / 170);
+      const theta = Math.PI * (1 + Math.sqrt(5)) * (index + 0.5);
+      return {
+        x: radius * Math.cos(theta) * Math.sin(phi),
+        y: radius * Math.cos(phi),
+        z: radius * Math.sin(theta) * Math.sin(phi)
+      };
+    });
+  };
+
+  const rotatePoint = (point, rotation) => {
+    let { x, y, z } = point;
+
+    const cosY = Math.cos(rotation.y);
+    const sinY = Math.sin(rotation.y);
+    [x, z] = [x * cosY - z * sinY, x * sinY + z * cosY];
+
+    const cosX = Math.cos(rotation.x);
+    const sinX = Math.sin(rotation.x);
+    [y, z] = [y * cosX - z * sinX, y * sinX + z * cosX];
+
+    const cosZ = Math.cos(rotation.z);
+    const sinZ = Math.sin(rotation.z);
+    [x, y] = [x * cosZ - y * sinZ, x * sinZ + y * cosZ];
+
+    return { x, y, z };
+  };
+
+  const projectPoint = (point) => {
+    const perspective = 1 + point.z / (radius * 3.8);
+    return {
+      x: width / 2 + point.x * perspective,
+      y: height / 2 + point.y * perspective,
+      z: point.z
+    };
+  };
+
+  const drawPath = (points, rotation, frontAlpha, backAlpha, lineWidth = 1) => {
+    for (let index = 0; index < points.length; index += 1) {
+      const current = projectPoint(rotatePoint(points[index], rotation));
+      const next = projectPoint(rotatePoint(points[(index + 1) % points.length], rotation));
+      const alpha = (current.z + next.z) * 0.5 >= 0 ? frontAlpha : backAlpha;
+      context.strokeStyle = `rgba(255, 255, 255, ${alpha})`;
+      context.lineWidth = lineWidth;
+      context.beginPath();
+      context.moveTo(current.x, current.y);
+      context.lineTo(next.x, next.y);
+      context.stroke();
+    }
+  };
+
+  const latitudePoints = (latitude) => {
+    const points = [];
+    const lat = (latitude * Math.PI) / 180;
+    for (let step = 0; step < 96; step += 1) {
+      const angle = (step / 96) * Math.PI * 2;
+      points.push({
+        x: radius * Math.cos(angle) * Math.cos(lat),
+        y: radius * Math.sin(lat),
+        z: radius * Math.sin(angle) * Math.cos(lat)
+      });
+    }
+    return points;
+  };
+
+  const longitudePoints = (longitude) => {
+    const points = [];
+    const lon = (longitude * Math.PI) / 180;
+    for (let step = 0; step < 96; step += 1) {
+      const angle = (step / 96) * Math.PI * 2;
+      points.push({
+        x: radius * Math.cos(angle) * Math.cos(lon),
+        y: radius * Math.sin(angle),
+        z: radius * Math.cos(angle) * Math.sin(lon)
+      });
+    }
+    return points;
+  };
+
+  const resizeObserver = "ResizeObserver" in window ? new ResizeObserver(resize) : null;
+  resize();
+  resizeObserver?.observe(canvas);
+  window.addEventListener("resize", resize, { passive: true });
+
+  const baseRotation = { x: 0.42, y: 0, z: -0.24 };
+  let previousTime = performance.now();
+
+  const animate = (time) => {
+    const delta = Math.min((time - previousTime) / 1000, 0.05);
+    previousTime = time;
+    baseRotation.y += delta * 0.42;
+    baseRotation.z = -0.24 + Math.sin(time * 0.00024) * 0.03;
+
+    context.clearRect(0, 0, width, height);
+
+    const radial = context.createRadialGradient(width / 2, height / 2, radius * 0.14, width / 2, height / 2, radius * 1.1);
+    radial.addColorStop(0, "rgba(255,255,255,0.06)");
+    radial.addColorStop(0.55, "rgba(255,255,255,0.02)");
+    radial.addColorStop(1, "rgba(255,255,255,0)");
+    context.fillStyle = radial;
+    context.beginPath();
+    context.arc(width / 2, height / 2, radius * 1.08, 0, Math.PI * 2);
+    context.fill();
+
+    context.strokeStyle = "rgba(255,255,255,0.28)";
+    context.lineWidth = 1.2;
+    context.beginPath();
+    context.arc(width / 2, height / 2, radius, 0, Math.PI * 2);
+    context.stroke();
+
+    [-60, -30, 0, 30, 60].forEach((latitude) => {
+      drawPath(latitudePoints(latitude), baseRotation, latitude === 0 ? 0.36 : 0.28, 0.08, latitude === 0 ? 1.3 : 1);
+    });
+
+    [0, 30, 60, 90, 120, 150].forEach((longitude) => {
+      drawPath(longitudePoints(longitude), baseRotation, 0.28, 0.08, longitude % 90 === 0 ? 1.25 : 1);
+    });
+
+    context.fillStyle = "rgba(255,255,255,0.34)";
+    starPoints.forEach((point) => {
+      const projected = projectPoint(rotatePoint(point, baseRotation));
+      const size = projected.z >= 0 ? 1.6 : 0.9;
+      context.fillRect(projected.x, projected.y, size, size);
+    });
+
+    const axisTop = projectPoint(rotatePoint({ x: 0, y: -radius * 1.15, z: 0 }, { ...baseRotation, z: baseRotation.z + 0.5 }));
+    const axisBottom = projectPoint(rotatePoint({ x: 0, y: radius * 1.15, z: 0 }, { ...baseRotation, z: baseRotation.z + 0.5 }));
+    context.strokeStyle = "rgba(255,255,255,0.16)";
+    context.lineWidth = 1;
+    context.beginPath();
+    context.moveTo(axisTop.x, axisTop.y);
+    context.lineTo(axisBottom.x, axisBottom.y);
+    context.stroke();
+
+    window.requestAnimationFrame(animate);
+  };
+
+  window.requestAnimationFrame(animate);
 }
 
 function setupEvents() {
@@ -540,6 +700,7 @@ async function init() {
     els.grid.innerHTML = `<div class="empty-state">${error.message}</div>`;
   }
 
+  initHeroGlobe();
   setupRevealAnimations();
 }
 
