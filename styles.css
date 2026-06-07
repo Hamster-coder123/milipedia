@@ -73,19 +73,18 @@ select {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 12px;
+  gap: 9px;
   font-size: 0.96rem;
   font-weight: 700;
   text-decoration: none;
 }
 
 .brand-logo {
-  display: block;
-  width: 32px;
-  height: 32px;
-  border-radius: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #fff;
   object-fit: cover;
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
 }
 
 .nav-links {
@@ -147,10 +146,12 @@ select {
 
 .hero-logo {
   display: block;
-  width: clamp(168px, 18vw, 244px);
+  width: clamp(124px, 14vw, 180px);
   height: auto;
-  margin: 0 auto 18px;
-  filter: drop-shadow(0 26px 56px rgba(0, 0, 0, 0.52));
+  margin: 0 auto 20px;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0 28px 90px rgba(0, 0, 0, 0.5);
 }
 
 .kicker {
@@ -960,17 +961,9 @@ dd {
 }
 
 .source-panel {
-  display: grid;
-  grid-template-columns: minmax(0, 1.25fr) minmax(260px, 0.75fr);
-  gap: clamp(24px, 4vw, 52px);
-  align-items: center;
   padding: clamp(28px, 6vw, 64px);
   background: #f5f5f7;
   color: #000;
-}
-
-.source-panel-copy {
-  min-width: 0;
 }
 
 .source-panel p {
@@ -978,23 +971,6 @@ dd {
   color: #424245;
   font-size: 1.18rem;
   font-weight: 500;
-}
-
-.source-panel-brand {
-  display: flex;
-  justify-content: flex-end;
-  margin: 0;
-}
-
-.source-panel-brand img {
-  display: block;
-  width: min(100%, 360px);
-  height: auto;
-  padding: 0;
-  background: transparent;
-  border-radius: 0;
-  box-shadow: none;
-  filter: drop-shadow(0 20px 42px rgba(0, 0, 0, 0.16));
 }
 
 .source-panel .button.secondary {
@@ -1382,8 +1358,8 @@ h2 {
   min-width: 100%;
   height: 100%;
   align-items: center;
-  gap: 0;
-  padding-inline: 0;
+  gap: clamp(14px, 2vw, 28px);
+  padding-inline: clamp(20px, 4vw, 56px);
   opacity: 0.42;
   filter: saturate(0.92) brightness(0.84) contrast(1.12);
   animation: flagMarquee 58s linear infinite;
@@ -1400,6 +1376,7 @@ h2 {
   align-items: center;
   min-height: 0;
   padding: 0;
+  border-radius: 18px;
   color: rgba(255, 255, 255, 0.78) !important;
   background: transparent !important;
   font-size: 0.74rem;
@@ -1413,9 +1390,11 @@ h2 {
   width: clamp(132px, 16vw, 238px);
   height: clamp(86px, 10.5vw, 154px);
   object-fit: cover;
-  border-radius: 0;
-  border: 0;
-  box-shadow: none;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow:
+    0 18px 40px rgba(0, 0, 0, 0.34),
+    0 0 0 1px rgba(255, 255, 255, 0.03) inset;
   image-rendering: auto;
   transform: translateZ(0);
   backface-visibility: hidden;
@@ -1456,8 +1435,9 @@ h2 {
 }
 
 .hero-logo {
-  width: clamp(160px, 14vw, 220px);
+  width: clamp(82px, 8vw, 124px);
   margin-bottom: 16px;
+  border-radius: 18px;
 }
 
 .kicker {
@@ -1492,10 +1472,12 @@ h1 {
   margin-top: 24px;
   padding: 0;
   overflow: hidden;
-  background: rgba(72, 72, 76, 0.88) !important;
+  background: rgba(82, 82, 88, 0.74) !important;
   border: 0 !important;
   border-radius: 999px !important;
-  box-shadow: none !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.06) !important;
 }
 
 .hero-search input {
@@ -1503,8 +1485,6 @@ h1 {
   min-height: 58px;
   padding: 0 24px;
   text-align: center;
-  border: 0 !important;
-  background: transparent !important;
 }
 
 .hero-search input::placeholder,
@@ -1573,11 +1553,6 @@ h1 {
     gap: 14px;
   }
 
-  .brand-logo {
-    width: 30px;
-    height: 30px;
-  }
-
   .nav-links a {
     display: inline-flex !important;
   }
@@ -1592,7 +1567,7 @@ h1 {
   }
 
   .flag-track {
-    gap: 0;
+    gap: 14px;
     opacity: 0.22;
     animation-duration: 42s;
   }
@@ -1612,7 +1587,7 @@ h1 {
   }
 
   .hero-logo {
-    width: 156px;
+    width: 78px;
     margin-bottom: 14px;
   }
 
@@ -1642,21 +1617,6 @@ h1 {
 
   .stats {
     grid-template-columns: repeat(3, 1fr) !important;
-  }
-
-  .source-panel {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-
-  .source-panel-brand {
-    justify-content: center;
-  }
-
-  .source-panel-brand img {
-    width: min(100%, 280px);
-    padding: 0;
-    border-radius: 0;
   }
 
   .stats div {
