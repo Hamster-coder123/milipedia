@@ -53,6 +53,15 @@ const COUNTRY_FLAGS = {
   "United States": { code: "us" }
 };
 
+function flagAsset(flag) {
+  if (!flag) return null;
+  if (flag.url) return { src: flag.url, srcset: "" };
+  return {
+    src: `https://flagcdn.com/${flag.code}.svg`,
+    srcset: `https://flagcdn.com/w320/${flag.code}.png 1x, https://flagcdn.com/w640/${flag.code}.png 2x`
+  };
+}
+
 function normalize(value) {
   return String(value || "").toLowerCase();
 }
@@ -435,11 +444,18 @@ function renderFlagMarquee() {
     .map((country) => {
       const flag = COUNTRY_FLAGS[country];
       if (!flag) return "";
-      const src = flag.url || `https://flagcdn.com/w40/${flag.code}.png`;
-      const srcset = flag.url ? "" : ` srcset="https://flagcdn.com/w80/${flag.code}.png 2x"`;
+      const asset = flagAsset(flag);
+      if (!asset) return "";
+      const srcset = asset.srcset ? ` srcset="${escapeHtml(asset.srcset)}"` : "";
       return `
         <span class="flag-chip" title="${escapeHtml(country)}">
-          <img src="${escapeHtml(src)}"${srcset} alt="${escapeHtml(country)} flag">
+          <img
+            src="${escapeHtml(asset.src)}"${srcset}
+            alt="${escapeHtml(country)} flag"
+            loading="eager"
+            decoding="async"
+            referrerpolicy="no-referrer"
+          >
         </span>
       `;
     })
