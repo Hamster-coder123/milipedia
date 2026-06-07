@@ -1,0 +1,138 @@
+# Public Perception Research: Northrop F-5
+
+Aircraft: Northrop F-5A/B Freedom Fighter, F-5E/F Tiger II, F-5N/F adversary aircraft.
+
+This file is reputation research for the F-5 article. It separates verified facts from public language, pilot and maintainer opinion, fan claims, simulator/game discussion, jokes, and disputed stories. Social-media claims are used only as evidence of public perception.
+
+## 1. General Public Reputation
+
+The F-5 is commonly viewed as the small, practical, inexpensive Cold War fighter that became more famous as a teacher and stand-in opponent than as a front-line U.S. combat aircraft. Official and museum sources repeatedly describe the type around low cost, ease of maintenance, versatility, small size, and aggressor/adversary training value. The U.S. Navy's current F-5N/F page lists the aircraft's primary function as adversary fighter and describes it as providing simulated air-to-air combat training against current threat-aircraft behavior: https://www.navair.navy.mil/product/F-5-Tiger-II
+
+Among aviation fans, the reputation is warmer and more affectionate: compact, nimble, honest, export-friendly, and visually clean. It is also treated as "old but still useful" because the Navy and Marine Corps continue to use F-5N/F aircraft for adversary work and because NAVAIR is modernizing and adding former Swiss aircraft to the adversary fleet: https://www.navair.navy.mil/news/Navys-F-5-modernization-program-completes-engineering-phase-and-moves-production-and
+
+The main criticism is that the F-5 is limited by age, small radar and avionics in older variants, short range, modest payload, and a lack of modern beyond-visual-range capability unless upgraded. Public praise often focuses on dogfighting and simplicity; technical sources require that to be narrowed by variant, mission, training rules, weapons, support, and era.
+
+## 2. Social Media Reputation
+
+Social-media and forum discussion tends to cluster around four themes:
+
+| Source type | Recurring public view | Treatment |
+| --- | --- | --- |
+| Reddit / fighter-jet forums | The F-5 is a cheap, dependable, easy-to-work-on light fighter and a spiritual predecessor to later export fighters such as the F-16, Gripen, FA-50, or JF-17. | Public opinion. Useful for reputation wording, not proof of technical equivalence. Example Reddit thread: https://www.reddit.com/r/FighterJets/comments/1t392as/what_inservice_fighter_jet_do_you_consider_as_the/ |
+| DCS and War Thunder communities | The F-5 is simple, nimble, satisfying in close-in fighting, but held back by weak engines, simple missiles, and limited systems. | Simulator/game opinion. Useful for fan reputation; not real-world performance evidence. Example DCS thread: https://www.reddit.com/r/hoggit/comments/cy3sxo/f5e_tiger_iimig28_questions/ |
+| Aviation meme communities | The F-5 is joked about as the "real MiG-28" from Top Gun, or as a cheap fighter that embarrasses the MiG-21 in dogfight stories. | Meme/fan framing. Requires caveats. Example: https://www.reddit.com/r/FighterJets/comments/17n1092 |
+| Defense-commentary communities | Modernization and Swiss-aircraft purchases are read as proof that the F-5 remains cost-effective for red-air training. | Public interpretation of real procurement. Verify with NAVAIR before stating facts. Example thread: https://www.reddit.com/r/LessCredibleDefence/comments/ptppwz/us_navy_confirms_purchase_of_additional_22_f5e/ |
+
+Common phrases: "MiG-28," "aggressor," "little tiger," "cheap and cheerful," "simple," "nimble," "tiny," "underrated," "fighter for small air forces," and "old but still useful."
+
+## 3. What the Aircraft Is Known For
+
+- Low-cost, maintainable export fighter concept. The National Museum of the U.S. Air Force describes the F-5 as combining low cost, ease of maintenance, and versatility, and says the USAF procured more than 2,000 for allied nations: https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196074/northrop-yf-5a-freedom-fighter/
+- "Skoshi Tiger" combat evaluation in Vietnam, 1965-1967. The USAF museum says the 4503rd Tactical Fighter Squadron combat tested the F-5 in Vietnam and later trained South Vietnamese pilots before turning aircraft over to the VNAF: https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196074/northrop-yf-5a-freedom-fighter/
+- Simulated MiG-21 and aggressor role. Hill Aerospace Museum says the F-5E was most well known for simulating MiG-21s at Nellis and for training in aerial combat skills and Soviet tactics: https://www.aerospaceutah.org/museum/our-collections/aircraft-collection/f-5e-tiger-ii/
+- TOPGUN and adversary training. A Department of War TOPGUN page says adversary students are primarily F-5 Tiger II pilots who learn to replicate foreign capabilities and tactics: https://www.war.gov/serve-from-netstorage/multimedia/experience/Top-Gun-The-Edge-of-Aviation/index.html
+- Pop-culture role as the fictional MiG-28 in Top Gun. War History Online notes that the MiG-28 did not exist and that Northrop F-5s portrayed it in the 1986 movie: https://www.warhistoryonline.com/aircraft/mig-28-top-gun.html
+- Swiss Patrouille Suisse public visibility. Swissinfo describes Patrouille Suisse as a Swiss Air Force display team and a public trademark for Swiss aviation; its F-5 use also means crashes or retirement debates receive public attention: https://www.swissinfo.ch/eng/society/netherlands-accident_pilot-error-caused-2016-collision-between-two-swiss-jets/44857536
+
+## 4. Conflict Impact
+
+### Conflict: Vietnam War / Skoshi Tiger
+
+The F-5's Vietnam role was not a decisive air-superiority transformation. It mattered because it gave the United States and allied air forces combat experience with a small, export-focused light fighter. The USAF museum states that the 4503rd Tactical Fighter Squadron tested the F-5 in Vietnam in 1965-1967 and later trained South Vietnamese pilots before the aircraft were transferred to the VNAF. Verified impact: combat evaluation, allied training, and South Vietnamese service. Public exaggeration: presenting Skoshi Tiger as if the F-5 was a major U.S. air-war platform comparable to the F-4 or F-105.
+
+### Conflict: Ogaden War
+
+The F-5 has a stronger air-combat reputation from Ethiopia's use against Somali aircraft in the Ogaden War. A University of Florida thesis on Ethiopian airpower says Somali MiG-21s were not nearly as maneuverable as Ethiopian F-5s, giving Ethiopian pilots a clear advantage in aerial combat, and describes F-5A/E attacks as damaging and demoralizing to Somali forces. It also says Ethiopian radar support helped F-5E pilots intercept Somali MiGs: https://ufdcimages.uflib.ufl.edu/UF/E0/04/50/70/00001/SCHAEFER_S.pdf
+
+This supports a narrow article claim: in one regional war, F-5s helped Ethiopia contest and gain air superiority against Somali aircraft under specific training, radar, pilot-skill, and tactical conditions. It does not prove that every F-5 variant was generally superior to every MiG-21 variant in all contexts.
+
+## 5. Comparisons People Commonly Make
+
+| Compared aircraft | Why they are compared | Common public view | Notes |
+| --- | --- | --- | --- |
+| MiG-21 | Similar size, era, export role, and F-5 aggressor use as a MiG-21 surrogate. | F-5 fans often argue the Tiger is easier to fly and better in close maneuvering; MiG-21 fans emphasize speed and interceptor role. | Verified only when narrowed to variants and conditions. The F-5 was used as a MiG-21 simulator in training, and Ethiopian F-5s had advantages in the Ogaden War under specific conditions. |
+| F-16 Fighting Falcon | Lightweight-fighter lineage, export scale, and the F-20/F-16 debate. | Many fans call the F-16 the F-5's spiritual successor; others argue the F-16 killed the F-20 export opportunity. | Public debate, not a simple replacement relationship. |
+| Saab JAS 39 Gripen / FA-50 / JF-17 | Modern small-fighter export market and ease-of-support comparisons. | Fans look for a modern "F-5-like" aircraft: affordable, easy to sustain, and useful for smaller air forces. | Mostly public analogy. Mission systems and era are very different. |
+| A-4 Skyhawk | Both were small adversary-training aircraft used as threat stand-ins. | A-4 is often tied to MiG-17-style training; F-5 to MiG-21-style training. | Popular Mechanics describes A-4/TA-4 as MiG-17 stand-ins and F-5 as a good MiG-21 replacement: https://www.popularmechanics.com/military/aviation/a36524150/topgun-history/ |
+| T-38 Talon | Related Northrop design and similar appearance. | Public often confuses or links the two; F-5 is the armed fighter family and T-38 the trainer lineage. | Background relationship; avoid treating them as interchangeable aircraft. |
+
+## 6. Supporters vs Critics
+
+### Supporters usually say:
+
+- The F-5 is small, cheap, reliable, and easy to maintain.
+- It teaches pilots well because it rewards energy management and visual fighting rather than reliance on complex systems.
+- It remains valuable because aggressor squadrons need affordable aircraft that can represent adversary behavior.
+- In the right conditions, it was a serious close-in opponent to MiG-21-class aircraft.
+- Its clean lines, small size, and Top Gun association make it one of the most recognizable light fighters.
+
+### Critics usually say:
+
+- It is old, short-ranged, and limited by small-airframe payload and fuel.
+- Older variants have weak radar, avionics, and missile options compared with modern fighters.
+- Its public reputation overstates dogfighting while underplaying sensors, weapons, logistics, and rules of engagement.
+- Its combat history is uneven: important in export and regional contexts, but not a dominant U.S. front-line fighter.
+- Aging fleets have safety and sustainment issues, especially in air forces still operating older F-5E/F aircraft.
+
+Backed by sources: low cost, maintainability, export use, aggressor training, Skoshi Tiger, TOPGUN/adversary role, NAVAIR modernization, and the Ogaden air-war advantages. Mostly opinion: spiritual-successor arguments, "best light fighter" claims, simulator performance claims, and F-20/F-16 blame narratives.
+
+## 7. Myths, Memes, and Exaggerations
+
+| Claim | Public source type | Accuracy |
+| --- | --- | --- |
+| "The MiG-28 was real." | Top Gun fandom and casual aviation posts. | False. MiG-28 was fictional; F-5s portrayed it in the movie. |
+| "The F-5 always beats the MiG-21." | Reddit, War Thunder, DCS, defense blogs. | Exaggerated. Some Soviet-test and Ogaden narratives favor the F-5 in close-in conditions, but results depend on variant, altitude, speed, pilot, radar support, weapons, and rules. |
+| "The F-5 is obsolete and useless." | Modern-fighter comparison threads. | Overstated. It is obsolete as a front-line high-end fighter but remains useful enough for adversary training to receive U.S. Navy/Marine Corps modernization attention. |
+| "The F-5 is just a trainer." | Casual comments caused by T-38 similarity. | Misleading. It is a fighter family related to the T-38 lineage, and the F-5N/F serves as an adversary fighter in Navy/Marine Corps inventory. |
+| "The F-20 would have replaced everything if politics had not killed it." | Fighter forums and F-20 nostalgia posts. | Disputed fan/debate claim. The F-20 was an advanced F-5 derivative, but procurement outcomes involved cost, policy, existing F-16 programs, customer confidence, and export politics. |
+
+## 8. Unofficial Incidents and Stories
+
+| Date | Location | What happened | Why it is notable | Source |
+| --- | --- | --- | --- | --- |
+| 1965-1967 | South Vietnam | F-5s were combat-tested under Skoshi Tiger and then used to train South Vietnamese pilots before transfer to the VNAF. | Built the aircraft's "little tiger" combat-test reputation. | USAF museum: https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196074/northrop-yf-5a-freedom-fighter/ |
+| 1977-1978 | Ogaden region | Ethiopian F-5A/E aircraft attacked Somali forces and engaged Somali MiG-17/21 aircraft. | A major source of the F-5-versus-MiG-21 reputation. | University of Florida thesis: https://ufdcimages.uflib.ufl.edu/UF/E0/04/50/70/00001/SCHAEFER_S.pdf |
+| 1986 | Top Gun film production and release | U.S. Navy F-5s portrayed the fictional black MiG-28. | The F-5's largest pop-culture identity; many non-specialists know the aircraft through the fictional adversary. | War History Online: https://www.warhistoryonline.com/aircraft/mig-28-top-gun.html |
+| 9 June 2016 | Leeuwarden, Netherlands | Two Swiss Patrouille Suisse F-5 aircraft collided during airshow training; one crashed and one landed damaged. | Connected the aging F-5 to public display-team risk and Swiss retirement debate. | Swissinfo: https://www.swissinfo.ch/eng/society/netherlands-accident_pilot-error-caused-2016-collision-between-two-swiss-jets/44857536 |
+| 2020-2024 | Switzerland / United States | The U.S. Navy and Switzerland arranged transfer and modernization of 22 former Swiss F-5E/F aircraft for Navy and Marine Corps adversary fleets. | Shows continuing adversary value despite aircraft age. | NAVAIR: https://www.navair.navy.mil/news/ARTEMIS-program-receives-first-repatriated-Swiss-F-5/Thu-04042024-1256?page=1 |
+
+## 9. How Opponents Perceived It
+
+The best-supported opponent-perception material is indirect rather than a large body of enemy pilot quotations.
+
+- Somali forces in the Ogaden War faced Ethiopian F-5 attacks and interceptions. The University of Florida thesis describes Somali ground forces requesting air cover because of continuous Ethiopian air attack, while Somali MiGs struggled against the Ethiopian F-5s under the conditions of the campaign. This supports a fear/respect reading for that conflict but should not be turned into a universal claim.
+- Soviet/Warsaw Pact evaluation stories about captured South Vietnamese F-5s are widely repeated. The Aviationist reports that F-5s captured after the fall of South Vietnam were tested in the USSR against MiG-21s and that Soviet pilots were reportedly impressed. This is useful but should be labeled as reported and secondary-source material, not as an official declassified Soviet test report: https://theaviationist.com/2017/06/14/russian-video-of-captured-u-s-f-5a-tiger-jet-dogfighting-against-mig-21-in-tests-raises-question-do-they-still-operate-american-jets/
+- In U.S. training, the F-5's "opponent" identity is deliberate: it is valued because it can replicate threat-aircraft tactics and give fleet pilots a demanding visual adversary.
+
+## 10. Overall Reputation Summary
+
+Officially, the F-5 is known as a low-cost, maintainable, versatile light fighter built for allied export and later used heavily in aggressor/adversary training. Unofficially, it is known as the "MiG-28," a compact dogfighter, a favorite of DCS/War Thunder and aviation-forum discussions, and a symbol of the idea that small, simple aircraft can still teach important lessons.
+
+Fans exaggerate its dogfighting record into universal superiority over the MiG-21 and sometimes treat the F-20 as a lost miracle fighter. Critics exaggerate its age into uselessness, ignoring its continuing red-air training role and modernization. A neutral Milipedia section should describe the F-5 as a respected small fighter whose greatest public identity comes from export practicality, aggressor work, Top Gun pop culture, and selective but important combat stories.
+
+## Useful for Milipedia
+
+- The F-5's reputation centers on low cost, easy maintenance, small size, export use, aggressor training, and the fictional MiG-28 identity.
+- "MiG-28" should be described as pop-culture shorthand, not a real designation.
+- Common public comparisons are MiG-21, F-16, Gripen, FA-50/T-50, JF-17, A-4, and T-38.
+- The strongest conflict reputation comes from Ethiopia's F-5 use in the Ogaden War, but claims should be narrowed by conditions and sources.
+- The aircraft remains relevant in public discussion because the U.S. Navy and Marine Corps still use and modernize F-5N/F adversary aircraft.
+- Myths to avoid: "always beats MiG-21," "just a trainer," "obsolete means useless," and "MiG-28 was real."
+
+## Sources Used In This Research
+
+- NAVAIR F-5 Tiger II product page: https://www.navair.navy.mil/product/F-5-Tiger-II
+- NAVAIR F-5 modernization program: https://www.navair.navy.mil/news/Navys-F-5-modernization-program-completes-engineering-phase-and-moves-production-and
+- NAVAIR ARTEMIS first repatriated Swiss F-5: https://www.navair.navy.mil/news/ARTEMIS-program-receives-first-repatriated-Swiss-F-5/Thu-04042024-1256?page=1
+- National Museum of the U.S. Air Force, Northrop YF-5A Freedom Fighter: https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196074/northrop-yf-5a-freedom-fighter/
+- Hill Aerospace Museum, Northrop F-5E Tiger II: https://www.aerospaceutah.org/museum/our-collections/aircraft-collection/f-5e-tiger-ii/
+- Department of War, Top Gun: The Edge of Aviation: https://www.war.gov/serve-from-netstorage/multimedia/experience/Top-Gun-The-Edge-of-Aviation/index.html
+- Popular Mechanics, Topgun and aggressor squadron history: https://www.popularmechanics.com/military/aviation/a36524150/topgun-history/
+- War History Online, MiG-28 and Top Gun: https://www.warhistoryonline.com/aircraft/mig-28-top-gun.html
+- University of Florida thesis, Ethiopian Airpower: https://ufdcimages.uflib.ufl.edu/UF/E0/04/50/70/00001/SCHAEFER_S.pdf
+- The Aviationist, captured F-5 testing story: https://theaviationist.com/2017/06/14/russian-video-of-captured-u-s-f-5a-tiger-jet-dogfighting-against-mig-21-in-tests-raises-question-do-they-still-operate-american-jets/
+- Swissinfo, 2016 Patrouille Suisse F-5 collision: https://www.swissinfo.ch/eng/society/netherlands-accident_pilot-error-caused-2016-collision-between-two-swiss-jets/44857536
+- Reddit, F-5 spiritual successor discussion: https://www.reddit.com/r/FighterJets/comments/1t392as/what_inservice_fighter_jet_do_you_consider_as_the/
+- Reddit, F-5E / MiG-28 DCS discussion: https://www.reddit.com/r/hoggit/comments/cy3sxo/f5e_tiger_iimig28_questions/
+- Reddit, MiG-28 meme example: https://www.reddit.com/r/FighterJets/comments/17n1092
+- Reddit, F-5 modernization public discussion: https://www.reddit.com/r/LessCredibleDefence/comments/ptppwz/us_navy_confirms_purchase_of_additional_22_f5e/

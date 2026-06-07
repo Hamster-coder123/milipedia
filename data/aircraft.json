@@ -565,6 +565,13 @@
         "url": "http://www.taiwanairpower.org/af/f5.html",
         "publisher": "taiwanairpower.org",
         "note": "External source for Northrop F-5."
+      },
+      {
+        "id": "fn-public-perception",
+        "title": "F5.txt",
+        "url": "AIRCRAFT PUBLIC PERCEPTION/F5.txt",
+        "publisher": "Milipedia",
+        "note": "Local public perception file. Used for F-5 reputation terms, MiG-28 pop-culture context, aggressor/adversary identity, common comparisons, conflict-impact caveats, myths, memes, incidents, and opponent-perception summary."
       }
     ],
     "country_flags": [
@@ -675,6 +682,13 @@
         "url": "http://www.taiwanairpower.org/af/f5.html",
         "publisher": "taiwanairpower.org",
         "note": "External source for Northrop F-5."
+      },
+      {
+        "id": "fn-public-perception",
+        "title": "F5.txt",
+        "url": "AIRCRAFT PUBLIC PERCEPTION/F5.txt",
+        "publisher": "Milipedia",
+        "note": "Local public perception file. Used for F-5 reputation terms, MiG-28 pop-culture context, aggressor/adversary identity, common comparisons, conflict-impact caveats, myths, memes, incidents, and opponent-perception summary."
       }
     ],
     "external_articles": [
@@ -967,6 +981,86 @@
             "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
             "refs": [
               "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "public-perception",
+        "title": "Public Perception",
+        "paragraphs": [
+          {
+            "text": "The F-5's public reputation centers on its small size, low-cost export concept, easy-maintenance image, aggressor and adversary training career, and its pop-culture role as the fictional MiG-28 in Top Gun.",
+            "refs": [
+              "fn-public-perception"
+            ]
+          },
+          {
+            "text": "In aviation communities the aircraft is often described as nimble, simple, underrated, and old but still useful. The useful part is not only fan nostalgia: the U.S. Navy and Marine Corps still use F-5N/F aircraft for adversary training, and NAVAIR has added and modernized former Swiss F-5E/F aircraft for that role.",
+            "refs": [
+              "fn-public-perception"
+            ]
+          },
+          {
+            "text": "The strongest unofficial identity is the F-5 as an opponent. It has been used to simulate MiG-21-like threats in training, appears in TOPGUN discussion, and became the black MiG-28 in Top Gun. Those associations make the F-5 more recognizable to many non-specialists than its formal Freedom Fighter or Tiger II names.",
+            "refs": [
+              "fn-public-perception"
+            ]
+          },
+          {
+            "text": "Common comparisons pair the F-5 with the MiG-21, F-16, Saab Gripen, FA-50/T-50, JF-17, A-4 Skyhawk, and T-38 Talon. Public debate usually frames the F-5 as the small, affordable dogfighter, but exact claims depend on variant, pilot training, radar support, weapons, altitude, speed, rules of engagement, and mission.",
+            "refs": [
+              "fn-public-perception"
+            ]
+          },
+          {
+            "text": "Its combat reputation is more specific than the broad fan version. Skoshi Tiger gave the F-5 a Vietnam combat-test story, while Ethiopian F-5A/E use in the Ogaden War is often cited in F-5-versus-MiG-21 debates. The public-perception file treats those as important but condition-dependent examples, not proof of universal superiority over MiG-21-family aircraft.",
+            "refs": [
+              "fn-public-perception"
+            ]
+          },
+          {
+            "text": "Common myths and exaggerations include 'MiG-28 was real,' 'the F-5 always beats the MiG-21,' 'the F-5 is just a trainer,' and 'obsolete means useless.' A balanced view treats the F-5 as an aging light fighter whose front-line limits are real, but whose cultural and training value stayed unusually strong.",
+            "refs": [
+              "fn-public-perception"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "MiG-28",
+            "text": "Fictional Top Gun adversary portrayed by F-5 aircraft; not a real MiG designation."
+          },
+          {
+            "title": "Aggressor",
+            "text": "Core U.S. reputation role: a small fighter used to teach pilots against threat-style tactics."
+          },
+          {
+            "title": "Skoshi Tiger",
+            "text": "Vietnam combat-evaluation identity tied to the F-5's early U.S. combat-test story."
+          },
+          {
+            "title": "MiG-21 debate",
+            "text": "Popular comparison that must be narrowed by variant, tactics, training, and fight conditions."
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Supporters emphasize simplicity, low operating burden, agility, export success, and adversary-training usefulness.",
+            "refs": [
+              "fn-public-perception"
+            ]
+          },
+          {
+            "text": "Critics emphasize age, range, payload, radar, missile, survivability, and sustainment limits in modern front-line combat.",
+            "refs": [
+              "fn-public-perception"
+            ]
+          },
+          {
+            "text": "Opponent perception is best treated cautiously: Somali experience in the Ogaden War and reported Soviet tests of captured F-5s support respect for the aircraft, but not universal performance claims.",
+            "refs": [
+              "fn-public-perception"
             ]
           }
         ]
