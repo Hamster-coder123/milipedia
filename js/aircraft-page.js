@@ -504,7 +504,7 @@ const STATIC_ARTICLE_TEMPLATES = {
   },
   "f-4-phantom-ii": {
     title: "McDonnell Douglas F-4 Phantom II - Milipedia",
-    path: "data/f4-template.html?v=public-perception"
+    path: "data/f4-template.html?v=f4-expanded"
   },
   "f-15-eagle": {
     title: "McDonnell Douglas F-15 Eagle - Milipedia",
