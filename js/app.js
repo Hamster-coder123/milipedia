@@ -526,6 +526,55 @@ function initHeroGlobe() {
     return points;
   };
 
+  const geoPoint = (longitude, latitude, scale = 1) => {
+    const lon = (longitude * Math.PI) / 180;
+    const lat = (latitude * Math.PI) / 180;
+    return {
+      x: radius * scale * Math.cos(lat) * Math.cos(lon),
+      y: radius * scale * Math.sin(lat),
+      z: radius * scale * Math.cos(lat) * Math.sin(lon)
+    };
+  };
+
+  const geoPath = (coordinates, scale = 1.003) => coordinates.map(([longitude, latitude]) => geoPoint(longitude, latitude, scale));
+
+  const drawColoredPath = (points, rotation, frontStyle, backStyle, lineWidth = 1, closed = true) => {
+    const limit = closed ? points.length : points.length - 1;
+    for (let index = 0; index < limit; index += 1) {
+      const current = projectPoint(rotatePoint(points[index], rotation));
+      const next = projectPoint(rotatePoint(points[(index + 1) % points.length], rotation));
+      const front = (current.z + next.z) * 0.5 >= 0;
+      context.strokeStyle = front ? frontStyle : backStyle;
+      context.lineWidth = lineWidth;
+      context.beginPath();
+      context.moveTo(current.x, current.y);
+      context.lineTo(next.x, next.y);
+      context.stroke();
+    }
+  };
+
+  const landOutlines = [
+    geoPath([[-168, 72], [-150, 64], [-135, 57], [-126, 50], [-124, 42], [-117, 33], [-108, 28], [-98, 22], [-90, 18], [-82, 24], [-80, 31], [-75, 38], [-69, 46], [-60, 52], [-58, 60], [-72, 71], [-110, 72], [-140, 74], [-168, 72]]),
+    geoPath([[-81, 12], [-75, 8], [-72, 0], [-74, -10], [-70, -18], [-66, -30], [-60, -40], [-56, -50], [-52, -55], [-46, -52], [-42, -32], [-48, -18], [-54, -4], [-64, 6], [-72, 10], [-81, 12]]),
+    geoPath([[-52, 60], [-44, 66], [-40, 72], [-32, 76], [-22, 74], [-26, 66], [-36, 60], [-46, 58], [-52, 60]]),
+    geoPath([[-10, 35], [0, 43], [14, 50], [28, 58], [42, 62], [58, 58], [76, 56], [96, 62], [118, 54], [138, 50], [152, 44], [148, 34], [134, 28], [120, 22], [110, 16], [98, 10], [88, 18], [78, 24], [70, 28], [60, 30], [48, 32], [40, 36], [32, 34], [24, 30], [16, 32], [8, 40], [-2, 42], [-10, 35]]),
+    geoPath([[-18, 36], [-8, 32], [4, 26], [16, 16], [26, 4], [32, -10], [30, -22], [24, -34], [16, -35], [8, -30], [2, -22], [-4, -4], [-12, 12], [-16, 28], [-18, 36]]),
+    geoPath([[112, -12], [118, -20], [128, -25], [138, -34], [148, -39], [153, -30], [148, -20], [138, -16], [128, -14], [118, -12], [112, -12]]),
+    geoPath([[48, -14], [50, -20], [48, -24], [45, -20], [46, -15], [48, -14]]),
+    geoPath([[-10, 50], [2, 58], [16, 62], [24, 66], [36, 70], [48, 68], [54, 60], [48, 54], [36, 50], [24, 46], [12, 44], [0, 46], [-10, 50]])
+  ];
+
+  const borderLines = [
+    geoPath([[-125, 49], [-114, 49], [-104, 49], [-94, 49], [-84, 46], [-74, 45]], 1.004),
+    geoPath([[-108, 31], [-106, 28], [-104, 25], [-102, 23], [-100, 21], [-98, 19]], 1.004),
+    geoPath([[-69, -18], [-66, -24], [-64, -30], [-62, -38], [-60, -45]], 1.004),
+    geoPath([[-8, 37], [2, 36], [12, 36], [22, 38], [32, 42]], 1.004),
+    geoPath([[14, 22], [16, 12], [18, 2], [20, -8], [24, -18], [28, -28]], 1.004),
+    geoPath([[36, 30], [44, 28], [54, 26], [64, 24], [74, 24], [84, 26]], 1.004),
+    geoPath([[98, 28], [104, 34], [112, 38], [120, 42]], 1.004),
+    geoPath([[114, -22], [128, -26], [142, -29]], 1.004)
+  ];
+
   const resizeObserver = "ResizeObserver" in window ? new ResizeObserver(resize) : null;
   resize();
   resizeObserver?.observe(canvas);
@@ -543,7 +592,7 @@ function initHeroGlobe() {
     context.clearRect(0, 0, width, height);
 
     const radial = context.createRadialGradient(width / 2, height / 2, radius * 0.14, width / 2, height / 2, radius * 1.1);
-    radial.addColorStop(0, "rgba(255,255,255,0.06)");
+    radial.addColorStop(0, "rgba(180,196,214,0.08)");
     radial.addColorStop(0.55, "rgba(255,255,255,0.02)");
     radial.addColorStop(1, "rgba(255,255,255,0)");
     context.fillStyle = radial;
@@ -563,6 +612,14 @@ function initHeroGlobe() {
 
     [0, 30, 60, 90, 120, 150].forEach((longitude) => {
       drawPath(longitudePoints(longitude), baseRotation, 0.28, 0.08, longitude % 90 === 0 ? 1.25 : 1);
+    });
+
+    landOutlines.forEach((outline) => {
+      drawColoredPath(outline, baseRotation, "rgba(150, 166, 186, 0.42)", "rgba(150, 166, 186, 0.14)", 1.15);
+    });
+
+    borderLines.forEach((border) => {
+      drawColoredPath(border, baseRotation, "rgba(132, 146, 166, 0.32)", "rgba(132, 146, 166, 0.08)", 0.85, false);
     });
 
     context.fillStyle = "rgba(255,255,255,0.34)";
