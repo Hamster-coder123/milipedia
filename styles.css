@@ -142,12 +142,12 @@ select {
 
 .hero-globe {
   position: absolute;
-  top: 63%;
+  top: 75%;
   left: 50%;
   z-index: 1;
-  width: min(54vw, 620px);
-  height: min(54vw, 620px);
-  max-height: 46vh;
+  width: min(58vw, 660px);
+  height: min(58vw, 660px);
+  max-height: 50vh;
   pointer-events: none;
   opacity: 0.72;
   transform: translate(-50%, -50%);
@@ -357,7 +357,7 @@ h2 {
   width: 90px;
   height: 60px;
   border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 8px;
+  border-radius: 0;
   padding: 0;
   color: rgba(255, 255, 255, 0.74);
   background: rgba(255, 255, 255, 0.03);
@@ -1654,11 +1654,11 @@ h1 {
   }
 
   .hero-globe {
-    top: 61%;
+    top: 71%;
     left: 50%;
     width: min(90vw, 390px);
     height: min(90vw, 390px);
-    max-height: 34vh;
+    max-height: 36vh;
     opacity: 0.62;
   }
 
