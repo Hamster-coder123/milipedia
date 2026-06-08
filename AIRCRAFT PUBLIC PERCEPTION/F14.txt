@@ -1,0 +1,143 @@
+# Public Perception Research: Grumman F-14 Tomcat
+
+Research prompt used: `AUTOMATION PROMPTS/Research prompt.txt`, with the aircraft placeholder filled as "Grumman F-14 Tomcat".
+
+## 1. General Public Reputation
+
+The F-14 Tomcat has one of the strongest public reputations of any Cold War fighter. In general aviation culture it is treated as iconic, visually dramatic, and closely associated with U.S. Navy carrier aviation. The biggest drivers are its starring role in the 1986 film *Top Gun*, its variable-sweep wings, the two-person pilot/RIO crew arrangement, and the long-range AWG-9/AIM-54 Phoenix fleet-defense system. Northrop Grumman's own retrospective says *Top Gun* became a major hit and made the F-14 aviator job look like one of the most glamorous posts in naval aviation, while Smithsonian coverage describes the movie as having pushed the F-14 into public consciousness.
+
+Outside popular culture, aviation writers and former crews usually describe the Tomcat in a more balanced way: formidable in its original carrier-defense mission, adaptable late in life as a precision-strike "Bombcat", but large, complex, expensive, and maintenance-intensive. The U.S. Naval Institute's account of the final 2005-2006 cruise stresses that late F-14Ds were still useful in Iraq, but also records a maintenance burden around 60 maintenance man-hours per flight hour, compared with roughly 10 to 15 for Hornets on the same deployment.
+
+Sources:
+- https://www.northropgrumman.com/life-at-northrop-grumman/lights-camera-f-14-tomcat
+- https://www.smithsonianmag.com/smithsonian-institution/top-gun-is-back-but-is-the-elite-navy-fighter-pilot-school-really-like-the-movies-180980149/
+- https://www.usni.org/magazines/proceedings/2006/september/last-catfight
+
+## 2. Social Media Reputation
+
+On Reddit and simulator communities, the F-14 is usually discussed as a favorite rather than just another retired aircraft. Recurring themes include:
+
+- It is frequently called one of the most beautiful or charismatic fighters, especially because of its swing wings and wide carrier stance.
+- Fans often connect it to *Top Gun*, *The Final Countdown*, DCS/flight-sim modules, Macross/1980s pop culture, and the "Tomcat Tuesday" image-posting habit.
+- Flight-sim users debate whether the aircraft's reputation depends too much on the AIM-54 Phoenix, with some arguing that the missile makes the Tomcat famous and others emphasizing its turning behavior, crew coordination, endurance, and late-service strike role.
+- Many social posts romanticize the aircraft's retirement and compare it favorably with the F/A-18E/F Super Hornet, usually on range, aesthetics, and nostalgia. These are public-opinion claims, not a neutral performance ranking.
+
+Social-media source examples:
+- https://www.reddit.com/r/WarplanePorn/comments/1b0z1v0/the_cultural_impact_of_the_f14_tomcat_this_subs/
+- https://www.reddit.com/r/WarplanePorn/comments/yj08sg/
+- https://www.reddit.com/r/hoggit/comments/ci1xaa/is_the_f14_just_the_phoenix/
+- https://www.reddit.com/r/aviation/comments/tr1s5b/f14_tomcat_in_top_gun_maverick/
+
+## 3. What the Aircraft Is Known For
+
+The F-14 is most famous outside technical summaries for four things:
+
+1. **Top Gun identity.** *Top Gun* made the aircraft a public symbol of Navy fighter aviation. Northrop Grumman states that the film showcased the F-14, and Smithsonian describes the franchise as central to the aircraft's public image.
+2. **Variable-sweep wings.** The visual change between low-speed carrier operations and high-speed swept-wing flight is a major part of its fan appeal. NASA also used an F-14 for the Variable-Sweep Transition Flight Experiment because of its variable-sweep capability, Mach/Reynolds-number capability, and wing-pressure characteristics.
+3. **AWG-9 and AIM-54 Phoenix.** The F-14 is strongly associated with long-range carrier fleet defense. FAS describes the aircraft as able to track 24 targets and attack six with Phoenix missiles while continuing to scan.
+4. **Late "Bombcat" reinvention.** In the 1990s the Tomcat gained precision-strike capability through LANTIRN, night-vision, defensive-countermeasure, digital-flight-control, and JDAM-related upgrades.
+
+Sources:
+- https://man.fas.org/dod-101/sys/ac/f-14.htm
+- https://www.nasa.gov/image-article/f-14/
+- https://www.govexec.com/magazine/2000/08/from-tomcat-to-bombcat/7241/
+
+## 4. Conflict Impact
+
+### Conflict: Cold War Carrier Fleet Defense
+
+The F-14 was designed around the U.S. Navy's need to defend carrier groups against long-range Soviet missile aircraft. Its practical impact was deterrent and tactical rather than simply a record of air-to-air victories: it gave carrier air wings a long-range radar/missile system built to detect, track, and engage multiple threats before they reached the fleet. Official and museum sources consistently frame the AWG-9/Phoenix combination as central to the aircraft's identity.
+
+Confirmed facts: the aircraft was created after the F-111B failed to meet Navy requirements; first flight was in December 1970; initial operational deployments began in 1974; 712 were produced.
+
+Sources:
+- https://www.museumofflight.org/Exhibits-and-Events/Aircraft/grumman-f-14a-tomcat
+- https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-14a-tomcat.html
+
+### Conflict: Gulf of Sidra and Libya
+
+In U.S. service the F-14's most famous air-to-air moments were the Gulf of Sidra engagements. The National Naval Aviation Museum states that the F-14 first saw combat in August 1981, when Tomcats downed two Libyan Su-22 fighters. Smithsonian coverage of TOPGUN and the F-14 also describes the 19 August 1981 incident as part of the aircraft's feared reputation in Cold War carrier aviation.
+
+Sources:
+- https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-14a-tomcat.html
+- https://www.smithsonianmag.com/smithsonian-institution/top-gun-is-back-but-is-the-elite-navy-fighter-pilot-school-really-like-the-movies-180980149/
+
+### Conflict: Iran-Iraq War
+
+Iranian F-14s are a major part of the Tomcat's unofficial reputation because Iran was the only export customer and kept the type flying under difficult post-1979 parts and support constraints. The Imperial Iranian Air Force historical site describes Iran's selection of the Tomcat after concerns about high-speed MiG-25 overflights and an August 1973 decision to choose the F-14. Air-combat victory counts from the Iran-Iraq War vary widely by source and should be treated cautiously; many high kill totals come from pilot interviews, Iranian accounts, or secondary reconstructions rather than uniformly verifiable official records.
+
+Sources:
+- https://www.iiaf.net/f14/
+- https://csis-website-prod.s3.amazonaws.com/s3fs-public/legacy_files/files/media/csis/pubs/9005lessonsiraniraqii-chap13.pdf
+
+### Conflict: Iraq and Afghanistan, 1990s-2006
+
+Late in U.S. service the F-14 shifted from fleet-defense fighter to reconnaissance, surveillance, and precision-strike aircraft. USNI's final-cruise article records VF-31 and VF-213 flying 1,163 combat sorties and 6,876 flight hours from 5 October 2005 to 11 February 2006, using LANTIRN and ROVER video links in support of troops on the ground. This helped produce the "Bombcat" reputation, but it also highlighted why the aircraft was retired: effectiveness came with very high maintenance cost.
+
+Source:
+- https://www.usni.org/magazines/proceedings/2006/september/last-catfight
+
+## 5. Comparisons People Commonly Make
+
+| Compared Aircraft | Why They Are Compared | Common Public View | Notes |
+|---|---|---|---|
+| F/A-18E/F Super Hornet | Successor on U.S. carrier decks | Tomcat fans often prefer the F-14 for range, looks, and mystique; critics prefer the Super Hornet for maintainability and multirole practicality | USNI documents the maintenance burden that drove retirement, even while praising late Tomcat usefulness |
+| F-15 Eagle | Same-era U.S. air-superiority fighter, also considered by Iran | Public debates often frame the F-14 as the carrier/Phoenix specialist and the F-15 as the cleaner land-based air-superiority fighter | Iran considered both; the IIAF source says both were seen as leading candidates |
+| F-4 Phantom II | Predecessor in U.S. Navy fighter service | The F-14 is usually seen as the high-technology replacement that corrected fleet-defense and missile-era shortcomings | Museum sources tie the F-14 requirement to replacing the F-4 after the F-111B failure |
+| MiG-25 | High-speed Soviet interceptor/reconnaissance threat | In Iranian narratives, the MiG-25 threat is a reason the Shah's air arm wanted the F-14 | Treat specific MiG-25 encounter claims cautiously unless separately sourced |
+
+## 6. Supporters vs Critics
+
+### Supporters usually say:
+
+- The F-14 was uniquely capable in long-range carrier air defense because of AWG-9 and AIM-54 Phoenix.
+- It had unmatched visual character and remains one of the most recognizable U.S. naval aircraft.
+- It successfully evolved into the precision-strike "Bombcat" with LANTIRN/JDAM-era upgrades.
+- Its two-seat crew made it especially effective for complex intercept, strike, and sensor tasks.
+
+### Critics usually say:
+
+- The aircraft was too expensive and maintenance-intensive to keep in fleet service.
+- Early F-14A TF30-powered aircraft had engine and handling limitations, especially compared with later F-14B/D aircraft using General Electric F110 engines.
+- The Phoenix-centered reputation is sometimes exaggerated because U.S. Navy combat use of the missile was limited and public air-combat claims around Iran are hard to verify.
+- Nostalgia sometimes overlooks why the Navy standardized around Hornet and Super Hornet families.
+
+Reliable-source backing: the maintenance criticism is strongly supported by USNI's final-cruise reporting. The Bombcat transition is supported by Government Executive and USNI. The "most beautiful/best fighter" claims are fan opinion and should remain labeled as such.
+
+## 7. Myths, Memes, and Exaggerations
+
+| Claim | Public Source Type | Accuracy |
+|---|---|---|
+| "The Tomcat should never have been retired." | Reddit, YouTube comments, fan forums | Opinion. USNI shows the aircraft remained useful but was far harder to maintain than Hornets. |
+| "It was just a Phoenix missile truck." | Flight-sim/forum debate | Oversimplified. The Phoenix system was central, but sources also document reconnaissance, strike, surveillance, and dogfight/training roles. |
+| "Iranian F-14s achieved enormous kill totals." | Books, interviews, forums, online debates | Disputed. Iran-Iraq War claims should be described as reported or disputed unless independently confirmed. |
+| "Top Gun accurately represents everyday TOPGUN life." | Movie/pop-culture belief | Exaggerated. Smithsonian and Northrop Grumman sources note the real school was far more rigorous and less glamorous than the movie impression. |
+
+## 8. Unofficial Incidents and Stories
+
+- **21 December 1970, Calverton, New York:** The F-14 first flew; the early test program soon revealed issues that required changes before production service. This is a core development milestone, not a public myth.
+  Source: https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-14a-tomcat.html
+- **1988, USS America dependents' cruise:** Dale "Snort" Snodgrass made a famously low, hard-banked F-14 pass that became one of the best-known Tomcat airshow photographs. This story contributes strongly to the aircraft's public image as dramatic and theatrical.
+  Source: https://www.smithsonianmag.com/air-space-magazine/the-real-top-gun-32185/
+- **5 October 2005-11 February 2006, USS Theodore Roosevelt:** The final Tomcat cruise showed both sides of the reputation: useful sensor/strike support in Iraq and a heavy maintenance burden.
+  Source: https://www.usni.org/magazines/proceedings/2006/september/last-catfight
+
+## 9. How Opponents Perceived It
+
+Direct opponent testimony is limited in open sources, so the safest wording is cautious. The aircraft was built to counter Soviet long-range threats to carrier groups. In the Gulf of Sidra, Smithsonian reports a former F-14 crewman's view that Libyan aircraft often turned away once aware of F-14 radar lock. Iranian public/history sources frame the Tomcat as a counter to Iraqi and Soviet-linked high-speed threats, especially the MiG-25. These statements are useful for perception, but tactical reactions and fear claims should not be converted into universal verified facts.
+
+Sources:
+- https://www.smithsonianmag.com/smithsonian-institution/top-gun-is-back-but-is-the-elite-navy-fighter-pilot-school-really-like-the-movies-180980149/
+- https://www.iiaf.net/f14/
+
+## 10. Overall Reputation Summary
+
+Officially, the F-14 should be described as a U.S. Navy carrier-based fleet-defense fighter that combined a large variable-sweep airframe, two-person crew, AWG-9 radar, AIM-54 Phoenix missiles, and later precision-strike upgrades. Unofficially, it is remembered as the "Top Gun" aircraft: glamorous, loud, photogenic, and emotionally associated with Cold War carrier aviation. Supporters tend to overstate how easily it could have remained in service; critics sometimes understate how capable it remained in its final deployments. A neutral Milipedia page should frame the Tomcat as both a real combat aircraft with documented technical strengths and a pop-culture icon whose fame exceeds its already substantial service record.
+
+## Useful for Milipedia
+
+- Add a sourced Public Perception section explaining that *Top Gun*, swing wings, and Phoenix missiles drove the F-14's iconic status.
+- State clearly that fan claims about beauty, superiority over the Super Hornet, and Iranian victory totals are public opinion or disputed claims, not verified encyclopedia facts.
+- Add service-depth material on the failed F-111B/VFX origin, the AWG-9/Phoenix mission, the Iran export story, Bombcat upgrades, final cruise, and maintenance burden.
+- Use USNI's final-cruise article to balance nostalgia: the aircraft was still useful in Iraq but far more maintenance-intensive than Hornets.
+- Use Smithsonian/Northrop Grumman material for pop-culture impact rather than treating social-media nostalgia as factual evidence.

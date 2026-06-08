@@ -2217,65 +2217,192 @@
   {
     "id": "f-14-tomcat",
     "name": "Grumman F-14 Tomcat",
-    "alternative_names": [],
+    "alternative_names": [
+      "Tomcat",
+      "Bombcat"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
     "manufacturer": "Grumman",
-    "role": "Fleet defense fighter",
+    "role": "Carrier-based fleet defense fighter and later multirole strike fighter",
     "aircraft_type": "Fighter",
-    "era": "Cold War",
-    "first_flight": "1970",
+    "era": "Cold War / late 20th century",
+    "first_flight": "21 December 1970",
     "introduction_date": "1974",
-    "retirement_date": null,
-    "status": "Active/retired by operator",
-    "number_built": "Not listed",
-    "crew": "2",
+    "retirement_date": "United States Navy: 2006; Iran: reported limited post-U.S. service, exact readiness uncertain",
+    "status": "Retired by the U.S. Navy; Iranian status source-sensitive",
+    "number_built": "712",
+    "crew": "2: pilot and radar intercept officer",
     "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "engines": "Two Pratt & Whitney TF30-P-414A engines on F-14A; General Electric F110 engines on F-14B/D",
+    "max_speed": "1,544 mph / over Mach 2 class, variant and conditions dependent",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Grumman F-14 Tomcat: Fleet defense fighter. Manufacturer: Grumman. First flight: 1970. Introduction: 1974.",
-    "short_summary": "Grumman F-14 Tomcat: Fleet defense fighter. Origin: United States. Manufacturer: Grumman. First flight: 1970. Introduction: 1974. Status: Active/retired by operator.",
+    "range": "2,400 miles listed for F-14A by the Museum of Flight",
+    "combat_range": "Mission-dependent; not a single fixed value across loads and profiles",
+    "service_ceiling": "Not consistently sourced in this update",
+    "rate_of_climb": "Not consistently sourced in this update",
+    "armament": "M61A1 20 mm cannon; AIM-54 Phoenix, AIM-7 Sparrow, AIM-9 Sidewinder; later laser-guided bombs and JDAM-era air-to-ground stores",
+    "hardpoints": "Stations for Phoenix/Sparrow/Sidewinder missiles and later precision-strike stores, configuration-dependent",
+    "variants": [
+      {
+        "name": "F-14A",
+        "description": "Original production Tomcat with TF30 engines and AWG-9/Phoenix fleet-defense system.",
+        "role": "Fleet defense fighter"
+      },
+      {
+        "name": "F-14B",
+        "description": "Improved Tomcat with General Electric F110 engines and late strike upgrades on many aircraft.",
+        "role": "Air superiority and strike"
+      },
+      {
+        "name": "F-14D",
+        "description": "Major modernization with improved radar, jammer, JTIDS, IRST, and late-service precision-strike/sensor capability.",
+        "role": "Multirole fighter and strike aircraft"
+      },
+      {
+        "name": "TARPS-equipped F-14",
+        "description": "Tomcats fitted for Tactical Airborne Reconnaissance Pod System missions.",
+        "role": "Tactical reconnaissance"
+      },
+      {
+        "name": "Bombcat",
+        "description": "Unofficial name for LANTIRN/JDAM-era strike-capable Tomcats.",
+        "role": "Precision strike and close support"
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "United States Navy",
+        "status": "Former operator",
+        "note": "Operated carrier-based Tomcats from the 1970s until 2006 retirement."
+      },
+      {
+        "country": "Iran",
+        "service": "Imperial Iranian Air Force / Islamic Republic of Iran Air Force",
+        "status": "Only export operator; post-U.S. service status source-sensitive",
+        "note": "Selected the F-14 in 1973 and operated the type after the 1979 revolution under constrained support conditions."
+      }
+    ],
+    "combat_history": "U.S. Navy Gulf of Sidra engagements, Libya operations, Iraq no-fly-zone and strike missions, Afghanistan/Iraq support missions; Iranian use in the Iran-Iraq War with some disputed air-to-air claims.",
+    "development_history": "Developed for the U.S. Navy VFX requirement after the F-111B failed to meet carrier fighter needs; first flew on 21 December 1970 and entered carrier deployments in 1974.",
+    "short_summary": "The Grumman F-14 Tomcat was a U.S. carrier-based fleet-defense fighter built around variable-sweep wings, a two-person crew, AWG-9 radar, and AIM-54 Phoenix missiles. It later became a precision-strike Bombcat and remains one of the most publicly recognizable naval aircraft because of Top Gun and its dramatic swing-wing image.",
     "carrier_capable": true,
     "stealth": false,
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/US_Navy_051105-F-5480T-005_An_F-14D_Tomcat_conducts_a_mission_over_the_Persian_Gulf-region.jpg/330px-US_Navy_051105-F-5480T-005_An_F-14D_Tomcat_conducts_a_mission_over_the_Persian_Gulf-region.jpg",
-        "caption": "Grumman F-14 Tomcat",
-        "credit": "Wikimedia/Wikipedia thumbnail source",
-        "license": "Verify original file license before reuse."
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/US_Navy_051105-F-5480T-005_An_F-14D_Tomcat_conducts_a_mission_over_the_Persian_Gulf-region.jpg/1024px-US_Navy_051105-F-5480T-005_An_F-14D_Tomcat_conducts_a_mission_over_the_Persian_Gulf-region.jpg",
+        "caption": "U.S. Navy F-14D Tomcat over the Persian Gulf region on 5 November 2005 during the type final combat deployment era",
+        "credit": "U.S. Navy / Wikimedia Commons",
+        "license": "Public domain U.S. Navy photograph",
+        "source_url": "https://commons.wikimedia.org/wiki/File:US_Navy_051105-F-5480T-005_An_F-14D_Tomcat_conducts_a_mission_over_the_Persian_Gulf-region.jpg"
       }
     ],
     "sources": [
       {
         "id": "fn-main",
-        "title": "Grumman F-14 Tomcat",
-        "url": "https://en.wikipedia.org/wiki/Grumman_F-14_Tomcat",
-        "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "title": "Grumman F-14A Tomcat",
+        "url": "https://www.museumofflight.org/Exhibits-and-Events/Aircraft/grumman-f-14a-tomcat",
+        "publisher": "The Museum of Flight",
+        "note": "F-111B/VFX background, first flight, deliveries, first deployment, production total, export note, weapons, dimensions, engines, speed, range, and replacement by F/A-18s."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "id": "fn-nnam-f14a",
+        "title": "F-14A Tomcat",
+        "url": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-14a-tomcat.html",
+        "publisher": "National Naval Aviation Museum",
+        "note": "F-111B context, Grumman Model 303, AWG-9 design emphasis, first flight, Navy deliveries, first squadrons, first combat, and 2006 retirement."
+      },
+      {
+        "id": "fn-nnam-f14d",
+        "title": "F-14D Tomcat",
+        "url": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-14d-tomcat.html",
+        "publisher": "National Naval Aviation Museum",
+        "note": "F-14D final combat mission, AWG-9/Phoenix tracking and engagement description, and late Tomcat service in Iraq and Afghanistan."
+      },
+      {
+        "id": "fn-fas",
+        "title": "F-14 Tomcat",
+        "url": "https://man.fas.org/dod-101/sys/ac/f-14.htm",
+        "publisher": "Federation of American Scientists",
+        "note": "Aircraft description, variable-sweep wing details, target tracking, Phoenix missile engagement capability, variants, and digital flight-control/LANTIRN upgrade context."
+      },
+      {
+        "id": "fn-nasa-vstfe",
+        "title": "F-14",
+        "url": "https://www.nasa.gov/image-article/f-14/",
+        "publisher": "NASA",
+        "note": "Use of a Navy F-14 in the 1986-1987 Variable-Sweep Transition Flight Experiment and reasons the aircraft was selected as the testbed."
+      },
+      {
+        "id": "fn-govexec-bombcat",
+        "title": "From Tomcat to Bombcat",
+        "url": "https://www.govexec.com/magazine/2000/08/from-tomcat-to-bombcat/7241/",
+        "publisher": "Government Executive",
+        "note": "F-14A/B/D variant counts and late precision-strike upgrade context including LANTIRN, night vision, defensive countermeasures, digital flight controls, and JDAM integration."
+      },
+      {
+        "id": "fn-usni-last-catfight",
+        "title": "The Last Catfight",
+        "url": "https://www.usni.org/magazines/proceedings/2006/september/last-catfight",
+        "publisher": "U.S. Naval Institute Proceedings",
+        "note": "Final VF-31/VF-213 combat deployment, sortie and flight-hour totals, LANTIRN/ROVER use, final combat mission, ordnance drops, and maintenance-hour comparison with Hornets."
+      },
+      {
+        "id": "fn-iiaf-f14",
+        "title": "F14",
+        "url": "https://www.iiaf.net/f14/",
+        "publisher": "Imperial Iranian Air Force historical site",
+        "note": "Iranian selection of the F-14, MiG-25 overflight concern, initial and follow-on order context, and export-customer background."
+      },
+      {
+        "id": "fn-smithsonian-topgun",
+        "title": "Top Gun Is Back. But Is the Elite Navy Fighter Pilot School Really Like the Movies?",
+        "url": "https://www.smithsonianmag.com/smithsonian-institution/top-gun-is-back-but-is-the-elite-navy-fighter-pilot-school-really-like-the-movies-180980149/",
+        "publisher": "Smithsonian Magazine",
+        "note": "TOPGUN context, public image created by Top Gun, F-14 capabilities, Gulf of Sidra discussion, and distinction between film myth and real training."
+      },
+      {
+        "id": "fn-smithsonian-snodgrass",
+        "title": "The Real Top Gun",
+        "url": "https://www.smithsonianmag.com/air-space-magazine/the-real-top-gun-32185/",
+        "publisher": "Smithsonian Air & Space Magazine",
+        "note": "Dale Snodgrass F-14 demonstrations, famous low pass, Top Gun effect on F-14 fans, and airshow/public-perception material."
+      },
+      {
+        "id": "fn-northrop-topgun",
+        "title": "Lights, Camera, Tomcat",
+        "url": "https://www.northropgrumman.com/life-at-northrop-grumman/lights-camera-f-14-tomcat",
+        "publisher": "Northrop Grumman",
+        "note": "Manufacturer-legacy account of the F-14, Top Gun filming, and the film's public effect on Tomcat crews."
+      },
+      {
+        "id": "fn-f14-public-perception",
+        "title": "Public Perception Research: Grumman F-14 Tomcat",
+        "url": "AIRCRAFT%20PUBLIC%20PERCEPTION/F14.txt",
+        "publisher": "Milipedia local research file",
+        "note": "Local public-perception synthesis for the F-14 covering official facts, pop-culture reputation, social-media opinions, and disputed claims."
+      },
+      {
+        "id": "fn-commons-vf1",
+        "title": "Grumman F-14A Tomcats of VF-1 aboard USS Enterprise, 14 September 1974",
+        "url": "https://commons.wikimedia.org/wiki/File:Grumman_F-14A_Tomcats_of_VF-1_aboard_USS_Enterprise_(CVAN-65)_on_14_September_1974_(428-GX-K-105909).jpg",
+        "publisher": "Wikimedia Commons / U.S. Navy",
+        "note": "Public-domain U.S. Navy image of VF-1 Tomcats before the first F-14 deployment."
+      },
+      {
+        "id": "fn-commons-main-image",
+        "title": "F-14D Tomcat conducts a mission over the Persian Gulf region, 5 November 2005",
+        "url": "https://commons.wikimedia.org/wiki/File:US_Navy_051105-F-5480T-005_An_F-14D_Tomcat_conducts_a_mission_over_the_Persian_Gulf-region.jpg",
+        "publisher": "Wikimedia Commons / U.S. Navy",
+        "note": "Public-domain U.S. Navy image used for the primary F-14 visual."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
+        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
       }
     ],
     "country_flags": [
@@ -2288,52 +2415,56 @@
       "Grumman"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "Carrier compatibility added structural, landing gear, corrosion, and low-speed handling requirements.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Long-range fleet defense required a large radar, heavy missile load, endurance, and carrier compatibility.",
+      "Variable geometry gave broad speed-envelope flexibility but added structural and maintenance complexity.",
+      "Late precision-strike upgrades extended combat usefulness while the airframe became increasingly labor-intensive to maintain."
     ],
-    "wars_used_in": [],
+    "wars_used_in": [
+      "Gulf of Sidra incidents",
+      "Iran-Iraq War",
+      "Operation Desert Storm and Iraq no-fly-zone operations",
+      "Operation Enduring Freedom",
+      "Operation Iraqi Freedom"
+    ],
     "variant_families": [
-      "Grumman F-14 Tomcat baseline production model",
-      "Grumman F-14 Tomcat upgraded avionics or weapons-capable model",
-      "Grumman F-14 Tomcat two-seat trainer or conversion model",
-      "Grumman F-14 Tomcat export or locally modernized model"
+      "F-14A",
+      "F-14B",
+      "F-14D",
+      "TARPS reconnaissance aircraft",
+      "LANTIRN/JDAM-era Bombcat configurations",
+      "Iranian F-14A"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Grumman F-14 Tomcat has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The United States Navy was the main operator; Iran was the only export customer.",
+      "all_operators_status": "Two national military operators documented."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "Dale \"Snort\" Snodgrass, high-time F-14 pilot and public-demonstration figure",
+        "VF-31 and VF-213 final U.S. Navy Tomcat deployment aircraft"
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "First flight on 21 December 1970",
+        "Two Libyan Su-22s downed in August 1981",
+        "Final U.S. Navy F-14 combat mission on 8 February 2006"
       ]
     },
     "engine_details": {
       "type": "Jet",
-      "summary": "Grumman F-14 Tomcat uses jet propulsion."
+      "summary": "F-14A aircraft used two Pratt & Whitney TF30 engines; F-14B and F-14D aircraft used more powerful General Electric F110 engines."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "M61A1 cannon; AIM-54 Phoenix, AIM-7 Sparrow, AIM-9 Sidewinder; later laser-guided bombs and JDAM-era air-to-ground weapons.",
+      "caution": "Specific loads varied by variant, era, mission, and operator."
     },
     "similar_development": [
       {
         "id": "f-4-phantom-ii",
         "name": "McDonnell Douglas F-4 Phantom II",
         "url": "aircraft.html?id=f-4-phantom-ii"
-      },
-      {
-        "id": "f-5-freedom-fighter-tiger-ii",
-        "name": "Northrop F-5",
-        "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
       },
       {
         "id": "f-8-crusader",
@@ -2344,28 +2475,122 @@
         "id": "f-15-eagle",
         "name": "McDonnell Douglas F-15 Eagle",
         "url": "aircraft.html?id=f-15-eagle"
+      },
+      {
+        "id": "f-a-18-hornet",
+        "name": "McDonnell Douglas F/A-18 Hornet",
+        "url": "aircraft.html?id=f-a-18-hornet"
+      },
+      {
+        "id": "f-a-18e-f-super-hornet",
+        "name": "Boeing F/A-18E/F Super Hornet",
+        "url": "aircraft.html?id=f-a-18e-f-super-hornet"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 45,
+      "operator_entries": 2,
+      "variant_entries": 5,
+      "external_article_sources": 13
     },
     "footnotes": [
       {
         "id": "fn-main",
-        "title": "Grumman F-14 Tomcat",
-        "url": "https://en.wikipedia.org/wiki/Grumman_F-14_Tomcat",
-        "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "title": "Grumman F-14A Tomcat",
+        "url": "https://www.museumofflight.org/Exhibits-and-Events/Aircraft/grumman-f-14a-tomcat",
+        "publisher": "The Museum of Flight",
+        "note": "F-111B/VFX background, first flight, deliveries, first deployment, production total, export note, weapons, dimensions, engines, speed, range, and replacement by F/A-18s."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "id": "fn-nnam-f14a",
+        "title": "F-14A Tomcat",
+        "url": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-14a-tomcat.html",
+        "publisher": "National Naval Aviation Museum",
+        "note": "F-111B context, Grumman Model 303, AWG-9 design emphasis, first flight, Navy deliveries, first squadrons, first combat, and 2006 retirement."
+      },
+      {
+        "id": "fn-nnam-f14d",
+        "title": "F-14D Tomcat",
+        "url": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-14d-tomcat.html",
+        "publisher": "National Naval Aviation Museum",
+        "note": "F-14D final combat mission, AWG-9/Phoenix tracking and engagement description, and late Tomcat service in Iraq and Afghanistan."
+      },
+      {
+        "id": "fn-fas",
+        "title": "F-14 Tomcat",
+        "url": "https://man.fas.org/dod-101/sys/ac/f-14.htm",
+        "publisher": "Federation of American Scientists",
+        "note": "Aircraft description, variable-sweep wing details, target tracking, Phoenix missile engagement capability, variants, and digital flight-control/LANTIRN upgrade context."
+      },
+      {
+        "id": "fn-nasa-vstfe",
+        "title": "F-14",
+        "url": "https://www.nasa.gov/image-article/f-14/",
+        "publisher": "NASA",
+        "note": "Use of a Navy F-14 in the 1986-1987 Variable-Sweep Transition Flight Experiment and reasons the aircraft was selected as the testbed."
+      },
+      {
+        "id": "fn-govexec-bombcat",
+        "title": "From Tomcat to Bombcat",
+        "url": "https://www.govexec.com/magazine/2000/08/from-tomcat-to-bombcat/7241/",
+        "publisher": "Government Executive",
+        "note": "F-14A/B/D variant counts and late precision-strike upgrade context including LANTIRN, night vision, defensive countermeasures, digital flight controls, and JDAM integration."
+      },
+      {
+        "id": "fn-usni-last-catfight",
+        "title": "The Last Catfight",
+        "url": "https://www.usni.org/magazines/proceedings/2006/september/last-catfight",
+        "publisher": "U.S. Naval Institute Proceedings",
+        "note": "Final VF-31/VF-213 combat deployment, sortie and flight-hour totals, LANTIRN/ROVER use, final combat mission, ordnance drops, and maintenance-hour comparison with Hornets."
+      },
+      {
+        "id": "fn-iiaf-f14",
+        "title": "F14",
+        "url": "https://www.iiaf.net/f14/",
+        "publisher": "Imperial Iranian Air Force historical site",
+        "note": "Iranian selection of the F-14, MiG-25 overflight concern, initial and follow-on order context, and export-customer background."
+      },
+      {
+        "id": "fn-smithsonian-topgun",
+        "title": "Top Gun Is Back. But Is the Elite Navy Fighter Pilot School Really Like the Movies?",
+        "url": "https://www.smithsonianmag.com/smithsonian-institution/top-gun-is-back-but-is-the-elite-navy-fighter-pilot-school-really-like-the-movies-180980149/",
+        "publisher": "Smithsonian Magazine",
+        "note": "TOPGUN context, public image created by Top Gun, F-14 capabilities, Gulf of Sidra discussion, and distinction between film myth and real training."
+      },
+      {
+        "id": "fn-smithsonian-snodgrass",
+        "title": "The Real Top Gun",
+        "url": "https://www.smithsonianmag.com/air-space-magazine/the-real-top-gun-32185/",
+        "publisher": "Smithsonian Air & Space Magazine",
+        "note": "Dale Snodgrass F-14 demonstrations, famous low pass, Top Gun effect on F-14 fans, and airshow/public-perception material."
+      },
+      {
+        "id": "fn-northrop-topgun",
+        "title": "Lights, Camera, Tomcat",
+        "url": "https://www.northropgrumman.com/life-at-northrop-grumman/lights-camera-f-14-tomcat",
+        "publisher": "Northrop Grumman",
+        "note": "Manufacturer-legacy account of the F-14, Top Gun filming, and the film's public effect on Tomcat crews."
+      },
+      {
+        "id": "fn-f14-public-perception",
+        "title": "Public Perception Research: Grumman F-14 Tomcat",
+        "url": "AIRCRAFT%20PUBLIC%20PERCEPTION/F14.txt",
+        "publisher": "Milipedia local research file",
+        "note": "Local public-perception synthesis for the F-14 covering official facts, pop-culture reputation, social-media opinions, and disputed claims."
+      },
+      {
+        "id": "fn-commons-vf1",
+        "title": "Grumman F-14A Tomcats of VF-1 aboard USS Enterprise, 14 September 1974",
+        "url": "https://commons.wikimedia.org/wiki/File:Grumman_F-14A_Tomcats_of_VF-1_aboard_USS_Enterprise_(CVAN-65)_on_14_September_1974_(428-GX-K-105909).jpg",
+        "publisher": "Wikimedia Commons / U.S. Navy",
+        "note": "Public-domain U.S. Navy image of VF-1 Tomcats before the first F-14 deployment."
+      },
+      {
+        "id": "fn-commons-main-image",
+        "title": "F-14D Tomcat conducts a mission over the Persian Gulf region, 5 November 2005",
+        "url": "https://commons.wikimedia.org/wiki/File:US_Navy_051105-F-5480T-005_An_F-14D_Tomcat_conducts_a_mission_over_the_Persian_Gulf-region.jpg",
+        "publisher": "Wikimedia Commons / U.S. Navy",
+        "note": "Public-domain U.S. Navy image used for the primary F-14 visual."
       },
       {
         "id": "fn-method",
@@ -2382,77 +2607,96 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Grumman F-14 Tomcat is a Fleet defense fighter from United States. Manufacturer: Grumman. First flight: 1970. Introduction: 1974. Status: Active/retired by operator.",
+            "text": "The Grumman F-14 Tomcat was a U.S. Navy carrier-based fleet-defense fighter designed around long-range interception of threats to carrier battle groups. It combined a large two-seat, twin-engine airframe, variable-sweep wings, the Hughes AWG-9 weapons-control system, and the AIM-54 Phoenix missile to give carrier air wings a long-range air-defense system in the 1970s.",
             "refs": [
-              "fn-main"
+              "fn-main",
+              "fn-fas"
             ]
           },
           {
-            "text": "Grumman F-14 Tomcat is a fighter. Primary role: fleet defense fighter. Country of origin: United States. Manufacturer: Grumman.",
+            "text": "The F-14 emerged after the General Dynamics F-111B failed to meet Navy requirements for an advanced carrier fighter. Grumman won the follow-on contest with a variable-geometry, two-seat, twin-engine design; the Tomcat first flew in December 1970, deliveries began in June 1972, and operational deployments began in 1974.",
             "refs": [
-              "fn-wikidata"
+              "fn-main",
+              "fn-nnam-f14a"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "In U.S. service the Tomcat served as an interceptor, air-superiority fighter, tactical reconnaissance aircraft, and late-service precision-strike aircraft. The United States retired the type in 2006, while Iran remains the only export customer; open-source accounts of Iranian readiness should be treated cautiously because fleet status and airworthiness are opaque.",
             "refs": [
-              "fn-method"
+              "fn-usni-last-catfight",
+              "fn-iiaf-f14",
+              "fn-f14-public-perception"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Fleet defense fighter"
+            "text": "Carrier-based fleet defense and air superiority"
           },
           {
-            "title": "Designer or builder",
-            "text": "Grumman"
+            "title": "Crew",
+            "text": "Pilot and radar intercept officer"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Signature system",
+            "text": "AWG-9 radar and AIM-54 Phoenix missile"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Production",
+            "text": "712 aircraft produced, 1969-1991"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Grumman F-14 Tomcat first flew in 1970. Introduction date: 1974. Era: Cold War.",
+            "text": "The Tomcat requirement grew from the Navy search for a carrier fighter that could replace the F-4 Phantom II and provide long-range defense after the F-111B program collapsed. National Naval Aviation Museum material describes Grumman Model 303 as a variable-geometry design built around the Hughes AWG-9 weapon system.",
             "refs": [
-              "fn-main"
+              "fn-nnam-f14a"
             ]
           },
           {
-            "text": "Producer: Grumman. Development context: fleet defense fighter, jet propulsion, supersonic speed category, Cold War era.",
+            "text": "The first F-14A flew on 21 December 1970. After flight-test changes, the Navy began receiving F-14As in June 1972; VF-124 trained crews, VF-1 and VF-2 became the first West Coast operational squadrons, and VF-14 and VF-32 were early Atlantic fleet Tomcat squadrons.",
             "refs": [
-              "fn-wikidata"
+              "fn-nnam-f14a"
+            ]
+          },
+          {
+            "text": "Production totaled 712 Tomcats from 1969 through 1991. The F-14A was followed by F-14B aircraft with General Electric F110 engines and the F-14D with major radar, avionics, jammer, JTIDS, and infrared search-and-track improvements.",
+            "refs": [
+              "fn-main",
+              "fn-govexec-bombcat"
+            ]
+          },
+          {
+            "text": "Late in the aircraft lifetime, LANTIRN targeting pods, night-vision compatibility, defensive countermeasures, digital flight controls, and JDAM integration turned many Tomcats into precision-strike aircraft nicknamed Bombcats. This kept the type operationally useful but did not remove its maintenance burden.",
+            "refs": [
+              "fn-govexec-bombcat",
+              "fn-usni-last-catfight"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "VFX/fleet-defense requirement followed the failure of the F-111B to satisfy Navy carrier-fighter needs.",
             "refs": [
-              "fn-method"
+              "fn-main",
+              "fn-nnam-f14a"
             ]
           },
           {
-            "text": "Carrier compatibility added structural, landing gear, corrosion, and low-speed handling requirements.",
+            "text": "Iran selected the F-14 in 1973 and ordered Tomcats before the 1979 revolution, making it the only export operator.",
             "refs": [
-              "fn-method"
+              "fn-iiaf-f14"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "NASA later used a Navy F-14 as a variable-sweep research testbed in 1986 and 1987.",
             "refs": [
-              "fn-method"
+              "fn-nasa-vstfe"
             ]
           }
         ]
@@ -2462,106 +2706,106 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 2. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The F-14 used shoulder-mounted variable-geometry wings with automatic sweep and manual override. FAS describes a normal sweep range from 20 to 68 degrees and a 75-degree oversweep position for carrier hangar stowage; the design used twin tails and a broad lifting fuselage between widely spaced engine nacelles.",
             "refs": [
-              "fn-main"
+              "fn-fas"
             ]
           },
           {
-            "text": "Carrier capable: yes. Stealth: no.",
+            "text": "The two-person cockpit paired a pilot with a radar intercept officer, a crew concept suited to long-range intercept, radar management, and later sensor/strike work. The aircraft was built around the AWG-9 weapon system, which could track 24 targets and support attacks on six with AIM-54 Phoenix missiles while continuing to scan.",
             "refs": [
-              "fn-method"
+              "fn-fas",
+              "fn-nnam-f14d"
             ]
           },
           {
-            "text": "Grumman F-14 Tomcat uses jet propulsion. Engine model field: Not listed.",
+            "text": "The F-14A used Pratt & Whitney TF30 engines, while the F-14B and F-14D used General Electric F110 engines that improved thrust and handling margins. Armament included the internal 20 mm M61 cannon, AIM-54 Phoenix, AIM-7 Sparrow, AIM-9 Sidewinder, and later air-to-ground stores including laser-guided bombs and JDAMs.",
             "refs": [
-              "fn-main"
+              "fn-main",
+              "fn-govexec-bombcat"
             ]
           },
           {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
+            "text": "NASA selected the F-14 for variable-sweep research because the aircraft offered variable-sweep capability, Mach and Reynolds number capability, availability, and favorable wing-pressure distribution. That research role underlines that the Tomcat was not only a combat aircraft but also a useful aerodynamic test platform.",
             "refs": [
-              "fn-main"
+              "fn-nasa-vstfe"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "2"
+            "title": "Wing sweep",
+            "text": "20-68 degrees normal, 75 degrees oversweep for stowage"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Radar/weapons",
+            "text": "AWG-9 with AIM-54 Phoenix long-range missiles"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Crew concept",
+            "text": "Pilot plus radar intercept officer"
           },
           {
-            "title": "Carrier capable",
-            "text": "Yes"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Carrier features",
+            "text": "Strong landing gear, arresting hook, naval corrosion and deck handling requirements"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Grumman F-14 Tomcat status: Active/retired by operator. Conflict entries: 0.",
+            "text": "Representative data below describes the F-14A using Museum of Flight values. Exact figures varied by variant, engine, store load, and measurement basis.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: 0 entries.",
-            "refs": [
+              "fn-main",
               "fn-method"
-            ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Grumman F-14 Tomcat named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Named pilots listed: 0.",
+            "text": "Crew: 2, pilot and radar intercept officer.",
             "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Length: 63 ft (19.2 m); wingspan: 64.08 ft (19.5 m); height: 16 ft (4.9 m); wing area: 565 sq ft (52.5 sq m).",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Empty weight: 40,104 lb (18,191 kg); gross weight: 59,714 lb (27,086 kg).",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Powerplant: two Pratt & Whitney TF30-P-414A engines on the F-14A, each rated at about 20,900 lb thrust in the Museum of Flight listing.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Maximum speed: 1,544 mph in the Museum of Flight listing, commonly expressed as over Mach 2 under suitable altitude and configuration conditions.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Range: 2,400 miles in the Museum of Flight listing; combat radius depended heavily on load, mission profile, tanker support, and carrier operating pattern.",
+            "refs": [
+              "fn-main",
               "fn-method"
             ]
           },
           {
-            "text": "Named individual aircraft listed: 0.",
+            "text": "Armament: M61A1 20 mm cannon, AIM-54 Phoenix, AIM-7 Sparrow, AIM-9 Sidewinder, and later air-to-ground weapons with LANTIRN/JDAM-era upgrades.",
             "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-main",
+              "fn-govexec-bombcat"
             ]
           }
         ]
@@ -2571,41 +2815,44 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Grumman F-14 Tomcat variant-family entries: 4. Variant families: Grumman F-14 Tomcat baseline production model; Grumman F-14 Tomcat upgraded avionics or weapons-capable model; Grumman F-14 Tomcat two-seat trainer or conversion model; Grumman F-14 Tomcat export or locally modernized model.",
+            "text": "The Tomcat family was relatively compact but included major capability differences between early F-14A aircraft and later F-14B/D models. Variant naming also became a public-perception issue because late strike-capable aircraft were popularly called Bombcats.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-govexec-bombcat",
+              "fn-f14-public-perception"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Grumman F-14 Tomcat baseline production model",
+            "text": "F-14A: original production model with Pratt & Whitney TF30 engines; the Navy bought 557 according to Government Executive.",
             "refs": [
-              "fn-main"
+              "fn-govexec-bombcat"
             ]
           },
           {
-            "text": "Grumman F-14 Tomcat upgraded avionics or weapons-capable model",
+            "text": "F-14B: improved model introduced in 1987 with General Electric F110 engines; 85 were built according to Government Executive.",
             "refs": [
-              "fn-main"
+              "fn-govexec-bombcat"
             ]
           },
           {
-            "text": "Grumman F-14 Tomcat two-seat trainer or conversion model",
+            "text": "F-14D: major modernization with improved radar, jammer, JTIDS, and infrared search-and-track equipment; the Navy bought 55 according to Government Executive.",
             "refs": [
-              "fn-main"
+              "fn-govexec-bombcat"
             ]
           },
           {
-            "text": "Grumman F-14 Tomcat export or locally modernized model",
+            "text": "TARPS and Bombcat configurations: reconnaissance and precision-strike adaptations that expanded the aircraft beyond its original fleet-defense role.",
             "refs": [
-              "fn-main"
+              "fn-fas",
+              "fn-usni-last-catfight"
+            ]
+          },
+          {
+            "text": "Iranian F-14A: export aircraft delivered before the 1979 revolution; later readiness and weapons integration details are difficult to verify from open sources.",
+            "refs": [
+              "fn-iiaf-f14",
+              "fn-f14-public-perception"
             ]
           }
         ]
@@ -2615,57 +2862,341 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Grumman F-14 Tomcat has 1 designer or builder country entry.",
+            "text": "The F-14 had only two national military operators: the United States Navy and Iran. This unusually small operator base makes the Iranian fleet central to the aircraft reputation after U.S. retirement.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-main",
+              "fn-iiaf-f14"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "United States Navy: operated the F-14 from the 1970s until retirement in 2006; the last Navy combat mission ended aboard USS Theodore Roosevelt on 8 February 2006.",
             "refs": [
-              "fn-main"
+              "fn-nnam-f14d",
+              "fn-usni-last-catfight"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "Imperial Iranian Air Force / Islamic Republic of Iran Air Force: selected the F-14 in August 1973 and became the only export customer; post-revolution support constraints make exact readiness claims source-sensitive.",
             "refs": [
-              "fn-wikidata"
+              "fn-iiaf-f14",
+              "fn-f14-public-perception"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 2, propulsion type Jet, maximum speed category Supersonic, first flight 1970, introduction 1974.",
+            "text": "The first operational carrier squadrons deployed the F-14 in 1974. A public-domain U.S. Navy image of VF-1 Tomcats aboard USS Enterprise on 14 September 1974 documents the aircraft immediately before its first deployment, which included coverage of the evacuation of South Vietnam during that cruise.",
             "refs": [
+              "fn-commons-vf1",
               "fn-main"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "The F-14 saw its first combat in August 1981, when U.S. Navy Tomcats downed two Libyan Su-22 fighters over the Gulf of Sidra. The incident became one of the aircraft best-known Cold War air-to-air episodes.",
             "refs": [
-              "fn-method"
+              "fn-nnam-f14a",
+              "fn-smithsonian-topgun"
+            ]
+          },
+          {
+            "text": "Iranian F-14s served as land-based interceptors in the Iran-Iraq War. The aircraft reputation in that conflict is significant but difficult to summarize cleanly because air-to-air victory totals and some Phoenix missile stories vary by source and should be labeled as reported or disputed unless independently confirmed.",
+            "refs": [
+              "fn-iiaf-f14",
+              "fn-f14-public-perception"
+            ]
+          },
+          {
+            "text": "During the 1990s and 2000s the Tomcat performed reconnaissance, no-fly-zone, strike, surveillance, and close-air-support work over Iraq and Afghanistan. In its final deployment, VF-31 and VF-213 completed 1,163 combat sorties and 6,876 flight hours between 5 October 2005 and 11 February 2006.",
+            "refs": [
+              "fn-usni-last-catfight",
+              "fn-nnam-f14d"
+            ]
+          },
+          {
+            "text": "The final U.S. Navy Tomcat combat mission ended when an F-14D from VF-213 trapped aboard USS Theodore Roosevelt on 8 February 2006. The aircraft left service with a reputation for still being operationally valuable but difficult to sustain.",
+            "refs": [
+              "fn-nnam-f14d",
+              "fn-usni-last-catfight"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "notable-events",
+        "title": "Notable Events",
         "paragraphs": [
           {
-            "text": "Grumman F-14 Tomcat similar-development links: 4.",
+            "text": "The Tomcat had a long public and operational life, so the most useful milestones are those that connect the development program, combat reputation, Bombcat transition, and retirement.",
+            "refs": [
+              "fn-main",
+              "fn-f14-public-perception"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "21 December 1970",
+            "text": "First F-14 flight at the start of the development and test program."
+          },
+          {
+            "title": "June 1972",
+            "text": "First F-14A deliveries to the U.S. Navy."
+          },
+          {
+            "title": "1974",
+            "text": "First operational Tomcat carrier deployment with VF-1 and VF-2."
+          },
+          {
+            "title": "19 August 1981",
+            "text": "F-14s scored the type first U.S. combat victories over Libyan Su-22s in the Gulf of Sidra."
+          },
+          {
+            "title": "1986-1987",
+            "text": "NASA used an F-14 for the Variable-Sweep Transition Flight Experiment."
+          },
+          {
+            "title": "1990s",
+            "text": "LANTIRN and related upgrades gave the Tomcat precision-strike Bombcat capability."
+          },
+          {
+            "title": "8 February 2006",
+            "text": "Final U.S. Navy F-14 combat mission ended aboard USS Theodore Roosevelt."
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "The F-14 is most often compared with aircraft that framed its creation, replacement, or public reputation: the F-4 Phantom II, F-15 Eagle, and F/A-18E/F Super Hornet.",
+            "refs": [
+              "fn-main",
+              "fn-f14-public-perception"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Compared with the F-4 Phantom II, the F-14 represented a purpose-built fleet-defense successor with a more advanced long-range radar/missile system and variable-sweep airframe.",
+            "refs": [
+              "fn-nnam-f14a"
+            ]
+          },
+          {
+            "text": "Compared with the F-15 Eagle, the F-14 was the carrier-compatible long-range Navy fighter, while the F-15 was a land-based air-superiority fighter. Iran evaluated both before selecting the F-14.",
+            "refs": [
+              "fn-iiaf-f14"
+            ]
+          },
+          {
+            "text": "Compared with the F/A-18E/F Super Hornet, the F-14 is remembered for range, Phoenix missiles, and visual drama, while the Super Hornet offered simpler fleet logistics and lower maintenance burden.",
+            "refs": [
+              "fn-usni-last-catfight",
+              "fn-f14-public-perception"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The F-14 strengths and limitations came from the same design choices: a large carrier fighter with long-range sensors and weapons, variable geometry, and a two-person crew could do missions smaller aircraft could not, but it also required substantial maintenance and modernization.",
+            "refs": [
+              "fn-fas",
+              "fn-usni-last-catfight"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: long-range fleet-defense capability built around AWG-9 and AIM-54 Phoenix.",
+            "refs": [
+              "fn-fas",
+              "fn-nnam-f14d"
+            ]
+          },
+          {
+            "text": "Strength: variable-sweep wing gave the aircraft low-speed carrier and high-speed intercept flexibility.",
+            "refs": [
+              "fn-fas",
+              "fn-nasa-vstfe"
+            ]
+          },
+          {
+            "text": "Strength: two-person crew improved task sharing for radar, intercept, reconnaissance, and later strike/sensor work.",
+            "refs": [
+              "fn-fas",
+              "fn-usni-last-catfight"
+            ]
+          },
+          {
+            "text": "Strength: late LANTIRN/JDAM-era upgrades let the aircraft remain useful as a precision-strike and surveillance platform.",
+            "refs": [
+              "fn-govexec-bombcat",
+              "fn-usni-last-catfight"
+            ]
+          },
+          {
+            "text": "Limitation: high maintenance burden; USNI records roughly 60 maintenance man-hours per flight hour for final-cruise Tomcat squadrons, much higher than Hornet units on the same carrier.",
+            "refs": [
+              "fn-usni-last-catfight"
+            ]
+          },
+          {
+            "text": "Limitation: early F-14A TF30-powered aircraft had less thrust margin than later F110-powered F-14B/D aircraft.",
+            "refs": [
+              "fn-govexec-bombcat"
+            ]
+          },
+          {
+            "text": "Limitation: the AIM-54/Phoenix reputation can lead to exaggerated public claims, especially when U.S. Navy combat use and Iranian victory claims are mixed together.",
+            "refs": [
+              "fn-f14-public-perception"
+            ]
+          },
+          {
+            "text": "Limitation: after U.S. retirement, spare parts and verified readiness became especially sensitive for Iran, so current Iranian capability claims require caution.",
+            "refs": [
+              "fn-iiaf-f14",
+              "fn-f14-public-perception"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "public-perception",
+        "title": "Public Perception",
+        "paragraphs": [
+          {
+            "text": "Publicly, the F-14 is remembered as much as a cultural object as a combat aircraft. Top Gun made the Tomcat a visual shorthand for U.S. Navy fighter aviation; Northrop Grumman notes that the film showcased the F-14, while Smithsonian describes the movie as central to the aircraft entry into public consciousness.",
+            "refs": [
+              "fn-northrop-topgun",
+              "fn-smithsonian-topgun",
+              "fn-f14-public-perception"
+            ]
+          },
+          {
+            "text": "Aviation communities often praise the Tomcat for its variable-sweep wings, aggressive carrier-deck posture, two-seat crew, Phoenix missile load, and 1980s pop-culture associations. Those claims explain reputation, not verified superiority: fan comparisons with the Super Hornet or F-15 often mix aesthetics, nostalgia, and selective mission metrics.",
+            "refs": [
+              "fn-f14-public-perception"
+            ]
+          },
+          {
+            "text": "Former-crew and aviation-history sources produce a more balanced reputation. Smithsonian material on Dale Snodgrass and TOPGUN reinforces the aircraft dramatic image, but USNI final-cruise reporting shows why nostalgia should be tempered: the Tomcat could still be tactically valuable in 2006 while also demanding far more maintenance labor than Hornets.",
+            "refs": [
+              "fn-smithsonian-snodgrass",
+              "fn-usni-last-catfight",
+              "fn-f14-public-perception"
+            ]
+          },
+          {
+            "text": "Iranian F-14 stories are another major part of the aircraft mythology. The verified export story is important, but online claims about Iran-Iraq War kill totals, Phoenix effectiveness, and current readiness vary substantially; Milipedia treats them as reported or disputed unless supported by stronger evidence.",
+            "refs": [
+              "fn-iiaf-f14",
+              "fn-f14-public-perception"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "A compact F-14 timeline links the aircraft development, service entry, export, combat, Bombcat evolution, and U.S. retirement.",
+            "refs": [
+              "fn-main",
+              "fn-usni-last-catfight"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Late 1960s: Navy VFX requirement followed dissatisfaction with the F-111B carrier fighter.",
+            "refs": [
+              "fn-nnam-f14a"
+            ]
+          },
+          {
+            "text": "21 December 1970: first F-14 flight.",
+            "refs": [
+              "fn-nnam-f14a"
+            ]
+          },
+          {
+            "text": "June 1972: first F-14A deliveries to the U.S. Navy.",
+            "refs": [
+              "fn-nnam-f14a"
+            ]
+          },
+          {
+            "text": "August 1973: Iran selected the F-14 after evaluating interceptor options.",
+            "refs": [
+              "fn-iiaf-f14"
+            ]
+          },
+          {
+            "text": "1974: first operational carrier deployment began with VF-1 and VF-2.",
+            "refs": [
+              "fn-main",
+              "fn-commons-vf1"
+            ]
+          },
+          {
+            "text": "19 August 1981: F-14s downed two Libyan Su-22s over the Gulf of Sidra.",
+            "refs": [
+              "fn-nnam-f14a"
+            ]
+          },
+          {
+            "text": "1986: Top Gun amplified the aircraft public image.",
+            "refs": [
+              "fn-northrop-topgun",
+              "fn-smithsonian-topgun"
+            ]
+          },
+          {
+            "text": "1986-1987: NASA used an F-14 in variable-sweep transition research.",
+            "refs": [
+              "fn-nasa-vstfe"
+            ]
+          },
+          {
+            "text": "1990s: LANTIRN and related upgrades expanded the Tomcat precision-strike role.",
+            "refs": [
+              "fn-govexec-bombcat"
+            ]
+          },
+          {
+            "text": "5 October 2005-11 February 2006: VF-31 and VF-213 flew the final Tomcat combat deployment.",
+            "refs": [
+              "fn-usni-last-catfight"
+            ]
+          },
+          {
+            "text": "8 February 2006: final U.S. Navy F-14 combat mission recovered aboard USS Theodore Roosevelt.",
+            "refs": [
+              "fn-nnam-f14d",
+              "fn-usni-last-catfight"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia aircraft connect the Tomcat to its predecessor, same-era fighters, and carrier-air-wing successors.",
             "refs": [
               "fn-method"
             ]
@@ -2677,21 +3208,38 @@
             "url": "aircraft.html?id=f-4-phantom-ii"
           },
           {
-            "label": "Northrop F-5",
-            "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
-          },
-          {
             "label": "Vought F-8 Crusader",
             "url": "aircraft.html?id=f-8-crusader"
           },
           {
             "label": "McDonnell Douglas F-15 Eagle",
             "url": "aircraft.html?id=f-15-eagle"
+          },
+          {
+            "label": "McDonnell Douglas F/A-18 Hornet",
+            "url": "aircraft.html?id=f-a-18-hornet"
+          },
+          {
+            "label": "Boeing F/A-18E/F Super Hornet",
+            "url": "aircraft.html?id=f-a-18e-f-super-hornet"
           }
         ]
       }
     ],
-    "event_gallery": []
+    "event_gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Grumman_F-14A_Tomcats_of_VF-1_aboard_USS_Enterprise_%28CVAN-65%29_on_14_September_1974_%28428-GX-K-105909%29.jpg/1024px-Grumman_F-14A_Tomcats_of_VF-1_aboard_USS_Enterprise_%28CVAN-65%29_on_14_September_1974_%28428-GX-K-105909%29.jpg",
+        "caption": "VF-1 F-14A Tomcats aboard USS Enterprise at Naval Air Station Alameda on 14 September 1974, just before the first Tomcat deployment",
+        "credit": "U.S. Navy / National Museum of the U.S. Navy",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Grumman_F-14A_Tomcats_of_VF-1_aboard_USS_Enterprise_(CVAN-65)_on_14_September_1974_(428-GX-K-105909).jpg"
+      },
+      {
+        "url": "https://www.nasa.gov/wp-content/uploads/2023/03/eg-0030-01.png?w=1041",
+        "caption": "NASA F-14 used in the 1986-1987 Variable-Sweep Transition Flight Experiment at Dryden",
+        "credit": "NASA",
+        "source_url": "https://www.nasa.gov/image-article/f-14/"
+      }
+    ]
   },
   {
     "id": "f-15-eagle",
