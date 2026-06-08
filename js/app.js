@@ -46,7 +46,7 @@ const COUNTRY_FLAGS = {
   "Multinational Europe": { code: "eu" },
   Pakistan: { code: "pk" },
   Russia: { code: "ru" },
-  "Soviet Union": { url: "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Soviet%20Union.svg" },
+  "Soviet Union": { url: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_Soviet_Union.svg" },
   Sweden: { code: "se" },
   "United Kingdom": { code: "gb" },
   "United States": { code: "us" }
@@ -628,15 +628,6 @@ function initHeroGlobe() {
       const size = projected.z >= 0 ? 1.6 : 0.9;
       context.fillRect(projected.x, projected.y, size, size);
     });
-
-    const axisTop = projectPoint(rotatePoint({ x: 0, y: -radius * 1.15, z: 0 }, { ...baseRotation, z: baseRotation.z + 0.5 }));
-    const axisBottom = projectPoint(rotatePoint({ x: 0, y: radius * 1.15, z: 0 }, { ...baseRotation, z: baseRotation.z + 0.5 }));
-    context.strokeStyle = "rgba(255,255,255,0.16)";
-    context.lineWidth = 1;
-    context.beginPath();
-    context.moveTo(axisTop.x, axisTop.y);
-    context.lineTo(axisBottom.x, axisBottom.y);
-    context.stroke();
 
     window.requestAnimationFrame(animate);
   };

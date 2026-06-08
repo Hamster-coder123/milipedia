@@ -142,12 +142,12 @@ select {
 
 .hero-globe {
   position: absolute;
-  top: 75%;
+  top: 82%;
   left: 50%;
   z-index: 1;
-  width: min(58vw, 660px);
-  height: min(58vw, 660px);
-  max-height: 50vh;
+  width: min(54vw, 620px);
+  height: min(54vw, 620px);
+  max-height: 44vh;
   pointer-events: none;
   opacity: 0.72;
   transform: translate(-50%, -50%);
@@ -1654,12 +1654,12 @@ h1 {
   }
 
   .hero-globe {
-    top: 71%;
+    top: 79%;
     left: 50%;
-    width: min(90vw, 390px);
-    height: min(90vw, 390px);
-    max-height: 36vh;
-    opacity: 0.62;
+    width: min(82vw, 340px);
+    height: min(82vw, 340px);
+    max-height: 30vh;
+    opacity: 0.58;
   }
 
   .flag-track {
