@@ -1479,13 +1479,26 @@ h2 {
 }
 
 .flag-marquee::after {
-  inset: -4% 10% 4%;
+  inset: 0 -2% 2%;
   background:
-    radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.26) 0, rgba(255, 255, 255, 0.12) 12%, rgba(255, 255, 255, 0) 34%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.08) 18%, rgba(255, 255, 255, 0) 72%);
-  clip-path: polygon(50% 0%, 86% 100%, 14% 100%);
+    radial-gradient(
+      ellipse 34% 24% at 50% 0%,
+      rgba(255, 255, 255, 0.74) 0%,
+      rgba(255, 255, 255, 0.44) 14%,
+      rgba(255, 255, 255, 0.18) 30%,
+      rgba(255, 255, 255, 0.06) 48%,
+      rgba(255, 255, 255, 0) 68%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.22) 0%,
+      rgba(255, 255, 255, 0.11) 12%,
+      rgba(255, 255, 255, 0.03) 28%,
+      rgba(255, 255, 255, 0) 62%
+    );
+  clip-path: polygon(50% 0%, 82% 100%, 18% 100%);
   mix-blend-mode: screen;
-  opacity: 0.92;
+  opacity: 0.98;
 }
 
 .flag-track {
