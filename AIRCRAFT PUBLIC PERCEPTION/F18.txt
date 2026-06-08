@@ -1,0 +1,146 @@
+# Public Perception Research: McDonnell Douglas F/A-18 Hornet
+
+## 1. General Public Reputation
+
+The McDonnell Douglas F/A-18 Hornet is usually remembered less as an extreme performer than as a balanced naval strike fighter: carrier-capable, multirole, reliable, and adaptable. Official Navy and NAVAIR descriptions emphasize that the A-D Hornet combined fighter and attack missions, entered Marine Corps service in 1983 and Navy service in 1984, and remained a Marine Corps bridge to the F-35 into the 2020s:
+
+- U.S. Navy fact file: https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2383479/fa-18a-d-hornet-and-fa-18ef-super-hornet-strike-fighter/
+- NAVAIR product page: https://www.navair.navy.mil/product/FA-18-D-Hornet
+
+Among aviation fans, the Hornet's reputation is often summarized as "jack of all trades" or "workhorse." Supporters use those terms positively, meaning that it can do air-to-air, strike, SEAD, carrier operations, and training without needing a separate specialized aircraft. Critics use the same terms more negatively, arguing that the legacy Hornet traded away range, acceleration, and payload compared with aircraft such as the F-14, A-6, F-15, or later Super Hornet.
+
+Popular Mechanics presents a common enthusiast-friendly narrative: the Hornet gained public visibility when the Blue Angels adopted it, had early combat use over Libya, and built a reputation in Desert Storm, but it also attracted continuing complaints about range, acceleration, and bring-back capacity:
+
+- Popular Mechanics, "Why the F/A-18 Is Such a Badass Plane": https://www.popularmechanics.com/military/aviation/a24538/f-a-18-badass-plane/
+
+## 2. Social Media Reputation
+
+On flight-sim forums and Reddit, the Hornet is commonly treated as the approachable modern multirole jet. DCS players often recommend it because it offers carrier operations, beyond-visual-range combat, strike missions, aerial refueling practice, precision weapons, and high angle-of-attack handling in one module. These are player opinions about the simulated aircraft, not proof of real combat performance.
+
+Examples:
+
+- DCS forum thread where users describe it as broad, beginner-friendly, and a strong first modern jet: https://forum.dcs.world/topic/278054-dcs-fa-18-hornet-worth-the-buy-and-is-good-simulation-of-the-jet/
+- Reddit r/dcs thread showing both praise and criticism. Recurring praise: good all-rounder, easy to fly, versatile, carrier-capable. Recurring criticism: less "organic" or exciting than older jets, less lively than the F-16 in sim use, and sometimes considered too computerized: https://www.reddit.com/r/dcs/comments/17o3wxv/im_not_sure_what_all_the_hate_towards_the_f18_is/
+
+Common social-media themes:
+
+| Theme | Public Source Type | Reliability |
+|---|---|---|
+| "Jack of all trades" | DCS forums, Reddit, YouTube-style discussions | Public perception; broadly consistent with the aircraft's multirole design but not a precise technical judgment. |
+| "Workhorse" | Official Navy/NAVAIR language, defense commentary, enthusiast comments | Supported as a service-role description; exact readiness and maintenance claims need source-by-source checking. |
+| "Easy to fly" | DCS/player discussion | Simulation-community opinion; not direct evidence about operational pilot workload. |
+| "Short-legged" | Aviation commentary, Navy procurement discussions, fan debates | Supported as a known criticism, especially relative to larger carrier aircraft; mission profile matters. |
+| "Less glamorous than the Tomcat" | Fan debate, Top Gun comparisons | Public perception; driven partly by pop culture and the F-14's movie identity. |
+
+## 3. What the Aircraft Is Known For
+
+The Hornet is unofficially known for four things:
+
+1. Multirole identity: it was deliberately both fighter and attack aircraft, reflected in the F/A designation.
+2. Carrier suitability: it replaced older Navy and Marine aircraft and became a common carrier-deck aircraft through the 1980s, 1990s, and 2000s.
+3. Desert Storm reputation: Navy and NAVAIR sources highlight the 1991 mission in which Hornets shot down enemy fighters and then attacked ground targets.
+4. Blue Angels visibility: public airshow audiences knew the legacy Hornet through decades of Blue Angels displays before the team transitioned to the Super Hornet.
+
+Useful factual sources:
+
+- NAVAIR F/A-18 A-D page for first flight, service entry, roles, Desert Storm summary, weapons, and Marine Corps bridge role: https://www.navair.navy.mil/product/FA-18-D-Hornet
+- U.S. Navy fact file for specifications, foreign customers, Blue Angels transition, and A-D background: https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2383479/fa-18a-d-hornet-and-fa-18ef-super-hornet-strike-fighter/
+- NAVAIR story on BuNo 162417, one of the first combat Hornets in the 1986 Libya strike: https://www.navair.navy.mil/node/8766
+
+## 4. Conflict Impact
+
+### Conflict: Operation El Dorado Canyon and Libya, 1986
+
+The Hornet's early combat identity was tied to Libya. NAVAIR identifies F/A-18A BuNo 162417, side number 407, as part of the USS Coral Sea air wing during the April 1986 retaliatory strike against Libya, firing AGM-88 HARM missiles at Libyan air-defense radar sites in support of A-6E Intruder strikes. This helped establish the F/A-18 as a credible strike-support and SEAD aircraft very early in its service life.
+
+Source: https://www.navair.navy.mil/node/8766
+
+### Conflict: Operation Desert Storm, 1991
+
+Desert Storm is the central public reputation event for the legacy Hornet. Navy and NAVAIR summaries emphasize that Hornets shot down enemy fighters and then bombed ground targets in the same mission, a clean illustration of the fighter/attack concept. The same war also includes a major caution: Lt. Cmdr. Michael Scott Speicher was lost in an F/A-18C on the opening night of the war, and the exact tactical lesson should not be simplified into a flawless combat narrative.
+
+Sources:
+
+- NAVAIR F/A-18 A-D page: https://www.navair.navy.mil/product/FA-18-D-Hornet
+- National Naval Aviation Museum tactical Hornet page, indexed by search and useful for Mark Fox/Nick Mongillo Desert Storm context: https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-a-18-hornet--tactical-.html
+- Popular Mechanics summary of Gulf War reputation and loss context: https://www.popularmechanics.com/military/aviation/a24538/f-a-18-badass-plane/
+
+### Conflict: Post-9/11 Iraq and Afghanistan
+
+The Hornet became a routine strike, close air support, and fleet-support platform rather than a single-war icon. Its public image in this period is more "reliable workhorse" than "dominant dogfighter." The aging Marine Corps fleet also drew readiness criticism, especially as legacy airframes accumulated high flight hours and awaited F-35 replacement.
+
+Source for readiness critique: USNI Proceedings, "Scrap Marine Hornets": https://www.usni.org/magazines/proceedings/2017/september/nobody-asked-me-scrap-marine-hornets
+
+## 5. Comparisons People Commonly Make
+
+| Compared Aircraft | Why They Are Compared | Common Public View | Notes |
+|---|---|---|---|
+| F-14 Tomcat | Same Navy carrier-deck era; Hornet/Super Hornet replaced Tomcat missions | Tomcat is seen as more glamorous and cinematic; Hornet is seen as more practical and multirole | F-14 comparisons are heavily shaped by Top Gun and fleet-defense nostalgia. |
+| F-16 Fighting Falcon | Same lightweight-fighter roots and frequent sim/fan comparison | F-16 is often seen as faster and more agile; F/A-18 is seen as carrier-capable and broader-role | The Hornet came from the YF-17 lineage after the YF-16 won the Air Force LWF competition. |
+| A-6 Intruder and A-7 Corsair II | Older Navy attack aircraft the Hornet helped replace | Hornet is praised for combining fighter and strike roles; critics argue older attack aircraft had better range or payload for some missions | Navy/NAVAIR note replacement of F-4 and A-7; wider attack-aircraft replacement is more nuanced. |
+| F/A-18E/F Super Hornet | Direct successor with similar name and carrier role | Super Hornet is seen as more capable and longer-ranged; legacy Hornet is seen as smaller and more nimble | Navy says the Super Hornet is larger and has higher range than the legacy Hornet. |
+
+## 6. Supporters vs Critics
+
+### Supporters usually say:
+
+- The Hornet is one of the best examples of a true multirole carrier aircraft.
+- It proved the fighter/attack concept in Desert Storm.
+- It is robust enough for carrier operations and survived damage in combat.
+- It is approachable and versatile in flight-sim communities.
+- It gave multiple allied air forces a carrier-derived, twin-engine fighter option.
+
+### Critics usually say:
+
+- The legacy Hornet lacks range for some carrier strike profiles.
+- It lacks the glamour, reach, and fleet-defense aura of the F-14.
+- It lacks the speed and acceleration many fans associate with the F-16 or F-15.
+- Aging Marine Corps Hornets became expensive and difficult to keep ready.
+- In DCS/social-media debates, it can be described as too automated or less exciting to fly than older aircraft.
+
+Backed by reliable sources: multirole design, carrier role, service dates, combat use, foreign customers, specifications, final Navy active-duty flight, Australian retirement, Canadian modernization, and Marine readiness concerns.
+
+Mostly opinion: "boring," "best first module," "sexier than the Viper," or "less cool than the Tomcat."
+
+## 7. Myths, Memes, and Exaggerations
+
+| Claim | Public Source Type | Accuracy |
+|---|---|---|
+| "The Hornet can do everything." | DCS forums, Reddit, enthusiast comments | Exaggerated. It is multirole, but range, payload, speed, and bring-back constraints still matter. |
+| "The Hornet is boring because it is too easy." | Reddit/DCS comments | Opinion. It reflects sim-player taste more than aircraft capability. |
+| "The Hornet replaced the Tomcat." | General online shorthand | Partly misleading. The Super Hornet replaced the F-14 in U.S. Navy service; the legacy F/A-18 replaced older F-4/A-7 roles and complemented the F-14 before Super Hornet. |
+| "The legacy Hornet and Super Hornet are basically the same aircraft." | Casual comments | Misleading. Navy sources describe the Super Hornet as larger, longer-ranged, and a major model upgrade. |
+| "The Hornet is only a strike aircraft." | Casual misunderstanding | False. Official Navy/NAVAIR descriptions stress both fighter and attack roles. |
+
+## 8. Unofficial Incidents and Stories
+
+| Date | Location | What happened | Why notable | Source |
+|---|---|---|---|---|
+| 15 April 1986 | Libya / USS Coral Sea air wing | F/A-18A BuNo 162417 fired AGM-88 HARM missiles at Libyan radar sites during the Libya strike. | Early combat use and SEAD identity. | https://www.navair.navy.mil/node/8766 |
+| 17 January 1991 | Iraq | F/A-18Cs were credited with two MiG-21 kills before continuing the strike mission. | Iconic fighter/attack proof point in public Hornet reputation. | https://www.navair.navy.mil/product/FA-18-D-Hornet |
+| 2 October 2019 | NAS Oceana, Virginia | The last active-duty U.S. Navy F/A-18C made its final operational flight. | Marked the U.S. Navy legacy Hornet's active-duty endpoint. | https://www.navy.mil/Press-Office/Press-Releases/display-pressreleases/Article/2237321/navy-fa-18c-hornet-makes-final-active-duty-flight/ |
+| December 2021 | Australia | Australia planned withdrawal of its Classic Hornet fleet as F-35A entered service. | Demonstrates allied lifecycle and replacement pattern. | https://www.defence.gov.au/defence-activities/projects/fa-18ab-classic-hornet-weapon-system |
+
+## 9. How Opponents Perceived It
+
+Direct opponent-pilot testimony is limited in easy public sources. What can be stated cautiously:
+
+- In Libya in 1986, the Hornet's role was tied to suppression of air-defense radars, so opponent reaction was mostly tactical air-defense suppression rather than fighter-to-fighter fear.
+- In Desert Storm, the Hornet's public combat reputation grew because it could engage Iraqi fighters and continue a strike mission.
+- In later conflicts, opponents were more likely to experience the Hornet as part of a larger U.S. and allied precision-strike system rather than as a standalone aircraft.
+
+Do not claim that opponents universally feared the Hornet unless a specific sourced opponent account is available.
+
+## 10. Overall Reputation Summary
+
+Officially, the F/A-18 Hornet is known as a twin-engine, carrier-capable, all-weather multirole fighter/attack aircraft. Unofficially, it is known as the Navy and Marine Corps practical workhorse: less mythical than the Tomcat, less speed-focused than the Viper, but highly adaptable and visible through the Blue Angels and flight simulators.
+
+Fans exaggerate its ability to "do everything." Critics exaggerate its limitations when they reduce it to a short-ranged compromise. A neutral encyclopedia page should describe it as a balanced carrier multirole fighter whose major identity is versatility, combat-proven strike-fighter use, broad allied adoption, and a long late-life sustainment burden.
+
+## Useful for Milipedia
+
+- Add a sourced Public Perception section that separates official "workhorse" language from fan/forum opinion.
+- Add Libya 1986, Desert Storm 1991, final Navy active-duty flight in 2019, and Australia 2021 retirement to notable events/timeline.
+- Add a limitations section that names range, bring-back/payload tradeoffs, aging airframes, and Super Hornet/F-35 replacement.
+- Add comparisons to F-14, F-16, A-7/A-6, and Super Hornet.
+- Use the local research file only for public-perception synthesis; cite official pages for factual service and technical claims.

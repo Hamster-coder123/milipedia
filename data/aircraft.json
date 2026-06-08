@@ -4287,55 +4287,188 @@
     "alternative_names": [],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
-    "manufacturer": "McDonnell Douglas / Boeing",
-    "role": "Carrier-capable multirole fighter",
-    "aircraft_type": "Fighter",
-    "era": "Modern",
-    "first_flight": "1978",
-    "introduction_date": "1983",
-    "retirement_date": null,
-    "status": "Active/retired by operator",
-    "number_built": "Not listed",
-    "crew": "1 or 2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "manufacturer": "McDonnell Douglas / Boeing; Northrop major subcontractor",
+    "role": "Carrier-capable multirole fighter and attack aircraft",
+    "aircraft_type": "Fighter / attack aircraft",
+    "era": "Fourth-generation carrier aviation",
+    "first_flight": "November 1978",
+    "introduction_date": "October 1983 with F/A-18A/B; September 1987 with F/A-18C/D",
+    "retirement_date": "U.S. Navy F/A-18C final active-duty flight: 2 October 2019; still active with some operators",
+    "status": "Active with selected operators; retired by U.S. Navy active-duty units and Australia",
+    "number_built": "A-D total not used here without a primary production-count source; C/D production ended in 2000",
+    "crew": "One in F/A-18A/C; two in F/A-18B/D",
+    "engine_type": "Turbofan",
+    "engines": "Two General Electric F404-GE-402 enhanced-performance turbofan engines",
+    "max_speed": "Mach 1.7+",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "McDonnell Douglas F/A-18 Hornet: Carrier-capable multirole fighter. Manufacturer: McDonnell Douglas / Boeing. First flight: 1978. Introduction: 1983.",
-    "short_summary": "McDonnell Douglas F/A-18 Hornet: Carrier-capable multirole fighter. Origin: United States. Manufacturer: McDonnell Douglas / Boeing. First flight: 1978. Introduction: 1983. Status: Active/retired by operator.",
+    "range": "Ferry: 1,546 nautical miles / 1,777.9 miles / 2,844 km with two AIM-9s and three 330-gallon tanks",
+    "combat_range": "1,089 nautical miles / 1,252.4 miles / 2,003 km, clean plus two AIM-9s",
+    "service_ceiling": "50,000+ ft",
+    "rate_of_climb": "Not used; open official sources cited here do not give a climb-rate value",
+    "armament": "One M61A1/A2 Vulcan 20 mm cannon; AIM-9, AIM-7, AIM-120, Harpoon, HARM, SLAM/SLAM-ER, Maverick, JSOW, JDAM, laser-guided bombs, general-purpose bombs, mines, and rockets.",
+    "hardpoints": "External stores stations for missiles, bombs, tanks, and mission stores; exact station count varies by source and variant",
+    "variants": [
+      {
+        "name": "F/A-18A",
+        "description": "Single-seat early production Hornet used for fighter and attack missions.",
+        "role": "Initial fleet strike fighter"
+      },
+      {
+        "name": "F/A-18B",
+        "description": "Two-seat version primarily associated with training and conversion duties.",
+        "role": "Training and conversion"
+      },
+      {
+        "name": "F/A-18C",
+        "description": "Single-seat upgraded model introduced operationally in 1987 with later block improvements.",
+        "role": "Main late U.S. Navy and Marine Corps combat model"
+      },
+      {
+        "name": "F/A-18D",
+        "description": "Two-seat model used for attack, tactical air control, forward air control, and reconnaissance missions.",
+        "role": "Two-seat operational and specialist missions"
+      },
+      {
+        "name": "CF-18 / CF-188",
+        "description": "Canadian Hornet family modernized through phased upgrade programs.",
+        "role": "Canadian air-defense and expeditionary fighter"
+      },
+      {
+        "name": "F/A-18A/B Classic Hornet",
+        "description": "Australian designation commonly used for RAAF A/B aircraft retired during the F-35A transition.",
+        "role": "Former Australian fighter force"
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "U.S. Navy",
+        "status": "Former active-duty F/A-18C operator; final active-duty F/A-18C flight on 2 October 2019",
+        "note": "Replaced in active-duty Navy service by F/A-18E/F Super Hornets."
+      },
+      {
+        "country": "United States",
+        "service": "U.S. Marine Corps",
+        "status": "Late-life operator",
+        "note": "NAVAIR describes the Hornet as the Marine Corps tactical-aviation workhorse and bridge to the F-35."
+      },
+      {
+        "country": "Canada",
+        "service": "Royal Canadian Air Force",
+        "status": "Modernized CF-18 operator",
+        "note": "Canada completed Phase II of the CF-18 Incremental Modernization Project in 2010."
+      },
+      {
+        "country": "Australia",
+        "service": "Royal Australian Air Force",
+        "status": "Former F/A-18A/B Classic Hornet operator",
+        "note": "Australia planned withdrawal of the Classic Hornet fleet by December 2021 during transition to the F-35A."
+      },
+      {
+        "country": "Finland / Kuwait / Malaysia / Spain / Switzerland",
+        "service": "National air forces",
+        "status": "Foreign Hornet customers",
+        "note": "Listed by the U.S. Navy among foreign Hornet/Super Hornet customers."
+      }
+    ],
+    "combat_history": "Operational use includes Libya-related combat in 1986, Operation Desert Storm, later Iraq operations, Afghanistan, and long-running Marine Corps and allied deployments.",
+    "development_history": "The F/A-18A-D Hornet developed from the YF-17 lineage into a carrier-suitable fighter/attack aircraft built by McDonnell Douglas with Northrop as major subcontractor. It first flew in November 1978, entered operational service with A/B models in October 1983, and introduced C/D models operationally in September 1987.",
+    "short_summary": "The McDonnell Douglas F/A-18 Hornet is a U.S. twin-engine, carrier-capable, all-weather fighter/attack aircraft built to combine fleet air defense, escort, interdiction, close air support, and strike missions. The legacy A-D Hornet became a Navy and Marine Corps workhorse, proved the fighter/attack concept in Desert Storm, served allied air forces, and remained in late-life use after U.S. Navy active-duty F/A-18C retirement.",
     "carrier_capable": true,
     "stealth": false,
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/FA-18C_desert_refueling.jpg/330px-FA-18C_desert_refueling.jpg",
-        "caption": "McDonnell Douglas F/A-18 Hornet",
-        "credit": "Wikimedia/Wikipedia thumbnail source",
-        "license": "Verify original file license before reuse."
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/FA-18C_desert_refueling.jpg/960px-FA-18C_desert_refueling.jpg",
+        "caption": "U.S. Navy F/A-18C Hornet refueling during operations over Southwest Asia",
+        "credit": "U.S. Navy / Wikimedia Commons",
+        "license": "Public domain U.S. military image; verify on Commons file page.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:FA-18C_desert_refueling.jpg"
       }
     ],
     "sources": [
       {
         "id": "fn-main",
-        "title": "McDonnell Douglas F/A-18 Hornet",
-        "url": "https://en.wikipedia.org/wiki/McDonnell_Douglas_F%2FA-18_Hornet",
-        "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "title": "F/A-18 A-D Hornet",
+        "url": "https://www.navair.navy.mil/product/FA-18-D-Hornet",
+        "publisher": "Naval Air Systems Command",
+        "note": "Primary official source for F/A-18 A-D mission, service entry, Desert Storm robustness claim, Marine Corps bridge role, background, variants, specifications, and armament."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "id": "fn-navy-fact",
+        "title": "F/A-18A-D Hornet and F/A-18E/F Super Hornet Strike Fighter",
+        "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2383479/fa-18a-d-hornet-and-fa-18ef-super-hornet-strike-fighter/",
+        "publisher": "United States Navy",
+        "note": "Used for U.S. Navy fact-file wording, foreign customers, Blue Angels transition context, A-D specifications, and Super Hornet comparison."
+      },
+      {
+        "id": "fn-navair-libya",
+        "title": "First combat Hornet returned to service",
+        "url": "https://www.navair.navy.mil/node/8766",
+        "publisher": "Naval Air Systems Command",
+        "note": "Used for BuNo 162417, April 1986 Libya combat use, USS Coral Sea, VMFA-323, and HARM missile employment."
+      },
+      {
+        "id": "fn-navy-final-flight",
+        "title": "Navy F/A-18C Hornet Makes Final Active-Duty Flight",
+        "url": "https://www.navy.mil/Press-Office/Press-Releases/display-pressreleases/Article/2237321/navy-fa-18c-hornet-makes-final-active-duty-flight/",
+        "publisher": "United States Navy",
+        "note": "Used for 2 October 2019 final active-duty Navy F/A-18C flight, aircraft number 300, VFA-106, and transfer/preservation notes."
+      },
+      {
+        "id": "fn-aus-classic",
+        "title": "F/A-18A/B Classic Hornet Weapon System",
+        "url": "https://www.defence.gov.au/defence-activities/projects/fa-18ab-classic-hornet-weapon-system",
+        "publisher": "Australian Department of Defence",
+        "note": "Used for RAAF Classic Hornet fleet size, losses, progressive withdrawal, and December 2021 planned withdrawal date."
+      },
+      {
+        "id": "fn-canada-modernization",
+        "title": "Final Phase II Modernized CF-18 Hornet Delivered",
+        "url": "https://www.canada.ca/en/news/archive/2010/03/final-phase-ii-modernized-cf-18-hornet-delivered.html",
+        "publisher": "Government of Canada",
+        "note": "Used for Canadian CF-18 modernization completion, Phase II equipment, and modernization program context."
+      },
+      {
+        "id": "fn-usni-readiness",
+        "title": "Nobody Asked Me But... Scrap Marine Hornets",
+        "url": "https://www.usni.org/magazines/proceedings/2017/september/nobody-asked-me-scrap-marine-hornets",
+        "publisher": "U.S. Naval Institute Proceedings",
+        "note": "Used for sourced critique of aging Marine Corps Hornet readiness, low flight hours, and worn-out airframe concerns."
+      },
+      {
+        "id": "fn-popular-mechanics",
+        "title": "Why the F/A-18 Is Such a Badass Plane",
+        "url": "https://www.popularmechanics.com/military/aviation/a24538/f-a-18-badass-plane/",
+        "publisher": "Popular Mechanics",
+        "note": "Used as aviation-publication reputation context for Blue Angels visibility, early combat profile, Desert Storm reputation, and common range/acceleration complaints."
+      },
+      {
+        "id": "fn-dcs-forum",
+        "title": "DCS F/A-18 Hornet worth the buy and is good simulation of the jet?",
+        "url": "https://forum.dcs.world/topic/278054-dcs-fa-18-hornet-worth-the-buy-and-is-good-simulation-of-the-jet/",
+        "publisher": "Eagle Dynamics community forum",
+        "note": "Used only for simulation-community public perception: beginner-friendly, versatile, carrier operations, and broad mission coverage. Not used as proof of real aircraft performance."
+      },
+      {
+        "id": "fn-reddit-dcs",
+        "title": "Reddit discussion: F-18 praise and criticism in DCS",
+        "url": "https://www.reddit.com/r/dcs/comments/17o3wxv/im_not_sure_what_all_the_hate_towards_the_f18_is/",
+        "publisher": "Reddit r/dcs",
+        "note": "Used only as social-media perception evidence for all-rounder praise, ease-of-use opinions, computerized/boring criticism, and F-16 comparison arguments."
+      },
+      {
+        "id": "fn-commons-gallery",
+        "title": "F/A-18 Hornet gallery",
+        "url": "https://commons.wikimedia.org/wiki/F/A-18_Hornet",
+        "publisher": "Wikimedia Commons",
+        "note": "Used for image discovery and source-page links; individual file pages should be checked for exact attribution and license."
+      },
+      {
+        "id": "fn-public-perception",
+        "title": "Public Perception Research: McDonnell Douglas F/A-18 Hornet",
+        "url": "AIRCRAFT%20PUBLIC%20PERCEPTION/F18.txt",
+        "publisher": "Milipedia local research file",
+        "note": "Local public-perception synthesis covering official facts, aviation-community reputation, simulation/social-media opinions, common comparisons, myths, and source cautions."
       },
       {
         "id": "fn-method",
@@ -4355,60 +4488,64 @@
       "McDonnell Douglas / Boeing"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "Carrier compatibility added structural, landing gear, corrosion, and low-speed handling requirements.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "The Hornet had to combine fighter and attack roles without becoming too specialized for either mission.",
+      "Carrier suitability required stronger structure, landing gear, corrosion protection, and low-speed handling than a land-based lightweight fighter.",
+      "Late-life use created a sustainment tension between keeping legacy airframes flying and transitioning to F/A-18E/F and F-35 aircraft."
     ],
     "wars_used_in": [
       {
-        "name": "Gulf War",
-        "note": "McDonnell Douglas F/A-18 Hornet used in Gulf War."
+        "name": "Operation El Dorado Canyon / Libya, 1986",
+        "note": "F/A-18A BuNo 162417 fired AGM-88 HARM missiles at Libyan radar sites from USS Coral Sea."
       },
       {
-        "name": "Iraq War",
-        "note": "McDonnell Douglas F/A-18 Hornet used in Iraq War."
+        "name": "Operation Desert Storm, 1991",
+        "note": "Hornets were credited with air-to-air kills and ground attack in the same mission."
       },
       {
-        "name": "War in Afghanistan (2001–2021)",
-        "note": "McDonnell Douglas F/A-18 Hornet used in War in Afghanistan (2001–2021)."
+        "name": "Iraq and Afghanistan operations",
+        "note": "The Hornet served in post-9/11 strike, close air support, and fleet-support operations."
       }
     ],
     "variant_families": [
-      "McDonnell Douglas F/A-18 Hornet baseline production model",
-      "McDonnell Douglas F/A-18 Hornet upgraded avionics or weapons-capable model",
-      "McDonnell Douglas F/A-18 Hornet two-seat trainer or conversion model",
-      "McDonnell Douglas F/A-18 Hornet export or locally modernized model"
+      "F/A-18A",
+      "F/A-18B",
+      "F/A-18C",
+      "F/A-18D",
+      "CF-18 / CF-188",
+      "F/A-18A/B Classic Hornet"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "McDonnell Douglas F/A-18 Hornet has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "U.S. Navy, U.S. Marine Corps, Canada, Australia, Finland, Kuwait, Malaysia, Spain, and Switzerland are covered where sources support concise status notes.",
+      "all_operators_status": "Current and former status varies by operator; U.S. Navy active-duty F/A-18C service ended in 2019, Australia planned Classic Hornet withdrawal in 2021, and the Marine Corps retained Hornets as a bridge to the F-35."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "BuNo 162417, an early combat Hornet from the 1986 Libya strike.",
+        "F/A-18C aircraft number 300, the last U.S. Navy active-duty F/A-18C to make an operational flight."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "15 April 1986: F/A-18A 162417 fired HARM missiles at Libyan air-defense radar sites.",
+        "17 January 1991: Hornets were credited with shooting down Iraqi MiG-21s and attacking ground targets in the same mission.",
+        "2 October 2019: final active-duty U.S. Navy F/A-18C operational flight at NAS Oceana.",
+        "December 2021: planned withdrawal of the Australian Classic Hornet fleet."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "McDonnell Douglas F/A-18 Hornet uses jet propulsion."
+      "type": "Turbofan",
+      "summary": "Two General Electric F404-GE-402 enhanced-performance turbofan engines, each rated by NAVAIR at 17,700 pounds static thrust."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "One 20 mm M61A1/A2 Vulcan cannon plus Sidewinder, Sparrow, AMRAAM, Harpoon, HARM, SLAM/SLAM-ER, Maverick, JSOW, JDAM, laser-guided bombs, general-purpose bombs, mines, and rockets.",
+      "caution": "Exact stores depend on variant, block, operator, mission wiring, rules of engagement, and period."
     },
     "similar_development": [
       {
-        "id": "f-15-eagle",
-        "name": "McDonnell Douglas F-15 Eagle",
-        "url": "aircraft.html?id=f-15-eagle"
+        "id": "f-14-tomcat",
+        "name": "Grumman F-14 Tomcat",
+        "url": "aircraft.html?id=f-14-tomcat"
       },
       {
         "id": "f-16-fighting-falcon",
@@ -4421,218 +4558,300 @@
         "url": "aircraft.html?id=f-a-18e-f-super-hornet"
       },
       {
-        "id": "f-22-raptor",
-        "name": "Lockheed Martin F-22 Raptor",
-        "url": "aircraft.html?id=f-22-raptor"
+        "id": "a-7-corsair-ii",
+        "name": "LTV A-7 Corsair II",
+        "url": "aircraft.html?id=a-7-corsair-ii"
+      },
+      {
+        "id": "f-4-phantom-ii",
+        "name": "McDonnell Douglas F-4 Phantom II",
+        "url": "aircraft.html?id=f-4-phantom-ii"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 44,
+      "operator_entries": 5,
+      "variant_entries": 6,
+      "external_article_sources": 12
     },
     "footnotes": [
       {
         "id": "fn-main",
-        "title": "McDonnell Douglas F/A-18 Hornet",
-        "url": "https://en.wikipedia.org/wiki/McDonnell_Douglas_F%2FA-18_Hornet",
-        "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "title": "F/A-18 A-D Hornet",
+        "url": "https://www.navair.navy.mil/product/FA-18-D-Hornet",
+        "publisher": "Naval Air Systems Command",
+        "note": "Primary official source for F/A-18 A-D mission, service entry, Desert Storm robustness claim, Marine Corps bridge role, background, variants, specifications, and armament."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "id": "fn-navy-fact",
+        "title": "F/A-18A-D Hornet and F/A-18E/F Super Hornet Strike Fighter",
+        "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2383479/fa-18a-d-hornet-and-fa-18ef-super-hornet-strike-fighter/",
+        "publisher": "United States Navy",
+        "note": "Used for U.S. Navy fact-file wording, foreign customers, Blue Angels transition context, A-D specifications, and Super Hornet comparison."
+      },
+      {
+        "id": "fn-navair-libya",
+        "title": "First combat Hornet returned to service",
+        "url": "https://www.navair.navy.mil/node/8766",
+        "publisher": "Naval Air Systems Command",
+        "note": "Used for BuNo 162417, April 1986 Libya combat use, USS Coral Sea, VMFA-323, and HARM missile employment."
+      },
+      {
+        "id": "fn-navy-final-flight",
+        "title": "Navy F/A-18C Hornet Makes Final Active-Duty Flight",
+        "url": "https://www.navy.mil/Press-Office/Press-Releases/display-pressreleases/Article/2237321/navy-fa-18c-hornet-makes-final-active-duty-flight/",
+        "publisher": "United States Navy",
+        "note": "Used for 2 October 2019 final active-duty Navy F/A-18C flight, aircraft number 300, VFA-106, and transfer/preservation notes."
+      },
+      {
+        "id": "fn-aus-classic",
+        "title": "F/A-18A/B Classic Hornet Weapon System",
+        "url": "https://www.defence.gov.au/defence-activities/projects/fa-18ab-classic-hornet-weapon-system",
+        "publisher": "Australian Department of Defence",
+        "note": "Used for RAAF Classic Hornet fleet size, losses, progressive withdrawal, and December 2021 planned withdrawal date."
+      },
+      {
+        "id": "fn-canada-modernization",
+        "title": "Final Phase II Modernized CF-18 Hornet Delivered",
+        "url": "https://www.canada.ca/en/news/archive/2010/03/final-phase-ii-modernized-cf-18-hornet-delivered.html",
+        "publisher": "Government of Canada",
+        "note": "Used for Canadian CF-18 modernization completion, Phase II equipment, and modernization program context."
+      },
+      {
+        "id": "fn-usni-readiness",
+        "title": "Nobody Asked Me But... Scrap Marine Hornets",
+        "url": "https://www.usni.org/magazines/proceedings/2017/september/nobody-asked-me-scrap-marine-hornets",
+        "publisher": "U.S. Naval Institute Proceedings",
+        "note": "Used for sourced critique of aging Marine Corps Hornet readiness, low flight hours, and worn-out airframe concerns."
+      },
+      {
+        "id": "fn-popular-mechanics",
+        "title": "Why the F/A-18 Is Such a Badass Plane",
+        "url": "https://www.popularmechanics.com/military/aviation/a24538/f-a-18-badass-plane/",
+        "publisher": "Popular Mechanics",
+        "note": "Used as aviation-publication reputation context for Blue Angels visibility, early combat profile, Desert Storm reputation, and common range/acceleration complaints."
+      },
+      {
+        "id": "fn-dcs-forum",
+        "title": "DCS F/A-18 Hornet worth the buy and is good simulation of the jet?",
+        "url": "https://forum.dcs.world/topic/278054-dcs-fa-18-hornet-worth-the-buy-and-is-good-simulation-of-the-jet/",
+        "publisher": "Eagle Dynamics community forum",
+        "note": "Used only for simulation-community public perception: beginner-friendly, versatile, carrier operations, and broad mission coverage. Not used as proof of real aircraft performance."
+      },
+      {
+        "id": "fn-reddit-dcs",
+        "title": "Reddit discussion: F-18 praise and criticism in DCS",
+        "url": "https://www.reddit.com/r/dcs/comments/17o3wxv/im_not_sure_what_all_the_hate_towards_the_f18_is/",
+        "publisher": "Reddit r/dcs",
+        "note": "Used only as social-media perception evidence for all-rounder praise, ease-of-use opinions, computerized/boring criticism, and F-16 comparison arguments."
+      },
+      {
+        "id": "fn-commons-gallery",
+        "title": "F/A-18 Hornet gallery",
+        "url": "https://commons.wikimedia.org/wiki/F/A-18_Hornet",
+        "publisher": "Wikimedia Commons",
+        "note": "Used for image discovery and source-page links; individual file pages should be checked for exact attribution and license."
+      },
+      {
+        "id": "fn-public-perception",
+        "title": "Public Perception Research: McDonnell Douglas F/A-18 Hornet",
+        "url": "AIRCRAFT%20PUBLIC%20PERCEPTION/F18.txt",
+        "publisher": "Milipedia local research file",
+        "note": "Local public-perception synthesis covering official facts, aviation-community reputation, simulation/social-media opinions, common comparisons, myths, and source cautions."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "id": "fn-main",
+        "title": "F/A-18 A-D Hornet",
+        "url": "https://www.navair.navy.mil/product/FA-18-D-Hornet",
+        "publisher": "Naval Air Systems Command",
+        "note": "Primary official source for F/A-18 A-D mission, service entry, Desert Storm robustness claim, Marine Corps bridge role, background, variants, specifications, and armament."
+      },
+      {
+        "id": "fn-navy-fact",
+        "title": "F/A-18A-D Hornet and F/A-18E/F Super Hornet Strike Fighter",
+        "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2383479/fa-18a-d-hornet-and-fa-18ef-super-hornet-strike-fighter/",
+        "publisher": "United States Navy",
+        "note": "Used for U.S. Navy fact-file wording, foreign customers, Blue Angels transition context, A-D specifications, and Super Hornet comparison."
+      },
+      {
+        "id": "fn-navair-libya",
+        "title": "First combat Hornet returned to service",
+        "url": "https://www.navair.navy.mil/node/8766",
+        "publisher": "Naval Air Systems Command",
+        "note": "Used for BuNo 162417, April 1986 Libya combat use, USS Coral Sea, VMFA-323, and HARM missile employment."
+      },
+      {
+        "id": "fn-navy-final-flight",
+        "title": "Navy F/A-18C Hornet Makes Final Active-Duty Flight",
+        "url": "https://www.navy.mil/Press-Office/Press-Releases/display-pressreleases/Article/2237321/navy-fa-18c-hornet-makes-final-active-duty-flight/",
+        "publisher": "United States Navy",
+        "note": "Used for 2 October 2019 final active-duty Navy F/A-18C flight, aircraft number 300, VFA-106, and transfer/preservation notes."
+      },
+      {
+        "id": "fn-aus-classic",
+        "title": "F/A-18A/B Classic Hornet Weapon System",
+        "url": "https://www.defence.gov.au/defence-activities/projects/fa-18ab-classic-hornet-weapon-system",
+        "publisher": "Australian Department of Defence",
+        "note": "Used for RAAF Classic Hornet fleet size, losses, progressive withdrawal, and December 2021 planned withdrawal date."
+      },
+      {
+        "id": "fn-canada-modernization",
+        "title": "Final Phase II Modernized CF-18 Hornet Delivered",
+        "url": "https://www.canada.ca/en/news/archive/2010/03/final-phase-ii-modernized-cf-18-hornet-delivered.html",
+        "publisher": "Government of Canada",
+        "note": "Used for Canadian CF-18 modernization completion, Phase II equipment, and modernization program context."
+      },
+      {
+        "id": "fn-usni-readiness",
+        "title": "Nobody Asked Me But... Scrap Marine Hornets",
+        "url": "https://www.usni.org/magazines/proceedings/2017/september/nobody-asked-me-scrap-marine-hornets",
+        "publisher": "U.S. Naval Institute Proceedings",
+        "note": "Used for sourced critique of aging Marine Corps Hornet readiness, low flight hours, and worn-out airframe concerns."
+      },
+      {
+        "id": "fn-popular-mechanics",
+        "title": "Why the F/A-18 Is Such a Badass Plane",
+        "url": "https://www.popularmechanics.com/military/aviation/a24538/f-a-18-badass-plane/",
+        "publisher": "Popular Mechanics",
+        "note": "Used as aviation-publication reputation context for Blue Angels visibility, early combat profile, Desert Storm reputation, and common range/acceleration complaints."
+      },
+      {
+        "id": "fn-dcs-forum",
+        "title": "DCS F/A-18 Hornet worth the buy and is good simulation of the jet?",
+        "url": "https://forum.dcs.world/topic/278054-dcs-fa-18-hornet-worth-the-buy-and-is-good-simulation-of-the-jet/",
+        "publisher": "Eagle Dynamics community forum",
+        "note": "Used only for simulation-community public perception: beginner-friendly, versatile, carrier operations, and broad mission coverage. Not used as proof of real aircraft performance."
+      },
+      {
+        "id": "fn-reddit-dcs",
+        "title": "Reddit discussion: F-18 praise and criticism in DCS",
+        "url": "https://www.reddit.com/r/dcs/comments/17o3wxv/im_not_sure_what_all_the_hate_towards_the_f18_is/",
+        "publisher": "Reddit r/dcs",
+        "note": "Used only as social-media perception evidence for all-rounder praise, ease-of-use opinions, computerized/boring criticism, and F-16 comparison arguments."
+      },
+      {
+        "id": "fn-commons-gallery",
+        "title": "F/A-18 Hornet gallery",
+        "url": "https://commons.wikimedia.org/wiki/F/A-18_Hornet",
+        "publisher": "Wikimedia Commons",
+        "note": "Used for image discovery and source-page links; individual file pages should be checked for exact attribution and license."
+      },
+      {
+        "id": "fn-public-perception",
+        "title": "Public Perception Research: McDonnell Douglas F/A-18 Hornet",
+        "url": "AIRCRAFT%20PUBLIC%20PERCEPTION/F18.txt",
+        "publisher": "Milipedia local research file",
+        "note": "Local public-perception synthesis covering official facts, aviation-community reputation, simulation/social-media opinions, common comparisons, myths, and source cautions."
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "McDonnell Douglas F/A-18 Hornet is a Carrier-capable multirole fighter from United States. Manufacturer: McDonnell Douglas / Boeing. First flight: 1978. Introduction: 1983. Status: Active/retired by operator.",
+            "text": "The McDonnell Douglas F/A-18 Hornet is a U.S. twin-engine, carrier-capable, all-weather fighter/attack aircraft built to perform both air-to-air and air-to-ground missions. NAVAIR describes the F/A-18 A-D as the nation's first all-weather fighter and attack aircraft and notes that it was designed for interdiction and close air support without giving up fighter capability.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "McDonnell Douglas F/A-18 Hornet is a fighter. Primary role: carrier-capable multirole fighter. Country of origin: United States. Manufacturer: McDonnell Douglas / Boeing.",
+            "text": "The Hornet entered operational service with the Marine Corps in 1983 and the U.S. Navy in 1984. The A and C were single-seat aircraft, while the B and D were two-seat versions, with B models primarily used for training and C/D aircraft used for attack, tactical air control, forward air control, and reconnaissance missions.",
             "refs": [
-              "fn-wikidata"
+              "fn-main",
+              "fn-navy-fact"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Its long public identity is the practical naval multirole workhorse: less specialized than the F-14 Tomcat or A-6 Intruder, smaller than the later Super Hornet, and strongly associated with carrier operations, Blue Angels demonstrations, Desert Storm, and late-life Marine Corps service.",
             "refs": [
-              "fn-method"
+              "fn-navy-fact",
+              "fn-public-perception"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Carrier-capable multirole fighter"
+            "text": "Carrier-capable multirole fighter and attack aircraft"
           },
           {
-            "title": "Designer or builder",
-            "text": "McDonnell Douglas / Boeing"
+            "title": "Powerplant",
+            "text": "Two GE F404-GE-402 turbofans"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
-          },
-          {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Combat identity",
+            "text": "Strike fighter, SEAD support, fleet air defense, close air support"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "McDonnell Douglas F/A-18 Hornet first flew in 1978. Introduction date: 1983. Era: Modern.",
+            "text": "The Hornet grew from the Northrop YF-17 lineage into a Navy and Marine Corps aircraft with McDonnell Douglas as prime contractor and Northrop as major subcontractor. Official Navy data identifies the F/A-18 A-D as a mid-wing, twin-engine, multi-mission aircraft suitable for carrier operations.",
+            "refs": [
+              "fn-navy-fact"
+            ]
+          },
+          {
+            "text": "The F/A-18 completed its first flight in November 1978. Operational A/B service followed in October 1983, and C/D models entered operational use in September 1987.",
+            "refs": [
+              "fn-main",
+              "fn-navy-fact"
+            ]
+          },
+          {
+            "text": "Production of C and D models ended in 2000, with the final F/A-18D delivered to the U.S. Marine Corps that summer. The domestic A/B/C/D fleet then moved into post-production support as the Navy and Marine Corps tracked manpower and sustainment requirements for aging aircraft.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Producer: McDonnell Douglas / Boeing. Development context: carrier-capable multirole fighter, jet propulsion, supersonic speed category, Modern era.",
+            "text": "The Super Hornet continued the F/A-18 line but was not simply a late block of the same airframe. Navy sources describe the F/A-18E/F as substantially larger, about 7,000 pounds heavier, and having roughly 50 percent higher range than the legacy Hornet.",
             "refs": [
-              "fn-wikidata"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Carrier compatibility added structural, landing gear, corrosion, and low-speed handling requirements.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
-            "refs": [
-              "fn-method"
+              "fn-navy-fact"
             ]
           }
         ]
       },
       {
         "id": "design",
-        "title": "Design and Capabilities",
+        "title": "Design",
         "paragraphs": [
           {
-            "text": "Crew: 1 or 2. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The F/A-18 A-D is a twin-engine, mid-wing, carrier-suitable tactical aircraft. Its airframe, landing gear, controls, corrosion protection, and low-speed handling had to support arrested landings and catapult operations as well as land-based Marine Corps and allied use.",
             "refs": [
-              "fn-main"
+              "fn-navy-fact",
+              "fn-public-perception"
             ]
           },
           {
-            "text": "Carrier capable: yes. Stealth: no.",
+            "text": "The cockpit and mission system were built around single-pilot multirole work in A/C models and two-seat training or specialist work in B/D models. Canadian Phase II modernization later added items such as tactical data link, helmet cueing, color displays, upgraded countermeasure dispensers, and a cockpit video recorder to CF-18 aircraft.",
             "refs": [
-              "fn-method"
+              "fn-main",
+              "fn-canada-modernization"
             ]
           },
           {
-            "text": "McDonnell Douglas F/A-18 Hornet uses jet propulsion. Engine model field: Not listed.",
+            "text": "Power came from two General Electric F404-GE-402 enhanced-performance turbofans, each listed by NAVAIR at 17,700 pounds static thrust. The aircraft was not stealthy, but its twin engines, carrier structure, and mission flexibility made it attractive to naval and coastal air forces.",
             "refs": [
-              "fn-main"
+              "fn-main",
+              "fn-navy-fact"
             ]
           },
           {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "cards": [
-          {
-            "title": "Crew",
-            "text": "1 or 2"
-          },
-          {
-            "title": "Engine class",
-            "text": "Jet"
-          },
-          {
-            "title": "Speed class",
-            "text": "Supersonic"
-          },
-          {
-            "title": "Carrier capable",
-            "text": "Yes"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "McDonnell Douglas F/A-18 Hornet status: Active/retired by operator. Conflict entries: 3.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: Gulf War, Iraq War, War in Afghanistan (2001–2021).",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Gulf War: McDonnell Douglas F/A-18 Hornet used in Gulf War.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Iraq War: McDonnell Douglas F/A-18 Hornet used in Iraq War.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "War in Afghanistan (2001–2021): McDonnell Douglas F/A-18 Hornet used in War in Afghanistan (2001–2021).",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "McDonnell Douglas F/A-18 Hornet named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
+            "text": "Weapons included one M61A1/A2 Vulcan 20 mm cannon plus Sidewinder, Sparrow, AMRAAM, Harpoon, HARM, SLAM/SLAM-ER, Maverick, JSOW, JDAM, laser-guided bombs, general-purpose bombs, mines, and rockets, with exact loadouts dependent on operator, block, mission, and period.",
             "refs": [
               "fn-main"
             ]
@@ -4640,103 +4859,21 @@
         ],
         "bullets": [
           {
-            "text": "Named pilots listed: 0.",
+            "text": "Airframe: carrier-suitable, twin-engine, mid-wing layout built for fighter and attack missions.",
             "refs": [
-              "fn-method"
+              "fn-navy-fact"
             ]
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "variants",
-        "title": "Variants",
-        "paragraphs": [
-          {
-            "text": "McDonnell Douglas F/A-18 Hornet variant-family entries: 4. Variant families: McDonnell Douglas F/A-18 Hornet baseline production model; McDonnell Douglas F/A-18 Hornet upgraded avionics or weapons-capable model; McDonnell Douglas F/A-18 Hornet two-seat trainer or conversion model; McDonnell Douglas F/A-18 Hornet export or locally modernized model.",
+            "text": "Cockpit: one-seat A/C and two-seat B/D versions; B primarily training, D used for specialist operational missions.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "McDonnell Douglas F/A-18 Hornet baseline production model",
+            "text": "Engine: two F404-GE-402 engines, 17,700 pounds static thrust each.",
             "refs": [
               "fn-main"
-            ]
-          },
-          {
-            "text": "McDonnell Douglas F/A-18 Hornet upgraded avionics or weapons-capable model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "McDonnell Douglas F/A-18 Hornet two-seat trainer or conversion model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "McDonnell Douglas F/A-18 Hornet export or locally modernized model",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "operators",
-        "title": "Operators",
-        "paragraphs": [
-          {
-            "text": "Designer or builder countries: United States. McDonnell Douglas F/A-18 Hornet has 1 designer or builder country entry.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "All operators status: 0 operator entries listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Major designer or builder entries: United States.",
-            "refs": [
-              "fn-wikidata"
             ]
           }
         ]
@@ -4746,34 +4883,375 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1 or 2, propulsion type Jet, maximum speed category Supersonic, first flight 1978, introduction 1983.",
+            "text": "Variant described: F/A-18 A-D family as listed by NAVAIR. Values are official open-source summary values and should not be mixed with Super Hornet E/F figures.",
+            "refs": [
+              "fn-main",
+              "fn-navy-fact"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Crew: one in A/C models; two in B/D models.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Length: 56 ft / 16.8 m; wingspan: 40 ft 5 in / 13.5 m; height: 15 ft 4 in / 4.6 m.",
             "refs": [
-              "fn-method"
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Maximum takeoff gross weight: 51,900 lb / 23,537 kg.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Maximum speed: Mach 1.7+; ceiling: 50,000+ ft.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Combat range: 1,089 nmi / 1,252.4 mi / 2,003 km, clean plus two AIM-9s; ferry range: 1,546 nmi / 1,777.9 mi / 2,844 km with two AIM-9s and three 330-gallon tanks.",
+            "refs": [
+              "fn-main"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "variants",
+        "title": "Variants",
         "paragraphs": [
           {
-            "text": "McDonnell Douglas F/A-18 Hornet similar-development links: 4.",
+            "text": "The legacy Hornet family is normally discussed as A/B/C/D, with single-seat A and C fighters and two-seat B and D aircraft. B models are mainly associated with training, while A+, C, and D models are associated with attack, tactical air control, forward air control, and reconnaissance roles.",
             "refs": [
-              "fn-method"
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Export and national variants included Canadian CF-18/CF-188 aircraft and Australian F/A-18A/B Classic Hornets. Canada modernized its CF-18s in phases, while Australia withdrew Classic Hornets during its F-35A transition.",
+            "refs": [
+              "fn-canada-modernization",
+              "fn-aus-classic"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "F/A-18A: single-seat early production strike fighter.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "F/A-18B: two-seat model primarily used for training.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "F/A-18C: single-seat upgraded model introduced operationally in September 1987.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "F/A-18D: two-seat model used for attack, tactical air control, forward air control, and reconnaissance missions.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "CF-18 / CF-188 and Australian Classic Hornet: national variants and fleet names used by export operators.",
+            "refs": [
+              "fn-canada-modernization",
+              "fn-aus-classic"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operators",
+        "title": "Operators",
+        "paragraphs": [
+          {
+            "text": "The U.S. Navy and Marine Corps were the core U.S. operators. The Navy fact file also lists Canada, Australia, Finland, Kuwait, Malaysia, Spain, and Switzerland among foreign Hornet/Super Hornet customers.",
+            "refs": [
+              "fn-navy-fact"
+            ]
+          },
+          {
+            "text": "The U.S. Navy ended active-duty F/A-18C operational flying on 2 October 2019 when aircraft number 300 made its final active-duty flight at NAS Oceana. The aircraft had served with VFA-106 for its 31-year service life.",
+            "refs": [
+              "fn-navy-final-flight"
+            ]
+          },
+          {
+            "text": "Australia originally had 57 single-seat F/A-18A and 18 two-seat F/A-18B aircraft; four were lost in accidents between 1987 and 1992, reducing the fleet to 71. The planned withdrawal date for the Classic Hornet fleet was December 2021.",
+            "refs": [
+              "fn-aus-classic"
+            ]
+          },
+          {
+            "text": "Canada completed Phase II of its CF-18 Incremental Modernization Project in 2010, adding systems intended to keep the fleet modern and interoperable during continued service.",
+            "refs": [
+              "fn-canada-modernization"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "1983-1984, entry into service: The Hornet entered operational service with the Marine Corps in 1983 and the U.S. Navy in 1984, giving naval aviation a single family for fighter and attack missions.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "15 April 1986, Libya: NAVAIR identifies F/A-18A BuNo 162417, side number 407, as an aircraft assigned to VMFA-323 aboard USS Coral Sea during the retaliatory strike against Libya. It fired two AGM-88 HARM missiles at Libyan air-defense radar sites in support of A-6E Intruder attacks.",
+            "refs": [
+              "fn-navair-libya"
+            ]
+          },
+          {
+            "text": "1991, Operation Desert Storm: NAVAIR highlights the Hornet mission in which the aircraft shot down enemy fighters and bombed ground targets in the same sortie, a widely repeated example of the F/A fighter/attack concept.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "2010s, late-life sustainment: U.S. Naval Institute commentary argued that Marine Hornet readiness had become severe by 2016, citing low flyable-aircraft numbers, limited pilot flight hours, corrosion, depot problems, and worn airframes. This is an opinionated Proceedings article, but it documents a real public criticism of the aging fleet.",
+            "refs": [
+              "fn-usni-readiness"
+            ]
+          },
+          {
+            "text": "2019-2021, retirement milestones: The Navy completed its final active-duty F/A-18C flight on 2 October 2019, while Australia planned complete Classic Hornet withdrawal by December 2021 as F-35A aircraft entered service.",
+            "refs": [
+              "fn-navy-final-flight",
+              "fn-aus-classic"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "notable-events",
+        "title": "Notable Events and Incidents",
+        "paragraphs": [
+          {
+            "text": "November 1978: The F/A-18 completed its first flight.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "15 April 1986: F/A-18A BuNo 162417 from VMFA-323 aboard USS Coral Sea fired AGM-88 HARM missiles at Libyan radar sites.",
+            "refs": [
+              "fn-navair-libya"
+            ]
+          },
+          {
+            "text": "1991: Desert Storm Hornets were credited with shooting down enemy fighters and attacking ground targets in the same mission.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "2 October 2019: The last active-duty U.S. Navy F/A-18C operational flight took place at NAS Oceana.",
+            "refs": [
+              "fn-navy-final-flight"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "The Hornet is most often compared with the F-14 Tomcat, F-16 Fighting Falcon, A-7 Corsair II, A-6 Intruder, and F/A-18E/F Super Hornet. The comparison is partly technical and partly cultural: fans often treat the F-14 as the glamorous fleet-defense aircraft, the F-16 as the lighter land-based fighter, and the Hornet as the carrier-capable multirole compromise.",
+            "refs": [
+              "fn-public-perception",
+              "fn-reddit-dcs"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "F-14 Tomcat: larger fleet-defense fighter with a more cinematic public image.",
+            "refs": [
+              "fn-public-perception"
+            ]
+          },
+          {
+            "text": "F-16 Fighting Falcon: land-based peer often seen by fans as faster or livelier, while the Hornet adds carrier operations and twin-engine naval suitability.",
+            "refs": [
+              "fn-reddit-dcs"
+            ]
+          },
+          {
+            "text": "F/A-18E/F Super Hornet: larger successor with greater range and lower maintenance demands according to Navy summary material.",
+            "refs": [
+              "fn-navy-fact"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The Hornet's main strength was mission breadth: it gave naval aviation a single aircraft family able to do fleet air defense, fighter escort, interdiction, close air support, SEAD support, and precision strike. Its main limitations were the consequences of that same balance: range, payload/bring-back, acceleration, and late-life sustainment compared with larger or newer aircraft.",
+            "refs": [
+              "fn-main",
+              "fn-navy-fact",
+              "fn-public-perception"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: true fighter/attack mission blend, officially designed for strike roles without giving up fighter capability.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Strength: carrier suitability and twin-engine design made it useful for Navy, Marine Corps, and coastal allied operators.",
+            "refs": [
+              "fn-navy-fact"
+            ]
+          },
+          {
+            "text": "Strength: broad weapon compatibility across air-to-air missiles, anti-ship weapons, anti-radiation missiles, precision bombs, and general-purpose stores.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Limitation: range was a recurring criticism in aviation commentary and a reason the larger Super Hornet emphasized increased range.",
+            "refs": [
+              "fn-navy-fact",
+              "fn-popular-mechanics"
+            ]
+          },
+          {
+            "text": "Limitation: legacy A-D aircraft aged into difficult sustainment, readiness, depot, and corrosion problems in Marine Corps service.",
+            "refs": [
+              "fn-usni-readiness"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "public-perception",
+        "title": "Public Perception",
+        "paragraphs": [
+          {
+            "text": "The F/A-18 Hornet's unofficial reputation is that of a practical naval workhorse. Official sources support the workhorse and multirole identity, while fan and simulation communities often turn the same idea into shorthand such as jack of all trades, versatile first module, or carrier-capable all-rounder.",
+            "refs": [
+              "fn-main",
+              "fn-dcs-forum",
+              "fn-public-perception"
+            ]
+          },
+          {
+            "text": "Supporters usually emphasize ease of employment, high-alpha handling, carrier operations, broad weapons, and the Desert Storm example of air-to-air and strike work in one mission. Critics usually emphasize short legs, lower glamour than the F-14, less speed-focused appeal than the F-16, and the worn-out condition of late Marine Corps airframes.",
+            "refs": [
+              "fn-main",
+              "fn-usni-readiness",
+              "fn-reddit-dcs",
+              "fn-public-perception"
+            ]
+          },
+          {
+            "text": "Social-media and simulator claims should be treated as public opinion, not as verified performance evidence. DCS and Reddit discussions are useful for understanding why enthusiasts call the Hornet approachable, computerized, broad-role, or sometimes boring, but factual claims about combat, specifications, and readiness in this article are tied to official, government, or professional sources.",
+            "refs": [
+              "fn-dcs-forum",
+              "fn-reddit-dcs",
+              "fn-public-perception"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "November 1978: First F/A-18 flight.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "October 1983: F/A-18A/B operational service.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "15 April 1986: Libya strike; F/A-18A 162417 fires HARM missiles at radar sites.",
+            "refs": [
+              "fn-navair-libya"
+            ]
+          },
+          {
+            "text": "September 1987: F/A-18C/D operational service.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Summer 2000: Last F/A-18D delivered to the U.S. Marine Corps as C/D production ends.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "2 October 2019: Final active-duty U.S. Navy F/A-18C operational flight.",
+            "refs": [
+              "fn-navy-final-flight"
+            ]
+          },
+          {
+            "text": "December 2021: Planned withdrawal date for Australia's Classic Hornet fleet.",
+            "refs": [
+              "fn-aus-classic"
+            ]
+          },
+          {
+            "text": "2030: NAVAIR describes the Marine Corps Hornet as serving as a bridge platform to the F-35 until planned sundown.",
+            "refs": [
+              "fn-main"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages include aircraft that shaped, competed with, replaced, or are commonly compared with the F/A-18 Hornet.",
+            "refs": [
+              "fn-public-perception"
             ]
           }
         ],
         "links": [
           {
-            "label": "McDonnell Douglas F-15 Eagle",
-            "url": "aircraft.html?id=f-15-eagle"
+            "label": "Grumman F-14 Tomcat",
+            "url": "aircraft.html?id=f-14-tomcat"
           },
           {
             "label": "General Dynamics F-16 Fighting Falcon",
@@ -4784,27 +5262,22 @@
             "url": "aircraft.html?id=f-a-18e-f-super-hornet"
           },
           {
-            "label": "Lockheed Martin F-22 Raptor",
-            "url": "aircraft.html?id=f-22-raptor"
+            "label": "LTV A-7 Corsair II",
+            "url": "aircraft.html?id=a-7-corsair-ii"
+          },
+          {
+            "label": "McDonnell Douglas F-4 Phantom II",
+            "url": "aircraft.html?id=f-4-phantom-ii"
           }
         ]
       }
     ],
     "event_gallery": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg/960px-USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg",
-        "caption": "Gulf War",
-        "source_url": "https://en.wikipedia.org/wiki/Gulf_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/UStanks_baghdad_2003.JPEG/960px-UStanks_baghdad_2003.JPEG",
-        "caption": "Iraq War",
-        "source_url": "https://en.wikipedia.org/wiki/Iraq_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/U.S._Army_firefight_in_Kunar.jpg/960px-U.S._Army_firefight_in_Kunar.jpg",
-        "caption": "War in Afghanistan (2001–2021)",
-        "source_url": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001%E2%80%932021)"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/McDonnell%20Douglas%20F-A-18C%20Hornet%2C%20Switzerland%20-%20Air%20Force%20AN1987891.jpg",
+        "caption": "Swiss Air Force F/A-18C Hornet, representing an export operator.",
+        "credit": "Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:McDonnell_Douglas_F-A-18C_Hornet,_Switzerland_-_Air_Force_AN1987891.jpg"
       }
     ]
   },
