@@ -35,6 +35,21 @@ const els = {
   cardTemplate: document.querySelector("#aircraft-card-template")
 };
 
+function setupIntroLoader() {
+  const loader = document.querySelector(".intro-loader");
+  if (!loader) return;
+
+  window.setTimeout(() => {
+    document.body.classList.add("intro-complete");
+  }, 3600);
+
+  window.setTimeout(() => {
+    loader.remove();
+  }, 4400);
+}
+
+setupIntroLoader();
+
 const COUNTRY_FLAGS = {
   Brazil: { code: "br" },
   China: { code: "cn" },
@@ -370,7 +385,7 @@ function renderFlagMarquee() {
       if (!asset) return "";
       const srcset = asset.srcset ? ` srcset="${escapeHtml(asset.srcset)}"` : "";
       return `
-        <span class="flag-chip" title="${escapeHtml(country)}">
+        <span class="flag-chip" data-country="${escapeHtml(country)}" title="${escapeHtml(country)}">
           <img
             src="${escapeHtml(asset.src)}"${srcset}
             alt="${escapeHtml(country)} flag"
@@ -445,7 +460,7 @@ function initHeroGlobe() {
     canvas.width = Math.round(width * dpr);
     canvas.height = Math.round(height * dpr);
     context.setTransform(dpr, 0, 0, dpr, 0, 0);
-    radius = Math.min(width, height) * 0.33;
+    radius = Math.min(width, height) * 0.385;
     starPoints = Array.from({ length: 170 }, (_, index) => {
       const phi = Math.acos(1 - (2 * (index + 0.5)) / 170);
       const theta = Math.PI * (1 + Math.sqrt(5)) * (index + 0.5);
