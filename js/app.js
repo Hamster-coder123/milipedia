@@ -68,11 +68,11 @@ function setupIntroLoader() {
   window.setTimeout(() => {
     document.body.classList.add("intro-complete");
     window.removeEventListener("resize", alignIntroTitle);
-  }, 4100);
+  }, 2750);
 
   window.setTimeout(() => {
     loader.remove();
-  }, 4800);
+  }, 3300);
 }
 
 setupIntroLoader();
