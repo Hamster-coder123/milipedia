@@ -39,8 +39,35 @@ function setupIntroLoader() {
   const loader = document.querySelector(".intro-loader");
   if (!loader) return;
 
+  const title = loader.querySelector(".intro-loader__title");
+  const target = document.querySelector(".hero-content h1");
+
+  const alignIntroTitle = () => {
+    if (!title || !target || document.body.classList.contains("intro-complete")) return;
+
+    const titleRect = title.getBoundingClientRect();
+    const targetRect = target.getBoundingClientRect();
+    const titleCenterX = titleRect.left + titleRect.width / 2;
+    const titleCenterY = titleRect.top + titleRect.height / 2;
+    const targetCenterX = targetRect.left + targetRect.width / 2;
+    const targetCenterY = targetRect.top + targetRect.height / 2;
+    const scale = Math.min(0.72, Math.max(0.28, targetRect.width / Math.max(titleRect.width, 1)));
+
+    document.documentElement.style.setProperty("--intro-title-x", `${targetCenterX - titleCenterX}px`);
+    document.documentElement.style.setProperty("--intro-title-y", `${targetCenterY - titleCenterY}px`);
+    document.documentElement.style.setProperty("--intro-title-scale", scale.toFixed(4));
+  };
+
+  requestAnimationFrame(() => {
+    alignIntroTitle();
+    document.body.classList.add("intro-ready");
+  });
+
+  window.addEventListener("resize", alignIntroTitle, { passive: true });
+
   window.setTimeout(() => {
     document.body.classList.add("intro-complete");
+    window.removeEventListener("resize", alignIntroTitle);
   }, 3600);
 
   window.setTimeout(() => {
@@ -51,28 +78,32 @@ function setupIntroLoader() {
 setupIntroLoader();
 
 const COUNTRY_FLAGS = {
-  Brazil: { code: "br" },
-  China: { code: "cn" },
-  France: { code: "fr" },
-  Germany: { code: "de" },
-  India: { code: "in" },
-  Israel: { code: "il" },
-  Italy: { code: "it" },
-  "Multinational Europe": { code: "eu" },
-  Pakistan: { code: "pk" },
-  Russia: { code: "ru" },
-  "Soviet Union": { url: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_Soviet_Union.svg" },
-  Sweden: { code: "se" },
-  "United Kingdom": { code: "gb" },
-  "United States": { code: "us" }
+  Brazil: { code: "br", position: "center center" },
+  China: { code: "cn", position: "center center" },
+  France: { code: "fr", position: "center center" },
+  Germany: { code: "de", position: "center center" },
+  India: { code: "in", position: "center center" },
+  Israel: { code: "il", position: "center center" },
+  Italy: { code: "it", position: "center center" },
+  "Multinational Europe": { code: "eu", position: "center center" },
+  Pakistan: { code: "pk", position: "center center" },
+  Russia: { code: "ru", position: "center center" },
+  "Soviet Union": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_Soviet_Union.svg",
+    position: "24% center"
+  },
+  Sweden: { code: "se", position: "center center" },
+  "United Kingdom": { code: "gb", position: "center center" },
+  "United States": { code: "us", position: "28% center" }
 };
 
 function flagAsset(flag) {
   if (!flag) return null;
-  if (flag.url) return { src: flag.url, srcset: "" };
+  if (flag.url) return { src: flag.url, srcset: "", position: flag.position || "center center" };
   return {
     src: `https://flagcdn.com/${flag.code}.svg`,
-    srcset: `https://flagcdn.com/w320/${flag.code}.png 1x, https://flagcdn.com/w640/${flag.code}.png 2x`
+    srcset: `https://flagcdn.com/w320/${flag.code}.png 1x, https://flagcdn.com/w640/${flag.code}.png 2x`,
+    position: flag.position || "center center"
   };
 }
 
@@ -384,8 +415,9 @@ function renderFlagMarquee() {
       const asset = flagAsset(flag);
       if (!asset) return "";
       const srcset = asset.srcset ? ` srcset="${escapeHtml(asset.srcset)}"` : "";
+      const style = ` style="--flag-focus:${escapeHtml(asset.position)};"`;
       return `
-        <span class="flag-chip" data-country="${escapeHtml(country)}" title="${escapeHtml(country)}">
+        <span class="flag-chip" data-country="${escapeHtml(country)}" title="${escapeHtml(country)}"${style}>
           <img
             src="${escapeHtml(asset.src)}"${srcset}
             alt="${escapeHtml(country)} flag"
@@ -408,6 +440,7 @@ function renderCountryFlagFilters() {
       const asset = flagAsset(COUNTRY_FLAGS[country]);
       if (!asset) return "";
       const srcset = asset.srcset ? ` srcset="${escapeHtml(asset.srcset)}"` : "";
+      const style = ` style="--flag-focus:${escapeHtml(asset.position)};"`;
       return `
         <button
           type="button"
@@ -415,6 +448,7 @@ function renderCountryFlagFilters() {
           data-country="${escapeHtml(country)}"
           title="${escapeHtml(country)}"
           aria-label="${escapeHtml(country)}"
+          ${style}
         >
           <img
             src="${escapeHtml(asset.src)}"${srcset}

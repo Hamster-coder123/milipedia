@@ -352,8 +352,9 @@ h2 {
 .country-flag-button {
   display: inline-block;
   flex: 0 0 auto;
-  width: 90px;
-  height: 60px;
+  width: 92px;
+  aspect-ratio: 3 / 2;
+  height: auto;
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 0;
   padding: 0;
@@ -389,10 +390,8 @@ h2 {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  object-position: center;
-  box-sizing: border-box;
-  padding: 4px 6px;
+  object-fit: cover;
+  object-position: var(--flag-focus, center center);
   background: transparent;
 }
 
@@ -1433,8 +1432,8 @@ h2 {
   min-width: 100%;
   height: 100%;
   align-items: center;
-  gap: clamp(14px, 2vw, 28px);
-  padding-inline: clamp(20px, 4vw, 56px);
+  gap: 0;
+  padding-inline: 0;
   opacity: 0.42;
   filter: saturate(0.92) brightness(0.84) contrast(1.12);
   animation: flagMarquee 58s linear infinite;
@@ -1451,27 +1450,22 @@ h2 {
   align-items: center;
   min-height: 0;
   padding: 0;
-  border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 0;
   color: rgba(255, 255, 255, 0.78) !important;
-  background: linear-gradient(180deg, rgba(22, 24, 30, 0.94), rgba(9, 10, 14, 0.98)) !important;
+  background: transparent !important;
   font-size: 0.74rem;
   font-weight: 650;
   white-space: nowrap;
   overflow: hidden;
-  box-shadow:
-    0 18px 40px rgba(0, 0, 0, 0.34),
-    0 0 0 1px rgba(255, 255, 255, 0.03) inset;
 }
 
 .flag-chip img {
   display: block;
-  width: clamp(132px, 16vw, 238px);
-  height: clamp(86px, 10.5vw, 154px);
-  object-fit: contain;
-  object-position: center;
-  box-sizing: border-box;
-  padding: 6px 8px;
+  width: clamp(128px, 16vw, 236px);
+  aspect-ratio: 3 / 2;
+  height: auto;
+  object-fit: cover;
+  object-position: var(--flag-focus, center center);
   border-radius: 0;
   background: transparent;
   image-rendering: auto;
@@ -1614,7 +1608,6 @@ h1 {
 
 .country-flag-button {
   width: 112px;
-  height: 74px;
 }
 
 .country-flag-button img {
@@ -1652,26 +1645,72 @@ h1 {
   color: #fff;
   background: #000;
   pointer-events: none;
-  animation: introLayerExit 3200ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
 .intro-loader__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
   font-size: clamp(4.8rem, 18vw, 16rem);
   font-weight: 780;
   line-height: 0.88;
   letter-spacing: 0;
   opacity: 0;
-  transform: scale(1.12);
+  white-space: nowrap;
+  transform: translate(-50%, -50%) scale(1);
   text-shadow: 0 0 44px rgba(255, 255, 255, 0.16);
-  animation: introTitleZoom 3200ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
-.intro-loader ~ .nav,
-.intro-loader ~ main {
+.intro-loader ~ .nav {
   opacity: 0;
-  filter: blur(22px);
-  transform: scale(1.035);
-  animation: siteIntroReveal 1200ms cubic-bezier(0.16, 1, 0.3, 1) 2100ms forwards;
+  filter: blur(14px);
+  transform: translateY(-14px);
+}
+
+.intro-loader ~ main .hero-content {
+  opacity: 1 !important;
+  filter: none !important;
+  transform: none !important;
+}
+
+.intro-loader ~ main .hero-content h1 {
+  opacity: 0;
+}
+
+.intro-loader ~ main .hero-content > :not(h1) {
+  opacity: 0;
+  filter: blur(14px);
+  transform: translateY(18px);
+}
+
+.intro-loader ~ main .flag-marquee,
+.intro-loader ~ main .hero-globe {
+  opacity: 0;
+  filter: blur(14px);
+}
+
+body.intro-ready .intro-loader {
+  animation: introLayerMorph 3600ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+body.intro-ready .intro-loader__title {
+  animation: introTitleMorph 3600ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+body.intro-ready .intro-loader ~ .nav {
+  animation: introElementReveal 980ms cubic-bezier(0.16, 1, 0.3, 1) 2250ms forwards;
+}
+
+body.intro-ready .intro-loader ~ main .hero-content > :not(h1) {
+  animation: introElementReveal 1050ms cubic-bezier(0.16, 1, 0.3, 1) 2380ms forwards;
+}
+
+body.intro-ready .intro-loader ~ main .flag-marquee {
+  animation: introAmbientReveal 1500ms cubic-bezier(0.16, 1, 0.3, 1) 1750ms forwards;
+}
+
+body.intro-ready .intro-loader ~ main .hero-globe {
+  animation: introAmbientReveal 1500ms cubic-bezier(0.16, 1, 0.3, 1) 2000ms forwards;
 }
 
 body.intro-complete .intro-loader {
@@ -1687,46 +1726,92 @@ body.intro-complete .intro-loader ~ main {
   animation: none;
 }
 
-@keyframes introTitleZoom {
+body.intro-complete .intro-loader ~ main .hero-content h1,
+body.intro-complete .intro-loader ~ main .hero-content > :not(h1) {
+  opacity: 1;
+  filter: none;
+  transform: none;
+  animation: none;
+}
+
+body.intro-complete .intro-loader ~ main .flag-marquee,
+body.intro-complete .intro-loader ~ main .hero-globe {
+  opacity: 1;
+  filter: none;
+  animation: none;
+}
+
+@keyframes introTitleMorph {
   0% {
     opacity: 0;
-    transform: scale(1.18);
+    transform: translate(-50%, -50%) scale(1.18);
   }
 
-  22% {
+  18% {
     opacity: 1;
-    transform: scale(1);
+    transform: translate(-50%, -50%) scale(1);
   }
 
-  56% {
+  48% {
     opacity: 1;
-    transform: scale(1);
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  82% {
+    opacity: 1;
+    transform:
+      translate(calc(-50% + var(--intro-title-x, 0px)), calc(-50% + var(--intro-title-y, 0px)))
+      scale(var(--intro-title-scale, 0.5));
   }
 
   100% {
-    opacity: 0;
-    transform: scale(0.28);
+    opacity: 1;
+    transform:
+      translate(calc(-50% + var(--intro-title-x, 0px)), calc(-50% + var(--intro-title-y, 0px)))
+      scale(var(--intro-title-scale, 0.5));
+    text-shadow: 0 0 0 rgba(255, 255, 255, 0);
   }
 }
 
-@keyframes introLayerExit {
-  0%,
-  70% {
+@keyframes introLayerMorph {
+  0% {
     opacity: 1;
     visibility: visible;
+    background: #000;
+  }
+
+  48% {
+    opacity: 1;
+    visibility: visible;
+    background: #000;
+  }
+
+  76% {
+    opacity: 1;
+    visibility: visible;
+    background: rgba(0, 0, 0, 0);
   }
 
   100% {
-    opacity: 0;
-    visibility: hidden;
+    opacity: 1;
+    visibility: visible;
+    background: rgba(0, 0, 0, 0);
   }
 }
 
-@keyframes siteIntroReveal {
+@keyframes introElementReveal {
   to {
     opacity: 1;
     filter: blur(0);
-    transform: scale(1);
+    transform: translateY(0);
+  }
+}
+
+@keyframes introAmbientReveal {
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
   }
 }
 
@@ -1761,7 +1846,7 @@ body.intro-complete .intro-loader ~ main {
   }
 
   .flag-track {
-    gap: 14px;
+    gap: 0;
     opacity: 0.22;
     animation-duration: 42s;
   }
@@ -1771,8 +1856,7 @@ body.intro-complete .intro-loader ~ main {
   }
 
   .flag-chip img {
-    width: clamp(92px, 28vw, 124px);
-    height: clamp(60px, 18vw, 82px);
+    width: clamp(90px, 28vw, 124px);
   }
 
   .hero {
@@ -1845,7 +1929,6 @@ body.intro-complete .intro-loader ~ main {
 
   .country-flag-button {
     width: 92px;
-    height: 62px;
     flex: 0 0 auto;
   }
 
@@ -1889,6 +1972,22 @@ body.intro-complete .intro-loader ~ main {
     opacity: 1;
     filter: none;
     transform: none;
+    animation: none !important;
+  }
+
+  .intro-loader ~ main .hero-content,
+  .intro-loader ~ main .hero-content h1,
+  .intro-loader ~ main .hero-content > :not(h1) {
+    opacity: 1;
+    filter: none;
+    transform: none;
+    animation: none !important;
+  }
+
+  .intro-loader ~ main .flag-marquee,
+  .intro-loader ~ main .hero-globe {
+    opacity: 1;
+    filter: none;
     animation: none !important;
   }
 
