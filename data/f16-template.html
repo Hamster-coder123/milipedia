@@ -79,6 +79,102 @@
       border-radius: 16px;
     }
 
+    .f16-annotated-stage {
+      position: relative;
+      overflow: hidden;
+      border-radius: 16px;
+      isolation: isolate;
+      background: #050505;
+    }
+
+    .f16-annotated-stage img.overview-image {
+      border-radius: 0;
+    }
+
+    .f16-annotated-overlay {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 180ms ease;
+    }
+
+    .f16-annotated-stage.is-active .f16-annotated-overlay {
+      opacity: 1;
+    }
+
+    .f16-annotated-hotspots {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+    }
+
+    .f16-hotspot {
+      position: absolute;
+      left: var(--x);
+      top: var(--y);
+      z-index: 2;
+      width: 18px;
+      height: 18px;
+      border: 1px solid rgba(255, 255, 255, 0.92);
+      border-radius: 999px;
+      padding: 0;
+      background: #ffd85a;
+      box-shadow:
+        0 0 0 4px rgba(255, 216, 90, 0.14),
+        0 0 0 8px rgba(255, 255, 255, 0.06);
+      cursor: pointer;
+      transform: translate(-50%, -50%);
+      transition:
+        transform 140ms ease,
+        box-shadow 180ms ease,
+        background 180ms ease;
+    }
+
+    .f16-hotspot:hover,
+    .f16-hotspot:focus-visible,
+    .f16-hotspot.is-active {
+      background: #fff0a8;
+      box-shadow:
+        0 0 0 4px rgba(255, 216, 90, 0.22),
+        0 0 0 10px rgba(255, 255, 255, 0.1);
+      transform: translate(-50%, -50%) scale(1.08);
+    }
+
+    .f16-hotspot:focus-visible {
+      outline: 2px solid rgba(255, 255, 255, 0.88);
+      outline-offset: 3px;
+    }
+
+    .f16-hotspot::after {
+      content: attr(data-label);
+      position: absolute;
+      left: 50%;
+      bottom: calc(100% + 12px);
+      padding: 4px 8px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 999px;
+      color: #fff;
+      font-size: 0.72rem;
+      font-weight: 600;
+      line-height: 1;
+      white-space: nowrap;
+      background: rgba(4, 6, 10, 0.88);
+      opacity: 0;
+      pointer-events: none;
+      transform: translateX(-50%) translateY(6px);
+      transition:
+        opacity 150ms ease,
+        transform 150ms ease;
+    }
+
+    .f16-hotspot:hover::after,
+    .f16-hotspot:focus-visible::after,
+    .f16-hotspot.is-active::after {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+
     .f16-top-overview figcaption {
       margin-top: 10px;
       color: var(--soft);
@@ -117,11 +213,22 @@
       margin-bottom: 0;
     }
 
-    @media (max-width: 820px) {
-      .f16-top-overview {
-        grid-template-columns: 1fr;
+      @media (max-width: 820px) {
+        .f16-top-overview {
+          grid-template-columns: 1fr;
+        }
       }
-    }
+
+      @media (max-width: 720px) {
+        .f16-hotspot {
+          width: 20px;
+          height: 20px;
+        }
+
+        .f16-hotspot::after {
+          display: none;
+        }
+      }
   </style>
   <article class="wiki-article template-article f16-article">
     <div class="article-lead">
@@ -139,7 +246,22 @@
 
       <section class="f16-top-overview" aria-labelledby="f16-quick-overview">
         <figure>
-          <img class="overview-image" src="https://media.defense.gov/2021/Jul/16/2002803983/-1/-1/0/210618-F-ET937-9355.JPG" alt="F-16 Fighting Falcon in flight during RED FLAG-Alaska 21-2">
+          <div class="f16-annotated-stage" data-f16-label-viewer>
+            <img class="overview-image" src="assets/f16-labeled/f16_base_clean.png" alt="F-16 Fighting Falcon in flight during RED FLAG-Alaska 21-2">
+            <img class="overview-image f16-annotated-overlay" data-f16-overlay src="" alt="" aria-hidden="true">
+            <div class="f16-annotated-hotspots" aria-label="F-16 highlighted systems and dimensions">
+              <button type="button" class="f16-hotspot" style="--x:34%; --y:77.5%;" data-image="assets/f16-labeled/f16_labeled_01_AN_APG_68_RADAR.png" data-label="AN/APG-68 radar" aria-label="Show AN/APG-68 radar label"></button>
+              <button type="button" class="f16-hotspot" style="--x:48.2%; --y:50.3%;" data-image="assets/f16-labeled/f16_labeled_02_LENGTH.png" data-label="Length" aria-label="Show length label"></button>
+              <button type="button" class="f16-hotspot" style="--x:53%; --y:44%;" data-image="assets/f16-labeled/f16_labeled_03_WINGSPAN.png" data-label="Wingspan" aria-label="Show wingspan label"></button>
+              <button type="button" class="f16-hotspot" style="--x:58.6%; --y:29.6%;" data-image="assets/f16-labeled/f16_labeled_04_HEIGHT.png" data-label="Height" aria-label="Show height label"></button>
+              <button type="button" class="f16-hotspot" style="--x:60.6%; --y:40.1%;" data-image="assets/f16-labeled/f16_labeled_05_MAX_SPEED_HIGH.png" data-label="Max speed at altitude" aria-label="Show maximum speed at altitude label"></button>
+              <button type="button" class="f16-hotspot" style="--x:42.5%; --y:67.7%;" data-image="assets/f16-labeled/f16_labeled_06_MAX_SPEED_SEA_LEVEL.png" data-label="Max speed at sea level" aria-label="Show maximum speed at sea level label"></button>
+              <button type="button" class="f16-hotspot" style="--x:58.5%; --y:9.2%;" data-image="assets/f16-labeled/f16_labeled_07_SERVICE_CEILING.png" data-label="Service ceiling" aria-label="Show service ceiling label"></button>
+              <button type="button" class="f16-hotspot" style="--x:40.5%; --y:68%;" data-image="assets/f16-labeled/f16_labeled_08_GUN_M61A1.png" data-label="M61A1 Vulcan gun" aria-label="Show M61A1 Vulcan gun label"></button>
+              <button type="button" class="f16-hotspot" style="--x:88%; --y:45.3%;" data-image="assets/f16-labeled/f16_labeled_09_AIM9_SIDEWINDER.png" data-label="AIM-9 Sidewinder" aria-label="Show AIM-9 Sidewinder label"></button>
+              <button type="button" class="f16-hotspot" style="--x:43.4%; --y:58.6%;" data-image="assets/f16-labeled/f16_labeled_10_CREW.png" data-label="Crew" aria-label="Show crew label"></button>
+            </div>
+          </div>
           <figcaption>F-16 Fighting Falcon during RED FLAG-Alaska 21-2, 18 June 2021. U.S. Air Force photo by Airman 1st Class Mario Calabro.</figcaption>
         </figure>
         <div class="f16-overview-groups">

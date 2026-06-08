@@ -497,10 +497,89 @@ function renderArticle(item) {
   `;
 }
 
+function setupF16AnnotatedImage() {
+  const viewer = document.querySelector("[data-f16-label-viewer]");
+  if (!viewer) return;
+  const overlay = viewer.querySelector("[data-f16-overlay]");
+  const hotspots = [...viewer.querySelectorAll(".f16-hotspot")];
+  if (!overlay || !hotspots.length) return;
+
+  const canHover = window.matchMedia("(hover: hover)").matches;
+
+  hotspots.forEach((hotspot) => {
+    hotspot.setAttribute("aria-pressed", "false");
+    const preload = new Image();
+    preload.src = hotspot.dataset.image || "";
+  });
+
+  const clearActive = () => {
+    hotspots.forEach((hotspot) => {
+      hotspot.classList.remove("is-active");
+      hotspot.setAttribute("aria-pressed", "false");
+    });
+    overlay.classList.remove("is-visible");
+    viewer.classList.remove("is-active");
+    overlay.removeAttribute("src");
+    overlay.setAttribute("aria-hidden", "true");
+  };
+
+  const showHotspot = (hotspot) => {
+    const src = hotspot.dataset.image;
+    if (!src) return;
+    hotspots.forEach((item) => {
+      const isActive = item === hotspot;
+      item.classList.toggle("is-active", isActive);
+      item.setAttribute("aria-pressed", isActive ? "true" : "false");
+    });
+    overlay.src = src;
+    overlay.alt = hotspot.dataset.label || "";
+    overlay.setAttribute("aria-hidden", "true");
+    overlay.classList.add("is-visible");
+    viewer.classList.add("is-active");
+  };
+
+  viewer.addEventListener("pointerleave", () => {
+    if (canHover) clearActive();
+  });
+
+  viewer.addEventListener("focusout", (event) => {
+    if (canHover && !viewer.contains(event.relatedTarget)) clearActive();
+  });
+
+  viewer.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") clearActive();
+  });
+
+  viewer.addEventListener("pointerdown", (event) => {
+    if (!canHover && !event.target.closest(".f16-hotspot")) clearActive();
+  });
+
+  hotspots.forEach((hotspot) => {
+    if (canHover) hotspot.addEventListener("pointerenter", () => showHotspot(hotspot));
+    if (!canHover) {
+      hotspot.addEventListener("pointerdown", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        if (hotspot.classList.contains("is-active")) {
+          clearActive();
+          return;
+        }
+        showHotspot(hotspot);
+      });
+    }
+    hotspot.addEventListener("focus", () => showHotspot(hotspot));
+    hotspot.addEventListener("click", (event) => {
+      event.preventDefault();
+      if (!canHover) return;
+      showHotspot(hotspot);
+    });
+  });
+}
+
 const STATIC_ARTICLE_TEMPLATES = {
   "f-16-fighting-falcon": {
     title: "General Dynamics F-16 Fighting Falcon - Milipedia",
-    path: "data/f16-template.html?v=aircraft-labels"
+    path: "data/f16-template.html?v=f16-hotspots"
   },
   "f-4-phantom-ii": {
     title: "McDonnell Douglas F-4 Phantom II - Milipedia",
@@ -538,6 +617,7 @@ async function initArticlePage() {
     const staticTemplate = STATIC_ARTICLE_TEMPLATES[id];
     if (staticTemplate) {
       await renderStaticTemplate(staticTemplate);
+      if (id === "f-16-fighting-falcon") setupF16AnnotatedImage();
       return;
     }
     if (isAmericanAircraft(item)) {
