@@ -30,6 +30,11 @@ body {
   overflow-x: hidden;
 }
 
+body:not(.intro-complete) {
+  overflow: hidden;
+  height: 100vh;
+}
+
 a {
   color: inherit;
 }
@@ -70,6 +75,13 @@ select {
   margin: 0 auto;
 }
 
+.brand-lockup {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  min-width: 0;
+}
+
 .brand {
   display: inline-flex;
   align-items: center;
@@ -77,6 +89,14 @@ select {
   font-size: 0.96rem;
   font-weight: 700;
   text-decoration: none;
+}
+
+.brand-byline {
+  color: rgba(255, 255, 255, 0.52);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
 }
 
 .brand-logo {
@@ -1436,7 +1456,7 @@ h2 {
   padding-inline: clamp(10px, 1.2vw, 18px);
   opacity: 0.42;
   filter: saturate(0.92) brightness(0.84) contrast(1.12);
-  animation: flagMarquee 50s linear infinite;
+  animation: flagMarquee 30s linear infinite;
   will-change: transform;
 }
 
@@ -1543,6 +1563,7 @@ h1 {
   color: rgba(180, 188, 198, 0.82);
   font-size: 0.88rem;
   font-weight: 500;
+  display: none;
 }
 
 .hero-search {
@@ -1644,7 +1665,14 @@ h1 {
   overflow: hidden;
   color: #fff;
   background: #000;
+  pointer-events: auto;
+  touch-action: none;
+}
+
+body:not(.intro-complete) .nav,
+body:not(.intro-complete) main {
   pointer-events: none;
+  user-select: none;
 }
 
 .intro-loader__title {
@@ -1800,6 +1828,16 @@ body.intro-complete .intro-loader ~ main .hero-globe {
     min-height: 46px;
   }
 
+  .brand-lockup {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1px;
+  }
+
+  .brand-byline {
+    font-size: 0.62rem;
+  }
+
   .nav-links {
     gap: 14px;
   }
@@ -1828,7 +1866,7 @@ body.intro-complete .intro-loader ~ main .hero-globe {
   .flag-track {
     gap: 10px;
     opacity: 0.22;
-    animation-duration: 38s;
+    animation-duration: 24s;
   }
 
   .flag-chip {

@@ -68,9 +68,6 @@ function setupIntroLoader() {
   window.setTimeout(() => {
     document.body.classList.add("intro-complete");
     window.removeEventListener("resize", alignIntroTitle);
-  }, 2750);
-
-  window.setTimeout(() => {
     loader.remove();
   }, 3300);
 }
