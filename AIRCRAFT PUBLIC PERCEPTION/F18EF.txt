@@ -1,0 +1,133 @@
+# Public Perception Research: Boeing F/A-18E/F Super Hornet
+
+## 1. General Public Reputation
+
+The F/A-18E/F Super Hornet is usually described less as a glamorous air-superiority icon and more as the U.S. Navy's dependable carrier-air-wing workhorse. Official and manufacturer material reinforces that reputation: NAVAIR says the Block II "earned a reputation as the backbone of the Navy's carrier air wing and a workhorse within the fleet," while Boeing markets the family as a combat-proven, multirole, networked carrier fighter.
+
+Its unofficial U.S. Navy nickname is "Rhino." The nickname is normally explained as a deck-safety and radio-call distinction from legacy Hornets, because the heavier Super Hornet uses different catapult and arresting settings. It also fits aviation-fan shorthand for the aircraft's larger, heavier, more utilitarian image.
+
+Among aviation enthusiasts, the Super Hornet's reputation is split. Supporters emphasize reliability, maintainability, carrier suitability, multirole flexibility, AESA radar, tanker capability, and the way it replaced several older carrier aircraft types. Critics often compare it unfavorably with the F-14 Tomcat, arguing that it lacks the Tomcat's speed, range, payload mystique, and pop-culture aura. The neutral reading is that the Super Hornet is respected more for availability and mission breadth than for romance or raw performance.
+
+Sources:
+- NAVAIR product page: https://www.navair.navy.mil/product/FA-18EF-Super-Hornet
+- Boeing product page: https://www.boeing.com/defense/fighters-and-bombers/fa-18-super-hornet-and-ea-18-growler
+- Defense Logistics Agency nickname note, cited by multiple Super Hornet histories: https://www.dla.mil/
+
+## 2. Social Media Reputation
+
+Common public-discussion themes:
+
+| Theme | Public Source Type | Assessment |
+|---|---|---|
+| "Rhino" | Navy aviation communities, carrier-deck discussions, aviation videos | Confirmed nickname, but often used casually beyond its deck-safety origin. |
+| "Workhorse/backbone" | Official pages, aviation journalism, YouTube/video comments | Factually grounded in U.S. Navy carrier-air-wing dependence on the type. |
+| "Boring but useful" | Reddit/forum-style fan debate, Tomcat comparison threads | Opinion; reflects the aircraft's lower glamour compared with the F-14. |
+| "Not a real Hornet, nearly a new aircraft" | Enthusiast and technical discussions | Mostly factual; the Super Hornet is substantially larger and redesigned from the legacy Hornet. |
+| "Inferior to the Tomcat" | Tomcat fan communities, older naval-aviation debate | Partly factual for speed/range mystique, incomplete for reliability, cost, multirole use, and maintainability. |
+
+The strongest social-media pattern is that fans argue about what matters most: the Tomcat's fleet-defense aura and high-end performance, or the Super Hornet's lower-risk, multirole carrier usefulness. The Super Hornet is rarely meme-famous in the same way as the A-10, F-14, or F-22; its reputation is closer to "the jet that does everything from the boat."
+
+## 3. What the Aircraft Is Known For
+
+- Replacing the F-14 Tomcat in U.S. Navy fighter squadrons after the Tomcat's 2006 retirement.
+- Becoming the central U.S. Navy carrier strike fighter of the 2000s and 2010s.
+- The "Rhino" nickname.
+- Acting as strike fighter, fleet-defense fighter, close-air-support aircraft, reconnaissance platform, tanker, and SEAD-capable multirole aircraft.
+- First U.S. Navy combat use in Operation Southern Watch on 6 November 2002.
+- The 18 June 2017 shootdown of a Syrian Su-22 by a U.S. Navy F/A-18E, widely noted as the first U.S. shootdown of a crewed aircraft since 1999.
+- Blue Angels transition from legacy Hornets to Super Hornets beginning in 2020.
+- Block II and Block III upgrades, especially APG-79 AESA radar, larger displays, networking, IRST, and service-life improvements.
+
+Sources:
+- NAVAIR product page: https://www.navair.navy.mil/product/FA-18EF-Super-Hornet
+- Boeing product page: https://www.boeing.com/defense/fighters-and-bombers/fa-18-super-hornet-and-ea-18-growler
+- Military.com report on Syrian Su-22 shootdown: https://www.military.com/daily-news/2017/06/18/us-fa-18e-shoots-down-syrian-su-22-air-air-kill.html
+- AP report on Red Sea friendly-fire shootdown: https://apnews.com/article/95a792daae3b0120186bfc6c66e1b6fe
+
+## 4. Conflict Impact
+
+### Conflict: Iraq and Afghanistan
+
+The Super Hornet entered combat shortly after fleet introduction. NAVAIR notes its first operational cruise with VFA-115 aboard USS Abraham Lincoln in July 2002 and initial combat action in November 2002 over Iraq. In Iraq and Afghanistan it became part of routine U.S. Navy carrier strike operations, doing strike, close air support, fighter escort, tanker, and forward-air-controller missions. Its impact was less about a single decisive battle and more about replacing multiple carrier aircraft types with one adaptable strike-fighter family.
+
+### Conflict: Operation Inherent Resolve / Syria
+
+Super Hornets participated in strikes against Islamic State targets. On 18 June 2017, a U.S. Navy F/A-18E shot down a Syrian Su-22 after the coalition said the Syrian aircraft attacked U.S.-backed Syrian Democratic Forces. Publicly, the incident mattered because it gave the Super Hornet its first crewed-aircraft air-to-air victory and made the aircraft part of a high-profile U.S.-Russia/Syria escalation debate.
+
+### Conflict: Red Sea / Houthi Attacks
+
+In late 2023 and 2024, Super Hornets from deployed U.S. carriers were reported in operations against drones, missiles, and Houthi targets around the Red Sea. The aircraft's reputation in this context was again utilitarian: carrier-launched strike and air-defense support in a missile-and-drone-heavy maritime environment. A December 2024 friendly-fire shootdown of a Super Hornet by USS Gettysburg also showed the risks of crowded air-defense operations.
+
+Sources:
+- NAVAIR product page: https://www.navair.navy.mil/product/FA-18EF-Super-Hornet
+- Military.com Su-22 report: https://www.military.com/daily-news/2017/06/18/us-fa-18e-shoots-down-syrian-su-22-air-air-kill.html
+- USNI News Red Sea reporting: https://news.usni.org/
+- AP Red Sea friendly-fire report: https://apnews.com/article/95a792daae3b0120186bfc6c66e1b6fe
+
+## 5. Comparisons People Commonly Make
+
+| Compared Aircraft | Why They Are Compared | Common Public View | Notes |
+|---|---|---|---|
+| F-14 Tomcat | Direct Navy fighter predecessor; Super Hornet replaced it | Tomcat wins glamour, speed, fleet-defense nostalgia; Super Hornet wins reliability, cost, multirole use | Most emotional Super Hornet comparison. |
+| Legacy F/A-18 Hornet | Direct design lineage | Super Hornet seen as bigger, longer-ranged, more capable, but less nimble in some fan discussions | Factually larger and more fuel/payload capable. |
+| F-35C Lightning II | Current/future carrier-air-wing partner and partial successor | F-35C seen as stealthier and sensor-superior; Super Hornet seen as cheaper, available, and load-carrying | Often debated in budget and readiness discussions. |
+| Dassault Rafale M | Carrier-capable multirole peer | Rafale praised by fans for agility and sensors; Super Hornet praised for Navy integration and larger U.S. support base | Mostly fan and export-market debate. |
+
+## 6. Supporters vs Critics
+
+### Supporters usually say:
+
+- It is reliable, maintainable, and carrier-suitable.
+- It gave the Navy a low-risk replacement for several aging types.
+- It can perform fighter, strike, tanker, reconnaissance, and SEAD-support roles.
+- Block II/III upgrades keep it relevant with AESA radar, networking, cockpit, and IRST improvements.
+- It is a practical partner to the EA-18G Growler and F-35C.
+
+### Critics usually say:
+
+- It lacks the F-14's speed/range aura and long-range fleet-defense image.
+- It was a compromise caused by post-Cold War budget pressure.
+- It is not stealthy and faces survivability questions against modern integrated air defenses.
+- Tanker use can consume fatigue life on strike-fighter airframes.
+- It is less culturally iconic than the aircraft it replaced.
+
+Backed by sources: carrier-role breadth, Block II/III upgrade facts, official mission descriptions, specifications, and operator history. Mostly opinion: "boring," "not super," fan claims that the F-14 should have been retained indefinitely, and broad claims that it is obsolete without specifying mission, threat, and upgrade state.
+
+## 7. Myths, Memes, and Exaggerations
+
+| Claim | Public Source Type | Accuracy |
+|---|---|---|
+| "It is just a slightly enlarged Hornet." | Forum and video-comment shorthand | Misleading; it shares lineage and systems commonality but is substantially redesigned and larger. |
+| "It completely replaced the F-14 with no capability loss." | Simplified official/popular summaries | Exaggerated; it replaced the Tomcat in service, but different aircraft have different strengths. |
+| "It is obsolete because it is not stealth." | Social-media debate | Overstated; non-stealth limits survivability in some threat environments, but mission systems, standoff weapons, Growler support, and tactics matter. |
+| "Rhino is only because it looks like a rhinoceros." | Casual fan explanation | Incomplete; the nickname also served deck/radio distinction from legacy Hornets. |
+| "The Blue Angels made it famous." | General-public view after 2020 | Partly true for public visibility, but fleet reputation predates the display-team transition. |
+
+## 8. Unofficial Incidents and Stories
+
+| Date | Location | What happened | Why notable | Source |
+|---|---|---|---|---|
+| 6 November 2002 | Iraq no-fly-zone operations | F/A-18Es struck Iraqi air-defense targets during Operation Southern Watch. | Early combat use and first Super Hornet JDAM combat drop in commonly cited histories. | NAVAIR and Navy histories. |
+| 18 June 2017 | Near Ja'Din/Tabqa, Syria | U.S. Navy F/A-18E shot down a Syrian Su-22. | First crewed-aircraft kill by a U.S. fighter since 1999 and first by a Super Hornet. | Military.com, CNN/BBC/Reuters-derived reporting. |
+| 2020 | U.S. Navy Blue Angels | Blue Angels began transition to Super Hornets. | Increased general-public visibility. | NAVAIR product page. |
+| 22 December 2024 | Red Sea | U.S. Navy Super Hornet was shot down in an apparent friendly-fire incident by USS Gettysburg; both aviators survived. | High-profile risk case during Red Sea operations. | Associated Press. |
+
+## 9. How Opponents Perceived It
+
+Publicly available opponent-specific pilot opinions are limited. In Syria, the 2017 Su-22 shootdown became a political and military signaling incident: the U.S. framed the shootdown as defense of partner forces, while Syria and Russia criticized it as a violation of sovereignty/escalation. In the Red Sea, Houthi-linked threats made the Super Hornet part of U.S. carrier air-defense and strike messaging, but public claims often blend propaganda and confirmed events.
+
+The safest neutral description is that opponents generally treated the Super Hornet as a carrier-based U.S. strike-fighter threat rather than as a uniquely feared aircraft like a stealth bomber. Its deterrent image comes from the carrier strike group and networked force around it as much as from the aircraft alone.
+
+## 10. Overall Reputation Summary
+
+Officially, the F/A-18E/F Super Hornet is a carrier-based multirole strike fighter developed from the F/A-18 family to replace legacy Hornets and several retired Navy aircraft types. Unofficially, it is known as the "Rhino," the Navy's practical workhorse, and the aircraft that took the F-14 Tomcat's place.
+
+Fans exaggerate both sides: supporters sometimes imply it solved every carrier-air-wing problem, while critics sometimes reduce it to a less exciting Tomcat replacement. A neutral Milipedia page should describe it as a mature, flexible, combat-used naval strike fighter whose reputation rests on availability, multirole usefulness, upgrades, and carrier integration rather than pure glamour.
+
+## Useful for Milipedia
+
+- Add "Public Perception" section emphasizing Rhino nickname, workhorse/backbone reputation, and Tomcat comparison split.
+- Clearly label Tomcat nostalgia and "boring but useful" claims as fan perception, not performance fact.
+- Use NAVAIR and Boeing for role, Block II/III, specs, operators, and modernization.
+- Use AP/Military.com/USNI-style reporting for combat and incident claims.
+- Note that reliable public sources do not support classified or exact threat-performance claims.

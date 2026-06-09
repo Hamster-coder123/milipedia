@@ -5284,167 +5284,346 @@
   {
     "id": "f-a-18e-f-super-hornet",
     "name": "Boeing F/A-18E/F Super Hornet",
-    "alternative_names": [],
+    "alternative_names": [
+      "Super Hornet",
+      "Rhino"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
-    "manufacturer": "Boeing",
-    "role": "Carrier-based multirole fighter",
-    "aircraft_type": "Fighter",
-    "era": "Modern",
-    "first_flight": "1995",
-    "introduction_date": "1999",
+    "manufacturer": "McDonnell Douglas; Boeing",
+    "role": "Carrier-based multirole strike fighter",
+    "aircraft_type": "Fighter / attack aircraft",
+    "era": "Modern carrier aviation",
+    "first_flight": "29 November 1995",
+    "introduction_date": "1999 fleet service; September 2001 IOC",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "1 or 2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "status": "Active with U.S. Navy, Royal Australian Air Force, and Kuwait Air Force",
+    "number_built": "More than 600 by 2020; Block III and export production followed",
+    "crew": "F/A-18E: 1; F/A-18F: 2",
+    "engine_type": "Afterburning turbofan",
+    "engines": "Two General Electric F414-GE-400 engines",
+    "max_speed": "Mach 1.6-1.8+ depending source and configuration",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Boeing F/A-18E/F Super Hornet: Carrier-based multirole fighter. Manufacturer: Boeing. First flight: 1995. Introduction: 1999.",
-    "short_summary": "Boeing F/A-18E/F Super Hornet: Carrier-based multirole fighter. Origin: United States. Manufacturer: Boeing. First flight: 1995. Introduction: 1999. Status: Active.",
+    "range": "Ferry range about 1,660 nmi (3,054 km) with two AIM-9s and three 480-gal tanks retained",
+    "combat_range": "Combat radius/range figure listed by NAVAIR as 1,275 nmi (2,346 km), clean plus two AIM-9s",
+    "service_ceiling": "50,000+ ft (15,240+ m)",
+    "rate_of_climb": "Not listed in the official NAVAIR specification set used here",
+    "armament": "M61A1/A2 20 mm cannon; AIM-9, AIM-120, AGM-84 Harpoon, AGM-88 HARM, SLAM/SLAM-ER, JSOW, JDAM, Paveway laser-guided bombs, mines, rockets, tanks, pods, and other stores depending on configuration",
+    "hardpoints": "11 weapons stations",
+    "variants": [
+      {
+        "name": "F/A-18E",
+        "role": "Single-seat carrier strike fighter"
+      },
+      {
+        "name": "F/A-18F",
+        "role": "Two-seat carrier strike fighter / mission-command and training-capable variant"
+      },
+      {
+        "name": "Block II",
+        "role": "AESA radar and avionics-upgraded production standard"
+      },
+      {
+        "name": "Block III",
+        "role": "Service-life, cockpit, networking, signature, and open-architecture upgrade standard"
+      },
+      {
+        "name": "EA-18G Growler",
+        "role": "Electronic-attack derivative of the Super Hornet family"
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "United States Navy",
+        "status": "Current principal operator"
+      },
+      {
+        "country": "Australia",
+        "service": "Royal Australian Air Force",
+        "status": "Current F/A-18F operator"
+      },
+      {
+        "country": "Kuwait",
+        "service": "Kuwait Air Force",
+        "status": "Current F/A-18E/F export operator"
+      }
+    ],
+    "combat_history": "Used by the U.S. Navy in operations over Iraq, Afghanistan, Syria, and the Red Sea; used by Australia in Operation Okra over Iraq.",
+    "development_history": "Developed as a larger, more capable successor to the legacy F/A-18C/D and as a low-risk carrier-air-wing replacement for aging F-14, A-6, S-3, and KA-6D mission capacity.",
+    "short_summary": "The Boeing F/A-18E/F Super Hornet is a U.S. carrier-based multirole strike fighter developed from the F/A-18 family. Larger than the legacy Hornet, it entered U.S. Navy fleet service in 1999, reached IOC in September 2001, and became the carrier air wing workhorse for strike, fighter escort, fleet defense, reconnaissance, aerial refueling, and precision-attack missions.",
     "carrier_capable": true,
     "stealth": false,
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/US_Navy_071203-N-8923M-074_An_F-A-18F_Super_Hornet%2C_from_the_Red_Rippers_of_Strike_Fighter_Squadron_%28VFA%29_11%2C_makes_a_sharp_turn_above_the_flight_deck_aboard_the_Nimitz-class_nuclear-powered_aircraft_carrier_USS_Harry_S._Truman.jpg/330px-thumbnail.jpg",
-        "caption": "Boeing F/A-18E/F Super Hornet",
-        "credit": "Wikimedia/Wikipedia thumbnail source",
-        "license": "Verify original file license before reuse."
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/US_Navy_071203-N-8923M-074_An_F-A-18F_Super_Hornet,_from_the_Red_Rippers_of_Strike_Fighter_Squadron_(VFA)_11,_makes_a_sharp_turn_above_the_flight_deck_aboard_the_Nimitz-class_nuclear-powered_aircraft_carrier_USS_Harry_S._Truman.jpg",
+        "caption": "U.S. Navy F/A-18F Super Hornet from VFA-11 turning above USS Harry S. Truman on 3 December 2007.",
+        "credit": "U.S. Navy / Wikimedia Commons",
+        "license": "Public domain U.S. Navy image; verify on Commons file page.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:US_Navy_071203-N-8923M-074_An_F-A-18F_Super_Hornet,_from_the_Red_Rippers_of_Strike_Fighter_Squadron_(VFA)_11,_makes_a_sharp_turn_above_the_flight_deck_aboard_the_Nimitz-class_nuclear-powered_aircraft_carrier_USS_Harry_S._Truman.jpg"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/FA-18F_Super_Hornet_Jolly_Rogers_edit_1.jpg",
+        "caption": "VFA-103 Jolly Rogers F/A-18F chained to USS Dwight D. Eisenhower during Arabian Sea operations in December 2006.",
+        "credit": "U.S. Navy / Wikimedia Commons",
+        "license": "Public domain U.S. Navy image; verify on Commons file page.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:FA-18F_Super_Hornet_Jolly_Rogers_edit_1.jpg"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/US_Navy_FA-18E_Super_Hornet_(NF400,_No.166901)_of_VFA-195_CAG_bird_front_body_right_side_view_static_display_at_NCAS_Iwakuni_Base_May_5,_2016.jpg",
+        "caption": "U.S. Navy F/A-18E Super Hornet from VFA-195 displayed at MCAS Iwakuni on 5 May 2016.",
+        "credit": "Wikimedia Commons",
+        "license": "Creative Commons; verify exact license on Commons file page.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:US_Navy_FA-18E_Super_Hornet_(NF400,_No.166901)_of_VFA-195_CAG_bird_front_body_right_side_view_static_display_at_NCAS_Iwakuni_Base_May_5,_2016.jpg"
       }
     ],
     "sources": [
       {
-        "id": "fn-main",
-        "title": "Boeing F/A-18E/F Super Hornet",
-        "url": "https://en.wikipedia.org/wiki/Boeing_F%2FA-18E%2FF_Super_Hornet",
-        "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "id": "fn-navair",
+        "title": "F/A-18E/F Super Hornet",
+        "url": "https://www.navair.navy.mil/product/FA-18EF-Super-Hornet",
+        "publisher": "Naval Air Systems Command",
+        "note": "Official U.S. Navy program page used for role, mission set, fleet service, IOC, Block II/III notes, Blue Angels transition, and specifications."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "id": "fn-boeing",
+        "title": "F/A-18 Super Hornet & EA-18 Growler",
+        "url": "https://www.boeing.com/defense/fighters-and-bombers/fa-18-super-hornet-and-ea-18-growler",
+        "publisher": "Boeing",
+        "note": "Manufacturer page used for Block III capabilities, weapons stations, networked systems, carrier bringback payload, and customer list."
       },
       {
-        "id": "fn-method",
-        "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
-        "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
+        "id": "fn-dsca-kuwait",
+        "title": "Government of Kuwait - F/A-18E/F Super Hornet Aircraft with Support",
+        "url": "https://www.dsca.mil/press-media/major-arms-sales/government-kuwait-fa-18ef-super-hornet-aircraft-support",
+        "publisher": "Defense Security Cooperation Agency",
+        "note": "Foreign Military Sale notification used for Kuwait operator and proposed aircraft configuration context."
+      },
+      {
+        "id": "fn-military-su22",
+        "title": "US F/A-18E Shoots Down Syrian Su-22 in Air-to-Air Kill",
+        "url": "https://www.military.com/daily-news/2017/06/18/us-fa-18e-shoots-down-syrian-su-22-air-air-kill.html",
+        "publisher": "Military.com",
+        "note": "Used for the 18 June 2017 Syrian Su-22 shootdown and public significance of the event."
+      },
+      {
+        "id": "fn-ap-red-sea",
+        "title": "2 US Navy pilots shot down over Red Sea in apparent friendly-fire incident",
+        "url": "https://apnews.com/article/95a792daae3b0120186bfc6c66e1b6fe",
+        "publisher": "Associated Press",
+        "note": "Used for the December 2024 Red Sea friendly-fire incident involving an F/A-18 Super Hornet."
+      },
+      {
+        "id": "fn-usni-red-sea",
+        "title": "U.S. Destroyer, Super Hornets Splash Red Sea Attack Drones and Missiles",
+        "url": "https://news.usni.org/2023/12/26/u-s-destroyer-super-hornets-splash-red-sea-attack-drones-and-missiles",
+        "publisher": "USNI News",
+        "note": "Used for Red Sea air-defense and Houthi missile/drone operation context."
+      },
+      {
+        "id": "fn-commons-primary",
+        "title": "US Navy F/A-18F Super Hornet from VFA-11",
+        "url": "https://commons.wikimedia.org/wiki/File:US_Navy_071203-N-8923M-074_An_F-A-18F_Super_Hornet,_from_the_Red_Rippers_of_Strike_Fighter_Squadron_(VFA)_11,_makes_a_sharp_turn_above_the_flight_deck_aboard_the_Nimitz-class_nuclear-powered_aircraft_carrier_USS_Harry_S._Truman.jpg",
+        "publisher": "Wikimedia Commons / U.S. Navy",
+        "note": "Primary gallery image source."
+      },
+      {
+        "id": "fn-commons-jolly",
+        "title": "FA-18F Super Hornet Jolly Rogers",
+        "url": "https://commons.wikimedia.org/wiki/File:FA-18F_Super_Hornet_Jolly_Rogers_edit_1.jpg",
+        "publisher": "Wikimedia Commons / U.S. Navy",
+        "note": "Carrier-deck gallery image source."
+      },
+      {
+        "id": "fn-commons-vfa195",
+        "title": "US Navy F/A-18E Super Hornet VFA-195 static display",
+        "url": "https://commons.wikimedia.org/wiki/File:US_Navy_FA-18E_Super_Hornet_(NF400,_No.166901)_of_VFA-195_CAG_bird_front_body_right_side_view_static_display_at_NCAS_Iwakuni_Base_May_5,_2016.jpg",
+        "publisher": "Wikimedia Commons",
+        "note": "Gallery image source for F/A-18E variant view."
+      },
+      {
+        "id": "fn-public-perception",
+        "title": "Public Perception Research: Boeing F/A-18E/F Super Hornet",
+        "url": "AIRCRAFT PUBLIC PERCEPTION/F18EF.txt",
+        "publisher": "Milipedia local research file",
+        "note": "Local research file created for this automation run; used for unofficial reputation, Rhino nickname context, fan debate, myths, and neutral public-perception wording."
       }
     ],
     "country_flags": [
       {
         "label": "United States",
-        "emoji": "🇺🇸"
+        "emoji": "US"
       }
     ],
     "designers": [
-      "Boeing"
+      "McDonnell Douglas",
+      "Boeing",
+      "Northrop Grumman major structure partner"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "Carrier compatibility added structural, landing gear, corrosion, and low-speed handling requirements.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Replacing several older carrier aircraft types while keeping acquisition risk lower than a clean-sheet naval fighter.",
+      "Improving range, bringback payload, weapons flexibility, and carrier suitability over the legacy Hornet.",
+      "Accepting a non-stealthy fourth-generation airframe while modernizing sensors, networking, weapons, and electronic-warfare integration."
     ],
     "wars_used_in": [
       {
-        "name": "Syrian civil war",
-        "note": "Boeing F/A-18E/F Super Hornet used in Syrian civil war."
+        "name": "Operation Southern Watch",
+        "note": "Early combat use in November 2002 against Iraqi air-defense targets."
+      },
+      {
+        "name": "Iraq War / Operation Iraqi Freedom",
+        "note": "Used for close air support, strike, escort, SEAD, tanker, and forward-air-controller missions."
+      },
+      {
+        "name": "Operation Enduring Freedom",
+        "note": "Used by carrier air wings over Afghanistan."
+      },
+      {
+        "name": "Operation Inherent Resolve / Syria",
+        "note": "Used for strikes against Islamic State targets and in the 18 June 2017 Syrian Su-22 shootdown."
+      },
+      {
+        "name": "Red Sea / Houthi crisis",
+        "note": "Used from U.S. carriers in missile, drone, and strike operations; one aircraft was lost in a December 2024 friendly-fire incident."
       }
     ],
     "variant_families": [
-      "Boeing F/A-18E/F Super Hornet baseline production model",
-      "Boeing F/A-18E/F Super Hornet upgraded avionics or weapons-capable model",
-      "Boeing F/A-18E/F Super Hornet two-seat trainer or conversion model",
-      "Boeing F/A-18E/F Super Hornet export or locally modernized model"
+      "F/A-18E",
+      "F/A-18F",
+      "Block II",
+      "Block III",
+      "EA-18G Growler"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Boeing F/A-18E/F Super Hornet has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The U.S. Navy is the principal operator; Australia and Kuwait operate export Super Hornets.",
+      "all_operators_status": "Current national military operators include the United States, Australia, and Kuwait."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "Lt. Cmdr. Michael Tremel, U.S. Navy F/A-18E pilot in the 18 June 2017 Su-22 shootdown."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "6 November 2002 first combat JDAM use by Super Hornets in Operation Southern Watch.",
+        "18 June 2017 Syrian Su-22 shootdown.",
+        "December 2024 Red Sea friendly-fire shootdown; both aviators recovered."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Boeing F/A-18E/F Super Hornet uses jet propulsion."
+      "type": "Afterburning turbofan",
+      "summary": "Two General Electric F414-GE-400 engines, listed by NAVAIR at 22,000 lb static thrust per engine."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "20 mm cannon plus air-to-air missiles, anti-ship missiles, anti-radiation missiles, precision-guided bombs, rockets, mines, external tanks, tanker store, targeting pods, and mission-specific equipment.",
+      "caution": "Stores vary by block, operator, certification, and mission loadout."
     },
     "similar_development": [
-      {
-        "id": "f-15-eagle",
-        "name": "McDonnell Douglas F-15 Eagle",
-        "url": "aircraft.html?id=f-15-eagle"
-      },
-      {
-        "id": "f-16-fighting-falcon",
-        "name": "General Dynamics F-16 Fighting Falcon",
-        "url": "aircraft.html?id=f-16-fighting-falcon"
-      },
       {
         "id": "f-a-18-hornet",
         "name": "McDonnell Douglas F/A-18 Hornet",
         "url": "aircraft.html?id=f-a-18-hornet"
       },
       {
-        "id": "f-22-raptor",
-        "name": "Lockheed Martin F-22 Raptor",
-        "url": "aircraft.html?id=f-22-raptor"
+        "id": "f-14-tomcat",
+        "name": "Grumman F-14 Tomcat",
+        "url": "aircraft.html?id=f-14-tomcat"
+      },
+      {
+        "id": "f-35-lightning-ii",
+        "name": "Lockheed Martin F-35 Lightning II",
+        "url": "aircraft.html?id=f-35-lightning-ii"
+      },
+      {
+        "id": "rafale",
+        "name": "Dassault Rafale",
+        "url": "aircraft.html?id=rafale"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 72,
+      "operator_entries": 3,
+      "variant_entries": 5,
+      "external_article_sources": 10
     },
     "footnotes": [
       {
-        "id": "fn-main",
-        "title": "Boeing F/A-18E/F Super Hornet",
-        "url": "https://en.wikipedia.org/wiki/Boeing_F%2FA-18E%2FF_Super_Hornet",
-        "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "id": "fn-navair",
+        "title": "F/A-18E/F Super Hornet",
+        "url": "https://www.navair.navy.mil/product/FA-18EF-Super-Hornet",
+        "publisher": "Naval Air Systems Command",
+        "note": "Official U.S. Navy program page used for role, mission set, fleet service, IOC, Block II/III notes, Blue Angels transition, and specifications."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "id": "fn-boeing",
+        "title": "F/A-18 Super Hornet & EA-18 Growler",
+        "url": "https://www.boeing.com/defense/fighters-and-bombers/fa-18-super-hornet-and-ea-18-growler",
+        "publisher": "Boeing",
+        "note": "Manufacturer page used for Block III capabilities, weapons stations, networked systems, carrier bringback payload, and customer list."
+      },
+      {
+        "id": "fn-dsca-kuwait",
+        "title": "Government of Kuwait - F/A-18E/F Super Hornet Aircraft with Support",
+        "url": "https://www.dsca.mil/press-media/major-arms-sales/government-kuwait-fa-18ef-super-hornet-aircraft-support",
+        "publisher": "Defense Security Cooperation Agency",
+        "note": "Foreign Military Sale notification used for Kuwait operator and proposed aircraft configuration context."
+      },
+      {
+        "id": "fn-military-su22",
+        "title": "US F/A-18E Shoots Down Syrian Su-22 in Air-to-Air Kill",
+        "url": "https://www.military.com/daily-news/2017/06/18/us-fa-18e-shoots-down-syrian-su-22-air-air-kill.html",
+        "publisher": "Military.com",
+        "note": "Used for the 18 June 2017 Syrian Su-22 shootdown and public significance of the event."
+      },
+      {
+        "id": "fn-ap-red-sea",
+        "title": "2 US Navy pilots shot down over Red Sea in apparent friendly-fire incident",
+        "url": "https://apnews.com/article/95a792daae3b0120186bfc6c66e1b6fe",
+        "publisher": "Associated Press",
+        "note": "Used for the December 2024 Red Sea friendly-fire incident involving an F/A-18 Super Hornet."
+      },
+      {
+        "id": "fn-usni-red-sea",
+        "title": "U.S. Destroyer, Super Hornets Splash Red Sea Attack Drones and Missiles",
+        "url": "https://news.usni.org/2023/12/26/u-s-destroyer-super-hornets-splash-red-sea-attack-drones-and-missiles",
+        "publisher": "USNI News",
+        "note": "Used for Red Sea air-defense and Houthi missile/drone operation context."
+      },
+      {
+        "id": "fn-commons-primary",
+        "title": "US Navy F/A-18F Super Hornet from VFA-11",
+        "url": "https://commons.wikimedia.org/wiki/File:US_Navy_071203-N-8923M-074_An_F-A-18F_Super_Hornet,_from_the_Red_Rippers_of_Strike_Fighter_Squadron_(VFA)_11,_makes_a_sharp_turn_above_the_flight_deck_aboard_the_Nimitz-class_nuclear-powered_aircraft_carrier_USS_Harry_S._Truman.jpg",
+        "publisher": "Wikimedia Commons / U.S. Navy",
+        "note": "Primary gallery image source."
+      },
+      {
+        "id": "fn-commons-jolly",
+        "title": "FA-18F Super Hornet Jolly Rogers",
+        "url": "https://commons.wikimedia.org/wiki/File:FA-18F_Super_Hornet_Jolly_Rogers_edit_1.jpg",
+        "publisher": "Wikimedia Commons / U.S. Navy",
+        "note": "Carrier-deck gallery image source."
+      },
+      {
+        "id": "fn-commons-vfa195",
+        "title": "US Navy F/A-18E Super Hornet VFA-195 static display",
+        "url": "https://commons.wikimedia.org/wiki/File:US_Navy_FA-18E_Super_Hornet_(NF400,_No.166901)_of_VFA-195_CAG_bird_front_body_right_side_view_static_display_at_NCAS_Iwakuni_Base_May_5,_2016.jpg",
+        "publisher": "Wikimedia Commons",
+        "note": "Gallery image source for F/A-18E variant view."
+      },
+      {
+        "id": "fn-public-perception",
+        "title": "Public Perception Research: Boeing F/A-18E/F Super Hornet",
+        "url": "AIRCRAFT PUBLIC PERCEPTION/F18EF.txt",
+        "publisher": "Milipedia local research file",
+        "note": "Local research file created for this automation run; used for unofficial reputation, Rhino nickname context, fan debate, myths, and neutral public-perception wording."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for units, neutral wording, and source handling."
       }
     ],
     "external_articles": [],
@@ -5454,269 +5633,148 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Boeing F/A-18E/F Super Hornet is a Carrier-based multirole fighter from United States. Manufacturer: Boeing. First flight: 1995. Introduction: 1999. Status: Active.",
+            "text": "The Boeing F/A-18E/F Super Hornet is a U.S. Navy carrier-based multirole strike fighter developed as the larger successor to the legacy F/A-18C/D Hornet. It entered fleet service in 1999, reached initial operational capability with VFA-115 at NAS Lemoore in September 2001, and became a central U.S. carrier-air-wing aircraft for air superiority, escort, reconnaissance, aerial refueling, close air support, air-defense suppression, and day/night precision strike.",
             "refs": [
-              "fn-main"
+              "fn-navair"
             ]
           },
           {
-            "text": "Boeing F/A-18E/F Super Hornet is a fighter. Primary role: carrier-based multirole fighter. Country of origin: United States. Manufacturer: Boeing.",
+            "text": "The Super Hornet was intended to improve the legacy Hornet where carrier aviation needed more range, bringback payload, growth capacity, and mission flexibility. NAVAIR describes the E and F models as twin-engine, mid-wing, multi-mission tactical aircraft designed to replace F/A-18C/D aircraft as they retired, while also filling missions once handled by aircraft such as the S-3 tanker.",
             "refs": [
-              "fn-wikidata"
+              "fn-navair"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Boeing markets the current Super Hornet and EA-18G Growler family as a networked, upgradeable carrier force with AESA radar, IRST, Block III systems, open-architecture growth, and common logistics. This gives the type a reputation as a practical, adaptable fleet aircraft rather than a stealth fighter or pure interceptor.",
             "refs": [
-              "fn-method"
+              "fn-boeing"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Primary role",
-            "text": "Carrier-based multirole fighter"
+            "title": "Role",
+            "text": "Carrier-based multirole strike fighter"
           },
           {
-            "title": "Designer or builder",
-            "text": "Boeing"
+            "title": "Nickname",
+            "text": "Rhino"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "IOC",
+            "text": "September 2001 with VFA-115"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Main operators",
+            "text": "U.S. Navy, Royal Australian Air Force, Kuwait Air Force"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Boeing F/A-18E/F Super Hornet first flew in 1995. Introduction date: 1999. Era: Modern.",
+            "text": "The Super Hornet emerged from the need to keep the F/A-18 family useful as older carrier aircraft aged out and new clean-sheet programs became expensive or uncertain. Its development traded maximum raw performance for a lower-risk path that retained Hornet operational familiarity while adding a larger airframe, more fuel, more payload stations, improved bringback, and room for avionics growth.",
             "refs": [
-              "fn-main"
+              "fn-navair",
+              "fn-public-perception"
             ]
           },
           {
-            "text": "Producer: Boeing. Development context: carrier-based multirole fighter, jet propulsion, supersonic speed category, Modern era.",
+            "text": "McDonnell Douglas rolled out the F/A-18E/F in 1995, before Boeing absorbed McDonnell Douglas in 1997. The first flight occurred on 29 November 1995; NAVAIR lists first fleet service in 1999 and initial operational capability in September 2001.",
             "refs": [
-              "fn-wikidata"
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "Block II production added the APG-79 AESA radar, improved sensors, avionics, range, and precision-weapon capability. Block III extends service life and range and adds an advanced cockpit, reduced radar cross section, advanced networking infrastructure, updated processing, and an open mission-systems path.",
+            "refs": [
+              "fn-navair",
+              "fn-boeing"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "Background: replace and consolidate several carrier-air-wing missions after the A-6, F-14, S-3, KA-6D, and older Hornets left or approached retirement.",
             "refs": [
-              "fn-method"
+              "fn-navair"
             ]
           },
           {
-            "text": "Carrier compatibility added structural, landing gear, corrosion, and low-speed handling requirements.",
+            "text": "Testing: first flight on 29 November 1995, fleet service in 1999, and IOC in September 2001.",
             "refs": [
-              "fn-method"
+              "fn-navair"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "Production: final Block II aircraft was delivered in April 2020, while Block III testing and production followed.",
             "refs": [
-              "fn-method"
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "Upgrades: APG-79 AESA, Joint Helmet Mounted Cueing System, larger displays, IRST, open mission systems, and Block III cockpit/networking improvements.",
+            "refs": [
+              "fn-navair",
+              "fn-boeing"
             ]
           }
         ]
       },
       {
         "id": "design",
-        "title": "Design and Capabilities",
+        "title": "Design",
         "paragraphs": [
           {
-            "text": "Crew: 1 or 2. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The Super Hornet keeps the general twin-engine, twin-tail, carrier-capable Hornet layout but is substantially larger than the F/A-18C/D. It is roughly 7,000 lb heavier than its predecessor, with greater internal fuel, larger intakes, additional stores capacity, and carrier structures suited to repeated catapult launches and arrested landings.",
             "refs": [
-              "fn-main"
+              "fn-navair"
             ]
           },
           {
-            "text": "Carrier capable: yes. Stealth: no.",
+            "text": "The F/A-18E is a single-seat aircraft, while the F/A-18F has two crew members and can split workload for training, strike coordination, mission management, and complex air-to-air/air-to-ground missions. Both variants use twin F414-GE-400 turbofans and a carrier layout with folding wings, arresting gear, and robust landing gear.",
             "refs": [
-              "fn-method"
+              "fn-navair"
             ]
           },
           {
-            "text": "Boeing F/A-18E/F Super Hornet uses jet propulsion. Engine model field: Not listed.",
+            "text": "Block II and Block III aircraft emphasize sensors and networking: AESA radar, helmet cueing, large cockpit displays, IRST integration, tactical data links, open mission systems, and a mission architecture designed for rapid insertion of new software, sensors, and weapons.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "cards": [
-          {
-            "title": "Crew",
-            "text": "1 or 2"
-          },
-          {
-            "title": "Engine class",
-            "text": "Jet"
-          },
-          {
-            "title": "Speed class",
-            "text": "Supersonic"
-          },
-          {
-            "title": "Carrier capable",
-            "text": "Yes"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Boeing F/A-18E/F Super Hornet status: Active. Conflict entries: 1.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: Syrian civil war.",
-            "refs": [
-              "fn-method"
+              "fn-boeing"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Syrian civil war: Boeing F/A-18E/F Super Hornet used in Syrian civil war.",
+            "text": "Airframe: twin-engine, mid-wing carrier aircraft with folding wings, twin tails, arresting hook, and 11 weapons stations.",
             "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Boeing F/A-18E/F Super Hornet named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-boeing"
             ]
           },
           {
-            "text": "Named individual aircraft listed: 0.",
+            "text": "Cockpit: F/A-18E single-seat; F/A-18F two-seat with pilot and weapon systems officer / second crew role.",
             "refs": [
-              "fn-method"
+              "fn-navair"
             ]
           },
           {
-            "text": "Notable incidents listed: 0.",
+            "text": "Engine: two F414-GE-400 engines listed by NAVAIR at 22,000 lb static thrust per engine.",
             "refs": [
-              "fn-method"
+              "fn-navair"
             ]
           },
           {
-            "text": "Loss claims listed: 0.",
+            "text": "Avionics: APG-79 AESA on Block II/III, advanced cockpit and networking on Block III, and IRST integration in current modernization plans.",
             "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "variants",
-        "title": "Variants",
-        "paragraphs": [
-          {
-            "text": "Boeing F/A-18E/F Super Hornet variant-family entries: 4. Variant families: Boeing F/A-18E/F Super Hornet baseline production model; Boeing F/A-18E/F Super Hornet upgraded avionics or weapons-capable model; Boeing F/A-18E/F Super Hornet two-seat trainer or conversion model; Boeing F/A-18E/F Super Hornet export or locally modernized model.",
-            "refs": [
-              "fn-main"
+              "fn-boeing"
             ]
           },
           {
-            "text": "Complete variant entries listed: 0.",
+            "text": "Weapons: 20 mm Vulcan cannon, AIM-9, AIM-120, HARM, Harpoon, SLAM/SLAM-ER, JSOW, JDAM, Paveway bombs, rockets, mines, pods, tanks, and mission-specific external stores.",
             "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Boeing F/A-18E/F Super Hornet baseline production model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Boeing F/A-18E/F Super Hornet upgraded avionics or weapons-capable model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Boeing F/A-18E/F Super Hornet two-seat trainer or conversion model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Boeing F/A-18E/F Super Hornet export or locally modernized model",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "operators",
-        "title": "Operators",
-        "paragraphs": [
-          {
-            "text": "Designer or builder countries: United States. Boeing F/A-18E/F Super Hornet has 1 designer or builder country entry.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "All operators status: 0 operator entries listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Major designer or builder entries: United States.",
-            "refs": [
-              "fn-wikidata"
+              "fn-navair"
             ]
           }
         ]
@@ -5726,13 +5784,348 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1 or 2, propulsion type Jet, maximum speed category Supersonic, first flight 1995, introduction 1999.",
+            "text": "Variant described: F/A-18E/F Super Hornet as listed by NAVAIR and Boeing. Published values vary slightly by source and configuration; the table text below uses sourced public figures rather than classified or loadout-specific performance assumptions.",
             "refs": [
-              "fn-main"
+              "fn-navair",
+              "fn-boeing"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Crew: F/A-18E one; F/A-18F two.",
+            "refs": [
+              "fn-navair"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Length: about 60.2-60.3 ft (18.3-18.5 m); wingspan 44.9 ft (13.7 m); height 16 ft (4.9 m).",
+            "refs": [
+              "fn-navair",
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Maximum takeoff weight: 66,000 lb (about 29,900 kg).",
+            "refs": [
+              "fn-navair",
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Powerplant: two General Electric F414-GE-400 afterburning turbofans.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "Maximum speed: NAVAIR lists Mach 1.8+; Boeing lists Mach 1.6 for the Super Hornet specification tab.",
+            "refs": [
+              "fn-navair",
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Ferry range: about 1,660 nmi (3,054 km) with two AIM-9s and three 480-gal tanks retained.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "Combat range/radius figure: NAVAIR lists 1,275 nmi (2,346 km), clean plus two AIM-9s.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "Service ceiling: 50,000+ ft (15,240+ m).",
+            "refs": [
+              "fn-navair",
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Hardpoints: 11 weapons stations; carrier bringback payload listed by Boeing as 9,900 lb for F/A-18E and 9,000 lb for F/A-18F.",
+            "refs": [
+              "fn-boeing"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "variants",
+        "title": "Variants",
+        "paragraphs": [
+          {
+            "text": "The Super Hornet family is organized around the single-seat F/A-18E and two-seat F/A-18F, with Block II and Block III standards representing major avionics and service-life modernization points. The EA-18G Growler is a closely related electronic-attack derivative based on the same family.",
+            "refs": [
+              "fn-navair",
+              "fn-boeing"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "F/A-18E: single-seat carrier strike fighter used by the U.S. Navy and Kuwait.",
+            "refs": [
+              "fn-navair",
+              "fn-dsca-kuwait"
+            ]
+          },
+          {
+            "text": "F/A-18F: two-seat carrier strike fighter used by the U.S. Navy, Australia, and Kuwait.",
+            "refs": [
+              "fn-navair",
+              "fn-dsca-kuwait"
+            ]
+          },
+          {
+            "text": "Block II: production standard with AESA radar and a long run as the Navy carrier-air-wing workhorse.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "Block III: upgraded standard with service-life extension, advanced cockpit, reduced radar cross section, networking infrastructure, and open mission systems.",
+            "refs": [
+              "fn-navair",
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "EA-18G Growler: electronic-attack derivative paired with Super Hornet strike fighters for kinetic and electromagnetic effects.",
+            "refs": [
+              "fn-boeing"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operators",
+        "title": "Operators",
+        "paragraphs": [
+          {
+            "text": "Current national military operators are the United States Navy, the Royal Australian Air Force, and the Kuwait Air Force. The U.S. Navy is the principal operator and uses the type throughout carrier air wings and training squadrons.",
+            "refs": [
+              "fn-navair",
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Australia acquired 24 F/A-18F aircraft as an interim air-combat capability and operates the Super Hornet from RAAF Base Amberley. Kuwait ordered 22 F/A-18E and six F/A-18F aircraft under the U.S. Foreign Military Sales process.",
+            "refs": [
+              "fn-dsca-kuwait",
+              "fn-boeing"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "United States: U.S. Navy, current principal operator; F/A-18E/F fleet aircraft, training units, and Blue Angels demonstration aircraft.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "Australia: Royal Australian Air Force, F/A-18F operator; the aircraft provides strike and multirole fighter capability alongside F-35A and EA-18G fleets.",
+            "refs": [
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Kuwait: Kuwait Air Force, F/A-18E/F export operator; DSCA notified Congress of a package involving Super Hornet aircraft, support, spares, training, and weapons-related equipment.",
+            "refs": [
+              "fn-dsca-kuwait"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "1999-2002: The Super Hornet entered fleet service in 1999 and achieved IOC in September 2001. Its first operational cruise was with VFA-115 aboard USS Abraham Lincoln in July 2002, and initial combat action followed in November 2002 during a strike against hostile targets in the Iraq no-fly-zone environment.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "2003-2010s: During Iraq and Afghanistan operations, Super Hornets flew strike, escort, close air support, SEAD, tanker, and forward-air-controller missions. The type also became the platform around which U.S. carrier air wings consolidated many fighter and attack tasks formerly split among several aircraft families.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "2014-2017: Super Hornets supported operations against Islamic State targets. On 18 June 2017, a U.S. Navy F/A-18E shot down a Syrian Su-22 after the coalition said the Syrian aircraft attacked U.S.-backed forces near Tabqa, making the aircraft central to a widely reported escalation incident.",
+            "refs": [
+              "fn-military-su22"
+            ]
+          },
+          {
+            "text": "2023-2024: Super Hornets participated in Red Sea operations against Houthi drones, missiles, and targets. In December 2024, an F/A-18 Super Hornet was shot down in an apparent friendly-fire incident by USS Gettysburg; both aviators were recovered.",
+            "refs": [
+              "fn-usni-red-sea",
+              "fn-ap-red-sea"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "notable-events",
+        "title": "Notable Events and Incidents",
+        "paragraphs": [
+          {
+            "text": "The Super Hornet has several public milestones that shape its reputation: first flight in 1995, fleet service in 1999, IOC in 2001, first combat action in 2002, the 2017 Syrian Su-22 shootdown, the Blue Angels transition starting in 2020, and Block III modernization deliveries and conversions.",
+            "refs": [
+              "fn-navair",
+              "fn-military-su22",
+              "fn-public-perception"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "29 November 1995: first flight of the F/A-18E/F Super Hornet.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "1999: entered U.S. Navy fleet service.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "September 2001: IOC with VFA-115 at NAS Lemoore.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "6 November 2002: early combat strike during Operation Southern Watch.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "18 June 2017: U.S. Navy F/A-18E shot down a Syrian Su-22.",
+            "refs": [
+              "fn-military-su22"
+            ]
+          },
+          {
+            "text": "2020: Blue Angels began transition from legacy Hornets to Super Hornets.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "December 2024: Red Sea friendly-fire incident destroyed a Super Hornet; both aviators survived.",
+            "refs": [
+              "fn-ap-red-sea"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "The Super Hornet is most often compared with the legacy F/A-18 Hornet, the F-14 Tomcat, and the F-35C. These comparisons reflect different questions: design lineage, replacement controversy, and the future mix of stealth and non-stealth carrier aircraft.",
+            "refs": [
+              "fn-public-perception",
+              "fn-boeing"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Against the legacy F/A-18C/D, the Super Hornet is larger, has more fuel, more bringback, additional weapons stations, and greater modernization capacity.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "Against the F-14 Tomcat, the Super Hornet lacks the Tomcat fan aura and some raw fleet-defense associations, but offers lower-risk multirole use, better reliability/maintainability arguments, and broader strike-fighter utility.",
+            "refs": [
+              "fn-public-perception"
+            ]
+          },
+          {
+            "text": "Against the F-35C, the Super Hornet is not stealthy but remains a cheaper, available, load-carrying, networked partner aircraft in carrier air wings.",
+            "refs": [
+              "fn-boeing",
+              "fn-public-perception"
+            ]
+          },
+          {
+            "text": "Against Rafale M, fan and export debates usually compare carrier suitability, sensors, range, weapons, and national support ecosystems rather than direct combat records.",
+            "refs": [
+              "fn-public-perception"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The aircraft's strengths and limitations are tied to its design goal: a carrier-compatible, upgradeable, multirole strike fighter rather than a stealth-first clean-sheet fighter or a specialized long-range interceptor.",
+            "refs": [
+              "fn-navair",
+              "fn-boeing"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: broad mission set across fighter escort, precision strike, reconnaissance, tanker, close air support, fleet air defense, and SEAD-support roles.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "Strength: carrier integration, twin-engine redundancy, and mature Navy logistics.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "Strength: Block II/III sensor and networking upgrades, including AESA radar and open-architecture growth.",
+            "refs": [
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Strength: 11 weapons stations and large bringback payload for carrier recovery with unused fuel/stores.",
+            "refs": [
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Limitation: non-stealth airframe with only reduced-signature improvements, requiring tactics, standoff weapons, and electronic-warfare support in high-threat environments.",
+            "refs": [
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Limitation: less speed/range glamour than the F-14 in public debate, which affects its enthusiast reputation more than its day-to-day fleet utility.",
+            "refs": [
+              "fn-public-perception"
+            ]
+          },
+          {
+            "text": "Limitation: tanker tasking is useful but can consume strike-fighter airframe life.",
+            "refs": [
+              "fn-public-perception"
+            ]
+          },
+          {
+            "text": "Limitation: published performance figures vary by source and configuration, so unsourced loadout-specific claims should be avoided.",
             "refs": [
               "fn-method"
             ]
@@ -5740,11 +6133,138 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "public-perception",
+        "title": "Public Perception",
         "paragraphs": [
           {
-            "text": "Boeing F/A-18E/F Super Hornet similar-development links: 4.",
+            "text": "The Super Hornet is widely perceived as the U.S. Navy carrier air wing workhorse: respected for versatility, reliability, upgradeability, and the ability to do many jobs from a carrier, but less romantic than aircraft such as the F-14 Tomcat. NAVAIR and Boeing both reinforce the workhorse/backbone framing in official and manufacturer descriptions.",
+            "refs": [
+              "fn-navair",
+              "fn-boeing",
+              "fn-public-perception"
+            ]
+          },
+          {
+            "text": "Its unofficial Rhino nickname is a major part of its reputation. In Navy usage it distinguishes the heavier Super Hornet from legacy Hornets for deck and radio operations, while in enthusiast culture it also captures the aircraft's larger, tougher, less sleek public image.",
+            "refs": [
+              "fn-public-perception"
+            ]
+          },
+          {
+            "text": "Fan debate often centers on Tomcat nostalgia. Supporters call the Super Hornet practical, maintainable, flexible, and modernized; critics call it a compromise that lacks the Tomcat's speed, range aura, and pop-culture status. Those are public-opinion claims, not standalone performance conclusions.",
+            "refs": [
+              "fn-public-perception"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Common favorable labels: workhorse, backbone, versatile, maintainable, carrier-suitable, upgradeable.",
+            "refs": [
+              "fn-public-perception"
+            ]
+          },
+          {
+            "text": "Common critical labels: compromise, boring, less iconic than the Tomcat, non-stealthy, range-limited compared with idealized fleet-defense expectations.",
+            "refs": [
+              "fn-public-perception"
+            ]
+          },
+          {
+            "text": "Neutral Milipedia framing: mature multirole naval fighter whose reputation rests on availability and mission breadth more than glamour.",
+            "refs": [
+              "fn-public-perception"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "The Super Hornet timeline shows an incremental path: development in the 1990s, fleet entry in 1999, IOC in 2001, combat use from 2002, Block II and Block III modernization, and continuing use as the F-35C joins carrier air wings.",
+            "refs": [
+              "fn-navair",
+              "fn-boeing"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1995: F/A-18E/F rolled out by McDonnell Douglas; first flight on 29 November 1995.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "1997: Boeing became the manufacturer after the McDonnell Douglas merger.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "1999: entered U.S. Navy fleet service.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "September 2001: IOC with VFA-115 at NAS Lemoore.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "July-November 2002: first operational cruise and first combat action.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "2005 onward: Block II aircraft introduced APG-79 AESA radar and related avionics improvements.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "18 June 2017: F/A-18E shot down a Syrian Su-22.",
+            "refs": [
+              "fn-military-su22"
+            ]
+          },
+          {
+            "text": "April 2020: final Block II production aircraft delivered to the U.S. Navy.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "2020: Blue Angels transition to Super Hornet began.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "2020s: Block III aircraft and service-life modification continued.",
+            "refs": [
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "December 2024: Red Sea friendly-fire shootdown; both aviators recovered.",
+            "refs": [
+              "fn-ap-red-sea"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia aircraft include the legacy Hornet, the Tomcat it replaced, the F-35C family it now serves alongside, and comparable carrier or multirole fighters.",
             "refs": [
               "fn-method"
             ]
@@ -5752,29 +6272,36 @@
         ],
         "links": [
           {
-            "label": "McDonnell Douglas F-15 Eagle",
-            "url": "aircraft.html?id=f-15-eagle"
-          },
-          {
-            "label": "General Dynamics F-16 Fighting Falcon",
-            "url": "aircraft.html?id=f-16-fighting-falcon"
-          },
-          {
             "label": "McDonnell Douglas F/A-18 Hornet",
             "url": "aircraft.html?id=f-a-18-hornet"
           },
           {
-            "label": "Lockheed Martin F-22 Raptor",
-            "url": "aircraft.html?id=f-22-raptor"
+            "label": "Grumman F-14 Tomcat",
+            "url": "aircraft.html?id=f-14-tomcat"
+          },
+          {
+            "label": "Lockheed Martin F-35 Lightning II",
+            "url": "aircraft.html?id=f-35-lightning-ii"
+          },
+          {
+            "label": "Dassault Rafale",
+            "url": "aircraft.html?id=rafale"
           }
         ]
       }
     ],
     "event_gallery": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Bombed_out_vehicles_Aleppo.jpg/960px-Bombed_out_vehicles_Aleppo.jpg",
-        "caption": "Syrian civil war",
-        "source_url": "https://en.wikipedia.org/wiki/Syrian_civil_war"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/FA-18F_Super_Hornet_Jolly_Rogers_edit_1.jpg",
+        "caption": "Carrier-deck Super Hornet image illustrating the Rhino era of U.S. Navy carrier aviation.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:FA-18F_Super_Hornet_Jolly_Rogers_edit_1.jpg",
+        "credit": "U.S. Navy / Wikimedia Commons"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/US_Navy_FA-18E_Super_Hornet_(NF400,_No.166901)_of_VFA-195_CAG_bird_front_body_right_side_view_static_display_at_NCAS_Iwakuni_Base_May_5,_2016.jpg",
+        "caption": "F/A-18E Super Hornet static display showing single-seat variant details.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:US_Navy_FA-18E_Super_Hornet_(NF400,_No.166901)_of_VFA-195_CAG_bird_front_body_right_side_view_static_display_at_NCAS_Iwakuni_Base_May_5,_2016.jpg",
+        "credit": "Wikimedia Commons"
       }
     ]
   },
