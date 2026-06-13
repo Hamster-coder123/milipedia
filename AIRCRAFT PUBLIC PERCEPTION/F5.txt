@@ -95,6 +95,7 @@ Backed by sources: low cost, maintainability, export use, aggressor training, Sk
 | 1986 | Top Gun film production and release | U.S. Navy F-5s portrayed the fictional black MiG-28. | The F-5's largest pop-culture identity; many non-specialists know the aircraft through the fictional adversary. | War History Online: https://www.warhistoryonline.com/aircraft/mig-28-top-gun.html |
 | 9 June 2016 | Leeuwarden, Netherlands | Two Swiss Patrouille Suisse F-5 aircraft collided during airshow training; one crashed and one landed damaged. | Connected the aging F-5 to public display-team risk and Swiss retirement debate. | Swissinfo: https://www.swissinfo.ch/eng/society/netherlands-accident_pilot-error-caused-2016-collision-between-two-swiss-jets/44857536 |
 | 2020-2024 | Switzerland / United States | The U.S. Navy and Switzerland arranged transfer and modernization of 22 former Swiss F-5E/F aircraft for Navy and Marine Corps adversary fleets. | Shows continuing adversary value despite aircraft age. | NAVAIR: https://www.navair.navy.mil/news/ARTEMIS-program-receives-first-repatriated-Swiss-F-5/Thu-04042024-1256?page=1 |
+| 4 July 2025 | Hualien, Taiwan | Taiwan marked the retirement of its final F-5s after roughly six decades of service. | Shows the split public image of the aircraft: historically important and cost-effective, but old enough that major operators are replacing it with newer fighters and trainers. | Associated Press: https://apnews.com/article/3341532cc68bd471980d14723a0589d0 |
 
 ## 9. How Opponents Perceived It
 
@@ -117,6 +118,7 @@ Fans exaggerate its dogfighting record into universal superiority over the MiG-2
 - Common public comparisons are MiG-21, F-16, Gripen, FA-50/T-50, JF-17, A-4, and T-38.
 - The strongest conflict reputation comes from Ethiopia's F-5 use in the Ogaden War, but claims should be narrowed by conditions and sources.
 - The aircraft remains relevant in public discussion because the U.S. Navy and Marine Corps still use and modernize F-5N/F adversary aircraft.
+- Taiwan's 2025 retirement is useful context for keeping the article current: the F-5 remains active with some users, but several major Cold War-era fleets are now ending or shrinking.
 - Myths to avoid: "always beats MiG-21," "just a trainer," "obsolete means useless," and "MiG-28 was real."
 
 ## Sources Used In This Research
@@ -132,6 +134,7 @@ Fans exaggerate its dogfighting record into universal superiority over the MiG-2
 - University of Florida thesis, Ethiopian Airpower: https://ufdcimages.uflib.ufl.edu/UF/E0/04/50/70/00001/SCHAEFER_S.pdf
 - The Aviationist, captured F-5 testing story: https://theaviationist.com/2017/06/14/russian-video-of-captured-u-s-f-5a-tiger-jet-dogfighting-against-mig-21-in-tests-raises-question-do-they-still-operate-american-jets/
 - Swissinfo, 2016 Patrouille Suisse F-5 collision: https://www.swissinfo.ch/eng/society/netherlands-accident_pilot-error-caused-2016-collision-between-two-swiss-jets/44857536
+- Associated Press, Taiwan retires last F-5 fighter jets, 4 July 2025: https://apnews.com/article/3341532cc68bd471980d14723a0589d0
 - Reddit, F-5 spiritual successor discussion: https://www.reddit.com/r/FighterJets/comments/1t392as/what_inservice_fighter_jet_do_you_consider_as_the/
 - Reddit, F-5E / MiG-28 DCS discussion: https://www.reddit.com/r/hoggit/comments/cy3sxo/f5e_tiger_iimig28_questions/
 - Reddit, MiG-28 meme example: https://www.reddit.com/r/FighterJets/comments/17n1092

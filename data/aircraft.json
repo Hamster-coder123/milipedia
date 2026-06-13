@@ -492,219 +492,444 @@
   {
     "id": "f-5-freedom-fighter-tiger-ii",
     "name": "Northrop F-5",
-    "alternative_names": [],
+    "alternative_names": [
+      "F-5A/B Freedom Fighter",
+      "F-5E/F Tiger II",
+      "F-5N/F adversary aircraft",
+      "MiG-28 in Top Gun fiction"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
     "manufacturer": "Northrop",
-    "role": "Light fighter",
+    "role": "Light fighter, export fighter, fighter-attack aircraft, adversary trainer",
     "aircraft_type": "Fighter",
-    "era": "Cold War",
-    "first_flight": "1959",
-    "introduction_date": "1962",
-    "retirement_date": null,
-    "status": "Active/retired by operator",
-    "number_built": "Not listed",
-    "crew": "1 or 2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "era": "Cold War and modern adversary-training service",
+    "first_flight": "July 1959 for the F-5A family; 11 August 1972 for the F-5E Tiger II family",
+    "introduction_date": "April 1964 training deliveries; F-5N adversary service from 2003",
+    "retirement_date": "Retired by many Cold War operators; still active with selected military and adversary-training users",
+    "status": "Active with selected operators; retired by many former users",
+    "number_built": "More than 2,000 F-5 aircraft procured by the U.S. Air Force for allied nations, plus licensed and later Tiger II production by foreign partners",
+    "crew": "1 in F-5A/E/N; 2 in F-5B/F trainers",
+    "engine_type": "Twin afterburning turbojet",
+    "engines": "Two General Electric J85 engines; F-5N/F listed by NAVAIR with J85-GE-21C engines rated at 5,000 lb thrust each",
+    "max_speed": "F-5N Mach 1.64 at 36,000 ft; F-5F Mach 1.56 at 36,000 ft",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Northrop F-5: Light fighter. Manufacturer: Northrop. First flight: 1959. Introduction: 1962.",
-    "short_summary": "Northrop F-5: Light fighter. Origin: United States. Manufacturer: Northrop. First flight: 1959. Introduction: 1962. Status: Active/retired by operator.",
+    "range": "F-5N/F maximum range listed by NAVAIR as 2,314 miles (4,286 km); older YF-5A museum note lists 1,100 miles",
+    "combat_range": "Mission radius varied by variant, stores, tanks, and profile; not stated as one universal figure in the cited sources",
+    "service_ceiling": "50,000+ ft (15,420+ m) for F-5N/F; 50,700 ft in USAF museum YF-5A technical notes",
+    "rate_of_climb": "Not consistently stated across cited public sources",
+    "armament": "Two 20 mm cannon on F-5A/E; rockets, missiles, external bombs, and later training/adversary-specific configurations by variant",
+    "hardpoints": "External stores stations for missiles, bombs, tanks, rockets, and training equipment; exact station count varies by variant and source basis",
+    "variants": [
+      "YF-5A / F-5A Freedom Fighter",
+      "F-5B two-seat combat trainer",
+      "F-5C Skoshi Tiger",
+      "F-5E Tiger II",
+      "F-5F two-seat Tiger II",
+      "RF-5 reconnaissance variants",
+      "F-5N/F Navy and Marine Corps adversary aircraft",
+      "F-5N+/F+ ARTEMIS modernization",
+      "Licensed CF-5, NF-5, SF-5, KF-5, and Taiwanese Peace Tiger aircraft",
+      "Northrop F-20 Tigershark derivative"
+    ],
+    "operators": [
+      "United States Navy and United States Marine Corps adversary units",
+      "Brazilian Air Force",
+      "Royal Thai Air Force",
+      "Republic of Korea Air Force",
+      "Swiss Air Force and Patrouille Suisse historically",
+      "Republic of China Air Force historically",
+      "Imperial Iranian / Islamic Republic of Iran Air Force",
+      "Ethiopian Air Force historically",
+      "Republic of Vietnam Air Force historically",
+      "Numerous former NATO, Middle Eastern, African, Asian, and Latin American operators"
+    ],
+    "combat_history": "Combat-tested by the United States in Vietnam as Skoshi Tiger, transferred to South Vietnam, used by export customers including Ethiopia in the Ogaden War and other regional operators; U.S. Navy and Marine Corps later used F-5N/F aircraft primarily for adversary training rather than combat.",
+    "development_history": "Northrop developed the F-5 as a small supersonic fighter related to the T-38 lineage and optimized for low cost, ease of maintenance, export support, and tactical usefulness. The Tiger II family added more powerful J85 engines, radar, larger fuel capacity, and improved maneuverability for the International Fighter Aircraft market.",
+    "short_summary": "The Northrop F-5 is a U.S. supersonic light fighter family built around low cost, small size, easy maintenance, and export practicality. It served as the F-5A/B Freedom Fighter, the improved F-5E/F Tiger II, and later as F-5N/F adversary aircraft for U.S. Navy and Marine Corps training. Its public reputation blends real combat and export history with an unusually strong identity as an aggressor aircraft and the fictional MiG-28 from Top Gun.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/J-3005.jpg/330px-J-3005.jpg",
-        "caption": "Northrop F-5",
-        "credit": "Wikimedia/Wikipedia thumbnail source",
-        "license": "Verify original file license before reuse."
+        "url": "https://www.navair.navy.mil/sites/g/files/jejdrs536/files/styles/crop_16_9/public/F-5N%20Aircraft.JPG?h=adc2e4d2&itok=ZUUOJZL5",
+        "caption": "U.S. Navy F-5N Tiger II adversary aircraft photographed for the NAVAIR F-5 product page",
+        "credit": "U.S. Navy / NAVAIR",
+        "license": "Official U.S. Navy source page",
+        "source_url": "https://www.navair.navy.mil/product/F-5-Tiger-II"
       }
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-usaf-yf5a",
+        "title": "Northrop YF-5A Freedom Fighter",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196074/northrop-yf-5a-freedom-fighter/",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Used for low-cost design identity, first flight month, 1964 training deliveries, Skoshi Tiger, VNAF transfer, YF-5A technical notes, and museum image source."
+      },
+      {
+        "id": "fn-navair-f5",
+        "title": "F-5 Tiger II",
+        "url": "https://www.navair.navy.mil/product/F-5-Tiger-II",
+        "publisher": "Naval Air Systems Command",
+        "note": "Used for current U.S. Navy and Marine Corps F-5N/F mission, adversary role, dimensions, engines, speed, range, ceiling, crew, inventory, and main image."
+      },
+      {
+        "id": "fn-navair-artemis",
+        "title": "Navy F-5 modernization program completes engineering phase and moves into production and deployment",
+        "url": "https://www.navair.navy.mil/news/Navys-F-5-modernization-program-completes-engineering-phase-and-moves-production-and",
+        "publisher": "Naval Air Systems Command",
+        "note": "Used for ARTEMIS F-5N+/F+ modernization, 22 former Swiss aircraft, glass-cockpit and avionics upgrade, and adversary-capacity rationale."
+      },
+      {
+        "id": "fn-hill-f5e",
+        "title": "Northrop F-5E Tiger II",
+        "url": "https://www.aerospaceutah.org/museum/our-collections/aircraft-collection/f-5e-tiger-ii/",
+        "publisher": "Hill Aerospace Museum",
+        "note": "Used for F-5E aggressor and MiG-21 simulation context."
+      },
+      {
+        "id": "fn-ap-taiwan-retirement",
+        "title": "After decades of service, Taiwan retires its last F-5 fighter jets",
+        "url": "https://apnews.com/article/3341532cc68bd471980d14723a0589d0",
+        "publisher": "Associated Press",
+        "note": "Used for Taiwan retirement context, long-service public reputation, and current-operator caveat."
+      },
+      {
+        "id": "fn-f5-public-perception",
+        "title": "Public Perception Research: Northrop F-5",
+        "url": "AIRCRAFT%20PUBLIC%20PERCEPTION/F5.txt",
+        "publisher": "Local research file",
+        "note": "Used for reputation terms, social-media and forum themes, MiG-28 pop-culture context, common comparisons, myths, memes, public-opinion caveats, and opponent-perception summary."
+      },
+      {
+        "id": "fn-ogaden-thesis",
+        "title": "Ethiopian Airpower: From Inception to Victory in the Ogaden War",
+        "url": "https://ufdcimages.uflib.ufl.edu/UF/E0/04/50/70/00001/SCHAEFER_S.pdf",
+        "publisher": "University of Florida thesis",
+        "note": "Used cautiously for Ethiopian F-5 use, Somali MiG-21 comparison context, radar support, and Ogaden War airpower impact."
+      },
+      {
+        "id": "fn-aviationist-captured-f5",
+        "title": "Russian video of captured U.S. F-5A Tiger jet dogfighting against MiG-21 in tests raises question",
+        "url": "https://theaviationist.com/2017/06/14/russian-video-of-captured-u-s-f-5a-tiger-jet-dogfighting-against-mig-21-in-tests-raises-question-do-they-still-operate-american-jets/",
+        "publisher": "The Aviationist",
+        "note": "Used as secondary, caveated source for reported Soviet evaluation stories about captured F-5s."
+      },
+      {
+        "id": "fn-warhistory-mig28",
+        "title": "The MiG-28: The fictional Soviet fighter from Top Gun",
+        "url": "https://www.warhistoryonline.com/aircraft/mig-28-top-gun.html",
+        "publisher": "War History Online",
+        "note": "Used for the public-culture point that F-5s portrayed the fictional MiG-28 in Top Gun."
+      },
+      {
+        "id": "fn-swissinfo-collision",
+        "title": "Pilot error caused 2016 collision between two Swiss jets",
+        "url": "https://www.swissinfo.ch/eng/society/netherlands-accident_pilot-error-caused-2016-collision-between-two-swiss-jets/44857536",
+        "publisher": "Swissinfo",
+        "note": "Used for the Patrouille Suisse F-5 collision and public display-team risk context."
+      },
+      {
+        "id": "fn-wikipedia-crosscheck",
         "title": "Northrop F-5",
         "url": "https://en.wikipedia.org/wiki/Northrop_F-5",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "note": "Used only for background cross-checking and source discovery, not as the main authority for the expanded article."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "id": "fn-commons-brazil-image",
+        "title": "Northrop F-5 (Forca Aerea Brasileira) Seguranca Rio 2016 (3).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Northrop_F-5_(Forca_Aerea_Brasileira)_Seguran%C3%A7a_Rio_2016_(3).jpg",
+        "publisher": "Wikimedia Commons / Agencia Brasil",
+        "note": "Image source for Brazilian F-5EM gallery entry."
       },
       {
-        "id": "fn-method",
-        "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
-        "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.navy.mil/navydata/fact_display.asp?cid=1100&tid=1050&ct=1",
-        "publisher": "navy.mil",
-        "note": "External source for Northrop F-5."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.taiwanairpower.org/af/f5.html",
-        "publisher": "taiwanairpower.org",
-        "note": "External source for Northrop F-5."
-      },
-      {
-        "id": "fn-public-perception",
-        "title": "F5.txt",
-        "url": "AIRCRAFT PUBLIC PERCEPTION/F5.txt",
-        "publisher": "Milipedia",
-        "note": "Local public perception file. Used for F-5 reputation terms, MiG-28 pop-culture context, aggressor/adversary identity, common comparisons, conflict-impact caveats, myths, memes, incidents, and opponent-perception summary."
+        "id": "fn-commons-swiss-image",
+        "title": "Northrop F-5E Tiger II, Switzerland - Air Force JP6568409.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Northrop_F-5E_Tiger_II,_Switzerland_-_Air_Force_JP6568409.jpg",
+        "publisher": "Wikimedia Commons / Peter Bakema",
+        "note": "Image source for Swiss Air Force F-5E gallery entry."
       }
     ],
     "country_flags": [
       {
-        "label": "United States",
-        "emoji": "🇺🇸"
+        "label": "United States"
       }
     ],
     "designers": [
       "Northrop"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Keeping the aircraft small and affordable while still providing supersonic performance, useful weapons carriage, and export durability.",
+      "Balancing visual air-combat agility against range, radar size, payload, and modernization limits imposed by the compact airframe.",
+      "Sustaining old airframes for modern adversary training while adding enough avionics and safety upgrades to remain relevant."
     ],
-    "wars_used_in": [],
+    "wars_used_in": [
+      "Vietnam War",
+      "Ogaden War",
+      "Iran-Iraq War",
+      "Sino-Vietnamese War reports involving captured Vietnamese aircraft",
+      "Regional service with multiple export operators"
+    ],
     "variant_families": [
-      "Northrop F-5 baseline production model",
-      "Northrop F-5 upgraded avionics or weapons-capable model",
-      "Northrop F-5 two-seat trainer or conversion model",
-      "Northrop F-5 export or locally modernized model"
+      "F-5A/B Freedom Fighter",
+      "F-5C Skoshi Tiger",
+      "F-5E/F Tiger II",
+      "RF-5 reconnaissance variants",
+      "F-5N/F and F-5N+/F+ adversary aircraft",
+      "Licensed and national upgrade families",
+      "F-20 Tigershark derivative"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
-        "United States"
+        "United States",
+        "Canada",
+        "Spain",
+        "South Korea",
+        "Taiwan",
+        "Switzerland"
       ],
-      "major_user_note": "Northrop F-5 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The F-5 became one of the most widely exported Western light fighters, with U.S. allied training, licensed production, and later adversary-air service central to its history.",
+      "all_operators_status": "Current status varies by country; U.S. Navy and Marine Corps F-5N/F aircraft remain active in adversary training while Taiwan retired its final F-5s in 2025."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "YF-5A 59-4989 at the National Museum of the United States Air Force",
+        "Skoshi Tiger aircraft of the 4503rd Tactical Fighter Squadron / 10th Fighter (Commando) Squadron",
+        "U.S. Navy and Marine Corps F-5N/F adversary aircraft",
+        "Swiss Patrouille Suisse F-5E display aircraft"
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "1965-1967 Skoshi Tiger combat evaluation in Vietnam",
+        "1977-1978 Ethiopian F-5 use in the Ogaden War",
+        "1986 Top Gun fictional MiG-28 portrayal",
+        "9 June 2016 Patrouille Suisse F-5 collision near Leeuwarden",
+        "4 July 2025 Taiwan final F-5 retirement event"
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Northrop F-5 uses jet propulsion."
+      "type": "Twin afterburning turbojet",
+      "summary": "F-5N/F aircraft use two General Electric J85-GE-21C afterburning turbojets, each listed by NAVAIR at 5,000 lb (2,273 kg) thrust. The USAF museum YF-5A notes list two J85 engines at 4,080 lb thrust each with afterburner."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "F-5A/E combat variants used nose-mounted 20 mm cannon and external weapons including rockets, missiles, bombs, tanks, and training stores. The USAF museum YF-5A notes list two 20 mm cannon and up to 5,500 lb of external bombs; later F-5N/F aircraft are primarily adversary trainers.",
+      "caution": "Weapons and avionics varied heavily by variant, customer, modernization standard, and national integration program."
     },
     "similar_development": [
+      {
+        "id": "t-38-talon",
+        "name": "Northrop T-38 Talon",
+        "url": "aircraft.html?id=t-38-talon"
+      },
+      {
+        "id": "f-20-tigershark",
+        "name": "Northrop F-20 Tigershark",
+        "url": "aircraft.html?id=f-20-tigershark"
+      },
+      {
+        "id": "f-16-fighting-falcon",
+        "name": "General Dynamics F-16 Fighting Falcon",
+        "url": "aircraft.html?id=f-16-fighting-falcon"
+      },
       {
         "id": "f-4-phantom-ii",
         "name": "McDonnell Douglas F-4 Phantom II",
         "url": "aircraft.html?id=f-4-phantom-ii"
       },
       {
-        "id": "f-8-crusader",
-        "name": "Vought F-8 Crusader",
-        "url": "aircraft.html?id=f-8-crusader"
+        "id": "a-4-skyhawk",
+        "name": "Douglas A-4 Skyhawk",
+        "url": "aircraft.html?id=a-4-skyhawk"
       },
       {
-        "id": "f-14-tomcat",
-        "name": "Grumman F-14 Tomcat",
-        "url": "aircraft.html?id=f-14-tomcat"
-      },
-      {
-        "id": "f-15-eagle",
-        "name": "McDonnell Douglas F-15 Eagle",
-        "url": "aircraft.html?id=f-15-eagle"
+        "id": "mig-21",
+        "name": "Mikoyan-Gurevich MiG-21",
+        "url": "aircraft.html?id=mig-21"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 2
+      "exact_fact_count": 74,
+      "operator_entries": 12,
+      "variant_entries": 10,
+      "external_article_sources": 13
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-usaf-yf5a",
+        "title": "Northrop YF-5A Freedom Fighter",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196074/northrop-yf-5a-freedom-fighter/",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Used for low-cost design identity, first flight month, 1964 training deliveries, Skoshi Tiger, VNAF transfer, YF-5A technical notes, and museum image source."
+      },
+      {
+        "id": "fn-navair-f5",
+        "title": "F-5 Tiger II",
+        "url": "https://www.navair.navy.mil/product/F-5-Tiger-II",
+        "publisher": "Naval Air Systems Command",
+        "note": "Used for current U.S. Navy and Marine Corps F-5N/F mission, adversary role, dimensions, engines, speed, range, ceiling, crew, inventory, and main image."
+      },
+      {
+        "id": "fn-navair-artemis",
+        "title": "Navy F-5 modernization program completes engineering phase and moves into production and deployment",
+        "url": "https://www.navair.navy.mil/news/Navys-F-5-modernization-program-completes-engineering-phase-and-moves-production-and",
+        "publisher": "Naval Air Systems Command",
+        "note": "Used for ARTEMIS F-5N+/F+ modernization, 22 former Swiss aircraft, glass-cockpit and avionics upgrade, and adversary-capacity rationale."
+      },
+      {
+        "id": "fn-hill-f5e",
+        "title": "Northrop F-5E Tiger II",
+        "url": "https://www.aerospaceutah.org/museum/our-collections/aircraft-collection/f-5e-tiger-ii/",
+        "publisher": "Hill Aerospace Museum",
+        "note": "Used for F-5E aggressor and MiG-21 simulation context."
+      },
+      {
+        "id": "fn-ap-taiwan-retirement",
+        "title": "After decades of service, Taiwan retires its last F-5 fighter jets",
+        "url": "https://apnews.com/article/3341532cc68bd471980d14723a0589d0",
+        "publisher": "Associated Press",
+        "note": "Used for Taiwan retirement context, long-service public reputation, and current-operator caveat."
+      },
+      {
+        "id": "fn-f5-public-perception",
+        "title": "Public Perception Research: Northrop F-5",
+        "url": "AIRCRAFT%20PUBLIC%20PERCEPTION/F5.txt",
+        "publisher": "Local research file",
+        "note": "Used for reputation terms, social-media and forum themes, MiG-28 pop-culture context, common comparisons, myths, memes, public-opinion caveats, and opponent-perception summary."
+      },
+      {
+        "id": "fn-ogaden-thesis",
+        "title": "Ethiopian Airpower: From Inception to Victory in the Ogaden War",
+        "url": "https://ufdcimages.uflib.ufl.edu/UF/E0/04/50/70/00001/SCHAEFER_S.pdf",
+        "publisher": "University of Florida thesis",
+        "note": "Used cautiously for Ethiopian F-5 use, Somali MiG-21 comparison context, radar support, and Ogaden War airpower impact."
+      },
+      {
+        "id": "fn-aviationist-captured-f5",
+        "title": "Russian video of captured U.S. F-5A Tiger jet dogfighting against MiG-21 in tests raises question",
+        "url": "https://theaviationist.com/2017/06/14/russian-video-of-captured-u-s-f-5a-tiger-jet-dogfighting-against-mig-21-in-tests-raises-question-do-they-still-operate-american-jets/",
+        "publisher": "The Aviationist",
+        "note": "Used as secondary, caveated source for reported Soviet evaluation stories about captured F-5s."
+      },
+      {
+        "id": "fn-warhistory-mig28",
+        "title": "The MiG-28: The fictional Soviet fighter from Top Gun",
+        "url": "https://www.warhistoryonline.com/aircraft/mig-28-top-gun.html",
+        "publisher": "War History Online",
+        "note": "Used for the public-culture point that F-5s portrayed the fictional MiG-28 in Top Gun."
+      },
+      {
+        "id": "fn-swissinfo-collision",
+        "title": "Pilot error caused 2016 collision between two Swiss jets",
+        "url": "https://www.swissinfo.ch/eng/society/netherlands-accident_pilot-error-caused-2016-collision-between-two-swiss-jets/44857536",
+        "publisher": "Swissinfo",
+        "note": "Used for the Patrouille Suisse F-5 collision and public display-team risk context."
+      },
+      {
+        "id": "fn-wikipedia-crosscheck",
         "title": "Northrop F-5",
         "url": "https://en.wikipedia.org/wiki/Northrop_F-5",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "note": "Used only for background cross-checking and source discovery, not as the main authority for the expanded article."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "id": "fn-commons-brazil-image",
+        "title": "Northrop F-5 (Forca Aerea Brasileira) Seguranca Rio 2016 (3).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Northrop_F-5_(Forca_Aerea_Brasileira)_Seguran%C3%A7a_Rio_2016_(3).jpg",
+        "publisher": "Wikimedia Commons / Agencia Brasil",
+        "note": "Image source for Brazilian F-5EM gallery entry."
       },
       {
-        "id": "fn-method",
-        "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
-        "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.navy.mil/navydata/fact_display.asp?cid=1100&tid=1050&ct=1",
-        "publisher": "navy.mil",
-        "note": "External source for Northrop F-5."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.taiwanairpower.org/af/f5.html",
-        "publisher": "taiwanairpower.org",
-        "note": "External source for Northrop F-5."
-      },
-      {
-        "id": "fn-public-perception",
-        "title": "F5.txt",
-        "url": "AIRCRAFT PUBLIC PERCEPTION/F5.txt",
-        "publisher": "Milipedia",
-        "note": "Local public perception file. Used for F-5 reputation terms, MiG-28 pop-culture context, aggressor/adversary identity, common comparisons, conflict-impact caveats, myths, memes, incidents, and opponent-perception summary."
+        "id": "fn-commons-swiss-image",
+        "title": "Northrop F-5E Tiger II, Switzerland - Air Force JP6568409.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Northrop_F-5E_Tiger_II,_Switzerland_-_Air_Force_JP6568409.jpg",
+        "publisher": "Wikimedia Commons / Peter Bakema",
+        "note": "Image source for Swiss Air Force F-5E gallery entry."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.navy.mil/navydata/fact_display.asp?cid=1100&tid=1050&ct=1",
-        "publisher": "navy.mil",
-        "note": "External source for Northrop F-5."
+        "id": "fn-usaf-yf5a",
+        "title": "Northrop YF-5A Freedom Fighter",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196074/northrop-yf-5a-freedom-fighter/",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Used for low-cost design identity, first flight month, 1964 training deliveries, Skoshi Tiger, VNAF transfer, YF-5A technical notes, and museum image source."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.taiwanairpower.org/af/f5.html",
-        "publisher": "taiwanairpower.org",
-        "note": "External source for Northrop F-5."
+        "id": "fn-navair-f5",
+        "title": "F-5 Tiger II",
+        "url": "https://www.navair.navy.mil/product/F-5-Tiger-II",
+        "publisher": "Naval Air Systems Command",
+        "note": "Used for current U.S. Navy and Marine Corps F-5N/F mission, adversary role, dimensions, engines, speed, range, ceiling, crew, inventory, and main image."
+      },
+      {
+        "id": "fn-navair-artemis",
+        "title": "Navy F-5 modernization program completes engineering phase and moves into production and deployment",
+        "url": "https://www.navair.navy.mil/news/Navys-F-5-modernization-program-completes-engineering-phase-and-moves-production-and",
+        "publisher": "Naval Air Systems Command",
+        "note": "Used for ARTEMIS F-5N+/F+ modernization, 22 former Swiss aircraft, glass-cockpit and avionics upgrade, and adversary-capacity rationale."
+      },
+      {
+        "id": "fn-hill-f5e",
+        "title": "Northrop F-5E Tiger II",
+        "url": "https://www.aerospaceutah.org/museum/our-collections/aircraft-collection/f-5e-tiger-ii/",
+        "publisher": "Hill Aerospace Museum",
+        "note": "Used for F-5E aggressor and MiG-21 simulation context."
+      },
+      {
+        "id": "fn-ap-taiwan-retirement",
+        "title": "After decades of service, Taiwan retires its last F-5 fighter jets",
+        "url": "https://apnews.com/article/3341532cc68bd471980d14723a0589d0",
+        "publisher": "Associated Press",
+        "note": "Used for Taiwan retirement context, long-service public reputation, and current-operator caveat."
+      },
+      {
+        "id": "fn-ogaden-thesis",
+        "title": "Ethiopian Airpower: From Inception to Victory in the Ogaden War",
+        "url": "https://ufdcimages.uflib.ufl.edu/UF/E0/04/50/70/00001/SCHAEFER_S.pdf",
+        "publisher": "University of Florida thesis",
+        "note": "Used cautiously for Ethiopian F-5 use, Somali MiG-21 comparison context, radar support, and Ogaden War airpower impact."
+      },
+      {
+        "id": "fn-aviationist-captured-f5",
+        "title": "Russian video of captured U.S. F-5A Tiger jet dogfighting against MiG-21 in tests raises question",
+        "url": "https://theaviationist.com/2017/06/14/russian-video-of-captured-u-s-f-5a-tiger-jet-dogfighting-against-mig-21-in-tests-raises-question-do-they-still-operate-american-jets/",
+        "publisher": "The Aviationist",
+        "note": "Used as secondary, caveated source for reported Soviet evaluation stories about captured F-5s."
+      },
+      {
+        "id": "fn-warhistory-mig28",
+        "title": "The MiG-28: The fictional Soviet fighter from Top Gun",
+        "url": "https://www.warhistoryonline.com/aircraft/mig-28-top-gun.html",
+        "publisher": "War History Online",
+        "note": "Used for the public-culture point that F-5s portrayed the fictional MiG-28 in Top Gun."
+      },
+      {
+        "id": "fn-swissinfo-collision",
+        "title": "Pilot error caused 2016 collision between two Swiss jets",
+        "url": "https://www.swissinfo.ch/eng/society/netherlands-accident_pilot-error-caused-2016-collision-between-two-swiss-jets/44857536",
+        "publisher": "Swissinfo",
+        "note": "Used for the Patrouille Suisse F-5 collision and public display-team risk context."
+      },
+      {
+        "id": "fn-wikipedia-crosscheck",
+        "title": "Northrop F-5",
+        "url": "https://en.wikipedia.org/wiki/Northrop_F-5",
+        "publisher": "Wikipedia",
+        "note": "Used only for background cross-checking and source discovery, not as the main authority for the expanded article."
+      },
+      {
+        "id": "fn-commons-brazil-image",
+        "title": "Northrop F-5 (Forca Aerea Brasileira) Seguranca Rio 2016 (3).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Northrop_F-5_(Forca_Aerea_Brasileira)_Seguran%C3%A7a_Rio_2016_(3).jpg",
+        "publisher": "Wikimedia Commons / Agencia Brasil",
+        "note": "Image source for Brazilian F-5EM gallery entry."
+      },
+      {
+        "id": "fn-commons-swiss-image",
+        "title": "Northrop F-5E Tiger II, Switzerland - Air Force JP6568409.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Northrop_F-5E_Tiger_II,_Switzerland_-_Air_Force_JP6568409.jpg",
+        "publisher": "Wikimedia Commons / Peter Bakema",
+        "note": "Image source for Swiss Air Force F-5E gallery entry."
       }
     ],
     "article_sections": [
@@ -713,180 +938,213 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Northrop F-5 is a Light fighter from United States. Manufacturer: Northrop. First flight: 1959. Introduction: 1962. Status: Active/retired by operator.",
+            "text": "The Northrop F-5 was designed as a compact supersonic fighter that could be bought, flown, and maintained by allied air forces without the cost and complexity of larger Cold War fighters. The National Museum of the United States Air Force summarizes the type around low cost, ease of maintenance, versatility, and suitability for ground-support and aerial-intercept missions, including operations from unpaved fields.",
             "refs": [
-              "fn-main"
+              "fn-usaf-yf5a"
             ]
           },
           {
-            "text": "Northrop F-5 is a fighter. Primary role: light fighter. Country of origin: United States. Manufacturer: Northrop.",
+            "text": "The family divides most clearly into the F-5A/B Freedom Fighter and the later F-5E/F Tiger II. Early aircraft supported allied training and export combat use, while the F-5E/F added stronger engines, more fuel, larger leading-edge extensions, radar, and better air-combat training value against MiG-21-class threats.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf-yf5a",
+              "fn-wikipedia-crosscheck"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "In U.S. service the aircraft became more important as a trainer and opponent than as a front-line fighter. NAVAIR lists the F-5N/F primary function as adversary fighter and describes the aircraft as simulating current threat-aircraft behavior for Navy and Marine Corps fighter combat training.",
             "refs": [
-              "fn-method"
+              "fn-navair-f5"
+            ]
+          },
+          {
+            "text": "The aircraft remains internationally visible because many countries bought, built, modified, displayed, or retired it on different timelines. Taiwan, once one of the largest F-5 users, retired its last F-5s on 4 July 2025, while the United States continues to modernize F-5N/F adversary aircraft.",
+            "refs": [
+              "fn-ap-taiwan-retirement",
+              "fn-navair-artemis"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Primary role",
-            "text": "Light fighter"
+            "title": "Core identity",
+            "text": "Small U.S. supersonic light fighter for export, training, and adversary use."
           },
           {
-            "title": "Designer or builder",
-            "text": "Northrop"
+            "title": "Main names",
+            "text": "Freedom Fighter, Tiger II, F-5N/F, and fictional MiG-28."
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Current U.S. role",
+            "text": "Navy and Marine Corps adversary air-combat training."
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Primary tradeoff",
+            "text": "Low cost and agility against range, payload, radar, and age limits."
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Northrop F-5 first flew in 1959. Introduction date: 1962. Era: Cold War.",
+            "text": "Background: Northrop pursued a small, efficient fighter related to the T-38 trainer lineage at a time when many allied air forces needed a modern supersonic aircraft but could not absorb the cost or support burden of larger fighters. The F-5A first flew in July 1959, and Tactical Air Command training deliveries began in April 1964.",
             "refs": [
-              "fn-main"
+              "fn-usaf-yf5a"
             ]
           },
           {
-            "text": "Producer: Northrop. Development context: light fighter, jet propulsion, supersonic speed category, Cold War era.",
+            "text": "Design and testing: The YF-5A prototype demonstrated a light twin-engine layout built around General Electric J85 engines. The USAF museum aircraft, serial 59-4989, is one of three prototypes and is displayed in Skoshi Tiger markings, linking the development aircraft directly to the Vietnam combat-evaluation story.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf-yf5a"
+            ]
+          },
+          {
+            "text": "Production and export: The U.S. Air Force procured more than 2,000 F-5 aircraft for allied nations. The aircraft became a major Military Assistance Program and Foreign Military Sales type, with licensed or national production and upgrade work in countries including Canada, Spain, South Korea, Taiwan, and Switzerland.",
+            "refs": [
+              "fn-usaf-yf5a",
+              "fn-wikipedia-crosscheck"
+            ]
+          },
+          {
+            "text": "Tiger II and modernization: The F-5E/F Tiger II family was developed to improve air-combat value over the original Freedom Fighter. In modern U.S. use, ARTEMIS is converting and upgrading former Swiss F-5E/F aircraft to F-5N+/F+ standard with a glass cockpit, avionics suite, safety improvements, and added air-to-air training capability.",
+            "refs": [
+              "fn-navair-artemis",
+              "fn-wikipedia-crosscheck"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "Requirement theme: affordable allied fighter rather than a large U.S. front-line air-superiority aircraft.",
             "refs": [
-              "fn-method"
+              "fn-usaf-yf5a"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "Prototype and early training: July 1959 first flight; April 1964 Tactical Air Command training deliveries.",
             "refs": [
-              "fn-method"
+              "fn-usaf-yf5a"
+            ]
+          },
+          {
+            "text": "Combat validation: Skoshi Tiger tested modified F-5Cs in Vietnam before South Vietnamese pilot training and aircraft transfer.",
+            "refs": [
+              "fn-usaf-yf5a"
+            ]
+          },
+          {
+            "text": "Modernization theme: U.S. adversary fleets are being upgraded for safer, more capable training rather than front-line combat replacement.",
+            "refs": [
+              "fn-navair-artemis"
             ]
           }
         ]
       },
       {
         "id": "design",
-        "title": "Design and Capabilities",
+        "title": "Design",
         "paragraphs": [
           {
-            "text": "Crew: 1 or 2. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "Airframe: The F-5 used a small, clean, twin-engine fuselage with thin swept wings, a pointed nose, and a conventional tail. Its size made it visually and logistically different from heavy contemporaries such as the F-4 Phantom II, while still giving allied pilots a supersonic fighter for air defense and ground attack.",
             "refs": [
-              "fn-main"
+              "fn-usaf-yf5a"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Cockpit: Single-seat F-5A/E/N aircraft were the core fighter versions, while F-5B/F aircraft provided two-seat training and conversion capability. NAVAIR lists the F-5N with one crew member and the F-5F with two, reflecting the current U.S. adversary-training mix.",
             "refs": [
-              "fn-method"
+              "fn-navair-f5"
             ]
           },
           {
-            "text": "Northrop F-5 uses jet propulsion. Engine model field: Not listed.",
+            "text": "Engine: Current F-5N/F aircraft use two General Electric J85-GE-21C afterburning turbojets, each rated by NAVAIR at 5,000 lb of thrust. The earlier YF-5A museum notes list two J85 engines at 4,080 lb of thrust each with afterburner.",
             "refs": [
-              "fn-main"
+              "fn-navair-f5",
+              "fn-usaf-yf5a"
             ]
           },
           {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
+            "text": "Avionics and radar: Avionics varied widely by customer and generation. Early F-5A aircraft were simple by design, while F-5E/F and later national upgrades added radar, navigation, electronic-warfare, and cockpit changes. ARTEMIS adds a modern glass cockpit and avionics suite to U.S. adversary aircraft.",
             "refs": [
-              "fn-main"
+              "fn-navair-artemis",
+              "fn-wikipedia-crosscheck"
+            ]
+          },
+          {
+            "text": "Weapons systems: The USAF museum YF-5A notes list two 20 mm cannon, rockets, missiles, and up to 5,500 lb of external bombs. Later users integrated national missiles, pods, sensors, reconnaissance noses, training equipment, and modernization-specific avionics, so exact weapon fit must be tied to a variant and operator.",
+            "refs": [
+              "fn-usaf-yf5a"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "1 or 2"
+            "title": "Airframe",
+            "text": "Small twin-engine swept-wing fighter optimized for simplicity and export support."
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Cockpit",
+            "text": "Single-seat fighters and two-seat combat trainers by variant."
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Powerplant",
+            "text": "General Electric J85 family afterburning turbojets."
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Modern U.S. avionics",
+            "text": "ARTEMIS glass cockpit and safety/capability upgrade for F-5N+/F+."
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Northrop F-5 status: Active/retired by operator. Conflict entries: 0.",
+            "text": "Variant described: U.S. Navy / U.S. Marine Corps F-5N/F adversary aircraft unless otherwise stated. NAVAIR lists the F-5N as a single-seat aircraft and the F-5F as a dual-seat aircraft, both using two J85-GE-21C afterburning turbojets.",
             "refs": [
-              "fn-main"
+              "fn-navair-f5"
             ]
           },
           {
-            "text": "Conflicts: 0 entries.",
+            "text": "Dimensions: F-5N length 47 ft 4.7 in (14.4 m); F-5F length 51 ft 7 in (15.7 m); wingspan 26 ft 8 in (8.1 m); F-5N height 13 ft 4.25 in (4.1 m); F-5F height 13 ft 1.75 in (4.0 m). NAVAIR lists maximum gross takeoff weight as 24,722 lb (11,214 kg).",
             "refs": [
-              "fn-method"
+              "fn-navair-f5"
             ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
+          },
           {
-            "text": "Northrop F-5 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
+            "text": "Performance: NAVAIR lists F-5N maximum speed as Mach 1.64 at 36,000 ft and F-5F maximum speed as Mach 1.56 at 36,000 ft, with a 50,000+ ft ceiling and maximum range of 2,314 miles (4,286 km). The older YF-5A museum note lists 925 mph maximum speed, 575 mph cruise speed, 1,100 mile range, and 50,700 ft ceiling.",
             "refs": [
-              "fn-main"
+              "fn-navair-f5",
+              "fn-usaf-yf5a"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Named pilots listed: 0.",
+            "text": "Crew: F-5N one; F-5F two.",
             "refs": [
-              "fn-method"
+              "fn-navair-f5"
             ]
           },
           {
-            "text": "Named individual aircraft listed: 0.",
+            "text": "Powerplant: two J85-GE-21C afterburning turbojets, 5,000 lb thrust each in the current NAVAIR F-5N/F listing.",
             "refs": [
-              "fn-method"
+              "fn-navair-f5"
             ]
           },
           {
-            "text": "Notable incidents listed: 0.",
+            "text": "Armament baseline: two 20 mm cannon and external rockets, missiles, bombs, tanks, or training equipment by variant.",
             "refs": [
-              "fn-method"
+              "fn-usaf-yf5a"
             ]
           },
           {
-            "text": "Loss claims listed: 0.",
+            "text": "Specification caveat: do not mix YF-5A, F-5A, F-5E, F-5F, F-5N, and national upgrade figures without naming the variant.",
             "refs": [
-              "fn-method"
+              "fn-navair-f5",
+              "fn-usaf-yf5a"
             ]
           }
         ]
@@ -896,41 +1154,73 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Northrop F-5 variant-family entries: 4. Variant families: Northrop F-5 baseline production model; Northrop F-5 upgraded avionics or weapons-capable model; Northrop F-5 two-seat trainer or conversion model; Northrop F-5 export or locally modernized model.",
+            "text": "The F-5 family is best understood as a sequence of simple export fighters, improved Tiger II aircraft, reconnaissance and trainer variants, and later adversary-air or national modernization programs. Many countries modified avionics, weapons, sensors, or cockpit equipment, so variant names do not always describe identical capability across operators.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-usaf-yf5a",
+              "fn-navair-f5",
+              "fn-navair-artemis"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Northrop F-5 baseline production model",
+            "text": "YF-5A: prototype Freedom Fighter; the USAF museum aircraft is serial 59-4989.",
             "refs": [
-              "fn-main"
+              "fn-usaf-yf5a"
             ]
           },
           {
-            "text": "Northrop F-5 upgraded avionics or weapons-capable model",
+            "text": "F-5A Freedom Fighter: single-seat early production fighter used for allied training, export service, and Skoshi Tiger after modification.",
             "refs": [
-              "fn-main"
+              "fn-usaf-yf5a"
             ]
           },
           {
-            "text": "Northrop F-5 two-seat trainer or conversion model",
+            "text": "F-5B: two-seat combat trainer; first flew in February 1964 according to the USAF museum fact sheet.",
             "refs": [
-              "fn-main"
+              "fn-usaf-yf5a"
             ]
           },
           {
-            "text": "Northrop F-5 export or locally modernized model",
+            "text": "F-5C Skoshi Tiger: modified Vietnam combat-evaluation aircraft with changes for operational testing.",
             "refs": [
-              "fn-main"
+              "fn-usaf-yf5a"
+            ]
+          },
+          {
+            "text": "F-5E/F Tiger II: improved single-seat and two-seat family with stronger engines, radar, greater fuel capacity, and improved maneuverability.",
+            "refs": [
+              "fn-wikipedia-crosscheck"
+            ]
+          },
+          {
+            "text": "RF-5 variants: reconnaissance aircraft replacing some fighter equipment with camera or sensor packages.",
+            "refs": [
+              "fn-wikipedia-crosscheck"
+            ]
+          },
+          {
+            "text": "F-5N/F: former Swiss and other aircraft reworked for U.S. Navy and Marine Corps adversary training.",
+            "refs": [
+              "fn-navair-f5"
+            ]
+          },
+          {
+            "text": "F-5N+/F+ ARTEMIS: upgraded adversary aircraft with glass cockpit, new avionics, safety improvements, and added training capability.",
+            "refs": [
+              "fn-navair-artemis"
+            ]
+          },
+          {
+            "text": "Licensed and national variants: CF-5/NF-5, Spanish SF-5, Korean KF-5, Taiwanese Peace Tiger aircraft, Brazilian F-5EM/FM, Thai F-5TH, and other national upgrade families.",
+            "refs": [
+              "fn-wikipedia-crosscheck"
+            ]
+          },
+          {
+            "text": "F-20 Tigershark: advanced Northrop derivative developed from the F-5E/F family but not adopted as a production replacement.",
+            "refs": [
+              "fn-wikipedia-crosscheck"
             ]
           }
         ]
@@ -940,47 +1230,268 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Northrop F-5 has 1 designer or builder country entry.",
+            "text": "Current national and military operator status is source-sensitive because many F-5 fleets are small, aging, upgraded locally, or partly retired. This article therefore names well-documented examples and avoids presenting one unsourced global inventory as exact for every country.",
             "refs": [
-              "fn-wikidata"
+              "fn-f5-public-perception"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "United States: The U.S. Navy and Marine Corps use F-5N/F aircraft for training and adversary combat tactics. NAVAIR lists F-5N inventory as Navy 25 and Marine Corps 13, and F-5F inventory as Navy 2 and Marine Corps 1 in its product-page program status.",
             "refs": [
-              "fn-method"
+              "fn-navair-f5"
+            ]
+          },
+          {
+            "text": "Taiwan: The Republic of China Air Force was historically one of the largest F-5 operators. Associated Press reported that Taiwan retired its remaining F-5s on 4 July 2025 after decades of use as fighters, trainers, reconnaissance aircraft, and decoys during the transition to newer aircraft.",
+            "refs": [
+              "fn-ap-taiwan-retirement"
+            ]
+          },
+          {
+            "text": "Brazil, Thailand, South Korea, Iran, Switzerland, Ethiopia, South Vietnam, and many other countries operated or upgraded F-5-family aircraft. Their histories show why the aircraft is better described as a global export and modernization platform than as a purely U.S. fighter.",
+            "refs": [
+              "fn-wikipedia-crosscheck",
+              "fn-f5-public-perception"
+            ]
+          },
+          {
+            "text": "Private, civilian, test, or adversary-air use includes U.S. contractor support and museum/preservation aircraft, but the visible Milipedia page focuses on military service because the renderer does not yet support a full operator table for every country.",
+            "refs": [
+              "fn-navair-artemis",
+              "fn-f5-public-perception"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Current U.S. adversary users: U.S. Navy and U.S. Marine Corps F-5N/F fleets.",
             "refs": [
-              "fn-main"
+              "fn-navair-f5"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "Former major user: Taiwan, retired final F-5s in July 2025.",
             "refs": [
-              "fn-wikidata"
+              "fn-ap-taiwan-retirement"
+            ]
+          },
+          {
+            "text": "Historic combat users include South Vietnam and Ethiopia, with Ethiopian use central to F-5-versus-MiG-21 public debates.",
+            "refs": [
+              "fn-usaf-yf5a",
+              "fn-ogaden-thesis"
+            ]
+          },
+          {
+            "text": "Operator caveat: exact fleet counts for many countries require current annual military-inventory sources and may change rapidly as F-5 fleets retire.",
+            "refs": [
+              "fn-f5-public-perception"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1 or 2, propulsion type Jet, maximum speed category Supersonic, first flight 1959, introduction 1962.",
+            "text": "1964 and allied training: Deliveries to Tactical Air Command for instructing foreign pilots began in April 1964. The first groups trained included pilots from Iran and South Korea, followed by Norway, Greece, Taiwan, Spain, and other allied users.",
             "refs": [
-              "fn-main"
+              "fn-usaf-yf5a"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "1965-1967, Vietnam and Skoshi Tiger: The 4503rd Tactical Fighter Squadron combat-tested F-5s in Vietnam, and the unit was later redesignated the 10th Fighter (Commando) Squadron. In October 1966 the squadron began training South Vietnamese pilots and later transferred its aircraft to the VNAF in June 1967.",
             "refs": [
-              "fn-method"
+              "fn-usaf-yf5a"
+            ]
+          },
+          {
+            "text": "1977-1978, Ogaden War: Ethiopian F-5A/E aircraft are frequently cited in public discussions because Ethiopian pilots used them against Somali aircraft and ground forces. The cited thesis supports a narrow claim that F-5s helped Ethiopia under specific conditions involving pilot training, radar support, tactics, and opponent aircraft; it does not support universal claims that every F-5 was superior to every MiG-21.",
+            "refs": [
+              "fn-ogaden-thesis",
+              "fn-f5-public-perception"
+            ]
+          },
+          {
+            "text": "Cold War export service: F-5s served as day fighters, fighter-attack aircraft, reconnaissance aircraft, trainers, and air-defense assets across allied and non-U.S. air forces. Licensed production and local upgrades kept the family useful long after the original U.S. training and export requirement.",
+            "refs": [
+              "fn-usaf-yf5a",
+              "fn-wikipedia-crosscheck"
+            ]
+          },
+          {
+            "text": "Adversary training era: In U.S. Navy and Marine Corps service, F-5N/F aircraft provide simulated threat-aircraft behavior for fighter training. Hill Aerospace Museum public material emphasizes the F-5E connection to MiG-21 simulation, and NAVAIR describes the current F-5N/F as an adversary fighter.",
+            "refs": [
+              "fn-hill-f5e",
+              "fn-navair-f5"
+            ]
+          },
+          {
+            "text": "2020s modernization and retirement: The aircraft is simultaneously being modernized and retired, depending on user. NAVAIR ARTEMIS is upgrading former Swiss aircraft for U.S. adversary fleets, while Taiwan publicly retired its final F-5s on 4 July 2025.",
+            "refs": [
+              "fn-navair-artemis",
+              "fn-ap-taiwan-retirement"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "notable-events",
+        "title": "Notable Events and Incidents",
+        "paragraphs": [
+          {
+            "text": "The F-5 article benefits from notable events because the aircraft public reputation depends on a few highly memorable episodes: Skoshi Tiger, Ogaden War air combat, Top Gun, adversary training, Swiss display-team incidents, and Taiwan final retirement.",
+            "refs": [
+              "fn-f5-public-perception"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "July 1959",
+            "text": "The F-5 family first flew, according to the USAF museum fact sheet."
+          },
+          {
+            "title": "April 1964",
+            "text": "Tactical Air Command training deliveries began for foreign pilot instruction."
+          },
+          {
+            "title": "1965-1967",
+            "text": "Skoshi Tiger combat-tested F-5s in Vietnam and linked the aircraft to VNAF training and transfer."
+          },
+          {
+            "title": "1977-1978",
+            "text": "Ethiopian F-5 use in the Ogaden War became central to F-5-versus-MiG-21 reputation debates."
+          },
+          {
+            "title": "1986",
+            "text": "F-5s portrayed the fictional MiG-28 in Top Gun, creating a major pop-culture identity."
+          },
+          {
+            "title": "9 June 2016",
+            "text": "Two Swiss Patrouille Suisse F-5s collided during airshow training near Leeuwarden; one crashed and one landed damaged."
+          },
+          {
+            "title": "28 June 2022",
+            "text": "The ARTEMIS F-5N+/F+ program reached Milestone C and moved toward production and deployment."
+          },
+          {
+            "title": "4 July 2025",
+            "text": "Taiwan marked the retirement of its final F-5 fighter jets."
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "The F-5 is most often compared with aircraft that explain its role: the MiG-21 as an adversary-training and export-era reference point, the F-4 as a larger U.S. contemporary, the A-4 as another small adversary-training aircraft, and the F-16/F-20 pair as the later export-fighter debate.",
+            "refs": [
+              "fn-f5-public-perception"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "MiG-21: compared because both were compact Cold War fighters and because the F-5 was used to simulate MiG-21-like threats. Public claims require variant, pilot, radar, missile, altitude, and rules-of-engagement caveats.",
+            "refs": [
+              "fn-hill-f5e",
+              "fn-ogaden-thesis"
+            ]
+          },
+          {
+            "text": "F-4 Phantom II: compared as a large, expensive, multi-role U.S. contemporary; the F-5 represented the smaller export-friendly alternative.",
+            "refs": [
+              "fn-usaf-yf5a"
+            ]
+          },
+          {
+            "text": "A-4 Skyhawk: compared because both became useful adversary-training aircraft for visual air-combat instruction.",
+            "refs": [
+              "fn-f5-public-perception"
+            ]
+          },
+          {
+            "text": "F-16 Fighting Falcon: compared because both appear in lightweight-fighter and export-market debates, though the F-16 became a much more capable multirole fighter.",
+            "refs": [
+              "fn-f5-public-perception"
+            ]
+          },
+          {
+            "text": "F-20 Tigershark: compared as Northrop advanced F-5 derivative whose cancellation fuels public debate about export policy and missed opportunities.",
+            "refs": [
+              "fn-wikipedia-crosscheck",
+              "fn-f5-public-perception"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The F-5 strengths and limitations come from the same design philosophy. A small, inexpensive fighter was attractive to many air forces and remains useful for adversary training, but the compact airframe also limits fuel, radar size, payload, growth margin, and modern front-line survivability.",
+            "refs": [
+              "fn-usaf-yf5a",
+              "fn-navair-f5",
+              "fn-f5-public-perception"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: low acquisition and support burden compared with larger Cold War fighters, making the aircraft attractive for allied export and training.",
+            "refs": [
+              "fn-usaf-yf5a"
+            ]
+          },
+          {
+            "text": "Strength: small size, twin J85 engines, and clean aerodynamics gave it strong visual-fight and threat-representation value.",
+            "refs": [
+              "fn-hill-f5e",
+              "fn-navair-f5"
+            ]
+          },
+          {
+            "text": "Strength: flexible use as fighter, attack aircraft, trainer, reconnaissance platform, and adversary aircraft across different operators.",
+            "refs": [
+              "fn-usaf-yf5a",
+              "fn-navair-f5"
+            ]
+          },
+          {
+            "text": "Strength: long service life enabled by licensed production, national upgrades, and current ARTEMIS modernization.",
+            "refs": [
+              "fn-navair-artemis"
+            ]
+          },
+          {
+            "text": "Limitation: range, payload, and radar growth were constrained by the compact airframe.",
+            "refs": [
+              "fn-f5-public-perception"
+            ]
+          },
+          {
+            "text": "Limitation: older variants lack the sensors, weapons integration, and survivability expected of modern front-line fighters.",
+            "refs": [
+              "fn-f5-public-perception"
+            ]
+          },
+          {
+            "text": "Limitation: public dogfight claims can exaggerate the aircraft by ignoring pilot training, support, altitude, speed, weapons, and rules of engagement.",
+            "refs": [
+              "fn-ogaden-thesis",
+              "fn-f5-public-perception"
+            ]
+          },
+          {
+            "text": "Limitation: aging fleets need modernization or retirement, as shown by Taiwan final retirement and U.S. ARTEMIS safety/capability work.",
+            "refs": [
+              "fn-ap-taiwan-retirement",
+              "fn-navair-artemis"
             ]
           }
         ]
@@ -990,113 +1501,234 @@
         "title": "Public Perception",
         "paragraphs": [
           {
-            "text": "The F-5's public reputation centers on its small size, low-cost export concept, easy-maintenance image, aggressor and adversary training career, and its pop-culture role as the fictional MiG-28 in Top Gun.",
+            "text": "The F-5 public reputation centers on small size, low cost, easy maintenance, export practicality, and a long second career as an aggressor aircraft. Fans often call it nimble, simple, underrated, and old but still useful; technical writing should keep those as reputation terms unless tied to specific sourced design or service facts.",
             "refs": [
-              "fn-public-perception"
+              "fn-f5-public-perception",
+              "fn-usaf-yf5a"
             ]
           },
           {
-            "text": "In aviation communities the aircraft is often described as nimble, simple, underrated, and old but still useful. The useful part is not only fan nostalgia: the U.S. Navy and Marine Corps still use F-5N/F aircraft for adversary training, and NAVAIR has added and modernized former Swiss F-5E/F aircraft for that role.",
+            "text": "Its strongest unofficial identity is as an opponent. The F-5 has been used to simulate MiG-21-like threats, teaches pilots energy management and visual fighting, and became widely recognizable as the fictional black MiG-28 in Top Gun. The MiG-28 point is a pop-culture fact, not a real aircraft designation.",
             "refs": [
-              "fn-public-perception"
+              "fn-hill-f5e",
+              "fn-warhistory-mig28",
+              "fn-f5-public-perception"
             ]
           },
           {
-            "text": "The strongest unofficial identity is the F-5 as an opponent. It has been used to simulate MiG-21-like threats in training, appears in TOPGUN discussion, and became the black MiG-28 in Top Gun. Those associations make the F-5 more recognizable to many non-specialists than its formal Freedom Fighter or Tiger II names.",
+            "text": "Supporters emphasize simplicity, agility, low operating burden, export success, and adversary-training value. Critics emphasize age, short range, limited payload, older radar and missile fits, and the tendency of fan discussions to treat selective dogfight stories as universal proof.",
             "refs": [
-              "fn-public-perception"
+              "fn-f5-public-perception"
             ]
           },
           {
-            "text": "Common comparisons pair the F-5 with the MiG-21, F-16, Saab Gripen, FA-50/T-50, JF-17, A-4 Skyhawk, and T-38 Talon. Public debate usually frames the F-5 as the small, affordable dogfighter, but exact claims depend on variant, pilot training, radar support, weapons, altitude, speed, rules of engagement, and mission.",
+            "text": "Opponent-perception stories should be handled cautiously. Ethiopian F-5 use in the Ogaden War supports a specific airpower case, while reported Soviet tests of captured F-5s are useful for reputation but remain secondary-source material rather than a declassified official test record.",
             "refs": [
-              "fn-public-perception"
+              "fn-ogaden-thesis",
+              "fn-aviationist-captured-f5",
+              "fn-f5-public-perception"
             ]
           },
           {
-            "text": "Its combat reputation is more specific than the broad fan version. Skoshi Tiger gave the F-5 a Vietnam combat-test story, while Ethiopian F-5A/E use in the Ogaden War is often cited in F-5-versus-MiG-21 debates. The public-perception file treats those as important but condition-dependent examples, not proof of universal superiority over MiG-21-family aircraft.",
+            "text": "A neutral encyclopedia description should call the F-5 a respected light fighter whose greatest public identity comes from export practicality, adversary work, Top Gun culture, and a few condition-dependent combat stories rather than from universal superiority claims.",
             "refs": [
-              "fn-public-perception"
+              "fn-f5-public-perception"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Common reputation words: small, nimble, simple, cheap, underrated, MiG-28, aggressor, and old but useful.",
+            "refs": [
+              "fn-f5-public-perception"
             ]
           },
           {
-            "text": "Common myths and exaggerations include 'MiG-28 was real,' 'the F-5 always beats the MiG-21,' 'the F-5 is just a trainer,' and 'obsolete means useless.' A balanced view treats the F-5 as an aging light fighter whose front-line limits are real, but whose cultural and training value stayed unusually strong.",
+            "text": "Common myths to avoid: MiG-28 was real; the F-5 always beats the MiG-21; obsolete means useless; the F-5 is just a trainer.",
             "refs": [
-              "fn-public-perception"
+              "fn-f5-public-perception"
+            ]
+          },
+          {
+            "text": "Public-perception source: the local research file AIRCRAFT PUBLIC PERCEPTION/F5.txt is now cited as a visible source entry.",
+            "refs": [
+              "fn-f5-public-perception"
             ]
           }
         ],
         "cards": [
           {
-            "title": "MiG-28",
-            "text": "Fictional Top Gun adversary portrayed by F-5 aircraft; not a real MiG designation."
+            "title": "Fan identity",
+            "text": "Compact, clean, nimble, and underrated."
           },
           {
-            "title": "Aggressor",
-            "text": "Core U.S. reputation role: a small fighter used to teach pilots against threat-style tactics."
+            "title": "Training identity",
+            "text": "Aggressor aircraft and MiG-21-style threat representative."
           },
           {
-            "title": "Skoshi Tiger",
-            "text": "Vietnam combat-evaluation identity tied to the F-5's early U.S. combat-test story."
+            "title": "Pop-culture identity",
+            "text": "Fictional MiG-28 in Top Gun."
           },
           {
-            "title": "MiG-21 debate",
-            "text": "Popular comparison that must be narrowed by variant, tactics, training, and fight conditions."
+            "title": "Critical view",
+            "text": "Aging, limited range/payload/sensors, and easy to overstate in fan debates."
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "The F-5 timeline links its private-development origins, export training role, Vietnam combat evaluation, Tiger II development, adversary identity, modernization, and major retirements.",
+            "refs": [
+              "fn-usaf-yf5a",
+              "fn-navair-f5",
+              "fn-navair-artemis",
+              "fn-ap-taiwan-retirement"
+            ]
           }
         ],
         "bullets": [
           {
-            "text": "Supporters emphasize simplicity, low operating burden, agility, export success, and adversary-training usefulness.",
+            "text": "July 1959: F-5 family first flight.",
             "refs": [
-              "fn-public-perception"
+              "fn-usaf-yf5a"
             ]
           },
           {
-            "text": "Critics emphasize age, range, payload, radar, missile, survivability, and sustainment limits in modern front-line combat.",
+            "text": "February 1964: F-5B two-seat combat trainer first flight.",
             "refs": [
-              "fn-public-perception"
+              "fn-usaf-yf5a"
             ]
           },
           {
-            "text": "Opponent perception is best treated cautiously: Somali experience in the Ogaden War and reported Soviet tests of captured F-5s support respect for the aircraft, but not universal performance claims.",
+            "text": "April 1964: Tactical Air Command training deliveries for foreign pilot instruction began.",
             "refs": [
-              "fn-public-perception"
+              "fn-usaf-yf5a"
+            ]
+          },
+          {
+            "text": "1965-1967: Skoshi Tiger combat evaluation and South Vietnamese training/transfer story.",
+            "refs": [
+              "fn-usaf-yf5a"
+            ]
+          },
+          {
+            "text": "1970: Northrop won the International Fighter Aircraft competition for the improved F-5E family, according to background cross-check sources.",
+            "refs": [
+              "fn-wikipedia-crosscheck"
+            ]
+          },
+          {
+            "text": "11 August 1972: F-5E Tiger II first flight, according to background cross-check sources.",
+            "refs": [
+              "fn-wikipedia-crosscheck"
+            ]
+          },
+          {
+            "text": "1977-1978: Ethiopian F-5s became central to the Ogaden War airpower story.",
+            "refs": [
+              "fn-ogaden-thesis"
+            ]
+          },
+          {
+            "text": "1986: Top Gun introduced the F-5 to many viewers as the fictional MiG-28.",
+            "refs": [
+              "fn-warhistory-mig28"
+            ]
+          },
+          {
+            "text": "2003: NAVAIR lists F-5N deployment date for U.S. adversary service.",
+            "refs": [
+              "fn-navair-f5"
+            ]
+          },
+          {
+            "text": "9 June 2016: Patrouille Suisse F-5 collision near Leeuwarden.",
+            "refs": [
+              "fn-swissinfo-collision"
+            ]
+          },
+          {
+            "text": "28 June 2022: ARTEMIS reached Milestone C for F-5N+/F+ upgrade production and deployment.",
+            "refs": [
+              "fn-navair-artemis"
+            ]
+          },
+          {
+            "text": "4 July 2025: Taiwan retired its final F-5s.",
+            "refs": [
+              "fn-ap-taiwan-retirement"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "related-pages",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "Northrop F-5 similar-development links: 4.",
+            "text": "Related aircraft connect the F-5 to its trainer lineage, adversary-training role, export competitors, and later lightweight-fighter debates.",
             "refs": [
-              "fn-method"
+              "fn-f5-public-perception"
             ]
           }
         ],
         "links": [
           {
+            "label": "Northrop T-38 Talon",
+            "url": "aircraft.html?id=t-38-talon"
+          },
+          {
+            "label": "Northrop F-20 Tigershark",
+            "url": "aircraft.html?id=f-20-tigershark"
+          },
+          {
+            "label": "General Dynamics F-16 Fighting Falcon",
+            "url": "aircraft.html?id=f-16-fighting-falcon"
+          },
+          {
+            "label": "Douglas A-4 Skyhawk",
+            "url": "aircraft.html?id=a-4-skyhawk"
+          },
+          {
+            "label": "Mikoyan-Gurevich MiG-21",
+            "url": "aircraft.html?id=mig-21"
+          },
+          {
             "label": "McDonnell Douglas F-4 Phantom II",
             "url": "aircraft.html?id=f-4-phantom-ii"
-          },
-          {
-            "label": "Vought F-8 Crusader",
-            "url": "aircraft.html?id=f-8-crusader"
-          },
-          {
-            "label": "Grumman F-14 Tomcat",
-            "url": "aircraft.html?id=f-14-tomcat"
-          },
-          {
-            "label": "McDonnell Douglas F-15 Eagle",
-            "url": "aircraft.html?id=f-15-eagle"
           }
         ]
       }
     ],
-    "event_gallery": []
+    "event_gallery": [
+      {
+        "url": "https://media.defense.gov/2014/Apr/24/2000856859/-1/-1/0/140424-F-IO108-006.JPG",
+        "caption": "Northrop YF-5A serial 59-4989 in Skoshi Tiger markings at the National Museum of the United States Air Force in Dayton, Ohio",
+        "credit": "U.S. Air Force / National Museum of the United States Air Force",
+        "source_url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196074/northrop-yf-5a-freedom-fighter/"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Northrop_F-5_%28Forca_Aerea_Brasileira%29_Seguran%C3%A7a_Rio_2016_%283%29.jpg/1280px-Northrop_F-5_%28Forca_Aerea_Brasileira%29_Seguran%C3%A7a_Rio_2016_%283%29.jpg",
+        "caption": "Brazilian Air Force F-5EM during Rio 2016 Olympic security interception training on 17 July 2016",
+        "credit": "Tomaz Silva / Agencia Brasil via Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Northrop_F-5_(Forca_Aerea_Brasileira)_Seguran%C3%A7a_Rio_2016_(3).jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/J-3005.jpg/1024px-J-3005.jpg",
+        "caption": "Swiss Air Force F-5E Tiger II J-3005 in flight, showing the aircraft compact planform and Swiss public-display identity",
+        "credit": "Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:J-3005.jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Northrop_F-5E_Tiger_II%2C_Switzerland_-_Air_Force_JP6568409.jpg",
+        "caption": "Swiss Air Force Northrop F-5E Tiger II J-3093 at Payerne Air Base on 4 May 2009",
+        "credit": "Peter Bakema via Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Northrop_F-5E_Tiger_II,_Switzerland_-_Air_Force_JP6568409.jpg"
+      }
+    ]
   },
   {
     "id": "f-8-crusader",
