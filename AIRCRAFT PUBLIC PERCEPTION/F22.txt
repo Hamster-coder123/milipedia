@@ -1,0 +1,98 @@
+# Public Perception Research: Lockheed Martin F-22 Raptor
+
+## 1. General Public Reputation
+
+The F-22 Raptor is commonly treated as the U.S. Air Force's high-end air-superiority icon: stealthy, extremely maneuverable, expensive, rare, and politically controversial. Official Air Force language presents it as a combination of stealth, supercruise, maneuverability, integrated avionics, and supportability intended to project air dominance at long range: https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104506/f-22-raptor/
+
+Among aviation fans and defense commentators, the Raptor is often described as a benchmark fifth-generation fighter and as the aircraft that made "air dominance" visually recognizable to the public. The National Museum of the U.S. Air Force describes it as the world's first stealthy air-dominance fighter and notes that it exceeded USAF expectations in exercises and deployments: https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196040/lockheed-martin-f-22a-raptor/
+
+The same reputation has a critical side. Public debate often frames the F-22 as too costly, too small a fleet, and too specialized for the counterinsurgency wars in which it entered service. Wired's 2011 cost analysis presented competing cost figures and described the aircraft as an unmatched dogfighter whose value was questioned because it had not yet been used in combat: https://www.wired.com/2011/12/f-22-real-cost/
+
+## 2. Social Media Reputation
+
+Accessible public discussion usually clusters around four themes:
+
+* Fan admiration: stealth, thrust vectoring, supercruise, and airshow maneuvers make the aircraft a frequent "best fighter" candidate in enthusiast discussion.
+* Cost criticism: commenters often use the Raptor as shorthand for extreme defense spending because only a small fleet was built.
+* "Never fought what it was built to fight": before 2023, critics often noted that its first combat work was ground attack and deterrence rather than shooting down peer fighters.
+* Balloon memes: after the February 2023 Chinese surveillance balloon and high-altitude object shootdowns, jokes focused on an elite fighter using expensive missiles against balloons or unidentified slow-moving objects. The underlying shootdown facts are confirmed by DOD, but the joking interpretation is public commentary, not a military assessment: https://www.defense.gov/News/News-Stories/Article/Article/3288543/f-22-safely-shoots-down-chinese-spy-balloon-off-south-carolina-coast/
+
+## 3. What the Aircraft Is Known For
+
+Outside technical summaries, the F-22 is known for:
+
+* Airshow maneuverability and the dedicated F-22 Demonstration Team, which tours public airshows and links the aircraft to recruitment and public outreach: https://www.jble.af.mil/About-Us/Units/Langley-AFB/F-22-Demo-Team/
+* Exercise mythology, especially the National Museum's account of Exercise Northern Edge 2006, where Raptor pilots achieved a 108-to-zero simulated kill ratio against F-15, F-16, and F/A-18 adversaries: https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196040/lockheed-martin-f-22a-raptor/
+* Oxygen-system controversy and fleet groundings, which damaged the public image of an otherwise elite aircraft. Wired covered the 2011 grounding as a reputational blow tied to hypoxia and decompression-sickness reports: https://www.wired.com/2011/05/stealth-fighter-fleet-grounded-by-oxygen-woes/
+* The 2023 air-to-air kills against a Chinese high-altitude surveillance balloon and other high-altitude objects, which became the aircraft's first widely reported real air-to-air victories: https://www.defense.gov/News/News-Stories/Article/Article/3288543/f-22-safely-shoots-down-chinese-spy-balloon-off-south-carolina-coast/
+
+## 4. Conflict Impact
+
+### Conflict: Operation Inherent Resolve and the Syrian Civil War
+
+The F-22's combat debut came in the opening Syria strikes of Operation Inherent Resolve. Later reporting on a 2018 Syria deployment said F-22s from the 94th Fighter Squadron completed 590 individual flights, logged 4,600 flight hours, dropped 4,250 pounds of ordnance, and deterred 587 Syrian, Iranian, and Russian aircraft, according to Pentagon statements reported by Air Force Times: https://www.airforcetimes.com/news/your-air-force/2018/11/06/f-22-stealth-jets-got-587-aircraft-to-back-off-in-their-combat-surge-over-syria/
+
+Impact assessment: verified as a U.S.-reported deterrence and protection role, but the exact psychological effect on opposing pilots cannot be independently measured from public sources.
+
+### Conflict: War in Afghanistan
+
+In November 2017, F-22s conducted their first airstrikes in Afghanistan during Operation Jagged Knife against Taliban drug-production facilities. Air Force Times reported that commanders selected the F-22 mainly because it could carry Small Diameter Bombs and help mitigate collateral damage: https://www.airforcetimes.com/flashpoints/2017/11/20/f-22s-conduct-first-airstrikes-in-afghanistan/
+
+Impact assessment: verified operational use, but not a war-changing air-superiority event.
+
+## 5. Comparisons People Commonly Make
+
+| Compared Aircraft | Why They Are Compared | Common Public View | Notes |
+| --- | --- | --- | --- |
+| F-35 Lightning II | Same stealth generation, same manufacturer, different mission balance | F-22 is usually viewed as the purer air-superiority fighter; F-35 is viewed as the exportable multirole fleet aircraft | GAO states the F-35 complements but does not replace the F-22 for high-end air superiority: https://www.gao.gov/products/gao-18-190 |
+| Su-57 | Public "fifth-generation rival" debate | Fans often treat F-22 as more mature and stealth-focused; pro-Russian commentary disputes that | Public comparisons often include speculative radar-cross-section claims and should be handled cautiously. |
+| YF-23 | ATF competition rival | YF-23 fans argue it may have had superior speed/stealth; F-22 supporters point to the actual USAF selection and maneuverability | The museum records the 1991 Lockheed win over the competing design: https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196040/lockheed-martin-f-22a-raptor/ |
+| F-15 Eagle | Predecessor air-superiority icon | F-22 is seen as the stealth successor; F-15 is seen as cheaper, more numerous, and combat-proven | The F-22 replaced F-15C roles in several active-duty units but did not fully replace the Eagle fleet. |
+
+## 6. Supporters vs Critics
+
+### Supporters usually say:
+
+* It remains the most respected dedicated air-superiority fighter in U.S. service.
+* Its combination of stealth, supercruise, sensors, and maneuverability gives it unique deterrent value.
+* The small fleet makes each aircraft strategically important, not irrelevant.
+* Public airshow displays and exercise results reinforce its elite reputation.
+
+### Critics usually say:
+
+* It was too expensive to buy in useful numbers.
+* It entered service during wars where its main air-superiority mission was not urgently needed.
+* Maintenance and stealth-coating work reduce availability.
+* Oxygen-system incidents and early technical problems undermined confidence.
+
+Backed claims: cost, small fleet, maintenance burden, and training/availability limits are supported by USAF, GAO, and defense reporting. Claims that the F-22 is unbeatable or obsolete are usually opinion unless tied to specific, sourced operational context.
+
+## 7. Myths, Memes, and Exaggerations
+
+| Claim | Public Source Type | Accuracy |
+| --- | --- | --- |
+| "The F-22 is invisible." | Fan posts, casual media, video comments | Exaggerated. It is low-observable, not literally invisible. |
+| "It has never done anything except shoot balloons." | Meme/social-media claim after 2023 | False. It had combat air-to-ground and deterrence missions in Syria and Afghanistan before the 2023 shootdowns. |
+| "It is too expensive to risk in real wars." | Cost-focused commentary | Partly opinion. Cost and fleet size matter, but public reporting confirms operational deployments and combat use. |
+| "No aircraft can match it." | Official-style and fan rhetoric | Unverifiable as an absolute claim; useful only as a perception marker. |
+
+## 8. Unofficial Incidents and Stories
+
+* 2011 fleet grounding: the F-22 fleet was grounded after oxygen-system malfunction reports. Wired framed the grounding as a major reputational setback for a fighter marketed as the world's most fearsome dogfighter: https://www.wired.com/2011/05/stealth-fighter-fleet-grounded-by-oxygen-woes/
+* 2012 pilot-safety restrictions: Defense Secretary Leon Panetta ordered restrictions and faster backup-oxygen installation after continuing hypoxia concerns: https://www.wired.com/2012/05/panetta-f-22/
+* February 4, 2023, South Carolina coast: an F-22 from the 1st Fighter Wing fired an AIM-9X at a Chinese high-altitude surveillance balloon from 58,000 feet, with the balloon between 60,000 and 65,000 feet: https://www.defense.gov/News/News-Stories/Article/Article/3288543/f-22-safely-shoots-down-chinese-spy-balloon-off-south-carolina-coast/
+
+## 9. How Opponents Perceived It
+
+Public sources rarely provide direct opposing-pilot testimony about the F-22. The best public evidence is indirect: Air Force Times reported Pentagon claims that F-22s deterred 587 Syrian, Iranian, and Russian aircraft during the 2018 Syria combat surge. That supports a cautious statement that opposing forces adjusted behavior around U.S. stealth-fighter presence, but not that they were personally afraid or that the F-22 alone controlled the battlespace: https://www.airforcetimes.com/news/your-air-force/2018/11/06/f-22-stealth-jets-got-587-aircraft-to-back-off-in-their-combat-surge-over-syria/
+
+## 10. Overall Reputation Summary
+
+Officially, the F-22 is known as the U.S. Air Force's premier stealth air-dominance fighter. Unofficially, it is known as a spectacular but scarce "apex predator" aircraft: admired for stealth, supercruise, sensors, and airshow performance, criticized for cost, sustainment burden, limited production, and early oxygen-system issues. Fans exaggerate its invincibility; critics exaggerate its irrelevance. A neutral Milipedia page should describe the Raptor as an elite but constrained air-superiority aircraft whose public reputation is shaped as much by scarcity, cost, and spectacle as by combat record.
+
+## Useful for Milipedia
+
+* Add a Public Perception section that separates confirmed facts from fan reputation and memes.
+* Mention the "elite but scarce" reputation, the cost controversy, oxygen-system controversy, airshow visibility, and 2023 balloon-shootdown meme cycle.
+* Use DOD and Air Force sources for verified events, GAO for availability/training limits, and Wired/Air Force Times for public controversy and operational reporting.
+* Avoid claims that the F-22 is literally invisible, unbeatable, or obsolete.

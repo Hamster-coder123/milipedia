@@ -6940,67 +6940,55 @@
   {
     "id": "f-22-raptor",
     "name": "Lockheed Martin F-22 Raptor",
-    "alternative_names": [],
+    "alternative_names": [
+      "F-22A Raptor",
+      "Raptor"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
     "manufacturer": "Lockheed Martin / Boeing",
-    "role": "Stealth air superiority fighter",
+    "role": "Stealth air-dominance and multirole fighter",
     "aircraft_type": "Fighter",
-    "era": "Modern",
-    "first_flight": "1997",
-    "introduction_date": "2005",
+    "era": "Fifth-generation jet fighter",
+    "first_flight": "7 September 1997",
+    "introduction_date": "December 2005",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "1",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
-    "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Lockheed Martin F-22 Raptor: Stealth air superiority fighter. Manufacturer: Lockheed Martin / Boeing. First flight: 1997. Introduction: 2005.",
-    "short_summary": "Lockheed Martin F-22 Raptor: Stealth air superiority fighter. Origin: United States. Manufacturer: Lockheed Martin / Boeing. First flight: 1997. Introduction: 2005. Status: Active.",
+    "status": "Active with the U.S. Air Force",
+    "number_built": "183 total force inventory listed by USAF as of August 2022",
+    "crew": "1 pilot",
+    "engine_type": "Turbofan jet",
+    "engines": "Two Pratt & Whitney F119-PW-100 afterburning turbofans with two-dimensional thrust-vectoring nozzles",
+    "max_speed": "Mach 2 class; supercruise greater than Mach 1.5 without afterburner",
+    "speed_category": "Supersonic / supercruise",
+    "range": "More than 1,850 miles ferry range with two external wing fuel tanks (1,600 nautical miles)",
+    "combat_range": "Not publicly stated in the USAF fact sheet; mission radius varies by loadout and tanker support",
+    "service_ceiling": "Above 50,000 feet (15 kilometers)",
+    "rate_of_climb": "Not listed in cited public USAF fact sheet",
+    "armament": "One M61A2 20 mm cannon; internal AIM-120 AMRAAM and AIM-9 Sidewinder carriage; GBU-32 JDAM or Small Diameter Bomb air-to-ground loads depending on configuration",
+    "hardpoints": "Internal weapon bays plus two external wing fuel tanks when low observability is not the priority",
+    "variants": [
+      "YF-22 Advanced Tactical Fighter demonstrator",
+      "F-22A production air-dominance fighter",
+      "F/A-22 temporary designation used before the F-22A name returned in December 2005",
+      "Modernized F-22A configurations with incremental avionics and weapons updates"
+    ],
+    "operators": [
+      "United States Air Force"
+    ],
+    "combat_history": "Operation Inherent Resolve over Syria and Iraq; Operation Jagged Knife strikes in Afghanistan; 2023 North American high-altitude balloon/object shootdowns.",
+    "development_history": "The F-22 originated in the Advanced Tactical Fighter program. Demonstrator flights began in 1990, Lockheed/Boeing and Pratt & Whitney entered engineering and manufacturing development in 1991, the first EMD aircraft flew in 1997, low-rate initial production began in 2001, and full-rate production was approved in 2005.",
+    "short_summary": "The Lockheed Martin F-22 Raptor is a U.S. fifth-generation stealth air-dominance fighter built by Lockheed Martin and Boeing for the U.S. Air Force. It combines low-observable shaping, supercruise, thrust vectoring, sensor fusion, and internal weapons carriage for air-to-air dominance while retaining limited precision air-to-ground capability.",
     "carrier_capable": false,
     "stealth": true,
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/F-22_Raptor_edit1_%28cropped%29.jpg/330px-F-22_Raptor_edit1_%28cropped%29.jpg",
-        "caption": "Lockheed Martin F-22 Raptor",
-        "credit": "Wikimedia/Wikipedia thumbnail source",
-        "license": "Verify original file license before reuse."
+        "url": "https://media.defense.gov/2021/Sep/29/2002864176/-1/-1/0/190709-F-VA182-9003.JPG",
+        "caption": "F-22 Raptor Demonstration Team aircraft in flight near a KC-135 over Spokane, Washington, 20 June 2019.",
+        "credit": "U.S. Air Force photo by 2nd Lt. Samuel Eckholm",
+        "license": "U.S. government public-domain image via the U.S. Air Force fact sheet."
       }
     ],
-    "sources": [
-      {
-        "id": "fn-main",
-        "title": "Lockheed Martin F-22 Raptor",
-        "url": "https://en.wikipedia.org/wiki/Lockheed_Martin_F-22_Raptor",
-        "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
-      },
-      {
-        "id": "fn-method",
-        "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
-        "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      }
-    ],
+    "sources": [],
     "country_flags": [
       {
         "label": "United States",
@@ -7008,48 +6996,58 @@
       }
     ],
     "designers": [
-      "Lockheed Martin / Boeing"
+      "Lockheed Martin",
+      "Boeing",
+      "Pratt & Whitney"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "Low-observable shaping and internal systems integration increased the importance of sensors, materials, heat management, and maintenance discipline.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "The aircraft had to combine low observability, supercruise, high agility, and sensor fusion without sacrificing range or maintainability.",
+      "Internal weapons carriage and stealth shaping limited external stores unless low-observable performance was less important for the mission.",
+      "The small fleet size increased pressure on sustainment, depot throughput, training hours, and modernization choices."
     ],
     "wars_used_in": [
       {
-        "name": "Syrian civil war",
-        "note": "Lockheed Martin F-22 Raptor used in Syrian civil war."
+        "name": "Operation Inherent Resolve",
+        "note": "F-22s flew combat air patrol, escort, strike, and deterrence missions over Syria and Iraq."
+      },
+      {
+        "name": "War in Afghanistan",
+        "note": "F-22s conducted precision strikes during Operation Jagged Knife in November 2017."
+      },
+      {
+        "name": "North American air-defense operations",
+        "note": "F-22s shot down the Chinese high-altitude surveillance balloon and later high-altitude objects in February 2023."
       }
     ],
     "variant_families": [
-      "Lockheed Martin F-22 Raptor baseline production model",
-      "Lockheed Martin F-22 Raptor upgraded avionics or weapons-capable model",
-      "Lockheed Martin F-22 Raptor export or locally modernized model"
+      "YF-22 demonstrator",
+      "F-22A production fighter",
+      "Incrementally modernized F-22A fleet aircraft"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Lockheed Martin F-22 Raptor has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The F-22 is operated by the U.S. Air Force only; export was not pursued and public operator records list no foreign military users.",
+      "all_operators_status": "Current national military operator: United States Air Force."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "Lt. Col. James Hecker delivered the first operational F-22A to Langley Air Force Base on 12 May 2005 according to USAF image-caption records.",
+        "Capt. Samuel Larson commanded and flew the F-22 Demonstration Team aircraft photographed during the 9 December 2022 certification flight cited by DOD."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "2011: fleet grounding and oxygen-system concern reporting damaged public confidence in the program.",
+        "4 February 2023: an F-22 from the 1st Fighter Wing fired an AIM-9X at the Chinese high-altitude surveillance balloon off South Carolina."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Lockheed Martin F-22 Raptor uses jet propulsion."
+      "type": "Afterburning turbofan",
+      "summary": "Two Pratt & Whitney F119-PW-100 engines with two-dimensional thrust-vectoring nozzles; USAF lists each engine in the 35,000-pound thrust class."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Air-to-air loadout: six AIM-120 AMRAAMs and two AIM-9 Sidewinders internally. Air-to-ground loadout: two 1,000-pound GBU-32 JDAMs or later Small Diameter Bomb capability with defensive air-to-air missiles, depending on configuration.",
+      "caution": "External tanks or stores can be used when stealth is less important, but the Raptor was designed around internal carriage for low observability."
     },
     "similar_development": [
       {
@@ -7058,48 +7056,102 @@
         "url": "aircraft.html?id=f-15-eagle"
       },
       {
+        "id": "f-35-lightning-ii",
+        "name": "Lockheed Martin F-35 Lightning II",
+        "url": "aircraft.html?id=f-35-lightning-ii"
+      },
+      {
         "id": "f-16-fighting-falcon",
         "name": "General Dynamics F-16 Fighting Falcon",
         "url": "aircraft.html?id=f-16-fighting-falcon"
       },
       {
-        "id": "f-a-18-hornet",
-        "name": "McDonnell Douglas F/A-18 Hornet",
-        "url": "aircraft.html?id=f-a-18-hornet"
+        "id": "su-57",
+        "name": "Sukhoi Su-57",
+        "url": "aircraft.html?id=su-57"
       },
       {
-        "id": "f-a-18e-f-super-hornet",
-        "name": "Boeing F/A-18E/F Super Hornet",
-        "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+        "id": "eurofighter-typhoon",
+        "name": "Eurofighter Typhoon",
+        "url": "aircraft.html?id=eurofighter-typhoon"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 70,
+      "operator_entries": 1,
+      "variant_entries": 4,
+      "external_article_sources": 10
     },
     "footnotes": [
       {
-        "id": "fn-main",
-        "title": "Lockheed Martin F-22 Raptor",
-        "url": "https://en.wikipedia.org/wiki/Lockheed_Martin_F-22_Raptor",
-        "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "id": "fn-usaf-fact",
+        "title": "F-22 Raptor",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104506/f-22-raptor/",
+        "publisher": "U.S. Air Force",
+        "note": "Used for mission, features, ATF background, engine, dimensions, weapons, IOC, unit cost, and inventory fields."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "id": "fn-museum",
+        "title": "Lockheed Martin F-22A Raptor",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196040/lockheed-martin-f-22a-raptor/",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Used for air-dominance context, ATF selection, operational delivery, Operation Noble Eagle, and exercise reputation."
       },
       {
-        "id": "fn-method",
-        "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
-        "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "id": "fn-gao-2018",
+        "title": "F-22 Modernization: Program Faces Cost, Technical, and Sustainment Risks",
+        "url": "https://www.gao.gov/products/gao-18-190",
+        "publisher": "U.S. Government Accountability Office",
+        "note": "Used for modernization risk, sustainment pressure, F-35 relationship, and fleet-training limitations."
+      },
+      {
+        "id": "fn-syria-2018",
+        "title": "F-22 stealth jets got 587 aircraft to back off in their combat surge over Syria",
+        "url": "https://www.airforcetimes.com/news/your-air-force/2018/11/06/f-22-stealth-jets-got-587-aircraft-to-back-off-in-their-combat-surge-over-syria/",
+        "publisher": "Air Force Times",
+        "note": "Used for the 2018 Syria combat surge, sortie count, flight hours, ordnance, and deterrence claims attributed to Pentagon statements."
+      },
+      {
+        "id": "fn-afghanistan-2017",
+        "title": "F-22s conduct first airstrikes in Afghanistan",
+        "url": "https://www.airforcetimes.com/flashpoints/2017/11/20/f-22s-conduct-first-airstrikes-in-afghanistan/",
+        "publisher": "Air Force Times",
+        "note": "Used for Operation Jagged Knife and the first F-22 Afghanistan strike context."
+      },
+      {
+        "id": "fn-dod-balloon",
+        "title": "F-22 Safely Shoots Down Chinese Spy Balloon Off South Carolina Coast",
+        "url": "https://www.defense.gov/News/News-Stories/Article/Article/3288543/f-22-safely-shoots-down-chinese-spy-balloon-off-south-carolina-coast/",
+        "publisher": "U.S. Department of Defense",
+        "note": "Used for the 4 February 2023 Chinese surveillance balloon shootdown, unit, weapon, altitude, and support aircraft."
+      },
+      {
+        "id": "fn-wired-grounding",
+        "title": "Stealth Fighter Fleet Grounded by Oxygen Woes",
+        "url": "https://www.wired.com/2011/05/stealth-fighter-fleet-grounded-by-oxygen-woes/",
+        "publisher": "Wired",
+        "note": "Used for public controversy over oxygen-system concerns and the 2011 fleet grounding."
+      },
+      {
+        "id": "fn-wired-cost",
+        "title": "How Much Does an F-22 Actually Cost?",
+        "url": "https://www.wired.com/2011/12/f-22-real-cost/",
+        "publisher": "Wired",
+        "note": "Used for public debate about F-22 program cost, unit-cost framing, and value criticism."
+      },
+      {
+        "id": "fn-demo-team",
+        "title": "F-22 Raptor Demonstration Team",
+        "url": "https://www.jble.af.mil/About-Us/Units/Langley-AFB/F-22-Demo-Team/",
+        "publisher": "Joint Base Langley-Eustis",
+        "note": "Used for public outreach, demonstration-team role, and airshow reputation."
+      },
+      {
+        "id": "fn-public-perception-f22",
+        "title": "Public Perception Research: Lockheed Martin F-22 Raptor",
+        "url": "AIRCRAFT PUBLIC PERCEPTION/F22.txt",
+        "publisher": "Milipedia local research file",
+        "note": "Local aircraft public-perception research file created for this automation run."
       }
     ],
     "external_articles": [],
@@ -7109,194 +7161,212 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Lockheed Martin F-22 Raptor is a Stealth air superiority fighter from United States. Manufacturer: Lockheed Martin / Boeing. First flight: 1997. Introduction: 2005. Status: Active.",
+            "text": "The Lockheed Martin F-22 Raptor is a U.S. Air Force fifth-generation stealth fighter built for air dominance. The Air Force describes its core identity as the combination of stealth, supercruise, maneuverability, integrated avionics, and improved supportability, giving it both air-to-air and air-to-ground mission utility.",
             "refs": [
-              "fn-main"
+              "fn-usaf-fact"
             ]
           },
           {
-            "text": "Lockheed Martin F-22 Raptor is a fighter. Primary role: stealth air superiority fighter. Country of origin: United States. Manufacturer: Lockheed Martin / Boeing.",
+            "text": "The aircraft was designed to project air dominance rapidly and at great distances against threats attempting to deny U.S. access. Its low-observable shape, internal weapons carriage, sensor fusion, and thrust-vectoring performance made it the Air Force successor to earlier fourth-generation air-superiority aircraft rather than a direct export fighter.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf-fact",
+              "fn-museum"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Operationally, the F-22 has been used for homeland air defense, deterrence and escort missions over Syria, precision strikes in Afghanistan, and high-altitude intercepts over North America. Its public reputation is unusually split between technical admiration and criticism of cost, fleet size, and sustainment burden.",
             "refs": [
-              "fn-method"
+              "fn-syria-2018",
+              "fn-afghanistan-2017",
+              "fn-dod-balloon",
+              "fn-public-perception-f22"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Stealth air superiority fighter"
+            "text": "Stealth air-dominance fighter with multirole capability"
           },
           {
-            "title": "Designer or builder",
-            "text": "Lockheed Martin / Boeing"
+            "title": "Original customer",
+            "text": "United States Air Force"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Core technologies",
+            "text": "Low observability, supercruise, integrated avionics, thrust vectoring"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Current status",
+            "text": "Active U.S. Air Force service"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Lockheed Martin F-22 Raptor first flew in 1997. Introduction date: 2005. Era: Modern.",
+            "text": "Background: the F-22 emerged from the Advanced Tactical Fighter program, which entered demonstration and validation in 1986. The YF-22 and YF-23 demonstrators flew in late 1990, and the Air Force selected the YF-22 team for engineering and manufacturing development in 1991.",
             "refs": [
-              "fn-main"
+              "fn-usaf-fact",
+              "fn-museum"
             ]
           },
           {
-            "text": "Producer: Lockheed Martin / Boeing. Development context: stealth air superiority fighter, jet propulsion, supersonic speed category, Modern era.",
+            "text": "Design and testing: Lockheed and Boeing led the airframe effort while Pratt & Whitney provided the F119 engine. The first engineering and manufacturing development F-22 flew in 1997, and the EMD program used nine aircraft at Edwards Air Force Base for subsystem, flight, and live-fire testing.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf-fact"
+            ]
+          },
+          {
+            "text": "Production: the program entered low-rate initial production in 2001, completed operational test and evaluation in 2004, and received full-rate production approval in 2005. The aircraft was briefly designated F/A-22 before reverting to F-22A in December 2005.",
+            "refs": [
+              "fn-usaf-fact"
+            ]
+          },
+          {
+            "text": "Upgrades: GAO reported that modernization work faced cost, technical, and sustainment risks because the F-22 fleet is small, high demand limits aircraft availability for testing and training, and the F-35 complements rather than replaces the Raptor in high-end air-superiority missions.",
+            "refs": [
+              "fn-gao-2018"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "ATF demonstration and validation phase began in 1986.",
             "refs": [
-              "fn-method"
+              "fn-usaf-fact"
             ]
           },
           {
-            "text": "Low-observable shaping and internal systems integration increased the importance of sensors, materials, heat management, and maintenance discipline.",
+            "text": "YF-22 and YF-23 demonstrators both flew in late 1990.",
             "refs": [
-              "fn-method"
+              "fn-usaf-fact"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "Lockheed/Boeing and Pratt & Whitney development contracts began in 1991.",
             "refs": [
-              "fn-method"
+              "fn-usaf-fact"
+            ]
+          },
+          {
+            "text": "Initial operating capability was reached in December 2005.",
+            "refs": [
+              "fn-usaf-fact"
             ]
           }
         ]
       },
       {
         "id": "design",
-        "title": "Design and Capabilities",
+        "title": "Design",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "Airframe: the F-22 uses low-observable shaping, internal weapon bays, a blended wing-body layout, and twin canted tails to reduce detectability while preserving fighter maneuverability. The design prioritizes stealth in normal combat configuration, with external tanks used when range or ferry requirements outweigh low observability.",
             "refs": [
-              "fn-main"
+              "fn-usaf-fact"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: yes.",
+            "text": "Cockpit and sensors: the Air Force emphasizes integrated avionics, sensor fusion, and cockpit design that improve pilot situational awareness. The intended tactical effect is to let the pilot identify and engage threats before being detected.",
             "refs": [
-              "fn-method"
+              "fn-usaf-fact"
             ]
           },
           {
-            "text": "Lockheed Martin F-22 Raptor uses jet propulsion. Engine model field: Not listed.",
+            "text": "Engine: two Pratt & Whitney F119-PW-100 afterburning turbofans with two-dimensional thrust-vectoring nozzles provide the thrust and control authority needed for supercruise and high-angle maneuvering. USAF lists the engines in the 35,000-pound thrust class.",
             "refs": [
-              "fn-main"
+              "fn-usaf-fact"
             ]
           },
           {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
+            "text": "Weapons systems: an air-to-air loadout carries six AIM-120 AMRAAMs and two AIM-9 Sidewinders internally. Air-to-ground carriage includes two 1,000-pound GBU-32 JDAMs, and later enhancement paths added Small Diameter Bomb capability.",
             "refs": [
-              "fn-main"
+              "fn-usaf-fact",
+              "fn-afghanistan-2017"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "1"
+            "text": "One pilot"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Powerplant",
+            "text": "Two Pratt & Whitney F119-PW-100 turbofans"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Stealth feature",
+            "text": "Internal weapons carriage and low-observable shaping"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "Yes"
+            "title": "Maneuvering feature",
+            "text": "Two-dimensional thrust-vectoring nozzles"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Lockheed Martin F-22 Raptor status: Active. Conflict entries: 1.",
+            "text": "The following public specifications describe the F-22A as listed in the U.S. Air Force fact sheet. The combat radius is not stated in that source and should not be filled with unsourced estimates.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: Syrian civil war.",
-            "refs": [
-              "fn-method"
+              "fn-usaf-fact"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Syrian civil war: Lockheed Martin F-22 Raptor used in Syrian civil war.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Lockheed Martin F-22 Raptor named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Crew",
+            "text": "1 pilot"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "62 ft 1 in (18.9 m)"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Wingspan",
+            "text": "44 ft 6 in (13.6 m)"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Height",
+            "text": "16 ft 8 in (5.1 m)"
+          },
+          {
+            "title": "Empty weight",
+            "text": "43,340 lb (19,700 kg)"
+          },
+          {
+            "title": "Maximum takeoff weight",
+            "text": "83,500 lb (38,000 kg)"
+          },
+          {
+            "title": "Fuel capacity",
+            "text": "18,000 lb internal; 26,000 lb with two external wing tanks"
+          },
+          {
+            "title": "Powerplant",
+            "text": "2 x Pratt & Whitney F119-PW-100 afterburning turbofans"
+          },
+          {
+            "title": "Speed",
+            "text": "Mach 2 class; supercruise greater than Mach 1.5"
+          },
+          {
+            "title": "Ferry range",
+            "text": "More than 1,850 miles with two external wing tanks"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "Above 50,000 ft (15 km)"
+          },
+          {
+            "title": "Armament",
+            "text": "M61A2 cannon, AIM-120, AIM-9, GBU-32 JDAM, Small Diameter Bomb capability"
           }
         ]
       },
@@ -7305,35 +7375,36 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Lockheed Martin F-22 Raptor variant-family entries: 3. Variant families: Lockheed Martin F-22 Raptor baseline production model; Lockheed Martin F-22 Raptor upgraded avionics or weapons-capable model; Lockheed Martin F-22 Raptor export or locally modernized model.",
+            "text": "The F-22 family is compact compared with export fighters because the type was operated only by the United States and did not generate foreign customer variants. Public variant history is therefore centered on the ATF demonstrator, the production F-22A, the temporary F/A-22 designation, and incremental modernization standards.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-usaf-fact",
+              "fn-museum"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Lockheed Martin F-22 Raptor baseline production model",
+            "text": "YF-22: Advanced Tactical Fighter demonstrator that competed against the YF-23 and led to the Lockheed/Boeing selection.",
             "refs": [
-              "fn-main"
+              "fn-usaf-fact"
             ]
           },
           {
-            "text": "Lockheed Martin F-22 Raptor upgraded avionics or weapons-capable model",
+            "text": "F-22A: production air-dominance fighter used by the U.S. Air Force.",
             "refs": [
-              "fn-main"
+              "fn-usaf-fact"
             ]
           },
           {
-            "text": "Lockheed Martin F-22 Raptor export or locally modernized model",
+            "text": "F/A-22: temporary designation used before the aircraft was renamed F-22A in December 2005.",
             "refs": [
-              "fn-main"
+              "fn-usaf-fact"
+            ]
+          },
+          {
+            "text": "Modernized F-22A fleet aircraft: incremental avionics, weapons, and sustainment updates managed under modernization programs described by GAO as technically and logistically demanding.",
+            "refs": [
+              "fn-gao-2018"
             ]
           }
         ]
@@ -7343,59 +7414,384 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Lockheed Martin F-22 Raptor has 1 designer or builder country entry.",
+            "text": "Current national military operator: the United States Air Force is the only listed military operator. USAF lists Air Education and Training Command, Air Combat Command, and Pacific Air Forces as primary Air Force organizations flying the F-22.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf-fact"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Former national military operators: none publicly listed. The F-22 was not exported, and this page does not list proposed foreign sales as operators.",
             "refs": [
-              "fn-method"
+              "fn-usaf-fact"
+            ]
+          },
+          {
+            "text": "Private, civilian, test, or adversary-air operators: none. Test and demonstration aircraft remain tied to U.S. Air Force, manufacturer, or official program activity rather than private contract aggressor service.",
+            "refs": [
+              "fn-usaf-fact",
+              "fn-demo-team"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "United States Air Force: active operator, 183 total force inventory listed by USAF as of August 2022.",
             "refs": [
-              "fn-main"
+              "fn-usaf-fact"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "F-22 Demonstration Team: official U.S. Air Force public demonstration unit based at Joint Base Langley-Eustis.",
             "refs": [
-              "fn-wikidata"
+              "fn-demo-team"
+            ]
+          },
+          {
+            "text": "No foreign military operators are listed in the cited public USAF record.",
+            "refs": [
+              "fn-usaf-fact"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Supersonic, first flight 1997, introduction 2005.",
+            "text": "Initial service and homeland defense: the first operational F-22A reached Langley Air Force Base on 12 May 2005, and the type reached initial operating capability in December 2005. The National Museum records early Operation Noble Eagle homeland-defense alert duties after service entry.",
             "refs": [
-              "fn-main"
+              "fn-usaf-fact",
+              "fn-museum"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Operation Inherent Resolve: F-22s entered combat over Syria and later flew intensive 2018 surge operations. Air Force Times, citing Pentagon statements, reported 590 individual flights, 4,600 flight hours, 4,250 pounds of ordnance dropped, and 587 Syrian, Iranian, and Russian aircraft deterred during that deployment.",
             "refs": [
-              "fn-method"
+              "fn-syria-2018"
+            ]
+          },
+          {
+            "text": "Afghanistan: in November 2017, F-22s conducted their first Afghanistan strikes during Operation Jagged Knife against Taliban drug-production facilities. Commanders selected the aircraft because it could deliver Small Diameter Bombs and reduce collateral-damage risk.",
+            "refs": [
+              "fn-afghanistan-2017"
+            ]
+          },
+          {
+            "text": "North American air defense: on 4 February 2023, an F-22 from the 1st Fighter Wing at Langley fired one AIM-9X Sidewinder at a Chinese high-altitude surveillance balloon off South Carolina. DOD said the aircraft fired from 58,000 feet while the balloon was between 60,000 and 65,000 feet.",
+            "refs": [
+              "fn-dod-balloon"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Exercise reputation: the National Museum cites a 108-to-zero simulated kill ratio for F-22 pilots at Exercise Northern Edge 2006.",
+            "refs": [
+              "fn-museum"
+            ]
+          },
+          {
+            "text": "Deterrence claims over Syria are U.S.-reported public figures and should not be read as independent opponent testimony.",
+            "refs": [
+              "fn-syria-2018",
+              "fn-public-perception-f22"
+            ]
+          },
+          {
+            "text": "The 2023 balloon shootdown became a major public-reputation event because it was a visible homeland-defense mission involving an elite stealth fighter.",
+            "refs": [
+              "fn-dod-balloon",
+              "fn-public-perception-f22"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "notable-events",
+        "title": "Notable Events",
         "paragraphs": [
           {
-            "text": "Lockheed Martin F-22 Raptor similar-development links: 4.",
+            "text": "These events summarize dated public milestones rather than a complete program chronology.",
             "refs": [
-              "fn-method"
+              "fn-usaf-fact",
+              "fn-museum",
+              "fn-dod-balloon"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "1986",
+            "text": "Advanced Tactical Fighter demonstration and validation phase began."
+          },
+          {
+            "title": "Late 1990",
+            "text": "YF-22 and YF-23 demonstrators completed first flights."
+          },
+          {
+            "title": "1991",
+            "text": "Lockheed/Boeing and Pratt & Whitney received development contracts after the YF-22 selection."
+          },
+          {
+            "title": "7 September 1997",
+            "text": "First F-22 engineering and manufacturing development flight."
+          },
+          {
+            "title": "2001",
+            "text": "Low-rate initial production approved."
+          },
+          {
+            "title": "12 May 2005",
+            "text": "First operational F-22A delivered to Langley Air Force Base."
+          },
+          {
+            "title": "December 2005",
+            "text": "Initial operating capability and F-22A designation restored after temporary F/A-22 naming."
+          },
+          {
+            "title": "2011",
+            "text": "Fleet grounding over oxygen-system concerns became a major public controversy."
+          },
+          {
+            "title": "November 2017",
+            "text": "First Afghanistan strikes during Operation Jagged Knife."
+          },
+          {
+            "title": "4 February 2023",
+            "text": "F-22 shot down Chinese high-altitude surveillance balloon off South Carolina."
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "The F-22 is most often compared with the F-15 Eagle as a predecessor, the F-35 Lightning II as a complementary fifth-generation aircraft, the YF-23 as its ATF rival, and aircraft such as the Su-57 in public fifth-generation fighter debate.",
+            "refs": [
+              "fn-usaf-fact",
+              "fn-gao-2018",
+              "fn-public-perception-f22"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "F-22 vs F-15 Eagle",
+            "text": "Both are U.S. air-superiority fighters; the F-22 adds stealth, supercruise, and sensor fusion, while the F-15 remains more numerous and historically combat-proven."
+          },
+          {
+            "title": "F-22 vs F-35 Lightning II",
+            "text": "Both are stealth aircraft, but GAO notes the F-35 complements rather than replaces the F-22 in high-end air-superiority missions."
+          },
+          {
+            "title": "F-22 vs YF-23",
+            "text": "The YF-23 was the ATF competitor; public debate often centers on speed and stealth impressions, but the F-22 was the aircraft selected for production."
+          },
+          {
+            "title": "F-22 vs Su-57",
+            "text": "Public debate treats them as fifth-generation rivals, but many claims are speculative and should avoid unsupported classified-performance assertions."
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The F-22 combines unusual strengths with clear force-structure limits. Its technical strengths are tied to the original ATF design; its limitations are tied mostly to cost, fleet size, sustainment, and mission-specialization tradeoffs.",
+            "refs": [
+              "fn-usaf-fact",
+              "fn-gao-2018",
+              "fn-public-perception-f22"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: low-observable design and internal weapons carriage improve survivability against radar-guided threats.",
+            "refs": [
+              "fn-usaf-fact"
+            ]
+          },
+          {
+            "text": "Strength: supercruise allows sustained supersonic flight without afterburner, extending tactical options compared with afterburner-dependent fighters.",
+            "refs": [
+              "fn-usaf-fact"
+            ]
+          },
+          {
+            "text": "Strength: integrated avionics and sensor fusion improve pilot situational awareness and first-shot opportunity.",
+            "refs": [
+              "fn-usaf-fact"
+            ]
+          },
+          {
+            "text": "Strength: thrust vectoring and high thrust-to-weight ratio support extreme maneuvering and public demonstration performance.",
+            "refs": [
+              "fn-usaf-fact",
+              "fn-demo-team"
+            ]
+          },
+          {
+            "text": "Limitation: small fleet size creates sustainment, training, and modernization pressure.",
+            "refs": [
+              "fn-gao-2018"
+            ]
+          },
+          {
+            "text": "Limitation: the aircraft was expensive, making cost a central public and political criticism.",
+            "refs": [
+              "fn-wired-cost"
+            ]
+          },
+          {
+            "text": "Limitation: external tanks or stores can reduce the low-observable advantages that define the aircraft.",
+            "refs": [
+              "fn-usaf-fact"
+            ]
+          },
+          {
+            "text": "Limitation: oxygen-system concerns and grounding coverage damaged public confidence during the early 2010s.",
+            "refs": [
+              "fn-wired-grounding"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "public-perception",
+        "title": "Public Perception",
+        "paragraphs": [
+          {
+            "text": "Unofficially, the F-22 is viewed as an elite but scarce air-superiority aircraft: a stealth-fighter icon admired by aviation fans for supercruise, thrust-vectoring maneuvers, and airshow presence, while criticized by skeptics for cost and limited production numbers.",
+            "refs": [
+              "fn-public-perception-f22",
+              "fn-demo-team",
+              "fn-wired-cost"
+            ]
+          },
+          {
+            "text": "The aircraft also carries reputational controversy. The 2011 oxygen-system grounding gave critics a concrete safety and reliability story, while GAO sustainment findings later reinforced public concerns about maintaining a small, specialized fleet.",
+            "refs": [
+              "fn-wired-grounding",
+              "fn-gao-2018",
+              "fn-public-perception-f22"
+            ]
+          },
+          {
+            "text": "After February 2023, the Chinese surveillance balloon shootdown gave the F-22 a new public image beyond airshows and exercises. The verified DOD event became a meme-heavy public discussion about using a premier stealth fighter and AIM-9X missile against a high-altitude balloon, but the operational fact should be kept separate from the jokes.",
+            "refs": [
+              "fn-dod-balloon",
+              "fn-public-perception-f22"
+            ]
+          },
+          {
+            "text": "Neutral summary: the F-22 should not be described as literally invisible, unbeatable, obsolete, or useless. Its reputation is best summarized as a technically formidable air-dominance fighter whose public story is shaped by scarcity, expense, spectacular demonstrations, sustainment constraints, and a few highly visible operational events.",
+            "refs": [
+              "fn-public-perception-f22"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "Major public milestones for the F-22 program and operational record are listed in chronological order.",
+            "refs": [
+              "fn-usaf-fact",
+              "fn-museum",
+              "fn-afghanistan-2017",
+              "fn-dod-balloon"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1986: Advanced Tactical Fighter demonstration and validation phase began.",
+            "refs": [
+              "fn-usaf-fact"
+            ]
+          },
+          {
+            "text": "Late 1990: YF-22 and YF-23 demonstrators flew.",
+            "refs": [
+              "fn-usaf-fact"
+            ]
+          },
+          {
+            "text": "1991: YF-22 selected; Lockheed/Boeing and Pratt & Whitney development contracts began.",
+            "refs": [
+              "fn-usaf-fact"
+            ]
+          },
+          {
+            "text": "7 September 1997: first F-22 EMD aircraft flight.",
+            "refs": [
+              "fn-usaf-fact"
+            ]
+          },
+          {
+            "text": "2001: low-rate initial production approved.",
+            "refs": [
+              "fn-usaf-fact"
+            ]
+          },
+          {
+            "text": "2004: operational test and evaluation completed.",
+            "refs": [
+              "fn-usaf-fact"
+            ]
+          },
+          {
+            "text": "12 May 2005: first operational F-22A delivered to Langley Air Force Base.",
+            "refs": [
+              "fn-usaf-fact"
+            ]
+          },
+          {
+            "text": "December 2005: initial operating capability; F-22A designation restored.",
+            "refs": [
+              "fn-usaf-fact"
+            ]
+          },
+          {
+            "text": "2006: Northern Edge exercise result became a major part of the aircraft reputation.",
+            "refs": [
+              "fn-museum"
+            ]
+          },
+          {
+            "text": "2011: oxygen-system grounding became a public controversy.",
+            "refs": [
+              "fn-wired-grounding"
+            ]
+          },
+          {
+            "text": "November 2017: F-22s conducted first Afghanistan strikes in Operation Jagged Knife.",
+            "refs": [
+              "fn-afghanistan-2017"
+            ]
+          },
+          {
+            "text": "4 February 2023: F-22 shot down the Chinese high-altitude surveillance balloon off South Carolina.",
+            "refs": [
+              "fn-dod-balloon"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related aircraft include predecessors, same-generation aircraft, and public comparison subjects.",
+            "refs": [
+              "fn-public-perception-f22"
             ]
           }
         ],
@@ -7405,25 +7801,42 @@
             "url": "aircraft.html?id=f-15-eagle"
           },
           {
+            "label": "Lockheed Martin F-35 Lightning II",
+            "url": "aircraft.html?id=f-35-lightning-ii"
+          },
+          {
             "label": "General Dynamics F-16 Fighting Falcon",
             "url": "aircraft.html?id=f-16-fighting-falcon"
           },
           {
-            "label": "McDonnell Douglas F/A-18 Hornet",
-            "url": "aircraft.html?id=f-a-18-hornet"
+            "label": "Sukhoi Su-57",
+            "url": "aircraft.html?id=su-57"
           },
           {
-            "label": "Boeing F/A-18E/F Super Hornet",
-            "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+            "label": "Eurofighter Typhoon",
+            "url": "aircraft.html?id=eurofighter-typhoon"
           }
         ]
       }
     ],
     "event_gallery": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Bombed_out_vehicles_Aleppo.jpg/960px-Bombed_out_vehicles_Aleppo.jpg",
-        "caption": "Syrian civil war",
-        "source_url": "https://en.wikipedia.org/wiki/Syrian_civil_war"
+        "url": "https://media.defense.gov/2021/Sep/17/2002856354/-1/-1/0/210911-Z-DY403-9158.JPG",
+        "caption": "Maj. Joshua Gunderson performs in an F-22 at the Thunder Over New Hampshire Air Show, Pease Air National Guard Base, 11 September 2021. U.S. Air National Guard photo by Tech. Sgt. Steven Tucker.",
+        "source_url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104506/f-22-raptor/",
+        "credit": "U.S. Air National Guard photo by Tech. Sgt. Steven Tucker"
+      },
+      {
+        "url": "https://media.defense.gov/2021/Sep/29/2002864175/-1/-1/0/180227-F-PP120-9003.JPG",
+        "caption": "F-22 assigned to the 3rd Wing flies over Joint Base Elmendorf-Richardson, Alaska, 27 February 2018. Photo by Jamal Wilson.",
+        "source_url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104506/f-22-raptor/",
+        "credit": "Photo by Jamal Wilson"
+      },
+      {
+        "url": "https://media.defense.gov/2023/Feb/04/2003155870/-1/-1/0/221209-F-DP387-1130A.JPG",
+        "caption": "Capt. Samuel Larson performs an F-22 Demonstration Team certification maneuver at Joint Base Langley-Eustis, Virginia, 9 December 2022. U.S. Air Force photo by Staff Sgt. Marcus M. Bullock.",
+        "source_url": "https://www.defense.gov/News/News-Stories/Article/Article/3288543/f-22-safely-shoots-down-chinese-spy-balloon-off-south-carolina-coast/",
+        "credit": "U.S. Air Force photo by Staff Sgt. Marcus M. Bullock"
       }
     ]
   },
