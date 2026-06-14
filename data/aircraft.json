@@ -46410,42 +46410,123 @@
   {
     "id": "mb-339",
     "name": "Aermacchi MB-339",
-    "alternative_names": [],
+    "alternative_names": [
+      "MB-339",
+      "MB-339A/PAN",
+      "T-339A in Italian service"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "Italy",
-    "manufacturer": "Aermacchi",
-    "role": "Jet trainer/light attack aircraft",
-    "aircraft_type": "Trainer",
-    "era": "Modern",
-    "first_flight": "1976",
+    "manufacturer": "Aermacchi; later Alenia Aermacchi / Leonardo lineage",
+    "role": "Advanced jet trainer and light attack aircraft",
+    "aircraft_type": "Trainer / light attack aircraft",
+    "era": "Cold War and modern",
+    "first_flight": "12 August 1976",
     "introduction_date": "1979",
-    "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "retirement_date": "Italian MB-339A trainer phase-out began with T-345A replacement; MB-339PAN remained in Frecce service pending replacement",
+    "status": "Limited active and display service; replaced in several training roles",
+    "number_built": "About 230 aircraft reported across MB-339 family sources",
+    "crew": "2 in tandem for training; single-pilot operation possible in some missions",
+    "engine_type": "Turbojet",
+    "engines": "1 x Rolls-Royce Viper 632-43 turbojet on MB-339A family; later variants used Viper 680-family engines",
+    "max_speed": "Subsonic; about 898 km/h / 558 mph at sea level for MB-339A/PAN references",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Trainer aircraft; light-attack stores not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Aermacchi MB-339: Jet trainer/light attack aircraft. Manufacturer: Aermacchi. First flight: 1976. Introduction: 1979.",
-    "short_summary": "Aermacchi MB-339: Jet trainer/light attack aircraft. Origin: Italy. Manufacturer: Aermacchi. First flight: 1976. Introduction: 1979. Status: Active.",
+    "range": "About 2,110 km / 1,311 mi ferry-range class in common MB-339A reference data",
+    "combat_range": "Mission and stores dependent; public sources vary widely, so no single combat radius is treated as universal",
+    "service_ceiling": "About 13,700 m / 45,000 ft class, variant dependent",
+    "rate_of_climb": "About 1,600-2,000 m/min class in common MB-339A reference data, variant dependent",
+    "armament": "Trainer fit normally unarmed; light-attack variants could carry gun pods, rockets, bombs, AIM-9-class missiles, AGM-65-class missiles, or other stores depending on variant and operator",
+    "hardpoints": "Six underwing hardpoints on combat-capable variants",
+    "variants": [
+      {
+        "name": "MB-339X",
+        "description": "Prototype aircraft used for development of the MB-339 family.",
+        "service_role": "Testing"
+      },
+      {
+        "name": "MB-339A",
+        "description": "Initial production trainer/light-attack model for Italy and export customers.",
+        "service_role": "Advanced training and light attack"
+      },
+      {
+        "name": "MB-339PAN",
+        "description": "Frecce Tricolori display version with aerobatic smoke equipment and display-specific changes.",
+        "service_role": "National aerobatic display"
+      },
+      {
+        "name": "MB-339RM",
+        "description": "Radio and radar calibration aircraft converted from the MB-339A family.",
+        "service_role": "Calibration and support"
+      },
+      {
+        "name": "MB-339AM / AN / AP",
+        "description": "Export A-family aircraft for Malaysia, Nigeria, and Peru.",
+        "service_role": "Training and light attack"
+      },
+      {
+        "name": "MB-339K Veltro II",
+        "description": "Single-seat dedicated attack demonstrator that first flew in 1980.",
+        "service_role": "Attack demonstrator"
+      },
+      {
+        "name": "MB-339C / CB / CD / CE / CM",
+        "description": "Updated family with more modern avionics and country-specific equipment, including New Zealand, Italian, Eritrean, and Malaysian versions.",
+        "service_role": "Lead-in training, weapons training, and export service"
+      },
+      {
+        "name": "MB-339 T-Bird II",
+        "description": "Lockheed-linked proposal for the U.S. Joint Primary Aircraft Training System competition.",
+        "service_role": "Unsuccessful trainer proposal"
+      }
+    ],
+    "operators": [
+      {
+        "country": "Italy",
+        "service": "Aeronautica Militare",
+        "status": "Principal historic operator; MB-339A/CD trainer roles replaced or being replaced by T-345A and M-346, with MB-339PAN continuing in Frecce service pending replacement."
+      },
+      {
+        "country": "Argentina",
+        "service": "Argentine Naval Aviation",
+        "status": "Former operator; ten MB-339A aircraft delivered and used during the 1982 Falklands War."
+      },
+      {
+        "country": "Malaysia",
+        "service": "Royal Malaysian Air Force",
+        "status": "Former or late-life operator of MB-339AM/CM training aircraft."
+      },
+      {
+        "country": "New Zealand",
+        "service": "Royal New Zealand Air Force",
+        "status": "Former operator of MB-339CB aircraft with No. 14 Squadron; aircraft later went to museums and private/adversary training use."
+      },
+      {
+        "country": "Eritrea",
+        "service": "Eritrean Air Force",
+        "status": "Operator of MB-339CE aircraft used during the Eritrean-Ethiopian War."
+      },
+      {
+        "country": "United Arab Emirates",
+        "service": "UAE Air Force / Al Fursan",
+        "status": "Operator of MB-339A/NAT aircraft in aerobatic display service."
+      },
+      {
+        "country": "Ghana, Nigeria, Peru, private adversary-training operators",
+        "service": "Various",
+        "status": "Former, stored, museum, or contracted training use depending on operator and date."
+      }
+    ],
+    "combat_history": "Combat use is best documented in Argentine Naval Aviation service during the 1982 Falklands War and Eritrean service during the Eritrean-Ethiopian War. Public claims about some Eritrean strike results remain source-sensitive and should be treated cautiously.",
+    "development_history": "Aermacchi developed the MB-339 in the 1970s as an economical replacement for the MB-326 and Fiat G.91T training roles. It retained much of the MB-326 lineage while adding a redesigned forward fuselage, improved instructor visibility, and later avionics/weapons-training variants.",
+    "short_summary": "The Aermacchi MB-339 is an Italian advanced jet trainer and light-attack aircraft introduced in 1979. It became internationally visible through the Frecce Tricolori aerobatic team, saw limited combat use in the Falklands and Eritrean-Ethiopian wars, and is now an aging but recognizable trainer family being replaced by newer Leonardo training aircraft.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/MB339_-_RIAT_2008_%282674540983%29.jpg/330px-MB339_-_RIAT_2008_%282674540983%29.jpg",
-        "caption": "Aermacchi MB-339",
-        "credit": "Wikimedia/Wikipedia thumbnail source",
-        "license": "Verify original file license before reuse."
+        "caption": "Aermacchi MB-339 at the Royal International Air Tattoo, 2008",
+        "credit": "Wikimedia Commons / RIAT 2008 image",
+        "license": "Wikimedia Commons source; verify original file page for full license terms."
       }
     ],
     "sources": [
@@ -46454,21 +46535,70 @@
         "title": "Aermacchi MB-339",
         "url": "https://en.wikipedia.org/wiki/Aermacchi_MB-339",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "note": "Background cross-check and source discovery only; not the main source for the expanded article."
+      },
+      {
+        "id": "fn-wired-ramstein",
+        "title": "Aug. 28, 1988: Ramstein Air Show Disaster Kills 70, Injures Hundreds",
+        "url": "https://www.wired.com/2009/08/0828ramstein-air-disaster/",
+        "publisher": "Wired",
+        "note": "Used for the Ramstein public-memory and accident summary involving Frecce Tricolori MB-339 aircraft."
+      },
+      {
+        "id": "fn-argonaut",
+        "title": "HMS Argonaut (F56)",
+        "url": "https://en.wikipedia.org/wiki/HMS_Argonaut_(F56)",
+        "publisher": "Wikipedia article with Falklands-source bibliography",
+        "note": "Used cautiously for the 21 May 1982 MB-339 attack on HMS Argonaut and the damage reported to the ship radar."
+      },
+      {
+        "id": "fn-syam",
+        "title": "South Yorkshire Aircraft Museum - Falklands Collection",
+        "url": "https://en.wikipedia.org/wiki/South_Yorkshire_Aircraft_Museum",
+        "publisher": "Wikipedia article reflecting museum collection/source notes",
+        "note": "Used for preserved Argentine MB-339 4-A-116 and captured-airframe context."
+      },
+      {
+        "id": "fn-rmaf-commons",
+        "title": "File:RMAF Aermacchi MB-339.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RMAF_Aermacchi_MB-339.jpg",
+        "publisher": "Wikimedia Commons",
+        "note": "Used for gallery image licensing, caption, date, and author information."
+      },
+      {
+        "id": "fn-ramstein-wiki",
+        "title": "Ramstein air show disaster",
+        "url": "https://en.wikipedia.org/wiki/Ramstein_air_show_disaster",
+        "publisher": "Wikipedia article with news and accident references",
+        "note": "Used as a secondary cross-check for date, aircraft type, and casualty context."
+      },
+      {
+        "id": "fn-frecce",
+        "title": "Frecce Tricolori",
+        "url": "https://en.wikipedia.org/wiki/Frecce_Tricolori",
+        "publisher": "Wikipedia article with official Aeronautica Militare references",
+        "note": "Used for Frecce Tricolori service dates, ten-aircraft display-team context, and MB-339A/PAN public identity."
+      },
+      {
+        "id": "fn-asn-turin",
+        "title": "ASN Wikibase Occurrence #345619",
+        "url": "https://aviation-safety.net/wikibase/345619",
+        "publisher": "Aviation Safety Network",
+        "note": "Used for the 16 September 2023 Turin-Caselle Frecce Tricolori MB-339 crash reference."
+      },
+      {
+        "id": "fn-public-perception",
+        "title": "Public Perception Research: Aermacchi MB-339",
+        "url": "AIRCRAFT%20PUBLIC%20PERCEPTION/MB339.txt",
+        "publisher": "Milipedia local research file",
+        "note": "Local public-perception research file created for this aircraft expansion."
       },
       {
         "id": "fn-wikidata",
         "title": "Wikidata Query Service",
         "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
-      },
-      {
-        "id": "fn-method",
-        "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
-        "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
+        "publisher": "Wikidata",
+        "note": "Structured-data background check for identifiers and relationships."
       }
     ],
     "country_flags": [
@@ -46483,9 +46613,11 @@
     "development_tensions": [],
     "wars_used_in": [],
     "variant_families": [
-      "Aermacchi MB-339 baseline production model",
-      "Aermacchi MB-339 upgraded avionics or weapons-capable model",
-      "Aermacchi MB-339 two-seat trainer or conversion model"
+      "MB-339X prototype",
+      "MB-339A trainer/light-attack family",
+      "MB-339PAN Frecce Tricolori display aircraft",
+      "MB-339C/CD/CB/CE/CM upgraded and export family",
+      "MB-339K Veltro II attack demonstrator"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
@@ -46505,12 +46637,12 @@
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Aermacchi MB-339 uses jet propulsion."
+      "type": "Turbojet",
+      "summary": "The MB-339 family uses a single Rolls-Royce Viper-family turbojet, with engine fit varying between early MB-339A and later C-family variants."
     },
     "armament_details": {
-      "summary": "Trainer aircraft; light-attack stores not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Training/display aircraft were normally unarmed, while combat-capable variants used six underwing hardpoints for gun pods, rockets, bombs, and selected guided weapons where cleared by the operator.",
+      "caution": "Weapon fits varied by variant and national clearance; do not generalize one export configuration to every MB-339."
     },
     "similar_development": [
       {
@@ -46535,10 +46667,10 @@
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 60,
+      "operator_entries": 7,
+      "variant_entries": 8,
+      "external_article_sources": 8
     },
     "footnotes": [
       {
@@ -46546,44 +46678,116 @@
         "title": "Aermacchi MB-339",
         "url": "https://en.wikipedia.org/wiki/Aermacchi_MB-339",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "note": "Background cross-check and source discovery only; not the main source for the expanded article."
+      },
+      {
+        "id": "fn-wired-ramstein",
+        "title": "Aug. 28, 1988: Ramstein Air Show Disaster Kills 70, Injures Hundreds",
+        "url": "https://www.wired.com/2009/08/0828ramstein-air-disaster/",
+        "publisher": "Wired",
+        "note": "Used for the Ramstein public-memory and accident summary involving Frecce Tricolori MB-339 aircraft."
+      },
+      {
+        "id": "fn-argonaut",
+        "title": "HMS Argonaut (F56)",
+        "url": "https://en.wikipedia.org/wiki/HMS_Argonaut_(F56)",
+        "publisher": "Wikipedia article with Falklands-source bibliography",
+        "note": "Used cautiously for the 21 May 1982 MB-339 attack on HMS Argonaut and the damage reported to the ship radar."
+      },
+      {
+        "id": "fn-syam",
+        "title": "South Yorkshire Aircraft Museum - Falklands Collection",
+        "url": "https://en.wikipedia.org/wiki/South_Yorkshire_Aircraft_Museum",
+        "publisher": "Wikipedia article reflecting museum collection/source notes",
+        "note": "Used for preserved Argentine MB-339 4-A-116 and captured-airframe context."
+      },
+      {
+        "id": "fn-rmaf-commons",
+        "title": "File:RMAF Aermacchi MB-339.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RMAF_Aermacchi_MB-339.jpg",
+        "publisher": "Wikimedia Commons",
+        "note": "Used for gallery image licensing, caption, date, and author information."
+      },
+      {
+        "id": "fn-ramstein-wiki",
+        "title": "Ramstein air show disaster",
+        "url": "https://en.wikipedia.org/wiki/Ramstein_air_show_disaster",
+        "publisher": "Wikipedia article with news and accident references",
+        "note": "Used as a secondary cross-check for date, aircraft type, and casualty context."
+      },
+      {
+        "id": "fn-frecce",
+        "title": "Frecce Tricolori",
+        "url": "https://en.wikipedia.org/wiki/Frecce_Tricolori",
+        "publisher": "Wikipedia article with official Aeronautica Militare references",
+        "note": "Used for Frecce Tricolori service dates, ten-aircraft display-team context, and MB-339A/PAN public identity."
+      },
+      {
+        "id": "fn-asn-turin",
+        "title": "ASN Wikibase Occurrence #345619",
+        "url": "https://aviation-safety.net/wikibase/345619",
+        "publisher": "Aviation Safety Network",
+        "note": "Used for the 16 September 2023 Turin-Caselle Frecce Tricolori MB-339 crash reference."
+      },
+      {
+        "id": "fn-public-perception",
+        "title": "Public Perception Research: Aermacchi MB-339",
+        "url": "AIRCRAFT%20PUBLIC%20PERCEPTION/MB339.txt",
+        "publisher": "Milipedia local research file",
+        "note": "Local public-perception research file created for this aircraft expansion."
       },
       {
         "id": "fn-wikidata",
         "title": "Wikidata Query Service",
         "url": "https://query.wikidata.org/",
         "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Structured-data background check for identifiers and relationships."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording, units, source handling, and cautious treatment of disputed claims."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "Ramstein Air Show Disaster Retrospective",
+        "url": "https://www.wired.com/2009/08/0828ramstein-air-disaster/"
+      },
+      {
+        "title": "Aviation Safety Network Turin-Caselle MB-339 Occurrence",
+        "url": "https://aviation-safety.net/wikibase/345619"
+      },
+      {
+        "title": "Wikimedia Commons RMAF MB-339 Image",
+        "url": "https://commons.wikimedia.org/wiki/File:RMAF_Aermacchi_MB-339.jpg"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Aermacchi MB-339 is a Jet trainer/light attack aircraft from Italy. Manufacturer: Aermacchi. First flight: 1976. Introduction: 1979. Status: Active.",
+            "text": "The Aermacchi MB-339 is an Italian advanced jet trainer and light-attack aircraft developed from the earlier MB-326 lineage. It first flew on 12 August 1976 and entered service in 1979, giving Italy a domestic jet trainer that could also be adapted for weapons training, light attack, calibration, and display flying.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Aermacchi MB-339 is a trainer. Primary role: jet trainer/light attack aircraft. Country of origin: Italy. Manufacturer: Aermacchi.",
+            "text": "The aircraft is best known publicly as the Frecce Tricolori display jet. In that role, the MB-339A/PAN gave the Italian national aerobatic team a highly recognizable blue, white, green, and red aircraft, but it also tied the type to the 1988 Ramstein disaster and later Frecce accident scrutiny.",
             "refs": [
-              "fn-wikidata"
+              "fn-frecce",
+              "fn-wired-ramstein",
+              "fn-asn-turin"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Operationally, the MB-339 was a modest but flexible trainer/light-attack platform. Argentine Naval Aviation used the type in the 1982 Falklands War, and Eritrea used MB-339CE aircraft during the Eritrean-Ethiopian War, although some wartime strike claims from that conflict remain difficult to verify from public sources.",
             "refs": [
+              "fn-argonaut",
               "fn-method"
             ]
           }
@@ -46591,145 +46795,145 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Jet trainer/light attack aircraft"
+            "text": "Advanced jet trainer and light attack"
           },
           {
-            "title": "Designer or builder",
-            "text": "Aermacchi"
+            "title": "First flight",
+            "text": "12 August 1976"
           },
           {
-            "title": "Major origin",
-            "text": "Italy"
+            "title": "Public identity",
+            "text": "Frecce Tricolori display aircraft"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Combat use",
+            "text": "Falklands War and Eritrean-Ethiopian War"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Aermacchi MB-339 first flew in 1976. Introduction date: 1979. Era: Modern.",
+            "text": "Aermacchi created the MB-339 as a lower-risk replacement for the MB-326 and Fiat G.91T training roles. Rather than a completely clean-sheet aircraft, it carried over much of the earlier MB-326 family logic while changing the forward fuselage and cockpit arrangement to improve instructor visibility.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Producer: Aermacchi. Development context: jet trainer/light attack aircraft, jet propulsion, subsonic speed category, Modern era.",
+            "text": "The MB-339X prototype led to the MB-339A production trainer and a family of export or specialist variants. Later aircraft added more modern avionics, weapons-training equipment, aerial-refueling-training provisions in some Italian CD aircraft, and country-specific systems for customers such as New Zealand, Eritrea, and Malaysia.",
             "refs": [
-              "fn-wikidata"
+              "fn-main"
+            ]
+          },
+          {
+            "text": "The type also had an unsuccessful U.S. training-aircraft bid in the T-Bird II proposal. In Italian service, the MB-339A and MB-339CD have gradually been overtaken by the T-345A and M-346 training system, while Frecce Tricolori replacement planning shifted toward the M-346.",
+            "refs": [
+              "fn-main",
+              "fn-frecce"
             ]
           }
         ],
-        "bullets": []
+        "bullets": [
+          {
+            "text": "Background: Italian need to replace aging MB-326 and Fiat G.91T trainers.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Testing: MB-339X prototypes established the revised trainer configuration before MB-339A production.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Production: approximately 230 family aircraft are reported in common open references, but counts vary by inclusion of conversions and prototypes.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Upgrades: MB-339C/CD/CB/CE/CM variants added digital avionics, weapons-training equipment, and customer-specific systems.",
+            "refs": [
+              "fn-main"
+            ]
+          }
+        ]
       },
       {
         "id": "design",
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 2. Propulsion: Jet. Speed category: Subsonic.",
+            "text": "The MB-339 is a compact all-metal, low-wing trainer with tricycle landing gear, a single turbojet, side intakes, and tandem seating. The rear instructor seat is raised compared with the student position to improve forward visibility, one of the most important practical changes from the MB-326 lineage.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "The MB-339A family used a Rolls-Royce Viper 632-43 turbojet, while later C-family export aircraft used more powerful Viper 680-family engines. The type is subsonic and was intended for training, weapons familiarization, and light-attack work rather than high-performance fighter duties.",
             "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Combat-capable variants could use six underwing hardpoints for bombs, rockets, gun pods, missiles, or training stores depending on customer fit. Public sources should not treat every weapon listed for one variant as available on every MB-339, because national avionics and clearance standards differed.",
+            "refs": [
+              "fn-main",
               "fn-method"
-            ]
-          },
-          {
-            "text": "Aermacchi MB-339 uses jet propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Trainer aircraft; light-attack stores not listed. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "2"
+            "title": "Airframe",
+            "text": "Low-wing, all-metal trainer derived from MB-326 lineage"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Cockpit",
+            "text": "Tandem seats with raised instructor position"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Engine",
+            "text": "Single Rolls-Royce Viper-family turbojet"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Weapons",
+            "text": "Six hardpoints on combat-capable variants"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Aermacchi MB-339 status: Active. Conflict entries: 0.",
+            "text": "Variant described: MB-339A-family public reference data. Dimensions, weights, and performance differ across MB-339A, PAN, C, CB, CD, CE, and CM aircraft, so these values should be read as common MB-339A-class figures rather than universal limits.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Crew: two in tandem. Length: about 10.97 m / 36 ft. Wingspan: about 10.86 to 11.22 m depending on source and tip-tank configuration. Height: about 3.99 m / 13 ft 1 in. Wing area: about 19.3 sq m / 208 sq ft.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Conflicts: 0 entries.",
+            "text": "Powerplant: one Rolls-Royce Viper 632-43 turbojet on MB-339A references. Maximum speed: about 898 km/h / 558 mph at sea level in MB-339A/PAN references. Ferry range: about 2,110 km / 1,311 mi class. Service ceiling: about 13,700 m / 45,000 ft class.",
             "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Aermacchi MB-339 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-main",
+              "fn-frecce"
             ]
           },
           {
-            "text": "Named individual aircraft listed: 0.",
+            "text": "Armament: normally unarmed in pure training/display use; light-attack and weapons-training variants could carry external stores on six hardpoints, including gun pods, rockets, bombs, and selected guided weapons where cleared by the operator.",
             "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
+              "fn-main",
               "fn-method"
             ]
           }
@@ -46740,33 +46944,48 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Aermacchi MB-339 variant-family entries: 3. Variant families: Aermacchi MB-339 baseline production model; Aermacchi MB-339 upgraded avionics or weapons-capable model; Aermacchi MB-339 two-seat trainer or conversion model.",
+            "text": "The MB-339 family began with the MB-339X prototypes and MB-339A production trainer. The MB-339PAN became the public-facing Frecce Tricolori version, with display modifications and smoke equipment replacing the ordinary trainer identity in the eyes of many airshow spectators.",
             "refs": [
-              "fn-main"
+              "fn-main",
+              "fn-frecce"
             ]
           },
           {
-            "text": "Complete variant entries listed: 0.",
+            "text": "Export and upgraded variants included the MB-339AM, AN, AP, CB, CE, CM, and CD families. These aircraft differed in engines, avionics, weapons-training equipment, and national requirements; the New Zealand MB-339CB, for example, is usually discussed as a weapons-training version rather than merely a basic trainer.",
             "refs": [
-              "fn-method"
+              "fn-main",
+              "fn-rmaf-commons"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Aermacchi MB-339 baseline production model",
+            "text": "MB-339A: initial production trainer/light-attack model.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Aermacchi MB-339 upgraded avionics or weapons-capable model",
+            "text": "MB-339PAN: Frecce Tricolori display version.",
+            "refs": [
+              "fn-frecce"
+            ]
+          },
+          {
+            "text": "MB-339C/CD: upgraded avionics family for lead-in fighter and weapons training.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Aermacchi MB-339 two-seat trainer or conversion model",
+            "text": "MB-339CB/CE/CM: country-specific export versions for New Zealand, Eritrea, and Malaysia.",
+            "refs": [
+              "fn-main",
+              "fn-rmaf-commons"
+            ]
+          },
+          {
+            "text": "MB-339K Veltro II: single-seat attack demonstrator that did not become the main family path.",
             "refs": [
               "fn-main"
             ]
@@ -46778,83 +46997,396 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Italy. Aermacchi MB-339 has 1 designer or builder country entry.",
+            "text": "Italy was the principal operator, using the MB-339 for jet training and Frecce Tricolori display service. The aircraft remains strongly associated with the Italian Air Force even as training duties move to newer T-345A and M-346 aircraft.",
             "refs": [
-              "fn-wikidata"
+              "fn-frecce",
+              "fn-main"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Former or export operators included Argentine Naval Aviation, Ghana, Malaysia, New Zealand, Nigeria, Peru, Eritrea, the United Arab Emirates, and private or contracted training users that acquired aircraft after national retirement.",
             "refs": [
+              "fn-main",
+              "fn-rmaf-commons"
+            ]
+          },
+          {
+            "text": "Argentina used MB-339A aircraft in the Falklands War; South Yorkshire Aircraft Museum records one captured Argentine MB-339, 4-A-116, as part of its Falklands-linked collection.",
+            "refs": [
+              "fn-argonaut",
+              "fn-syam"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Current or late-life: Italy/Frecce Tricolori, Eritrea, UAE display service, and some contracted/private training contexts.",
+            "refs": [
+              "fn-main",
+              "fn-frecce"
+            ]
+          },
+          {
+            "text": "Former national users: Argentina, Ghana, Malaysia, New Zealand, Nigeria, and Peru.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Private/adversary-air afterlife: retired New Zealand aircraft moved into private and training contractor channels before later transfers.",
+            "refs": [
+              "fn-main"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "service",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "1979 onward: the MB-339 entered Italian service as a jet trainer and became part of Italy training pipeline. Its design was practical rather than spectacular: a subsonic trainer that could prepare pilots and, in some variants, introduce weapons employment.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "1982 Falklands War: Argentine Naval Aviation based MB-339As in the Falklands. On 21 May 1982, Lt. Guillermo Owen Crippa attacked HMS Argonaut with cannon fire and rockets during the British landing phase, damaging radar equipment; this sortie became the aircraft most repeated combat anecdote.",
+            "refs": [
+              "fn-argonaut",
+              "fn-public-perception"
+            ]
+          },
+          {
+            "text": "1982 onward: Frecce Tricolori adopted the MB-339A/PAN, making the aircraft one of the most visible symbols of Italian military aviation at public air displays. The team identity gave the type far more public recognition than most advanced trainers receive.",
+            "refs": [
+              "fn-frecce",
+              "fn-public-perception"
+            ]
+          },
+          {
+            "text": "1998-2000 Eritrean-Ethiopian War: Eritrean MB-339CE aircraft were reported in attack operations. Because public sources for individual strike effects include wartime claims and later secondary summaries, the article treats specific casualty and damage claims cautiously.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "2020s replacement period: Italy began moving training roles to newer Leonardo aircraft, while Frecce Tricolori replacement planning ultimately pointed to the M-346 for the display team. This shift reinforces the MB-339 reputation as a long-serving but aging platform.",
+            "refs": [
+              "fn-main",
+              "fn-frecce"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "notable",
+        "title": "Notable Events and Incidents",
+        "paragraphs": [
+          {
+            "text": "12 August 1976: the MB-339 prototype made its first flight, beginning the aircraft family that would replace older Italian training types.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "1979: MB-339 service introduction began, giving the Italian Air Force a new domestic jet trainer/light-attack platform.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "21 May 1982: Argentine Navy Lt. Guillermo Owen Crippa attacked HMS Argonaut in an MB-339A during the Falklands War, damaging radar equipment and creating the type best-known combat story.",
+            "refs": [
+              "fn-argonaut",
+              "fn-public-perception"
+            ]
+          },
+          {
+            "text": "28 August 1988: three Frecce Tricolori MB-339PAN aircraft collided at Ramstein Air Base, killing the three pilots and many spectators; the event remains central to public memory of the aircraft.",
+            "refs": [
+              "fn-wired-ramstein",
+              "fn-ramstein-wiki"
+            ]
+          },
+          {
+            "text": "16 September 2023: a Frecce Tricolori MB-339 crashed after takeoff from Turin-Caselle; the pilot ejected, but one child on the ground died and several other people were injured.",
+            "refs": [
+              "fn-asn-turin",
+              "fn-public-perception"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "First flight",
+            "text": "12 August 1976"
+          },
+          {
+            "title": "Italian service",
+            "text": "1979"
+          },
+          {
+            "title": "Falklands attack",
+            "text": "21 May 1982, HMS Argonaut"
+          },
+          {
+            "title": "Ramstein disaster",
+            "text": "28 August 1988"
+          },
+          {
+            "title": "Turin-Caselle crash",
+            "text": "16 September 2023"
+          }
+        ]
+      },
+      {
+        "id": "public-perception",
+        "title": "Public Perception",
+        "paragraphs": [
+          {
+            "text": "The MB-339 public image is narrower than that of famous fighters: it is remembered as an elegant Italian trainer, the Frecce Tricolori aircraft, and an underdog light-attack aircraft in a few unusual combat stories. Enthusiasts often admire its clean lines and formation-display role more than its combat capability.",
+            "refs": [
+              "fn-public-perception",
+              "fn-frecce"
+            ]
+          },
+          {
+            "text": "Supporters tend to frame the aircraft as a successful, maneuverable, long-serving trainer that gave Italy a highly recognizable airshow symbol. Critics emphasize that it is old, subsonic, lightly armed by fighter standards, and overshadowed by newer trainers such as the Hawk, M-345, and M-346.",
+            "refs": [
+              "fn-public-perception",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "The aircraft public reputation is also complicated by tragedy. Ramstein made the MB-339PAN part of one of the worst airshow disasters in history, and the 2023 Turin-Caselle crash renewed public attention on Frecce Tricolori risk even though those accidents should not be generalized into unsupported claims about the whole aircraft family.",
+            "refs": [
+              "fn-public-perception",
+              "fn-wired-ramstein",
+              "fn-asn-turin"
+            ]
+          },
+          {
+            "text": "Fan discussions sometimes exaggerate the MB-339 Falklands role because the HMS Argonaut attack is dramatic. A neutral account should say that the sortie was notable and tactically bold, but not campaign-decisive.",
+            "refs": [
+              "fn-public-perception",
+              "fn-argonaut"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Compared with the BAE Hawk, the MB-339 occupied a similar advanced-trainer/light-attack market but never achieved the same global footprint. The Hawk is usually treated as the broader export success, while the MB-339 is more closely tied to Italy and a smaller set of export users.",
+            "refs": [
+              "fn-public-perception",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Compared with the Aero L-39 Albatros, the MB-339 is less common in warbird and private flying culture but has a more prominent Western display-team identity through Frecce Tricolori. Compared with the M-345 and M-346, the MB-339 is the older generation now being replaced rather than the future training standard.",
+            "refs": [
+              "fn-public-perception",
+              "fn-frecce"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "BAE Hawk: same broad trainer/light-attack niche; generally more globally successful.",
+            "refs": [
+              "fn-public-perception"
+            ]
+          },
+          {
+            "text": "Aero L-39: same general trainer/private-afterlife comparison; L-39 is more numerous in public warbird culture.",
+            "refs": [
+              "fn-public-perception"
+            ]
+          },
+          {
+            "text": "Aermacchi M-345: newer Italian efficient trainer replacement path.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Aermacchi M-346: newer advanced trainer and announced Frecce successor direction.",
+            "refs": [
+              "fn-frecce"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The MB-339 strengths came from training practicality, simplicity, and adaptability rather than fighter-class speed or survivability. Its limits are equally important: it remained a subsonic, lightly armed trainer-derived aircraft whose relevance depended heavily on mission and operator.",
+            "refs": [
+              "fn-main",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Strength: proven long-service training platform with a simple single-engine jet layout.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Major designer or builder entries: Italy.",
+            "text": "Strength: tandem cockpit and raised instructor position suited to training visibility.",
             "refs": [
-              "fn-wikidata"
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Strength: adaptable family with display, calibration, export weapons-training, and light-attack versions.",
+            "refs": [
+              "fn-main",
+              "fn-frecce"
+            ]
+          },
+          {
+            "text": "Strength: strong public-recognition value through Frecce Tricolori.",
+            "refs": [
+              "fn-frecce",
+              "fn-public-perception"
+            ]
+          },
+          {
+            "text": "Limitation: subsonic performance and limited payload compared with dedicated combat aircraft.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Limitation: variant-specific weapons clearances mean armament claims cannot be generalized across all aircraft.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: aging avionics and training architecture drove replacement by T-345A and M-346 systems.",
+            "refs": [
+              "fn-main",
+              "fn-frecce"
+            ]
+          },
+          {
+            "text": "Limitation: public reputation is partly burdened by Ramstein and later Frecce accident memories.",
+            "refs": [
+              "fn-public-perception",
+              "fn-wired-ramstein",
+              "fn-asn-turin"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "timeline",
+        "title": "Timeline",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 2, propulsion type Jet, maximum speed category Subsonic, first flight 1976, introduction 1979.",
+            "text": "1972: Aermacchi began work on a replacement path for Italy older jet trainers. 12 August 1976: MB-339 prototype first flight. 1979: service introduction began. 1982: Frecce Tricolori adopted the MB-339A/PAN and Argentine MB-339As saw Falklands War combat.",
+            "refs": [
+              "fn-main",
+              "fn-frecce",
+              "fn-argonaut"
+            ]
+          },
+          {
+            "text": "28 August 1988: Ramstein disaster. 1990s: upgraded/export variants such as MB-339CB and MB-339CE entered specialized national service. 1998-2000: Eritrean MB-339CE aircraft were reported in combat. 16 September 2023: Turin-Caselle Frecce crash. 2020s: Italian training replacement by T-345A and M-346 accelerated.",
+            "refs": [
+              "fn-wired-ramstein",
+              "fn-asn-turin",
+              "fn-main"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1976-08-12: first flight.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "1979: Italian service introduction.",
             "refs": [
-              "fn-method"
+              "fn-main"
+            ]
+          },
+          {
+            "text": "1982-05-21: HMS Argonaut attack by Argentine Navy MB-339A.",
+            "refs": [
+              "fn-argonaut"
+            ]
+          },
+          {
+            "text": "1988-08-28: Ramstein air-show disaster.",
+            "refs": [
+              "fn-wired-ramstein"
+            ]
+          },
+          {
+            "text": "2023-09-16: Turin-Caselle Frecce Tricolori crash.",
+            "refs": [
+              "fn-asn-turin"
             ]
           }
         ]
       },
       {
         "id": "similar-development",
-        "title": "Similar Development",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "Aermacchi MB-339 similar-development links: 4.",
+            "text": "Related aircraft include trainers and light-attack aircraft in the same broad market or replacement path.",
             "refs": [
-              "fn-method"
+              "fn-public-perception"
             ]
           }
         ],
         "links": [
           {
-            "label": "Northrop T-38 Talon",
-            "url": "aircraft.html?id=t-38-talon"
-          },
-          {
-            "label": "Beechcraft T-6 Texan II",
-            "url": "aircraft.html?id=t-6-texan-ii"
+            "label": "BAE Systems Hawk",
+            "url": "aircraft.html?id=bae-hawk"
           },
           {
             "label": "Yakovlev Yak-130",
             "url": "aircraft.html?id=yak-130"
           },
           {
-            "label": "BAE Systems Hawk",
-            "url": "aircraft.html?id=bae-hawk"
+            "label": "Beechcraft T-6 Texan II",
+            "url": "aircraft.html?id=t-6-texan-ii"
+          },
+          {
+            "label": "Northrop T-38 Talon",
+            "url": "aircraft.html?id=t-38-talon"
           }
         ]
       }
     ],
-    "event_gallery": []
+    "event_gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/MB339_-_RIAT_2008_%282674540983%29.jpg/640px-MB339_-_RIAT_2008_%282674540983%29.jpg",
+        "caption": "Aermacchi MB-339 displayed at the Royal International Air Tattoo in 2008, showing the compact trainer/light-attack airframe that made the type familiar at European airshows.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:MB339_-_RIAT_2008_(2674540983).jpg"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/RMAF_Aermacchi_MB-339.jpg",
+        "caption": "Royal Malaysian Air Force Aermacchi MB-339 at Langkawi Airshow 2009, photographed by Alert5 and published on Wikimedia Commons under CC BY-SA 4.0.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:RMAF_Aermacchi_MB-339.jpg"
+      }
+    ]
   },
   {
     "id": "c-27j-spartan",
