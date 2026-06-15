@@ -417,6 +417,7 @@ h2 {
 }
 
 .country-flag-filters {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
@@ -467,6 +468,41 @@ h2 {
   object-fit: cover;
   object-position: var(--flag-focus, center center);
   background: transparent;
+}
+
+.country-flag-tooltip {
+  position: absolute;
+  z-index: 18;
+  width: min(340px, calc(100vw - 48px));
+  padding: 14px 16px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(4, 4, 6, 0.96);
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.34);
+  color: #fff;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 140ms ease, transform 140ms ease;
+}
+
+.country-flag-tooltip.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.country-flag-tooltip strong {
+  display: block;
+  margin: 0 0 8px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.country-flag-tooltip p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.82rem;
+  line-height: 1.45;
 }
 
 .toolbar button {
@@ -1773,6 +1809,10 @@ h1 {
   width: 112px;
 }
 
+.country-flag-button--us {
+  margin-left: auto;
+}
+
 .country-flag-button img {
   width: 100%;
   height: 100%;
@@ -2094,9 +2134,17 @@ body.intro-complete .intro-loader ~ main .hero-globe {
     flex: 0 0 auto;
   }
 
+  .country-flag-button--us {
+    margin-left: 0;
+  }
+
   .country-flag-button img {
     width: 100%;
     height: 100%;
+  }
+
+  .country-flag-tooltip {
+    display: none;
   }
 
   .toolbar {

@@ -99,6 +99,37 @@ const COUNTRY_FLAGS = {
   "United States": { code: "us", position: "28% center" }
 };
 
+const COUNTRY_OVERVIEWS = {
+  Brazil:
+    "Brazil's military aerospace industry centers on Embraer and its defense division, with long-running strength in trainers, light attack aircraft, transports, surveillance platforms, and export-oriented support systems.",
+  China:
+    "China's military aerospace sector is led by AVIC and state research institutes, producing fighters, bombers, transports, helicopters, UAVs, airborne early warning aircraft, and large modern engine programs at national scale.",
+  France:
+    "France maintains a full-spectrum military aerospace industry through Dassault, Airbus, Safran, MBDA, and Thales, with domestic capability in combat aircraft, engines, sensors, missiles, and naval aviation support.",
+  Germany:
+    "Germany's military aerospace industry is built around Airbus sites, MTU Aero Engines, Diehl, Hensoldt, and multinational programs, with major strength in airframes, engines, avionics, missiles, and sustainment.",
+  India:
+    "India's military aerospace industry combines HAL, DRDO, Bharat Electronics, and a growing private sector, focusing on licensed production, indigenous fighters, helicopters, UAVs, radars, and long-term engine development.",
+  Israel:
+    "Israel's military aerospace sector is concentrated in Israel Aerospace Industries, Elbit Systems, and Rafael, with strong capability in UAVs, electronic warfare, sensors, precision weapons, and fighter upgrades.",
+  Italy:
+    "Italy's military aerospace industry is led by Leonardo, Avio Aero, and MBDA Italia, with established work in trainers, transports, helicopters, avionics, radar, and multinational combat-aircraft production.",
+  "Multinational Europe":
+    "Multinational European military aerospace production links companies such as Airbus, Eurofighter, MBDA, and partner engine firms, combining national industries into shared combat-aircraft, missile, and support-aircraft programs.",
+  Pakistan:
+    "Pakistan's military aerospace base centers on Pakistan Aeronautical Complex and state-supported partners, with fighter assembly, overhaul, upgrades, trainer support, UAV activity, and collaboration with foreign manufacturers.",
+  Russia:
+    "Russia's military aerospace industry is organized around the United Aircraft Corporation, United Engine Corporation, and state design bureaus, producing fighters, bombers, transports, helicopters, engines, and air-defense integration.",
+  "Soviet Union":
+    "The Soviet military aerospace industry was built around bureau-led design and large state factories, producing fighters, bombers, transports, helicopters, and interceptor programs at very high Cold War output levels.",
+  Sweden:
+    "Sweden's military aerospace industry is centered on Saab together with domestic electronics and weapons firms, sustaining national capability in fighters, airborne sensors, datalinks, and dispersed-support concepts.",
+  "United Kingdom":
+    "The United Kingdom's military aerospace sector combines BAE Systems, Rolls-Royce, Leonardo UK, MBDA, and Airbus UK work, with major strength in combat aircraft, engines, radar, missiles, and multinational programs.",
+  "United States":
+    "The United States has the world's largest military aerospace industry, led by firms such as Lockheed Martin, Boeing, Northrop Grumman, RTX, General Atomics, Bell, and Sikorsky across fighters, bombers, transports, helicopters, UAVs, engines, and sensors."
+};
+
 function flagAsset(flag) {
   if (!flag) return null;
   if (flag.url) return { src: flag.url, srcset: "", position: flag.position || "center center" };
@@ -129,6 +160,15 @@ function designationTokens(item) {
 
 function unique(values) {
   return [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b));
+}
+
+function orderedCountryFilters(values) {
+  return [...values].sort((left, right) => {
+    if (left === right) return 0;
+    if (left === "United States") return 1;
+    if (right === "United States") return -1;
+    return left.localeCompare(right);
+  });
 }
 
 function splitValues(value) {
@@ -436,19 +476,21 @@ function renderFlagMarquee() {
 
 function renderCountryFlagFilters() {
   if (!els.countryFlagFilters) return;
-  const countries = unique(state.aircraft.flatMap((item) => splitValues(item.country_of_origin)));
+  const countries = orderedCountryFilters(unique(state.aircraft.flatMap((item) => splitValues(item.country_of_origin))));
   const items = countries
     .map((country) => {
       const asset = flagAsset(COUNTRY_FLAGS[country]);
       if (!asset) return "";
       const srcset = asset.srcset ? ` srcset="${escapeHtml(asset.srcset)}"` : "";
       const style = ` style="--flag-focus:${escapeHtml(asset.position)};"`;
+      const overview = COUNTRY_OVERVIEWS[country] || `${country} maintains military aerospace production, maintenance, and defense aviation support capability.`;
+      const extraClass = country === "United States" ? " country-flag-button--us" : "";
       return `
         <button
           type="button"
-          class="country-flag-button"
+          class="country-flag-button${extraClass}"
           data-country="${escapeHtml(country)}"
-          title="${escapeHtml(country)}"
+          data-overview="${escapeHtml(overview)}"
           aria-label="${escapeHtml(country)}"
           ${style}
         >
@@ -463,8 +505,71 @@ function renderCountryFlagFilters() {
       `;
     })
     .join("");
-  els.countryFlagFilters.innerHTML = items;
+  els.countryFlagFilters.innerHTML = `${items}
+    <div class="country-flag-tooltip" id="country-flag-tooltip" aria-hidden="true" hidden>
+      <strong></strong>
+      <p></p>
+    </div>`;
   syncCountryFlagFilters();
+}
+
+function setupCountryFlagTooltip() {
+  if (!els.countryFlagFilters) return;
+  const tooltip = els.countryFlagFilters.querySelector("#country-flag-tooltip");
+  if (!tooltip) return;
+
+  const title = tooltip.querySelector("strong");
+  const body = tooltip.querySelector("p");
+
+  const hideTooltip = () => {
+    tooltip.hidden = true;
+    tooltip.classList.remove("is-visible");
+    tooltip.setAttribute("aria-hidden", "true");
+  };
+
+  const showTooltip = (button) => {
+    if (!button || !title || !body) return;
+    title.textContent = button.dataset.country || "";
+    body.textContent = button.dataset.overview || "";
+    tooltip.hidden = false;
+    tooltip.setAttribute("aria-hidden", "false");
+
+    requestAnimationFrame(() => {
+      const containerWidth = els.countryFlagFilters.clientWidth;
+      const tooltipWidth = tooltip.offsetWidth;
+      const left = Math.min(
+        Math.max(0, button.offsetLeft + button.offsetWidth / 2 - tooltipWidth / 2),
+        Math.max(0, containerWidth - tooltipWidth)
+      );
+      const top = button.offsetTop + button.offsetHeight + 14;
+      tooltip.style.left = `${left}px`;
+      tooltip.style.top = `${top}px`;
+      tooltip.classList.add("is-visible");
+    });
+  };
+
+  els.countryFlagFilters.querySelectorAll("button[data-country]").forEach((button) => {
+    button.addEventListener("mouseenter", () => showTooltip(button));
+    button.addEventListener("focus", () => showTooltip(button));
+    button.addEventListener("mouseleave", () => {
+      if (!button.matches(":focus")) hideTooltip();
+    });
+    button.addEventListener("blur", () => {
+      requestAnimationFrame(() => {
+        if (!els.countryFlagFilters.contains(document.activeElement)) hideTooltip();
+      });
+    });
+  });
+
+  els.countryFlagFilters.addEventListener("scroll", hideTooltip, { passive: true });
+  window.addEventListener("resize", () => {
+    const active = document.activeElement?.closest?.("button[data-country]") || els.countryFlagFilters.querySelector("button[data-country]:hover");
+    if (active && !tooltip.hidden) {
+      showTooltip(active);
+    } else {
+      hideTooltip();
+    }
+  });
 }
 
 function syncCountryFlagFilters() {
@@ -792,6 +897,7 @@ async function init() {
     setupFilters();
     renderFlagMarquee();
     renderCountryFlagFilters();
+    setupCountryFlagTooltip();
     setupEvents();
     renderGrid();
   } catch (error) {
