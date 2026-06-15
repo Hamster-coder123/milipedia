@@ -160,6 +160,25 @@ select {
   transform: translateX(-50%) perspective(900px) rotateX(64deg);
 }
 
+.hero::after {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 2;
+  width: clamp(120px, 12vw, 180px);
+  height: clamp(20px, 2.2vw, 28px);
+  border-radius: 0 0 999px 999px;
+  background:
+    radial-gradient(ellipse at 50% 16%, rgba(255, 255, 255, 1) 0 22%, rgba(255, 255, 255, 0.86) 36%, rgba(255, 255, 255, 0.38) 58%, rgba(255, 255, 255, 0) 78%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.14));
+  box-shadow:
+    0 0 28px rgba(255, 255, 255, 0.48),
+    0 10px 70px rgba(255, 255, 255, 0.16);
+  content: "";
+  opacity: 0.98;
+  transform: translateX(-50%);
+}
+
 .hero-globe {
   position: absolute;
   bottom: 18px;
@@ -1448,12 +1467,17 @@ h2 {
 }
 
 .flag-marquee::before,
-.flag-marquee::after {
+.flag-marquee::after,
+.flag-marquee .flag-track::before {
   position: absolute;
-  inset: 0;
   z-index: 1;
   pointer-events: none;
   content: "";
+}
+
+.flag-marquee::before,
+.flag-marquee::after {
+  inset: 0;
 }
 
 .flag-marquee::before {
@@ -1461,42 +1485,42 @@ h2 {
     linear-gradient(
       90deg,
       rgba(0, 0, 0, 0.97) 0%,
-      rgba(0, 0, 0, 0.9) 16%,
-      rgba(0, 0, 0, 0.32) 34%,
-      rgba(0, 0, 0, 0.01) 50%,
-      rgba(0, 0, 0, 0.32) 66%,
-      rgba(0, 0, 0, 0.9) 84%,
+      rgba(0, 0, 0, 0.88) 16%,
+      rgba(0, 0, 0, 0.18) 34%,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.18) 66%,
+      rgba(0, 0, 0, 0.88) 84%,
       rgba(0, 0, 0, 0.97) 100%
     ),
     linear-gradient(
       180deg,
-      rgba(0, 0, 0, 0.34) 0%,
-      rgba(0, 0, 0, 0.05) 18%,
-      rgba(0, 0, 0, 0) 34%,
-      rgba(0, 0, 0, 0.12) 72%,
+      rgba(0, 0, 0, 0.28) 0%,
+      rgba(0, 0, 0, 0.02) 14%,
+      rgba(0, 0, 0, 0) 32%,
+      rgba(0, 0, 0, 0.08) 72%,
       rgba(0, 0, 0, 0.28) 100%
     );
 }
 
 .flag-marquee::after {
-  inset: -34svh -10% 2%;
+  inset: -46svh -14% 1%;
   background:
     radial-gradient(
-      ellipse 42% 30% at 50% 0%,
+      ellipse 46% 34% at 50% 0%,
       rgba(255, 255, 255, 1) 0%,
-      rgba(255, 255, 255, 0.72) 10%,
-      rgba(255, 255, 255, 0.34) 24%,
-      rgba(255, 255, 255, 0.12) 40%,
-      rgba(255, 255, 255, 0) 62%
+      rgba(255, 255, 255, 0.9) 8%,
+      rgba(255, 255, 255, 0.48) 20%,
+      rgba(255, 255, 255, 0.18) 34%,
+      rgba(255, 255, 255, 0) 58%
     ),
     linear-gradient(
       180deg,
-      rgba(255, 255, 255, 0.34) 0%,
-      rgba(255, 255, 255, 0.16) 10%,
-      rgba(255, 255, 255, 0.06) 24%,
-      rgba(255, 255, 255, 0) 56%
+      rgba(255, 255, 255, 0.48) 0%,
+      rgba(255, 255, 255, 0.24) 10%,
+      rgba(255, 255, 255, 0.08) 22%,
+      rgba(255, 255, 255, 0) 52%
     );
-  clip-path: polygon(50% 0%, 78% 100%, 22% 100%);
+  clip-path: polygon(50% 0%, 76% 100%, 24% 100%);
   mix-blend-mode: screen;
   opacity: 1;
 }
@@ -1511,10 +1535,24 @@ h2 {
   align-items: center;
   gap: clamp(10px, 1.2vw, 18px);
   padding-inline: clamp(10px, 1.2vw, 18px);
-  opacity: 0.5;
-  filter: saturate(1.18) brightness(0.96) contrast(1.08);
+  opacity: 0.62;
+  filter: saturate(1.62) brightness(1.08) contrast(1.04);
   animation: flagMarquee 30s linear infinite;
   will-change: transform;
+}
+
+.flag-track::before {
+  top: -40svh;
+  left: 50%;
+  width: clamp(110px, 12vw, 180px);
+  height: clamp(110px, 12vw, 180px);
+  border-radius: 999px;
+  background:
+    radial-gradient(circle at center, rgba(255, 255, 255, 1) 0 16%, rgba(255, 255, 255, 0.94) 18%, rgba(255, 255, 255, 0.52) 34%, rgba(255, 255, 255, 0.12) 56%, rgba(255, 255, 255, 0) 72%);
+  mix-blend-mode: screen;
+  opacity: 1;
+  transform: translateX(-50%);
+  filter: blur(2px);
 }
 
 .flag-marquee:hover .flag-track {
