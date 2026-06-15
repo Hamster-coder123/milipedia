@@ -18,6 +18,7 @@
 
 html {
   scroll-behavior: smooth;
+  scrollbar-gutter: stable both-edges;
 }
 
 body {
@@ -28,6 +29,7 @@ body {
   color: var(--ink);
   line-height: 1.45;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 body:has(.intro-loader):not(.intro-complete) {

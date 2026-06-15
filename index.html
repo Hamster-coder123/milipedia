@@ -8,7 +8,21 @@
       name="description"
       content="Milipedia is a modern encyclopedia for post-1945 military aircraft."
     >
-    <link rel="stylesheet" href="styles.css?v=main-intro-morph-v8">
+    <script>
+      if ("scrollRestoration" in history) {
+        history.scrollRestoration = "manual";
+      }
+
+      const resetMilipediaScroll = () => {
+        window.scrollTo(0, 0);
+        document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0;
+      };
+
+      resetMilipediaScroll();
+      window.addEventListener("pageshow", resetMilipediaScroll);
+    </script>
+    <link rel="stylesheet" href="styles.css?v=main-intro-scrollfix-v1">
   </head>
   <body>
     <div class="intro-loader" aria-hidden="true">
@@ -143,6 +157,6 @@
       </article>
     </template>
 
-    <script src="js/app.js?v=main-intro-morph-v4" defer></script>
+    <script src="js/app.js?v=main-intro-scrollfix-v1" defer></script>
   </body>
 </html>
