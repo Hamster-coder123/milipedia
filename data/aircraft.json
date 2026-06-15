@@ -19606,65 +19606,265 @@
   {
     "id": "t-6-texan-ii",
     "name": "Beechcraft T-6 Texan II",
-    "alternative_names": [],
+    "alternative_names": [
+      "Raytheon T-6A Texan II",
+      "Beechcraft T-6C Texan II",
+      "T-6B Texan II",
+      "Texan T1 in RAF service",
+      "AT-6 Wolverine derivative"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
-    "manufacturer": "Beechcraft",
-    "role": "Basic trainer",
-    "aircraft_type": "Trainer",
+    "manufacturer": "Raytheon Aircraft / Hawker Beechcraft / Textron Aviation Defense",
+    "role": "Primary military trainer and integrated pilot-training aircraft",
+    "aircraft_type": "Turboprop trainer",
     "era": "Modern",
-    "first_flight": "1998",
-    "introduction_date": "2001",
+    "first_flight": "15 July 1998 for the first production T-6A Texan II",
+    "introduction_date": "2001 in U.S. Air Force primary training; T-6B Navy IOC in 2010",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "2",
-    "engine_type": "Turboprop",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "status": "Active with U.S. and international training operators; Japan selected the type in 2025 for future JASDF training modernization",
+    "number_built": "More than 1,000 T-6 family aircraft delivered worldwide by January 2025, according to Textron Aviation Defense",
+    "crew": "2 seats in tandem; student and instructor positions are interchangeable, and solo operation is from the front seat",
+    "engine_type": "Single turboprop",
+    "engines": "1 x Pratt & Whitney Canada PT6A-68 family turboprop, listed by USAF and museum sources at 1,100 hp/shp",
+    "max_speed": "T-6A technical notes list 320 mph; RAF Texan T1 page lists 316 kt / Mach 0.67 for its T-6C-based aircraft",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Trainer aircraft; light-attack stores not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Beechcraft T-6 Texan II: Basic trainer. Manufacturer: Beechcraft. First flight: 1998. Introduction: 2001.",
-    "short_summary": "Beechcraft T-6 Texan II: Basic trainer. Origin: United States. Manufacturer: Beechcraft. First flight: 1998. Introduction: 2001. Status: Active.",
+    "range": "T-6A technical notes list 900 nautical miles; T-6C range varies with internal and external fuel fit",
+    "combat_range": "Not a combat aircraft in baseline T-6A/B/C trainer form; mission endurance varies by syllabus, fuel, and stores",
+    "service_ceiling": "31,000 ft (9,449 m) class in USAF museum and RAF references",
+    "rate_of_climb": "3,100 ft/min initial climb in USAF and museum references; earlier arrival reporting described about 3,300 ft/min",
+    "armament": "Baseline T-6A/B training aircraft are normally unarmed; T-6C and AT-6 Wolverine derivatives can use external stations for training or light-attack stores depending on variant and operator clearance",
+    "hardpoints": "T-6C manufacturer page lists 6 total hardpoints / NATO-standard weapons stations",
+    "variants": [
+      {
+        "name": "T-6A Texan II",
+        "description": "Baseline JPATS primary trainer for U.S. Air Force and selected Navy/NFO training roles, with tandem seating, PT6A-68 power, pressurization, OBOGS, and ejection seats.",
+        "service_role": "Primary military flight training"
+      },
+      {
+        "name": "T-6B Texan II",
+        "description": "U.S. Navy upgraded avionics variant with glass cockpit, HUD, HOTAS, dual redundant integrated avionics computers, and open-architecture design.",
+        "service_role": "Primary naval aviator training and test-pilot-school support"
+      },
+      {
+        "name": "T-6C Texan II",
+        "description": "Export and later training variant with modern avionics and provision for underwing hardpoints; used by several partner air forces.",
+        "service_role": "Primary/basic training, weapons familiarization where cleared"
+      },
+      {
+        "name": "Texan T1",
+        "description": "Royal Air Force designation for the T-6C used at RAF Valley by 72 Squadron in the UK Military Flying Training System.",
+        "service_role": "Basic fast-jet training"
+      },
+      {
+        "name": "CT-156 Harvard II",
+        "description": "Canadian training designation associated with NATO Flying Training in Canada.",
+        "service_role": "NATO and Canadian military pilot training"
+      },
+      {
+        "name": "AT-6 Wolverine / AT-6TH",
+        "description": "Armed light-attack and reconnaissance derivative related to the T-6 family; separate from the standard primary trainer.",
+        "service_role": "Light attack, reconnaissance, counter-insurgency, and weapons training"
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "U.S. Air Force, U.S. Navy, U.S. Marine Corps and Coast Guard training pipeline, U.S. Army support aircraft",
+        "status": "Principal operator family; USAF T-6A primary training, Navy T-6B primary training at Whiting Field and Corpus Christi, and test/support aircraft."
+      },
+      {
+        "country": "United Kingdom",
+        "service": "Royal Air Force / 72 Squadron at RAF Valley",
+        "status": "Operates Texan T1 aircraft for Basic Flight Training and basic fast-jet preparation."
+      },
+      {
+        "country": "Canada",
+        "service": "Royal Canadian Air Force / NATO Flying Training in Canada",
+        "status": "Uses CT-156 Harvard II aircraft in NATO-linked pilot training."
+      },
+      {
+        "country": "Greece",
+        "service": "Hellenic Air Force",
+        "status": "T-6A and armed T-6A NTA family operator for training and weapons-training roles."
+      },
+      {
+        "country": "Israel",
+        "service": "Israeli Air Force",
+        "status": "Operates the T-6A Efroni training aircraft."
+      },
+      {
+        "country": "Iraq, Mexico, Morocco, New Zealand, Thailand, Tunisia, Colombia, Argentina, Vietnam",
+        "service": "National air forces and naval aviation operators",
+        "status": "International T-6A/C/TH or related training-family operators; fleet counts and local designations vary by country and date."
+      },
+      {
+        "country": "Japan",
+        "service": "Japan Air Self-Defense Force",
+        "status": "Future operator selection announced in January 2025 to replace the Fuji/Subaru T-7 basic trainer."
+      }
+    ],
+    "combat_history": "The baseline T-6 Texan II is a primary trainer rather than a combat aircraft. Operational significance centers on pilot production, partner training, flight-test and training-system modernization, and the armed AT-6 Wolverine derivative rather than confirmed combat by standard T-6A/B/C trainers.",
+    "development_history": "The T-6 Texan II was developed for the Joint Primary Aircraft Training System to replace older U.S. Air Force T-37 and U.S. Navy T-34C training fleets with a common aircraft, simulators, courseware, training management tools, and contractor logistics support.",
+    "short_summary": "The Beechcraft T-6 Texan II is a U.S.-origin turboprop military trainer developed for the Joint Primary Aircraft Training System. It replaced older U.S. Air Force and Navy primary trainers, grew into T-6A, T-6B, T-6C, Texan T1, CT-156, and AT-6 derivative families, and became a globally adopted training system with more than 1,000 aircraft delivered. Its public reputation is practical rather than glamorous: pilots and enthusiasts often praise its handling and training value, while safety discussion focuses on 2017-2018 physiological events and later ejection-seat incidents.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/T-6A_Texan_II.jpg/330px-T-6A_Texan_II.jpg",
-        "caption": "Beechcraft T-6 Texan II",
-        "credit": "Wikimedia/Wikipedia thumbnail source",
-        "license": "Verify original file license before reuse."
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/T-6A_Texan_II.jpg",
+        "caption": "A U.S. Air Force T-6A Texan II in flight, representative of the JPATS primary-training family",
+        "credit": "U.S. Air Force / Wikimedia Commons public-domain file",
+        "license": "Public domain U.S. Air Force image",
+        "source_url": "https://commons.wikimedia.org/wiki/File:T-6A_Texan_II.jpg"
       }
     ],
     "sources": [
       {
-        "id": "fn-main",
-        "title": "Beechcraft T-6 Texan II",
-        "url": "https://en.wikipedia.org/wiki/Beechcraft_T-6_Texan_II",
-        "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "id": "fn-usaf-t6a",
+        "title": "T-6A Texan II",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104548/t-6a-texan-ii/",
+        "publisher": "U.S. Air Force",
+        "note": "Used for T-6A mission, JPPT role, PC-9 Mk II origin, cockpit layout, PT6A-68 engine, climb performance, dimensions, weights, range, ceiling, and armament notes."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "id": "fn-nmusaf-t6a",
+        "title": "Beechcraft T-6A Texan II",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196344/beechcraft-t-6a-texan-ii/",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Used for JPATS selection context, 1996 Raytheon contract note, first operational USAF delivery, digital panels, aerobatic training identity, and technical notes."
       },
       {
-        "id": "fn-method",
-        "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
-        "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
+        "id": "fn-navy-t6b",
+        "title": "T-6B Texan II Turboprop Trainer",
+        "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2166435/t-6b-texan-ii-turboprop-trainer/",
+        "publisher": "U.S. Navy",
+        "note": "Used for T-6B JPATS role, T-34C replacement, avionics upgrade, glass cockpit, Navy inventory, basing, and T-6B IOC timeline."
+      },
+      {
+        "id": "fn-aetc-masterplan",
+        "title": "A Training System for the 21st Century: JPATS and the T-6A USAF Trainer Masterplan",
+        "url": "https://www.aetc.af.mil/Portals/88/Documents/history/AFD-061213-005.pdf?ver=2016-01-12-160013-127",
+        "publisher": "Air Education and Training Command History Office",
+        "note": "Used for JPATS background, official Texan II naming, 15 July 1998 first production flight, Beech Field test profile, and Air Force IOC planning."
+      },
+      {
+        "id": "fn-ntis-case-study",
+        "title": "T-6A Texan II Systems Engineering Case Study",
+        "url": "https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA538810.xhtml",
+        "publisher": "National Technical Reports Library / AFIT case study",
+        "note": "Used for the JPATS system framing: aircraft, ground-based training system, and contractor logistics elements."
+      },
+      {
+        "id": "fn-textron-t6c",
+        "title": "T-6C Texan II",
+        "url": "https://defense.txtav.com/en/t-6c",
+        "publisher": "Textron Aviation Defense",
+        "note": "Used for T-6C specifications, hardpoints, fuel figures, and current manufacturer description."
+      },
+      {
+        "id": "fn-raf-texan",
+        "title": "Texan T1",
+        "url": "https://www.raf.mod.uk/aircraft/texan-t1/",
+        "publisher": "Royal Air Force",
+        "note": "Used for UK Texan T1 role, RAF Valley basing, 72 Squadron, first student graduation in 2020, cockpit features, g limits, and speed/altitude figures."
+      },
+      {
+        "id": "fn-textron-japan",
+        "title": "Japan selects Beechcraft T-6 Texan II Integrated Training System to modernize Japan Air Self-Defense Force pilot training",
+        "url": "https://media.txtav.com/245342-japan-selects-beechcraft-t-6-texan-ii-integrated-training-system-to-modernize-japan-air-self-defense-force-pilot-training/",
+        "publisher": "Textron Aviation Defense",
+        "note": "Used for more than 1,000 deliveries, more than 5 million flight hours, 14 nations and two NATO flight schools, listed operator set, and Japan selection."
+      },
+      {
+        "id": "fn-pacaf-vietnam",
+        "title": "PACAF commander makes historic delivery of T-6C Texan IIs to Vietnam",
+        "url": "https://www.af.mil/News/Article-Display/Article/3975307/pacaf-commander-makes-historic-delivery-of-t-6c-texan-iis-to-vietnam/",
+        "publisher": "U.S. Air Force / Pacific Air Forces",
+        "note": "Used for 20 November 2024 Vietnam delivery ceremony, first three aircraft, Phan Thiet Air Base, and 12-aircraft delivery plan."
+      },
+      {
+        "id": "fn-textron-vietnam",
+        "title": "History-making Beechcraft T-6C Texan II sale supports the U.S.-Vietnam Comprehensive Strategic Partnership",
+        "url": "https://media.txtav.com/244551-history-making-beechcraft-t-6c-texan-ii-sale-supports-the-u-s-vietnam-comprehensive-strategic-partnership-advances-u-s-interests-in-th/",
+        "publisher": "Textron Aviation Defense",
+        "note": "Used for the Vietnam FMS program framing and first five aircraft arrival context."
+      },
+      {
+        "id": "fn-airforcetimes-upe",
+        "title": "Latest wave of hypoxia-like events in T-6 grows to 12",
+        "url": "https://www.airforcetimes.com/news/your-air-force/2018/04/18/latest-wave-of-hypoxia-like-events-in-t-6-grows-to-12/",
+        "publisher": "Air Force Times",
+        "note": "Used for 2018 T-6 unexplained physiological events, February grounding period, and later reported events."
+      },
+      {
+        "id": "fn-military-obogs-fix",
+        "title": "Air Force Announces Fix to Hypoxia Problems in T-6 Aircraft",
+        "url": "https://www.military.com/dodbuzz/2018/09/14/air-force-announces-fix-hypoxia-problems-t-6-aircraft.html",
+        "publisher": "Military.com",
+        "note": "Used for oxygen-system corrective measures, OBOGS maintenance changes, and AETC mitigation reporting."
+      },
+      {
+        "id": "fn-aib-randolph",
+        "title": "T-6A, T/N 05-6209, JBSA-Randolph, Texas Accident Investigation Board Report",
+        "url": "https://www.airandspaceforces.com/app/uploads/2019/05/0918_T6_Randolph.pdf",
+        "publisher": "U.S. Air Force Accident Investigation Board via Air & Space Forces Magazine",
+        "note": "Used for the 18 September 2018 Randolph-area crash facts and report source."
+      },
+      {
+        "id": "fn-navy-foley",
+        "title": "U.S. Navy T-6B Texan II Aircraft Crash, Foley, Alabama",
+        "url": "https://www.navy.mil/Press-Office/Press-Releases/display-pressreleases/Article/2393260/us-navy-t-6b-texan-ii-aircraft-crash-foley-alabama/",
+        "publisher": "U.S. Navy",
+        "note": "Used for the 23 October 2020 Foley, Alabama, T-6B crash and no-civilian-injury update."
+      },
+      {
+        "id": "fn-ap-ejection-seat",
+        "title": "Air Force instructor pilot killed when ejection seat activated at Texas base",
+        "url": "https://apnews.com/article/pilot-ejection-seat-air-force-texas-245af4f7949346feecdd8032a92d031c",
+        "publisher": "Associated Press",
+        "note": "Used for the 13-14 May 2024 Sheppard AFB fatal ground ejection-seat event and 2022 CAD-inspection background."
+      },
+      {
+        "id": "fn-ap-thailand",
+        "title": "Thai Air Force says 2 pilots killed in plane crash during training mission",
+        "url": "https://apnews.com/article/thailand-plane-crash-deaths-ab3958e101692123c90971a7cc328a55",
+        "publisher": "Associated Press",
+        "note": "Used for the 29 January 2026 Royal Thai Air Force AT-6TH Wolverine crash and investigation caveat."
+      },
+      {
+        "id": "fn-public-perception-t6",
+        "title": "Public Perception Research: Beechcraft T-6 Texan II",
+        "url": "AIRCRAFT%20PUBLIC%20PERCEPTION/T6.txt",
+        "publisher": "Milipedia local research file",
+        "note": "Local public-perception research file created for this aircraft expansion; used for social-media reputation, community discussion, myths, and neutral public-perception synthesis."
+      },
+      {
+        "id": "fn-reddit-miss-flying",
+        "title": "What's an airplane that you flew in the past, and miss flying nowadays?",
+        "url": "https://www.reddit.com/r/flying/comments/1dq8cfb/whats_an_airplane_that_you_flew_in_the_past_and/",
+        "publisher": "Reddit / r/flying",
+        "note": "Used only as public-opinion evidence for pilot and enthusiast comments about T-6 handling and training reputation."
+      },
+      {
+        "id": "fn-airwarriors-t6",
+        "title": "T-6 Texan II",
+        "url": "https://www.airwarriors.com/community/threads/t-6-texan-ii.59/",
+        "publisher": "Air Warriors forum",
+        "note": "Used only as community and historical-public-discussion evidence for early T-6 arrival expectations and training reputation."
+      },
+      {
+        "id": "fn-wikimedia-t6a",
+        "title": "File:T-6A Texan II.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:T-6A_Texan_II.jpg",
+        "publisher": "Wikimedia Commons / U.S. Air Force public-domain image",
+        "note": "Used for the primary aircraft image source and license context."
+      },
+      {
+        "id": "fn-wikimedia-navy",
+        "title": "File:T6 Texan II Pensacola Navy.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:T6_Texan_II_Pensacola_Navy.jpg",
+        "publisher": "Wikimedia Commons / U.S. Navy public-domain image",
+        "note": "Used for gallery image source and Navy T-6B caption context."
       }
     ],
     "country_flags": [
@@ -19674,45 +19874,61 @@
       }
     ],
     "designers": [
-      "Beechcraft"
+      "Beechcraft",
+      "Raytheon Aircraft",
+      "Pilatus lineage through the PC-9 Mk II"
     ],
-    "development_tensions": [],
+    "development_tensions": [
+      "JPATS tried to standardize Air Force and Navy primary training around one aircraft and a larger training system rather than only buying a replacement airplane.",
+      "The T-6 family has balanced high training performance and broad commonality with safety concerns around oxygen-system physiological events and ejection-seat component reliability.",
+      "The armed AT-6 Wolverine derivative has attracted light-attack debate, especially in comparison with the combat-proven A-29 Super Tucano."
+    ],
     "wars_used_in": [],
     "variant_families": [
-      "Beechcraft T-6 Texan II baseline production model",
-      "Beechcraft T-6 Texan II upgraded avionics or weapons-capable model",
-      "Beechcraft T-6 Texan II two-seat trainer or conversion model"
+      "T-6A Texan II",
+      "T-6B Texan II",
+      "T-6C Texan II",
+      "Texan T1",
+      "CT-156 Harvard II",
+      "AT-6 Wolverine / AT-6TH derivative"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Beechcraft T-6 Texan II has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Used by the U.S. Air Force, U.S. Navy, and many partner air forces as a primary/basic military training system.",
+      "all_operators_status": "Textron reported more than 1,000 T-6 family aircraft delivered across 14 nations and two NATO flight schools by January 2025."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "T-6A s/n 06-3851, assigned to the 71st Flying Training Wing at Vance AFB, was received by the National Museum of the USAF in 2010.",
+        "Capt. John Robertson, 80th Operations Support Squadron instructor pilot, died after a T-6A ejection-seat activation during ground operations at Sheppard AFB on 13-14 May 2024."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Late January-February 2018: T-6 physiological-event cluster and operational pause/grounding period.",
+        "18 September 2018: T-6A 05-6209 crashed near JBSA-Randolph, Texas, during instructor qualification training.",
+        "23 October 2020: U.S. Navy T-6B crashed near Foley, Alabama, killing the two aviators and causing no civilian injuries according to the Navy update.",
+        "29 January 2026: Royal Thai Air Force AT-6TH Wolverine crashed during training near Chiang Mai; two pilots were killed and the cause remained under investigation in AP reporting."
       ]
     },
     "engine_details": {
-      "type": "Turboprop",
-      "summary": "Beechcraft T-6 Texan II uses turboprop propulsion."
+      "type": "Single Pratt & Whitney Canada PT6A-68-family turboprop",
+      "summary": "USAF and museum references list the T-6A with a Pratt & Whitney Canada PT6A-68 turboprop rated at 1,100 hp/shp, driving a four-blade propeller and giving the trainer a high thrust-to-weight ratio for aerobatic and military primary training."
     },
     "armament_details": {
-      "summary": "Trainer aircraft; light-attack stores not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Baseline T-6A/B aircraft are primary trainers and are normally unarmed. The T-6C manufacturer page lists six hardpoints / weapons stations, while armed AT-6 Wolverine derivatives add mission systems and weapons capability for light-attack and reconnaissance roles.",
+      "caution": "Do not generalize AT-6 Wolverine weapons capability to every T-6 Texan II trainer; stores, sensors, and clearances vary by variant and operator."
     },
     "similar_development": [
       {
         "id": "t-38-talon",
         "name": "Northrop T-38 Talon",
         "url": "aircraft.html?id=t-38-talon"
+      },
+      {
+        "id": "embraer-emb-314-super-tucano",
+        "name": "Embraer EMB 314 Super Tucano",
+        "url": "aircraft.html?id=embraer-emb-314-super-tucano"
       },
       {
         "id": "yak-130",
@@ -19728,206 +19944,390 @@
         "id": "mb-339",
         "name": "Aermacchi MB-339",
         "url": "aircraft.html?id=mb-339"
+      },
+      {
+        "id": "f-5-freedom-fighter-tiger-ii",
+        "name": "Northrop F-5",
+        "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 76,
+      "operator_entries": 7,
+      "variant_entries": 6,
+      "external_article_sources": 19
     },
     "footnotes": [
       {
-        "id": "fn-main",
-        "title": "Beechcraft T-6 Texan II",
-        "url": "https://en.wikipedia.org/wiki/Beechcraft_T-6_Texan_II",
-        "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "id": "fn-usaf-t6a",
+        "title": "T-6A Texan II",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104548/t-6a-texan-ii/",
+        "publisher": "U.S. Air Force",
+        "note": "Used for T-6A mission, JPPT role, PC-9 Mk II origin, cockpit layout, PT6A-68 engine, climb performance, dimensions, weights, range, ceiling, and armament notes."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "id": "fn-nmusaf-t6a",
+        "title": "Beechcraft T-6A Texan II",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196344/beechcraft-t-6a-texan-ii/",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Used for JPATS selection context, 1996 Raytheon contract note, first operational USAF delivery, digital panels, aerobatic training identity, and technical notes."
       },
       {
-        "id": "fn-method",
-        "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
-        "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "id": "fn-navy-t6b",
+        "title": "T-6B Texan II Turboprop Trainer",
+        "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2166435/t-6b-texan-ii-turboprop-trainer/",
+        "publisher": "U.S. Navy",
+        "note": "Used for T-6B JPATS role, T-34C replacement, avionics upgrade, glass cockpit, Navy inventory, basing, and T-6B IOC timeline."
+      },
+      {
+        "id": "fn-aetc-masterplan",
+        "title": "A Training System for the 21st Century: JPATS and the T-6A USAF Trainer Masterplan",
+        "url": "https://www.aetc.af.mil/Portals/88/Documents/history/AFD-061213-005.pdf?ver=2016-01-12-160013-127",
+        "publisher": "Air Education and Training Command History Office",
+        "note": "Used for JPATS background, official Texan II naming, 15 July 1998 first production flight, Beech Field test profile, and Air Force IOC planning."
+      },
+      {
+        "id": "fn-ntis-case-study",
+        "title": "T-6A Texan II Systems Engineering Case Study",
+        "url": "https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA538810.xhtml",
+        "publisher": "National Technical Reports Library / AFIT case study",
+        "note": "Used for the JPATS system framing: aircraft, ground-based training system, and contractor logistics elements."
+      },
+      {
+        "id": "fn-textron-t6c",
+        "title": "T-6C Texan II",
+        "url": "https://defense.txtav.com/en/t-6c",
+        "publisher": "Textron Aviation Defense",
+        "note": "Used for T-6C specifications, hardpoints, fuel figures, and current manufacturer description."
+      },
+      {
+        "id": "fn-raf-texan",
+        "title": "Texan T1",
+        "url": "https://www.raf.mod.uk/aircraft/texan-t1/",
+        "publisher": "Royal Air Force",
+        "note": "Used for UK Texan T1 role, RAF Valley basing, 72 Squadron, first student graduation in 2020, cockpit features, g limits, and speed/altitude figures."
+      },
+      {
+        "id": "fn-textron-japan",
+        "title": "Japan selects Beechcraft T-6 Texan II Integrated Training System to modernize Japan Air Self-Defense Force pilot training",
+        "url": "https://media.txtav.com/245342-japan-selects-beechcraft-t-6-texan-ii-integrated-training-system-to-modernize-japan-air-self-defense-force-pilot-training/",
+        "publisher": "Textron Aviation Defense",
+        "note": "Used for more than 1,000 deliveries, more than 5 million flight hours, 14 nations and two NATO flight schools, listed operator set, and Japan selection."
+      },
+      {
+        "id": "fn-pacaf-vietnam",
+        "title": "PACAF commander makes historic delivery of T-6C Texan IIs to Vietnam",
+        "url": "https://www.af.mil/News/Article-Display/Article/3975307/pacaf-commander-makes-historic-delivery-of-t-6c-texan-iis-to-vietnam/",
+        "publisher": "U.S. Air Force / Pacific Air Forces",
+        "note": "Used for 20 November 2024 Vietnam delivery ceremony, first three aircraft, Phan Thiet Air Base, and 12-aircraft delivery plan."
+      },
+      {
+        "id": "fn-textron-vietnam",
+        "title": "History-making Beechcraft T-6C Texan II sale supports the U.S.-Vietnam Comprehensive Strategic Partnership",
+        "url": "https://media.txtav.com/244551-history-making-beechcraft-t-6c-texan-ii-sale-supports-the-u-s-vietnam-comprehensive-strategic-partnership-advances-u-s-interests-in-th/",
+        "publisher": "Textron Aviation Defense",
+        "note": "Used for the Vietnam FMS program framing and first five aircraft arrival context."
+      },
+      {
+        "id": "fn-airforcetimes-upe",
+        "title": "Latest wave of hypoxia-like events in T-6 grows to 12",
+        "url": "https://www.airforcetimes.com/news/your-air-force/2018/04/18/latest-wave-of-hypoxia-like-events-in-t-6-grows-to-12/",
+        "publisher": "Air Force Times",
+        "note": "Used for 2018 T-6 unexplained physiological events, February grounding period, and later reported events."
+      },
+      {
+        "id": "fn-military-obogs-fix",
+        "title": "Air Force Announces Fix to Hypoxia Problems in T-6 Aircraft",
+        "url": "https://www.military.com/dodbuzz/2018/09/14/air-force-announces-fix-hypoxia-problems-t-6-aircraft.html",
+        "publisher": "Military.com",
+        "note": "Used for oxygen-system corrective measures, OBOGS maintenance changes, and AETC mitigation reporting."
+      },
+      {
+        "id": "fn-aib-randolph",
+        "title": "T-6A, T/N 05-6209, JBSA-Randolph, Texas Accident Investigation Board Report",
+        "url": "https://www.airandspaceforces.com/app/uploads/2019/05/0918_T6_Randolph.pdf",
+        "publisher": "U.S. Air Force Accident Investigation Board via Air & Space Forces Magazine",
+        "note": "Used for the 18 September 2018 Randolph-area crash facts and report source."
+      },
+      {
+        "id": "fn-navy-foley",
+        "title": "U.S. Navy T-6B Texan II Aircraft Crash, Foley, Alabama",
+        "url": "https://www.navy.mil/Press-Office/Press-Releases/display-pressreleases/Article/2393260/us-navy-t-6b-texan-ii-aircraft-crash-foley-alabama/",
+        "publisher": "U.S. Navy",
+        "note": "Used for the 23 October 2020 Foley, Alabama, T-6B crash and no-civilian-injury update."
+      },
+      {
+        "id": "fn-ap-ejection-seat",
+        "title": "Air Force instructor pilot killed when ejection seat activated at Texas base",
+        "url": "https://apnews.com/article/pilot-ejection-seat-air-force-texas-245af4f7949346feecdd8032a92d031c",
+        "publisher": "Associated Press",
+        "note": "Used for the 13-14 May 2024 Sheppard AFB fatal ground ejection-seat event and 2022 CAD-inspection background."
+      },
+      {
+        "id": "fn-ap-thailand",
+        "title": "Thai Air Force says 2 pilots killed in plane crash during training mission",
+        "url": "https://apnews.com/article/thailand-plane-crash-deaths-ab3958e101692123c90971a7cc328a55",
+        "publisher": "Associated Press",
+        "note": "Used for the 29 January 2026 Royal Thai Air Force AT-6TH Wolverine crash and investigation caveat."
+      },
+      {
+        "id": "fn-public-perception-t6",
+        "title": "Public Perception Research: Beechcraft T-6 Texan II",
+        "url": "AIRCRAFT%20PUBLIC%20PERCEPTION/T6.txt",
+        "publisher": "Milipedia local research file",
+        "note": "Local public-perception research file created for this aircraft expansion; used for social-media reputation, community discussion, myths, and neutral public-perception synthesis."
+      },
+      {
+        "id": "fn-reddit-miss-flying",
+        "title": "What's an airplane that you flew in the past, and miss flying nowadays?",
+        "url": "https://www.reddit.com/r/flying/comments/1dq8cfb/whats_an_airplane_that_you_flew_in_the_past_and/",
+        "publisher": "Reddit / r/flying",
+        "note": "Used only as public-opinion evidence for pilot and enthusiast comments about T-6 handling and training reputation."
+      },
+      {
+        "id": "fn-airwarriors-t6",
+        "title": "T-6 Texan II",
+        "url": "https://www.airwarriors.com/community/threads/t-6-texan-ii.59/",
+        "publisher": "Air Warriors forum",
+        "note": "Used only as community and historical-public-discussion evidence for early T-6 arrival expectations and training reputation."
+      },
+      {
+        "id": "fn-wikimedia-t6a",
+        "title": "File:T-6A Texan II.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:T-6A_Texan_II.jpg",
+        "publisher": "Wikimedia Commons / U.S. Air Force public-domain image",
+        "note": "Used for the primary aircraft image source and license context."
+      },
+      {
+        "id": "fn-wikimedia-navy",
+        "title": "File:T6 Texan II Pensacola Navy.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:T6_Texan_II_Pensacola_Navy.jpg",
+        "publisher": "Wikimedia Commons / U.S. Navy public-domain image",
+        "note": "Used for gallery image source and Navy T-6B caption context."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "USAF T-6A Fact Sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104548/t-6a-texan-ii/"
+      },
+      {
+        "title": "U.S. Navy T-6B Fact File",
+        "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2166435/t-6b-texan-ii-turboprop-trainer/"
+      },
+      {
+        "title": "Local Public Perception Research",
+        "url": "AIRCRAFT%20PUBLIC%20PERCEPTION/T6.txt"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Beechcraft T-6 Texan II is a Basic trainer from United States. Manufacturer: Beechcraft. First flight: 1998. Introduction: 2001. Status: Active.",
+            "text": "The Beechcraft T-6 Texan II is a single-engine, tandem-seat turboprop military trainer built for the Joint Primary Aircraft Training System, or JPATS. It is used to teach basic military flying skills common to U.S. Air Force, Navy, Marine Corps, Coast Guard, and partner-nation pilot pipelines, rather than to serve as a front-line combat aircraft.",
             "refs": [
-              "fn-main"
+              "fn-usaf-t6a",
+              "fn-navy-t6b"
             ]
           },
           {
-            "text": "Beechcraft T-6 Texan II is a trainer. Primary role: basic trainer. Country of origin: United States. Manufacturer: Beechcraft.",
+            "text": "The aircraft was produced originally under Raytheon Aircraft ownership and later under Hawker Beechcraft and Textron Aviation Defense lineage. Official Air Force and museum sources describe it as a military trainer version of the Beech/Pilatus PC-9 Mk II, adapted for U.S. training requirements with tandem seating, a PT6A-68 turboprop, digital panels, ejection seats, pressurization, and aerobatic capability.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf-t6a",
+              "fn-nmusaf-t6a"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Its importance is institutional: it replaced older T-37 and T-34C training fleets, standardized large parts of Air Force and Navy primary training, and became an export training system. By January 2025, Textron reported more than 1,000 T-6 family aircraft delivered, more than 5 million fleet flight hours, use across 14 nations, and operation in two NATO flight schools.",
             "refs": [
-              "fn-method"
+              "fn-navy-t6b",
+              "fn-textron-japan"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Basic trainer"
+            "text": "Primary military pilot training"
           },
           {
-            "title": "Designer or builder",
-            "text": "Beechcraft"
+            "title": "Training system",
+            "text": "JPATS aircraft, simulators, courseware, training management, and support"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Powerplant",
+            "text": "PT6A-68-family turboprop"
           },
           {
-            "title": "Propulsion",
-            "text": "Turboprop"
+            "title": "Global scale",
+            "text": "1,000+ delivered; 5 million+ fleet hours reported by Textron in 2025"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Beechcraft T-6 Texan II first flew in 1998. Introduction date: 2001. Era: Modern.",
+            "text": "Background: JPATS grew from a requirement to modernize and streamline primary military pilot training, replacing the Air Force T-37B and Navy T-34C with a common aircraft and larger integrated training system. The AFIT systems-engineering case study frames JPATS as more than the aircraft alone, including a Ground Based Training System and Contractor Operated and Maintained Base Supply support.",
             "refs": [
-              "fn-main"
+              "fn-navy-t6b",
+              "fn-ntis-case-study"
             ]
           },
           {
-            "text": "Producer: Beechcraft. Development context: basic trainer, turboprop propulsion, subsonic speed category, Modern era.",
+            "text": "Selection and naming: The T-6A was selected as the standardized JPATS aircraft, with first contracts awarded to Raytheon in 1996. AETC history records that HQ USAF approved T-6A as the mission-design-series designation on 16 December 1996 and that Texan II was approved as the official name on 9 April 1997, honoring the older North American T-6 training lineage without being the same aircraft.",
             "refs": [
-              "fn-wikidata"
+              "fn-nmusaf-t6a",
+              "fn-aetc-masterplan"
+            ]
+          },
+          {
+            "text": "Design and testing: AETC history states that the first production T-6A Texan II flew at Raytheon Aircraft Beech Field in Wichita on 15 July 1998. The 1.8-hour sortie included basic flying-qualities checks, idle-power stalls, aerobatics including a loop, aileron roll, and barrel roll, and a functional systems check; the same airframe later supported FAA certification, military qualification, and operational assessment work.",
+            "refs": [
+              "fn-aetc-masterplan"
+            ]
+          },
+          {
+            "text": "Production and fielding: The first operational USAF airframe was delivered in 2000, and the aircraft entered Air Force primary training in the 2001 period. The Navy later pursued the T-6B avionics-upgrade path, awarded full T-6B production on 29 October 2009, and reached T-6B initial operational capability at NAS Whiting Field in 2010.",
+            "refs": [
+              "fn-nmusaf-t6a",
+              "fn-navy-t6b"
+            ]
+          },
+          {
+            "text": "Upgrades and derivatives: The T-6B added glass-cockpit avionics, multifunction displays, HUD, HOTAS, dual redundant integrated avionics computers, and an open-architecture approach. The T-6C export family added modern training features and hardpoint provisions, while the AT-6 Wolverine derivative added armed light-attack and reconnaissance capability that should be distinguished from standard trainer variants.",
+            "refs": [
+              "fn-navy-t6b",
+              "fn-textron-t6c"
             ]
           }
-        ],
-        "bullets": []
+        ]
       },
       {
         "id": "design",
-        "title": "Design and Capabilities",
+        "title": "Design",
         "paragraphs": [
           {
-            "text": "Crew: 2. Propulsion: Turboprop. Speed category: Subsonic.",
+            "text": "Airframe: The Texan II is a low-wing, tandem-seat turboprop trainer with retractable landing gear, side-opening canopy, and an airframe suited to aerobatics and high-tempo training sorties. It is not carrier capable and is not a stealth aircraft; its design priority is repeatable training, visibility, performance, and maintainability.",
             "refs": [
-              "fn-main"
+              "fn-usaf-t6a",
+              "fn-nmusaf-t6a"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Cockpit: Stepped tandem seating places the student and instructor in a single cockpit with interchangeable forward and rear control positions; solo operation is from the front seat. The Navy T-6B adds a glass cockpit with three 5-by-7 multifunction displays, HUD, HOTAS, dual redundant integrated avionics computers, and an open architecture for future growth.",
             "refs": [
-              "fn-method"
+              "fn-usaf-t6a",
+              "fn-navy-t6b"
             ]
           },
           {
-            "text": "Beechcraft T-6 Texan II uses turboprop propulsion. Engine model field: Not listed.",
+            "text": "Engine and performance: USAF and museum sources list a Pratt & Whitney Canada PT6A-68 turboprop rated at 1,100 hp/shp. USAF material emphasizes the trainer can climb initially at about 3,100 ft/min and reach 18,000 ft in less than six minutes, giving student pilots substantial energy-management training compared with light civil trainers.",
             "refs": [
-              "fn-main"
+              "fn-usaf-t6a",
+              "fn-nmusaf-t6a"
             ]
           },
           {
-            "text": "Armament field: Trainer aircraft; light-attack stores not listed. Exact weapon list: Not listed.",
+            "text": "Avionics and training systems: JPATS combines the aircraft with simulators, computer-aided academics, and training management tools. The Navy says the program uses commercial-off-the-shelf subsystems where possible, while the T-6B avionics upgrade gives naval students a modern glass-cockpit training environment before later fleet aircraft.",
             "refs": [
-              "fn-main"
+              "fn-navy-t6b",
+              "fn-ntis-case-study"
+            ]
+          },
+          {
+            "text": "Weapons systems: The baseline T-6A/B trainer is normally unarmed. Textron lists the T-6C with six hardpoints / NATO-standard weapons stations, and the AT-6 Wolverine derivative adds a light-attack mission system; those features should be described by variant rather than treated as universal T-6 capability.",
+            "refs": [
+              "fn-textron-t6c"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "2"
+            "title": "Canopy",
+            "text": "Side-opening, one-piece canopy; USAF notes bird-strike resistance testing at 270 kt"
           },
           {
-            "title": "Engine class",
-            "text": "Turboprop"
+            "title": "Seats",
+            "text": "Tandem student/instructor cockpit with ejection seats"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "T-6B avionics",
+            "text": "MFDs, HUD, HOTAS, dual integrated avionics computers"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "G training",
+            "text": "RAF Texan T1 page lists -3.5G to +7G capability"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Beechcraft T-6 Texan II status: Active. Conflict entries: 0.",
+            "text": "Variant basis: The following values describe the T-6A/T-6C family as published by USAF, National Museum of the USAF, RAF, and Textron sources. Values vary by variant, national configuration, fuel fit, and whether the source describes T-6A, T-6B, T-6C, or Texan T1.",
             "refs": [
-              "fn-main"
+              "fn-usaf-t6a",
+              "fn-nmusaf-t6a",
+              "fn-raf-texan",
+              "fn-textron-t6c"
             ]
           },
           {
-            "text": "Conflicts: 0 entries.",
+            "text": "Crew: 2 in tandem, normally student and instructor; solo from the front seat. Dimensions: length 33 ft 4 in / 10.16 m; height 10 ft 8 in / 3.25 m; wingspan 33 ft 5 in / 10.2 m; wing area 175.3 sq ft / 16.28 sq m in the T-6C manufacturer data.",
             "refs": [
-              "fn-method"
+              "fn-usaf-t6a",
+              "fn-textron-t6c"
+            ]
+          },
+          {
+            "text": "Weights and fuel: Textron lists T-6C maximum takeoff weight and maximum landing weight at 8,300 lb / 3,765 kg, basic weight at 5,150 lb / 2,336 kg, internal fuel at 1,200 lb / 544 kg, fuel with two external tanks at 2,054 lb / 932 kg, and maximum usable fuel with four tanks at 2,908 lb / 1,319 kg.",
+            "refs": [
+              "fn-textron-t6c"
+            ]
+          },
+          {
+            "text": "Performance: The USAF museum lists range at 900 nautical miles, speed at 320 mph, and ceiling at 31,000 ft for the T-6A. The RAF Texan T1 page lists 316 kt / Mach 0.67 maximum speed, 31,000 ft maximum altitude, and -3.5G to +7G limits for its T-6C-based Texan T1.",
+            "refs": [
+              "fn-nmusaf-t6a",
+              "fn-raf-texan"
+            ]
+          },
+          {
+            "text": "Armament and stations: Baseline trainers are normally unarmed. Textron lists six total hardpoints / NATO-standard weapons stations for T-6C, while the armed AT-6 family adds variant-specific mission and weapons capability.",
+            "refs": [
+              "fn-textron-t6c"
             ]
           }
         ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
+        "cards": [
           {
-            "text": "Beechcraft T-6 Texan II named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Powerplant",
+            "text": "1 x Pratt & Whitney Canada PT6A-68, 1,100 hp/shp class"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "33 ft 4 in / 10.16 m"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Wingspan",
+            "text": "33 ft 5 in / 10.2 m"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "MTOW",
+            "text": "8,300 lb / 3,765 kg in T-6C data"
+          },
+          {
+            "title": "Ceiling",
+            "text": "31,000 ft class"
+          },
+          {
+            "title": "Hardpoints",
+            "text": "6 on T-6C; not universal to all trainers"
           }
         ]
       },
@@ -19936,35 +20336,51 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Beechcraft T-6 Texan II variant-family entries: 3. Variant families: Beechcraft T-6 Texan II baseline production model; Beechcraft T-6 Texan II upgraded avionics or weapons-capable model; Beechcraft T-6 Texan II two-seat trainer or conversion model.",
+            "text": "The Texan II family should be read as a training-system family, not one single configuration. T-6A, T-6B, T-6C, Texan T1, CT-156, and AT-6 aircraft have different avionics, operators, hardpoint provisions, and mission fits.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-navy-t6b",
+              "fn-raf-texan",
+              "fn-textron-t6c"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Beechcraft T-6 Texan II baseline production model",
+            "text": "T-6A Texan II: baseline JPATS primary trainer used by the U.S. Air Force and selected Navy/NFO training roles.",
             "refs": [
-              "fn-main"
+              "fn-usaf-t6a",
+              "fn-nmusaf-t6a"
             ]
           },
           {
-            "text": "Beechcraft T-6 Texan II upgraded avionics or weapons-capable model",
+            "text": "T-6B Texan II: U.S. Navy upgraded avionics variant with glass cockpit, HUD, HOTAS, and open-architecture avionics; IOC at NAS Whiting Field in 2010.",
             "refs": [
-              "fn-main"
+              "fn-navy-t6b"
             ]
           },
           {
-            "text": "Beechcraft T-6 Texan II two-seat trainer or conversion model",
+            "text": "T-6C Texan II: export and later training model with modern avionics and hardpoint provisions; Textron lists six hardpoints / weapons stations.",
             "refs": [
-              "fn-main"
+              "fn-textron-t6c"
+            ]
+          },
+          {
+            "text": "Texan T1: RAF designation for the T-6C used at RAF Valley; first RAF student pilots graduated in 2020.",
+            "refs": [
+              "fn-raf-texan"
+            ]
+          },
+          {
+            "text": "CT-156 Harvard II: Canadian/NATO training designation associated with the T-6 family.",
+            "refs": [
+              "fn-textron-japan"
+            ]
+          },
+          {
+            "text": "AT-6 Wolverine / AT-6TH: armed light-attack and reconnaissance derivative; relevant to light-attack procurement debate but not the same as a baseline T-6A/B primary trainer.",
+            "refs": [
+              "fn-textron-t6c",
+              "fn-ap-thailand"
             ]
           }
         ]
@@ -19974,59 +20390,409 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Beechcraft T-6 Texan II has 1 designer or builder country entry.",
+            "text": "Current national military operators include the United States, United Kingdom, Canada, Greece, Israel, Iraq, Mexico, Morocco, New Zealand, Thailand, Tunisia, Colombia, Argentina, Vietnam, and other users depending on variant and delivery date. Textron reported the family across 14 nations and two NATO flight schools by January 2025; the figure should be treated as manufacturer-reported and time-sensitive.",
             "refs": [
-              "fn-wikidata"
+              "fn-textron-japan"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "United States: The Air Force uses T-6A aircraft for primary pilot training and related training roles, while the Navy uses T-6B aircraft for primary naval aviator training at NAS Whiting Field and NAS Corpus Christi, with additional aircraft at the U.S. Navy Test Pilot School at Patuxent River.",
             "refs": [
-              "fn-method"
+              "fn-usaf-t6a",
+              "fn-navy-t6b"
+            ]
+          },
+          {
+            "text": "United Kingdom: The RAF operates the T-6C as the Texan T1 from RAF Valley with 72 Squadron for Basic Flight Training and basic fast-jet preparation; the RAF page states the first student pilots graduated in 2020.",
+            "refs": [
+              "fn-raf-texan"
+            ]
+          },
+          {
+            "text": "Vietnam: Pacific Air Forces reported a 20 November 2024 ceremony at Phan Thiet Air Base marking delivery of the first three T-6C Texan IIs, with a full complement of 12 planned by 2025. Textron described the program as the first T-6C Foreign Military Sales program between the USAF and Vietnam ADAF.",
+            "refs": [
+              "fn-pacaf-vietnam",
+              "fn-textron-vietnam"
+            ]
+          },
+          {
+            "text": "Japan: Textron announced on 28 January 2025 that Japan selected the T-6 Texan II Integrated Training System to modernize Japan Air Self-Defense Force pilot training and replace the Fuji/Subaru T-7, with contract finalization expected in 2025.",
+            "refs": [
+              "fn-textron-japan"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Private/civilian operators are not central to the T-6 Texan II record; the article treats the aircraft primarily as a military and government training platform.",
             "refs": [
-              "fn-main"
+              "fn-textron-japan"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "Former-operator coverage remains limited in public official sources because the aircraft is still active and relatively modern; this section should be revisited as retirement data becomes better documented.",
             "refs": [
-              "fn-wikidata"
+              "fn-public-perception-t6"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "service",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 2, propulsion type Turboprop, maximum speed category Subsonic, first flight 1998, introduction 2001.",
+            "text": "2000-2001 U.S. Air Force introduction: The National Museum of the USAF states that the first operational T-6A was delivered to the USAF in 2000, and Air Force fact-sheet material identifies the T-6A as the primary trainer for Joint Primary Pilot Training students. This marked the aircraft moving from JPATS acquisition into training-line service.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf-t6a",
+              "fn-usaf-t6a"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "2009-2010 U.S. Navy T-6B fielding: The Navy awarded the full production contract for the T-6B on 29 October 2009 and reached T-6B IOC at NAS Whiting Field in 2010. Navy sources state that T-6B aircraft replaced the T-34C and support undergraduate primary training for Navy, Marine Corps, Coast Guard, and select international students.",
             "refs": [
-              "fn-method"
+              "fn-navy-t6b"
+            ]
+          },
+          {
+            "text": "2017-2018 physiological-event period: Air Force Times reported that the T-6 fleet was grounded for nearly all of February 2018 after 13 pilots at Columbus, Vance, and Sheppard reported unexplained physiological events in one January week. Later reporting said events continued after the return to flight, leading to oxygen-system corrective actions and increased OBOGS maintenance.",
+            "refs": [
+              "fn-airforcetimes-upe",
+              "fn-military-obogs-fix"
+            ]
+          },
+          {
+            "text": "2018 light-attack experiment context: The AT-6 Wolverine derivative, not the baseline trainer, became part of U.S. light-attack experimentation alongside the A-29 Super Tucano. This gave the T-6 family a public combat-aircraft debate even though the standard T-6A/B/C remained a training platform.",
+            "refs": [
+              "fn-public-perception-t6"
+            ]
+          },
+          {
+            "text": "2024 Vietnam delivery: On 20 November 2024, Pacific Air Forces reported the first three T-6C Texan IIs delivered to Vietnam at Phan Thiet Air Base, framing the event as both pilot-training modernization and U.S.-Vietnam defense cooperation.",
+            "refs": [
+              "fn-pacaf-vietnam"
+            ]
+          },
+          {
+            "text": "2025 Japan selection: In January 2025, Textron announced Japan had selected the T-6 Texan II Integrated Training System for JASDF pilot-training modernization, which extended the aircraft family into another major allied training pipeline.",
+            "refs": [
+              "fn-textron-japan"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "notable",
+        "title": "Notable Events and Incidents",
         "paragraphs": [
           {
-            "text": "Beechcraft T-6 Texan II similar-development links: 4.",
+            "text": "15 July 1998: The first production T-6A Texan II flew at Raytheon Aircraft Beech Field in Wichita on a 1.8-hour test sortie that included flying-qualities work, stalls, aerobatics, and systems checks.",
             "refs": [
-              "fn-method"
+              "fn-aetc-masterplan"
+            ]
+          },
+          {
+            "text": "2000-2001: The first operational aircraft was delivered to the USAF in 2000, with the Air Force training system moving toward 2001 initial operational use.",
+            "refs": [
+              "fn-nmusaf-t6a"
+            ]
+          },
+          {
+            "text": "29 October 2009 and 2010: The Navy awarded full T-6B production on 29 October 2009, and T-6B IOC followed at NAS Whiting Field in 2010.",
+            "refs": [
+              "fn-navy-t6b"
+            ]
+          },
+          {
+            "text": "February 2018: The T-6 fleet experienced an operational pause/grounding period after clustered unexplained physiological events; later corrective actions focused on oxygen-system redesign, oxygen-control adjustments, and OBOGS maintenance.",
+            "refs": [
+              "fn-airforcetimes-upe",
+              "fn-military-obogs-fix"
+            ]
+          },
+          {
+            "text": "18 September 2018: USAF T-6A 05-6209 crashed near JBSA-Randolph during an instructor qualification sortie; the public AIB report documents the crash and investigation record.",
+            "refs": [
+              "fn-aib-randolph"
+            ]
+          },
+          {
+            "text": "23 October 2020: A U.S. Navy T-6B crashed in Foley, Alabama; the Navy confirmed no civilian injuries and cooperated with local authorities at the crash site.",
+            "refs": [
+              "fn-navy-foley"
+            ]
+          },
+          {
+            "text": "13-14 May 2024: Capt. John Robertson died after a T-6A ejection seat activated during ground operations at Sheppard AFB; AP also noted 2022 cartridge-actuated-device inspections affecting T-6 and other military aircraft.",
+            "refs": [
+              "fn-ap-ejection-seat"
+            ]
+          },
+          {
+            "text": "29 January 2026: A Royal Thai Air Force AT-6TH Wolverine crashed during a training mission near Chiang Mai, killing two pilots; AP reported the cause remained under investigation.",
+            "refs": [
+              "fn-ap-thailand"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "The T-6 Texan II is most usefully compared with primary trainers and light-attack derivatives, not with front-line fighters. Its closest comparison set includes the aircraft it replaced, the PC-9 lineage it came from, and the A-29 Super Tucano because of AT-6 Wolverine light-attack debate.",
+            "refs": [
+              "fn-public-perception-t6"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Cessna T-37 Tweet: former USAF jet primary trainer replaced by the T-6A; the T-6 brought a modern turboprop training system rather than a small twin-jet cockpit.",
+            "refs": [
+              "fn-nmusaf-t6a"
+            ]
+          },
+          {
+            "text": "Beechcraft T-34C Turbo Mentor: Navy predecessor replaced by JPATS/T-6B in primary naval training; the T-6B added glass-cockpit avionics and higher-performance training.",
+            "refs": [
+              "fn-navy-t6b"
+            ]
+          },
+          {
+            "text": "Pilatus PC-9: design lineage source; the Texan II is a military trainer version of the Beech/Pilatus PC-9 Mk II adapted for JPATS.",
+            "refs": [
+              "fn-usaf-t6a"
+            ]
+          },
+          {
+            "text": "A-29 Super Tucano: most often compared with the AT-6 Wolverine, not the baseline trainer; public debate usually contrasts A-29 combat record with AT-6 commonality to the T-6 training fleet.",
+            "refs": [
+              "fn-public-perception-t6"
+            ]
+          },
+          {
+            "text": "Northrop T-38 Talon: later advanced jet-training step for many U.S. pilot tracks; the T-6 builds primary skills before students move to more specialized aircraft.",
+            "refs": [
+              "fn-public-perception-t6"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths and limitations should be tied to training-system design rather than combat mythology. The T-6 is valuable because it exposes students to military procedures, energy management, instruments, formation, aerobatics, and ejection-seat operations early, but it remains a subsonic trainer with safety, sustainment, and variant-specific caveats.",
+            "refs": [
+              "fn-usaf-t6a",
+              "fn-navy-t6b",
+              "fn-public-perception-t6"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: Common Air Force/Navy JPATS basis simplified large parts of U.S. primary training around one aircraft and integrated training architecture.",
+            "refs": [
+              "fn-ntis-case-study",
+              "fn-navy-t6b"
+            ]
+          },
+          {
+            "text": "Strength: PT6A-68 power, aerobatic capability, pressurization, OBOGS, and ejection seats make it a much more military-like first aircraft than light civil trainers.",
+            "refs": [
+              "fn-usaf-t6a",
+              "fn-nmusaf-t6a"
+            ]
+          },
+          {
+            "text": "Strength: T-6B/C avionics give students glass-cockpit, HUD/HOTAS, and modern training-system exposure before later fleet aircraft.",
+            "refs": [
+              "fn-navy-t6b",
+              "fn-raf-texan"
+            ]
+          },
+          {
+            "text": "Strength: Global adoption and manufacturer-reported 5 million-plus flight hours make it a mature training fleet rather than a niche aircraft.",
+            "refs": [
+              "fn-textron-japan"
+            ]
+          },
+          {
+            "text": "Limitation: It is not a front-line combat aircraft in baseline T-6A/B/C form; AT-6 Wolverine capability should be handled separately.",
+            "refs": [
+              "fn-textron-t6c",
+              "fn-public-perception-t6"
+            ]
+          },
+          {
+            "text": "Limitation: 2017-2018 unexplained physiological events and oxygen-system fixes remain part of its safety history.",
+            "refs": [
+              "fn-airforcetimes-upe",
+              "fn-military-obogs-fix"
+            ]
+          },
+          {
+            "text": "Limitation: Ejection-seat component concerns and the 2024 Sheppard AFB fatality make seat safety a source-sensitive topic requiring careful wording.",
+            "refs": [
+              "fn-ap-ejection-seat"
+            ]
+          },
+          {
+            "text": "Limitation: Public operator and retirement data can change quickly as air forces receive new T-6C aircraft, select future systems, or retire older training variants.",
+            "refs": [
+              "fn-textron-japan",
+              "fn-pacaf-vietnam"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "public-perception",
+        "title": "Public Perception",
+        "paragraphs": [
+          {
+            "text": "The T-6 Texan II has a practical reputation rather than a glamorous combat reputation. Public and aviation-community discussion usually treats it as the first serious military aircraft many students fly: powerful for a primary trainer, nimble, direct, and demanding enough to teach discipline before students move to more specialized tracks.",
+            "refs": [
+              "fn-public-perception-t6",
+              "fn-reddit-miss-flying"
+            ]
+          },
+          {
+            "text": "Supporters, including pilots and enthusiasts in social discussions, often praise its handling, formation/aerobatic role, and ability to withstand repeated student use. These are public-opinion themes, not independently verified performance claims, so the article treats them as reputation evidence rather than technical proof.",
+            "refs": [
+              "fn-public-perception-t6",
+              "fn-reddit-miss-flying"
+            ]
+          },
+          {
+            "text": "Criticism centers on safety events and training stress: the 2017-2018 physiological-event period, OBOGS fixes, ejection-seat component inspections, and the 2024 fatal ground ejection-seat event are frequently referenced in public discussion. Neutral coverage should identify those events with reliable reporting while avoiding an unsourced claim that the aircraft is broadly unsafe.",
+            "refs": [
+              "fn-airforcetimes-upe",
+              "fn-military-obogs-fix",
+              "fn-ap-ejection-seat",
+              "fn-public-perception-t6"
+            ]
+          },
+          {
+            "text": "Two common public confusions are worth separating: the Texan II is not the World War II-era North American T-6 Texan, although it honors that name; and the AT-6 Wolverine is an armed derivative, not the normal role of every T-6A/B/C trainer.",
+            "refs": [
+              "fn-aetc-masterplan",
+              "fn-public-perception-t6"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Public reputation keywords: practical, nimble, stressful, honest, modern trainer, student-pilot milestone, and safety-discussion aircraft.",
+            "refs": [
+              "fn-public-perception-t6"
+            ]
+          },
+          {
+            "text": "Community sources are used only as perception evidence; technical and safety claims are tied to official, news, or investigation sources.",
+            "refs": [
+              "fn-public-perception-t6"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "1988: Air Training Command published the USAF Trainer Masterplan, helping shape later specialized undergraduate pilot training and JPATS planning.",
+            "refs": [
+              "fn-aetc-masterplan"
+            ]
+          },
+          {
+            "text": "1996: First T-6A contracts were awarded to Raytheon after JPATS selection.",
+            "refs": [
+              "fn-nmusaf-t6a"
+            ]
+          },
+          {
+            "text": "16 December 1996: HQ USAF approved T-6A as the mission-design-series designation.",
+            "refs": [
+              "fn-aetc-masterplan"
+            ]
+          },
+          {
+            "text": "9 April 1997: Texan II was approved as the official JPATS aircraft name.",
+            "refs": [
+              "fn-aetc-masterplan"
+            ]
+          },
+          {
+            "text": "15 July 1998: First production T-6A flew at Beech Field in Wichita.",
+            "refs": [
+              "fn-aetc-masterplan"
+            ]
+          },
+          {
+            "text": "2000: First operational T-6A airframe was delivered to the USAF.",
+            "refs": [
+              "fn-nmusaf-t6a"
+            ]
+          },
+          {
+            "text": "2001: T-6A introduction period for USAF primary training.",
+            "refs": [
+              "fn-usaf-t6a",
+              "fn-nmusaf-t6a"
+            ]
+          },
+          {
+            "text": "29 October 2009: Navy full T-6B production contract awarded.",
+            "refs": [
+              "fn-navy-t6b"
+            ]
+          },
+          {
+            "text": "2010: T-6B reached IOC at NAS Whiting Field.",
+            "refs": [
+              "fn-navy-t6b"
+            ]
+          },
+          {
+            "text": "February 2018: T-6 fleet operational pause/grounding period after clustered physiological events.",
+            "refs": [
+              "fn-airforcetimes-upe"
+            ]
+          },
+          {
+            "text": "20 November 2024: First T-6C aircraft delivery ceremony for Vietnam at Phan Thiet Air Base.",
+            "refs": [
+              "fn-pacaf-vietnam"
+            ]
+          },
+          {
+            "text": "28 January 2025: Japan selection announced for the T-6 Texan II Integrated Training System.",
+            "refs": [
+              "fn-textron-japan"
+            ]
+          },
+          {
+            "text": "29 January 2026: Royal Thai Air Force AT-6TH crash near Chiang Mai; cause under investigation in AP reporting.",
+            "refs": [
+              "fn-ap-thailand"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related aircraft include primary trainers, advanced trainers, light-attack derivatives, and aircraft connected through JPATS lineage or public comparison.",
+            "refs": [
+              "fn-public-perception-t6"
             ]
           }
         ],
@@ -20034,6 +20800,10 @@
           {
             "label": "Northrop T-38 Talon",
             "url": "aircraft.html?id=t-38-talon"
+          },
+          {
+            "label": "Embraer EMB 314 Super Tucano",
+            "url": "aircraft.html?id=embraer-emb-314-super-tucano"
           },
           {
             "label": "Yakovlev Yak-130",
@@ -20046,11 +20816,28 @@
           {
             "label": "Aermacchi MB-339",
             "url": "aircraft.html?id=mb-339"
+          },
+          {
+            "label": "Northrop F-5",
+            "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
           }
         ]
       }
     ],
-    "event_gallery": []
+    "event_gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/T6_Texan_II_Pensacola_Navy.jpg",
+        "caption": "U.S. Navy T-6B Texan II aircraft assigned to Training Wing 5 staged at Pensacola on 6 February 2014, photographed by MC3 Ty C. Connors.",
+        "credit": "U.S. Navy / Wikimedia Commons public-domain file",
+        "source_url": "https://commons.wikimedia.org/wiki/File:T6_Texan_II_Pensacola_Navy.jpg"
+      },
+      {
+        "url": "https://d21buns5ku92am.cloudfront.net/69280/images/568075-_I5P1620-553d29-original-1734192968.jpg",
+        "caption": "Beechcraft T-6 Texan II Integrated Training System image released with the 28 January 2025 Japan Air Self-Defense Force selection announcement.",
+        "credit": "Textron Aviation Defense media center",
+        "source_url": "https://media.txtav.com/245342-japan-selects-beechcraft-t-6-texan-ii-integrated-training-system-to-modernize-japan-air-self-defense-force-pilot-training/"
+      }
+    ]
   },
   {
     "id": "ah-1-cobra",

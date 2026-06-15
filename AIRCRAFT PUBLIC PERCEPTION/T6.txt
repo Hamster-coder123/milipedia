@@ -1,0 +1,147 @@
+# Public Perception Research: Beechcraft T-6 Texan II
+
+## 1. General Public Reputation
+
+The Beechcraft T-6 Texan II is not usually treated as a legendary combat aircraft. Its reputation is more practical: it is known as the U.S. Air Force and U.S. Navy primary military trainer that replaced older T-37 and T-34 training fleets and gives students their first exposure to a high-performance military cockpit. Official USAF, Navy, and museum descriptions emphasize its two-seat primary-training mission, JPATS role, PT6A-68 turboprop, ejection seats, aerobatic performance, and common Air Force/Navy training-system role:
+
+- USAF fact sheet: https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104548/t-6a-texan-ii/
+- U.S. Navy T-6B fact file: https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2166435/t-6b-texan-ii-turboprop-trainer/
+- National Museum of the USAF: https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196344/beechcraft-t-6a-texan-ii/
+
+Among student pilots and aviation enthusiasts, the recurring tone is respect mixed with training stress. It is often described as nimble, powerful for a trainer, honest-handling, and demanding enough to teach military habits early. A Reddit pilot discussion described the T-6A as direct, forgiving enough for students, still challenging enough to keep pilots learning, and enjoyable in formation and aerobatic training; those are personal opinions, not technical proof:
+
+- Reddit discussion, "What's an airplane that you flew in the past, and miss flying nowadays?": https://www.reddit.com/r/flying/comments/1dq8cfb/whats_an_airplane_that_you_flew_in_the_past_and/
+- Reddit discussion, "Any t6 Texan II pilots?": https://www.reddit.com/r/flying/comments/i64qwx/any_t6_texan_ii_pilots/
+
+The aircraft also has a safety-discussion reputation because of oxygen-system physiological events in 2017-2018, a 2022 ejection-seat-cartridge grounding that affected several U.S. military aircraft types, and a fatal 2024 ground ejection-seat activation at Sheppard AFB:
+
+- Air Force Times, 2018 physiological-event coverage: https://www.airforcetimes.com/news/your-air-force/2018/04/18/latest-wave-of-hypoxia-like-events-in-t-6-grows-to-12/
+- Military.com, 2018 oxygen-system fix coverage: https://www.military.com/dodbuzz/2018/09/14/air-force-announces-fix-hypoxia-problems-t-6-aircraft.html
+- Associated Press, 2024 Sheppard AFB ejection-seat fatality: https://apnews.com/article/pilot-ejection-seat-air-force-texas-245af4f7949346feecdd8032a92d031c
+
+## 2. Social Media Reputation
+
+Social discussion is mostly clustered around training, not combat status. Common themes include:
+
+| Theme | Public Source Type | Interpretation |
+|---|---|---|
+| "Fun to fly" and "nimble" | Reddit pilot and enthusiast comments | Opinion; consistent with the aircraft's aerobatic training role but not a formal performance assessment. |
+| "Stressful first military aircraft" | Reddit student-pilot advice threads | Opinion; reflects the training pipeline and checkride pressure more than a defect in the aircraft. |
+| OBOGS/hypoxia concern | Reddit posts reacting to 2017-2018 news and Air Force Times reporting | Public concern was grounded in real Air Force investigations, but online comments often simplified the issue as "hypoxia" even when official language used broader "unexplained physiological events." |
+| Confusion with the WWII North American T-6 Texan | Reddit and aviation-forum discussions | Common name confusion; the Texan II deliberately honors the older trainer, but it is a different turboprop aircraft. |
+| AT-6 Wolverine as a Super Tucano rival | Defense-news comments and aviation forums | Mostly procurement debate; the A-29 has combat-service credibility while AT-6 supporters emphasize commonality with the T-6 training fleet. |
+
+Useful sources:
+
+- Reddit "Struggling with T-6s" thread: https://www.reddit.com/r/flying/comments/eqgs0e/struggling_with_t6s_any_military_bros_have_tips/
+- Reddit "Air Force Grounds T-6 Trainers After Hypoxia-Like Events" thread: https://www.reddit.com/r/flying/comments/7gnvzr/air_force_grounds_t6_trainers_after_hypoxialike/
+- Air Warriors T-6 Texan II forum thread: https://www.airwarriors.com/community/threads/t-6-texan-ii.59/
+- YouTube walkaround/in-cockpit content by Hasard Lee: https://www.youtube.com/watch?v=yhrWlwDVr64
+
+## 3. What the Aircraft Is Known For
+
+Outside a specification sheet, the T-6 Texan II is best known for:
+
+- Being the Joint Primary Aircraft Training System aircraft used by U.S. Air Force and Navy pipelines.
+- Replacing the Cessna T-37 Tweet and T-34C Turbo Mentor in U.S. primary training.
+- Giving students a first high-performance military cockpit with tandem seating, ejection seats, pressurization, OBOGS, aerobatics, and instrument/formation training.
+- The Navy T-6B glass-cockpit upgrade, including multifunction displays, HUD, HOTAS, and open-architecture avionics.
+- Export and partner-training use by operators including Canada, Greece, Israel, Iraq, Mexico, Morocco, New Zealand, the United Kingdom, Thailand, Tunisia, Vietnam, and future Japanese service.
+- The armed AT-6 Wolverine derivative, which is often discussed as a light-attack/counter-insurgency cousin of the trainer.
+
+Fact-checking sources:
+
+- USAF T-6A fact sheet: https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104548/t-6a-texan-ii/
+- Navy T-6B fact file: https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2166435/t-6b-texan-ii-turboprop-trainer/
+- RAF Texan T1 page: https://www.raf.mod.uk/aircraft/texan-t1/
+- Textron Japan selection release: https://media.txtav.com/245342-japan-selects-beechcraft-t-6-texan-ii-integrated-training-system-to-modernize-japan-air-self-defense-force-pilot-training/
+
+## 4. Conflict Impact
+
+### Conflict: No major T-6 Texan II combat conflict
+
+The T-6 Texan II is primarily a training aircraft, so its main operational impact is not a battlefield effect in the way a fighter, bomber, or attack aircraft might have. Its conflict-adjacent importance is institutional: it produces pilots for air forces that later operate combat aircraft. Public discussion sometimes overstates this by treating the T-6 or AT-6 as if it were a front-line combat aircraft. A neutral article should separate the T-6 training family from the armed AT-6 Wolverine derivative.
+
+### Military situation: U.S. and partner pilot-training modernization
+
+The T-6 changed the U.S. primary-training pipeline by giving the Air Force and Navy a common JPATS aircraft and associated ground-based training system. The Navy describes JPATS as including the T-6B, simulators, computer-aided academics, and a Training Integration Management System. The Air Force historical JPATS study states that the production T-6A first flew at Beech Field in Wichita on 15 July 1998 and that the Air Force aimed for initial operational capability in August 2001:
+
+- AETC historical study, "JPATS and the T-6A USAF Trainer Masterplan": https://www.aetc.af.mil/Portals/88/Documents/history/AFD-061213-005.pdf?ver=2016-01-12-160013-127
+- Navy T-6B fact file: https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2166435/t-6b-texan-ii-turboprop-trainer/
+
+### Military situation: Vietnam pilot-training cooperation
+
+The 2024 T-6C delivery to Vietnam had diplomatic significance. Pacific Air Forces reported that the first three T-6C Texan IIs were delivered at Phan Thiet Air Base on 20 November 2024, with the full complement of 12 scheduled by 2025. Textron separately described the program as the first Foreign Military Sales T-6C program between the USAF and Vietnam ADAF:
+
+- PACAF article: https://www.af.mil/News/Article-Display/Article/3975307/pacaf-commander-makes-historic-delivery-of-t-6c-texan-iis-to-vietnam/
+- Textron Vietnam release: https://media.txtav.com/244551-history-making-beechcraft-t-6c-texan-ii-sale-supports-the-u-s-vietnam-comprehensive-strategic-partnership-advances-u-s-interests-in-th/
+
+## 5. Comparisons People Commonly Make
+
+| Compared Aircraft | Why They Are Compared | Common Public View | Notes |
+|---|---|---|---|
+| Cessna T-37 Tweet | USAF predecessor in undergraduate pilot training | T-6 seen as more modern, more efficient, and closer to current cockpit/training expectations | Official sources frame the T-6 as the T-37 replacement. |
+| Beechcraft T-34C Turbo Mentor | Navy predecessor | T-6/T-6B seen as a large step up in cockpit, performance, and common-service training | Navy fact file says JPATS replaced T-34C. |
+| Pilatus PC-9 | Design basis | Enthusiasts sometimes call the T-6 a U.S.-built PC-9 derivative; official sources say it is a military trainer version of the Beech/Pilatus PC-9 Mk II | The Texan II is substantially adapted for U.S. training requirements. |
+| Embraer/Sierra Nevada A-29 Super Tucano | Rival to AT-6 Wolverine in light-attack debate | Public debate often favors the A-29 for combat-proven record, while AT-6 supporters cite T-6 commonality and U.S. training infrastructure | Applies mainly to the AT-6, not baseline T-6A/B/C trainers. |
+| Northrop T-38 Talon | Next training step in many USAF fighter/bomber tracks | T-6 is viewed as primary training; T-38 as faster, jet-focused advanced training | Different training phases and performance classes. |
+
+## 6. Supporters vs Critics
+
+### Supporters usually say:
+
+- The T-6 gives students an early military cockpit, ejection seat, aerobatics, and formation environment.
+- It is enjoyable and responsive once students become comfortable.
+- It supports common Air Force, Navy, Marine Corps, Coast Guard, and partner training.
+- The T-6C/T-6B glass cockpit and integrated training system keep it relevant for modern training.
+- The global fleet and export record show broad institutional confidence.
+
+### Critics usually say:
+
+- The 2017-2018 physiological-event period damaged confidence in its oxygen system.
+- Ejection-seat groundings and the 2024 Sheppard fatality keep safety concerns in public view.
+- The AT-6 Wolverine is often criticized as less combat-proven than the A-29 Super Tucano.
+- Training forums sometimes frame the aircraft as unforgiving for unprepared students, though that is often a feature of the training syllabus rather than an aircraft defect.
+
+Reliable sources support the existence of OBOGS/UPE investigations, fleet pauses, technical fixes, and ejection-seat inspections. Social sources support the existence of positive and negative opinions, but they should not be presented as verified performance facts.
+
+## 7. Myths, Memes, and Exaggerations
+
+| Claim | Public Source Type | Accuracy |
+|---|---|---|
+| "The Texan II is just the WWII T-6." | Social-media and casual aviation comments | False. The name honors the older North American T-6, but the Texan II is a modern turboprop trainer derived from the PC-9 lineage. |
+| "The T-6 is a fighter." | Casual social-media shorthand | Exaggerated. It is a military trainer; the AT-6 Wolverine is a light-attack derivative. |
+| "The T-6 is unsafe because of hypoxia." | 2017-2018 comment threads | Overbroad. Official investigations found oxygen-concentration/OBOGS issues and implemented fixes; this does not make every flight unsafe. |
+| "The AT-6 could replace combat aircraft cheaply." | Light-attack debate | Disputed and mission-limited. It was evaluated for permissive-environment light attack, not high-threat combat. |
+| "If you can fly the T-6, everything after it is easy." | Student-pilot folklore | Exaggerated. It teaches core skills, but later aircraft and missions impose different demands. |
+
+## 8. Unofficial Incidents and Stories
+
+| Date | Location | What happened | Why notable | Source |
+|---|---|---|---|---|
+| Late Jan-Feb 2018 | Columbus AFB, Vance AFB, Sheppard AFB and broader USAF T-6 fleet | Cluster of unexplained physiological events led to an operational pause/grounding period and later oxygen-system corrective measures | Publicly shaped the aircraft's safety reputation | Air Force Times: https://www.airforcetimes.com/news/your-air-force/2018/04/18/latest-wave-of-hypoxia-like-events-in-t-6-grows-to-12/ and Military.com: https://www.military.com/dodbuzz/2018/09/14/air-force-announces-fix-hypoxia-problems-t-6-aircraft.html |
+| 18 September 2018 | Near JBSA-Randolph, Texas | USAF T-6A tail 05-6209 crashed during instructor qualification training | Public AIB material and later reporting tied the mishap to engine-maintenance error | AIB PDF: https://www.airandspaceforces.com/app/uploads/2019/05/0918_T6_Randolph.pdf and Air Force Times: https://www.airforcetimes.com/news/your-air-force/2019/05/03/improperly-assembled-engine-led-to-t-6-crash-last-year/ |
+| 23 October 2020 | Foley, Alabama | U.S. Navy T-6B crashed; the two aviators were killed, no civilian injuries reported | Major Navy training-aircraft fatality in a residential area | Navy release: https://www.navy.mil/Press-Office/Press-Releases/display-pressreleases/Article/2393260/us-navy-t-6b-texan-ii-aircraft-crash-foley-alabama/ |
+| 2022 | U.S. military training fleets | T-6 and other aircraft were grounded/inspected over possible ejection-seat cartridge-actuated-device defects | Ejection-seat reliability became a public concern beyond one aircraft type | AP background in 2024 article: https://apnews.com/article/pilot-ejection-seat-air-force-texas-245af4f7949346feecdd8032a92d031c |
+| 13-14 May 2024 | Sheppard AFB, Texas | A T-6A ejection seat activated during ground operations; instructor pilot Capt. John Robertson died | Rare fatal ground ejection-seat event; significant public-safety story | AP: https://apnews.com/article/pilot-ejection-seat-air-force-texas-245af4f7949346feecdd8032a92d031c |
+| 29 January 2026 | Chom Thong district, Chiang Mai, Thailand | Royal Thai Air Force AT-6TH Wolverine crashed during training; two pilots killed, cause under investigation | Source-sensitive recent incident involving the armed derivative | AP: https://apnews.com/article/thailand-plane-crash-deaths-ab3958e101692123c90971a7cc328a55 |
+
+## 9. How Opponents Perceived It
+
+The T-6 Texan II has no major enemy-pilot reputation because it is a trainer, not a widely used combat aircraft. Opponent perception is mostly indirect:
+
+- Rival procurement audiences compare the AT-6 Wolverine against the A-29 Super Tucano, with arguments about combat record, sustainment, commonality, and partner-force training.
+- Countries observing U.S. partner-training deals may treat T-6 deliveries as signals of defense cooperation rather than tactical threats.
+- The Vietnam delivery attracted diplomatic attention because it represented U.S.-Vietnam air-training cooperation, not because the T-6C itself was a high-end combat platform.
+
+## 10. Overall Reputation Summary
+
+Officially, the Beechcraft T-6 Texan II is the JPATS primary trainer family that modernized U.S. and allied military pilot training. Unofficially, it is known as a tough, nimble, enjoyable but demanding student-pilot aircraft, and as the platform behind many modern military pilots' first real military-flying experiences. Fans tend to emphasize how fun and capable it feels for a turboprop trainer. Critics focus on OBOGS/physiological-event history, ejection-seat incidents, and the limits of the AT-6 light-attack concept. A neutral Milipedia page should describe it as a globally adopted training system with a strong training reputation, while clearly separating verified safety events and public opinion from broad claims about danger or combat capability.
+
+## Useful for Milipedia
+
+- Add a Public Perception section that frames the T-6 as respected more for training utility than combat glamour.
+- Note that student-pilot and aviation-community discussion often praises its handling, responsiveness, formation/aerobatic role, and "first military aircraft" identity.
+- Include a safety caveat: 2017-2018 oxygen/physiological events and 2022/2024 ejection-seat issues shaped public discussion, but these should be described with official reporting and not exaggerated into a blanket safety claim.
+- Clarify common confusion with the WWII North American T-6 Texan and with the armed AT-6 Wolverine derivative.
+- Use the Vietnam and Japan selection stories as examples of training-system diplomacy and continuing export relevance.
