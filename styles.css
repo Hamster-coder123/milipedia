@@ -445,19 +445,28 @@ h2 {
   transform: translateY(0);
 }
 
-.country-flag-tooltip strong {
+.country-flag-tooltip__flag-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.country-flag-tooltip__flag-wrap img {
   display: block;
-  margin: 0 0 8px;
-  font-size: 0.9rem;
-  font-weight: 700;
-  line-height: 1.2;
+  width: 68px;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  background: #000;
 }
 
 .country-flag-tooltip p {
   margin: 0;
   color: rgba(255, 255, 255, 0.82);
-  font-size: 0.82rem;
-  line-height: 1.45;
+  font-size: 0.83rem;
+  line-height: 1.5;
 }
 
 .toolbar button {
@@ -1561,8 +1570,8 @@ h2 {
   align-items: center;
   gap: clamp(10px, 1.2vw, 18px);
   padding-inline: clamp(10px, 1.2vw, 18px);
-  opacity: 0.62;
-  filter: saturate(1.38) brightness(1.02) contrast(1.05);
+  opacity: 0.5;
+  filter: saturate(1.18) brightness(0.96) contrast(1.08);
   animation: flagMarquee 14s linear infinite;
   will-change: transform;
 }
