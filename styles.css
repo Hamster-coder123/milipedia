@@ -168,32 +168,50 @@ select {
   top: 0;
   left: 50%;
   z-index: 2;
-  width: min(74vw, 860px);
-  height: clamp(250px, 34vw, 430px);
+  width: min(88vw, 1120px);
+  height: clamp(340px, 42vw, 560px);
   background:
-    linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.2) 0%,
-      rgba(255, 255, 255, 0.12) 8%,
-      rgba(255, 255, 255, 0.05) 18%,
+    radial-gradient(
+      ellipse 54% 18% at 50% 0%,
+      rgba(255, 255, 255, 0.56) 0%,
+      rgba(255, 255, 255, 0.26) 18%,
+      rgba(255, 255, 255, 0.08) 36%,
       rgba(255, 255, 255, 0) 58%
     ),
-    repeating-linear-gradient(
-      102deg,
-      rgba(255, 255, 255, 0.12) 0 1px,
-      rgba(255, 255, 255, 0) 1px 24px
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.38) 0%,
+      rgba(255, 255, 255, 0.22) 8%,
+      rgba(255, 255, 255, 0.11) 18%,
+      rgba(255, 255, 255, 0.03) 34%,
+      rgba(255, 255, 255, 0) 62%
     ),
-    repeating-linear-gradient(
-      78deg,
-      rgba(255, 255, 255, 0.1) 0 1px,
-      rgba(255, 255, 255, 0) 1px 22px
+    linear-gradient(
+      104deg,
+      rgba(255, 255, 255, 0) 39%,
+      rgba(255, 255, 255, 0.12) 48%,
+      rgba(255, 255, 255, 0.05) 52%,
+      rgba(255, 255, 255, 0) 60%
+    ),
+    linear-gradient(
+      76deg,
+      rgba(255, 255, 255, 0) 40%,
+      rgba(255, 255, 255, 0.12) 48%,
+      rgba(255, 255, 255, 0.05) 52%,
+      rgba(255, 255, 255, 0) 60%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 44%,
+      rgba(255, 255, 255, 0.1) 50%,
+      rgba(255, 255, 255, 0) 56%
     );
-  clip-path: polygon(39% 0%, 61% 0%, 81% 100%, 19% 100%);
+  clip-path: polygon(34% 0%, 66% 0%, 91% 100%, 9% 100%);
   content: "";
   mix-blend-mode: screen;
-  opacity: 0.72;
+  opacity: 0.98;
   transform: translateX(-50%);
-  filter: blur(2px);
+  filter: blur(2.2px);
 }
 
 .hero-globe {
@@ -1501,56 +1519,67 @@ h2 {
   background:
     linear-gradient(
       90deg,
-      rgba(0, 0, 0, 0.97) 0%,
-      rgba(0, 0, 0, 0.88) 16%,
-      rgba(0, 0, 0, 0.18) 34%,
+      rgba(0, 0, 0, 0.995) 0%,
+      rgba(0, 0, 0, 0.94) 15%,
+      rgba(0, 0, 0, 0.42) 31%,
       rgba(0, 0, 0, 0) 50%,
-      rgba(0, 0, 0, 0.18) 66%,
-      rgba(0, 0, 0, 0.88) 84%,
-      rgba(0, 0, 0, 0.97) 100%
+      rgba(0, 0, 0, 0.42) 69%,
+      rgba(0, 0, 0, 0.94) 85%,
+      rgba(0, 0, 0, 0.995) 100%
     ),
     linear-gradient(
       180deg,
-      rgba(0, 0, 0, 0.28) 0%,
-      rgba(0, 0, 0, 0.02) 14%,
-      rgba(0, 0, 0, 0) 32%,
-      rgba(0, 0, 0, 0.08) 72%,
-      rgba(0, 0, 0, 0.28) 100%
+      rgba(0, 0, 0, 0.46) 0%,
+      rgba(0, 0, 0, 0.12) 14%,
+      rgba(0, 0, 0, 0) 30%,
+      rgba(0, 0, 0, 0.12) 72%,
+      rgba(0, 0, 0, 0.4) 100%
     );
 }
 
 .flag-marquee::after {
-  inset: -46svh -14% 1%;
+  inset: -50svh -18% 0;
   background:
     radial-gradient(
-      ellipse 48% 34% at 50% 0%,
-      rgba(255, 255, 255, 0.72) 0%,
-      rgba(255, 255, 255, 0.44) 10%,
-      rgba(255, 255, 255, 0.16) 24%,
-      rgba(255, 255, 255, 0.04) 40%,
-      rgba(255, 255, 255, 0) 60%
+      ellipse 54% 24% at 50% 0%,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.58) 10%,
+      rgba(255, 255, 255, 0.2) 22%,
+      rgba(255, 255, 255, 0.05) 36%,
+      rgba(255, 255, 255, 0) 58%
     ),
     linear-gradient(
       180deg,
-      rgba(255, 255, 255, 0.4) 0%,
-      rgba(255, 255, 255, 0.22) 10%,
-      rgba(255, 255, 255, 0.08) 24%,
-      rgba(255, 255, 255, 0) 52%
+      rgba(255, 255, 255, 0.6) 0%,
+      rgba(255, 255, 255, 0.34) 10%,
+      rgba(255, 255, 255, 0.16) 24%,
+      rgba(255, 255, 255, 0.04) 40%,
+      rgba(255, 255, 255, 0) 62%
     ),
-    repeating-linear-gradient(
-      101deg,
-      rgba(255, 255, 255, 0.12) 0 1px,
-      rgba(255, 255, 255, 0) 1px 34px
+    linear-gradient(
+      104deg,
+      rgba(255, 255, 255, 0) 41%,
+      rgba(255, 255, 255, 0.17) 48%,
+      rgba(255, 255, 255, 0.07) 52%,
+      rgba(255, 255, 255, 0) 59%
     ),
-    repeating-linear-gradient(
-      79deg,
-      rgba(255, 255, 255, 0.08) 0 1px,
-      rgba(255, 255, 255, 0) 1px 30px
+    linear-gradient(
+      76deg,
+      rgba(255, 255, 255, 0) 41%,
+      rgba(255, 255, 255, 0.17) 48%,
+      rgba(255, 255, 255, 0.07) 52%,
+      rgba(255, 255, 255, 0) 59%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 45%,
+      rgba(255, 255, 255, 0.15) 50%,
+      rgba(255, 255, 255, 0) 55%
     );
-  clip-path: polygon(40% 0%, 60% 0%, 77% 100%, 23% 100%);
+  clip-path: polygon(33% 0%, 67% 0%, 89% 100%, 11% 100%);
   mix-blend-mode: screen;
-  opacity: 0.92;
-  filter: blur(1.4px);
+  opacity: 1;
+  filter: blur(1.6px);
 }
 
 .flag-track {
@@ -1564,8 +1593,8 @@ h2 {
   gap: clamp(10px, 1.2vw, 18px);
   padding-inline: clamp(10px, 1.2vw, 18px);
   opacity: 0.62;
-  filter: saturate(1.62) brightness(1.08) contrast(1.04);
-  animation: flagMarquee 30s linear infinite;
+  filter: saturate(1.38) brightness(1.02) contrast(1.05);
+  animation: flagMarquee 14s linear infinite;
   will-change: transform;
 }
 
