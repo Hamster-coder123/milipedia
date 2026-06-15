@@ -41,6 +41,7 @@ function setupIntroLoader() {
 
   const title = loader.querySelector(".intro-loader__title");
   const target = document.querySelector(".hero-content h1");
+  const preventIntroScroll = (event) => event.preventDefault();
 
   const alignIntroTitle = () => {
     if (!title || !target || document.body.classList.contains("intro-complete")) return;
@@ -63,10 +64,14 @@ function setupIntroLoader() {
     document.body.classList.add("intro-ready");
   });
 
+  loader.addEventListener("wheel", preventIntroScroll, { passive: false });
+  loader.addEventListener("touchmove", preventIntroScroll, { passive: false });
   window.addEventListener("resize", alignIntroTitle, { passive: true });
 
   window.setTimeout(() => {
     document.body.classList.add("intro-complete");
+    loader.removeEventListener("wheel", preventIntroScroll);
+    loader.removeEventListener("touchmove", preventIntroScroll);
     window.removeEventListener("resize", alignIntroTitle);
     loader.remove();
   }, 3300);
