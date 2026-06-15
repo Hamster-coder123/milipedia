@@ -162,6 +162,47 @@ function unique(values) {
   return [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b));
 }
 
+function sortByPreferredOrder(values, preferredOrder) {
+  const order = new Map(preferredOrder.map((value, index) => [value, index]));
+  return [...values].sort((left, right) => {
+    const leftIndex = order.has(left) ? order.get(left) : Number.MAX_SAFE_INTEGER;
+    const rightIndex = order.has(right) ? order.get(right) : Number.MAX_SAFE_INTEGER;
+    if (leftIndex !== rightIndex) return leftIndex - rightIndex;
+    return left.localeCompare(right);
+  });
+}
+
+function normalizedType(value) {
+  const text = String(value || "").trim();
+  if (!text) return "";
+  if (text === "Fighter / attack aircraft") return "Fighter";
+  if (text === "Trainer / light attack aircraft") return "Trainer";
+  if (text === "Turboprop trainer") return "Trainer";
+  return text;
+}
+
+function normalizedEra(value) {
+  const text = String(value || "").trim();
+  const raw = normalize(text);
+  if (!raw) return "";
+  if (raw.includes("cold war") && raw.includes("modern")) return "Cold War/Modern";
+  if (raw.includes("cold war") && raw.includes("late 20th century")) return "Cold War";
+  if (raw.includes("fourth-generation carrier aviation")) return "Cold War/Modern";
+  if (raw.includes("cold war")) return "Cold War";
+  if (raw.includes("modern") || raw.includes("fifth-generation")) return "Modern";
+  return text;
+}
+
+function normalizedStatus(value) {
+  const text = String(value || "").trim();
+  const raw = normalize(text);
+  if (!raw) return "";
+  if (raw.startsWith("retired")) return "Retired";
+  if (raw.includes("active") && raw.includes("retired")) return "Mixed service";
+  if (raw.includes("active")) return "Active";
+  return text;
+}
+
 function orderedCountryFilters(values) {
   return [...values].sort((left, right) => {
     if (left === right) return 0;
@@ -223,11 +264,11 @@ function applyFilters() {
   state.filtered = state.aircraft.filter((item) => {
     const searchText = aircraftSearchText(item);
     const matchesSearch = !query || searchText.includes(query) || (compactQuery && searchText.includes(compactQuery));
-    const matchesType = !state.filters.type || item.aircraft_type === state.filters.type;
+    const matchesType = !state.filters.type || normalizedType(item.aircraft_type) === state.filters.type;
     const matchesCountry =
       !state.filters.country || splitValues(item.country_of_origin).includes(state.filters.country) || item.country_of_origin === state.filters.country;
-    const matchesEra = !state.filters.era || splitValues(item.era).includes(state.filters.era) || item.era === state.filters.era;
-    const matchesStatus = !state.filters.status || item.status === state.filters.status;
+    const matchesEra = !state.filters.era || normalizedEra(item.era) === state.filters.era;
+    const matchesStatus = !state.filters.status || normalizedStatus(item.status) === state.filters.status;
     return matchesSearch && matchesType && matchesCountry && matchesEra && matchesStatus;
   });
   state.page = 1;
@@ -437,14 +478,29 @@ function updateRoute() {
 }
 
 function setupFilters() {
-  setOptions(els.type, unique(state.aircraft.map((item) => item.aircraft_type)), "All types");
+  setOptions(
+    els.type,
+    sortByPreferredOrder(
+      unique(state.aircraft.map((item) => normalizedType(item.aircraft_type))),
+      ["Fighter", "Attack aircraft", "Bomber", "Reconnaissance aircraft", "Transport aircraft", "Tanker", "AWACS/AEW", "Helicopter", "Tiltrotor", "Trainer", "UAV"]
+    ),
+    "All types"
+  );
   setOptions(
     els.country,
     unique(state.aircraft.flatMap((item) => splitValues(item.country_of_origin))),
     "All origins"
   );
-  setOptions(els.era, unique(state.aircraft.flatMap((item) => splitValues(item.era))), "All eras");
-  setOptions(els.status, unique(state.aircraft.map((item) => item.status)), "All statuses");
+  setOptions(
+    els.era,
+    sortByPreferredOrder(unique(state.aircraft.map((item) => normalizedEra(item.era))), ["Cold War", "Cold War/Modern", "Modern"]),
+    "All eras"
+  );
+  setOptions(
+    els.status,
+    sortByPreferredOrder(unique(state.aircraft.map((item) => normalizedStatus(item.status))), ["Active", "Mixed service", "Retired"]),
+    "All statuses"
+  );
 }
 
 function renderFlagMarquee() {
@@ -893,7 +949,7 @@ async function init() {
     state.filtered = [...state.aircraft];
     els.statTotal.textContent = state.aircraft.length;
     els.statCountries.textContent = unique(state.aircraft.flatMap((item) => splitValues(item.country_of_origin))).length;
-    els.statTypes.textContent = unique(state.aircraft.map((item) => item.aircraft_type)).length;
+    els.statTypes.textContent = unique(state.aircraft.map((item) => normalizedType(item.aircraft_type))).length;
     setupFilters();
     renderFlagMarquee();
     renderCountryFlagFilters();
