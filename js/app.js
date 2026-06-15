@@ -547,6 +547,8 @@ function renderCountryFlagFilters() {
           class="country-flag-button${extraClass}"
           data-country="${escapeHtml(country)}"
           data-overview="${escapeHtml(overview)}"
+          data-flag-src="${escapeHtml(asset.src)}"
+          data-flag-srcset="${escapeHtml(asset.srcset || "")}"
           aria-label="${escapeHtml(country)}"
           ${style}
         >
@@ -563,7 +565,9 @@ function renderCountryFlagFilters() {
     .join("");
   els.countryFlagFilters.innerHTML = `${items}
     <div class="country-flag-tooltip" id="country-flag-tooltip" aria-hidden="true" hidden>
-      <strong></strong>
+      <div class="country-flag-tooltip__flag-wrap">
+        <img alt="" decoding="async">
+      </div>
       <p></p>
     </div>`;
   syncCountryFlagFilters();
@@ -574,7 +578,7 @@ function setupCountryFlagTooltip() {
   const tooltip = els.countryFlagFilters.querySelector("#country-flag-tooltip");
   if (!tooltip) return;
 
-  const title = tooltip.querySelector("strong");
+  const tooltipImage = tooltip.querySelector("img");
   const body = tooltip.querySelector("p");
 
   const hideTooltip = () => {
@@ -584,8 +588,9 @@ function setupCountryFlagTooltip() {
   };
 
   const showTooltip = (button) => {
-    if (!button || !title || !body) return;
-    title.textContent = button.dataset.country || "";
+    if (!button || !tooltipImage || !body) return;
+    tooltipImage.src = button.dataset.flagSrc || "";
+    tooltipImage.srcset = button.dataset.flagSrcset || "";
     body.textContent = button.dataset.overview || "";
     tooltip.hidden = false;
     tooltip.setAttribute("aria-hidden", "false");
