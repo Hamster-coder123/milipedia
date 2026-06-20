@@ -1657,10 +1657,11 @@ h2 {
 }
 
 .country-hero__media img {
-  width: min(1120px, 150vw);
-  aspect-ratio: 3 / 2;
-  object-fit: cover;
-  object-position: var(--flag-focus, center center);
+  width: min(1320px, 165vw);
+  height: auto;
+  max-height: min(74vh, 820px);
+  object-fit: contain;
+  object-position: center center;
   background: transparent;
   image-rendering: auto;
   transform: translateZ(0) rotate(-10deg) scale(1.05);
@@ -1714,9 +1715,9 @@ h2 {
 
 .country-stat-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1px;
-  width: min(980px, 100%);
+  width: min(920px, 100%);
   margin-top: 38px;
   background: rgba(255, 255, 255, 0.12);
 }

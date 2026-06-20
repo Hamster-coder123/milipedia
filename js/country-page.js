@@ -121,7 +121,6 @@ function renderProfile(profile, aircraft) {
   const stats = [
     ["Role", profile.power],
     ["Aircraft", `${aircraft.length} linked entries`],
-    ["Systems", profile.keySystems[0]?.[0] || "Multiple systems"],
     ["Focus", profile.strengths.slice(0, 2).join(" / ")]
   ];
   const toc = [
