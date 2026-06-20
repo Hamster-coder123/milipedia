@@ -1722,23 +1722,31 @@ h2 {
 }
 
 .country-stat-grid div {
-  min-height: 128px;
-  padding: 18px;
+  min-height: 142px;
+  padding: 20px 18px 22px;
   background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 12px;
 }
 
-.country-stat-grid strong {
+.country-stat-label {
   display: block;
-  font-size: clamp(2.1rem, 4vw, 4.2rem);
-  line-height: 0.9;
+  color: rgba(255, 255, 255, 0.58);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
-.country-stat-grid span {
+.country-stat-value {
   display: block;
-  margin-top: 12px;
-  color: rgba(255, 255, 255, 0.68);
-  font-size: 0.9rem;
-  line-height: 1.35;
+  color: rgba(255, 255, 255, 0.92);
+  font-size: clamp(1.08rem, 1.45vw, 1.5rem);
+  font-weight: 620;
+  line-height: 1.38;
+  overflow-wrap: anywhere;
 }
 
 .country-layout {
@@ -2403,6 +2411,10 @@ body.intro-complete .intro-loader ~ main .hero-globe {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .country-stat-grid div {
+    min-height: 132px;
+  }
+
   .country-layout {
     grid-template-columns: 1fr;
     padding-top: 36px;
@@ -2557,5 +2569,15 @@ body.intro-complete .intro-loader ~ main .hero-globe {
 
   .flag-track {
     animation: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .country-stat-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .country-stat-grid div {
+    min-height: 0;
   }
 }

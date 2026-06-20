@@ -10,7 +10,7 @@ const MILIPEDIA_COUNTRY_PROFILES = [
   {
     id: "united-states",
     name: "United States",
-    flag: pngFlagAsset("us", "4% center"),
+    flag: pngFlagAsset("us", "0% center"),
     aliases: ["United States"],
     power: "Global full-spectrum aerospace power",
     summary:

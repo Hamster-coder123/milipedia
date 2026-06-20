@@ -121,7 +121,7 @@ function renderProfile(profile, aircraft) {
   const stats = [
     ["Role", profile.power],
     ["Aircraft", `${aircraft.length} linked entries`],
-    ["System", profile.keySystems[0]?.[0] || "Multiple systems"],
+    ["Systems", profile.keySystems[0]?.[0] || "Multiple systems"],
     ["Focus", profile.strengths.slice(0, 2).join(" / ")]
   ];
   const toc = [
@@ -165,7 +165,14 @@ function renderProfile(profile, aircraft) {
         <p>${escapeHtml(profile.summary)}</p>
         <div class="country-stat-grid" aria-label="${escapeHtml(profile.name)} aerospace quick facts">
           ${stats
-            .map(([label, value]) => `<div><strong>${escapeHtml(label)}</strong><span>${escapeHtml(value)}</span></div>`)
+            .map(
+              ([label, value]) => `
+                <div>
+                  <span class="country-stat-label">${escapeHtml(label)}</span>
+                  <strong class="country-stat-value">${escapeHtml(value)}</strong>
+                </div>
+              `
+            )
             .join("")}
         </div>
       </div>
