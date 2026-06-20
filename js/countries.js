@@ -10,18 +10,14 @@ function escapeHtml(value) {
 }
 
 function flagAsset(flag) {
-  if (flag?.url) {
+  if (flag?.src) {
     return {
-      src: flag.url,
+      src: flag.src,
       srcset: flag.srcset || "",
       position: flag.position || "center center"
     };
   }
-  return {
-    src: `https://flagcdn.com/${flag?.code || "un"}.svg`,
-    srcset: flag?.code ? `https://flagcdn.com/w320/${flag.code}.png 1x, https://flagcdn.com/w640/${flag.code}.png 2x` : "",
-    position: flag?.position || "center center"
-  };
+  return null;
 }
 
 function renderCountries() {
@@ -31,6 +27,7 @@ function renderCountries() {
   grid.innerHTML = profiles
     .map((profile) => {
       const asset = flagAsset(profile.flag);
+      if (!asset) return "";
       const srcset = asset.srcset ? ` srcset="${escapeHtml(asset.srcset)}"` : "";
       const style = ` style="--flag-focus:${escapeHtml(asset.position)};"`;
       return `

@@ -14,18 +14,14 @@ function getCountryId() {
 }
 
 function flagAsset(flag) {
-  if (flag?.url) {
+  if (flag?.src) {
     return {
-      src: flag.url,
+      src: flag.src,
       srcset: flag.srcset || "",
       position: flag.position || "center center"
     };
   }
-  return {
-    src: `https://flagcdn.com/${flag?.code || "un"}.svg`,
-    srcset: flag?.code ? `https://flagcdn.com/w320/${flag.code}.png 1x, https://flagcdn.com/w640/${flag.code}.png 2x` : "",
-    position: flag?.position || "center center"
-  };
+  return null;
 }
 
 function countryMatch(profile, aircraft) {
@@ -119,6 +115,7 @@ function renderAircraftLinks(profile, aircraft) {
 function renderProfile(profile, aircraft) {
   document.title = `${profile.name} Aerospace and Military Aviation | Milipedia`;
   const flag = flagAsset(profile.flag);
+  if (!flag) return;
   const srcset = flag.srcset ? ` srcset="${escapeHtml(flag.srcset)}"` : "";
   const style = ` style="--flag-focus:${escapeHtml(flag.position)};"`;
   const stats = [

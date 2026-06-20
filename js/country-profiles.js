@@ -1,8 +1,16 @@
+function pngFlagAsset(code, position = "center center") {
+  return {
+    src: `https://flagcdn.com/w640/${code}.png`,
+    srcset: `https://flagcdn.com/w640/${code}.png 1x, https://flagcdn.com/w1280/${code}.png 2x`,
+    position
+  };
+}
+
 const MILIPEDIA_COUNTRY_PROFILES = [
   {
     id: "united-states",
     name: "United States",
-    flag: { code: "us", position: "28% center" },
+    flag: pngFlagAsset("us", "16% center"),
     aliases: ["United States"],
     power: "Global full-spectrum aerospace power",
     summary:
@@ -72,7 +80,7 @@ const MILIPEDIA_COUNTRY_PROFILES = [
   {
     id: "pakistan",
     name: "Pakistan",
-    flag: { code: "pk", position: "center center" },
+    flag: pngFlagAsset("pk", "center center"),
     aliases: ["Pakistan"],
     power: "Regional military aerospace producer",
     summary:
@@ -131,7 +139,7 @@ const COUNTRY_PROFILE_EXTENSION = [
   {
     id: "china",
     name: "China",
-    flag: { code: "cn", position: "center center" },
+    flag: pngFlagAsset("cn", "center center"),
     aliases: ["China"],
     power: "Major full-spectrum aerospace power",
     summary: "China has become a major military aerospace power through AVIC, state research institutes, engine corporations, missile producers, and a large domestic procurement base. It produces fighters, bombers, transports, tankers, AEW aircraft, helicopters, UAVs, missiles, and increasingly capable engines.",
@@ -162,7 +170,7 @@ const COUNTRY_PROFILE_EXTENSION = [
   {
     id: "russia",
     name: "Russia",
-    flag: { code: "ru", position: "center center" },
+    flag: pngFlagAsset("ru", "center center"),
     aliases: ["Russia"],
     power: "Major legacy aerospace power",
     summary: "Russia inherited much of the Soviet aerospace base and remains a major producer of fighters, bombers, transports, helicopters, engines, missiles, and air-defense systems through UAC, UEC, Rostec, Sukhoi, MiG, Tupolev, Ilyushin, Yakovlev, Mil, and Kamov.",
@@ -193,7 +201,12 @@ const COUNTRY_PROFILE_EXTENSION = [
   {
     id: "soviet-union",
     name: "Soviet Union",
-    flag: { url: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_Soviet_Union.svg", position: "24% center" },
+    flag: {
+      src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/640px-Flag_of_the_Soviet_Union.svg.png",
+      srcset:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/640px-Flag_of_the_Soviet_Union.svg.png 1x, https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/1280px-Flag_of_the_Soviet_Union.svg.png 2x",
+      position: "14% center"
+    },
     aliases: ["Soviet Union"],
     power: "Former superpower aerospace system",
     summary: "The Soviet Union built one of history's largest military aerospace industries through state design bureaus, central planning, mass production, and a doctrine centered on air defense, tactical aviation, strategic bombers, transport aviation, helicopters, and export to allied states.",
@@ -229,7 +242,7 @@ MILIPEDIA_COUNTRY_PROFILES.push(
   {
     id: "france",
     name: "France",
-    flag: { code: "fr", position: "center center" },
+    flag: pngFlagAsset("fr", "center center"),
     aliases: ["France"],
     power: "Major independent European aerospace power",
     summary: "France maintains one of the world's most complete national military aerospace sectors through Dassault Aviation, Safran, Thales, MBDA, Airbus participation, Dassault carrier and land-based fighters, engine production, radars, missiles, and strategic nuclear aviation.",
@@ -260,7 +273,7 @@ MILIPEDIA_COUNTRY_PROFILES.push(
   {
     id: "united-kingdom",
     name: "United Kingdom",
-    flag: { code: "gb", position: "center center" },
+    flag: pngFlagAsset("gb", "center center"),
     aliases: ["United Kingdom"],
     power: "Major European aerospace and engine power",
     summary: "The United Kingdom retains major aerospace strength through BAE Systems, Rolls-Royce, Leonardo UK, MBDA UK, Airbus UK, and a long combat-aircraft, engine, radar, missile, and naval aviation heritage.",
@@ -291,7 +304,7 @@ MILIPEDIA_COUNTRY_PROFILES.push(
   {
     id: "sweden",
     name: "Sweden",
-    flag: { code: "se", position: "center center" },
+    flag: pngFlagAsset("se", "center center"),
     aliases: ["Sweden"],
     power: "Specialized independent fighter and sensor producer",
     summary: "Sweden is a small but unusually capable military aerospace state centered on Saab, national fighter design, dispersed operations, datalinks, airborne early warning, and export-oriented combat aircraft.",
@@ -322,7 +335,7 @@ MILIPEDIA_COUNTRY_PROFILES.push(
   {
     id: "germany",
     name: "Germany",
-    flag: { code: "de", position: "center center" },
+    flag: pngFlagAsset("de", "center center"),
     aliases: ["Germany"],
     power: "Major European industrial partner",
     summary: "Germany is a major aerospace industrial partner rather than a fully independent combat-aircraft producer. Its strengths are Airbus production, MTU engines, Hensoldt sensors, Diehl missiles, electronics, helicopters, and multinational programs.",
@@ -353,7 +366,7 @@ MILIPEDIA_COUNTRY_PROFILES.push(
   {
     id: "italy",
     name: "Italy",
-    flag: { code: "it", position: "center center" },
+    flag: pngFlagAsset("it", "center center"),
     aliases: ["Italy"],
     power: "Major European aerospace partner and trainer/helicopter producer",
     summary: "Italy's military aerospace industry is led by Leonardo, Avio Aero, MBDA Italia, and participation in European and transatlantic programs. It is strong in trainers, helicopters, transports, avionics, sensors, final assembly, and multinational fighters.",
@@ -384,7 +397,7 @@ MILIPEDIA_COUNTRY_PROFILES.push(
   {
     id: "israel",
     name: "Israel",
-    flag: { code: "il", position: "center center" },
+    flag: pngFlagAsset("il", "center center"),
     aliases: ["Israel"],
     power: "Specialized high-technology aerospace and UAV power",
     summary: "Israel is a specialized military aerospace power known for UAVs, avionics, electronic warfare, fighter upgrades, missiles, sensors, air-defense systems, and combat-proven integration rather than large indigenous fighter production.",
@@ -415,7 +428,7 @@ MILIPEDIA_COUNTRY_PROFILES.push(
   {
     id: "india",
     name: "India",
-    flag: { code: "in", position: "center center" },
+    flag: pngFlagAsset("in", "center center"),
     aliases: ["India"],
     power: "Large emerging aerospace power",
     summary: "India is a large emerging military aerospace power with HAL, DRDO, ADA, BEL, private suppliers, licensed production experience, indigenous fighters and helicopters, missile programs, and a continuing dependence on foreign engines and high-end imported aircraft.",
@@ -446,7 +459,7 @@ MILIPEDIA_COUNTRY_PROFILES.push(
   {
     id: "brazil",
     name: "Brazil",
-    flag: { code: "br", position: "center center" },
+    flag: pngFlagAsset("br", "center center"),
     aliases: ["Brazil"],
     power: "Regional aerospace exporter",
     summary: "Brazil is a regional aerospace power centered on Embraer, with strength in trainers, light attack aircraft, transports, surveillance aircraft, and exportable military derivatives of civil platforms.",
@@ -477,7 +490,7 @@ MILIPEDIA_COUNTRY_PROFILES.push(
   {
     id: "multinational-europe",
     name: "Multinational Europe",
-    flag: { code: "eu", position: "center center" },
+    flag: pngFlagAsset("eu", "center center"),
     aliases: ["Multinational Europe"],
     power: "Multinational aerospace production network",
     summary: "Multinational Europe is not a state, but Milipedia uses it for aircraft developed by European industrial partnerships, including Eurofighter, Airbus, Panavia, NHIndustries, and missile/engine consortia.",
