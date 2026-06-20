@@ -1,4 +1,5 @@
 const articleRoot = document.querySelector("#aircraft-article");
+const AIRCRAFT_DATA_URL = "data/aircraft.json?v=20260620-2";
 const NOT_LISTED = "Not listed";
 
 function escapeHtml(value) {
@@ -606,7 +607,7 @@ async function initArticlePage() {
   }
 
   try {
-    const response = await fetch("data/aircraft.json");
+    const response = await fetch(AIRCRAFT_DATA_URL);
     if (!response.ok) throw new Error(`Could not load data: ${response.status}`);
     const aircraft = await response.json();
     const item = aircraft.find((entry) => entry.id === id);

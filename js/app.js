@@ -11,6 +11,7 @@ const state = {
     status: ""
   }
 };
+const AIRCRAFT_DATA_URL = "data/aircraft.json?v=20260620-2";
 const NOT_RECORDED = "Not listed";
 
 const els = {
@@ -204,12 +205,15 @@ function normalizedStatus(value) {
 }
 
 function orderedCountryFilters(values) {
-  return [...values].sort((left, right) => {
-    if (left === right) return 0;
-    if (left === "United States") return 1;
-    if (right === "United States") return -1;
-    return left.localeCompare(right);
-  });
+  return [...values].sort((left, right) => left.localeCompare(right));
+}
+
+function compactFirstFlightLabel(value) {
+  const text = String(value || "").trim();
+  if (!text) return "Unknown";
+  const firstClause = text.split(";")[0].trim();
+  const dateMatch = firstClause.match(/^(?:\d{1,2}\s+[A-Za-z]+\s+\d{4}|[A-Za-z]+\s+\d{4}|\d{4})/);
+  return dateMatch ? dateMatch[0] : firstClause;
 }
 
 function splitValues(value) {
@@ -312,7 +316,7 @@ function renderGrid() {
     title.textContent = item.name;
     summary.textContent = item.short_summary;
     fragment.querySelector(".origin").textContent = item.country_of_origin;
-    fragment.querySelector(".first-flight").textContent = item.first_flight;
+    fragment.querySelector(".first-flight").textContent = compactFirstFlightLabel(item.first_flight);
     card.dataset.id = item.id;
     els.grid.append(fragment);
   });
@@ -505,7 +509,7 @@ function setupFilters() {
 
 function renderFlagMarquee() {
   if (!els.flagTrack) return;
-  const countries = unique(state.aircraft.flatMap((item) => splitValues(item.country_of_origin)));
+  const countries = orderedCountryFilters(unique(state.aircraft.flatMap((item) => splitValues(item.country_of_origin))));
   const flagItems = countries
     .map((country) => {
       const flag = COUNTRY_FLAGS[country];
@@ -527,7 +531,10 @@ function renderFlagMarquee() {
       `;
     })
     .join("");
-  els.flagTrack.innerHTML = `${flagItems}${flagItems}`;
+  els.flagTrack.innerHTML = `
+    <div class="flag-strip">${flagItems}</div>
+    <div class="flag-strip" aria-hidden="true">${flagItems}</div>
+  `;
 }
 
 function renderCountryFlagFilters() {
@@ -540,11 +547,10 @@ function renderCountryFlagFilters() {
       const srcset = asset.srcset ? ` srcset="${escapeHtml(asset.srcset)}"` : "";
       const style = ` style="--flag-focus:${escapeHtml(asset.position)};"`;
       const overview = COUNTRY_OVERVIEWS[country] || `${country} maintains military aerospace production, maintenance, and defense aviation support capability.`;
-      const extraClass = country === "United States" ? " country-flag-button--us" : "";
       return `
         <button
           type="button"
-          class="country-flag-button${extraClass}"
+          class="country-flag-button"
           data-country="${escapeHtml(country)}"
           data-overview="${escapeHtml(overview)}"
           data-flag-src="${escapeHtml(asset.src)}"
@@ -948,7 +954,7 @@ function setupRevealAnimations() {
 
 async function init() {
   try {
-    const response = await fetch("data/aircraft.json");
+    const response = await fetch(AIRCRAFT_DATA_URL);
     if (!response.ok) throw new Error(`Could not load data: ${response.status}`);
     state.aircraft = await response.json();
     state.filtered = [...state.aircraft];

@@ -551,11 +551,11 @@
     "stealth": false,
     "images": [
       {
-        "url": "https://www.navair.navy.mil/sites/g/files/jejdrs536/files/styles/crop_16_9/public/F-5N%20Aircraft.JPG?h=adc2e4d2&itok=ZUUOJZL5",
-        "caption": "U.S. Navy F-5N Tiger II adversary aircraft photographed for the NAVAIR F-5 product page",
-        "credit": "U.S. Navy / NAVAIR",
-        "license": "Official U.S. Navy source page",
-        "source_url": "https://www.navair.navy.mil/product/F-5-Tiger-II"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Northrop_F-5_%28Forca_Aerea_Brasileira%29_Seguran%C3%A7a_Rio_2016_%283%29.jpg/1280px-Northrop_F-5_%28Forca_Aerea_Brasileira%29_Seguran%C3%A7a_Rio_2016_%283%29.jpg",
+        "caption": "Brazilian Air Force F-5EM during Rio 2016 Olympic security interception training on 17 July 2016",
+        "credit": "Tomaz Silva / Agencia Brasil via Wikimedia Commons",
+        "license": "Wikimedia Commons image source",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Northrop_F-5_(Forca_Aerea_Brasileira)_Seguran%C3%A7a_Rio_2016_(3).jpg"
       }
     ],
     "sources": [
@@ -1709,12 +1709,6 @@
         "caption": "Northrop YF-5A serial 59-4989 in Skoshi Tiger markings at the National Museum of the United States Air Force in Dayton, Ohio",
         "credit": "U.S. Air Force / National Museum of the United States Air Force",
         "source_url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196074/northrop-yf-5a-freedom-fighter/"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Northrop_F-5_%28Forca_Aerea_Brasileira%29_Seguran%C3%A7a_Rio_2016_%283%29.jpg/1280px-Northrop_F-5_%28Forca_Aerea_Brasileira%29_Seguran%C3%A7a_Rio_2016_%283%29.jpg",
-        "caption": "Brazilian Air Force F-5EM during Rio 2016 Olympic security interception training on 17 July 2016",
-        "credit": "Tomaz Silva / Agencia Brasil via Wikimedia Commons",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Northrop_F-5_(Forca_Aerea_Brasileira)_Seguran%C3%A7a_Rio_2016_(3).jpg"
       },
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/J-3005.jpg/1024px-J-3005.jpg",
