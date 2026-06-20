@@ -13,9 +13,19 @@ function getCountryId() {
   return new URLSearchParams(window.location.search).get("id") || "pakistan";
 }
 
-function flagSrc(flag) {
-  if (flag?.url) return flag.url;
-  return `https://flagcdn.com/${flag?.code || "un"}.svg`;
+function flagAsset(flag) {
+  if (flag?.url) {
+    return {
+      src: flag.url,
+      srcset: flag.srcset || "",
+      position: flag.position || "center center"
+    };
+  }
+  return {
+    src: `https://flagcdn.com/${flag?.code || "un"}.svg`,
+    srcset: flag?.code ? `https://flagcdn.com/w320/${flag.code}.png 1x, https://flagcdn.com/w640/${flag.code}.png 2x` : "",
+    position: flag?.position || "center center"
+  };
 }
 
 function countryMatch(profile, aircraft) {
@@ -108,7 +118,9 @@ function renderAircraftLinks(profile, aircraft) {
 
 function renderProfile(profile, aircraft) {
   document.title = `${profile.name} Aerospace and Military Aviation | Milipedia`;
-  const flag = flagSrc(profile.flag);
+  const flag = flagAsset(profile.flag);
+  const srcset = flag.srcset ? ` srcset="${escapeHtml(flag.srcset)}"` : "";
+  const style = ` style="--flag-focus:${escapeHtml(flag.position)};"`;
   const stats = [
     ["Role", profile.power],
     ["Aircraft", `${aircraft.length} linked entries`],
@@ -145,12 +157,12 @@ function renderProfile(profile, aircraft) {
   root.innerHTML = `
     <header class="country-hero">
       <div class="country-hero__media" aria-hidden="true">
-        <img src="${escapeHtml(flag)}" alt="">
+        <img src="${escapeHtml(flag.src)}"${srcset} alt=""${style} decoding="async" referrerpolicy="no-referrer">
       </div>
       <div class="country-hero__content">
         <p class="country-kicker">Country aerospace industry profile</p>
         <h1>
-          <img class="country-title-flag" src="${escapeHtml(flag)}" alt="Flag of ${escapeHtml(profile.name)}">
+          <img class="country-title-flag" src="${escapeHtml(flag.src)}"${srcset} alt="Flag of ${escapeHtml(profile.name)}"${style} decoding="async" referrerpolicy="no-referrer">
           ${escapeHtml(profile.name)} Aerospace and Military Aviation
         </h1>
         <p>${escapeHtml(profile.summary)}</p>

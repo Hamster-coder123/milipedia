@@ -9,9 +9,19 @@ function escapeHtml(value) {
     .replaceAll("'", "&#039;");
 }
 
-function flagSrc(flag) {
-  if (flag?.url) return flag.url;
-  return `https://flagcdn.com/${flag?.code || "un"}.svg`;
+function flagAsset(flag) {
+  if (flag?.url) {
+    return {
+      src: flag.url,
+      srcset: flag.srcset || "",
+      position: flag.position || "center center"
+    };
+  }
+  return {
+    src: `https://flagcdn.com/${flag?.code || "un"}.svg`,
+    srcset: flag?.code ? `https://flagcdn.com/w320/${flag.code}.png 1x, https://flagcdn.com/w640/${flag.code}.png 2x` : "",
+    position: flag?.position || "center center"
+  };
 }
 
 function renderCountries() {
@@ -19,16 +29,25 @@ function renderCountries() {
     a.name.localeCompare(b.name)
   );
   grid.innerHTML = profiles
-    .map(
-      (profile) => `
+    .map((profile) => {
+      const asset = flagAsset(profile.flag);
+      const srcset = asset.srcset ? ` srcset="${escapeHtml(asset.srcset)}"` : "";
+      const style = ` style="--flag-focus:${escapeHtml(asset.position)};"`;
+      return `
         <a class="country-index-card" href="country.html?id=${encodeURIComponent(profile.id)}">
-          <img src="${escapeHtml(flagSrc(profile.flag))}" alt="Flag of ${escapeHtml(profile.name)}">
+          <img
+            src="${escapeHtml(asset.src)}"${srcset}
+            alt="Flag of ${escapeHtml(profile.name)}"${style}
+            loading="lazy"
+            decoding="async"
+            referrerpolicy="no-referrer"
+          >
           <span>${escapeHtml(profile.power)}</span>
           <strong>${escapeHtml(profile.name)}</strong>
           <p>${escapeHtml(profile.summary)}</p>
         </a>
-      `
-    )
+      `;
+    })
     .join("");
 }
 
