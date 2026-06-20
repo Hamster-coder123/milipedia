@@ -1652,20 +1652,16 @@ h2 {
   z-index: -2;
   display: grid;
   place-items: center;
-  opacity: 0.2;
-  filter: saturate(0.4) contrast(1.1);
+  overflow: hidden;
 }
 
 .country-hero__media img {
-  width: min(1320px, 165vw);
+  width: min(1320px, 92vw);
+  max-width: 100%;
   height: auto;
   max-height: min(74vh, 820px);
-  object-fit: contain;
-  object-position: center center;
   background: transparent;
   image-rendering: auto;
-  transform: translateZ(0) rotate(-10deg) scale(1.05);
-  backface-visibility: hidden;
 }
 
 .country-hero__content {
