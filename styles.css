@@ -1620,6 +1620,270 @@ h2 {
   backface-visibility: hidden;
 }
 
+/* Country profile pages */
+.country-page {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.035), transparent 18rem),
+    #000;
+}
+
+.country-hero {
+  position: relative;
+  display: grid;
+  min-height: calc(100svh - 48px);
+  overflow: hidden;
+  padding: clamp(64px, 10vw, 128px) 16px clamp(58px, 8vw, 112px);
+  place-items: center;
+  isolation: isolate;
+}
+
+.country-hero::after {
+  position: absolute;
+  inset: auto 0 0;
+  z-index: -1;
+  height: 45%;
+  background: linear-gradient(180deg, transparent, #000 78%);
+  content: "";
+}
+
+.country-hero__media {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  display: grid;
+  place-items: center;
+  opacity: 0.2;
+  filter: saturate(0.4) contrast(1.1);
+}
+
+.country-hero__media img {
+  width: min(1120px, 150vw);
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  transform: rotate(-10deg) scale(1.05);
+}
+
+.country-hero__content {
+  width: min(1180px, 100%);
+}
+
+.country-kicker {
+  margin: 0 0 16px;
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.country-hero h1 {
+  display: flex;
+  align-items: center;
+  gap: clamp(14px, 2vw, 24px);
+  max-width: 1040px;
+  font-size: clamp(3rem, 10vw, 7.4rem);
+  line-height: 0.92;
+}
+
+.country-title-flag {
+  flex: 0 0 auto;
+  width: clamp(72px, 10vw, 132px);
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.46);
+}
+
+.country-hero__content > p:not(.country-kicker) {
+  max-width: 930px;
+  margin: 28px 0 0;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: clamp(1.1rem, 2vw, 1.55rem);
+  font-weight: 560;
+  line-height: 1.22;
+}
+
+.country-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  width: min(980px, 100%);
+  margin-top: 38px;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.country-stat-grid div {
+  min-height: 128px;
+  padding: 18px;
+  background: #000;
+}
+
+.country-stat-grid strong {
+  display: block;
+  font-size: clamp(2.1rem, 4vw, 4.2rem);
+  line-height: 0.9;
+}
+
+.country-stat-grid span {
+  display: block;
+  margin-top: 12px;
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.country-layout {
+  display: grid;
+  grid-template-columns: 230px minmax(0, 1fr);
+  gap: clamp(28px, 5vw, 72px);
+  width: min(1320px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 64px 0 110px;
+}
+
+.country-toc {
+  position: sticky;
+  top: 72px;
+  display: grid;
+  align-self: start;
+  gap: 2px;
+  max-height: calc(100svh - 96px);
+  overflow: auto;
+  padding-right: 8px;
+}
+
+.country-toc a {
+  padding: 9px 0;
+  color: rgba(255, 255, 255, 0.58);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.82rem;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.country-toc a:hover {
+  color: #fff;
+}
+
+.country-article {
+  min-width: 0;
+}
+
+.country-article section {
+  padding: 34px 0 48px;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.country-article h2 {
+  max-width: 980px;
+  font-size: clamp(2rem, 5vw, 4.6rem);
+  line-height: 0.98;
+}
+
+.country-article h3 {
+  margin: 30px 0 10px;
+  color: #fff;
+  font-size: clamp(1.16rem, 2vw, 1.5rem);
+  line-height: 1.1;
+}
+
+.country-article p,
+.country-article li {
+  max-width: 980px;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 1rem;
+  line-height: 1.72;
+}
+
+.country-article p {
+  margin: 18px 0 0;
+}
+
+.country-article a {
+  color: #fff;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.country-article sup {
+  font-size: 0.72em;
+  line-height: 0;
+}
+
+.country-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: 24px;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.country-card-grid article {
+  padding: 22px;
+  background: #000;
+}
+
+.country-card-grid h3 {
+  margin-top: 0;
+}
+
+.country-list {
+  margin: 18px 0 0;
+  padding-left: 1.2rem;
+}
+
+.country-list li + li {
+  margin-top: 8px;
+}
+
+.table-wrap {
+  width: 100%;
+  margin-top: 24px;
+  overflow-x: auto;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.country-article table {
+  width: 100%;
+  min-width: 760px;
+  border-collapse: collapse;
+  background: #000;
+}
+
+.country-article th,
+.country-article td {
+  padding: 13px 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.11);
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  text-align: left;
+  vertical-align: top;
+}
+
+.country-article th {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.06);
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.country-article td {
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 0.92rem;
+  line-height: 1.48;
+}
+
+.country-sources ol {
+  max-width: 980px;
+  margin: 20px 0 0;
+  padding-left: 1.2rem;
+}
+
+.country-sources li {
+  margin-bottom: 12px;
+  font-size: 0.94rem;
+}
+
 @keyframes flagMarquee {
   from {
     transform: translate3d(0, 0, 0);
@@ -2004,6 +2268,41 @@ body.intro-complete .intro-loader ~ main .hero-globe {
 
   .flag-chip img {
     width: clamp(90px, 28vw, 124px);
+  }
+
+  .country-hero {
+    min-height: auto;
+    padding-top: 58px;
+  }
+
+  .country-hero h1 {
+    display: block;
+    font-size: clamp(2.7rem, 14vw, 4.6rem);
+  }
+
+  .country-title-flag {
+    display: block;
+    margin-bottom: 18px;
+  }
+
+  .country-stat-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .country-layout {
+    grid-template-columns: 1fr;
+    padding-top: 36px;
+  }
+
+  .country-toc {
+    position: static;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-height: none;
+    padding-right: 0;
+  }
+
+  .country-card-grid {
+    grid-template-columns: 1fr;
   }
 
   .hero {
