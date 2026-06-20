@@ -10,7 +10,7 @@ const MILIPEDIA_COUNTRY_PROFILES = [
   {
     id: "united-states",
     name: "United States",
-    flag: pngFlagAsset("us", "16% center"),
+    flag: pngFlagAsset("us", "4% center"),
     aliases: ["United States"],
     power: "Global full-spectrum aerospace power",
     summary:
@@ -202,10 +202,9 @@ const COUNTRY_PROFILE_EXTENSION = [
     id: "soviet-union",
     name: "Soviet Union",
     flag: {
-      src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/640px-Flag_of_the_Soviet_Union.svg.png",
-      srcset:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/640px-Flag_of_the_Soviet_Union.svg.png 1x, https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/1280px-Flag_of_the_Soviet_Union.svg.png 2x",
-      position: "14% center"
+      src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/1280px-Flag_of_the_Soviet_Union.svg.png",
+      srcset: "",
+      position: "10% center"
     },
     aliases: ["Soviet Union"],
     power: "Former superpower aerospace system",
