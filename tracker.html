@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Milipedia Tracker</title>
+    <meta name="description" content="Live map of military aircraft broadcasting ADS-B data.">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" href="milipedia-logo.png?v=2">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png?v=2">
+    <link rel="preconnect" href="https://cdn.jetphotos.com">
+    <link rel="preconnect" href="https://r.jina.ai">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="styles.css?v=tracker-v4">
+  </head>
+  <body class="tracker-page">
+    <nav class="nav" aria-label="Primary navigation">
+      <div class="nav-inner">
+        <div class="brand-lockup">
+          <a class="brand" href="index.html#home">Milipedia</a>
+          <span class="brand-byline">By Hamster-coder123</span>
+        </div>
+        <div class="nav-links">
+          <a href="index.html#database">Aircraft</a>
+          <a href="countries.html">Countries</a>
+          <a href="tracker.html" aria-current="page">Tracker</a>
+          <a href="index.html#sources">Sources</a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="tracker-shell">
+      <section class="tracker-map-wrap" aria-label="Military aircraft tracker">
+        <div id="tracker-map" class="tracker-map"></div>
+
+        <div class="tracker-topbar" aria-live="polite">
+          <div>
+            <span class="tracker-kicker">Military aircraft tracker</span>
+            <strong id="tracker-count">Loading...</strong>
+          </div>
+          <button id="tracker-refresh" type="button">Refresh</button>
+        </div>
+
+        <aside class="tracker-panel" id="tracker-panel" aria-label="Aircraft information">
+          <div class="tracker-panel__empty">
+            <span>Select an aircraft</span>
+            <p>Tail number, aircraft model, registered operator, and flight plan appear here when broadcast or inferable.</p>
+          </div>
+        </aside>
+
+        <div class="tracker-status" id="tracker-status">Connecting to ADSB.lol military feed...</div>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+    <script src="js/tracker.js?v=tracker-v4" defer></script>
+  </body>
+</html>
