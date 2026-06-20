@@ -52,6 +52,14 @@ function table(headers, rows) {
   `;
 }
 
+function plainTable(headers, rows = []) {
+  if (!rows.length) return "";
+  return table(
+    headers,
+    rows.map((row) => row.map((cell) => escapeHtml(cell)))
+  );
+}
+
 function section(id, title, body) {
   return `<section id="${id}"><h2>${title}</h2>${body}</section>`;
 }
@@ -189,12 +197,29 @@ function renderProfile(profile, aircraft) {
         ${section("alliances", "5. Political and Alliance Influence", paragraphs(profile.politics))}
         ${section("industry", "6. Domestic Aerospace Industry", renderOrganizations(profile))}
         ${section("programs", "7. Indigenous Aircraft and Aerospace Programs", renderPrograms(profile))}
-        ${section("procurement", "8. Imported Aircraft and Foreign Procurement", paragraphs(profile.procurement) + renderAircraftLinks(profile, aircraft))}
+        ${section(
+          "procurement",
+          "8. Imported Aircraft and Foreign Procurement",
+          paragraphs(profile.procurement) +
+            plainTable(
+              profile.procurementTableHeaders || [],
+              profile.procurementTableRows || []
+            ) +
+            renderAircraftLinks(profile, aircraft)
+        )}
         ${section("license", "9. Licensed Production and Technology Transfer", paragraphs(profile.license))}
         ${section("doctrine", "10. Air Force Development and Doctrine", paragraphs(profile.doctrine))}
         ${section("combat-lessons", "11. Combat Experience and Operational Lessons", paragraphs(profile.combat))}
         ${section("current-industry", "12. Current Military Aerospace Industry", paragraphs(profile.current))}
-        ${section("inventory", "13. Current Military Aircraft Inventory", paragraphs(profile.inventory))}
+        ${section(
+          "inventory",
+          "13. Current Military Aircraft Inventory",
+          paragraphs(profile.inventory) +
+            plainTable(
+              profile.inventoryTableHeaders || [],
+              profile.inventoryTableRows || []
+            )
+        )}
         ${section("drones", "14. Drone and Unmanned Aircraft Development", paragraphs(profile.drones))}
         ${section("exports", "15. Aerospace Exports", paragraphs(profile.exports))}
         ${section("civil", "16. Civil Aerospace Connection", paragraphs(profile.civil))}
@@ -204,9 +229,16 @@ function renderProfile(profile, aircraft) {
         ${section("timeline", "20. Timeline", table(["Year", "Event"], profile.timeline.map(([year, event]) => [escapeHtml(year), escapeHtml(event)])))}
         ${section("key-systems", "21. Key Aircraft and Systems Table", table(["Aircraft/System", "Type", "Role in National Aerospace History"], profile.keySystems.map(([name, type, role]) => [escapeHtml(name), escapeHtml(type), escapeHtml(role)])))}
         ${section("incidents", "22. Notable Incidents, Turning Points, and Lessons", list(profile.incidents))}
-        ${section("summary", "23. Summary Assessment", paragraphs(`${profile.name}'s aerospace position is best understood through its strongest capabilities: ${profile.strengths.join(", ")}. Its largest constraints are: ${profile.weaknesses.join(", ")}. ${profile.future}`))}
+        ${section(
+          "summary",
+          "23. Summary Assessment",
+          paragraphs(
+            profile.summaryAssessment ||
+              `${profile.name}'s aerospace position is best understood through its strongest capabilities: ${profile.strengths.join(", ")}. Its largest constraints are: ${profile.weaknesses.join(", ")}. ${profile.future}`
+          )
+        )}
         ${section("sources", "Sources", `<ol>${profile.sources
-          .map(([title, url]) => `<li><a href="${escapeHtml(url)}">${escapeHtml(title)}</a>. Source note for ${escapeHtml(profile.name)} aerospace and military aviation profile.</li>`)
+          .map(([title, url, note]) => `<li><a href="${escapeHtml(url)}">${escapeHtml(title)}</a>. ${escapeHtml(note || `Source note for ${profile.name} aerospace and military aviation profile.`)}</li>`)
           .join("")}</ol>`)}
       </article>
     </section>
