@@ -14683,35 +14683,45 @@
   },
   {
     "id": "c-5-galaxy",
-    "name": "Lockheed C-5 Galaxy",
-    "alternative_names": [],
+    "name": "Lockheed C-5 Galaxy / C-5M Super Galaxy",
+    "alternative_names": [
+      "C-5 Galaxy",
+      "C-5M Super Galaxy"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
-    "manufacturer": "Lockheed",
-    "role": "Strategic airlifter",
-    "aircraft_type": "Transport aircraft",
+    "manufacturer": "Lockheed; Lockheed Martin-Georgia Co. modernization support",
+    "role": "Strategic outsize-cargo airlifter",
+    "aircraft_type": "Heavy military transport aircraft",
     "era": "Cold War/Modern",
-    "first_flight": "1968",
-    "introduction_date": "1970",
+    "first_flight": "30 June 1968",
+    "introduction_date": "June 1970",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "7",
+    "status": "Active with the U.S. Air Force as the C-5M Super Galaxy",
+    "number_built": "USAF history cites 76 C-5As and 50 C-5Bs, with two C-5Cs modified for space cargo",
+    "crew": "7: pilot, co-pilot, two flight engineers, and three loadmasters",
     "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engines": "Four General Electric CF6-80C2-L1F / F-138 engines on C-5M aircraft",
+    "max_speed": "518 mph",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
+    "range": "About 5,524 statute miles with 120,000 lb of cargo; about 7,000 nautical miles with no cargo",
+    "combat_range": "2,150 nautical miles with 281,001 lb cargo, offload, then 500 nautical miles to a second base without aerial refueling",
+    "service_ceiling": "Not listed in the USAF fact sheet",
     "rate_of_climb": "Not listed",
-    "armament": "Support aircraft; fixed offensive armament not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Lockheed C-5 Galaxy: Strategic airlifter. Manufacturer: Lockheed. First flight: 1968. Introduction: 1970.",
-    "short_summary": "Lockheed C-5 Galaxy: Strategic airlifter. Origin: United States. Manufacturer: Lockheed. First flight: 1968. Introduction: 1970. Status: Active.",
+    "armament": "Unarmed strategic transport; designed for outsize cargo and personnel movement, not fixed offensive weapons.",
+    "hardpoints": "Not applicable for normal transport configuration",
+    "variants": [
+      "C-5A Galaxy",
+      "C-5B Galaxy",
+      "C-5C Space Cargo Modified",
+      "C-5M Super Galaxy"
+    ],
+    "operators": [
+      "United States Air Force"
+    ],
+    "combat_history": "Supported major U.S. and coalition airlift operations, including the Yom Kippur War air bridge, Desert Storm, Operation Allied Force, Iraq, Afghanistan, and global contingency logistics.",
+    "development_history": "The C-5 Galaxy was developed by Lockheed as a very large strategic transport for outsize military cargo. It first flew on 30 June 1968 and the first operational C-5A was delivered to the 437th Airlift Wing at Charleston AFB in June 1970. Later C-5B, C-5C, AMP, and RERP modernization work led to the C-5M Super Galaxy.",
+    "short_summary": "The Lockheed C-5 Galaxy is a U.S. strategic outsize-cargo airlifter. The modernized C-5M Super Galaxy is the largest aircraft in the U.S. Air Force inventory and carries oversized cargo and personnel over intercontinental ranges.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -14724,25 +14734,32 @@
     ],
     "sources": [
       {
+        "id": "fn-usaf",
+        "title": "C-5M Super Galaxy",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104492/c-5m-super-galaxy",
+        "publisher": "U.S. Air Force",
+        "note": "Official fact sheet for C-5M mission, features, history, modernization, inventory, and specifications."
+      },
+      {
+        "id": "fn-lockheed",
+        "title": "C-5 Galaxy",
+        "url": "https://www.lockheedmartin.com/en-us/products/c-5.html",
+        "publisher": "Lockheed Martin",
+        "note": "Manufacturer page for modernization context, payload examples, reliability claims, and operational history highlights."
+      },
+      {
         "id": "fn-main",
         "title": "Lockheed C-5 Galaxy",
         "url": "https://en.wikipedia.org/wiki/Lockheed_C-5_Galaxy",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation and cross-check source; official sources are preferred for the article facts."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
+        "note": "Local rules for neutral wording, units, estimates, variant differences, and source handling."
       }
     ],
     "country_flags": [
@@ -14755,51 +14772,56 @@
       "Lockheed"
     ],
     "development_tensions": [
-      "Balancing payload, short-field performance, reliability, strategic reach, and rough-field operation."
+      "Balancing outsized payload, intercontinental range, short-field performance, maintainability, and runway loading for a very large aircraft.",
+      "Modernizing legacy C-5A/B/C airframes without losing strategic airlift capacity during operational commitments."
     ],
     "wars_used_in": [
       {
-        "name": "Gulf War",
-        "note": "Lockheed C-5 Galaxy used in Gulf War."
+        "name": "Yom Kippur War airlift",
+        "note": "Lockheed Martin cites C-5 support to the air bridge for Israel during the Yom Kippur War."
       },
       {
-        "name": "Iraq War",
-        "note": "Lockheed C-5 Galaxy used in Iraq War."
+        "name": "Operation Desert Storm",
+        "note": "The C-5 supported coalition strategic airlift during Desert Storm."
       },
       {
-        "name": "War in Afghanistan (2001–2021)",
-        "note": "Lockheed C-5 Galaxy used in War in Afghanistan (2001–2021)."
+        "name": "Operation Allied Force",
+        "note": "USAF imagery and captions show C-5 support to NATO Operation Allied Force logistics."
+      },
+      {
+        "name": "Iraq War and Afghanistan War",
+        "note": "The C-5 fleet supported U.S. strategic mobility for Iraq, Afghanistan, and wider global contingency operations."
       }
     ],
     "variant_families": [
-      "Lockheed C-5 Galaxy baseline production model",
-      "Lockheed C-5 Galaxy upgraded avionics or weapons-capable model",
-      "Lockheed C-5 Galaxy cargo, special mission, or aerial support model"
+      "C-5A Galaxy",
+      "C-5B Galaxy",
+      "C-5C Space Cargo Modified",
+      "C-5M Super Galaxy"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Lockheed C-5 Galaxy has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The U.S. Air Force is the sole military operator cited by the official fact sheet.",
+      "all_operators_status": "USAF C-5M aircraft are stationed at Dover AFB, Travis AFB, Lackland AFB, and Westover Air Reserve Base according to the U.S. Air Force fact sheet."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "C-5M modernization aircraft demonstrated 43 world aviation records in Lockheed Martin-described Dover AFB flights."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Legacy fleet reliability, wing-structure, avionics, and engine modernization issues are summarized cautiously; detailed accident history is not expanded in this run."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Lockheed C-5 Galaxy uses jet propulsion."
+      "type": "High-bypass turbofan",
+      "summary": "C-5M aircraft use four General Electric CF6-80C2-L1F / F-138 engines rated by the USAF fact sheet at 51,250 lb thrust each.",
+      "legacy_note": "Legacy C-5 aircraft used General Electric TF39 engines before RERP re-engining."
     },
     "armament_details": {
-      "summary": "Support aircraft; fixed offensive armament not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "The C-5 is unarmed in normal service and is configured for strategic airlift, cargo handling, and personnel movement.",
+      "caution": "Do not list fighter-style guns, missiles, or external stores for this support aircraft."
     },
     "similar_development": [
       {
@@ -14813,111 +14835,144 @@
         "url": "aircraft.html?id=c-17-globemaster-iii"
       },
       {
+        "id": "kc-135-stratotanker",
+        "name": "Boeing KC-135 Stratotanker",
+        "url": "aircraft.html?id=kc-135-stratotanker"
+      },
+      {
         "id": "il-76",
         "name": "Ilyushin Il-76",
         "url": "aircraft.html?id=il-76"
-      },
-      {
-        "id": "an-12",
-        "name": "Antonov An-12",
-        "url": "aircraft.html?id=an-12"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 34,
+      "operator_entries": 1,
+      "variant_entries": 4,
+      "external_article_sources": 2
     },
     "footnotes": [
+      {
+        "id": "fn-usaf",
+        "title": "C-5M Super Galaxy",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104492/c-5m-super-galaxy",
+        "publisher": "U.S. Air Force",
+        "note": "Official C-5M fact sheet used for mission, basing, engines, cargo, modernization history, and specifications."
+      },
+      {
+        "id": "fn-lockheed",
+        "title": "C-5 Galaxy",
+        "url": "https://www.lockheedmartin.com/en-us/products/c-5.html",
+        "publisher": "Lockheed Martin",
+        "note": "Manufacturer page used for modernization, payload examples, reliability/range improvements, and historical operational examples."
+      },
       {
         "id": "fn-main",
         "title": "Lockheed C-5 Galaxy",
         "url": "https://en.wikipedia.org/wiki/Lockheed_C-5_Galaxy",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source; official USAF and manufacturer pages are preferred for specific facts."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording, source handling, estimates, and variant caveats."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "C-5M Super Galaxy",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104492/c-5m-super-galaxy",
+        "publisher": "U.S. Air Force"
+      },
+      {
+        "title": "C-5 Galaxy",
+        "url": "https://www.lockheedmartin.com/en-us/products/c-5.html",
+        "publisher": "Lockheed Martin"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Lockheed C-5 Galaxy is a Strategic airlifter from United States. Manufacturer: Lockheed. First flight: 1968. Introduction: 1970. Status: Active.",
+            "text": "The Lockheed C-5 Galaxy is an American strategic outsize-cargo airlifter built to move very large military cargo and personnel over intercontinental distances. The modernized C-5M Super Galaxy is described by the U.S. Air Force as the largest aircraft in its inventory and is used for Department of Defense global mobility missions.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Lockheed C-5 Galaxy is a transport aircraft. Primary role: strategic airlifter. Country of origin: United States. Manufacturer: Lockheed.",
+            "text": "The aircraft's defining features are its huge cargo hold, nose and aft cargo doors, full-width drive-on ramps, five landing-gear sets, 28 wheels, and aerial-refueling compatibility. These allow simultaneous front-and-rear loading and unloading of vehicles, helicopters, pallets, and other outsized equipment.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Compared with a fighter page such as the F-16, the C-5 page emphasizes strategic logistics rather than weapons. Its operational value comes from payload, volume, runway performance, global reach, and the ability to carry cargo that smaller airlifters cannot accept.",
             "refs": [
-              "fn-method"
+              "fn-usaf",
+              "fn-lockheed"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Strategic airlifter"
+            "text": "Strategic outsize-cargo airlifter"
           },
           {
-            "title": "Designer or builder",
-            "text": "Lockheed"
+            "title": "Manufacturer",
+            "text": "Lockheed; Lockheed Martin modernization support"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Status",
+            "text": "Active as C-5M Super Galaxy"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Primary operator",
+            "text": "United States Air Force"
+          },
+          {
+            "title": "Cargo payload",
+            "text": "Up to 281,001 lb listed by the USAF fact sheet"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Lockheed C-5 Galaxy first flew in 1968. Introduction date: 1970. Era: Cold War/Modern.",
+            "text": "The C-5 first flew on 30 June 1968. Lockheed-Georgia delivered the first operational C-5A Galaxy to the 437th Airlift Wing at Charleston Air Force Base in June 1970, giving the Air Force a very large aircraft for outsized cargo that could not fit in earlier transports.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Producer: Lockheed. Development context: strategic airlifter, jet propulsion, subsonic speed category, Cold War/Modern era.",
+            "text": "The later C-5B added more than 100 system modifications to improve reliability and maintainability. The Air Force fact sheet states that the last 50 C-5Bs were delivered by March 1989, supplementing the C-5A inventory.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf"
             ]
-          }
-        ],
-        "bullets": [
+          },
           {
-            "text": "Balancing payload, short-field performance, reliability, strategic reach, and rough-field operation.",
+            "text": "Two C-5C Space Cargo Modified aircraft were delivered in fiscal year 1989. Their troop compartments and aft pressure-door structure were modified so they could carry the space shuttle's large cargo container and other oversized space payloads.",
             "refs": [
-              "fn-method"
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Air Mobility Command began C-5 modernization in 1998 after a study indicated much of the airframe service life remained. The Avionics Modernization Program updated communications, navigation, surveillance, air-traffic-management compliance, safety equipment, and autopilot functions.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "The Reliability Enhancement and Re-engining Program replaced the older TF39 engines with General Electric CF6-80C2-L1F / F-138 engines. USAF data credits the re-engining with a 22 percent thrust increase, 30 percent shorter takeoff roll, and 58 percent faster climb rate.",
+            "refs": [
+              "fn-usaf"
             ]
           }
         ]
@@ -14927,125 +14982,127 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 7. Propulsion: Jet. Speed category: Subsonic.",
+            "text": "The C-5 is a high-wing, T-tail, four-engine jet transport with a pressurized cargo compartment and opening nose and tail doors. Its double-ended loading system is central to the design: ground crews can load or unload from both ends, and full-width ramps permit double rows of vehicles.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "C-5M aircraft use four General Electric CF6-80C2-L1F / F-138 commercial engines. The USAF fact sheet lists 51,250 lb of thrust per engine and identifies the C-5M as equipped with modern diagnostics that can record and analyze data from more than 7,000 test points.",
             "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "The aircraft can carry oversized cargo over intercontinental ranges and can take off and land on relatively short runways for its size. With aerial refueling, the USAF describes its range as limited primarily by crew endurance rather than fuel capacity.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "The C-5 has no fixed offensive armament in normal service. Defensive and mission equipment details vary by period and upgrade, so this page avoids fighter-style weapon lists and focuses on the publicly documented airlift mission.",
+            "refs": [
+              "fn-usaf",
               "fn-method"
-            ]
-          },
-          {
-            "text": "Lockheed C-5 Galaxy uses jet propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Support aircraft; fixed offensive armament not listed. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "7"
+            "title": "Engines",
+            "text": "4 × F-138-GE100 / CF6-80C2-L1F turbofans"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Landing gear",
+            "text": "Five landing-gear sets and 28 wheels"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Doors",
+            "text": "Nose and aft cargo doors"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Cargo deck",
+            "text": "36 pallet positions"
           },
           {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Armament",
+            "text": "Unarmed strategic transport"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Lockheed C-5 Galaxy status: Active. Conflict entries: 3.",
+            "text": "Specifications below follow the U.S. Air Force C-5M fact sheet unless noted. Public C-5 values can vary between legacy C-5A/B/C aircraft and modernized C-5M aircraft, so variant-specific rows identify the C-5M where appropriate.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: Gulf War, Iraq War, War in Afghanistan (2001–2021).",
-            "refs": [
+              "fn-usaf",
               "fn-method"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Gulf War: Lockheed C-5 Galaxy used in Gulf War.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Primary function",
+            "text": "Outsize cargo transport"
           },
           {
-            "text": "Iraq War: Lockheed C-5 Galaxy used in Iraq War.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Powerplant",
+            "text": "4 × F-138-GE100 General Electric engines"
           },
           {
-            "text": "War in Afghanistan (2001–2021): Lockheed C-5 Galaxy used in War in Afghanistan (2001–2021).",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
+            "title": "Maximum cargo",
+            "text": "281,001 lb (127,460 kg)"
+          },
           {
-            "text": "Lockheed C-5 Galaxy named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Maximum takeoff weight",
+            "text": "840,000 lb (381,024 kg)"
+          },
+          {
+            "title": "Speed",
+            "text": "518 mph"
+          },
+          {
+            "title": "Pallet positions",
+            "text": "36"
           }
         ],
         "bullets": [
           {
-            "text": "Named pilots listed: 0.",
+            "text": "Crew: pilot, co-pilot, two flight engineers, and three loadmasters.",
             "refs": [
-              "fn-method"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Named individual aircraft listed: 0.",
+            "text": "Dimensions: 222 ft 9 in wingspan, 247 ft 10 in length, and 65 ft 1 in height.",
             "refs": [
-              "fn-method"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Notable incidents listed: 0.",
+            "text": "Cargo compartment: 143 ft 9 in long, 19 ft wide, and 13 ft 6 in high.",
             "refs": [
-              "fn-method"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Loss claims listed: 0.",
+            "text": "Thrust: 51,250 lb per F-138-GE100 engine.",
             "refs": [
-              "fn-method"
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Unrefueled range: about 5,524 statute miles with 120,000 lb cargo; about 7,000 nautical miles with no cargo.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Heavy-cargo profile: 281,001 lb for 2,150 nautical miles, offload, then 500 nautical miles to a second base without aerial refueling.",
+            "refs": [
+              "fn-usaf"
             ]
           }
         ]
@@ -15055,35 +15112,36 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Lockheed C-5 Galaxy variant-family entries: 3. Variant families: Lockheed C-5 Galaxy baseline production model; Lockheed C-5 Galaxy upgraded avionics or weapons-capable model; Lockheed C-5 Galaxy cargo, special mission, or aerial support model.",
+            "text": "The C-5 family is best understood as an original C-5A production series, an improved C-5B, two space-cargo-modified C-5Cs, and the modernized C-5M Super Galaxy standard created through avionics, reliability, and engine upgrades.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-usaf"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Lockheed C-5 Galaxy baseline production model",
+            "text": "C-5A Galaxy — original operational model delivered beginning in June 1970.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Lockheed C-5 Galaxy upgraded avionics or weapons-capable model",
+            "text": "C-5B Galaxy — production model delivered through March 1989 with more than 100 additional reliability and maintainability modifications.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Lockheed C-5 Galaxy cargo, special mission, or aerial support model",
+            "text": "C-5C Space Cargo Modified — two aircraft modified with changes to the troop compartment, aft pressure door, bulkhead, and aft doors for large space payloads.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "C-5M Super Galaxy — modernized C-5A/B/C aircraft with AMP avionics updates, RERP reliability work, F-138 engines, and improved operational capability.",
+            "refs": [
+              "fn-usaf",
+              "fn-lockheed"
             ]
           }
         ]
@@ -15093,45 +15151,180 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Lockheed C-5 Galaxy has 1 designer or builder country entry.",
+            "text": "The U.S. Air Force is the sole operator highlighted by the official fact sheet. The USAF states that it owns and operates 52 C-5B/C/M aircraft, stationed at Dover Air Force Base, Travis Air Force Base, Lackland Air Force Base, and Westover Air Reserve Base.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Operational units use the C-5 for strategic mobility rather than tactical attack. The fleet supports active-duty, reserve, and total-force airlift requirements by moving outsized equipment, helicopters, vehicles, personnel, and pallets between major theaters.",
             "refs": [
-              "fn-method"
+              "fn-usaf"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "United States Air Force — primary and official operator of the C-5M Super Galaxy fleet.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "Dover AFB, Delaware; Travis AFB, California; Lackland AFB, Texas; and Westover Air Reserve Base, Massachusetts are listed C-5 locations in the USAF fact sheet.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "service",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 7, propulsion type Jet, maximum speed category Subsonic, first flight 1968, introduction 1970.",
+            "text": "The C-5 has served as a strategic air bridge for U.S. policy and coalition logistics. Lockheed Martin cites C-5 use from support to Israel during the Yom Kippur War through the air bridge for Desert Storm, emphasizing the aircraft's ability to move enormous loads over global distances.",
             "refs": [
+              "fn-lockheed"
+            ]
+          },
+          {
+            "text": "USAF imagery and captions document C-5 support to Operation Allied Force, Indo-Pacific bomber task force logistics, and rapid deployment exercises. These examples show the aircraft's continuing role in moving large equipment and personnel for contingency and deterrence missions.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "In day-to-day peacetime service, the C-5's value is often logistical rather than visible combat action: it transports outsized cargo that cannot be broken down easily and can combine long-range movement with aerial refueling to reduce en-route fuel stops.",
+            "refs": [
+              "fn-usaf",
+              "fn-lockheed"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Role Context",
+        "paragraphs": [
+          {
+            "text": "Within Milipedia's transport-aircraft context, the C-5 sits above the C-130 Hercules and C-17 Globemaster III in sheer cargo volume and outsized-load capacity. The C-17 provides more tactical airlift flexibility, while the C-5 specializes in very large payloads and intercontinental strategic movement.",
+            "refs": [
+              "fn-usaf",
+              "fn-lockheed"
+            ]
+          },
+          {
+            "text": "The C-5 is not a substitute for tanker, gunship, fighter, or bomber aircraft. Its contribution is strategic mobility: moving the people, vehicles, helicopters, and equipment that make other operations possible.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Compared with C-130",
+            "text": "Much larger strategic airlifter for outsized cargo"
+          },
+          {
+            "title": "Compared with C-17",
+            "text": "Greater outsize-load emphasis; less tactical-short-field focus"
+          },
+          {
+            "title": "Compared with KC-135",
+            "text": "Cargo transport rather than aerial-refueling tanker"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include enormous cargo volume, intercontinental reach, aerial-refueling compatibility, dual-end loading, and the ability to move outsized equipment that would otherwise require sealift or disassembly.",
+            "refs": [
+              "fn-usaf",
+              "fn-lockheed"
+            ]
+          },
+          {
+            "text": "Limitations follow from the same scale: the aircraft requires major airfield infrastructure, careful maintenance, trained load teams, and significant operating support. It is also unarmed and normally depends on route planning, air superiority, and base security rather than self-defense weapons.",
+            "refs": [
+              "fn-usaf",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Modernization improved the C-5M's reliability, efficiency, maintainability, climb rate, thrust, and range, but public sources still describe the aircraft as a specialized strategic asset rather than a universal transport for every theater or runway.",
+            "refs": [
+              "fn-usaf",
+              "fn-lockheed"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "30 June 1968 — C-5 Galaxy first flight.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "June 1970 — First operational C-5A delivered to the 437th Airlift Wing at Charleston AFB.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Fiscal year 1989 — Two C-5C Space Cargo Modified aircraft delivered for large space payloads.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "March 1989 — Last 50 C-5B aircraft delivered, according to the USAF fact sheet.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "1998 — Air Mobility Command began major C-5 modernization planning.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "2006 — C-5M first-flight ceremony at Lockheed Martin's Marietta plant, 38 years after the C-5 maiden flight.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Fiscal year 2018 — USAF fact sheet described completion schedule for the last 52 C-5 RERP modifications.",
+            "refs": [
+              "fn-usaf"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Primary facts for this page come from the U.S. Air Force C-5M Super Galaxy fact sheet and Lockheed Martin's C-5 Galaxy page. Wikipedia is retained only as supplementary orientation and should not override official or manufacturer data when values differ.",
+            "refs": [
+              "fn-usaf",
+              "fn-lockheed",
               "fn-main"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Some legacy C-5A/B/C production totals, retired-airframe counts, mission equipment, and base assignments vary over time. This page uses cautious wording and avoids exact current tail-by-tail fleet accounting beyond the official fact sheet statement used here.",
             "refs": [
               "fn-method"
             ]
@@ -15139,11 +15332,29 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
-        "paragraphs": [
+        "id": "related",
+        "title": "Related Pages",
+        "bullets": [
           {
-            "text": "Lockheed C-5 Galaxy similar-development links: 4.",
+            "text": "Lockheed C-130 Hercules — tactical and theater airlift predecessor family.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Boeing C-17 Globemaster III — modern strategic/tactical airlifter often compared with the C-5.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Boeing KC-135 Stratotanker — related U.S. Air Force mobility aircraft in the tanker role.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Back to the aircraft database.",
             "refs": [
               "fn-method"
             ]
@@ -15159,12 +15370,12 @@
             "url": "aircraft.html?id=c-17-globemaster-iii"
           },
           {
-            "label": "Ilyushin Il-76",
-            "url": "aircraft.html?id=il-76"
+            "label": "Boeing KC-135 Stratotanker",
+            "url": "aircraft.html?id=kc-135-stratotanker"
           },
           {
-            "label": "Antonov An-12",
-            "url": "aircraft.html?id=an-12"
+            "label": "Back to Aircraft",
+            "url": "index.html#database"
           }
         ]
       }
