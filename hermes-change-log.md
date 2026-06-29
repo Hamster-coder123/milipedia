@@ -241,3 +241,80 @@ Record the result of:
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * Public sources describe C-5A/B/C/M production, conversion, retirement, and basing status in ways that can vary by date; the page uses cautious wording and avoids exact current tail-by-tail fleet accounting.
 * Detailed accident history and mission-specific defensive equipment were not expanded in this run because the primary official fact sheet used here focuses on mission, modernization, and specifications rather than those topics.
+
+### Run 4 — 2026-06-29 21:01:30 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Bell Boeing V-22 Osprey (id: v-22-osprey)
+* Reason selected: The V-22 entry was the sparsest unedited aircraft record found in the comparison pass, with no real operators, no real variants, no external article sources, incomplete specifications, generic fighter-style armament, and only generated overview/development/design/service sections.
+* Previous condition: Placeholder-like generated entry with 15 exact fact fields, 0 operator entries, 0 variant entries, 0 external article sources, no MV-22/CV-22/CMV-22 distinction, no shipboard/tiltrotor design detail, no payload/range/dimension data, and inaccurate generic gun/missile/external-store wording.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview lead; article-section order covering overview, development, design, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, sources, and related pages; short sourced paragraphs; card-style key facts; specification emphasis within the JSON renderer; cautious public-source caveats; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the V-22 Osprey entry in data/aircraft.json into a fuller Milipedia article data record while preserving the existing JSON-rendered aircraft-page structure.
+* Updated top-level facts for name, alternative names, manufacturer, role, type, first flight, introduction/service dates, active status, crew, engines, range, combat radius, armament, carrier/shipboard capability, development history, combat/service history, summary, variants, operators, related aircraft, and article-quality counts.
+* Replaced generic fighter-style armament with V-22-specific defensive/mission-dependent wording, including the USAF CV-22 ramp-mounted .50-caliber machine gun statement.
+* Added official/manufacturer sources from Boeing and the U.S. Air Force, retained Wikipedia as supplementary orientation only, and kept the Milipedia accuracy-rules source.
+* Added/expanded sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Comparison and Role Context, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added public technical details for Rolls-Royce AE1107C / Liberty engines, 6,150-plus shaft horsepower per engine, 57.3 ft fuselage length, 84.6 ft rotor-turning width, 18.4 ft stowed width, 38.1 ft rotor diameter, 52,600 lb VTOL gross weight, 60,500 lb CV-22 self-deployment gross weight, 500 nmi CV-22 combat radius, and 10,000 lb / 24-seat / 32-floor-loaded payload figures where source-supported.
+* Added variant coverage for MV-22B, CV-22B, CMV-22B, and Japanese MV-22 configurations.
+* Added operator coverage for the United States Marine Corps, United States Air Force, United States Navy, and Japan Ground Self-Defense Force.
+* Added mission-context coverage for assault support, special operations, carrier logistics, search and rescue, medical evacuation, humanitarian assistance, disaster relief, and shipboard stowage.
+* Added comparison context against the existing CH-47 Chinook, C-130 Hercules, UH-60 Black Hawk, and F-35 Lightning II pages.
+* Omitted exact all-variant inventory counts, detailed mishap-by-mishap safety analysis, and sensor/countermeasure configuration tables because those facts vary by variant, date, and service and need dedicated dated sources.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Bell Boeing V-22 Osprey aircraft page data and sources.
+* hermes-change-log.md — Appended the cumulative Run 4 log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed diff/stat; data/aircraft.json changes are limited to the V-22 Osprey entry, and hermes-change-log.md adds this Run 4 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed V-22 sections, footnotes, external_articles, article quality fields, variants/operators, and defensive armament wording.
+4. F-16 style comparison — Inspected data/f16-template.html and copied its dense lead, section order, sourced paragraphs, specification emphasis, variants/operators/service/comparison/timeline coverage, source notes, and related-page patterns within the JSON article system.
+5. Internal link check — Verified aircraft.html?id=ch-47-chinook, aircraft.html?id=c-130-hercules, aircraft.html?id=uh-60-black-hawk, and aircraft.html?id=f-35-lightning-ii target existing aircraft ids in data/aircraft.json.
+6. Secret/token check — Ran credential-specific scan over the staged diff for API keys, tokens, passwords, private keys, GitHub tokens, and AWS credentials; no credentials were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, diff check, intended files only, V-22 was not previously edited by Hermes, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Bell Boeing V-22 Osprey
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* Boeing and USAF publish some V-22 specification values differently by family versus CV-22 variant, so the page identifies source/variant context rather than forcing a single universal value.
+* Exact current inventory totals, readiness status, detailed mishap analysis, and mission-system/countermeasure fits were not expanded in this run because they vary by service, date, and configuration and need dedicated dated sources.

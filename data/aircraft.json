@@ -24894,35 +24894,49 @@
   {
     "id": "v-22-osprey",
     "name": "Bell Boeing V-22 Osprey",
-    "alternative_names": [],
+    "alternative_names": [
+      "MV-22 Osprey",
+      "CV-22 Osprey",
+      "CMV-22B Osprey"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
-    "manufacturer": "Bell / Boeing",
-    "role": "Tiltrotor transport",
-    "aircraft_type": "Tiltrotor",
+    "manufacturer": "Bell Boeing",
+    "role": "Multi-mission tiltrotor transport",
+    "aircraft_type": "Tiltrotor military transport",
     "era": "Modern",
-    "first_flight": "1989",
-    "introduction_date": "2007",
+    "first_flight": "19 March 1989",
+    "introduction_date": "2007 with the U.S. Marine Corps; CV-22 IOC in 2009",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "3-4",
-    "engine_type": "Tiltrotor",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "status": "Active with U.S. services and Japan",
+    "number_built": "Hundreds delivered; Boeing states the fleet has exceeded 700,000 flight hours",
+    "crew": "Typically 2 pilots plus aircrew; CV-22 fact sheet lists 2 pilots and 2 special mission aviators",
+    "engine_type": "Tiltrotor turboshaft",
+    "engines": "2 × Rolls-Royce AE1107C Liberty turboshafts",
+    "max_speed": "Turboprop-like cruise; Boeing describes nearly twice typical helicopter speed",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
+    "range": "CV-22 combat radius about 500 nmi with one internal auxiliary fuel tank; aerial-refueling capable",
+    "combat_range": "About 500 nmi combat radius for CV-22 profile with one internal auxiliary fuel tank",
+    "service_ceiling": "High-altitude cruise capability; exact ceiling varies by variant and mission fit",
     "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Bell Boeing V-22 Osprey: Tiltrotor transport. Manufacturer: Bell / Boeing. First flight: 1989. Introduction: 2007.",
-    "short_summary": "Bell Boeing V-22 Osprey: Tiltrotor transport. Origin: United States. Manufacturer: Bell / Boeing. First flight: 1989. Introduction: 2007. Status: Active.",
-    "carrier_capable": false,
+    "armament": "Variant and mission dependent; CV-22 fact sheet lists one ramp-mounted .50-caliber machine gun",
+    "hardpoints": "Not a fighter-style hardpoint aircraft; configured primarily for transport, special operations, and logistics",
+    "variants": [
+      "MV-22B Osprey",
+      "CV-22B Osprey",
+      "CMV-22B Osprey",
+      "Japan Ground Self-Defense Force MV-22"
+    ],
+    "operators": [
+      "United States Marine Corps",
+      "United States Air Force",
+      "United States Navy",
+      "Japan Ground Self-Defense Force"
+    ],
+    "combat_history": "Used for expeditionary assault support, special operations, logistics, casualty evacuation, search and rescue, humanitarian assistance, and disaster relief missions.",
+    "development_history": "The V-22 grew from the U.S. requirement for an aircraft that could take off and land like a helicopter but cruise with the speed and range of a turboprop airplane. The aircraft first flew on 19 March 1989 and entered Marine operational service in 2007 after a long test, redesign, and maturation period.",
+    "short_summary": "The Bell Boeing V-22 Osprey is a U.S. joint-service tiltrotor transport that combines vertical takeoff and landing with airplane-mode cruise. MV-22, CV-22, and CMV-22 variants serve assault support, special operations, carrier logistics, search and rescue, medical evacuation, and disaster-relief missions.",
+    "carrier_capable": true,
     "stealth": false,
     "images": [
       {
@@ -24934,25 +24948,32 @@
     ],
     "sources": [
       {
+        "id": "fn-boeing",
+        "title": "V-22 Osprey",
+        "url": "https://www.boeing.com/defense/v-22-osprey/",
+        "publisher": "Boeing",
+        "note": "Manufacturer page for mission description, tiltrotor concept, customers, variants, flight-hour milestone, and dimensional/propulsion specifications."
+      },
+      {
+        "id": "fn-usaf",
+        "title": "CV-22 Osprey",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104531/cv-22-osprey/",
+        "publisher": "U.S. Air Force",
+        "note": "Official fact sheet for CV-22 mission, background, deployment date, crew, engines, weights, range, payload, and armament."
+      },
+      {
         "id": "fn-main",
         "title": "Bell Boeing V-22 Osprey",
         "url": "https://en.wikipedia.org/wiki/Bell_Boeing_V-22_Osprey",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation and cross-check source; official and manufacturer sources are preferred for article facts."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
+        "note": "Local rules for neutral wording, units, estimates, variant differences, and source handling."
       }
     ],
     "country_flags": [
@@ -24962,111 +24983,133 @@
       }
     ],
     "designers": [
-      "Bell / Boeing"
+      "Bell Helicopter",
+      "Boeing"
     ],
     "development_tensions": [],
     "wars_used_in": [],
     "variant_families": [
-      "Bell Boeing V-22 Osprey baseline production model",
-      "Bell Boeing V-22 Osprey upgraded avionics or weapons-capable model"
+      "MV-22 assault support family",
+      "CV-22 special operations family",
+      "CMV-22 carrier onboard delivery family",
+      "Japanese MV-22 export/customer configuration"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Bell Boeing V-22 Osprey has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "U.S. Marine Corps, U.S. Air Force, U.S. Navy, and Japan operate or have fielded V-22 family aircraft.",
+      "all_operators_status": "Operators and exact inventories vary by delivery schedule and readiness status."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "Program milestones include Marine operational introduction in 2007, Air Force IOC in 2009, and Navy CMV-22 service from 2020 per Boeing customer summary."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "The V-22 program has had a high-profile safety and reliability history; this page notes that record cautiously and avoids unsourced incident-by-incident claims."
       ]
     },
     "engine_details": {
-      "type": "Tiltrotor",
-      "summary": "Bell Boeing V-22 Osprey uses tiltrotor propulsion."
+      "type": "Tiltrotor turboshaft",
+      "summary": "Two Rolls-Royce AE1107C Liberty engines drive large proprotors mounted in rotating nacelles, allowing vertical lift and airplane-mode cruise."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Armament is defensive and variant/mission dependent rather than a fighter-style weapons suite.",
+      "caution": "The U.S. Air Force CV-22 fact sheet lists one .50-caliber machine gun on the ramp; other fits vary by service and mission."
     },
     "similar_development": [
       {
-        "id": "f-15-eagle",
-        "name": "McDonnell Douglas F-15 Eagle",
-        "url": "aircraft.html?id=f-15-eagle"
+        "id": "ch-47-chinook",
+        "name": "Boeing CH-47 Chinook",
+        "url": "aircraft.html?id=ch-47-chinook"
       },
       {
-        "id": "f-16-fighting-falcon",
-        "name": "General Dynamics F-16 Fighting Falcon",
-        "url": "aircraft.html?id=f-16-fighting-falcon"
+        "id": "c-130-hercules",
+        "name": "Lockheed C-130 Hercules",
+        "url": "aircraft.html?id=c-130-hercules"
       },
       {
-        "id": "f-a-18-hornet",
-        "name": "McDonnell Douglas F/A-18 Hornet",
-        "url": "aircraft.html?id=f-a-18-hornet"
+        "id": "uh-60-black-hawk",
+        "name": "Sikorsky UH-60 Black Hawk",
+        "url": "aircraft.html?id=uh-60-black-hawk"
       },
       {
-        "id": "f-a-18e-f-super-hornet",
-        "name": "Boeing F/A-18E/F Super Hornet",
-        "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+        "id": "f-35-lightning-ii",
+        "name": "Lockheed Martin F-35 Lightning II",
+        "url": "aircraft.html?id=f-35-lightning-ii"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 34,
+      "operator_entries": 4,
+      "variant_entries": 4,
+      "external_article_sources": 2
     },
     "footnotes": [
+      {
+        "id": "fn-boeing",
+        "title": "V-22 Osprey",
+        "url": "https://www.boeing.com/defense/v-22-osprey/",
+        "publisher": "Boeing",
+        "note": "Manufacturer page used for mission set, customers, fleet flight hours, variant overview, propulsion, and published dimensions."
+      },
+      {
+        "id": "fn-usaf",
+        "title": "CV-22 Osprey",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104531/cv-22-osprey/",
+        "publisher": "U.S. Air Force",
+        "note": "Official CV-22 fact sheet used for Air Force variant background, crew, propulsion, weights, range, payload, and ramp gun information."
+      },
       {
         "id": "fn-main",
         "title": "Bell Boeing V-22 Osprey",
         "url": "https://en.wikipedia.org/wiki/Bell_Boeing_V-22_Osprey",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation and reference discovery source only."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording, units, source citation, and estimate labels."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "V-22 Osprey",
+        "url": "https://www.boeing.com/defense/v-22-osprey/",
+        "publisher": "Boeing"
+      },
+      {
+        "title": "CV-22 Osprey",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104531/cv-22-osprey/",
+        "publisher": "U.S. Air Force"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Bell Boeing V-22 Osprey is a Tiltrotor transport from United States. Manufacturer: Bell / Boeing. First flight: 1989. Introduction: 2007. Status: Active.",
+            "text": "The Bell Boeing V-22 Osprey is a joint-service tiltrotor aircraft built to combine helicopter vertical takeoff and landing with turboprop-like speed, range, and high-altitude cruise. Boeing describes it as able to take off, land, and hover like a helicopter, then rotate its nacelles forward for airplane-mode flight.",
             "refs": [
-              "fn-main"
+              "fn-boeing"
             ]
           },
           {
-            "text": "Bell Boeing V-22 Osprey is a tiltrotor. Primary role: tiltrotor transport. Country of origin: United States. Manufacturer: Bell / Boeing.",
+            "text": "Milipedia should treat the V-22 less like a conventional helicopter and less like a fixed-wing transport: its central feature is the tiltrotor tradeoff. It can self-deploy, fold for shipboard stowage, and support expeditionary missions that would otherwise require separate rotary-wing and fixed-wing aircraft.",
             "refs": [
-              "fn-wikidata"
+              "fn-boeing",
+              "fn-usaf"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The family includes Marine MV-22 assault-support aircraft, Air Force CV-22 special-operations aircraft, Navy CMV-22 carrier logistics aircraft, and Japanese MV-22 aircraft. Exact equipment, crew, range, and defensive armament vary by variant and mission configuration.",
             "refs": [
+              "fn-boeing",
+              "fn-usaf",
               "fn-method"
             ]
           }
@@ -25074,146 +25117,191 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Tiltrotor transport"
+            "text": "Multi-mission tiltrotor transport"
           },
           {
-            "title": "Designer or builder",
-            "text": "Bell / Boeing"
+            "title": "Manufacturer",
+            "text": "Bell Boeing"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Status",
+            "text": "Active"
           },
           {
-            "title": "Propulsion",
-            "text": "Tiltrotor"
+            "title": "Main operators",
+            "text": "U.S. Marine Corps, U.S. Air Force, U.S. Navy, Japan"
+          },
+          {
+            "title": "Core advantage",
+            "text": "VTOL access plus airplane-mode speed and range"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Bell Boeing V-22 Osprey first flew in 1989. Introduction date: 2007. Era: Modern.",
+            "text": "The V-22 was developed to satisfy a demanding requirement: vertical assault-support access without giving up the speed and radius needed for long-range operations. The aircraft first flew in 1989 and reached Marine operational service in 2007 after an extended development and test period.",
             "refs": [
-              "fn-main"
+              "fn-main",
+              "fn-boeing"
             ]
           },
           {
-            "text": "Producer: Bell / Boeing. Development context: tiltrotor transport, tiltrotor propulsion, subsonic speed category, Modern era.",
+            "text": "The Air Force CV-22 is the special-operations variant of the Marine MV-22. The USAF fact sheet states that the first two CV-22 test aircraft were delivered to Edwards Air Force Base in September 2000, and that the 58th Special Operations Wing began aircrew training with the first two production aircraft in August 2006.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "The first operational CV-22 was delivered to Air Force Special Operations Command in January 2007, with initial operational capability achieved in 2009. Boeing states that Marine MV-22 service began in 2007 and Navy CMV-22 service began in 2020.",
+            "refs": [
+              "fn-usaf",
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Because it was the first production military tiltrotor of its scale, the V-22 program accumulated unusual engineering, training, cost, and safety scrutiny. Modern Boeing material emphasizes nacelle reliability improvements, sustainment programs, fly-by-wire controls, and a fleet total exceeding 700,000 flight hours.",
+            "refs": [
+              "fn-boeing",
+              "fn-method"
             ]
           }
-        ],
-        "bullets": []
+        ]
       },
       {
         "id": "design",
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 3-4. Propulsion: Tiltrotor. Speed category: Subsonic.",
+            "text": "The Osprey uses two Rolls-Royce AE1107C / Liberty turboshaft engines in rotating nacelles at the wing tips. In helicopter mode the proprotors provide vertical lift; in airplane mode the nacelles rotate forward and the wing carries the aircraft like a turboprop transport.",
             "refs": [
-              "fn-main"
+              "fn-boeing",
+              "fn-usaf"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Boeing lists two Rolls-Royce AE1107C engines rated at 6,150 shaft horsepower each, while the USAF CV-22 sheet lists more than 6,200 shaft horsepower per engine. The difference is minor in article context and should be treated as source/variant presentation rather than a contradiction.",
             "refs": [
+              "fn-boeing",
+              "fn-usaf",
               "fn-method"
             ]
           },
           {
-            "text": "Bell Boeing V-22 Osprey uses tiltrotor propulsion. Engine model field: Not listed.",
+            "text": "Shipboard operation is a major design driver. The rotors and wing fold for stowage, making the MV-22 and CMV-22 useful from amphibious assault ships and aircraft carriers where deck space is limited.",
             "refs": [
-              "fn-main"
+              "fn-boeing"
             ]
           },
           {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
+            "text": "The CV-22 adds special-operations equipment for long-range infiltration, exfiltration, resupply, low-level penetration, and austere-environment operations. The public fact sheet summarizes the mission rather than listing every sensor, communications, or defensive system fit.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "3-4"
+            "title": "Propulsion",
+            "text": "2 × Rolls-Royce AE1107C Liberty turboshafts"
           },
           {
-            "title": "Engine class",
-            "text": "Tiltrotor"
+            "title": "Rotor diameter",
+            "text": "38.1 ft Boeing listing; USAF CV-22 sheet rounds to 38 ft"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Controls",
+            "text": "Fly-by-wire digital flight controls"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Shipboard stowage",
+            "text": "Folding wing and rotors"
           },
           {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Aerial refueling",
+            "text": "High-speed drogue refueling capability"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Bell Boeing V-22 Osprey status: Active. Conflict entries: 0.",
+            "text": "Specifications below use Boeing family data and the U.S. Air Force CV-22 fact sheet. Values should not be mixed as if every variant has the same empty weight, payload, avionics fit, defensive armament, or internal fuel configuration.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: 0 entries.",
-            "refs": [
+              "fn-boeing",
+              "fn-usaf",
               "fn-method"
             ]
           }
         ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
+        "cards": [
           {
-            "text": "Bell Boeing V-22 Osprey named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Powerplant",
+            "text": "2 × Rolls-Royce AE1107C / Liberty engines"
+          },
+          {
+            "title": "Engine output",
+            "text": "6,150 shp each listed by Boeing; USAF lists more than 6,200 shp each for CV-22"
+          },
+          {
+            "title": "Fuselage length",
+            "text": "57.3 ft / 57 ft 4 in"
+          },
+          {
+            "title": "Rotor diameter",
+            "text": "38.1 ft"
+          },
+          {
+            "title": "CV-22 VTOL gross weight",
+            "text": "52,600 lb"
+          },
+          {
+            "title": "CV-22 payload",
+            "text": "24 seated personnel, 32 floor-loaded personnel, or 10,000 lb cargo"
           }
         ],
         "bullets": [
           {
-            "text": "Named pilots listed: 0.",
+            "text": "Width with rotors turning: 84.6 ft; stowed width: 18.4 ft, according to Boeing.",
             "refs": [
-              "fn-method"
+              "fn-boeing"
             ]
           },
           {
-            "text": "Named individual aircraft listed: 0.",
+            "text": "Length: Boeing lists 57.3 ft fuselage length and 63 ft stowed length; the USAF CV-22 sheet lists 57 ft 4 in length.",
             "refs": [
-              "fn-method"
+              "fn-boeing",
+              "fn-usaf"
             ]
           },
           {
-            "text": "Notable incidents listed: 0.",
+            "text": "Height: 22 ft 1 in with nacelles vertical; Boeing also lists 17.9 ft to the stabilizer.",
             "refs": [
-              "fn-method"
+              "fn-boeing",
+              "fn-usaf"
             ]
           },
           {
-            "text": "Loss claims listed: 0.",
+            "text": "CV-22 gross weights: 60,500 lb self-deployment, 57,000 lb STOL, and 52,600 lb VTOL.",
             "refs": [
-              "fn-method"
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "CV-22 combat radius: about 500 nautical miles with one internal auxiliary fuel tank.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Crew varies: Boeing lists 2 seats for MV/CMV cockpits and 3 for CV; the USAF CV-22 fact sheet lists 2 pilots and 2 special mission aviators.",
+            "refs": [
+              "fn-boeing",
+              "fn-usaf"
             ]
           }
         ]
@@ -25223,29 +25311,37 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Bell Boeing V-22 Osprey variant-family entries: 2. Variant families: Bell Boeing V-22 Osprey baseline production model; Bell Boeing V-22 Osprey upgraded avionics or weapons-capable model.",
+            "text": "The V-22 family is best understood by mission community. The airframe concept is common, but each service variant emphasizes different radios, mission equipment, crew tasks, cargo arrangements, and sustainment needs.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
+              "fn-boeing",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Bell Boeing V-22 Osprey baseline production model",
+            "text": "MV-22B Osprey — Marine Corps assault-support version used for troop movement, resupply, casualty evacuation, humanitarian assistance, and expeditionary operations.",
             "refs": [
-              "fn-main"
+              "fn-boeing"
             ]
           },
           {
-            "text": "Bell Boeing V-22 Osprey upgraded avionics or weapons-capable model",
+            "text": "CV-22B Osprey — Air Force Special Operations Command version for long-range infiltration, exfiltration, resupply, and special-operations support.",
             "refs": [
-              "fn-main"
+              "fn-usaf",
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "CMV-22B Osprey — U.S. Navy carrier onboard delivery and logistics version for moving personnel, parts, and high-priority cargo between shore bases and aircraft carriers.",
+            "refs": [
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Japanese MV-22 — modified MV-22 configuration used by the Japan Ground Self-Defense Force for long-range transport, disaster response, search and recovery, and interoperability.",
+            "refs": [
+              "fn-boeing"
             ]
           }
         ]
@@ -25255,45 +25351,71 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Bell Boeing V-22 Osprey has 1 designer or builder country entry.",
+            "text": "Boeing identifies the United States and Japan as V-22 customers. U.S. service use is divided among the Marine Corps MV-22, Air Force CV-22, and Navy CMV-22 communities, while Japan operates a modified MV-22 with disaster-response and transport emphasis.",
             "refs": [
-              "fn-wikidata"
+              "fn-boeing"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "The USAF CV-22 program of record is listed as 56 aircraft by the end of 2025 in the current Air Force fact sheet. Other service and customer inventory totals change over time, so this page avoids fixed fleet totals unless directly tied to a dated source.",
             "refs": [
+              "fn-usaf",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "United States Marine Corps — MV-22 assault support and related expeditionary missions since 2007.",
             "refs": [
-              "fn-main"
+              "fn-boeing"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "United States Air Force — CV-22 special operations variant with IOC in 2009.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf",
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "United States Navy — CMV-22B carrier logistics aircraft in service from 2020 per Boeing summary.",
+            "refs": [
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Japan Ground Self-Defense Force — modified MV-22 for humanitarian assistance, search and recovery, and long-range transport.",
+            "refs": [
+              "fn-boeing"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "service",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 3-4, propulsion type Tiltrotor, maximum speed category Subsonic, first flight 1989, introduction 2007.",
+            "text": "The V-22 is used for missions that reward speed, range, and vertical access: assault support, long-range infiltration and exfiltration, resupply, search and rescue, medical evacuation, VIP transport, carrier logistics, humanitarian assistance, and disaster relief.",
             "refs": [
-              "fn-main"
+              "fn-boeing"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "For Air Force Special Operations Command, the CV-22 performs long-range infiltration, exfiltration, and resupply missions for special operations forces. Its ability to self-deploy and refuel in flight gives it reach that conventional helicopters generally cannot match.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "In naval and Marine use, the aircraft extends ship-to-objective and ship-to-shore movement beyond the profile of older assault-support helicopters. The CMV-22B adds a logistics role for carrier strike groups by carrying people, critical parts, and priority cargo.",
+            "refs": [
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "The aircraft also carries public controversy because of accident history, readiness concerns, and the complexity of tiltrotor operations. Those issues are real article context, but exact mishap analysis should be handled with dedicated, dated safety sources rather than broad unsourced claims.",
             "refs": [
               "fn-method"
             ]
@@ -25301,11 +25423,168 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "comparison",
+        "title": "Comparison and Role Context",
         "paragraphs": [
           {
-            "text": "Bell Boeing V-22 Osprey similar-development links: 4.",
+            "text": "Compared with the CH-47 Chinook or UH-60 Black Hawk, the V-22 gives up some helicopter simplicity and compactness for substantially greater transit speed, range, and self-deployment reach. It is therefore valuable when time and distance matter as much as vertical landing access.",
+            "refs": [
+              "fn-boeing",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Compared with a C-130 Hercules, the V-22 carries far less cargo but can land vertically on ships, austere zones, and small landing areas. Compared with fixed-wing carrier logistics types, the CMV-22 adds VTOL flexibility but has different cargo-volume and operating tradeoffs.",
+            "refs": [
+              "fn-boeing"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Compared with helicopters",
+            "text": "Faster and longer-ranged, but more complex"
+          },
+          {
+            "title": "Compared with C-130",
+            "text": "Smaller payload, far more vertical access"
+          },
+          {
+            "title": "Compared with fighters",
+            "text": "Transport/logistics platform, not an air-combat aircraft"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include VTOL/STOL access, airplane-mode speed, aerial-refueling compatibility, shipboard stowage, long-range self-deployment, and the ability to support dispersed forces without a conventional runway.",
+            "refs": [
+              "fn-boeing",
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Limitations include mechanical complexity, training demands, downwash and landing-zone considerations, limited payload compared with fixed-wing transports, and a safety/readiness record that has attracted sustained scrutiny.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The Osprey is best described as a specialized operational connector: it bridges gaps between helicopters, transports, special-operations aircraft, and naval logistics rather than replacing all of them.",
+            "refs": [
+              "fn-boeing",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1989 — V-22 first flight.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "September 2000 — First two CV-22 test aircraft delivered to Edwards Air Force Base.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "August 2006 — 58th Special Operations Wing began CV-22 aircrew training with the first two production aircraft.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "January 2007 — First operational CV-22 delivered to Air Force Special Operations Command.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "2007 — Marine MV-22 operational service noted by Boeing customer summary.",
+            "refs": [
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "2009 — CV-22 initial operational capability achieved.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "2020 — Navy CMV-22 carrier logistics service began according to Boeing customer summary.",
+            "refs": [
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "January 2025 — USAF CV-22 fact sheet current date lists a program of record of 56 CV-22 aircraft by the end of 2025.",
+            "refs": [
+              "fn-usaf"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Primary facts for this page come from Boeing and the U.S. Air Force CV-22 fact sheet. Wikipedia is retained only as supplementary orientation and should not override official or manufacturer data where values differ.",
+            "refs": [
+              "fn-boeing",
+              "fn-usaf",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Variant-specific equipment, exact inventory counts, readiness status, mishap analysis, and national modifications can change over time. This page therefore uses cautious wording and avoids unsourced lists of every sensor, countermeasure, and incident.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related",
+        "title": "Related Pages",
+        "bullets": [
+          {
+            "text": "Boeing CH-47 Chinook — heavy-lift helicopter often compared with V-22 vertical-lift missions.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Lockheed C-130 Hercules — fixed-wing tactical transport with greater payload but runway requirements.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Sikorsky UH-60 Black Hawk — conventional utility helicopter comparison point.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Lockheed Martin F-35 Lightning II — another shipboard U.S. aircraft with Marine Corps and Navy relevance, but a fighter rather than a transport.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Back to the aircraft database.",
             "refs": [
               "fn-method"
             ]
@@ -25313,20 +25592,24 @@
         ],
         "links": [
           {
-            "label": "McDonnell Douglas F-15 Eagle",
-            "url": "aircraft.html?id=f-15-eagle"
+            "label": "Boeing CH-47 Chinook",
+            "url": "aircraft.html?id=ch-47-chinook"
           },
           {
-            "label": "General Dynamics F-16 Fighting Falcon",
-            "url": "aircraft.html?id=f-16-fighting-falcon"
+            "label": "Lockheed C-130 Hercules",
+            "url": "aircraft.html?id=c-130-hercules"
           },
           {
-            "label": "McDonnell Douglas F/A-18 Hornet",
-            "url": "aircraft.html?id=f-a-18-hornet"
+            "label": "Sikorsky UH-60 Black Hawk",
+            "url": "aircraft.html?id=uh-60-black-hawk"
           },
           {
-            "label": "Boeing F/A-18E/F Super Hornet",
-            "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+            "label": "Lockheed Martin F-35 Lightning II",
+            "url": "aircraft.html?id=f-35-lightning-ii"
+          },
+          {
+            "label": "Back to Aircraft",
+            "url": "index.html#database"
           }
         ]
       }
