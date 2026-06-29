@@ -18680,29 +18680,31 @@
   {
     "id": "sr-71-blackbird",
     "name": "Lockheed SR-71 Blackbird",
-    "alternative_names": [],
+    "alternative_names": [
+      "Blackbird"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
-    "manufacturer": "Lockheed",
-    "role": "Strategic reconnaissance aircraft",
+    "manufacturer": "Lockheed Skunk Works",
+    "role": "Long-range, high-altitude strategic reconnaissance aircraft",
     "aircraft_type": "Reconnaissance aircraft",
     "era": "Cold War",
     "first_flight": "1964",
     "introduction_date": "1966",
-    "retirement_date": "Not listed",
+    "retirement_date": "1990 from regular USAF service; final NASA flight in 1999",
     "status": "Retired",
-    "number_built": "Not listed",
+    "number_built": "32 SR-71 aircraft",
     "crew": "2",
     "engine_type": "Jet",
-    "engines": "Not listed",
+    "engines": "Two Pratt and Whitney J58 afterburning turbojet/ramjet-cycle engines",
     "max_speed": "Mach 3+",
     "speed_category": "Mach 3+",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
+    "range": "More than 2,900 statute miles",
+    "combat_range": "Mission-dependent; designed for long-range reconnaissance with aerial refueling support",
+    "service_ceiling": "Over 85,000 ft",
     "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
+    "armament": "None; reconnaissance sensors and defensive speed/altitude profile rather than weapons",
+    "hardpoints": "None for weapons in normal SR-71 reconnaissance service",
     "variants": [],
     "operators": [],
     "combat_history": "Not listed",
@@ -18712,10 +18714,10 @@
     "stealth": false,
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Lockheed_SR-71_Blackbird.jpg/330px-Lockheed_SR-71_Blackbird.jpg",
-        "caption": "Lockheed SR-71 Blackbird",
-        "credit": "Wikimedia/Wikipedia thumbnail source",
-        "license": "Verify original file license before reuse."
+        "url": "https://media.defense.gov/2020/May/14/2002299669/1200/1200/0/200513-F-IO108-005.JPG",
+        "caption": "Lockheed SR-71A on display in the Cold War Gallery at the National Museum of the United States Air Force",
+        "credit": "U.S. Air Force photo by Ken LaRock",
+        "license": "Public domain U.S. Air Force image"
       }
     ],
     "sources": [
@@ -18748,81 +18750,119 @@
       }
     ],
     "designers": [
-      "Lockheed"
+      "Lockheed Skunk Works",
+      "Clarence \"Kelly\" Johnson"
     ],
     "development_tensions": [
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Sustained Mach 3 cruise required titanium structure, fuel and seal management, inlet control, special high-temperature systems, and pressure-suited crews.",
+      "The aircraft was optimized for strategic reconnaissance and survivability through altitude, speed, route planning, and electronic systems rather than weapons carriage.",
+      "Operating cost, specialized maintenance, tanker support, and satellite reconnaissance competition shaped its retirement debate."
     ],
-    "wars_used_in": [],
+    "wars_used_in": [
+      {
+        "name": "Cold War reconnaissance operations",
+        "note": "Used by the U.S. Air Force for strategic reconnaissance during the Cold War and related crises."
+      },
+      {
+        "name": "Vietnam War-era and Southeast Asia reconnaissance",
+        "note": "SR-71 sorties from Kadena supported high-altitude intelligence collection over Asia."
+      },
+      {
+        "name": "Middle East and global crisis monitoring",
+        "note": "Used for strategic intelligence collection rather than direct strike or air combat."
+      }
+    ],
     "variant_families": [
-      "Lockheed SR-71 Blackbird baseline production model",
-      "Lockheed SR-71 Blackbird upgraded avionics or weapons-capable model",
-      "Lockheed SR-71 Blackbird two-seat trainer or conversion model"
+      "A-12 predecessor family",
+      "YF-12 interceptor derivative",
+      "SR-71A operational reconnaissance aircraft",
+      "SR-71B trainer",
+      "SR-71C hybrid trainer aircraft"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Lockheed SR-71 Blackbird has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "U.S. Air Force was the operational reconnaissance user; NASA used loaned SR-71 aircraft for high-speed research.",
+      "all_operators_status": "Operational users: U.S. Air Force and NASA research operations."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "SR-71A 61-7976 flew the first operational SR-71 sortie on 21 March 1968.",
+        "SR-71A 61-7972 set the 1976 absolute speed and altitude records for its class.",
+        "NASA 844 made the final SR-71 flight on 9 October 1999."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "The USAF retired the fleet in 1990 because of budget pressure and operating costs.",
+        "Congressional reactivation briefly returned SR-71s to service in the 1990s."
       ]
     },
     "engine_details": {
       "type": "Jet",
-      "summary": "Lockheed SR-71 Blackbird uses jet propulsion."
+      "summary": "Two Pratt and Whitney J58 engines with afterburners; NASA describes inlet and nacelle behavior at Mach 3 as producing a ramjet-like share of cruise thrust."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "No gun, missiles, or bombs in normal SR-71 service; mission equipment centered on reconnaissance sensors.",
+      "caution": "Do not describe the SR-71 as a fighter or attack aircraft."
     },
     "similar_development": [
-      {
-        "id": "p-3-orion",
-        "name": "Lockheed P-3 Orion",
-        "url": "aircraft.html?id=p-3-orion"
-      },
       {
         "id": "u-2-dragon-lady",
         "name": "Lockheed U-2",
         "url": "aircraft.html?id=u-2-dragon-lady"
+      },
+      {
+        "id": "yf-12",
+        "name": "Lockheed YF-12A",
+        "url": "https://www.nationalmuseum.af.mil/Visit/MuseumExhibits/FactSheets/Display/tabid/509/Article/195777/lockheed-yf-12a.aspx"
+      },
+      {
+        "id": "a-12",
+        "name": "Lockheed A-12",
+        "url": "https://www.cia.gov/readingroom/collection/oxcart-reconnaissance-aircraft-documentation"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 54,
+      "operator_entries": 2,
+      "variant_entries": 5,
+      "external_article_sources": 5
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-nmusaf",
+        "title": "Lockheed SR-71A",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198054/lockheed-sr-71a",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Used for first flight, service entry, retirement, record speed and altitude, first operational sortie, technical notes, dimensions, engines, range, ceiling, and image."
+      },
+      {
+        "id": "fn-nasa",
+        "title": "SR-71 Blackbird NASA Facts",
+        "url": "https://www.nasa.gov/wp-content/uploads/2021/09/495839main_fs-030_sr-71.pdf",
+        "publisher": "NASA Dryden Flight Research Center",
+        "note": "Used for Skunk Works design origin, Mach 3.2 and 85,000 ft cruise description, NASA research use, J58 inlet behavior, titanium construction, thermal environment, and final NASA operations."
+      },
+      {
+        "id": "fn-lockheed",
+        "title": "Blackbird: The World's Fastest Plane",
+        "url": "https://www.lockheedmartin.com/en-us/news/features/history/blackbird.html",
+        "publisher": "Lockheed Martin",
+        "note": "Used for Skunk Works history, operational reputation, Mach 3 altitude context, survivability framing, and coast-to-coast retirement flight."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Lockheed SR-71 Blackbird",
         "url": "https://en.wikipedia.org/wiki/Lockheed_SR-71_Blackbird",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation and cross-checking source only; not used for unique claims where official sources are available."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording, source handling, and uncertain fact treatment."
       }
     ],
     "external_articles": [],
@@ -18832,65 +18872,99 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Lockheed SR-71 Blackbird is a Strategic reconnaissance aircraft from United States. Manufacturer: Lockheed. First flight: 1964. Introduction: 1966. Status: Retired.",
+            "text": "The Lockheed SR-71 Blackbird was a two-seat, long-range, high-altitude strategic reconnaissance aircraft developed by Lockheed Skunk Works from the A-12 and YF-12 family. The first SR-71 flew on 22 December 1964, and the first aircraft entered service with the 4200th, later 9th, Strategic Reconnaissance Wing at Beale Air Force Base in January 1966.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf",
+              "fn-nasa"
             ]
           },
           {
-            "text": "Lockheed SR-71 Blackbird is a reconnaissance aircraft. Primary role: strategic reconnaissance aircraft. Country of origin: United States. Manufacturer: Lockheed.",
+            "text": "The aircraft was not a fighter and carried no normal gun, missile, or bomb armament. Its mission was to collect intelligence while relying on altitude, sustained Mach 3-class speed, route planning, sensors, electronic systems, and tanker-supported range rather than weapons.",
             "refs": [
-              "fn-wikidata"
+              "fn-nmusaf",
+              "fn-nasa"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The National Museum of the United States Air Force describes the SR-71 as the fastest and highest-flying operational aircraft throughout its nearly 24-year career. On 28 July 1976 an SR-71 set class records of 2,193.167 mph and 85,068.997 ft.",
             "refs": [
-              "fn-method"
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "After USAF retirement in 1990 and a limited 1990s reactivation, NASA used SR-71 aircraft as high-speed and high-altitude research platforms at Dryden. NASA 844 made the final SR-71 flight on 9 October 1999.",
+            "refs": [
+              "fn-nasa"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Strategic reconnaissance aircraft"
+            "text": "Strategic reconnaissance"
           },
           {
-            "title": "Designer or builder",
-            "text": "Lockheed"
+            "title": "Crew",
+            "text": "Two: pilot and reconnaissance systems officer"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Speed class",
+            "text": "Mach 3+"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Ceiling",
+            "text": "Over 85,000 ft"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Lockheed SR-71 Blackbird first flew in 1964. Introduction date: 1966. Era: Cold War.",
+            "text": "The Blackbird lineage began in secret during the late 1950s with the CIA A-12. NASA identifies the SR-71 as the most advanced member of the Blackbird family, which also included the A-12 and YF-12. The aircraft was designed by a Lockheed team led by Clarence \"Kelly\" Johnson at Skunk Works.",
             "refs": [
-              "fn-main"
+              "fn-nasa"
             ]
           },
           {
-            "text": "Producer: Lockheed. Development context: strategic reconnaissance aircraft, jet propulsion, mach 3+ speed category, Cold War era.",
+            "text": "The SR-71 was longer and operationally different from the single-seat A-12 because it carried two crewmembers and equipment for USAF strategic reconnaissance. It entered public awareness after President Lyndon Johnson announced the related YF-12A interceptor in 1964 and after the SR-71 first flew later that year.",
             "refs": [
-              "fn-wikidata"
+              "fn-nasa",
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "Development forced unusual material and systems choices. NASA states that the airframes were built almost entirely of titanium and other exotic alloys to withstand heat from sustained high-speed flight. The fuel, structure, inlets, and crew life-support systems all had to work in a thermal environment unlike conventional jet aircraft.",
+            "refs": [
+              "fn-nasa"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "First SR-71 flight: 22 December 1964.",
             "refs": [
-              "fn-method"
+              "fn-nmusaf",
+              "fn-nasa"
+            ]
+          },
+          {
+            "text": "Service entry: January 1966 with the Beale AFB strategic reconnaissance wing.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "Regular USAF fleet retirement: 26 January 1990, with cost and budget pressure cited by the museum.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "Final NASA SR-71 flight: 9 October 1999.",
+            "refs": [
+              "fn-nasa"
             ]
           }
         ]
@@ -18900,107 +18974,106 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 2. Propulsion: Jet. Speed category: Mach 3+.",
+            "text": "The SR-71 used a long blended fuselage, chines, sharply swept delta wing, twin nacelles, all-moving vertical tail fins, and elevons. Its black finish, titanium structure, and high-temperature systems reflected the need to cruise above Mach 3 for extended periods.",
             "refs": [
-              "fn-main"
+              "fn-nasa",
+              "fn-lockheed"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Power came from two Pratt and Whitney J58 engines rated by the National Museum at 32,500 lb thrust each with afterburner. NASA explains that at high-speed cruise much of the propulsive effect came from the inlet, movable spike, bypass flow, afterburner, and ejector nozzle acting in a ramjet-like manner.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-nasa"
+            ]
+          },
+          {
+            "text": "The crew flew in pressure suits because normal cockpit pressurization and emergency escape assumptions were not enough for operations near 85,000 ft. The rear crewmember managed reconnaissance systems and mission equipment while the pilot handled the demanding navigation, inlet, and aircraft-control task.",
+            "refs": [
+              "fn-nasa",
+              "fn-lockheed"
+            ]
+          },
+          {
+            "text": "Reconnaissance equipment varied by mission and period. The page avoids listing a single fixed sensor package because aircraft configurations changed, but the operational purpose remained high-altitude strategic intelligence collection.",
             "refs": [
               "fn-method"
-            ]
-          },
-          {
-            "text": "Lockheed SR-71 Blackbird uses jet propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "2"
+            "title": "Engines",
+            "text": "Two Pratt and Whitney J58 afterburning engines"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Structure",
+            "text": "Mostly titanium and high-temperature alloys"
           },
           {
-            "title": "Speed class",
-            "text": "Mach 3+"
+            "title": "Normal armament",
+            "text": "None"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Main defense",
+            "text": "Speed, altitude, route planning, and electronic systems"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Lockheed SR-71 Blackbird status: Retired. Conflict entries: 0.",
+            "text": "Specifications below use National Museum of the United States Air Force SR-71A technical notes unless stated otherwise.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf"
             ]
           },
           {
-            "text": "Conflicts: 0 entries.",
+            "text": "Crew: two. Engines: two Pratt and Whitney J58s of 32,500 lb thrust each with afterburner. Maximum speed: Mach 3+ or over 2,000 mph. Range: more than 2,900 statute miles. Ceiling: over 85,000 ft.",
             "refs": [
-              "fn-method"
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "Dimensions: 55 ft 7 in span, 107 ft 5 in length, 18 ft 6 in height. Loaded weight: 140,000 lb. NASA lists the same general size class and notes a gross takeoff weight of about 140,000 lb including about 80,000 lb of fuel.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-nasa"
+            ]
+          },
+          {
+            "text": "NASA describes the Blackbirds as designed to cruise at Mach 3.2, more than 2,200 mph, at altitudes up to 85,000 ft, and capable of cruising at Mach 3 continuously for more than one hour.",
+            "refs": [
+              "fn-nasa"
             ]
           }
         ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
+        "cards": [
           {
-            "text": "Lockheed SR-71 Blackbird named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Span",
+            "text": "55 ft 7 in"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "107 ft 5 in"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Height",
+            "text": "18 ft 6 in"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Loaded weight",
+            "text": "140,000 lb"
+          },
+          {
+            "title": "Range",
+            "text": "More than 2,900 statute miles"
+          },
+          {
+            "title": "Ceiling",
+            "text": "Over 85,000 ft"
           }
         ]
       },
@@ -19009,35 +19082,42 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Lockheed SR-71 Blackbird variant-family entries: 3. Variant families: Lockheed SR-71 Blackbird baseline production model; Lockheed SR-71 Blackbird upgraded avionics or weapons-capable model; Lockheed SR-71 Blackbird two-seat trainer or conversion model.",
+            "text": "The SR-71 article is best read as part of the wider Blackbird family rather than as an isolated airframe. The family included CIA reconnaissance, interceptor, USAF reconnaissance, and trainer branches.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-nasa",
+              "fn-nmusaf"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Lockheed SR-71 Blackbird baseline production model",
+            "text": "A-12: CIA single-seat reconnaissance predecessor in the Oxcart program.",
             "refs": [
-              "fn-main"
+              "fn-nasa"
             ]
           },
           {
-            "text": "Lockheed SR-71 Blackbird upgraded avionics or weapons-capable model",
+            "text": "YF-12A: interceptor derivative publicly announced in 1964.",
             "refs": [
-              "fn-main"
+              "fn-nasa"
             ]
           },
           {
-            "text": "Lockheed SR-71 Blackbird two-seat trainer or conversion model",
+            "text": "SR-71A: main USAF two-seat strategic reconnaissance aircraft.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "SR-71B: trainer version; NASA used an SR-71B loaned by the U.S. Air Force.",
+            "refs": [
+              "fn-nasa"
+            ]
+          },
+          {
+            "text": "SR-71C: hybrid trainer aircraft, generally treated as a rare conversion rather than a production reconnaissance variant.",
+            "refs": [
+              "fn-wikipedia"
             ]
           }
         ]
@@ -19047,13 +19127,215 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Lockheed SR-71 Blackbird has 1 designer or builder country entry.",
+            "text": "The SR-71 was a United States aircraft. Operational reconnaissance service belonged to the U.S. Air Force, especially the 9th Strategic Reconnaissance Wing at Beale Air Force Base and detachments from locations such as Kadena Air Base and RAF Mildenhall.",
             "refs": [
-              "fn-wikidata"
+              "fn-nmusaf"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "NASA operated loaned SR-71 aircraft in the 1990s as high-speed research platforms at Dryden Flight Research Center. NASA work included aerodynamics, propulsion, structures, thermal protection materials, high-speed instrumentation, atmospheric studies, sonic-boom characterization, laser air-data sensing, and the LASRE aerospike experiment.",
+            "refs": [
+              "fn-nasa"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "United States Air Force: strategic reconnaissance operations, 1966-1990 regular service with limited 1990s reactivation.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-nasa"
+            ]
+          },
+          {
+            "text": "NASA Dryden: high-speed and high-altitude research use during the 1990s.",
+            "refs": [
+              "fn-nasa"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "service",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "The first operational SR-71 sortie took place on 21 March 1968 in aircraft 61-7976, flown by Maj. Jerome F. O Malley and Maj. Edward D. Payne. The museum aircraft later accumulated 2,981 flying hours, 942 sorties, and 257 operational missions.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "SR-71 missions were strategic intelligence missions, not strike missions. The aircraft could survey very large areas quickly; the National Museum states that from 80,000 ft it could survey 100,000 square miles of Earth surface per hour.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "Lockheed Martin describes the Blackbird as able to outrun attempted missile engagements through altitude and speed. That survivability should be understood as part of a full system including mission planning, warning, altitude, speed, and electronic support rather than invulnerability in every situation.",
+            "refs": [
+              "fn-lockheed"
+            ]
+          },
+          {
+            "text": "The Air Force retired the regular fleet on 26 January 1990 because of budget pressure and high operating costs. Congress later funded additional flights, and NASA supported research and Air Force reactivation activity before final retirement.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-nasa"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "notable",
+        "title": "Notable Events and Records",
+        "paragraphs": [
+          {
+            "text": "The Blackbird record and retirement stories became part of its public identity because they are easy to understand: very high altitude, very high speed, and very short travel time across continental distances.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-lockheed"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "22 December 1964",
+            "text": "First SR-71 flight."
+          },
+          {
+            "title": "January 1966",
+            "text": "First SR-71 entered service at Beale Air Force Base."
+          },
+          {
+            "title": "21 March 1968",
+            "text": "First operational SR-71 sortie."
+          },
+          {
+            "title": "28 July 1976",
+            "text": "Class records: 2,193.167 mph and 85,068.997 ft."
+          },
+          {
+            "title": "26 January 1990",
+            "text": "Regular USAF SR-71 fleet retirement."
+          },
+          {
+            "title": "9 October 1999",
+            "text": "Final NASA SR-71 flight."
+          }
+        ]
+      },
+      {
+        "id": "public-perception",
+        "title": "Public Perception",
+        "paragraphs": [
+          {
+            "text": "The SR-71 is publicly remembered as the Blackbird: a secretive, fast, high-flying Cold War machine associated with Skunk Works engineering, titanium construction, pressure suits, and extreme performance.",
+            "refs": [
+              "fn-lockheed",
+              "fn-nasa"
+            ]
+          },
+          {
+            "text": "Common public shorthand says the SR-71 was untouchable because it could outrun missiles. The safer article wording is that speed and altitude made interception extremely difficult and formed the aircraft main defensive concept; this does not make every mission risk-free or remove dependence on crews, maintenance, tankers, and route planning.",
+            "refs": [
+              "fn-lockheed",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The aircraft also attracts myths because it looks like a fighter. It was a reconnaissance aircraft and normally unarmed, so the page deliberately removes generic gun and missile language from the earlier sparse entry.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Compared with the U-2, the SR-71 traded persistence and operating economy for much higher speed and a different survivability concept. Compared with satellites, it offered aircraft retasking and recoverable sensors but required crews, tankers, specialized basing, and very high operating cost.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-nasa"
+            ]
+          },
+          {
+            "text": "Compared with the A-12, the SR-71 was the USAF two-seat operational reconnaissance branch of the Blackbird family. Compared with the YF-12, it gave up the interceptor mission and focused on intelligence collection.",
+            "refs": [
+              "fn-nasa"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "F-16 style pattern copied: overview lead, development, design, specifications, variants, operators, operational history, notable events, comparison, public perception, timeline, sources, and related links.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The SR-71 strengths and limitations came from the same extreme design choice: sustained Mach 3 reconnaissance. It could collect intelligence rapidly over defended regions, but it required costly maintenance, special fuel and systems, tanker support, pressure-suited crews, and a large support organization.",
+            "refs": [
+              "fn-nasa",
+              "fn-nmusaf"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: unmatched operational speed and altitude for a crewed reconnaissance aircraft.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "Strength: large-area coverage; museum text states 100,000 square miles per hour from 80,000 ft.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "Strength: high research value for NASA because the aircraft provided real Mach 3 thermal, propulsion, and atmospheric conditions.",
+            "refs": [
+              "fn-nasa"
+            ]
+          },
+          {
+            "text": "Limitation: no normal weapons; it was not an air-superiority aircraft.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "Limitation: operating cost and defense budget pressure contributed to retirement.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "Limitation: specialized support and tanker dependence made it less flexible than casual speed-record descriptions imply.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "The timeline emphasizes verifiable milestone dates rather than unsourced anecdotes.",
             "refs": [
               "fn-method"
             ]
@@ -19061,43 +19343,74 @@
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Late 1950s: Blackbird lineage began with secret A-12 work.",
             "refs": [
-              "fn-main"
+              "fn-nasa"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "April 1962: A-12 first flight.",
             "refs": [
-              "fn-wikidata"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "specifications",
-        "title": "Specifications",
-        "paragraphs": [
-          {
-            "text": "Comparable fields: crew 2, propulsion type Jet, maximum speed category Mach 3+, first flight 1964, introduction 1966.",
-            "refs": [
-              "fn-main"
+              "fn-nasa"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "29 February 1964: President Johnson publicly announced the YF-12A.",
             "refs": [
-              "fn-method"
+              "fn-nasa"
+            ]
+          },
+          {
+            "text": "22 December 1964: First SR-71 flight.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-nasa"
+            ]
+          },
+          {
+            "text": "January 1966: First SR-71 entered service.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "21 March 1968: First operational SR-71 sortie.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "28 July 1976: Absolute speed and altitude class records.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "26 January 1990: Regular USAF SR-71 retirement.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "1990s: NASA high-speed research use.",
+            "refs": [
+              "fn-nasa"
+            ]
+          },
+          {
+            "text": "9 October 1999: Final NASA SR-71 flight.",
+            "refs": [
+              "fn-nasa"
             ]
           }
         ]
       },
       {
         "id": "similar-development",
-        "title": "Similar Development",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "Lockheed SR-71 Blackbird similar-development links: 2.",
+            "text": "Related Milipedia comparisons include the Lockheed U-2 for high-altitude reconnaissance and other Cold War aircraft where speed, altitude, sensors, and survivability trade-offs define the design.",
             "refs": [
               "fn-method"
             ]
@@ -19105,12 +19418,12 @@
         ],
         "links": [
           {
-            "label": "Lockheed P-3 Orion",
-            "url": "aircraft.html?id=p-3-orion"
-          },
-          {
             "label": "Lockheed U-2",
             "url": "aircraft.html?id=u-2-dragon-lady"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "index.html#database"
           }
         ]
       }
