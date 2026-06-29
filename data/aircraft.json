@@ -17762,34 +17762,38 @@
   {
     "id": "p-8-poseidon",
     "name": "Boeing P-8 Poseidon",
-    "alternative_names": [],
+    "alternative_names": [
+      "P-8A Poseidon",
+      "Poseidon MRA1",
+      "P-8I Neptune"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
-    "manufacturer": "Boeing",
-    "role": "Maritime patrol aircraft",
-    "aircraft_type": "Reconnaissance aircraft",
+    "manufacturer": "Boeing Defense, Space and Security",
+    "role": "Multi-mission maritime patrol, reconnaissance, and anti-submarine warfare aircraft",
+    "aircraft_type": "Maritime patrol aircraft",
     "era": "Modern",
-    "first_flight": "2009",
-    "introduction_date": "2013",
+    "first_flight": "25 April 2009",
+    "introduction_date": "November 2013",
     "retirement_date": null,
     "status": "Active",
-    "number_built": "Not listed",
+    "number_built": "More than 170 delivered by Boeing as of its current program background page",
     "crew": "9",
     "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
-    "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
+    "engines": "Two CFM56-7BE turbofan engines",
+    "max_speed": "490 knots / about 564 mph",
+    "speed_category": "Subsonic jet",
+    "range": "1,200+ nautical miles with more than 4 hours on station",
+    "combat_range": "Mission-dependent maritime patrol radius; Boeing lists 1,200+ nautical miles with 4+ hours on station",
+    "service_ceiling": "41,000 ft",
     "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
+    "armament": "Mk 54 torpedoes, Harpoon anti-ship missiles, sonobuoys, and search-and-rescue stores; no fixed gun armament",
+    "hardpoints": "Internal bay and underwing stores stations; public loadouts vary by operator and mission",
     "variants": [],
     "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Boeing P-8 Poseidon: Maritime patrol aircraft. Manufacturer: Boeing. First flight: 2009. Introduction: 2013.",
-    "short_summary": "Boeing P-8 Poseidon: Maritime patrol aircraft. Origin: United States. Manufacturer: Boeing. First flight: 2009. Introduction: 2013. Status: Active.",
+    "combat_history": "Operational maritime patrol, anti-submarine warfare, anti-surface warfare, ISR, and search-and-rescue support by U.S. and allied operators",
+    "development_history": "Boeing P-8 Poseidon: a 737 Next Generation-derived maritime patrol aircraft selected for the U.S. Navy Multimission Maritime Aircraft program to replace the P-3C Orion; first flight 25 April 2009 and U.S. Navy IOC in November 2013.",
+    "short_summary": "Boeing P-8 Poseidon: multi-mission maritime patrol and reconnaissance aircraft derived from the Boeing 737 Next Generation. It performs ASW, anti-surface warfare, ISR, maritime domain awareness, and search-and-rescue missions for the U.S. Navy and allied operators.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -17802,25 +17806,32 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-boeing",
+        "title": "P-8 Poseidon",
+        "url": "https://www.boeing.com/defense/maritime-surveillance/p-8-poseidon",
+        "publisher": "Boeing",
+        "note": "Used for mission overview, capabilities, operators/customers, deliveries, specifications, commonality, and upgrade notes."
+      },
+      {
+        "id": "fn-navair",
+        "title": "P-8A Poseidon",
+        "url": "https://www.navair.navy.mil/product/P-8A-Poseidon",
+        "publisher": "Naval Air Systems Command",
+        "note": "Used for mission, description, sensors, crew, armament, propulsion, dimensions, gross weight, IOC, and program status."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Boeing P-8 Poseidon",
         "url": "https://en.wikipedia.org/wiki/Boeing_P-8_Poseidon",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation and cross-checking source for development chronology, variants, and operators; official and manufacturer sources are preferred for core claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
+        "note": "Local rules for neutral wording, source handling, internal links, and uncertain fact treatment."
       }
     ],
     "country_flags": [
@@ -17830,43 +17841,47 @@
       }
     ],
     "designers": [
-      "Boeing"
+      "Boeing Defense, Space and Security"
     ],
-    "development_tensions": [],
+    "development_tensions": [
+      "Replacing the long-serving P-3C Orion required higher transit speed, modern sensors, open mission architecture, lower sustainment risk, and long over-water endurance.",
+      "The aircraft trades turboprop loiter efficiency for jet speed, 737-derived logistics, higher operating altitude, and compatibility with modern networked maritime forces.",
+      "Public sources describe incremental capability upgrades; exact operator mission-system fits and weapons clearances can vary and are not listed as a single universal loadout."
+    ],
     "wars_used_in": [
       {
-        "name": "Syrian civil war",
-        "note": "Boeing P-8 Poseidon used in Syrian civil war."
+        "name": "Modern maritime security and surveillance operations",
+        "note": "Used for maritime patrol, ASW, anti-surface warfare, ISR, and search-and-rescue tasking rather than as a traditional fighter or bomber."
       }
     ],
     "variant_families": [
-      "Boeing P-8 Poseidon baseline production model",
-      "Boeing P-8 Poseidon upgraded avionics or weapons-capable model"
+      "P-8A Poseidon baseline U.S. Navy and allied maritime patrol aircraft",
+      "P-8I Neptune / Indian Navy export variant",
+      "Incremental P-8A capability upgrades including Increment 3 Block 2 mission-system improvements"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Boeing P-8 Poseidon has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Boeing lists the United States, Australia, United Kingdom, Norway, New Zealand, Republic of Korea, Germany, India, Canada, and other customers or contracted users depending on delivery status.",
+      "all_operators_status": "Active with multiple U.S. and allied maritime patrol forces; Canada and Singapore are noted in public sources as future or contracted operators."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "First Boeing P-8A delivered to the U.S. Navy on 4 March 2012 according to Boeing background material.",
+        "The aircraft achieved U.S. Navy initial operational capability in November 2013 according to NAVAIR."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "The page avoids listing a conflict-specific claim from the earlier sparse generated entry because the P-8 is primarily a maritime patrol and ISR platform and public mission details vary."
       ]
     },
     "engine_details": {
       "type": "Jet",
-      "summary": "Boeing P-8 Poseidon uses jet propulsion."
+      "summary": "Two CFM56-7BE turbofans; NAVAIR lists 27,300 lb thrust per engine and Boeing lists 27,300 pounds-force per engine."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Mission stores include Mk 54 torpedoes, Harpoon missiles, sonobuoys, and search-and-rescue equipment depending on mission and operator configuration.",
+      "caution": "No fixed gun or air-to-air missile armament is listed; avoid generic fighter-style weapons wording."
     },
     "similar_development": [
       {
@@ -17875,38 +17890,50 @@
         "url": "aircraft.html?id=p-3-orion"
       },
       {
-        "id": "u-2-dragon-lady",
-        "name": "Lockheed U-2",
-        "url": "aircraft.html?id=u-2-dragon-lady"
+        "id": "rq-4-global-hawk",
+        "name": "Northrop Grumman RQ-4 Global Hawk",
+        "url": "aircraft.html?id=rq-4-global-hawk"
+      },
+      {
+        "id": "737-ng",
+        "name": "Boeing 737 Next Generation",
+        "url": "https://www.boeing.com/commercial/737ng"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 55,
+      "operator_entries": 9,
+      "variant_entries": 3,
+      "external_article_sources": 4
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-boeing",
+        "title": "P-8 Poseidon",
+        "url": "https://www.boeing.com/defense/maritime-surveillance/p-8-poseidon",
+        "publisher": "Boeing",
+        "note": "Used for mission overview, capabilities, operators/customers, deliveries, specifications, commonality, and upgrade notes."
+      },
+      {
+        "id": "fn-navair",
+        "title": "P-8A Poseidon",
+        "url": "https://www.navair.navy.mil/product/P-8A-Poseidon",
+        "publisher": "Naval Air Systems Command",
+        "note": "Used for mission, description, sensors, crew, armament, propulsion, dimensions, gross weight, IOC, and program status."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Boeing P-8 Poseidon",
         "url": "https://en.wikipedia.org/wiki/Boeing_P-8_Poseidon",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation and cross-checking source for development chronology, variants, and operators; official and manufacturer sources are preferred for core claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording, source handling, internal links, and uncertain fact treatment."
       }
     ],
     "external_articles": [],
@@ -17916,20 +17943,31 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Boeing P-8 Poseidon is a Maritime patrol aircraft from United States. Manufacturer: Boeing. First flight: 2009. Introduction: 2013. Status: Active.",
+            "text": "The Boeing P-8 Poseidon is a multi-mission maritime patrol and reconnaissance aircraft derived from the Boeing 737 Next Generation airliner. Boeing and NAVAIR describe it as a long-range platform for anti-submarine warfare, anti-surface warfare, intelligence, surveillance and reconnaissance, maritime domain awareness, and search and rescue.",
             "refs": [
-              "fn-main"
+              "fn-boeing",
+              "fn-navair"
             ]
           },
           {
-            "text": "Boeing P-8 Poseidon is a reconnaissance aircraft. Primary role: maritime patrol aircraft. Country of origin: United States. Manufacturer: Boeing.",
+            "text": "The P-8A replaced the U.S. Navy P-3C Orion as the service modern fixed-wing maritime patrol aircraft. NAVAIR lists U.S. Navy initial operational capability in November 2013, while Boeing background material states that the first P-8A was delivered to the Navy on 4 March 2012.",
             "refs": [
-              "fn-wikidata"
+              "fn-navair",
+              "fn-boeing"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Unlike a fighter, the Poseidon is built around sensors, communications, weapons control, sonobuoy processing, endurance, and crew mission stations. Public source wording supports torpedoes, Harpoon missiles, sonobuoys, and rescue stores, but not generic gun or air-to-air missile armament.",
             "refs": [
+              "fn-boeing",
+              "fn-navair",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Boeing describes an expanding worldwide P-8 family including P-8A operators and customers plus the Indian Navy P-8I. The page treats exact aircraft counts and operator fits carefully because deliveries, contracts, and mission-system configurations change over time.",
+            "refs": [
+              "fn-boeing",
               "fn-method"
             ]
           }
@@ -17937,154 +17975,189 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Maritime patrol aircraft"
+            "text": "Maritime patrol, ASW, ASuW, ISR"
           },
           {
-            "title": "Designer or builder",
-            "text": "Boeing"
+            "title": "Airframe basis",
+            "text": "Boeing 737 Next Generation derivative"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Crew",
+            "text": "Nine"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Service ceiling",
+            "text": "41,000 ft"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Boeing P-8 Poseidon first flew in 2009. Introduction date: 2013. Era: Modern.",
+            "text": "The Poseidon grew from the U.S. Navy Multimission Maritime Aircraft requirement to replace the P-3C Orion. Boeing proposed a jet-powered derivative of the 737 family rather than a new turboprop patrol aircraft, aiming to combine commercial-airliner logistics with a modern military mission system.",
             "refs": [
-              "fn-main"
+              "fn-navair",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Producer: Boeing. Development context: maritime patrol aircraft, jet propulsion, subsonic speed category, Modern era.",
+            "text": "The aircraft first flew on 25 April 2009 and entered low-rate and then full-rate production as U.S. Navy testing and fleet introduction progressed. NAVAIR identifies the aircraft as an ACAT 1C program in full-rate production, with periodic preplanned incremental capability upgrades.",
             "refs": [
-              "fn-wikidata"
+              "fn-navair",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "The development logic was not simply speed. Compared with the P-3, the P-8 offers a smaller crew, higher operating altitude, greater payload capacity, open-systems architecture, air-to-air refueling capability, and room for growth while remaining tied to a large 737 sustainment ecosystem.",
+            "refs": [
+              "fn-navair",
+              "fn-boeing"
             ]
           }
         ],
-        "bullets": []
+        "bullets": [
+          {
+            "text": "25 April 2009: first flight of the P-8 Poseidon.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "4 March 2012: first Boeing P-8A delivered to the U.S. Navy according to Boeing background material.",
+            "refs": [
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "November 2013: U.S. Navy initial operational capability listed by NAVAIR.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "2020s: Increment 3 Block 2 is described by Boeing as an upgrade being installed on operational U.S. Navy and Royal Australian Air Force P-8s.",
+            "refs": [
+              "fn-boeing"
+            ]
+          }
+        ]
       },
       {
         "id": "design",
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 9. Propulsion: Jet. Speed category: Subsonic.",
+            "text": "The P-8 is a 737-derived patrol jet adapted for long over-water missions. Boeing states that it shares 86 percent commonality with the Next-Generation 737, a major sustainment and availability argument for customers operating worldwide fleets.",
             "refs": [
-              "fn-main"
+              "fn-boeing"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "NAVAIR describes the mission system as including synthetic aperture radar, electro-optical/infrared sensing, increased acoustic capability, and concurrent passive and active acoustic processing. Boeing adds inverse synthetic aperture radar, electronic support measures, data links, and wideband satellite communications in its capability discussion.",
             "refs": [
-              "fn-method"
+              "fn-navair",
+              "fn-boeing"
             ]
           },
           {
-            "text": "Boeing P-8 Poseidon uses jet propulsion. Engine model field: Not listed.",
+            "text": "The aircraft can search, detect, classify, localize, track, and attack submarines with sonobuoys, acoustic processing, sensors, and torpedoes. For surface targets, Boeing describes search and targeting through sensors, electronic support measures, ISR, communications, and Harpoon missile delivery.",
             "refs": [
-              "fn-main"
+              "fn-boeing"
             ]
           },
           {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
+            "text": "Open mission-systems architecture and size, weight, power, and cooling margin are central design features because the maritime patrol threat and sensor environment changes quickly. Public descriptions note periodic increments rather than a single frozen equipment standard.",
             "refs": [
-              "fn-main"
+              "fn-boeing",
+              "fn-navair"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "9"
+            "title": "Engines",
+            "text": "Two CFM56-7BE turbofans"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Sensors",
+            "text": "Radar, EO/IR, acoustics, ESM, mission systems"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Stores",
+            "text": "Sonobuoys, Mk 54 torpedoes, Harpoon, rescue kit"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Architecture",
+            "text": "Open mission systems for upgrades"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Boeing P-8 Poseidon status: Active. Conflict entries: 1.",
+            "text": "Specifications below combine Boeing current product data and NAVAIR published program data. Operator-specific mission kits and weapon clearances may differ, so this section avoids presenting every possible store as universal.",
             "refs": [
-              "fn-main"
+              "fn-boeing",
+              "fn-navair",
+              "fn-method"
             ]
           },
           {
-            "text": "Conflicts: Syrian civil war.",
+            "text": "Propulsion: two CFM56-7BE engines. NAVAIR and Boeing both list 27,300 lb of thrust per engine. Crew: nine. Maximum gross takeoff weight: 189,200 lb / 85,820 kg.",
             "refs": [
-              "fn-method"
+              "fn-boeing",
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "Dimensions: wingspan 123.6 ft, length about 129.5-129.6 ft, and height 42.1 ft. The small length rounding difference reflects the way Boeing and NAVAIR present the data.",
+            "refs": [
+              "fn-boeing",
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "Performance: Boeing lists a ceiling of 41,000 ft, maximum speed of 490 knots / about 564 mph, and range of 1,200+ nautical miles with more than four hours on station.",
+            "refs": [
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Weapon and mission-store compatibility includes 129 A-size sonobuoys, Harpoon, Mk 54, and search-and-rescue survival kit stores on Boeing public data. NAVAIR summarizes armament as torpedoes and cruise missiles.",
+            "refs": [
+              "fn-boeing",
+              "fn-navair"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Syrian civil war: Boeing P-8 Poseidon used in Syrian civil war.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Boeing P-8 Poseidon named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Wingspan",
+            "text": "123.6 ft / 37.6 m"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "129.5-129.6 ft / about 39.5 m"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Height",
+            "text": "42.1 ft / 12.8 m"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum gross takeoff weight",
+            "text": "189,200 lb / 85,820 kg"
+          },
+          {
+            "title": "Maximum speed",
+            "text": "490 knots / about 564 mph"
+          },
+          {
+            "title": "Range / station time",
+            "text": "1,200+ nmi with 4+ hours on station"
           }
         ]
       },
@@ -18093,29 +18166,31 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Boeing P-8 Poseidon variant-family entries: 2. Variant families: Boeing P-8 Poseidon baseline production model; Boeing P-8 Poseidon upgraded avionics or weapons-capable model.",
+            "text": "The P-8 family is less about classic fighter-style subvariants and more about customer configuration and incremental mission-system upgrades. Boeing public material distinguishes the P-8A from the Indian Navy P-8I and notes continuing upgrade increments.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-boeing",
+              "fn-wikipedia"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Boeing P-8 Poseidon baseline production model",
+            "text": "P-8A Poseidon: baseline U.S. Navy aircraft and the model delivered or contracted to multiple allied customers.",
             "refs": [
-              "fn-main"
+              "fn-boeing",
+              "fn-navair"
             ]
           },
           {
-            "text": "Boeing P-8 Poseidon upgraded avionics or weapons-capable model",
+            "text": "P-8I Neptune: Indian Navy variant, described by Boeing as solely operated by India.",
             "refs": [
-              "fn-main"
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Increment 3 Block 2: Boeing-described upgrade being installed on operational U.S. Navy and Royal Australian Air Force P-8s to improve search, detection, and targeting against advanced submarines.",
+            "refs": [
+              "fn-boeing"
             ]
           }
         ]
@@ -18125,45 +18200,258 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Boeing P-8 Poseidon has 1 designer or builder country entry.",
+            "text": "The P-8 has become a common maritime-patrol choice among U.S. allies because it links high-speed patrol, networked sensors, and 737-derived support. Boeing lists customers including Australia, Canada, Germany, India, New Zealand, Norway, Republic of Korea, the United Kingdom, and the United States.",
             "refs": [
-              "fn-wikidata"
+              "fn-boeing"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Operator status changes as aircraft are ordered, delivered, accepted, and upgraded. This page therefore separates publicly listed Boeing customers from exact fleet totals, which should be verified against current service and contract releases before use in force-count tables.",
             "refs": [
+              "fn-boeing",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "United States Navy: P-8A operator and launch customer, replacing the P-3C Orion.",
             "refs": [
-              "fn-main"
+              "fn-navair",
+              "fn-boeing"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "Royal Australian Air Force: P-8A operator and named by Boeing in connection with Increment 3 Block 2 installation.",
             "refs": [
-              "fn-wikidata"
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Royal Air Force: Poseidon MRA1 / P-8A customer listed by Boeing.",
+            "refs": [
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Indian Navy: P-8I operator; Boeing says India took command of its first P-8I in May 2013.",
+            "refs": [
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Norway, New Zealand, Republic of Korea, Germany, Canada, and Singapore are listed in public sources as P-8 customers, operators, or contracted future users depending on delivery status.",
+            "refs": [
+              "fn-boeing",
+              "fn-wikipedia"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "service",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 9, propulsion type Jet, maximum speed category Subsonic, first flight 2009, introduction 2013.",
+            "text": "In U.S. Navy service, the Poseidon replaced the P-3C Orion in the maritime patrol and reconnaissance role. Its higher transit speed and modern mission suite are intended to move crews quickly to distant patrol areas, then conduct ASW, anti-surface, ISR, and rescue-support missions.",
             "refs": [
-              "fn-main"
+              "fn-navair",
+              "fn-boeing"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Boeing describes the global P-8 fleet as having accumulated more than 700,000 combined flight hours. That figure supports the aircraft maturity claim, but it should be treated as a program-wide manufacturer statistic rather than a fixed per-operator measure.",
+            "refs": [
+              "fn-boeing",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The aircraft is also designed to work with wider maritime networks. NAVAIR states that it is responsive and interoperable with traditional manned forces and evolving unmanned sensors, and Boeing emphasizes datalinks, satellite communications, and interoperability with allies and partners.",
+            "refs": [
+              "fn-navair",
+              "fn-boeing"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "notable",
+        "title": "Notable Events and Program Milestones",
+        "paragraphs": [
+          {
+            "text": "The notable story of the P-8 is not a single dogfight or record flight, but a program shift from turboprop P-3 patrol operations to a networked jet maritime-surveillance system shared by several allied navies and air arms.",
+            "refs": [
+              "fn-boeing",
+              "fn-navair"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "25 April 2009",
+            "text": "P-8 first flight."
+          },
+          {
+            "title": "4 March 2012",
+            "text": "First P-8A delivered to the U.S. Navy."
+          },
+          {
+            "title": "November 2013",
+            "text": "U.S. Navy IOC listed by NAVAIR."
+          },
+          {
+            "title": "2020s",
+            "text": "Increment 3 Block 2 upgrade enters installation on operational U.S. and Australian aircraft."
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Compared with the Lockheed P-3 Orion, the P-8 uses a jet airliner-derived platform, higher transit speed, higher operating altitude, open architecture, modern digital sensors, and 737 commercial-support advantages. The trade-off is that it approaches loiter and low-altitude patrol differently from a turboprop aircraft.",
+            "refs": [
+              "fn-boeing",
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "Compared with unmanned maritime-surveillance aircraft such as the MQ-4C Triton family, the Poseidon carries crew, weapons, acoustic processing, and stores for direct ASW and ASuW response. The two types are best understood as complementary parts of a wider maritime surveillance system rather than direct replacements.",
+            "refs": [
+              "fn-navair",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "F-16 style pattern copied: dense overview, development, design, specifications, variants, operators, operational history, comparison, strengths and limitations, timeline, sources, and related links.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The Poseidon strength is the integration of airliner-derived speed and supportability with modern maritime sensors, weapons, communications, and upgrade margin. Its limitations are those of a large crewed jet: it needs runways, tanker and base support for some missions, and continuing upgrades to remain effective against evolving submarine and surface threats.",
+            "refs": [
+              "fn-boeing",
+              "fn-navair",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: rapid transit to distant maritime patrol areas compared with legacy turboprop patrol aircraft.",
+            "refs": [
+              "fn-boeing",
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "Strength: mature 737-derived logistics and Boeing-stated 86 percent commonality with the Next-Generation 737.",
+            "refs": [
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Strength: integrated ASW, ASuW, ISR, communications, and rescue-support capability on one crewed platform.",
+            "refs": [
+              "fn-boeing",
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "Limitation: public data does not define one universal sensor and weapons fit for every operator and increment.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: no fixed gun or fighter air-to-air mission; earlier generic weapons wording was misleading and has been removed.",
+            "refs": [
+              "fn-boeing",
+              "fn-navair",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "This timeline favors verifiable public milestones from Boeing, NAVAIR, and supplementary reference material.",
+            "refs": [
+              "fn-boeing",
+              "fn-navair",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "2000s: U.S. Navy Multimission Maritime Aircraft program selected Boeing P-8A to replace the P-3C Orion.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "25 April 2009: first flight.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "4 March 2012: first P-8A delivered to the U.S. Navy.",
+            "refs": [
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "May 2013: Boeing says the Indian Navy took command of its first P-8I.",
+            "refs": [
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "November 2013: U.S. Navy initial operational capability.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "2020s: expanding international customer base and incremental capability upgrades.",
+            "refs": [
+              "fn-boeing"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Core claims use Boeing and NAVAIR pages. Wikipedia is retained only as a supplementary orientation source for chronology and cross-checking where official pages do not present the same context in one place.",
+            "refs": [
+              "fn-boeing",
+              "fn-navair",
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Exact fleet totals, operator delivery dates, and mission-system configurations should be rechecked before building order-of-battle tables because public delivery status changes frequently.",
             "refs": [
               "fn-method"
             ]
@@ -18172,10 +18460,10 @@
       },
       {
         "id": "similar-development",
-        "title": "Similar Development",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "Boeing P-8 Poseidon similar-development links: 2.",
+            "text": "Related Milipedia pages place the P-8 alongside the P-3 Orion it replaced and high-altitude unmanned ISR aircraft that complement crewed maritime surveillance.",
             "refs": [
               "fn-method"
             ]
@@ -18187,19 +18475,17 @@
             "url": "aircraft.html?id=p-3-orion"
           },
           {
-            "label": "Lockheed U-2",
-            "url": "aircraft.html?id=u-2-dragon-lady"
+            "label": "Northrop Grumman RQ-4 Global Hawk",
+            "url": "aircraft.html?id=rq-4-global-hawk"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "index.html#database"
           }
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Bombed_out_vehicles_Aleppo.jpg/960px-Bombed_out_vehicles_Aleppo.jpg",
-        "caption": "Syrian civil war",
-        "source_url": "https://en.wikipedia.org/wiki/Syrian_civil_war"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "u-2-dragon-lady",
