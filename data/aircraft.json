@@ -2,35 +2,105 @@
   {
     "id": "f-4-phantom-ii",
     "name": "McDonnell Douglas F-4 Phantom II",
-    "alternative_names": [],
+    "alternative_names": [
+      "Phantom II",
+      "F4H Phantom II",
+      "F-4C Phantom II",
+      "F-4N Phantom II"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
-    "manufacturer": "McDonnell Douglas",
-    "role": "Multirole fighter",
+    "manufacturer": "McDonnell Aircraft / McDonnell Douglas",
+    "role": "All-weather interceptor and fighter-bomber",
     "aircraft_type": "Fighter",
     "era": "Cold War",
-    "first_flight": "1958",
-    "introduction_date": "1960",
-    "retirement_date": "Not listed",
-    "status": "Retired",
-    "number_built": "Not listed",
-    "crew": "2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "first_flight": "27 May 1958",
+    "introduction_date": "1960-1961",
+    "retirement_date": "U.S. front-line service retired by the 1990s; several export operators used upgraded F-4s much later",
+    "status": "Retired from U.S. front-line service; limited legacy/export use varied by country",
+    "number_built": "5,195",
+    "crew": "2: pilot and radar intercept officer / weapon systems officer",
+    "engine_type": "Afterburning turbojet",
+    "engines": "Two General Electric J79 afterburning turbojets",
+    "max_speed": "About Mach 2.2; F-4N museum data lists 1,485 mph at 48,000 ft",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "McDonnell Douglas F-4 Phantom II: Multirole fighter. Manufacturer: McDonnell Douglas. First flight: 1958. Introduction: 1960.",
-    "short_summary": "McDonnell Douglas F-4 Phantom II: Multirole fighter. Origin: United States. Manufacturer: McDonnell Douglas. First flight: 1958. Introduction: 1960. Status: Retired.",
-    "carrier_capable": false,
+    "range": "About 2,300 miles ferry range for F-4N; F-4C museum data lists 2,000 miles ferry range",
+    "combat_range": "About 538 miles for F-4C museum example; mission radius varied by loadout, tanks, and profile",
+    "service_ceiling": "About 56,100-62,000 ft depending on variant/source",
+    "rate_of_climb": "High supersonic interceptor performance; exact climb varies by variant and loadout",
+    "armament": "AIM-7 Sparrow and AIM-9 Sidewinder missiles, bombs and air-to-ground stores; later gun-equipped models carried an internal M61 cannon, while early Navy/Air Force variants usually relied on missiles and pods.",
+    "hardpoints": "Nine external stations; up to about 16,000-18,000 lb of external ordnance depending on variant/source",
+    "variants": [
+      {
+        "name": "F-4A / F4H early Phantom II",
+        "description": "Early Navy development and initial production aircraft that established the Phantom's carrier-based interceptor lineage."
+      },
+      {
+        "name": "F-4B / F-4N",
+        "description": "U.S. Navy and Marine Corps fleet-defense and fighter-bomber versions; F-4N was an upgraded Navy variant represented by the National Naval Aviation Museum specifications."
+      },
+      {
+        "name": "F-4C / F-4D",
+        "description": "U.S. Air Force land-based variants adapted from the Navy Phantom for air superiority, strike, reconnaissance support, and weapons testing roles."
+      },
+      {
+        "name": "F-4E",
+        "description": "Major production fighter-bomber variant with an internal M61 Vulcan cannon, improved weapons integration, and extensive export use."
+      },
+      {
+        "name": "RF-4C / RF-4E",
+        "description": "Reconnaissance versions with camera and sensor equipment replacing some fighter equipment; used by the U.S. Air Force and export operators."
+      },
+      {
+        "name": "British Spey-powered Phantoms",
+        "description": "Royal Navy and Royal Air Force FG.1/FGR.2 aircraft fitted with Rolls-Royce Spey engines and British-service equipment."
+      },
+      {
+        "name": "QF-4 target drones",
+        "description": "Retired U.S. Phantoms converted for full-scale aerial target and weapons-test work after front-line service."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "U.S. Navy, U.S. Marine Corps, U.S. Air Force, and later test/target units",
+        "notes": "Original and largest broad user community; the Phantom served as a carrier interceptor, air-superiority fighter, fighter-bomber, reconnaissance platform, and later target drone."
+      },
+      {
+        "country": "United Kingdom",
+        "service": "Royal Navy and Royal Air Force",
+        "notes": "Operated Spey-powered Phantom FG.1/FGR.2 variants for fleet air defense, air defense, and strike/reconnaissance-related roles."
+      },
+      {
+        "country": "Germany",
+        "service": "Luftwaffe",
+        "notes": "Major Cold War export operator with reconnaissance and fighter variants, later modernized before retirement."
+      },
+      {
+        "country": "Japan",
+        "service": "Japan Air Self-Defense Force",
+        "notes": "Operated and locally supported F-4EJ/RF-4E-family aircraft for air defense and reconnaissance until the early 2020s."
+      },
+      {
+        "country": "Israel",
+        "service": "Israeli Air Force",
+        "notes": "Used F-4E/RF-4E aircraft extensively in regional wars and long-range strike/reconnaissance missions before replacement."
+      },
+      {
+        "country": "Iran",
+        "service": "Islamic Republic of Iran Air Force / Imperial Iranian Air Force legacy fleet",
+        "notes": "Export operator whose surviving aircraft illustrate the Phantom's unusually long post-production service life."
+      },
+      {
+        "country": "Greece, Turkey, South Korea, Australia, Egypt, Spain and others",
+        "service": "National air forces and naval/air-defense units",
+        "notes": "Representative export users; exact current status and fleet counts are date-sensitive and not fixed in this article."
+      }
+    ],
+    "combat_history": "Extensive Vietnam War air superiority, strike, close air support, and reconnaissance use; later service with U.S. and export operators in Cold War, Middle Eastern, and regional conflicts.",
+    "development_history": "Developed by McDonnell as a U.S. Navy carrier-based, all-weather fleet-defense interceptor; its speed, radar, range, and payload led to adoption by the U.S. Marine Corps and U.S. Air Force and to a long export career.",
+    "short_summary": "The McDonnell Douglas F-4 Phantom II was a two-seat, twin-J79, all-weather supersonic interceptor and fighter-bomber. Designed for the U.S. Navy, it became a tri-service U.S. combat aircraft, a major Vietnam War fighter and strike platform, and the most-produced American supersonic military aircraft.",
+    "carrier_capable": true,
     "stealth": false,
     "images": [
       {
@@ -42,25 +112,39 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-nhhc",
+        "title": "F-4N Phantom II",
+        "url": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-4n-phantom-ii.html",
+        "publisher": "Naval History and Heritage Command / National Naval Aviation Museum",
+        "note": "Official U.S. Navy museum page used for Navy-development context and F-4N specifications."
+      },
+      {
+        "id": "fn-hill",
+        "title": "F-4C \"Phantom II\"",
+        "url": "https://www.aerospaceutah.org/f-4c-phantom-ii",
+        "publisher": "Hill Aerospace Museum",
+        "note": "Museum aircraft page used for F-4C technical data and service-life example."
+      },
+      {
+        "id": "fn-nmusaf",
+        "title": "McDonnell Douglas F-4C Phantom II",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196051/mcdonnell-douglas-f-4c-phantom-ii",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Official USAF museum source retained as a primary reference even though automated extraction was limited in this run."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "McDonnell Douglas F-4 Phantom II",
         "url": "https://en.wikipedia.org/wiki/McDonnell_Douglas_F-4_Phantom_II",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for total production, broad user history, and variant/operator cross-checking; not used alone for detailed technical claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
+        "url": "https://github.com/Hamster-coder123/milipedia",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
+        "note": "Repository-local guidance: prefer conservative phrasing where variant, operator, or dated inventory details vary."
       }
     ],
     "country_flags": [
@@ -73,27 +157,34 @@
       "McDonnell Douglas"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Originally optimized as a missile-armed fleet-defense interceptor, then adapted to fighter-bomber, close-support, and reconnaissance work.",
+      "Very high speed, radar and payload came with size, fuel consumption, smoke signature, and maneuvering trade-offs.",
+      "Early no-internal-gun assumptions were challenged by Vietnam air combat experience, leading to gun pods and later gun-equipped F-4E aircraft."
     ],
     "wars_used_in": [
-      {
-        "name": "Vietnam War",
-        "note": "McDonnell Douglas F-4 Phantom II used in Vietnam War."
-      }
+      "Vietnam War",
+      "Arab-Israeli conflicts",
+      "Iran-Iraq War",
+      "Cold War air defense and reconnaissance operations",
+      "Gulf War support and Wild Weasel/reconnaissance roles"
     ],
     "variant_families": [
-      "McDonnell Douglas F-4 Phantom II baseline production model",
-      "McDonnell Douglas F-4 Phantom II upgraded avionics or weapons-capable model",
-      "McDonnell Douglas F-4 Phantom II two-seat trainer or conversion model",
-      "McDonnell Douglas F-4 Phantom II export or locally modernized model"
+      "F-4A / F4H early Phantom II",
+      "F-4B / F-4N",
+      "F-4C / F-4D",
+      "F-4E",
+      "RF-4C / RF-4E",
+      "British Spey-powered Phantoms",
+      "QF-4 target drones"
     ],
     "operator_summary": {
-      "major_designer_or_builder": [
-        "United States"
+      "primary_users": [
+        "United States Navy",
+        "United States Marine Corps",
+        "United States Air Force",
+        "multiple export air arms"
       ],
-      "major_user_note": "McDonnell Douglas F-4 Phantom II has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "notes": "The Phantom was a tri-service U.S. aircraft and one of the most widely exported Western fighters of the Cold War."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -106,12 +197,28 @@
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "McDonnell Douglas F-4 Phantom II uses jet propulsion."
+      "type": "Two afterburning turbojets",
+      "models": [
+        "General Electric J79-GE-8 (F-4N example)",
+        "General Electric J79-GE-15 (F-4C example)",
+        "Other J79 subvariants by model and operator"
+      ],
+      "notes": "Museum sources list roughly 10,900 lb dry thrust and 17,000 lb with afterburner for representative J79 installations."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "guns": [
+        "Internal M61 Vulcan on F-4E and some later derivatives",
+        "Gun pods used on some earlier aircraft when required"
+      ],
+      "air_to_air": [
+        "AIM-7 Sparrow",
+        "AIM-9 Sidewinder"
+      ],
+      "air_to_ground": [
+        "General-purpose bombs",
+        "Air-to-ground missiles and precision/unguided stores depending on era and operator"
+      ],
+      "notes": "The Phantom's actual stores varied by service, variant, wiring, time period, and national weapons integration."
     },
     "similar_development": [
       {
@@ -136,55 +243,66 @@
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 34,
+      "operator_entries": 7,
+      "variant_entries": 7,
+      "external_article_sources": 3
     },
     "footnotes": [
       {
-        "id": "fn-main",
-        "title": "McDonnell Douglas F-4 Phantom II",
-        "url": "https://en.wikipedia.org/wiki/McDonnell_Douglas_F-4_Phantom_II",
-        "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "id": "fn-nhhc",
+        "text": "NHHC/National Naval Aviation Museum describes the F-4 as a Navy high-altitude interceptor that set more than a dozen speed, altitude, and time-to-climb records and later proved widely employed."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "id": "fn-hill",
+        "text": "Hill Aerospace Museum F-4C figures are for a representative F-4C and should not be read as universal to all Navy, Air Force, reconnaissance, export, or upgraded Phantoms."
       },
       {
         "id": "fn-method",
-        "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
-        "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "text": "Variant-specific weapons, avionics, performance, and operator inventory details vary substantially; this article uses conservative public-source wording rather than a single all-variant configuration table."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "F-4N Phantom II",
+        "url": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-4n-phantom-ii.html",
+        "publisher": "Naval History and Heritage Command"
+      },
+      {
+        "title": "F-4C \"Phantom II\"",
+        "url": "https://www.aerospaceutah.org/f-4c-phantom-ii",
+        "publisher": "Hill Aerospace Museum"
+      },
+      {
+        "title": "McDonnell Douglas F-4C Phantom II",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196051/mcdonnell-douglas-f-4c-phantom-ii",
+        "publisher": "National Museum of the U.S. Air Force"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "McDonnell Douglas F-4 Phantom II is a Multirole fighter from United States. Manufacturer: McDonnell Douglas. First flight: 1958. Introduction: 1960. Status: Retired.",
+            "text": "The McDonnell Douglas F-4 Phantom II was a large two-seat, twin-engine, all-weather supersonic interceptor and fighter-bomber developed by McDonnell for the U.S. Navy. Its combination of radar, range, speed, and heavy external payload made it useful far beyond its original fleet-defense mission.",
             "refs": [
-              "fn-main"
+              "fn-nhhc",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "McDonnell Douglas F-4 Phantom II is a fighter. Primary role: multirole fighter. Country of origin: United States. Manufacturer: McDonnell Douglas.",
+            "text": "The Phantom entered Navy service around 1960-1961, was adopted by the U.S. Marine Corps and U.S. Air Force, and became one of the central Western combat aircraft of the Cold War. Total production is generally listed as 5,195 aircraft, making it the most-produced American supersonic military aircraft.",
             "refs": [
-              "fn-wikidata"
+              "fn-wikipedia",
+              "fn-nhhc"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Unlike later lightweight fighters, the F-4 was designed around powerful J79 turbojets, a two-person crew, long-range missiles, and a large external-stores load. Early versions lacked an internal gun, but Vietnam-era combat experience and fighter-bomber use drove gun pods, the gun-equipped F-4E, and many national modernization programs.",
             "refs": [
+              "fn-hill",
+              "fn-wikipedia",
               "fn-method"
             ]
           }
@@ -192,49 +310,72 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Multirole fighter"
+            "text": "All-weather interceptor and fighter-bomber"
           },
           {
-            "title": "Designer or builder",
-            "text": "McDonnell Douglas"
+            "title": "Crew",
+            "text": "Two: pilot plus RIO/WSO"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Engines",
+            "text": "Two General Electric J79 afterburning turbojets"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Production",
+            "text": "5,195 aircraft, 1958-1981"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "McDonnell Douglas F-4 Phantom II first flew in 1958. Introduction date: 1960. Era: Cold War.",
+            "text": "The Phantom began as McDonnell's answer to Navy requirements for a carrier-based, high-altitude interceptor able to defend task forces with radar-guided missiles. The Naval Aviation Museum summarizes the original concept as a long-range fleet-defense fighter built around powerful engines and missile armament.",
             "refs": [
-              "fn-main"
+              "fn-nhhc"
             ]
           },
           {
-            "text": "Producer: McDonnell Douglas. Development context: multirole fighter, jet propulsion, supersonic speed category, Cold War era.",
+            "text": "First flight took place on 27 May 1958. Beginning in 1959 the type set numerous speed, altitude, and time-to-climb records, helping prove that a large two-seat carrier aircraft could deliver exceptional performance.",
             "refs": [
-              "fn-wikidata"
+              "fn-nhhc",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "The U.S. Air Force adopted the Phantom after Navy and Marine Corps use demonstrated its payload and performance. The F-4C adapted the design for land-based Air Force operations, while subsequent F-4D, F-4E, reconnaissance, training, export, and target-drone versions kept the airframe in service for decades.",
+            "refs": [
+              "fn-hill",
+              "fn-wikipedia"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "First flight: 27 May 1958.",
             "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "U.S. Navy introduction: 1960-1961 period, followed by Marine Corps and Air Force adoption.",
+            "refs": [
+              "fn-nhhc",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Production ended in 1981 after more than five thousand aircraft across U.S. and export variants.",
+            "refs": [
+              "fn-wikipedia",
               "fn-method"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "U.S. front-line service gave way to F-14, F-15, F-16, and F/A-18 families, but QF-4 drones and export Phantoms lasted much longer.",
             "refs": [
+              "fn-wikipedia",
               "fn-method"
             ]
           }
@@ -245,114 +386,102 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 2. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The F-4 used a tandem cockpit, swept wings, all-moving tailplanes, twin engines, and a large fuselage sized for radar, fuel, and weapons. The aircraft was carrier-capable in Navy and Marine versions, while Air Force variants emphasized land-based air superiority, interdiction, reconnaissance, and strike roles.",
             "refs": [
-              "fn-main"
+              "fn-nhhc",
+              "fn-hill"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Power came from General Electric J79 afterburning turbojets. The Naval Aviation Museum's F-4N data lists two J79-GE-8 engines at 10,900 lb static thrust and 17,000 lb with afterburner; Hill Aerospace Museum lists two J79-GE-15 engines at 17,000 lb thrust each in afterburner for its F-4C.",
             "refs": [
+              "fn-nhhc",
+              "fn-hill"
+            ]
+          },
+          {
+            "text": "Armament centered on AIM-7 Sparrow radar-guided missiles, AIM-9 Sidewinders, and external ordnance. Early missile-only assumptions proved limiting in some close-range engagements, so cannon pods and the later internal-gun F-4E became important parts of the Phantom story.",
+            "refs": [
+              "fn-nhhc",
+              "fn-wikipedia",
               "fn-method"
             ]
           },
           {
-            "text": "McDonnell Douglas F-4 Phantom II uses jet propulsion. Engine model field: Not listed.",
+            "text": "Because the F-4 served with many operators and upgrades, avionics and weapons fits varied widely. This page avoids assigning a single universal radar, electronic-warfare, or precision-weapon fit to every Phantom.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-method"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "2"
+            "title": "Airframe concept",
+            "text": "Carrier-capable twin-engine all-weather fighter"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Main missiles",
+            "text": "AIM-7 Sparrow and AIM-9 Sidewinder families"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
-          },
-          {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Stores capacity",
+            "text": "Up to about 16,000-18,000 lb depending on source/variant"
           },
           {
             "title": "Stealth",
-            "text": "No"
+            "text": "No; survivability relied on speed, altitude, tactics, escorts, ECM, and later upgrades"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "McDonnell Douglas F-4 Phantom II status: Retired. Conflict entries: 1.",
+            "text": "Representative specifications differ by version. The figures below use the official U.S. Navy museum F-4N page and the Hill Aerospace Museum F-4C page as public reference points rather than treating one variant as every Phantom.",
             "refs": [
-              "fn-main"
+              "fn-nhhc",
+              "fn-hill",
+              "fn-method"
             ]
           },
           {
-            "text": "Conflicts: Vietnam War.",
+            "text": "F-4N reference data: crew of pilot and radar intercept officer; two General Electric J79-GE-8 turbojets; length 58 ft 3 in; height 16 ft 3 in; wingspan 38 ft 4 7/8 in; empty weight 28,000 lb; gross weight 54,600 lb; maximum speed 1,485 mph at 48,000 ft; service ceiling 62,000 ft; range 2,300 miles.",
             "refs": [
-              "fn-method"
+              "fn-nhhc"
+            ]
+          },
+          {
+            "text": "F-4C museum data: two General Electric J79-GE-15 turbojets of 17,000 lb thrust each in afterburner; wingspan 38 ft 4 7/8 in; length 58 ft 3 3/4 in; height 16 ft 3 in; maximum weight 58,000 lb; maximum speed 1,433 mph; ferry range 2,000 miles; combat range 538 miles; service ceiling 56,100 ft.",
+            "refs": [
+              "fn-hill"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Vietnam War: McDonnell Douglas F-4 Phantom II used in Vietnam War.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "McDonnell Douglas F-4 Phantom II named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "About 58 ft 3 in (F-4C/F-4N examples)"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Wingspan",
+            "text": "38 ft 4 7/8 in"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Height",
+            "text": "16 ft 3 in"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum speed",
+            "text": "1,433-1,485 mph in museum F-4C/F-4N figures"
+          },
+          {
+            "title": "Range",
+            "text": "2,000-2,300 miles ferry/range figures by variant"
+          },
+          {
+            "title": "Ceiling",
+            "text": "56,100-62,000 ft by variant/source"
           }
         ]
       },
@@ -361,41 +490,53 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "McDonnell Douglas F-4 Phantom II variant-family entries: 4. Variant families: McDonnell Douglas F-4 Phantom II baseline production model; McDonnell Douglas F-4 Phantom II upgraded avionics or weapons-capable model; McDonnell Douglas F-4 Phantom II two-seat trainer or conversion model; McDonnell Douglas F-4 Phantom II export or locally modernized model.",
+            "text": "The Phantom family is broad because the same basic design served Navy, Marine Corps, Air Force, reconnaissance, export, and test missions. Milipedia therefore groups major branches rather than listing every block and national modernization.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-method",
+              "fn-wikipedia"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "McDonnell Douglas F-4 Phantom II baseline production model",
+            "text": "F-4A/F4H early aircraft: development and early Navy service lineage.",
             "refs": [
-              "fn-main"
+              "fn-nhhc",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "McDonnell Douglas F-4 Phantom II upgraded avionics or weapons-capable model",
+            "text": "F-4B/F-4N: Navy and Marine Corps fighter versions, with F-4N representing upgraded Navy aircraft.",
             "refs": [
-              "fn-main"
+              "fn-nhhc"
             ]
           },
           {
-            "text": "McDonnell Douglas F-4 Phantom II two-seat trainer or conversion model",
+            "text": "F-4C/F-4D: Air Force adaptations for land-based air superiority and strike use.",
             "refs": [
-              "fn-main"
+              "fn-hill",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "McDonnell Douglas F-4 Phantom II export or locally modernized model",
+            "text": "F-4E: major gun-equipped fighter-bomber variant and important export baseline.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "RF-4C/RF-4E: reconnaissance variants with camera/sensor installations.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "QF-4: retired Phantoms converted into full-scale aerial targets for weapons testing.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
             ]
           }
         ]
@@ -405,57 +546,106 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. McDonnell Douglas F-4 Phantom II has 1 designer or builder country entry.",
+            "text": "The Phantom was unusual because it became a major combat aircraft for all three U.S. sea/air tactical communities: Navy carrier air wings, Marine Corps aviation, and the U.S. Air Force. That spread helped standardize the aircraft as a Cold War benchmark fighter-bomber.",
             "refs": [
-              "fn-wikidata"
+              "fn-nhhc",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Export service was equally important. Operators included the United Kingdom, Germany, Japan, Israel, Iran, Greece, Turkey, South Korea, Australia, Egypt, Spain, and others, with many aircraft locally upgraded or retained well after U.S. front-line retirement.",
             "refs": [
+              "fn-wikipedia",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "United States: Navy, Marine Corps, Air Force, reconnaissance, test, training, and QF-4 target-drone use.",
             "refs": [
-              "fn-main"
+              "fn-nhhc",
+              "fn-hill",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "United Kingdom: Royal Navy and Royal Air Force Spey-powered Phantoms.",
             "refs": [
-              "fn-wikidata"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "specifications",
-        "title": "Specifications",
-        "paragraphs": [
-          {
-            "text": "Comparable fields: crew 2, propulsion type Jet, maximum speed category Supersonic, first flight 1958, introduction 1960.",
-            "refs": [
-              "fn-main"
+              "fn-wikipedia",
+              "fn-method"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Germany, Japan, Greece, Turkey, Israel, Iran, South Korea and others: major export or long-service operators; current status and fleet counts require dated checking.",
             "refs": [
+              "fn-wikipedia",
               "fn-method"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "service",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "McDonnell Douglas F-4 Phantom II similar-development links: 4.",
+            "text": "Vietnam made the Phantom's reputation and exposed its trade-offs. It served as an air-superiority fighter, escort, strike aircraft, reconnaissance platform, and close-support asset for the U.S. Air Force, Navy, and Marine Corps.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The aircraft's missile-heavy design reflected prewar expectations about beyond-visual-range interception. Combat experience highlighted the continuing value of maneuvering, training, rules of engagement, visual identification, and gun capability, helping shape later fighter doctrine and aircraft such as the F-14, F-15, F-16, and F/A-18.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "After Vietnam, Phantoms remained in U.S. and allied service for air defense, strike, reconnaissance, Wild Weasel, test, and training duties. Export Phantoms saw combat and deterrence roles in the Middle East and other regions, but detailed national combat histories are too broad for a single safe update.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Vietnam War: major U.S. fighter, strike, and reconnaissance platform.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Cold War: fleet-defense, air-defense, strike, reconnaissance, and training work across NATO and allied operators.",
+            "refs": [
+              "fn-nhhc",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Post-front-line U.S. service: QF-4 target drones and test support continued after combat-unit retirement.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Role Context",
+        "paragraphs": [
+          {
+            "text": "Compared with the F-16, the F-4 was larger, heavier, smokier, and operated by a two-person crew, but it brought long range, high speed, large radar capacity, and heavy stores. The F-16 represented a later lightweight multirole design philosophy with fly-by-wire controls and a very different cost/manoeuvre balance.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Compared with the F-15, the Phantom was an earlier multirole/interceptor design that helped create the requirement for a more specialized U.S. air-superiority fighter. Compared with the F-14, it was less specialized for long-range fleet air defense but more widely exported and adapted.",
             "refs": [
               "fn-method"
             ]
@@ -463,31 +653,156 @@
         ],
         "links": [
           {
-            "label": "Northrop F-5",
-            "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
+            "label": "General Dynamics F-16 Fighting Falcon",
+            "url": "aircraft.html?id=f-16-fighting-falcon"
           },
           {
-            "label": "Vought F-8 Crusader",
-            "url": "aircraft.html?id=f-8-crusader"
+            "label": "McDonnell Douglas F-15 Eagle",
+            "url": "aircraft.html?id=f-15-eagle"
           },
           {
             "label": "Grumman F-14 Tomcat",
             "url": "aircraft.html?id=f-14-tomcat"
           },
           {
+            "label": "Vought F-8 Crusader",
+            "url": "aircraft.html?id=f-8-crusader"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The Phantom's strengths were speed, climb, radar capacity, crew workload sharing, carrier suitability, range, payload, and adaptability. Its limitations included size, fuel burn, visible smoke from some J79 installations, high landing speeds, and early dependence on missiles without an internal gun.",
+            "refs": [
+              "fn-method",
+              "fn-wikipedia"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: heavy missile and bomb load on a fast supersonic airframe.",
+            "refs": [
+              "fn-nhhc",
+              "fn-hill"
+            ]
+          },
+          {
+            "text": "Strength: two-seat cockpit for radar intercept, navigation, weapons, and complex strike/reconnaissance tasks.",
+            "refs": [
+              "fn-nhhc"
+            ]
+          },
+          {
+            "text": "Limitation: no early internal gun, later addressed by gun pods and F-4E design changes.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: performance and handling depended heavily on configuration, stores, fuel, and pilot training.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1958: First flight on 27 May.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "1959 onward: Phantom family begins setting performance records.",
+            "refs": [
+              "fn-nhhc",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "1960-1961: Navy service introduction period.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "1960s: U.S. Marine Corps and U.S. Air Force adoption; Vietnam War combat use expands.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-hill"
+            ]
+          },
+          {
+            "text": "1981: Production ends after more than 5,000 aircraft.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "1990s-2010s: U.S. combat/front-line retirement gives way to QF-4 drone use and continuing export service.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Primary style and density reference was the repository's F-16 template. Technical values are limited to public museum/official pages and are labeled by variant where the source is variant-specific.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Wikipedia was used only as a supplementary orientation source for broad production, variant, and operator context. Exact modern operator inventories, upgrade blocks, weapons clearances, and combat-loss tables require dated specialist sources and were not fixed here.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "links": [
+          {
+            "label": "General Dynamics F-16 Fighting Falcon",
+            "url": "aircraft.html?id=f-16-fighting-falcon"
+          },
+          {
             "label": "McDonnell Douglas F-15 Eagle",
             "url": "aircraft.html?id=f-15-eagle"
+          },
+          {
+            "label": "Grumman F-14 Tomcat",
+            "url": "aircraft.html?id=f-14-tomcat"
+          },
+          {
+            "label": "Vought F-8 Crusader",
+            "url": "aircraft.html?id=f-8-crusader"
+          },
+          {
+            "label": "Return to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg/960px-U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg",
-        "caption": "Vietnam War",
-        "source_url": "https://en.wikipedia.org/wiki/Vietnam_War"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "f-5-freedom-fighter-tiger-ii",

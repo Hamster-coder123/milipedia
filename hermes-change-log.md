@@ -548,3 +548,80 @@ Record the result of:
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * Y-20 current fleet totals, exact unit assignments, detailed engine-fit distribution, export status, and special-mission derivative status vary by source/date, so the page uses cautious wording rather than fixed current inventory or variant tables.
 * Some public technical values differ between Ministry of National Defense wording and aviation-reference data; the page records approximate ranges and source caveats rather than forcing one exact figure.
+
+### Run 8 — 2026-06-30 03:04:42 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: McDonnell Douglas F-4 Phantom II (id: f-4-phantom-ii)
+* Reason selected: The F-4 entry was a sparse unedited aircraft record despite being a major fighter page; it had no real operator entries, no complete variants, no external article sources, missing engine/range/ceiling/hardpoint detail, and generated placeholder sections far below the F-16 reference density.
+* Previous condition: Placeholder-like generated entry with 15 exact fact fields, 0 operator entries, 0 variant entries, 0 external article sources, generic armament language, missing J79 technical detail, no Navy/Air Force/Marine Corps/export operator coverage, no real Vietnam/service-history depth, and only generic overview/development/design/service text.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview lead; article-section order covering overview, development, design, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, sources, and related pages; short sourced paragraphs; card-style key facts; specification emphasis within the JSON renderer; cautious public-source caveats; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the F-4 Phantom II entry in data/aircraft.json into a fuller Milipedia article data record while preserving the existing JSON-rendered aircraft-page structure.
+* Updated top-level facts for alternative names, manufacturer lineage, role, aircraft type, first flight, service-introduction period, retirement/status caveats, production total, crew, J79 engine family, speed, range, combat-radius caveat, service ceiling, armament, hardpoints, development history, combat/service history, summary, variants, operators, and article-quality counts.
+* Replaced generic fighter armament wording with F-4-specific public-source language covering AIM-7 Sparrow, AIM-9 Sidewinder, external stores, early missile-only assumptions, gun pods, and later internal-gun F-4E aircraft.
+* Added official/museum/reference sources from the Naval History and Heritage Command / National Naval Aviation Museum, Hill Aerospace Museum, and the National Museum of the U.S. Air Force; retained Wikipedia only as supplementary orientation and kept the Milipedia accuracy-rules source.
+* Added/expanded sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Comparison and Role Context, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added public technical details for two General Electric J79 afterburning turbojets, representative F-4N and F-4C engine thrust, 38 ft 4 7/8 in wingspan, about 58 ft 3 in length, 16 ft 3 in height, 1,433-1,485 mph maximum-speed figures, 2,000-2,300 mile range figures, 56,100-62,000 ft ceiling figures, and up to about 16,000-18,000 lb external stores depending on source/variant.
+* Added variant coverage for early F-4A/F4H, F-4B/F-4N, F-4C/F-4D, F-4E, RF-4C/RF-4E, British Spey-powered Phantoms, and QF-4 target drones.
+* Added operator coverage for the United States, United Kingdom, Germany, Japan, Israel, Iran, and representative other export users with caution that current fleet counts and statuses are date-sensitive.
+* Added operational-history context for Vietnam War air-superiority/strike/reconnaissance use, Cold War air defense, later export service, QF-4 target-drone use, and the design lessons that influenced later F-14/F-15/F-16/F/A-18-era fighters.
+* Added comparison context against the existing F-16 Fighting Falcon, F-15 Eagle, F-14 Tomcat, and F-8 Crusader pages.
+* Omitted exact current export-fleet totals, detailed combat-loss tables, all national modernization blocks, and fixed radar/electronic-warfare fits because those facts vary by date, operator, and variant and need dedicated dated sources.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the McDonnell Douglas F-4 Phantom II aircraft page data and sources.
+* hermes-change-log.md — Appended the cumulative Run 8 log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed diff/stat; data/aircraft.json changes are limited to the F-4 Phantom II entry, and hermes-change-log.md adds this Run 8 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed F-4 sections, sources, footnotes/external articles, article quality fields, variants/operators, and F-4-specific armament wording.
+4. F-16 style comparison — Inspected data/f16-template.html and copied its dense lead, section order, sourced paragraphs, specification emphasis, variants/operators/service/comparison/timeline coverage, source notes, and related-page patterns within the JSON article system.
+5. Internal link check — Verified aircraft.html?id=f-16-fighting-falcon, aircraft.html?id=f-15-eagle, aircraft.html?id=f-14-tomcat, and aircraft.html?id=f-8-crusader target existing aircraft ids in data/aircraft.json.
+6. Secret/token check — Ran credential-specific scan over the staged diff for API keys, tokens, passwords, private keys, GitHub tokens, and AWS credentials; no credentials were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, diff check, intended files only, F-4 was not previously edited by Hermes, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand McDonnell Douglas F-4 Phantom II
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* The National Museum of the U.S. Air Force F-4C page was retained as an official source, but automated extraction returned mostly navigation text in this run; detailed technical figures were therefore based primarily on the Naval Aviation Museum and Hill Aerospace Museum pages.
+* F-4 variant/operator details are unusually broad; exact current export inventory, national modernization blocks, radar fits, weapons clearances, and combat-loss tables were intentionally omitted or described cautiously.
