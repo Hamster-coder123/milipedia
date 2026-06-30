@@ -1843,3 +1843,80 @@ Record the result of:
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * HAL's HTML product pages and the PIB page were difficult to extract directly; the HAL PDF was downloaded and text-extracted locally, while Airforce Technology supplied most narrative details.
 * Exact current Tejas delivered totals, fully cleared weapons combinations, combat radius, and Mk1/Mk1A/Mk2-specific figures are variant- and date-sensitive; the page uses cautious wording and omits fixed values where confidence was insufficient.
+
+### Run 25 — 2026-06-30 20:01:25 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Saab JAS 39 Gripen (id: jas-39-gripen)
+* Reason selected: Sparse-candidate scoring found the Gripen record was the shortest unedited aircraft page by generated content score, with 0 variant entries, 0 operator entries, 0 external article sources, placeholder "Not listed" values for engines/range/ceiling/hardpoints, and generic sections well below the F-16 reference page's density.
+* Previous condition: Generated placeholder-style article with only 15 exact fact fields, no detailed C/D versus E/F variant treatment, no Swedish/Brazilian/export operator coverage, no road-base/turnaround/design discussion, no meaningful service history, and only generic Wikipedia/Wikidata/method references.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense lead overview; article-section coverage for overview, development history, design and capabilities, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, sources, and related pages; concise sourced paragraphs; card-style technical facts; cautious variant-dependent performance notes; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the Saab JAS 39 Gripen entry in data/aircraft.json into a fuller Milipedia article data record while preserving the JSON-rendered aircraft page structure.
+* Updated top-level facts for alternative names, manufacturer/program context, role, first flight, service-entry caveat, production/delivery context, crew, propulsion, engines, speed, range, combat radius, ceiling, armament, hardpoints, development history, combat/service context, summary text, source metadata, article quality counts, engine details, and armament caveats.
+* Added manufacturer source coverage from Saab Gripen E-series and Gripen C-series pages for E/F sensors, F414G thrust, hardpoints, dimensions, turnaround, C/D road-base operations, weapons flexibility, and operator statements.
+* Added official Swedish Armed Forces source coverage for the 2026 NATO air-policing deployment to Iceland and the first Gripen E handover, including E-model range/payload/sensor/electronic-warfare improvement context.
+* Added Airforce Technology source coverage for early Gripen dimensions, RM12 engine, speed/range/ceiling, C/D descriptions, and Gripen NG demonstrator chronology.
+* Retained Wikipedia only as a supplementary orientation and cross-check source for broad first-flight, variant-lineage, and delivered-aircraft context.
+* Added detailed sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Comparison, Timeline, Sources and Notes, and Related Pages.
+* Added variant coverage for JAS 39A, JAS 39B, JAS 39C, JAS 39D, Gripen NG demonstrator, JAS 39E, JAS 39F, and Gripen Aggressor.
+* Added operator coverage for Sweden, Brazil, Czech Republic, Hungary, South Africa, Thailand, Empire Test Pilots’ School, and announced future Colombian Gripen E/F deliveries with status caveats.
+* Added related internal links to F-16, Mirage 2000, Rafale, Eurofighter Typhoon, and F/A-18 Hornet pages.
+* Omitted fixed current fleet counts, exhaustive weapons-integration lists, and operator-specific combat claims where source context was date-sensitive or variant-specific.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Saab JAS 39 Gripen aircraft entry, sources, sections, variants, operators, technical cards, caveats, and related links.
+* hermes-change-log.md — Appended the cumulative Run 25 log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, the intended modified files were data/aircraft.json and hermes-change-log.md only.
+2. git diff — Reviewed the aircraft diff and log append; data/aircraft.json changes are limited to the Saab JAS 39 Gripen entry, and hermes-change-log.md adds this Run 25 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool and reviewed the updated Gripen fields, sections, sources, variants, operators, specifications cards, caveats, and related links.
+4. F-16 style comparison — Inspected data/f16-template.html and matched its dense lead, section order, sourced paragraphs, specification emphasis, variants/operators/service/comparison/timeline coverage, source notes, and related-page patterns within the JSON article system.
+5. Internal link check — Verified aircraft.html?id=f-16-fighting-falcon, aircraft.html?id=mirage-2000, aircraft.html?id=rafale, aircraft.html?id=eurofighter-typhoon, and aircraft.html?id=f-a-18-hornet target existing aircraft ids in data/aircraft.json.
+6. Secret/token check — Ran credential-specific scan over the staged diff for API keys, tokens, passwords, private keys, GitHub tokens, and AWS credentials; no credentials were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, diff check, intended files only, Saab JAS 39 Gripen was not previously edited by Hermes, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Saab JAS 39 Gripen
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* Saab E-series and C-series product pages are marketing/manufacturer sources, so combat-effectiveness claims were phrased conservatively and tied to described systems rather than asserted outcomes.
+* Exact current fleet totals, delivered Colombian aircraft status, national weapons clearances, and combat radius values are date- and variant-sensitive; the page uses cautious wording and omits fixed values where confidence was insufficient.

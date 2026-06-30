@@ -51959,34 +51959,112 @@
   {
     "id": "jas-39-gripen",
     "name": "Saab JAS 39 Gripen",
-    "alternative_names": [],
+    "alternative_names": [
+      "JAS 39 Gripen",
+      "Gripen C/D",
+      "Gripen E/F"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "Sweden",
-    "manufacturer": "Saab",
-    "role": "Multirole fighter",
+    "manufacturer": "Saab AB; Industrigruppen JAS consortium for the original program",
+    "role": "Lightweight multirole fighter",
     "aircraft_type": "Fighter",
     "era": "Modern",
-    "first_flight": "1988",
-    "introduction_date": "1996",
+    "first_flight": "9 December 1988",
+    "introduction_date": "1996 Swedish Air Force service entry; Airforce Technology lists operational service in 1997",
     "retirement_date": null,
     "status": "Active",
-    "number_built": "Not listed",
-    "crew": "1 or 2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "number_built": "More than 280 Gripens of all models delivered by the mid-2020s; older source data listed 213 by December 2008",
+    "crew": "1 in JAS 39A/C/E and Gripen Aggressor; 2 in JAS 39B/D/F",
+    "engine_type": "Afterburning turbofan",
+    "engines": "One Volvo Aero RM12 afterburning turbofan in A/B/C/D; one GE F414G afterburning turbofan in Gripen E/F",
+    "max_speed": "Supersonic; Airforce Technology lists 2,470 km/h for earlier Gripen data, while exact speed varies by variant and loadout",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Saab JAS 39 Gripen: Multirole fighter. Manufacturer: Saab. First flight: 1988. Introduction: 1996.",
-    "short_summary": "Saab JAS 39 Gripen: Multirole fighter. Origin: Sweden. Manufacturer: Saab. First flight: 1988. Introduction: 1996. Status: Active.",
+    "range": "About 3,200 km ferry range for early Gripen data; Gripen E has greater range according to Saab and Swedish Armed Forces descriptions",
+    "combat_range": "About 800 km combat radius for early Gripen data; mission radius varies by fuel, stores, and profile",
+    "service_ceiling": "About 15,240 m / 50,000 ft for early Gripen data",
+    "rate_of_climb": "High-performance fighter climb; exact values vary by variant and loadout",
+    "armament": "One 27 mm Mauser BK 27 cannon on single-seat armed fighter variants, plus short- and beyond-visual-range air-to-air missiles, guided bombs, anti-ship/strike weapons, reconnaissance pods, targeting pods, and external fuel tanks depending on variant and customer integration.",
+    "hardpoints": "Eight hardpoints on Gripen C/D; ten hardpoints on Gripen E/F per Saab data",
+    "variants": [
+      {
+        "name": "JAS 39A",
+        "description": "Original single-seat Swedish Air Force production version that introduced the Gripen as a replacement for Draken and Viggen tasks."
+      },
+      {
+        "name": "JAS 39B",
+        "description": "Two-seat operational conversion and training version based on the early Gripen standard; normally without the internal gun."
+      },
+      {
+        "name": "JAS 39C",
+        "description": "Single-seat improved and export-standard version with modernized cockpit displays, onboard oxygen generation, in-flight refuelling capability, NATO interoperability, and broad weapons/pod integration."
+      },
+      {
+        "name": "JAS 39D",
+        "description": "Two-seat counterpart to the Gripen C for conversion training and operational missions requiring a rear cockpit."
+      },
+      {
+        "name": "Gripen NG demonstrator",
+        "description": "Technology demonstrator that first flew in 2008 and matured the larger next-generation configuration, F414G engine, new avionics, and sensor improvements."
+      },
+      {
+        "name": "JAS 39E",
+        "description": "Single-seat new-generation Gripen with GE F414G engine, larger airframe/fuel capacity, AESA radar, IRST, advanced electronic warfare, wide-area cockpit display, and ten hardpoints."
+      },
+      {
+        "name": "JAS 39F",
+        "description": "Two-seat Gripen E-series aircraft intended for conversion, training, and missions where a second crew member supports tactical workload."
+      },
+      {
+        "name": "Gripen Aggressor",
+        "description": "Proposed adversary-air version based on the Gripen C-series for dissimilar air combat training rather than front-line national fighter service."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Sweden",
+        "service": "Swedish Air Force",
+        "notes": "Original operator. Sweden uses Gripen C/D and is introducing Gripen E while retaining C/D for a long transition period."
+      },
+      {
+        "country": "Brazil",
+        "service": "Brazilian Air Force",
+        "notes": "Gripen E/F customer using the F-39 designation, with Brazilian production/industrial participation and deliveries from the early 2020s onward."
+      },
+      {
+        "country": "Czech Republic",
+        "service": "Czech Air Force",
+        "notes": "Gripen C/D lease operator and NATO air-policing participant."
+      },
+      {
+        "country": "Hungary",
+        "service": "Hungarian Air Force",
+        "notes": "Gripen C/D operator; Saab describes Hungary among the in-service C/D user nations."
+      },
+      {
+        "country": "South Africa",
+        "service": "South African Air Force",
+        "notes": "Export Gripen C/D operator and one of the early non-European Gripen users."
+      },
+      {
+        "country": "Thailand",
+        "service": "Royal Thai Air Force",
+        "notes": "Gripen C/D operator in Southeast Asia."
+      },
+      {
+        "country": "United Kingdom",
+        "service": "Empire Test Pilots’ School",
+        "notes": "Uses Gripen access for advanced flight-test training rather than national combat operations, according to Saab C-series operator text."
+      },
+      {
+        "country": "Colombia",
+        "service": "Colombian Government / future air force deliveries",
+        "notes": "Saab announced a 2025 Gripen E/F contract for 17 aircraft with deliveries planned for 2026-2032; operational status should be reviewed as deliveries occur."
+      }
+    ],
+    "combat_history": "Operational use has emphasized Swedish quick-reaction alert, Baltic and NATO air-policing, international exercises, export air-defense service, and coalition air campaigns; Sweden announced a NATO air-policing deployment to Iceland with JAS 39 Gripen aircraft for February-March 2026.",
+    "development_history": "Sweden initiated the JAS program to replace Draken and Viggen with one aircraft family able to perform jakt, attack och spaning: fighter, attack, and reconnaissance. The Gripen first flew on 9 December 1988, entered Swedish service in the mid-1990s, evolved through A/B and C/D standards, and was redesigned into the larger Gripen E/F with a new engine, sensors, electronic warfare suite, and avionics architecture.",
+    "short_summary": "The Saab JAS 39 Gripen is a Swedish single-engine, canard-delta, lightweight multirole fighter built around dispersed operations, fast turnaround, NATO-interoperable avionics in later variants, and flexible air-to-air, air-to-surface, and reconnaissance missions. Gripen C/D is the mature export and Swedish-service family; Gripen E/F adds the F414G engine, AESA radar, IRST, more fuel, ten hardpoints, and a new mission-system architecture.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -51999,18 +52077,46 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-saab-e",
+        "title": "Gripen E-series",
+        "url": "https://www.saab.com/products/gripen-e-series",
+        "publisher": "Saab",
+        "note": "Manufacturer source for Gripen E/F roles, AESA/IRST/electronic-warfare claims, hardpoints, engine thrust, dimensions, and turnaround data."
+      },
+      {
+        "id": "fn-saab-c",
+        "title": "Gripen C-series",
+        "url": "https://www.saab.com/products/gripen-c-series",
+        "publisher": "Saab",
+        "note": "Manufacturer source for Gripen C/D characteristics, hardpoints, turnaround, road-base operations, operators, weapons flexibility, and export-standard features."
+      },
+      {
+        "id": "fn-saf-iceland",
+        "title": "Sweden carries out a NATO operation in Iceland",
+        "url": "https://www.forsvarsmakten.se/en/news-and-events/news/sweden-carries-out-a-nato-operation-in-iceland",
+        "publisher": "Swedish Armed Forces",
+        "note": "Official source for 2026 NATO air-policing deployment with JAS 39 Gripen aircraft."
+      },
+      {
+        "id": "fn-saf-gripen-e",
+        "title": "Jas 39 Gripen E i Försvarsmakten",
+        "url": "https://www.forsvarsmakten.se/aktuellt/nyheter/jas-39-gripen-e-i-forsvarsmakten/",
+        "publisher": "Swedish Armed Forces",
+        "note": "Official Swedish Armed Forces source for first Gripen E handover, E-model range/payload/sensor/electronic-warfare improvements, and C/D-to-E transition context."
+      },
+      {
+        "id": "fn-airforce-tech",
+        "title": "Gripen Multirole Fighter Aircraft",
+        "url": "https://www.airforce-technology.com/projects/gripen/",
+        "publisher": "Airforce Technology",
+        "note": "Technical reference for early Gripen dimensions, RM12 engine, speed/range/ceiling, C/D version descriptions, and NG demonstrator chronology."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Saab JAS 39 Gripen",
         "url": "https://en.wikipedia.org/wiki/Saab_JAS_39_Gripen",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for broad development history, first-flight date, variant lineage, and delivered-aircraft context; not used alone for technical claims."
       },
       {
         "id": "fn-method",
@@ -52027,25 +52133,38 @@
       }
     ],
     "designers": [
-      "Saab"
+      "Saab",
+      "Industrigruppen JAS",
+      "Swedish Defence Materiel Administration / FMV"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Sweden wanted one fighter, attack, and reconnaissance aircraft able to replace several Draken and Viggen roles without losing dispersed-base survivability.",
+      "The design emphasized short-road-base operation, quick turnaround, maintainability, and low operating burden as much as raw speed or payload.",
+      "Gripen C/D balanced export interoperability and modest airframe size; Gripen E/F trades a larger airframe and F414G engine for more fuel, sensors, payload, and growth margin.",
+      "Open mission-system architecture and fast weapons integration are major strengths, but exact capabilities vary by national software, sensor, and weapons release standard."
     ],
-    "wars_used_in": [],
+    "wars_used_in": [
+      "Swedish and NATO air policing missions",
+      "International exercises and quick-reaction alert duty",
+      "Export air-defense and sovereignty missions"
+    ],
     "variant_families": [
-      "Saab JAS 39 Gripen baseline production model",
-      "Saab JAS 39 Gripen upgraded avionics or weapons-capable model",
-      "Saab JAS 39 Gripen two-seat trainer or conversion model",
-      "Saab JAS 39 Gripen export or locally modernized model"
+      "JAS 39A/B",
+      "JAS 39C/D",
+      "Gripen NG demonstrator",
+      "JAS 39E/F",
+      "Gripen Aggressor"
     ],
     "operator_summary": {
-      "major_designer_or_builder": [
-        "Sweden"
+      "primary_users": [
+        "Swedish Air Force",
+        "Brazilian Air Force",
+        "Czech Air Force",
+        "Hungarian Air Force",
+        "South African Air Force",
+        "Royal Thai Air Force"
       ],
-      "major_user_note": "Saab JAS 39 Gripen has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "notes": "Gripen operators are fewer than F-16 users but span Europe, South America, Africa, and Asia; C/D and E/F standards should be separated because deliveries and capabilities differ."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -52058,136 +52177,215 @@
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Saab JAS 39 Gripen uses jet propulsion."
+      "type": "Single afterburning turbofan",
+      "summary": "A/B/C/D aircraft use the Volvo Aero RM12, derived from the F404 family and listed by Airforce Technology at 80.5 kN with afterburner; Gripen E/F uses the more powerful GE F414G, which Saab lists at 98 kN maximum thrust."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Gripen is wired for air-to-air, air-to-surface, reconnaissance, and targeting-store missions. Saab highlights Meteor and IRIS-T on Gripen E and a broad U.S./European weapons-and-pod catalogue on Gripen C-series; exact stores depend on national integration and release standard.",
+      "caution": "Two-seat B/D/F and Aggressor configurations may omit or differ in gun fit, and weapon availability is operator-specific."
     },
     "similar_development": [
-      {
-        "id": "f-15-eagle",
-        "name": "McDonnell Douglas F-15 Eagle",
-        "url": "aircraft.html?id=f-15-eagle"
-      },
       {
         "id": "f-16-fighting-falcon",
         "name": "General Dynamics F-16 Fighting Falcon",
         "url": "aircraft.html?id=f-16-fighting-falcon"
       },
       {
+        "id": "mirage-2000",
+        "name": "Dassault Mirage 2000",
+        "url": "aircraft.html?id=mirage-2000"
+      },
+      {
+        "id": "rafale",
+        "name": "Dassault Rafale",
+        "url": "aircraft.html?id=rafale"
+      },
+      {
+        "id": "eurofighter-typhoon",
+        "name": "Eurofighter Typhoon",
+        "url": "aircraft.html?id=eurofighter-typhoon"
+      },
+      {
         "id": "f-a-18-hornet",
         "name": "McDonnell Douglas F/A-18 Hornet",
         "url": "aircraft.html?id=f-a-18-hornet"
-      },
-      {
-        "id": "f-a-18e-f-super-hornet",
-        "name": "Boeing F/A-18E/F Super Hornet",
-        "url": "aircraft.html?id=f-a-18e-f-super-hornet"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 55,
+      "operator_entries": 8,
+      "variant_entries": 8,
+      "external_article_sources": 5
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-saab-e",
+        "title": "Gripen E-series",
+        "url": "https://www.saab.com/products/gripen-e-series",
+        "publisher": "Saab",
+        "note": "Manufacturer source for Gripen E/F roles, AESA/IRST/electronic-warfare claims, hardpoints, engine thrust, dimensions, and turnaround data."
+      },
+      {
+        "id": "fn-saab-c",
+        "title": "Gripen C-series",
+        "url": "https://www.saab.com/products/gripen-c-series",
+        "publisher": "Saab",
+        "note": "Manufacturer source for Gripen C/D characteristics, hardpoints, turnaround, road-base operations, operators, weapons flexibility, and export-standard features."
+      },
+      {
+        "id": "fn-saf-iceland",
+        "title": "Sweden carries out a NATO operation in Iceland",
+        "url": "https://www.forsvarsmakten.se/en/news-and-events/news/sweden-carries-out-a-nato-operation-in-iceland",
+        "publisher": "Swedish Armed Forces",
+        "note": "Official source for 2026 NATO air-policing deployment with JAS 39 Gripen aircraft."
+      },
+      {
+        "id": "fn-saf-gripen-e",
+        "title": "Jas 39 Gripen E i Försvarsmakten",
+        "url": "https://www.forsvarsmakten.se/aktuellt/nyheter/jas-39-gripen-e-i-forsvarsmakten/",
+        "publisher": "Swedish Armed Forces",
+        "note": "Official Swedish Armed Forces source for first Gripen E handover, E-model range/payload/sensor/electronic-warfare improvements, and C/D-to-E transition context."
+      },
+      {
+        "id": "fn-airforce-tech",
+        "title": "Gripen Multirole Fighter Aircraft",
+        "url": "https://www.airforce-technology.com/projects/gripen/",
+        "publisher": "Airforce Technology",
+        "note": "Technical reference for early Gripen dimensions, RM12 engine, speed/range/ceiling, C/D version descriptions, and NG demonstrator chronology."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Saab JAS 39 Gripen",
         "url": "https://en.wikipedia.org/wiki/Saab_JAS_39_Gripen",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for broad development history, first-flight date, variant lineage, and delivered-aircraft context; not used alone for technical claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "Gripen E-series",
+        "url": "https://www.saab.com/products/gripen-e-series",
+        "publisher": "Saab"
+      },
+      {
+        "title": "Gripen C-series",
+        "url": "https://www.saab.com/products/gripen-c-series",
+        "publisher": "Saab"
+      },
+      {
+        "title": "Gripen Multirole Fighter Aircraft",
+        "url": "https://www.airforce-technology.com/projects/gripen/",
+        "publisher": "Airforce Technology"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Saab JAS 39 Gripen is a Multirole fighter from Sweden. Manufacturer: Saab. First flight: 1988. Introduction: 1996. Status: Active.",
+            "text": "The Saab JAS 39 Gripen is a Swedish lightweight multirole fighter whose JAS designation stands for fighter, attack, and reconnaissance tasks. It uses a canard-delta layout, a single afterburning turbofan, fly-by-wire controls, and a compact airframe built around high sortie availability rather than heavy-fighter size.",
             "refs": [
-              "fn-main"
+              "fn-saab-c",
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Saab JAS 39 Gripen is a fighter. Primary role: multirole fighter. Country of origin: Sweden. Manufacturer: Saab.",
+            "text": "Gripen C/D is the mature Swedish and export standard, with in-flight refuelling, NATO-oriented communications, eight hardpoints, quick turnaround, and broad weapons/pod integration. Gripen E/F is the redesigned generation with the GE F414G engine, more fuel, ten hardpoints, AESA radar, IRST, wide-area cockpit display, electronic warfare improvements, and growth-oriented avionics.",
             "refs": [
-              "fn-wikidata"
+              "fn-saab-c",
+              "fn-saab-e",
+              "fn-saf-gripen-e"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The family is less numerous than the F-16 but follows a similar multirole pattern: a single-seat fighter paired with a two-seat trainer/mission version, successive avionics blocks, and export packages adapted to national weapons and data-link requirements.",
             "refs": [
-              "fn-method"
+              "fn-method",
+              "fn-wikipedia"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Multirole fighter"
+            "text": "Lightweight multirole fighter"
           },
           {
-            "title": "Designer or builder",
-            "text": "Saab"
-          },
-          {
-            "title": "Major origin",
+            "title": "National origin",
             "text": "Sweden"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Manufacturer",
+            "text": "Saab AB"
+          },
+          {
+            "title": "Layout",
+            "text": "Single-engine canard-delta fighter"
+          },
+          {
+            "title": "Current families",
+            "text": "Gripen C/D and Gripen E/F"
+          },
+          {
+            "title": "Dispersed operations",
+            "text": "Designed for road-base use and short combat turnarounds"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Saab JAS 39 Gripen first flew in 1988. Introduction date: 1996. Era: Modern.",
+            "text": "Sweden pursued Gripen to replace the Saab 35 Draken and Saab 37 Viggen with one aircraft family for fighter, attack, and reconnaissance missions. The program had to fit Swedish dispersed basing doctrine, where aircraft could operate from short prepared road sections with small ground crews.",
             "refs": [
-              "fn-main"
+              "fn-saab-c",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Producer: Saab. Development context: multirole fighter, jet propulsion, supersonic speed category, Modern era.",
+            "text": "The first Gripen flew on 9 December 1988. Early production created the single-seat JAS 39A and two-seat JAS 39B, followed by the JAS 39C/D standard that added export and NATO-interoperability features such as in-flight refuelling and improved cockpit/avionics equipment.",
             "refs": [
-              "fn-wikidata"
+              "fn-airforce-tech",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "The next-generation path began with the Gripen NG demonstrator, which first flew in 2008 and tested a larger, more powerful and more sensor-rich configuration. This work led to Gripen E/F, which Saab describes as a new fighter aircraft system rather than a simple cockpit update.",
+            "refs": [
+              "fn-saab-e",
+              "fn-airforce-tech",
+              "fn-saf-gripen-e"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "Original requirement: one aircraft to perform air-defense, attack, and reconnaissance missions in Swedish service.",
             "refs": [
-              "fn-method"
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "Gripen C/D improvement focus: export standardization, NATO interoperability, in-flight refuelling, and rapid dispersed operation.",
             "refs": [
-              "fn-method"
+              "fn-saab-c",
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "Gripen E/F improvement focus: longer range, heavier payload, AESA/IRST sensor suite, new electronic warfare system, F414G engine, and mission-system growth margin.",
+            "refs": [
+              "fn-saab-e",
+              "fn-saf-gripen-e"
             ]
           }
         ]
@@ -52197,107 +52395,98 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1 or 2. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The Gripen airframe uses a close-coupled canard and delta wing. This arrangement supports high agility and short-field performance while retaining enough internal volume for fuel, avionics, and the single engine. The aircraft is not carrier-capable and is not a stealth aircraft, but its design stresses survivability through mobility, low support footprint, sensors, electronic warfare, and networked tactics.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Carrier capable: no. Stealth: no.",
-            "refs": [
+              "fn-saab-c",
+              "fn-saab-e",
               "fn-method"
             ]
           },
           {
-            "text": "Saab JAS 39 Gripen uses jet propulsion. Engine model field: Not listed.",
+            "text": "Gripen C/D uses the Volvo Aero RM12 afterburning turbofan, while Gripen E/F uses the higher-thrust GE F414G. Saab lists Gripen E/F maximum thrust at 98 kN and hardpoints at ten; Saab lists Gripen C/D hardpoints at eight and emphasizes short turnarounds from austere bases.",
             "refs": [
-              "fn-main"
+              "fn-saab-c",
+              "fn-saab-e",
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
+            "text": "Avionics are central to the family identity. Gripen C/D emphasizes Link 16-era information sharing and decision support, while Gripen E adds AESA radar, IRST, advanced electronic warfare, sensor fusion, and a wide-area cockpit display intended to help the pilot manage dense tactical information.",
             "refs": [
-              "fn-main"
+              "fn-saab-c",
+              "fn-saab-e",
+              "fn-saf-gripen-e"
+            ]
+          },
+          {
+            "text": "Weapons integration is deliberately flexible. Saab describes Gripen C-series as able to host a wide range of U.S. and European weapons and pods; Saab highlights Meteor beyond-visual-range missiles and IRIS-T short-range missiles in Gripen E marketing, while exact national loadouts remain operator-specific.",
+            "refs": [
+              "fn-saab-c",
+              "fn-saab-e",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Airframe",
+            "text": "Canard-delta, single vertical tail, relaxed-stability fly-by-wire fighter"
+          },
+          {
+            "title": "Gripen C/D engine",
+            "text": "Volvo Aero RM12 afterburning turbofan, 80.5 kN afterburning thrust in Airforce Technology data"
+          },
+          {
+            "title": "Gripen E/F engine",
+            "text": "GE F414G afterburning turbofan, 98 kN maximum thrust in Saab data"
+          },
+          {
+            "title": "Sensors",
+            "text": "AESA radar and IRST on Gripen E/F; sensor-fusion emphasis across current Saab descriptions"
+          },
+          {
+            "title": "Turnaround",
+            "text": "Saab lists 10 minutes for Gripen C/D air-to-air turnaround and 15-25 minutes for Gripen E/F combat turnaround"
+          }
+        ]
+      },
+      {
+        "id": "specifications",
+        "title": "Specifications",
+        "paragraphs": [
+          {
+            "text": "Specification values differ between early A/C-series data and the larger E/F aircraft. The fields below identify the source family where possible rather than treating all Gripens as identical.",
+            "refs": [
+              "fn-saab-c",
+              "fn-saab-e",
+              "fn-airforce-tech"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "1 or 2"
+            "text": "A/C/E and Aggressor: 1; B/D/F: 2"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Gripen C length / span",
+            "text": "14.9 m length overall and 8.4 m width overall in Saab C-series data"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Gripen E length / span",
+            "text": "15.2 m length overall and 8.6 m width overall in Saab E-series data"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Maximum takeoff weight",
+            "text": "14,000 kg for C/D; 16,500 kg for E/F in Saab data"
           },
           {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Saab JAS 39 Gripen status: Active. Conflict entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Hardpoints",
+            "text": "8 on C/D; 10 on E/F"
           },
           {
-            "text": "Conflicts: 0 entries.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Saab JAS 39 Gripen named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Early technical data",
+            "text": "Airforce Technology lists 2,470 km/h maximum speed, 800 km combat radius, 3,200 km ferry range, and 15,240 m ceiling for earlier Gripen data"
           }
         ]
       },
@@ -52306,41 +52495,45 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Saab JAS 39 Gripen variant-family entries: 4. Variant families: Saab JAS 39 Gripen baseline production model; Saab JAS 39 Gripen upgraded avionics or weapons-capable model; Saab JAS 39 Gripen two-seat trainer or conversion model; Saab JAS 39 Gripen export or locally modernized model.",
+            "text": "Gripen variants fall into early Swedish A/B aircraft, mature C/D export/service aircraft, the NG demonstrator, and the larger E/F generation. Two-seat models are not merely civilian trainers; they support operational conversion and, in some configurations, mission workload sharing.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-airforce-tech",
+              "fn-saab-c",
+              "fn-saab-e"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Saab JAS 39 Gripen baseline production model",
+            "text": "JAS 39A/B: original single-seat and two-seat Swedish production standards.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Saab JAS 39 Gripen upgraded avionics or weapons-capable model",
+            "text": "JAS 39C/D: improved export and Swedish-service standard with in-flight refuelling, OBOGS, cockpit updates, NATO-oriented communications, and eight hardpoints.",
             "refs": [
-              "fn-main"
+              "fn-saab-c",
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Saab JAS 39 Gripen two-seat trainer or conversion model",
+            "text": "Gripen NG: 2008 demonstrator path for the more powerful and sensor-rich next-generation aircraft.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Saab JAS 39 Gripen export or locally modernized model",
+            "text": "JAS 39E/F: current new-generation single-seat and two-seat family with F414G engine, ten hardpoints, AESA radar, IRST, and expanded mission systems.",
             "refs": [
-              "fn-main"
+              "fn-saab-e",
+              "fn-saf-gripen-e"
+            ]
+          },
+          {
+            "text": "Gripen Aggressor: proposed C-series-based adversary-air training version.",
+            "refs": [
+              "fn-saab-c"
             ]
           }
         ]
@@ -52350,45 +52543,248 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Sweden. Saab JAS 39 Gripen has 1 designer or builder country entry.",
+            "text": "Gripen operators are fewer than F-16 operators, so the page groups them by role and status rather than listing every aircraft count. Saab identifies Sweden, the Czech Republic, Hungary, South Africa, Thailand, and ETPS in its C-series operator text; Brazil is the major Gripen E/F customer, and Colombia has been announced as a future E/F customer.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
+              "fn-saab-c",
+              "fn-saab-e",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Sweden — original operator; C/D service continues while Gripen E is introduced.",
             "refs": [
-              "fn-main"
+              "fn-saf-gripen-e"
             ]
           },
           {
-            "text": "Major designer or builder entries: Sweden.",
+            "text": "Brazil — F-39 Gripen E/F customer with local industrial participation and deliveries underway.",
             "refs": [
-              "fn-wikidata"
+              "fn-saab-e",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Czech Republic and Hungary — European Gripen C/D operators and NATO air-policing users.",
+            "refs": [
+              "fn-saab-c"
+            ]
+          },
+          {
+            "text": "South Africa and Thailand — non-European Gripen C/D operators listed by Saab.",
+            "refs": [
+              "fn-saab-c"
+            ]
+          },
+          {
+            "text": "Empire Test Pilots’ School — Saab lists Gripen access for flight-test training rather than national fighter operations.",
+            "refs": [
+              "fn-saab-c"
+            ]
+          },
+          {
+            "text": "Colombia — Saab announced a 17-aircraft Gripen E/F order with planned deliveries in 2026-2032; operational status should be revisited after deliveries.",
+            "refs": [
+              "fn-saab-e"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "service",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1 or 2, propulsion type Jet, maximum speed category Supersonic, first flight 1988, introduction 1996.",
+            "text": "Gripen service has centered on Swedish air-defense readiness, export quick-reaction alert, exercises, and NATO-compatible air-policing missions rather than the large combat record associated with the F-16. Saab emphasizes rapid refuel/rearm and road-base operation as a practical part of how Gripen units generate sorties.",
             "refs": [
-              "fn-main"
+              "fn-saab-c",
+              "fn-method"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "In 2026 the Swedish Armed Forces announced that Swedish JAS 39 Gripen aircraft would deploy to Keflavík, Iceland, for NATO air policing during February and March. The official notice described the mission as part of NATO collective air-defense tasks in the Arctic region.",
+            "refs": [
+              "fn-saf-iceland"
+            ]
+          },
+          {
+            "text": "Swedish Armed Forces reporting on the first Gripen E handover framed the E model as a step into next-generation fighter capability, with longer range, heavier payload, new sensors, new radar, improved communications, and stronger electronic-warfare capability than C/D.",
+            "refs": [
+              "fn-saf-gripen-e"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Peacetime missions: national quick-reaction alert, air sovereignty patrols, air policing, exercises, and training.",
+            "refs": [
+              "fn-saab-c",
+              "fn-saf-iceland"
+            ]
+          },
+          {
+            "text": "Combat claims and detailed operational losses are not summarized here because they require operator-specific verification.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include low support burden, rapid turnarounds, road-base compatibility, modern data links, flexible weapons integration, and E/F growth margin. These traits make the Gripen attractive for air forces that value high availability and national infrastructure resilience.",
+            "refs": [
+              "fn-saab-c",
+              "fn-saab-e"
+            ]
+          },
+          {
+            "text": "Limitations are mostly contextual: Gripen is a lightweight single-engine fighter with fewer global operators and a smaller combat record than the F-16. Capability also depends heavily on national software, weapons clearances, electronic-warfare libraries, and upgrade funding.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Strength",
+            "text": "Dispersed operations and fast turnaround with small ground crews"
+          },
+          {
+            "title": "Strength",
+            "text": "Modern sensor fusion, electronic warfare, and networked tactics in E/F"
+          },
+          {
+            "title": "Caution",
+            "text": "Variant-specific data must be separated between C/D and E/F"
+          },
+          {
+            "title": "Caution",
+            "text": "Combat record and fleet counts are date-sensitive and operator-specific"
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Compared with the F-16 reference page aircraft, Gripen is smaller and more explicitly optimized around dispersed Nordic basing and quick ground servicing. Both aircraft are single-engine multirole fighters with successive avionics blocks, broad weapons integration, and modern AESA-upgrade paths.",
+            "refs": [
+              "fn-saab-c",
+              "fn-saab-e",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Gripen E/F moves the family closer to heavier contemporary fighters by adding the F414G engine, more fuel, more hardpoints, and a larger sensor/electronic-warfare suite, while still retaining the operational philosophy of high availability and a compact support footprint.",
+            "refs": [
+              "fn-saab-e",
+              "fn-saf-gripen-e"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "General Dynamics F-16 Fighting Falcon",
+            "url": "aircraft.html?id=f-16-fighting-falcon"
+          },
+          {
+            "label": "Dassault Mirage 2000",
+            "url": "aircraft.html?id=mirage-2000"
+          },
+          {
+            "label": "Dassault Rafale",
+            "url": "aircraft.html?id=rafale"
+          },
+          {
+            "label": "Eurofighter Typhoon",
+            "url": "aircraft.html?id=eurofighter-typhoon"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "Key dates are included as a compact timeline because Gripen development is strongly tied to successive standards rather than a single fixed configuration.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-saab-e",
+              "fn-saf-gripen-e"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1979-1980s — Sweden defines the JAS requirement and the industrial team develops the new multirole aircraft.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "9 December 1988 — first Gripen flight.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "1996-1997 — Swedish service entry / operational service period as cited by different sources.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "September 2002 — Airforce Technology describes first Swedish delivery of the JAS 39C standard.",
+            "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "May 2008 — Gripen NG demonstrator first flight.",
+            "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "2019 onward — Gripen E deliveries begin to Sweden and Brazil according to broad public-source chronology.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "2026 — Swedish Armed Forces announces Gripen participation in NATO air policing over Iceland; Colombia E/F deliveries are planned to begin in the same period under Saab-announced order timing.",
+            "refs": [
+              "fn-saf-iceland",
+              "fn-saab-e"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Manufacturer and official-military sources were preferred for current C/D and E/F capabilities. Airforce Technology was used for concise early technical specifications. Wikipedia was retained only as an orientation and cross-check source for broad chronology and delivered-aircraft context.",
+            "refs": [
+              "fn-saab-c",
+              "fn-saab-e",
+              "fn-saf-iceland",
+              "fn-saf-gripen-e",
+              "fn-airforce-tech",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Exact performance, sensors, and weapons vary by variant and customer. The article avoids fixed national fleet counts except where the source text directly identifies current or announced operators.",
             "refs": [
               "fn-method"
             ]
@@ -52397,10 +52793,10 @@
       },
       {
         "id": "similar-development",
-        "title": "Similar Development",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "Saab JAS 39 Gripen similar-development links: 4.",
+            "text": "Related Milipedia pages include contemporary single-engine and European multirole fighter families.",
             "refs": [
               "fn-method"
             ]
@@ -52408,20 +52804,29 @@
         ],
         "links": [
           {
-            "label": "McDonnell Douglas F-15 Eagle",
-            "url": "aircraft.html?id=f-15-eagle"
-          },
-          {
-            "label": "General Dynamics F-16 Fighting Falcon",
+            "id": "f-16-fighting-falcon",
+            "name": "General Dynamics F-16 Fighting Falcon",
             "url": "aircraft.html?id=f-16-fighting-falcon"
           },
           {
-            "label": "McDonnell Douglas F/A-18 Hornet",
-            "url": "aircraft.html?id=f-a-18-hornet"
+            "id": "mirage-2000",
+            "name": "Dassault Mirage 2000",
+            "url": "aircraft.html?id=mirage-2000"
           },
           {
-            "label": "Boeing F/A-18E/F Super Hornet",
-            "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+            "id": "rafale",
+            "name": "Dassault Rafale",
+            "url": "aircraft.html?id=rafale"
+          },
+          {
+            "id": "eurofighter-typhoon",
+            "name": "Eurofighter Typhoon",
+            "url": "aircraft.html?id=eurofighter-typhoon"
+          },
+          {
+            "id": "f-a-18-hornet",
+            "name": "McDonnell Douglas F/A-18 Hornet",
+            "url": "aircraft.html?id=f-a-18-hornet"
           }
         ]
       }
