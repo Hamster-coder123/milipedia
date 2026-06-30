@@ -1541,3 +1541,77 @@ Record the result of:
 
 * Manufacturer and supplementary references differ on exact production total, maximum speed, range, and payload depending on whether they describe the whole An-12 family, An-12BP, civil freighter configuration, or maximum-fuel versus maximum-payload conditions; the page labels those contexts rather than forcing one unsupported value.
 * Exact current worldwide fleet counts, all operators, detailed accident history, and special-mission electronics fits were not exhaustively enumerated because they are date-sensitive or aircraft-specific and need dedicated verification.
+
+### Run 21 — 2026-06-30 16:04:18 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Sukhoi Su-27 (id: su-27)
+* Reason selected: It was the shortest unedited aircraft entry found during sparse-candidate scoring, with no operator entries, no variant entries, no external article sources, generic generated prose, many "Not listed" fields, and no detailed design/weapons/variant/operator/operational-history treatment.
+* Previous condition: Placeholder-like generated fighter article with 15 exact fact fields, 0 operator entries, 0 variant entries, 0 external article sources, unspecified engines/range/ceiling/hardpoints, generic armament, and minimal sections compared with the F-16 reference page.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense lead overview; article-section order covering overview, development, design, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, sources, and related pages; concise sourced technical paragraphs; card-style fact summaries; neutral caveats for variant-specific/source-conflicting figures; internal aircraft link style using aircraft.html?id=...
+
+#### Changes Made
+
+* Expanded the Sukhoi Su-27 entry from a sparse generated page into a fuller Milipedia article data record.
+* Added alternative names, NATO reporting name Flanker, Soviet/Russian origin context, production/status caveats, first-flight date, role refinement, engine details, range, combat-radius caveat, ceiling caveat, climb-rate data, hardpoints, and a fuller short summary.
+* Replaced generic weapon wording with variant-cautious Su-27-family armament coverage, including the 30 mm GSh-30-1 cannon, R-27/AA-10, R-73/AA-11, rockets, bombs, stores stations, radar/IRST, helmet sight, and countermeasures context.
+* Added sources from Airforce Technology and the National Museum of the U.S. Air Force, with Wikipedia retained only as supplementary orientation and Milipedia data rules for caveats.
+* Added sections for Overview, Development History, Design and Capabilities, Avionics and Weapons Systems, Specifications, Variants and Derivatives, Operators, Operational History, Comparison, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added variant and derivative coverage for T-10/T-10S, Su-27S/P, Su-27UB/UBK, Su-27SK/SKM, Su-27SM family, and Su-30/Su-33/Su-34/Su-35/Shenyang J-11 related families.
+* Added representative operator coverage for Soviet/Russian, Ukrainian, Chinese, export, and post-Soviet users without inventing a fixed current fleet table.
+* Added internal links to existing F-15 Eagle, F-14 Tomcat, MiG-29, Su-30, Su-35, and Shenyang J-11 pages.
+* Omitted or caveated exact active inventories, exact combat losses, detailed current order of battle, and variant-specific radar/missile combinations because they are date-sensitive or require operator-specific sources.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Sukhoi Su-27 aircraft entry and sources.
+* hermes-change-log.md — Appended the cumulative Run 21 record.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Verified before commit that only data/aircraft.json and hermes-change-log.md were modified/staged.
+2. git diff — Reviewed diff/stat and aircraft diff; data/aircraft.json changes are limited to the Sukhoi Su-27 entry, and hermes-change-log.md adds this Run 21 entry.
+3. File review — Parsed data/aircraft.json successfully with python3 -m json.tool and reviewed the updated Su-27 fields, sections, sources, variants, operators, caveats, and links.
+4. F-16 style comparison — Inspected data/f16-template.html and matched its dense overview, article-section coverage, technical/source phrasing, specification emphasis, variants/operators/service/comparison/timeline coverage, source notes, and related-link style within the JSON renderer.
+5. Internal link check — Parsed data/aircraft.json IDs and verified all aircraft.html?id=... links in the updated Su-27 entry target existing local IDs.
+6. Secret/token check — Ran credential-specific checks over the staged diff; no API keys, tokens, passwords, private keys, .env data, or credentials were found.
+7. Final review before commit — Confirmed branch, JSON validity, diff check, intended file set, one-entry aircraft diff, no main-branch edit, no unrelated files, and completed change log entry.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Sukhoi Su-27
+* Commit hash: Pending until commit completes; final hash is reported in the run result.
+
+#### Issues or Uncertainties
+
+* Public sources differ on exact production totals, service ceiling, combat radius, and whether values refer to baseline Su-27S/SK, Su-27UB, or modernized Su-27SM aircraft; the page labels those contexts rather than forcing one unsupported value.
+* Exact current inventories, combat losses, detailed order of battle, and variant-specific radar/missile compatibility were not exhaustively enumerated because they are date-sensitive and require dedicated verification.

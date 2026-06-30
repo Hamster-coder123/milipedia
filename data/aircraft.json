@@ -34850,34 +34850,59 @@
   {
     "id": "su-27",
     "name": "Sukhoi Su-27",
-    "alternative_names": [],
-    "nato_reporting_name": null,
-    "country_of_origin": "Soviet Union",
-    "manufacturer": "Sukhoi",
-    "role": "Air superiority fighter",
+    "alternative_names": [
+      "Su-27 Flanker",
+      "Flanker-B",
+      "T-10S"
+    ],
+    "nato_reporting_name": "Flanker",
+    "country_of_origin": "Soviet Union / Russia",
+    "manufacturer": "Sukhoi; Komsomolsk-on-Amur Aircraft Production Association for major production batches",
+    "role": "Long-range air-superiority fighter",
     "aircraft_type": "Fighter",
     "era": "Modern",
-    "first_flight": "1977",
+    "first_flight": "20 May 1977 (T-10 prototype)",
     "introduction_date": "1985",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "1",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "status": "Active with Russia and export/post-Soviet operators; many airframes modernized or retired",
+    "number_built": "About 680 Su-27-family baseline aircraft commonly listed; totals vary when Su-30, Su-33, Su-34, Su-35 and J-11 derivatives are included",
+    "crew": "1; 2 in Su-27UB trainer",
+    "engine_type": "Twin afterburning turbofan",
+    "engines": "2 × Lyulka/Saturn AL-31F afterburning turbofans on standard Su-27/Su-27SK aircraft",
+    "max_speed": "About Mach 2.35 / 2,500 km/h at altitude for representative Su-27 figures",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
+    "range": "About 3,530 km ferry/maximum range is commonly cited for the clean Su-27; mission radius varies with stores and profile",
+    "combat_range": "Often cited around 1,300-1,400 km for representative air-superiority missions; verify for specific variant/loadout",
+    "service_ceiling": "About 18,500 m / 59,000-62,500 ft depending source and variant",
+    "rate_of_climb": "About 300 m/s is commonly cited for clean representative Su-27 performance",
+    "armament": "One 30 mm GSh-30-1 cannon with 150 rounds; R-27/AA-10, R-73/AA-11 and other air-to-air missiles by variant; unguided rockets, bombs and limited air-to-surface stores on multirole upgrades.",
+    "hardpoints": "10 external weapons stations",
     "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Sukhoi Su-27: Air superiority fighter. Manufacturer: Sukhoi. First flight: 1977. Introduction: 1985.",
-    "short_summary": "Sukhoi Su-27: Air superiority fighter. Origin: Soviet Union. Manufacturer: Sukhoi. First flight: 1977. Introduction: 1985. Status: Active.",
+    "operators": [
+      {
+        "country": "Soviet Union / Russia",
+        "service": "Soviet Air Forces; Russian Aerospace Forces",
+        "note": "Original operator and main successor user; many aircraft have been upgraded or replaced by later Flanker derivatives."
+      },
+      {
+        "country": "Ukraine",
+        "service": "Ukrainian Air Force",
+        "note": "Inherited Su-27 and Su-27UB aircraft after the Soviet breakup and has operated them in air-defense roles."
+      },
+      {
+        "country": "China",
+        "service": "People's Liberation Army Air Force",
+        "note": "Operated imported Su-27SK/UBK aircraft and developed the licensed/indigenous Shenyang J-11 family."
+      },
+      {
+        "country": "Other export and post-Soviet users",
+        "service": "Belarus, Kazakhstan, Uzbekistan, Vietnam, Indonesia and others by period",
+        "note": "Operator lists are date-sensitive because aircraft have been retired, upgraded, resold or replaced in several fleets."
+      }
+    ],
+    "combat_history": "Used by Soviet successor states and export operators for air-defense patrols, intercepts, training, exercises and limited combat employment; Ukrainian and Russian Su-27-family aircraft have been involved in the Russo-Ukrainian War.",
+    "development_history": "The Su-27 grew from the Soviet PFI heavy-fighter requirement to counter new U.S. fourth-generation aircraft such as the F-15. The original T-10 prototype flew in 1977, but the redesigned production-standard T-10S created the large blended-wing, twin-engine Flanker configuration that entered service in the mid-1980s.",
+    "short_summary": "The Sukhoi Su-27 Flanker is a Soviet/Russian twin-engine, long-range air-superiority fighter designed by Sukhoi to counter Western fourth-generation fighters. It introduced the large Flanker aerodynamic family and became the basis for the Su-30, Su-33, Su-34, Su-35 and China's Shenyang J-11.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -34890,18 +34915,25 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-airforce-tech",
+        "title": "Su-27 Flanker Front-Line Fighter Aircraft, Russia",
+        "url": "https://www.airforce-technology.com/projects/su27/",
+        "publisher": "Airforce Technology",
+        "note": "Used for dimensions, engines, weapons, radar/sensor descriptions, variants and operator/development overview."
+      },
+      {
+        "id": "fn-nmusaf",
+        "title": "Sukhoi SU-27UB “FLANKER-C” Trainer",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/3566120/sukhoi-su-27ub-flanker-c-trainer/",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Official museum page used for Su-27UB display context and service-history cross-checking."
+      },
+      {
+        "id": "fn-wiki",
         "title": "Sukhoi Su-27",
         "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-27",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for dates, family relationships and broad operator context; not used as the only source for technical claims."
       },
       {
         "id": "fn-method",
@@ -34913,52 +34945,62 @@
     ],
     "country_flags": [
       {
-        "label": "Soviet Union",
+        "label": "Soviet Union / Russia",
         "emoji": "☭"
       }
     ],
     "designers": [
-      "Sukhoi"
+      "Sukhoi Design Bureau",
+      "Mikhail Simonov is closely associated with the production-standard redesign"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Meeting the heavy PFI requirement demanded long range, Mach 2 performance, high agility, heavy missile load, powerful radar and operation from dispersed Soviet air bases.",
+      "The first T-10 prototypes did not meet all performance targets, forcing a major aerodynamic redesign before the T-10S/Su-27 production standard emerged.",
+      "Later upgrades had to add multirole weapons, modern radars and digital avionics while preserving the large airframe's range and maneuverability advantages."
     ],
     "wars_used_in": [
       {
         "name": "Russo-Ukrainian War",
-        "note": "Sukhoi Su-27 used in Russo-Ukrainian War."
+        "note": "Ukrainian and Russian Su-27-family aircraft have been reported in air-defense and combat operations; exact loss and kill claims are contested and date-sensitive."
+      },
+      {
+        "name": "Post-Soviet regional conflicts",
+        "note": "Su-27-family aircraft have appeared in several regional crises and intercept incidents; detailed claims require aircraft- and date-specific verification."
       }
     ],
     "variant_families": [
-      "Sukhoi Su-27 baseline production model",
-      "Sukhoi Su-27 upgraded avionics or weapons-capable model",
-      "Sukhoi Su-27 export or locally modernized model"
+      "T-10 prototypes",
+      "Su-27S / Su-27P single-seat production fighters",
+      "Su-27UB two-seat combat trainer",
+      "Su-27SK export fighter",
+      "Su-27SM / SM2 / SM3 Russian upgrades",
+      "Su-30, Su-33, Su-34, Su-35 and Shenyang J-11 derivative families"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
-        "Soviet Union"
+        "Soviet Union",
+        "Russia"
       ],
-      "major_user_note": "Sukhoi Su-27 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Major users include Russia, Ukraine, China and several post-Soviet or export air arms. Current inventory totals should be treated as date-sensitive.",
+      "all_operators_status": "Representative operators are listed; not a complete current order of battle."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "P-42 record aircraft derived from the Su-27 set time-to-climb records in the 1980s.",
+        "Su-27UB museum aircraft are displayed by several institutions, including the National Museum of the U.S. Air Force."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Su-27s are frequently associated with Cold War and post-Cold War intercept activity.",
+        "Modern combat and loss claims are omitted unless supported by dated, high-confidence sources."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Sukhoi Su-27 uses jet propulsion."
+      "type": "Twin afterburning turbofan",
+      "summary": "Standard Su-27/Su-27SK aircraft use two AL-31F afterburning turbofans fed by widely spaced under-fuselage inlets; later derivatives use upgraded AL-31 or AL-41-family engines depending model."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Baseline Su-27 air-to-air armament centers on the GSh-30-1 cannon, R-27 medium-range missiles and R-73 close-combat missiles, with ten stations for missiles, rockets and bombs.",
+      "caution": "Weapon compatibility depends on national upgrade, radar, datalink and fire-control software; do not assume every Su-27 can use later Russian or Chinese missiles."
     },
     "similar_development": [
       {
@@ -34967,70 +35009,105 @@
         "url": "aircraft.html?id=f-15-eagle"
       },
       {
-        "id": "f-16-fighting-falcon",
-        "name": "General Dynamics F-16 Fighting Falcon",
-        "url": "aircraft.html?id=f-16-fighting-falcon"
+        "id": "f-14-tomcat",
+        "name": "Grumman F-14 Tomcat",
+        "url": "aircraft.html?id=f-14-tomcat"
       },
       {
-        "id": "f-a-18-hornet",
-        "name": "McDonnell Douglas F/A-18 Hornet",
-        "url": "aircraft.html?id=f-a-18-hornet"
+        "id": "mig-29",
+        "name": "Mikoyan MiG-29",
+        "url": "aircraft.html?id=mig-29"
       },
       {
-        "id": "f-a-18e-f-super-hornet",
-        "name": "Boeing F/A-18E/F Super Hornet",
-        "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+        "id": "su-30",
+        "name": "Sukhoi Su-30",
+        "url": "aircraft.html?id=su-30"
+      },
+      {
+        "id": "su-35",
+        "name": "Sukhoi Su-35",
+        "url": "aircraft.html?id=su-35"
+      },
+      {
+        "id": "shenyang-j-11",
+        "name": "Shenyang J-11",
+        "url": "aircraft.html?id=shenyang-j-11"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 38,
+      "operator_entries": 4,
+      "variant_entries": 6,
+      "external_article_sources": 3
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-airforce-tech",
+        "title": "Su-27 Flanker Front-Line Fighter Aircraft, Russia",
+        "url": "https://www.airforce-technology.com/projects/su27/",
+        "publisher": "Airforce Technology",
+        "note": "Technical and role overview."
+      },
+      {
+        "id": "fn-nmusaf",
+        "title": "Sukhoi SU-27UB “FLANKER-C” Trainer",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/3566120/sukhoi-su-27ub-flanker-c-trainer/",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Official museum context for a Su-27UB trainer."
+      },
+      {
+        "id": "fn-wiki",
         "title": "Sukhoi Su-27",
         "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-27",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation for the Su-27 family and dates."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording and estimate labels."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "Su-27 Flanker Front-Line Fighter Aircraft, Russia",
+        "url": "https://www.airforce-technology.com/projects/su27/",
+        "publisher": "Airforce Technology"
+      },
+      {
+        "title": "Sukhoi SU-27UB “FLANKER-C” Trainer",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/3566120/sukhoi-su-27ub-flanker-c-trainer/",
+        "publisher": "National Museum of the U.S. Air Force"
+      },
+      {
+        "title": "Sukhoi Su-27",
+        "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-27",
+        "publisher": "Wikipedia"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-27 is an Air superiority fighter from Soviet Union. Manufacturer: Sukhoi. First flight: 1977. Introduction: 1985. Status: Active.",
+            "text": "The Sukhoi Su-27 Flanker is a Soviet/Russian twin-engine air-superiority fighter developed to give Soviet air-defense and tactical aviation a long-range counterpart to Western fourth-generation aircraft such as the F-15 Eagle and F-14 Tomcat. It combined a large blended lifting body, widely spaced engines, twin fins, strong high-angle-of-attack handling and a heavy air-to-air missile load.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech",
+              "fn-wiki"
             ]
           },
           {
-            "text": "Sukhoi Su-27 is a fighter. Primary role: air superiority fighter. Country of origin: Soviet Union. Manufacturer: Sukhoi.",
+            "text": "The aircraft entered service in the mid-1980s and became the root of the wider Flanker family. The Su-30, Su-33, Su-34, Su-35 and Chinese Shenyang J-11 all descend from the Su-27 design, although their missions, avionics and structures differ substantially.",
             "refs": [
-              "fn-wikidata"
+              "fn-airforce-tech",
+              "fn-wiki"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Milipedia treats performance values as representative because published data differs by Su-27S, Su-27P, Su-27SK, Su-27UB and modernized Su-27SM standard. Exact range, weapons and radar claims should be checked against a specific variant and operator.",
             "refs": [
               "fn-method"
             ]
@@ -35038,51 +35115,71 @@
         ],
         "cards": [
           {
-            "title": "Primary role",
-            "text": "Air superiority fighter"
+            "title": "Role",
+            "text": "Long-range air-superiority fighter"
           },
           {
-            "title": "Designer or builder",
-            "text": "Sukhoi"
+            "title": "NATO reporting name",
+            "text": "Flanker"
           },
           {
-            "title": "Major origin",
-            "text": "Soviet Union"
+            "title": "Powerplant",
+            "text": "Two AL-31F afterburning turbofans"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Family importance",
+            "text": "Basis for Su-30, Su-33, Su-34, Su-35 and Shenyang J-11"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-27 first flew in 1977. Introduction date: 1985. Era: Modern.",
+            "text": "The Su-27 originated in the Soviet PFI heavy-fighter effort after the Soviet Union assessed the U.S. F-X/F-15 program. Sukhoi pursued the heavy, long-range element while Mikoyan developed the lighter MiG-29 counterpart. The requirement emphasized range, agility, Mach 2-class speed, heavy missile armament and the ability to defend large Soviet airspace.",
             "refs": [
-              "fn-main"
+              "fn-wiki"
             ]
           },
           {
-            "text": "Producer: Sukhoi. Development context: air superiority fighter, jet propulsion, supersonic speed category, Modern era.",
+            "text": "The first T-10 prototype flew on 20 May 1977, but the early configuration was not satisfactory. Sukhoi redesigned the aircraft extensively into the T-10S standard, producing the familiar Flanker layout with a large blended wing-body, twin tail booms, widely spaced engine nacelles and a powerful radar/weapons system.",
             "refs": [
-              "fn-wikidata"
+              "fn-wiki",
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "Production began in the early 1980s and service introduction followed in 1985. The baseline Su-27S/Su-27P focused on air superiority and interception, while the Su-27UB provided a two-seat combat-trainer airframe that retained much of the type's operational capability.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-nmusaf"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "1969-era Soviet response to emerging U.S. fourth-generation fighters shaped the PFI requirement.",
             "refs": [
-              "fn-method"
+              "fn-wiki"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "20 May 1977: T-10 prototype first flight.",
             "refs": [
-              "fn-method"
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Early 1980s: production and service introduction of the redesigned Su-27/T-10S standard.",
+            "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "Post-Soviet period: export Su-27SK/UBK aircraft and Russian Su-27SM upgrades extended the baseline family.",
+            "refs": [
+              "fn-airforce-tech"
             ]
           }
         ]
@@ -35092,183 +35189,96 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The Su-27 airframe uses a large wing blended into the fuselage, leading-edge root extensions, twin vertical tails and separated engine nacelles. The broad center body contributes lift and provides room for fuel, avionics and weapons between the engine bays. Airforce Technology describes titanium and high-strength aluminium alloy construction and a semi-monocoque forward fuselage containing the cockpit, radar and avionics bays.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Standard Su-27/Su-27SK aircraft use two AL-31F afterburning turbofans. The widely spaced inlets and high thrust give the aircraft strong acceleration and sustained maneuvering performance, while the large internal fuel fraction supports long-range escort, interception and air-defense patrols.",
             "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "The cockpit and flight-control layout were designed for high-maneuverability air combat rather than stealth. Later Su-27SM-family upgrades added glass-cockpit displays, improved navigation/attack systems and wider precision-weapon compatibility, but the baseline aircraft remains visibly a fourth-generation non-stealth fighter.",
+            "refs": [
+              "fn-airforce-tech",
               "fn-method"
-            ]
-          },
-          {
-            "text": "Sukhoi Su-27 uses jet propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
         "cards": [
           {
+            "title": "Airframe",
+            "text": "Large blended wing-body with twin fins and separated nacelles"
+          },
+          {
             "title": "Crew",
-            "text": "1"
+            "text": "One pilot; two in Su-27UB"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Engines",
+            "text": "2 × AL-31F afterburning turbofans"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
-          },
-          {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Hardpoints",
+            "text": "Ten external stations"
           },
           {
             "title": "Stealth",
-            "text": "No"
+            "text": "No; agility/range/weapon load were primary design drivers"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "weapons-avionics",
+        "title": "Avionics and Weapons Systems",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-27 status: Active. Conflict entries: 1.",
+            "text": "Baseline fire-control equipment combines the N001 pulse-Doppler radar with an electro-optical/infrared search-and-track system, laser rangefinder and helmet-mounted sighting for close air combat. Airforce Technology describes look-down/shoot-down radar capability, track-while-scan functions and cooperative command/data links for ground-controlled interception.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Conflicts: Russo-Ukrainian War.",
+            "text": "Typical air-to-air weapons include the GSh-30-1 30 mm cannon, R-27 medium-range missiles and R-73 short-range missiles. Export and upgraded aircraft may add different missile models and air-to-surface stores, but compatibility depends on the radar, pylons, software and national modernization package.",
             "refs": [
+              "fn-airforce-tech",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Defensive equipment includes radar-warning, chaff/flare dispensing and electronic countermeasure provisions. Some aircraft use wingtip jammer pods or national electronic-warfare updates, so equipment fits should not be generalized across all operators.",
+            "refs": [
+              "fn-airforce-tech",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Russo-Ukrainian War: Sukhoi Su-27 used in Russo-Ukrainian War.",
+            "text": "Gun: GSh-30-1 30 mm cannon, commonly listed with 150 rounds.",
             "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Sukhoi Su-27 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Named individual aircraft listed: 0.",
+            "text": "Representative air-to-air missiles: R-27/AA-10 Alamo and R-73/AA-11 Archer.",
             "refs": [
-              "fn-method"
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Notable incidents listed: 0.",
+            "text": "Air-to-ground stores on compatible aircraft: unguided bombs, rockets and selected guided or precision weapons on upgrades.",
             "refs": [
-              "fn-method"
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Loss claims listed: 0.",
+            "text": "Sensors: N001 radar plus IRST/laser rangefinder and helmet sight on baseline aircraft.",
             "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "variants",
-        "title": "Variants",
-        "paragraphs": [
-          {
-            "text": "Sukhoi Su-27 variant-family entries: 3. Variant families: Sukhoi Su-27 baseline production model; Sukhoi Su-27 upgraded avionics or weapons-capable model; Sukhoi Su-27 export or locally modernized model.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Sukhoi Su-27 baseline production model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Sukhoi Su-27 upgraded avionics or weapons-capable model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Sukhoi Su-27 export or locally modernized model",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "operators",
-        "title": "Operators",
-        "paragraphs": [
-          {
-            "text": "Designer or builder countries: Soviet Union. Sukhoi Su-27 has 1 designer or builder country entry.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "All operators status: 0 operator entries listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Major designer or builder entries: Soviet Union.",
-            "refs": [
-              "fn-wikidata"
+              "fn-airforce-tech"
             ]
           }
         ]
@@ -35278,13 +35288,214 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Supersonic, first flight 1977, introduction 1985.",
+            "text": "Representative Su-27/Su-27SK figures include a length of about 21.94 m, wingspan of about 14.7 m and height of about 5.91 m. These values match the general single-seat Flanker configuration and should not be blindly copied to every derivative.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Commonly cited performance includes about Mach 2.35 maximum speed at altitude, approximately 3,530 km maximum/ferry range, around 18,500 m service ceiling and roughly 300 m/s initial climb rate. Mission radius is lower and depends heavily on altitude profile, weapons and external tanks.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-wiki",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The Su-27UB trainer has two seats and a modified forward fuselage, while later Su-30, Su-33, Su-34 and Su-35 aircraft are derivative designs rather than simple specification variants.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-wiki"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Length",
+            "text": "21.94 m"
+          },
+          {
+            "title": "Wingspan",
+            "text": "14.7 m"
+          },
+          {
+            "title": "Height",
+            "text": "5.91 m"
+          },
+          {
+            "title": "Maximum speed",
+            "text": "About Mach 2.35 / 2,500 km/h at altitude"
+          },
+          {
+            "title": "Range",
+            "text": "About 3,530 km maximum/ferry range, variant-dependent"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "About 18,500 m / 59,000-62,500 ft, source-dependent"
+          },
+          {
+            "title": "Powerplant",
+            "text": "2 × AL-31F afterburning turbofans"
+          },
+          {
+            "title": "Armament stations",
+            "text": "10 hardpoints plus internal 30 mm cannon"
+          }
+        ]
+      },
+      {
+        "id": "variants",
+        "title": "Variants and Derivatives",
+        "paragraphs": [
+          {
+            "text": "The baseline family includes the single-seat Su-27S and air-defense Su-27P, the export Su-27SK, and the two-seat Su-27UB/UBK trainer. Russia later modernized aircraft as Su-27SM/SM2/SM3 with improved avionics and wider weapons compatibility.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "The broader Flanker family includes aircraft that are often related but should not be treated as mere Su-27 subvariants: Su-30 multirole fighters, Su-33 carrier fighters, Su-34 strike aircraft, Su-35 advanced fighters and China's Shenyang J-11 line.",
+            "refs": [
+              "fn-wiki",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "T-10 / T-10S: prototype and redesigned pre-production lineage.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Su-27S / Su-27P: primary single-seat production and interceptor standards.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Su-27UB / Su-27UBK: two-seat combat trainer and export trainer.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Su-27SK / Su-27SKM: export and improved export standards discussed in open sources.",
+            "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "Su-27SM family: Russian modernization with improved cockpit, avionics and weapons integration.",
+            "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "Major derivatives: Su-30, Su-33, Su-34, Su-35 and Shenyang J-11.",
+            "refs": [
+              "fn-wiki"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operators",
+        "title": "Operators",
+        "paragraphs": [
+          {
+            "text": "The Soviet Air Forces introduced the Su-27, and Russia inherited the largest successor fleet. Russian aircraft have been modernized through Su-27SM-family programs and increasingly supplemented by Su-30SM and Su-35S aircraft.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Ukraine inherited Su-27s after independence and continued to operate them for air defense and training. China bought Su-27SK/UBK aircraft and developed the Shenyang J-11 family, linking the Flanker design to one of the largest non-Russian derivative fleets.",
+            "refs": [
+              "fn-wiki",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Other users have included Belarus, Kazakhstan, Uzbekistan, Vietnam, Indonesia and additional operators depending date and source. This page lists representative users rather than a complete current order of battle.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Soviet Union / Russia: original and main operator; many aircraft later modernized or replaced by newer Flanker derivatives.",
+            "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "Ukraine: inherited and operated Su-27/Su-27UB aircraft after the Soviet breakup.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "China: imported Su-27s and developed the Shenyang J-11 line.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Export/post-Soviet users: Belarus, Kazakhstan, Uzbekistan, Vietnam, Indonesia and others by period.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "The Su-27 was designed primarily for air superiority, long-range interception and escort of Soviet strike/bomber forces. Its large fuel capacity and heavy missile load made it better suited to wide-area air-defense coverage than short-legged tactical fighters.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "After the Cold War, Su-27s became prominent in air policing, interceptions, exercises, demonstration flying and export service. The type's high agility made it a frequent airshow aircraft, while its size and operating cost limited how many operators could sustain large fleets.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Su-27-family aircraft have been reported in the Russo-Ukrainian War and other regional incidents, but individual combat claims and loss counts are contested and change over time. This entry avoids unsupported claim-by-claim accounting.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Cold War role: long-range air defense, fighter escort and interception of high-value aircraft.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Post-Soviet role: national air-defense patrols, training, exercises and demonstrations.",
+            "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "Modern conflict reporting should be checked against dated official or well-corroborated sources before adding specific claims.",
             "refs": [
               "fn-method"
             ]
@@ -35292,11 +35503,170 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "comparison",
+        "title": "Comparison",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-27 similar-development links: 4.",
+            "text": "Compared with the F-15 Eagle, the Su-27 pursued a similar heavy air-superiority mission but with Soviet design solutions: a large blended lifting body, IRST/helmet-sight close-combat emphasis and compatibility with Soviet long-range missiles. Compared with the MiG-29, it is larger, longer-ranged and more suited to strategic air-defense tasks.",
+            "refs": [
+              "fn-wiki",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Within the Flanker family, the Su-27 is best understood as the baseline air-superiority aircraft. The Su-30 adds two-seat multirole depth, the Su-33 adapts the design for carriers, the Su-34 becomes a strike aircraft, and the Su-35 adds a much newer sensor/engine/avionics package.",
+            "refs": [
+              "fn-wiki"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Closest Western peer",
+            "text": "F-15 Eagle heavy air-superiority fighter"
+          },
+          {
+            "title": "Soviet complement",
+            "text": "MiG-29 lighter tactical fighter"
+          },
+          {
+            "title": "Family successors",
+            "text": "Su-30, Su-33, Su-34, Su-35, J-11"
+          },
+          {
+            "title": "Main identity",
+            "text": "Range, missile load and agility rather than stealth"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The Su-27's strengths are long range, high speed, high-angle-of-attack maneuverability, heavy air-to-air missile carriage and a large growth airframe that supported many later derivatives. The baseline design also integrated IRST and helmet-cued short-range missile employment at a time when close-combat agility remained a central design objective.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Limitations include a large radar and infrared signature, demanding maintenance and fuel needs, dated baseline avionics compared with modern AESA-equipped fighters, and wide differences among national upgrade standards. Modern effectiveness depends heavily on sensors, missiles, training, support and electronic warfare environment.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: excellent range and fuel fraction for a tactical fighter.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Strength: large airframe with growth potential for later Flanker derivatives.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Limitation: non-stealth fourth-generation signature and older baseline radar.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: published performance and weapon claims are variant-dependent and sometimes inconsistent.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "Key milestones are presented as broad program markers because production blocks, upgrades and export deliveries differ by operator.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Late 1960s-early 1970s: Soviet PFI requirement develops after assessment of Western fourth-generation fighters.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "20 May 1977: T-10 prototype first flight.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Early 1980s: production-standard Su-27/T-10S configuration reaches production.",
+            "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "1985: Su-27 enters Soviet service according to common published summaries.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "1990s: export Su-27SK/UBK aircraft and post-Soviet inheritance spread the type beyond Russia.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "2000s: Russian Su-27SM modernization and international Flanker derivatives continue the family.",
+            "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "2020s: baseline Su-27s remain in some fleets but are increasingly supplemented or replaced by newer Flanker-family aircraft.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Airforce Technology supplied most technical descriptions for dimensions, engines, sensors, weapons and broad operator/development context. The National Museum of the U.S. Air Force page was used for Su-27UB museum and trainer context. Wikipedia was used only as a supplementary orientation source for dates and family relationships.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-nmusaf",
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Omitted or caveated facts include exact active inventories, exact combat losses, variant-specific radar/missile combinations, and whether later weapons apply to baseline aircraft. Those claims require date-specific, operator-specific sources.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages include Western peers, Soviet complements and later Flanker derivatives.",
             "refs": [
               "fn-method"
             ]
@@ -35308,16 +35678,24 @@
             "url": "aircraft.html?id=f-15-eagle"
           },
           {
-            "label": "General Dynamics F-16 Fighting Falcon",
-            "url": "aircraft.html?id=f-16-fighting-falcon"
+            "label": "Grumman F-14 Tomcat",
+            "url": "aircraft.html?id=f-14-tomcat"
           },
           {
-            "label": "McDonnell Douglas F/A-18 Hornet",
-            "url": "aircraft.html?id=f-a-18-hornet"
+            "label": "Mikoyan MiG-29",
+            "url": "aircraft.html?id=mig-29"
           },
           {
-            "label": "Boeing F/A-18E/F Super Hornet",
-            "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+            "label": "Sukhoi Su-30",
+            "url": "aircraft.html?id=su-30"
+          },
+          {
+            "label": "Sukhoi Su-35",
+            "url": "aircraft.html?id=su-35"
+          },
+          {
+            "label": "Shenyang J-11",
+            "url": "aircraft.html?id=shenyang-j-11"
           }
         ]
       }
