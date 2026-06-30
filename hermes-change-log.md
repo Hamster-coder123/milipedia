@@ -471,3 +471,80 @@ Record the result of:
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * Mi-26 active fleet totals, export inventory status, combat loss details, and exact operator-by-operator serviceability vary by date and source, so the page uses representative operator categories and cautious wording rather than fixed current inventory tables.
 * Some performance figures are specifically sourced to Mi-26T2 reporting; the page labels them as representative rather than universal to every Mi-26 variant.
+
+### Run 7 — 2026-06-30 02:04:09 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Xi'an Y-20 Kunpeng (id: xian-y-20)
+* Reason selected: The Y-20 entry was the sparsest unedited aircraft record found in the comparison pass, with no real operators, no variants, no external article sources, missing payload/range/engine/tanker context, and generic generated sections far below the F-16 reference density.
+* Previous condition: Placeholder-like generated entry with 15 exact fact fields, 0 operator entries, 0 variant entries, 0 external article sources, no Y-20B/YY-20 coverage, no strategic-airlift mission history, sparse specifications, and only generic overview/development/design/service text.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview lead; article-section order covering overview, development, design, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, sources, and related pages; short sourced paragraphs; card-style key facts; specification emphasis within the JSON renderer; cautious public-source caveats; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the Y-20 entry in data/aircraft.json into a fuller Milipedia article data record while preserving the existing JSON-rendered aircraft-page structure.
+* Updated top-level facts for name, alternative names, manufacturer/AVIC lineage, role, aircraft type, first flight, service entry, active/in-production status, crew, engine family, speed class, range, ceiling, armament, hardpoints/cargo-ramp wording, development history, service history, summary, variants, operators, related aircraft, and article-quality counts.
+* Replaced generic transport placeholders with Y-20-specific heavy strategic airlift language covering personnel, heavy equipment, pallets, relief supplies, rear-ramp loading, air mobility, humanitarian response, and tanker derivatives.
+* Added official/reference sources from the PRC Ministry of National Defense / China Military Online and Xinhua, plus Airforce Technology for public technical overview; retained Wikipedia only as supplementary orientation and kept the Milipedia accuracy-rules source.
+* Added/expanded sections for Overview, Development History, Design and Capabilities, Specifications, Variants and Modernization, Operators, Operational History, Comparison and Role Context, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added public technical details for three-person crew, approximately 200-220 tonne maximum takeoff weight range, about 66 tonne payload, high-wing/T-tail/rear-ramp layout, early D-30KP-2-class engines, WS-20-powered Y-20B reporting, and unarmed cargo/tanker mission equipment.
+* Added variant coverage for baseline Y-20, Y-20B, YY-20 / Y-20U tanker, and unconfirmed special-mission concepts with cautionary wording.
+* Added operator coverage for the People's Liberation Army Air Force and PLA Air Force tanker units while avoiding unsourced export-operator or fixed current-inventory claims.
+* Added operational-history context for July 2016 commissioning, COVID-19 medical/supply transport, overseas pandemic-supply flights, Moscow honor-guard transport, Caucasus-2020 exercise transport, Shenzhou-12 logistics, and SCO Peace Mission 2021.
+* Added comparison context against the existing C-17 Globemaster III, C-5 Galaxy, Il-76, and An-22 pages.
+* Omitted exact current fleet totals, exact unit assignments, firm export claims, and unconfirmed special-mission variants because public data varies by source/date or needs more specific verification.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Xi'an Y-20 Kunpeng aircraft page data and sources.
+* hermes-change-log.md — Appended the cumulative Run 7 log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed diff/stat; data/aircraft.json changes are limited to the Y-20 entry, and hermes-change-log.md adds this Run 7 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed Y-20 sections, sources, footnotes/external articles, article quality fields, variants/operators, and unarmed transport/tanker wording.
+4. F-16 style comparison — Inspected data/f16-template.html and copied its dense lead, section order, sourced paragraphs, specification emphasis, variants/operators/service/comparison/timeline coverage, source notes, and related-page patterns within the JSON article system.
+5. Internal link check — Verified aircraft.html?id=c-17-globemaster-iii, aircraft.html?id=c-5-galaxy, aircraft.html?id=il-76, and aircraft.html?id=an-22 target existing aircraft ids in data/aircraft.json.
+6. Secret/token check — Ran credential-specific scan over the staged diff for API keys, tokens, passwords, private keys, GitHub tokens, and AWS credentials; no credentials were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, diff check, intended files only, Y-20 was not previously edited by Hermes, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Xi'an Y-20 Kunpeng
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* Y-20 current fleet totals, exact unit assignments, detailed engine-fit distribution, export status, and special-mission derivative status vary by source/date, so the page uses cautious wording rather than fixed current inventory or variant tables.
+* Some public technical values differ between Ministry of National Defense wording and aviation-reference data; the page records approximate ranges and source caveats rather than forcing one exact figure.

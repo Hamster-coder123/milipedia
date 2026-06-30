@@ -54203,35 +54203,68 @@
   },
   {
     "id": "xian-y-20",
-    "name": "Xi'an Y-20",
-    "alternative_names": [],
+    "name": "Xi'an Y-20 Kunpeng",
+    "alternative_names": [
+      "Y-20",
+      "Y-20 Kunpeng",
+      "Yun-20",
+      "Chubby Girl"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "China",
-    "manufacturer": "Xi'an Aircraft Industrial Corporation",
-    "role": "Strategic airlifter",
-    "aircraft_type": "Transport aircraft",
+    "manufacturer": "Xi'an Aircraft Industrial Corporation / AVIC",
+    "role": "Heavy strategic airlifter",
+    "aircraft_type": "Military transport aircraft",
     "era": "Modern",
-    "first_flight": "2013",
-    "introduction_date": "2016",
-    "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
+    "first_flight": "26 January 2013",
+    "introduction_date": "6 July 2016",
+    "retirement_date": "Not applicable",
+    "status": "Active / in production",
+    "number_built": "Not fixed in this page; public counts vary by date and source",
     "crew": "3",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engine_type": "High-bypass turbofan",
+    "engines": "Four Soloviev D-30KP-2 turbofans on early aircraft; newer Y-20B aircraft use WS-20 turbofans according to public reporting",
+    "max_speed": "Subsonic; about 830 km/h class in public reference data",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Support aircraft; fixed offensive armament not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Xi'an Y-20: Strategic airlifter. Manufacturer: Xi'an Aircraft Industrial Corporation. First flight: 2013. Introduction: 2016.",
-    "short_summary": "Xi'an Y-20: Strategic airlifter. Origin: China. Manufacturer: Xi'an Aircraft Industrial Corporation. First flight: 2013. Introduction: 2016. Status: Active.",
+    "range": "About 7,800 km with representative heavy loads in public reference data; varies by payload and engine fit",
+    "combat_range": "Mission-dependent strategic airlift radius; not published as a single official combat radius",
+    "service_ceiling": "About 13,000 m class in public reference data; varies by payload and source",
+    "rate_of_climb": "Not publicly standardized",
+    "armament": "Unarmed heavy transport; carries cargo, troops, vehicles, pallets, relief supplies, or tanker equipment in the YY-20 family rather than fixed offensive weapons.",
+    "hardpoints": "Rear cargo ramp and internal cargo handling system; tanker variants add refueling pods/equipment rather than weapon hardpoints.",
+    "variants": [
+      {
+        "name": "Y-20A / baseline Y-20",
+        "description": "Baseline PLA Air Force heavy transport aircraft, originally associated in public sources with four D-30KP-2 turbofan engines and a rear-ramp cargo system for personnel, pallets, vehicles, and heavy equipment."
+      },
+      {
+        "name": "Y-20B",
+        "description": "Re-engined transport variant reported in public sources with four domestic WS-20 high-bypass turbofans, intended to improve range, payload, and fuel efficiency compared with earlier D-30-powered aircraft."
+      },
+      {
+        "name": "YY-20 / Y-20U tanker",
+        "description": "Aerial refueling derivative based on the Y-20 airframe, publicly observed and reported in PLA Air Force service to expand long-range refueling capacity beyond older tanker types."
+      },
+      {
+        "name": "Special-mission concepts",
+        "description": "Public aviation references discuss possible AEW&C, ASW, or other mission-system derivatives, but this page treats them as concepts unless separately verified as operational aircraft."
+      }
+    ],
+    "operators": [
+      {
+        "country": "China",
+        "service": "People's Liberation Army Air Force",
+        "notes": "Primary and confirmed operator; first aircraft were officially delivered to the PLA Air Force on 6 July 2016."
+      },
+      {
+        "country": "China",
+        "service": "PLA Air Force tanker units",
+        "notes": "YY-20/Y-20U tanker aircraft are publicly reported in PLA Air Force service; exact unit assignments and inventory totals are not fixed here because they vary by dated source."
+      }
+    ],
+    "combat_history": "Used by the PLA Air Force for strategic airlift, exercises, pandemic response, humanitarian relief, repatriation flights, and overseas transport missions rather than combat strike operations.",
+    "development_history": "The Y-20 Kunpeng was developed by Xi'an Aircraft Industrial Corporation under AVIC to give China an indigenous heavy airlifter. It first flew in January 2013 and entered PLA Air Force service on 6 July 2016.",
+    "short_summary": "Xi'an Y-20 Kunpeng is a Chinese heavy strategic airlifter built by Xi'an Aircraft Industrial Corporation / AVIC for the PLA Air Force. It first flew in January 2013, entered service on 6 July 2016, and gives China a domestically produced aircraft for moving personnel, heavy equipment, relief supplies, and specialized tanker or support payloads over long distances.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -54244,18 +54277,32 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
-        "title": "Xi'an Y-20",
-        "url": "https://en.wikipedia.org/wiki/Xi'an_Y-20",
-        "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "id": "fn-mod-commissioning",
+        "title": "5th anniversary of the commissioning of Y-20 transport aircraft",
+        "url": "http://eng.mod.gov.cn/xb/News_213114/TopStories/4888800.html",
+        "publisher": "Ministry of National Defense of the PRC / China Military Online",
+        "note": "Used for official commissioning date, mission-use examples, and strategic-projection context."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "id": "fn-mod-peace-mission",
+        "title": "China's Y-20 heavy transport aircraft debuts at SCO Peace Mission 2021",
+        "url": "http://eng.mod.gov.cn/xb/News_213114/TopStories/4894686.html",
+        "publisher": "Ministry of National Defense of the PRC / Xinhua",
+        "note": "Used for maiden-flight/service-date confirmation, Kunpeng codename, AVIC manufacture statement, and approximately 200-ton maximum takeoff weight."
+      },
+      {
+        "id": "fn-airforce-technology",
+        "title": "Xian Y-20 Heavy Military Transport Aircraft",
+        "url": "https://www.airforce-technology.com/projects/xian-y-20-heavy-military-transport-aircraft",
+        "publisher": "Airforce Technology",
+        "note": "Used for public technical overview, crew, manufacturer, payload, maximum takeoff weight, cargo-ramp layout, landing gear, and early D-30 / later WS-20 engine context."
+      },
+      {
+        "id": "fn-wikipedia",
+        "title": "Xi'an Y-20",
+        "url": "https://en.wikipedia.org/wiki/Xi%27an_Y-20",
+        "publisher": "Wikipedia",
+        "note": "Supplementary orientation only for variant names, public timeline, and relationship checks; official and aviation-reference sources are preferred above."
       },
       {
         "id": "fn-method",
@@ -54272,159 +54319,191 @@
       }
     ],
     "designers": [
-      "Xi'an Aircraft Industrial Corporation"
+      "Xi'an Aircraft Industrial Corporation",
+      "Aviation Industry Corporation of China (AVIC)"
     ],
     "development_tensions": [
-      "Balancing payload, short-field performance, reliability, strategic reach, and rough-field operation."
+      "Balancing heavy payload, strategic range, short/rough-field performance, domestic engine availability, and rapid production scaling.",
+      "Early aircraft relied on D-30KP-2-class engines while later public reporting emphasizes the WS-20-powered Y-20B as a major performance and industrial upgrade.",
+      "Public data for range, payload, fleet size, and variant status changes quickly, so this page avoids fixed current inventory claims unless dated."
     ],
-    "wars_used_in": [],
+    "wars_used_in": [
+      {
+        "name": "COVID-19 pandemic response",
+        "role": "Transported military medical personnel and relief supplies inside China and delivered pandemic-control supplies abroad.",
+        "period": "2020"
+      },
+      {
+        "name": "SCO Peace Mission 2021",
+        "role": "Deployed to Russia for the Shanghai Cooperation Organization counter-terrorism exercise.",
+        "period": "2021"
+      },
+      {
+        "name": "Humanitarian and repatriation missions",
+        "role": "Used for relief-supply flights, disaster response, and repatriation or ceremonial transport missions reported by Chinese official sources.",
+        "period": "2020s"
+      }
+    ],
     "variant_families": [
-      "Xi'an Y-20 baseline production model",
-      "Xi'an Y-20 upgraded avionics or weapons-capable model",
-      "Xi'an Y-20 cargo, special mission, or aerial support model"
+      "Y-20 baseline transport",
+      "Y-20B WS-20-powered transport",
+      "YY-20 / Y-20U tanker",
+      "Potential special-mission derivatives"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "China"
       ],
-      "major_user_note": "Xi'an Y-20 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The People's Liberation Army Air Force is the confirmed Y-20 operator, with transport and tanker derivatives reported in service.",
+      "all_operators_status": "No export operator was added in this run; public pages used here support Chinese PLA Air Force operation rather than confirmed foreign service."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "Two domestically made Y-20 aircraft were officially delivered to the PLA Air Force on 6 July 2016.",
+        "Y-20 aircraft supported the February 2020 Wuhan medical transport mission and later international pandemic-supply flights.",
+        "Y-20 aircraft deployed to Russia for SCO Peace Mission 2021."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "No accident-by-accident history was added in this run; public official sources used here focus on commissioning, missions, and strategic airlift roles."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Xi'an Y-20 uses jet propulsion."
+      "type": "High-bypass turbofan",
+      "summary": "Early Y-20 aircraft are publicly associated with four Soloviev D-30KP-2 turbofans. Airforce Technology and later public reporting describe the Y-20B/WS-20 path as the domestic high-bypass engine upgrade intended to improve efficiency and payload-range performance."
     },
     "armament_details": {
-      "summary": "Support aircraft; fixed offensive armament not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Unarmed heavy airlifter; mission equipment is centered on a cargo hold, rear ramp, internal handling system, paratroop/cargo delivery arrangements, and tanker equipment on YY-20 variants.",
+      "caution": "Do not list guns, missiles, or fighter-style external stores for the Y-20 unless a separately sourced special modification is documented."
     },
     "similar_development": [
-      {
-        "id": "c-130-hercules",
-        "name": "Lockheed C-130 Hercules",
-        "url": "aircraft.html?id=c-130-hercules"
-      },
-      {
-        "id": "c-5-galaxy",
-        "name": "Lockheed C-5 Galaxy",
-        "url": "aircraft.html?id=c-5-galaxy"
-      },
       {
         "id": "c-17-globemaster-iii",
         "name": "Boeing C-17 Globemaster III",
         "url": "aircraft.html?id=c-17-globemaster-iii"
       },
       {
+        "id": "c-5-galaxy",
+        "name": "Lockheed C-5 Galaxy / C-5M Super Galaxy",
+        "url": "aircraft.html?id=c-5-galaxy"
+      },
+      {
         "id": "il-76",
         "name": "Ilyushin Il-76",
         "url": "aircraft.html?id=il-76"
+      },
+      {
+        "id": "an-22",
+        "name": "Antonov An-22",
+        "url": "aircraft.html?id=an-22"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 29,
+      "operator_entries": 2,
+      "variant_entries": 4,
+      "external_article_sources": 3
     },
-    "footnotes": [
+    "footnotes": [],
+    "external_articles": [
       {
-        "id": "fn-main",
-        "title": "Xi'an Y-20",
-        "url": "https://en.wikipedia.org/wiki/Xi'an_Y-20",
-        "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "title": "5th anniversary of the commissioning of Y-20 transport aircraft",
+        "url": "http://eng.mod.gov.cn/xb/News_213114/TopStories/4888800.html",
+        "publisher": "Ministry of National Defense of the PRC"
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "title": "China's Y-20 heavy transport aircraft debuts at SCO Peace Mission 2021",
+        "url": "http://eng.mod.gov.cn/xb/News_213114/TopStories/4894686.html",
+        "publisher": "Ministry of National Defense of the PRC"
       },
       {
-        "id": "fn-method",
-        "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
-        "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "title": "Xian Y-20 Heavy Military Transport Aircraft",
+        "url": "https://www.airforce-technology.com/projects/xian-y-20-heavy-military-transport-aircraft",
+        "publisher": "Airforce Technology"
       }
     ],
-    "external_articles": [],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Xi'an Y-20 is a Strategic airlifter from China. Manufacturer: Xi'an Aircraft Industrial Corporation. First flight: 2013. Introduction: 2016. Status: Active.",
+            "text": "The Xi'an Y-20 Kunpeng is a Chinese four-engine heavy strategic airlifter built by Xi'an Aircraft Industrial Corporation under AVIC for the People's Liberation Army Air Force.",
             "refs": [
-              "fn-main"
+              "fn-mod-peace-mission",
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Xi'an Y-20 is a transport aircraft. Primary role: strategic airlifter. Country of origin: China. Manufacturer: Xi'an Aircraft Industrial Corporation.",
+            "text": "The aircraft fills a strategic mobility role: moving personnel, heavy equipment, cargo pallets, relief supplies, and specialized support payloads over long distances from a domestically produced airframe.",
             "refs": [
-              "fn-wikidata"
+              "fn-mod-commissioning",
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "It is not a combat aircraft in the fighter or bomber sense. Its military value comes from payload, range, rear-ramp cargo handling, air mobility, humanitarian response, and the YY-20 tanker family rather than fixed offensive weapons.",
             "refs": [
-              "fn-method"
+              "fn-method",
+              "fn-mod-commissioning"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Strategic airlifter"
+            "text": "Heavy strategic airlift and long-range military logistics"
           },
           {
-            "title": "Designer or builder",
-            "text": "Xi'an Aircraft Industrial Corporation"
+            "title": "First flight",
+            "text": "January 2013; official sources describe service entry on 6 July 2016"
           },
           {
-            "title": "Major origin",
-            "text": "China"
+            "title": "Payload class",
+            "text": "About 66 tonnes maximum payload in public aviation-reference data"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Powerplant path",
+            "text": "D-30KP-2 on early aircraft; WS-20-powered Y-20B reported as the domestic engine upgrade"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Xi'an Y-20 first flew in 2013. Introduction date: 2016. Era: Modern.",
+            "text": "The Y-20 was developed as China's first indigenous heavy military transport aircraft, with Xi'an Aircraft Industry Group selected as the manufacturer within AVIC.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Producer: Xi'an Aircraft Industrial Corporation. Development context: strategic airlifter, jet propulsion, subsonic speed category, Modern era.",
+            "text": "The first prototype made its maiden flight in January 2013 at Shaanxi Yanliang Aviation Base, and the aircraft appeared publicly at Airshow China 2014 before entering PLA Air Force service in July 2016.",
             "refs": [
-              "fn-wikidata"
+              "fn-airforce-technology",
+              "fn-mod-peace-mission"
+            ]
+          },
+          {
+            "text": "Chinese official coverage frames the Y-20 as a step change in strategic projection, emergency response, and domestic large-aircraft industrial capability.",
+            "refs": [
+              "fn-mod-commissioning"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing payload, short-field performance, reliability, strategic reach, and rough-field operation.",
+            "text": "Program driver: reduce dependence on imported heavy airlifters and expand national strategic-airlift capacity.",
             "refs": [
-              "fn-method"
+              "fn-airforce-technology",
+              "fn-mod-commissioning"
+            ]
+          },
+          {
+            "text": "Engine evolution: public sources describe early D-30KP-2-powered aircraft and later WS-20-powered Y-20B aircraft as a major modernization path.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-wikipedia"
             ]
           }
         ]
@@ -54434,27 +54513,66 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 3. Propulsion: Jet. Speed category: Subsonic.",
+            "text": "The Y-20 uses the familiar heavy-airlifter arrangement of a high-mounted wing, T-tail, four underwing turbofans, robust landing gear, a wide/deep fuselage, and a rear cargo loading assembly.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Airforce Technology describes a three-person glass cockpit, large rear ramp, triple-slotted trailing-edge flaps, heavy-duty multi-wheel main landing gear, and the ability to operate in adverse weather and from smaller or rougher airfields.",
             "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "Its cargo role includes personnel, heavy equipment, and humanitarian supplies; public sources also discuss derivatives for aerial refueling and other special missions, but this page separates confirmed service roles from concepts.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-mod-commissioning"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Airframe layout",
+            "text": "High-wing, T-tail, rear-ramp heavy transport"
+          },
+          {
+            "title": "Cargo system",
+            "text": "Rear cargo-loading assembly for large cargo and equipment"
+          },
+          {
+            "title": "Landing gear",
+            "text": "Heavy-duty retractable gear with six wheels on each main unit in public descriptions"
+          },
+          {
+            "title": "Crew interface",
+            "text": "Three-crew glass cockpit in Airforce Technology description"
+          }
+        ]
+      },
+      {
+        "id": "specifications",
+        "title": "Specifications",
+        "paragraphs": [
+          {
+            "text": "Public Y-20 specifications vary by source, variant, and engine fit. Airforce Technology lists a crew of three, approximately 220 tonnes maximum takeoff weight, and 66 tonnes maximum payload.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "Chinese Ministry of National Defense coverage describes the Y-20 as a large transport aircraft with around 200 tonnes takeoff weight; this page treats 200-220 tonnes as a public-source range rather than forcing one exact figure.",
+            "refs": [
+              "fn-mod-peace-mission",
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "Dimensions are also reported inconsistently in open sources. Airforce Technology gives an 18 m height, 50 m wingspan, and a 44-47 m length range, so detailed dimensional values should be reviewed before making a fixed infobox table.",
+            "refs": [
+              "fn-airforce-technology",
               "fn-method"
-            ]
-          },
-          {
-            "text": "Xi'an Y-20 uses jet propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Support aircraft; fixed offensive armament not listed. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
@@ -54464,114 +54582,76 @@
             "text": "3"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Maximum takeoff weight",
+            "text": "Around 200-220 tonnes in public sources"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Maximum payload",
+            "text": "About 66 tonnes in Airforce Technology data"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Engines",
+            "text": "Four D-30KP-2-class turbofans on early aircraft; WS-20 on newer Y-20B public reports"
           },
           {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Xi'an Y-20 status: Active. Conflict entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Range",
+            "text": "Payload-dependent; about 7,800 km appears in public reference data for representative heavy-load transport"
           },
           {
-            "text": "Conflicts: 0 entries.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Xi'an Y-20 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Armament",
+            "text": "None; cargo and tanker equipment rather than fixed weapons"
           }
         ]
       },
       {
         "id": "variants",
-        "title": "Variants",
+        "title": "Variants and Modernization",
         "paragraphs": [
           {
-            "text": "Xi'an Y-20 variant-family entries: 3. Variant families: Xi'an Y-20 baseline production model; Xi'an Y-20 upgraded avionics or weapons-capable model; Xi'an Y-20 cargo, special mission, or aerial support model.",
+            "text": "The basic Y-20 family centers on heavy transport, but public reporting identifies both engine-upgraded transports and tanker derivatives.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Complete variant entries listed: 0.",
+            "text": "The Y-20B designation is associated in public reporting with domestic WS-20 engines, a key change because engine efficiency and thrust directly affect payload-range performance for a heavy airlifter.",
             "refs": [
+              "fn-airforce-technology",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "The YY-20 / Y-20U tanker derivative extends the airframe into aerial refueling, improving PLA Air Force long-range support options. Exact tanker inventory and unit assignment are not fixed here.",
+            "refs": [
+              "fn-wikipedia",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Xi'an Y-20 baseline production model",
+            "text": "Y-20A / baseline Y-20: primary strategic transport version.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Xi'an Y-20 upgraded avionics or weapons-capable model",
+            "text": "Y-20B: WS-20-powered transport variant in public reporting.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Xi'an Y-20 cargo, special mission, or aerial support model",
+            "text": "YY-20 / Y-20U: aerial refueling derivative.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Other mission concepts should be treated cautiously unless confirmed by dated sources.",
+            "refs": [
+              "fn-method"
             ]
           }
         ]
@@ -54581,45 +54661,141 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: China. Xi'an Y-20 has 1 designer or builder country entry.",
+            "text": "The People's Liberation Army Air Force is the confirmed operator of the Y-20 family. Chinese official sources report that two domestically made Y-20 aircraft were delivered to the PLA Air Force on 6 July 2016.",
             "refs": [
-              "fn-wikidata"
+              "fn-mod-commissioning"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "No confirmed export operator was added in this run. Public fleet-size claims change over time, so the page avoids a fixed current inventory table without a dated source set.",
             "refs": [
               "fn-method"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "title": "Primary operator",
+            "text": "People's Liberation Army Air Force"
+          },
+          {
+            "title": "First delivery",
+            "text": "Two aircraft delivered on 6 July 2016 according to Chinese official coverage"
+          },
+          {
+            "title": "Tanker operator",
+            "text": "PLA Air Force YY-20/Y-20U tanker units reported publicly"
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "Since entering service, Y-20 aircraft have been used for military transport, long-range exercises, humanitarian and pandemic-response flights, disaster relief, repatriation missions, and symbolic national missions.",
             "refs": [
-              "fn-main"
+              "fn-mod-commissioning",
+              "fn-mod-peace-mission"
             ]
           },
           {
-            "text": "Major designer or builder entries: China.",
+            "text": "In February 2020, Y-20 transports carried large numbers of military medical personnel and supplies to Wuhan during the COVID-19 response, described by Chinese official coverage as the aircraft's first large-scale non-war military transportation mission.",
             "refs": [
-              "fn-wikidata"
+              "fn-mod-commissioning"
+            ]
+          },
+          {
+            "text": "Chinese official sources also describe Y-20 flights carrying pandemic-control materials to partner countries, moving honor guard personnel to Moscow, transporting participants and equipment for exercises, and supporting Shenzhou-12 spacecraft transport logistics.",
+            "refs": [
+              "fn-mod-commissioning"
+            ]
+          },
+          {
+            "text": "For SCO Peace Mission 2021, a Y-20 deployed to Orenburg, Russia, demonstrating the aircraft in an overseas exercise-support role.",
+            "refs": [
+              "fn-mod-peace-mission"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "comparison",
+        "title": "Comparison and Role Context",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 3, propulsion type Jet, maximum speed category Subsonic, first flight 2013, introduction 2016.",
+            "text": "Within Milipedia, the Y-20 is best compared with other heavy and strategic airlifters rather than fighters or bombers. Its peers include the C-17, C-5, Il-76, and older heavy transports such as the An-22.",
             "refs": [
-              "fn-main"
+              "fn-method"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Compared with the Il-76 family, the Y-20 represents a Chinese-designed replacement/augmentation path for strategic airlift. Compared with the C-17, it occupies a similar broad mission category of heavy transport, air mobility, and expeditionary logistics, though exact performance and support ecosystems differ by source and service.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-wikipedia"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Boeing C-17 Globemaster III",
+            "url": "aircraft.html?id=c-17-globemaster-iii"
+          },
+          {
+            "label": "Lockheed C-5 Galaxy / C-5M Super Galaxy",
+            "url": "aircraft.html?id=c-5-galaxy"
+          },
+          {
+            "label": "Ilyushin Il-76",
+            "url": "aircraft.html?id=il-76"
+          },
+          {
+            "label": "Antonov An-22",
+            "url": "aircraft.html?id=an-22"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The Y-20 strengthens Chinese strategic mobility by combining a domestically produced heavy airframe with payload capacity, rear-ramp loading, and long-distance transport roles that official sources associate with emergency response and strategic projection.",
+            "refs": [
+              "fn-mod-commissioning",
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "Its limitations in open-source writing are mostly data quality issues: variant boundaries, current fleet counts, range with specified payload, and exact WS-20 service status are reported differently by source and date.",
+            "refs": [
+              "fn-method",
+              "fn-wikipedia"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: large payload class and domestic industrial base for strategic airlift.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "Strength: useful in both military logistics and humanitarian/disaster-response missions.",
+            "refs": [
+              "fn-mod-commissioning"
+            ]
+          },
+          {
+            "text": "Limitation: not a tactical gunship, bomber, or fighter; it requires airspace, escort, and logistics planning appropriate for a large transport.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: public specifications should be read as variant-specific and approximate unless tied to a dated source.",
             "refs": [
               "fn-method"
             ]
@@ -54627,11 +54803,82 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "timeline",
+        "title": "Timeline",
         "paragraphs": [
           {
-            "text": "Xi'an Y-20 similar-development links: 4.",
+            "text": "2007: Xi'an was selected as manufacturer for the Y-20 project according to Airforce Technology.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "January 2013: first Y-20 prototype made its maiden flight.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-mod-peace-mission"
+            ]
+          },
+          {
+            "text": "2014: Y-20 appeared at Airshow China in Zhuhai.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "6 July 2016: first aircraft were officially delivered to the PLA Air Force.",
+            "refs": [
+              "fn-mod-commissioning"
+            ]
+          },
+          {
+            "text": "2020: Y-20 aircraft supported major COVID-19 transport and international relief-supply missions.",
+            "refs": [
+              "fn-mod-commissioning"
+            ]
+          },
+          {
+            "text": "2021: Y-20 deployed to Russia for SCO Peace Mission 2021.",
+            "refs": [
+              "fn-mod-peace-mission"
+            ]
+          },
+          {
+            "text": "2020s: public reporting identifies WS-20-powered Y-20B and YY-20 tanker developments; exact fleet status should remain dated and source-specific.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "This update relies primarily on Chinese Ministry of National Defense English-language pages for official dates and mission examples, plus Airforce Technology for public technical layout and payload/MTOW figures.",
+            "refs": [
+              "fn-mod-commissioning",
+              "fn-mod-peace-mission",
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "Wikipedia was used only as supplementary orientation for variant labels and public timeline context. Exact inventory totals, operator unit assignments, and future special-mission variants require dated follow-up sources before they should be presented as fixed facts.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages emphasize heavy airlift and strategic mobility rather than combat aircraft roles.",
             "refs": [
               "fn-method"
             ]
@@ -54639,25 +54886,24 @@
         ],
         "links": [
           {
-            "label": "Lockheed C-130 Hercules",
-            "url": "aircraft.html?id=c-130-hercules"
-          },
-          {
-            "label": "Lockheed C-5 Galaxy",
-            "url": "aircraft.html?id=c-5-galaxy"
-          },
-          {
             "label": "Boeing C-17 Globemaster III",
             "url": "aircraft.html?id=c-17-globemaster-iii"
           },
           {
+            "label": "Lockheed C-5 Galaxy / C-5M Super Galaxy",
+            "url": "aircraft.html?id=c-5-galaxy"
+          },
+          {
             "label": "Ilyushin Il-76",
             "url": "aircraft.html?id=il-76"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }
-    ],
-    "event_gallery": []
+    ]
   },
   {
     "id": "jf-17-thunder",
