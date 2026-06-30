@@ -36187,34 +36187,77 @@
   {
     "id": "su-35",
     "name": "Sukhoi Su-35",
-    "alternative_names": [],
-    "nato_reporting_name": null,
-    "country_of_origin": "Russia",
-    "manufacturer": "Sukhoi",
-    "role": "Multirole fighter",
-    "aircraft_type": "Fighter",
+    "alternative_names": [
+      "Su-27M",
+      "Su-35S",
+      "Flanker-E",
+      "Flanker-M",
+      "Super Flanker"
+    ],
+    "nato_reporting_name": "Flanker-E / Flanker-M",
+    "country_of_origin": "Soviet Union / Russia",
+    "manufacturer": "Sukhoi / United Aircraft Corporation",
+    "role": "Air superiority and multirole fighter",
+    "aircraft_type": "fighter",
     "era": "Modern",
-    "first_flight": "2008",
-    "introduction_date": "2014",
+    "first_flight": "28 June 1988 (Su-27M); 19 February 2008 (Su-35S)",
+    "introduction_date": "February 2014",
     "retirement_date": null,
     "status": "Active",
-    "number_built": "Not listed",
+    "number_built": "Su-27M: 12; Su-35S: 155+ reported by public sources",
     "crew": "1",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "engine_type": "Afterburning turbofan with thrust vectoring",
+    "engines": "2 × Saturn/UFA AL-41F-1S afterburning turbofans",
+    "max_speed": "1,290 kt / about Mach 2.25",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
+    "range": "850–2,430 nmi depending on fuel and drop tanks",
+    "combat_range": "Not listed consistently in public sources; varies by loadout and mission profile",
+    "service_ceiling": "59,060 ft",
     "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
+    "armament": "1 × GSh-301 30 mm cannon; air-to-air missiles, air-to-surface missiles, guided bombs, unguided bombs, rockets, and external stores",
+    "hardpoints": "12 external weapons stations commonly cited for Su-35S-class aircraft",
+    "variants": [
+      {
+        "name": "Su-27M / original Su-35",
+        "note": "Canard-equipped Su-27 modernization from the late Soviet period; used for testing, demonstration, and limited early production rather than large-scale operational service."
+      },
+      {
+        "name": "Su-37",
+        "note": "Thrust-vectoring technology demonstrator derived from a Su-27M airframe and used to prove high-angle-of-attack and flight-control concepts."
+      },
+      {
+        "name": "Su-35UB",
+        "note": "Single two-seat demonstrator/trainer configuration related to late-1990s export marketing and Su-30 family cockpit arrangements."
+      },
+      {
+        "name": "Su-35S",
+        "note": "Modern production single-seat aircraft with redesigned cockpit, weapons-control system, Irbis-E radar, and AL-41F-1S thrust-vectoring engines; Russian service version."
+      },
+      {
+        "name": "Su-35 export configuration",
+        "note": "Exported or marketed configuration broadly based on the Su-35S standard; public equipment details should be verified per customer."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Russia",
+        "service": "Russian Aerospace Forces",
+        "note": "Launch customer for the modern Su-35S after a 2009 order; aircraft entered service in February 2014 and remain active."
+      },
+      {
+        "country": "China",
+        "service": "People’s Liberation Army Air Force",
+        "note": "Public sources report Chinese Su-35 deliveries as the principal confirmed export use of the modern Su-35 family."
+      },
+      {
+        "country": "Algeria",
+        "service": "Algerian Air Force",
+        "note": "Listed in public reference sources as an operator; exact inventory and delivery-status details should be treated as date-sensitive."
+      }
+    ],
     "combat_history": "Not listed",
-    "development_history": "Sukhoi Su-35: Multirole fighter. Manufacturer: Sukhoi. First flight: 2008. Introduction: 2014.",
-    "short_summary": "Sukhoi Su-35: Multirole fighter. Origin: Russia. Manufacturer: Sukhoi. First flight: 2008. Introduction: 2014. Status: Active.",
+    "development_history": "Deep modernization of the Su-27 family, first as the canard-equipped Su-27M and later as the Su-35S with modern avionics and thrust-vectoring AL-41F-1S engines.",
+    "short_summary": "Sukhoi Su-35: Russian single-seat, twin-engine, supermaneuverable air-superiority and multirole fighter derived from the Su-27. The modern Su-35S entered service in 2014 with AL-41F-1S thrust-vectoring engines, Irbis-E radar, and expanded air-to-air and strike weapons compatibility.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -36227,25 +36270,32 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-roe",
+        "title": "Su-35",
+        "url": "https://roe.ru/en/production/aerospace-forces/aircraft/multipurpose-fighters-and-fighter-bombers/su-35?theme=",
+        "publisher": "Rosoboronexport",
+        "note": "Official Russian export-catalog page confirming the Su-35 product listing; page extraction is navigation-heavy, so detailed specifications are cross-checked elsewhere."
+      },
+      {
+        "id": "fn-mitchell",
+        "title": "Su-35",
+        "url": "https://www.mitchellaerospacepower.org/weapons/su-35",
+        "publisher": "Mitchell Institute for Aerospace Studies",
+        "note": "Technical data used for active status, NATO name, contractor, IOC, dimensions, weights, engines, speed, range, ceiling, and representative weapons."
+      },
+      {
+        "id": "fn-wiki",
         "title": "Sukhoi Su-35",
         "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-35",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for development chronology, variant terminology, first-flight dates, production background, and public operator context."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
+        "note": "Local rules for neutral wording, estimate labels, variant differences, and source handling."
       }
     ],
     "country_flags": [
@@ -36268,17 +36318,13 @@
       }
     ],
     "variant_families": [
-      "Sukhoi Su-35 baseline production model",
-      "Sukhoi Su-35 upgraded avionics or weapons-capable model",
-      "Sukhoi Su-35 export or locally modernized model"
+      "Su-27M / early Su-35 demonstrator family",
+      "Su-37 thrust-vectoring technology demonstrator",
+      "Su-35UB two-seat demonstrator",
+      "Su-35S production aircraft",
+      "Su-35 export configuration"
     ],
-    "operator_summary": {
-      "major_designer_or_builder": [
-        "Russia"
-      ],
-      "major_user_note": "Sukhoi Su-35 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
-    },
+    "operator_summary": "Russian Aerospace Forces, People’s Liberation Army Air Force, and Algerian Air Force are the principal public operator entries; additional transfer and order claims require current verification.",
     "notable": {
       "notable_pilots_or_aircraft": [
         "Named pilots listed: 0.",
@@ -36289,14 +36335,8 @@
         "Loss claims listed: 0."
       ]
     },
-    "engine_details": {
-      "type": "Jet",
-      "summary": "Sukhoi Su-35 uses jet propulsion."
-    },
-    "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
-    },
+    "engine_details": "Two Saturn/UFA AL-41F-1S afterburning turbofans with thrust-vectoring nozzles on the Su-35S family.",
+    "armament_details": "Representative public weapon lists include the GSh-301 cannon, RVV/R-27/R-37-class air-to-air missiles, Kh-31/Kh-35/Kh-38/Kh-59-class air-to-surface missiles, KAB guided bombs, unguided bombs, and S-8/S-13/S-25 rockets; exact clearances vary by operator and date.",
     "similar_development": [
       {
         "id": "f-15-eagle",
@@ -36320,10 +36360,10 @@
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 34,
+      "operator_entries": 3,
+      "variant_entries": 5,
+      "external_article_sources": 2
     },
     "footnotes": [
       {
@@ -36348,26 +36388,39 @@
         "note": "Local rules for units, source citation, neutral wording, and estimate labels."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "Su-35",
+        "url": "https://roe.ru/en/production/aerospace-forces/aircraft/multipurpose-fighters-and-fighter-bombers/su-35?theme=",
+        "publisher": "Rosoboronexport"
+      },
+      {
+        "title": "Su-35",
+        "url": "https://www.mitchellaerospacepower.org/weapons/su-35",
+        "publisher": "Mitchell Institute for Aerospace Studies"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-35 is a Multirole fighter from Russia. Manufacturer: Sukhoi. First flight: 2008. Introduction: 2014. Status: Active.",
+            "text": "The Sukhoi Su-35 is a Russian single-seat, twin-engine fighter family developed from the Su-27. In Milipedia context it is best treated as two related efforts: the late-Soviet Su-27M / early Su-35 demonstrator line and the later Su-35S deep modernization that entered Russian service in 2014.",
             "refs": [
-              "fn-main"
+              "fn-wiki",
+              "fn-mitchell"
             ]
           },
           {
-            "text": "Sukhoi Su-35 is a fighter. Primary role: multirole fighter. Country of origin: Russia. Manufacturer: Sukhoi.",
+            "text": "The modern Su-35S combines a large Flanker airframe, powerful AL-41F-1S thrust-vectoring engines, a redesigned cockpit and weapons-control system, long-range radar, and a broad air-to-air and air-to-surface weapons menu. It is not a stealth aircraft, so survivability depends on speed, altitude, sensors, electronic warfare, tactics, standoff weapons, and supporting forces rather than low observability.",
             "refs": [
-              "fn-wikidata"
+              "fn-wiki",
+              "fn-mitchell"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Public data on Russian aircraft production, losses, radar performance, and export deliveries can be politically sensitive or incomplete. This page therefore uses cautious wording, avoids unsupported current inventory totals, and marks operator or combat details that require date-specific verification.",
             "refs": [
               "fn-method"
             ]
@@ -36376,50 +36429,73 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Multirole fighter"
+            "text": "Air superiority fighter with multirole strike capability"
           },
           {
-            "title": "Designer or builder",
-            "text": "Sukhoi"
+            "title": "Origin",
+            "text": "Soviet Union / Russia"
           },
           {
-            "title": "Major origin",
-            "text": "Russia"
+            "title": "Manufacturer",
+            "text": "Sukhoi / United Aircraft Corporation"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Modern service version",
+            "text": "Su-35S"
+          },
+          {
+            "title": "NATO reporting name",
+            "text": "Flanker-E / Flanker-M in public sources"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-35 first flew in 2008. Introduction date: 2014. Era: Modern.",
+            "text": "The first aircraft to carry the Su-35 identity began as the Su-27M, an upgraded Su-27 derivative developed in the 1980s. It added canards, strengthened and refined aerodynamic features, improved avionics, a multifunction radar, and expanded multirole capability compared with the baseline Su-27 air-superiority fighter.",
             "refs": [
-              "fn-main"
+              "fn-wiki"
             ]
           },
           {
-            "text": "Producer: Sukhoi. Development context: multirole fighter, jet propulsion, supersonic speed category, Modern era.",
+            "text": "Post-Soviet funding limits prevented large-scale Su-27M production, so early Su-35 airframes served mainly as test and demonstration aircraft. The Su-37 technology demonstrator added thrust-vectoring engines and became a high-profile proof point for supermaneuverability and flight-control work.",
             "refs": [
-              "fn-wikidata"
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "In the 2000s Sukhoi launched a deeper modernization often associated with the Su-35S. This version dropped the canards, incorporated technology developed alongside the PAK FA / Su-57 program, received modernized cockpit and weapons systems, and used AL-41F-1S thrust-vectoring engines. The modern aircraft first flew in February 2008 and reached Russian service in 2014.",
+            "refs": [
+              "fn-wiki",
+              "fn-mitchell"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "1988 — first Su-27M flight, representing the original Su-35 lineage.",
             "refs": [
-              "fn-method"
+              "fn-wiki"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "1990s — early Su-35 aircraft used primarily for trials and export demonstrations.",
             "refs": [
-              "fn-method"
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "2008 — first flight of the modern Su-35S generation.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "2014 — public IOC/service-entry date used by Mitchell Institute technical data.",
+            "refs": [
+              "fn-mitchell"
             ]
           }
         ]
@@ -36429,114 +36505,88 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The Su-35 retains the broad blended-wing-body Flanker layout: twin engines, large lifting surfaces, twin tails, side intakes, and substantial internal fuel. Compared with the earliest Su-27 family, the modern Su-35S emphasizes avionics growth, thrust-vectoring agility, and multirole weapons integration rather than a completely new airframe class.",
             "refs": [
-              "fn-main"
+              "fn-wiki"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Two AL-41F-1S afterburning turbofans with thrust-vectoring nozzles are central to the Su-35S identity. They support high-energy maneuvering and supermaneuverable flight demonstrations, but combat value still depends on pilot training, missile employment, situational awareness, and threat environment rather than aerobatics alone.",
             "refs": [
+              "fn-mitchell",
               "fn-method"
             ]
           },
           {
-            "text": "Sukhoi Su-35 uses jet propulsion. Engine model field: Not listed.",
+            "text": "The avionics suite is commonly associated with the Irbis-E passive electronically scanned array radar and an infrared search-and-track system. Public claims for detection range, simultaneous tracking, and target engagement vary by source and target assumptions, so this page avoids converting marketing figures into guaranteed battlefield performance.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-wiki",
+              "fn-method"
             ]
           }
         ],
         "cards": [
           {
+            "title": "Airframe",
+            "text": "Large single-seat Flanker-family twinjet"
+          },
+          {
+            "title": "Engines",
+            "text": "2 × Saturn/UFA AL-41F-1S with thrust vectoring"
+          },
+          {
+            "title": "Radar family",
+            "text": "Irbis-E class radar commonly associated with Su-35S"
+          },
+          {
             "title": "Crew",
-            "text": "1"
-          },
-          {
-            "title": "Engine class",
-            "text": "Jet"
-          },
-          {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "text": "One pilot"
           },
           {
             "title": "Carrier capable",
             "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-35 status: Active. Conflict entries: 1.",
+            "text": "Representative public technical data for the Su-35S class lists a 71.9 ft length, 48.2 ft wingspan, 19.4 ft height, 37,479 lb empty weight, and 76,059 lb maximum takeoff weight. These figures are suitable for encyclopedia comparison but not a substitute for flight-manual data.",
             "refs": [
-              "fn-main"
+              "fn-mitchell",
+              "fn-method"
             ]
           },
           {
-            "text": "Conflicts: Russo-Ukrainian War.",
+            "text": "Mitchell Institute data lists two Saturn/UFA AL-41F-1S engines, maximum speed of 1,290 knots, range between 850 and 2,430 nautical miles depending on drop tanks and mission use, and a 59,060 ft ceiling. Actual combat radius varies substantially with altitude, loadout, external tanks, and threat-driven routing.",
             "refs": [
+              "fn-mitchell",
               "fn-method"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Russo-Ukrainian War: Sukhoi Su-35 used in Russo-Ukrainian War.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Sukhoi Su-35 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "71.9 ft (public Su-35S-class figure)"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Wingspan",
+            "text": "48.2 ft"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Height",
+            "text": "19.4 ft"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Empty / MTOW",
+            "text": "37,479 lb empty; 76,059 lb maximum takeoff weight"
+          },
+          {
+            "title": "Speed / ceiling",
+            "text": "1,290 kt maximum speed; 59,060 ft ceiling"
           }
         ]
       },
@@ -36545,13 +36595,14 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-35 variant-family entries: 3. Variant families: Sukhoi Su-35 baseline production model; Sukhoi Su-35 upgraded avionics or weapons-capable model; Sukhoi Su-35 export or locally modernized model.",
+            "text": "Variant terminology is a common source of confusion because the Su-35 label has been applied both to the older Su-27M demonstrator/production attempt and to the modern Su-35S. The two lines share Su-27 ancestry but differ in aerodynamics, engines, avionics, and service history.",
             "refs": [
-              "fn-main"
+              "fn-wiki",
+              "fn-method"
             ]
           },
           {
-            "text": "Complete variant entries listed: 0.",
+            "text": "For Milipedia navigation, the Su-35 should be read alongside the Su-27, Su-30, Su-34, and Su-57 pages: it sits between classic Flanker derivatives and fifth-generation Russian fighter development rather than replacing all of them.",
             "refs": [
               "fn-method"
             ]
@@ -36559,21 +36610,35 @@
         ],
         "bullets": [
           {
-            "text": "Sukhoi Su-35 baseline production model",
+            "text": "Su-27M / early Su-35 — canard-equipped upgraded Su-27 family used for trials, demonstrations, and limited production.",
             "refs": [
-              "fn-main"
+              "fn-wiki"
             ]
           },
           {
-            "text": "Sukhoi Su-35 upgraded avionics or weapons-capable model",
+            "text": "Su-37 — thrust-vectoring demonstrator derived from the Su-27M/Su-35 test family.",
             "refs": [
-              "fn-main"
+              "fn-wiki"
             ]
           },
           {
-            "text": "Sukhoi Su-35 export or locally modernized model",
+            "text": "Su-35UB — two-seat demonstrator/trainer configuration built in very limited form.",
             "refs": [
-              "fn-main"
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Su-35S — modern single-seat production aircraft and the principal active-service variant.",
+            "refs": [
+              "fn-wiki",
+              "fn-mitchell"
+            ]
+          },
+          {
+            "text": "Export Su-35 — customer-specific export standard; exact equipment and weapons fits require dated confirmation.",
+            "refs": [
+              "fn-roe",
+              "fn-method"
             ]
           }
         ]
@@ -36583,13 +36648,22 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Russia. Sukhoi Su-35 has 1 designer or builder country entry.",
+            "text": "Russia is the launch and primary operator of the Su-35S. Public sources connect the type to the Russian Aerospace Forces after a 2009 order and service entry in 2014. Exact fleet totals and attrition figures should be checked against dated sources before being turned into fixed claims.",
             "refs": [
-              "fn-wikidata"
+              "fn-wiki",
+              "fn-mitchell",
+              "fn-method"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "China is the best-known export customer for the modern Su-35 family, with aircraft operated by the People’s Liberation Army Air Force. Algeria is also listed in public reference material as an operator, though current inventory figures are date-sensitive.",
+            "refs": [
+              "fn-wiki",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Because sanctions, wartime reporting, and export negotiations can create conflicting public claims, this page does not list rumored, canceled, or proposed users as confirmed operators without a clear dated source.",
             "refs": [
               "fn-method"
             ]
@@ -36597,43 +36671,125 @@
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Russian Aerospace Forces — primary Su-35S operator and launch service user.",
             "refs": [
-              "fn-main"
+              "fn-wiki",
+              "fn-mitchell"
             ]
           },
           {
-            "text": "Major designer or builder entries: Russia.",
+            "text": "People’s Liberation Army Air Force — confirmed export operator in public sources.",
             "refs": [
-              "fn-wikidata"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "specifications",
-        "title": "Specifications",
-        "paragraphs": [
-          {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Supersonic, first flight 2008, introduction 2014.",
-            "refs": [
-              "fn-main"
+              "fn-wiki"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Algerian Air Force — listed as an operator in public reference sources; details require date-specific review.",
             "refs": [
+              "fn-wiki",
               "fn-method"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-35 similar-development links: 4.",
+            "text": "The Su-35S entered Russian service in the 2010s as a high-end Flanker-family fighter intended for air superiority, interception, escort, and multirole strike tasks. Its mix of range, payload, radar, and missile compatibility makes it a heavyweight counterpart to smaller multirole fighters such as the F-16.",
+            "refs": [
+              "fn-mitchell",
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Public sources associate Russian Su-35 operations with the Russo-Ukrainian War. Loss claims, kill claims, and detailed sortie roles are often contested, rapidly changing, or based on wartime reporting; this page therefore records conflict use only at a broad level unless a specific dated event is independently verifiable.",
+            "refs": [
+              "fn-wiki",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "In Chinese service, the aircraft adds a Russian heavy-fighter type to a force that also operates indigenous Flanker derivatives. Public analysis often treats Chinese Su-35s as useful for operational experience with engines, sensors, and weapons rather than as the only advanced fighter in the PLAAF inventory.",
+            "refs": [
+              "fn-wiki",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "2014 onward — Su-35S active in Russian service.",
+            "refs": [
+              "fn-mitchell"
+            ]
+          },
+          {
+            "text": "Export service — Chinese Su-35 deliveries established the main confirmed non-Russian operational use.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Russo-Ukrainian War — broad conflict-use entry; detailed loss and victory claims require careful human review.",
+            "refs": [
+              "fn-wiki",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "weapons-systems",
+        "title": "Weapons Systems",
+        "paragraphs": [
+          {
+            "text": "The Su-35S weapon fit is representative of a heavy multirole fighter: an internal GSh-301 cannon, long- and medium-range air-to-air missiles, short-range dogfight missiles, anti-radiation and anti-ship missiles, guided bombs, unguided bombs, and rockets. Exact carriage combinations depend on operator clearances and mission planning.",
+            "refs": [
+              "fn-mitchell",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Mitchell Institute public data lists RVV-BD, R-27P1/EP1, RVV-SD, RVV-MD, and R-37M air-to-air missiles; Kh-59MK, Kh-31PD, Kh-31A, Kh-38 family, and Kh-35U air-to-surface missiles; KAB-series guided bombs; AB-series unguided bombs; and S-8, S-13, and S-25 rockets.",
+            "refs": [
+              "fn-mitchell"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Gun",
+            "text": "1 × GSh-301 30 mm cannon"
+          },
+          {
+            "title": "Air-to-air missiles",
+            "text": "RVV/R-27/R-37-class missiles listed in public technical data"
+          },
+          {
+            "title": "Strike weapons",
+            "text": "Kh-31, Kh-35, Kh-38, Kh-59 and KAB/AB-family stores listed publicly"
+          },
+          {
+            "title": "Rocket stores",
+            "text": "S-8, S-13, and S-25 rocket families"
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Role Context",
+        "paragraphs": [
+          {
+            "text": "Compared with the Su-27, the Su-35S is a deeper modernization with updated engines, avionics, and weapons integration. Compared with the Su-30, it is a single-seat heavy fighter rather than the two-seat multirole/export family most associated with mission-specialist or training-friendly layouts.",
+            "refs": [
+              "fn-wiki",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Compared with the F-15 and F-16 reference points used elsewhere in Milipedia, the Su-35 emphasizes heavy twin-engine range, missile payload, and high-energy maneuverability. It lacks the stealth shaping and sensor-fusion approach of fifth-generation aircraft such as the F-35 or Su-57, so comparison should focus on mission system, weapons, support, and threat context rather than a simple generation label.",
             "refs": [
               "fn-method"
             ]
@@ -36641,20 +36797,179 @@
         ],
         "links": [
           {
+            "label": "Sukhoi Su-27",
+            "url": "aircraft.html?id=su-27"
+          },
+          {
+            "label": "Sukhoi Su-30",
+            "url": "aircraft.html?id=su-30"
+          },
+          {
+            "label": "Sukhoi Su-34",
+            "url": "aircraft.html?id=su-34"
+          },
+          {
+            "label": "Sukhoi Su-57",
+            "url": "aircraft.html?id=su-57"
+          },
+          {
             "label": "McDonnell Douglas F-15 Eagle",
             "url": "aircraft.html?id=f-15-eagle"
           },
           {
             "label": "General Dynamics F-16 Fighting Falcon",
             "url": "aircraft.html?id=f-16-fighting-falcon"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include high thrust, long-range fighter dimensions, large missile and stores capacity, supermaneuverability from thrust-vectoring engines, and mature Flanker-family aerodynamic performance. These make the Su-35 a serious air-superiority and interception platform when supported by training, datalinks, ground control, and effective weapons.",
+            "refs": [
+              "fn-mitchell",
+              "fn-method"
+            ]
           },
           {
-            "label": "McDonnell Douglas F/A-18 Hornet",
-            "url": "aircraft.html?id=f-a-18-hornet"
+            "text": "Limitations include a non-stealth airframe, large radar and infrared signature relative to low-observable fighters, dependence on external stores for many missions, and uncertainty around real-world sensor and weapons performance in heavily contested airspace. Sustainment, pilot proficiency, and electronic-warfare support can matter as much as brochure specifications.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strong high-altitude speed, ceiling, payload, and heavy-fighter persistence.",
+            "refs": [
+              "fn-mitchell"
+            ]
           },
           {
-            "label": "Boeing F/A-18E/F Super Hornet",
-            "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+            "text": "Not carrier capable and not a stealth aircraft.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Combat claims and loss data should be treated cautiously unless tied to dated independent evidence.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "Key dates are included to match the chronology-oriented density of the F-16 reference page while keeping disputed production and wartime claims out of fixed tables.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1982–1983 — Sukhoi work on upgraded Su-27 / Su-27M concepts moved into formal Soviet direction.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "28 June 1988 — first Su-27M flight, the original Su-35 lineage.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "1992–1993 — Su-35 label used in international marketing and demonstrations.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "2 April 1996 — Su-37 thrust-vectoring demonstrator first flew.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "19 February 2008 — modern Su-35S first flight.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "February 2014 — public IOC / service-entry date for Su-35S.",
+            "refs": [
+              "fn-mitchell"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Rosoboronexport is retained as an official export-catalog source for the Su-35 product listing, but the extracted page is navigation-heavy. Mitchell Institute technical data is used for the compact specification set, while Wikipedia is used only as supplementary orientation for chronology, variants, and operator context.",
+            "refs": [
+              "fn-roe",
+              "fn-mitchell",
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Items deliberately omitted or caveated include exact current Russian inventory, detailed combat loss counts, radar detection guarantees, kill claims, and unconfirmed customer negotiations. Those facts require dated specialist review before publication as firm statements.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages for Flanker-family development, heavyweight fighter comparison, and modern fighter context.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Sukhoi Su-27",
+            "url": "aircraft.html?id=su-27"
+          },
+          {
+            "label": "Sukhoi Su-30",
+            "url": "aircraft.html?id=su-30"
+          },
+          {
+            "label": "Sukhoi Su-34",
+            "url": "aircraft.html?id=su-34"
+          },
+          {
+            "label": "Sukhoi Su-57",
+            "url": "aircraft.html?id=su-57"
+          },
+          {
+            "label": "Mikoyan MiG-29",
+            "url": "aircraft.html?id=mig-29"
+          },
+          {
+            "label": "Shenyang J-11",
+            "url": "aircraft.html?id=shenyang-j-11"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }

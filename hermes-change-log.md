@@ -1162,3 +1162,81 @@ Record the result of:
 * The U.S. Air Force fact sheet's inventory value is marked current as of January 2014, so it was not used as a present-day fleet total.
 * Wikipedia was used only as a supplementary orientation source for production/relationship context; official USAF and Hill Aerospace Museum sources were preferred for article substance.
 * The committed change log cannot contain the final commit hash without changing that hash; the final scheduled-run response reports it separately.
+
+### Run 16 — 2026-06-30 11:03:51 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Sukhoi Su-35 (id: su-35)
+* Reason selected: The Su-35 entry was the sparsest unedited aircraft page by comparison against the F-16 reference, with no operator entries, no variant entries, no external article sources counted, placeholder-style specifications, and generic generated sections despite the aircraft's complex Su-27M/Su-35S development history.
+* Previous condition: Generated-style page with 15 exact fact fields, 0 operator entries, 0 variant entries, 0 external article sources, no detailed specifications, generic armament wording, no meaningful development/design/variants/operators/weapons coverage, and only broad Russo-Ukrainian War service text.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense lead overview, technical fact cards, section order from overview through development/design/specifications/variants/operators/operational history/comparison/strengths/timeline/sources/related pages, concise sourced paragraphs, cautious notes around variant-specific details, source/reference IDs, and aircraft.html?id=... internal related-page links.
+
+#### Changes Made
+
+* Expanded the Sukhoi Su-35 record in data/aircraft.json from a sparse generated entry into a fuller Milipedia article-style aircraft page.
+* Corrected and expanded top-level facts for alternative names, NATO reporting name, Soviet/Russian origin, manufacturer, role, first-flight dates, introduction date, number-built caveat, engines, maximum speed, range, service ceiling, armament, hardpoints, development history, operator summary, engine details, and armament details.
+* Added Rosoboronexport, Mitchell Institute, Wikipedia supplementary orientation, and Milipedia method sources, with Rosoboronexport retained as an official product-listing source and Mitchell Institute used for compact public technical data.
+* Added external article links for Rosoboronexport and Mitchell Institute.
+* Added detailed sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Weapons Systems, Comparison and Role Context, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added Su-35-specific technical details including AL-41F-1S thrust-vectoring engines, Irbis-E radar caveat, 71.9 ft length, 48.2 ft wingspan, 19.4 ft height, 37,479 lb empty weight, 76,059 lb maximum takeoff weight, 1,290 kt maximum speed, 850-2,430 nmi range caveat, and 59,060 ft ceiling.
+* Added variant coverage for Su-27M / original Su-35, Su-37, Su-35UB, Su-35S, and export Su-35 configurations.
+* Added operator coverage for Russian Aerospace Forces, People's Liberation Army Air Force, and Algerian Air Force, with date-sensitive inventory and delivery caveats.
+* Added weapons-system coverage for GSh-301 cannon, RVV/R-27/R-37-class air-to-air missiles, Kh-31/Kh-35/Kh-38/Kh-59-class air-to-surface missiles, KAB/AB-series bombs, and S-8/S-13/S-25 rockets as representative public examples.
+* Added operational-history context for Russian service, Chinese export service, and broad Russo-Ukrainian War use while avoiding unsupported loss, kill, inventory, and radar-performance claims.
+* Added comparison and related-page links to Su-27, Su-30, Su-34, Su-57, MiG-29, Shenyang J-11, F-15, and F-16 pages.
+* Omitted or caveated exact current Russian inventory, detailed combat loss counts, radar detection guarantees, kill claims, and unconfirmed customer negotiations.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded the Sukhoi Su-35 page data, sources, sections, specifications, variants, operators, weapons coverage, caveats, and internal links.
+* hermes-change-log.md — Appended the cumulative Run 16 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were modified/staged.
+2. git diff — Reviewed diff/stat; data/aircraft.json changed the Su-35 entry and hermes-change-log.md appended this run entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the Su-35 entry section list, sources, variant/operator counts, top-level fields, caveats, and summary.
+4. F-16 style comparison — Inspected data/f16-template.html and followed its dense overview, technical card/specification emphasis, section ordering, neutral tone, source formatting, and related-page linking style within the JSON-rendered article system.
+5. Internal link check — Verified aircraft.html?id=su-27, su-30, su-34, su-57, mig-29, shenyang-j-11, f-15-eagle, and f-16-fighting-falcon point to existing aircraft ids in data/aircraft.json.
+6. Secret/token check — Ran credential-specific grep over the staged diff for API keys, tokens, passwords, private keys, GitHub tokens, and AWS credential names; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, only intended files staged, selected page not previously edited by Hermes, no main-branch edits, and diff reviewed before commit.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Sukhoi Su-35
+* Commit hash: Pending until commit is created; final hash is reported in the scheduled-run response.
+
+#### Issues or Uncertainties
+
+* Rosoboronexport's official Su-35 page was reachable but navigation-heavy in automated extraction, so detailed specifications were cross-checked with Mitchell Institute public technical data and Wikipedia was retained only as supplementary orientation.
+* Russian aircraft inventory, wartime loss/kill claims, radar detection figures, and some export/customer reports are date-sensitive or contested; the page uses cautious wording and omits unsupported fixed claims.
+* The committed change log cannot contain the final commit hash without changing that hash; the final scheduled-run response reports it separately.
