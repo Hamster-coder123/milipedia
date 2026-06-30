@@ -1466,3 +1466,78 @@ Record the result of:
 * Official Chinese manufacturer or air-force pages were not located during this run, so Airforce Technology and Mitchell Institute were used as the main technical sources and Wikipedia only as supplementary orientation.
 * Public sources differ on some performance figures, especially service ceiling; the entry records the discrepancy rather than forcing a single unsupported value.
 * Exact active inventory, production total, radar fit, WS-10 fit by batch, and latest missile compatibility are date-sensitive and should be rechecked before future stronger claims.
+
+### Run 20 — 2026-06-30 15:03:44 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Antonov An-12 (id: an-12)
+* Reason selected: It was the sparsest unedited aircraft page found in the scoring pass, with no operator entries, no variant entries, no external article sources, generic generated sections, missing engine/range/ceiling/dimension/payload detail, and placeholder-like "Not listed" values.
+* Previous condition: Generated transport stub with 15 exact fact fields, 0 operator entries, 0 variant entries, 0 external article sources, no real development/variant/operator/operational-history detail, no An-12BP/Y-8/special-mission context, and only broad support-aircraft armament wording.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense lead overview; section order covering overview, development, design, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, sources, and related pages; concise sourced technical paragraphs; card-style fact summaries; neutral caveats for variant-specific or source-conflicting figures; internal aircraft link style using aircraft.html?id=...
+
+#### Changes Made
+
+* Expanded the Antonov An-12 entry from a sparse generated page into a fuller Milipedia article data record.
+* Added alternative names, NATO reporting name Cub, manufacturer/production context, first-flight date, role/type refinement, engine details, range, maximum speed/caution, service ceiling, payload, defensive armament, and fuller summary text.
+* Added official manufacturer source from Antonov plus Air Charter Service and The Aviation Zone as supplementary technical/cargo references; retained Wikipedia only as supplementary orientation.
+* Added sections for Overview, Development History, Design and Capabilities, Specifications, Variants and Special Missions, Operators, Operational History, Comparison and Role Context, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added An-12/An-12B/An-12BP, Cub-A/B, Cub-C/D, and Shaanxi Y-8 variant-family coverage with cautions around special-mission equipment.
+* Added representative operator coverage for Soviet military transport aviation, post-Soviet users, India, China/Y-8 development, and civil cargo users without inventing a fixed current fleet table.
+* Added operational-history context for polar and Antarctic missions, airborne exercises, Pamir high-mountain airdrops, Afghanistan support flights, Chernobyl cleanup tasks, and Antonov-recorded world records.
+* Added internal links to existing C-130 Hercules, Il-76, An-22, and Xi'an Y-20 pages.
+* Removed the generic Soviet-Afghan event-gallery image and replaced it with an Antonov Company gallery image for the An-12.
+* Omitted exact current worldwide fleet totals, every historical operator, accident-by-accident history, and classified/aircraft-specific ELINT/ECM equipment details because public sources vary or require dedicated dated verification.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Antonov An-12 aircraft entry and sources.
+* hermes-change-log.md — Appended the cumulative Run 20 record.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Verified before commit that only data/aircraft.json and hermes-change-log.md were modified/staged.
+2. git diff — Reviewed diff/stat and aircraft diff; data/aircraft.json changes are limited to the Antonov An-12 entry, and hermes-change-log.md adds this Run 20 entry.
+3. File review — Parsed data/aircraft.json successfully with python3 -m json.tool and reviewed the updated An-12 fields, sections, sources, variants, operators, caveats, and links.
+4. F-16 style comparison — Inspected data/f16-template.html and matched its dense overview, article-section coverage, technical/source phrasing, specification emphasis, variants/operators/service/comparison/timeline coverage, source notes, and related-link style within the JSON renderer.
+5. Internal link check — Parsed data/aircraft.json IDs and verified all aircraft.html?id=... links in the updated An-12 entry target existing local IDs.
+6. Secret/token check — Ran credential-specific checks over the staged diff; no API keys, tokens, passwords, private keys, .env data, or credentials were found.
+7. Final review before commit — Confirmed branch, JSON validity, diff check, intended file set, one-entry aircraft diff, no main-branch edit, no unrelated files, and completed change log entry.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Antonov An-12
+* Commit hash: Pending until commit completes; final hash is reported in the run result.
+
+#### Issues or Uncertainties
+
+* Manufacturer and supplementary references differ on exact production total, maximum speed, range, and payload depending on whether they describe the whole An-12 family, An-12BP, civil freighter configuration, or maximum-fuel versus maximum-payload conditions; the page labels those contexts rather than forcing one unsupported value.
+* Exact current worldwide fleet counts, all operators, detailed accident history, and special-mission electronics fits were not exhaustively enumerated because they are date-sensitive or aircraft-specific and need dedicated verification.

@@ -41423,58 +41423,126 @@
   {
     "id": "an-12",
     "name": "Antonov An-12",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "alternative_names": [
+      "An-12 Cub",
+      "Antonov An-12BP"
+    ],
+    "nato_reporting_name": "Cub",
     "country_of_origin": "Soviet Union",
-    "manufacturer": "Antonov",
-    "role": "Military transport aircraft",
-    "aircraft_type": "Transport aircraft",
+    "manufacturer": "Antonov Design Bureau; serial production at Irkutsk, Voronezh, and Tashkent plants",
+    "role": "Medium military transport and paratroop aircraft",
+    "aircraft_type": "Four-engine turboprop tactical transport",
     "era": "Cold War",
-    "first_flight": "1957",
+    "first_flight": "16 December 1957",
     "introduction_date": "1959",
     "retirement_date": null,
-    "status": "Active/retired by operator",
-    "number_built": "Not listed",
-    "crew": "5-6",
+    "status": "Retired by many military operators; still seen with some military, government, and cargo users",
+    "number_built": "1,243 to 1,248 Soviet-built aircraft, depending on source scope; Chinese Y-8 derivatives produced separately",
+    "crew": "Typically 5-6",
     "engine_type": "Turboprop",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engines": "Four Ivchenko/Progress AI-20-series turboprops",
+    "max_speed": "About 770-777 km/h (478-482 mph) in commonly cited An-12BP data; Antonov lists 570 km/h cruise speed",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Support aircraft; fixed offensive armament not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Antonov An-12: Military transport aircraft. Manufacturer: Antonov. First flight: 1957. Introduction: 1959.",
-    "short_summary": "Antonov An-12: Military transport aircraft. Origin: Soviet Union. Manufacturer: Antonov. First flight: 1957. Introduction: 1959. Status: Active/retired by operator.",
+    "range": "Up to about 5,000-6,000 km depending on payload and source",
+    "combat_range": "About 3,600 km with maximum payload is commonly cited for An-12BP; payload/range varies by variant",
+    "service_ceiling": "About 10,000 m (32,800-33,500 ft)",
+    "rate_of_climb": "Not emphasized in public manufacturer data",
+    "armament": "Soviet military An-12 transports commonly carried a defensive tail turret with two 23 mm cannon; civil cargo and many converted aircraft may be unarmed",
+    "hardpoints": "Not a fighter-style external-store aircraft; cargo/paratroop loads are carried internally",
+    "variants": [
+      {
+        "name": "An-12",
+        "note": "Initial military transport family derived from the An-10/An-8 lineage for Soviet medium airlift."
+      },
+      {
+        "name": "An-12B",
+        "note": "Civil/freighter transport version; later commercial cargo operators used many converted or demilitarized aircraft."
+      },
+      {
+        "name": "An-12BP",
+        "note": "Improved military transport version widely described as a standard Soviet tactical-transport configuration."
+      },
+      {
+        "name": "Cub-A / Cub-B",
+        "note": "NATO-recognized electronic-intelligence adaptations with external antennas and fairings; public details vary by aircraft."
+      },
+      {
+        "name": "Cub-C / Cub-D",
+        "note": "Electronic-countermeasures and special-mission adaptations; equipment fits changed over time and are best treated as mission-specific."
+      },
+      {
+        "name": "Shaanxi Y-8",
+        "note": "Chinese licensed/reverse-engineered development of the An-12 line; first Chinese-assembled aircraft flew in 1974 and later variants became a separate family."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Soviet Union",
+        "operator": "Soviet Air Forces and military transport aviation",
+        "note": "The An-12 became a basic Soviet military transport aircraft and served for more than three decades in cargo and airborne-force support roles."
+      },
+      {
+        "country": "Russia and post-Soviet states",
+        "operator": "Military, government, and cargo operators",
+        "note": "Some aircraft remained in use after the Soviet collapse, while others were retired, converted, or transferred to civil cargo service."
+      },
+      {
+        "country": "India",
+        "operator": "Indian Air Force",
+        "note": "Antonov specifically notes good performance in Indian high-altitude and poorly prepared airfields; India was an important early export user."
+      },
+      {
+        "country": "China",
+        "operator": "People's Liberation Army and Chinese industry",
+        "note": "China obtained An-12 examples and design assistance before developing the Y-8 derivative family."
+      },
+      {
+        "country": "Export and civil users",
+        "operator": "Numerous military and cargo operators",
+        "note": "Public operator lists include users across Eastern Europe, Asia, the Middle East, Africa, and commercial freight carriers; exact current fleets change often."
+      }
+    ],
+    "combat_history": "Used for Soviet and allied transport operations, including Afghanistan; the type also supported polar, Antarctic, disaster-response, and civil cargo missions.",
+    "development_history": "Antonov developed the An-12 as a four-engine military transport related to the An-10 passenger aircraft and earlier An-8 transport. The prototype flew on 16 December 1957, entered service in 1959, and was built in large numbers at several Soviet plants through the early 1970s.",
+    "short_summary": "The Antonov An-12 'Cub' is a Soviet four-engine turboprop transport designed for medium airlift, paratroop, and rough-field cargo operations. It was one of the core Soviet military-transport aircraft of the Cold War, broadly comparable in role to the C-130 Hercules but with Soviet design choices, a defensive tail turret on military examples, and a large family of special-mission variants.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Antonov_An-12BK%2C_Russia_-_Air_Force_AN1879625.jpg/330px-Antonov_An-12BK%2C_Russia_-_Air_Force_AN1879625.jpg",
-        "caption": "Antonov An-12",
+        "caption": "Antonov An-12BK in Russian Air Force markings",
         "credit": "Wikimedia/Wikipedia thumbnail source",
         "license": "Verify original file license before reuse."
       }
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-antonov",
+        "title": "AN-12",
+        "url": "https://www.antonov.com/en/history/an-12",
+        "publisher": "Antonov Company",
+        "note": "Manufacturer history page used for first flight, production chronology, dimensions, range, ceiling, cruise speed, payload context, and notable operational milestones."
+      },
+      {
+        "id": "fn-acs",
+        "title": "Antonov An-12",
+        "url": "https://www.aircharterservice.com/aircraft-guide/cargo/antonov-ukraine/antonovan-12",
+        "publisher": "Air Charter Service",
+        "note": "Cargo-aircraft reference used for civil freight configuration, hold dimensions, payload, cruise speed, and range caveats."
+      },
+      {
+        "id": "fn-aviationzone",
+        "title": "Antonov An-12",
+        "url": "https://www.theaviationzone.com/antonov-an-12",
+        "publisher": "The Aviation Zone",
+        "note": "Supplementary aviation reference used for An-12BP specifications, cargo-door design, defensive tail armament, and special-mission variant descriptions."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Antonov An-12",
         "url": "https://en.wikipedia.org/wiki/Antonov_An-12",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for variant/operator breadth and relationship to the An-10 and Shaanxi Y-8; not the sole source for specifications."
       },
       {
         "id": "fn-method",
@@ -41491,57 +41559,62 @@
       }
     ],
     "designers": [
-      "Antonov"
+      "Oleg Antonov / Antonov Design Bureau"
     ],
     "development_tensions": [
-      "Balancing payload, short-field performance, reliability, strategic reach, and rough-field operation."
+      "Combining a 20-ton-class internal payload with rough-field and short-field operation.",
+      "Adapting an airliner-related four-turboprop airframe for paratroop, vehicle, and military freight missions.",
+      "Providing self-defense and special-mission capacity without turning the aircraft into a fighter-style weapons platform."
     ],
     "wars_used_in": [
       {
         "name": "Soviet–Afghan War",
-        "note": "Antonov An-12 used in Soviet–Afghan War."
+        "note": "An-12 transports supported Soviet airlift to Afghanistan and became associated with casualty-repatriation flights later nicknamed 'Black Tulip' in public memory."
+      },
+      {
+        "name": "Cold War airborne and exercise operations",
+        "note": "Antonov's chronology records large Soviet airborne exercises and high-mountain parachute drops using the type."
       }
     ],
     "variant_families": [
-      "Antonov An-12 baseline production model",
-      "Antonov An-12 upgraded avionics or weapons-capable model",
-      "Antonov An-12 cargo, special mission, or aerial support model"
+      "An-12 baseline military transport",
+      "An-12B civil/freighter versions",
+      "An-12BP improved tactical transport",
+      "ELINT/ECM Cub-A/B/C/D special-mission aircraft",
+      "Chinese Shaanxi Y-8 derivative family"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
-        "Soviet Union"
+        "Soviet Union",
+        "Antonov Design Bureau",
+        "Irkutsk",
+        "Voronezh",
+        "Tashkent"
       ],
-      "major_user_note": "Antonov An-12 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Core Soviet medium military transport, later exported or operated by many military and civil cargo users.",
+      "all_operators_status": "Current operator counts vary by source and date; page lists representative historical and role-defining users rather than a fixed fleet table."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "Yakov Vernikov captained the prototype's 16 December 1957 maiden-flight crew according to Antonov's chronology."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Antonov records Antarctic support, North Pole drift-station supply, Pamir high-mountain airdrops, Afghanistan support missions, Chernobyl cleanup tasks, and 39 world records achieved in 1991-1992."
       ]
     },
     "engine_details": {
       "type": "Turboprop",
-      "summary": "Antonov An-12 uses turboprop propulsion."
+      "summary": "Four AI-20-series turboprops gave the An-12 the lifting power and field performance needed for medium military airlift."
     },
     "armament_details": {
-      "summary": "Support aircraft; fixed offensive armament not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Military An-12 aircraft commonly used a defensive rear turret with two 23 mm cannon; many civil cargo or converted aircraft are treated as unarmed transports.",
+      "caution": "Do not list fighter-style missiles or hardpoints for the An-12; its mission load is cargo, troops, vehicles, or special-mission equipment."
     },
     "similar_development": [
       {
         "id": "c-130-hercules",
         "name": "Lockheed C-130 Hercules",
         "url": "aircraft.html?id=c-130-hercules"
-      },
-      {
-        "id": "c-5-galaxy",
-        "name": "Lockheed C-5 Galaxy",
-        "url": "aircraft.html?id=c-5-galaxy"
       },
       {
         "id": "il-76",
@@ -41552,28 +41625,47 @@
         "id": "an-22",
         "name": "Antonov An-22",
         "url": "aircraft.html?id=an-22"
+      },
+      {
+        "id": "xian-y-20",
+        "name": "Xi'an Y-20",
+        "url": "aircraft.html?id=xian-y-20"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 42,
+      "operator_entries": 5,
+      "variant_entries": 6,
+      "external_article_sources": 4
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-antonov",
+        "title": "AN-12",
+        "url": "https://www.antonov.com/en/history/an-12",
+        "publisher": "Antonov Company",
+        "note": "Manufacturer history and specification chronology."
+      },
+      {
+        "id": "fn-acs",
+        "title": "Antonov An-12",
+        "url": "https://www.aircharterservice.com/aircraft-guide/cargo/antonov-ukraine/antonovan-12",
+        "publisher": "Air Charter Service",
+        "note": "Civil cargo reference for payload, cabin, and freighter figures."
+      },
+      {
+        "id": "fn-aviationzone",
+        "title": "Antonov An-12",
+        "url": "https://www.theaviationzone.com/antonov-an-12",
+        "publisher": "The Aviation Zone",
+        "note": "Supplementary reference for An-12BP layout, defensive armament, and special-mission variants."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Antonov An-12",
         "url": "https://en.wikipedia.org/wiki/Antonov_An-12",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation for variant/operator breadth and related aircraft."
       },
       {
         "id": "fn-method",
@@ -41583,26 +41675,48 @@
         "note": "Local rules for units, source citation, neutral wording, and estimate labels."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "AN-12",
+        "url": "https://www.antonov.com/en/history/an-12",
+        "publisher": "Antonov Company"
+      },
+      {
+        "title": "Antonov An-12",
+        "url": "https://www.aircharterservice.com/aircraft-guide/cargo/antonov-ukraine/antonovan-12",
+        "publisher": "Air Charter Service"
+      },
+      {
+        "title": "Antonov An-12",
+        "url": "https://www.theaviationzone.com/antonov-an-12",
+        "publisher": "The Aviation Zone"
+      },
+      {
+        "title": "Antonov An-12",
+        "url": "https://en.wikipedia.org/wiki/Antonov_An-12",
+        "publisher": "Wikipedia"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Antonov An-12 is a Military transport aircraft from Soviet Union. Manufacturer: Antonov. First flight: 1957. Introduction: 1959. Status: Active/retired by operator.",
+            "text": "The Antonov An-12, NATO reporting name Cub, is a Soviet four-engine turboprop transport designed for medium military airlift, paratroop drops, and cargo movement from demanding airfields. Antonov describes it as a paratroop transport able to carry troops, military equipment, or fighting equipment up to about 20 tons.",
             "refs": [
-              "fn-main"
+              "fn-antonov"
             ]
           },
           {
-            "text": "Antonov An-12 is a transport aircraft. Primary role: military transport aircraft. Country of origin: Soviet Union. Manufacturer: Antonov.",
+            "text": "In role and broad size class it is often compared with the Lockheed C-130 Hercules, but the An-12 reflects Soviet transport doctrine: a high-wing turboprop airframe, rear cargo doors, a glassed-in navigator nose, and, on many military examples, a manned defensive tail turret rather than fighter-style offensive stores.",
             "refs": [
-              "fn-wikidata"
+              "fn-aviationzone",
+              "fn-method"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The page was expanded from a generated stub; current fleet numbers and national operator inventories are deliberately described cautiously because many surviving aircraft have changed military, government, and civil cargo roles over time.",
             "refs": [
               "fn-method"
             ]
@@ -41611,44 +41725,71 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Military transport aircraft"
+            "text": "Medium military transport and paratroop aircraft"
           },
           {
-            "title": "Designer or builder",
-            "text": "Antonov"
+            "title": "Designer",
+            "text": "Antonov Design Bureau"
           },
           {
-            "title": "Major origin",
-            "text": "Soviet Union"
+            "title": "NATO name",
+            "text": "Cub"
           },
           {
-            "title": "Propulsion",
-            "text": "Turboprop"
+            "title": "Payload class",
+            "text": "About 20 tonnes / 44,000 lb"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Antonov An-12 first flew in 1957. Introduction date: 1959. Era: Cold War.",
+            "text": "A Soviet government directive to begin development of the An-12 prototype was issued on 30 November 1955. Antonov's chronology records the maiden flight on 16 December 1957 from Irkutsk-2 with Yakov Vernikov as aircraft captain.",
             "refs": [
-              "fn-main"
+              "fn-antonov"
             ]
           },
           {
-            "text": "Producer: Antonov. Development context: military transport aircraft, turboprop propulsion, subsonic speed category, Cold War era.",
+            "text": "The aircraft was related to Antonov's An-10 passenger transport and An-8 transport lineage, but the An-12 was optimized as a military freighter and paratroop platform. It entered Soviet service in 1959 and became a standard Soviet medium transport for decades.",
             "refs": [
-              "fn-wikidata"
+              "fn-antonov",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Serial production was distributed among Soviet plants. Antonov lists 155 aircraft built at Irkutsk from 1957 to 1962, 258 at Voronezh from 1960 to 1965, and 830 at Tashkent from 1961 to 1972, for 1,243 aircraft in its manufacturer chronology.",
+            "refs": [
+              "fn-antonov"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing payload, short-field performance, reliability, strategic reach, and rough-field operation.",
+            "text": "1955: Soviet directive authorized prototype development.",
             "refs": [
-              "fn-method"
+              "fn-antonov"
+            ]
+          },
+          {
+            "text": "1957: Prototype first flight at Irkutsk-2.",
+            "refs": [
+              "fn-antonov"
+            ]
+          },
+          {
+            "text": "1959: Operational introduction in Soviet military transport aviation.",
+            "refs": [
+              "fn-antonov",
+              "fn-aviationzone"
+            ]
+          },
+          {
+            "text": "1970s: Soviet production ended while Chinese Y-8 derivative development continued separately.",
+            "refs": [
+              "fn-antonov",
+              "fn-wikipedia"
             ]
           }
         ]
@@ -41658,151 +41799,149 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 5-6. Propulsion: Turboprop. Speed category: Subsonic.",
+            "text": "The An-12 uses a high-mounted wing, four AI-20-series turboprops, a raised tail, and a rear loading arrangement intended to support bulky cargo and vehicle loading. Air Charter Service describes a cargo hold of roughly 13.55 m by 2.80 m by 2.40 m in its freight configuration, with twin winches and a travelling gantry for moving loads.",
             "refs": [
-              "fn-main"
+              "fn-acs"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Manufacturer data gives a 38.02 m wingspan, 33.11 m length, 11.44 m height, 121.73 m² wing area, 570 km/h cruise speed, 5,000 km operational range, and 10,000 m operational ceiling. Supplementary An-12BP figures sometimes list higher maximum speed and range with maximum fuel, so the page distinguishes cruise, maximum, and payload-range figures.",
             "refs": [
+              "fn-antonov",
+              "fn-aviationzone"
+            ]
+          },
+          {
+            "text": "Soviet military examples often carried a defensive tail turret with two 23 mm cannon. That turret should not be confused with fighter-style hardpoints: the aircraft's core mission loads are troops, vehicles, cargo, relief supplies, or special-mission electronics.",
+            "refs": [
+              "fn-aviationzone",
               "fn-method"
-            ]
-          },
-          {
-            "text": "Antonov An-12 uses turboprop propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Support aircraft; fixed offensive armament not listed. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "5-6"
+            "title": "Engines",
+            "text": "Four Ivchenko/Progress AI-20-series turboprops"
           },
           {
-            "title": "Engine class",
-            "text": "Turboprop"
+            "title": "Cruise speed",
+            "text": "570 km/h in Antonov manufacturer data"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Operational range",
+            "text": "5,000 km in Antonov data; higher ferry figures appear in some references"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Ceiling",
+            "text": "10,000 m manufacturer figure"
           },
           {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Cargo payload",
+            "text": "Up to about 20 tonnes depending on configuration"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Antonov An-12 status: Active/retired by operator. Conflict entries: 1.",
+            "text": "Representative An-12 / An-12BP figures: crew about six; length 33.11 m; wingspan 38.02 m; height 11.44 m in Antonov data; wing area 121.73 m²; four AI-20-series turboprops; cruise speed 570 km/h; operational ceiling 10,000 m; operational range about 5,000 km.",
             "refs": [
-              "fn-main"
+              "fn-antonov"
             ]
           },
           {
-            "text": "Conflicts: Soviet–Afghan War.",
+            "text": "Payload and freighter-layout figures vary by source and configuration. Antonov states transport of troops and equipment weighing up to 20 tons; Air Charter Service lists an 18,000 kg commercial payload with a 90 m³ hold; The Aviation Zone lists 20,000 kg or 60 fully equipped paratroopers for An-12BP-style data.",
+            "refs": [
+              "fn-antonov",
+              "fn-acs",
+              "fn-aviationzone"
+            ]
+          },
+          {
+            "text": "Public values differ because references mix military An-12BP, civil freighter conversions, maximum-fuel range, maximum-payload range, and later derivative aircraft. This page uses representative values and labels the context instead of forcing one universal specification table.",
             "refs": [
               "fn-method"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Soviet–Afghan War: Antonov An-12 used in Soviet–Afghan War.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Antonov An-12 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "33.11 m"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Wingspan",
+            "text": "38.02 m"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Wing area",
+            "text": "121.73 m²"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Operational ceiling",
+            "text": "10,000 m"
+          },
+          {
+            "title": "Maximum payload",
+            "text": "About 18-20 tonnes by cited configuration"
           }
         ]
       },
       {
         "id": "variants",
-        "title": "Variants",
+        "title": "Variants and Special Missions",
         "paragraphs": [
           {
-            "text": "Antonov An-12 variant-family entries: 3. Variant families: Antonov An-12 baseline production model; Antonov An-12 upgraded avionics or weapons-capable model; Antonov An-12 cargo, special mission, or aerial support model.",
+            "text": "The basic An-12 family included military transports, civil cargo versions, improved An-12BP-type aircraft, and numerous adaptations for navigation, electronic intelligence, electronic countermeasures, testing, and other special missions.",
             "refs": [
-              "fn-main"
+              "fn-aviationzone",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Complete variant entries listed: 0.",
+            "text": "The Aviation Zone describes ELINT Cub-A/B and ECM Cub-C/D variants that can be recognized by antenna fairings, external pods, and other mission-equipment changes. Because public detail varies by aircraft, these are best treated as mission families rather than a complete subtype-by-subtype equipment table.",
             "refs": [
+              "fn-aviationzone",
               "fn-method"
+            ]
+          },
+          {
+            "text": "China's Shaanxi Y-8 began from the An-12 line but evolved into its own long-running family of transports, maritime patrol aircraft, airborne early warning platforms, and other derivatives.",
+            "refs": [
+              "fn-antonov",
+              "fn-wikipedia"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Antonov An-12 baseline production model",
+            "text": "An-12 / An-12BP: core Soviet tactical transport configurations.",
             "refs": [
-              "fn-main"
+              "fn-antonov",
+              "fn-aviationzone"
             ]
           },
           {
-            "text": "Antonov An-12 upgraded avionics or weapons-capable model",
+            "text": "An-12B and civil freighters: commercial cargo use with demilitarized or freight-focused layouts.",
             "refs": [
-              "fn-main"
+              "fn-acs",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Antonov An-12 cargo, special mission, or aerial support model",
+            "text": "Cub-A/B/C/D: public NATO-recognized special-mission families for ELINT and ECM roles.",
             "refs": [
-              "fn-main"
+              "fn-aviationzone"
+            ]
+          },
+          {
+            "text": "Y-8: Chinese derivative, first flown in Chinese-built form in the 1970s and developed separately.",
+            "refs": [
+              "fn-antonov",
+              "fn-wikipedia"
             ]
           }
         ]
@@ -41812,13 +41951,20 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Soviet Union. Antonov An-12 has 1 designer or builder country entry.",
+            "text": "The Soviet Union was the defining user, employing the An-12 as a basic military transport aircraft for cargo, paratroop, exercise, polar, and expeditionary missions. Antonov also highlights the type's successful use in India from high-altitude and poorly prepared airfields.",
             "refs": [
-              "fn-wikidata"
+              "fn-antonov"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Export and later civil use spread the type widely. Public references identify operators across Eastern Europe, Asia, Africa, the Middle East, and commercial cargo companies, but many surviving aircraft changed registration, operator, and airworthiness status over time.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "For Milipedia, the safest operator presentation is representative rather than exhaustive: Soviet military transport aviation, post-Soviet users, India, China/Y-8 development, and civil freight operators are the role-defining groups.",
             "refs": [
               "fn-method"
             ]
@@ -41826,31 +41972,158 @@
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Soviet military transport aviation: core historical operator.",
             "refs": [
-              "fn-main"
+              "fn-antonov"
             ]
           },
           {
-            "text": "Major designer or builder entries: Soviet Union.",
+            "text": "India: highlighted by Antonov for high-altitude and poorly adapted airfield operations.",
             "refs": [
-              "fn-wikidata"
+              "fn-antonov"
+            ]
+          },
+          {
+            "text": "China: An-12 acquisition and Y-8 derivative development.",
+            "refs": [
+              "fn-antonov",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Civil cargo operators: continued freighter use with payload, route, and airworthiness constraints varying by aircraft.",
+            "refs": [
+              "fn-acs",
+              "fn-method"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 5-6, propulsion type Turboprop, maximum speed category Subsonic, first flight 1957, introduction 1959.",
+            "text": "Antonov's chronology records early polar and expeditionary work, including a 1960 supply flight to the SP-8 drift-ice research station and a 1961-1962 Moscow-to-Antarctica support flight routed through Asia, Australia, New Zealand, and McMurdo.",
             "refs": [
-              "fn-main"
+              "fn-antonov"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "The type supported airborne-force demonstrations and training, including 1967 and 1968 high-mountain parachute drops in the Pamir region and the 1970 Dvina exercise, where An-12 and An-22 aircraft dropped thousands of paratroopers and vehicles in a short period.",
+            "refs": [
+              "fn-antonov"
+            ]
+          },
+          {
+            "text": "In Afghanistan, An-12 aircraft delivered military equipment and armaments to Bagram in 1979 and later became associated in public memory with casualty-repatriation flights. The aircraft also supported Chernobyl cleanup operations in 1986.",
+            "refs": [
+              "fn-antonov",
+              "fn-wikipedia"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1959 onward: Soviet tactical and medium military airlift.",
+            "refs": [
+              "fn-antonov"
+            ]
+          },
+          {
+            "text": "1960s-1970s: polar, Antarctic, and airborne exercise missions.",
+            "refs": [
+              "fn-antonov"
+            ]
+          },
+          {
+            "text": "1979-1980s: Afghanistan-related transport missions and later casualty-repatriation association.",
+            "refs": [
+              "fn-antonov",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "1986: Chernobyl cleanup support flights by An-12 crews.",
+            "refs": [
+              "fn-antonov"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Role Context",
+        "paragraphs": [
+          {
+            "text": "Compared with the C-130 Hercules, the An-12 occupies a similar medium tactical airlift class, but public references note different cargo-door design choices, Soviet defensive-tail-gun practice on military examples, and a distinct family of ELINT/ECM derivatives.",
+            "refs": [
+              "fn-aviationzone",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Within Soviet and post-Soviet transport families, the An-12 sits below large transports such as the An-22 and Il-76, while offering greater payload and reach than smaller light transports. Its long service life made it a bridge between early Cold War turboprop logistics and later jet/heavy-lift transport fleets.",
+            "refs": [
+              "fn-antonov",
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Lockheed C-130 Hercules",
+            "url": "aircraft.html?id=c-130-hercules"
+          },
+          {
+            "label": "Ilyushin Il-76",
+            "url": "aircraft.html?id=il-76"
+          },
+          {
+            "label": "Antonov An-22",
+            "url": "aircraft.html?id=an-22"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths included rugged medium-lift capacity, rough-field utility, a useful internal cargo bay, and enough range for regional military logistics. Antonov's own history emphasizes high-altitude and poorly adapted airfield performance in India.",
+            "refs": [
+              "fn-antonov"
+            ]
+          },
+          {
+            "text": "Limitations include aging airframes, variant-by-variant equipment differences, dated avionics on many aircraft, and civil airworthiness restrictions in some jurisdictions. The An-12 also lacks the modern support ecosystem and safety margins of newer transports unless carefully maintained and upgraded.",
+            "refs": [
+              "fn-acs",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: 20-ton-class payload with turboprop field performance.",
+            "refs": [
+              "fn-antonov"
+            ]
+          },
+          {
+            "text": "Strength: adaptable special-mission platform for ELINT/ECM and test roles.",
+            "refs": [
+              "fn-aviationzone"
+            ]
+          },
+          {
+            "text": "Limitation: current airworthiness and operator status must be checked by aircraft and date.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: public specifications mix several variants and freighter conversions.",
             "refs": [
               "fn-method"
             ]
@@ -41858,11 +42131,89 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "timeline",
+        "title": "Timeline",
         "paragraphs": [
           {
-            "text": "Antonov An-12 similar-development links: 4.",
+            "text": "Key dates below follow Antonov's manufacturer chronology except where noted.",
+            "refs": [
+              "fn-antonov"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "30 November 1955: development directive issued.",
+            "refs": [
+              "fn-antonov"
+            ]
+          },
+          {
+            "text": "16 December 1957: first flight of the An-12 prototype.",
+            "refs": [
+              "fn-antonov"
+            ]
+          },
+          {
+            "text": "1959: service introduction.",
+            "refs": [
+              "fn-antonov",
+              "fn-aviationzone"
+            ]
+          },
+          {
+            "text": "1957-1972: Antonov lists 1,243 Soviet-built aircraft across Irkutsk, Voronezh, and Tashkent production.",
+            "refs": [
+              "fn-antonov"
+            ]
+          },
+          {
+            "text": "25 December 1974: Chinese Y-8 version made its first flight according to Antonov's chronology.",
+            "refs": [
+              "fn-antonov"
+            ]
+          },
+          {
+            "text": "1991-1992: crews achieved 39 speed and altitude records for the class in Antonov's chronology.",
+            "refs": [
+              "fn-antonov"
+            ]
+          },
+          {
+            "text": "2003: Antonov Airlines and Ukraine International Airlines launched scheduled Kyiv-Vienna An-12 freight service.",
+            "refs": [
+              "fn-antonov"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "The manufacturer source is used for core chronology and official dimensions. Air Charter Service is used for civil freighter payload and cabin figures. The Aviation Zone supplies supplementary An-12BP and special-mission context. Wikipedia is retained only for broad orientation on operator and derivative breadth.",
+            "refs": [
+              "fn-antonov",
+              "fn-acs",
+              "fn-aviationzone",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Uncertain or highly variable facts omitted from fixed tables include exact current worldwide fleet counts, every military/civil operator, full accident history, and classified or aircraft-specific ECM/ELINT equipment fits.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages place the An-12 in the wider tactical and strategic transport ecosystem.",
             "refs": [
               "fn-method"
             ]
@@ -41874,25 +42225,29 @@
             "url": "aircraft.html?id=c-130-hercules"
           },
           {
-            "label": "Lockheed C-5 Galaxy",
-            "url": "aircraft.html?id=c-5-galaxy"
-          },
-          {
             "label": "Ilyushin Il-76",
             "url": "aircraft.html?id=il-76"
           },
           {
             "label": "Antonov An-22",
             "url": "aircraft.html?id=an-22"
+          },
+          {
+            "label": "Xi'an Y-20",
+            "url": "aircraft.html?id=xian-y-20"
+          },
+          {
+            "label": "Back to Aircraft Database",
+            "url": "aircraft.html"
           }
         ]
       }
     ],
     "event_gallery": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Mortar_attack_on_Shigal_Tarna_garrison%2C_Kunar_Province%2C_87.jpg/960px-Mortar_attack_on_Shigal_Tarna_garrison%2C_Kunar_Province%2C_87.jpg",
-        "caption": "Soviet–Afghan War",
-        "source_url": "https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War"
+        "url": "https://www.antonov.com/media/airplanes/airplane-gallery-550-1559657594806.jpg",
+        "caption": "Antonov An-12 from Antonov Company gallery",
+        "source_url": "https://www.antonov.com/en/history/an-12"
       }
     ]
   },
