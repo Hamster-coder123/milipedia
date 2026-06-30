@@ -1997,3 +1997,80 @@ Record the result of:
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * Direct extraction of the National Museum of the U.S. Air Force page returned an access-denied/timeout result, so the page uses only its visible search-snippet evidence and facts cross-checked with accessible sources.
 * Exact production totals, licence-built derivative counts, surviving current operator status, and exhaustive country operator lists vary by source and were intentionally summarized cautiously.
+
+### Run 27 — 2026-06-30 22:04:05 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Ilyushin Il-76 Candid (id: il-76)
+* Reason selected: The Il-76 entry was the shortest unedited aircraft candidate found in the data set and was far below the F-16 reference density, with no real operators, no detailed variants, no external article sources, sparse specifications, and generic placeholder text.
+* Previous condition: Placeholder-like generated transport entry with 15 exact fact fields, 0 operator entries, 0 variant entries, 0 external article sources, missing engine/range/payload/dimensions data, generic operational-history text, a generated event gallery, and no detailed development/design/variants/operators/timeline/source-notes coverage.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense lead overview; article-section order moving from overview through development, design, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, sources, and related pages; short sourced paragraphs; card-style key facts; cautious variant-specific notes; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the Il-76 entry in data/aircraft.json into a fuller Milipedia aircraft article while preserving the existing JSON-rendered site structure.
+* Updated top-level facts for NATO reporting name, country/manufacturer, role, type, first flight, active status, crew, engine families, cruise speed, payload/range caveats, service ceiling, armament caution, variants, operators, development history, and summary text.
+* Added source metadata and footnotes for United Aircraft Corporation, Airforce Technology baseline Il-76 coverage, Airforce Technology Il-76MD-90A coverage, supplementary Wikipedia orientation, and Milipedia accuracy rules.
+* Added/expanded sections for Overview, Development History, Design and Capabilities, Specifications, Variants and Derivatives, Operators, Operational History, Comparison and Role Context, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added technical details for D-30KP baseline engines, PS-90A-76 modern engines, 46.6 m length, 50.5 m wingspan, baseline 47 t payload class, Il-76MD-90A 52-60 t payload-source caveat, cruise speeds, cargo-hold dimensions, and 12,000 m MD-90A altitude figure.
+* Added variant-family coverage for Il-76/Il-76M, Il-76MD, Il-76TD, Il-76MF/TF, Il-76MD-90A/Il-476, Il-78 tanker, and A-50/A-100/special-mission derivatives.
+* Added representative operator coverage for Soviet/Russian forces, China, India, civil heavy-cargo operators, and other export users without inventing a live fleet-count table.
+* Replaced generic placeholder armament with careful transport-aircraft wording that notes variant-dependent defensive aids, tail guns, and external provisions where applicable.
+* Removed the sparse generated event_gallery because it did not add useful Il-76-specific article context.
+* Added internal related links to the existing An-12, C-130 Hercules, C-17 Globemaster III, and C-5 Galaxy pages.
+* Omitted exact current fleet totals, complete accident chronology, conflict-by-conflict sortie claims, and universal weapons/equipment tables because those details vary by variant, operator, and source date.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Ilyushin Il-76 aircraft page data and sources.
+* hermes-change-log.md — Appended the cumulative Run 27 log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files after removing the temporary helper script.
+2. git diff — Reviewed the diff/stat; data/aircraft.json changes are limited to the il-76 entry, and hermes-change-log.md adds this Run 27 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool and reviewed the Il-76 entry section list, sources, operators, variants, top-level facts, and removed generated event_gallery.
+4. F-16 style comparison — Inspected data/f16-template.html and copied its dense overview, technical/specification emphasis, sourced paragraphs, variants/operators/service/comparison/timeline/source-notes pattern within the JSON article system.
+5. Internal link check — Verified aircraft.html?id=an-12, aircraft.html?id=c-130-hercules, aircraft.html?id=c-17-globemaster-iii, and aircraft.html?id=c-5-galaxy target existing aircraft ids in data/aircraft.json.
+6. Secret/token check — Ran credential-specific scan over the staged diff for API keys, tokens, passwords, private keys, GitHub tokens, and AWS credentials; no credentials were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, diff check, intended files only, Il-76 was not previously edited by Hermes, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Ilyushin Il-76 Candid
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* The UAC manufacturer page was identified through search snippets but was not successfully fetched by web_extract, so its MD-90A figures were cross-checked against available extracted snippets and Airforce Technology rather than quoted as long-form page text.
+* Exact current fleet totals, detailed accident history, conflict-specific sortie/loss claims, and variant-specific defensive-equipment fits were intentionally omitted or phrased cautiously because they vary by user, aircraft standard, and source date.

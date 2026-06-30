@@ -41756,35 +41756,56 @@
   },
   {
     "id": "il-76",
-    "name": "Ilyushin Il-76",
-    "alternative_names": [],
-    "nato_reporting_name": null,
-    "country_of_origin": "Soviet Union",
-    "manufacturer": "Ilyushin",
-    "role": "Strategic airlifter",
-    "aircraft_type": "Transport aircraft",
-    "era": "Cold War/Modern",
-    "first_flight": "1971",
+    "name": "Ilyushin Il-76 Candid",
+    "alternative_names": [
+      "Il-76",
+      "Candid",
+      "Il-76MD",
+      "Il-76MD-90A",
+      "Il-476"
+    ],
+    "nato_reporting_name": "Candid",
+    "country_of_origin": "Soviet Union / Russia",
+    "manufacturer": "Ilyushin / United Aircraft Corporation",
+    "role": "Heavy military transport and strategic/theater airlifter",
+    "aircraft_type": "Four-engine jet transport aircraft",
+    "era": "Cold War / Modern",
+    "first_flight": "25 March 1971",
     "introduction_date": "1974",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "5",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
-    "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Support aircraft; fixed offensive armament not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Ilyushin Il-76: Strategic airlifter. Manufacturer: Ilyushin. First flight: 1971. Introduction: 1974.",
-    "short_summary": "Ilyushin Il-76: Strategic airlifter. Origin: Soviet Union. Manufacturer: Ilyushin. First flight: 1971. Introduction: 1974. Status: Active.",
+    "status": "Active in military, civil, and special-mission variants",
+    "number_built": "Hundreds built; exact total varies by source and variant definition",
+    "crew": "5-7 depending on variant",
+    "engine_type": "Turbofan",
+    "engines": "4 × Soloviev D-30KP turbofans on baseline aircraft; 4 × PS-90A-76 turbofans on Il-76MD-90A",
+    "max_speed": "About 760-780 km/h cruise on baseline Il-76M; 820-850 km/h cruise on Il-76MD-90A",
+    "speed_category": "Subsonic jet transport",
+    "range": "Variant dependent; 6,100 km with 20 t payload on baseline figures; 5,000 km with 52 t payload and 9,700 km ferry range cited for Il-76MD-90A",
+    "combat_range": "Not a fighter-style combat-radius aircraft; payload/range varies by cargo load and variant",
+    "service_ceiling": "Up to about 12,000 m reported for Il-76MD-90A",
+    "rate_of_climb": "Variant dependent; not consistently listed in public sources used here",
+    "armament": "Transport aircraft; some military variants had defensive aids and tail guns/provisions, but civil and modernized configurations vary.",
+    "hardpoints": "Not applicable as a standard fighter-style hardpoint count; some military variants could carry external stores or radio beacons on detachable pylons.",
+    "variants": [
+      "Il-76",
+      "Il-76M",
+      "Il-76MD",
+      "Il-76TD",
+      "Il-76MF/TF",
+      "Il-76MD-90A / Il-476",
+      "Il-78 tanker",
+      "A-50/A-100 and other special-mission derivatives"
+    ],
+    "operators": [
+      "Soviet Air Forces",
+      "Russian Aerospace Forces",
+      "People’s Liberation Army Air Force",
+      "Indian Air Force",
+      "Civil heavy-cargo operators and other export users"
+    ],
+    "combat_history": "Used for Soviet, Russian, export-user, humanitarian, and civil heavy-lift operations; detailed conflict attribution varies by operator and variant.",
+    "development_history": "Designed by Ilyushin in the late 1960s as a rugged four-engine jet transport to replace or supplement turboprop airlifters such as the An-12; first flight in 1971 and service introduction in 1974. Later derivatives added tanker, civil freight, special-mission, and MD-90A modernization roles.",
+    "short_summary": "The Ilyushin Il-76 Candid is a rugged Soviet/Russian four-engine jet airlifter built around rear-ramp cargo handling, heavy payload, and austere-airfield utility. The family spans baseline transports, civil freighters, Il-78 tankers, special-mission aircraft, and modern PS-90-powered Il-76MD-90A variants.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -41797,18 +41818,32 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-uac-md90a",
+        "title": "Il-76MD-90A / Il-78M-90A",
+        "url": "https://uacrussia.ru/en/aircraft/lineup/transport/IL-76MD-90A",
+        "publisher": "United Aircraft Corporation",
+        "note": "Manufacturer page used for modernized Il-76MD-90A payload, range, engine, and cargo-compartment figures; page text may be intermittently difficult to fetch, so figures were cross-checked against extracted search snippets and secondary references."
+      },
+      {
+        "id": "fn-aft-il76",
+        "title": "IL-76 Military Transport Aircraft",
+        "url": "https://www.airforce-technology.com/projects/il76/",
+        "publisher": "Airforce Technology",
+        "note": "Technical reference for baseline Il-76/Il-76M dimensions, D-30KP engines, payload, range, cargo-handling equipment, avionics, and variant descriptions."
+      },
+      {
+        "id": "fn-aft-md90a",
+        "title": "Ilyushin IL-76MD-90A (IL-476) Aircraft",
+        "url": "https://www.airforce-technology.com/projects/ilyushin-il-76md-90a-il-476-aircraft-russia/",
+        "publisher": "Airforce Technology",
+        "note": "Reference for the Il-76MD-90A modernization, PS-90A-76 engines, glass cockpit, payload, range, first deliveries, and performance figures."
+      },
+      {
+        "id": "fn-wiki-il76",
         "title": "Ilyushin Il-76",
         "url": "https://en.wikipedia.org/wiki/Ilyushin_Il-76",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for family lineage, broad operator history, dates, and derivative aircraft; detailed claims were checked against stronger sources where possible."
       },
       {
         "id": "fn-method",
@@ -41820,66 +41855,70 @@
     ],
     "country_flags": [
       {
-        "label": "Soviet Union",
+        "label": "Soviet Union / Russia",
         "emoji": "☭"
       }
     ],
     "designers": [
-      "Ilyushin"
+      "Ilyushin Design Bureau"
     ],
     "development_tensions": [
-      "Balancing payload, short-field performance, reliability, strategic reach, and rough-field operation."
+      "Balancing heavy payload, high-altitude jet speed, self-contained loading, rough-field operation, long-range logistics, and maintainability across military and civil users."
     ],
     "wars_used_in": [
       {
-        "name": "Soviet–Afghan War",
-        "note": "Ilyushin Il-76 used in Soviet–Afghan War."
+        "name": "Soviet-Afghan War",
+        "note": "Used as a major Soviet airlift platform; exact sortie and fleet details vary by source."
       },
       {
-        "name": "Russo-Ukrainian War",
-        "note": "Ilyushin Il-76 used in Russo-Ukrainian War."
+        "name": "Post-Soviet regional conflicts",
+        "note": "Used by Russian and export operators for transport, evacuation, and logistics missions; conflict-specific details require case-by-case sourcing."
+      },
+      {
+        "name": "Humanitarian and disaster-relief operations",
+        "note": "Civil and military Il-76 aircraft have moved heavy relief cargo and evacuation loads in remote or infrastructure-limited areas."
       }
     ],
     "variant_families": [
-      "Ilyushin Il-76 baseline production model",
-      "Ilyushin Il-76 upgraded avionics or weapons-capable model",
-      "Ilyushin Il-76 cargo, special mission, or aerial support model"
+      "Baseline Il-76 / Il-76M transports",
+      "Longer-range Il-76MD and civil Il-76TD freighters",
+      "Il-76MD-90A / Il-476 modernization",
+      "Il-78 tanker and Il-76-based special-mission derivatives"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
-        "Soviet Union"
+        "Soviet Union",
+        "Russia"
       ],
-      "major_user_note": "Ilyushin Il-76 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Widely used by Soviet/Russian forces, China, India, export customers, and civil heavy-cargo operators; current counts change by year and source.",
+      "all_operators_status": "Representative operators listed; not a complete live fleet inventory."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "Il-76MD-90A / Il-476 modernization revived new-build production with PS-90A-76 engines and digital avionics."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "The family has been involved in wartime and civil losses, but a complete accident chronology was outside this single-run update."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Ilyushin Il-76 uses jet propulsion."
+      "type": "Turbofan",
+      "summary": "Baseline Il-76 aircraft use four D-30KP turbofans; Il-76MD-90A aircraft use four PS-90A-76 turbofans with improved thrust, fuel efficiency, and standards compliance."
     },
     "armament_details": {
-      "summary": "Support aircraft; fixed offensive armament not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Transport and support aircraft rather than a fighter or bomber. Some military versions included defensive aids, tail guns, and provisions for bombs or radio beacons; civil and modernized variants differ.",
+      "caution": "Do not apply one armament fit to the entire Il-76 family; equipment depends on variant, operator, and modernization state."
     },
     "similar_development": [
+      {
+        "id": "an-12",
+        "name": "Antonov An-12",
+        "url": "aircraft.html?id=an-12"
+      },
       {
         "id": "c-130-hercules",
         "name": "Lockheed C-130 Hercules",
         "url": "aircraft.html?id=c-130-hercules"
-      },
-      {
-        "id": "c-5-galaxy",
-        "name": "Lockheed C-5 Galaxy",
-        "url": "aircraft.html?id=c-5-galaxy"
       },
       {
         "id": "c-17-globemaster-iii",
@@ -41887,106 +41926,176 @@
         "url": "aircraft.html?id=c-17-globemaster-iii"
       },
       {
-        "id": "an-12",
-        "name": "Antonov An-12",
-        "url": "aircraft.html?id=an-12"
+        "id": "c-5-galaxy",
+        "name": "Lockheed C-5 Galaxy / C-5M Super Galaxy",
+        "url": "aircraft.html?id=c-5-galaxy"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 44,
+      "operator_entries": 5,
+      "variant_entries": 7,
+      "external_article_sources": 4
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-uac-md90a",
+        "title": "Il-76MD-90A / Il-78M-90A",
+        "url": "https://uacrussia.ru/en/aircraft/lineup/transport/IL-76MD-90A",
+        "publisher": "United Aircraft Corporation",
+        "note": "Manufacturer page used for modernized Il-76MD-90A payload, range, engine, and cargo-compartment figures; page text may be intermittently difficult to fetch, so figures were cross-checked against extracted search snippets and secondary references."
+      },
+      {
+        "id": "fn-aft-il76",
+        "title": "IL-76 Military Transport Aircraft",
+        "url": "https://www.airforce-technology.com/projects/il76/",
+        "publisher": "Airforce Technology",
+        "note": "Technical reference for baseline Il-76/Il-76M dimensions, D-30KP engines, payload, range, cargo-handling equipment, avionics, and variant descriptions."
+      },
+      {
+        "id": "fn-aft-md90a",
+        "title": "Ilyushin IL-76MD-90A (IL-476) Aircraft",
+        "url": "https://www.airforce-technology.com/projects/ilyushin-il-76md-90a-il-476-aircraft-russia/",
+        "publisher": "Airforce Technology",
+        "note": "Reference for the Il-76MD-90A modernization, PS-90A-76 engines, glass cockpit, payload, range, first deliveries, and performance figures."
+      },
+      {
+        "id": "fn-wiki-il76",
         "title": "Ilyushin Il-76",
         "url": "https://en.wikipedia.org/wiki/Ilyushin_Il-76",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for family lineage, broad operator history, dates, and derivative aircraft; detailed claims were checked against stronger sources where possible."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "id": "fn-uac-md90a",
+        "title": "Il-76MD-90A / Il-78M-90A",
+        "url": "https://uacrussia.ru/en/aircraft/lineup/transport/IL-76MD-90A",
+        "publisher": "United Aircraft Corporation",
+        "note": "Manufacturer page used for modernized Il-76MD-90A payload, range, engine, and cargo-compartment figures; page text may be intermittently difficult to fetch, so figures were cross-checked against extracted search snippets and secondary references."
+      },
+      {
+        "id": "fn-aft-il76",
+        "title": "IL-76 Military Transport Aircraft",
+        "url": "https://www.airforce-technology.com/projects/il76/",
+        "publisher": "Airforce Technology",
+        "note": "Technical reference for baseline Il-76/Il-76M dimensions, D-30KP engines, payload, range, cargo-handling equipment, avionics, and variant descriptions."
+      },
+      {
+        "id": "fn-aft-md90a",
+        "title": "Ilyushin IL-76MD-90A (IL-476) Aircraft",
+        "url": "https://www.airforce-technology.com/projects/ilyushin-il-76md-90a-il-476-aircraft-russia/",
+        "publisher": "Airforce Technology",
+        "note": "Reference for the Il-76MD-90A modernization, PS-90A-76 engines, glass cockpit, payload, range, first deliveries, and performance figures."
+      },
+      {
+        "id": "fn-wiki-il76",
+        "title": "Ilyushin Il-76",
+        "url": "https://en.wikipedia.org/wiki/Ilyushin_Il-76",
+        "publisher": "Wikipedia",
+        "note": "Supplementary orientation source for family lineage, broad operator history, dates, and derivative aircraft; detailed claims were checked against stronger sources where possible."
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Ilyushin Il-76 is a Strategic airlifter from Soviet Union. Manufacturer: Ilyushin. First flight: 1971. Introduction: 1974. Status: Active.",
+            "text": "The Ilyushin Il-76, NATO reporting name Candid, is a four-engine Soviet/Russian jet airlifter designed to move heavy cargo, paratroops, vehicles, and humanitarian loads into regions that may lack long prepared runways. It was conceived as a faster, heavier successor to the Antonov An-12 and became one of the most recognizable strategic and theater-lift aircraft of the late Cold War and post-Soviet period.",
             "refs": [
-              "fn-main"
+              "fn-aft-il76",
+              "fn-wiki-il76"
             ]
           },
           {
-            "text": "Ilyushin Il-76 is a transport aircraft. Primary role: strategic airlifter. Country of origin: Soviet Union. Manufacturer: Ilyushin.",
+            "text": "Unlike a pure airliner-derived freighter, the Il-76 combines a high wing, rear loading ramp, rugged multi-wheel landing gear, onboard cargo-handling equipment, and military navigation systems so it can support air-drop, austere-airfield, and expeditionary logistics missions. Civil operators have also used the type for outsized cargo, emergency response, evacuation, and disaster-relief flights.",
             "refs": [
-              "fn-wikidata"
+              "fn-aft-il76",
+              "fn-wiki-il76"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The family remains active through older D-30KP-powered Il-76/Il-76M/Il-76MD transports, civil Il-76TD freighters, the Il-78 tanker derivative, special-mission conversions, and the new-build Il-76MD-90A with PS-90A-76 engines and modern avionics.",
             "refs": [
-              "fn-method"
+              "fn-uac-md90a",
+              "fn-aft-md90a"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Strategic airlifter"
+            "text": "Heavy military transport and strategic/theater airlift"
           },
           {
-            "title": "Designer or builder",
-            "text": "Ilyushin"
+            "title": "NATO reporting name",
+            "text": "Candid"
           },
           {
-            "title": "Major origin",
-            "text": "Soviet Union"
+            "title": "Typical baseline engines",
+            "text": "Four Soloviev D-30KP turbofans"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Modernized engines",
+            "text": "Four PS-90A-76 turbofans on Il-76MD-90A"
+          },
+          {
+            "title": "Cargo concept",
+            "text": "Rear ramp, onboard hoists/rollers, and air-drop equipment"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Ilyushin Il-76 first flew in 1971. Introduction date: 1974. Era: Cold War/Modern.",
+            "text": "Ilyushin began the Il-76 program in the late 1960s to satisfy a Soviet requirement for a jet freighter able to lift roughly 40 tonnes over long distances, operate in severe climates, and use short or unprepared airfields. The prototype first flew in 1971 and service introduction followed in 1974.",
             "refs": [
-              "fn-main"
+              "fn-wiki-il76",
+              "fn-aft-il76"
             ]
           },
           {
-            "text": "Producer: Ilyushin. Development context: strategic airlifter, jet propulsion, subsonic speed category, Cold War/Modern era.",
+            "text": "Production initially centered on the Tashkent Aviation Production Association in Uzbekistan. The aircraft filled the gap between turboprop transports and the largest strategic airlifters by giving Soviet and allied forces a robust, fast transport with a pressurized cargo hold and rear loading ramp.",
             "refs": [
-              "fn-wikidata"
+              "fn-wiki-il76"
+            ]
+          },
+          {
+            "text": "Later development added longer-range and higher-weight military models, civil TD freighters, tanker and airborne-early-warning derivatives, and finally the Il-76MD-90A. The MD-90A keeps the basic fuselage concept but adds a redesigned wing section, digital cockpit, updated navigation suite, PS-90A-76 engines, and new-build production at Ulyanovsk.",
+            "refs": [
+              "fn-uac-md90a",
+              "fn-aft-md90a"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing payload, short-field performance, reliability, strategic reach, and rough-field operation.",
+            "text": "1967-era requirement: heavy cargo over long range, with short-field and rough-field capability.",
             "refs": [
-              "fn-method"
+              "fn-wiki-il76"
+            ]
+          },
+          {
+            "text": "First flight: 25 March 1971; introduction: 1974.",
+            "refs": [
+              "fn-wiki-il76"
+            ]
+          },
+          {
+            "text": "Il-76MD-90A prototype rolled out in 2011 and first flew in 2012; first serial aircraft delivery is reported in 2019.",
+            "refs": [
+              "fn-aft-md90a"
             ]
           }
         ]
@@ -41996,135 +42105,135 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 5. Propulsion: Jet. Speed category: Subsonic.",
+            "text": "The Il-76 uses a high-mounted swept wing with four underwing turbofans and a T-tail, leaving a large cylindrical fuselage for cargo. Its rear ramp allows vehicles, pallets, and airdrop platforms to be loaded without airport cargo infrastructure.",
             "refs": [
-              "fn-main"
+              "fn-aft-il76"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Cargo-handling equipment includes overhead hoist/telpher equipment, roller conveyors, rigging and mooring gear, auxiliary parachute equipment, and ambulance provisions. The aircraft can carry cargo, paratroops, or casualties depending on configuration.",
             "refs": [
+              "fn-aft-il76",
+              "fn-aft-md90a"
+            ]
+          },
+          {
+            "text": "Baseline military aircraft used D-30KP turbofans rated around 12,000 kgf each. Modern Il-76MD-90A aircraft use PS-90A-76 engines, described as more efficient and compliant with modern noise and emission standards, with improved range and takeoff performance.",
+            "refs": [
+              "fn-aft-il76",
+              "fn-aft-md90a"
+            ]
+          },
+          {
+            "text": "Military Il-76 versions may carry defensive aids and, on some earlier variants, tail guns and provisions for bombs or radio beacons. Because equipment varies widely across military, civil, tanker, and special-mission models, this page describes armament cautiously rather than assigning a single universal weapons fit.",
+            "refs": [
+              "fn-aft-il76",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Airframe layout",
+            "text": "High-wing, rear-ramp, four-engine jet transport"
+          },
+          {
+            "title": "Cargo hold",
+            "text": "About 20 m long without ramp, 3.45 m wide, 3.4 m high on common baseline figures"
+          },
+          {
+            "title": "Baseline payload class",
+            "text": "Up to about 47 t on Il-76M-class figures"
+          },
+          {
+            "title": "Modernized payload",
+            "text": "Up to about 52-60 t depending on Il-76MD-90A source/configuration"
+          },
+          {
+            "title": "Rough-field use",
+            "text": "Designed for short or unprepared airfield operations"
+          }
+        ]
+      },
+      {
+        "id": "specifications",
+        "title": "Specifications",
+        "paragraphs": [
+          {
+            "text": "Public specifications vary by variant. The figures below combine common Il-76/Il-76M baseline data with clearly marked Il-76MD-90A modernization data; they should not be read as a single aircraft configuration.",
+            "refs": [
+              "fn-aft-il76",
+              "fn-aft-md90a",
               "fn-method"
             ]
           },
           {
-            "text": "Ilyushin Il-76 uses jet propulsion. Engine model field: Not listed.",
+            "text": "Baseline Il-76M-class figures include a length of 46.6 m, height of about 14.42 m, wingspan of 50.5 m, maximum takeoff weight of about 170 t, a 47 t load-carrying capacity, four D-30KP turbofans, 760-780 km/h cruise speed at altitude, 6,100 km range with a 20 t payload, and about 3,000 km with a 47 t payload.",
             "refs": [
-              "fn-main"
+              "fn-aft-il76"
             ]
           },
           {
-            "text": "Armament field: Support aircraft; fixed offensive armament not listed. Exact weapon list: Not listed.",
+            "text": "Il-76MD-90A figures include a 46.6 m length, 14.76 m height, 50.5 m wingspan, 210 t maximum takeoff weight, 52 t maximum payload in Airforce Technology reporting, PS-90A-76 engines with 14,500 kgf maximum continuous thrust each, 820-850 km/h cruise speed, 12,000 m maximum altitude, and up to 8,500 km maximum range.",
             "refs": [
-              "fn-main"
+              "fn-aft-md90a"
+            ]
+          },
+          {
+            "text": "The UAC manufacturer page describes the Il-76MD-90A with a maximum payload up to 60 t, 5,000 km range with a 52 t payload, 9,700 km ferry range, and cargo-compartment dimensions of 20 m by 3.45 m by 3.4 m; these are retained as modernized-variant figures rather than applied to all Il-76s.",
+            "refs": [
+              "fn-uac-md90a"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "5"
+            "text": "Usually five to seven depending on variant and mission equipment"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Length",
+            "text": "46.6 m"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Wingspan",
+            "text": "50.5 m"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Baseline engines",
+            "text": "4 × D-30KP turbofans, about 12,000 kgf each"
           },
           {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Ilyushin Il-76 status: Active. Conflict entries: 2.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Modern engines",
+            "text": "4 × PS-90A-76 turbofans, about 14,500 kgf each"
           },
           {
-            "text": "Conflicts: Soviet–Afghan War, Russo-Ukrainian War.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Soviet–Afghan War: Ilyushin Il-76 used in Soviet–Afghan War.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Payload",
+            "text": "About 47 t baseline Il-76M; 52-60 t class on Il-76MD-90A sources"
           },
           {
-            "text": "Russo-Ukrainian War: Ilyushin Il-76 used in Russo-Ukrainian War.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Ilyushin Il-76 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Cruise speed",
+            "text": "About 760-780 km/h baseline; 820-850 km/h MD-90A"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Ceiling/altitude",
+            "text": "MD-90A maximum altitude reported at 12,000 m"
           }
         ]
       },
       {
         "id": "variants",
-        "title": "Variants",
+        "title": "Variants and Derivatives",
         "paragraphs": [
           {
-            "text": "Ilyushin Il-76 variant-family entries: 3. Variant families: Ilyushin Il-76 baseline production model; Ilyushin Il-76 upgraded avionics or weapons-capable model; Ilyushin Il-76 cargo, special mission, or aerial support model.",
+            "text": "The Il-76 family is unusually broad: baseline transports, higher-weight military models, civil freighters, stretched prototypes, tankers, airborne early-warning aircraft, firefighting conversions, and modern new-build aircraft all share the basic Candid airframe concept.",
             "refs": [
-              "fn-main"
+              "fn-aft-il76",
+              "fn-wiki-il76"
             ]
           },
           {
-            "text": "Complete variant entries listed: 0.",
+            "text": "Variant labels are often used differently across military, export, and civil sources, so this page groups major families instead of listing every national or one-off conversion.",
             "refs": [
               "fn-method"
             ]
@@ -42132,21 +42241,47 @@
         ],
         "bullets": [
           {
-            "text": "Ilyushin Il-76 baseline production model",
+            "text": "Il-76 / Il-76M: baseline and improved military transport forms; Il-76M raised payload over early basic aircraft in Airforce Technology reporting.",
             "refs": [
-              "fn-main"
+              "fn-aft-il76"
             ]
           },
           {
-            "text": "Ilyushin Il-76 upgraded avionics or weapons-capable model",
+            "text": "Il-76MD: longer-range and increased-service-life military transport with increased takeoff weight compared with Il-76M.",
             "refs": [
-              "fn-main"
+              "fn-aft-il76"
             ]
           },
           {
-            "text": "Ilyushin Il-76 cargo, special mission, or aerial support model",
+            "text": "Il-76TD: civil cargo version used by commercial heavy-lift operators.",
             "refs": [
-              "fn-main"
+              "fn-wiki-il76"
+            ]
+          },
+          {
+            "text": "Il-76MF / Il-76TF: stretched-fuselage derivatives associated with PS-90-powered modernization work; produced or proposed in limited numbers.",
+            "refs": [
+              "fn-aft-il76"
+            ]
+          },
+          {
+            "text": "Il-76MD-90A / Il-476: new-build modernized transport with PS-90A-76 engines, redesigned wing section, glass cockpit, and updated avionics.",
+            "refs": [
+              "fn-uac-md90a",
+              "fn-aft-md90a"
+            ]
+          },
+          {
+            "text": "Il-78: aerial-refueling tanker derivative, often treated as a separate family with NATO reporting name Midas.",
+            "refs": [
+              "fn-aft-il76",
+              "fn-wiki-il76"
+            ]
+          },
+          {
+            "text": "A-50/A-100 and other special-mission conversions: airborne early-warning, command, laser-test, firefighting, and reduced-gravity aircraft derived from the Il-76 airframe.",
+            "refs": [
+              "fn-wiki-il76"
             ]
           }
         ]
@@ -42156,57 +42291,107 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Soviet Union. Ilyushin Il-76 has 1 designer or builder country entry.",
+            "text": "The Il-76 has served with Soviet, Russian, post-Soviet, Asian, Middle Eastern, African, and commercial operators. Its appeal is the combination of heavy payload, rear-ramp loading, austere-airfield capability, and availability across military and civil markets.",
             "refs": [
-              "fn-wikidata"
+              "fn-wiki-il76",
+              "fn-aft-il76"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Major users historically or currently associated with the family include the Soviet Air Forces, Russian Aerospace Forces, Russian and international cargo operators, the People’s Liberation Army Air Force, the Indian Air Force, and multiple export customers. Exact current fleet numbers change frequently and are intentionally not fixed here without a live official inventory source.",
             "refs": [
+              "fn-wiki-il76",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Soviet Union / Russia: original military operator and current user of legacy and modernized Il-76 variants.",
             "refs": [
-              "fn-main"
+              "fn-wiki-il76",
+              "fn-aft-md90a"
             ]
           },
           {
-            "text": "Major designer or builder entries: Soviet Union.",
+            "text": "China: long-running user/customer of Il-76 transports and associated tanker/large-aircraft derivatives.",
             "refs": [
-              "fn-wikidata"
+              "fn-wiki-il76"
+            ]
+          },
+          {
+            "text": "India: operator of Il-76 transports and Il-76-based special-mission aircraft, including Phalcon AEW conversions reported by Airforce Technology.",
+            "refs": [
+              "fn-aft-il76"
+            ]
+          },
+          {
+            "text": "Commercial heavy-lift operators: civil Il-76TD/TD-90 aircraft have moved outsized cargo and disaster-relief loads where rear-ramp loading and rough-field performance are valuable.",
+            "refs": [
+              "fn-wiki-il76"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "service",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 5, propulsion type Jet, maximum speed category Subsonic, first flight 1971, introduction 1974.",
+            "text": "In Soviet service, the Il-76 provided a jet-powered airlift backbone for airborne forces, remote garrisons, and long-distance military logistics. Its ability to land closer to austere destinations made it useful in regions where standard civil transport infrastructure was limited.",
             "refs": [
-              "fn-main"
+              "fn-wiki-il76",
+              "fn-aft-il76"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "The type saw major wartime and contingency use during the Soviet-Afghan War and later conflicts and crises involving Russian or export operators. It has also supported peacetime disaster relief, evacuations, firefighting conversions, and remote-area cargo movement.",
             "refs": [
+              "fn-wiki-il76"
+            ]
+          },
+          {
+            "text": "Modernized Il-76MD-90A aircraft are intended to extend the family with improved engines, avionics, payload, and service life. Public reporting on deliveries and operational availability should be treated as date-sensitive.",
+            "refs": [
+              "fn-aft-md90a",
               "fn-method"
             ]
           }
+        ],
+        "bullets": [
+          {
+            "text": "Military airlift: vehicles, troops, cargo pallets, and parachute platforms.",
+            "refs": [
+              "fn-aft-il76"
+            ]
+          },
+          {
+            "text": "Humanitarian and civil cargo: evacuation, emergency response, disaster relief, and heavy freight.",
+            "refs": [
+              "fn-wiki-il76"
+            ]
+          },
+          {
+            "text": "Special missions: tanker, airborne early warning, command/test aircraft, aerial firefighting, and reduced-gravity work.",
+            "refs": [
+              "fn-wiki-il76"
+            ]
+          }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "comparison",
+        "title": "Comparison and Role Context",
         "paragraphs": [
           {
-            "text": "Ilyushin Il-76 similar-development links: 4.",
+            "text": "Compared with the turboprop An-12 it was designed to succeed, the Il-76 brought jet speed, larger payload, and greater strategic reach while retaining military cargo handling. Compared with the C-130 Hercules, it is much larger and faster but needs more support and runway than a tactical turboprop. Compared with the C-17 and C-5, it sits in a different doctrinal and industrial ecosystem but overlaps in heavy ramp-delivery logistics.",
+            "refs": [
+              "fn-aft-il76",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Its closest Milipedia comparison set is therefore not a single aircraft but a role band: An-12 for predecessor context, C-130 for tactical ramp transport, C-17 for modern jet airlift with austere-field emphasis, and C-5 for very large strategic lift.",
             "refs": [
               "fn-method"
             ]
@@ -42214,31 +42399,177 @@
         ],
         "links": [
           {
-            "label": "Lockheed C-130 Hercules",
-            "url": "aircraft.html?id=c-130-hercules"
+            "label": "Antonov An-12",
+            "url": "aircraft.html?id=an-12"
           },
           {
-            "label": "Lockheed C-5 Galaxy",
-            "url": "aircraft.html?id=c-5-galaxy"
+            "label": "Lockheed C-130 Hercules",
+            "url": "aircraft.html?id=c-130-hercules"
           },
           {
             "label": "Boeing C-17 Globemaster III",
             "url": "aircraft.html?id=c-17-globemaster-iii"
           },
           {
+            "label": "Lockheed C-5 Galaxy / C-5M Super Galaxy",
+            "url": "aircraft.html?id=c-5-galaxy"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The Il-76 family’s strengths are payload, rear-ramp utility, rough-field tolerance, self-contained loading equipment, and adaptability into tanker, AEW, firefighting, and special-mission roles. Those qualities explain why the airframe remained useful long after its Cold War debut.",
+            "refs": [
+              "fn-aft-il76",
+              "fn-wiki-il76"
+            ]
+          },
+          {
+            "text": "Limitations include fuel burn and noise on older D-30KP-powered aircraft, avionics age on unmodernized fleets, variant-dependent performance, and the complexity of maintaining heavy four-engine transports. The MD-90A modernization addresses some but not all of those issues.",
+            "refs": [
+              "fn-aft-md90a",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: heavy ramp cargo and airdrop capability from austere or remote airfields.",
+            "refs": [
+              "fn-aft-il76"
+            ]
+          },
+          {
+            "text": "Strength: broad derivative ecosystem, including tanker and special-mission aircraft.",
+            "refs": [
+              "fn-wiki-il76"
+            ]
+          },
+          {
+            "text": "Limitation: public figures differ substantially between Il-76, Il-76M/MD, TD, MF/TF, and MD-90A variants.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: older engines and systems can be less efficient and less compliant with modern civil operating restrictions than PS-90-powered variants.",
+            "refs": [
+              "fn-aft-md90a"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "Key milestones below emphasize verified development and modernization events rather than attempting a complete production or incident chronology.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1967: Ilyushin begins work against a Soviet heavy jet-freighter requirement.",
+            "refs": [
+              "fn-wiki-il76"
+            ]
+          },
+          {
+            "text": "1971: Il-76 first flight.",
+            "refs": [
+              "fn-wiki-il76"
+            ]
+          },
+          {
+            "text": "1974: Service introduction.",
+            "refs": [
+              "fn-wiki-il76"
+            ]
+          },
+          {
+            "text": "1980s onward: Il-76MD, Il-76TD, Il-78 tanker, and special-mission derivatives broaden the family.",
+            "refs": [
+              "fn-aft-il76",
+              "fn-wiki-il76"
+            ]
+          },
+          {
+            "text": "2011-2012: Il-76MD-90A rollout and first flight reported for the modernized new-build version.",
+            "refs": [
+              "fn-aft-md90a"
+            ]
+          },
+          {
+            "text": "2019: first serial Il-76MD-90A delivery to the Russian Ministry of Defense reported by Airforce Technology.",
+            "refs": [
+              "fn-aft-md90a"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "This update used manufacturer data for the modern Il-76MD-90A where available, Airforce Technology for extractable technical details on the baseline and MD-90A aircraft, and Wikipedia only as a broad orientation source for dates, operators, and derivative families.",
+            "refs": [
+              "fn-uac-md90a",
+              "fn-aft-il76",
+              "fn-aft-md90a",
+              "fn-wiki-il76"
+            ]
+          },
+          {
+            "text": "Exact aircraft counts, current operator inventories, defensive-aids fits, weapons provisions, and mission equipment vary by variant, user, and modernization state. Those details were therefore phrased conservatively or omitted unless tied to a source used in this run.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia aircraft with overlapping transport, airlift, or predecessor roles.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
             "label": "Antonov An-12",
             "url": "aircraft.html?id=an-12"
+          },
+          {
+            "label": "Lockheed C-130 Hercules",
+            "url": "aircraft.html?id=c-130-hercules"
+          },
+          {
+            "label": "Boeing C-17 Globemaster III",
+            "url": "aircraft.html?id=c-17-globemaster-iii"
+          },
+          {
+            "label": "Lockheed C-5 Galaxy / C-5M Super Galaxy",
+            "url": "aircraft.html?id=c-5-galaxy"
+          },
+          {
+            "label": "Back to Aircraft Database",
+            "url": "aircraft.html"
           }
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Mortar_attack_on_Shigal_Tarna_garrison%2C_Kunar_Province%2C_87.jpg/960px-Mortar_attack_on_Shigal_Tarna_garrison%2C_Kunar_Province%2C_87.jpg",
-        "caption": "Soviet–Afghan War",
-        "source_url": "https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "an-12",
