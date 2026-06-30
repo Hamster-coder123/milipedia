@@ -855,3 +855,79 @@ Record the result of:
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * Public Yak-130 inventory totals, operator status, loss claims, and exact export weapons clearances are date-sensitive; the page uses representative operator entries and cautious wording rather than fixed fleet tables.
 * Rosoboronexport pages were useful as official current product references, but automated extraction returned mostly navigation text in this run; representative technical figures were therefore based primarily on WeaponSystems.net and treated as source-dependent.
+
+### Run 12 — 2026-06-30 07:03:23 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Chengdu J-7 / F-7 Airguard (id: chengdu-j-7)
+* Reason selected: The Chengdu J-7 entry was the sparsest unedited aircraft page in the comparison pass, with no real operator records, no real variants, no external article sources, missing engine/range/ceiling/dimension/hardpoint data, and generated placeholder sections far below the F-16 reference density.
+* Previous condition: Placeholder-like generated entry with 15 exact fact fields, 0 operator entries, 0 variant entries, 0 external article sources, generic armament wording, no MiG-21 derivation detail beyond a simple summary, no export-family/operator coverage, and only generic overview/development/design/service text.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview and quick-fact style; section order covering overview, development, design, specifications, variants/operators, operational history, weapons systems, comparison, strengths/limitations, timeline, sources, and related pages; concise source-qualified technical prose; card-style fact emphasis within the JSON renderer; internal aircraft.html?id=... related-link style; cautious notes for variant-, operator-, and loadout-dependent facts.
+
+#### Changes Made
+
+* Expanded the Chengdu J-7 / F-7 Airguard entry in data/aircraft.json into a fuller Milipedia article record while preserving the existing JSON-rendered aircraft-page structure.
+* Updated top-level facts for name, alternative names, NATO reporting name, manufacturer/production lineage, role, aircraft type, first-flight chronology, introduction, China/export retirement-status caveats, production scale, crew, engine family, speed, range, combat range, service ceiling, climb rate, hardpoints, armament, development history, operational role, summary, variants, operators, related aircraft, and article-quality counts.
+* Replaced generic fighter armament wording with J-7/F-7-specific language covering 30 mm cannon, short-range air-to-air missiles, rocket pods, unguided bombs, external stores, and variant/operator caveats.
+* Added Air Force Technology as the primary technical/program source for representative specifications, armament, development, variants, operators, and production-scale data; retained Wikipedia only as supplementary orientation for chronology, MiG-21 derivation, NATO reporting name, and operator discovery.
+* Added/expanded sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Weapons Systems, Comparison and Role Context, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added representative public technical details for one WP-7 / Liyang Wopen-13F-family turbojet, 44.1 kN dry thrust / 65.17 kN afterburning thrust source context, 14.88 m length, 8.32 m wingspan, 4.10 m height, 9,100 kg maximum takeoff weight, 2,120 km/h maximum speed, 850 km combat range, 2,000 km ferry range, 17,800 m service ceiling, 155 m/s climb rate, and five hardpoints.
+* Added variant/context coverage for early J-7/J-7I, J-7II/J-7B, F-7M Airguard, F-7P/F-7PG Skybolt, F-7BG/F-7BGI, FT-7 trainer, and J-7E/J-7G families.
+* Added representative operator coverage for China, Pakistan, Bangladesh, North Korea, Iran, and grouped export operators including Myanmar, Sri Lanka, Sudan, Zimbabwe, Tanzania, Nigeria, Namibia, Egypt, and others with date-sensitive inventory caveats.
+* Added internal related/comparison links to MiG-21, Chengdu J-10, JF-17 Thunder, Shenyang J-11, and Northrop F-5.
+* Omitted exact current fleet totals, national retirement dates, detailed accident/loss tables, and operator-specific radar/weapons clearances because those facts vary by date, subvariant, source, and national configuration.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Chengdu J-7 / F-7 Airguard aircraft entry and sources.
+* hermes-change-log.md — Appended the cumulative record for Run 12.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed the diff; data/aircraft.json changed only the Chengdu J-7 entry, and hermes-change-log.md gained this cumulative Run 12 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the J-7 entry section list, sources, variants, operators, armament wording, article-quality fields, and source caveats.
+4. F-16 style comparison — Inspected data/f16-template.html and matched its dense overview, development/design/specifications/variants/operators/operational-history/weapons/comparison/timeline/source ordering within the JSON article renderer.
+5. Internal link check — Verified internal aircraft.html?id= links for MiG-21, Chengdu J-10, JF-17 Thunder, Shenyang J-11, and Northrop F-5 point to existing aircraft IDs.
+6. Secret/token check — Ran a credential-pattern scan over the staged diff for API keys, tokens, passwords, private keys, GitHub tokens, and AWS credentials; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, only intended files staged, exactly one aircraft entry changed, internal links valid, git diff --check clean, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Chengdu J-7 / F-7 Airguard
+* Commit hash: Pending until commit is created; final hash is reported in the scheduled-run response.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* Public J-7/F-7 inventory status, exact national retirement dates, radar fits, and weapons clearances are date-sensitive and vary by subvariant/operator, so the page uses representative operator entries and cautious wording rather than fixed current fleet tables.
+* Air Force Technology was the main detailed technical source available in this run; Wikipedia was retained only as supplementary orientation and not used alone for precise technical claims.

@@ -52590,35 +52590,100 @@
   },
   {
     "id": "chengdu-j-7",
-    "name": "Chengdu J-7",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "name": "Chengdu J-7 / F-7 Airguard",
+    "alternative_names": [
+      "F-7 Airguard",
+      "J-7 Fishcan",
+      "Jian-7",
+      "F-7 Skybolt"
+    ],
+    "nato_reporting_name": "Fishcan",
     "country_of_origin": "China",
-    "manufacturer": "Chengdu Aircraft Corporation",
-    "role": "Fighter",
+    "manufacturer": "Chengdu Aircraft Corporation / Guizhou Aircraft Industry Corporation",
+    "role": "Lightweight fighter and point-defense interceptor",
     "aircraft_type": "Fighter",
-    "era": "Cold War/Modern",
-    "first_flight": "1966",
+    "era": "Cold War / modern export service",
+    "first_flight": "January 1966",
     "introduction_date": "1967",
-    "retirement_date": null,
-    "status": "Active/retired by operator",
-    "number_built": "Not listed",
+    "retirement_date": "PLAAF retired the type in the 2020s; export service varies by operator",
+    "status": "Retired by China; active or retired by export operator",
+    "number_built": "More than 2,400 J-7/F-7-family aircraft reported by Air Force Technology",
     "crew": "1",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "engine_type": "Afterburning turbojet",
+    "engines": "One Liyang Wopen-13F / WP-7-family turbojet depending on variant",
+    "max_speed": "About 2,120 km/h for representative J-7 data",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Chengdu J-7: Fighter. Manufacturer: Chengdu Aircraft Corporation. First flight: 1966. Introduction: 1967.",
-    "short_summary": "Chengdu J-7: Fighter. Origin: China. Manufacturer: Chengdu Aircraft Corporation. First flight: 1966. Introduction: 1967. Status: Active/retired by operator.",
+    "range": "About 2,000 km ferry range for representative J-7 data",
+    "combat_range": "About 850 km combat range for representative J-7 data",
+    "service_ceiling": "About 17,800 m for representative J-7 data",
+    "rate_of_climb": "About 155 m/s for representative J-7 data",
+    "armament": "Typically 30 mm cannon, short-range air-to-air missiles, rockets, unguided bombs, and external stores; exact weapons vary widely by J-7/F-7 variant and export customer.",
+    "hardpoints": "Five external stations on representative J-7/F-7 configurations",
+    "variants": [
+      {
+        "name": "Early J-7 / J-7I",
+        "description": "Initial Chinese production and improvement batches derived from MiG-21F-13 technology, affected by early production disruption and later refinement."
+      },
+      {
+        "name": "J-7II / J-7B family",
+        "description": "Improved domestic and export-generation aircraft with reliability, canopy, ejection-seat, and weapons changes depending on subvariant."
+      },
+      {
+        "name": "F-7M Airguard",
+        "description": "Export-focused model associated with Westernized avionics and weapons-aiming improvements for foreign customers."
+      },
+      {
+        "name": "F-7P / F-7PG Skybolt",
+        "description": "Pakistan-oriented export versions; later F-7PG aircraft incorporated an improved wing and avionics package compared with earlier F-7P aircraft."
+      },
+      {
+        "name": "F-7BG / F-7BGI",
+        "description": "Bangladesh Air Force export models, with the later BGI representing one of the final and more modern F-7 export configurations."
+      },
+      {
+        "name": "FT-7",
+        "description": "Two-seat trainer family used to support conversion training for J-7/F-7 operators."
+      },
+      {
+        "name": "J-7E / J-7G",
+        "description": "Later Chinese-service upgrades with aerodynamic, radar, avionics, and missile-integration improvements; exact fit varies by model."
+      }
+    ],
+    "operators": [
+      {
+        "country": "China",
+        "service": "People's Liberation Army Air Force and related training units",
+        "notes": "Original domestic user; the type filled point-defense and fighter-training roles before replacement by newer J-10, J-11, J-16, and related aircraft."
+      },
+      {
+        "country": "Pakistan",
+        "service": "Pakistan Air Force",
+        "notes": "Major export user of F-7P/F-7PG-family aircraft; service status and exact numbers have changed as JF-17 and other fighters entered service."
+      },
+      {
+        "country": "Bangladesh",
+        "service": "Bangladesh Air Force",
+        "notes": "Operated F-7MB/BG/BGI-family aircraft, including late-production F-7BGI examples delivered near the end of J-7/F-7 production."
+      },
+      {
+        "country": "North Korea",
+        "service": "Korean People's Army Air Force",
+        "notes": "Listed in public sources as a J-7/F-7 operator; current readiness and numbers are difficult to verify from public data."
+      },
+      {
+        "country": "Iran",
+        "service": "Islamic Republic of Iran Air Force",
+        "notes": "Public sources list F-7-family aircraft in Iranian service; exact current status is date-sensitive."
+      },
+      {
+        "country": "Myanmar, Sri Lanka, Sudan, Zimbabwe, Tanzania, Nigeria, Namibia, Egypt and others",
+        "service": "Export air arms",
+        "notes": "Representative export users; some aircraft have been retired, stored, lost, or replaced, so this page avoids fixed current inventory totals."
+      }
+    ],
+    "combat_history": "Used primarily for point air defense, training, and light attack by China and numerous export operators; several users employed F-7s in regional service and peacetime air policing.",
+    "development_history": "Developed from MiG-21 technology transferred before the Sino-Soviet split fully disrupted cooperation. Chinese production and reverse-engineering work produced the J-7, while export models were marketed as F-7 Airguard/Skybolt-family fighters.",
+    "short_summary": "The Chengdu J-7 / F-7 Airguard is a Chinese single-engine, single-seat fighter derived from the MiG-21. It became one of China's most numerous combat-aircraft families, serving the PLAAF and many export operators as a low-cost supersonic point-defense fighter, trainer, and light attack platform.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -52631,25 +52696,25 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-aft",
+        "title": "J-7 / F-7 Fighter Aircraft",
+        "url": "https://www.airforce-technology.com/projects/j7f7fighteraircraft/",
+        "publisher": "Air Force Technology",
+        "note": "Used for representative J-7/F-7 specifications, development history, variants, operators, production totals, and armament overview."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Chengdu J-7",
         "url": "https://en.wikipedia.org/wiki/Chengdu_J-7",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for broad chronology, MiG-21 derivation, NATO reporting name, and operator discovery; not used alone for precise technical claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
+        "note": "Repository-local guidance: use conservative wording where variant, operator, or dated inventory details vary."
       }
     ],
     "country_flags": [
@@ -52659,24 +52724,37 @@
       }
     ],
     "designers": [
-      "Chengdu Aircraft Corporation"
+      "Chengdu Aircraft Corporation",
+      "Guizhou Aircraft Industry Corporation"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Turning incomplete MiG-21 technology transfer into a sustainable Chinese production program after Sino-Soviet relations deteriorated.",
+      "Balancing low cost, high speed, small size, simple maintenance, and export affordability against limited range, payload, radar volume, and growth margin.",
+      "Keeping a 1960s airframe relevant through radar, avionics, missile, wing, and trainer/export updates while newer Chinese fighters entered service."
     ],
-    "wars_used_in": [],
+    "wars_used_in": [
+      "Regional air-defense and light-attack service with export operators",
+      "Peacetime interception and air-policing missions",
+      "Training and conversion use for MiG-21/F-7-family operators"
+    ],
     "variant_families": [
-      "Chengdu J-7 baseline production model",
-      "Chengdu J-7 upgraded avionics or weapons-capable model",
-      "Chengdu J-7 export or locally modernized model"
+      "Early J-7 / J-7I",
+      "J-7II / J-7B family",
+      "F-7M Airguard",
+      "F-7P / F-7PG Skybolt",
+      "F-7BG / F-7BGI",
+      "FT-7 trainer",
+      "J-7E / J-7G"
     ],
     "operator_summary": {
-      "major_designer_or_builder": [
-        "China"
+      "primary_users": [
+        "People's Liberation Army Air Force",
+        "Pakistan Air Force",
+        "Bangladesh Air Force",
+        "Korean People's Army Air Force",
+        "multiple export air arms"
       ],
-      "major_user_note": "Chengdu J-7 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "notes": "The J-7/F-7 became a widely exported Chinese fighter family; public current-inventory figures vary by source and date."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -52689,84 +52767,97 @@
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Chengdu J-7 uses jet propulsion."
+      "type": "Single afterburning turbojet",
+      "summary": "Representative J-7 data lists one Liyang Wopen-13F / WP-7-family engine; Air Force Technology gives 44.1 kN dry thrust and 65.17 kN with afterburner for its cited engine fit."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Representative armament includes 30 mm cannon, PL-series or export-compatible short-range air-to-air missiles, rockets, unguided bombs, and external tanks/stores.",
+      "caution": "Weapons, radar, and avionics differ greatly between domestic J-7 models and export F-7 variants; the page avoids treating one loadout as universal."
     },
     "similar_development": [
       {
-        "id": "f-4-phantom-ii",
-        "name": "McDonnell Douglas F-4 Phantom II",
-        "url": "aircraft.html?id=f-4-phantom-ii"
+        "id": "mig-21",
+        "name": "Mikoyan-Gurevich MiG-21",
+        "url": "aircraft.html?id=mig-21"
+      },
+      {
+        "id": "chengdu-j-10",
+        "name": "Chengdu J-10",
+        "url": "aircraft.html?id=chengdu-j-10"
+      },
+      {
+        "id": "jf-17-thunder",
+        "name": "CAC/PAC JF-17 Thunder",
+        "url": "aircraft.html?id=jf-17-thunder"
+      },
+      {
+        "id": "shenyang-j-11",
+        "name": "Shenyang J-11",
+        "url": "aircraft.html?id=shenyang-j-11"
       },
       {
         "id": "f-5-freedom-fighter-tiger-ii",
         "name": "Northrop F-5",
         "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
-      },
-      {
-        "id": "f-8-crusader",
-        "name": "Vought F-8 Crusader",
-        "url": "aircraft.html?id=f-8-crusader"
-      },
-      {
-        "id": "f-14-tomcat",
-        "name": "Grumman F-14 Tomcat",
-        "url": "aircraft.html?id=f-14-tomcat"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 34,
+      "operator_entries": 6,
+      "variant_entries": 7,
+      "external_article_sources": 1
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-aft",
+        "title": "J-7 / F-7 Fighter Aircraft",
+        "url": "https://www.airforce-technology.com/projects/j7f7fighteraircraft/",
+        "publisher": "Air Force Technology",
+        "note": "Representative public technical data and program summary for the J-7/F-7 family."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Chengdu J-7",
         "url": "https://en.wikipedia.org/wiki/Chengdu_J-7",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for broad chronology, derivation, and operator discovery."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for units, neutral wording, variant caveats, and source handling."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "J-7 / F-7 Fighter Aircraft",
+        "url": "https://www.airforce-technology.com/projects/j7f7fighteraircraft/",
+        "publisher": "Air Force Technology",
+        "summary": "Program overview with representative specifications, armament, development history, and export/operator notes."
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Chengdu J-7 is a Fighter from China. Manufacturer: Chengdu Aircraft Corporation. First flight: 1966. Introduction: 1967. Status: Active/retired by operator.",
+            "text": "The Chengdu J-7 / F-7 Airguard is a Chinese single-seat, single-engine fighter derived from the Soviet MiG-21. Its small delta-wing airframe, nose intake, and afterburning turbojet made it a low-cost supersonic point-defense fighter rather than a long-range multirole platform.",
             "refs": [
-              "fn-main"
+              "fn-aft",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Chengdu J-7 is a fighter. Primary role: fighter. Country of origin: China. Manufacturer: Chengdu Aircraft Corporation.",
+            "text": "The family served China for decades and was exported widely under F-7 designations. Later models added improved avionics, radar, weapons-aiming systems, and export-specific equipment, but the basic airframe remained constrained by MiG-21-era size, fuel, and payload limits.",
             "refs": [
-              "fn-wikidata"
+              "fn-aft"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "This page treats performance and armament values as representative because J-7/F-7 subvariants differ substantially by production batch, national customer, radar fit, and weapons integration.",
             "refs": [
               "fn-method"
             ]
@@ -52775,50 +52866,69 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Fighter"
+            "text": "Lightweight fighter / point-defense interceptor"
           },
           {
-            "title": "Designer or builder",
-            "text": "Chengdu Aircraft Corporation"
+            "title": "Origin",
+            "text": "China; MiG-21-derived design"
           },
           {
-            "title": "Major origin",
-            "text": "China"
+            "title": "Crew",
+            "text": "One pilot"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Representative engine",
+            "text": "One WP-7 / Wopen-13F-family turbojet"
+          },
+          {
+            "title": "Production scale",
+            "text": "More than 2,400 reported across J-7/F-7 family"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Chengdu J-7 first flew in 1966. Introduction date: 1967. Era: Cold War/Modern.",
+            "text": "China obtained MiG-21 technology and hardware during the early 1960s, but the Sino-Soviet split left the program with incomplete documentation and interrupted support. Chinese factories therefore combined licensed-production work, reverse engineering, and local redesign to establish the J-7.",
             "refs": [
-              "fn-main"
+              "fn-aft",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Producer: Chengdu Aircraft Corporation. Development context: fighter, jet propulsion, supersonic speed category, Cold War/Modern era.",
+            "text": "Air Force Technology records airframe testing in November 1965, a maiden flight in January 1966, and Chinese military certification in June 1967. Large-scale production matured later, with the type becoming a practical export fighter during the 1980s and beyond.",
             "refs": [
-              "fn-wikidata"
+              "fn-aft"
+            ]
+          },
+          {
+            "text": "The export F-7 line allowed China to offer a supersonic fighter to states that needed affordable air defense and conversion training, even as more capable fourth-generation aircraft eventually replaced the J-7 in Chinese service.",
+            "refs": [
+              "fn-aft",
+              "fn-wikipedia"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "MiG-21-derived layout: nose intake, delta wing, single engine, and compact fuselage.",
             "refs": [
-              "fn-method"
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "Production and modernization were spread across domestic and export variants rather than one uniform configuration.",
             "refs": [
-              "fn-method"
+              "fn-aft"
+            ]
+          },
+          {
+            "text": "Production ended after late export deliveries; several operators continued to fly F-7 variants afterward.",
+            "refs": [
+              "fn-aft",
+              "fn-wikipedia"
             ]
           }
         ]
@@ -52828,107 +52938,91 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The J-7 emphasizes speed, climb, and simple point-defense readiness. Its delta wing and compact airframe support supersonic interception, but fuel capacity, radar volume, weapons load, and endurance are limited compared with later multirole fighters.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Carrier capable: no. Stealth: no.",
-            "refs": [
+              "fn-aft",
               "fn-method"
             ]
           },
           {
-            "text": "Chengdu J-7 uses jet propulsion. Engine model field: Not listed.",
+            "text": "Representative J-7 data lists a single Liyang Wopen-13F / WP-7-family turbojet, with Air Force Technology giving 44.1 kN dry thrust and 65.17 kN with afterburner for the cited engine fit.",
             "refs": [
-              "fn-main"
+              "fn-aft"
             ]
           },
           {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
+            "text": "Export and late domestic versions introduced improved heads-up display/weapon-aiming equipment, navigation aids, and radar options such as Super Skyranger, Grifo-7, or Type 226-family fits in public summaries. Exact avionics should be checked by variant.",
             "refs": [
-              "fn-main"
+              "fn-aft"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "1"
+            "title": "Airframe",
+            "text": "Small MiG-21-derived delta-wing fighter"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Mission emphasis",
+            "text": "Short-range air defense, training, and light attack"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Representative ceiling",
+            "text": "About 17,800 m"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Representative combat range",
+            "text": "About 850 km"
           },
           {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Growth limits",
+            "text": "Small radar bay, limited fuel, and limited payload compared with newer fighters"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Chengdu J-7 status: Active/retired by operator. Conflict entries: 0.",
+            "text": "Representative published dimensions are 14.88 m length, 8.32 m wingspan, 4.10 m height, and 23 m² wing area. Air Force Technology lists 5,292 kg empty weight, 7,680 kg loaded weight, and 9,100 kg maximum takeoff weight.",
             "refs": [
-              "fn-main"
+              "fn-aft"
             ]
           },
           {
-            "text": "Conflicts: 0 entries.",
+            "text": "Representative performance data includes 2,120 km/h maximum speed, 1,200 km/h cruise speed, 850 km combat range, 2,000 km ferry range, 17,800 m service ceiling, and 155 m/s rate of climb.",
+            "refs": [
+              "fn-aft"
+            ]
+          },
+          {
+            "text": "Because the J-7/F-7 family spans many domestic, export, trainer, and upgraded subvariants, specifications should be read as a baseline comparison set rather than a universal value for every aircraft.",
             "refs": [
               "fn-method"
             ]
           }
         ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
+        "cards": [
           {
-            "text": "Chengdu J-7 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "14.88 m"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Wingspan",
+            "text": "8.32 m"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum takeoff weight",
+            "text": "About 9,100 kg"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum speed",
+            "text": "About 2,120 km/h"
+          },
+          {
+            "title": "Hardpoints",
+            "text": "Five external stations"
           }
         ]
       },
@@ -52937,35 +53031,48 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Chengdu J-7 variant-family entries: 3. Variant families: Chengdu J-7 baseline production model; Chengdu J-7 upgraded avionics or weapons-capable model; Chengdu J-7 export or locally modernized model.",
+            "text": "Air Force Technology states that Chengdu developed more than 50 J-7/F-7 variants, including domestic Chinese models and export versions. Rather than listing every subvariant, this page groups the most important families.",
             "refs": [
-              "fn-main"
+              "fn-aft"
             ]
           },
           {
-            "text": "Complete variant entries listed: 0.",
+            "text": "Early J-7 aircraft established the Chinese MiG-21-derived baseline. Later J-7II/J-7B, J-7E/J-7G, F-7M, F-7P/F-7PG, F-7BG/BGI, and FT-7 trainer families added different combinations of avionics, canopy, radar, wing, missile, and training changes.",
             "refs": [
-              "fn-method"
+              "fn-aft",
+              "fn-wikipedia"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Chengdu J-7 baseline production model",
+            "text": "J-7 / J-7I: early Chinese-service production and improvement batches.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Chengdu J-7 upgraded avionics or weapons-capable model",
+            "text": "F-7M Airguard: export-oriented configuration associated with improved avionics and weapon aiming.",
             "refs": [
-              "fn-main"
+              "fn-aft"
             ]
           },
           {
-            "text": "Chengdu J-7 export or locally modernized model",
+            "text": "F-7P/F-7PG and F-7BG/BGI: major Pakistan and Bangladesh export families.",
             "refs": [
-              "fn-main"
+              "fn-aft"
+            ]
+          },
+          {
+            "text": "FT-7: two-seat trainer versions for conversion and continuation training.",
+            "refs": [
+              "fn-aft"
+            ]
+          },
+          {
+            "text": "J-7E/J-7G: later Chinese upgrades with improved aerodynamic and avionics/weapons features.",
+            "refs": [
+              "fn-wikipedia"
             ]
           }
         ]
@@ -52975,13 +53082,14 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: China. Chengdu J-7 has 1 designer or builder country entry.",
+            "text": "The J-7/F-7 served the PLAAF and became one of China's most widely exported combat-aircraft families. Public sources list Pakistan, Bangladesh, North Korea, Iran, Myanmar, Sri Lanka, Sudan, Zimbabwe, Tanzania, Nigeria, Namibia, Egypt, and others among users or customers.",
             "refs": [
-              "fn-wikidata"
+              "fn-aft",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Current operator status is date-sensitive: some air forces still use F-7s for training, air policing, or secondary fighter duties, while others have replaced them with JF-17, J-10, F-16, MiG-29, or other aircraft.",
             "refs": [
               "fn-method"
             ]
@@ -52989,31 +53097,51 @@
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "China: original domestic operator; the type was replaced as newer Chinese fighters entered service.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Major designer or builder entries: China.",
+            "text": "Pakistan and Bangladesh: major South Asian F-7 users with national subvariant histories.",
             "refs": [
-              "fn-wikidata"
+              "fn-aft",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "North Korea and Iran: public-source listed operators where exact readiness and inventory figures are difficult to verify.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "African and Asian export users: F-7s were purchased for affordable supersonic air defense and light-attack roles.",
+            "refs": [
+              "fn-aft"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Supersonic, first flight 1966, introduction 1967.",
+            "text": "In Chinese service, the J-7 filled a large numerical air-defense role while newer fighters were developed. Its low cost and simple support requirements made it useful for dispersed point-defense units and for training pilots on supersonic aircraft.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia",
+              "fn-method"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Export F-7s were used for interception, air policing, fighter lead-in training, and limited ground-attack work. Air Force Technology notes that the aircraft was suitable mainly for point air defense because of its short-range attacking capability.",
+            "refs": [
+              "fn-aft"
+            ]
+          },
+          {
+            "text": "The family's long export life reflects affordability and availability more than top-tier capability. Against modern beyond-visual-range fighters and integrated sensor networks, most J-7/F-7 variants are limited by radar, range, survivability, and weapons integration.",
             "refs": [
               "fn-method"
             ]
@@ -53021,11 +53149,43 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "weapons-systems",
+        "title": "Weapons Systems",
         "paragraphs": [
           {
-            "text": "Chengdu J-7 similar-development links: 4.",
+            "text": "Representative armament includes two 30 mm Type 30-1 cannon, short-range PL-series or export-compatible air-to-air missiles, unguided bombs, rocket pods, and external tanks or stores on five hardpoints.",
+            "refs": [
+              "fn-aft"
+            ]
+          },
+          {
+            "text": "Air Force Technology lists PL-2, PL-5, PL-7, PL-8, PL-9, Magic R.550, and AIM-9 compatibility in public overview form. These should be read as family-level possibilities, not a guaranteed loadout for every national aircraft.",
+            "refs": [
+              "fn-aft",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The J-7/F-7 was primarily a visual-range or short-range fighter; later variants improved radar and missile integration, but the small nose intake and compact airframe limited sensor growth.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Role Context",
+        "paragraphs": [
+          {
+            "text": "Compared with the MiG-21, the J-7 is best understood as a Chinese-produced derivative adapted through many local and export variants. Compared with newer Chengdu J-10 or JF-17 fighters, it is simpler, cheaper, and less capable in radar, range, payload, and multirole flexibility.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The J-7 occupied a role similar to other lightweight export fighters: affordable supersonic defense for countries that could not field larger numbers of advanced fourth-generation aircraft.",
             "refs": [
               "fn-method"
             ]
@@ -53033,20 +53193,152 @@
         ],
         "links": [
           {
-            "label": "McDonnell Douglas F-4 Phantom II",
-            "url": "aircraft.html?id=f-4-phantom-ii"
+            "label": "Mikoyan-Gurevich MiG-21",
+            "url": "aircraft.html?id=mig-21"
+          },
+          {
+            "label": "Chengdu J-10",
+            "url": "aircraft.html?id=chengdu-j-10"
+          },
+          {
+            "label": "CAC/PAC JF-17 Thunder",
+            "url": "aircraft.html?id=jf-17-thunder"
+          },
+          {
+            "label": "Shenyang J-11",
+            "url": "aircraft.html?id=shenyang-j-11"
+          },
+          {
+            "label": "Northrop F-5",
+            "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths included low procurement cost, simple operation, high dash speed, rapid climb, small size, and availability to many export customers. These made the type useful for point defense, training, and secondary fighter duties.",
+            "refs": [
+              "fn-aft",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitations included short range, modest payload, restricted radar aperture, limited endurance, and survivability challenges against modern fighters and surface-based air defenses. Variant upgrades reduced but did not erase these structural limits.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Best fit: short-range interception, air policing, and low-cost fighter training.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Weak fit: long-range strike, heavy multirole payloads, advanced sensor fusion, or high-threat modern air combat.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "1961-1962: China and the Soviet Union arranged MiG-21 technology transfer before relations deteriorated further.",
+            "refs": [
+              "fn-aft",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "November 1965-January 1966: J-7 airframe testing and first flight are reported in public summaries.",
+            "refs": [
+              "fn-aft"
+            ]
+          },
+          {
+            "text": "June 1967: Chinese military certification is reported for the J-7.",
+            "refs": [
+              "fn-aft"
+            ]
+          },
+          {
+            "text": "1980s-2000s: the family matured into numerous domestic and export J-7/F-7 variants.",
+            "refs": [
+              "fn-aft"
+            ]
+          },
+          {
+            "text": "2010s-2020s: production ended and China retired the type, while export fleets continued or phased out at different rates.",
+            "refs": [
+              "fn-aft",
+              "fn-wikipedia"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Air Force Technology is the primary technical source for this run. Wikipedia is retained as a supplementary orientation source for broad chronology and operator discovery only.",
+            "refs": [
+              "fn-aft",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Exact fleet counts, national retirement dates, radar fits, and weapons clearances were omitted where they vary by date, subvariant, and operator or require more specific official confirmation.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia aircraft pages for lineage and role comparison:",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Mikoyan-Gurevich MiG-21",
+            "url": "aircraft.html?id=mig-21"
+          },
+          {
+            "label": "Chengdu J-10",
+            "url": "aircraft.html?id=chengdu-j-10"
+          },
+          {
+            "label": "CAC/PAC JF-17 Thunder",
+            "url": "aircraft.html?id=jf-17-thunder"
+          },
+          {
+            "label": "Shenyang J-11",
+            "url": "aircraft.html?id=shenyang-j-11"
           },
           {
             "label": "Northrop F-5",
             "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
           },
           {
-            "label": "Vought F-8 Crusader",
-            "url": "aircraft.html?id=f-8-crusader"
-          },
-          {
-            "label": "Grumman F-14 Tomcat",
-            "url": "aircraft.html?id=f-14-tomcat"
+            "label": "Back to aircraft database",
+            "url": "index.html"
           }
         ]
       }
