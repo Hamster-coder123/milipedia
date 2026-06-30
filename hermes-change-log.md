@@ -1690,3 +1690,80 @@ Record the result of:
 
 * UH-60/H-60/S-70 configurations vary widely by model, mission kit, operator, and year, so range, ceiling, weapons, and inventories were caveated rather than forced into one universal value.
 * Lockheed Martin's product page is navigation-heavy; the UH-60M brochure and Sikorsky Archives page supplied the most concrete technical and historical details for this run.
+
+### Run 23 — 2026-06-30 18:02:04 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Chengdu J-10 Vigorous Dragon (id: chengdu-j-10)
+* Reason selected: The J-10 entry was one of the shortest unedited aircraft records, with zero operator entries, zero variant entries, zero external article sources, missing range/ceiling/engine details, and generic generated sections far below the F-16 reference page's density.
+* Previous condition: Sparse generated page with 15 exact fact fields, placeholder "Not listed" performance values, no J-10A/J-10B/J-10C/J-10S variant detail, no China/Pakistan operator coverage, no real development/design/weapons/service context, and only generic Wikipedia/Wikidata/method sources.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense lead overview; article-section order covering overview, development, design, specifications, variants, operators, operational history, weapons, comparison, strengths/limitations, timeline, sources, and related pages; concise sourced paragraphs; card-style technical facts; cautious variant caveats; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the Chengdu J-10 entry in data/aircraft.json into a fuller Milipedia article data record while preserving the JSON-rendered aircraft page structure.
+* Updated top-level facts for name, alternative names, NATO reporting name, manufacturer, role, type, first flight, introduction timeframe, status, crew, engine class, representative speed, range, combat radius, ceiling, armament, hardpoints, development history, combat/service context, summary text, and source metadata.
+* Replaced generic generated armament wording with J-10-family weapon-system language covering the internal 23 mm cannon, 11 hardpoints, air-to-air missiles, air-to-ground stores, anti-ship/land-attack missiles, pods, tanks, and variant/operator caveats.
+* Added external/reference sources from Airforce Technology and Mitchell Institute, retained Wikipedia as supplementary orientation only, and kept the Milipedia accuracy-rules source.
+* Added Pakistan Air Force J-10C induction context from Airforce Technology reporting; noted that the official PAF PDF was located but timed out during extraction.
+* Added detailed sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Weapons Systems, Comparison and Role Context, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added representative technical details for AL-31FN-family engine data, Mach 1.9 high-altitude speed, 18,000 m ceiling, 1,850 km range, 550 km combat radius, 14.57 m length, 8.78 m wingspan, 4.78 m height, 9,750 kg empty weight, 19,277 kg maximum takeoff weight, and 4,500 kg maximum external load.
+* Added variant coverage for J-10A, J-10S, J-10B, J-10C, and export J-10C/FC-20-family aircraft.
+* Added operator coverage for China/PLAAF and Pakistan/PAF with caveats about date-sensitive fleet totals and configuration details.
+* Added related internal links to F-16, J-7/F-7, J-11, JF-17, and J-20 pages, plus the database return link.
+* Omitted exact current production totals, export fleet counts, radar model by batch, and engine fit by aircraft because public sources vary and can become outdated quickly.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Chengdu J-10 Vigorous Dragon aircraft page data and sources.
+* hermes-change-log.md — Appended the cumulative Run 23 log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files; temporary helper script was removed before staging.
+2. git diff — Reviewed diff/stat; data/aircraft.json changes are limited to the Chengdu J-10 entry, and hermes-change-log.md adds this Run 23 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed J-10 sections, sources, variants, operators, weapons wording, and caveats.
+4. F-16 style comparison — Inspected data/f16-template.html and copied its dense lead, section order, sourced paragraphs, specifications emphasis, variants/operators/service/weapons/comparison/timeline coverage, source notes, and related-page patterns within the JSON article system.
+5. Internal link check — Verified aircraft.html?id=f-16-fighting-falcon, aircraft.html?id=chengdu-j-7, aircraft.html?id=shenyang-j-11, aircraft.html?id=jf-17-thunder, and aircraft.html?id=chengdu-j-20 target existing aircraft ids in data/aircraft.json.
+6. Secret/token check — Ran credential-specific scan over the staged diff for API keys, tokens, passwords, private keys, GitHub tokens, and AWS credentials; no credentials were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, diff check, intended files only, J-10 was not previously edited by Hermes, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Chengdu J-10 Vigorous Dragon
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* The official PAF J-10C induction PDF was found but web extraction timed out, so Pakistan induction context uses Airforce Technology reporting rather than extracted PDF text.
+* Exact current J-10 production totals, radar models, engine fits, and export fleet counts are variant- and date-sensitive; the page uses cautious wording and omits fixed values where confidence was insufficient.

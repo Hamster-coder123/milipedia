@@ -56238,35 +56238,73 @@
   },
   {
     "id": "chengdu-j-10",
-    "name": "Chengdu J-10",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "name": "Chengdu J-10 Vigorous Dragon",
+    "alternative_names": [
+      "Jian-10",
+      "Fighter-10",
+      "Menglong",
+      "Vigorous Dragon",
+      "Firebird"
+    ],
+    "nato_reporting_name": "Firebird",
     "country_of_origin": "China",
-    "manufacturer": "Chengdu Aircraft Corporation",
-    "role": "Multirole fighter",
-    "aircraft_type": "Fighter",
+    "manufacturer": "Chengdu Aircraft Industry Corporation / Chengdu Aircraft Corporation",
+    "role": "Single-engine multirole combat aircraft",
+    "aircraft_type": "Multirole fighter",
     "era": "Modern",
-    "first_flight": "1998",
-    "introduction_date": "2005",
+    "first_flight": "1998 single-seat prototype; 2003 two-seat variant",
+    "introduction_date": "2005-2006 public-service timeframe; J-10C entered PLA service in 2018",
     "retirement_date": null,
     "status": "Active",
-    "number_built": "Not listed",
-    "crew": "1 or 2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "number_built": "Public totals vary by source and year; early Airforce Technology data listed 80, while later open-source estimates are much higher",
+    "crew": "1 in single-seat variants; 2 in J-10S trainer/conversion variants",
+    "engine_type": "Afterburning turbofan",
+    "engines": "One Saturn/Lyulka AL-31FN-family afterburning turbofan on early aircraft; later variants are associated in public sources with improved AL-31FN M1 or Chinese WS-10-family engines",
+    "max_speed": "About Mach 1.9 at high altitude (about 2,327 km/h) for representative public J-10 data",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Chengdu J-10: Multirole fighter. Manufacturer: Chengdu Aircraft Corporation. First flight: 1998. Introduction: 2005.",
-    "short_summary": "Chengdu J-10: Multirole fighter. Origin: China. Manufacturer: Chengdu Aircraft Corporation. First flight: 1998. Introduction: 2005. Status: Active.",
+    "range": "About 1,850 km maximum range in representative Airforce Technology data; Mitchell lists roughly 1,000 nmi maximum range",
+    "combat_range": "About 550 km combat radius in representative Airforce Technology data",
+    "service_ceiling": "About 18,000 m / 59,000 ft",
+    "rate_of_climb": "Not listed in the sources used for this update",
+    "armament": "One internal 23 mm cannon and up to 11 external hardpoints for short- and beyond-visual-range air-to-air missiles, precision-guided or unguided air-to-ground stores, anti-ship missiles, targeting pods, tanks, and training stores; exact weapons vary by variant and operator.",
+    "hardpoints": "11 external hardpoints in public Airforce Technology data",
+    "variants": [
+      {
+        "name": "J-10A",
+        "description": "Initial single-seat production model that gave the PLAAF a domestically produced canard-delta multirole fighter for air-defense and strike missions."
+      },
+      {
+        "name": "J-10S",
+        "description": "Two-seat trainer and conversion variant; public sources state the two-seat aircraft first flew in 2003 and supports training and mission-conversion work."
+      },
+      {
+        "name": "J-10B",
+        "description": "Improved model publicly associated with a redesigned inlet/radome area, aerial-refuelling capability, newer avionics, and radar upgrades; it made its public debut before the J-10C generation."
+      },
+      {
+        "name": "J-10C",
+        "description": "Later multirole variant inducted into PLA service in 2018 according to Airforce Technology, commonly described in public sources as carrying newer radar/avionics and modern Chinese air-to-air weapons."
+      },
+      {
+        "name": "Export J-10C / FC-20 family",
+        "description": "Export-oriented J-10C-family aircraft; Pakistan publicly inducted J-10C aircraft in 2022, but exact fleet totals and configuration details are date-sensitive."
+      }
+    ],
+    "operators": [
+      {
+        "country": "China",
+        "service": "People's Liberation Army Air Force",
+        "notes": "Primary J-10 operator; the aircraft complements heavier Su-27/J-11/Su-30/J-16-family fighters and has replaced older J-7/Q-5-era roles in many units."
+      },
+      {
+        "country": "Pakistan",
+        "service": "Pakistan Air Force",
+        "notes": "Publicly inducted Chinese-built J-10C fighters in 2022; detailed configuration and current fleet totals should be checked against current PAF releases before quoting fixed numbers."
+      }
+    ],
+    "combat_history": "The J-10 has primarily been documented in peacetime air-defense, training, modernization, patrol, exercise, and export-service contexts. Publicly verified combat employment details are limited and should be treated carefully.",
+    "development_history": "The J-10 program began in the late Cold War as China sought a modern single-engine multirole fighter to replace older J-7 and Q-5-era aircraft. Airforce Technology describes the program as starting in 1988, with the single-seat aircraft flying in 1998, a two-seat variant following in 2003, and service entry in the mid-2000s.",
+    "short_summary": "The Chengdu J-10 Vigorous Dragon is a Chinese single-engine, canard-delta multirole fighter. It combines fly-by-wire controls, supersonic performance, a 23 mm cannon, and multiple external stations for air-to-air and strike weapons. Later J-10B/J-10C variants added more modern avionics and weapons integration, while Pakistan became a confirmed export J-10C operator.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -56279,18 +56317,32 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-airforce-technology",
+        "title": "J-10 (Jian 10) Vigorous Dragon Multirole Tactical Fighter",
+        "url": "https://www.airforce-technology.com/projects/j-10",
+        "publisher": "Airforce Technology",
+        "note": "Program overview, representative dimensions, powerplant, weapons, development milestones, and performance figures."
+      },
+      {
+        "id": "fn-mitchell",
+        "title": "J-10",
+        "url": "https://www.mitchellaerospacepower.org/weapons/j-10",
+        "publisher": "Mitchell Institute for Aerospace Studies",
+        "note": "Concise technical data table used to cross-check status, NATO name, variants, dimensions, powerplant, speed, range, ceiling, and weapons."
+      },
+      {
+        "id": "fn-paf",
+        "title": "Pakistan officially inducts Chinese-built J-10C fighter jets",
+        "url": "https://www.airforce-technology.com/news/pakistan-inducts-j-10c-fighter-jets",
+        "publisher": "Airforce Technology",
+        "note": "News report used for Pakistan Air Force J-10C induction context; official PAF PDF was located but timed out during extraction."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Chengdu J-10",
         "url": "https://en.wikipedia.org/wiki/Chengdu_J-10",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for terminology, broad development background, and reference discovery; not used as the sole basis for technical claims."
       },
       {
         "id": "fn-method",
@@ -56307,116 +56359,151 @@
       }
     ],
     "designers": [
-      "Chengdu Aircraft Corporation"
+      "Chengdu Aircraft Design Institute"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Balancing F-16-class single-engine affordability with a canard-delta layout, modern radar/weapons integration, high agility, and adequate range.",
+      "Integrating imported and domestic engine options while preserving maintainability, flight-control maturity, and upgrade growth for later J-10B/J-10C standards.",
+      "Avoiding over-specific public claims because J-10A, J-10B, J-10C, export, and training aircraft differ in avionics, weapons, inlets, engines, and mission equipment."
     ],
     "wars_used_in": [],
     "variant_families": [
-      "Chengdu J-10 baseline production model",
-      "Chengdu J-10 upgraded avionics or weapons-capable model",
-      "Chengdu J-10 two-seat trainer or conversion model",
-      "Chengdu J-10 export or locally modernized model"
+      "J-10A initial single-seat model",
+      "J-10S two-seat trainer/conversion model",
+      "J-10B improved avionics/aerodynamic model",
+      "J-10C later multirole model",
+      "Export J-10C/FC-20 family"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "China"
       ],
-      "major_user_note": "Chengdu J-10 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Primary user is the PLAAF, with Pakistan confirmed as an export J-10C operator.",
+      "all_operators_status": "2 operator entries listed; exact current inventories are date-sensitive."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "No individual airframe histories were added during this run."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Public accident and incident details were not expanded because this run used only broad technical/program sources."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Chengdu J-10 uses jet propulsion."
+      "type": "Afterburning turbofan",
+      "summary": "Representative J-10 data lists one AL-31FN-family afterburning turbofan; later sources associate improved AL-31FN M1 or Chinese WS-10-family engines with upgraded variants. Exact engine fit depends on production batch and variant."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Internal 23 mm cannon plus 11 hardpoints for air-to-air missiles, guided/unguided air-to-ground weapons, anti-ship missiles, pods, and fuel tanks.",
+      "caution": "Weapon integration varies by J-10A/B/C and export configuration; this page avoids treating every public weapon as universal to all aircraft."
     },
     "similar_development": [
-      {
-        "id": "f-15-eagle",
-        "name": "McDonnell Douglas F-15 Eagle",
-        "url": "aircraft.html?id=f-15-eagle"
-      },
       {
         "id": "f-16-fighting-falcon",
         "name": "General Dynamics F-16 Fighting Falcon",
         "url": "aircraft.html?id=f-16-fighting-falcon"
       },
       {
-        "id": "f-a-18-hornet",
-        "name": "McDonnell Douglas F/A-18 Hornet",
-        "url": "aircraft.html?id=f-a-18-hornet"
+        "id": "chengdu-j-7",
+        "name": "Chengdu J-7 / F-7 Airguard",
+        "url": "aircraft.html?id=chengdu-j-7"
       },
       {
-        "id": "f-a-18e-f-super-hornet",
-        "name": "Boeing F/A-18E/F Super Hornet",
-        "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+        "id": "shenyang-j-11",
+        "name": "Shenyang J-11",
+        "url": "aircraft.html?id=shenyang-j-11"
+      },
+      {
+        "id": "jf-17-thunder",
+        "name": "CAC/PAC JF-17 Thunder",
+        "url": "aircraft.html?id=jf-17-thunder"
+      },
+      {
+        "id": "chengdu-j-20",
+        "name": "Chengdu J-20",
+        "url": "aircraft.html?id=chengdu-j-20"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 36,
+      "operator_entries": 2,
+      "variant_entries": 5,
+      "external_article_sources": 3
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-airforce-technology",
+        "title": "J-10 (Jian 10) Vigorous Dragon Multirole Tactical Fighter",
+        "url": "https://www.airforce-technology.com/projects/j-10",
+        "publisher": "Airforce Technology",
+        "note": "Program overview, representative dimensions, powerplant, weapons, development milestones, and performance figures."
+      },
+      {
+        "id": "fn-mitchell",
+        "title": "J-10",
+        "url": "https://www.mitchellaerospacepower.org/weapons/j-10",
+        "publisher": "Mitchell Institute for Aerospace Studies",
+        "note": "Concise technical data table used to cross-check status, NATO name, variants, dimensions, powerplant, speed, range, ceiling, and weapons."
+      },
+      {
+        "id": "fn-paf",
+        "title": "Pakistan officially inducts Chinese-built J-10C fighter jets",
+        "url": "https://www.airforce-technology.com/news/pakistan-inducts-j-10c-fighter-jets",
+        "publisher": "Airforce Technology",
+        "note": "News report used for Pakistan Air Force J-10C induction context; official PAF PDF was located but timed out during extraction."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Chengdu J-10",
         "url": "https://en.wikipedia.org/wiki/Chengdu_J-10",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for terminology, broad development background, and reference discovery; not used as the sole basis for technical claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "J-10 (Jian 10) Vigorous Dragon Multirole Tactical Fighter",
+        "url": "https://www.airforce-technology.com/projects/j-10",
+        "publisher": "Airforce Technology",
+        "summary": "Detailed public overview with dimensions, weights, performance figures, weapons, cockpit, engine, and development notes."
+      },
+      {
+        "title": "J-10",
+        "url": "https://www.mitchellaerospacepower.org/weapons/j-10",
+        "publisher": "Mitchell Institute for Aerospace Studies",
+        "summary": "Technical data table used to cross-check active status, NATO name, variants, size, speed, range, ceiling, and weapon categories."
+      },
+      {
+        "title": "Pakistan officially inducts Chinese-built J-10C fighter jets",
+        "url": "https://www.airforce-technology.com/news/pakistan-inducts-j-10c-fighter-jets",
+        "publisher": "Airforce Technology",
+        "summary": "Report covering Pakistan Air Force J-10C induction context."
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Chengdu J-10 is a Multirole fighter from China. Manufacturer: Chengdu Aircraft Corporation. First flight: 1998. Introduction: 2005. Status: Active.",
+            "text": "The Chengdu J-10 Vigorous Dragon is a Chinese single-engine multirole fighter built around a close-coupled canard-delta layout. It occupies a lighter, more numerous role beside heavier Flanker-family aircraft in Chinese service and is intended for air-defense, interception, fighter escort, and precision-strike tasking depending on variant and stores.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology",
+              "fn-mitchell"
             ]
           },
           {
-            "text": "Chengdu J-10 is a fighter. Primary role: multirole fighter. Country of origin: China. Manufacturer: Chengdu Aircraft Corporation.",
+            "text": "Public sources describe the J-10 as an indigenous Chengdu design rather than a simple copy of another aircraft, although its general size and single-engine multirole niche invite frequent comparison with aircraft such as the F-16. The page therefore treats published figures as representative J-10-family data and notes variant differences where they matter.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Exact structured fact fields: 15.",
-            "refs": [
+              "fn-airforce-technology",
+              "fn-wikipedia",
               "fn-method"
             ]
           }
@@ -56424,50 +56511,74 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Multirole fighter"
+            "text": "Single-engine multirole combat aircraft"
           },
           {
-            "title": "Designer or builder",
-            "text": "Chengdu Aircraft Corporation"
+            "title": "Designer / builder",
+            "text": "Chengdu Aircraft Design Institute / Chengdu Aircraft Industry Corporation"
           },
           {
-            "title": "Major origin",
-            "text": "China"
+            "title": "Configuration",
+            "text": "Canard-delta, fly-by-wire, single afterburning turbofan"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Representative speed",
+            "text": "About Mach 1.9 at high altitude"
+          },
+          {
+            "title": "Known operators",
+            "text": "China and Pakistan"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Chengdu J-10 first flew in 1998. Introduction date: 2005. Era: Modern.",
+            "text": "Airforce Technology describes the J-10 program as beginning in 1988, with the aircraft first reported publicly in the mid-1990s. The single-seat prototype flew in 1998, the two-seat aircraft followed in 2003, and the type entered service in the mid-2000s.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Producer: Chengdu Aircraft Corporation. Development context: multirole fighter, jet propulsion, supersonic speed category, Modern era.",
+            "text": "The aircraft was developed to replace older Chinese J-7 and Q-5-era types while giving the PLAAF a modern domestic fighter with digital flight controls, modern weapons compatibility, and beyond-visual-range air-combat potential.",
             "refs": [
-              "fn-wikidata"
+              "fn-airforce-technology",
+              "fn-mitchell"
+            ]
+          },
+          {
+            "text": "Later J-10B and J-10C standards added more capable avionics and weapons integration. Airforce Technology reports that J-10C entered PLA service in April 2018; Pakistan then became a publicly confirmed export J-10C user in 2022.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-paf"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "1988: J-10 program start described by Airforce Technology.",
             "refs": [
-              "fn-method"
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "1998: single-seat J-10 first flight in the public data used here.",
             "refs": [
-              "fn-method"
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "2003: first flight of the two-seat variant.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "2018: J-10C reported inducted into PLA service.",
+            "refs": [
+              "fn-airforce-technology"
             ]
           }
         ]
@@ -56477,107 +56588,94 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1 or 2. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The J-10 uses a tail-less delta wing with close-coupled foreplanes and a single vertical fin. Airforce Technology notes fixed ventral fins near the rear fuselage and credits the foreplanes with improving takeoff and low-speed handling.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "The cockpit fit described in public sources includes digital fly-by-wire controls, HOTAS, a head-up display, multifunction displays, and a helmet-mounted sight. Avionics and radar details vary by model, with later J-10B/J-10C aircraft generally treated as more capable than early J-10A aircraft.",
             "refs": [
+              "fn-airforce-technology",
               "fn-method"
             ]
           },
           {
-            "text": "Chengdu J-10 uses jet propulsion. Engine model field: Not listed.",
+            "text": "Powerplant reporting is variant-dependent. Early representative data lists a single AL-31FN-family engine, while public descriptions of later aircraft mention improved AL-31FN M1 or Chinese WS-10-family engines; this entry avoids assigning one engine to every J-10 variant.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-airforce-technology",
+              "fn-mitchell",
+              "fn-method"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "1 or 2"
+            "title": "Wing planform",
+            "text": "Close-coupled canard-delta"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Controls",
+            "text": "Digital fly-by-wire and HOTAS in public descriptions"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Hardpoints",
+            "text": "11 external stations in Airforce Technology data"
           },
           {
             "title": "Carrier capable",
             "text": "No"
           },
           {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Stealth aircraft",
+            "text": "No; not a low-observable design in the F-35/J-20 class"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Chengdu J-10 status: Active. Conflict entries: 0.",
+            "text": "Representative public J-10 data gives a length of about 14.57 m, wingspan of about 8.78 m, height of about 4.78 m, empty weight around 9,750 kg, loaded weight around 14,250 kg, and maximum take-off weight around 19,277 kg.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Conflicts: 0 entries.",
+            "text": "Performance figures in the sources used here include about Mach 1.9 at high altitude, Mach 1.2 near sea level, a service ceiling around 18,000 m, combat radius around 550 km, and maximum range around 1,850 km or roughly 1,000 nautical miles depending on source and mission assumptions.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-mitchell"
+            ]
+          },
+          {
+            "text": "These figures should be read as representative rather than universal: J-10A, J-10B, J-10C, two-seat, export, and upgraded aircraft can differ in engine, avionics, stores, fuel, and mission profiles.",
             "refs": [
               "fn-method"
             ]
           }
         ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
+        "cards": [
           {
-            "text": "Chengdu J-10 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "14.57 m / 53.9 ft representative data"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Wingspan",
+            "text": "8.78 m / 37.1 ft representative data"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum speed",
+            "text": "About Mach 1.9 high altitude"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Service ceiling",
+            "text": "About 18,000 m / 59,000 ft"
+          },
+          {
+            "title": "Maximum external load",
+            "text": "About 4,500 kg in Airforce Technology data"
           }
         ]
       },
@@ -56586,41 +56684,44 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Chengdu J-10 variant-family entries: 4. Variant families: Chengdu J-10 baseline production model; Chengdu J-10 upgraded avionics or weapons-capable model; Chengdu J-10 two-seat trainer or conversion model; Chengdu J-10 export or locally modernized model.",
+            "text": "The J-10 family moved from the initial J-10A through the two-seat J-10S and improved J-10B/J-10C standards. Public sources emphasize avionics, radar, inlet, refuelling, and weapons improvements rather than one single configuration applying to all aircraft.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-airforce-technology",
+              "fn-mitchell"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Chengdu J-10 baseline production model",
+            "text": "J-10A — initial single-seat production fighter for PLAAF service.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology",
+              "fn-mitchell"
             ]
           },
           {
-            "text": "Chengdu J-10 upgraded avionics or weapons-capable model",
+            "text": "J-10S — two-seat trainer/conversion version; public data gives first flight in 2003.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Chengdu J-10 two-seat trainer or conversion model",
+            "text": "J-10B — upgraded model publicly associated with refuelling capability and newer avionics/radar-related changes.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Chengdu J-10 export or locally modernized model",
+            "text": "J-10C — later multirole model; Airforce Technology reports PLA service entry in 2018.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "Export J-10C/FC-20 family — export-oriented aircraft, including Pakistan Air Force J-10C service.",
+            "refs": [
+              "fn-paf",
+              "fn-method"
             ]
           }
         ]
@@ -56630,13 +56731,49 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: China. Chengdu J-10 has 1 designer or builder country entry.",
+            "text": "China is the primary J-10 operator through the People’s Liberation Army Air Force. The type fills a lighter multirole-fighter slot alongside larger Flanker-derived aircraft such as the J-11 family.",
             "refs": [
-              "fn-wikidata"
+              "fn-airforce-technology",
+              "fn-mitchell"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Pakistan is a confirmed export J-10C operator. Because public delivery totals and configurations are date-sensitive, this page records the operator relationship without locking the article to a fleet count that may quickly become stale.",
+            "refs": [
+              "fn-paf",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "China — People’s Liberation Army Air Force; primary domestic user.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-mitchell"
+            ]
+          },
+          {
+            "text": "Pakistan — Pakistan Air Force; publicly inducted J-10C aircraft in 2022.",
+            "refs": [
+              "fn-paf"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "service",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "The J-10 has become a visible PLAAF fighter in training, air-defense, demonstration, and modernization contexts. It helped move Chinese single-engine fighter units beyond the J-7/Q-5 generation while preserving a smaller and cheaper complement to twin-engine heavy fighters.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-mitchell"
+            ]
+          },
+          {
+            "text": "Publicly verifiable combat-use details are limited in the sources used for this update, so this page avoids unsupported kill claims, classified mission profiles, or precise readiness assertions.",
             "refs": [
               "fn-method"
             ]
@@ -56644,31 +56781,138 @@
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Replacement pressure: intended to take over roles previously filled by older Chinese J-7 and Q-5 types.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Major designer or builder entries: China.",
+            "text": "Export significance: Pakistan’s J-10C induction made the type a visible Chinese fighter export beyond domestic PLAAF service.",
             "refs": [
-              "fn-wikidata"
+              "fn-paf"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "weapons",
+        "title": "Weapons Systems",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1 or 2, propulsion type Jet, maximum speed category Supersonic, first flight 1998, introduction 2005.",
+            "text": "Airforce Technology describes the J-10 with 11 hardpoints: fuselage stations, wing stations, and a centerline station. Public weapon examples include PL-8/PL-10 short-range missiles, PL-11/PL-12/PL-15-class beyond-visual-range missiles depending on variant, laser-guided bombs, anti-ship/land-attack missiles, rockets, pods, and auxiliary tanks.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology",
+              "fn-mitchell"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "The internal gun is described as a 23 mm cannon mounted on the forward fuselage. Because weapons integration changes by variant and operator, the list should be read as a family-level overview rather than a certified loadout for every J-10.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Gun",
+            "text": "Internal 23 mm cannon"
+          },
+          {
+            "title": "Air-to-air",
+            "text": "Short- and medium/long-range Chinese missile families depending on variant"
+          },
+          {
+            "title": "Strike stores",
+            "text": "Guided/unguided bombs, anti-ship or land-attack missiles, rockets, pods, and tanks"
+          },
+          {
+            "title": "Caution",
+            "text": "Exact weapons vary by J-10A/B/C and export configuration"
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Role Context",
+        "paragraphs": [
+          {
+            "text": "Compared with the F-16, the J-10 occupies a broadly similar single-engine multirole category, but its canard-delta layout, Chinese avionics/weapons ecosystem, and development path make it a distinct aircraft rather than an interchangeable equivalent.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Within Chinese service, it sits below larger twin-engine Flanker-derived fighters such as the J-11 and complements newer high-end types such as the J-20. Compared with the JF-17, it is generally treated as a larger and more capable fighter family, while the JF-17 is an export-oriented lightweight fighter co-developed with Pakistan.",
+            "refs": [
+              "fn-mitchell",
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "General Dynamics F-16 Fighting Falcon",
+            "url": "aircraft.html?id=f-16-fighting-falcon"
+          },
+          {
+            "label": "Chengdu J-7 / F-7 Airguard",
+            "url": "aircraft.html?id=chengdu-j-7"
+          },
+          {
+            "label": "Shenyang J-11",
+            "url": "aircraft.html?id=shenyang-j-11"
+          },
+          {
+            "label": "CAC/PAC JF-17 Thunder",
+            "url": "aircraft.html?id=jf-17-thunder"
+          },
+          {
+            "label": "Chengdu J-20",
+            "url": "aircraft.html?id=chengdu-j-20"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include a compact single-engine multirole airframe, high supersonic speed, digital controls, a broad weapons envelope, and an upgrade path that produced the J-10B and J-10C. Its domestic production also made it strategically important to Chinese fighter modernization.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-mitchell"
+            ]
+          },
+          {
+            "text": "Limitations include less fuel and payload growth than larger twin-engine fighters, no carrier suitability, no fifth-generation low-observable shaping, and public uncertainty over exact engine, radar, and weapon fits by batch.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: modern single-engine multirole fighter in a high-volume category.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "Strength: family has room for radar, avionics, refuelling, and missile improvements.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "Limitation: variant-specific public data makes exact universal specifications unreliable.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: not a stealth aircraft and not designed for carrier operations.",
             "refs": [
               "fn-method"
             ]
@@ -56676,11 +56920,90 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "timeline",
+        "title": "Timeline",
         "paragraphs": [
           {
-            "text": "Chengdu J-10 similar-development links: 4.",
+            "text": "Key dates below follow the public sources used for this update and should be treated as representative program milestones rather than a complete production history.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1988 — J-10 program start reported by Airforce Technology.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "1998 — single-seat J-10 first flight.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "2003 — two-seat variant first flight.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "2005-2006 — mid-2000s service/IOC timeframe in public sources.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-mitchell"
+            ]
+          },
+          {
+            "text": "2016 — J-10B public debut noted by Airforce Technology.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "2018 — J-10C reported inducted into PLA service.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "2022 — Pakistan publicly inducted J-10C aircraft.",
+            "refs": [
+              "fn-paf"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "This update relied on Airforce Technology for detailed public specifications and program milestones, Mitchell Institute for a compact technical cross-check, Airforce Technology news for Pakistan induction context, and Wikipedia only for orientation/reference discovery.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-mitchell",
+              "fn-paf",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Exact current production totals, export fleet counts, radar model by batch, and engine fit by aircraft were intentionally omitted or caveated because public sources vary and can become outdated quickly.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages for comparison, predecessor roles, Chinese fighter context, and export-market context.",
             "refs": [
               "fn-method"
             ]
@@ -56688,20 +57011,28 @@
         ],
         "links": [
           {
-            "label": "McDonnell Douglas F-15 Eagle",
-            "url": "aircraft.html?id=f-15-eagle"
-          },
-          {
             "label": "General Dynamics F-16 Fighting Falcon",
             "url": "aircraft.html?id=f-16-fighting-falcon"
           },
           {
-            "label": "McDonnell Douglas F/A-18 Hornet",
-            "url": "aircraft.html?id=f-a-18-hornet"
+            "label": "Chengdu J-7 / F-7 Airguard",
+            "url": "aircraft.html?id=chengdu-j-7"
           },
           {
-            "label": "Boeing F/A-18E/F Super Hornet",
-            "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+            "label": "Shenyang J-11",
+            "url": "aircraft.html?id=shenyang-j-11"
+          },
+          {
+            "label": "CAC/PAC JF-17 Thunder",
+            "url": "aircraft.html?id=jf-17-thunder"
+          },
+          {
+            "label": "Chengdu J-20",
+            "url": "aircraft.html?id=chengdu-j-20"
+          },
+          {
+            "label": "Return to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }
