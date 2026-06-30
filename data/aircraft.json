@@ -24766,20 +24766,33 @@
     "number_built": "Not listed",
     "crew": "2-4",
     "engine_type": "Turboshaft",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engines": "2 × General Electric T700-family turboshafts; UH-60M uses T700-GE-701D engines",
+    "max_speed": "About 151 kt cruise for UH-60M brochure condition; maximum speed varies by model and load",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Utility helicopter weapons not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
+    "range": "Variant- and mission-dependent; UH-60M range and lift improved over UH-60A/L",
+    "combat_range": "Mission-profile dependent; not stated as a single comparable figure in the cited official sources",
+    "service_ceiling": "Not listed in the cited official sources",
+    "rate_of_climb": "UH-60M brochure lists 1,553 ft/min vertical rate of climb at 16,800 lb, 4,000 ft, 95°F and 95% IRP",
+    "armament": "Normally a utility/assault transport; armed kits and mission equipment can add door guns, forward-firing guns, rockets, or laser-designated missiles depending on configuration.",
+    "hardpoints": "Optional external stores support system / armed Black Hawk kits on equipped aircraft; baseline utility aircraft do not carry a fixed fighter-style hardpoint set.",
+    "variants": [
+      "UH-60A: original U.S. Army production Black Hawk introduced at the end of the 1970s.",
+      "UH-60L: upgraded Army utility version with more powerful T700-GE-701C engines and drivetrain improvements.",
+      "UH-60M: modernized Army utility version with wide-chord rotor blades, T700-GE-701D engines, digital cockpit, and IVHMS.",
+      "HH-60M: medical evacuation version based on the UH-60M platform with a clinical interior for Dust-Off missions.",
+      "MH-60M: special operations version with mission equipment for long-range, night/adverse-weather operations.",
+      "S-70/S-70i: international Black Hawk family versions, including aircraft built to related standards for export customers.",
+      "HH-60G/HH-60W: U.S. Air Force rescue derivatives in the wider H-60 family."
+    ],
+    "operators": [
+      "United States Army",
+      "United States Air Force rescue units operate H-60 rescue derivatives such as the HH-60G/HH-60W family.",
+      "U.S. Customs and Border Protection Air and Marine Operations",
+      "International military and government operators; Lockheed Martin describes the UH-60M as serving the United States and 27 other nations in its UH-60M brochure."
+    ],
     "combat_history": "Not listed",
-    "development_history": "Sikorsky UH-60 Black Hawk: Utility helicopter. Manufacturer: Sikorsky. First flight: 1974. Introduction: 1979.",
-    "short_summary": "Sikorsky UH-60 Black Hawk: Utility helicopter. Origin: United States. Manufacturer: Sikorsky. First flight: 1974. Introduction: 1979. Status: Active.",
+    "development_history": "The UH-60 Black Hawk was developed from the U.S. Army Utility Tactical Transport Aircraft System requirement for a crashworthy, ballistically tolerant squad carrier. Sikorsky's S-70/YUH-60 design led to UH-60A service entry in 1979, with later UH-60L and UH-60M versions adding power, lift, digital avionics, survivability, and maintainability improvements.",
+    "short_summary": "The Sikorsky UH-60 Black Hawk is a U.S. medium-lift utility helicopter family used for air assault, general support, aeromedical evacuation, command and control, search and rescue, special operations support, and civil-agency missions. The modern UH-60M adds digital avionics, T700-GE-701D engines, wide-chord rotor blades, and health-monitoring systems to the long-running Black Hawk platform.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -24796,14 +24809,14 @@
         "title": "Sikorsky UH-60 Black Hawk",
         "url": "https://en.wikipedia.org/wiki/Sikorsky_UH-60_Black_Hawk",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "note": "Supplementary orientation source only; official and manufacturer sources are preferred for article details."
       },
       {
         "id": "fn-wikidata",
         "title": "Wikidata Query Service",
         "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "publisher": "Wikidata",
+        "note": "Open structured-data source recommended for identifiers, relationships, manufacturers, operators, and dates."
       },
       {
         "id": "fn-method",
@@ -24813,25 +24826,39 @@
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       },
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.army.mil/factfiles/equipment/aircraft/blackhawk.html",
-        "publisher": "army.mil",
-        "note": "External source for Sikorsky UH-60 Black Hawk."
+        "id": "fn-lm-black-hawk",
+        "title": "Sikorsky BLACK HAWK Multi-Mission Combat Helicopter",
+        "url": "https://www.lockheedmartin.com/en-us/products/sikorsky-black-hawk-helicopter.html",
+        "publisher": "Lockheed Martin",
+        "note": "Manufacturer page for Black Hawk family roles, mission kits, and related H-60 products."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.sikorsky.com/vgn-ext-templating-SIK/v/index.jsp?vgnextoid=00de6eb78fa78110VgnVCM1000001382000aRCRD&vgnextchannel=96d99a93bc298110VgnVCM1000001382000aRCRD&vgnextfmt=default&pressvcmid=29be82aee487a110VgnVCM1000001081000aRCRD&keyword=UH-60M&dateFrom=null&dateTo=null&model=509669a3a73a8110VgnVCM1000001382000a____&business=null&matchCriteria=null&matchKeyword=any&fromSearchPage=true&modelIndex=11&businessIndex=0&page=1",
-        "publisher": "sikorsky.com",
-        "note": "External source for Sikorsky UH-60 Black Hawk."
+        "id": "fn-lm-uh60m-brochure",
+        "title": "Sikorsky UH-60M Helicopter Black Hawk brochure",
+        "url": "https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/black-hawk/sikorsky-UH60M-brochure.pdf",
+        "publisher": "Lockheed Martin / Sikorsky",
+        "note": "Manufacturer brochure used for UH-60M mission set, digital cockpit, engines, rotor blades, IVHMS, and comparative performance figures."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.scienceblog.com/community/older/archives/D/archnas1570.html",
-        "publisher": "scienceblog.com",
-        "note": "External source for Sikorsky UH-60 Black Hawk."
+        "id": "fn-sikorsky-archives",
+        "title": "Sikorsky S-70A: UH-60M Black Hawk Family",
+        "url": "https://sikorskyarchives.com/home/sikorsky-product-history/helicopter-innovation-era/sikorsky-s-70a-uh-60m-black-hawk-family",
+        "publisher": "Igor I. Sikorsky Historical Archives",
+        "note": "Historical source for UTTAS background, UH-60M modernization, HH-60M and MH-60M descriptions, and development timeline."
+      },
+      {
+        "id": "fn-af-hh60g",
+        "title": "HH-60G Pave Hawk fact sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104508/hh-60g-pave-hawk",
+        "publisher": "U.S. Air Force",
+        "note": "Official Air Force fact sheet for the rescue H-60 derivative and combat-search-and-rescue context."
+      },
+      {
+        "id": "fn-cbp-uh60",
+        "title": "UH-60 Black Hawk helicopter fact sheet",
+        "url": "https://www.cbp.gov/document/fact-sheets/uh-60-black-hawk",
+        "publisher": "U.S. Customs and Border Protection",
+        "note": "Official civil-agency source confirming CBP Air and Marine Operations UH-60 use."
       }
     ],
     "country_flags": [
@@ -24861,17 +24888,19 @@
       }
     ],
     "variant_families": [
-      "Sikorsky UH-60 Black Hawk baseline production model",
-      "Sikorsky UH-60 Black Hawk upgraded avionics or weapons-capable model",
-      "Sikorsky UH-60 Black Hawk two-seat trainer or conversion model",
-      "Sikorsky UH-60 Black Hawk utility, attack, naval, or export model"
+      "UH-60A/L utility and air assault Black Hawk family",
+      "UH-60M modernized utility Black Hawk family",
+      "HH-60M medical evacuation Black Hawk",
+      "MH-60M special operations Black Hawk",
+      "S-70/S-70i international Black Hawk family",
+      "HH-60G/HH-60W Air Force rescue derivatives in the H-60 family"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Sikorsky UH-60 Black Hawk has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The U.S. Army is the primary Black Hawk operator; related U.S. Air Force, CBP, and international H-60/S-70 operators use mission-specific derivatives.",
+      "all_operators_status": "Representative operators listed; full world operator inventory varies by variant and year."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -24885,11 +24914,12 @@
     },
     "engine_details": {
       "type": "Turboshaft",
-      "summary": "Sikorsky UH-60 Black Hawk uses turboshaft propulsion."
+      "summary": "Twin General Electric T700-family turboshaft installation; the UH-60M brochure identifies the T700-GE-701D engine as a key modernization feature.",
+      "power_note": "Brochure performance values are configuration- and atmosphere-specific, so performance is presented with caveats rather than as a universal figure."
     },
     "armament_details": {
-      "summary": "Utility helicopter weapons not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Baseline Black Hawks are utility aircraft, but mission kits can add defensive door guns or armed kits with forward-firing guns, rockets, and laser-designated missiles.",
+      "caution": "Armament depends heavily on variant, operator, mission equipment, and export configuration; no single fixed weapons list applies to all UH-60/S-70 aircraft."
     },
     "similar_development": [
       {
@@ -24914,10 +24944,10 @@
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 23,
+      "operator_entries": 4,
+      "variant_entries": 7,
+      "external_article_sources": 5
     },
     "footnotes": [
       {
@@ -24925,65 +24955,93 @@
         "title": "Sikorsky UH-60 Black Hawk",
         "url": "https://en.wikipedia.org/wiki/Sikorsky_UH-60_Black_Hawk",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "note": "Supplementary orientation source only; official and manufacturer sources are preferred for article details."
       },
       {
         "id": "fn-wikidata",
         "title": "Wikidata Query Service",
         "url": "https://query.wikidata.org/",
         "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Open structured-data source recommended for identifiers, relationships, manufacturers, operators, and dates."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       },
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.army.mil/factfiles/equipment/aircraft/blackhawk.html",
-        "publisher": "army.mil",
-        "note": "External source for Sikorsky UH-60 Black Hawk."
+        "id": "fn-lm-black-hawk",
+        "title": "Sikorsky BLACK HAWK Multi-Mission Combat Helicopter",
+        "url": "https://www.lockheedmartin.com/en-us/products/sikorsky-black-hawk-helicopter.html",
+        "publisher": "Lockheed Martin",
+        "note": "Manufacturer page for Black Hawk family roles, mission kits, and related H-60 products."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.sikorsky.com/vgn-ext-templating-SIK/v/index.jsp?vgnextoid=00de6eb78fa78110VgnVCM1000001382000aRCRD&vgnextchannel=96d99a93bc298110VgnVCM1000001382000aRCRD&vgnextfmt=default&pressvcmid=29be82aee487a110VgnVCM1000001081000aRCRD&keyword=UH-60M&dateFrom=null&dateTo=null&model=509669a3a73a8110VgnVCM1000001382000a____&business=null&matchCriteria=null&matchKeyword=any&fromSearchPage=true&modelIndex=11&businessIndex=0&page=1",
-        "publisher": "sikorsky.com",
-        "note": "External source for Sikorsky UH-60 Black Hawk."
+        "id": "fn-lm-uh60m-brochure",
+        "title": "Sikorsky UH-60M Helicopter Black Hawk brochure",
+        "url": "https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/black-hawk/sikorsky-UH60M-brochure.pdf",
+        "publisher": "Lockheed Martin / Sikorsky",
+        "note": "Manufacturer brochure used for UH-60M mission set, digital cockpit, engines, rotor blades, IVHMS, and comparative performance figures."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.scienceblog.com/community/older/archives/D/archnas1570.html",
-        "publisher": "scienceblog.com",
-        "note": "External source for Sikorsky UH-60 Black Hawk."
+        "id": "fn-sikorsky-archives",
+        "title": "Sikorsky S-70A: UH-60M Black Hawk Family",
+        "url": "https://sikorskyarchives.com/home/sikorsky-product-history/helicopter-innovation-era/sikorsky-s-70a-uh-60m-black-hawk-family",
+        "publisher": "Igor I. Sikorsky Historical Archives",
+        "note": "Historical source for UTTAS background, UH-60M modernization, HH-60M and MH-60M descriptions, and development timeline."
+      },
+      {
+        "id": "fn-af-hh60g",
+        "title": "HH-60G Pave Hawk fact sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104508/hh-60g-pave-hawk",
+        "publisher": "U.S. Air Force",
+        "note": "Official Air Force fact sheet for the rescue H-60 derivative and combat-search-and-rescue context."
+      },
+      {
+        "id": "fn-cbp-uh60",
+        "title": "UH-60 Black Hawk helicopter fact sheet",
+        "url": "https://www.cbp.gov/document/fact-sheets/uh-60-black-hawk",
+        "publisher": "U.S. Customs and Border Protection",
+        "note": "Official civil-agency source confirming CBP Air and Marine Operations UH-60 use."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.army.mil/factfiles/equipment/aircraft/blackhawk.html",
-        "publisher": "army.mil",
-        "note": "External source for Sikorsky UH-60 Black Hawk."
+        "id": "fn-lm-black-hawk",
+        "title": "Sikorsky BLACK HAWK Multi-Mission Combat Helicopter",
+        "url": "https://www.lockheedmartin.com/en-us/products/sikorsky-black-hawk-helicopter.html",
+        "publisher": "Lockheed Martin",
+        "note": "Manufacturer page for Black Hawk family roles, mission kits, and related H-60 products."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.sikorsky.com/vgn-ext-templating-SIK/v/index.jsp?vgnextoid=00de6eb78fa78110VgnVCM1000001382000aRCRD&vgnextchannel=96d99a93bc298110VgnVCM1000001382000aRCRD&vgnextfmt=default&pressvcmid=29be82aee487a110VgnVCM1000001081000aRCRD&keyword=UH-60M&dateFrom=null&dateTo=null&model=509669a3a73a8110VgnVCM1000001382000a____&business=null&matchCriteria=null&matchKeyword=any&fromSearchPage=true&modelIndex=11&businessIndex=0&page=1",
-        "publisher": "sikorsky.com",
-        "note": "External source for Sikorsky UH-60 Black Hawk."
+        "id": "fn-lm-uh60m-brochure",
+        "title": "Sikorsky UH-60M Helicopter Black Hawk brochure",
+        "url": "https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/black-hawk/sikorsky-UH60M-brochure.pdf",
+        "publisher": "Lockheed Martin / Sikorsky",
+        "note": "Manufacturer brochure used for UH-60M mission set, digital cockpit, engines, rotor blades, IVHMS, and comparative performance figures."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.scienceblog.com/community/older/archives/D/archnas1570.html",
-        "publisher": "scienceblog.com",
-        "note": "External source for Sikorsky UH-60 Black Hawk."
+        "id": "fn-sikorsky-archives",
+        "title": "Sikorsky S-70A: UH-60M Black Hawk Family",
+        "url": "https://sikorskyarchives.com/home/sikorsky-product-history/helicopter-innovation-era/sikorsky-s-70a-uh-60m-black-hawk-family",
+        "publisher": "Igor I. Sikorsky Historical Archives",
+        "note": "Historical source for UTTAS background, UH-60M modernization, HH-60M and MH-60M descriptions, and development timeline."
+      },
+      {
+        "id": "fn-af-hh60g",
+        "title": "HH-60G Pave Hawk fact sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104508/hh-60g-pave-hawk",
+        "publisher": "U.S. Air Force",
+        "note": "Official Air Force fact sheet for the rescue H-60 derivative and combat-search-and-rescue context."
+      },
+      {
+        "id": "fn-cbp-uh60",
+        "title": "UH-60 Black Hawk helicopter fact sheet",
+        "url": "https://www.cbp.gov/document/fact-sheets/uh-60-black-hawk",
+        "publisher": "U.S. Customs and Border Protection",
+        "note": "Official civil-agency source confirming CBP Air and Marine Operations UH-60 use."
       }
     ],
     "article_sections": [
@@ -24992,65 +25050,94 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Sikorsky UH-60 Black Hawk is an Utility helicopter from United States. Manufacturer: Sikorsky. First flight: 1974. Introduction: 1979. Status: Active.",
+            "text": "The Sikorsky UH-60 Black Hawk is a U.S. medium-lift, twin-turboshaft utility helicopter family built around battlefield transport, air assault, aeromedical evacuation, command-and-control, search-and-rescue, and special-operations support rather than a single narrow mission.",
             "refs": [
-              "fn-main"
+              "fn-lm-black-hawk",
+              "fn-lm-uh60m-brochure"
             ]
           },
           {
-            "text": "Sikorsky UH-60 Black Hawk is a helicopter. Primary role: utility helicopter. Country of origin: United States. Manufacturer: Sikorsky.",
+            "text": "It replaced the Huey-era tactical utility helicopter concept with a larger, crashworthy, ballistically tolerant squad carrier. The Army introduced the UH-60A in 1979, while the modern UH-60M adds digital avionics, wide-chord blades, more powerful T700-GE-701D engines, survivability equipment, and health monitoring.",
             "refs": [
-              "fn-wikidata"
+              "fn-sikorsky-archives",
+              "fn-lm-uh60m-brochure"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Because Black Hawk, S-70, HH-60, and MH-60 aircraft cover utility, medical evacuation, special operations, rescue, civil-agency, and export roles, figures and equipment vary by variant. This page emphasizes the U.S. Army UH-60 family and notes derivative roles where the sources are explicit.",
             "refs": [
-              "fn-method"
+              "fn-method",
+              "fn-af-hh60g",
+              "fn-cbp-uh60"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Utility helicopter"
+            "text": "Medium-lift utility and assault-support helicopter"
           },
           {
-            "title": "Designer or builder",
-            "text": "Sikorsky"
+            "title": "Manufacturer",
+            "text": "Sikorsky, now part of Lockheed Martin"
           },
           {
-            "title": "Major origin",
+            "title": "Origin",
             "text": "United States"
           },
           {
+            "title": "Introduced",
+            "text": "1979 for the UH-60A; UH-60M is the current modernized Army baseline"
+          },
+          {
             "title": "Propulsion",
-            "text": "Turboshaft"
+            "text": "Twin General Electric T700-family turboshafts"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Sikorsky UH-60 Black Hawk first flew in 1974. Introduction date: 1979. Era: Modern.",
+            "text": "The Black Hawk traces to the U.S. Army Utility Tactical Transport Aircraft System requirement issued in the early 1970s. The requirement sought a crashworthy, ballistically tolerant helicopter able to carry a crew and an infantry squad in demanding battlefield conditions.",
             "refs": [
-              "fn-main"
+              "fn-sikorsky-archives"
             ]
           },
           {
-            "text": "Producer: Sikorsky. Development context: utility helicopter, turboshaft propulsion, subsonic speed category, Modern era.",
+            "text": "Operational experience with early UH-60A/L aircraft, including heavy use in Operation Desert Storm, highlighted the need for more lift, improved navigation and communications, lower operating cost, and better performance with heavier troops and external loads.",
             "refs": [
-              "fn-wikidata"
+              "fn-sikorsky-archives"
+            ]
+          },
+          {
+            "text": "The UH-60M program shifted from recapitalizing older aircraft toward new production with wide-chord composite main rotor blades, 2,000 shp-class T700-GE-701D engines, a digital automatic flight-control system, a glass cockpit, and structural improvements.",
+            "refs": [
+              "fn-sikorsky-archives",
+              "fn-lm-uh60m-brochure"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing lift, survivability, vibration, hot-and-high performance, and battlefield maintainability.",
+            "text": "1972: U.S. Army UTTAS requirement defined the crashworthy utility transport need.",
             "refs": [
-              "fn-method"
+              "fn-sikorsky-archives"
+            ]
+          },
+          {
+            "text": "1979: UH-60A entered U.S. Army service, replacing the UH-1 in the tactical transport role.",
+            "refs": [
+              "fn-main",
+              "fn-sikorsky-archives"
+            ]
+          },
+          {
+            "text": "1990s–2000s: UH-60M modernization addressed lift, digital battlefield integration, readiness, and sustainment limitations of earlier fleets.",
+            "refs": [
+              "fn-sikorsky-archives",
+              "fn-lm-uh60m-brochure"
             ]
           }
         ]
@@ -25060,50 +25147,53 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 2-4. Propulsion: Turboshaft. Speed category: Subsonic.",
+            "text": "The Black Hawk uses a four-blade main rotor, twin turboshaft engines, wheeled landing gear, and a cabin sized for utility transport. The UH-60M brochure lists four crew members and 11 troops in its comparison table, reflecting a typical assault-support configuration.",
             "refs": [
-              "fn-main"
+              "fn-lm-uh60m-brochure"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "UH-60M changes focus on practical battlefield utility: a digital cockpit with four multi-function displays, digital map, embedded GPS/inertial navigation, coupled flight director, and integrated vehicle health monitoring to reduce workload and improve maintainability.",
             "refs": [
+              "fn-lm-uh60m-brochure"
+            ]
+          },
+          {
+            "text": "Survivability features cited for the UH-60M include a Common Missile Warning System, laser warning equipment, upturned exhaust, active vibration control, and health-monitoring systems. These are best treated as configuration features rather than universal equipment on every H-60 derivative.",
+            "refs": [
+              "fn-lm-uh60m-brochure",
               "fn-method"
             ]
           },
           {
-            "text": "Sikorsky UH-60 Black Hawk uses turboshaft propulsion. Engine model field: Not listed.",
+            "text": "Mission equipment drives the aircraft's character. A baseline utility Black Hawk moves troops, patients, cargo, and command teams; armed kits can add forward-firing guns, rockets, and laser-designated missiles on equipped aircraft, while rescue and special-operations derivatives add sensors, refueling, or medical interiors.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Utility helicopter weapons not listed. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-lm-black-hawk",
+              "fn-sikorsky-archives",
+              "fn-af-hh60g"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "2-4"
+            "title": "Crew / troops",
+            "text": "UH-60M brochure: 4 crew and 11 troops in listed comparison condition"
           },
           {
-            "title": "Engine class",
-            "text": "Turboshaft"
+            "title": "Engine",
+            "text": "T700-GE-701D on UH-60M"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Lift",
+            "text": "UH-60M brochure cargo hook capacity: 9,000 lb"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Avionics",
+            "text": "Integrated digital cockpit with multi-function displays and digital map"
           },
           {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Survivability",
+            "text": "CMWS, laser warning, upturned exhaust, and related equipment on cited UH-60M configuration"
           }
         ]
       },
@@ -25112,73 +25202,49 @@
         "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Sikorsky UH-60 Black Hawk status: Active. Conflict entries: 3.",
+            "text": "The Black Hawk became a central U.S. Army utility platform because it could perform air assault, general support, aeromedical evacuation, command-and-control, and special-operations support while remaining adaptable to theater-specific equipment.",
             "refs": [
-              "fn-main"
+              "fn-lm-uh60m-brochure",
+              "fn-sikorsky-archives"
             ]
           },
           {
-            "text": "Conflicts: Gulf War, Iraq War, War in Afghanistan (2001–2021).",
+            "text": "Sikorsky Archives notes UH-60A/L service in Operation Desert Storm and cites mission-capable rates above 85 percent for Black Hawks flying troops, equipment, and supplies during that campaign.",
             "refs": [
-              "fn-method"
+              "fn-sikorsky-archives"
+            ]
+          },
+          {
+            "text": "The wider H-60 family also serves outside the Army utility role. The U.S. Air Force HH-60G Pave Hawk fact sheet describes combat-search-and-rescue use, and CBP publishes a UH-60 Black Hawk fact sheet for Air and Marine Operations.",
+            "refs": [
+              "fn-af-hh60g",
+              "fn-cbp-uh60"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Gulf War: Sikorsky UH-60 Black Hawk used in Gulf War.",
+            "text": "Air assault and troop movement: core Army utility mission.",
             "refs": [
-              "fn-main"
+              "fn-lm-uh60m-brochure"
             ]
           },
           {
-            "text": "Iraq War: Sikorsky UH-60 Black Hawk used in Iraq War.",
+            "text": "MEDEVAC / Dust-Off: HH-60M integrates the UH-60M platform with a clinical interior.",
             "refs": [
-              "fn-main"
+              "fn-sikorsky-archives"
             ]
           },
           {
-            "text": "War in Afghanistan (2001–2021): Sikorsky UH-60 Black Hawk used in War in Afghanistan (2001–2021).",
+            "text": "Combat rescue: Air Force HH-60 derivatives support insertion, extraction, recovery, and rescue missions.",
             "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Sikorsky UH-60 Black Hawk named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-af-hh60g"
             ]
           },
           {
-            "text": "Named individual aircraft listed: 0.",
+            "text": "Civil security missions: CBP Air and Marine Operations operates UH-60 Black Hawks.",
             "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-cbp-uh60"
             ]
           }
         ]
@@ -25188,41 +25254,68 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Sikorsky UH-60 Black Hawk variant-family entries: 4. Variant families: Sikorsky UH-60 Black Hawk baseline production model; Sikorsky UH-60 Black Hawk upgraded avionics or weapons-capable model; Sikorsky UH-60 Black Hawk two-seat trainer or conversion model; Sikorsky UH-60 Black Hawk utility, attack, naval, or export model.",
+            "text": "The Black Hawk is best understood as a family rather than a single configuration. Early UH-60A aircraft established the Army utility baseline; UH-60L improved power and drivetrain capability; UH-60M modernized the fleet with digital avionics, wide-chord blades, and T700-GE-701D engines.",
             "refs": [
-              "fn-main"
+              "fn-sikorsky-archives",
+              "fn-lm-uh60m-brochure"
             ]
           },
           {
-            "text": "Complete variant entries listed: 0.",
+            "text": "Mission-specialized versions branch from the same broad H-60/S-70 lineage. HH-60M aircraft support medical evacuation, MH-60M aircraft support special operations, S-70/S-70i aircraft serve international customers, and Air Force HH-60 rescue aircraft adapt the family for combat rescue.",
             "refs": [
-              "fn-method"
+              "fn-sikorsky-archives",
+              "fn-af-hh60g",
+              "fn-lm-black-hawk"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Sikorsky UH-60 Black Hawk baseline production model",
+            "text": "UH-60A: original U.S. Army production Black Hawk introduced at the end of the 1970s.",
             "refs": [
-              "fn-main"
+              "fn-sikorsky-archives",
+              "fn-lm-uh60m-brochure"
             ]
           },
           {
-            "text": "Sikorsky UH-60 Black Hawk upgraded avionics or weapons-capable model",
+            "text": "UH-60L: upgraded Army utility version with more powerful T700-GE-701C engines and drivetrain improvements.",
             "refs": [
-              "fn-main"
+              "fn-sikorsky-archives",
+              "fn-lm-uh60m-brochure"
             ]
           },
           {
-            "text": "Sikorsky UH-60 Black Hawk two-seat trainer or conversion model",
+            "text": "UH-60M: modernized Army utility version with wide-chord rotor blades, T700-GE-701D engines, digital cockpit, and IVHMS.",
             "refs": [
-              "fn-main"
+              "fn-sikorsky-archives",
+              "fn-lm-uh60m-brochure"
             ]
           },
           {
-            "text": "Sikorsky UH-60 Black Hawk utility, attack, naval, or export model",
+            "text": "HH-60M: medical evacuation version based on the UH-60M platform with a clinical interior for Dust-Off missions.",
             "refs": [
-              "fn-main"
+              "fn-sikorsky-archives",
+              "fn-lm-uh60m-brochure"
+            ]
+          },
+          {
+            "text": "MH-60M: special operations version with mission equipment for long-range, night/adverse-weather operations.",
+            "refs": [
+              "fn-sikorsky-archives",
+              "fn-lm-uh60m-brochure"
+            ]
+          },
+          {
+            "text": "S-70/S-70i: international Black Hawk family versions, including aircraft built to related standards for export customers.",
+            "refs": [
+              "fn-sikorsky-archives",
+              "fn-lm-uh60m-brochure"
+            ]
+          },
+          {
+            "text": "HH-60G/HH-60W: U.S. Air Force rescue derivatives in the wider H-60 family.",
+            "refs": [
+              "fn-af-hh60g"
             ]
           }
         ]
@@ -25232,29 +25325,45 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Sikorsky UH-60 Black Hawk has 1 designer or builder country entry.",
+            "text": "The U.S. Army is the defining Black Hawk operator and uses the type as its primary medium-lift combat utility helicopter. Lockheed Martin's UH-60M brochure describes the aircraft as serving the United States and 27 other nations, but individual inventories change over time.",
             "refs": [
-              "fn-wikidata"
+              "fn-lm-uh60m-brochure",
+              "fn-method"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Other U.S. users operate related H-60 or UH-60 configurations for specialized missions, including Air Force rescue units and CBP Air and Marine Operations. International S-70/S-70i operators should be treated as a broader family list unless a local page tracks exact national fleets.",
             "refs": [
-              "fn-method"
+              "fn-af-hh60g",
+              "fn-cbp-uh60",
+              "fn-lm-black-hawk"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "United States Army — primary UH-60/UH-60M combat utility operator.",
             "refs": [
-              "fn-main"
+              "fn-lm-uh60m-brochure"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "United States Air Force — HH-60 rescue derivatives for combat search and rescue.",
             "refs": [
-              "fn-wikidata"
+              "fn-af-hh60g"
+            ]
+          },
+          {
+            "text": "U.S. Customs and Border Protection Air and Marine Operations — UH-60 civil security operations.",
+            "refs": [
+              "fn-cbp-uh60"
+            ]
+          },
+          {
+            "text": "International military/government operators — 27 other nations cited in the UH-60M brochure; exact inventories require date-specific review.",
+            "refs": [
+              "fn-lm-uh60m-brochure",
+              "fn-method"
             ]
           }
         ]
@@ -25264,13 +25373,84 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 2-4, propulsion type Turboshaft, maximum speed category Subsonic, first flight 1974, introduction 1979.",
+            "text": "Representative figures below use the Lockheed Martin/Sikorsky UH-60M brochure because it gives a comparable A/L/M table. They should not be applied to every Black Hawk derivative without checking mission kit, fuel, altitude, temperature, and model.",
             "refs": [
-              "fn-main"
+              "fn-lm-uh60m-brochure",
+              "fn-method"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "UH-60M brochure values include four crew at 980 lb total, 11 troops at 290 lb each, 12,511 lb empty weight, 19,398 lb primary mission gross weight, 22,000 lb maximum gross weight in slick configuration, 9,000 lb cargo hook capacity, 151 kt cruise speed under the brochure condition, and 1,553 ft/min vertical rate of climb at 16,800 lb, 4,000 ft, 95°F, 95% IRP.",
+            "refs": [
+              "fn-lm-uh60m-brochure"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Crew / troops",
+            "text": "4 crew and 11 troops in UH-60M brochure table"
+          },
+          {
+            "title": "Empty weight",
+            "text": "12,511 lb for UH-60M brochure configuration"
+          },
+          {
+            "title": "Primary mission gross weight",
+            "text": "19,398 lb"
+          },
+          {
+            "title": "Maximum gross weight",
+            "text": "22,000 lb slick configuration"
+          },
+          {
+            "title": "Cargo hook",
+            "text": "9,000 lb"
+          },
+          {
+            "title": "Cruise speed",
+            "text": "151 kt in cited UH-60M brochure condition"
+          },
+          {
+            "title": "Climb condition",
+            "text": "1,553 ft/min at 16,800 lb, 4,000 ft, 95°F, 95% IRP"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths are versatility, a large user base, mature support infrastructure, and the ability to accept mission equipment for transport, medical evacuation, command, rescue, special operations, firefighting, and armed support roles.",
+            "refs": [
+              "fn-lm-black-hawk",
+              "fn-lm-uh60m-brochure"
+            ]
+          },
+          {
+            "text": "Limitations are the same tradeoffs that affect most utility helicopters: payload and range depend sharply on temperature, altitude, fuel, armor, external stores, and cabin load; armed or rescue configurations add capability but also weight and complexity.",
+            "refs": [
+              "fn-method",
+              "fn-lm-uh60m-brochure"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Versatility: the UH-60M brochure lists combat assault, external lift, CSAR, MEDEVAC, VIP transport, firefighting, command and control, and armed missions.",
+            "refs": [
+              "fn-lm-uh60m-brochure"
+            ]
+          },
+          {
+            "text": "Modernization: UH-60M avionics and health monitoring improve situational awareness and maintainability over earlier models.",
+            "refs": [
+              "fn-lm-uh60m-brochure"
+            ]
+          },
+          {
+            "text": "Caveat: exact range, weapons, defensive systems, and rescue equipment vary by variant and customer.",
             "refs": [
               "fn-method"
             ]
@@ -25279,10 +25459,10 @@
       },
       {
         "id": "similar-development",
-        "title": "Similar Development",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "Sikorsky UH-60 Black Hawk similar-development links: 4.",
+            "text": "Milipedia pages with comparable utility, attack, or rotary-wing development context.",
             "refs": [
               "fn-method"
             ]
@@ -25290,20 +25470,20 @@
         ],
         "links": [
           {
-            "label": "Bell AH-1 Cobra",
-            "url": "aircraft.html?id=ah-1-cobra"
+            "label": "Bell UH-1 Iroquois",
+            "url": "aircraft.html?id=uh-1-iroquois"
           },
           {
             "label": "Boeing AH-64 Apache",
             "url": "aircraft.html?id=ah-64-apache"
           },
           {
-            "label": "Bell UH-1 Iroquois",
-            "url": "aircraft.html?id=uh-1-iroquois"
-          },
-          {
             "label": "Boeing CH-47 Chinook",
             "url": "aircraft.html?id=ch-47-chinook"
+          },
+          {
+            "label": "Bell AH-1 Cobra",
+            "url": "aircraft.html?id=ah-1-cobra"
           }
         ]
       }

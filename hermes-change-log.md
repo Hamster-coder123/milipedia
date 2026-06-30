@@ -1615,3 +1615,78 @@ Record the result of:
 
 * Public sources differ on exact production totals, service ceiling, combat radius, and whether values refer to baseline Su-27S/SK, Su-27UB, or modernized Su-27SM aircraft; the page labels those contexts rather than forcing one unsupported value.
 * Exact current inventories, combat losses, detailed order of battle, and variant-specific radar/missile compatibility were not exhaustively enumerated because they are date-sensitive and require dedicated verification.
+
+### Run 22 — 2026-06-30 17:04:25 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Sikorsky UH-60 Black Hawk (id: uh-60-black-hawk)
+* Reason selected: Sparse-candidate comparison found the UH-60 entry was still generic and substantially less complete than the F-16 reference page, with 0 variant entries, 0 operator entries, no detailed specifications, no modern UH-60M design/avionics treatment, and mostly generated placeholder prose despite a few stale external source records.
+* Previous condition: Placeholder-like generated helicopter article with 15 exact fact fields, empty variants/operators arrays, unspecified engines/range/ceiling/hardpoints, generic "utility helicopter weapons not listed" armament, stale/legacy external links, and minimal development/design/service/specification sections.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview and lead fact-card style; article-section flow for overview, development, design/capabilities, service, variants, operators, specifications, strengths/limitations, sources, and related pages; concise technical paragraphs with source refs; neutral caveats for variant-specific data; internal link style using aircraft.html?id=...
+
+#### Changes Made
+
+* Expanded the Sikorsky UH-60 Black Hawk entry from generic generated content into a fuller Milipedia article data record.
+* Added UH-60/Black Hawk family context, UTTAS development background, UH-60A service-entry context, and UH-60M modernization details.
+* Added T700-family engine information, UH-60M T700-GE-701D engine note, digital cockpit, wide-chord blades, IVHMS, survivability equipment, and mission-equipment caveats.
+* Added representative UH-60M brochure specification cards for crew/troops, empty weight, gross weight, cargo hook capacity, cruise-speed condition, and climb-rate condition while avoiding unsupported universal performance claims.
+* Added variants and derivative coverage for UH-60A, UH-60L, UH-60M, HH-60M, MH-60M, S-70/S-70i, and HH-60G/HH-60W family aircraft.
+* Added representative operators and users: U.S. Army, U.S. Air Force H-60 rescue derivatives, U.S. Customs and Border Protection Air and Marine Operations, and international operators with a source caveat.
+* Replaced stale external source records with current manufacturer/official sources from Lockheed Martin/Sikorsky, Sikorsky Archives, the U.S. Air Force, and U.S. Customs and Border Protection; retained Wikipedia only as supplementary orientation.
+* Added sections for Overview, Development History, Design and Capabilities, Operational History, Variants, Operators, Specifications, Strengths and Limitations, and Related Pages.
+* Added internal related links to the existing Bell UH-1 Iroquois, Boeing AH-64 Apache, Boeing CH-47 Chinook, and Bell AH-1 Cobra pages.
+* Omitted exact global current inventories, universal range/ceiling values, and a single fixed weapons list because these vary by model, mission equipment, date, and operator.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Sikorsky UH-60 Black Hawk aircraft entry, sources, sections, variants, operators, and technical caveats.
+* hermes-change-log.md — Appended the cumulative Run 22 record.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Verified before commit that the only intended modified files were data/aircraft.json and hermes-change-log.md.
+2. git diff — Reviewed the aircraft diff/stat and confirmed data/aircraft.json changes are limited to the UH-60 Black Hawk entry; hermes-change-log.md adds this Run 22 entry.
+3. File review — Parsed data/aircraft.json successfully with python3 -m json.tool and reviewed the updated UH-60 fields, sections, sources, variants, operators, caveats, and related links.
+4. F-16 style comparison — Inspected data/f16-template.html and matched its dense overview, article-section coverage, technical/source phrasing, card summaries, variant/operator/service/specification coverage, source notes, and related-link style within the JSON renderer.
+5. Internal link check — Parsed data/aircraft.json IDs and verified all aircraft.html?id=... links in the updated UH-60 entry target existing local IDs.
+6. Secret/token check — Ran credential-specific checks over the staged diff; no API keys, tokens, passwords, private keys, .env data, or credentials were found.
+7. Final review before commit — Confirmed branch, JSON validity, diff check, intended file set, one-entry aircraft diff, no main-branch edit, no unrelated files, and completed change log entry.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Sikorsky UH-60 Black Hawk
+* Commit hash: Pending until commit completes; final hash is reported in the run result.
+
+#### Issues or Uncertainties
+
+* UH-60/H-60/S-70 configurations vary widely by model, mission kit, operator, and year, so range, ceiling, weapons, and inventories were caveated rather than forced into one universal value.
+* Lockheed Martin's product page is navigation-heavy; the UH-60M brochure and Sikorsky Archives page supplied the most concrete technical and historical details for this run.
