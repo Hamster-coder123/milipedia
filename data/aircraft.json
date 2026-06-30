@@ -19565,35 +19565,52 @@
   },
   {
     "id": "u-2-dragon-lady",
-    "name": "Lockheed U-2",
-    "alternative_names": [],
+    "name": "Lockheed U-2 Dragon Lady",
+    "alternative_names": [
+      "U-2S",
+      "TU-2S",
+      "Dragon Lady",
+      "TR-1"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
-    "manufacturer": "Lockheed",
-    "role": "High-altitude reconnaissance aircraft",
-    "aircraft_type": "Reconnaissance aircraft",
+    "manufacturer": "Lockheed / Lockheed Martin Skunk Works",
+    "role": "High-altitude intelligence, surveillance, and reconnaissance aircraft",
+    "aircraft_type": "Strategic reconnaissance aircraft",
     "era": "Cold War/Modern",
-    "first_flight": "1955",
+    "first_flight": "August 1955",
     "introduction_date": "1956",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "1",
+    "status": "Active, with retirement timing subject to U.S. Air Force planning and budget decisions",
+    "number_built": "U-2 family production ended in 1989; current USAF fact-sheet inventory was 33 aircraft in September 2015, including trainers and NASA ER-2s",
+    "crew": "1 (2 in TU-2S trainer)",
     "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engines": "One General Electric F118-101 turbofan",
+    "max_speed": "410 mph (U-2S fact-sheet value)",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
+    "range": "More than 7,000 miles / 6,090 nautical miles",
+    "combat_range": "Mission-dependent; long-endurance high-altitude ISR profile",
+    "service_ceiling": "Above 70,000 ft",
     "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Lockheed U-2: High-altitude reconnaissance aircraft. Manufacturer: Lockheed. First flight: 1955. Introduction: 1956.",
-    "short_summary": "Lockheed U-2: High-altitude reconnaissance aircraft. Origin: United States. Manufacturer: Lockheed. First flight: 1955. Introduction: 1956. Status: Active.",
+    "armament": "Unarmed reconnaissance aircraft; carries sensor, communications, and intelligence payloads rather than weapons",
+    "hardpoints": "Not a weapons-carriage aircraft; payload bays, nose, and mission-system installations vary by configuration",
+    "variants": [
+      "U-2A",
+      "U-2C",
+      "U-2R",
+      "TR-1A",
+      "U-2S",
+      "TU-2S",
+      "NASA ER-2"
+    ],
+    "operators": [
+      "United States Air Force",
+      "Central Intelligence Agency (historical)",
+      "NASA (ER-2 derivative)"
+    ],
+    "combat_history": "Used for Cold War strategic reconnaissance and later high-altitude ISR support in Korea, the Balkans, Afghanistan, Iraq, disaster relief, search and rescue, and worldwide detachments.",
+    "development_history": "Developed in secrecy by Kelly Johnson's Lockheed Skunk Works to carry cameras and sensors above most 1950s air defenses. The enlarged U-2R/TR-1 line later formed the basis of the modernized U-2S fleet with F118 engines and updated avionics.",
+    "short_summary": "Lockheed U-2 Dragon Lady: a single-engine, very-high-altitude ISR aircraft designed by Skunk Works for strategic reconnaissance and still used in U-2S/TU-2S form for multi-sensor intelligence collection.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -19606,18 +19623,39 @@
     ],
     "sources": [
       {
+        "id": "fn-usaf",
+        "title": "U-2S/TU-2S Fact Sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104560/u-2stu-2s",
+        "publisher": "U.S. Air Force",
+        "note": "Official fact sheet used for U-2S/TU-2S mission, background, dimensions, engine, speed, range, ceiling, payload, basing, and inventory caveats."
+      },
+      {
+        "id": "fn-lockheed",
+        "title": "U-2 Dragon Lady",
+        "url": "https://www.lockheedmartin.com/en-us/products/u2-dragon-lady.html",
+        "publisher": "Lockheed Martin",
+        "note": "Manufacturer page used for current U-2S ISR role, Open Mission Systems, Avionics Tech Refresh, and payload-flexibility context."
+      },
+      {
+        "id": "fn-afa",
+        "title": "U-2S Dragon Lady",
+        "url": "https://www.airandspaceforces.com/weapons-platforms/u-2/",
+        "publisher": "Air and Space Forces Magazine",
+        "note": "Reference used for Block 20/U-2S modernization, sensor names, active variants, and current-program caveats."
+      },
+      {
+        "id": "fn-museum",
+        "title": "Lockheed U-2A",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195974/lockheed-u-2a",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Museum reference identified for early U-2A context, unarmed configuration, and historical specifications; automated extraction was limited, so it is used conservatively."
+      },
+      {
         "id": "fn-main",
         "title": "Lockheed U-2",
         "url": "https://en.wikipedia.org/wiki/Lockheed_U-2",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation only for broad chronology and reference discovery; official and specialist sources are preferred for technical claims."
       },
       {
         "id": "fn-method",
@@ -19625,20 +19663,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.blackbirds.net/u2/c_bennett/bbird-06.html",
-        "publisher": "blackbirds.net",
-        "note": "External source for Lockheed U-2."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.spyflight.co.uk/u-2s.htm",
-        "publisher": "spyflight.co.uk",
-        "note": "External source for Lockheed U-2."
       }
     ],
     "country_flags": [
@@ -19650,38 +19674,74 @@
     "designers": [
       "Lockheed"
     ],
-    "development_tensions": [],
-    "wars_used_in": [],
+    "development_tensions": [
+      "Keeping a sailplane-like, ultra-high-altitude aircraft controllable while carrying heavy camera and sensor payloads.",
+      "Balancing endurance, altitude, payload power/cooling, and survivability as air-defense threats and ISR networking requirements evolved.",
+      "Modernizing a 1950s-origin airframe with digital avionics, new sensors, and Open Mission Systems while preserving a small specialized fleet."
+    ],
+    "wars_used_in": [
+      {
+        "name": "Cold War reconnaissance",
+        "note": "U-2s collected strategic intelligence over and near denied areas, including early Soviet and Cuban Missile Crisis missions."
+      },
+      {
+        "name": "Korean Peninsula monitoring",
+        "note": "USAF fact-sheet history lists later U-2 intelligence support in Korea."
+      },
+      {
+        "name": "Balkans operations",
+        "note": "USAF fact-sheet history lists Balkans intelligence support."
+      },
+      {
+        "name": "Afghanistan and Iraq",
+        "note": "USAF fact-sheet history lists intelligence support in Afghanistan and Iraq."
+      }
+    ],
     "variant_families": [
-      "Lockheed U-2 baseline production model",
-      "Lockheed U-2 upgraded avionics or weapons-capable model"
+      "U-2A/C early CIA and USAF reconnaissance aircraft",
+      "U-2R enlarged late-1960s airframe with greater capability",
+      "TR-1A tactical reconnaissance aircraft, later redesignated U-2R",
+      "U-2S re-engined and modernized operational aircraft",
+      "TU-2S two-seat trainer",
+      "ER-2 NASA high-altitude research derivative"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Lockheed U-2 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The U.S. Air Force is the principal operational user of the U-2S/TU-2S fleet, historically joined by CIA operation of early U-2s and NASA use of ER-2 research aircraft.",
+      "all_operators_status": "Current force structure and retirement timing are date-sensitive; the USAF fact sheet listed 33 active-force aircraft in September 2015, including trainers and NASA ER-2s."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "Francis Gary Powers is associated with the 1960 Soviet shootdown, a major Cold War incident.",
+        "The U-2 imagery mission over Cuba in October 1962 helped confirm Soviet missile deployments during the Cuban Missile Crisis."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "1960: a U-2C flown by Francis Gary Powers was shot down over the Soviet Union by a surface-to-air missile.",
+        "1962: U-2 photography provided key evidence during the Cuban Missile Crisis."
       ]
     },
     "engine_details": {
       "type": "Jet",
-      "summary": "Lockheed U-2 uses jet propulsion."
+      "summary": "Modern USAF U-2S aircraft use one General Electric F118-101 turbofan rated at 17,000 lb thrust, replacing earlier engine fits during the 1990s modernization.",
+      "caution": "Engine and performance figures differ between early U-2A/C, enlarged U-2R/TR-1, U-2S, TU-2S, and NASA ER-2 configurations."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "The U-2 is unarmed. Mission equipment centers on electro-optical/infrared cameras, optical bar camera, advanced synthetic aperture radar, signals-intelligence payloads, and network-centric communications.",
+      "caution": "Specific sensor fits and communications suites are mission-, block-, and date-dependent; classified payload details are omitted."
     },
     "similar_development": [
+      {
+        "id": "sr-71-blackbird",
+        "name": "Lockheed SR-71 Blackbird",
+        "url": "aircraft.html?id=sr-71-blackbird"
+      },
+      {
+        "id": "rq-4-global-hawk",
+        "name": "Northrop Grumman RQ-4 Global Hawk",
+        "url": "aircraft.html?id=rq-4-global-hawk"
+      },
       {
         "id": "p-3-orion",
         "name": "Lockheed P-3 Orion",
@@ -19693,68 +19753,89 @@
         "url": "aircraft.html?id=p-8-poseidon"
       },
       {
-        "id": "sr-71-blackbird",
-        "name": "Lockheed SR-71 Blackbird",
-        "url": "aircraft.html?id=sr-71-blackbird"
+        "id": "e-3-sentry",
+        "name": "Boeing E-3 Sentry",
+        "url": "aircraft.html?id=e-3-sentry"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 2
+      "exact_fact_count": 32,
+      "operator_entries": 3,
+      "variant_entries": 7,
+      "external_article_sources": 4
     },
     "footnotes": [
+      {
+        "id": "fn-usaf",
+        "title": "U-2S/TU-2S Fact Sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104560/u-2stu-2s",
+        "publisher": "U.S. Air Force",
+        "note": "Official fact sheet used for U-2S/TU-2S mission, background, dimensions, engine, speed, range, ceiling, payload, basing, and inventory caveats."
+      },
+      {
+        "id": "fn-lockheed",
+        "title": "U-2 Dragon Lady",
+        "url": "https://www.lockheedmartin.com/en-us/products/u2-dragon-lady.html",
+        "publisher": "Lockheed Martin",
+        "note": "Manufacturer page used for current U-2S ISR role, Open Mission Systems, Avionics Tech Refresh, and payload-flexibility context."
+      },
+      {
+        "id": "fn-afa",
+        "title": "U-2S Dragon Lady",
+        "url": "https://www.airandspaceforces.com/weapons-platforms/u-2/",
+        "publisher": "Air and Space Forces Magazine",
+        "note": "Reference used for Block 20/U-2S modernization, sensor names, active variants, and current-program caveats."
+      },
+      {
+        "id": "fn-museum",
+        "title": "Lockheed U-2A",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195974/lockheed-u-2a",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Museum reference identified for early U-2A context, unarmed configuration, and historical specifications; automated extraction was limited, so it is used conservatively."
+      },
       {
         "id": "fn-main",
         "title": "Lockheed U-2",
         "url": "https://en.wikipedia.org/wiki/Lockheed_U-2",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation only for broad chronology and reference discovery; official and specialist sources are preferred for technical claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.blackbirds.net/u2/c_bennett/bbird-06.html",
-        "publisher": "blackbirds.net",
-        "note": "External source for Lockheed U-2."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.spyflight.co.uk/u-2s.htm",
-        "publisher": "spyflight.co.uk",
-        "note": "External source for Lockheed U-2."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.blackbirds.net/u2/c_bennett/bbird-06.html",
-        "publisher": "blackbirds.net",
-        "note": "External source for Lockheed U-2."
+        "id": "fn-usaf",
+        "title": "U-2S/TU-2S Fact Sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104560/u-2stu-2s",
+        "publisher": "U.S. Air Force",
+        "note": "Official fact sheet used for U-2S/TU-2S mission, background, dimensions, engine, speed, range, ceiling, payload, basing, and inventory caveats."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.spyflight.co.uk/u-2s.htm",
-        "publisher": "spyflight.co.uk",
-        "note": "External source for Lockheed U-2."
+        "id": "fn-lockheed",
+        "title": "U-2 Dragon Lady",
+        "url": "https://www.lockheedmartin.com/en-us/products/u2-dragon-lady.html",
+        "publisher": "Lockheed Martin",
+        "note": "Manufacturer page used for current U-2S ISR role, Open Mission Systems, Avionics Tech Refresh, and payload-flexibility context."
+      },
+      {
+        "id": "fn-afa",
+        "title": "U-2S Dragon Lady",
+        "url": "https://www.airandspaceforces.com/weapons-platforms/u-2/",
+        "publisher": "Air and Space Forces Magazine",
+        "note": "Reference used for Block 20/U-2S modernization, sensor names, active variants, and current-program caveats."
+      },
+      {
+        "id": "fn-museum",
+        "title": "Lockheed U-2A",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195974/lockheed-u-2a",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Museum reference identified for early U-2A context, unarmed configuration, and historical specifications; automated extraction was limited, so it is used conservatively."
       }
     ],
     "article_sections": [
@@ -19763,19 +19844,21 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Lockheed U-2 is a High-altitude reconnaissance aircraft from United States. Manufacturer: Lockheed. First flight: 1955. Introduction: 1956. Status: Active.",
+            "text": "The Lockheed U-2 Dragon Lady is a single-engine, very-high-altitude intelligence, surveillance, and reconnaissance aircraft created by Lockheed Skunk Works and still operated in modernized U-2S/TU-2S form. It trades speed and armament for altitude, endurance, sensor payload, and the ability to collect imagery, signals, radar, and communications intelligence from above 70,000 ft.",
             "refs": [
-              "fn-main"
+              "fn-usaf",
+              "fn-lockheed"
             ]
           },
           {
-            "text": "Lockheed U-2 is a reconnaissance aircraft. Primary role: high-altitude reconnaissance aircraft. Country of origin: United States. Manufacturer: Lockheed.",
+            "text": "Unlike strike or patrol aircraft, the U-2 is unarmed and built around sensors. The USAF fact sheet describes electro-optical infrared cameras, the optical bar camera, advanced synthetic aperture radar, signals intelligence, and network-centric communications packages; Lockheed emphasizes open architecture, payload flexibility, and rapid fielding of new capabilities.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf",
+              "fn-lockheed"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The page was expanded from a generated placeholder entry, so date-sensitive details such as exact fleet size, retirement plans, and classified sensor performance are intentionally caveated rather than presented as fixed current facts.",
             "refs": [
               "fn-method"
             ]
@@ -19784,178 +19867,227 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "High-altitude reconnaissance aircraft"
+            "text": "High-altitude ISR / strategic reconnaissance"
           },
           {
-            "title": "Designer or builder",
-            "text": "Lockheed"
+            "title": "Altitude class",
+            "text": "Above 70,000 ft"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Powerplant",
+            "text": "One GE F118-101 turbofan on U-2S"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Armament",
+            "text": "None; sensor and communications payloads"
+          },
+          {
+            "title": "Home base context",
+            "text": "9th Reconnaissance Wing, Beale AFB, with worldwide detachments"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History and Modernization",
         "paragraphs": [
           {
-            "text": "Lockheed U-2 first flew in 1955. Introduction date: 1956. Era: Cold War/Modern.",
+            "text": "Kelly Johnson and Lockheed Skunk Works developed the original U-2A in secrecy to answer an early Cold War need for strategic photographic reconnaissance at altitudes beyond most contemporary interceptors. The original U-2A first flew in August 1955 and entered operational use in 1956.",
             "refs": [
+              "fn-usaf",
               "fn-main"
             ]
           },
           {
-            "text": "Producer: Lockheed. Development context: high-altitude reconnaissance aircraft, jet propulsion, subsonic speed category, Cold War/Modern era.",
+            "text": "Early U-2 flights over the Soviet Union gave U.S. leaders insight into Soviet military capabilities, while U-2 photography in October 1962 helped reveal Soviet offensive missile deployments in Cuba. The aircraft's political risk became equally visible in 1960 when Francis Gary Powers was shot down over the Soviet Union.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "The enlarged U-2R first flew in 1967 and was about 40 percent larger and more capable than the original aircraft. The TR-1A tactical reconnaissance version first flew in August 1981, and in 1992 the TR-1 and U-2 designations were consolidated back under U-2R.",
+            "refs": [
+              "fn-usaf",
+              "fn-afa"
+            ]
+          },
+          {
+            "text": "From 1994, the fleet received major modernization including GE F118-101 engines, cockpit redesign, digital multifunction displays, up-front avionics controls, updated electronic warfare equipment, data links, and later Open Mission Systems and Avionics Tech Refresh work.",
+            "refs": [
+              "fn-usaf",
+              "fn-lockheed",
+              "fn-afa"
             ]
           }
         ],
-        "bullets": []
+        "cards": [
+          {
+            "title": "Original first flight",
+            "text": "August 1955"
+          },
+          {
+            "title": "U-2R first flight",
+            "text": "1967"
+          },
+          {
+            "title": "TR-1A first flight",
+            "text": "August 1981"
+          },
+          {
+            "title": "U-2S modernization",
+            "text": "F118 engine and digital-avionics upgrades from the 1990s onward"
+          }
+        ]
       },
       {
         "id": "design",
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Subsonic.",
+            "text": "The U-2's long, straight, high-aspect-ratio wings give it glider-like characteristics. This design supports extreme altitude and range, but it also makes takeoff, landing, and low-speed handling unusually demanding compared with conventional jet aircraft.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "The pilot wears a full pressure suit because the aircraft operates at near-space altitudes. The U-2's flight envelope is famously narrow at altitude, with limited separation between stall and overspeed margins, so mission crews require specialized training and procedures.",
             "refs": [
+              "fn-usaf",
               "fn-method"
             ]
           },
           {
-            "text": "Lockheed U-2 uses jet propulsion. Engine model field: Not listed.",
+            "text": "Modern U-2S aircraft provide multi-sensor ISR rather than weapons delivery. Publicly identified mission packages include electro-optical infrared imaging, optical bar camera, advanced synthetic aperture radar, signals intelligence, and communications/network payloads, but exact fits vary by mission and classified details are not listed.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-usaf",
+              "fn-afa"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "1"
+            "text": "1 in U-2S; 2 in TU-2S trainer"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Wingspan",
+            "text": "105 ft / 32 m"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Payload",
+            "text": "About 5,000 lb mission payload"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Fuel capacity",
+            "text": "2,950 gallons"
           },
           {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Landing characteristics",
+            "text": "Bicycle landing gear and chase-car assisted operations in many procedures"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Lockheed U-2 status: Active. Conflict entries: 0.",
+            "text": "Representative U-2S/TU-2S figures from the USAF fact sheet: one General Electric F118-101 engine with 17,000 lb thrust; 105 ft wingspan; 63 ft length; 16 ft height; 16,000 lb empty weight; 40,000 lb maximum takeoff weight; 2,950 gal fuel capacity; 5,000 lb payload; 410 mph speed; more than 7,000 mile range; and a ceiling above 70,000 ft.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Conflicts: 0 entries.",
+            "text": "These values describe the modern USAF U-2S/TU-2S family rather than every early U-2A/C or NASA ER-2 configuration. Older sources may list different engines, weights, speeds, and ranges for early airframes.",
             "refs": [
-              "fn-method"
+              "fn-method",
+              "fn-museum"
             ]
           }
         ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
+        "cards": [
           {
-            "text": "Lockheed U-2 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Engine",
+            "text": "1 x GE F118-101 turbofan, 17,000 lb thrust"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Dimensions",
+            "text": "105 ft span; 63 ft length; 16 ft height"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Weights",
+            "text": "16,000 lb empty; 40,000 lb max takeoff"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Performance",
+            "text": "410 mph; 7,000+ mile range; above 70,000 ft ceiling"
+          },
+          {
+            "title": "Payload",
+            "text": "5,000 lb of sensors/mission equipment"
           }
         ]
       },
       {
         "id": "variants",
-        "title": "Variants",
+        "title": "Variants and Related Models",
         "paragraphs": [
           {
-            "text": "Lockheed U-2 variant-family entries: 2. Variant families: Lockheed U-2 baseline production model; Lockheed U-2 upgraded avionics or weapons-capable model.",
+            "text": "The U-2 family evolved from small early CIA/USAF U-2A and U-2C aircraft through the larger U-2R/TR-1 generation and the modern U-2S. The aircraft's designations are historically confusing because TR-1 tactical reconnaissance aircraft were later redesignated U-2R, and upgraded Air Force aircraft became U-2S after the F118 modernization.",
             "refs": [
-              "fn-main"
+              "fn-usaf",
+              "fn-afa"
             ]
           },
           {
-            "text": "Complete variant entries listed: 0.",
+            "text": "TU-2S aircraft are two-seat trainers used to prepare pilots for the demanding single-seat U-2S mission. NASA's ER-2 derivative supports high-altitude civil science and earth-observation research rather than USAF operational reconnaissance.",
             "refs": [
+              "fn-usaf",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Lockheed U-2 baseline production model",
+            "text": "U-2A / U-2C — early high-altitude reconnaissance aircraft associated with CIA and USAF Cold War missions.",
             "refs": [
-              "fn-main"
+              "fn-main",
+              "fn-museum"
             ]
           },
           {
-            "text": "Lockheed U-2 upgraded avionics or weapons-capable model",
+            "text": "U-2R — enlarged late-1960s airframe, about 40 percent larger and more capable than the original aircraft.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "TR-1A — tactical reconnaissance version first flown in August 1981 and later redesignated U-2R.",
+            "refs": [
+              "fn-usaf",
+              "fn-afa"
+            ]
+          },
+          {
+            "text": "U-2S — re-engined and modernized operational aircraft with GE F118 power, digital avionics, updated sensors, and later Block 20/Open Mission Systems work.",
+            "refs": [
+              "fn-usaf",
+              "fn-lockheed",
+              "fn-afa"
+            ]
+          },
+          {
+            "text": "TU-2S — two-seat training aircraft used at Beale AFB before operational deployment.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "ER-2 — NASA high-altitude research derivative; included in older USAF inventory notes but operated for civil/scientific missions.",
+            "refs": [
+              "fn-usaf",
+              "fn-method"
             ]
           }
         ]
@@ -19965,63 +20097,168 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Lockheed U-2 has 1 designer or builder country entry.",
+            "text": "The U.S. Air Force is the U-2S/TU-2S fleet's principal current operator. The USAF fact sheet states that U-2s are home based with the 9th Reconnaissance Wing at Beale Air Force Base, California, while rotating to operational detachments worldwide.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "The Central Intelligence Agency operated early U-2 missions during the Cold War. NASA operates the ER-2 research derivative for civil high-altitude science missions rather than military ISR.",
+            "refs": [
+              "fn-main",
+              "fn-usaf",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Fleet size and retirement plans are date-sensitive. The USAF fact sheet listed 33 active-force aircraft as of September 2015, including five two-seat trainers and two NASA ER-2s; Air and Space Forces Magazine later listed a smaller U-2/TU-2 inventory, so this page avoids a single current total.",
+            "refs": [
+              "fn-usaf",
+              "fn-afa",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Current military operator",
+            "text": "U.S. Air Force / Air Combat Command"
+          },
+          {
+            "title": "Home unit",
+            "text": "9th Reconnaissance Wing, Beale AFB"
+          },
+          {
+            "title": "Historical operator",
+            "text": "Central Intelligence Agency"
+          },
+          {
+            "title": "Research derivative",
+            "text": "NASA ER-2"
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History and Notable Use",
+        "paragraphs": [
+          {
+            "text": "Early U-2 missions provided key strategic intelligence on Soviet capabilities in the late 1950s. The 1960 shootdown of Francis Gary Powers over the Soviet Union demonstrated both the aircraft's reach and the diplomatic risk of manned overflight missions.",
+            "refs": [
+              "fn-usaf",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "In October 1962, U-2 photography of Soviet offensive nuclear missile buildup in Cuba helped trigger and inform U.S. decision-making during the Cuban Missile Crisis.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "In later decades the aircraft shifted toward standoff and theater ISR. The USAF fact sheet lists intelligence support in Korea, the Balkans, Afghanistan, and Iraq, plus peacetime reconnaissance for disaster relief, earthquakes, forest fires, floods, and search and rescue when requested.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Because modern missions may involve classified collection systems or operational locations, this article keeps mission descriptions at the public-source level and does not infer unlisted sensor performance or deployment details.",
             "refs": [
               "fn-method"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "All operators status: 0 operator entries listed.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Cold War role",
+            "text": "Strategic imagery intelligence"
           },
           {
-            "text": "Major designer or builder entries: United States.",
-            "refs": [
-              "fn-wikidata"
-            ]
+            "title": "1962 role",
+            "text": "Cuban Missile Crisis photography"
+          },
+          {
+            "title": "Modern role",
+            "text": "Multi-sensor theater and strategic ISR"
+          },
+          {
+            "title": "Peacetime use",
+            "text": "Disaster relief and search-and-rescue support when requested"
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "mission-systems",
+        "title": "Sensors, Avionics, and Mission Systems",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Subsonic, first flight 1955, introduction 1956.",
+            "text": "The U-2's core value is payload adaptability. Public USAF and AFA descriptions mention optical bar camera, electro-optical/infrared systems, ASARS synthetic aperture radar, signals-intelligence payloads, enhanced Airborne Signals Intelligence Payload, updated data links, and network-centric communications.",
             "refs": [
-              "fn-main"
+              "fn-usaf",
+              "fn-afa"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Lockheed Martin describes the modern U-2S as an Open Mission Systems compliant platform with strong size, weight, power, and cooling capacity for rapid payload integration. Avionics Tech Refresh and Block 20/20.1 efforts are framed as ways to keep the aircraft relevant for joint all-domain operations and future battlespace networking.",
+            "refs": [
+              "fn-lockheed",
+              "fn-afa"
+            ]
+          },
+          {
+            "text": "Specific sensor capabilities, collection ranges, and classified electronic-intelligence details are omitted or described generally because public sources do not support precise values.",
             "refs": [
               "fn-method"
             ]
           }
+        ],
+        "cards": [
+          {
+            "title": "Optical imagery",
+            "text": "Optical bar camera and EO/IR systems"
+          },
+          {
+            "title": "Radar",
+            "text": "ASARS synthetic aperture radar family"
+          },
+          {
+            "title": "Signals intelligence",
+            "text": "ASIP/SIGINT payloads publicly referenced"
+          },
+          {
+            "title": "Networking",
+            "text": "Modern data links and Open Mission Systems architecture"
+          }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "comparison",
+        "title": "Comparison and Role Context",
         "paragraphs": [
           {
-            "text": "Lockheed U-2 similar-development links: 3.",
+            "text": "Compared with the SR-71, the U-2 is much slower but offers long endurance, large sensor payload flexibility, lower operating complexity, and continued modernization as a subsonic ISR truck. Compared with RQ-4 Global Hawk, it remains a manned, pressure-suit aircraft with a different payload, basing, and operating concept.",
+            "refs": [
+              "fn-usaf",
+              "fn-lockheed",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The U-2 complements rather than replaces patrol, airborne early warning, or strike aircraft. Its value lies in high-altitude persistence and sensor carriage, while aircraft such as the P-8, E-3, MQ-9, and RQ-4 cover different maritime, battle-management, armed overwatch, and unmanned ISR niches.",
             "refs": [
               "fn-method"
             ]
           }
         ],
         "links": [
+          {
+            "label": "Lockheed SR-71 Blackbird",
+            "url": "aircraft.html?id=sr-71-blackbird"
+          },
+          {
+            "label": "Northrop Grumman RQ-4 Global Hawk",
+            "url": "aircraft.html?id=rq-4-global-hawk"
+          },
           {
             "label": "Lockheed P-3 Orion",
             "url": "aircraft.html?id=p-3-orion"
@@ -20031,8 +20268,178 @@
             "url": "aircraft.html?id=p-8-poseidon"
           },
           {
+            "label": "Boeing E-3 Sentry",
+            "url": "aircraft.html?id=e-3-sentry"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include extreme altitude, long range, large sensor payload capacity, proven global ISR use, and the ability to integrate new payloads and avionics into a mature platform. The aircraft's long service life reflects continuous modernization rather than unchanged 1950s capability.",
+            "refs": [
+              "fn-usaf",
+              "fn-lockheed",
+              "fn-afa"
+            ]
+          },
+          {
+            "text": "Limitations include subsonic speed, no weapons, specialized pilot training, pressure-suit operations, demanding takeoff/landing characteristics, a small fleet, and vulnerability concerns in heavily defended airspace. Exact survivability depends on route, sensor standoff, threat systems, and operational planning.",
+            "refs": [
+              "fn-usaf",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: very-high-altitude ISR persistence with multiple sensor types.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Strength: open architecture and SWAP-C capacity for payload modernization.",
+            "refs": [
+              "fn-lockheed"
+            ]
+          },
+          {
+            "text": "Limitation: unarmed aircraft requiring specialist training, support, and mission planning.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Limitation: current fleet size, retirement timing, and operational deployments are date-sensitive.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "1955 — the original U-2A first flew in August.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "1956 — initial operational capability / service introduction.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "1960 — Francis Gary Powers was shot down during a Soviet overflight mission.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "1962 — U-2 imagery helped reveal Soviet missile deployments in Cuba.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "1967 — the larger U-2R first flew.",
+            "refs": [
+              "fn-usaf",
+              "fn-afa"
+            ]
+          },
+          {
+            "text": "1981 — TR-1A first flew; later aircraft were redesignated U-2R.",
+            "refs": [
+              "fn-usaf",
+              "fn-afa"
+            ]
+          },
+          {
+            "text": "1989 — last U-2/TR-1 aircraft were delivered.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "1994 onward — F118 engine and avionics modernization produced the U-2S standard.",
+            "refs": [
+              "fn-usaf",
+              "fn-afa"
+            ]
+          },
+          {
+            "text": "2020s — Block 20/20.1, Open Mission Systems, Avionics Tech Refresh, and networked ISR experiments continued.",
+            "refs": [
+              "fn-lockheed",
+              "fn-afa"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Primary technical values in this entry come from the U.S. Air Force U-2S/TU-2S fact sheet. Lockheed Martin is used for manufacturer statements about modern open architecture and Avionics Tech Refresh. Air and Space Forces Magazine is used for public modernization, sensor, and fleet-context detail. Wikipedia is retained only as supplementary orientation.",
+            "refs": [
+              "fn-usaf",
+              "fn-lockheed",
+              "fn-afa",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Current inventory, retirement decisions, exact sensor fits, mission locations, and collection performance are particularly sensitive to date, classification, and budget context. Where sources disagree or are dated, this page uses cautious wording rather than exact current claims.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages for reconnaissance, ISR, and comparison context.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
             "label": "Lockheed SR-71 Blackbird",
             "url": "aircraft.html?id=sr-71-blackbird"
+          },
+          {
+            "label": "Northrop Grumman RQ-4 Global Hawk",
+            "url": "aircraft.html?id=rq-4-global-hawk"
+          },
+          {
+            "label": "Boeing P-8 Poseidon",
+            "url": "aircraft.html?id=p-8-poseidon"
+          },
+          {
+            "label": "Lockheed P-3 Orion",
+            "url": "aircraft.html?id=p-3-orion"
+          },
+          {
+            "label": "Boeing E-3 Sentry",
+            "url": "aircraft.html?id=e-3-sentry"
+          },
+          {
+            "label": "General Atomics MQ-9 Reaper",
+            "url": "aircraft.html?id=mq-9-reaper"
           }
         ]
       }

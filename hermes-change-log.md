@@ -1240,3 +1240,80 @@ Record the result of:
 * Rosoboronexport's official Su-35 page was reachable but navigation-heavy in automated extraction, so detailed specifications were cross-checked with Mitchell Institute public technical data and Wikipedia was retained only as supplementary orientation.
 * Russian aircraft inventory, wartime loss/kill claims, radar detection figures, and some export/customer reports are date-sensitive or contested; the page uses cautious wording and omits unsupported fixed claims.
 * The committed change log cannot contain the final commit hash without changing that hash; the final scheduled-run response reports it separately.
+
+### Run 17 — 2026-06-30 12:01:59 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Lockheed U-2 Dragon Lady (id: u-2-dragon-lady)
+* Reason selected: The U-2 entry was the sparsest unedited aircraft page in the comparison pass, with placeholder generated text, no real operator entries, no real variant entries, missing specifications, generic weapons wording for an unarmed reconnaissance aircraft, and far less development/design/mission-system/operational-history density than the F-16 reference.
+* Previous condition: Generated-style page with 15 exact fact fields, 0 operator entries, 0 variant entries, two low-detail external links, no U-2S/TU-2S specifications, no F118 engine or sensor coverage, no Cold War/Cuban Missile Crisis context, and no careful caveats for fleet size, retirement timing, or classified payloads.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense lead overview, technical fact cards, section order from overview through development/design/specifications/variants/operators/operational history/mission systems/comparison/strengths/timeline/sources/related pages, concise source-qualified paragraphs, cautious notes around variant-specific and date-sensitive details, and aircraft.html?id=... internal related-page links.
+
+#### Changes Made
+
+* Expanded the Lockheed U-2 record in data/aircraft.json from a sparse generated entry into a fuller Milipedia article-style aircraft page.
+* Corrected top-level facts for name, alternative names, Skunk Works manufacturer context, ISR role, first-flight/introduction chronology, status caveat, crew, F118-101 engine, speed, range, service ceiling, unarmed payload-centered armament, operators, variants, development history, combat/operational history, and summary.
+* Replaced generic fighter-style armament text with U-2-specific unarmed reconnaissance wording covering sensor, camera, radar, signals-intelligence, and communications payloads.
+* Added official and reliable sources from the U.S. Air Force, Lockheed Martin, Air and Space Forces Magazine, and the National Museum of the U.S. Air Force, retaining Wikipedia only as supplementary orientation.
+* Added/expanded sections for Overview, Development History and Modernization, Design and Capabilities, Specifications, Variants and Related Models, Operators, Operational History and Notable Use, Sensors/Avionics/Mission Systems, Comparison and Role Context, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added public U-2S/TU-2S specifications including one GE F118-101 engine, 17,000 lb thrust, 105 ft wingspan, 63 ft length, 16 ft height, 16,000 lb empty weight, 40,000 lb maximum takeoff weight, 2,950 gal fuel capacity, 5,000 lb payload, 410 mph speed, more than 7,000 mile range, and above-70,000-ft ceiling.
+* Added variant coverage for U-2A/C, U-2R, TR-1A, U-2S, TU-2S, and NASA ER-2.
+* Added operator/context coverage for the U.S. Air Force, historical CIA use, and NASA ER-2 research aircraft, with date-sensitive inventory caveats.
+* Added operational-history context for early Soviet reconnaissance, the 1960 Francis Gary Powers shootdown, Cuban Missile Crisis imagery, Korea, Balkans, Afghanistan, Iraq, and peacetime disaster/search-and-rescue support.
+* Added internal related/comparison links to SR-71 Blackbird, RQ-4 Global Hawk, P-3 Orion, P-8 Poseidon, E-3 Sentry, and MQ-9 Reaper.
+* Omitted exact classified sensor performance, current deployment locations, definitive retirement dates, and a single current fleet total because those facts are classified, date-sensitive, or source-dependent.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Lockheed U-2 Dragon Lady page data, sources, sections, specifications, variants, operators, mission systems, and internal links.
+* hermes-change-log.md — Appended the cumulative Run 17 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were modified/staged.
+2. git diff — Reviewed diff/stat; data/aircraft.json changed only the U-2 Dragon Lady entry and hermes-change-log.md appended this run entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the U-2 entry section list, sources, variant/operator counts, unarmed payload wording, mission-system caveats, and summary.
+4. F-16 style comparison — Inspected data/f16-template.html and followed its dense overview, technical card/specification emphasis, section ordering, neutral tone, source formatting, and related-page linking style within the JSON-rendered article system.
+5. Internal link check — Verified aircraft.html?id=sr-71-blackbird, rq-4-global-hawk, p-3-orion, p-8-poseidon, e-3-sentry, and mq-9-reaper point to existing aircraft ids in data/aircraft.json.
+6. Secret/token check — Ran credential-specific grep over the staged diff for API keys, tokens, passwords, private keys, GitHub tokens, and AWS credential names; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, only intended files staged, selected page not previously edited by Hermes, no main-branch edits, and diff reviewed before commit.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Lockheed U-2 Dragon Lady
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* The committed change log cannot contain the final commit hash without changing that hash; the final scheduled-run response reports it separately.
+* U-2 fleet size, retirement timing, sensor fits, deployment locations, and collection performance are date-sensitive and/or classified, so the page uses cautious wording and omits precise unsupported claims.
+* Automated extraction of the National Museum U-2A page failed, but its search-result summary and known official museum page were retained only as conservative historical/source context; USAF and Lockheed sources were preferred for article substance.
