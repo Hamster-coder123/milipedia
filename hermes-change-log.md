@@ -318,3 +318,80 @@ Record the result of:
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * Boeing and USAF publish some V-22 specification values differently by family versus CV-22 variant, so the page identifies source/variant context rather than forcing a single universal value.
 * Exact current inventory totals, readiness status, detailed mishap analysis, and mission-system/countermeasure fits were not expanded in this run because they vary by service, date, and configuration and need dedicated dated sources.
+
+### Run 5 — 2026-06-30 00:03:43 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Boeing C-17 Globemaster III (id: c-17-globemaster-iii)
+* Reason selected: The C-17 entry was a sparse unedited transport page with no real operators, no real variants, no external article sources, incomplete specifications, generic generated sections, and missing short-field/payload/operator/service context despite being a major Milipedia aircraft page.
+* Previous condition: Placeholder-like generated entry with 15 exact fact fields, 0 operator entries, 0 variant entries, 0 external article sources, no engine/range/ceiling/dimension/payload detail, no U.S. basing or international operator coverage, and only generic overview/development/design/service text.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview lead; article-section order covering overview, development, design, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, sources, and related pages; short sourced paragraphs; card-style key facts; specification emphasis within the JSON renderer; cautious public-source caveats; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the C-17 Globemaster III entry in data/aircraft.json into a fuller Milipedia article data record while preserving the existing JSON-rendered aircraft-page structure.
+* Updated top-level facts for alternative names, role, aircraft type, first flight, operational introduction, status, number built/operating caveat, crew, engines, speed, range, service ceiling, payload-oriented armament wording, hardpoints, development history, combat/service history, summary, variants, operators, related aircraft, and article-quality counts.
+* Replaced generic sparse transport wording with C-17-specific unarmed airlift language covering troops, cargo, vehicles, pallets, airdrop loads, aeromedical evacuation, rear-ramp loading, and short-field operations.
+* Added official/manufacturer/operator sources from the U.S. Air Force, Boeing, and the Royal Australian Air Force; retained Wikipedia only as supplementary orientation and kept the Milipedia accuracy-rules source.
+* Added/expanded sections for Overview, Development History, Design and Capabilities, Specifications, Variants and Configurations, Operators, Operational History, Comparison and Role Context, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added public technical details for F117-PW-100 / PW2040 engines, 40,440 lb thrust per engine, 174 ft length, 169 ft 10 in / 169.8 ft wingspan, 55 ft 1 in height, 88 ft cargo-compartment length, 585,000 lb maximum takeoff weight, 170,900 lb maximum payload, 45,000 ft service ceiling, 450 kt / Mach 0.74 cruise, 2,400 nmi heavy-payload range, 6,200+ nmi no-payload range, and 3,500 ft short-field runway capability.
+* Added variant/configuration coverage for C-17A Globemaster III, export C-17A, and block/sustainment-upgraded aircraft.
+* Added operator coverage for the United States, United Kingdom, Australia, Canada, India, Qatar, United Arab Emirates, Kuwait, and the multinational Strategic Airlift Capability / Heavy Airlift Wing.
+* Added operational-history context for the first production delivery, first operational squadron, Operations Enduring Freedom and Iraqi Freedom, global contingency airlift, airdrop, aeromedical evacuation, humanitarian relief, and disaster response.
+* Added comparison context against the existing C-130 Hercules, C-5 Galaxy, Il-76, and KC-135 Stratotanker pages.
+* Omitted detailed mishap history, classified/variable defensive systems, exact current base-by-base readiness, and national communications fits because those facts vary by date and configuration or require dedicated dated sources.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Boeing C-17 Globemaster III aircraft page data and sources.
+* hermes-change-log.md — Appended the cumulative Run 5 log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed diff/stat; data/aircraft.json changes are limited to the C-17 Globemaster III entry, and hermes-change-log.md adds this Run 5 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed C-17 sections, sources, footnotes/external articles, article quality fields, variants/operators, and unarmed transport wording.
+4. F-16 style comparison — Inspected data/f16-template.html and copied its dense lead, section order, sourced paragraphs, specification emphasis, variants/operators/service/comparison/timeline coverage, source notes, and related-page patterns within the JSON article system.
+5. Internal link check — Verified aircraft.html?id=c-130-hercules, aircraft.html?id=c-5-galaxy, aircraft.html?id=il-76, and aircraft.html?id=kc-135-stratotanker target existing aircraft ids in data/aircraft.json.
+6. Secret/token check — Ran credential-specific scan over the staged diff for API keys, tokens, passwords, private keys, GitHub tokens, and AWS credentials; no credentials were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, diff check, intended files only, C-17 was not previously edited by Hermes, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Boeing C-17 Globemaster III
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* Boeing's current public page reports 275 aircraft operating worldwide, while total production and current fleet counts can be expressed differently by source and date; the page uses cautious wording rather than a fixed current inventory table.
+* Defensive systems, exact current readiness/base details, national communications fits, and mishap history were not expanded in this run because they vary by aircraft, operator, date, or require dedicated dated sources.

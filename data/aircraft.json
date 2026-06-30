@@ -15401,34 +15401,97 @@
   {
     "id": "c-17-globemaster-iii",
     "name": "Boeing C-17 Globemaster III",
-    "alternative_names": [],
+    "alternative_names": [
+      "McDonnell Douglas C-17",
+      "C-17A",
+      "Globemaster III"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
     "manufacturer": "McDonnell Douglas / Boeing",
-    "role": "Strategic/tactical airlifter",
-    "aircraft_type": "Transport aircraft",
+    "role": "Strategic and tactical military airlifter",
+    "aircraft_type": "Heavy transport aircraft",
     "era": "Modern",
-    "first_flight": "1991",
-    "introduction_date": "1995",
+    "first_flight": "15 September 1991",
+    "introduction_date": "17 January 1995 operational readiness; first production delivery 14 June 1993",
     "retirement_date": null,
     "status": "Active",
-    "number_built": "Not listed",
-    "crew": "3",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "number_built": "279 aircraft; 275 reported in worldwide operation by Boeing",
+    "crew": "Three: two pilots and one loadmaster",
+    "engine_type": "High-bypass turbofan",
+    "engines": "Four Pratt & Whitney F117-PW-100 turbofans, 40,440 lb thrust each",
+    "max_speed": "Approximately 450 knots at 28,000 ft; Mach 0.74 cruise",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Support aircraft; fixed offensive armament not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Boeing C-17 Globemaster III: Strategic/tactical airlifter. Manufacturer: McDonnell Douglas / Boeing. First flight: 1991. Introduction: 1995.",
-    "short_summary": "Boeing C-17 Globemaster III: Strategic/tactical airlifter. Origin: United States. Manufacturer: McDonnell Douglas / Boeing. First flight: 1991. Introduction: 1995. Status: Active.",
+    "range": "Global with aerial refueling; more than 6,200 nmi with no payload; about 2,400 nmi with 164,900 lb payload",
+    "combat_range": "Mission dependent; designed for intertheater strategic lift and intratheater short-field delivery",
+    "service_ceiling": "45,000 ft at cruising speed",
+    "rate_of_climb": "Not listed in official public fact sheets",
+    "armament": "Unarmed transport aircraft; carries troops, cargo, vehicles, pallets, litter patients, and airdrop loads rather than fixed offensive weapons.",
+    "hardpoints": "Not applicable; internal cargo compartment and rear ramp/door system",
+    "variants": [
+      {
+        "name": "C-17A Globemaster III",
+        "description": "Baseline production heavy airlifter used by the U.S. Air Force and export customers. Public sources generally use C-17A for operational aircraft."
+      },
+      {
+        "name": "C-17 ERIP / Block upgrades",
+        "description": "Operational aircraft have received avionics, communications, navigation, and sustainment updates over time rather than a large family of outwardly distinct combat variants."
+      },
+      {
+        "name": "Export C-17A",
+        "description": "C-17A aircraft delivered to allies and partners including the United Kingdom, Australia, Canada, India, Qatar, the United Arab Emirates, Kuwait, and the Strategic Airlift Capability."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "U.S. Air Force, Air National Guard, Air Force Reserve Command, Pacific Air Forces, Air Mobility Command, Air Education and Training Command, and test support users",
+        "notes": "Largest operator; Boeing reports 223 U.S. Air Force aircraft at 12 bases, while the USAF fact sheet lists active-duty, ANG, and Reserve inventory categories."
+      },
+      {
+        "country": "United Kingdom",
+        "service": "Royal Air Force",
+        "notes": "Boeing lists the United Kingdom among C-17 operators."
+      },
+      {
+        "country": "Australia",
+        "service": "Royal Australian Air Force No. 36 Squadron",
+        "notes": "RAAF states all eight Australian C-17As are based at RAAF Base Amberley and support deployments, disaster relief, humanitarian missions, and heavy airlift."
+      },
+      {
+        "country": "Canada",
+        "service": "Royal Canadian Air Force",
+        "notes": "Boeing lists Canada among C-17 operators."
+      },
+      {
+        "country": "India",
+        "service": "Indian Air Force",
+        "notes": "Boeing lists India among C-17 operators."
+      },
+      {
+        "country": "Qatar",
+        "service": "Qatar Emiri Air Force",
+        "notes": "Boeing lists Qatar among C-17 operators."
+      },
+      {
+        "country": "United Arab Emirates",
+        "service": "United Arab Emirates Air Force and Air Defence",
+        "notes": "Boeing lists the United Arab Emirates among C-17 operators."
+      },
+      {
+        "country": "Kuwait",
+        "service": "Kuwait Air Force",
+        "notes": "Boeing lists Kuwait among C-17 operators."
+      },
+      {
+        "country": "Multinational",
+        "service": "Strategic Airlift Capability / Heavy Airlift Wing",
+        "notes": "Boeing identifies the 12-nation Strategic Airlift Capability as a C-17 operator."
+      }
+    ],
+    "combat_history": "The C-17 has supported U.S. and allied operations since the 1990s, including strategic deployment, tactical airlift, airdrop, aeromedical evacuation, humanitarian relief, disaster response, and contingency logistics. USAF imagery captions identify use during Operations Enduring Freedom and Iraqi Freedom.",
+    "development_history": "The C-17 was developed for the U.S. Air Force by McDonnell Douglas during the 1980s and early 1990s to combine strategic intertheater payload with tactical direct-delivery performance. It first flew on 15 September 1991, the first production aircraft was delivered on 14 June 1993, and the first squadron became operationally ready on 17 January 1995.",
+    "short_summary": "The C-17 Globemaster III is a four-engine heavy airlifter designed to move large payloads directly to main bases or austere forward airfields. It combines a rear ramp, large cargo hold, aerial refueling, 170,900 lb maximum payload, and short-field performance for strategic airlift, tactical delivery, airdrop, aeromedical evacuation, and humanitarian missions.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -15441,25 +15504,39 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-usaf",
+        "title": "C-17 Globemaster III Fact Sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/1529726/c-17-globemaster-iii",
+        "publisher": "U.S. Air Force",
+        "note": "Official USAF source for mission, background, dimensions, performance, payload, basing, and inventory categories."
+      },
+      {
+        "id": "fn-boeing",
+        "title": "C-17 Globemaster",
+        "url": "https://www.boeing.com/defense/tankers-and-transports/c-17-globemaster",
+        "publisher": "Boeing",
+        "note": "Manufacturer source for capabilities, sustainment, specifications, payload, range, and customer list."
+      },
+      {
+        "id": "fn-raaf",
+        "title": "C-17A Globemaster III",
+        "url": "https://www.airforce.gov.au/aircraft/c-17-globemaster",
+        "publisher": "Royal Australian Air Force",
+        "note": "Official operator source for Australian use, fleet, missions, and specifications."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Boeing C-17 Globemaster III",
         "url": "https://en.wikipedia.org/wiki/Boeing_C-17_Globemaster_III",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation only; official and manufacturer sources are preferred above."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
+        "note": "Local rules for neutral wording, source handling, estimates, and variant caveats."
       }
     ],
     "country_flags": [
@@ -15469,41 +15546,47 @@
       }
     ],
     "designers": [
-      "McDonnell Douglas / Boeing"
+      "McDonnell Douglas",
+      "Boeing"
     ],
     "development_tensions": [
-      "Balancing payload, short-field performance, reliability, strategic reach, and rough-field operation."
+      "Combining strategic-range payload with tactical short-field delivery.",
+      "Fitting outsized Army cargo and vehicles into a transport that can still operate from austere runways.",
+      "Maintaining global fleet readiness through sustainment, depot maintenance, training, and spares support."
     ],
-    "wars_used_in": [],
+    "wars_used_in": [
+      "Operation Enduring Freedom",
+      "Operation Iraqi Freedom",
+      "Global contingency airlift operations"
+    ],
     "variant_families": [
-      "Boeing C-17 Globemaster III baseline production model",
-      "Boeing C-17 Globemaster III upgraded avionics or weapons-capable model",
-      "Boeing C-17 Globemaster III cargo, special mission, or aerial support model"
+      "C-17A Globemaster III",
+      "Export C-17A",
+      "Block-upgraded / sustainment-updated aircraft"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Boeing C-17 Globemaster III has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Boeing reports 275 C-17s operating worldwide, with the United States Air Force as the largest customer at 223 aircraft at 12 bases.",
+      "all_operators_status": "Operators listed by Boeing include the United States, United Kingdom, Australia, Canada, Kuwait, Qatar, United Arab Emirates, India, and the 12-nation Strategic Airlift Capability."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "First production C-17 delivered to Charleston Air Force Base on 14 June 1993.",
+        "17th Airlift Squadron declared operationally ready on 17 January 1995."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "No mishap-by-mishap accident history was added in this run; the page focuses on mission, specifications, operators, and development."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Boeing C-17 Globemaster III uses jet propulsion."
+      "type": "High-bypass turbofan",
+      "summary": "Four Pratt & Whitney F117-PW-100 turbofans, the military designation for the PW2040 family, each rated at 40,440 lb of thrust in USAF and Boeing public data."
     },
     "armament_details": {
-      "summary": "Support aircraft; fixed offensive armament not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Unarmed military transport; payload is carried internally as cargo, troops, vehicles, pallets, litter patients, or airdrop loads.",
+      "caution": "Do not describe the C-17 as having fixed guns, missiles, or external weapons hardpoints unless a specific special-mission modification is separately sourced."
     },
     "similar_development": [
       {
@@ -15522,61 +15605,58 @@
         "url": "aircraft.html?id=il-76"
       },
       {
-        "id": "an-22",
-        "name": "Antonov An-22",
-        "url": "aircraft.html?id=an-22"
+        "id": "kc-135-stratotanker",
+        "name": "Boeing KC-135 Stratotanker",
+        "url": "aircraft.html?id=kc-135-stratotanker"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 45,
+      "operator_entries": 9,
+      "variant_entries": 3,
+      "external_article_sources": 3
     },
-    "footnotes": [
+    "footnotes": [],
+    "external_articles": [
       {
-        "id": "fn-main",
-        "title": "Boeing C-17 Globemaster III",
-        "url": "https://en.wikipedia.org/wiki/Boeing_C-17_Globemaster_III",
-        "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "title": "C-17 Globemaster III Fact Sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/1529726/c-17-globemaster-iii",
+        "publisher": "U.S. Air Force"
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "title": "C-17 Globemaster",
+        "url": "https://www.boeing.com/defense/tankers-and-transports/c-17-globemaster",
+        "publisher": "Boeing"
       },
       {
-        "id": "fn-method",
-        "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
-        "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "title": "C-17A Globemaster III",
+        "url": "https://www.airforce.gov.au/aircraft/c-17-globemaster",
+        "publisher": "Royal Australian Air Force"
       }
     ],
-    "external_articles": [],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Boeing C-17 Globemaster III is a Strategic/tactical airlifter from United States. Manufacturer: McDonnell Douglas / Boeing. First flight: 1991. Introduction: 1995. Status: Active.",
+            "text": "The Boeing C-17 Globemaster III is a high-wing, four-engine heavy transport aircraft built to move outsized cargo, vehicles, troops, pallets, and aeromedical evacuation loads directly to main operating bases or austere forward airfields.",
             "refs": [
-              "fn-main"
+              "fn-usaf",
+              "fn-boeing"
             ]
           },
           {
-            "text": "Boeing C-17 Globemaster III is a transport aircraft. Primary role: strategic/tactical airlifter. Country of origin: United States. Manufacturer: McDonnell Douglas / Boeing.",
+            "text": "Its core value is the combination of strategic reach and tactical delivery. USAF public data describes rapid strategic delivery of troops and all types of cargo, while Boeing emphasizes long-range haul capability, short-field performance, oversized payload handling, and aerial refueling.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf",
+              "fn-boeing"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Unlike a bomber or gunship, the C-17 is normally unarmed. Its mission equipment centers on the cargo compartment, rear ramp and door, airdrop systems, flight deck, defensive survivability equipment where fitted, and sustainment support rather than fixed offensive weapons.",
             "refs": [
+              "fn-usaf",
               "fn-method"
             ]
           }
@@ -15584,44 +15664,58 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Strategic/tactical airlifter"
+            "text": "Strategic/tactical airlift, airdrop, aeromedical evacuation, and humanitarian logistics"
           },
           {
-            "title": "Designer or builder",
-            "text": "McDonnell Douglas / Boeing"
+            "title": "Crew",
+            "text": "Two pilots and one loadmaster"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Payload",
+            "text": "170,900 lb maximum payload; 18 pallet positions in USAF data"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Short-field use",
+            "text": "Designed for runways as short as 3,500 ft and 90 ft wide"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Boeing C-17 Globemaster III first flew in 1991. Introduction date: 1995. Era: Modern.",
+            "text": "The C-17 was developed for the U.S. Air Force in the 1980s and early 1990s by McDonnell Douglas, later Boeing, to replace part of the older strategic airlift force while also fulfilling some forward-delivery roles associated with smaller tactical transports.",
             "refs": [
-              "fn-main"
+              "fn-usaf",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Producer: McDonnell Douglas / Boeing. Development context: strategic/tactical airlifter, jet propulsion, subsonic speed category, Modern era.",
+            "text": "The aircraft made its maiden flight on 15 September 1991. The first production aircraft was delivered to Charleston Air Force Base on 14 June 1993, and the first C-17 squadron, the 17th Airlift Squadron, was declared operationally ready on 17 January 1995.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "The U.S. Air Force originally programmed 120 aircraft, then acquired additional airframes after the type proved useful across mobility missions; the USAF fact sheet states a final U.S. fleet of 223 aircraft.",
+            "refs": [
+              "fn-usaf"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing payload, short-field performance, reliability, strategic reach, and rough-field operation.",
+            "text": "Design priorities: outsized cargo, long-range deployment, aerial refueling, short-field operations, and fast ground turnaround.",
             "refs": [
-              "fn-method"
+              "fn-usaf",
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Production identity: McDonnell Douglas design and early production; Boeing support, later production, and sustainment after the merger.",
+            "refs": [
+              "fn-boeing"
             ]
           }
         ]
@@ -15631,144 +15725,129 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 3. Propulsion: Jet. Speed category: Subsonic.",
+            "text": "The C-17 uses a high-lift wing with slats and externally blown flaps, allowing it to take off and land on runways as short as 3,500 ft. USAF data also notes that it can turn around on narrow runways using a three-point star turn and backing capability.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Cargo enters through a large aft ramp and door system. The cargo floor can be configured for wheeled or tracked vehicles or rollerized palletized cargo, and USAF public data says it accommodates virtually all Army air-transportable equipment, including a 69-ton M1 Abrams tank.",
             "refs": [
-              "fn-method"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Boeing C-17 Globemaster III uses jet propulsion. Engine model field: Not listed.",
+            "text": "Boeing describes a quadruple-redundant electronic flight-control system with mechanical backup, two full-time head-up displays, multifunction active-matrix LCDs, digital navigation electronics, and integrated radio management.",
             "refs": [
-              "fn-main"
+              "fn-boeing"
             ]
           },
           {
-            "text": "Armament field: Support aircraft; fixed offensive armament not listed. Exact weapon list: Not listed.",
+            "text": "The aircraft can conduct tactical airlift, strategic delivery, airdrop, aeromedical evacuation, humanitarian relief, and disaster response. Boeing also emphasizes training, sustainment, depot maintenance, spares support, and base services as part of keeping the worldwide fleet mission capable.",
             "refs": [
-              "fn-main"
+              "fn-boeing",
+              "fn-raaf"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "3"
+            "title": "Airframe",
+            "text": "High-wing, T-tail, rear-ramp heavy airlifter"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Powerplant",
+            "text": "Four F117-PW-100 turbofans, 40,440 lb thrust each"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Cargo compartment",
+            "text": "88 ft long, 18 ft wide, 12 ft 4 in high in USAF data"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Airdrop",
+            "text": "102 paratroopers or large single/sequential cargo drops in public Boeing/USAF data"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Boeing C-17 Globemaster III status: Active. Conflict entries: 0.",
+            "text": "Specifications below use USAF and Boeing public data. Some payload and seating values vary by mission configuration, pallet layout, aeromedical fit, or national operator.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: 0 entries.",
-            "refs": [
-              "fn-method"
+              "fn-usaf",
+              "fn-boeing",
+              "fn-raaf"
             ]
           }
         ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
+        "cards": [
           {
-            "text": "Boeing C-17 Globemaster III named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "174 ft (53 m)"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Wingspan",
+            "text": "169 ft 10 in / 169.8 ft to winglet tips (about 51.8 m)"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Height",
+            "text": "55 ft 1 in (16.8 m)"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum takeoff weight",
+            "text": "585,000 lb (265,352 kg)"
+          },
+          {
+            "title": "Maximum payload",
+            "text": "170,900 lb (77,519 kg); Boeing also lists 164,900 lb representative heavy payload"
+          },
+          {
+            "title": "Speed and ceiling",
+            "text": "450 kt at 28,000 ft; Mach 0.74 cruise; 45,000 ft service ceiling"
+          },
+          {
+            "title": "Range",
+            "text": "Global with aerial refueling; more than 6,200 nmi no-payload; about 2,400 nmi with 164,900 lb payload"
+          },
+          {
+            "title": "Troops and medical loads",
+            "text": "102 paratroops; 36 litter and 54 ambulatory patients in USAF data"
           }
         ]
       },
       {
         "id": "variants",
-        "title": "Variants",
+        "title": "Variants and Configurations",
         "paragraphs": [
           {
-            "text": "Boeing C-17 Globemaster III variant-family entries: 3. Variant families: Boeing C-17 Globemaster III baseline production model; Boeing C-17 Globemaster III upgraded avionics or weapons-capable model; Boeing C-17 Globemaster III cargo, special mission, or aerial support model.",
+            "text": "The C-17 family is not divided into as many visibly distinct combat subvariants as fighters such as the F-16. Public operator pages normally describe operational aircraft as C-17A Globemaster III, with differences driven by block upgrades, avionics updates, sustainment modifications, and national configuration.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
+              "fn-usaf",
+              "fn-boeing",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Boeing C-17 Globemaster III baseline production model",
+            "text": "C-17A Globemaster III — baseline operational production configuration for the USAF and export customers.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Boeing C-17 Globemaster III upgraded avionics or weapons-capable model",
+            "text": "Export C-17A — aircraft in allied service, generally retaining the same core airlift mission with national communications, support, and operating procedures.",
             "refs": [
-              "fn-main"
+              "fn-boeing",
+              "fn-raaf"
             ]
           },
           {
-            "text": "Boeing C-17 Globemaster III cargo, special mission, or aerial support model",
+            "text": "Block-upgraded aircraft — operational C-17s have received incremental avionics, communications, navigation, training, and sustainment updates rather than a separate named combat variant family.",
             "refs": [
-              "fn-main"
+              "fn-boeing"
             ]
           }
         ]
@@ -15778,45 +15857,137 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Boeing C-17 Globemaster III has 1 designer or builder country entry.",
+            "text": "Boeing reports 275 C-17s operating worldwide and identifies the United States Air Force as the largest customer, with 223 aircraft at 12 bases. It also lists the United Kingdom, Australia, Canada, Kuwait, Qatar, the United Arab Emirates, India, and the 12-nation Strategic Airlift Capability as operators.",
             "refs": [
-              "fn-wikidata"
+              "fn-boeing"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "The USAF fact sheet lists U.S. basing across Air Mobility Command, Pacific Air Forces, Air National Guard, Air Force Reserve Command, Air Force Materiel Command test support, and Air Education and Training Command training units.",
             "refs": [
-              "fn-method"
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Australia operates eight C-17As with No. 36 Squadron at RAAF Base Amberley. The RAAF describes them as a logistics backbone for deployments, disaster relief, humanitarian missions, and carriage of vehicles, helicopters, passengers, paratroops, pallets, and aeromedical loads.",
+            "refs": [
+              "fn-raaf"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "United States — largest operator and original customer.",
             "refs": [
-              "fn-main"
+              "fn-usaf",
+              "fn-boeing"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "United Kingdom, Australia, Canada, India, Kuwait, Qatar, and United Arab Emirates — listed by Boeing as national operators.",
             "refs": [
-              "fn-wikidata"
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Strategic Airlift Capability / Heavy Airlift Wing — multinational C-17 operation listed by Boeing.",
+            "refs": [
+              "fn-boeing"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 3, propulsion type Jet, maximum speed category Subsonic, first flight 1991, introduction 1995.",
+            "text": "Since entering service in the mid-1990s, the C-17 has become a core air-mobility aircraft for moving troops and cargo across continents and then into forward bases. USAF public imagery and captions identify C-17 support during Operations Enduring Freedom and Iraqi Freedom.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Operational missions include tactical airlift and airdrop, aeromedical evacuation, strategic deployment, contingency response, and humanitarian assistance. The combination of rear-ramp loading, large payload, aerial refueling, and short-field performance lets one aircraft type handle missions that previously required more specialized mixes of strategic and tactical transports.",
+            "refs": [
+              "fn-usaf",
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "International operators use the same basic capability for national deployments and relief missions. The RAAF page highlights Australian C-17 support to personnel deployments, disaster relief, and humanitarian missions.",
+            "refs": [
+              "fn-raaf"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1993: first production aircraft delivered to Charleston Air Force Base.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "1995: first C-17 squadron declared operationally ready.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "1990s-present: Boeing describes the type as proven across every major operation since the 1990s.",
+            "refs": [
+              "fn-boeing"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Role Context",
+        "paragraphs": [
+          {
+            "text": "Within Milipedia's transport-aircraft set, the C-17 sits between smaller tactical transports such as the C-130 and very large strategic lifters such as the C-5. It carries less maximum cargo than a C-5, but is optimized for direct delivery into shorter and rougher airfields.",
+            "refs": [
+              "fn-usaf",
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Compared with older Soviet/Russian airlifters such as the Il-76, the C-17 emphasizes Western avionics, aerial refueling integration, austere-field handling, and a global sustainment enterprise. Exact payload and runway comparisons depend on variant, runway condition, fuel, and mission profile.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Lockheed C-130 Hercules",
+            "url": "aircraft.html?id=c-130-hercules"
+          },
+          {
+            "label": "Lockheed C-5 Galaxy",
+            "url": "aircraft.html?id=c-5-galaxy"
+          },
+          {
+            "label": "Ilyushin Il-76",
+            "url": "aircraft.html?id=il-76"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include a large internal cargo compartment, rear ramp, 170,900 lb maximum payload, aerial refueling, short-field performance, a small basic crew, and worldwide allied support. These traits make the aircraft useful for both planned strategic movement and urgent crisis response.",
+            "refs": [
+              "fn-usaf",
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Limitations are those of a large subsonic transport: it depends on air superiority, routing, tanker and support planning, and available ramp/runway surfaces; it is not a stealth aircraft or armed combat aircraft. Public payload-range figures should be read as mission-dependent rather than fixed for every sortie.",
             "refs": [
               "fn-method"
             ]
@@ -15824,11 +15995,77 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "timeline",
+        "title": "Timeline",
         "paragraphs": [
           {
-            "text": "Boeing C-17 Globemaster III similar-development links: 4.",
+            "text": "Key dates are drawn from USAF public fact-sheet background and Boeing customer/capability information.",
+            "refs": [
+              "fn-usaf",
+              "fn-boeing"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "15 September 1991 — C-17 maiden flight.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "14 June 1993 — first production C-17 delivered to Charleston Air Force Base.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "17 January 1995 — 17th Airlift Squadron declared operationally ready.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "2006-2008 — Australia introduced its initial four C-17As; additional Australian aircraft followed in 2011, 2012, and 2015.",
+            "refs": [
+              "fn-raaf"
+            ]
+          },
+          {
+            "text": "Current Boeing public page — 275 C-17s operating worldwide, including 223 for the U.S. Air Force.",
+            "refs": [
+              "fn-boeing"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "The page prioritizes official USAF, Boeing, and RAAF sources. Wikipedia is retained only as supplementary orientation because operator counts, basing, and configuration details change over time.",
+            "refs": [
+              "fn-usaf",
+              "fn-boeing",
+              "fn-raaf",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Exact current fleet totals, base-by-base status, defensive systems, communications fits, and classified mission-equipment details were intentionally not expanded beyond public source wording.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages for transport and mobility context.",
             "refs": [
               "fn-method"
             ]
@@ -15848,13 +16085,16 @@
             "url": "aircraft.html?id=il-76"
           },
           {
-            "label": "Antonov An-22",
-            "url": "aircraft.html?id=an-22"
+            "label": "Boeing KC-135 Stratotanker",
+            "url": "aircraft.html?id=kc-135-stratotanker"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }
-    ],
-    "event_gallery": []
+    ]
   },
   {
     "id": "kc-135-stratotanker",
