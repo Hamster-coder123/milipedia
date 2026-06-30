@@ -55798,34 +55798,100 @@
   {
     "id": "shenyang-j-11",
     "name": "Shenyang J-11",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "alternative_names": [
+      "Jian-11",
+      "Yinglong",
+      "Responsive Dragon"
+    ],
+    "nato_reporting_name": "Flanker-L / Flanker-B+",
     "country_of_origin": "China",
     "manufacturer": "Shenyang Aircraft Corporation",
-    "role": "Air superiority fighter",
+    "role": "Air superiority and multirole fighter",
     "aircraft_type": "Fighter",
     "era": "Modern",
-    "first_flight": "1998",
-    "introduction_date": "1998",
+    "first_flight": "December 1998",
+    "introduction_date": "1998 / IOC often listed as 2000",
     "retirement_date": null,
     "status": "Active",
-    "number_built": "Not listed",
-    "crew": "1",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "number_built": "Open-source estimates vary; Wikipedia cites approximately 440 by 2019",
+    "crew": "1 on single-seat J-11/J-11B; 2 on J-11BS/J-11BSH trainers",
+    "engine_type": "Twin afterburning turbofan",
+    "engines": "Two Lyulka AL-31F or Shenyang WS-10A Taihang afterburning turbofans, depending on variant",
+    "max_speed": "Mach 2.1–2.35 reported by open sources",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Shenyang J-11: Air superiority fighter. Manufacturer: Shenyang Aircraft Corporation. First flight: 1998. Introduction: 1998.",
-    "short_summary": "Shenyang J-11: Air superiority fighter. Origin: China. Manufacturer: Shenyang Aircraft Corporation. First flight: 1998. Introduction: 1998. Status: Active.",
+    "range": "About 3,530 km / 1,906 nmi reported for representative variants",
+    "combat_range": "About 810 nmi listed by Mitchell Institute; mission radius varies with fuel, loadout, and profile",
+    "service_ceiling": "Airforce Technology lists 19,000 m; Mitchell Institute lists a lower figure that should be cross-checked",
+    "rate_of_climb": "About 300 m/s reported by Airforce Technology",
+    "armament": "One 30 mm GSh-30-1 cannon; air-to-air missiles such as PL-8/PL-9/PL-10/PL-12/PL-15 and Russian R-27/R-73/R-77 depending on variant; unguided rockets and free-fall bombs on multirole variants.",
+    "hardpoints": "Ten hardpoints commonly listed for J-11/J-11B-family aircraft; later upgrades are sometimes reported with expanded stores compatibility",
+    "variants": [
+      {
+        "name": "J-11 / J-11A",
+        "description": "Licensed Chinese assembly of the Su-27SK/Su-27UBK family using Russian-supplied kits, engines, radar, and avionics; early aircraft formed the baseline PLAAF Flanker force.",
+        "refs": [
+          "fn-airforce-technology",
+          "fn-wikipedia"
+        ]
+      },
+      {
+        "name": "J-11B",
+        "description": "Domestic multirole upgrade with Chinese avionics, radar, cockpit systems, weapons integration, and increasing use of Chinese subsystems compared with the original licensed aircraft.",
+        "refs": [
+          "fn-airforce-technology",
+          "fn-wikipedia"
+        ]
+      },
+      {
+        "name": "J-11BS",
+        "description": "Two-seat trainer and operational-conversion derivative of the J-11B family.",
+        "refs": [
+          "fn-mitchell",
+          "fn-wikipedia"
+        ]
+      },
+      {
+        "name": "J-11BH / J-11BSH",
+        "description": "Naval aviation versions associated with PLANAF service; public details vary and should be treated cautiously.",
+        "refs": [
+          "fn-mitchell",
+          "fn-wikipedia"
+        ]
+      },
+      {
+        "name": "J-11BG / J-11D",
+        "description": "Modernized upgrade paths publicly associated with improved avionics, radar, and missile compatibility; exact fleet status and configuration details are date-sensitive.",
+        "refs": [
+          "fn-mitchell",
+          "fn-wikipedia"
+        ]
+      }
+    ],
+    "operators": [
+      {
+        "country": "China",
+        "service": "People's Liberation Army Air Force",
+        "status": "Active",
+        "note": "Primary operator; Airforce Technology identifies the PLAAF as the operator and Mitchell Institute lists J-11-family aircraft in PLAAF service.",
+        "refs": [
+          "fn-airforce-technology",
+          "fn-mitchell"
+        ]
+      },
+      {
+        "country": "China",
+        "service": "People's Liberation Army Naval Air Force",
+        "status": "Active / reported for naval aviation variants",
+        "note": "Mitchell Institute and public reference sources list PLANAF operation of J-11-family variants, especially naval BH/BSH designations.",
+        "refs": [
+          "fn-mitchell",
+          "fn-wikipedia"
+        ]
+      }
+    ],
+    "combat_history": "Public sources most often describe the J-11 in air-defense patrol, intercept, training, and regional presence roles rather than a large confirmed combat record. Individual intercept incidents are date-sensitive and should be sourced separately before adding.",
+    "development_history": "The Shenyang J-11 began as Chinese licensed production of the Sukhoi Su-27SK/UBK. A 1996 co-production agreement enabled Shenyang assembly of Russian-supplied kits, with the first Shenyang-assembled aircraft flight-tested in December 1998. Later J-11B-family aircraft moved toward Chinese avionics, weapons, and WS-10-series engine integration.",
+    "short_summary": "The Shenyang J-11 is a Chinese twin-engine fighter derived from the Sukhoi Su-27SK and built by Shenyang Aircraft Corporation. It evolved from licensed assembly into J-11B-family domestic variants with Chinese avionics and weapons, serving primarily with the PLAAF and reported PLANAF units.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -55838,18 +55904,25 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-airforce-technology",
+        "title": "Shenyang J-11 Multirole Fighter Aircraft, China",
+        "url": "https://www.airforce-technology.com/projects/shenyang-j11-multirole-fighter-aircraft-china",
+        "publisher": "Airforce Technology",
+        "note": "Used for development history, manufacturer/operator, design, avionics, weapons, engine, and performance figures."
+      },
+      {
+        "id": "fn-mitchell",
+        "title": "J-11 Technical Data",
+        "url": "https://www.mitchellaerospacepower.org/weapons/j-11",
+        "publisher": "Mitchell Institute for Aerospace Studies",
+        "note": "Used for active variants, PLAAF/PLANAF operator listing, dimensions, weapons, and representative performance data."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Shenyang J-11",
         "url": "https://en.wikipedia.org/wiki/Shenyang_J-11",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for family lineage, designations, and approximate production context; cross-check date-sensitive facts before expanding further."
       },
       {
         "id": "fn-method",
@@ -55869,21 +55942,24 @@
       "Shenyang Aircraft Corporation"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Licensed Su-27SK assembly gave China a rapid heavy-fighter capability while leaving early aircraft dependent on Russian kits, avionics, radar, and engines.",
+      "The J-11B path emphasized domestic subsystems and weapons integration, creating political, technical, and sustainment tensions around intellectual property and configuration control.",
+      "Open-source performance and fleet figures vary by variant and publication date, so exact claims should be tied to the specific J-11 standard being discussed."
     ],
     "wars_used_in": [],
     "variant_families": [
-      "Shenyang J-11 baseline production model",
-      "Shenyang J-11 upgraded avionics or weapons-capable model",
-      "Shenyang J-11 export or locally modernized model"
+      "J-11/J-11A licensed Su-27SK-family production",
+      "J-11B domestic multirole upgrade",
+      "J-11BS two-seat conversion trainer",
+      "J-11BH/J-11BSH naval aviation derivatives",
+      "J-11BG/J-11D modernization paths"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "China"
       ],
-      "major_user_note": "Shenyang J-11 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "China is the only confirmed national operator in the current Milipedia record; PLAAF and reported PLANAF service are separated in the Operators section.",
+      "all_operators_status": "2 Chinese service-branch operator entries listed."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -55891,142 +55967,177 @@
         "Named individual aircraft listed: 0."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Public intercept and patrol incidents should be added only with event-specific sources.",
+        "Confirmed combat-loss entries listed: 0."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Shenyang J-11 uses jet propulsion."
+      "type": "Twin afterburning turbofan",
+      "summary": "Early J-11 aircraft used Russian AL-31F-family engines; later J-11B-family sources commonly report Chinese WS-10A Taihang integration, with exact fit depending on batch and variant."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Baseline and upgraded aircraft retain a 30 mm cannon and carry short-, medium-, and beyond-visual-range air-to-air missiles; multirole variants can carry rockets and free-fall bombs.",
+      "caution": "Missile compatibility differs between Russian-equipped baseline aircraft and later Chinese-upgraded J-11B/BG/D-family aircraft; do not treat every listed weapon as universal to every airframe."
     },
     "similar_development": [
+      {
+        "id": "su-27",
+        "name": "Sukhoi Su-27",
+        "url": "aircraft.html?id=su-27"
+      },
+      {
+        "id": "su-30",
+        "name": "Sukhoi Su-30",
+        "url": "aircraft.html?id=su-30"
+      },
+      {
+        "id": "su-35",
+        "name": "Sukhoi Su-35",
+        "url": "aircraft.html?id=su-35"
+      },
+      {
+        "id": "chengdu-j-10",
+        "name": "Chengdu J-10",
+        "url": "aircraft.html?id=chengdu-j-10"
+      },
+      {
+        "id": "chengdu-j-20",
+        "name": "Chengdu J-20",
+        "url": "aircraft.html?id=chengdu-j-20"
+      },
       {
         "id": "f-15-eagle",
         "name": "McDonnell Douglas F-15 Eagle",
         "url": "aircraft.html?id=f-15-eagle"
-      },
-      {
-        "id": "f-16-fighting-falcon",
-        "name": "General Dynamics F-16 Fighting Falcon",
-        "url": "aircraft.html?id=f-16-fighting-falcon"
-      },
-      {
-        "id": "f-a-18-hornet",
-        "name": "McDonnell Douglas F/A-18 Hornet",
-        "url": "aircraft.html?id=f-a-18-hornet"
-      },
-      {
-        "id": "f-a-18e-f-super-hornet",
-        "name": "Boeing F/A-18E/F Super Hornet",
-        "url": "aircraft.html?id=f-a-18e-f-super-hornet"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 38,
+      "operator_entries": 2,
+      "variant_entries": 5,
+      "external_article_sources": 3
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-airforce-technology",
+        "title": "Shenyang J-11 Multirole Fighter Aircraft, China",
+        "url": "https://www.airforce-technology.com/projects/shenyang-j11-multirole-fighter-aircraft-china",
+        "publisher": "Airforce Technology",
+        "note": "Principal article source for development, design, avionics, weapons, powerplant, and performance."
+      },
+      {
+        "id": "fn-mitchell",
+        "title": "J-11 Technical Data",
+        "url": "https://www.mitchellaerospacepower.org/weapons/j-11",
+        "publisher": "Mitchell Institute for Aerospace Studies",
+        "note": "Technical-data source for dimensions, variants, weapons, operators, and representative performance."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Shenyang J-11",
         "url": "https://en.wikipedia.org/wiki/Shenyang_J-11",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation and cross-check source; approximate production and current-status statements are date-sensitive."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for units, neutral wording, source citation, and variant caveats."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "Airforce Technology profile",
+        "url": "https://www.airforce-technology.com/projects/shenyang-j11-multirole-fighter-aircraft-china"
+      },
+      {
+        "title": "Mitchell Institute J-11 technical data",
+        "url": "https://www.mitchellaerospacepower.org/weapons/j-11"
+      },
+      {
+        "title": "Wikipedia overview",
+        "url": "https://en.wikipedia.org/wiki/Shenyang_J-11"
+      }
+    ],
+    "event_gallery": [],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Shenyang J-11 is an Air superiority fighter from China. Manufacturer: Shenyang Aircraft Corporation. First flight: 1998. Introduction: 1998. Status: Active.",
+            "text": "The Shenyang J-11 is a Chinese twin-engine fighter derived from the Soviet/Russian Sukhoi Su-27SK and built by Shenyang Aircraft Corporation. It began as licensed assembly of Su-27-family kits and later developed into domestic J-11B-family aircraft with Chinese avionics and weapons integration.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Shenyang J-11 is a fighter. Primary role: air superiority fighter. Country of origin: China. Manufacturer: Shenyang Aircraft Corporation.",
+            "text": "In Milipedia terms it should be treated as a Flanker-family heavy fighter rather than a light fighter: it has twin engines, long range for air-defense patrols, a large airframe, and a weapons suite centered on air-superiority missiles with secondary multirole stores on later variants.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Exact structured fact fields: 15.",
-            "refs": [
-              "fn-method"
+              "fn-airforce-technology",
+              "fn-mitchell"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Air superiority fighter"
+            "text": "Air superiority and multirole fighter"
           },
           {
-            "title": "Designer or builder",
+            "title": "Manufacturer",
             "text": "Shenyang Aircraft Corporation"
           },
           {
-            "title": "Major origin",
-            "text": "China"
+            "title": "Primary operator",
+            "text": "People's Liberation Army Air Force"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Lineage",
+            "text": "Derived from the Sukhoi Su-27SK / Flanker family"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Shenyang J-11 first flew in 1998. Introduction date: 1998. Era: Modern.",
+            "text": "Sukhoi and Shenyang Aircraft Corporation signed a 1996 co-production arrangement for Chinese assembly of Su-27SK fighters as the J-11. Airforce Technology describes Russian component supply for assembly at Shenyang and a first Shenyang-assembled aircraft flight test in December 1998.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Producer: Shenyang Aircraft Corporation. Development context: air superiority fighter, jet propulsion, supersonic speed category, Modern era.",
+            "text": "The basic J-11 gave the PLAAF a domestic assembly line for a heavy air-superiority fighter, but early aircraft retained Russian engines, radar, avionics, and other imported subsystems. Public accounts describe later production and upgrade pressure as China sought more local content and more flexible weapons integration.",
             "refs": [
-              "fn-wikidata"
+              "fn-airforce-technology",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "The J-11B marked the major domestic step. Airforce Technology describes it as an upgraded multirole variant, with Chinese-built avionics and weapon systems while retaining the broad Su-27-derived airframe. Open-source reporting on exact subsystem percentages, engine fit, and batch differences should be treated cautiously.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "1996: co-production agreement for Chinese assembly of Su-27SK-family aircraft."
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "December 1998: first Shenyang-assembled aircraft flight-tested according to Airforce Technology."
+          },
+          {
+            "text": "Early 2000s: basic J-11 production matured, while Chinese sources and analysts described increasing dissatisfaction with the baseline configuration."
+          },
+          {
+            "text": "Mid-2000s onward: J-11B-family aircraft introduced more Chinese avionics, weapons, and WS-10-series engine integration depending on variant."
           }
         ]
       },
@@ -56035,177 +56146,87 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The J-11 retains the Su-27-family layout: a large blended wing-body, twin canted tails, twin afterburning turbofans, widely spaced engines, and a high fuel fraction for long-range air-defense missions. Airforce Technology lists titanium and aluminium alloy construction and notes that the fuselage integrates the cockpit, radar section, and avionics bay.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "The cockpit is a single-seat arrangement on J-11/J-11B aircraft and a two-seat arrangement on J-11BS-family trainers. Reported avionics for later variants include multifunction displays, a HUD, helmet-mounted sighting, digital flight-control features, navigation systems, IFF, radar warning, and electronic countermeasures.",
             "refs": [
-              "fn-method"
+              "fn-airforce-technology",
+              "fn-mitchell"
             ]
           },
           {
-            "text": "Shenyang J-11 uses jet propulsion. Engine model field: Not listed.",
+            "text": "The aircraft is not a stealth design and is not a carrier aircraft in this entry. Carrier-capable Chinese Flanker-family development is better handled under separate J-15 coverage if that page is added to Milipedia later.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-method",
+              "fn-wikipedia"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "1"
+            "text": "1 on fighter variants; 2 on J-11BS-family trainers"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Powerplant",
+            "text": "Two AL-31F or WS-10A afterburning turbofans, variant-dependent"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
-          },
-          {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Airframe family",
+            "text": "Su-27 / Flanker-derived heavy fighter"
           },
           {
             "title": "Stealth",
             "text": "No"
+          },
+          {
+            "title": "Carrier capable",
+            "text": "No for the J-11 entry"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "weapons-avionics",
+        "title": "Avionics and Weapons Systems",
         "paragraphs": [
           {
-            "text": "Shenyang J-11 status: Active. Conflict entries: 0.",
+            "text": "Baseline J-11 aircraft were closely tied to Russian Su-27SK avionics and weapons, while J-11B-family aircraft are described in open sources as using Chinese radar, cockpit, data, and weapons-control systems. This difference matters because missile compatibility is not identical across all subvariants.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Conflicts: 0 entries.",
+            "text": "Airforce Technology lists a 30 mm GSh-30-1 cannon and ten hardpoints, with missile examples including PL-8, PL-9, PL-12, R-27, R-73, and R-77. Mitchell Institute also lists PL-10 and PL-15 in its broader J-11-family weapons table, which is best read as applying to upgraded aircraft rather than every early J-11.",
             "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Shenyang J-11 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-airforce-technology",
+              "fn-mitchell"
             ]
           },
           {
-            "text": "Named individual aircraft listed: 0.",
+            "text": "For ground-attack and multirole use, sources list unguided rocket launchers and free-fall or cluster bombs. Precision-guided and modern beyond-visual-range capabilities should be tied to specific upgraded variants before being stated as universal.",
             "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "variants",
-        "title": "Variants",
-        "paragraphs": [
-          {
-            "text": "Shenyang J-11 variant-family entries: 3. Variant families: Shenyang J-11 baseline production model; Shenyang J-11 upgraded avionics or weapons-capable model; Shenyang J-11 export or locally modernized model.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
+              "fn-airforce-technology",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Shenyang J-11 baseline production model",
-            "refs": [
-              "fn-main"
-            ]
+            "text": "Gun: one 30 mm GSh-30-1 cannon."
           },
           {
-            "text": "Shenyang J-11 upgraded avionics or weapons-capable model",
-            "refs": [
-              "fn-main"
-            ]
+            "text": "Air-to-air missiles: Russian R-27/R-73/R-77 and Chinese PL-series missiles depending on variant."
           },
           {
-            "text": "Shenyang J-11 export or locally modernized model",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "operators",
-        "title": "Operators",
-        "paragraphs": [
-          {
-            "text": "Designer or builder countries: China. Shenyang J-11 has 1 designer or builder country entry.",
-            "refs": [
-              "fn-wikidata"
-            ]
+            "text": "Air-to-ground stores: unguided rockets and free-fall bombs are publicly listed for multirole configurations."
           },
           {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "All operators status: 0 operator entries listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Major designer or builder entries: China.",
-            "refs": [
-              "fn-wikidata"
-            ]
+            "text": "Defensive systems: radar warning, chaff/flare dispensers, and jamming equipment are described by Airforce Technology."
           }
         ]
       },
@@ -56214,13 +56235,263 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Supersonic, first flight 1998, introduction 1998.",
+            "text": "Representative specifications below combine Airforce Technology and Mitchell Institute figures. They should be read as J-11/J-11B-family public data rather than a single guaranteed configuration for every aircraft.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology",
+              "fn-mitchell"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Length",
+            "text": "21.9 m / 71.9 ft"
+          },
+          {
+            "title": "Wingspan",
+            "text": "14.7 m / 48.2 ft"
+          },
+          {
+            "title": "Height",
+            "text": "5.9 m / 19.4 ft"
+          },
+          {
+            "title": "Maximum takeoff weight",
+            "text": "33,000 kg / 72,753 lb"
+          },
+          {
+            "title": "Maximum speed",
+            "text": "Mach 2.1–2.35 reported"
+          },
+          {
+            "title": "Range",
+            "text": "3,530 km / about 1,906 nmi reported"
+          },
+          {
+            "title": "Combat range",
+            "text": "About 810 nmi listed by Mitchell Institute"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "19,000 m listed by Airforce Technology; source discrepancy noted"
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Powerplant: two AL-31F or WS-10A Taihang afterburning turbofans."
+          },
+          {
+            "text": "Rate of climb: Airforce Technology reports about 300 m/s."
+          },
+          {
+            "text": "Hardpoints: ten hardpoints are commonly listed for J-11/J-11B-family aircraft."
+          },
+          {
+            "text": "Open-source dimensions match the Su-27-derived airframe and should not be mixed with unrelated J-15/J-16 derivatives without checking variant data."
+          }
+        ]
+      },
+      {
+        "id": "variants",
+        "title": "Variants",
+        "paragraphs": [
+          {
+            "text": "The J-11 family moved from licensed Su-27SK assembly toward Chinese-equipped domestic variants. Public designations overlap in some sources, so Milipedia groups them by role and generation rather than attempting a complete block-by-block inventory.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-mitchell",
+              "fn-wikipedia"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "J-11 / J-11A — licensed Su-27SK-family production and early improved aircraft."
+          },
+          {
+            "text": "J-11B — domestic multirole upgrade with Chinese avionics, weapons, and increasing local subsystems."
+          },
+          {
+            "text": "J-11BS — two-seat trainer/conversion variant associated with the J-11B family."
+          },
+          {
+            "text": "J-11BH / J-11BSH — naval aviation versions reported in open sources."
+          },
+          {
+            "text": "J-11BG / J-11D — modernization paths associated with improved avionics, radar, and newer missile compatibility."
+          }
+        ]
+      },
+      {
+        "id": "operators",
+        "title": "Operators",
+        "paragraphs": [
+          {
+            "text": "China is the only confirmed national operator represented in this entry. The PLAAF is the primary operator; Mitchell Institute and public reference sources also list PLANAF operation of J-11-family variants.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-mitchell",
+              "fn-wikipedia"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "China — People's Liberation Army Air Force: primary J-11 operator and original service user."
+          },
+          {
+            "text": "China — People's Liberation Army Naval Air Force: reported operator of J-11BH/J-11BSH-family aircraft; details are less transparent than PLAAF service."
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "The J-11 is best understood as part of China's layered air-defense and heavy-fighter force. It complements lighter domestic fighters such as the J-10 and later stealth or multirole aircraft by providing long-range patrol, interception, training, and regional presence capability.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-mitchell"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Open sources do not describe a broad confirmed combat record comparable to aircraft with decades of export combat use. Publicly reported encounters and intercepts around Chinese airspace and maritime approaches should be added only with event-specific sources and dates.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Sustainment and modernization are central to the type: later J-11 variants reduce dependence on Russian supply chains and improve compatibility with Chinese sensors and missiles, while the related J-15 and J-16 represent more specialized offshoots of the wider Chinese Flanker ecosystem.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Primary use: air-defense patrol, interception, training, and heavy-fighter force structure."
+          },
+          {
+            "text": "Combat record: no large, well-sourced combat campaign added in this run."
+          },
+          {
+            "text": "Modernization theme: domestic avionics, engines, and weapons integration are more important than a single one-time redesign."
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Compared with the F-16 reference page aircraft, the J-11 is larger, twin-engined, and closer to the F-15/Su-27 heavy-fighter class. It prioritizes range, radar/missile carriage, and air-superiority endurance rather than the F-16's lightweight multirole design philosophy.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-mitchell",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Closest lineage aircraft",
+            "text": "Sukhoi Su-27"
+          },
+          {
+            "title": "Comparable U.S. class",
+            "text": "F-15 Eagle more than F-16 Fighting Falcon"
+          },
+          {
+            "title": "Chinese force pairing",
+            "text": "Complements J-10, J-16, J-20, and Su-30/Su-35-family aircraft"
+          },
+          {
+            "title": "Design trade-off",
+            "text": "Long-range heavy fighter capability in exchange for larger size and higher operating complexity"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The J-11 family gives China a large heavy-fighter platform with long range, high speed, a substantial weapons load, and room for avionics upgrades. Its Su-27-derived aerodynamic design offers strong high-altitude and high-speed performance for interception and air-superiority missions.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-mitchell"
+            ]
+          },
+          {
+            "text": "Limitations include non-stealth shaping, variant complexity, changing engine and avionics standards, and uncertainty in public data. Early aircraft were dependent on Russian subsystems, while later aircraft require careful variant identification before claims about AESA radar, WS-10 engines, or PL-15 compatibility are made.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: heavy-fighter range, twin-engine performance, and large missile/stores capacity."
+          },
+          {
+            "text": "Strength: upgrade path toward domestic Chinese avionics and weapons."
+          },
+          {
+            "text": "Limitation: not low observable and not carrier-capable in this J-11 entry."
+          },
+          {
+            "text": "Limitation: open-source specifications differ; source and variant caveats should remain visible."
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "Key dates are included to match the F-16 page's chronological style while avoiding unsourced claims about exact fleet counts or classified subsystem states.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-wikipedia"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1996 — China and Sukhoi/Shenyang-related parties reached a co-production arrangement for Su-27SK-family assembly as the J-11."
+          },
+          {
+            "text": "December 1998 — first Shenyang-assembled aircraft flight-tested according to Airforce Technology."
+          },
+          {
+            "text": "2002 — SAC unveiled a J-11B mock-up according to Airforce Technology."
+          },
+          {
+            "text": "2006 — first J-11B test aircraft delivered for evaluation according to Airforce Technology."
+          },
+          {
+            "text": "2010s–2020s — public sources describe continued J-11B/BG/D-family modernization and operation by Chinese air arms."
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Airforce Technology provided the main detailed narrative and specifications for this safe one-run expansion. Mitchell Institute was used as a second technical-data source, especially for active variants, operators, and dimensions. Wikipedia was used only as a supplementary orientation source for lineage and date-sensitive public context.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-mitchell",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Uncertain or conflicting facts were kept cautious: exact production totals, active inventory, modern radar fits, WS-10 fit by batch, PL-15 compatibility, and reported combat/intercept incidents should be verified with more specific sources before adding stronger claims.",
             "refs": [
               "fn-method"
             ]
@@ -56228,11 +56499,11 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "related-pages",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "Shenyang J-11 similar-development links: 4.",
+            "text": "Milipedia internal links below point to existing aircraft records and separate the J-11 from both its Su-27 ancestor and later Chinese/Russian heavy-fighter relatives.",
             "refs": [
               "fn-method"
             ]
@@ -56240,25 +56511,32 @@
         ],
         "links": [
           {
+            "label": "Sukhoi Su-27",
+            "url": "aircraft.html?id=su-27"
+          },
+          {
+            "label": "Sukhoi Su-30",
+            "url": "aircraft.html?id=su-30"
+          },
+          {
+            "label": "Sukhoi Su-35",
+            "url": "aircraft.html?id=su-35"
+          },
+          {
+            "label": "Chengdu J-10",
+            "url": "aircraft.html?id=chengdu-j-10"
+          },
+          {
+            "label": "Chengdu J-20",
+            "url": "aircraft.html?id=chengdu-j-20"
+          },
+          {
             "label": "McDonnell Douglas F-15 Eagle",
             "url": "aircraft.html?id=f-15-eagle"
-          },
-          {
-            "label": "General Dynamics F-16 Fighting Falcon",
-            "url": "aircraft.html?id=f-16-fighting-falcon"
-          },
-          {
-            "label": "McDonnell Douglas F/A-18 Hornet",
-            "url": "aircraft.html?id=f-a-18-hornet"
-          },
-          {
-            "label": "Boeing F/A-18E/F Super Hornet",
-            "url": "aircraft.html?id=f-a-18e-f-super-hornet"
           }
         ]
       }
-    ],
-    "event_gallery": []
+    ]
   },
   {
     "id": "chengdu-j-20",

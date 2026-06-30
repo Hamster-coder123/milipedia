@@ -1391,3 +1391,78 @@ Record the result of:
 
 * Airforce Technology, Deagel, and Wikipedia differ slightly on exact introduction year/date, production total, service ceiling, wingspan, and range definitions; the page uses ranges or explicitly notes source/variant differences rather than forcing a single exact number.
 * Current inventory and combat-use/loss claims were intentionally not quantified because publicly available figures are fluid and may require human review.
+
+### Run 19 — 2026-06-30 14:01:33 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Shenyang J-11 (id: shenyang-j-11)
+* Reason selected: It was the sparsest unedited aircraft page found by scoring non-Hermes-updated entries, with no operator entries, no variant entries, no external article sources, generic armament wording, and many "Not listed" specification fields.
+* Previous condition: Placeholder-like generated article with 15 exact fact fields, 0 operator entries, 0 variant entries, 0 external article sources, no detailed development/design/variant/operator/operational-history content, and missing engine/range/ceiling/dimension details.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense lead overview; article-section order covering development, design, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, sources, and related pages; concise technical paragraphs with source references; neutral caveats for variant-specific or uncertain facts; internal aircraft link style using aircraft.html?id=...
+
+#### Changes Made
+
+* Expanded the Shenyang J-11 entry from a generated sparse page into a fuller Milipedia article data record.
+* Added alternative names, NATO reporting names, role refinement, engine details, range, combat-range caveat, ceiling caveat, climb-rate data, hardpoints, armament details, and a fuller short summary.
+* Replaced generic weapon wording with variant-cautious J-11/J-11B-family armament coverage, including the 30 mm GSh-30-1 cannon and representative PL/R-series missiles.
+* Added reliable external sources from Airforce Technology and the Mitchell Institute, with Wikipedia retained only as a supplementary orientation source.
+* Added sections for Overview, Development History, Design and Capabilities, Avionics and Weapons Systems, Specifications, Variants, Operators, Operational History, Comparison, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added variant coverage for J-11/J-11A, J-11B, J-11BS, J-11BH/J-11BSH, and J-11BG/J-11D while marking modernized-variant details as date-sensitive.
+* Added operator coverage for the PLAAF and reported PLANAF service-branch use without inventing export operators.
+* Added internal links to existing Su-27, Su-30, Su-35, Chengdu J-10, Chengdu J-20, and F-15 Eagle pages.
+* Omitted or caveated uncertain facts about exact active inventory, exact production totals, radar fit by batch, WS-10 fit by batch, PL-15 compatibility by variant, and individual intercept/combat incidents.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded the Shenyang J-11 aircraft entry and sources.
+* hermes-change-log.md — Appended the cumulative Run 19 record.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Verified before commit that only data/aircraft.json and hermes-change-log.md were modified/staged.
+2. git diff — Reviewed final diff and confirmed the aircraft JSON change was limited to the Shenyang J-11 entry plus the log entry.
+3. File review — Parsed data/aircraft.json successfully with python3 -m json.tool and reviewed the updated Shenyang J-11 sections, fields, sources, operators, variants, caveats, and links.
+4. F-16 style comparison — Inspected data/f16-template.html and matched its dense overview, section coverage, technical phrasing, specification/variant/operator emphasis, timeline, sources, and related-page style within the JSON article renderer.
+5. Internal link check — Parsed data/aircraft.json IDs and verified all aircraft.html?id=... links in the updated Shenyang J-11 entry target existing local IDs.
+6. Secret/token check — Ran credential-specific checks over the staged diff; no API keys, tokens, passwords, private keys, .env data, or credentials were found.
+7. Final review before commit — Confirmed branch, JSON validity, intended file set, one-entry aircraft diff, no main-branch edit, no unrelated files, and completed change log entry.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Shenyang J-11
+* Commit hash: Pending until commit completes; final hash is reported in the run result.
+
+#### Issues or Uncertainties
+
+* Official Chinese manufacturer or air-force pages were not located during this run, so Airforce Technology and Mitchell Institute were used as the main technical sources and Wikipedia only as supplementary orientation.
+* Public sources differ on some performance figures, especially service ceiling; the entry records the discrepancy rather than forcing a single unsupported value.
+* Exact active inventory, production total, radar fit, WS-10 fit by batch, and latest missile compatibility are date-sensitive and should be rechecked before future stronger claims.
