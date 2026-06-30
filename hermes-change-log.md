@@ -1767,3 +1767,79 @@ Record the result of:
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * The official PAF J-10C induction PDF was found but web extraction timed out, so Pakistan induction context uses Airforce Technology reporting rather than extracted PDF text.
 * Exact current J-10 production totals, radar models, engine fits, and export fleet counts are variant- and date-sensitive; the page uses cautious wording and omits fixed values where confidence was insufficient.
+
+### Run 24 — 2026-06-30 19:03:29 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: HAL Tejas (id: hal-tejas)
+* Reason selected: Sparse-candidate comparison found the HAL Tejas record was one of the shortest unedited aircraft pages, with 0 variant entries, 0 operator entries, 0 external article sources, placeholder "Not listed" values for engines/range/ceiling/hardpoints, and generic generated sections far below the F-16 reference page's density.
+* Previous condition: Generated placeholder-style article with 15 exact fact fields, no detailed development/design/service history, no Mk1/Mk1A/Naval LCA variant treatment, no Indian Air Force or Indian Navy operator coverage, and no sourced technical cards beyond generic Wikipedia/Wikidata/method records.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense lead overview; article-section coverage for overview, development history, design and capabilities, specifications, variants, operators, operational history, weapons, comparison, strengths/limitations, timeline, sources, and related pages; concise sourced paragraphs; card-style technical facts; cautious variant-dependent data notes; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the HAL Tejas entry in data/aircraft.json into a fuller Milipedia article data record while preserving the existing JSON-rendered aircraft page structure.
+* Updated top-level facts for alternative names, type, first flight, introduction context, status, crew, engine class, GE F404-IN20 powerplant, Mach 1.6 speed, representative range/ceiling, armament, hardpoints, development history, combat/service context, summary text, source metadata, article quality counts, engine details, and armament caveats.
+* Added official/manufacturer source coverage from HAL's LCA brochure for Mk1A features, Mach 1.6 speed, 50,000 ft ceiling, fly-by-wire, AESA radar, EW features, and programme timeline.
+* Added Airforce Technology source coverage for Mk1 development, design, dimensions, GE F404-IN20 engine, nine hardpoints, weapons, cockpit/avionics, orders, induction milestones, and Naval LCA test context.
+* Retained Wikipedia as supplementary orientation only and added a PIB official background pointer with an extraction caveat rather than using it for precise numeric claims.
+* Added detailed sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Weapons Systems, Comparison and Role Context, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added variant coverage for technology demonstrators/prototype vehicles, Tejas Mk1 IOC, Tejas Mk1 FOC, Tejas trainer, Tejas Mk1A, Naval LCA Tejas, and Tejas Mk2 / Medium Weight Fighter as a related follow-on.
+* Added operator coverage for the Indian Air Force and Indian Navy prototype/test use, with caveats about date-sensitive delivered totals and Naval LCA fleet status.
+* Added related internal links to the F-16, JF-17, MiG-21, Mirage 2000, Gripen, and Rafale pages.
+* Omitted a single fixed combat radius, exact current delivered inventory, exhaustive weapons-clearance list, and Mk2-only performance claims where source context was variant- or date-sensitive.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the HAL Tejas aircraft entry, sources, sections, variants, operators, technical cards, caveats, and related links.
+* hermes-change-log.md — Appended the cumulative Run 24 log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, the intended modified files were data/aircraft.json and hermes-change-log.md only.
+2. git diff — Reviewed diff/stat and aircraft diff; data/aircraft.json changes are limited to the HAL Tejas entry, and hermes-change-log.md adds this Run 24 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool and reviewed the updated Tejas fields, sections, sources, variants, operators, weapons wording, specifications cards, caveats, and related links.
+4. F-16 style comparison — Inspected data/f16-template.html and matched its dense lead, section order, sourced paragraphs, specifications emphasis, variants/operators/service/weapons/comparison/timeline coverage, source notes, and related-page patterns within the JSON article system.
+5. Internal link check — Verified aircraft.html?id=f-16-fighting-falcon, aircraft.html?id=jf-17-thunder, aircraft.html?id=mig-21, aircraft.html?id=mirage-2000, aircraft.html?id=jas-39-gripen, and aircraft.html?id=rafale target existing aircraft ids in data/aircraft.json.
+6. Secret/token check — Ran credential-specific scan over the staged diff for API keys, tokens, passwords, private keys, GitHub tokens, and AWS credentials; no credentials were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, diff check, intended files only, HAL Tejas was not previously edited by Hermes, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand HAL Tejas
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* HAL's HTML product pages and the PIB page were difficult to extract directly; the HAL PDF was downloaded and text-extracted locally, while Airforce Technology supplied most narrative details.
+* Exact current Tejas delivered totals, fully cleared weapons combinations, combat radius, and Mk1/Mk1A/Mk2-specific figures are variant- and date-sensitive; the page uses cautious wording and omits fixed values where confidence was insufficient.

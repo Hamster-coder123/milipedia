@@ -59953,34 +59953,79 @@
   {
     "id": "hal-tejas",
     "name": "HAL Tejas",
-    "alternative_names": [],
+    "alternative_names": [
+      "Light Combat Aircraft Tejas",
+      "LCA Tejas",
+      "Tejas Mk1",
+      "Tejas Mk1A"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "India",
     "manufacturer": "Hindustan Aeronautics Limited",
     "role": "Light multirole fighter",
-    "aircraft_type": "Fighter",
+    "aircraft_type": "Single-engine delta-wing multirole fighter",
     "era": "Modern",
-    "first_flight": "2001",
-    "introduction_date": "2015",
+    "first_flight": "4 January 2001",
+    "introduction_date": "2015 IAF service entry; July 2016 squadron induction",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "1 or 2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "status": "Active; Mk1A production and follow-on development continuing",
+    "number_built": "Production continuing; 40 Mk1/FOC aircraft and 83 Mk1A/trainers contracted for the IAF in public sources",
+    "crew": "1 in fighter variants; 2 in trainer variants",
+    "engine_type": "Afterburning turbofan",
+    "engines": "One General Electric F404-IN20 afterburning turbofan on Tejas Mk1/Mk1A",
+    "max_speed": "Mach 1.6",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "HAL Tejas: Light multirole fighter. Manufacturer: Hindustan Aeronautics Limited. First flight: 2001. Introduction: 2015.",
-    "short_summary": "HAL Tejas: Light multirole fighter. Origin: India. Manufacturer: Hindustan Aeronautics Limited. First flight: 2001. Introduction: 2015. Status: Active.",
+    "range": "About 3,000 km ferry-range figure in Airforce Technology reporting",
+    "combat_range": "Mission-dependent; not stated as one fixed value in the sources used",
+    "service_ceiling": "50,000 ft for Mk1A in HAL material; 15,240 m in Airforce Technology Mk1 data",
+    "rate_of_climb": "Not listed in the sources used",
+    "armament": "One 23 mm GSh-23 twin-barrel cannon; nine external hardpoints for air-to-air missiles, air-to-ground weapons, anti-ship weapons, bombs, rockets, pods, and external tanks depending variant and clearance.",
+    "hardpoints": "Nine external hardpoints on wings and fuselage in Tejas Mk1 reporting",
+    "variants": [
+      {
+        "name": "Technology Demonstrator and Prototype Vehicles",
+        "description": "Early LCA demonstrators and prototype vehicles used to mature the tailless delta airframe, quadruplex fly-by-wire flight-control system, avionics, and weapons integration before series production."
+      },
+      {
+        "name": "Tejas Mk1 IOC",
+        "description": "Initial Operational Clearance production standard supplied to the IAF as the first operational Tejas configuration."
+      },
+      {
+        "name": "Tejas Mk1 FOC",
+        "description": "Final Operational Clearance configuration; Airforce Technology notes FOC in February 2019 and induction of FOC-standard aircraft into IAF service in May 2020."
+      },
+      {
+        "name": "Tejas Trainer",
+        "description": "Two-seat conversion and training aircraft; the trainer variant first flew in 2009 according to HAL material and supports operational conversion."
+      },
+      {
+        "name": "Tejas Mk1A",
+        "description": "Improved production standard with AESA radar, digital wide-band radar warning receiver, self-protection jammer, improved maintainability, BVR missile integration, and updated flight-control/mission equipment; HAL completed Mk1A milestone flights in the 2020s."
+      },
+      {
+        "name": "Naval LCA Tejas",
+        "description": "Carrier-test derivative with strengthened landing gear and arrestor equipment; Airforce Technology notes first naval-variant flight in 2012 and INS Vikramaditya ski-jump/arrested-landing trials in 2020."
+      },
+      {
+        "name": "Tejas Mk2 / Medium Weight Fighter",
+        "description": "Larger follow-on development using a GE F414-class engine and canard-delta layout; included as a related development rather than the same operational Mk1/Mk1A aircraft."
+      }
+    ],
+    "operators": [
+      {
+        "country": "India",
+        "service": "Indian Air Force",
+        "notes": "Primary operational user. Public sources identify No. 45 Squadron Flying Daggers and No. 18 Squadron Flying Bullets as Tejas units and note IAF orders for Mk1 and Mk1A aircraft."
+      },
+      {
+        "country": "India",
+        "service": "Indian Navy",
+        "notes": "Operated Naval LCA prototypes for carrier-compatibility testing; the naval aircraft is a test/development path rather than a large fleet service type in the sources used."
+      }
+    ],
+    "combat_history": "No major combat use was confirmed in the sources reviewed; operational service is with Indian units and the naval variant has completed carrier-related trials.",
+    "development_history": "India created the Light Combat Aircraft programme to replace and supplement older light fighters and to rebuild indigenous combat-aircraft design capacity after the HF-24 Marut. ADA led design and development, HAL became prime industrial contractor and manufacturer, the first technology demonstrator flew on 4 January 2001, production-standard aircraft followed, and the IAF inducted the type from 2015-2016. Mk1A work adds AESA radar, digital electronic warfare, maintainability improvements, and updated flight-control/mission systems.",
+    "short_summary": "HAL Tejas is an Indian single-engine, delta-wing light multirole fighter designed by ADA and manufactured by HAL. It first flew on 4 January 2001, entered IAF service in the mid-2010s, and is evolving from Mk1/FOC aircraft into the Mk1A production standard with AESA radar, improved electronic warfare, and greater maintainability.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -59993,18 +60038,32 @@
     ],
     "sources": [
       {
+        "id": "fn-hal-lca-pdf",
+        "title": "LCA Tejas Division brochure",
+        "url": "https://hal-india.co.in/backend/wp-content/uploads/2022/12/LCA.pdf",
+        "publisher": "Hindustan Aeronautics Limited",
+        "note": "Official HAL brochure used for Mk1A features, Mach 1.6 speed, 50,000 ft ceiling, +8/-3.5 g Mk1A limit, empty mass, maximum takeoff weight, AESA radar, fly-by-wire, and programme timeline."
+      },
+      {
+        "id": "fn-airforce-technology",
+        "title": "Tejas Mark (Mk) 1 Light Combat Supersonic Fighter, India",
+        "url": "https://www.airforce-technology.com/projects/tejas",
+        "publisher": "Airforce Technology",
+        "note": "Program overview, development milestones, Mk1 dimensions, GE F404-IN20 engine, nine hardpoints, weapons, cockpit/avionics, performance, order, and delivery context."
+      },
+      {
+        "id": "fn-pib-background",
+        "title": "Background to DRDO Developed Light Combat Aircraft (LCA) Tejas",
+        "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=146717&reg=3&lang=2",
+        "publisher": "Press Information Bureau, Government of India",
+        "note": "Official Indian government background located for programme context; extraction was unreliable in this run, so concrete technical values came from HAL and Airforce Technology."
+      },
+      {
         "id": "fn-main",
         "title": "HAL Tejas",
         "url": "https://en.wikipedia.org/wiki/HAL_Tejas",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation only; official HAL material and aviation-reference data were preferred for article details."
       },
       {
         "id": "fn-method",
@@ -60024,22 +60083,25 @@
       "Hindustan Aeronautics Limited"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Recovering indigenous combat-aircraft design capacity while meeting operational fighter requirements after a long technology gap following the HF-24 Marut.",
+      "Integrating fly-by-wire controls, multimode radar, BVR weapons, electronic warfare, and maintainability improvements on a compact light-fighter airframe.",
+      "Separating Mk1, FOC, Mk1A, naval prototype, and Mk2 data because public performance and weapons figures often apply to different standards."
     ],
     "wars_used_in": [],
     "variant_families": [
-      "HAL Tejas baseline production model",
-      "HAL Tejas upgraded avionics or weapons-capable model",
-      "HAL Tejas two-seat trainer or conversion model",
-      "HAL Tejas export or locally modernized model"
+      "Technology demonstrators and prototype vehicles",
+      "Tejas Mk1 IOC/FOC fighter",
+      "Tejas two-seat trainer",
+      "Tejas Mk1A improved production model",
+      "Naval LCA Tejas test aircraft",
+      "Tejas Mk2 / Medium Weight Fighter follow-on"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "India"
       ],
-      "major_user_note": "HAL Tejas has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The Indian Air Force is the primary operational Tejas user; the Indian Navy used Naval LCA prototypes for carrier testing.",
+      "all_operators_status": "2 operator entries listed."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -60052,84 +60114,126 @@
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "HAL Tejas uses jet propulsion."
+      "type": "Afterburning turbofan",
+      "summary": "Tejas Mk1/Mk1A uses a single General Electric F404-IN20 afterburning turbofan; the larger Mk2 follow-on is associated with a GE F414-class engine and is treated separately."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "The Mk1 family uses a 23 mm GSh-23 twin-barrel cannon and external stations for R-73/Derby/Astra-class air-to-air missiles, precision and conventional air-to-ground weapons, anti-ship weapons, rockets, pods, and drop tanks as cleared by variant and operator.",
+      "caution": "Weapon carriage varies by Mk1 IOC/FOC/Mk1A standard, test clearance, and mission configuration."
     },
     "similar_development": [
-      {
-        "id": "f-15-eagle",
-        "name": "McDonnell Douglas F-15 Eagle",
-        "url": "aircraft.html?id=f-15-eagle"
-      },
       {
         "id": "f-16-fighting-falcon",
         "name": "General Dynamics F-16 Fighting Falcon",
         "url": "aircraft.html?id=f-16-fighting-falcon"
       },
       {
-        "id": "f-a-18-hornet",
-        "name": "McDonnell Douglas F/A-18 Hornet",
-        "url": "aircraft.html?id=f-a-18-hornet"
+        "id": "jf-17-thunder",
+        "name": "CAC/PAC JF-17 Thunder",
+        "url": "aircraft.html?id=jf-17-thunder"
       },
       {
-        "id": "f-a-18e-f-super-hornet",
-        "name": "Boeing F/A-18E/F Super Hornet",
-        "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+        "id": "mig-21",
+        "name": "Mikoyan-Gurevich MiG-21",
+        "url": "aircraft.html?id=mig-21"
+      },
+      {
+        "id": "mirage-2000",
+        "name": "Dassault Mirage 2000",
+        "url": "aircraft.html?id=mirage-2000"
+      },
+      {
+        "id": "jas-39-gripen",
+        "name": "Saab JAS 39 Gripen",
+        "url": "aircraft.html?id=jas-39-gripen"
+      },
+      {
+        "id": "rafale",
+        "name": "Dassault Rafale",
+        "url": "aircraft.html?id=rafale"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 38,
+      "operator_entries": 2,
+      "variant_entries": 7,
+      "external_article_sources": 3
     },
     "footnotes": [
+      {
+        "id": "fn-hal-lca-pdf",
+        "title": "LCA Tejas Division brochure",
+        "url": "https://hal-india.co.in/backend/wp-content/uploads/2022/12/LCA.pdf",
+        "publisher": "Hindustan Aeronautics Limited",
+        "note": "Official HAL brochure for Mk1A features and representative performance data."
+      },
+      {
+        "id": "fn-airforce-technology",
+        "title": "Tejas Mark (Mk) 1 Light Combat Supersonic Fighter, India",
+        "url": "https://www.airforce-technology.com/projects/tejas",
+        "publisher": "Airforce Technology",
+        "note": "Reference article for development, design, weapons, orders, and representative Mk1 data."
+      },
+      {
+        "id": "fn-pib-background",
+        "title": "Background to DRDO Developed Light Combat Aircraft (LCA) Tejas",
+        "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=146717&reg=3&lang=2",
+        "publisher": "Press Information Bureau, Government of India",
+        "note": "Official government background source for programme context."
+      },
       {
         "id": "fn-main",
         "title": "HAL Tejas",
         "url": "https://en.wikipedia.org/wiki/HAL_Tejas",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "HAL LCA brochure",
+        "url": "https://hal-india.co.in/backend/wp-content/uploads/2022/12/LCA.pdf",
+        "publisher": "Hindustan Aeronautics Limited"
+      },
+      {
+        "title": "Tejas Mk1 Light Combat Supersonic Fighter",
+        "url": "https://www.airforce-technology.com/projects/tejas",
+        "publisher": "Airforce Technology"
+      },
+      {
+        "title": "Background to DRDO Developed LCA Tejas",
+        "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=146717&reg=3&lang=2",
+        "publisher": "Press Information Bureau"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "HAL Tejas is a Light multirole fighter from India. Manufacturer: Hindustan Aeronautics Limited. First flight: 2001. Introduction: 2015. Status: Active.",
+            "text": "HAL Tejas is an Indian single-engine, tailless-delta, light multirole combat aircraft designed under the Light Combat Aircraft programme and manufactured by Hindustan Aeronautics Limited. It was built to give India an indigenous supersonic fighter after a long gap following the HF-24 Marut and to modernize light-fighter missions formerly associated with older MiG-21-era fleets.",
             "refs": [
-              "fn-main"
+              "fn-hal-lca-pdf",
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "HAL Tejas is a fighter. Primary role: light multirole fighter. Country of origin: India. Manufacturer: Hindustan Aeronautics Limited.",
+            "text": "The aircraft first flew on 4 January 2001 and entered Indian Air Force service in the mid-2010s. Airforce Technology describes Tejas Mk1 as a 4.5-generation lightweight high-agility multirole fighter for offensive air support, close combat, and ground attack; HAL material emphasizes the Mk1A path with AESA radar, BVR missile support, digital warning/jamming systems, and quadruplex fly-by-wire control.",
             "refs": [
-              "fn-wikidata"
+              "fn-hal-lca-pdf",
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Milipedia treats Mk1, FOC, Mk1A, Naval LCA, and Mk2 data carefully because public specifications can refer to different aircraft standards. This page uses Mk1/Mk1A figures when sources identify them and avoids a single universal combat-radius or weapons-load statement where source context is not precise.",
             "refs": [
               "fn-method"
             ]
@@ -60141,47 +60245,74 @@
             "text": "Light multirole fighter"
           },
           {
-            "title": "Designer or builder",
-            "text": "Hindustan Aeronautics Limited"
+            "title": "Designer and builder",
+            "text": "ADA led design; HAL is prime manufacturer"
           },
           {
-            "title": "Major origin",
+            "title": "National origin",
             "text": "India"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Powerplant",
+            "text": "One GE F404-IN20 afterburning turbofan on Mk1/Mk1A"
+          },
+          {
+            "title": "Status",
+            "text": "Active; Mk1A production and upgrades continuing"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "HAL Tejas first flew in 2001. Introduction date: 2015. Era: Modern.",
+            "text": "The LCA programme emerged from an Indian requirement for a modern lightweight fighter and an industrial goal of rebuilding indigenous design, integration, flight-control, and combat-aircraft production skills. ADA led development under DRDO, HAL acted as principal contractor, and Dassault consultancy supported early design and systems-integration work according to open summaries.",
             "refs": [
+              "fn-airforce-technology",
+              "fn-pib-background",
               "fn-main"
             ]
           },
           {
-            "text": "Producer: Hindustan Aeronautics Limited. Development context: light multirole fighter, jet propulsion, supersonic speed category, Modern era.",
+            "text": "HAL material traces the path from Tejas technology demonstrator work in the 1990s through prototype vehicles, trainer development, the 2015 Mk1 service-entry period, Mk1A work in the 2020s, and the larger Tejas Mk2/MWF follow-on. Airforce Technology records the first demonstrator flight in January 2001, a second demonstrator in 2002, production-version flight in 2007, trainer flight in 2009, and FOC-standard service entry in 2020.",
             "refs": [
-              "fn-wikidata"
+              "fn-hal-lca-pdf",
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "The Mk1A modernization addresses lessons from early production by adding an AESA radar, digital electronic warfare suite, BVR missile integration, more maintainable systems, and updated flight-control/mission equipment. HAL lists Mk1A features such as AESA radar, digital wide-band radar warning, AESA-based self-protection jamming, long-range BVR missile support, glass cockpit, and a tailless delta platform.",
+            "refs": [
+              "fn-hal-lca-pdf"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "First technology demonstrator flight: January 2001; commonly cited as 4 January 2001.",
             "refs": [
-              "fn-method"
+              "fn-airforce-technology",
+              "fn-main"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "First series-production aircraft flew in 2014 and early IAF delivery/induction followed in 2015-2016.",
             "refs": [
-              "fn-method"
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "Final Operational Clearance for Mk1 is reported in 2019, with FOC-standard IAF induction in 2020.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "Mk1A milestone flights and indigenous digital flight-control computer integration continued in the 2020s.",
+            "refs": [
+              "fn-hal-lca-pdf",
+              "fn-airforce-technology"
             ]
           }
         ]
@@ -60191,107 +60322,109 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1 or 2. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "Tejas uses a compact tailless delta layout with shoulder-mounted delta wings, relaxed-stability digital fly-by-wire control, extensive composite structure, and a single ventral intake feeding the F404 engine. HAL describes the aircraft as light, supersonic at all altitudes, and heavily composite by area.",
             "refs": [
-              "fn-main"
+              "fn-hal-lca-pdf",
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "The cockpit is a night-vision-compatible glass cockpit. Airforce Technology lists multifunction displays, a head-up display, helmet-mounted display and sight, hands-on-throttle-and-stick controls, GPS/inertial navigation, communications/data links, stores management, mission computers, and support systems such as health monitoring and terrain/ground-proximity functions.",
             "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "Mk1A features center on sensors, survivability, and maintainability rather than a new airframe class. HAL lists AESA radar, low-probability-of-intercept radar characteristics, digital wide-band RWR, AESA-based jamming, long-range BVR missile support, glass cockpit, and quadruplex-redundant fly-by-wire.",
+            "refs": [
+              "fn-hal-lca-pdf"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Airframe",
+            "text": "Tailless delta light fighter with high composite use"
+          },
+          {
+            "title": "Flight controls",
+            "text": "Quadruplex-redundant digital fly-by-wire"
+          },
+          {
+            "title": "Cockpit",
+            "text": "Glass cockpit with HOTAS and helmet-mounted display/sight in public descriptions"
+          },
+          {
+            "title": "Radar and EW",
+            "text": "Mk1A adds AESA radar, digital RWR, and self-protection jammer features"
+          },
+          {
+            "title": "Refuelling",
+            "text": "Mk1A reporting includes an in-flight refuelling probe"
+          }
+        ]
+      },
+      {
+        "id": "specifications",
+        "title": "Specifications",
+        "paragraphs": [
+          {
+            "text": "Representative figures below combine HAL Mk1A brochure data and Airforce Technology Mk1 reporting. Values can differ by Mk1 IOC, FOC, Mk1A, trainer, Naval LCA, and Mk2 standard, so rows label the source context where useful.",
+            "refs": [
+              "fn-hal-lca-pdf",
+              "fn-airforce-technology",
               "fn-method"
-            ]
-          },
-          {
-            "text": "HAL Tejas uses jet propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "1 or 2"
+            "text": "1 in fighter variants; 2 in trainers"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Length",
+            "text": "13.2 m in Airforce Technology Mk1 data"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Wingspan",
+            "text": "8.2 m in Airforce Technology Mk1 data"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Height",
+            "text": "4.4 m in Airforce Technology Mk1 data"
           },
           {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "HAL Tejas status: Active. Conflict entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Maximum takeoff weight",
+            "text": "13,500 kg in HAL Mk1A and Airforce Technology Mk1 data"
           },
           {
-            "text": "Conflicts: 0 entries.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "HAL Tejas named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Empty mass",
+            "text": "6,950 kg in HAL Mk1A feature table"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Engine",
+            "text": "One GE F404-IN20 afterburning turbofan"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum speed",
+            "text": "Mach 1.6"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Service ceiling",
+            "text": "50,000 ft in HAL Mk1A data; 15,240 m in Airforce Technology Mk1 data"
+          },
+          {
+            "title": "External stations",
+            "text": "Nine hardpoints in Airforce Technology Mk1 reporting"
+          },
+          {
+            "title": "G limits",
+            "text": "+8/-3.5 g in HAL Mk1A table; +9/-3.2 g appears for Mk2 follow-on material"
+          },
+          {
+            "title": "Ferry range",
+            "text": "About 3,000 km in Airforce Technology reporting"
           }
         ]
       },
@@ -60300,41 +60433,57 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "HAL Tejas variant-family entries: 4. Variant families: HAL Tejas baseline production model; HAL Tejas upgraded avionics or weapons-capable model; HAL Tejas two-seat trainer or conversion model; HAL Tejas export or locally modernized model.",
+            "text": "Tejas variant names often mix development status, operational-clearance standard, and follow-on designations. Mk1 IOC and FOC refer to early operational standards; Mk1A is the improved production standard; Naval LCA was a carrier-test derivative; Mk2/MWF is a larger follow-on development and should not be treated as identical to Mk1.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
+              "fn-hal-lca-pdf",
+              "fn-airforce-technology",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "HAL Tejas baseline production model",
+            "text": "Technology demonstrators and prototype vehicles matured the LCA configuration and flight-control system before series production.",
             "refs": [
-              "fn-main"
+              "fn-hal-lca-pdf",
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "HAL Tejas upgraded avionics or weapons-capable model",
+            "text": "Tejas Mk1 IOC introduced the type operationally with the IAF.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "HAL Tejas two-seat trainer or conversion model",
+            "text": "Tejas Mk1 FOC represents the final operational clearance configuration and entered IAF service in FOC form in 2020.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "HAL Tejas export or locally modernized model",
+            "text": "Tejas Trainer is the two-seat operational-conversion version.",
             "refs": [
-              "fn-main"
+              "fn-hal-lca-pdf",
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "Tejas Mk1A adds AESA radar, electronic warfare, BVR missile, and maintainability improvements.",
+            "refs": [
+              "fn-hal-lca-pdf"
+            ]
+          },
+          {
+            "text": "Naval LCA Tejas supported carrier-compatibility and ski-jump/arrested-landing testing.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "Tejas Mk2 / Medium Weight Fighter is a larger follow-on development with a different engine class and design growth.",
+            "refs": [
+              "fn-hal-lca-pdf"
             ]
           }
         ]
@@ -60344,45 +60493,128 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: India. HAL Tejas has 1 designer or builder country entry.",
+            "text": "The Indian Air Force is the primary operational Tejas user. Airforce Technology reports IAF receipt of the first two Tejas aircraft from HAL in July 2016 and notes contracts for 40 Mk1-standard aircraft plus an 83-aircraft Mk1A/trainer package signed in 2021. Current delivered totals change over time and should be checked against current IAF/HAL releases before quoting exact inventory numbers.",
             "refs": [
-              "fn-wikidata"
+              "fn-airforce-technology",
+              "fn-method"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "The Indian Navy used Naval LCA prototypes for carrier trials, including INS Vikramaditya-related testing reported by Airforce Technology. The naval Tejas path is best described as a prototype/test effort rather than a mature fleet operator entry.",
             "refs": [
-              "fn-method"
+              "fn-airforce-technology"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Indian Air Force — operational Tejas Mk1/FOC user and Mk1A customer.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Major designer or builder entries: India.",
+            "text": "Indian Navy — Naval LCA prototype test and carrier-compatibility work.",
             "refs": [
-              "fn-wikidata"
+              "fn-airforce-technology"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1 or 2, propulsion type Jet, maximum speed category Supersonic, first flight 2001, introduction 2015.",
+            "text": "Tejas entered operational Indian Air Force service in stages rather than as a single fully mature block. Initial deliveries and squadron service began in the mid-2010s, FOC-standard aircraft followed, and Mk1A work continues as the programme shifts from initial induction to wider fleet modernization.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "The aircraft is primarily important as an indigenous operational fighter and as a technology base for Indian radar, flight-control, electronic-warfare, weapons-integration, and future fighter programmes. No major combat employment was confirmed by the sources reviewed in this run.",
+            "refs": [
+              "fn-hal-lca-pdf",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Naval LCA testing demonstrated carrier-relevant takeoff and recovery work, but India moved toward other carrier-fighter solutions and follow-on designs for long-term naval fighter needs.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "weapons-systems",
+        "title": "Weapons Systems",
+        "paragraphs": [
+          {
+            "text": "Airforce Technology describes the Tejas gun installation as a 23 mm twin-barrel GSh-23 and lists air-to-air missiles, air-to-ground and anti-ship missiles, precision-guided munitions, rockets, bombs, pods, and external tanks. HAL Mk1A material emphasizes long-range BVR missile support with shaped trajectories and bidirectional missile data link.",
+            "refs": [
+              "fn-hal-lca-pdf",
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "Specific missile and bomb combinations depend on clearance standard, operator software, and test status. For that reason this entry avoids implying that every named weapon is carried by every Tejas variant.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Gun",
+            "text": "23 mm GSh-23 twin-barrel cannon in Airforce Technology reporting"
+          },
+          {
+            "title": "Air-to-air",
+            "text": "Short-range and BVR missiles such as R-73/Derby/Astra-class weapons in public reporting"
+          },
+          {
+            "title": "Air-to-ground",
+            "text": "Bombs, rockets, guided munitions, anti-ship/strike weapons by clearance"
+          },
+          {
+            "title": "Mission equipment",
+            "text": "EW, targeting, reconnaissance, training pods, and drop tanks on external stations"
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Role Context",
+        "paragraphs": [
+          {
+            "text": "Within Milipedia, Tejas is closest in role to light multirole fighters such as the F-16, JF-17, and Gripen rather than to heavy air-superiority fighters. Its significance is not just raw performance but the domestic design-and-production ecosystem it supports for India.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Compared with the F-16 reference page, Tejas is a newer but smaller production family with fewer global operators and less combat history. It has more direct value as an indigenous light fighter and technology bridge to Mk1A, Mk2/MWF, and related Indian aerospace programmes.",
+            "refs": [
+              "fn-hal-lca-pdf",
+              "fn-airforce-technology"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include a compact supersonic light-fighter design, digital fly-by-wire controls, high composite use, glass cockpit, growing indigenous avionics/weapons integration, and Mk1A upgrades that address radar, electronic warfare, BVR engagement, and maintainability.",
+            "refs": [
+              "fn-hal-lca-pdf",
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "Limitations and caveats include a long development timeline, evolving production standards, variant-dependent equipment, changing inventory/order data, and the need to separate Mk1/Mk1A facts from larger Mk2 claims. Exact combat radius, current delivered totals, and fully cleared weapons lists require date-specific official confirmation.",
             "refs": [
               "fn-method"
             ]
@@ -60390,11 +60622,90 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1980s: India establishes the Light Combat Aircraft programme and ADA to develop an indigenous light fighter.",
+            "refs": [
+              "fn-pib-background",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "4 January 2001: first LCA technology demonstrator flight.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "2007: production-version Tejas flight reported by Airforce Technology.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "2009: trainer variant flight in HAL/Airforce Technology timeline.",
+            "refs": [
+              "fn-hal-lca-pdf",
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "2015-2016: IAF service-entry and initial squadron induction period.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "2019-2020: FOC milestone and FOC-standard IAF induction.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "2021: IAF Mk1A/trainer contract package publicly reported.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "2020s: Mk1A flight-control, AESA/EW, and production-readiness milestones continue.",
+            "refs": [
+              "fn-hal-lca-pdf",
+              "fn-airforce-technology"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
         "paragraphs": [
           {
-            "text": "HAL Tejas similar-development links: 4.",
+            "text": "Official HAL brochure data was used for Mk1A feature and performance table values. Airforce Technology supplied the most accessible narrative details for Mk1 development, design, weapons, dimensions, and orders. Wikipedia was retained only as supplementary orientation.",
+            "refs": [
+              "fn-hal-lca-pdf",
+              "fn-airforce-technology",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "The PIB official background URL was located but web extraction was unreliable during this run; the page is retained as a source pointer for future verification rather than as the basis for precise numeric claims.",
+            "refs": [
+              "fn-pib-background",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages for role comparison, replacement context, or regional fighter-development context.",
             "refs": [
               "fn-method"
             ]
@@ -60402,20 +60713,32 @@
         ],
         "links": [
           {
-            "label": "McDonnell Douglas F-15 Eagle",
-            "url": "aircraft.html?id=f-15-eagle"
-          },
-          {
             "label": "General Dynamics F-16 Fighting Falcon",
             "url": "aircraft.html?id=f-16-fighting-falcon"
           },
           {
-            "label": "McDonnell Douglas F/A-18 Hornet",
-            "url": "aircraft.html?id=f-a-18-hornet"
+            "label": "CAC/PAC JF-17 Thunder",
+            "url": "aircraft.html?id=jf-17-thunder"
           },
           {
-            "label": "Boeing F/A-18E/F Super Hornet",
-            "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+            "label": "Mikoyan-Gurevich MiG-21",
+            "url": "aircraft.html?id=mig-21"
+          },
+          {
+            "label": "Dassault Mirage 2000",
+            "url": "aircraft.html?id=mirage-2000"
+          },
+          {
+            "label": "Saab JAS 39 Gripen",
+            "url": "aircraft.html?id=jas-39-gripen"
+          },
+          {
+            "label": "Dassault Rafale",
+            "url": "aircraft.html?id=rafale"
+          },
+          {
+            "label": "Back to Aircraft Database",
+            "url": "index.html#database"
           }
         ]
       }
