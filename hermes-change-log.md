@@ -1009,3 +1009,80 @@ Record the result of:
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * A-10 current inventory totals, exact unit locations, retirement plans, and software/weapons clearances are date-sensitive, so the page uses cautious wording rather than fixed current fleet or clearance tables.
 * Public maximum-speed figures differ by source/measurement context; the page records the official USAF 420 mph value and notes that other references list higher contextual figures.
+
+### Run 14 — 2026-06-30 09:04:18 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Dassault Mirage III (id: mirage-iii)
+* Reason selected: The Mirage III entry was one of the sparsest unedited aircraft pages in the comparison pass, with no real operator records, no real variant records, no external article sources, missing engine/range/ceiling/dimension/hardpoint data, generic armament wording, and generated placeholder sections far below the F-16 reference density.
+* Previous condition: Placeholder-like generated entry with 15 exact fact fields, 0 operator entries, 0 variant entries, 0 external article sources, no Mirage IIIC/IIIE/IIIR breakdown, no French/export operator context, no combat-history depth, and only generic overview/development/design/service text.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview and quick-fact style; section order covering overview, development, design, specifications, variants/operators, operational history, weapons systems, comparison, strengths/limitations, timeline, sources, and related pages; concise source-qualified technical prose; card-style fact emphasis within the JSON renderer; internal aircraft.html?id=... related-link style; cautious notes for variant-, operator-, and loadout-dependent facts.
+
+#### Changes Made
+
+* Expanded the Dassault Mirage III entry in data/aircraft.json into a fuller Milipedia article record while preserving the existing JSON-rendered aircraft-page structure.
+* Updated top-level facts for alternative names, role, first-flight chronology, introduction, French retirement/export status, production totals, crew, SNECMA Atar engine family, Mach 2 speed class, ceiling, armament, hardpoints, development history, combat history, summary, variants, operators, related aircraft, and article-quality counts.
+* Replaced generic fighter armament wording with Mirage III-specific family-level language covering DEFA 30 mm cannon, short-range air-to-air missiles, bombs, rockets, tanks, reconnaissance stores, and variant/operator caveats.
+* Added official/manufacturer and operator sources from Dassault Aviation and the Royal Australian Air Force, plus Wikipedia only as supplementary orientation for broad operator/combat discovery.
+* Added/expanded sections for Overview, Development History, Design and Capabilities, Specifications, Variants and Derivatives, Operators, Operational History, Weapons Systems, Comparison and Role Context, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added public source-supported details for Mirage III 001 first flight, Mirage IIIA Mach 2 milestone, Mirage IIIC first production-standard flight and French operational service, French delivery totals, 1,401 Mirage III/5/50 family aircraft in 90 versions, 21-country service, and approximate 3 million family flying hours.
+* Added representative specification anchors from Dassault for the Mirage IIIA: 8.22 m span, 14.20 m length, 5,340 kg unladen weight, Mach 2 level-flight performance, and 16,500 m / 54,100 ft practical ceiling, while cautioning that operational specifications vary by subvariant.
+* Added variant coverage for Mirage III 001 / IIIA, IIIB/IIID, IIIC, IIIE, IIIR/IIIRD, Mirage 5/50, and later III NG / EX development efforts.
+* Added representative operator coverage for France, Israel, Australia, South Africa, Pakistan, Argentina, and grouped export users with date-sensitive status caveats.
+* Added internal related/comparison links to Mirage F1, Mirage 2000, IAI Kfir, F-104 Starfighter, and MiG-21.
+* Omitted fixed current fleet totals, exact national retirement dates, detailed victory/loss tables, and universal weapons/range figures because those facts vary by date, variant, operator, and modernization program.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Dassault Mirage III aircraft entry and sources.
+* hermes-change-log.md — Appended the cumulative record for Run 14.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed the diff; data/aircraft.json changed only the Mirage III entry, and hermes-change-log.md gained this cumulative Run 14 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the Mirage III entry section list, sources, variants, operators, armament wording, article-quality fields, and source caveats.
+4. F-16 style comparison — Inspected data/f16-template.html and matched its dense overview, development/design/specifications/variants/operators/operational-history/weapons/comparison/timeline/source ordering within the JSON article renderer.
+5. Internal link check — Verified internal aircraft.html?id= links for Mirage F1, Mirage 2000, IAI Kfir, F-104 Starfighter, and MiG-21 point to existing aircraft IDs.
+6. Secret/token check — Ran a credential-pattern scan over the staged diff for API keys, tokens, passwords, private keys, GitHub tokens, and AWS credentials; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, only intended files staged, exactly one aircraft entry changed, internal links valid, git diff --check clean, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Dassault Mirage III
+* Commit hash: Pending until commit is created; final hash is reported in the scheduled-run response.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* Mirage III specifications and weapons vary substantially by Mirage IIIC, IIIE, IIIR, Mirage 5/50, export subvariant, and national modernization program, so the page uses source-labeled representative figures and cautious wording rather than one universal table.
+* The official RAAF PDF was identified as a useful operator source, but automated extraction failed in this run; Australian-specific details were therefore kept high-level pending future human/source review.

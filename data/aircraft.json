@@ -44761,34 +44761,104 @@
   {
     "id": "mirage-iii",
     "name": "Dassault Mirage III",
-    "alternative_names": [],
+    "alternative_names": [
+      "Mirage IIIC",
+      "Mirage IIIE",
+      "Mirage IIIR",
+      "Mirage 5/50 family"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "France",
     "manufacturer": "Dassault Aviation",
-    "role": "Interceptor/fighter",
+    "role": "Interceptor, fighter-bomber, reconnaissance aircraft, and export multirole fighter",
     "aircraft_type": "Fighter",
     "era": "Cold War",
-    "first_flight": "1956",
+    "first_flight": "17 November 1956 (Mirage III 001); 9 October 1960 for production-standard Mirage IIIC",
     "introduction_date": "1961",
-    "retirement_date": null,
-    "status": "Active/retired by operator",
-    "number_built": "Not listed",
-    "crew": "1 or 2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
-    "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Dassault Mirage III: Interceptor/fighter. Manufacturer: Dassault Aviation. First flight: 1956. Introduction: 1961.",
-    "short_summary": "Dassault Mirage III: Interceptor/fighter. Origin: France. Manufacturer: Dassault Aviation. First flight: 1956. Introduction: 1961. Status: Active/retired by operator.",
+    "retirement_date": "1994 from French operational units; export and modernized aircraft retired or active depending operator",
+    "status": "Retired by France; long-serving export family with some aircraft or derivatives retained by selected operators",
+    "number_built": "1,401 Mirage III/5/50 family aircraft in 90 versions; 457 delivered to the French Air Force according to Dassault",
+    "crew": "1 in fighter/reconnaissance versions; 2 in trainers and some conversion aircraft",
+    "engine_type": "Afterburning turbojet",
+    "engines": "1 × SNECMA Atar series afterburning turbojet; Mirage IIIE used the Atar 9C family",
+    "max_speed": "Mach 2 class; Mirage IIIA achieved Mach 2 in level flight and later production Mirages were supersonic interceptors",
+    "speed_category": "Supersonic / Mach 2 class",
+    "range": "Variant and loadout dependent; representative ferry/combat radius figures vary by Mirage IIIC/IIIE, external tanks, and mission stores",
+    "combat_range": "Variant and mission dependent; Argentine Falklands use illustrated limited on-station time without aerial refueling",
+    "service_ceiling": "Approximately 16,500 m / 54,100 ft for Mirage IIIA per Dassault; later variants are commonly cited in the high-altitude interceptor class",
+    "rate_of_climb": "Not fixed here; public values vary by variant, engine, stores, and test condition",
+    "armament": "Typically 30 mm DEFA cannon plus short-range air-to-air missiles, bombs, rockets, reconnaissance stores, or external tanks depending variant/operator; exact loadouts varied widely.",
+    "hardpoints": "Multiple external stations for missiles, bombs, rockets, tanks, and mission stores; exact number and cleared weapons vary by subvariant/operator",
+    "variants": [
+      {
+        "name": "Mirage III 001 / Mirage IIIA",
+        "description": "Prototype and pre-production development aircraft that proved the area-rule delta configuration, variable-geometry inlet centerbodies, and Mach 2 potential for the French light-interceptor program."
+      },
+      {
+        "name": "Mirage IIIB / IIID",
+        "description": "Two-seat trainer and conversion-control family; the Mirage IIID name was widely associated with export two-seat aircraft derived from the Mirage IIIE family."
+      },
+      {
+        "name": "Mirage IIIC",
+        "description": "First main interceptor production model. Dassault records 95 French Mirage IIIC aircraft; the first production-standard aircraft flew on 9 October 1960 and operational French service began in 1961."
+      },
+      {
+        "name": "Mirage IIIE",
+        "description": "Longer-fuselage fighter-bomber/strike variant with added navigation and Doppler radar equipment and Atar 9C power. Dassault records 183 French Mirage IIIE aircraft."
+      },
+      {
+        "name": "Mirage IIIR / IIIRD",
+        "description": "Tactical reconnaissance versions for low- and medium-altitude photographic missions by day or night, derived from the Mirage III family."
+      },
+      {
+        "name": "Mirage 5 / Mirage 50",
+        "description": "Simplified and later uprated export family developed from the Mirage III concept; included many national subvariants and modernization programs."
+      },
+      {
+        "name": "Mirage III NG / EX",
+        "description": "Later technology-demonstrator/export-development efforts adding canards or revised equipment; Dassault notes that the Mirage III NG was not exported."
+      }
+    ],
+    "operators": [
+      {
+        "country": "France",
+        "service": "French Air Force",
+        "notes": "Primary home operator. Dassault lists 457 Mirage III/5 aircraft delivered to France and withdrawal of the last operational-unit aircraft in 1994, with some retained afterward at the CEV test center."
+      },
+      {
+        "country": "Israel",
+        "service": "Israeli Air Force",
+        "notes": "Major combat operator of Mirage IIICJ/Shahak aircraft and related Mirage 5/Nesher lineage. Israeli Mirages were prominent in the 1967 Six-Day War and later air-defense fighting; detailed victory/loss claims vary by source."
+      },
+      {
+        "country": "Australia",
+        "service": "Royal Australian Air Force",
+        "notes": "Operated locally designated Mirage IIIO and two-seat trainers from the 1960s through 1989; Australian material is useful for Atar 9C and national-variant context."
+      },
+      {
+        "country": "South Africa",
+        "service": "South African Air Force",
+        "notes": "Operated Mirage IIICZ, IIIEZ and IIIRZ aircraft and later developed the Atlas Cheetah modernization lineage from Mirage airframes."
+      },
+      {
+        "country": "Pakistan",
+        "service": "Pakistan Air Force",
+        "notes": "Long-term Mirage III/5 user, including upgraded Project ROSE aircraft; exact active status and inventory counts are date-sensitive."
+      },
+      {
+        "country": "Argentina",
+        "service": "Argentine Air Force / Navy aviation context",
+        "notes": "Used Mirage IIIEA and related delta fighters in the Falklands War era; lack of aerial-refueling capability and distance to the combat area limited endurance."
+      },
+      {
+        "country": "Other export users",
+        "service": "Multiple air arms",
+        "notes": "Dassault states the Mirage III/5/50 family served in 21 countries. Operators and subvariants included European, Middle Eastern, African, Latin American, and Asian customers; current statuses require dated verification."
+      }
+    ],
+    "combat_history": "Used by multiple operators in Cold War and post-Cold War conflicts, including Israeli service in the Six-Day War and Yom Kippur War, South African Border War operations, Argentine Falklands War sorties, and Pakistani service/modernization. Combat claims and loss figures vary by source and are not tabulated here.",
+    "development_history": "The Mirage III grew from France's early-1950s light-interceptor studies and Dassault's delta-wing Mirage I experiments. Mirage III 001 first flew on 17 November 1956, added variable-section intakes with movable centerbodies, and led to pre-production Mirage IIIA and production IIIC aircraft. Dassault records the first Mirage IIIC production-standard flight on 9 October 1960 and French operational service in 1961.",
+    "short_summary": "The Dassault Mirage III was France's landmark Mach 2 delta-wing fighter family: a compact interceptor that evolved into fighter-bomber, reconnaissance, trainer, and export variants. It gave the French Air Force a bi-sonic operational fighter in 1961 and became one of the most widely exported Western combat-aircraft families of the Cold War.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -44801,18 +44871,25 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-dassault",
+        "title": "Mirage III: origins, characteristics and performance data",
+        "url": "https://www.dassault-aviation.com/en/passion/aircraft/military-dassault-aircraft/mirage-iii",
+        "publisher": "Dassault Aviation",
+        "note": "Primary manufacturer history for development chronology, French Air Force totals, family production totals, variant descriptions, Mach 2 milestone, and representative dimensions/ceiling data."
+      },
+      {
+        "id": "fn-raaf",
+        "title": "A3 – Dassault Mirage III",
+        "url": "https://www.airforce.gov.au/sites/default/files/2023-07/A3-Dassault%20Mirrage%20III-%20%20pp418-423.pdf",
+        "publisher": "Royal Australian Air Force",
+        "note": "Official Australian historical PDF used for RAAF service context and Mirage IIIO/Atar 9C national-variant background; automated extraction was unavailable during this run."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Dassault Mirage III",
         "url": "https://en.wikipedia.org/wiki/Dassault_Mirage_III",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation for broad operator, combat-use, and variant discovery; not used alone for precise technical claims."
       },
       {
         "id": "fn-method",
@@ -44832,83 +44909,105 @@
       "Dassault Aviation"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Meeting a light-interceptor requirement while adding the radar, fuel, weapons, and engine performance needed for practical all-weather service.",
+      "The tailless delta gave high-speed simplicity and a compact structure, but imposed low-speed, takeoff/landing, and endurance trade-offs compared with later fighters.",
+      "A common airframe family had to cover interception, strike, reconnaissance, training, nuclear-delivery, and export requirements without a single universal configuration."
     ],
-    "wars_used_in": [],
+    "wars_used_in": [
+      "Six-Day War",
+      "Yom Kippur War",
+      "South African Border War",
+      "Falklands War",
+      "Indo-Pakistani War service context and later Pakistan modernization"
+    ],
     "variant_families": [
-      "Dassault Mirage III baseline production model",
-      "Dassault Mirage III upgraded avionics or weapons-capable model",
-      "Dassault Mirage III two-seat trainer or conversion model",
-      "Dassault Mirage III export or locally modernized model"
+      "Mirage IIIA / development aircraft",
+      "Mirage IIIB/IIID trainers",
+      "Mirage IIIC interceptor",
+      "Mirage IIIE fighter-bomber",
+      "Mirage IIIR/RD reconnaissance",
+      "Mirage 5/50 and national modernizations"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "France"
       ],
-      "major_user_note": "Dassault Mirage III has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Dassault states the Mirage III/5/50 family served 21 countries and accumulated about 3 million flying hours.",
+      "all_operators_status": "Representative operator entries added; exact current inventories and national retirement dates are date-sensitive."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "Roland Glavany flew Mirage III 001 on its first flight on 17 November 1956.",
+        "Mirage IIIA 01 was associated with Western Europe's first Mach 2 level-flight achievement in the late 1950s.",
+        "Israeli ace Giora Epstein is widely associated with Mirage III/Nesher combat victories; detailed claim accounting is outside this page's safe scope."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Falklands War Mirage IIIEA endurance was constrained by long distance and lack of aerial refueling.",
+        "Combat and loss claims differ by conflict and source, so no single victory/loss table is presented here."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Dassault Mirage III uses jet propulsion."
+      "type": "Afterburning turbojet",
+      "summary": "Single SNECMA Atar-family afterburning turbojet; Mirage IIIE used the Atar 9C family, while earlier prototypes and later derivatives used different Atar or rocket-assisted combinations."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Common Mirage III weapons included DEFA 30 mm cannon, short-range air-to-air missiles such as Matra/R.550-family weapons depending era, bombs, rockets, tanks, and reconnaissance or mission stores.",
+      "caution": "Loadouts varied sharply by Mirage IIIC/IIIE/IIIR, export subvariant, national avionics, and upgrade program; exact weapon-clearance tables require operator-specific sources."
     },
     "similar_development": [
       {
-        "id": "f-4-phantom-ii",
-        "name": "McDonnell Douglas F-4 Phantom II",
-        "url": "aircraft.html?id=f-4-phantom-ii"
+        "id": "mirage-f1",
+        "name": "Dassault Mirage F1",
+        "url": "aircraft.html?id=mirage-f1"
       },
       {
-        "id": "f-5-freedom-fighter-tiger-ii",
-        "name": "Northrop F-5",
-        "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
+        "id": "mirage-2000",
+        "name": "Dassault Mirage 2000",
+        "url": "aircraft.html?id=mirage-2000"
       },
       {
-        "id": "f-8-crusader",
-        "name": "Vought F-8 Crusader",
-        "url": "aircraft.html?id=f-8-crusader"
+        "id": "iai-kfir",
+        "name": "IAI Kfir",
+        "url": "aircraft.html?id=iai-kfir"
       },
       {
-        "id": "f-14-tomcat",
-        "name": "Grumman F-14 Tomcat",
-        "url": "aircraft.html?id=f-14-tomcat"
+        "id": "f-104-starfighter",
+        "name": "Lockheed F-104 Starfighter",
+        "url": "aircraft.html?id=f-104-starfighter"
+      },
+      {
+        "id": "mig-21",
+        "name": "Mikoyan-Gurevich MiG-21",
+        "url": "aircraft.html?id=mig-21"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 38,
+      "operator_entries": 7,
+      "variant_entries": 7,
+      "external_article_sources": 3
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-dassault",
+        "title": "Mirage III: origins, characteristics and performance data",
+        "url": "https://www.dassault-aviation.com/en/passion/aircraft/military-dassault-aircraft/mirage-iii",
+        "publisher": "Dassault Aviation",
+        "note": "Manufacturer page used for official development chronology, French production/delivery totals, family totals, and variant descriptions."
+      },
+      {
+        "id": "fn-raaf",
+        "title": "A3 – Dassault Mirage III",
+        "url": "https://www.airforce.gov.au/sites/default/files/2023-07/A3-Dassault%20Mirrage%20III-%20%20pp418-423.pdf",
+        "publisher": "Royal Australian Air Force",
+        "note": "Official Australian historical source retained for RAAF service and Mirage IIIO context; extraction failed in this run, so details are not over-specified."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Dassault Mirage III",
         "url": "https://en.wikipedia.org/wiki/Dassault_Mirage_III",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation for broad operator, variant, and combat-history discovery."
       },
       {
         "id": "fn-method",
@@ -44918,26 +45017,42 @@
         "note": "Local rules for units, source citation, neutral wording, and estimate labels."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "Mirage III: origins, characteristics and performance data",
+        "url": "https://www.dassault-aviation.com/en/passion/aircraft/military-dassault-aircraft/mirage-iii",
+        "publisher": "Dassault Aviation"
+      },
+      {
+        "title": "A3 – Dassault Mirage III",
+        "url": "https://www.airforce.gov.au/sites/default/files/2023-07/A3-Dassault%20Mirrage%20III-%20%20pp418-423.pdf",
+        "publisher": "Royal Australian Air Force"
+      },
+      {
+        "title": "Dassault Mirage III",
+        "url": "https://en.wikipedia.org/wiki/Dassault_Mirage_III",
+        "publisher": "Wikipedia"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Dassault Mirage III is an Interceptor/fighter from France. Manufacturer: Dassault Aviation. First flight: 1956. Introduction: 1961. Status: Active/retired by operator.",
+            "text": "The Dassault Mirage III was the aircraft that turned Dassault's delta-wing research into a widely exported Mach 2 fighter family. It began as a French light-interceptor answer to post-Korean War air-defense requirements, but production aircraft quickly expanded into fighter-bomber, reconnaissance, trainer, and export roles.",
             "refs": [
-              "fn-main"
+              "fn-dassault"
             ]
           },
           {
-            "text": "Dassault Mirage III is a fighter. Primary role: interceptor/fighter. Country of origin: France. Manufacturer: Dassault Aviation.",
+            "text": "Dassault describes the Mirage III as a single-engine delta-wing bomber fighter designed with area-rule shaping. The manufacturer records 457 Mirage III/5 aircraft delivered to the French Air Force and 1,401 Mirage III/5/50 family aircraft in 90 versions serving 21 countries.",
             "refs": [
-              "fn-wikidata"
+              "fn-dassault"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "This page treats specifications as representative rather than universal: a Mirage IIIC interceptor, Mirage IIIE strike aircraft, Mirage IIIR reconnaissance aircraft, or national upgrade could differ substantially in avionics, stores, range, and service status.",
             "refs": [
               "fn-method"
             ]
@@ -44946,10 +45061,10 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Interceptor/fighter"
+            "text": "Interceptor and multirole fighter family"
           },
           {
-            "title": "Designer or builder",
+            "title": "Designer / builder",
             "text": "Dassault Aviation"
           },
           {
@@ -44957,39 +45072,67 @@
             "text": "France"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Production scale",
+            "text": "1,401 Mirage III/5/50 family aircraft in 90 versions per Dassault"
+          },
+          {
+            "title": "Service scope",
+            "text": "21 countries and about 3 million flying hours per Dassault"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Dassault Mirage III first flew in 1956. Introduction date: 1961. Era: Cold War.",
+            "text": "The Mirage lineage began with a 1953 French requirement for a light interceptor able to use small or unprepared airfields. Dassault's early MD 550 / Mirage I prototypes tested the compact delta-wing formula but showed that more engine power, better inlets, and a larger airframe were needed for a practical combat aircraft.",
             "refs": [
-              "fn-main"
+              "fn-dassault"
             ]
           },
           {
-            "text": "Producer: Dassault Aviation. Development context: interceptor/fighter, jet propulsion, supersonic speed category, Cold War era.",
+            "text": "Mirage III 001 first flew at Melun-Villaroche on 17 November 1956 with Roland Glavany at the controls. It adopted area-rule shaping and later variable-section air inlets with movable centerbodies—features central to the Mirage III's high-Mach performance.",
             "refs": [
-              "fn-wikidata"
+              "fn-dassault"
+            ]
+          },
+          {
+            "text": "The pre-production Mirage IIIA flew in 1958, and Dassault states that Roland Glavany achieved Mach 2 in level flight in Mirage IIIA 01—the first such Western European achievement of the period. France ordered the production Mirage IIIC, and the first production-standard aircraft flew on 9 October 1960.",
+            "refs": [
+              "fn-dassault"
+            ]
+          },
+          {
+            "text": "Operational French Mirage IIIC service began in 1961. Dassault's account emphasizes rapid alert duty: from late 1962, four Mirage IIIC squadrons maintained constant alert with one Mirage ready in five minutes and another to assist after 30 minutes.",
+            "refs": [
+              "fn-dassault"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "1953: French authorities define a light-interceptor need after the Korean War.",
             "refs": [
-              "fn-method"
+              "fn-dassault"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "17 November 1956: Mirage III 001 first flight.",
             "refs": [
-              "fn-method"
+              "fn-dassault"
+            ]
+          },
+          {
+            "text": "1958: Mirage IIIA pre-production aircraft flies and demonstrates Mach 2 level-flight performance.",
+            "refs": [
+              "fn-dassault"
+            ]
+          },
+          {
+            "text": "1961: first Mirage IIIC squadron deliveries and operational French service.",
+            "refs": [
+              "fn-dassault"
             ]
           }
         ]
@@ -44999,42 +45142,42 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1 or 2. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The Mirage III's tailless delta wing simplified structure, reduced drag at high speed, and offered generous internal volume, but it also demanded careful handling at lower speeds and often required external tanks for useful radius. The fuselage was shaped around the area rule, giving the aircraft its distinctive waisted profile.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Carrier capable: no. Stealth: no.",
-            "refs": [
+              "fn-dassault",
               "fn-method"
             ]
           },
           {
-            "text": "Dassault Mirage III uses jet propulsion. Engine model field: Not listed.",
+            "text": "Production Mirages used a single SNECMA Atar-family afterburning turbojet. The Mirage IIIE added a more powerful Atar 9C and extra avionics space for low-altitude strike equipment, navigation systems, and Doppler radar.",
             "refs": [
-              "fn-main"
+              "fn-dassault"
             ]
           },
           {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
+            "text": "The interceptor lineage emphasized radar-guided or heat-seeking air-to-air weapons and 30 mm cannon, while the IIIE/5/50 family broadened the aircraft into ground attack, reconnaissance, training, and export upgrade paths. Because national users integrated different avionics and weapons, Milipedia should avoid one universal weapons table for all Mirage IIIs.",
             "refs": [
-              "fn-main"
+              "fn-dassault",
+              "fn-method"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "1 or 2"
+            "title": "Airframe",
+            "text": "Single-engine, tailless delta-wing fighter with area-rule fuselage"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Crew",
+            "text": "One in fighters/reconnaissance versions; two in trainers"
+          },
+          {
+            "title": "Engine",
+            "text": "SNECMA Atar-family afterburning turbojet"
           },
           {
             "title": "Speed class",
-            "text": "Supersonic"
+            "text": "Mach 2 class"
           },
           {
             "title": "Carrier capable",
@@ -45047,102 +45190,99 @@
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Dassault Mirage III status: Active/retired by operator. Conflict entries: 0.",
+            "text": "Representative public figures differ by Mirage IIIA, IIIC, IIIE, IIIR, export model, and loadout. Dassault's manufacturer page provides reliable anchor data for the development aircraft: Mirage IIIA span 8.22 m, length 14.20 m, unladen weight 5,340 kg, top Mach 2 level flight, and 16,500 m / 54,100 ft practical ceiling.",
             "refs": [
-              "fn-main"
+              "fn-dassault"
             ]
           },
           {
-            "text": "Conflicts: 0 entries.",
+            "text": "For operational pages, describe Mirage III performance as Mach 2-class with high-altitude interceptor capability. Avoid mixing a Mirage IIIA datasheet with later IIIE, IIIO, or export specifications without labeling the variant.",
             "refs": [
+              "fn-dassault",
               "fn-method"
             ]
           }
         ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
+        "cards": [
           {
-            "text": "Dassault Mirage III named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Mirage IIIA span",
+            "text": "8.22 m (Dassault development-aircraft data)"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Mirage IIIA length",
+            "text": "14.20 m (Dassault development-aircraft data)"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Mirage IIIA empty weight",
+            "text": "5,340 kg (Dassault development-aircraft data)"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Representative ceiling",
+            "text": "16,500 m / 54,100 ft for Mirage IIIA"
+          },
+          {
+            "title": "Powerplant family",
+            "text": "SNECMA Atar; Mirage IIIE used Atar 9C"
+          },
+          {
+            "title": "Armament note",
+            "text": "30 mm cannon, missiles, bombs, rockets, tanks, or recce stores depending variant"
           }
         ]
       },
       {
         "id": "variants",
-        "title": "Variants",
+        "title": "Variants and Derivatives",
         "paragraphs": [
           {
-            "text": "Dassault Mirage III variant-family entries: 4. Variant families: Dassault Mirage III baseline production model; Dassault Mirage III upgraded avionics or weapons-capable model; Dassault Mirage III two-seat trainer or conversion model; Dassault Mirage III export or locally modernized model.",
+            "text": "The Mirage III became a family rather than a single fixed configuration. Dassault records French deliveries of 95 Mirage IIIC interceptors, 59 two-seat B/B1/B2/BE aircraft, 70 R/RD reconnaissance aircraft, 183 Mirage IIIE aircraft, and 50 Mirage 5F aircraft.",
             "refs": [
-              "fn-main"
+              "fn-dassault"
             ]
           },
           {
-            "text": "Complete variant entries listed: 0.",
+            "text": "Export and derivative lines included Mirage 5/50 aircraft, national subvariants, and major rebuild programs such as Israel's Nesher/Kfir lineage and South Africa's Atlas Cheetah. Those derivatives share Mirage III ancestry but should not be treated as identical to early French IIIC aircraft.",
             "refs": [
+              "fn-dassault",
+              "fn-wikipedia",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Dassault Mirage III baseline production model",
+            "text": "Mirage IIIC — main early interceptor production version for French air-defense service.",
             "refs": [
-              "fn-main"
+              "fn-dassault"
             ]
           },
           {
-            "text": "Dassault Mirage III upgraded avionics or weapons-capable model",
+            "text": "Mirage IIIE — longer-fuselage strike/fighter-bomber version with added navigation and attack avionics.",
             "refs": [
-              "fn-main"
+              "fn-dassault"
             ]
           },
           {
-            "text": "Dassault Mirage III two-seat trainer or conversion model",
+            "text": "Mirage IIIR/RD — tactical reconnaissance versions for day/night low- and medium-altitude missions.",
             "refs": [
-              "fn-main"
+              "fn-dassault"
             ]
           },
           {
-            "text": "Dassault Mirage III export or locally modernized model",
+            "text": "Mirage IIIB/IIID — two-seat training and conversion-control family.",
             "refs": [
-              "fn-main"
+              "fn-dassault"
+            ]
+          },
+          {
+            "text": "Mirage 5/50 and national modernizations — simplified or upgraded descendants for export and later capability improvements.",
+            "refs": [
+              "fn-dassault",
+              "fn-wikipedia"
             ]
           }
         ]
@@ -45152,13 +45292,93 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: France. Dassault Mirage III has 1 designer or builder country entry.",
+            "text": "France was the home operator and retired the last operational-unit Mirage III/5 aircraft in 1994, though some remained in test-center use. The family became one of France's most successful combat-aircraft exports, serving 21 countries according to Dassault.",
             "refs": [
-              "fn-wikidata"
+              "fn-dassault"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Important non-French operators included Israel, Australia, South Africa, Pakistan, Argentina, Switzerland, Spain, and numerous other national air arms. Some aircraft were retired decades ago, while Pakistan and several derivative users illustrate the type's unusually long modernization life.",
+            "refs": [
+              "fn-dassault",
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "France — primary operator of IIIC, IIIB, IIIE, IIIR/RD and Mirage 5F aircraft.",
+            "refs": [
+              "fn-dassault"
+            ]
+          },
+          {
+            "text": "Israel — major combat operator of Mirage IIICJ/Shahak and related Mirage 5/Nesher/Kfir lineage.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Australia — RAAF Mirage IIIO/IIID service from the 1960s to 1989, with local variant details best verified from official RAAF sources.",
+            "refs": [
+              "fn-raaf",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "South Africa — Mirage III combat and reconnaissance service plus Atlas Cheetah modernization lineage.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Pakistan — long-term Mirage III/5 operator with Project ROSE modernizations; current numbers should be checked against dated sources.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "service",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "The Mirage III's combat reputation was built largely by export users. Israeli Mirage IIIs were prominent in the Six-Day War as air-superiority and strike aircraft and remained important in later air-defense operations alongside related derivatives.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "South African Mirage IIIs served in the Border War era in interception, fighter-bomber, reconnaissance, and training roles. Argentina's Mirage IIIEA entered the Falklands War from distant mainland bases, where limited endurance over the combat area without aerial refueling sharply constrained usefulness.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "In French service the Mirage III marked entry into routine bi-sonic fighter operations. Its later importance is partly industrial: the airframe family underpinned export sales, national upgrade industries, and successor designs such as the Mirage F1 and Mirage 2000.",
+            "refs": [
+              "fn-dassault",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "weapons",
+        "title": "Weapons Systems",
+        "paragraphs": [
+          {
+            "text": "Early Mirage IIIC interceptors combined cannon with air-to-air missile capability and radar-directed interception. Later fighter-bomber and export aircraft carried bombs, rockets, external tanks, and mission-specific stores, while reconnaissance versions prioritized camera and sensor installations.",
+            "refs": [
+              "fn-dassault",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "The safest public wording is family-level: DEFA 30 mm cannon, short-range air-to-air missiles, and external strike or reconnaissance stores depending on variant and operator. National modernization programs could introduce non-French avionics, radars, and weapons.",
             "refs": [
               "fn-method"
             ]
@@ -45166,43 +45386,39 @@
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Interceptor role: cannon plus air-to-air missiles and radar/ground-control interception context.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Major designer or builder entries: France.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "specifications",
-        "title": "Specifications",
-        "paragraphs": [
-          {
-            "text": "Comparable fields: crew 1 or 2, propulsion type Jet, maximum speed category Supersonic, first flight 1956, introduction 1961.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
-            "refs": [
+              "fn-wikipedia",
               "fn-method"
             ]
+          },
+          {
+            "text": "Strike role: bombs, rockets, tanks, and attack-navigation equipment on IIIE/5/50-style aircraft.",
+            "refs": [
+              "fn-dassault"
+            ]
+          },
+          {
+            "text": "Reconnaissance role: Mirage IIIR/RD camera missions rather than fighter weapons as the defining payload.",
+            "refs": [
+              "fn-dassault"
+            ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "comparison",
+        "title": "Comparison and Role Context",
         "paragraphs": [
           {
-            "text": "Dassault Mirage III similar-development links: 4.",
+            "text": "Compared with the F-4 Phantom II, the Mirage III was smaller, single-engined, and simpler, with a strong emphasis on high-speed interception and export affordability. Compared with the MiG-21 and F-104, it occupied the same broad Mach 2 light-interceptor generation but became unusually adaptable across strike and reconnaissance variants.",
+            "refs": [
+              "fn-method",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "The Mirage F1 and Mirage 2000 show Dassault's later responses to Mirage III limitations: better low-speed handling, avionics growth, range, and multirole weapons integration while retaining elements of the French high-performance fighter tradition.",
             "refs": [
               "fn-method"
             ]
@@ -45210,20 +45426,197 @@
         ],
         "links": [
           {
+            "label": "Dassault Mirage F1",
+            "url": "aircraft.html?id=mirage-f1"
+          },
+          {
+            "label": "Dassault Mirage 2000",
+            "url": "aircraft.html?id=mirage-2000"
+          },
+          {
             "label": "McDonnell Douglas F-4 Phantom II",
             "url": "aircraft.html?id=f-4-phantom-ii"
           },
           {
-            "label": "Northrop F-5",
-            "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
+            "label": "Lockheed F-104 Starfighter",
+            "url": "aircraft.html?id=f-104-starfighter"
           },
           {
-            "label": "Vought F-8 Crusader",
-            "url": "aircraft.html?id=f-8-crusader"
+            "label": "Mikoyan-Gurevich MiG-21",
+            "url": "aircraft.html?id=mig-21"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths included high speed, compact structure, relatively straightforward maintenance, strong climb/interceptor performance for its era, export adaptability, and a family architecture broad enough for trainers, reconnaissance aircraft, strike fighters, and national upgrades.",
+            "refs": [
+              "fn-dassault",
+              "fn-method"
+            ]
           },
           {
-            "label": "Grumman F-14 Tomcat",
-            "url": "aircraft.html?id=f-14-tomcat"
+            "text": "Limitations included delta-wing low-speed penalties, relatively short endurance without external tanks, limited internal volume for later avionics growth, and major variation between national configurations. Combat performance depended heavily on pilot training, ground control, weapons fit, and operating distance.",
+            "refs": [
+              "fn-method",
+              "fn-wikipedia"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: Western European Mach 2 milestone and successful export family.",
+            "refs": [
+              "fn-dassault"
+            ]
+          },
+          {
+            "text": "Strength: adaptable airframe for interceptor, strike, reconnaissance, and trainer roles.",
+            "refs": [
+              "fn-dassault"
+            ]
+          },
+          {
+            "text": "Limitation: limited endurance/range in some combat contexts, especially without aerial refueling.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Limitation: exact capability depends on subvariant and national modernization program.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "Key dates below follow the manufacturer chronology where available and use broader public-source context for export and combat service.",
+            "refs": [
+              "fn-dassault",
+              "fn-wikipedia"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1953 — French light-interceptor studies begin; Dassault develops the MD 550 / Mirage I concept.",
+            "refs": [
+              "fn-dassault"
+            ]
+          },
+          {
+            "text": "25 June 1955 — MD 550 makes its first flight.",
+            "refs": [
+              "fn-dassault"
+            ]
+          },
+          {
+            "text": "17 November 1956 — Mirage III 001 first flight.",
+            "refs": [
+              "fn-dassault"
+            ]
+          },
+          {
+            "text": "1958 — Mirage IIIA flies and demonstrates Mach 2 level-flight performance.",
+            "refs": [
+              "fn-dassault"
+            ]
+          },
+          {
+            "text": "9 October 1960 — first production-standard Mirage IIIC flight.",
+            "refs": [
+              "fn-dassault"
+            ]
+          },
+          {
+            "text": "1961 — French operational service begins with Mirage IIIC aircraft.",
+            "refs": [
+              "fn-dassault"
+            ]
+          },
+          {
+            "text": "1967 — Israeli Mirage IIIs are prominent in Six-Day War air operations.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "1994 — last French operational-unit Mirage III/5 aircraft withdrawn, according to Dassault.",
+            "refs": [
+              "fn-dassault"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Dassault Aviation was used as the primary source for manufacturer chronology, family totals, French delivery counts, and variant descriptions. Wikipedia was retained only as a broad orientation source for export/operator/combat discovery.",
+            "refs": [
+              "fn-dassault",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "The RAAF PDF was identified as an official operator source but automated extraction failed during this run, so this update does not overstate Australian-specific measurements beyond high-level service context.",
+            "refs": [
+              "fn-raaf",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Exact speed, range, ceiling, and armament figures should be labeled by subvariant in future expansions; the Mirage III family is too broad for one universal specification table.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages for delta-wing successors, derivatives, and same-generation fighters.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Dassault Mirage F1",
+            "url": "aircraft.html?id=mirage-f1"
+          },
+          {
+            "label": "Dassault Mirage 2000",
+            "url": "aircraft.html?id=mirage-2000"
+          },
+          {
+            "label": "IAI Kfir",
+            "url": "aircraft.html?id=iai-kfir"
+          },
+          {
+            "label": "Lockheed F-104 Starfighter",
+            "url": "aircraft.html?id=f-104-starfighter"
+          },
+          {
+            "label": "Mikoyan-Gurevich MiG-21",
+            "url": "aircraft.html?id=mig-21"
+          },
+          {
+            "label": "Back to Aircraft Database",
+            "url": "aircraft.html"
           }
         ]
       }
