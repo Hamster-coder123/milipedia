@@ -28238,34 +28238,95 @@
   {
     "id": "rq-4-global-hawk",
     "name": "Northrop Grumman RQ-4 Global Hawk",
-    "alternative_names": [],
+    "alternative_names": [
+      "RQ-4 Global Hawk",
+      "Global Hawk UAS",
+      "EQ-4B BACN",
+      "RQ-4D Phoenix",
+      "RangeHawk"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
     "manufacturer": "Northrop Grumman",
-    "role": "High-altitude UAV",
-    "aircraft_type": "UAV",
+    "role": "High-altitude, long-endurance ISR remotely piloted aircraft",
+    "aircraft_type": "Unmanned aerial vehicle",
     "era": "Modern",
     "first_flight": "1998",
-    "introduction_date": "2001",
+    "introduction_date": "2001 operational deployments; Block 30 IOC in 2011",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "Remote crew",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "status": "Active in U.S., NATO, Japanese, Korean, and specialized test/support service; some early USAF blocks retired",
+    "number_built": "Not fixed here; production and active inventories vary by block, customer, retirement, and conversion status",
+    "crew": "Three-person remote mission crew typical for USAF operations: LRE pilot, MCE pilot, and sensor operator",
+    "engine_type": "Turbofan",
+    "engines": "One Rolls-Royce / North American F137-RR-100 turbofan",
+    "max_speed": "310 knots (357 mph) according to USAF fact sheet",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Remotely piloted aircraft payload; exact stores not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Northrop Grumman RQ-4 Global Hawk: High-altitude UAV. Manufacturer: Northrop Grumman. First flight: 1998. Introduction: 2001.",
-    "short_summary": "Northrop Grumman RQ-4 Global Hawk: High-altitude UAV. Origin: United States. Manufacturer: Northrop Grumman. First flight: 1998. Introduction: 2001. Status: Active.",
+    "range": "12,300 nautical miles according to USAF fact sheet",
+    "combat_range": "Not published as a combat radius; designed for 30+ hour persistent ISR missions",
+    "service_ceiling": "60,000 ft",
+    "rate_of_climb": "Not listed in official fact sheet",
+    "armament": "None; payload is intelligence, surveillance, reconnaissance, communications-relay, weather, or test instrumentation depending on variant",
+    "hardpoints": "Internal/systems payload bays and mission-equipment provisions; not an armed hardpoint aircraft",
+    "variants": [
+      {
+        "name": "RQ-4A / Block 10",
+        "note": "Early Global Hawk configuration; USAF fact sheet states seven Block 10 aircraft were procured and retired from Air Force inventory in 2011."
+      },
+      {
+        "name": "RQ-4B Block 20",
+        "note": "Larger-airframe production block initially fielded with imagery-intelligence capability; three Block 20 aircraft were converted to EQ-4 communications-relay configuration."
+      },
+      {
+        "name": "EQ-4B BACN",
+        "note": "Battlefield Airborne Communications Node relay configuration, used to bridge data links and voice communications for air and ground users."
+      },
+      {
+        "name": "RQ-4B Block 30",
+        "note": "Multi-intelligence configuration carrying electro-optical, infrared, synthetic-aperture radar, and high/low-band SIGINT sensors; USAF lists IOC in August 2011."
+      },
+      {
+        "name": "RQ-4B Block 40",
+        "note": "Radar Technology Insertion Program / MP-RTIP radar configuration for moving-target-indicator and synthetic-aperture radar collection; USAF lists early operating capability in September 2013."
+      },
+      {
+        "name": "RQ-4D Phoenix",
+        "note": "NATO Alliance Ground Surveillance derivative based on Global Hawk, operated from Sigonella for alliance wide-area surveillance."
+      },
+      {
+        "name": "RangeHawk",
+        "note": "Converted RQ-4 air vehicles used for long-endurance range surveillance and test-support missions, including space-launch and missile-test support."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "U.S. Air Force",
+        "note": "Primary military operator; Global Hawk is associated with Beale AFB, Grand Forks AFB, and worldwide operational detachments in official USAF descriptions."
+      },
+      {
+        "country": "NATO",
+        "service": "Alliance Ground Surveillance Force",
+        "note": "Operates the RQ-4D Phoenix derivative from Sigonella, Italy, for alliance-level ground surveillance."
+      },
+      {
+        "country": "Japan",
+        "service": "Japan Air Self-Defense Force",
+        "note": "Export RQ-4B Global Hawk operator; public delivery milestones have been announced by the manufacturer."
+      },
+      {
+        "country": "South Korea",
+        "service": "Republic of Korea Air Force",
+        "note": "Export Global Hawk operator; exact fleet readiness and mission status are date-sensitive."
+      },
+      {
+        "country": "United States",
+        "service": "NASA / test-range support users",
+        "note": "Global Hawk and RangeHawk derivatives support atmospheric research, range surveillance, and test-support roles rather than combat ISR."
+      }
+    ],
+    "combat_history": "Used for persistent ISR and communications relay in operations connected with Afghanistan, Iraq, Libya, North Africa, the Asia-Pacific region, and wider contingency operations; public mission descriptions emphasize collection and relay rather than weapon delivery.",
+    "development_history": "Global Hawk began as a 1995 Advanced Concept Technology Demonstration to prove high-altitude, long-endurance unmanned ISR. It first flew in 1998 and deployed operationally from November 2001, then evolved through Block 10, Block 20/EQ-4B BACN, Block 30 multi-intelligence, Block 40 MP-RTIP radar, NATO RQ-4D Phoenix, export RQ-4B, and NASA/RangeHawk derivative uses.",
+    "short_summary": "The RQ-4 Global Hawk is a U.S.-developed high-altitude, long-endurance unmanned aircraft system built by Northrop Grumman for broad-area intelligence, surveillance, and reconnaissance. It is unarmed, flies above most weather for more than 30 hours, and carries sensor or relay payloads for near-real-time imagery, radar, signals-intelligence, communications-relay, weather, and test-support missions.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -28278,11 +28339,25 @@
     ],
     "sources": [
       {
+        "id": "fn-usaf",
+        "title": "RQ-4 Global Hawk",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104516/rq-4-global-hawk/",
+        "publisher": "U.S. Air Force",
+        "note": "Official fact sheet used for mission, blocks, crew concept, performance, dimensions, engine, payload, and unarmed status."
+      },
+      {
+        "id": "fn-northrop",
+        "title": "Global Hawk",
+        "url": "https://www.northropgrumman.com/what-we-do/air/global-hawk",
+        "publisher": "Northrop Grumman",
+        "note": "Manufacturer page used for persistence, 30+ hour endurance, operational regions, civil/disaster-response uses, BACN/EQ-4B context, and flight-hour figure."
+      },
+      {
         "id": "fn-main",
         "title": "Northrop Grumman RQ-4 Global Hawk",
         "url": "https://en.wikipedia.org/wiki/Northrop_Grumman_RQ-4_Global_Hawk",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "note": "Supplementary orientation and cross-check source only; official and manufacturer sources are preferred for technical claims."
       },
       {
         "id": "fn-wikidata",
@@ -28309,25 +28384,36 @@
       "Northrop Grumman"
     ],
     "development_tensions": [
-      "Balancing endurance, sensor payload, communications links, autonomy, and legal/political constraints."
+      "Balancing very long endurance, high-altitude flight, sensor payload, satellite and line-of-sight datalinks, launch/recovery control, airspace integration, and vulnerability in contested airspace."
     ],
     "wars_used_in": [
       {
-        "name": "Syrian civil war",
-        "note": "Northrop Grumman RQ-4 Global Hawk used in Syrian civil war."
+        "name": "Operations Enduring Freedom and Iraqi Freedom / New Dawn",
+        "note": "USAF fact sheet states Block 30 aircraft supported combat missions in these operations."
+      },
+      {
+        "name": "Operation Odyssey Dawn",
+        "note": "USAF fact sheet lists Block 30 support to Libya operations."
+      },
+      {
+        "name": "Humanitarian relief and disaster response",
+        "note": "Operation Tomodachi and broader civil-response uses are described in official/manufacturer sources."
       }
     ],
     "variant_families": [
-      "Northrop Grumman RQ-4 Global Hawk baseline production model",
-      "Northrop Grumman RQ-4 Global Hawk upgraded avionics or weapons-capable model",
-      "Northrop Grumman RQ-4 Global Hawk surveillance and armed mission configuration"
+      "RQ-4A Block 10 early production aircraft",
+      "RQ-4B Block 20/30/40 USAF production family",
+      "EQ-4B BACN communications-relay conversion",
+      "NATO RQ-4D Phoenix",
+      "Export RQ-4B aircraft for Japan and South Korea",
+      "NASA and RangeHawk test-support derivatives"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Northrop Grumman RQ-4 Global Hawk has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Representative operators include the U.S. Air Force, NATO AGS, Japan, South Korea, and U.S. research/test-range users.",
+      "all_operators_status": "Operator and inventory details are date-sensitive; listed operators are representative rather than exhaustive."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -28340,12 +28426,12 @@
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Northrop Grumman RQ-4 Global Hawk uses jet propulsion."
+      "type": "Turbofan",
+      "summary": "One Rolls-Royce / North American F137-RR-100 turbofan rated at 7,600 lb thrust in the USAF fact sheet."
     },
     "armament_details": {
-      "summary": "Remotely piloted aircraft payload; exact stores not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Unarmed ISR aircraft; payloads are sensors, communications-relay equipment, weather/research instruments, or range-support systems depending on variant.",
+      "caution": "Do not treat Global Hawk as an armed UAV; MQ-1/MQ-9-style weapons carriage does not apply to the RQ-4 family."
     },
     "similar_development": [
       {
@@ -28357,28 +28443,57 @@
         "id": "mq-9-reaper",
         "name": "General Atomics MQ-9 Reaper",
         "url": "aircraft.html?id=mq-9-reaper"
+      },
+      {
+        "id": "u-2-dragon-lady",
+        "name": "Lockheed U-2 Dragon Lady",
+        "url": "aircraft.html?id=u-2-dragon-lady"
+      },
+      {
+        "id": "p-8-poseidon",
+        "name": "Boeing P-8 Poseidon",
+        "url": "aircraft.html?id=p-8-poseidon"
+      },
+      {
+        "id": "e-2-hawkeye",
+        "name": "Grumman E-2 Hawkeye",
+        "url": "aircraft.html?id=e-2-hawkeye"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 28,
+      "operator_entries": 5,
+      "variant_entries": 7,
+      "external_article_sources": 2
     },
     "footnotes": [
+      {
+        "id": "fn-usaf",
+        "title": "RQ-4 Global Hawk",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104516/rq-4-global-hawk/",
+        "publisher": "U.S. Air Force",
+        "note": "Official fact sheet used for mission, block structure, remote crew, dimensions, engine, speed, range, endurance, ceiling, payload, and unarmed status."
+      },
+      {
+        "id": "fn-northrop",
+        "title": "Global Hawk",
+        "url": "https://www.northropgrumman.com/what-we-do/air/global-hawk",
+        "publisher": "Northrop Grumman",
+        "note": "Manufacturer source for persistent ISR role, more than 30 hours endurance, 320,000+ flight hours, mission regions, civil-response uses, and EQ-4B BACN context."
+      },
       {
         "id": "fn-main",
         "title": "Northrop Grumman RQ-4 Global Hawk",
         "url": "https://en.wikipedia.org/wiki/Northrop_Grumman_RQ-4_Global_Hawk",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "note": "Supplementary orientation source only."
       },
       {
         "id": "fn-wikidata",
         "title": "Wikidata Query Service",
         "url": "https://query.wikidata.org/",
         "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Structured-data source recommended for identifiers and relationships."
       },
       {
         "id": "fn-method",
@@ -28388,27 +28503,40 @@
         "note": "Local rules for units, source citation, neutral wording, and estimate labels."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "RQ-4 Global Hawk",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104516/rq-4-global-hawk/",
+        "publisher": "U.S. Air Force"
+      },
+      {
+        "title": "Global Hawk",
+        "url": "https://www.northropgrumman.com/what-we-do/air/global-hawk",
+        "publisher": "Northrop Grumman"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Northrop Grumman RQ-4 Global Hawk is a High-altitude UAV from United States. Manufacturer: Northrop Grumman. First flight: 1998. Introduction: 2001. Status: Active.",
+            "text": "The RQ-4 Global Hawk is a high-altitude, long-endurance remotely piloted aircraft system built by Northrop Grumman for broad-area intelligence, surveillance, and reconnaissance. The U.S. Air Force describes it as an all-weather, day-or-night ISR aircraft able to provide imagery intelligence, signals intelligence, and moving-target-indicator coverage for joint forces.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Northrop Grumman RQ-4 Global Hawk is a uav. Primary role: high-altitude uav. Country of origin: United States. Manufacturer: Northrop Grumman.",
+            "text": "Unlike armed medium-altitude UAVs such as the MQ-1 Predator or MQ-9 Reaper, Global Hawk is not a strike platform. Its value is persistence: the aircraft can operate above most weather at approximately 60,000 ft and remain airborne for more than 30 hours while sending near-real-time sensor products to ground users.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf",
+              "fn-northrop"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The family has expanded beyond the USAF ISR role into communications relay, NATO Alliance Ground Surveillance, export reconnaissance service, weather and atmospheric research, and test-range support. Exact active inventories and block mixes change over time, so Milipedia treats operator counts cautiously.",
             "refs": [
+              "fn-northrop",
               "fn-method"
             ]
           }
@@ -28416,44 +28544,74 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "High-altitude UAV"
+            "text": "High-altitude, long-endurance ISR"
           },
           {
-            "title": "Designer or builder",
-            "text": "Northrop Grumman"
+            "title": "Mission payload",
+            "text": "IMINT, SIGINT, MTI/SAR radar, communications relay, research or range-support equipment"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Endurance",
+            "text": "More than 34 hours in USAF fact-sheet data; manufacturer describes greater than 30 hours"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Armament",
+            "text": "None"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Northrop Grumman RQ-4 Global Hawk first flew in 1998. Introduction date: 2001. Era: Modern.",
+            "text": "Global Hawk began in 1995 as an Advanced Concept Technology Demonstration intended to prove an evolutionary high-altitude, long-endurance unmanned ISR capability. The aircraft first flew in 1998 and was deployed operationally from November 2001 for overseas contingency operations.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Producer: Northrop Grumman. Development context: high-altitude uav, jet propulsion, subsonic speed category, Modern era.",
+            "text": "Early service moved from demonstration aircraft into a block-based force. The USAF fact sheet separates retired Block 10 aircraft, Block 20 imagery-intelligence aircraft, EQ-4B BACN communications-relay conversions, Block 30 multi-intelligence aircraft, and Block 40 radar-focused aircraft.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Northrop Grumman describes Global Hawk as a persistent ISR system with more than 320,000 flight hours and missions supporting military operations in Iraq, Afghanistan, North Africa, and the greater Asia-Pacific region. The same high-endurance design also supports civil authorities during natural disasters, search-and-rescue, weather research, and storm tracking.",
+            "refs": [
+              "fn-northrop"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing endurance, sensor payload, communications links, autonomy, and legal/political constraints.",
+            "text": "1995: Advanced Concept Technology Demonstration begins.",
             "refs": [
-              "fn-method"
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "1998: First flight of the Global Hawk family.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "November 2001: Operational deployments begin.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "2011: USAF declares Block 30 initial operating capability and retires Block 10 from Air Force inventory.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "2013: Block 40 early operating capability with RTIP/MP-RTIP radar is declared.",
+            "refs": [
+              "fn-usaf"
             ]
           }
         ]
@@ -28463,65 +28621,62 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: Remote crew. Propulsion: Jet. Speed category: Subsonic.",
+            "text": "The aircraft uses a long, high-aspect-ratio wing for efficient high-altitude cruise. USAF general characteristics list a 130.9 ft wingspan, 47.6 ft length, 15.3 ft height, 14,950 lb empty weight, 32,250 lb maximum takeoff weight, 17,300 lb fuel capacity, and 3,000 lb payload.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Propulsion is by one Rolls-Royce / North American F137-RR-100 turbofan rated at 7,600 lb thrust. The official fact sheet lists 310 knots / 357 mph speed, 12,300 nautical mile range, more than 34 hours endurance, and 60,000 ft ceiling.",
             "refs": [
-              "fn-method"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Northrop Grumman RQ-4 Global Hawk uses jet propulsion. Engine model field: Not listed.",
+            "text": "Global Hawk is flown through separate Launch and Recovery Element and Mission Control Element workstations. The launch/recovery pilot handles takeoff and landing from the aircraft base, while the mission crew manages en-route ISR collection; the sensor operator tasks, calibrates, and monitors payloads in real time.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Remotely piloted aircraft payload; exact stores not listed. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "Remote crew"
+            "title": "Wingspan",
+            "text": "130.9 ft (39.8 m)"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Powerplant",
+            "text": "1 × F137-RR-100 turbofan, 7,600 lb thrust"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Remote crew",
+            "text": "LRE pilot, MCE pilot, sensor operator"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Payload",
+            "text": "3,000 lb mission payload"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "sensors-and-mission-systems",
+        "title": "Sensors and Mission Systems",
         "paragraphs": [
           {
-            "text": "Northrop Grumman RQ-4 Global Hawk status: Active. Conflict entries: 1.",
+            "text": "The USAF describes Global Hawk as an integrated sensor-suite aircraft providing imagery intelligence, signals intelligence, and moving-target-indicator collection. Block 30 combines electro-optical, infrared, synthetic-aperture radar, and high/low-band SIGINT sensors; Block 40 carries the Radar Technology Insertion Program active electronically scanned array radar for MTI and SAR data.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Conflicts: Syrian civil war.",
+            "text": "The EQ-4B configuration trades the standard ISR fit for the Battlefield Airborne Communications Node, a relay payload that bridges diverse tactical data links and voice communications. Northrop Grumman notes that a portion of the fleet has supported air and ground users through this relay mission.",
+            "refs": [
+              "fn-usaf",
+              "fn-northrop"
+            ]
+          },
+          {
+            "text": "Sensor and communications details vary by block, payload, customer, and security classification. The page therefore describes public block roles and avoids claiming a universal sensor fit for every Global Hawk-derived aircraft.",
             "refs": [
               "fn-method"
             ]
@@ -28529,117 +28684,27 @@
         ],
         "bullets": [
           {
-            "text": "Syrian civil war: Northrop Grumman RQ-4 Global Hawk used in Syrian civil war.",
+            "text": "IMINT: electro-optical, infrared, and radar imaging for broad-area surveillance.",
             "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Northrop Grumman RQ-4 Global Hawk named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Named individual aircraft listed: 0.",
+            "text": "SIGINT: high- and low-band signals-intelligence collection on Block 30 according to USAF public data.",
             "refs": [
-              "fn-method"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Notable incidents listed: 0.",
+            "text": "MTI/SAR: Block 40 RTIP radar provides moving-target-indicator and synthetic-aperture radar products.",
             "refs": [
-              "fn-method"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Loss claims listed: 0.",
+            "text": "BACN: EQ-4B aircraft carry communications-relay equipment rather than a standard ISR payload.",
             "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "variants",
-        "title": "Variants",
-        "paragraphs": [
-          {
-            "text": "Northrop Grumman RQ-4 Global Hawk variant-family entries: 3. Variant families: Northrop Grumman RQ-4 Global Hawk baseline production model; Northrop Grumman RQ-4 Global Hawk upgraded avionics or weapons-capable model; Northrop Grumman RQ-4 Global Hawk surveillance and armed mission configuration.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Northrop Grumman RQ-4 Global Hawk baseline production model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Northrop Grumman RQ-4 Global Hawk upgraded avionics or weapons-capable model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Northrop Grumman RQ-4 Global Hawk surveillance and armed mission configuration",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "operators",
-        "title": "Operators",
-        "paragraphs": [
-          {
-            "text": "Designer or builder countries: United States. Northrop Grumman RQ-4 Global Hawk has 1 designer or builder country entry.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "All operators status: 0 operator entries listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Major designer or builder entries: United States.",
-            "refs": [
-              "fn-wikidata"
+              "fn-usaf"
             ]
           }
         ]
@@ -28649,25 +28714,250 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew Remote crew, propulsion type Jet, maximum speed category Subsonic, first flight 1998, introduction 2001.",
+            "text": "Specifications below use the public USAF RQ-4 fact sheet, which was current as of October 2014. Later aircraft, NATO/export derivatives, RangeHawk conversions, and payload-specific configurations can differ.",
             "refs": [
-              "fn-main"
+              "fn-usaf",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Crew",
+            "text": "Remote crew of three: LRE pilot, MCE pilot, sensor operator"
+          },
+          {
+            "title": "Length",
+            "text": "47.6 ft (14.5 m)"
+          },
+          {
+            "title": "Height",
+            "text": "15.3 ft (4.7 m)"
+          },
+          {
+            "title": "Wingspan",
+            "text": "130.9 ft (39.8 m)"
+          },
+          {
+            "title": "Weight",
+            "text": "14,950 lb empty / 32,250 lb maximum takeoff"
+          },
+          {
+            "title": "Fuel capacity",
+            "text": "17,300 lb"
+          },
+          {
+            "title": "Payload",
+            "text": "3,000 lb"
+          },
+          {
+            "title": "Speed",
+            "text": "310 knots (357 mph)"
+          },
+          {
+            "title": "Range",
+            "text": "12,300 nautical miles"
+          },
+          {
+            "title": "Endurance",
+            "text": "More than 34 hours"
+          },
+          {
+            "title": "Ceiling",
+            "text": "60,000 ft"
+          },
+          {
+            "title": "Armament",
+            "text": "None"
+          }
+        ]
+      },
+      {
+        "id": "variants",
+        "title": "Variants",
+        "paragraphs": [
+          {
+            "text": "Global Hawk variants are best understood by mission block rather than by fighter-style model letters. USAF blocks differ in payload and mission system, while NATO/export and test-support aircraft adapt the basic air vehicle for alliance, national, or range roles.",
+            "refs": [
+              "fn-usaf",
+              "fn-northrop"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "RQ-4A / Block 10: early aircraft; seven procured and retired from USAF inventory in 2011.",
+            "refs": [
+              "fn-usaf"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "RQ-4B Block 20: larger-airframe production block initially fielded for imagery intelligence; three converted to EQ-4B BACN.",
             "refs": [
-              "fn-method"
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "EQ-4B BACN: communications-relay aircraft carrying the Battlefield Airborne Communications Node payload.",
+            "refs": [
+              "fn-usaf",
+              "fn-northrop"
+            ]
+          },
+          {
+            "text": "RQ-4B Block 30: multi-intelligence aircraft with EO/IR, SAR, and high/low-band SIGINT sensors; IOC declared in August 2011.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "RQ-4B Block 40: RTIP/MP-RTIP radar aircraft for MTI and SAR collection; early operating capability declared in September 2013.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "RQ-4D Phoenix: NATO Alliance Ground Surveillance derivative.",
+            "refs": [
+              "fn-northrop"
+            ]
+          },
+          {
+            "text": "RangeHawk: RQ-4-derived aircraft converted for long-endurance test-range and launch-support missions.",
+            "refs": [
+              "fn-northrop"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "operators",
+        "title": "Operators",
         "paragraphs": [
           {
-            "text": "Northrop Grumman RQ-4 Global Hawk similar-development links: 2.",
+            "text": "The U.S. Air Force is the primary Global Hawk military operator. Its fact sheet identifies Beale AFB and Grand Forks AFB units, plus worldwide operational detachments, as part of the operating and training structure.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "NATO, Japan, and South Korea operate or have procured Global Hawk-family aircraft for national or alliance ISR. NASA, range organizations, and test-support users operate related aircraft for research and instrumentation missions rather than armed combat.",
+            "refs": [
+              "fn-northrop",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Because Global Hawk inventories, retirements, and block conversions have changed over time, this page lists representative users and avoids a fixed current fleet count without a fresh dated order-of-battle source.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "United States Air Force — RQ-4B and EQ-4B family operations, training, and detachments.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "NATO Alliance Ground Surveillance — RQ-4D Phoenix aircraft for alliance surveillance.",
+            "refs": [
+              "fn-northrop"
+            ]
+          },
+          {
+            "text": "Japan Air Self-Defense Force — export RQ-4B Global Hawk operator.",
+            "refs": [
+              "fn-northrop"
+            ]
+          },
+          {
+            "text": "Republic of Korea Air Force — export Global Hawk operator; exact current readiness is date-sensitive.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "NASA and range/test-support users — research, atmospheric, and launch/test support with Global Hawk-derived aircraft.",
+            "refs": [
+              "fn-northrop"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "Global Hawk has been deployed operationally since November 2001. USAF public material links Block 30 aircraft to combat missions in Operations Enduring Freedom and Iraqi Freedom / New Dawn, support to Operation Odyssey Dawn in Libya, and humanitarian relief during Operation Tomodachi in Japan.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Northrop Grumman describes missions in Iraq, Afghanistan, North Africa, and the Asia-Pacific region, plus broader roles in border control, maritime safety, counterterrorism, crisis management, humanitarian assistance, search and rescue, and storm/weather data collection.",
+            "refs": [
+              "fn-northrop"
+            ]
+          },
+          {
+            "text": "A Block 40 aircraft flew a 34.3-hour flight in 2014, which the USAF fact sheet identifies as the longest unrefueled flight by a U.S. Air Force aircraft at the time. That endurance illustrates why the type is used for persistent coverage rather than short-duration tactical sorties.",
+            "refs": [
+              "fn-usaf"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include extreme endurance, high-altitude coverage, broad-area sensors, remote mission control, and the ability to keep ISR or relay payloads on station without risking an onboard crew. The aircraft can cover large areas in weather and lighting conditions that constrain many lower-altitude systems.",
+            "refs": [
+              "fn-usaf",
+              "fn-northrop"
+            ]
+          },
+          {
+            "text": "Limitations include dependence on communications links, high operating and support cost, runway and basing needs, no self-defense armament, and vulnerability concerns in heavily contested airspace. Its mission is strategic and theater ISR persistence, not close air support or armed overwatch.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Best suited for",
+            "text": "Persistent ISR, wide-area surveillance, communications relay, disaster response, and test support"
+          },
+          {
+            "title": "Less suited for",
+            "text": "Armed strike, operations without reliable datalinks, or highly contested airspace without protection"
+          },
+          {
+            "title": "Key tradeoff",
+            "text": "Long endurance and payload capacity over tactical agility or survivability"
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Role Context",
+        "paragraphs": [
+          {
+            "text": "Compared with the MQ-1 and MQ-9, Global Hawk flies higher, farther, and longer but does not carry weapons. Compared with the U-2, it removes the onboard pilot and emphasizes unmanned persistence, though each system has different sensor, altitude, survivability, and operating-cost tradeoffs.",
+            "refs": [
+              "fn-usaf",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Within Milipedia, the Global Hawk page should be read as a theater-level ISR and relay aircraft, closer in mission effect to high-altitude reconnaissance platforms and maritime/battle-management surveillance aircraft than to armed drones or tactical fighters.",
             "refs": [
               "fn-method"
             ]
@@ -28681,6 +28971,126 @@
           {
             "label": "General Atomics MQ-9 Reaper",
             "url": "aircraft.html?id=mq-9-reaper"
+          },
+          {
+            "label": "Lockheed U-2 Dragon Lady",
+            "url": "aircraft.html?id=u-2-dragon-lady"
+          },
+          {
+            "label": "Boeing P-8 Poseidon",
+            "url": "aircraft.html?id=p-8-poseidon"
+          },
+          {
+            "label": "Grumman E-2 Hawkeye",
+            "url": "aircraft.html?id=e-2-hawkeye"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1995 — Advanced Concept Technology Demonstration starts.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "1998 — Global Hawk first flight.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "November 2001 — Operational deployments begin.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "2011 — Block 30 IOC; Block 10 retired from USAF inventory.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "2013 — Block 40 early operating capability declared.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "2014 — Block 40 flies a 34.3-hour endurance mission, cited by USAF as a record unrefueled Air Force aircraft flight.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "2020s — NATO RQ-4D, export RQ-4B, and RangeHawk/test-support uses continue alongside USAF block transitions.",
+            "refs": [
+              "fn-northrop",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-and-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "The U.S. Air Force fact sheet is the primary source for mission, blocks, crew, dimensions, engine, speed, range, endurance, ceiling, payload, and unarmed status. Northrop Grumman is used for manufacturer context, 30+ hour endurance language, flight-hour total, operations regions, civil support, and BACN/RangeHawk context.",
+            "refs": [
+              "fn-usaf",
+              "fn-northrop"
+            ]
+          },
+          {
+            "text": "Wikipedia and Wikidata remain supplementary for orientation and identifiers. Exact current inventories, retirements, and mission equipment fits were not forced because they vary by date, customer, and classification.",
+            "refs": [
+              "fn-main",
+              "fn-wikidata",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages connect the Global Hawk to armed UAVs, high-altitude reconnaissance aircraft, maritime patrol/surveillance aircraft, and airborne early-warning systems.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "MQ-1 Predator",
+            "url": "aircraft.html?id=mq-1-predator"
+          },
+          {
+            "label": "MQ-9 Reaper",
+            "url": "aircraft.html?id=mq-9-reaper"
+          },
+          {
+            "label": "U-2 Dragon Lady",
+            "url": "aircraft.html?id=u-2-dragon-lady"
+          },
+          {
+            "label": "P-8 Poseidon",
+            "url": "aircraft.html?id=p-8-poseidon"
+          },
+          {
+            "label": "E-2 Hawkeye",
+            "url": "aircraft.html?id=e-2-hawkeye"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "database.html"
           }
         ]
       }

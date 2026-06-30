@@ -2074,3 +2074,81 @@ Record the result of:
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * The UAC manufacturer page was identified through search snippets but was not successfully fetched by web_extract, so its MD-90A figures were cross-checked against available extracted snippets and Airforce Technology rather than quoted as long-form page text.
 * Exact current fleet totals, detailed accident history, conflict-specific sortie/loss claims, and variant-specific defensive-equipment fits were intentionally omitted or phrased cautiously because they vary by user, aircraft standard, and source date.
+
+### Run 28 — 2026-06-30 23:04:29 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Northrop Grumman RQ-4 Global Hawk (id: rq-4-global-hawk)
+* Reason selected: Sparse-candidate scoring found it was the shortest unedited aircraft entry, with no variant entries, no operator entries, no external article sources recorded in article_quality, several "Not listed" technical fields, and generic generated UAV prose far below the F-16 reference page's density.
+* Previous condition: Placeholder-like generated page with 15 exact fact fields, empty variants/operators arrays, generic "remotely piloted payload" armament wording, missing engine/range/ceiling/dimensions/payload/endurance data, no block or operator coverage, and only Wikipedia/Wikidata/method sources.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense lead overview; article-section order covering overview, development history, design/capabilities, sensors/mission systems, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, sources/notes, and related pages; concise sourced technical paragraphs; card-style fact summaries; cautious variant/date caveats; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the RQ-4 Global Hawk entry from a sparse generated UAV page into a fuller Milipedia article data record.
+* Added alternative names and derivative labels including RQ-4, Global Hawk UAS, EQ-4B BACN, RQ-4D Phoenix, and RangeHawk.
+* Replaced missing technical fields with official USAF fact-sheet data for F137-RR-100 turbofan powerplant, thrust, remote crew concept, speed, range, endurance, ceiling, dimensions, payload, fuel capacity, and unarmed status.
+* Added development history covering the 1995 Advanced Concept Technology Demonstration, first flight, November 2001 operational deployments, Block 30 IOC, Block 40 early operating capability, and Block 10 retirement context.
+* Added design/capabilities and sensors/mission-systems sections covering HALE configuration, Launch and Recovery Element, Mission Control Element, sensor-operator role, IMINT/SIGINT/MTI/SAR payloads, RTIP/MP-RTIP radar, and EQ-4B BACN relay mission.
+* Added variant coverage for RQ-4A/Block 10, RQ-4B Block 20, EQ-4B BACN, Block 30, Block 40, NATO RQ-4D Phoenix, and RangeHawk.
+* Added representative operator coverage for the U.S. Air Force, NATO AGS, Japan, South Korea, and U.S. NASA/test-range users with inventory and readiness caveats.
+* Added operational-history context for Enduring Freedom, Iraqi Freedom/New Dawn, Odyssey Dawn, Operation Tomodachi, Iraq/Afghanistan/North Africa/Asia-Pacific missions, civil/disaster uses, and the 34.3-hour Block 40 endurance flight.
+* Added strengths/limitations, comparison/role-context, timeline, sources/notes, and related-page sections.
+* Added internal related links to MQ-1 Predator, MQ-9 Reaper, U-2 Dragon Lady, P-8 Poseidon, E-2 Hawkeye, and the database page.
+* Added official/manufacturer sources from the U.S. Air Force and Northrop Grumman, retaining Wikipedia and Wikidata only as supplementary orientation/identifier sources.
+* Omitted or caveated exact current inventory, block-by-block readiness, classified sensor details, and payload fits by customer because those are date-sensitive, customer-specific, or not fully public.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Northrop Grumman RQ-4 Global Hawk aircraft entry, sources, sections, variants, operators, specifications, caveats, and related links.
+* hermes-change-log.md — Appended the cumulative Run 28 log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, the only intended modified files were data/aircraft.json and hermes-change-log.md; temporary helper script was removed before staging.
+2. git diff — Reviewed diff/stat and aircraft diff; data/aircraft.json changes are limited to the RQ-4 Global Hawk entry, and hermes-change-log.md adds this Run 28 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool and reviewed the updated RQ-4 fields, sections, sources, variants, operators, specifications cards, unarmed payload wording, and caveats.
+4. F-16 style comparison — Inspected data/f16-template.html and matched its dense lead, section order, sourced technical paragraphs, specification emphasis, variants/operators/service/comparison/timeline coverage, source notes, and related-page patterns within the JSON article system.
+5. Internal link check — Verified aircraft.html?id=mq-1-predator, aircraft.html?id=mq-9-reaper, aircraft.html?id=u-2-dragon-lady, aircraft.html?id=p-8-poseidon, and aircraft.html?id=e-2-hawkeye target existing aircraft ids in data/aircraft.json; database.html is an existing site page link.
+6. Secret/token check — Ran credential-specific scan over the staged diff for API keys, tokens, passwords, private keys, GitHub tokens, and AWS credentials; no credentials were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, diff check, intended files only, one-entry aircraft diff, RQ-4 was not previously edited by Hermes, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Northrop Grumman RQ-4 Global Hawk
+* Commit hash: Pending until commit is created; final hash is reported in the scheduled-run response.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* Current Global Hawk inventories, retirement status by block, customer readiness, and mission-system fits are date-sensitive; the page uses representative operator coverage and cautious wording rather than a fixed current fleet table.
+* Some derivative details such as RangeHawk and export operating status were summarized at a high level because this single safe run relied on accessible official/manufacturer sources and avoided exhaustive order-of-battle research.
