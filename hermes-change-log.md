@@ -703,3 +703,79 @@ Record the result of:
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * Public A-6 range and payload figures vary by source, loadout, profile, and whether a source is describing ferry range or combat radius, so the page uses cautious ranges and notes rather than a single universal figure.
 * Detailed squadron histories, exact mission loadouts, and nuclear-delivery configurations were intentionally omitted for safe scope and source-certainty reasons.
+
+### Run 10 — 2026-06-30 05:03:33 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Kamov Ka-52 Alligator (id: ka-52)
+* Reason selected: The Ka-52 entry was the sparsest unedited aircraft page found in the comparison pass, with no real operators, no real variants, no external article sources, incomplete specifications, and generated placeholder sections far below the F-16 reference density.
+* Previous condition: Placeholder-like generated entry with 15 exact fact fields, 0 operator entries, 0 variant entries, 0 external article sources, no Ka-52M/Ka-52K coverage, no detailed avionics/weapons/sensor discussion, no meaningful operator notes, and only generic overview/development/design/service text.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview lead; article-section order covering overview, development, design, specifications, variants/operators, operational history, weapons systems, comparison, strengths/limitations, timeline, sources, and related pages; concise technical prose; specification-card emphasis within the JSON renderer; cautious variant-specific caveats; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the Kamov Ka-52 entry in data/aircraft.json into a fuller Milipedia article record while preserving the existing JSON-rendered aircraft-page structure.
+* Updated top-level facts for name, alternative names, NATO reporting name, manufacturer/production lineage, role, type, first flight, introduction, active/modernization status, contract/production caveat, crew, engines, speed, range, ceiling, climb rate, hardpoints, combat history, summary, variants, operators, related aircraft, and article-quality counts.
+* Replaced generic cannon/rocket/missile wording with Ka-52-specific armament language covering the 2A42 30 mm cannon, Vikhr/Ataka ATGMs, S-8/S-13 rockets, Igla-V missiles, Product 305E context, and Ka-52K maritime weapons caveats.
+* Added reference sources from Airforce Technology, Army Recognition, Naval Technology, and a supplementary Wikipedia orientation source, while keeping the Milipedia accuracy-rules source.
+* Added/expanded sections for Overview, Development History, Design and Capabilities, Specifications, Variants and Modernization, Operators, Operational History, Weapons Systems, Comparison and Role Context, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added verified public technical details for side-by-side two-person crew, coaxial rotor layout, K-37-800M ejection-seat system, 14.5 m rotor diameter, approximately 4.9 m height, 10,400-10,800 kg maximum takeoff weight depending source, VK-2500 / TV3-117-family engine caveat, 300 km/h maximum speed, 260 km/h cruise speed, 460 km practical range, about 1,100-1,110 km ferry range, 5,500 m operational ceiling, and about 16 m/s climb rate.
+* Added variant coverage for Ka-52 Alligator, Ka-52M, Ka-52K Katran, and Ka-50 Black Shark lineage context.
+* Added representative operator/customer coverage for Russia and source-caveated Egypt/Ka-52K context without fixed current inventory totals.
+* Added comparison and related internal links to AH-64 Apache, AH-1 Cobra, Mil Mi-24, Sukhoi Su-25, and UH-60 Black Hawk where applicable.
+* Omitted exact current fleet totals, precise Ka-52M block equipment, confirmed export delivery counts, tail-by-tail losses, and combat-effectiveness claims because those facts are date-sensitive, disputed, or require narrower sources.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Kamov Ka-52 Alligator aircraft entry and sources.
+* hermes-change-log.md — Appended the cumulative record for Run 10.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed the diff; data/aircraft.json changed only the Ka-52 entry, and hermes-change-log.md gained this cumulative Run 10 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the Ka-52 entry section list, sources, variants, operators, armament wording, and article-quality fields.
+4. F-16 style comparison — Inspected data/f16-template.html and matched its dense overview, development/design/specifications/variants/operators/operational-history/comparison/timeline/source ordering within the JSON article renderer.
+5. Internal link check — Verified internal aircraft.html?id= links for AH-64 Apache, AH-1 Cobra, Mil Mi-24, Sukhoi Su-25, and UH-60 Black Hawk point to existing aircraft IDs.
+6. Secret/token check — Ran a credential-pattern scan over the staged diff for API keys, tokens, passwords, private keys, GitHub tokens, and AWS credentials; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, only intended files staged, exactly one aircraft entry changed, internal links valid, git diff --check clean, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Kamov Ka-52 Alligator
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* Public Ka-52 specifications differ slightly by source and by baseline, Ka-52M, or Ka-52K configuration, so the page labels source-dependent ranges rather than forcing one universal figure.
+* Current fleet totals, exact Ka-52M equipment fits, export delivery status, combat loss counts, and effectiveness claims were intentionally omitted or caveated because they are date-sensitive or disputed.

@@ -42403,59 +42403,107 @@
   },
   {
     "id": "ka-52",
-    "name": "Kamov Ka-52",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "name": "Kamov Ka-52 Alligator",
+    "alternative_names": [
+      "Ka-52 Alligator",
+      "Hokum-B",
+      "Ka-52 Hokum-B"
+    ],
+    "nato_reporting_name": "Hokum-B",
     "country_of_origin": "Russia",
-    "manufacturer": "Kamov",
-    "role": "Attack helicopter",
-    "aircraft_type": "Helicopter",
+    "manufacturer": "Kamov Design Bureau / Progress Arsenyev Aviation, Russian Helicopters",
+    "role": "All-weather attack and reconnaissance helicopter",
+    "aircraft_type": "Attack helicopter",
     "era": "Modern",
-    "first_flight": "1997",
-    "introduction_date": "2011",
+    "first_flight": "June 1997",
+    "introduction_date": "Russian Air Force fielding began in 2011",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "2",
+    "status": "Active; upgraded Ka-52M and naval Ka-52K variants are reported separately by public sources",
+    "number_built": "Public totals vary by date and contract; a 2011 Russian contract covered 140 Ka-52 helicopters",
+    "crew": "2, seated side by side",
     "engine_type": "Turboshaft",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engines": "Two Klimov VK-2500 turboshaft engines on current-production descriptions; earlier references list TV3-117VMA family engines",
+    "max_speed": "300 km/h maximum; about 260 km/h cruise",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Cannon, rockets, and guided missiles.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Kamov Ka-52: Attack helicopter. Manufacturer: Kamov. First flight: 1997. Introduction: 2011.",
-    "short_summary": "Kamov Ka-52: Attack helicopter. Origin: Russia. Manufacturer: Kamov. First flight: 1997. Introduction: 2011. Status: Active.",
+    "range": "About 460 km practical range; about 1,100-1,110 km ferry range",
+    "combat_range": "Mission radius depends on weapons, fuel, and profile; public references emphasize tactical front-line attack rather than a single universal combat-radius figure",
+    "service_ceiling": "About 5,500 m operational/maximum altitude in public technical references",
+    "rate_of_climb": "About 16 m/s in Airforce Technology and Naval Technology references",
+    "armament": "Side-mounted 2A42 30 mm cannon, anti-tank guided missiles such as Vikhr or Ataka, S-8/S-13 rockets, Igla-V air-to-air missiles, bombs or pods depending on mission; Ka-52K public descriptions add Kh-31/Kh-35 maritime-strike compatibility.",
+    "hardpoints": "Six wing-mounted external hardpoints; Army Recognition lists up to about 2,500 kg external weapons load",
+    "variants": [
+      {
+        "name": "Ka-52 Alligator",
+        "description": "Baseline two-seat all-weather attack and reconnaissance helicopter derived from the Ka-50, with side-by-side crew seating and coaxial main rotors."
+      },
+      {
+        "name": "Ka-52M",
+        "description": "Modernized land-based upgrade reported with improved sensors, avionics, and long-range weapons integration; public details vary by batch and date."
+      },
+      {
+        "name": "Ka-52K Katran",
+        "description": "Ship-based reconnaissance and combat version with folding blades and wings, anti-corrosion measures, naval avionics, and maritime-strike weapon compatibility."
+      },
+      {
+        "name": "Ka-50 Black Shark",
+        "description": "Single-seat predecessor and design basis for the Ka-52 family; not a Ka-52 variant but important for lineage."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Russia",
+        "service": "Russian Aerospace Forces / Russian Air Force",
+        "status": "Current operator",
+        "note": "Airforce Technology identifies the Russian Air Force as the primary operator and describes 2011 fielding."
+      },
+      {
+        "country": "Egypt",
+        "service": "Egyptian military aviation",
+        "status": "Reported export customer/operator",
+        "note": "Naval Technology reports a December 2015 agreement for 46 Ka-52K ship-based helicopters; exact delivery/service status should be checked against current dated sources."
+      }
+    ],
+    "combat_history": "Used by Russian forces in Syria and in the Russo-Ukrainian War; loss totals, exact employment patterns, and claimed kill/loss ratios vary by source and date.",
+    "development_history": "The Ka-52 is the two-seat all-weather derivative of the single-seat Kamov Ka-50. The first Ka-52 rolled out in December 1996, flew in June 1997, entered serial production in 2008 at Progress Arsenyev, and began Russian Air Force fielding in 2011.",
+    "short_summary": "The Kamov Ka-52 Alligator is a Russian two-seat, coaxial-rotor, all-weather attack and reconnaissance helicopter derived from the Ka-50. It combines side-by-side crew seating, ejection seats, mast/nose sensors, a 30 mm cannon, guided missiles, rockets, and modernized naval or upgraded variants.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Russian_Air_Force_Kamov_Ka-50.jpg/330px-Russian_Air_Force_Kamov_Ka-50.jpg",
-        "caption": "Kamov Ka-52",
+        "caption": "Kamov Ka-52 / Ka-50 family image from Wikimedia source used by the generated entry",
         "credit": "Wikimedia/Wikipedia thumbnail source",
         "license": "Verify original file license before reuse."
       }
     ],
     "sources": [
       {
-        "id": "fn-main",
-        "title": "Kamov Ka-50",
-        "url": "https://en.wikipedia.org/wiki/Kamov_Ka-50",
-        "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "id": "fn-aft",
+        "title": "Ka-52 Alligator Attack Helicopter",
+        "url": "https://www.airforce-technology.com/projects/ka52-alligator-attack-helicopter-russia",
+        "publisher": "Airforce Technology",
+        "note": "Used for development chronology, operator, dimensions, engines, speed, range, ceiling, avionics, and weapons overview."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "id": "fn-armyrec",
+        "title": "Ka-52 Alligator Hokum B Kamov",
+        "url": "https://armyrecognition.com/military-products/air/helicopters/attack-helicopters/ka-52-alligator-hokum-b-kamov",
+        "publisher": "Army Recognition",
+        "note": "Used for technical data, design description, weapon stations, and alternative performance figures; values are treated as public-reference data."
+      },
+      {
+        "id": "fn-navaltech",
+        "title": "Ka-52K Katran Ship-Based Reconnaissance And Combat Helicopter",
+        "url": "https://www.naval-technology.com/projects/ka-52k-katran-helicopter",
+        "publisher": "Naval Technology",
+        "note": "Used for Ka-52K naval variant features, maritime weapons, performance, and export-contract context."
+      },
+      {
+        "id": "fn-wiki",
+        "title": "Kamov Ka-50 / Ka-52",
+        "url": "https://en.wikipedia.org/wiki/Kamov_Ka-50",
+        "publisher": "Wikipedia",
+        "note": "Supplementary orientation only; not the primary source for technical statements in this update."
       },
       {
         "id": "fn-method",
@@ -42472,63 +42520,73 @@
       }
     ],
     "designers": [
-      "Kamov"
+      "Kamov Design Bureau"
     ],
     "development_tensions": [
-      "Balancing lift, survivability, vibration, hot-and-high performance, and battlefield maintainability."
+      "Combining attack-helicopter weapons, reconnaissance sensors, and command/control functions while retaining compact coaxial-rotor agility.",
+      "Adapting the Ka-50 single-seat attack-helicopter concept to a two-seat side-by-side cockpit for shared workload and all-weather missions.",
+      "Balancing naval folding/corrosion-protection requirements on Ka-52K against the baseline land-based Alligator airframe."
     ],
     "wars_used_in": [
       {
+        "name": "Syrian Civil War",
+        "note": "Public reporting describes Russian Ka-52 combat use in Syria; detailed sortie records and loadouts are outside this run scope."
+      },
+      {
         "name": "Russo-Ukrainian War",
-        "note": "Kamov Ka-52 used in Russo-Ukrainian War."
+        "note": "Ka-52s have been used extensively by Russian forces; loss totals and engagement claims are date-sensitive and intentionally not fixed here."
       }
     ],
     "variant_families": [
-      "Kamov Ka-52 baseline production model",
-      "Kamov Ka-52 upgraded avionics or weapons-capable model",
-      "Kamov Ka-52 two-seat trainer or conversion model",
-      "Kamov Ka-52 utility, attack, naval, or export model"
+      "Ka-52 Alligator",
+      "Ka-52M",
+      "Ka-52K Katran",
+      "Ka-50 Black Shark"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "Russia"
       ],
-      "major_user_note": "Kamov Ka-52 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Primary public operator is Russia; Egypt is listed with a source-caveated Ka-52K agreement/operator note.",
+      "all_operators_status": "2 representative operator/customer entries listed; current inventory totals are date-sensitive."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "No named individual Ka-52 aircraft were added in this safe-scope update."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Combat-loss and shootdown claims in Ukraine are date-sensitive and politicized; exact loss totals were intentionally omitted.",
+        "The rare helicopter crew-ejection system is a notable design feature rather than a single incident."
       ]
     },
     "engine_details": {
       "type": "Turboshaft",
-      "summary": "Kamov Ka-52 uses turboshaft propulsion."
+      "summary": "Two Klimov VK-2500-family turboshafts in Airforce Technology/Naval Technology descriptions, each listed at 2,400 hp maximum takeoff power; some references and earlier/prototype data list TV3-117VMA family engines."
     },
     "armament_details": {
-      "summary": "Cannon, rockets, and guided missiles.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "2A42 30 mm cannon plus guided missiles, rockets, and mission-dependent stores on six hardpoints.",
+      "caution": "Weapon compatibility varies by variant, modernization, export fit, and date; Ka-52K maritime weapons are not assumed for every Ka-52."
     },
     "similar_development": [
-      {
-        "id": "ah-1-cobra",
-        "name": "Bell AH-1 Cobra",
-        "url": "aircraft.html?id=ah-1-cobra"
-      },
       {
         "id": "ah-64-apache",
         "name": "Boeing AH-64 Apache",
         "url": "aircraft.html?id=ah-64-apache"
       },
       {
-        "id": "uh-1-iroquois",
-        "name": "Bell UH-1 Iroquois",
-        "url": "aircraft.html?id=uh-1-iroquois"
+        "id": "ah-1-cobra",
+        "name": "Bell AH-1 Cobra",
+        "url": "aircraft.html?id=ah-1-cobra"
+      },
+      {
+        "id": "mi-24",
+        "name": "Mil Mi-24",
+        "url": "aircraft.html?id=mi-24"
+      },
+      {
+        "id": "su-25",
+        "name": "Sukhoi Su-25",
+        "url": "aircraft.html?id=su-25"
       },
       {
         "id": "uh-60-black-hawk",
@@ -42537,54 +42595,85 @@
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 36,
+      "operator_entries": 2,
+      "variant_entries": 4,
+      "external_article_sources": 3
     },
     "footnotes": [
       {
-        "id": "fn-main",
-        "title": "Kamov Ka-50",
-        "url": "https://en.wikipedia.org/wiki/Kamov_Ka-50",
-        "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "id": "fn-aft",
+        "title": "Ka-52 Alligator Attack Helicopter",
+        "url": "https://www.airforce-technology.com/projects/ka52-alligator-attack-helicopter-russia",
+        "publisher": "Airforce Technology",
+        "note": "Used for development chronology, operator, dimensions, engines, speed, range, ceiling, avionics, and weapons overview."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "id": "fn-armyrec",
+        "title": "Ka-52 Alligator Hokum B Kamov",
+        "url": "https://armyrecognition.com/military-products/air/helicopters/attack-helicopters/ka-52-alligator-hokum-b-kamov",
+        "publisher": "Army Recognition",
+        "note": "Used for technical data, design description, weapon stations, and alternative performance figures; values are treated as public-reference data."
+      },
+      {
+        "id": "fn-navaltech",
+        "title": "Ka-52K Katran Ship-Based Reconnaissance And Combat Helicopter",
+        "url": "https://www.naval-technology.com/projects/ka-52k-katran-helicopter",
+        "publisher": "Naval Technology",
+        "note": "Used for Ka-52K naval variant features, maritime weapons, performance, and export-contract context."
+      },
+      {
+        "id": "fn-wiki",
+        "title": "Kamov Ka-50 / Ka-52",
+        "url": "https://en.wikipedia.org/wiki/Kamov_Ka-50",
+        "publisher": "Wikipedia",
+        "note": "Supplementary orientation only; not the primary source for technical statements in this update."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "Ka-52 Alligator Attack Helicopter",
+        "url": "https://www.airforce-technology.com/projects/ka52-alligator-attack-helicopter-russia",
+        "publisher": "Airforce Technology"
+      },
+      {
+        "title": "Ka-52 Alligator Hokum B Kamov",
+        "url": "https://armyrecognition.com/military-products/air/helicopters/attack-helicopters/ka-52-alligator-hokum-b-kamov",
+        "publisher": "Army Recognition"
+      },
+      {
+        "title": "Ka-52K Katran Ship-Based Reconnaissance And Combat Helicopter",
+        "url": "https://www.naval-technology.com/projects/ka-52k-katran-helicopter",
+        "publisher": "Naval Technology"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Kamov Ka-52 is an Attack helicopter from Russia. Manufacturer: Kamov. First flight: 1997. Introduction: 2011. Status: Active.",
+            "text": "The Kamov Ka-52 Alligator is a Russian two-seat, all-weather attack and reconnaissance helicopter developed by Kamov from the single-seat Ka-50 Black Shark. Airforce Technology describes it as a twin-seat Ka-50 variant operated by the Russian Air Force and designed to attack armored and unarmored ground targets, low-speed aerial targets, and personnel at the front line and in tactical depth.",
             "refs": [
-              "fn-main"
+              "fn-aft"
             ]
           },
           {
-            "text": "Kamov Ka-52 is a helicopter. Primary role: attack helicopter. Country of origin: Russia. Manufacturer: Kamov.",
+            "text": "The aircraft is visually and tactically defined by Kamov coaxial contra-rotating rotors, side-by-side crew seating, heavy cannon/missile armament, and a mission set that includes attack, reconnaissance, target designation, and aerial command support for groups of attack helicopters. Public specifications list a maximum speed around 300 km/h, a practical range around 460 km, and a ferry range around 1,100 km.",
             "refs": [
-              "fn-wikidata"
+              "fn-aft",
+              "fn-armyrec"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "This update treats Ka-52 technical data cautiously because values vary among baseline Ka-52, Ka-52M modernization, and Ka-52K ship-based configurations. Current inventory totals, combat losses, and detailed Ukraine-war claims were omitted unless supported by stable public references.",
             "refs": [
               "fn-method"
             ]
@@ -42593,42 +42682,66 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Attack helicopter"
+            "text": "All-weather attack and reconnaissance helicopter"
           },
           {
-            "title": "Designer or builder",
-            "text": "Kamov"
+            "title": "Crew",
+            "text": "2, side by side"
           },
           {
-            "title": "Major origin",
-            "text": "Russia"
+            "title": "Rotor system",
+            "text": "Coaxial contra-rotating main rotors"
           },
           {
-            "title": "Propulsion",
-            "text": "Turboshaft"
+            "title": "Main weapons",
+            "text": "30 mm cannon, ATGMs, rockets, air-to-air missiles, mission stores"
+          },
+          {
+            "title": "Public speed/range",
+            "text": "300 km/h max; about 460 km practical range; about 1,100 km ferry range"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Kamov Ka-52 first flew in 1997. Introduction date: 2011. Era: Modern.",
+            "text": "The Ka-52 was created as a two-seat derivative of the Ka-50, adding a wider nose and extended fuselage for a side-by-side cockpit while retaining high commonality with the Ka-50 airframe, components, and systems. Army Recognition describes roughly 85 percent commonality, a factor intended to reduce production and operating burden.",
             "refs": [
-              "fn-main"
+              "fn-aft",
+              "fn-armyrec"
             ]
           },
           {
-            "text": "Producer: Kamov. Development context: attack helicopter, turboshaft propulsion, subsonic speed category, Modern era.",
+            "text": "Airforce Technology states that the first Ka-52 rolled out in December 1996, completed its first flight in June 1997, and entered serial production in 2008 at Progress Arsenyev Aviation in Russia. Russian Air Force fielding began in April 2011 after early deliveries to the Torzhok tactical deployment center.",
             "refs": [
-              "fn-wikidata"
+              "fn-aft"
+            ]
+          },
+          {
+            "text": "Procurement and modernization have continued through multiple public contracts and upgrade programs. Airforce Technology notes a 2011 Russian defence-ministry contract for 140 Ka-52 helicopters and later interest in 114 upgraded aircraft under the 2018-2027 armament program.",
+            "refs": [
+              "fn-aft"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing lift, survivability, vibration, hot-and-high performance, and battlefield maintainability.",
+            "text": "Design lineage: Ka-50 single-seat attack helicopter to Ka-52 two-seat Alligator.",
+            "refs": [
+              "fn-aft",
+              "fn-armyrec"
+            ]
+          },
+          {
+            "text": "Production: Progress Arsenyev Aviation / Russian Helicopters public production lineage.",
+            "refs": [
+              "fn-aft"
+            ]
+          },
+          {
+            "text": "Modernization: Ka-52M reporting centers on improved sensors, avionics, and long-range guided weapons; details vary by batch.",
             "refs": [
               "fn-method"
             ]
@@ -42640,27 +42753,64 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 2. Propulsion: Turboshaft. Speed category: Subsonic.",
+            "text": "The Ka-52 uses a compact coaxial rotor system instead of a conventional main rotor and tail rotor. Army Recognition links this Kamov arrangement to aerobatic qualities such as circle-strafing around a target while maintaining line of sight, and it also removes the vulnerable tail-rotor assembly found on conventional helicopters.",
             "refs": [
-              "fn-main"
+              "fn-armyrec"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "The two crew members sit side by side in a common cockpit. Public descriptions emphasize that either crew member can fly the helicopter and control systems, and Airforce Technology describes K-37-800M ejection seats with a catapult crew-rescue system, a rare feature for a combat helicopter.",
             "refs": [
-              "fn-method"
+              "fn-aft",
+              "fn-armyrec"
             ]
           },
           {
-            "text": "Kamov Ka-52 uses turboshaft propulsion. Engine model field: Not listed.",
+            "text": "Avionics descriptions include glass-cockpit multifunction displays, head-up display, helmet-mounted sight display, navigation/attack systems, radar, optronic sensors, missile-warning and countermeasure systems, and night/adverse-weather capability. Exact radar, optronic, and defensive-system fits vary by variant and modernization standard.",
             "refs": [
-              "fn-main"
+              "fn-aft",
+              "fn-armyrec",
+              "fn-navaltech"
             ]
           },
           {
-            "text": "Armament field: Cannon, rockets, and guided missiles. Exact weapon list: Not listed.",
+            "text": "Power comes from two Klimov turboshaft engines driving the coaxial rotors. Airforce Technology and Naval Technology list VK-2500 engines with 2,400 hp maximum takeoff power each, while Army Recognition also records TV3-117VMA-family engine data in older/prototype contexts.",
             "refs": [
-              "fn-main"
+              "fn-aft",
+              "fn-navaltech",
+              "fn-armyrec"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Airframe",
+            "text": "Coaxial-rotor attack helicopter with short wings for external stores"
+          },
+          {
+            "title": "Cockpit",
+            "text": "Side-by-side two-seat cockpit; either crew member can operate key systems"
+          },
+          {
+            "title": "Survivability",
+            "text": "Armored crew protection, ejection seats, warning receivers, jammers, flare/chaff dispensers in public descriptions"
+          },
+          {
+            "title": "Sensors",
+            "text": "Radar/optronic and laser-guidance systems depending on variant"
+          }
+        ]
+      },
+      {
+        "id": "specifications",
+        "title": "Specifications",
+        "paragraphs": [
+          {
+            "text": "Representative public specifications below use Airforce Technology and Naval Technology for baseline/Ka-52K figures, with Army Recognition used as a cross-check where values differ. They should not be read as a single universal value for every Ka-52M, export, or naval configuration.",
+            "refs": [
+              "fn-aft",
+              "fn-navaltech",
+              "fn-armyrec"
             ]
           }
         ],
@@ -42670,127 +42820,88 @@
             "text": "2"
           },
           {
-            "title": "Engine class",
-            "text": "Turboshaft"
+            "title": "Length",
+            "text": "About 16 m in Airforce Technology; Army Recognition separately lists 13.53 m in its technical table, likely using a different measurement convention"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Height",
+            "text": "About 4.9-4.95 m"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Main rotor diameter",
+            "text": "14.5 m"
           },
           {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Kamov Ka-52 status: Active. Conflict entries: 1.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Maximum takeoff weight",
+            "text": "10,800 kg in Airforce Technology baseline description; Army Recognition lists 10,400 kg"
           },
           {
-            "text": "Conflicts: Russo-Ukrainian War.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Russo-Ukrainian War: Kamov Ka-52 used in Russo-Ukrainian War.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Kamov Ka-52 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Engines",
+            "text": "Two VK-2500 turboshafts, 2,400 hp each in AFT/Naval Technology; TV3-117VMA family in some older data"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum speed",
+            "text": "300 km/h; Army Recognition table lists 315 km/h maximum"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Cruise speed",
+            "text": "260 km/h"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Practical range",
+            "text": "About 460 km"
+          },
+          {
+            "title": "Ferry range",
+            "text": "About 1,100-1,110 km"
+          },
+          {
+            "title": "Operational ceiling",
+            "text": "About 5,500 m"
+          },
+          {
+            "title": "Climb rate",
+            "text": "About 16 m/s"
           }
         ]
       },
       {
         "id": "variants",
-        "title": "Variants",
+        "title": "Variants and Modernization",
         "paragraphs": [
           {
-            "text": "Kamov Ka-52 variant-family entries: 4. Variant families: Kamov Ka-52 baseline production model; Kamov Ka-52 upgraded avionics or weapons-capable model; Kamov Ka-52 two-seat trainer or conversion model; Kamov Ka-52 utility, attack, naval, or export model.",
+            "text": "The Ka-52 family is best understood as a land-based Alligator baseline, a modernized Ka-52M upgrade path, and a ship-based Ka-52K Katran branch. Public details for Ka-52M and export configurations change by contract and delivery period, so this page lists representative family roles rather than fixed block-by-block equipment tables.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
+              "fn-aft",
+              "fn-navaltech",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Kamov Ka-52 baseline production model",
+            "text": "Ka-52 Alligator: baseline two-seat all-weather attack and reconnaissance helicopter derived from the Ka-50.",
             "refs": [
-              "fn-main"
+              "fn-aft"
             ]
           },
           {
-            "text": "Kamov Ka-52 upgraded avionics or weapons-capable model",
+            "text": "Ka-52M: upgraded land-based configuration reported with longer-range sensors/targeting and improved guided-weapon integration; exact public fit varies.",
             "refs": [
-              "fn-main"
+              "fn-method"
             ]
           },
           {
-            "text": "Kamov Ka-52 two-seat trainer or conversion model",
+            "text": "Ka-52K Katran: ship-based reconnaissance and combat helicopter with folding blades and wings, anti-corrosion measures, naval avionics, deck-landing aids, and maritime-strike weapon compatibility.",
             "refs": [
-              "fn-main"
+              "fn-navaltech"
             ]
           },
           {
-            "text": "Kamov Ka-52 utility, attack, naval, or export model",
+            "text": "Ka-50 Black Shark: single-seat predecessor and close design relative, included for lineage rather than as a Ka-52 service variant.",
             "refs": [
-              "fn-main"
+              "fn-aft",
+              "fn-armyrec"
             ]
           }
         ]
@@ -42800,45 +42911,53 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Russia. Kamov Ka-52 has 1 designer or builder country entry.",
+            "text": "Russia is the principal public operator. Airforce Technology identifies the Russian Air Force as operator, describes early deliveries to Torzhok in 2010, and states that fielding began in April 2011.",
             "refs": [
-              "fn-wikidata"
+              "fn-aft"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Egypt is included with a caveat because Naval Technology reports a December 2015 agreement for 46 Ka-52K ship-based attack helicopters. Current delivery totals and service status should be checked against dated Egyptian and Russian procurement sources before making exact inventory claims.",
             "refs": [
+              "fn-navaltech",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Russia — Russian Aerospace Forces / Russian Air Force: current Ka-52 operator.",
             "refs": [
-              "fn-main"
+              "fn-aft"
             ]
           },
           {
-            "text": "Major designer or builder entries: Russia.",
+            "text": "Egypt — reported Ka-52K customer/operator context; exact current force count omitted.",
             "refs": [
-              "fn-wikidata"
+              "fn-navaltech",
+              "fn-method"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 2, propulsion type Turboshaft, maximum speed category Subsonic, first flight 1997, introduction 2011.",
+            "text": "The Ka-52 was fielded to provide Russian forces with an all-weather attack helicopter able to attack armor, soft targets, personnel, and low-speed aerial targets while also supporting reconnaissance and coordination for attack-helicopter groups.",
             "refs": [
-              "fn-main"
+              "fn-aft"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Public reporting associates the Ka-52 with Russian expeditionary and combat use, including Syria and the Russo-Ukrainian War. This article avoids fixed loss counts, kill claims, or detailed mission tables because those figures change rapidly and are often disputed.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "In Ukraine-war reporting, Ka-52s have been discussed for anti-armor missile attacks, standoff weapon employment, and high combat attrition. The entry keeps that context general and source-cautious rather than treating claims from any combatant as settled fact.",
             "refs": [
               "fn-method"
             ]
@@ -42846,11 +42965,44 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "weapons-systems",
+        "title": "Weapons Systems",
         "paragraphs": [
           {
-            "text": "Kamov Ka-52 similar-development links: 4.",
+            "text": "The standard fixed gun installation is the NPPU-80 mount with a 2A42 30 mm cannon on the starboard side. Airforce Technology and Army Recognition both describe guided anti-tank missiles, rockets, air-to-air missiles, and mission-dependent external stores on six wing hardpoints.",
+            "refs": [
+              "fn-aft",
+              "fn-armyrec"
+            ]
+          },
+          {
+            "text": "Army Recognition lists Vikhr and Ataka anti-tank guided missiles, S-8 and S-13 rockets, Igla-V air-to-air missiles, cannon pods, bombs, and up to about 2,500 kg of weapons on underwing hardpoints. Airforce Technology also notes Izdeliye 305E / Product 305E integration in Ukraine-war context.",
+            "refs": [
+              "fn-aft",
+              "fn-armyrec"
+            ]
+          },
+          {
+            "text": "Ka-52K armament is described separately because naval configuration can include maritime-strike weapons. Naval Technology states that Ka-52K can launch Kh-31 and Kh-35 air-to-surface missiles; this capability is not generalized to every land-based Ka-52.",
+            "refs": [
+              "fn-navaltech",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Role Context",
+        "paragraphs": [
+          {
+            "text": "Compared with the AH-64 Apache, the Ka-52 uses coaxial rotors and side-by-side crew seating instead of a conventional rotor/tail-rotor layout and tandem cockpits. Both types occupy the heavy attack-helicopter mission space of anti-armor, close air support, reconnaissance, and armed escort.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Compared with the Mi-24, the Ka-52 is a more specialized attack/reconnaissance platform rather than a troop-carrying assault helicopter. Compared with the Su-25 attack aircraft, it trades fixed-wing speed and payload for helicopter hover, terrain masking, and forward-area operation.",
             "refs": [
               "fn-method"
             ]
@@ -42858,20 +43010,142 @@
         ],
         "links": [
           {
+            "label": "Boeing AH-64 Apache",
+            "url": "aircraft.html?id=ah-64-apache"
+          },
+          {
             "label": "Bell AH-1 Cobra",
             "url": "aircraft.html?id=ah-1-cobra"
           },
+          {
+            "label": "Mil Mi-24",
+            "url": "aircraft.html?id=mi-24"
+          },
+          {
+            "label": "Sukhoi Su-25",
+            "url": "aircraft.html?id=su-25"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include coaxial-rotor agility, heavy guided/weapons options, two-crew workload sharing, all-weather avionics, armored crew protection, and a rare helicopter ejection-seat system. The aircraft is well suited to attack, reconnaissance, target designation, and coordination roles when supported by secure logistics and threat-aware tactics.",
+            "refs": [
+              "fn-aft",
+              "fn-armyrec"
+            ]
+          },
+          {
+            "text": "Limitations include helicopter vulnerability to modern short-range air defense, man-portable air-defense systems, artillery-fragmentation risk at forward bases, complex maintenance demands, and variant-specific sensor/weapon differences. Public loss claims in Ukraine demonstrate contested-airspace risk but should be handled with dated sources.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1996 — First Ka-52 rolled out in December according to Airforce Technology.",
+            "refs": [
+              "fn-aft"
+            ]
+          },
+          {
+            "text": "June 1997 — First Ka-52 flight.",
+            "refs": [
+              "fn-aft"
+            ]
+          },
+          {
+            "text": "2008 — Serial production began at Progress Arsenyev Aviation.",
+            "refs": [
+              "fn-aft"
+            ]
+          },
+          {
+            "text": "2010 — Three aircraft delivered to Russia's Torzhok tactical deployment center.",
+            "refs": [
+              "fn-aft"
+            ]
+          },
+          {
+            "text": "2011 — Russian Air Force fielding began; a public contract for 140 helicopters is reported.",
+            "refs": [
+              "fn-aft"
+            ]
+          },
+          {
+            "text": "2015 — Ka-52K prototype first flight and reported Egyptian Ka-52K agreement.",
+            "refs": [
+              "fn-navaltech"
+            ]
+          },
+          {
+            "text": "2022 onward — Ka-52 use in the Russo-Ukrainian War drew major public attention to the type, its weapons, and its vulnerability in dense air-defense environments.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Airforce Technology supplied the main development chronology, baseline operator, performance, engine, sensor, and weapons descriptions. Army Recognition provided additional technical and weapons cross-checks. Naval Technology supplied Ka-52K-specific shipboard features and maritime-weapon context. Wikipedia remains only a supplementary orientation source.",
+            "refs": [
+              "fn-aft",
+              "fn-armyrec",
+              "fn-navaltech",
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Omitted or caveated facts include exact current fleet totals, precise Ka-52M block equipment, confirmed export inventory, tail-by-tail combat losses, and combat-effectiveness claims. Those require dated primary or specialist references beyond this single safe hourly update.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages provide context for attack-helicopter design, Soviet/Russian attack aviation, and fixed-wing close air support.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
           {
             "label": "Boeing AH-64 Apache",
             "url": "aircraft.html?id=ah-64-apache"
           },
           {
-            "label": "Bell UH-1 Iroquois",
-            "url": "aircraft.html?id=uh-1-iroquois"
+            "label": "Bell AH-1 Cobra",
+            "url": "aircraft.html?id=ah-1-cobra"
           },
           {
-            "label": "Sikorsky UH-60 Black Hawk",
-            "url": "aircraft.html?id=uh-60-black-hawk"
+            "label": "Mil Mi-24",
+            "url": "aircraft.html?id=mi-24"
+          },
+          {
+            "label": "Sukhoi Su-25",
+            "url": "aircraft.html?id=su-25"
+          },
+          {
+            "label": "Back to Aircraft Database",
+            "url": "index.html#database"
           }
         ]
       }
