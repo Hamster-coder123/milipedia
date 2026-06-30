@@ -931,3 +931,81 @@ Record the result of:
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * Public J-7/F-7 inventory status, exact national retirement dates, radar fits, and weapons clearances are date-sensitive and vary by subvariant/operator, so the page uses representative operator entries and cautious wording rather than fixed current fleet tables.
 * Air Force Technology was the main detailed technical source available in this run; Wikipedia was retained only as supplementary orientation and not used alone for precise technical claims.
+
+### Run 13 — 2026-06-30 08:01:52 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Fairchild Republic A-10 Thunderbolt II (id: a-10-thunderbolt-ii)
+* Reason selected: The A-10 entry was one of the sparsest unedited aircraft pages in the comparison pass, with no real operator records, no real variants, no external article sources, missing engine/range/ceiling/dimension/hardpoint data, generic armament wording, and generated placeholder sections far below the F-16 reference density.
+* Previous condition: Placeholder-like generated entry with 15 exact fact fields, 0 operator entries, 0 variant entries, 0 external article sources, no A-10C modernization detail, no GAU-8/survivability/austere-operations coverage, sparse specifications, and only generic overview/development/design/service text.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview and quick-fact style; section order covering overview, development, design, specifications, variants/operators, operational history, weapons systems, comparison, strengths/limitations, timeline, sources, and related pages; concise source-qualified technical prose; card-style fact emphasis within the JSON renderer; internal aircraft.html?id=... related-link style; cautious notes for variant-, inventory-, and software-dependent facts.
+
+#### Changes Made
+
+* Expanded the Fairchild Republic A-10 Thunderbolt II entry in data/aircraft.json into a fuller Milipedia article record while preserving the existing JSON-rendered aircraft-page structure.
+* Updated top-level facts for alternative names, role, first-flight chronology, introduction, active/divestment status, production/inventory caveats, crew, TF34 engines, speed, range, service ceiling, hardpoints, armament, development history, combat history, short summary, variants, operators, related aircraft, and article-quality counts.
+* Replaced generic fighter-style armament wording with A-10-specific language covering the GAU-8/A 30 mm seven-barrel gun, eleven pylons, 16,000 lb stores capacity, AGM-65 Mavericks, guided/unguided bombs, rockets, pods, countermeasures, and AIM-9 self-defense missiles.
+* Added official/reference sources from the U.S. Air Force and the National Museum of the U.S. Air Force, plus Air & Space Forces Magazine for A-10C modernization/current-force context; retained Wikipedia only as supplementary orientation.
+* Added/expanded sections for Overview, Development History, Design and Capabilities, Specifications, Variants and Modernization, Operators, Operational History, Weapons Systems, Comparison and Role Context, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added public technical details for two General Electric TF34-GE-100 turbofans, 9,065 lb thrust per engine, 53 ft 4 in length, 57 ft 6 in wingspan, 14 ft 8 in height, 51,000 lb maximum takeoff weight, 420 mph / Mach 0.56 speed, 800 mile range, 45,000 ft ceiling, and eleven external stations.
+* Added variant/context coverage for YA-10A, A-10A, OA-10A, and A-10C Precision Engagement aircraft.
+* Added representative operator coverage for the U.S. Air Force active component, Air National Guard, and Air Force Reserve Command with date-sensitive inventory/unit caveats.
+* Added operational-history context for Operation Desert Storm, Operation Noble Anvil, Afghanistan, Iraq, later CENTCOM deployments, and the Paul Johnson Desert Storm rescue-support aircraft preserved by the National Museum.
+* Added internal related/comparison links to Su-25, SEPECAT Jaguar, A-7 Corsair II, F-16 Fighting Falcon, and F-35 Lightning II.
+* Removed the generated event gallery from the A-10 entry because it was not source-specific and duplicated broad conflict labels rather than adding useful article content.
+* Omitted fixed current fleet totals, unit-by-unit basing, definitive retirement dates, and exhaustive weapons-clearance tables because those facts are date-sensitive and vary by budget year, software suite, unit, and source.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Fairchild Republic A-10 Thunderbolt II aircraft entry and sources.
+* hermes-change-log.md — Appended the cumulative record for Run 13.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed the diff; data/aircraft.json changed only the A-10 Thunderbolt II entry, and hermes-change-log.md gained this cumulative Run 13 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the A-10 entry section list, sources, variants, operators, armament wording, article-quality fields, and source caveats.
+4. F-16 style comparison — Inspected data/f16-template.html and matched its dense overview, development/design/specifications/variants/operators/operational-history/weapons/comparison/timeline/source ordering within the JSON article renderer.
+5. Internal link check — Verified internal aircraft.html?id= links for Su-25, SEPECAT Jaguar, A-7 Corsair II, F-16 Fighting Falcon, and F-35 Lightning II point to existing aircraft IDs.
+6. Secret/token check — Ran a credential-pattern scan over the staged diff for API keys, tokens, passwords, private keys, GitHub tokens, and AWS credentials; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, only intended files staged, exactly one aircraft entry changed, internal links valid, git diff --check clean, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Fairchild Republic A-10 Thunderbolt II
+* Commit hash: Pending until commit is created; final hash is reported in the scheduled-run response.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* A-10 current inventory totals, exact unit locations, retirement plans, and software/weapons clearances are date-sensitive, so the page uses cautious wording rather than fixed current fleet or clearance tables.
+* Public maximum-speed figures differ by source/measurement context; the page records the official USAF 420 mph value and notes that other references list higher contextual figures.

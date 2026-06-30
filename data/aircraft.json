@@ -12290,34 +12290,98 @@
   {
     "id": "a-10-thunderbolt-ii",
     "name": "Fairchild Republic A-10 Thunderbolt II",
-    "alternative_names": [],
+    "alternative_names": [
+      "A-10C Thunderbolt II",
+      "OA-10 Thunderbolt II",
+      "Warthog",
+      "Hawg"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
     "manufacturer": "Fairchild Republic",
-    "role": "Close air support aircraft",
+    "role": "Close air support, forward air control-airborne, combat search and rescue support",
     "aircraft_type": "Attack aircraft",
     "era": "Modern",
-    "first_flight": "1972",
-    "introduction_date": "1977",
+    "first_flight": "10 May 1972 (YA-10A); A-10C first flew in 2005 after Precision Engagement modernization",
+    "introduction_date": "1977; first production A-10A delivered in October 1975 and A-10C IOC followed in 2007",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "1",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "status": "Active in U.S. Air Force, Air National Guard, and Reserve service with ongoing phased divestment planning",
+    "number_built": "713 A-10 production aircraft reported by Air & Space Forces Magazine; current inventory is date-sensitive",
+    "crew": "1 pilot",
+    "engine_type": "Turbofan",
+    "engines": "Two General Electric TF34-GE-100 turbofans, about 9,065 lb thrust each",
+    "max_speed": "420 mph / Mach 0.56 in the USAF fact sheet; other references list about 450 knots/518 mph depending measurement context",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Fairchild Republic A-10 Thunderbolt II: Close air support aircraft. Manufacturer: Fairchild Republic. First flight: 1972. Introduction: 1977.",
-    "short_summary": "Fairchild Republic A-10 Thunderbolt II: Close air support aircraft. Origin: United States. Manufacturer: Fairchild Republic. First flight: 1972. Introduction: 1977. Status: Active.",
+    "range": "800 miles / 695 nmi published by the U.S. Air Force; extendable by aerial refueling",
+    "combat_range": "Wide close-air-support combat radius and long loiter time; exact radius varies by loadout, altitude, and tanker support",
+    "service_ceiling": "45,000 ft (13,636 m)",
+    "rate_of_climb": "Not fixed in the official fact sheet; performance varies by combat load and altitude",
+    "armament": "One GAU-8/A 30 mm seven-barrel Gatling gun plus up to 16,000 lb of mixed ordnance on eleven stations, including AGM-65 Maverick missiles, guided/unguided bombs, rockets, countermeasures, pods, and AIM-9 Sidewinder self-defense missiles.",
+    "hardpoints": "Eleven external pylon stations: eight under-wing and three under-fuselage",
+    "variants": [
+      {
+        "name": "YA-10A",
+        "note": "Prototype aircraft for the A-X close-air-support competition; first flew on 10 May 1972.",
+        "refs": [
+          "fn-airforce",
+          "fn-asf"
+        ]
+      },
+      {
+        "name": "A-10A Thunderbolt II",
+        "note": "Original production close-air-support aircraft delivered from the mid-1970s and operated through successive avionics and structural upgrades.",
+        "refs": [
+          "fn-museum",
+          "fn-asf"
+        ]
+      },
+      {
+        "name": "OA-10A",
+        "note": "Operational designation used for airborne forward air control / strike-control missions using A-10 airframes.",
+        "refs": [
+          "fn-airforce",
+          "fn-wiki"
+        ]
+      },
+      {
+        "name": "A-10C Thunderbolt II",
+        "note": "Precision Engagement modernized standard with color multifunction displays, HMCS, HOTAS, digital stores management, improved fire-control, targeting pods, datalinks, and precision-guided weapons compatibility.",
+        "refs": [
+          "fn-airforce",
+          "fn-asf"
+        ]
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "U.S. Air Force / Air Combat Command",
+        "note": "Primary operator of the A-10C for close air support, FAC-A, CSAR support, strike control and reconnaissance, and contingency deployments.",
+        "refs": [
+          "fn-airforce",
+          "fn-asf"
+        ]
+      },
+      {
+        "country": "United States",
+        "service": "Air National Guard",
+        "note": "Air National Guard units have operated major portions of the A-10 force; individual wing transitions and retirements are date-sensitive.",
+        "refs": [
+          "fn-asf"
+        ]
+      },
+      {
+        "country": "United States",
+        "service": "Air Force Reserve Command",
+        "note": "Reserve-component A-10 units have contributed to U.S. and coalition close-air-support deployments; current unit assignments should be checked against dated USAF force-structure data.",
+        "refs": [
+          "fn-asf"
+        ]
+      }
+    ],
+    "combat_history": "Operation Desert Storm, Operation Noble Anvil, Afghanistan, Iraq, and later U.S. Central Command close-air-support deployments; sortie and weapons figures vary by operation and source date.",
+    "development_history": "Developed from the U.S. Air Force A-X close-air-support requirement as a rugged, low-speed, long-loiter attack aircraft built around the GAU-8/A cannon. The YA-10A first flew in 1972, production deliveries began in 1975, and later Precision Engagement upgrades produced the A-10C standard.",
+    "short_summary": "The Fairchild Republic A-10 Thunderbolt II, better known as the Warthog, is a single-seat U.S. close-air-support attack aircraft designed around survivability, loiter time, austere-field operation, and the GAU-8/A 30 mm cannon. The A-10C modernization added modern displays, targeting-pod integration, precision weapons, data links, and digital stores management while preserving the original low-altitude CAS mission.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -12330,25 +12394,39 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-airforce",
+        "title": "A-10C Thunderbolt II",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104490/a-10c-thunderbolt-ii",
+        "publisher": "U.S. Air Force",
+        "note": "Official fact sheet for mission, features, survivability, armament, dimensions, engines, range, ceiling, and Desert Storm summary."
+      },
+      {
+        "id": "fn-museum",
+        "title": "Fairchild Republic A-10A Thunderbolt II",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195855/fairchild-republic-a-10a-thunderbolt-ii",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Museum aircraft history and A-10A technical notes, including GAU-8/A, TF34 engines, dimensions, and Desert Storm rescue-support aircraft context."
+      },
+      {
+        "id": "fn-asf",
+        "title": "A-10 Thunderbolt II",
+        "url": "https://www.airandspaceforces.com/weapons-platforms/a-10",
+        "publisher": "Air & Space Forces Magazine",
+        "note": "Reference for A-10C Precision Engagement modernization, production/inventory context, operators, active variant, and current divestment caveats."
+      },
+      {
+        "id": "fn-wiki",
         "title": "Fairchild Republic A-10 Thunderbolt II",
         "url": "https://en.wikipedia.org/wiki/Fairchild_Republic_A-10_Thunderbolt_II",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation only for broad chronology, nicknames, and variant terminology; precise claims prefer official or specialist sources above."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
+        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
       }
     ],
     "country_flags": [
@@ -12376,16 +12454,17 @@
       }
     ],
     "variant_families": [
-      "Fairchild Republic A-10 Thunderbolt II baseline production model",
-      "Fairchild Republic A-10 Thunderbolt II upgraded avionics or weapons-capable model",
-      "Fairchild Republic A-10 Thunderbolt II export or locally modernized model"
+      "YA-10A prototype",
+      "A-10A production close-air-support aircraft",
+      "OA-10 forward-air-control mission designation",
+      "A-10C Precision Engagement upgraded aircraft"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Fairchild Republic A-10 Thunderbolt II has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "U.S.-only operational service, with active, Guard, and Reserve units; exact unit and inventory status is date-sensitive.",
+      "all_operators_status": "3 representative U.S. operator entries listed."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -12398,12 +12477,12 @@
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Fairchild Republic A-10 Thunderbolt II uses jet propulsion."
+      "type": "Turbofan",
+      "summary": "Two General Electric TF34-GE-100 non-afterburning turbofans mounted high and aft to reduce foreign-object damage risk and improve survivability; USAF lists 9,065 lb thrust per engine."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "GAU-8/A 30 mm seven-barrel Gatling gun plus up to 16,000 lb of stores on eleven pylons, including AGM-65 Mavericks, guided and unguided bombs, 2.75-inch rockets, jammer pods, flares/chaff, and AIM-9 Sidewinder self-defense missiles.",
+      "caution": "Exact stores depend on variant, software suite, mission, rules of engagement, and weapons clearance date."
     },
     "similar_development": [
       {
@@ -12415,262 +12494,303 @@
         "id": "sepecat-jaguar",
         "name": "SEPECAT Jaguar",
         "url": "aircraft.html?id=sepecat-jaguar"
+      },
+      {
+        "id": "a-7-corsair-ii",
+        "name": "LTV A-7 Corsair II",
+        "url": "aircraft.html?id=a-7-corsair-ii"
+      },
+      {
+        "id": "f-16-fighting-falcon",
+        "name": "General Dynamics F-16 Fighting Falcon",
+        "url": "aircraft.html?id=f-16-fighting-falcon"
+      },
+      {
+        "id": "f-35-lightning-ii",
+        "name": "Lockheed Martin F-35 Lightning II",
+        "url": "aircraft.html?id=f-35-lightning-ii"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 36,
+      "operator_entries": 3,
+      "variant_entries": 4,
+      "external_article_sources": 3
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-airforce",
+        "title": "A-10C Thunderbolt II",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104490/a-10c-thunderbolt-ii",
+        "publisher": "U.S. Air Force",
+        "note": "Official fact sheet for mission, features, survivability, armament, dimensions, engines, range, ceiling, and Desert Storm summary."
+      },
+      {
+        "id": "fn-museum",
+        "title": "Fairchild Republic A-10A Thunderbolt II",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195855/fairchild-republic-a-10a-thunderbolt-ii",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Museum aircraft history and A-10A technical notes."
+      },
+      {
+        "id": "fn-asf",
+        "title": "A-10 Thunderbolt II",
+        "url": "https://www.airandspaceforces.com/weapons-platforms/a-10",
+        "publisher": "Air & Space Forces Magazine",
+        "note": "Reference for A-10C modernization, production and force-structure context."
+      },
+      {
+        "id": "fn-wiki",
         "title": "Fairchild Republic A-10 Thunderbolt II",
         "url": "https://en.wikipedia.org/wiki/Fairchild_Republic_A-10_Thunderbolt_II",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation only."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording and source handling."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "A-10C Thunderbolt II",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104490/a-10c-thunderbolt-ii",
+        "publisher": "U.S. Air Force"
+      },
+      {
+        "title": "Fairchild Republic A-10A Thunderbolt II",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195855/fairchild-republic-a-10a-thunderbolt-ii",
+        "publisher": "National Museum of the U.S. Air Force"
+      },
+      {
+        "title": "A-10 Thunderbolt II",
+        "url": "https://www.airandspaceforces.com/weapons-platforms/a-10",
+        "publisher": "Air & Space Forces Magazine"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Fairchild Republic A-10 Thunderbolt II is a Close air support aircraft from United States. Manufacturer: Fairchild Republic. First flight: 1972. Introduction: 1977. Status: Active.",
+            "text": "The Fairchild Republic A-10 Thunderbolt II is a rugged single-seat U.S. close-air-support aircraft built to operate near friendly ground forces, survive battle damage, and deliver accurate fire against armored vehicles and other battlefield targets. The U.S. Air Force describes the A-10C as the first Air Force aircraft specially designed for close air support of ground forces.",
             "refs": [
-              "fn-main"
+              "fn-airforce"
             ]
           },
           {
-            "text": "Fairchild Republic A-10 Thunderbolt II is a attack aircraft. Primary role: close air support aircraft. Country of origin: United States. Manufacturer: Fairchild Republic.",
+            "text": "Its defining features are low-speed maneuverability, long loiter time, austere-field operation, heavy armor around the cockpit and critical systems, and the GAU-8/A 30 mm seven-barrel cannon. The aircraft is better known by its Warthog or Hawg nicknames, but the official Thunderbolt II name links it to the World War II Republic P-47 Thunderbolt.",
             "refs": [
-              "fn-wikidata"
+              "fn-airforce",
+              "fn-museum"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Modern A-10C aircraft add digital cockpit displays, targeting-pod integration, precision weapons, data links, and Helmet Mounted Cueing System compatibility while retaining the original close-air-support layout. Inventory and retirement schedules are changing, so force counts should be treated as dated snapshots rather than permanent specifications.",
             "refs": [
-              "fn-method"
+              "fn-asf"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Close air support aircraft"
+            "text": "Close air support / FAC-A / CSAR support"
           },
           {
-            "title": "Designer or builder",
+            "title": "Manufacturer",
             "text": "Fairchild Republic"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Crew",
+            "text": "1 pilot"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Powerplant",
+            "text": "Two GE TF34-GE-100 turbofans"
+          },
+          {
+            "title": "Signature weapon",
+            "text": "GAU-8/A 30 mm cannon"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Fairchild Republic A-10 Thunderbolt II first flew in 1972. Introduction date: 1977. Era: Modern.",
+            "text": "The A-10 emerged from the U.S. Air Force A-X requirement for an aircraft optimized for close air support rather than high-speed interception. The YA-10A prototype first flew on 10 May 1972, and production A-10A deliveries began at Davis-Monthan Air Force Base in October 1975.",
             "refs": [
-              "fn-main"
+              "fn-airforce",
+              "fn-asf"
             ]
           },
           {
-            "text": "Producer: Fairchild Republic. Development context: close air support aircraft, jet propulsion, subsonic speed category, Modern era.",
+            "text": "The design deliberately emphasized straight wings, low-speed handling, heavy weapons carriage, simple maintenance, and survivability. Twin engines were mounted high and aft, the pilot sat in an armored tub, and redundant systems were included so the aircraft could keep flying after damage.",
             "refs": [
-              "fn-wikidata"
+              "fn-airforce"
+            ]
+          },
+          {
+            "text": "The Precision Engagement Program produced the A-10C standard. Air & Space Forces Magazine notes that the A-10C first flew in 2005 and added color multifunction displays, HMCS, HOTAS, digital stores management, improved fire control, GPS-guided weapons, targeting pods, data links, and integrated sensors.",
+            "refs": [
+              "fn-asf"
             ]
           }
         ],
-        "bullets": []
+        "bullets": [
+          {
+            "text": "YA-10A first flight: 10 May 1972.",
+            "refs": [
+              "fn-asf"
+            ]
+          },
+          {
+            "text": "First production A-10A delivered: October 1975.",
+            "refs": [
+              "fn-airforce"
+            ]
+          },
+          {
+            "text": "A-10A IOC: 1977; A-10C IOC reported in 2007.",
+            "refs": [
+              "fn-airforce",
+              "fn-asf"
+            ]
+          }
+        ]
       },
       {
         "id": "design",
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Subsonic.",
+            "text": "The A-10 is designed for the low-altitude, low-speed environment where pilots must identify friendly and hostile forces, make repeated passes, and remain near a battle area. The USAF fact sheet emphasizes excellent maneuverability at low airspeeds and altitude, long loiter time, short takeoff and landing capability, and operations from austere locations near front lines.",
             "refs": [
-              "fn-main"
+              "fn-airforce"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Survivability is central to the design. The pilot is protected by titanium armor, self-sealing fuel cells use internal and external foam protection, primary structural sections are redundant, and manual backup flight-control capability allows pilots to fly and land after hydraulic power is lost.",
             "refs": [
-              "fn-method"
+              "fn-airforce"
             ]
           },
           {
-            "text": "Fairchild Republic A-10 Thunderbolt II uses jet propulsion. Engine model field: Not listed.",
+            "text": "The A-10C cockpit includes night-vision-compatible equipment, all-around visibility from a large bubble canopy, Helmet Mounted Cueing System compatibility, and modernized displays. Targeting pods and precision-guided munitions allow the aircraft to work above, below, and in weather conditions that would have limited earlier attack aircraft.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-airforce",
+              "fn-asf"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "1"
+            "title": "Airframe emphasis",
+            "text": "Straight wing, rugged landing gear, and low-speed handling"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Survivability",
+            "text": "Titanium armor, self-sealing fuel, redundant structure and controls"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Austere operations",
+            "text": "Short takeoff/landing and operations near front lines"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "A-10C avionics",
+            "text": "MFDs, HMCS, HOTAS, targeting pods, data links"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Fairchild Republic A-10 Thunderbolt II status: Active. Conflict entries: 3.",
+            "text": "Representative A-10C / A-10A public specifications are consistent across official and museum sources, but exact figures vary slightly by variant, load, and measurement method. The USAF lists two TF34-GE-100 turbofans, 53 ft 4 in length, 57 ft 6 in wingspan, 14 ft 8 in height, 51,000 lb maximum takeoff weight, 420 mph speed, 45,000 ft ceiling, and 800 mile range.",
             "refs": [
-              "fn-main"
+              "fn-airforce"
             ]
           },
           {
-            "text": "Conflicts: Gulf War, Iraq War, War in Afghanistan (2001–2021).",
+            "text": "The National Museum of the U.S. Air Force A-10A technical notes list the same basic dimensions and engines, one GAU-8/A 30 mm Gatling gun, 16,000 lb of mixed ordnance, 450 nautical mph maximum speed, 800 mile range, and a 47,000 lb weight figure for the museum configuration.",
             "refs": [
-              "fn-method"
+              "fn-museum"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Gulf War: Fairchild Republic A-10 Thunderbolt II used in Gulf War.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Engines",
+            "text": "2 × General Electric TF34-GE-100 turbofans, 9,065 lb thrust each"
           },
           {
-            "text": "Iraq War: Fairchild Republic A-10 Thunderbolt II used in Iraq War.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Dimensions",
+            "text": "Length 53 ft 4 in; wingspan 57 ft 6 in; height 14 ft 8 in"
           },
           {
-            "text": "War in Afghanistan (2001–2021): Fairchild Republic A-10 Thunderbolt II used in War in Afghanistan (2001–2021).",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Fairchild Republic A-10 Thunderbolt II named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum takeoff weight",
+            "text": "51,000 lb (USAF A-10C fact sheet)"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Range / ceiling",
+            "text": "800 miles; 45,000 ft service ceiling"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Stores capacity",
+            "text": "Up to 16,000 lb on eleven external stations"
           }
         ]
       },
       {
         "id": "variants",
-        "title": "Variants",
+        "title": "Variants and Modernization",
         "paragraphs": [
           {
-            "text": "Fairchild Republic A-10 Thunderbolt II variant-family entries: 3. Variant families: Fairchild Republic A-10 Thunderbolt II baseline production model; Fairchild Republic A-10 Thunderbolt II upgraded avionics or weapons-capable model; Fairchild Republic A-10 Thunderbolt II export or locally modernized model.",
+            "text": "The original A-10A was the production close-air-support aircraft. The OA-10 designation is used for the airborne forward air control and strike-control mission rather than a fundamentally different airframe family.",
             "refs": [
-              "fn-main"
+              "fn-airforce",
+              "fn-wiki"
             ]
           },
           {
-            "text": "Complete variant entries listed: 0.",
+            "text": "The A-10C Precision Engagement modernization is the active modern standard in public U.S. references. It transformed cockpit, weapons, sensor, and datalink capability while preserving the straight-wing, cannon-centered CAS design.",
             "refs": [
-              "fn-method"
+              "fn-asf"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Fairchild Republic A-10 Thunderbolt II baseline production model",
+            "text": "YA-10A — A-X prototype used to prove the specialized CAS concept.",
             "refs": [
-              "fn-main"
+              "fn-asf"
             ]
           },
           {
-            "text": "Fairchild Republic A-10 Thunderbolt II upgraded avionics or weapons-capable model",
+            "text": "A-10A — baseline production Thunderbolt II delivered from the 1970s through early 1980s.",
             "refs": [
-              "fn-main"
+              "fn-museum",
+              "fn-asf"
             ]
           },
           {
-            "text": "Fairchild Republic A-10 Thunderbolt II export or locally modernized model",
+            "text": "OA-10A — mission designation associated with FAC-A / strike-control tasking.",
             "refs": [
-              "fn-main"
+              "fn-airforce",
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "A-10C — Precision Engagement upgraded aircraft with modern displays, HMCS, digital stores management, targeting pods, and precision weapons.",
+            "refs": [
+              "fn-asf"
             ]
           }
         ]
@@ -12680,57 +12800,144 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Fairchild Republic A-10 Thunderbolt II has 1 designer or builder country entry.",
+            "text": "The A-10 has served operationally with U.S. forces rather than as a broad export aircraft. Public current-force lists describe Air Combat Command, Air Force Materiel Command, Pacific Air Forces, the Air National Guard, and Air Force Reserve Command as operator communities, but exact locations and inventory numbers are date-sensitive.",
             "refs": [
-              "fn-wikidata"
+              "fn-asf"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Because U.S. divestment and unit conversion plans continue to change, this page avoids fixed current wing-by-wing totals. Human editors should verify any base, squadron, or inventory table against a dated official USAF source before publication.",
             "refs": [
+              "fn-asf",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "U.S. Air Force active component — close air support, FAC-A, strike-control, test, and contingency deployments.",
             "refs": [
-              "fn-main"
+              "fn-airforce",
+              "fn-asf"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "Air National Guard — major A-10C user across multiple state units, with ongoing transitions and retirements.",
             "refs": [
-              "fn-wikidata"
+              "fn-asf"
+            ]
+          },
+          {
+            "text": "Air Force Reserve Command — reserve-component A-10 operations and deployments, subject to current force-structure updates.",
+            "refs": [
+              "fn-asf"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Subsonic, first flight 1972, introduction 1977.",
+            "text": "The A-10’s combat reputation was established in Operation Desert Storm. The USAF fact sheet credits A-10s with a 95.7 percent mission-capable rate, 8,100 sorties, and 90 percent of AGM-65 Maverick missile launches during the Gulf War.",
             "refs": [
-              "fn-main"
+              "fn-airforce"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "The aircraft remained associated with close air support in the Balkans, Afghanistan, Iraq, and later U.S. Central Command deployments. Its strengths are most visible where friendly forces need persistent overwatch, accurate weapons delivery, and rapid re-attack capability at relatively low speed.",
             "refs": [
+              "fn-airforce",
+              "fn-asf"
+            ]
+          },
+          {
+            "text": "The National Museum page highlights an A-10A flown by Capt. Paul Johnson on an eight-hour rescue-support mission during Operation Desert Storm, for which he received the Air Force Cross, illustrating the type’s connection to combat search and rescue support as well as direct attack.",
+            "refs": [
+              "fn-museum"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Operation Desert Storm — high sortie rate, heavy AGM-65 Maverick use, and close-air-support missions.",
+            "refs": [
+              "fn-airforce"
+            ]
+          },
+          {
+            "text": "Operation Noble Anvil — cited by the USAF as a conflict where A-10 loiter, payload, and radius were valuable.",
+            "refs": [
+              "fn-airforce"
+            ]
+          },
+          {
+            "text": "Afghanistan and Iraq — sustained CAS, overwatch, strike-control, and coalition-support operations.",
+            "refs": [
+              "fn-airforce",
+              "fn-asf"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "weapons-systems",
+        "title": "Weapons Systems",
+        "paragraphs": [
+          {
+            "text": "The GAU-8/A Avenger is the A-10’s signature weapon and a core design driver. Official sources list one 30 mm seven-barrel Gatling gun, paired with a large external stores capacity for anti-armor and close-air-support weapons.",
+            "refs": [
+              "fn-airforce",
+              "fn-museum"
+            ]
+          },
+          {
+            "text": "The USAF fact sheet lists up to 16,000 lb of mixed ordnance on eight under-wing and three under-fuselage stations. Publicly listed stores include Mk 82 and Mk 84 bombs, combined-effects and mine-dispensing munitions, AGM-65 Maverick missiles, laser- and GPS-guided bombs, unguided and laser-guided 2.75-inch rockets, jammer pods, flares, chaff, illumination flares, and AIM-9 Sidewinder missiles.",
+            "refs": [
+              "fn-airforce"
+            ]
+          },
+          {
+            "text": "A-10C software, sensor, and weapons clearances have changed over time, so this page treats weapon lists as representative public examples rather than a complete clearance matrix for every unit and date.",
+            "refs": [
+              "fn-asf",
               "fn-method"
             ]
           }
+        ],
+        "cards": [
+          {
+            "title": "Gun",
+            "text": "GAU-8/A 30 mm seven-barrel Gatling gun"
+          },
+          {
+            "title": "Missiles",
+            "text": "AGM-65 Maverick; AIM-9 Sidewinder self-defense missiles"
+          },
+          {
+            "title": "Bombs / rockets",
+            "text": "Guided and unguided bombs plus 2.75-inch rockets"
+          },
+          {
+            "title": "Pods / countermeasures",
+            "text": "Targeting pods, jammer pods, flares, chaff, illumination stores"
+          }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "comparison",
+        "title": "Comparison and Role Context",
         "paragraphs": [
           {
-            "text": "Fairchild Republic A-10 Thunderbolt II similar-development links: 2.",
+            "text": "Compared with multirole fighters such as the F-16 and F-35, the A-10 is slower and less survivable in modern high-threat air defenses, but it offers exceptional low-speed visibility, loiter, cannon firepower, and battlefield persistence in permissive or managed-threat environments.",
+            "refs": [
+              "fn-airforce",
+              "fn-asf"
+            ]
+          },
+          {
+            "text": "The closest conceptual counterpart in the Milipedia set is the Su-25, another armored subsonic close-support aircraft. The A-7 Corsair II and SEPECAT Jaguar fill related attack-aircraft history, but they were not built around the same single-purpose cannon and CAS survivability philosophy.",
             "refs": [
               "fn-method"
             ]
@@ -12744,25 +12951,174 @@
           {
             "label": "SEPECAT Jaguar",
             "url": "aircraft.html?id=sepecat-jaguar"
+          },
+          {
+            "label": "LTV A-7 Corsair II",
+            "url": "aircraft.html?id=a-7-corsair-ii"
+          },
+          {
+            "label": "General Dynamics F-16 Fighting Falcon",
+            "url": "aircraft.html?id=f-16-fighting-falcon"
+          },
+          {
+            "label": "Lockheed Martin F-35 Lightning II",
+            "url": "aircraft.html?id=f-35-lightning-ii"
           }
         ]
-      }
-    ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg/960px-USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg",
-        "caption": "Gulf War",
-        "source_url": "https://en.wikipedia.org/wiki/Gulf_War"
       },
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/UStanks_baghdad_2003.JPEG/960px-UStanks_baghdad_2003.JPEG",
-        "caption": "Iraq War",
-        "source_url": "https://en.wikipedia.org/wiki/Iraq_War"
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include accurate low-speed weapons delivery, long loiter, austere operations, high pilot visibility, robust battle-damage tolerance, a large external stores load, and the psychological and practical effect of the GAU-8/A cannon in close support.",
+            "refs": [
+              "fn-airforce"
+            ]
+          },
+          {
+            "text": "Limitations include subsonic speed, limited survivability against dense modern integrated air defenses, an aging airframe and sustainment base, and force-structure pressure as the U.S. Air Force shifts resources toward newer multirole and survivable platforms.",
+            "refs": [
+              "fn-asf"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Best suited for close air support where friendly-force coordination, loiter, and visible target identification matter.",
+            "refs": [
+              "fn-airforce"
+            ]
+          },
+          {
+            "text": "Less suitable for heavily defended airspace unless supported by suppression, standoff tactics, or permissive operating conditions.",
+            "refs": [
+              "fn-asf"
+            ]
+          },
+          {
+            "text": "Modernization and re-winging extended useful life, but retirement and unit transitions remain active policy issues.",
+            "refs": [
+              "fn-asf"
+            ]
+          }
+        ]
       },
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/U.S._Army_firefight_in_Kunar.jpg/960px-U.S._Army_firefight_in_Kunar.jpg",
-        "caption": "War in Afghanistan (2001–2021)",
-        "source_url": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001%E2%80%932021)"
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "Key dates are included to match the dense, chronology-oriented style of the F-16 reference page while avoiding unsupported current-inventory claims.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1972 — YA-10A first flight.",
+            "refs": [
+              "fn-asf"
+            ]
+          },
+          {
+            "text": "October 1975 — first production A-10A delivered to Davis-Monthan Air Force Base.",
+            "refs": [
+              "fn-airforce"
+            ]
+          },
+          {
+            "text": "1977 — A-10A introduced to operational service / IOC period.",
+            "refs": [
+              "fn-airforce",
+              "fn-asf"
+            ]
+          },
+          {
+            "text": "1991 — A-10s fly 8,100 Gulf War sorties according to the USAF fact sheet.",
+            "refs": [
+              "fn-airforce"
+            ]
+          },
+          {
+            "text": "2005 — A-10C modernization aircraft first flew at Eglin.",
+            "refs": [
+              "fn-asf"
+            ]
+          },
+          {
+            "text": "2007 — A-10C combat debut / IOC period reported by Air & Space Forces Magazine.",
+            "refs": [
+              "fn-asf"
+            ]
+          },
+          {
+            "text": "2020s — re-winging, software upgrades, and phased divestment plans continue; exact fleet status is date-sensitive.",
+            "refs": [
+              "fn-asf"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Primary technical data comes from the U.S. Air Force A-10C fact sheet and the National Museum of the U.S. Air Force A-10A page. Air & Space Forces Magazine is used for A-10C modernization, production, operator, re-winging, and divestment context. Wikipedia is retained only as supplementary orientation.",
+            "refs": [
+              "fn-airforce",
+              "fn-museum",
+              "fn-asf",
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Exact inventory totals, unit locations, retirement dates, and weapons clearances change by budget year, software suite, and force-structure decision. Those facts are deliberately caveated or omitted unless tied to a dated source.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages for close air support, attack-aircraft lineage, and replacement/mission-overlap context.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Sukhoi Su-25",
+            "url": "aircraft.html?id=su-25"
+          },
+          {
+            "label": "SEPECAT Jaguar",
+            "url": "aircraft.html?id=sepecat-jaguar"
+          },
+          {
+            "label": "LTV A-7 Corsair II",
+            "url": "aircraft.html?id=a-7-corsair-ii"
+          },
+          {
+            "label": "General Dynamics F-16 Fighting Falcon",
+            "url": "aircraft.html?id=f-16-fighting-falcon"
+          },
+          {
+            "label": "Lockheed Martin F-35 Lightning II",
+            "url": "aircraft.html?id=f-35-lightning-ii"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "aircraft.html"
+          }
+        ]
       }
     ]
   },
