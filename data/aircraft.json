@@ -20798,31 +20798,65 @@
     "alternative_names": [],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
-    "manufacturer": "Northrop",
-    "role": "Supersonic jet trainer",
+    "manufacturer": "Northrop Corporation",
+    "role": "Advanced supersonic jet trainer",
     "aircraft_type": "Trainer",
     "era": "Cold War/Modern",
-    "first_flight": "1959",
-    "introduction_date": "1961",
+    "first_flight": "10 April 1959",
+    "introduction_date": "March 1961",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
+    "status": "Active in training and support roles",
+    "number_built": "More than 1,100 delivered to the U.S. Air Force; 1,187 commonly cited overall",
     "crew": "2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "engine_type": "Twin turbojet",
+    "engines": "Two General Electric J85-GE-5 afterburning turbojets",
+    "max_speed": "812 mph (Mach 1.08 at sea level)",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
+    "range": "1,093 miles",
+    "combat_range": "Not applicable; training aircraft",
+    "service_ceiling": "Above 55,000 ft",
     "rate_of_climb": "Not listed",
-    "armament": "Trainer aircraft; light-attack stores not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Northrop T-38 Talon: Supersonic jet trainer. Manufacturer: Northrop. First flight: 1959. Introduction: 1961.",
-    "short_summary": "Northrop T-38 Talon: Supersonic jet trainer. Origin: United States. Manufacturer: Northrop. First flight: 1959. Introduction: 1961. Status: Active.",
+    "armament": "T-38A/C: none; AT-38B fitted with provisions for practice-bomb training stores.",
+    "hardpoints": "AT-38B practice-weapon provisions; standard T-38A/C unarmed",
+    "variants": [
+      {
+        "name": "T-38A",
+        "note": "Original production trainer version used for advanced jet training and proficiency flying."
+      },
+      {
+        "name": "AT-38B",
+        "note": "Weapons-training version with provisions for practice-bomb training, used to bridge basic jet training and fighter-lead-in tasks."
+      },
+      {
+        "name": "T-38C",
+        "note": "Avionics Upgrade Program configuration with modernized cockpit and training systems; AETC began receiving T-38C models in 2001."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "U.S. Air Force / Air Education and Training Command",
+        "note": "Primary operator for joint specialized undergraduate pilot training and pilot-instructor training."
+      },
+      {
+        "country": "United States",
+        "service": "U.S. Air Force Test Pilot School and Air Force Materiel Command",
+        "note": "Used for test-pilot training, chase, proficiency, and experimental-equipment support."
+      },
+      {
+        "country": "United States",
+        "service": "NASA",
+        "note": "Used as astronaut trainers, proficiency aircraft, observers, and chase planes, including support connected with the Space Shuttle era."
+      },
+      {
+        "country": "United States",
+        "service": "U.S. Navy",
+        "note": "Used in limited training and test-support roles, including historical Top Gun/dissimilar-air-combat-training context reported by museum and secondary sources."
+      }
+    ],
+    "combat_history": "Primarily a training, test-support, chase, and proficiency aircraft rather than a combat type.",
+    "development_history": "The T-38 Talon grew from Northrop's lightweight N-156 design work and first flew on 10 April 1959. The U.S. Air Force introduced it in March 1961 as an advanced supersonic trainer for pilots moving to high-performance tactical aircraft.",
+    "short_summary": "The Northrop T-38 Talon is a two-seat, twin-engine, supersonic advanced jet trainer used by the U.S. Air Force, NASA, and other U.S. organizations for pilot training, test support, chase duties, and astronaut proficiency flying.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -20835,18 +20869,25 @@
     ],
     "sources": [
       {
+        "id": "fn-usaf",
+        "title": "T-38 Talon fact sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104569/t-38-talon/",
+        "publisher": "U.S. Air Force",
+        "note": "Official fact sheet for mission, upgrade, operator, and specification data."
+      },
+      {
+        "id": "fn-hill",
+        "title": "Northrop T-38 Talon",
+        "url": "https://www.aerospaceutah.org/museum/our-collections/aircraft-collection/northrop-t-38-talon",
+        "publisher": "Hill Aerospace Museum",
+        "note": "Museum overview for roles, Thunderbirds/Top Gun/NASA context, and Hill AFB sustainment notes."
+      },
+      {
         "id": "fn-main",
         "title": "Northrop T-38 Talon",
         "url": "https://en.wikipedia.org/wiki/Northrop_T-38_Talon",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for variant names, production totals, and relationship checks."
       },
       {
         "id": "fn-method",
@@ -20854,13 +20895,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.sr-71.org/aircraft/t-38.php",
-        "publisher": "sr-71.org",
-        "note": "External source for Northrop T-38 Talon."
       }
     ],
     "country_flags": [
@@ -20877,16 +20911,16 @@
     ],
     "wars_used_in": [],
     "variant_families": [
-      "Northrop T-38 Talon baseline production model",
-      "Northrop T-38 Talon upgraded avionics or weapons-capable model",
-      "Northrop T-38 Talon two-seat trainer or conversion model"
+      "T-38A",
+      "AT-38B",
+      "T-38C"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Northrop T-38 Talon has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The U.S. Air Force is the primary T-38 user; NASA, U.S. Navy/test organizations, and allied students have also used the type in specialized training contexts.",
+      "all_operators_status": "Operator entries listed for USAF training, USAF test support, NASA, and U.S. Navy roles."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -20899,78 +20933,86 @@
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Northrop T-38 Talon uses jet propulsion."
+      "type": "Twin afterburning turbojet",
+      "summary": "Two General Electric J85-GE-5 turbojets produce about 2,050 lb dry thrust or 2,900 lb with afterburner in the USAF fact sheet; propulsion-modernized aircraft are listed at about 2,200 lb dry and 3,300 lb with afterburner."
     },
     "armament_details": {
-      "summary": "Trainer aircraft; light-attack stores not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Most T-38A/C aircraft are unarmed advanced trainers. The AT-38B added provisions for practice-bomb dispensers for weapons-training tasks.",
+      "caution": "Do not treat the T-38 as a front-line combat aircraft; public sources describe training stores rather than operational fighter armament."
     },
     "similar_development": [
       {
-        "id": "t-6-texan-ii",
-        "name": "Beechcraft T-6 Texan II",
-        "url": "aircraft.html?id=t-6-texan-ii"
+        "id": "f-5-freedom-fighter-tiger-ii",
+        "name": "Northrop F-5",
+        "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
       },
       {
-        "id": "yak-130",
-        "name": "Yakovlev Yak-130",
-        "url": "aircraft.html?id=yak-130"
+        "id": "f-16-fighting-falcon",
+        "name": "General Dynamics F-16 Fighting Falcon",
+        "url": "aircraft.html?id=f-16-fighting-falcon"
       },
       {
-        "id": "bae-hawk",
-        "name": "BAE Systems Hawk",
-        "url": "aircraft.html?id=bae-hawk"
+        "id": "f-15-eagle",
+        "name": "McDonnell Douglas F-15 Eagle",
+        "url": "aircraft.html?id=f-15-eagle"
       },
       {
-        "id": "mb-339",
-        "name": "Aermacchi MB-339",
-        "url": "aircraft.html?id=mb-339"
+        "id": "f-22-raptor",
+        "name": "Lockheed Martin F-22 Raptor",
+        "url": "aircraft.html?id=f-22-raptor"
+      },
+      {
+        "id": "a-10-thunderbolt-ii",
+        "name": "Fairchild Republic A-10 Thunderbolt II",
+        "url": "aircraft.html?id=a-10-thunderbolt-ii"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 1
+      "exact_fact_count": 31,
+      "operator_entries": 4,
+      "variant_entries": 3,
+      "external_article_sources": 2
     },
     "footnotes": [
+      {
+        "id": "fn-usaf",
+        "title": "T-38 Talon fact sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104569/t-38-talon/",
+        "publisher": "U.S. Air Force",
+        "note": "Official fact sheet for mission, upgrade, operator, and specification data."
+      },
+      {
+        "id": "fn-hill",
+        "title": "Northrop T-38 Talon",
+        "url": "https://www.aerospaceutah.org/museum/our-collections/aircraft-collection/northrop-t-38-talon",
+        "publisher": "Hill Aerospace Museum",
+        "note": "Museum overview for roles, Thunderbirds/Top Gun/NASA context, and Hill AFB sustainment notes."
+      },
       {
         "id": "fn-main",
         "title": "Northrop T-38 Talon",
         "url": "https://en.wikipedia.org/wiki/Northrop_T-38_Talon",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for variant names, production totals, and relationship checks."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.sr-71.org/aircraft/t-38.php",
-        "publisher": "sr-71.org",
-        "note": "External source for Northrop T-38 Talon."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.sr-71.org/aircraft/t-38.php",
-        "publisher": "sr-71.org",
-        "note": "External source for Northrop T-38 Talon."
+        "title": "T-38 Talon fact sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104569/t-38-talon/",
+        "publisher": "U.S. Air Force"
+      },
+      {
+        "title": "Northrop T-38 Talon",
+        "url": "https://www.aerospaceutah.org/museum/our-collections/aircraft-collection/northrop-t-38-talon",
+        "publisher": "Hill Aerospace Museum"
       }
     ],
     "article_sections": [
@@ -20979,65 +21021,81 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Northrop T-38 Talon is a Supersonic jet trainer from United States. Manufacturer: Northrop. First flight: 1959. Introduction: 1961. Status: Active.",
+            "text": "The Northrop T-38 Talon is a two-seat, twin-engine, high-altitude supersonic jet trainer. It is best known as the U.S. Air Force's advanced trainer for pilots moving toward front-line fighters and bombers, but it has also served in test, chase, proficiency, and astronaut-training roles.",
             "refs": [
-              "fn-main"
+              "fn-usaf",
+              "fn-hill"
             ]
           },
           {
-            "text": "Northrop T-38 Talon is a trainer. Primary role: supersonic jet trainer. Country of origin: United States. Manufacturer: Northrop.",
+            "text": "Unlike a combat fighter page, the T-38 article should be read as a training-aircraft profile: performance, reliability, operating economy, and instructional value are the central themes. The standard T-38A and T-38C are unarmed, while the AT-38B added practice-weapons provisions for training.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The Talon first flew in 1959, entered Air Force service in March 1961, and remained active decades after production ended because the airframe could be modernized through avionics, propulsion, and structural sustainment programs.",
             "refs": [
-              "fn-method"
+              "fn-usaf",
+              "fn-hill"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Supersonic jet trainer"
+            "text": "Advanced supersonic jet trainer"
           },
           {
-            "title": "Designer or builder",
-            "text": "Northrop"
+            "title": "Builder",
+            "text": "Northrop Corporation"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Crew",
+            "text": "Two: student and instructor"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Status",
+            "text": "Active in training and support roles"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History and Upgrades",
         "paragraphs": [
           {
-            "text": "Northrop T-38 Talon first flew in 1959. Introduction date: 1961. Era: Cold War/Modern.",
+            "text": "Northrop developed the T-38 from lightweight N-156 design work, producing a compact twinjet trainer able to introduce pilots to supersonic performance without the cost and complexity of a front-line fighter. The first flight took place on 10 April 1959.",
             "refs": [
-              "fn-main"
+              "fn-main",
+              "fn-usaf"
             ]
           },
           {
-            "text": "Producer: Northrop. Development context: supersonic jet trainer, jet propulsion, supersonic speed category, Cold War/Modern era.",
+            "text": "More than 1,100 examples were delivered to the U.S. Air Force between 1961 and 1972, when production ended. The type's long career made sustainment as important as original production: the Pacer Classic program incorporated structural replacements and other essential modifications as the fleet aged.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "The T-38C emerged from the Avionics Upgrade Program, with AETC receiving upgraded aircraft from 2001. The USAF fact sheet also describes propulsion modernization and inlet/injector changes intended to improve reliability, maintainability, and available takeoff thrust.",
+            "refs": [
+              "fn-usaf"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "Production ended in 1972, so fleet life depends on inspection, structural renewal, and system modernization rather than new-build aircraft.",
             "refs": [
-              "fn-method"
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Training value comes from fighter-like speed, formation handling, and instrument/aerobatic instruction rather than combat payload.",
+            "refs": [
+              "fn-usaf",
+              "fn-hill"
             ]
           }
         ]
@@ -21047,177 +21105,41 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 2. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The T-38 is a small, two-seat, twin-engine trainer with afterburning General Electric J85 turbojets. Its high-altitude and supersonic performance lets students practice formation, aerobatic, night, instrument, and cross-country navigation tasks in a demanding aircraft before moving to operational types.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "The cockpit arrangement supports instructor-student training rather than single-seat combat employment. T-38C aircraft modernized the training environment through avionics upgrades, while the aircraft's basic virtues remained low operating cost, ease of maintenance, and high performance.",
             "refs": [
-              "fn-method"
+              "fn-usaf",
+              "fn-hill"
             ]
           },
           {
-            "text": "Northrop T-38 Talon uses jet propulsion. Engine model field: Not listed.",
+            "text": "Standard T-38A/C aircraft carry no armament. AT-38B aircraft are associated with practice-bomb dispenser provisions, so weapon references should be clearly limited to training stores.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Trainer aircraft; light-attack stores not listed. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "2"
+            "title": "Powerplant",
+            "text": "Two GE J85-GE-5 afterburning turbojets"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Maximum speed",
+            "text": "812 mph; Mach 1.08 at sea level"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Ceiling",
+            "text": "Above 55,000 ft"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Northrop T-38 Talon status: Active. Conflict entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: 0 entries.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Northrop T-38 Talon named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "variants",
-        "title": "Variants",
-        "paragraphs": [
-          {
-            "text": "Northrop T-38 Talon variant-family entries: 3. Variant families: Northrop T-38 Talon baseline production model; Northrop T-38 Talon upgraded avionics or weapons-capable model; Northrop T-38 Talon two-seat trainer or conversion model.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Northrop T-38 Talon baseline production model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Northrop T-38 Talon upgraded avionics or weapons-capable model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Northrop T-38 Talon two-seat trainer or conversion model",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "operators",
-        "title": "Operators",
-        "paragraphs": [
-          {
-            "text": "Designer or builder countries: United States. Northrop T-38 Talon has 1 designer or builder country entry.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "All operators status: 0 operator entries listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Major designer or builder entries: United States.",
-            "refs": [
-              "fn-wikidata"
-            ]
+            "title": "Armament",
+            "text": "T-38A/C none; AT-38B practice-bomb provisions"
           }
         ]
       },
@@ -21226,46 +21148,315 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 2, propulsion type Jet, maximum speed category Supersonic, first flight 1959, introduction 1961.",
+            "text": "USAF general characteristics list the T-38 as 46 ft 4 in long, 12 ft 10 in high, with a 25 ft 3 in wingspan and 12,093 lb maximum takeoff weight.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "The same fact sheet lists two J85-GE-5 afterburning turbojets at 2,050 lb dry thrust or 2,900 lb with afterburner, increased in propulsion-modernized form to 2,200 lb dry and 3,300 lb with afterburner.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Published performance figures include 812 mph, above 55,000 ft ceiling, and 1,093 miles range. These figures are best treated as representative USAF fact-sheet data rather than a substitute for individual aircraft manuals.",
+            "refs": [
+              "fn-usaf",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Length",
+            "text": "46 ft 4 in (14 m)"
+          },
+          {
+            "title": "Wingspan",
+            "text": "25 ft 3 in (7.6 m)"
+          },
+          {
+            "title": "Maximum takeoff weight",
+            "text": "12,093 lb (5,485 kg)"
+          },
+          {
+            "title": "Range",
+            "text": "1,093 miles"
+          }
+        ]
+      },
+      {
+        "id": "variants",
+        "title": "Variants",
+        "paragraphs": [
+          {
+            "text": "The T-38A was the original production trainer and remains the baseline from which later sustainment and modernization references are usually understood.",
+            "refs": [
+              "fn-usaf",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "The AT-38B supported lead-in fighter and weapons-training tasks with practice-bomb provisions, while the T-38C designation is tied to the Avionics Upgrade Program and modernized training cockpit.",
+            "refs": [
+              "fn-usaf"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "T-38A — original two-seat advanced trainer.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "AT-38B — weapons-training version with practice-bomb dispenser provisions.",
             "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "T-38C — avionics-upgraded trainer received by AETC from 2001.",
+            "refs": [
+              "fn-usaf"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operators",
+        "title": "Operators and Training Roles",
+        "paragraphs": [
+          {
+            "text": "Air Education and Training Command is the primary USAF user, employing the T-38C for joint specialized undergraduate pilot training and pilot-instructor training.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "The USAF Test Pilot School at Edwards AFB uses T-38s to train test pilots and flight-test engineers, and Air Force Materiel Command has used the type to test experimental equipment.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "NASA has used T-38 aircraft for astronaut training, observation, and chase-plane duties, including programs such as the Space Shuttle. Pilots from many NATO countries have also trained in T-38s through the Euro-NATO Joint Jet Pilot Training Program at Sheppard AFB.",
+            "refs": [
+              "fn-usaf"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "U.S. Air Force/AETC — undergraduate pilot and instructor training.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "USAF Test Pilot School and AFMC — test-pilot, flight-test, chase, and experimental-equipment support.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "NASA — astronaut proficiency, observer, and chase-plane work.",
+            "refs": [
+              "fn-usaf",
+              "fn-hill"
+            ]
+          },
+          {
+            "text": "U.S. Navy and Top Gun context — limited historical training use noted by museum and secondary sources.",
+            "refs": [
+              "fn-hill",
+              "fn-main"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History and Notable Use",
+        "paragraphs": [
+          {
+            "text": "Operationally, the T-38's importance lies in the number of pilots it has prepared for faster and more complex aircraft. The USAF fact sheet explicitly links the T-38C pipeline to aircraft such as the F-15E, F-15C, F-16, B-1B, A-10, and F-22.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "The Thunderbirds selected the T-38 in 1974 after flying the F-4, with museum material emphasizing the trainer's low maintenance cost and high performance. NASA's T-38 use added a public-facing spaceflight association through astronaut transportation, proficiency flying, and chase/observer work.",
+            "refs": [
+              "fn-hill",
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Because the Talon is a training platform, public operational history should avoid combat-credit framing. Its measurable contribution is institutional: pilot throughput, test support, and maintaining high-performance flying skills.",
+            "refs": [
+              "fn-method",
+              "fn-usaf"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include supersonic performance, economical operation compared with combat aircraft, maintainability, and suitability for formation, instrument, night, and aerobatic instruction.",
+            "refs": [
+              "fn-usaf",
+              "fn-hill"
+            ]
+          },
+          {
+            "text": "Limitations are those of an aging, specialized trainer: it is not a modern combat aircraft, standard versions are unarmed, and sustainment requires structural and propulsion modernization as the fleet ages.",
+            "refs": [
+              "fn-usaf",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strong fit for high-performance pilot training and proficiency flying.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Small airframe and older systems require modernization to remain useful and maintainable.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "No standard combat armament on T-38A/C models.",
+            "refs": [
+              "fn-usaf"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Compared with front-line fighters such as the F-16, F-15, or F-22, the T-38 is smaller, cheaper to operate, and optimized for training rather than weapons, sensors, survivability, or operational range.",
+            "refs": [
+              "fn-usaf",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Compared with the related Northrop F-5 family, the Talon shares lightweight design ancestry but serves a different mission: advanced instruction and proficiency rather than export fighter or aggressor combat training roles.",
+            "refs": [
+              "fn-main",
+              "fn-hill"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [],
+        "bullets": [
+          {
+            "text": "1959 — T-38 first flight.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "March 1961 — Air Force deployment/introduction.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "1961–1972 — More than 1,100 delivered to the U.S. Air Force before production ended.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "1974 — Thunderbirds adopted the T-38 after the F-4 era, according to Hill Aerospace Museum context.",
+            "refs": [
+              "fn-hill"
+            ]
+          },
+          {
+            "text": "2001 — AETC began receiving T-38C aircraft through the Avionics Upgrade Program.",
+            "refs": [
+              "fn-usaf"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Primary technical and mission data comes from the official U.S. Air Force T-38 fact sheet. Hill Aerospace Museum is used for role context and public-history examples. Wikipedia is retained only as supplementary orientation for variant and relationship checks.",
+            "refs": [
+              "fn-usaf",
+              "fn-hill",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Figures such as inventory and upgrade timelines can change; the 2014 USAF fact-sheet inventory was not promoted to a current top-level fact.",
+            "refs": [
+              "fn-usaf",
               "fn-method"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "related-pages",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "Northrop T-38 Talon similar-development links: 4.",
+            "text": "Related Milipedia pages include aircraft that T-38 students may progress to, plus the Northrop F-5 family that shares lightweight Northrop design ancestry.",
             "refs": [
-              "fn-method"
+              "fn-usaf",
+              "fn-main"
             ]
           }
         ],
         "links": [
           {
-            "label": "Beechcraft T-6 Texan II",
-            "url": "aircraft.html?id=t-6-texan-ii"
+            "label": "Northrop F-5",
+            "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
           },
           {
-            "label": "Yakovlev Yak-130",
-            "url": "aircraft.html?id=yak-130"
+            "label": "F-16 Fighting Falcon",
+            "url": "aircraft.html?id=f-16-fighting-falcon"
           },
           {
-            "label": "BAE Systems Hawk",
-            "url": "aircraft.html?id=bae-hawk"
+            "label": "F-15 Eagle",
+            "url": "aircraft.html?id=f-15-eagle"
           },
           {
-            "label": "Aermacchi MB-339",
-            "url": "aircraft.html?id=mb-339"
+            "label": "F-22 Raptor",
+            "url": "aircraft.html?id=f-22-raptor"
+          },
+          {
+            "label": "A-10 Thunderbolt II",
+            "url": "aircraft.html?id=a-10-thunderbolt-ii"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "index.html"
           }
         ]
       }

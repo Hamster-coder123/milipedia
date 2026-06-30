@@ -1086,3 +1086,79 @@ Record the result of:
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * Mirage III specifications and weapons vary substantially by Mirage IIIC, IIIE, IIIR, Mirage 5/50, export subvariant, and national modernization program, so the page uses source-labeled representative figures and cautious wording rather than one universal table.
 * The official RAAF PDF was identified as a useful operator source, but automated extraction failed in this run; Australian-specific details were therefore kept high-level pending future human/source review.
+
+### Run 15 — 2026-06-30 10:03:01 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Northrop T-38 Talon (id: t-38-talon)
+* Reason selected: The T-38 entry was one of the shortest unedited aircraft records compared with the F-16 reference, with no complete operator or variant entries, sparse placeholder specifications, generic training/fighter wording, and only one external article source counted in article_quality.
+* Previous condition: Generated-style page with 15 exact fact fields, 0 operator entries, 0 variant entries, missing detailed development/design/specification/operator/operational-history coverage, and generic article sections that did not explain the Talon's trainer, test-support, NASA, Thunderbirds, or sustainment context.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense lead overview, technical fact cards, section order from overview through development/design/specifications/variants/operators/operational history/comparison/timeline/sources/related pages, concise sourced paragraphs, cautious notes around variant-specific details, and internal aircraft.html?id=... related-page links.
+
+#### Changes Made
+
+* Expanded the T-38 Talon record in data/aircraft.json from a sparse generated entry into a fuller Milipedia article-style aircraft page.
+* Corrected top-level facts for manufacturer, role, first flight, introduction, crew, engines, maximum speed, range, service ceiling, number built, combat-history framing, and unarmed/training-store armament.
+* Added official and museum sources from the U.S. Air Force and Hill Aerospace Museum, while retaining Wikipedia only as supplementary orientation and Milipedia rules for cautious wording.
+* Added detailed sections for Overview, Development History and Upgrades, Design and Capabilities, Specifications, Variants, Operators and Training Roles, Operational History and Notable Use, Strengths and Limitations, Comparison, Timeline, Sources and Notes, and Related Pages.
+* Added T-38-specific technical details including two General Electric J85-GE-5 afterburning turbojets, 812 mph/Mach 1.08 at sea level, above-55,000-ft ceiling, 1,093-mile range, 46 ft 4 in length, 25 ft 3 in wingspan, and 12,093 lb maximum takeoff weight.
+* Added variant coverage for T-38A, AT-38B, and T-38C, including the Avionics Upgrade Program and practice-bomb-training caveat.
+* Added operator/role coverage for Air Education and Training Command, USAF Test Pilot School/Air Force Materiel Command, NASA, U.S. Navy historical/training context, and Euro-NATO training use.
+* Added operational-history context for undergraduate pilot training, pilot-instructor training, test support, NASA astronaut/chase use, and Thunderbirds use beginning in 1974.
+* Added comparison and related-page links to Northrop F-5, F-16, F-15, F-22, and A-10 pages.
+* Omitted the 2014 USAF inventory as a current top-level fact because it may not represent the present fleet.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded the Northrop T-38 Talon page data, sources, sections, specifications, variants, operators, and internal links.
+* hermes-change-log.md — Appended the cumulative Run 15 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were modified/staged.
+2. git diff — Reviewed diff/stat; data/aircraft.json changed the T-38 Talon entry and hermes-change-log.md appended this run entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the T-38 entry section list, sources, variant/operator counts, unarmed armament wording, and summary.
+4. F-16 style comparison — Inspected data/f16-template.html and followed its dense overview, technical card/specification emphasis, section ordering, neutral tone, source formatting, and related-page linking style within the JSON-rendered article system.
+5. Internal link check — Verified aircraft.html?id=f-5-freedom-fighter-tiger-ii, f-16-fighting-falcon, f-15-eagle, f-22-raptor, and a-10-thunderbolt-ii point to existing aircraft ids in data/aircraft.json.
+6. Secret/token check — Ran credential-specific grep over the staged diff for API keys, tokens, passwords, private keys, GitHub tokens, and AWS credential names; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, only intended files staged, selected page not previously edited by Hermes, no main-branch edits, and diff reviewed before commit.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Northrop T-38 Talon
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* The U.S. Air Force fact sheet's inventory value is marked current as of January 2014, so it was not used as a present-day fleet total.
+* Wikipedia was used only as a supplementary orientation source for production/relationship context; official USAF and Hill Aerospace Museum sources were preferred for article substance.
+* The committed change log cannot contain the final commit hash without changing that hash; the final scheduled-run response reports it separately.
