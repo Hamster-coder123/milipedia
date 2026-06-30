@@ -1317,3 +1317,77 @@ Record the result of:
 * The committed change log cannot contain the final commit hash without changing that hash; the final scheduled-run response reports it separately.
 * U-2 fleet size, retirement timing, sensor fits, deployment locations, and collection performance are date-sensitive and/or classified, so the page uses cautious wording and omits precise unsupported claims.
 * Automated extraction of the National Museum U-2A page failed, but its search-result summary and known official museum page were retained only as conservative historical/source context; USAF and Lockheed sources were preferred for article substance.
+
+### Run 18 — 2026-06-30 13:03:25 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Mikoyan MiG-31 (id: mig-31)
+* Reason selected: It was one of the sparsest unedited aircraft entries when compared with the F-16 reference page: only 9 generic article sections, no concrete variant entries, no operator entries, no external article sources, and many "Not listed" specification fields.
+* Previous condition: Placeholder-like generated content with generic overview/development/design text, no NATO reporting name, no detailed radar/avionics/weapons discussion, no real operators, no concrete variants, sparse specifications, and Wikipedia/Wikidata/method sources only.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense lead/overview style; article-section order moving from overview to development, design/capabilities, service history, variants, operators, specifications, strengths/limitations, and related links; compact cards for key facts; paragraph plus bullet/card structure; cautious source references through `refs`; internal `aircraft.html?id=...` links for related aircraft.
+
+#### Changes Made
+
+* Expanded the MiG-31 top-level data fields with NATO reporting name, alternate names, origin/manufacturer details, first-flight/introduction dates, engine, speed, range, combat range, ceiling, climb-rate, hardpoint/loadout caveats, development summary, and short summary.
+* Added specialist/supplementary sources from Airforce Technology, Deagel, Wikipedia, and the local Milipedia accuracy rules, then mirrored them into `footnotes` and `external_articles` in the existing source style.
+* Replaced placeholder article sections with a F-16-like dense structure: Overview, Development History, Design and Capabilities, Radar/Avionics/Weapons, Operational History, Variants, Operators, Specifications, Strengths and Limitations, and Similar Development and Related Pages.
+* Added detailed discussion of MiG-25 lineage, long-range Soviet/Russian air-defence mission, two-crew cockpit, Zaslon phased-array radar, datalinks, R-33/R-37-family missile context, MiG-31BM modernization, and MiG-31K/I missile-carrier caveats.
+* Added concrete variant entries for baseline/P, B/BS, BM/BSM, E, M, D/S, and K/I families with references and cautious wording where designations vary across sources.
+* Added operator entries for Russia, historical Kazakhstan service, and the cancelled/proposed Syria order.
+* Added representative specifications using ranges where sources differ, with explicit caveats about mission profile and variant differences.
+* Updated related internal links to existing Milipedia IDs: MiG-25, Su-27, F-15 Eagle, and Tu-22M.
+* Omitted precise combat kill/loss claims and uncertain current inventory totals because open-source figures are fluid or not independently verified.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded exactly one aircraft entry, `mig-31`, with sourced content, variants, operators, specifications, and article sections.
+* hermes-change-log.md — Appended this cumulative Run 18 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, only `data/aircraft.json` was modified; after log update, intended files were `data/aircraft.json` and `hermes-change-log.md`.
+2. git diff — Reviewed the aircraft JSON diff; it changed one entry, `mig-31`, and added this log entry.
+3. File review — `python3 -m json.tool data/aircraft.json >/dev/null` passed; selected entry showed 10 article sections, 7 variants, 3 operators, and 3 external articles.
+4. F-16 style comparison — Compared against `data/f16-template.html` and followed its dense overview, section sequencing, cards/bullets, references, and related-page style within the JSON renderer's supported fields.
+5. Internal link check — Parsed `aircraft.html?id=...` links in the updated MiG-31 entry; all target IDs exist in `data/aircraft.json`.
+6. Secret/token check — Credential-specific scan of the staged diff was run before commit; no secrets or private credentials were found.
+7. Final review before commit — Confirmed branch, intended files only, one changed aircraft entry, valid JSON, no whitespace errors, complete log entry, and no direct main edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Mikoyan MiG-31
+* Commit hash: Pending until commit creation; final hash reported in run response.
+
+#### Issues or Uncertainties
+
+* Airforce Technology, Deagel, and Wikipedia differ slightly on exact introduction year/date, production total, service ceiling, wingspan, and range definitions; the page uses ranges or explicitly notes source/variant differences rather than forcing a single exact number.
+* Current inventory and combat-use/loss claims were intentionally not quantified because publicly available figures are fluid and may require human review.

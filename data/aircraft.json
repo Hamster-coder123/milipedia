@@ -31986,34 +31986,126 @@
   {
     "id": "mig-31",
     "name": "Mikoyan MiG-31",
-    "alternative_names": [],
-    "nato_reporting_name": null,
-    "country_of_origin": "Soviet Union",
-    "manufacturer": "Mikoyan",
-    "role": "Interceptor",
-    "aircraft_type": "Fighter",
+    "alternative_names": [
+      "MiG-31 Foxhound",
+      "Foxhound"
+    ],
+    "nato_reporting_name": "Foxhound",
+    "country_of_origin": "Soviet Union / Russia",
+    "manufacturer": "Mikoyan; Sokol Aircraft Plant",
+    "role": "Long-range supersonic interceptor",
+    "aircraft_type": "Interceptor aircraft",
     "era": "Modern",
-    "first_flight": "1975",
-    "introduction_date": "1981",
+    "first_flight": "16 September 1975",
+    "introduction_date": "6 May 1981 / early 1980s operational service",
     "retirement_date": null,
     "status": "Active",
-    "number_built": "Not listed",
+    "number_built": "About 500; some sources list 519 total airframes",
     "crew": "2",
     "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "engines": "Two Soloviev/Aviadvigatel D-30F6 afterburning turbofans",
+    "max_speed": "About Mach 2.8 / 3,000 km/h at high altitude; about 1,500 km/h at low altitude",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
+    "range": "About 1,250–1,450 km mission range depending on profile; ferry range about 3,000–3,300 km",
+    "combat_range": "About 720 km at high-speed interception profile",
+    "service_ceiling": "About 20,600–21,500 m depending on variant/source",
+    "rate_of_climb": "About 208 m/s",
+    "armament": "GSh-6-23M 23 mm cannon; R-33/R-33S long-range air-to-air missiles; R-40, R-60, R-73, R-77, R-37/R-37M depending on variant; MiG-31BM adds air-to-surface options and MiG-31K carries Kinzhal-class stores.",
+    "hardpoints": "Typically semi-recessed fuselage missile stations plus underwing pylons; exact loadout varies by variant.",
+    "variants": [
+      {
+        "name": "MiG-31 / MiG-31P",
+        "description": "Early production interceptor for Soviet air defence service, optimized for long-range missile interceptions rather than close-in maneuvering.",
+        "refs": [
+          "fn-airforce-technology",
+          "fn-wikipedia"
+        ]
+      },
+      {
+        "name": "MiG-31B / MiG-31BS",
+        "description": "Improved production and retrofit standards introduced after early service experience; often treated as the mature Cold War Foxhound configuration.",
+        "refs": [
+          "fn-deagel",
+          "fn-wikipedia"
+        ]
+      },
+      {
+        "name": "MiG-31BM / BSM",
+        "description": "Modernized Russian standard with upgraded avionics, color multifunction displays, digital datalinks, a more powerful computer, improved Zaslon-M radar, and expanded weapons options.",
+        "refs": [
+          "fn-airforce-technology",
+          "fn-deagel"
+        ]
+      },
+      {
+        "name": "MiG-31E",
+        "description": "Export version proposal with RP-31E phased-array radar and advertised ability to track ten targets and engage four; it did not become a major export success.",
+        "refs": [
+          "fn-airforce-technology",
+          "fn-deagel"
+        ]
+      },
+      {
+        "name": "MiG-31M",
+        "description": "Advanced prototype family from the late Soviet period with revised cockpit/avionics and increased missile capacity; not completed as a large production program.",
+        "refs": [
+          "fn-airforce-technology",
+          "fn-deagel"
+        ]
+      },
+      {
+        "name": "MiG-31D / MiG-31S",
+        "description": "Specialized anti-satellite or aerospace-launch experiment families associated with large under-fuselage payloads and Soviet/Russian space-related programs.",
+        "refs": [
+          "fn-airforce-technology",
+          "fn-deagel"
+        ]
+      },
+      {
+        "name": "MiG-31K / MiG-31I",
+        "description": "Missile-carrier adaptations associated with large standoff or ballistic-missile-class weapons such as Kinzhal; their payload role differs from the standard interceptor fit.",
+        "refs": [
+          "fn-deagel",
+          "fn-wikipedia"
+        ]
+      }
+    ],
+    "operators": [
+      {
+        "country": "Russia",
+        "service": "Russian Aerospace Forces / predecessor Russian Air Force",
+        "status": "Active in modernized and specialized forms",
+        "note": "Primary current operator; sources describe MiG-31BM modernization and continued life-extension work.",
+        "refs": [
+          "fn-airforce-technology",
+          "fn-deagel",
+          "fn-wikipedia"
+        ]
+      },
+      {
+        "country": "Kazakhstan",
+        "service": "Kazakh Air Defense Forces",
+        "status": "Historical / retired",
+        "note": "Kazakhstan inherited MiG-31s after the Soviet breakup; open sources indicate the type has been retired from Kazakh service.",
+        "refs": [
+          "fn-airforce-technology",
+          "fn-wikipedia"
+        ]
+      },
+      {
+        "country": "Syria",
+        "service": "Syrian order/proposal",
+        "status": "Cancelled / not delivered",
+        "note": "A proposed 2007 order for MiG-31E aircraft was reported but not completed.",
+        "refs": [
+          "fn-airforce-technology",
+          "fn-deagel"
+        ]
+      }
+    ],
     "combat_history": "Not listed",
-    "development_history": "Mikoyan MiG-31: Interceptor. Manufacturer: Mikoyan. First flight: 1975. Introduction: 1981.",
-    "short_summary": "Mikoyan MiG-31: Interceptor. Origin: Soviet Union. Manufacturer: Mikoyan. First flight: 1975. Introduction: 1981. Status: Active.",
+    "development_history": "The MiG-31 was developed from the MiG-25 to give Soviet air defence forces a faster, longer-ranged, two-crew interceptor able to engage bombers, reconnaissance aircraft, and cruise missiles in poor weather and at low altitude. It first flew in September 1975, entered service in 1981/1982, and later received MiG-31B/BS, BM/BSM, K, D/S, and other specialized upgrades.",
+    "short_summary": "The Mikoyan MiG-31 Foxhound is a Soviet/Russian two-seat, twin-engine, long-range supersonic interceptor derived from the MiG-25. It combines very high speed with the Zaslon phased-array radar, cooperative datalinks, and long-range missiles for wide-area air defence.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -32026,18 +32118,25 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-airforce-technology",
+        "title": "MiG-31 Foxhound Interceptor Aircraft",
+        "url": "https://www.airforce-technology.com/projects/mig-31/",
+        "publisher": "Airforce Technology",
+        "note": "Used for specifications, development summary, variants, avionics, radar, engine and operator overview."
+      },
+      {
+        "id": "fn-deagel",
+        "title": "Mig-31",
+        "url": "https://www.deagel.com/Combat%20Aircraft/Mig-31/a000358",
+        "publisher": "Deagel",
+        "note": "Used as a supplementary reference for IOC date, production estimate, variants, radar/datalink description, operators, and specifications; status fields vary by variant and date."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Mikoyan MiG-31",
         "url": "https://en.wikipedia.org/wiki/Mikoyan_MiG-31",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for dates, NATO reporting name, production total, retirement notes, and variant context; cross-check facts against specialist sources when possible."
       },
       {
         "id": "fn-method",
@@ -32051,170 +32150,237 @@
       {
         "label": "Soviet Union",
         "emoji": "☭"
+      },
+      {
+        "label": "Russia",
+        "emoji": "🇷🇺"
       }
     ],
     "designers": [
       "Mikoyan"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Replacing the MiG-25 meant preserving very high speed and altitude while improving low-altitude interception, range, radar capability, and two-crew workload management.",
+      "The aircraft trades maneuverability and dogfight agility for speed, endurance, sensor reach, and missile carriage; sources commonly describe a 5 g maneuver limit.",
+      "Keeping large steel/titanium high-speed airframes in service requires life-extension, avionics modernization, and careful engine/structure management."
     ],
-    "wars_used_in": [],
+    "wars_used_in": [
+      "Russian air defence service",
+      "Kazakh air defence service until retirement",
+      "Russian operations around Ukraine (not all claims independently verifiable)"
+    ],
     "variant_families": [
-      "Mikoyan MiG-31 baseline production model",
-      "Mikoyan MiG-31 upgraded avionics or weapons-capable model",
-      "Mikoyan MiG-31 two-seat trainer or conversion model",
-      "Mikoyan MiG-31 export or locally modernized model"
+      "MiG-31 baseline / MiG-31P early interceptor",
+      "MiG-31B and MiG-31BS improved production and retrofit standards",
+      "MiG-31BM / BSM modernized multirole interceptor with upgraded radar, displays, computer, datalink, and weapons integration",
+      "MiG-31E export proposal",
+      "MiG-31M advanced interceptor prototype family",
+      "MiG-31D / MiG-31S anti-satellite or aerospace-launch experiment families",
+      "MiG-31K / MiG-31I missile-carrier adaptations associated with Kinzhal-class weapons"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
-        "Soviet Union"
+        "Soviet Union",
+        "Russia"
       ],
-      "major_user_note": "Mikoyan MiG-31 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Main operational user is Russia; Kazakhstan operated inherited MiG-31s and has reportedly retired the type. Proposed Syrian export aircraft were not delivered.",
+      "all_operators_status": "Russia active; Kazakhstan historical/retired; Syria cancelled/proposed."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "The type is notable for pairing a pilot with a rear-seat weapon-systems officer to manage long-range radar and missiles.",
+        "MiG-31BM aircraft represent the principal Russian modernization path; MiG-31K/I aircraft are associated with large missile-carrier missions."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Operational losses and combat-use claims exist in open sources, but this update avoids unverified kill/loss totals."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Mikoyan MiG-31 uses jet propulsion."
+      "type": "Two afterburning turbofans",
+      "summary": "Two Soloviev/Aviadvigatel D-30F6 engines provide the high thrust needed for Mach-2-plus interception. Airforce Technology lists 15,500 kgf take-off thrust and 9,500 kgf dry thrust per engine."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Baseline Foxhound armament centers on long-range air-to-air missiles, especially the R-33 family, backed by medium/short-range missiles and an internal GSh-6-23M cannon. MiG-31BM adds newer missiles and limited air-to-surface/anti-radiation capability; MiG-31K/I are special missile-carrier conversions.",
+      "caution": "Exact weapons depend heavily on variant, modernization standard, and national service. Kinzhal carriage is associated with dedicated MiG-31K/I conversions rather than every MiG-31."
     },
     "similar_development": [
+      {
+        "id": "mig-25",
+        "name": "Mikoyan-Gurevich MiG-25",
+        "url": "aircraft.html?id=mig-25"
+      },
+      {
+        "id": "su-27",
+        "name": "Sukhoi Su-27",
+        "url": "aircraft.html?id=su-27"
+      },
       {
         "id": "f-15-eagle",
         "name": "McDonnell Douglas F-15 Eagle",
         "url": "aircraft.html?id=f-15-eagle"
       },
       {
-        "id": "f-16-fighting-falcon",
-        "name": "General Dynamics F-16 Fighting Falcon",
-        "url": "aircraft.html?id=f-16-fighting-falcon"
-      },
-      {
-        "id": "f-a-18-hornet",
-        "name": "McDonnell Douglas F/A-18 Hornet",
-        "url": "aircraft.html?id=f-a-18-hornet"
-      },
-      {
-        "id": "f-a-18e-f-super-hornet",
-        "name": "Boeing F/A-18E/F Super Hornet",
-        "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+        "id": "tu-22m",
+        "name": "Tupolev Tu-22M",
+        "url": "aircraft.html?id=tu-22m"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 45,
+      "operator_entries": 3,
+      "variant_entries": 7,
+      "external_article_sources": 3
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-airforce-technology",
+        "title": "MiG-31 Foxhound Interceptor Aircraft",
+        "url": "https://www.airforce-technology.com/projects/mig-31/",
+        "publisher": "Airforce Technology",
+        "note": "Used for specifications, development summary, variants, avionics, radar, engine and operator overview."
+      },
+      {
+        "id": "fn-deagel",
+        "title": "Mig-31",
+        "url": "https://www.deagel.com/Combat%20Aircraft/Mig-31/a000358",
+        "publisher": "Deagel",
+        "note": "Used as a supplementary reference for IOC date, production estimate, variants, radar/datalink description, operators, and specifications; status fields vary by variant and date."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Mikoyan MiG-31",
         "url": "https://en.wikipedia.org/wiki/Mikoyan_MiG-31",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for dates, NATO reporting name, production total, retirement notes, and variant context; cross-check facts against specialist sources when possible."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "MiG-31 Foxhound Interceptor Aircraft",
+        "url": "https://www.airforce-technology.com/projects/mig-31/",
+        "publisher": "Airforce Technology",
+        "summary": "Long-form technical overview with specification table, development, design, cockpit, armament, radar, sensors, engines, variants, and operators."
+      },
+      {
+        "title": "Mig-31",
+        "url": "https://www.deagel.com/Combat%20Aircraft/Mig-31/a000358",
+        "publisher": "Deagel",
+        "summary": "Supplementary database-style page listing IOC, production, variants, operators, specifications, gear, radar, and modernization notes."
+      },
+      {
+        "title": "Mikoyan MiG-31",
+        "url": "https://en.wikipedia.org/wiki/Mikoyan_MiG-31",
+        "publisher": "Wikipedia",
+        "summary": "General encyclopedic page used for orientation and cross-checking of dates, NATO reporting name, production totals, and broad variant history."
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Mikoyan MiG-31 is an Interceptor from Soviet Union. Manufacturer: Mikoyan. First flight: 1975. Introduction: 1981. Status: Active.",
+            "text": "The Mikoyan MiG-31 Foxhound is a large, two-seat, twin-engine Soviet/Russian interceptor designed for long-range air defence rather than agile close-in fighter combat. It grew from the MiG-25 family but added a second crew member, more capable radar, better low-altitude interception performance, and cooperative datalinks for wide-area coverage.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Mikoyan MiG-31 is a fighter. Primary role: interceptor. Country of origin: Soviet Union. Manufacturer: Mikoyan.",
+            "text": "Its defining traits are speed, altitude, sensor reach, and missile carriage. Airforce Technology lists a high-altitude maximum speed of about 3,000 km/h, a low-altitude speed of about 1,500 km/h, D-30F6 engines, and a Zaslon phased-array radar able to track multiple targets and support simultaneous engagements.",
             "refs": [
-              "fn-wikidata"
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The aircraft remains important because it was built around a national air-defence mission: intercepting bombers, reconnaissance aircraft, and low-flying cruise missiles across very large northern and eastern airspace. Modernized MiG-31BM aircraft add improved avionics and weapons integration, while MiG-31K/I conversions are associated with large missile-carrier roles.",
             "refs": [
-              "fn-method"
+              "fn-deagel",
+              "fn-wikipedia"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Interceptor"
+            "text": "Long-range supersonic interceptor"
           },
           {
-            "title": "Designer or builder",
-            "text": "Mikoyan"
+            "title": "NATO reporting name",
+            "text": "Foxhound"
           },
           {
-            "title": "Major origin",
-            "text": "Soviet Union"
+            "title": "Crew",
+            "text": "2: pilot and weapon-systems officer"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Powerplant",
+            "text": "Two D-30F6 afterburning turbofans"
+          },
+          {
+            "title": "Main users",
+            "text": "Russia; Kazakhstan historically"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Mikoyan MiG-31 first flew in 1975. Introduction date: 1981. Era: Modern.",
+            "text": "The MiG-31 was created to solve problems that limited the MiG-25 as a practical air-defence interceptor. The MiG-25 was extremely fast, but it had limited low-altitude performance, older avionics, and a single-seat workload. The Ye-155MP prototype first flew in September 1975, and the type entered Soviet service in the early 1980s.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology",
+              "fn-wikipedia",
+              "fn-deagel"
             ]
           },
           {
-            "text": "Producer: Mikoyan. Development context: interceptor, jet propulsion, supersonic speed category, Modern era.",
+            "text": "The new aircraft kept the broad high-speed MiG-25 layout but became a more capable system: a longer fuselage for the rear-seat radar operator, stronger structure for low-altitude supersonic work, efficient low-bypass turbofans, and an integrated radar/missile suite designed for look-down/shoot-down interceptions.",
             "refs": [
-              "fn-wikidata"
+              "fn-airforce-technology",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Production ran through the late Soviet period, with roughly 500 airframes reported by Airforce Technology and Deagel and 519 listed by Wikipedia from secondary sources. Post-Soviet fleets concentrated in Russia and Kazakhstan, and Russia has continued modernization and life-extension work rather than replacing the type quickly.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-deagel",
+              "fn-wikipedia"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "First flight: 16 September 1975 / September 1975 depending on source wording.",
             "refs": [
-              "fn-method"
+              "fn-airforce-technology",
+              "fn-deagel",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "Introduction/IOC: 1981–1982 depending on source and definition.",
             "refs": [
-              "fn-method"
+              "fn-airforce-technology",
+              "fn-deagel",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Production estimate: about 500; some secondary references list 519.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-deagel",
+              "fn-wikipedia"
             ]
           }
         ]
@@ -32224,50 +32390,96 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 2. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The MiG-31 is built around a high-speed, high-altitude interception profile. Its airframe uses a large swept wing, twin vertical tails, side intakes, and a long nose for the radar. Open references describe a structure with extensive nickel steel, titanium, and aluminum alloy content, reflecting the heating and strength demands of Mach-2-plus flight.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "The two-seat cockpit divides work between the pilot and a rear-seat weapon-systems officer. This matters because the aircraft is less a dogfighter than a fast sensor-and-missile platform: the WSO manages radar search, target prioritization, datalink information, and weapon employment while the pilot flies the intercept.",
             "refs": [
-              "fn-method"
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Mikoyan MiG-31 uses jet propulsion. Engine model field: Not listed.",
+            "text": "Its maneuver limits and weight mean it is not optimized for close-range turning combat. The aircraft instead uses speed, climb, long-range missiles, and radar/datalink coordination to engage targets before a visual merge.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-deagel",
+              "fn-wikipedia"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "2"
+            "title": "Airframe emphasis",
+            "text": "Speed, range, radar volume, and low-altitude interception rather than dogfight agility."
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Crew concept",
+            "text": "Pilot plus rear-seat weapon-systems officer."
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Known limitation",
+            "text": "Large, heavy aircraft; commonly described with a 5 g maneuver limit."
           },
           {
             "title": "Carrier capable",
-            "text": "No"
+            "text": "No."
           },
           {
             "title": "Stealth",
-            "text": "No"
+            "text": "No; designed before low-observable shaping became central."
+          }
+        ]
+      },
+      {
+        "id": "avionics-and-weapons",
+        "title": "Radar, Avionics, and Weapons",
+        "paragraphs": [
+          {
+            "text": "The N007/RP-31 Zaslon radar made the MiG-31 one of the first operational fighters with a phased-array radar. Airforce Technology describes the radar as able to scan to about 200 km, track ten targets, and engage four simultaneously in the baseline system; Deagel gives similar baseline figures and higher MiG-31BM figures for the Zaslon-M modernization.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-deagel"
+            ]
+          },
+          {
+            "text": "Datalinks are central to the aircraft. Open sources describe groups of MiG-31s sharing radar data so that four aircraft can cover a very wide front and direct other Soviet/Russian aircraft toward targets. This cooperative-intercept role is one of the main differences between the Foxhound and simpler high-speed fighters.",
+            "refs": [
+              "fn-deagel",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Baseline weapons include the GSh-6-23M cannon and long-range R-33-family missiles, supplemented by medium- and short-range missiles depending on fit. MiG-31BM adds compatibility with newer air-to-air missiles and some air-to-surface/anti-radiation stores; MiG-31K/I conversions are specialized for large external missile carriage rather than standard patrol loads.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-deagel",
+              "fn-wikipedia"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Baseline target handling often cited: track 10 and engage 4 targets.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-deagel"
+            ]
+          },
+          {
+            "text": "MiG-31BM figures are higher in specialist sources, with Deagel citing 24 tracked and 8 engaged targets for the modernized radar suite.",
+            "refs": [
+              "fn-deagel"
+            ]
+          },
+          {
+            "text": "Primary air-defence missiles include R-33/R-33S and later R-37/R-37M family weapons depending on variant and era.",
+            "refs": [
+              "fn-deagel",
+              "fn-airforce-technology"
+            ]
           }
         ]
       },
@@ -32276,54 +32488,40 @@
         "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Mikoyan MiG-31 status: Active. Conflict entries: 0.",
+            "text": "In Soviet service the MiG-31 belonged to the air-defence mission, replacing older long-range interceptors and complementing ground radar, command posts, and airborne early-warning support. Its job was to patrol large regions and defeat targets before they could penetrate defended airspace.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia",
+              "fn-deagel"
             ]
           },
           {
-            "text": "Conflicts: 0 entries.",
+            "text": "After 1991, Russia remained the main operator and modernized part of the fleet to MiG-31BM/BSM standards. Kazakhstan inherited aircraft and operated the type for years, but open sources now describe Kazakh MiG-31 service as retired. A Syrian MiG-31E deal was reported but did not proceed to operational delivery.",
             "refs": [
-              "fn-method"
+              "fn-airforce-technology",
+              "fn-deagel",
+              "fn-wikipedia"
             ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
+          },
           {
-            "text": "Mikoyan MiG-31 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
+            "text": "Modern Russian MiG-31s are visible in air-defence patrol, Arctic and long-range interception roles, and in specialized missile-carrier use. Claims around combat employment and losses in Ukraine are fluid and politically contested, so this page avoids precise kill/loss claims unless independently verified.",
             "refs": [
-              "fn-main"
+              "fn-deagel",
+              "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Named pilots listed: 0.",
+            "text": "Core mission: long-range interception in all-weather, day/night conditions.",
             "refs": [
-              "fn-method"
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Named individual aircraft listed: 0.",
+            "text": "Modernization focus: extend service life, upgrade sensors, and integrate newer weapons.",
             "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-airforce-technology",
+              "fn-deagel"
             ]
           }
         ]
@@ -32333,41 +32531,62 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Mikoyan MiG-31 variant-family entries: 4. Variant families: Mikoyan MiG-31 baseline production model; Mikoyan MiG-31 upgraded avionics or weapons-capable model; Mikoyan MiG-31 two-seat trainer or conversion model; Mikoyan MiG-31 export or locally modernized model.",
+            "text": "The MiG-31 family includes production interceptors, export proposals, advanced prototypes, modernized Russian aircraft, and specialized missile or aerospace-test conversions. Variant labels can differ across sources, so Milipedia groups them by role rather than treating every designation as a separate production model.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
+              "fn-airforce-technology",
+              "fn-deagel",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Mikoyan MiG-31 baseline production model",
+            "text": "MiG-31 / MiG-31P: early/baseline air-defence interceptor family.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Mikoyan MiG-31 upgraded avionics or weapons-capable model",
+            "text": "MiG-31B / BS: improved or retrofitted Cold War-era standards.",
             "refs": [
-              "fn-main"
+              "fn-deagel",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Mikoyan MiG-31 two-seat trainer or conversion model",
+            "text": "MiG-31BM / BSM: principal Russian modernization with new displays, computer, radar modes, datalinks, and broader weapons compatibility.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology",
+              "fn-deagel"
             ]
           },
           {
-            "text": "Mikoyan MiG-31 export or locally modernized model",
+            "text": "MiG-31E: export model proposal.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology",
+              "fn-deagel"
+            ]
+          },
+          {
+            "text": "MiG-31M: advanced prototype/upgrade effort not fielded as a large standard fleet.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-deagel"
+            ]
+          },
+          {
+            "text": "MiG-31D/S: anti-satellite or aerospace-launch-related experiment families.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-deagel"
+            ]
+          },
+          {
+            "text": "MiG-31K/I: specialized large-missile carrier adaptations associated with Kinzhal-class missions.",
+            "refs": [
+              "fn-deagel",
+              "fn-wikipedia"
             ]
           }
         ]
@@ -32377,29 +32596,41 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Soviet Union. Mikoyan MiG-31 has 1 designer or builder country entry.",
+            "text": "The MiG-31 was never widely exported. Its size, mission specialization, cost, and Soviet/Russian air-defence integration made it more of a national strategic interceptor than a general-purpose fighter for many air forces.",
             "refs": [
-              "fn-wikidata"
+              "fn-airforce-technology",
+              "fn-deagel"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Russia is the principal current operator. Kazakhstan operated inherited aircraft after the Soviet breakup and is listed by current general sources as having retired the type. Syria was associated with a proposed order that was cancelled or not completed.",
             "refs": [
-              "fn-method"
+              "fn-airforce-technology",
+              "fn-deagel",
+              "fn-wikipedia"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Russia — active operator of modernized/interceptor and specialized missile-carrier variants.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology",
+              "fn-deagel",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Major designer or builder entries: Soviet Union.",
+            "text": "Kazakhstan — historical operator; reportedly retired by 2023.",
             "refs": [
-              "fn-wikidata"
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Syria — reported order/proposal cancelled or not delivered.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-deagel"
             ]
           }
         ]
@@ -32409,13 +32640,98 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 2, propulsion type Jet, maximum speed category Supersonic, first flight 1975, introduction 1981.",
+            "text": "Representative figures below primarily describe baseline MiG-31/MiG-31B-family aircraft and should not be read as exact for every BM, K, I, export, or test conversion. Sources differ on whether range means combat radius, mission radius, ferry range, or service range with refueling.",
             "refs": [
-              "fn-main"
+              "fn-method",
+              "fn-airforce-technology",
+              "fn-deagel"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Crew",
+            "text": "2: pilot and weapon-systems officer."
+          },
+          {
+            "title": "Length",
+            "text": "About 21.5–21.6 m."
+          },
+          {
+            "title": "Wingspan",
+            "text": "About 13.5–14 m."
+          },
+          {
+            "title": "Height",
+            "text": "About 6.5–6.6 m."
+          },
+          {
+            "title": "Maximum takeoff weight",
+            "text": "About 46,200 kg."
+          },
+          {
+            "title": "Engines",
+            "text": "Two D-30F6 afterburning turbofans."
+          },
+          {
+            "title": "Maximum speed",
+            "text": "About 3,000 km/h at high altitude; about 1,500 km/h low altitude."
+          },
+          {
+            "title": "Service ceiling",
+            "text": "About 20,600–21,500 m depending on source/variant."
+          },
+          {
+            "title": "Ferry range",
+            "text": "About 3,000–3,300 km; up to about 5,400 km cited with one in-flight refueling."
+          },
+          {
+            "title": "Rate of climb",
+            "text": "About 208 m/s."
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The Foxhound is strongest as a high-speed, sensor-heavy interceptor. It can move quickly to a launch position, search large volumes of airspace, share target data with other aircraft, and fire long-range missiles at targets that would be difficult for shorter-ranged fighters to police over remote territory.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-deagel"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Its limitations follow from the same design choices: it is large, fuel-hungry, complex to maintain, and not intended for agile dogfighting. Modern survivability also depends on updated electronic warfare, command-and-control support, and missile standoff rather than stealth.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: speed and altitude for rapid interception.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "Strength: phased-array radar and cooperative datalinks.",
+            "refs": [
+              "fn-deagel",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Limitation: heavy, non-stealthy, and limited maneuvering compared with air-superiority fighters.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Limitation: range and payload figures vary greatly by mission profile and variant.",
             "refs": [
               "fn-method"
             ]
@@ -32424,10 +32740,10 @@
       },
       {
         "id": "similar-development",
-        "title": "Similar Development",
+        "title": "Similar Development and Related Pages",
         "paragraphs": [
           {
-            "text": "Mikoyan MiG-31 similar-development links: 4.",
+            "text": "Related aircraft include the MiG-25 predecessor, Soviet/Russian fighters and bombers that share the broader high-speed air-defence context, and Western aircraft often compared for speed, radar, or interception mission rather than direct role equivalence.",
             "refs": [
               "fn-method"
             ]
@@ -32435,20 +32751,20 @@
         ],
         "links": [
           {
+            "label": "Mikoyan-Gurevich MiG-25",
+            "url": "aircraft.html?id=mig-25"
+          },
+          {
+            "label": "Sukhoi Su-27",
+            "url": "aircraft.html?id=su-27"
+          },
+          {
             "label": "McDonnell Douglas F-15 Eagle",
             "url": "aircraft.html?id=f-15-eagle"
           },
           {
-            "label": "General Dynamics F-16 Fighting Falcon",
-            "url": "aircraft.html?id=f-16-fighting-falcon"
-          },
-          {
-            "label": "McDonnell Douglas F/A-18 Hornet",
-            "url": "aircraft.html?id=f-a-18-hornet"
-          },
-          {
-            "label": "Boeing F/A-18E/F Super Hornet",
-            "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+            "label": "Tupolev Tu-22M",
+            "url": "aircraft.html?id=tu-22m"
           }
         ]
       }
