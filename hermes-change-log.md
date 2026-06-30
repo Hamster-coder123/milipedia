@@ -395,3 +395,79 @@ Record the result of:
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * Boeing's current public page reports 275 aircraft operating worldwide, while total production and current fleet counts can be expressed differently by source and date; the page uses cautious wording rather than a fixed current inventory table.
 * Defensive systems, exact current readiness/base details, national communications fits, and mishap history were not expanded in this run because they vary by aircraft, operator, date, or require dedicated dated sources.
+
+### Run 6 — 2026-06-30 01:01:43 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Mil Mi-26 Halo (id: mi-26)
+* Reason selected: The Mi-26 entry was one of the sparsest unedited aircraft records found in the comparison pass, with no real operators, no complete variants, no external article sources, missing payload/range/engine/ceiling details, and generic generated sections far below the F-16 reference density.
+* Previous condition: Placeholder-like generated entry with 15 exact fact fields, 0 operator entries, 0 variant entries, 0 external article sources, no Mi-26T/T2/T2V modernization detail, no 20-ton payload/ramp/external-lift explanation, no meaningful operator coverage, and only generic overview/development/design/service text.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview lead; article-section order covering overview, development, design, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, sources, and related pages; short sourced paragraphs; card-style key facts; specification emphasis within the JSON renderer; cautious public-source caveats; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the Mi-26 entry in data/aircraft.json into a fuller Milipedia article data record while preserving the existing JSON-rendered aircraft-page structure.
+* Updated top-level facts for name, alternative names, NATO reporting name, manufacturer/production lineage, role, type, first flight, introduction, active status, number-built caveat, crew, engines, maximum speed, range, ceiling, unarmed transport role, hardpoints/external sling-load wording, development history, service history, summary, variants, operators, related aircraft, and article-quality counts.
+* Replaced sparse utility-helicopter wording with Mi-26-specific heavy-lift language covering 20-ton cargo, rear loading doors, internal and external loads, disaster response, medical evacuation, firefighting, fuel transport, and remote logistics.
+* Added manufacturer-release/industry/civil-cargo sources from Vertical Magazine/Russian Helicopters, Helicopter Industry, and Air Charter Service; retained Wikipedia only as supplementary orientation and kept the Milipedia accuracy-rules source.
+* Added/expanded sections for Overview, Development History, Design and Capabilities, Specifications, Variants and Modernization, Operators, Operational History, Comparison and Role Context, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added public technical details for two D-136 class turboshaft engines, Mi-26T2/T2V modernization context, approximately 20-ton cargo capability, 56-ton maximum takeoff weight, 183 mph maximum speed, 158 mph cruise speed, 497 mile normal-load range, 1,193 mile ferry range, and 15,092 ft altitude figure where source-supported.
+* Added representative variant coverage for Mi-26, Mi-26T, Mi-26T2, Mi-26T2V, Mi-26S, Mi-26MS, and Mi-26TP.
+* Added representative operator coverage for Russia, the Soviet Union, India, Algeria, and civil heavy-lift operators with caveats about dated fleet counts.
+* Added comparison context against the existing CH-47 Chinook, CH-53 Sea Stallion, Il-76, and An-22 pages.
+* Omitted fixed current fleet totals, detailed combat-loss tables, and operator-by-operator active-inventory counts because those facts vary by source/date and need dedicated dated verification.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Mil Mi-26 Halo aircraft page data and sources.
+* hermes-change-log.md — Appended the cumulative Run 6 log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json, hermes-change-log.md, and a temporary helper script were present; only the intended two files were staged for commit after removing the helper script.
+2. git diff — Reviewed diff/stat; data/aircraft.json changes are limited to the Mi-26 entry, and hermes-change-log.md adds this Run 6 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed Mi-26 sections, sources, footnotes/external articles, article quality fields, variants/operators, and unarmed heavy-lift wording.
+4. F-16 style comparison — Inspected data/f16-template.html and copied its dense lead, section order, sourced paragraphs, specification emphasis, variants/operators/service/comparison/timeline coverage, source notes, and related-page patterns within the JSON article system.
+5. Internal link check — Verified aircraft.html?id=ch-47-chinook, aircraft.html?id=ch-53-sea-stallion, aircraft.html?id=il-76, and aircraft.html?id=an-22 target existing aircraft ids in data/aircraft.json.
+6. Secret/token check — Ran credential-specific scan over the staged diff for API keys, tokens, passwords, private keys, GitHub tokens, and AWS credentials; no credentials were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, diff check, intended files only, Mi-26 was not previously edited by Hermes, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Mil Mi-26 Halo
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* Mi-26 active fleet totals, export inventory status, combat loss details, and exact operator-by-operator serviceability vary by date and source, so the page uses representative operator categories and cautious wording rather than fixed current inventory tables.
+* Some performance figures are specifically sourced to Mi-26T2 reporting; the page labels them as representative rather than universal to every Mi-26 variant.

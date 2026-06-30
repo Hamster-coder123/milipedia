@@ -41419,35 +41419,67 @@
   },
   {
     "id": "mi-26",
-    "name": "Mil Mi-26",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "name": "Mil Mi-26 Halo",
+    "alternative_names": [
+      "Mi-26",
+      "Mi-26T",
+      "Mi-26T2",
+      "Mi-26T2V",
+      "Halo"
+    ],
+    "nato_reporting_name": "Halo",
     "country_of_origin": "Soviet Union/Russia",
-    "manufacturer": "Mil",
-    "role": "Heavy-lift helicopter",
-    "aircraft_type": "Helicopter",
-    "era": "Modern",
-    "first_flight": "1977",
+    "manufacturer": "Mil Moscow Helicopter Plant / Rostvertol / Russian Helicopters",
+    "role": "Heavy-lift transport helicopter",
+    "aircraft_type": "Heavy transport helicopter",
+    "era": "Late Cold War / modern",
+    "first_flight": "14 December 1977",
     "introduction_date": "1983",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "5",
-    "engine_type": "Turboshaft",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
-    "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Utility helicopter weapons not listed.",
-    "hardpoints": "Not listed",
+    "status": "Active in military, government, and civil heavy-lift service",
+    "number_built": "More than 300 reported in public sources; exact current production total varies by date",
+    "crew": "5 on baseline Mi-26; Mi-26T2 reduces crew to 3 with modern avionics",
+    "engine_type": "Twin turboshaft",
+    "engines": "Two Ivchenko-Progress / Motor Sich D-136 turboshafts; Mi-26T2V reporting cites about 12,200 hp each",
+    "max_speed": "About 183 mph / 295 km/h maximum for Mi-26T2; about 158 mph / 255 km/h cruise",
+    "speed_category": "Subsonic helicopter",
+    "range": "About 497 miles with normal load for Mi-26T2; ferry range about 1,193 miles in manufacturer-release reporting",
+    "combat_range": "Mission radius depends strongly on payload, fuel, altitude, and external-load drag",
+    "service_ceiling": "About 15,092 ft / 4,600 m cited for Mi-26T2",
+    "rate_of_climb": "Not listed in the sources used for this update",
+    "armament": "Normally unarmed; some military examples may carry defensive equipment, but the type is principally a heavy-lift transport helicopter",
+    "hardpoints": "External sling-load system for outsized cargo; not a combat hardpoint aircraft",
     "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Mil Mi-26: Heavy-lift helicopter. Manufacturer: Mil. First flight: 1977. Introduction: 1983.",
-    "short_summary": "Mil Mi-26: Heavy-lift helicopter. Origin: Soviet Union/Russia. Manufacturer: Mil. First flight: 1977. Introduction: 1983. Status: Active.",
+    "operators": [
+      {
+        "country": "Russia",
+        "service": "Russian Aerospace Forces / Russian government and civil operators",
+        "note": "Primary current operator family; modernization and deliveries are associated with Rostvertol/Russian Helicopters."
+      },
+      {
+        "country": "Soviet Union",
+        "service": "Soviet military and civil aviation",
+        "note": "Original user from early-1980s service entry before dissolution of the Soviet Union."
+      },
+      {
+        "country": "India",
+        "service": "Indian Air Force",
+        "note": "Listed in public references as an Mi-26 operator; current availability and fleet status should be verified against dated Indian sources."
+      },
+      {
+        "country": "Algeria",
+        "service": "Algerian Air Force",
+        "note": "Public references list Algeria among Mi-26 operators; exact active inventory varies by source/date."
+      },
+      {
+        "country": "Civil heavy-lift operators",
+        "service": "Charter, construction, energy, disaster-response, and firefighting missions",
+        "note": "Civil Mi-26/Mi-26T aircraft are used for outsized cargo and remote heavy-lift work where roads or runways are unavailable."
+      }
+    ],
+    "combat_history": "Used for military logistics, disaster response, firefighting, medical evacuation, heavy civil cargo work, and post-Soviet/Russian operations. Public sources also note use in Afghanistan-era and Russo-Ukrainian contexts, but mission-by-mission claims should be checked against dated sources.",
+    "development_history": "The Mi-26 was developed by Mil as a successor to earlier Soviet heavy-lift helicopters such as the Mi-6 and Mi-10/Mi-12 concepts, with a requirement to move approximately 20-ton loads for military and civil missions. It first flew on 14 December 1977 and entered service in the early 1980s.",
+    "short_summary": "The Mil Mi-26 Halo is a Soviet/Russian heavy-lift transport helicopter designed to move outsized cargo, vehicles, troops, casualties, fuel, or firefighting loads that are too heavy or bulky for smaller helicopters. It is widely described as the largest helicopter to enter serial production and remains active in military, emergency-service, and civil heavy-lift roles.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -41460,18 +41492,32 @@
     ],
     "sources": [
       {
+        "id": "fn-russian-helicopters-mi26t2",
+        "title": "Russian Helicopters to deliver first Mi-26T2 to Russian Ministry of Emergency Situations",
+        "url": "https://verticalmag.com/press-releases/russian-helicopters-to-deliver-first-mi-26t2-to-russian-ministry-of-emergency-situations",
+        "publisher": "Vertical Magazine / Russian Helicopters release",
+        "note": "Manufacturer-release reporting for Mi-26T2 avionics, payload, mission roles, speed, altitude, range, and crew-reduction details."
+      },
+      {
+        "id": "fn-helicopter-industry-mi26t2v",
+        "title": "Mi-26T2V: the rebirth of a giant",
+        "url": "https://www.helicopter-industry.com/mi-26t2v-the-rebirth-of-a-giant",
+        "publisher": "Helicopter Industry",
+        "note": "Industry overview of the Mi-26T2V modernization, Mil design lineage, heavy-lift requirement, versions, avionics, and D-136 powerplant."
+      },
+      {
+        "id": "fn-air-charter-service-mi26",
+        "title": "MIL MI-26 aircraft guide",
+        "url": "https://www.aircharterservice.com/aircraft-guide/cargo/milhelicopters-cis/milmi-26",
+        "publisher": "Air Charter Service",
+        "note": "Civil cargo reference for Mi-26 outsized-cargo role, rear loading doors, and 20-ton payload capability."
+      },
+      {
         "id": "fn-main",
         "title": "Mil Mi-26",
         "url": "https://en.wikipedia.org/wiki/Mil_Mi-26",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation for dates, NATO reporting name, production context, and operator/variant cross-checks; not used as the sole source for technical claims."
       },
       {
         "id": "fn-method",
@@ -41492,165 +41538,234 @@
       }
     ],
     "designers": [
-      "Mil"
+      "Mil Moscow Helicopter Plant",
+      "Rostvertol production plant",
+      "Russian Helicopters modernization programs"
     ],
     "development_tensions": [
-      "Balancing lift, survivability, vibration, hot-and-high performance, and battlefield maintainability."
+      "Lifting a 20-ton class payload while keeping empty weight low enough for practical range and hot-and-high performance.",
+      "Managing vibration, transmission loads, and rotor efficiency through an eight-blade main rotor and very large gearbox.",
+      "Keeping a very large helicopter useful for both military logistics and civil/disaster-response missions.",
+      "Modernizing avionics and survivability without changing the basic heavy-lift role of the aircraft."
     ],
     "wars_used_in": [
       {
+        "name": "Soviet-Afghan War and post-Soviet operations",
+        "note": "Public secondary sources associate Mi-26 use with Soviet/Russian and post-Soviet heavy-lift operations; detailed sortie claims require dated sources."
+      },
+      {
         "name": "Russo-Ukrainian War",
-        "note": "Mil Mi-26 used in Russo-Ukrainian War."
+        "note": "Mi-26 use is reported in the broader conflict context, but this page avoids unsourced aircraft-by-aircraft claims."
       }
     ],
     "variant_families": [
-      "Mil Mi-26 baseline production model",
-      "Mil Mi-26 upgraded avionics or weapons-capable model",
-      "Mil Mi-26 utility, attack, naval, or export model"
+      "Mi-26 baseline military transport",
+      "Mi-26T civil cargo transport",
+      "Mi-26T2 reduced-crew modernized transport",
+      "Mi-26T2V military modernization",
+      "Mi-26S disaster-response/decontamination variant",
+      "Mi-26MS medical evacuation variant",
+      "Mi-26TP firefighting variant"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "Soviet Union",
         "Russia"
       ],
-      "major_user_note": "Mil Mi-26 has 2 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Primary use has centered on Soviet/Russian military and government/civil heavy-lift operations, with export and civil operators using the type where 20-ton helicopter lift is required.",
+      "all_operators_status": "Representative operator entries added; exact active fleet counts require dated verification."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "The Mi-26 family is notable for serial-production heavy-lift scale rather than named individual aircraft in this update."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Used for Chernobyl-related cleanup and disaster-response tasks in public histories; detailed incident tables were not expanded in this run."
       ]
     },
     "engine_details": {
-      "type": "Turboshaft",
-      "summary": "Mil Mi-26 uses turboshaft propulsion."
+      "type": "Twin turboshaft",
+      "summary": "The Mi-26 family uses two D-136 class turboshaft engines driving an eight-blade main rotor through a very large transmission; Mi-26T2V reporting cites about 12,200 hp per engine."
     },
     "armament_details": {
-      "summary": "Utility helicopter weapons not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Normally unarmed heavy-lift helicopter. It is built around internal cargo, troop/casualty transport, external sling loads, fuel transport, and firefighting rather than fixed weapons.",
+      "caution": "Defensive aids or military mission equipment can vary by operator and modernization standard; no fixed weapons list is asserted here."
     },
     "similar_development": [
       {
-        "id": "ah-1-cobra",
-        "name": "Bell AH-1 Cobra",
-        "url": "aircraft.html?id=ah-1-cobra"
+        "id": "ch-47-chinook",
+        "name": "Boeing CH-47 Chinook",
+        "url": "aircraft.html?id=ch-47-chinook"
       },
       {
-        "id": "ah-64-apache",
-        "name": "Boeing AH-64 Apache",
-        "url": "aircraft.html?id=ah-64-apache"
+        "id": "ch-53-sea-stallion",
+        "name": "Sikorsky CH-53 Sea Stallion",
+        "url": "aircraft.html?id=ch-53-sea-stallion"
       },
       {
-        "id": "uh-1-iroquois",
-        "name": "Bell UH-1 Iroquois",
-        "url": "aircraft.html?id=uh-1-iroquois"
+        "id": "il-76",
+        "name": "Ilyushin Il-76",
+        "url": "aircraft.html?id=il-76"
       },
       {
-        "id": "uh-60-black-hawk",
-        "name": "Sikorsky UH-60 Black Hawk",
-        "url": "aircraft.html?id=uh-60-black-hawk"
+        "id": "an-22",
+        "name": "Antonov An-22",
+        "url": "aircraft.html?id=an-22"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 34,
+      "operator_entries": 5,
+      "variant_entries": 7,
+      "external_article_sources": 3
     },
     "footnotes": [
+      {
+        "id": "fn-russian-helicopters-mi26t2",
+        "title": "Russian Helicopters to deliver first Mi-26T2 to Russian Ministry of Emergency Situations",
+        "url": "https://verticalmag.com/press-releases/russian-helicopters-to-deliver-first-mi-26t2-to-russian-ministry-of-emergency-situations",
+        "publisher": "Vertical Magazine / Russian Helicopters release",
+        "note": "Manufacturer-release reporting for Mi-26T2 avionics, payload, mission roles, speed, altitude, range, and crew-reduction details."
+      },
+      {
+        "id": "fn-helicopter-industry-mi26t2v",
+        "title": "Mi-26T2V: the rebirth of a giant",
+        "url": "https://www.helicopter-industry.com/mi-26t2v-the-rebirth-of-a-giant",
+        "publisher": "Helicopter Industry",
+        "note": "Industry overview of the Mi-26T2V modernization, Mil design lineage, heavy-lift requirement, versions, avionics, and D-136 powerplant."
+      },
+      {
+        "id": "fn-air-charter-service-mi26",
+        "title": "MIL MI-26 aircraft guide",
+        "url": "https://www.aircharterservice.com/aircraft-guide/cargo/milhelicopters-cis/milmi-26",
+        "publisher": "Air Charter Service",
+        "note": "Civil cargo reference for Mi-26 outsized-cargo role, rear loading doors, and 20-ton payload capability."
+      },
       {
         "id": "fn-main",
         "title": "Mil Mi-26",
         "url": "https://en.wikipedia.org/wiki/Mil_Mi-26",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation for dates, NATO reporting name, production context, and operator/variant cross-checks; not used as the sole source for technical claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "Russian Helicopters to deliver first Mi-26T2 to Russian Ministry of Emergency Situations",
+        "url": "https://verticalmag.com/press-releases/russian-helicopters-to-deliver-first-mi-26t2-to-russian-ministry-of-emergency-situations",
+        "publisher": "Vertical Magazine / Russian Helicopters release"
+      },
+      {
+        "title": "Mi-26T2V: the rebirth of a giant",
+        "url": "https://www.helicopter-industry.com/mi-26t2v-the-rebirth-of-a-giant",
+        "publisher": "Helicopter Industry"
+      },
+      {
+        "title": "MIL MI-26 aircraft guide",
+        "url": "https://www.aircharterservice.com/aircraft-guide/cargo/milhelicopters-cis/milmi-26",
+        "publisher": "Air Charter Service"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Mil Mi-26 is a Heavy-lift helicopter from Soviet Union/Russia. Manufacturer: Mil. First flight: 1977. Introduction: 1983. Status: Active.",
+            "text": "The Mil Mi-26 Halo is a Soviet/Russian heavy-lift transport helicopter developed by Mil and produced by Rostvertol/Russian Helicopters. It is built for loads that are too heavy or bulky for ordinary helicopters, including vehicles, relief supplies, fuel, firefighting equipment, and outsized industrial cargo.",
             "refs": [
+              "fn-russian-helicopters-mi26t2",
+              "fn-air-charter-service-mi26"
+            ]
+          },
+          {
+            "text": "Public references commonly describe the Mi-26 as the largest helicopter to enter serial production. Its design centers on a 20-ton class payload, rear loading doors, a cavernous cargo hold, and external sling-load capability rather than speed or combat maneuverability.",
+            "refs": [
+              "fn-air-charter-service-mi26",
               "fn-main"
             ]
           },
           {
-            "text": "Mil Mi-26 is a helicopter. Primary role: heavy-lift helicopter. Country of origin: Soviet Union/Russia. Manufacturer: Mil.",
+            "text": "The family remains active through baseline Mi-26 transports and modernized Mi-26T2/T2V variants, whose updates emphasize avionics, night/all-weather operation, reduced crew workload, and safer rescue or military transport missions.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Exact structured fact fields: 15.",
-            "refs": [
-              "fn-method"
+              "fn-russian-helicopters-mi26t2",
+              "fn-helicopter-industry-mi26t2v"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Heavy-lift helicopter"
+            "text": "Heavy-lift transport helicopter"
           },
           {
-            "title": "Designer or builder",
-            "text": "Mil"
+            "title": "NATO reporting name",
+            "text": "Halo"
           },
           {
-            "title": "Major origin",
-            "text": "Soviet Union, Russia"
+            "title": "Payload class",
+            "text": "Up to about 20 tons / 44,000 lb"
           },
           {
-            "title": "Propulsion",
-            "text": "Turboshaft"
+            "title": "Powerplant",
+            "text": "Two D-136 class turboshafts"
+          },
+          {
+            "title": "Status",
+            "text": "Active in military, government, and civil heavy-lift use"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Mil Mi-26 first flew in 1977. Introduction date: 1983. Era: Modern.",
+            "text": "Mil developed the Mi-26 in the 1970s after earlier Soviet heavy-lift helicopter experience with the Mi-6, Mi-10, and the much larger but impractical Mi-12/V-12 concept. The new helicopter sought comparable strategic usefulness without the complexity of the V-12 layout.",
             "refs": [
+              "fn-helicopter-industry-mi26t2v",
               "fn-main"
             ]
           },
           {
-            "text": "Producer: Mil. Development context: heavy-lift helicopter, turboshaft propulsion, subsonic speed category, Modern era.",
+            "text": "The aircraft first flew on 14 December 1977 and entered service in the early 1980s. The design goal was not simply size: it needed a useful payload fraction, a practical cargo cabin, and enough range to move heavy equipment between airheads, remote sites, and disaster areas.",
             "refs": [
-              "fn-wikidata"
+              "fn-main",
+              "fn-helicopter-industry-mi26t2v"
+            ]
+          },
+          {
+            "text": "Later modernization programs such as Mi-26T2 and Mi-26T2V retained the heavy-lift airframe while replacing or improving avionics, navigation, autopilot, cockpit displays, and survivability features.",
+            "refs": [
+              "fn-russian-helicopters-mi26t2",
+              "fn-helicopter-industry-mi26t2v"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing lift, survivability, vibration, hot-and-high performance, and battlefield maintainability.",
+            "text": "Original requirement: move roughly 20-ton class loads internally or externally for military and civil users.",
             "refs": [
-              "fn-method"
+              "fn-helicopter-industry-mi26t2v"
+            ]
+          },
+          {
+            "text": "Mi-26T2: civil/government modernization with glass cockpit, modern navigation, and three-person crew reporting.",
+            "refs": [
+              "fn-russian-helicopters-mi26t2"
+            ]
+          },
+          {
+            "text": "Mi-26T2V: military modernization emphasizing NPK90-2V avionics, automated flight/navigation aids, and improved operation in difficult conditions.",
+            "refs": [
+              "fn-helicopter-industry-mi26t2v"
             ]
           }
         ]
@@ -41660,150 +41775,134 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 5. Propulsion: Turboshaft. Speed category: Subsonic.",
+            "text": "The Mi-26 uses an eight-blade main rotor, a large tail rotor, twin D-136 class turboshaft engines, and a rear-ramp cargo hold. The aircraft can carry bulky loads internally or lift large loads externally, making it useful when roads, runways, or fixed-wing cargo access are unavailable.",
             "refs": [
-              "fn-main"
+              "fn-main",
+              "fn-air-charter-service-mi26"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "The design is transport-focused. It is normally unarmed, and its value comes from payload, volume, and the ability to place cargo directly at austere sites rather than from combat speed or self-escort capability.",
             "refs": [
-              "fn-method"
+              "fn-method",
+              "fn-air-charter-service-mi26"
             ]
           },
           {
-            "text": "Mil Mi-26 uses turboshaft propulsion. Engine model field: Not listed.",
+            "text": "Modern Mi-26T2 avionics include digital cockpit displays, inertial navigation, GLONASS/Navstar positioning, enhanced ground-proximity warning, digital autopilot functions, and crew-safety improvements such as energy-absorbing seats.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Utility helicopter weapons not listed. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-russian-helicopters-mi26t2"
             ]
           }
         ],
         "cards": [
           {
+            "title": "Main rotor",
+            "text": "Eight-blade main rotor"
+          },
+          {
+            "title": "Cargo access",
+            "text": "Rear loading doors/ramp for outsized freight"
+          },
+          {
             "title": "Crew",
-            "text": "5"
+            "text": "Baseline crew 5; Mi-26T2 crew reported as 3"
           },
           {
-            "title": "Engine class",
-            "text": "Turboshaft"
+            "title": "Typical missions",
+            "text": "Heavy cargo, disaster relief, firefighting, medical evacuation, fuel transport"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
-          },
-          {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Armament",
+            "text": "Normally unarmed"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Mil Mi-26 status: Active. Conflict entries: 1.",
+            "text": "Representative public Mi-26T2 figures include a maximum takeoff weight of about 56 tons, cargo capacity of about 20 tons, maximum speed of about 183 mph, cruise speed of about 158 mph, operating altitude around 15,092 ft, range of about 497 miles with normal load, and ferry range around 1,193 miles.",
             "refs": [
-              "fn-main"
+              "fn-russian-helicopters-mi26t2"
             ]
           },
           {
-            "text": "Conflicts: Russo-Ukrainian War.",
+            "text": "Specifications vary across baseline Mi-26, Mi-26T, Mi-26T2, and Mi-26T2V sources. This page therefore uses variant-aware wording instead of forcing one universal performance table.",
             "refs": [
               "fn-method"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Russo-Ukrainian War: Mil Mi-26 used in Russo-Ukrainian War.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Mil Mi-26 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum takeoff weight",
+            "text": "About 56 tons for Mi-26T2"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum cargo",
+            "text": "About 20 tons / 44,000 lb"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum speed",
+            "text": "About 183 mph / 295 km/h"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Cruise speed",
+            "text": "About 158 mph / 255 km/h"
+          },
+          {
+            "title": "Range",
+            "text": "About 497 mi normal-load; about 1,193 mi ferry"
+          },
+          {
+            "title": "Ceiling/altitude figure",
+            "text": "About 15,092 ft cited for Mi-26T2"
           }
         ]
       },
       {
         "id": "variants",
-        "title": "Variants",
+        "title": "Variants and Modernization",
         "paragraphs": [
           {
-            "text": "Mil Mi-26 variant-family entries: 3. Variant families: Mil Mi-26 baseline production model; Mil Mi-26 upgraded avionics or weapons-capable model; Mil Mi-26 utility, attack, naval, or export model.",
+            "text": "The Mi-26 family includes military transports, civil cargo models, medical, firefighting, tanker, and modernization variants. Public sources list many subvariants, but the main operational distinction is between baseline heavy-lift airframes and updated T2/T2V aircraft with modern avionics.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-helicopter-industry-mi26t2v",
+              "fn-russian-helicopters-mi26t2"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Mil Mi-26 baseline production model",
+            "text": "Mi-26: baseline heavy military/civil transport helicopter.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Mil Mi-26 upgraded avionics or weapons-capable model",
+            "text": "Mi-26T: civil cargo transport version for commercial heavy-lift work.",
             "refs": [
-              "fn-main"
+              "fn-helicopter-industry-mi26t2v"
             ]
           },
           {
-            "text": "Mil Mi-26 utility, attack, naval, or export model",
+            "text": "Mi-26T2: modernized version with glass cockpit, navigation upgrades, autopilot functions, and reduced crew workload.",
             "refs": [
+              "fn-russian-helicopters-mi26t2"
+            ]
+          },
+          {
+            "text": "Mi-26T2V: military modernization with NPK90-2V avionics and additional mission/survivability equipment described in industry reporting.",
+            "refs": [
+              "fn-helicopter-industry-mi26t2v"
+            ]
+          },
+          {
+            "text": "Mi-26S / Mi-26TP / Mi-26MS: disaster-response, firefighting, and medical-evacuation families noted in public variant lists.",
+            "refs": [
+              "fn-helicopter-industry-mi26t2v",
               "fn-main"
             ]
           }
@@ -41814,57 +41913,79 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Soviet Union, Russia. Mil Mi-26 has 2 designer or builder country entry.",
+            "text": "The Mi-26 has served with Soviet/Russian military and government users, export air arms, emergency-services organizations, and civil heavy-lift companies. Exact fleet counts shift by year, modernization status, and source, so this page lists representative operator categories rather than a dated inventory table.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-main",
+              "fn-russian-helicopters-mi26t2"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Russia: Russian Aerospace Forces and government/civil heavy-lift users are the core current operator family.",
+            "refs": [
+              "fn-russian-helicopters-mi26t2",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Soviet Union: original military and civil service entry in the early 1980s.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Major designer or builder entries: Soviet Union, Russia.",
+            "text": "India and Algeria: listed in public references as Mi-26 operator countries; exact current serviceability and inventory require dated local sources.",
             "refs": [
-              "fn-wikidata"
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Civil operators: charter and specialized lift missions for construction, energy, disaster relief, firefighting, and remote logistics.",
+            "refs": [
+              "fn-air-charter-service-mi26"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "service",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 5, propulsion type Turboshaft, maximum speed category Subsonic, first flight 1977, introduction 1983.",
+            "text": "In service, the Mi-26 is a problem-solving aircraft: it can lift vehicles, generators, bridge sections, remote-site equipment, fuel, firefighting buckets, or relief cargo where smaller helicopters would need multiple sorties or cannot carry the load at all.",
             "refs": [
-              "fn-main"
+              "fn-air-charter-service-mi26",
+              "fn-russian-helicopters-mi26t2"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Public histories associate the Mi-26 with Afghanistan-era Soviet use, Chernobyl-related recovery work, United Nations/humanitarian operations, firefighting, and later Russian/post-Soviet conflicts. The page keeps those references general where detailed mission records were not checked in this run.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The Mi-26T2 release emphasizes emergency-service missions including rescue, medical evacuation, firefighting, tanker use, and transport of up to 82 evacuees or 60 wounded with three paramedics in medical configuration.",
+            "refs": [
+              "fn-russian-helicopters-mi26t2"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Role Context",
+        "paragraphs": [
+          {
+            "text": "Compared with the CH-47 Chinook and CH-53 Sea Stallion families, the Mi-26 is optimized for a much larger single helicopter payload, but it is also larger, more logistically demanding, and less flexible for shipboard or tactical assault roles.",
             "refs": [
               "fn-method"
             ]
-          }
-        ]
-      },
-      {
-        "id": "similar-development",
-        "title": "Similar Development",
-        "paragraphs": [
+          },
           {
-            "text": "Mil Mi-26 similar-development links: 4.",
+            "text": "Compared with fixed-wing transports such as the Il-76 or An-22, the Mi-26 carries less cargo over shorter distances but can deliver heavy loads vertically to places without suitable runways.",
             "refs": [
               "fn-method"
             ]
@@ -41872,20 +41993,139 @@
         ],
         "links": [
           {
-            "label": "Bell AH-1 Cobra",
-            "url": "aircraft.html?id=ah-1-cobra"
+            "label": "Boeing CH-47 Chinook",
+            "url": "aircraft.html?id=ch-47-chinook"
           },
           {
-            "label": "Boeing AH-64 Apache",
-            "url": "aircraft.html?id=ah-64-apache"
+            "label": "Sikorsky CH-53 Sea Stallion",
+            "url": "aircraft.html?id=ch-53-sea-stallion"
           },
           {
-            "label": "Bell UH-1 Iroquois",
-            "url": "aircraft.html?id=uh-1-iroquois"
+            "label": "Ilyushin Il-76",
+            "url": "aircraft.html?id=il-76"
           },
           {
-            "label": "Sikorsky UH-60 Black Hawk",
-            "url": "aircraft.html?id=uh-60-black-hawk"
+            "label": "Antonov An-22",
+            "url": "aircraft.html?id=an-22"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include unmatched serial-production helicopter lift, internal and external cargo flexibility, disaster-response usefulness, and the ability to bypass damaged or nonexistent surface infrastructure.",
+            "refs": [
+              "fn-air-charter-service-mi26",
+              "fn-russian-helicopters-mi26t2"
+            ]
+          },
+          {
+            "text": "Limitations include high operating cost, large landing-zone requirements, logistics demands, vulnerability if operated without protection in contested airspace, and specification differences between variants and upgrades.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Best suited to: outsized lift, emergency logistics, firefighting, remote construction, and military heavy cargo.",
+            "refs": [
+              "fn-air-charter-service-mi26"
+            ]
+          },
+          {
+            "text": "Less suited to: small landing zones, shipboard operations, high-threat areas without escort/protection, or missions where smaller helicopters can make repeated economical sorties.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1977: Mi-26 first flight on 14 December.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Early 1980s: production and service entry period; introduction commonly listed as 1983.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "1980s onward: military, civil, disaster-response, firefighting, and cargo roles expand.",
+            "refs": [
+              "fn-main",
+              "fn-air-charter-service-mi26"
+            ]
+          },
+          {
+            "text": "2010s: Mi-26T2 and Mi-26T2V modernization efforts emphasize avionics, reduced workload, and all-weather capability.",
+            "refs": [
+              "fn-russian-helicopters-mi26t2",
+              "fn-helicopter-industry-mi26t2v"
+            ]
+          },
+          {
+            "text": "2020: Russian Helicopters/Rostec release reporting describes first Mi-26T2 delivery agreement for Russia's Ministry of Emergency Situations.",
+            "refs": [
+              "fn-russian-helicopters-mi26t2"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "This update prioritized manufacturer-release reporting and aviation-industry references for Mi-26T2/T2V details, with Wikipedia retained only as a supplementary orientation source. Exact active fleet counts, combat losses, and operator-by-operator inventories were not fixed because they vary by date and require dedicated current sources.",
+            "refs": [
+              "fn-russian-helicopters-mi26t2",
+              "fn-helicopter-industry-mi26t2v",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages for heavy-lift and transport-aircraft role comparison.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Boeing CH-47 Chinook",
+            "url": "aircraft.html?id=ch-47-chinook"
+          },
+          {
+            "label": "Sikorsky CH-53 Sea Stallion",
+            "url": "aircraft.html?id=ch-53-sea-stallion"
+          },
+          {
+            "label": "Ilyushin Il-76",
+            "url": "aircraft.html?id=il-76"
+          },
+          {
+            "label": "Antonov An-22",
+            "url": "aircraft.html?id=an-22"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }
