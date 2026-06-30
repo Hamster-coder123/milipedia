@@ -625,3 +625,81 @@ Record the result of:
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * The National Museum of the U.S. Air Force F-4C page was retained as an official source, but automated extraction returned mostly navigation text in this run; detailed technical figures were therefore based primarily on the Naval Aviation Museum and Hill Aerospace Museum pages.
 * F-4 variant/operator details are unusually broad; exact current export inventory, national modernization blocks, radar fits, weapons clearances, and combat-loss tables were intentionally omitted or described cautiously.
+
+### Run 9 — 2026-06-30 04:03:38 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Grumman A-6 Intruder (id: a-6-intruder)
+* Reason selected: The A-6 entry was a generated, relatively sparse aircraft page compared with the F-16 reference, with no variant records, no operator records, only generic Wikipedia/Wikidata/method sources, broad placeholder specifications, and generic gun/air-to-air missile/external-store wording inappropriate for the Intruder's actual attack-aircraft role.
+* Previous condition: Placeholder-like generated entry with 15 exact fact fields, 0 operator entries, 0 variant entries, 0 external article sources, missing detailed development/design/avionics/operators/timeline content, missing official or museum sources, and incomplete dimensions, engine, range, ceiling, armament, and service-history details.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview and quick-fact style; section order from overview through development, design, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, sources, and related links; concise technical prose; cautious source-qualified specifications; internal aircraft.html?id=... related-link style; neutral wording for variant-, loadout-, and mission-dependent facts.
+
+#### Changes Made
+
+* Expanded the Grumman A-6 Intruder entry in data/aircraft.json into a fuller Milipedia article record while preserving the existing JSON-rendered page system.
+* Corrected top-level facts for manufacturer, role, first flight, service introduction, U.S. Navy/Marine Corps retirement timing, production total, crew arrangement, J52 engines, speed, range, service ceiling, hardpoints, and mission-specific armament.
+* Replaced generic fighter-style armament wording with A-6-specific attack stores language and an explicit note that the Intruder was not a fighter and had no internal gun.
+* Added reliable museum/naval-aviation sources from the National Naval Aviation Museum, USS Midway Museum, The Museum of Flight, and Valiant Air Command, while retaining Wikipedia only as supplementary orientation.
+* Added structured variant records for A-6A, A-6B, A-6C, KA-6D, A-6E, A-6F, and the related EA-6B Prowler derivative.
+* Added U.S. Navy and U.S. Marine Corps operator records and clarified that foreign A-6 attack-variant operators are not normally listed.
+* Added/expanded sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Comparison, Timeline, and Sources and Notes.
+* Added verified technical details for the DIANE navigation/attack system, A-6E TRAM upgrades, side-by-side crew concept, carrier suitability, five external stations, 18,000 lb public stores capacity, 54 ft 9 in length, 53 ft wingspan, 16 ft 2 in height, 560-knot sea-level speed, and 42,400 ft service ceiling.
+* Added combat/use context for Vietnam, Lebanon/Libya-era crisis operations, Operation Praying Mantis, Operation Desert Storm, and Bosnia-related operations with cautious wording.
+* Added internal comparison links to A-4 Skyhawk, A-7 Corsair II, F-14 Tomcat, F/A-18 Hornet, and F/A-18E/F Super Hornet.
+* Removed the generated event gallery from the A-6 entry because it was not useful or source-specific for the improved article.
+* Omitted exact squadron-by-squadron service tables, detailed nuclear configurations, and single definitive range/loadout figures because public sources vary by variant, mission profile, and stores configuration.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Grumman A-6 Intruder aircraft entry and sources.
+* hermes-change-log.md — Appended the cumulative record for Run 9.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed the diff; data/aircraft.json changed only the A-6 Intruder entry, and hermes-change-log.md gained this cumulative run entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the A-6 entry section list, sources, variants, operators, armament correction, and article-quality fields.
+4. F-16 style comparison — Inspected data/f16-template.html and matched its dense overview, development/design/specifications/variants/operators/operational-history/comparison/timeline/source ordering within the JSON article renderer.
+5. Internal link check — Verified internal aircraft.html?id= links for A-4 Skyhawk, A-7 Corsair II, F-14 Tomcat, F/A-18 Hornet, and F/A-18E/F Super Hornet point to existing aircraft IDs.
+6. Secret/token check — Ran a credential-pattern scan over the staged diff for API keys, tokens, passwords, private keys, GitHub tokens, and AWS credentials; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, only intended files staged, exactly one aircraft entry changed, internal links valid, git diff --check clean, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Grumman A-6 Intruder
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* Public A-6 range and payload figures vary by source, loadout, profile, and whether a source is describing ferry range or combat radius, so the page uses cautious ranges and notes rather than a single universal figure.
+* Detailed squadron histories, exact mission loadouts, and nuclear-delivery configurations were intentionally omitted for safe scope and source-certainty reasons.

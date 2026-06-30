@@ -11355,34 +11355,80 @@
   {
     "id": "a-6-intruder",
     "name": "Grumman A-6 Intruder",
-    "alternative_names": [],
+    "alternative_names": [
+      "Intruder",
+      "A2F-1",
+      "A-6A Intruder",
+      "A-6E Intruder",
+      "KA-6D Intruder"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
-    "manufacturer": "Grumman",
-    "role": "All-weather attack aircraft",
+    "manufacturer": "Grumman Corporation / Grumman Aerospace",
+    "role": "Carrier-based all-weather medium attack aircraft",
     "aircraft_type": "Attack aircraft",
     "era": "Cold War",
-    "first_flight": "1960",
-    "introduction_date": "1963",
-    "retirement_date": "Not listed",
-    "status": "Retired",
-    "number_built": "Not listed",
-    "crew": "2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "first_flight": "19 April 1960",
+    "introduction_date": "1963; A-6A training squadrons began receiving aircraft in June 1963",
+    "retirement_date": "U.S. Marine Corps retired the A-6 in 1993; U.S. Navy retired it in 1997",
+    "status": "Retired from U.S. Navy and Marine Corps service; preserved in museums",
+    "number_built": "693 A-6 Intruders reported by The Museum of Flight; related EA-6B Prowlers were a separate derivative",
+    "crew": "2: pilot and bombardier/navigator seated side-by-side",
+    "engine_type": "Twin turbojet",
+    "engines": "Two Pratt & Whitney J52-P-8A/P-8B turbojets, about 9,300 lbf thrust each",
+    "max_speed": "About 560 knots / 644 mph at sea level for A-6E-class aircraft",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Grumman A-6 Intruder: All-weather attack aircraft. Manufacturer: Grumman. First flight: 1960. Introduction: 1963.",
-    "short_summary": "Grumman A-6 Intruder: All-weather attack aircraft. Origin: United States. Manufacturer: Grumman. First flight: 1960. Introduction: 1963. Status: Retired.",
+    "range": "Museum sources list ferry/range figures around 2,740 statute miles or 2,818 nautical miles depending on source and profile; combat radius with maximum payload was much shorter",
+    "combat_range": "About 878 nmi with maximum payload is a common A-6E reference figure; actual radius depended heavily on stores, tanks, carrier cycle, and mission profile",
+    "service_ceiling": "About 42,400 ft",
+    "rate_of_climb": "Common reference figures list roughly 7,600 ft/min, but climb varied by gross weight and stores",
+    "armament": "Up to about 18,000 lb of stores on five stations: conventional bombs, mines, rockets, AGM-45 Shrike, AGM-65 Maverick, AGM-84 Harpoon/SLAM, laser-guided bombs on upgraded aircraft, drop tanks, and nuclear stores when configured. The A-6 was not a fighter and did not carry an internal gun.",
+    "hardpoints": "Five external stations: four underwing and one centerline, each commonly cited around 3,600 lb capacity",
+    "variants": [
+      {
+        "name": "A-6A",
+        "description": "Initial production all-weather attack version using the DIANE navigation/attack system; entered squadron service in the early 1960s and saw extensive Vietnam War use."
+      },
+      {
+        "name": "A-6B",
+        "description": "Modified aircraft used for defense-suppression and anti-radiation missile work during the Vietnam era."
+      },
+      {
+        "name": "A-6C",
+        "description": "Night/interdiction variant with additional sensors for truck and route interdiction in Southeast Asia."
+      },
+      {
+        "name": "KA-6D",
+        "description": "Dedicated tanker conversion that provided carrier-borne aerial refueling for Navy air wings."
+      },
+      {
+        "name": "A-6E",
+        "description": "Definitive attack version with upgraded digital computer, multi-mode radar, and later TRAM sensor integration; many earlier Intruders were rebuilt to A-6E standard."
+      },
+      {
+        "name": "A-6F",
+        "description": "Proposed advanced Intruder with newer engines and avionics; evaluated but not placed into production."
+      },
+      {
+        "name": "EA-6B Prowler",
+        "description": "Four-seat electronic-warfare derivative developed from the Intruder line; related to the A-6 but used for jamming and electronic attack rather than medium bombing."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "U.S. Navy",
+        "description": "Primary operator; used A-6 attack and KA-6D tanker aircraft from carrier air wings through retirement in 1997."
+      },
+      {
+        "country": "United States",
+        "service": "U.S. Marine Corps",
+        "description": "Used A-6s from Marine attack squadrons for all-weather strike and close air support, retiring the type before the Navy."
+      }
+    ],
+    "combat_history": "Combat use included Vietnam War night/all-weather attack, Cold War strike operations over Lebanon and Libya, Operation Praying Mantis, Operation Desert Storm, and Bosnia-related operations before retirement.",
+    "development_history": "Developed from a 1957 U.S. Navy requirement for an all-weather carrier attack aircraft; Grumman was selected in 1958, the prototype flew on 19 April 1960, A-6A introduction followed in 1963, and the upgraded A-6E became the main late-service attack variant.",
+    "short_summary": "The Grumman A-6 Intruder was the U.S. Navy and Marine Corps' principal carrier-capable, all-weather medium attack aircraft from Vietnam through Desert Storm, built around a two-person crew and an integrated navigation/attack system for low-level precision strike in poor weather.",
     "carrier_capable": true,
     "stealth": false,
     "images": [
@@ -11395,18 +11441,39 @@
     ],
     "sources": [
       {
+        "id": "fn-nnam",
+        "title": "A-6E Intruder",
+        "url": "https://navalaviationmuseum.org/a-6e-intruder",
+        "publisher": "National Naval Aviation Museum",
+        "note": "Museum history for first flight, DIANE/TRAM explanation, Vietnam and Cold War combat context, crew arrangement, and museum-aircraft provenance."
+      },
+      {
+        "id": "fn-midway",
+        "title": "A-6 Intruder",
+        "url": "https://www.midway.org/visit/aircraft-gallery/a-6-intruder",
+        "publisher": "USS Midway Museum",
+        "note": "Museum overview and public specification table for dimensions, J52 engines, speed, range, and service ceiling."
+      },
+      {
+        "id": "fn-mof",
+        "title": "Grumman A-6E Intruder",
+        "url": "https://www.museumofflight.org/exhibits-and-events/aircraft/grumman-6e-intruder",
+        "publisher": "The Museum of Flight",
+        "note": "Development narrative, A-6E upgrade details, production totals, and museum-aircraft operating history."
+      },
+      {
+        "id": "fn-vac",
+        "title": "A-6E Intruder",
+        "url": "https://www.valiantaircommand.com/portfolio-collections/vietnam-cold-war/a6-intruder",
+        "publisher": "Valiant Air Command Warbird Museum",
+        "note": "Supplementary public dimensions, performance, hardpoint, and armament examples."
+      },
+      {
         "id": "fn-main",
         "title": "Grumman A-6 Intruder",
         "url": "https://en.wikipedia.org/wiki/Grumman_A-6_Intruder",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation and cross-check for broad variant/operator history only."
       },
       {
         "id": "fn-method",
@@ -11423,48 +11490,38 @@
       }
     ],
     "designers": [
-      "Grumman"
+      "Grumman design team led by Robert Nafis and Lawrence Mead Jr."
     ],
     "development_tensions": [
-      "Carrier compatibility added structural, landing gear, corrosion, and low-speed handling requirements."
+      "The Navy wanted an all-weather jet successor to propeller-driven attack aircraft after Korean War experience showed that close air support could be unavailable in bad weather.",
+      "The A-6's integrated avionics were advanced for the early 1960s but created development and maintenance complexity."
     ],
     "wars_used_in": [
-      {
-        "name": "Vietnam War",
-        "note": "Grumman A-6 Intruder used in Vietnam War."
-      }
+      "Vietnam War",
+      "Lebanon crisis operations",
+      "Operation El Dorado Canyon",
+      "Operation Praying Mantis",
+      "Operation Desert Storm",
+      "Bosnia-related operations"
     ],
     "variant_families": [
-      "Grumman A-6 Intruder baseline production model",
-      "Grumman A-6 Intruder upgraded avionics or weapons-capable model",
-      "Grumman A-6 Intruder two-seat trainer or conversion model",
-      "Grumman A-6 Intruder export or locally modernized model"
+      "A-6A",
+      "A-6B",
+      "A-6C",
+      "KA-6D",
+      "A-6E",
+      "A-6F proposal",
+      "EA-6B Prowler derivative"
     ],
-    "operator_summary": {
-      "major_designer_or_builder": [
-        "United States"
-      ],
-      "major_user_note": "Grumman A-6 Intruder has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
-    },
-    "notable": {
-      "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
-      ],
-      "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
-      ]
-    },
-    "engine_details": {
-      "type": "Jet",
-      "summary": "Grumman A-6 Intruder uses jet propulsion."
-    },
-    "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
-    },
+    "operator_summary": "Operated by the United States Navy and United States Marine Corps; no foreign military operators are normally listed for the A-6 attack variants.",
+    "notable": [
+      "Digital Integrated Attack Navigation Equipment (DIANE) gave the A-6 its signature all-weather attack capability.",
+      "A-6E TRAM aircraft added a turreted sensor system with FLIR and laser ranging/designation functions.",
+      "The KA-6D tanker variant extended carrier air wing endurance before dedicated buddy-tanking roles shifted elsewhere.",
+      "The EA-6B Prowler electronic-warfare aircraft was developed from the Intruder family but had a different mission and crew arrangement."
+    ],
+    "engine_details": "Two Pratt & Whitney J52 turbojets gave the Intruder subsonic speed but enough thrust, fuel capacity, and carrier suitability for heavy medium-attack loads.",
+    "armament_details": "Public loadout lists are best treated as capability examples rather than a single standard fit. The five-station layout could carry bombs, mines, rockets, anti-radiation missiles, antiship missiles, guided bombs on later aircraft, drop tanks, and training/support stores.",
     "similar_development": [
       {
         "id": "f-105-thunderchief",
@@ -11488,352 +11545,249 @@
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 30,
+      "operator_entries": 2,
+      "variant_entries": 7,
+      "external_article_sources": 5
     },
     "footnotes": [
       {
-        "id": "fn-main",
-        "title": "Grumman A-6 Intruder",
-        "url": "https://en.wikipedia.org/wiki/Grumman_A-6_Intruder",
-        "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "id": "a6-performance-caution",
+        "text": "A-6 performance figures differ by subvariant, stores, altitude, and whether a source is quoting ferry range, combat radius, or museum display data."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
-      },
-      {
-        "id": "fn-method",
-        "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
-        "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "id": "a6-loadout-caution",
+        "text": "Armament lists describe public capability examples; actual cruise, carrier, and wartime loadouts were mission-specific."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "A-6E Intruder",
+        "url": "https://navalaviationmuseum.org/a-6e-intruder",
+        "publisher": "National Naval Aviation Museum"
+      },
+      {
+        "title": "A-6 Intruder",
+        "url": "https://www.midway.org/visit/aircraft-gallery/a-6-intruder",
+        "publisher": "USS Midway Museum"
+      },
+      {
+        "title": "Grumman A-6E Intruder",
+        "url": "https://www.museumofflight.org/exhibits-and-events/aircraft/grumman-6e-intruder",
+        "publisher": "The Museum of Flight"
+      }
+    ],
     "article_sections": [
       {
-        "id": "overview",
         "title": "Overview",
         "paragraphs": [
-          {
-            "text": "Grumman A-6 Intruder is an All-weather attack aircraft from United States. Manufacturer: Grumman. First flight: 1960. Introduction: 1963. Status: Retired.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Grumman A-6 Intruder is a attack aircraft. Primary role: all-weather attack aircraft. Country of origin: United States. Manufacturer: Grumman.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Exact structured fact fields: 15.",
-            "refs": [
-              "fn-method"
-            ]
-          }
+          "The Grumman A-6 Intruder was a twin-engine, carrier-capable, all-weather medium attack aircraft built for the U.S. Navy and U.S. Marine Corps. Instead of pursuing fighter-like speed, it emphasized navigation accuracy, heavy stores carriage, low-level penetration, and the ability to attack through darkness and bad weather.",
+          "Its defining feature was the pairing of a two-person side-by-side crew with integrated navigation and attack avionics. The pilot concentrated on flying demanding carrier and low-altitude profiles while the bombardier/navigator managed the aircraft's sensors, attack system, and weapons delivery.",
+          "Intruders served from the Vietnam War into the post-Cold War 1990s. The type was eventually replaced in the precision-strike role by upgraded F-14 Tomcats, F/A-18 Hornets, and later Super Hornets, but it remained a benchmark for carrier-based all-weather attack aircraft."
         ],
         "cards": [
           {
-            "title": "Primary role",
-            "text": "All-weather attack aircraft"
+            "label": "Role",
+            "value": "Carrier-based all-weather medium attack"
           },
           {
-            "title": "Designer or builder",
-            "text": "Grumman"
+            "label": "Crew",
+            "value": "2, seated side-by-side"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "label": "First flight",
+            "value": "19 April 1960"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "label": "Retirement",
+            "value": "USMC 1993; USN 1997"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
-          {
-            "text": "Grumman A-6 Intruder first flew in 1960. Introduction date: 1963. Era: Cold War.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Producer: Grumman. Development context: all-weather attack aircraft, jet propulsion, subsonic speed category, Cold War era.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          }
+          "The Intruder grew from a Navy requirement for an all-weather jet attack aircraft shaped by Korean War experience, when close air support and interdiction could be limited by weather. Grumman's proposal won the development contract in 1958, and the first A2F-1 prototype flew on 19 April 1960 before the aircraft was redesignated A-6.",
+          "The A-6A entered training squadrons in June 1963. Early service demanded careful maintenance and crew training because the DIANE avionics suite was sophisticated for its time, but the combination of navigation computer, radar, and attack displays gave the aircraft a mission capability that simpler attack aircraft could not match.",
+          "The A-6E became the definitive strike model. The Museum of Flight notes that it added an improved digital computer and multi-mode radar, and later aircraft incorporated TRAM, a turreted sensor package combining forward-looking infrared and laser functions for more accurate target acquisition and attack."
         ],
         "bullets": [
-          {
-            "text": "Carrier compatibility added structural, landing gear, corrosion, and low-speed handling requirements.",
-            "refs": [
-              "fn-method"
-            ]
-          }
+          "1958: Grumman selected for the Navy all-weather attack-aircraft program.",
+          "1960: First prototype flight.",
+          "1963: A-6A begins squadron introduction.",
+          "1970: A-6E first flight, followed by upgrades and conversions from earlier airframes."
         ]
       },
       {
-        "id": "design",
         "title": "Design and Capabilities",
         "paragraphs": [
-          {
-            "text": "Crew: 2. Propulsion: Jet. Speed category: Subsonic.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Carrier capable: yes. Stealth: no.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Grumman A-6 Intruder uses jet propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          }
+          "The A-6 used a broad, sturdy airframe optimized for carrier operations, low-level stability, and heavy external stores rather than supersonic dash. Its side-by-side cockpit was unusual among jet combat aircraft and reflected the workload split required for night and bad-weather attack.",
+          "DIANE, the Digital Integrated Attack Navigation Equipment, tied navigation and attack functions together so crews could find and strike targets when visibility was poor. Later TRAM-equipped A-6Es added a nose-mounted sensor turret with FLIR and laser functions, improving target recognition and weapon-delivery options.",
+          "Five external stations allowed the Intruder to carry a large range of stores: unguided bombs, mines, rockets, anti-radiation missiles, Harpoon/SLAM-family antiship or standoff weapons, guided bombs on upgraded aircraft, drop tanks, and tanker equipment on KA-6D conversions.",
+          "The aircraft's strengths came with tradeoffs. It was subsonic, often operated at low altitude, and could be vulnerable to antiaircraft fire and surface-to-air missiles; its advantage lay in reaching targets through poor weather with a heavy useful load."
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "2"
+            "label": "Avionics",
+            "value": "DIANE navigation/attack system; A-6E TRAM on upgraded aircraft"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "label": "Powerplant",
+            "value": "Two Pratt & Whitney J52 turbojets"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "label": "Stores",
+            "value": "Up to about 18,000 lb on five external stations"
           },
           {
-            "title": "Carrier capable",
-            "text": "Yes"
+            "label": "Carrier features",
+            "value": "Folding wings, strong landing gear, naval corrosion protection"
           },
           {
-            "title": "Stealth",
-            "text": "No"
+            "label": "Mission focus",
+            "value": "Low-level all-weather strike, interdiction, and tanker support"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Grumman A-6 Intruder status: Retired. Conflict entries: 1.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: Vietnam War.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Vietnam War: Grumman A-6 Intruder used in Vietnam War.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Grumman A-6 Intruder named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "variants",
-        "title": "Variants",
-        "paragraphs": [
-          {
-            "text": "Grumman A-6 Intruder variant-family entries: 4. Variant families: Grumman A-6 Intruder baseline production model; Grumman A-6 Intruder upgraded avionics or weapons-capable model; Grumman A-6 Intruder two-seat trainer or conversion model; Grumman A-6 Intruder export or locally modernized model.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Grumman A-6 Intruder baseline production model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Grumman A-6 Intruder upgraded avionics or weapons-capable model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Grumman A-6 Intruder two-seat trainer or conversion model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Grumman A-6 Intruder export or locally modernized model",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "operators",
-        "title": "Operators",
-        "paragraphs": [
-          {
-            "text": "Designer or builder countries: United States. Grumman A-6 Intruder has 1 designer or builder country entry.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "All operators status: 0 operator entries listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Major designer or builder entries: United States.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "specifications",
         "title": "Specifications",
         "paragraphs": [
-          {
-            "text": "Comparable fields: crew 2, propulsion type Jet, maximum speed category Subsonic, first flight 1960, introduction 1963.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
-            "refs": [
-              "fn-method"
-            ]
-          }
+          "Representative A-6E museum figures list a crew of two, 54 ft 9 in length, 53 ft wingspan, 16 ft 2 in height, and two Pratt & Whitney J52-P-8-series turbojets of about 9,300 lbf thrust each.",
+          "Common public performance figures include about 560 knots / 644 mph maximum speed at sea level and a service ceiling near 42,400 ft. Range numbers vary by mission profile: museum pages quote long ferry-range figures around 2,740-2,818 miles/nmi, while combat-radius figures with maximum payload are much lower.",
+          "Maximum gross weight is commonly given around 60,400 lb for shore-based operations. Because the Intruder's mission load varied widely, exact performance with bombs, tanks, missiles, or tanker equipment should be treated as scenario-specific."
+        ],
+        "bullets": [
+          "Crew: 2, pilot and bombardier/navigator.",
+          "Dimensions: approximately 54 ft 9 in long, 53 ft wingspan, 16 ft 2 in high.",
+          "Engines: two J52-P-8-series turbojets, about 9,300 lbf each.",
+          "External load: five stations, up to about 18,000 lb total in public references.",
+          "Representative service ceiling: about 42,400 ft."
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "title": "Variants",
         "paragraphs": [
-          {
-            "text": "Grumman A-6 Intruder similar-development links: 4.",
-            "refs": [
-              "fn-method"
-            ]
-          }
+          "The Intruder family evolved through specialized attack, tanker, and proposed upgrade versions. Many early aircraft were rebuilt as A-6Es, so variant histories often overlap with individual airframe histories.",
+          "The EA-6B Prowler was derived from the Intruder line but should be understood as a distinct electronic-warfare aircraft, with a stretched/four-seat arrangement and a mission centered on jamming rather than bombing."
+        ],
+        "bullets": [
+          "A-6A: original all-weather attack version.",
+          "A-6B and A-6C: Vietnam-era special-mission attack variants.",
+          "KA-6D: tanker conversion for carrier air wings.",
+          "A-6E: definitive upgraded attack version with improved computer/radar and later TRAM integration.",
+          "A-6F: proposed advanced variant not produced.",
+          "EA-6B Prowler: related electronic-attack derivative."
+        ]
+      },
+      {
+        "title": "Operators",
+        "paragraphs": [
+          "The A-6 attack variants were U.S. naval-service aircraft. The Navy operated them from carrier air wings for deep strike, interdiction, mining, tanker support, and later precision attack, while Marine Corps squadrons used the aircraft for all-weather attack and close air support.",
+          "No foreign A-6 attack-variant operators are normally listed in public references. Preserved aircraft now appear at naval and aviation museums, including examples connected to the National Naval Aviation Museum, USS Midway Museum, The Museum of Flight, and other collections."
+        ],
+        "bullets": [
+          "United States Navy: primary carrier-based attack and tanker operator.",
+          "United States Marine Corps: land-based and expeditionary all-weather attack operator."
+        ]
+      },
+      {
+        "title": "Operational History",
+        "paragraphs": [
+          "The A-6 entered front-line combat over Vietnam with VA-75 in 1965. National Naval Aviation Museum material emphasizes the aircraft's ability to strike in weather and darkness, but also notes the danger of low-level missions through antiaircraft fire and surface-to-air missile defenses.",
+          "After Vietnam, Intruders remained part of U.S. naval crisis-response and strike operations. Public histories associate the type with missions over Lebanon, Libya, Operation Praying Mantis against Iranian naval targets, Operation Desert Storm, and later Bosnia-related operations.",
+          "During Desert Storm, A-6s remained valuable for medium attack, mining, and precision or semi-precision strike tasks. Retirement followed in the 1990s after the cancellation of the A-12 replacement and as other carrier aircraft absorbed the mission with new targeting pods and weapons."
+        ],
+        "bullets": [
+          "Combat debut: Vietnam War carrier operations.",
+          "Cold War crisis use: Lebanon, Libya, and Persian Gulf operations.",
+          "1991: Desert Storm strike and support missions.",
+          "1990s: precision-strike role transferred to upgraded F-14 and F/A-18-family aircraft."
+        ]
+      },
+      {
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          "The Intruder's greatest strengths were all-weather mission execution, crew coordination, fuel and stores capacity, and compatibility with carrier operations. Its integrated system made it especially important before compact targeting pods and GPS-guided weapons became standard on multirole fighters.",
+          "Its limitations were also clear: it was subsonic, maintenance-intensive, dependent on complex avionics, and exposed to heavy risk during low-altitude penetration missions. Those limitations shaped both the aircraft's combat losses and the eventual move toward newer platforms with modern sensors and precision weapons."
+        ],
+        "bullets": [
+          "Strength: true night/adverse-weather attack capability for carrier air wings.",
+          "Strength: large useful load and long endurance for a naval attack aircraft.",
+          "Limitation: lower speed and low-level profiles increased vulnerability in dense air defenses.",
+          "Limitation: avionics complexity demanded trained crews and maintainers."
+        ]
+      },
+      {
+        "title": "Comparison",
+        "paragraphs": [
+          "Compared with the A-4 Skyhawk and A-7 Corsair II, the A-6 was larger, twin-engine, and more specialized for all-weather medium attack. Compared with the F-4 Phantom II, it was slower and not designed for air combat, but it carried a heavier attack-system focus and an unusually integrated crew workflow.",
+          "Later F-14 and F/A-18 aircraft could absorb the Intruder's mission only after receiving modern targeting pods, precision weapons, and avionics updates. The A-6 therefore bridges the period between specialist Cold War attack aircraft and modern multirole strike fighters."
         ],
         "links": [
           {
-            "label": "Republic F-105 Thunderchief",
-            "url": "aircraft.html?id=f-105-thunderchief"
-          },
-          {
-            "label": "Douglas A-4 Skyhawk",
+            "label": "A-4 Skyhawk",
             "url": "aircraft.html?id=a-4-skyhawk"
           },
           {
-            "label": "LTV A-7 Corsair II",
+            "label": "A-7 Corsair II",
             "url": "aircraft.html?id=a-7-corsair-ii"
           },
           {
-            "label": "Sukhoi Su-7",
-            "url": "aircraft.html?id=su-7"
+            "label": "F-14 Tomcat",
+            "url": "aircraft.html?id=f-14-tomcat"
+          },
+          {
+            "label": "F/A-18 Hornet",
+            "url": "aircraft.html?id=f-a-18-hornet"
+          },
+          {
+            "label": "F/A-18E/F Super Hornet",
+            "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+          }
+        ]
+      },
+      {
+        "title": "Timeline",
+        "paragraphs": [
+          "Key milestones show how quickly the Intruder moved from a late-1950s requirement into Vietnam combat and then remained relevant through the precision-strike transition of the 1990s."
+        ],
+        "bullets": [
+          "1957-1958: Navy all-weather attack requirement leads to Grumman selection.",
+          "19 April 1960: First A2F-1/A-6 prototype flight.",
+          "1963: A-6A reaches squadron training and operational introduction.",
+          "1965: First front-line combat deployment over Vietnam.",
+          "1970: A-6E first flight; upgrade path begins.",
+          "1991: Intruders fly in Operation Desert Storm.",
+          "1993-1997: Marine Corps and Navy retire remaining A-6 attack aircraft."
+        ]
+      },
+      {
+        "title": "Sources and Notes",
+        "paragraphs": [
+          "Primary reference checks for this update used museum and naval-aviation sources: the National Naval Aviation Museum for operational and avionics context, USS Midway Museum for public specifications, The Museum of Flight for development and production totals, and Valiant Air Command for supplementary hardpoint and armament examples.",
+          "Where public sources conflict on range, production subtotals, or exact loadouts, the article uses cautious wording and avoids presenting a single mission configuration as universal."
+        ],
+        "links": [
+          {
+            "label": "National Naval Aviation Museum A-6E Intruder",
+            "url": "https://navalaviationmuseum.org/a-6e-intruder"
+          },
+          {
+            "label": "USS Midway Museum A-6 Intruder",
+            "url": "https://www.midway.org/visit/aircraft-gallery/a-6-intruder"
+          },
+          {
+            "label": "The Museum of Flight A-6E Intruder",
+            "url": "https://www.museumofflight.org/exhibits-and-events/aircraft/grumman-6e-intruder"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "index.html"
           }
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg/960px-U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg",
-        "caption": "Vietnam War",
-        "source_url": "https://en.wikipedia.org/wiki/Vietnam_War"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "a-7-corsair-ii",
