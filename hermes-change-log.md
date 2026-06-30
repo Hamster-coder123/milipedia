@@ -1920,3 +1920,80 @@ Record the result of:
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * Saab E-series and C-series product pages are marketing/manufacturer sources, so combat-effectiveness claims were phrased conservatively and tied to described systems rather than asserted outcomes.
 * Exact current fleet totals, delivered Colombian aircraft status, national weapons clearances, and combat radius values are date- and variant-sensitive; the page uses cautious wording and omits fixed values where confidence was insufficient.
+
+### Run 26 — 2026-06-30 21:04:45 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Mikoyan-Gurevich MiG-15 (id: mig-15)
+* Reason selected: The MiG-15 entry was one of the shortest unedited aircraft records, with no real operators or variants, no external article sources, missing engine/dimensions/range/ceiling/armament details, and generic placeholder sections well below the F-16 reference density.
+* Previous condition: Placeholder-like generated page with 15 exact fact fields, 0 operator entries, 0 variant entries, 0 external article sources, generic missile/air-to-ground armament wording, sparse specifications, no production/licence-build context, and minimal Korean War discussion.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview and fact-card style; section order from overview through development, design, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, sources, and related pages; concise sourced paragraphs; cautious treatment of variant-dependent facts; internal aircraft.html?id=... links.
+
+#### Changes Made
+
+* Expanded the MiG-15 entry in data/aircraft.json into a fuller Milipedia article record while preserving the JSON-rendered page structure.
+* Updated top-level facts for NATO reporting name, manufacturer/licence-production context, role, first flight, introduction, status, approximate production, crew, VK-1 engine, speed, range, ceiling, climb rate, hardpoints, summary, development history, combat history, and armament.
+* Replaced generic placeholder armament with MiG-15bis-specific cannon wording: two 23 mm NR-23 cannon and one 37 mm N-37 cannon, with cautious notes about drop tanks, bombs, rockets, and variant/operator differences.
+* Added RAF Museum, National Museum of the U.S. Air Force, Wikipedia supplementary, and Milipedia method sources; noted the extraction caveat for the USAF museum page.
+* Added expanded sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Comparison and Role Context, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added representative specifications for MiG-15bis dimensions, weight, VK-1 thrust, maximum speed, ferry range, ceiling, and climb rate.
+* Added variants for MiG-15, MiG-15bis, MiG-15UTI, and licence-built/derivative families.
+* Added representative operator coverage for the Soviet Union, China, North Korea, Warsaw Pact states, and broader Soviet-aligned operators without overclaiming exact inventory totals.
+* Added Korean War, MiG Alley, F-86 comparison context, No Kum-Sok defection/evaluation context, production/licence-build notes, and post-front-line preservation/training context.
+* Added related internal links to existing MiG-17, F-4 Phantom II, Northrop F-5, and database pages.
+* Omitted a full country-by-country operator inventory and precise licence-built production total because public sources count Soviet and non-Soviet production differently.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Mikoyan-Gurevich MiG-15 aircraft page data and sources.
+* hermes-change-log.md — Appended the cumulative Run 26 log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed diff/stat; data/aircraft.json changes are limited to the MiG-15 entry, and hermes-change-log.md adds this Run 26 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the MiG-15 entry section list, sources, variants/operators, specifications, and corrected armament wording.
+4. F-16 style comparison — Inspected data/f16-template.html and copied its dense lead, section order, sourced paragraphs, specification emphasis, variants/operators/service/comparison/timeline coverage, source notes, and related-page patterns within the JSON article system.
+5. Internal link check — Verified aircraft.html?id=mig-17, aircraft.html?id=f-4-phantom-ii, and aircraft.html?id=f-5-freedom-fighter-tiger-ii target existing aircraft ids in data/aircraft.json; database.html is an existing site page link.
+6. Secret/token check — Ran credential-specific scan over the staged diff for API keys, tokens, passwords, private keys, GitHub tokens, and AWS credentials; no credentials were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, diff check, intended files only, MiG-15 was not previously edited by Hermes, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Mikoyan-Gurevich MiG-15
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* Direct extraction of the National Museum of the U.S. Air Force page returned an access-denied/timeout result, so the page uses only its visible search-snippet evidence and facts cross-checked with accessible sources.
+* Exact production totals, licence-built derivative counts, surviving current operator status, and exhaustive country operator lists vary by source and were intentionally summarized cautiously.

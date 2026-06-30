@@ -28696,34 +28696,71 @@
   {
     "id": "mig-15",
     "name": "Mikoyan-Gurevich MiG-15",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "alternative_names": [
+      "Type 14",
+      "Fagot"
+    ],
+    "nato_reporting_name": "Fagot",
     "country_of_origin": "Soviet Union",
-    "manufacturer": "Mikoyan-Gurevich",
-    "role": "Jet fighter",
-    "aircraft_type": "Fighter",
+    "manufacturer": "Mikoyan-Gurevich OKB; licence production by partners including Poland, Czechoslovakia and China",
+    "role": "Swept-wing jet fighter and interceptor",
+    "aircraft_type": "Fighter / interceptor",
     "era": "Cold War",
-    "first_flight": "1947",
+    "first_flight": "30 December 1947",
     "introduction_date": "1949",
-    "retirement_date": "Not listed",
-    "status": "Retired",
-    "number_built": "Not listed",
-    "crew": "1",
+    "retirement_date": "Largely retired from front-line service; some derivatives/trainers remained in limited or secondary use",
+    "status": "Retired from most front-line air forces; preserved widely and historically important",
+    "number_built": "About 13,000 Soviet-built aircraft, plus several thousand licence-built derivatives reported in public sources",
+    "crew": "1; MiG-15UTI trainer seats 2",
     "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engines": "1 × Klimov VK-1 centrifugal-flow turbojet, derived from the Rolls-Royce Nene lineage",
+    "max_speed": "About 1,076 km/h (669 mph) at sea level for MiG-15bis; near-transonic but not supersonic in level flight",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Mikoyan-Gurevich MiG-15: Jet fighter. Manufacturer: Mikoyan-Gurevich. First flight: 1947. Introduction: 1949.",
-    "short_summary": "Mikoyan-Gurevich MiG-15: Jet fighter. Origin: Soviet Union. Manufacturer: Mikoyan-Gurevich. First flight: 1947. Introduction: 1949. Status: Retired.",
+    "range": "Ferry range about 2,520 km (1,570 mi) with two 600 L drop tanks for MiG-15bis; combat radius varied by mission",
+    "combat_range": "Variant-, loadout-, and altitude-dependent; public sources emphasize short-range interceptor use rather than long endurance",
+    "service_ceiling": "About 15,500 m (50,900 ft) for MiG-15bis",
+    "rate_of_climb": "About 51 m/s (10,080 ft/min) for MiG-15bis in common public specifications",
+    "armament": "Typical MiG-15bis gun fit: two 23 mm NR-23 cannon and one 37 mm N-37 cannon; two hardpoints could carry drop tanks, small bombs, or unguided rockets depending on variant and operator.",
+    "hardpoints": "2 underwing hardpoints for drop tanks or limited external stores",
+    "variants": [
+      {
+        "name": "MiG-15",
+        "note": "Initial single-seat production fighter. It introduced the swept-wing layout, pressurized cockpit, ejection seat, and heavy cannon armament that made the type a major early Cold War interceptor."
+      },
+      {
+        "name": "MiG-15bis",
+        "note": "Improved main production model with the more powerful VK-1 engine and equipment refinements. Most public specifications are commonly quoted for this version."
+      },
+      {
+        "name": "MiG-15UTI",
+        "note": "Two-seat conversion trainer widely used by Soviet-aligned air arms and by countries that operated MiG-15, MiG-17, and later MiG families."
+      },
+      {
+        "name": "J-2 / JJ-2 and licence-built derivatives",
+        "note": "Chinese, Polish, Czechoslovak, and other licence or derivative production extended the family beyond Soviet factories. Naming and equipment varied by country."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Soviet Union",
+        "note": "Primary developer and early operator; Soviet pilots and units were closely tied to the type’s Korean War employment."
+      },
+      {
+        "country": "People’s Republic of China",
+        "note": "Operated MiG-15-family aircraft and later Chinese-built derivatives; Chinese and North Korean units were major public operators during the Korean War."
+      },
+      {
+        "country": "North Korea",
+        "note": "Operated MiG-15s during and after the Korean War; some public sources still describe limited residual use or training roles."
+      },
+      {
+        "country": "Warsaw Pact and Soviet-aligned air arms",
+        "note": "Poland, Czechoslovakia, East Germany, Cuba, Egypt, and many other states operated MiG-15-family aircraft or trainers; exact inventories varied by period."
+      }
+    ],
+    "combat_history": "Best known for Korean War combat, especially high-altitude engagements over “MiG Alley” against F-86 Sabres and bomber escort formations. It also appeared in several Cold War regional air forces after Korea.",
+    "development_history": "Mikoyan-Gurevich developed the MiG-15 in the late 1940s around swept-wing research and a powerful centrifugal-flow turbojet lineage based on the Rolls-Royce Nene. The result was a simple, rugged, high-climbing interceptor that entered Soviet service in 1949 and quickly became one of the defining fighters of the Korean War.",
+    "short_summary": "The Mikoyan-Gurevich MiG-15 was a Soviet swept-wing jet fighter and interceptor whose high climb rate, heavy cannon armament, and near-transonic speed shocked Western pilots over Korea. Simple construction and licence production made it one of the most numerous jet fighters of the early Cold War.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -28736,25 +28773,32 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-rafmuseum",
+        "title": "Mikoyan-Gurevich MiG-15bis",
+        "url": "https://www.rafmuseum.org.uk/research/collections/mikoyan-gurevich-mig-15bis",
+        "publisher": "Royal Air Force Museum",
+        "note": "Museum collection article used for design context, Korean War impact, Rolls-Royce Nene/VK-1 lineage, production under licence, MiG-15bis improvement, and operator breadth."
+      },
+      {
+        "id": "fn-nmusaf",
+        "title": "The Story of the MiG-15bis on Display",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196377/the-story-of-the-mig-15bis-on-display",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Museum fact sheet used for No Kum-Sok defection context, USAF evaluation, and the MiG-15 cannon tray details; direct extraction was blocked during this run, so only details visible in search snippets and cross-checked elsewhere were used."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Mikoyan-Gurevich MiG-15",
         "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-15",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation and specification cross-check for MiG-15bis dimensions, VK-1 engine, speed, ceiling, armament, production totals, dates, and variant/operator lists."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
+        "note": "Local rules for neutral wording, source citation, estimates, variant differences, and public-source caveats."
       }
     ],
     "country_flags": [
@@ -28767,25 +28811,31 @@
       "Mikoyan-Gurevich"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability."
+      "Combining swept-wing high-altitude performance with a simple structure and a powerful but bulky centrifugal-flow turbojet.",
+      "Heavy cannon were optimized for bomber interception, while short range, high-speed handling, and early jet-era avionics limited some missions."
     ],
     "wars_used_in": [
       {
         "name": "Korean War",
-        "note": "Mikoyan-Gurevich MiG-15 used in Korean War."
+        "note": "Signature combat use against F-86 Sabres, B-29 raids, fighter escorts, and UN air operations over Korea."
+      },
+      {
+        "name": "Suez Crisis and Cold War regional conflicts",
+        "note": "MiG-15-family aircraft served with several Soviet-aligned or former Soviet-equipped air arms; details vary by operator and derivative."
       }
     ],
     "variant_families": [
-      "Mikoyan-Gurevich MiG-15 baseline production model",
-      "Mikoyan-Gurevich MiG-15 upgraded avionics or weapons-capable model",
-      "Mikoyan-Gurevich MiG-15 export or locally modernized model"
+      "MiG-15 initial single-seat fighter",
+      "MiG-15bis improved fighter",
+      "MiG-15UTI two-seat trainer",
+      "Chinese, Polish, Czechoslovak, and other licence-built derivatives"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "Soviet Union"
       ],
-      "major_user_note": "Mikoyan-Gurevich MiG-15 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Operated by the Soviet Union, China, North Korea, many Warsaw Pact states, and numerous Soviet-aligned air forces; at least thirty air forces are reported by the RAF Museum to have used the single-seat MiG-15 or MiG-15UTI trainer.",
+      "all_operators_status": "Representative operators listed; exact country-by-country inventories changed over decades and are not exhaustively tabulated here."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -28799,13 +28849,18 @@
     },
     "engine_details": {
       "type": "Jet",
-      "summary": "Mikoyan-Gurevich MiG-15 uses jet propulsion."
+      "summary": "One Klimov VK-1 centrifugal-flow turbojet in the MiG-15bis; the MiG-15 family’s engine lineage traced to the British Rolls-Royce Nene, which Soviet engineers copied and developed."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Two 23 mm NR-23 cannon and one 37 mm N-37 cannon were the classic MiG-15bis fit, giving the aircraft heavy short-burst firepower against bombers and fighters.",
+      "caution": "Bombs, rockets, and drop tanks depended on hardpoint fit, mission, and operator; early MiG-15s were primarily gun-armed interceptors, not missile fighters."
     },
     "similar_development": [
+      {
+        "id": "mig-17",
+        "name": "Mikoyan-Gurevich MiG-17",
+        "url": "aircraft.html?id=mig-17"
+      },
       {
         "id": "f-4-phantom-ii",
         "name": "McDonnell Douglas F-4 Phantom II",
@@ -28817,66 +28872,81 @@
         "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
       },
       {
-        "id": "f-8-crusader",
-        "name": "Vought F-8 Crusader",
-        "url": "aircraft.html?id=f-8-crusader"
-      },
-      {
-        "id": "f-14-tomcat",
-        "name": "Grumman F-14 Tomcat",
-        "url": "aircraft.html?id=f-14-tomcat"
+        "id": "database",
+        "name": "Back to aircraft database",
+        "url": "database.html"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 34,
+      "operator_entries": 4,
+      "variant_entries": 4,
+      "external_article_sources": 2
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-rafmuseum",
+        "title": "Mikoyan-Gurevich MiG-15bis",
+        "url": "https://www.rafmuseum.org.uk/research/collections/mikoyan-gurevich-mig-15bis",
+        "publisher": "Royal Air Force Museum",
+        "note": "Museum collection article used for design context, Korean War impact, Rolls-Royce Nene/VK-1 lineage, production under licence, MiG-15bis improvement, and operator breadth."
+      },
+      {
+        "id": "fn-nmusaf",
+        "title": "The Story of the MiG-15bis on Display",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196377/the-story-of-the-mig-15bis-on-display",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Museum fact sheet used for No Kum-Sok defection context, USAF evaluation, and the MiG-15 cannon tray details; direct extraction was blocked during this run, so only details visible in search snippets and cross-checked elsewhere were used."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Mikoyan-Gurevich MiG-15",
         "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-15",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation and specification cross-check for MiG-15bis dimensions, VK-1 engine, speed, ceiling, armament, production totals, dates, and variant/operator lists."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording, source citation, estimates, variant differences, and public-source caveats."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "RAF Museum — Mikoyan-Gurevich MiG-15bis",
+        "url": "https://www.rafmuseum.org.uk/research/collections/mikoyan-gurevich-mig-15bis",
+        "publisher": "Royal Air Force Museum"
+      },
+      {
+        "title": "National Museum of the U.S. Air Force — MiG-15bis on Display",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196377/the-story-of-the-mig-15bis-on-display",
+        "publisher": "National Museum of the U.S. Air Force"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-15 is a Jet fighter from Soviet Union. Manufacturer: Mikoyan-Gurevich. First flight: 1947. Introduction: 1949. Status: Retired.",
+            "text": "The Mikoyan-Gurevich MiG-15 was one of the first highly successful swept-wing jet fighters. It paired a compact Soviet airframe with a powerful turbojet lineage derived from the Rolls-Royce Nene, giving Soviet and allied air forces a fast-climbing interceptor at the start of the jet age.",
             "refs": [
-              "fn-main"
+              "fn-rafmuseum"
             ]
           },
           {
-            "text": "Mikoyan-Gurevich MiG-15 is a fighter. Primary role: jet fighter. Country of origin: Soviet Union. Manufacturer: Mikoyan-Gurevich.",
+            "text": "Its combat debut over Korea surprised UN pilots because the MiG-15 could climb rapidly, fight at high altitude, and threaten bomber formations with heavy cannon. The F-86 Sabre became its best-known Western counterpart, but the Sabre is not currently a local Milipedia page.",
             "refs": [
-              "fn-wikidata"
+              "fn-rafmuseum",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Public sources disagree on exact totals because Soviet, Chinese, Polish, Czechoslovak, and other licence-built aircraft are counted differently; the page therefore uses approximate production language rather than a single unsupported total.",
             "refs": [
+              "fn-wikipedia",
               "fn-method"
             ]
           }
@@ -28884,44 +28954,63 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Jet fighter"
+            "text": "Swept-wing jet fighter / interceptor"
           },
           {
-            "title": "Designer or builder",
-            "text": "Mikoyan-Gurevich"
+            "title": "First flight",
+            "text": "30 December 1947"
           },
           {
-            "title": "Major origin",
-            "text": "Soviet Union"
+            "title": "Introduced",
+            "text": "1949"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Signature conflict",
+            "text": "Korean War"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-15 first flew in 1947. Introduction date: 1949. Era: Cold War.",
+            "text": "The MiG-15 was conceived in 1947 when Soviet designers needed a modern high-performance jet fighter. RAF Museum notes that the design lacked a suitable engine until the British Rolls-Royce Nene turbojet was supplied to the Soviet Union, copied, and developed into production powerplants for the new fighter.",
             "refs": [
-              "fn-main"
+              "fn-rafmuseum"
             ]
           },
           {
-            "text": "Producer: Mikoyan-Gurevich. Development context: jet fighter, jet propulsion, subsonic speed category, Cold War era.",
+            "text": "A prototype flew within months, and the type entered service at the end of the 1940s. The improved MiG-15bis followed with a more powerful VK-1 engine and equipment refinements, becoming the version most often used for published specifications.",
             "refs": [
-              "fn-wikidata"
+              "fn-rafmuseum",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "The aircraft’s simplicity mattered as much as its speed. It was suitable for mass production, licence manufacture, and operation by many air forces that needed an affordable early jet fighter.",
+            "refs": [
+              "fn-rafmuseum"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "Swept wing intended to improve high-speed and high-altitude performance compared with straight-wing early jets.",
             "refs": [
-              "fn-method"
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Pressurized cockpit and ejection seat were important features for a Soviet production fighter of the period.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Licence and derivative production in Poland, Czechoslovakia, China, and other countries extended the family’s service life.",
+            "refs": [
+              "fn-rafmuseum"
             ]
           }
         ]
@@ -28931,114 +29020,97 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Subsonic.",
+            "text": "The MiG-15 was a small single-seat fighter with a nose intake, swept wings, tricycle landing gear, and a single centrifugal-flow turbojet. Its layout concentrated on climb, altitude performance, and heavy gun armament rather than radar-guided missile combat or long endurance.",
             "refs": [
-              "fn-main"
+              "fn-rafmuseum",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "RAF Museum describes the MiG-15 as extremely simple but advanced in concept, with better climb, ceiling, and high-altitude turning radius than Allied jets then encountered over Korea. That advantage was strongest at altitude and in vertical maneuvering.",
             "refs": [
-              "fn-method"
+              "fn-rafmuseum"
             ]
           },
           {
-            "text": "Mikoyan-Gurevich MiG-15 uses jet propulsion. Engine model field: Not listed.",
+            "text": "The classic MiG-15bis armament was two 23 mm NR-23 cannon plus one 37 mm N-37 cannon mounted in the lower forward fuselage. This gave destructive firepower against bombers, but the low ammunition load and mixed ballistic trajectories required careful firing discipline.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-wikipedia",
+              "fn-nmusaf"
             ]
           }
         ],
         "cards": [
           {
+            "title": "Engine",
+            "text": "1 × Klimov VK-1 turbojet (MiG-15bis)"
+          },
+          {
+            "title": "Cannon fit",
+            "text": "2 × 23 mm + 1 × 37 mm"
+          },
+          {
+            "title": "Hardpoints",
+            "text": "2 underwing stations for tanks or limited stores"
+          },
+          {
             "title": "Crew",
-            "text": "1"
-          },
-          {
-            "title": "Engine class",
-            "text": "Jet"
-          },
-          {
-            "title": "Speed class",
-            "text": "Subsonic"
-          },
-          {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "text": "1; UTI trainer seats 2"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-15 status: Retired. Conflict entries: 1.",
+            "text": "Representative public specifications below are for the MiG-15bis. Earlier MiG-15 aircraft, trainers, Chinese-built aircraft, and locally modified examples could differ in engine fit, equipment, fuel, and stores.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: Korean War.",
-            "refs": [
+              "fn-wikipedia",
               "fn-method"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Korean War: Mikoyan-Gurevich MiG-15 used in Korean War.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Mikoyan-Gurevich MiG-15 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "10.102 m (33 ft 2 in)"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Wingspan",
+            "text": "10.085 m (33 ft 1 in)"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Height",
+            "text": "3.7 m (12 ft 2 in)"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Empty weight",
+            "text": "3,681 kg (8,115 lb)"
+          },
+          {
+            "title": "Maximum takeoff weight",
+            "text": "6,106 kg (13,461 lb) with drop tanks"
+          },
+          {
+            "title": "Maximum speed",
+            "text": "About 1,076 km/h (669 mph) at sea level"
+          },
+          {
+            "title": "Ferry range",
+            "text": "About 2,520 km (1,570 mi) with two 600 L tanks"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "About 15,500 m (50,900 ft)"
+          },
+          {
+            "title": "Rate of climb",
+            "text": "About 51.2 m/s (10,080 ft/min)"
+          },
+          {
+            "title": "Powerplant",
+            "text": "1 × Klimov VK-1, about 26.5 kN / 5,950 lbf thrust"
           }
         ]
       },
@@ -29047,35 +29119,37 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-15 variant-family entries: 3. Variant families: Mikoyan-Gurevich MiG-15 baseline production model; Mikoyan-Gurevich MiG-15 upgraded avionics or weapons-capable model; Mikoyan-Gurevich MiG-15 export or locally modernized model.",
+            "text": "The MiG-15 family included the initial fighter, the improved MiG-15bis, and the two-seat MiG-15UTI trainer. Licence-built and derivative aircraft carried local designations, so variant names can differ across Soviet, Chinese, Polish, and Czechoslovak sources.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-rafmuseum",
+              "fn-wikipedia"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Mikoyan-Gurevich MiG-15 baseline production model",
+            "text": "MiG-15: initial single-seat production fighter introduced in the late 1940s.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Mikoyan-Gurevich MiG-15 upgraded avionics or weapons-capable model",
+            "text": "MiG-15bis: improved production fighter with VK-1 power and equipment changes; the most common specification baseline.",
             "refs": [
-              "fn-main"
+              "fn-rafmuseum",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Mikoyan-Gurevich MiG-15 export or locally modernized model",
+            "text": "MiG-15UTI: two-seat trainer, widely used because it supported transition to later MiG fighters as well as MiG-15 operations.",
             "refs": [
-              "fn-main"
+              "fn-rafmuseum"
+            ]
+          },
+          {
+            "text": "J-2/JJ-2, Lim, S-102/S-103, and other local names covered Chinese, Polish, Czechoslovak, and related production or training variants.",
+            "refs": [
+              "fn-wikipedia"
             ]
           }
         ]
@@ -29085,13 +29159,13 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Soviet Union. Mikoyan-Gurevich MiG-15 has 1 designer or builder country entry.",
+            "text": "The Soviet Union was the core developer and operator, but the MiG-15 spread through the Warsaw Pact, China, North Korea, Cuba, Egypt, and many other Soviet-aligned or former Soviet-equipped air arms. RAF Museum states that at least thirty air forces operated the single-seat MiG-15 or MiG-15UTI trainer.",
             "refs": [
-              "fn-wikidata"
+              "fn-rafmuseum"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "This page lists representative operator groups rather than a full inventory table because country-level holdings changed heavily from the 1950s onward and many aircraft were licence-built derivatives.",
             "refs": [
               "fn-method"
             ]
@@ -29099,31 +29173,152 @@
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Soviet Union — primary developer, early operator, and exporter of the type.",
             "refs": [
-              "fn-main"
+              "fn-rafmuseum"
             ]
           },
           {
-            "text": "Major designer or builder entries: Soviet Union.",
+            "text": "China and North Korea — major Korean War-era operators and later users of MiG-15-family aircraft.",
             "refs": [
-              "fn-wikidata"
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Warsaw Pact states — Poland, Czechoslovakia, East Germany, and others used Soviet or locally built versions.",
+            "refs": [
+              "fn-rafmuseum",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Other Soviet-aligned air forces — examples served in the Middle East, Asia, Africa, and Latin America, often as trainers after front-line fighter use ended.",
+            "refs": [
+              "fn-rafmuseum"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "service",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Subsonic, first flight 1947, introduction 1949.",
+            "text": "The MiG-15’s best-known operational chapter was the Korean War. Its appearance forced UN air forces to adapt fighter escort, bomber tactics, and jet training, and it became closely associated with high-altitude air combat over “MiG Alley.”",
             "refs": [
-              "fn-main"
+              "fn-rafmuseum",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "The type was particularly dangerous to straight-wing jets and piston-engine bombers. Against the F-86 Sabre it produced a famous matchup: MiG-15 pilots often emphasized climb and altitude, while Sabre pilots exploited handling, dive behavior, and training advantages.",
+            "refs": [
+              "fn-rafmuseum",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "A North Korean pilot, No Kum-Sok, defected with a MiG-15bis to South Korea in 1953, allowing U.S. evaluation flights. The museum aircraft and its story remain an important source for Western understanding of the type.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-wikipedia"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Korean War: core combat reputation and operational significance.",
+            "refs": [
+              "fn-rafmuseum"
+            ]
+          },
+          {
+            "text": "Cold War export service: many operators retained MiG-15s, especially trainers, after newer fighters arrived.",
+            "refs": [
+              "fn-rafmuseum"
+            ]
+          },
+          {
+            "text": "Post-front-line life: numerous survivors became museum aircraft, gate guards, civilian-owned warbirds, or technical training airframes.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Role Context",
+        "paragraphs": [
+          {
+            "text": "Compared with later local Milipedia fighters such as the MiG-17, F-4 Phantom II, and Northrop F-5, the MiG-15 was an earlier gun-armed interceptor with minimal avionics and no native missile-centric design. Its importance lies in making swept-wing jet performance available at large scale.",
+            "refs": [
+              "fn-method",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Its strengths were climb, ceiling, simplicity, and heavy cannon fire. Its limitations included short endurance, early jet handling challenges, limited all-weather capability, and armament that required closing to gun range.",
+            "refs": [
+              "fn-rafmuseum",
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Mikoyan-Gurevich MiG-17",
+            "url": "aircraft.html?id=mig-17"
+          },
+          {
+            "label": "McDonnell Douglas F-4 Phantom II",
+            "url": "aircraft.html?id=f-4-phantom-ii"
+          },
+          {
+            "label": "Northrop F-5",
+            "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The MiG-15 earned its reputation by offering high-altitude performance, rugged construction, and heavy armament in a relatively simple package. Those traits made it attractive to air forces with limited resources and gave it a long training and secondary-service afterlife.",
+            "refs": [
+              "fn-rafmuseum"
+            ]
+          },
+          {
+            "text": "The same simplicity limited growth. Without the radar, missiles, endurance, and systems integration of later fighters, it was quickly superseded in top-tier combat roles by aircraft such as the MiG-17, MiG-19, MiG-21, and Western contemporaries.",
+            "refs": [
+              "fn-method",
+              "fn-wikipedia"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: high climb rate and ceiling for its era.",
+            "refs": [
+              "fn-rafmuseum"
+            ]
+          },
+          {
+            "text": "Strength: heavy cannon optimized for bomber interception.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Limitation: short-range day-fighter/interceptor design.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: limited avionics and no built-in missile-era systems.",
             "refs": [
               "fn-method"
             ]
@@ -29131,17 +29326,94 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "timeline",
+        "title": "Timeline",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-15 similar-development links: 4.",
+            "text": "Key dates are approximate where public sources use service-entry or production milestones differently by country and variant.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1947 — MiG-15 design work and first flight period; public sources list 30 December 1947 for first flight.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "1949 — Introduction into Soviet service.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "1950 — MiG-15bis improvement appears with more powerful engine and improved avionics according to RAF Museum summary.",
+            "refs": [
+              "fn-rafmuseum"
+            ]
+          },
+          {
+            "text": "1950–1953 — Korean War combat establishes the type’s international reputation.",
+            "refs": [
+              "fn-rafmuseum",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "1953 — No Kum-Sok defects with a MiG-15bis, enabling U.S. evaluation.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "1950s onward — Large-scale export, licence production, and trainer use across Soviet-aligned air forces.",
+            "refs": [
+              "fn-rafmuseum"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "The RAF Museum page was the strongest directly accessible museum source during this run. The U.S. Air Force museum page was blocked to direct extraction but supplied visible snippet evidence for the No Kum-Sok aircraft and cannon tray, and those claims were cross-checked against supplementary public sources before inclusion.",
+            "refs": [
+              "fn-rafmuseum",
+              "fn-nmusaf",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Exact production totals, surviving operator status, and licence-built derivative counts vary by source. This page uses approximate and representative wording instead of treating one public number as definitive.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages connect the MiG-15 to later Soviet fighter development and later Cold War fighter comparisons already present in the database.",
             "refs": [
               "fn-method"
             ]
           }
         ],
         "links": [
+          {
+            "label": "Mikoyan-Gurevich MiG-17",
+            "url": "aircraft.html?id=mig-17"
+          },
           {
             "label": "McDonnell Douglas F-4 Phantom II",
             "url": "aircraft.html?id=f-4-phantom-ii"
@@ -29151,23 +29423,13 @@
             "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
           },
           {
-            "label": "Vought F-8 Crusader",
-            "url": "aircraft.html?id=f-8-crusader"
-          },
-          {
-            "label": "Grumman F-14 Tomcat",
-            "url": "aircraft.html?id=f-14-tomcat"
+            "label": "Back to aircraft database",
+            "url": "database.html"
           }
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Chosin.jpg/960px-Chosin.jpg",
-        "caption": "Korean War",
-        "source_url": "https://en.wikipedia.org/wiki/Korean_War"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "mig-17",
