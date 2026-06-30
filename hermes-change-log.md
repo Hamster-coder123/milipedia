@@ -779,3 +779,79 @@ Record the result of:
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * Public Ka-52 specifications differ slightly by source and by baseline, Ka-52M, or Ka-52K configuration, so the page labels source-dependent ranges rather than forcing one universal figure.
 * Current fleet totals, exact Ka-52M equipment fits, export delivery status, combat loss counts, and effectiveness claims were intentionally omitted or caveated because they are date-sensitive or disputed.
+
+### Run 11 — 2026-06-30 06:01:51 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Yakovlev Yak-130 Mitten (id: yak-130)
+* Reason selected: The Yak-130 entry was the sparsest unedited aircraft page in the comparison pass, with no real operator records, no real variants, only one generic external source, missing engine/range/ceiling/dimension/stores details, and generated placeholder sections far below the F-16 reference density.
+* Previous condition: Placeholder-like generated entry with 15 exact fact fields, 0 operator entries, 0 variant entries, 1 generic external article source, engines/range/ceiling/hardpoints not listed, no Yak/AEM-130 or Yak-130M context, no operator notes, and only generic overview/development/design/service text.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview and quick-fact style; section order covering overview, development, design, specifications, variants/operators, operational history, weapons systems, comparison, strengths/limitations, timeline, sources, and related pages; concise source-qualified technical prose; card-style fact emphasis within the JSON renderer; internal aircraft.html?id=... related-link style; cautious notes for variant-, operator-, and loadout-dependent facts.
+
+#### Changes Made
+
+* Expanded the Yakovlev Yak-130 entry in data/aircraft.json into a fuller Milipedia article record while preserving the existing JSON-rendered aircraft-page structure.
+* Updated top-level facts for name, NATO reporting name, alternative names, manufacturer/production lineage, role, aircraft type, first-flight chronology, service introduction, active/export status, crew, engine family, speed, range, combat radius, service ceiling, climb rate, hardpoints, development history, operational role, short summary, variants, operators, related aircraft, and article-quality counts.
+* Replaced sparse "not listed" propulsion, range, ceiling, and stores fields with representative public data for two AI-222-25 turbofans, about 1,060 km/h maximum speed, 1,600 km internal-fuel range, 2,100-2,300 km ferry range, about 555 km combat radius, 12,500 m ceiling, and about 3,000 kg stores capacity.
+* Added reference sources from Rosoboronexport for Yak-130/Yak-130M context, WeaponSystems.net for representative specifications and armament, and Wikipedia only as supplementary orientation for chronology/operator discovery.
+* Added/expanded sections for Overview, Development History, Design and Capabilities, Specifications, Variants and Related Development, Operators, Operational History, Weapons Systems, Comparison and Role Context, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added variant/context coverage for Yak/AEM-130 / Yak-130D, baseline Yak-130, export aircraft, Yak-130M, and the Aermacchi M-346 related-development split.
+* Added representative operator coverage for Russia, Algeria, Belarus, Myanmar, and other reported export users/customers with date-sensitive fleet-count caveats.
+* Added training/light-combat role discussion, including programmable modern cockpit training, fighter lead-in use, external stores, gun pod, R-73-class missiles, rockets, bombs, guided bombs, and external tanks.
+* Added internal related/comparison links to T-38 Talon, BAE Hawk, MB-339, Su-25, and Su-57.
+* Omitted exact current fleet totals, detailed accident/loss tables, and operator-specific weapons clearances because those facts are date-sensitive or require narrower dated sources.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Yakovlev Yak-130 Mitten aircraft entry and sources.
+* hermes-change-log.md — Appended the cumulative record for Run 11.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed the diff; data/aircraft.json changed only the Yak-130 entry, and hermes-change-log.md gained this cumulative Run 11 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the Yak-130 entry section list, sources, variants, operators, armament wording, and article-quality fields.
+4. F-16 style comparison — Inspected data/f16-template.html and matched its dense overview, development/design/specifications/variants/operators/operational-history/comparison/timeline/source ordering within the JSON article renderer.
+5. Internal link check — Verified internal aircraft.html?id= links for T-38 Talon, BAE Hawk, MB-339, Su-25, and Su-57 point to existing aircraft IDs.
+6. Secret/token check — Ran a credential-pattern scan over the staged diff for API keys, tokens, passwords, private keys, GitHub tokens, and AWS credentials; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, only intended files staged, exactly one aircraft entry changed, internal links valid, git diff --check clean, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Yakovlev Yak-130 Mitten
+* Commit hash: Pending until commit is created; final hash is reported in the scheduled-run response.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* Public Yak-130 inventory totals, operator status, loss claims, and exact export weapons clearances are date-sensitive; the page uses representative operator entries and cautious wording rather than fixed fleet tables.
+* Rosoboronexport pages were useful as official current product references, but automated extraction returned mostly navigation text in this run; representative technical figures were therefore based primarily on WeaponSystems.net and treated as source-dependent.

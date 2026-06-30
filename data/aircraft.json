@@ -37110,35 +37110,87 @@
   },
   {
     "id": "yak-130",
-    "name": "Yakovlev Yak-130",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "name": "Yakovlev Yak-130 Mitten",
+    "alternative_names": [
+      "Yak-130",
+      "Yak/AEM-130",
+      "Yak-UTS",
+      "Mitten"
+    ],
+    "nato_reporting_name": "Mitten",
     "country_of_origin": "Russia",
-    "manufacturer": "Yakovlev",
-    "role": "Advanced jet trainer/light attack aircraft",
-    "aircraft_type": "Trainer",
+    "manufacturer": "Yakovlev; Irkut Corporation / Yakovlev production lineage",
+    "role": "Advanced jet trainer and light combat aircraft",
+    "aircraft_type": "Trainer / light attack aircraft",
     "era": "Modern",
-    "first_flight": "1996",
-    "introduction_date": "2010",
+    "first_flight": "25 April 1996 for the Yak/AEM-130 demonstrator; 30 April 2004 for the Yak-130 production-standard development aircraft",
+    "introduction_date": "19 February 2010 in Russian Air Force service",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
-    "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Trainer aircraft; light-attack stores not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Yakovlev Yak-130: Advanced jet trainer/light attack aircraft. Manufacturer: Yakovlev. First flight: 1996. Introduction: 2010.",
-    "short_summary": "Yakovlev Yak-130: Advanced jet trainer/light attack aircraft. Origin: Russia. Manufacturer: Yakovlev. First flight: 1996. Introduction: 2010. Status: Active.",
+    "status": "Active and in export/service use",
+    "number_built": "About 200+ reported publicly; exact current production and export totals vary by date/source",
+    "crew": "2: student pilot and instructor / pilot and weapons-system-qualified second crewmember",
+    "engine_type": "Turbofan",
+    "engines": "Two Ivchenko-Progress / Motor Sich AI-222-25 turbofans, about 24.5 kN dry thrust each",
+    "max_speed": "About 1,060 km/h (subsonic)",
+    "speed_category": "High-subsonic",
+    "range": "About 1,600 km on internal fuel; about 2,100-2,300 km ferry range with external tanks in common reference data",
+    "combat_range": "About 555 km in light-attack profile; mission radius varies by stores, fuel, and training profile",
+    "service_ceiling": "About 12,500 m",
+    "rate_of_climb": "About 65 m/s in common reference data",
+    "armament": "Primarily a trainer; light-combat stores can include a centerline SNPU-130/GSh-23 gun pod, R-73-class short-range air-to-air missiles, unguided rockets, bombs, guided bombs, and external fuel tanks depending on operator clearance and mission.",
+    "hardpoints": "Nine stations often described: six under-wing, two wingtip stations, and one centerline/fuselage station; up to about 3,000 kg of stores",
+    "variants": [
+      {
+        "name": "Yak/AEM-130 / Yak-130D",
+        "description": "Original Yakovlev-Aermacchi demonstrator lineage that first flew in 1996 before the Russian and Italian development paths separated."
+      },
+      {
+        "name": "Yak-130",
+        "description": "Baseline Russian advanced trainer and light-combat aircraft used for lead-in fighter training, weapons training, and secondary attack tasks."
+      },
+      {
+        "name": "Yak-130 export aircraft",
+        "description": "Export-service aircraft delivered or reported for several air forces; avionics, weapons clearances, and support arrangements can differ by customer."
+      },
+      {
+        "name": "Yak-130M",
+        "description": "Modernized combat-trainer / light-combat derivative promoted with updated mission equipment and weapons options; details should be treated as configuration- and date-dependent."
+      },
+      {
+        "name": "Aermacchi M-346 related development",
+        "description": "Italian aircraft developed after the Yakovlev-Aermacchi split; related by program origin but not the same production aircraft."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Russia",
+        "service": "Russian Aerospace Forces / training units",
+        "notes": "Primary domestic operator; the Yak-130 was selected to replace older Soviet-era advanced jet trainers and to prepare pilots for modern fighters."
+      },
+      {
+        "country": "Algeria",
+        "service": "Algerian Air Force",
+        "notes": "One of the best-known export users of the Yak-130 family for advanced jet training and light-combat instruction."
+      },
+      {
+        "country": "Belarus",
+        "service": "Belarusian Air Force",
+        "notes": "Regional operator of the type; exact current fleet figures are date-sensitive."
+      },
+      {
+        "country": "Myanmar",
+        "service": "Myanmar Air Force",
+        "notes": "Export operator reported in public-source operator lists; current numbers and availability require dated verification."
+      },
+      {
+        "country": "Bangladesh, Laos, Vietnam, Iran, and other reported users/customers",
+        "service": "National air forces",
+        "notes": "Representative reported export customers or users; this article avoids fixed inventory totals because deliveries, attrition, and status vary by source/date."
+      }
+    ],
+    "combat_history": "Designed mainly for training, but the Yak-130 can carry light-combat stores. Public reporting on operational combat use and losses is date-sensitive and politically disputed, so this page emphasizes training/light-attack capability rather than fixed combat claims.",
+    "development_history": "The Yak-130 began as a post-Soviet advanced-trainer program intended to replace L-29 and L-39-family trainers and to prepare pilots for fourth-generation and newer fighters. Yakovlev and Aermacchi cooperated on the Yak/AEM-130 demonstrator, which first flew in 1996; the partnership ended around 2000 and the Russian Yak-130 path continued separately. The aircraft was selected in Russia's trainer competition in 2002 and entered Russian service in 2010.",
+    "short_summary": "The Yakovlev Yak-130 Mitten is a Russian two-seat, twin-turbofan advanced jet trainer with secondary light-combat capability. It combines a glass-cockpit training environment, programmable handling characteristics, high-subsonic performance, and external stores carriage to bridge pilots from basic training aircraft to modern combat jets.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -37151,11 +37203,32 @@
     ],
     "sources": [
       {
+        "id": "fn-roe-yak130",
+        "title": "Yak-130",
+        "url": "https://roe.ru/en/production/aerospace-forces/aircraft/training-and-combat-training-aircraft/yak-1301976?theme=",
+        "publisher": "Rosoboronexport",
+        "note": "Official export-catalog page used for role and current marketed Yak-130 context."
+      },
+      {
+        "id": "fn-roe-yak130m",
+        "title": "Yak-130M",
+        "url": "https://roe.ru/en/production/aerospace-forces/aircraft/training-and-combat-training-aircraft/yak-130m?theme=theme-green",
+        "publisher": "Rosoboronexport",
+        "note": "Official export-catalog page used for modernized Yak-130M context."
+      },
+      {
+        "id": "fn-weaponsystems",
+        "title": "Yakovlev Yak-130",
+        "url": "https://weaponsystems.net/system/178-Yakovlev+Yak-130",
+        "publisher": "WeaponSystems.net",
+        "note": "Reference page used for public dimensions, propulsion, performance, and armament/store figures; values are treated as representative."
+      },
+      {
         "id": "fn-main",
         "title": "Yakovlev Yak-130",
         "url": "https://en.wikipedia.org/wiki/Yakovlev_Yak-130",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "note": "Supplementary orientation source for development chronology, operator list, and related-development links; not used as the sole source for technical claims."
       },
       {
         "id": "fn-wikidata",
@@ -37170,13 +37243,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.yak.ru/ENG/PROD/new_130.php",
-        "publisher": "yak.ru",
-        "note": "External source for Yakovlev Yak-130."
       }
     ],
     "country_flags": [
@@ -37188,48 +37254,54 @@
     "designers": [
       "Yakovlev"
     ],
-    "development_tensions": [],
+    "development_tensions": [
+      {
+        "topic": "Post-Soviet trainer replacement",
+        "description": "The aircraft emerged from a need to replace older L-29/L-39-family trainers while giving students a cockpit and handling environment closer to modern fighters."
+      },
+      {
+        "topic": "Russian-Italian program split",
+        "description": "Yakovlev and Aermacchi jointly developed the early demonstrator, then separated into the Russian Yak-130 and Italian M-346 development paths."
+      }
+    ],
     "wars_used_in": [],
     "variant_families": [
-      "Yakovlev Yak-130 baseline production model",
-      "Yakovlev Yak-130 upgraded avionics or weapons-capable model",
-      "Yakovlev Yak-130 two-seat trainer or conversion model"
+      "Yak/AEM-130 demonstrator lineage",
+      "Yak-130 baseline advanced trainer/light combat aircraft",
+      "Yak-130 export configurations",
+      "Yak-130M modernization",
+      "Aermacchi M-346 related development"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "Russia"
       ],
-      "major_user_note": "Yakovlev Yak-130 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Russia is the primary domestic user, with several public export operators and customers reported.",
+      "all_operators_status": "Representative operator entries listed; exact current inventory totals are date-sensitive."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "No individual Yak-130 airframe is singled out here without a dedicated source.",
+        "Training value is centered on the aircraft's programmable control laws and cockpit simulation rather than celebrity pilot use."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Public accident and combat-loss reports exist but were not expanded into a dated incident table in this safe one-page update.",
+        "Loss claims and current availability should be checked against dated official or accident-investigation sources before adding fixed totals."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Yakovlev Yak-130 uses jet propulsion."
+      "type": "Turbofan",
+      "summary": "Two AI-222-25 non-afterburning turbofans provide high-subsonic training performance with enough thrust for aerobatic lead-in fighter training."
     },
     "armament_details": {
-      "summary": "Trainer aircraft; light-attack stores not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "The Yak-130 is primarily a trainer, but public references describe up to about 3,000 kg of external stores, including a centerline gun pod, R-73-class missiles, rockets, bombs, guided bombs, and external tanks.",
+      "caution": "Actual weapons clearance, training rounds, and combat loadouts vary by customer, software standard, pylon fit, and mission."
     },
     "similar_development": [
       {
         "id": "t-38-talon",
         "name": "Northrop T-38 Talon",
         "url": "aircraft.html?id=t-38-talon"
-      },
-      {
-        "id": "t-6-texan-ii",
-        "name": "Beechcraft T-6 Texan II",
-        "url": "aircraft.html?id=t-6-texan-ii"
       },
       {
         "id": "bae-hawk",
@@ -37240,21 +37312,52 @@
         "id": "mb-339",
         "name": "Aermacchi MB-339",
         "url": "aircraft.html?id=mb-339"
+      },
+      {
+        "id": "su-25",
+        "name": "Sukhoi Su-25",
+        "url": "aircraft.html?id=su-25"
+      },
+      {
+        "id": "su-57",
+        "name": "Sukhoi Su-57",
+        "url": "aircraft.html?id=su-57"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 1
+      "exact_fact_count": 36,
+      "operator_entries": 5,
+      "variant_entries": 5,
+      "external_article_sources": 3
     },
     "footnotes": [
+      {
+        "id": "fn-roe-yak130",
+        "title": "Yak-130",
+        "url": "https://roe.ru/en/production/aerospace-forces/aircraft/training-and-combat-training-aircraft/yak-1301976?theme=",
+        "publisher": "Rosoboronexport",
+        "note": "Official export-catalog page used for role and current marketed Yak-130 context."
+      },
+      {
+        "id": "fn-roe-yak130m",
+        "title": "Yak-130M",
+        "url": "https://roe.ru/en/production/aerospace-forces/aircraft/training-and-combat-training-aircraft/yak-130m?theme=theme-green",
+        "publisher": "Rosoboronexport",
+        "note": "Official export-catalog page used for modernized Yak-130M context."
+      },
+      {
+        "id": "fn-weaponsystems",
+        "title": "Yakovlev Yak-130",
+        "url": "https://weaponsystems.net/system/178-Yakovlev+Yak-130",
+        "publisher": "WeaponSystems.net",
+        "note": "Reference page used for public dimensions, propulsion, performance, and armament/store figures; values are treated as representative."
+      },
       {
         "id": "fn-main",
         "title": "Yakovlev Yak-130",
         "url": "https://en.wikipedia.org/wiki/Yakovlev_Yak-130",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "note": "Supplementary orientation source for development chronology, operator list, and related-development links; not used as the sole source for technical claims."
       },
       {
         "id": "fn-wikidata",
@@ -37269,22 +37372,29 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.yak.ru/ENG/PROD/new_130.php",
-        "publisher": "yak.ru",
-        "note": "External source for Yakovlev Yak-130."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.yak.ru/ENG/PROD/new_130.php",
-        "publisher": "yak.ru",
-        "note": "External source for Yakovlev Yak-130."
+        "id": "fn-roe-yak130",
+        "title": "Yak-130",
+        "url": "https://roe.ru/en/production/aerospace-forces/aircraft/training-and-combat-training-aircraft/yak-1301976?theme=",
+        "publisher": "Rosoboronexport",
+        "note": "Official export-catalog page used for role and current marketed Yak-130 context."
+      },
+      {
+        "id": "fn-roe-yak130m",
+        "title": "Yak-130M",
+        "url": "https://roe.ru/en/production/aerospace-forces/aircraft/training-and-combat-training-aircraft/yak-130m?theme=theme-green",
+        "publisher": "Rosoboronexport",
+        "note": "Official export-catalog page used for modernized Yak-130M context."
+      },
+      {
+        "id": "fn-weaponsystems",
+        "title": "Yakovlev Yak-130",
+        "url": "https://weaponsystems.net/system/178-Yakovlev+Yak-130",
+        "publisher": "WeaponSystems.net",
+        "note": "Reference page used for public dimensions, propulsion, performance, and armament/store figures; values are treated as representative."
       }
     ],
     "article_sections": [
@@ -37293,20 +37403,16 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Yakovlev Yak-130 is an Advanced jet trainer/light attack aircraft from Russia. Manufacturer: Yakovlev. First flight: 1996. Introduction: 2010. Status: Active.",
+            "text": "The Yakovlev Yak-130 Mitten is a two-seat Russian advanced jet trainer with secondary light-combat capability. It is meant to bridge pilots from basic training aircraft to modern fighters by combining a glass cockpit, programmable flight-control behavior, and enough performance and stores carriage for weapons training.",
             "refs": [
+              "fn-roe-yak130",
               "fn-main"
             ]
           },
           {
-            "text": "Yakovlev Yak-130 is a trainer. Primary role: advanced jet trainer/light attack aircraft. Country of origin: Russia. Manufacturer: Yakovlev.",
+            "text": "Compared with a frontline fighter such as the F-16, the Yak-130 is smaller, subsonic, and optimized for training economics. Its importance comes from simulating the handling and cockpit workflow of newer fighters while retaining real external-store and light-attack capability for advanced syllabi.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Exact structured fact fields: 15.",
-            "refs": [
+              "fn-weaponsystems",
               "fn-method"
             ]
           }
@@ -37314,67 +37420,95 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Advanced jet trainer/light attack aircraft"
+            "text": "Advanced jet trainer and light combat aircraft"
           },
           {
-            "title": "Designer or builder",
-            "text": "Yakovlev"
+            "title": "NATO reporting name",
+            "text": "Mitten"
           },
           {
-            "title": "Major origin",
-            "text": "Russia"
+            "title": "Powerplant",
+            "text": "Two AI-222-25 turbofans"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Stores capacity",
+            "text": "Up to about 3,000 kg on representative external stations"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Yakovlev Yak-130 first flew in 1996. Introduction date: 2010. Era: Modern.",
+            "text": "The program grew from the early-1990s requirement to replace older L-29 and L-39-family jet trainers after the Soviet period. Yakovlev's design became the Yak/AEM-130 in cooperation with Aermacchi, and the demonstrator flew in April 1996.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Producer: Yakovlev. Development context: advanced jet trainer/light attack aircraft, jet propulsion, subsonic speed category, Modern era.",
+            "text": "Yakovlev and Aermacchi split around 2000, producing separate Russian Yak-130 and Italian M-346 paths from the shared early work. Russia selected the Yak-130 in the 2002 trainer competition, and the aircraft entered Russian Air Force service in 2010.",
             "refs": [
-              "fn-wikidata"
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Later marketing has emphasized both the baseline Yak-130 and the Yak-130M, showing the design's continued role as a trainer/light-combat platform rather than a one-time 1990s trainer project.",
+            "refs": [
+              "fn-roe-yak130",
+              "fn-roe-yak130m"
             ]
           }
         ],
-        "bullets": []
+        "bullets": [
+          {
+            "text": "1991-era trainer-replacement requirement begins the design lineage.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "25 April 1996: Yak/AEM-130 demonstrator first flight.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "2002: Yak-130 selected for the Russian advanced-trainer role.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "2010: Russian service introduction reported.",
+            "refs": [
+              "fn-main"
+            ]
+          }
+        ]
       },
       {
         "id": "design",
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 2. Propulsion: Jet. Speed category: Subsonic.",
+            "text": "The Yak-130 uses a two-seat tandem trainer cockpit, twin AI-222-25 turbofans, and digital flight controls. Its training value lies in allowing instructors to expose students to modern cockpit symbology, tactical procedures, weapons employment, and aircraft-handling logic before conversion to front-line fighters.",
             "refs": [
+              "fn-weaponsystems",
               "fn-main"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "The aircraft is subsonic rather than a true fighter replacement. Public reference data lists about 1,060 km/h maximum speed, 12.5 km ceiling, and a 1,600 km internal-fuel range, making it suitable for training, lead-in fighter instruction, and limited attack missions but not for high-end air-superiority tasks.",
             "refs": [
+              "fn-weaponsystems"
+            ]
+          },
+          {
+            "text": "External stores can include missiles, rockets, bombs, a dedicated gun pod, and external tanks. Those weapons should be read as capability options: actual training rounds and combat loadouts depend on the operator, software, pylons, and mission clearance.",
+            "refs": [
+              "fn-weaponsystems",
               "fn-method"
-            ]
-          },
-          {
-            "text": "Yakovlev Yak-130 uses jet propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Trainer aircraft; light-attack stores not listed. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
@@ -37384,75 +37518,43 @@
             "text": "2"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Length",
+            "text": "About 11.49 m"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Wingspan",
+            "text": "About 9.84 m"
+          },
+          {
+            "title": "Maximum takeoff weight",
+            "text": "About 10.3 t"
           },
           {
             "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
             "text": "No"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Yakovlev Yak-130 status: Active. Conflict entries: 0.",
+            "text": "Representative public data lists a 1+1 crew, 11.49 m length, 9.84 m wingspan, 4.76 m height, 4.6 t empty weight, 7.25 t gross weight, and 10.3 t maximum takeoff weight.",
             "refs": [
-              "fn-main"
+              "fn-weaponsystems"
             ]
           },
           {
-            "text": "Conflicts: 0 entries.",
+            "text": "Propulsion is two AI-222-25 turbofans with about 24.5 kN dry thrust each. Representative performance includes 1,060 km/h maximum speed, 887 km/h cruise speed, about 1,600 km internal range, 2,100-2,300 km ferry range with external fuel, 555 km combat radius, 12.5 km ceiling, and about 65 m/s climb rate.",
             "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Yakovlev Yak-130 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-weaponsystems"
             ]
           },
           {
-            "text": "Named individual aircraft listed: 0.",
+            "text": "Stores capacity is commonly given as about 3.0 t across wing, wingtip, and centerline/fuselage stations. Figures are representative; variant, mission, and export configuration can change practical payload and avionics details.",
             "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
+              "fn-weaponsystems",
               "fn-method"
             ]
           }
@@ -37460,36 +37562,44 @@
       },
       {
         "id": "variants",
-        "title": "Variants",
+        "title": "Variants and Related Development",
         "paragraphs": [
           {
-            "text": "Yakovlev Yak-130 variant-family entries: 3. Variant families: Yakovlev Yak-130 baseline production model; Yakovlev Yak-130 upgraded avionics or weapons-capable model; Yakovlev Yak-130 two-seat trainer or conversion model.",
+            "text": "The Yak-130 family is best understood as a trainer/light-combat production aircraft with an earlier joint demonstrator lineage and later export or modernization configurations. The related M-346 came from the same early Yakovlev-Aermacchi program but developed separately after the partners split.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-main",
+              "fn-roe-yak130m"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Yakovlev Yak-130 baseline production model",
+            "text": "Yak/AEM-130 / Yak-130D: original joint demonstrator lineage, first flown in 1996.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Yakovlev Yak-130 upgraded avionics or weapons-capable model",
+            "text": "Yak-130: baseline Russian production advanced trainer and light-combat aircraft.",
             "refs": [
+              "fn-roe-yak130",
               "fn-main"
             ]
           },
           {
-            "text": "Yakovlev Yak-130 two-seat trainer or conversion model",
+            "text": "Yak-130 export aircraft: customer-specific aircraft with potentially different avionics, weapons clearances, and support arrangements.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Yak-130M: modernized derivative promoted for improved combat-training/light-combat roles.",
+            "refs": [
+              "fn-roe-yak130m"
+            ]
+          },
+          {
+            "text": "Aermacchi M-346: related development, not a Yak-130 variant in service records.",
             "refs": [
               "fn-main"
             ]
@@ -37501,45 +37611,73 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Russia. Yakovlev Yak-130 has 1 designer or builder country entry.",
+            "text": "Russia is the principal domestic operator, using the Yak-130 for advanced and lead-in fighter training. Public sources also list several export operators, but current fleet totals and serviceability change over time, so this page avoids fixed inventory tables without dated operator-specific sources.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
+              "fn-main",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Russia — primary domestic user for advanced fighter-pilot training.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Major designer or builder entries: Russia.",
+            "text": "Algeria — prominent export operator.",
             "refs": [
-              "fn-wikidata"
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Belarus and Myanmar — reported public-source operators.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Bangladesh, Laos, Vietnam, Iran, and others — reported users/customers requiring dated verification for exact fleet status.",
+            "refs": [
+              "fn-main",
+              "fn-method"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "service",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 2, propulsion type Jet, maximum speed category Subsonic, first flight 1996, introduction 2010.",
+            "text": "The Yak-130's main service role is training: teaching jet handling, formation and instrument work, tactical procedures, and weapons employment before pilots move to combat aircraft. Its programmable and modern cockpit environment lets air forces reduce the amount of expensive front-line fighter flying needed for some training tasks.",
             "refs": [
+              "fn-roe-yak130",
               "fn-main"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Because the aircraft can carry real stores, it can also serve in light-attack or armed-training roles. This secondary role should not be overstated: survivability, speed, sensors, and payload are closer to a trainer/light-attack aircraft than to a dedicated strike fighter.",
+            "refs": [
+              "fn-weaponsystems",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "weapons-systems",
+        "title": "Weapons Systems",
+        "paragraphs": [
+          {
+            "text": "Published loadout examples include a centerline SNPU-130 gun pod with a GSh-23L cannon, R-73/R-73E short-range air-to-air missiles, S-8 and S-13 rocket pods, S-25 rockets, KAB-500Kr guided bombs, FAB-series bombs, incendiary bombs, and PTB-450 external tanks.",
+            "refs": [
+              "fn-weaponsystems"
+            ]
+          },
+          {
+            "text": "Those stores make the Yak-130 valuable for weapons instruction and limited attack tasks, but Milipedia should treat them as available options rather than a standard universal loadout.",
             "refs": [
               "fn-method"
             ]
@@ -37547,11 +37685,11 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "comparison",
+        "title": "Comparison and Role Context",
         "paragraphs": [
           {
-            "text": "Yakovlev Yak-130 similar-development links: 4.",
+            "text": "Within Milipedia, the Yak-130 sits closer to trainers such as the BAE Hawk, Aermacchi MB-339, and Northrop T-38 than to frontline fighters. Its light-combat stores connect it to aircraft such as the Su-25 only in limited attack context; it is not a heavily armored close-air-support aircraft.",
             "refs": [
               "fn-method"
             ]
@@ -37563,8 +37701,91 @@
             "url": "aircraft.html?id=t-38-talon"
           },
           {
-            "label": "Beechcraft T-6 Texan II",
-            "url": "aircraft.html?id=t-6-texan-ii"
+            "label": "BAE Systems Hawk",
+            "url": "aircraft.html?id=bae-hawk"
+          },
+          {
+            "label": "Aermacchi MB-339",
+            "url": "aircraft.html?id=mb-339"
+          },
+          {
+            "label": "Sukhoi Su-25",
+            "url": "aircraft.html?id=su-25"
+          },
+          {
+            "label": "Sukhoi Su-57",
+            "url": "aircraft.html?id=su-57"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include modern trainer avionics, two-engine safety margin, flexible simulation/training roles, external stores capacity, and the ability to prepare pilots for higher-performance fighters at lower operating cost than frontline aircraft.",
+            "refs": [
+              "fn-roe-yak130",
+              "fn-weaponsystems"
+            ]
+          },
+          {
+            "text": "Limitations include subsonic performance, limited payload compared with dedicated strike aircraft, date-sensitive export/support status, and uncertain public data for some operator-specific avionics and weapons clearances.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "Key dates: early 1990s trainer-replacement requirement; 1996 Yak/AEM-130 first flight; about 2000 Russian-Italian development split; 2002 Russian trainer competition selection; 2010 entry into Russian Air Force service; later export service and Yak-130M marketing.",
+            "refs": [
+              "fn-main",
+              "fn-roe-yak130m"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Official Rosoboronexport pages were used for the current marketed Yak-130/Yak-130M context, while WeaponSystems.net supplied representative dimensional, performance, propulsion, and stores data. Wikipedia was retained only as supplementary orientation for broad chronology and operator discovery.",
+            "refs": [
+              "fn-roe-yak130",
+              "fn-roe-yak130m",
+              "fn-weaponsystems",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Exact current fleet totals, combat-loss claims, and export-specific weapons clearances were intentionally omitted because they require narrower dated sources and can change quickly.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages connect the Yak-130 to trainer, light-attack, and modern fighter-training context.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Northrop T-38 Talon",
+            "url": "aircraft.html?id=t-38-talon"
           },
           {
             "label": "BAE Systems Hawk",
@@ -37573,6 +37794,18 @@
           {
             "label": "Aermacchi MB-339",
             "url": "aircraft.html?id=mb-339"
+          },
+          {
+            "label": "Sukhoi Su-25",
+            "url": "aircraft.html?id=su-25"
+          },
+          {
+            "label": "Sukhoi Su-57",
+            "url": "aircraft.html?id=su-57"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "index.html"
           }
         ]
       }
