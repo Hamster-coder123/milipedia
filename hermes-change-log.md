@@ -2537,3 +2537,81 @@ Record the result of:
 * Exact current inventory counts, modern combat losses, and operator-specific weapons clearances were intentionally omitted or qualified because they are date-sensitive or difficult to verify from stable public sources.
 * The U.S. Army ODIN Su-25 page was found in search results but web extraction failed, so it was not used as a cited source in this run.
 * The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.
+
+### Run 34 — 2026-07-01 05:01:31 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Mikoyan-Gurevich MiG-25 (id: mig-25)
+* Reason selected: The MiG-25 entry was one of the shortest unedited aircraft candidates and was markedly sparse compared with the F-16 reference page, with no operator entries, no variant entries, no external article sources, placeholder specifications, and generic generated article sections.
+* Previous condition: Generated placeholder-style entry with 15 exact fact fields, 0 operator entries, 0 variant entries, 0 external article sources, no NATO reporting name, no engine/dimension/range/ceiling details, generic armament wording, and missing detailed development, design, variants, operators, operational-history, comparison, timeline, source-note, and related-page coverage.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview with fact cards; section order covering overview, development, design, specifications, variants, operators, operational history, strengths/limitations, comparison, timeline, sources, and related pages; concise technical paragraphs; cautionary wording for variant-dependent figures; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the Mikoyan-Gurevich MiG-25 entry from a sparse generated record into a fuller Milipedia article data page.
+* Added Foxbat NATO reporting name, Ye-155 and E-266 alternative/designation context, refined role, manufacturer/production context, first-flight dates, service-entry caveat, production-total caveat, crew notes, engine model family, speed limit, range, ceiling, climb-performance context, hardpoints, combat history, development history, and summary.
+* Replaced generic armament text with MiG-25-specific R-40/AA-6 Acrid missile, radar/infrared missile, reconnaissance-bomber, and anti-radiation derivative wording.
+* Added and normalized sources from the National Museum of the United States Air Force, GlobalSecurity development/specification/variant/service pages, Wikipedia as supplemental orientation, and Milipedia data-accuracy rules.
+* Added detailed article sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Comparison, Timeline, Sources and Notes, and Related Pages.
+* Added variant coverage for Ye-155 prototypes, MiG-25P, MiG-25R/RB, MiG-25PU/RU, MiG-25RBK/RBS/RBSh/RBF, MiG-25PD/PDS, MiG-25BM, and MiG-31 successor context.
+* Added representative operator coverage for the Soviet Union/Russia, Iraq, India, Algeria, Syria, Ukraine/Belarus/Azerbaijan/Bulgaria/other legacy users, with date-sensitive status cautions.
+* Added technical details for two Tumansky R-15-family afterburning turbojets, Mach 2.83 operational speed, 21.34 m length, 12.6 m wingspan, 24,400 m listed ceiling, 1,560 nmi listed cruise range, Foxfire/Smerch-family radar context, and 14,200 kg internal fuel figure with source and variant caveats.
+* Added operational-history wording for Middle East reconnaissance deployments, the 1976 Viktor Belenko defection, Iraqi service, Gulf War-era context, and the 2003 recovery of a buried Iraqi MiG-25RB while avoiding disputed detailed kill/loss claims.
+* Added internal related links to F-15 Eagle, F-14 Tomcat, MiG-31, SR-71 Blackbird, and F-4 Phantom II, plus the database return link.
+* Omitted exact current inventories, final retirement claims, detailed Gulf War victory/loss accounting, and exact performance figures for every subvariant because those facts are date-sensitive, disputed, or variant-specific.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded the Mikoyan-Gurevich MiG-25 aircraft page data, sources, article sections, variants, operators, specifications, armament, and related links.
+* hermes-change-log.md — Appended this cumulative Run 34 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed the data/aircraft.json diff and confirmed it changed only the MiG-25 record; reviewed the log append before commit.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool and reviewed the MiG-25 entry's section titles, source IDs, variants, operators, specifications, armament caveats, related links, and summary text.
+4. F-16 style comparison — Inspected data/f16-template.html and copied its dense overview, fact-card, section-order, technical-specification, comparison, timeline, source-note, and related-link patterns within the JSON-rendered page format.
+5. Internal link check — Parsed aircraft.html?id=... links in the updated MiG-25 entry and verified f-15-eagle, f-14-tomcat, mig-31, sr-71-blackbird, and f-4-phantom-ii exist in data/aircraft.json; aircraft.html was treated as an existing database navigation link.
+6. Secret/token check — Ran a credential-pattern scan over the intended diff for API keys, access/auth tokens, passwords, private keys, GitHub tokens, and AWS credentials; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, git diff --check success, one-entry JSON change, intended files only, MiG-25 was not previously edited by Hermes, and no direct main-branch edit.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Mikoyan-Gurevich MiG-25
+* Commit hash: Pending until commit is created; final hash is reported in the scheduled-run response.
+
+#### Issues or Uncertainties
+
+* MiG-25 specifications vary by interceptor, reconnaissance, trainer, reconnaissance-bomber, and anti-radiation variant; representative figures are sourced and caveated.
+* Exact current operator inventories, final retirement dates, and detailed Gulf War kill/loss claims were intentionally omitted or qualified because they are date-sensitive or disputed.
+* GlobalSecurity provides useful structured variant/specification/service summaries but contains some broad or dated wording, so technical claims were cross-checked against NMUSAF where possible and phrased cautiously.
+* The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.

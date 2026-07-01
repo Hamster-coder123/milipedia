@@ -32687,34 +32687,110 @@
   {
     "id": "mig-25",
     "name": "Mikoyan-Gurevich MiG-25",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "alternative_names": [
+      "MiG-25 Foxbat",
+      "Ye-155",
+      "E-266 record-aircraft designation"
+    ],
+    "nato_reporting_name": "Foxbat",
     "country_of_origin": "Soviet Union",
-    "manufacturer": "Mikoyan-Gurevich",
+    "manufacturer": "Mikoyan-Gurevich; Gorky aircraft plant production",
     "role": "Interceptor/reconnaissance aircraft",
-    "aircraft_type": "Fighter",
+    "aircraft_type": "Interceptor and reconnaissance aircraft",
     "era": "Cold War",
-    "first_flight": "1964",
-    "introduction_date": "1970",
+    "first_flight": "6 March 1964, Ye-155R-1 reconnaissance prototype; 9 September 1964, Ye-155P-1 interceptor prototype",
+    "introduction_date": "1970 series entry; PVO interceptor service followed in the early 1970s",
     "retirement_date": null,
     "status": "Active/retired by operator",
-    "number_built": "Not listed",
-    "crew": "1",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Mach 3 class",
+    "number_built": "1,186 commonly cited total; GlobalSecurity lists 1,119 production aircraft across modifications",
+    "crew": "1; two seats on MiG-25PU/RU trainers",
+    "engine_type": "Two afterburning turbojets",
+    "engines": "Two Tumansky R-15B-300 / R-15BD-300 afterburning turbojets depending variant",
+    "max_speed": "Mach 2.83 operational limit; higher dash speeds risked engine damage",
     "speed_category": "Mach 3 class",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Mikoyan-Gurevich MiG-25: Interceptor/reconnaissance aircraft. Manufacturer: Mikoyan-Gurevich. First flight: 1964. Introduction: 1970.",
-    "short_summary": "Mikoyan-Gurevich MiG-25: Interceptor/reconnaissance aircraft. Origin: Soviet Union. Manufacturer: Mikoyan-Gurevich. First flight: 1964. Introduction: 1970. Status: Active/retired by operator.",
+    "range": "About 1,560 nautical miles cruise-range figure listed by GlobalSecurity; ferry/range values vary by variant and profile",
+    "combat_range": "Not stated as one stable figure; reconnaissance and interception profiles depended strongly on altitude, fuel, and mission",
+    "service_ceiling": "24,400 m listed by GlobalSecurity; record flights reached much higher altitudes under special conditions",
+    "rate_of_climb": "Very high climb performance; GlobalSecurity describes climb to 35,000 m in a little over four minutes for record/performance context",
+    "armament": "Interceptor variants carried up to four large air-to-air missiles, typically R-40/AA-6 Acrid radar- and infrared-guided missiles; later PD/PDS aircraft added improved radar/weapons, while RB/BM derivatives carried reconnaissance, bombing, or anti-radiation equipment.",
+    "hardpoints": "Four primary missile stations on interceptor variants; reconnaissance-bomber variants added under-fuselage/underwing bomb stations depending model",
+    "variants": [
+      {
+        "name": "Ye-155R-1 / Ye-155P-1",
+        "role": "Prototype",
+        "notes": "Reconnaissance and interceptor prototypes. The R-1 first flew on 6 March 1964; the P-1 interceptor prototype first flew on 9 September 1964."
+      },
+      {
+        "name": "MiG-25P Foxbat-A",
+        "role": "Interceptor",
+        "notes": "Initial production interceptor designed for high-altitude interception with powerful radar and large air-to-air missiles."
+      },
+      {
+        "name": "MiG-25R / MiG-25RB Foxbat-B",
+        "role": "Reconnaissance / reconnaissance-bomber",
+        "notes": "High-speed reconnaissance family; RB aircraft added programmed bombing capability and could carry heat-resistant bombs for supersonic missions."
+      },
+      {
+        "name": "MiG-25PU / MiG-25RU Foxbat-C",
+        "role": "Trainer",
+        "notes": "Two-seat conversion trainers for interceptor and reconnaissance crews; not intended as full combat aircraft."
+      },
+      {
+        "name": "MiG-25RBK/RBS/RBSh/RBF Foxbat-D",
+        "role": "Reconnaissance variants",
+        "notes": "Improved reconnaissance and electronic-intelligence derivatives with different sensor fits."
+      },
+      {
+        "name": "MiG-25PD / MiG-25PDS Foxbat-E",
+        "role": "Improved interceptor",
+        "notes": "Post-Belenko improved interceptor standard with upgraded radar/weapons; PDS covered upgraded earlier P airframes."
+      },
+      {
+        "name": "MiG-25BM Foxbat-F",
+        "role": "Air-defense suppression",
+        "notes": "Anti-radiation derivative intended to attack enemy radars with Kh-58 / AS-11 Kilter-class missiles."
+      },
+      {
+        "name": "MiG-31 Foxhound",
+        "role": "Successor development",
+        "notes": "Not a MiG-25 variant, but a follow-on interceptor developed to address MiG-25 limitations with improved radar, crew concept, and multi-target capability."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Soviet Union / Russia",
+        "status": "Former / successor operator",
+        "notes": "Primary developer and largest Cold War operator through PVO, VVS, reconnaissance, and test units. Russian service declined as MiG-31 and other systems replaced the type."
+      },
+      {
+        "country": "Iraq",
+        "status": "Former operator",
+        "notes": "Received MiG-25 aircraft from 1980 according to the NMUSAF exhibit history; used them during the Iran-Iraq War and Gulf War era. One MiG-25RB was recovered buried near Al Taqaddum in 2003 and later entered the NMUSAF collection."
+      },
+      {
+        "country": "India",
+        "status": "Former operator",
+        "notes": "Operated reconnaissance MiG-25 aircraft for high-altitude strategic reconnaissance before retirement; exact fleet and sortie details are outside this safe update."
+      },
+      {
+        "country": "Algeria",
+        "status": "Former or late-life operator",
+        "notes": "Listed in operator/user-country sources; exact current status is date-sensitive and not asserted as active."
+      },
+      {
+        "country": "Syria",
+        "status": "Former or uncertain late-life operator",
+        "notes": "Listed in user-country sources and associated with Middle East service; current airworthiness and inventory are not asserted."
+      },
+      {
+        "country": "Ukraine, Belarus, Azerbaijan, Bulgaria, and other ex-Soviet/export users",
+        "status": "Former / legacy users",
+        "notes": "GlobalSecurity lists several former Soviet or export users. Current inventories are treated cautiously because retirement dates and airworthiness vary by source."
+      }
+    ],
+    "combat_history": "Soviet reconnaissance deployments over the Middle East, Iraqi service in the Iran-Iraq War and Gulf War, Syrian and other export service; exact aerial victory/loss claims vary by source.",
+    "development_history": "Developed as the Ye-155 high-speed interceptor and reconnaissance family to counter high-altitude, high-speed threats such as advanced U.S. bombers and reconnaissance aircraft. The reconnaissance prototype first flew on 6 March 1964 and the interceptor prototype on 9 September 1964. The design emphasized speed, altitude, radar power, and missile reach more than maneuverability.",
+    "short_summary": "The Mikoyan-Gurevich MiG-25 Foxbat was a Soviet high-speed interceptor and reconnaissance aircraft built around two powerful Tumansky turbojets, large intakes, stainless-steel structure, powerful radar, and four large missiles. It entered service around 1970, became a Cold War symbol after Western overestimation and the 1976 Viktor Belenko defection, and served with the Soviet Union, Iraq, India, Algeria, Syria, and other operators.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -32727,25 +32803,53 @@
     ],
     "sources": [
       {
+        "id": "fn-nmusaf",
+        "title": "Mikoyan-Gurevich MiG-25",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196331/mikoyan-gurevich-mig-25",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Used for NATO name, role, service entry, Mach 2.83 speed, missile fit, Belenko defection context, Iraqi MiG-25RB exhibit history, and technical notes."
+      },
+      {
+        "id": "fn-globalsecurity-main",
+        "title": "MiG-25 Foxbat",
+        "url": "https://www.globalsecurity.org/military/world/russia/mig-25.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Used for development background, Ye-155 prototype dates, high-altitude/high-speed mission, record-aircraft context, production and operational caveats."
+      },
+      {
+        "id": "fn-globalsecurity-specs",
+        "title": "MiG-25 Foxbat Specifications",
+        "url": "https://www.globalsecurity.org/military/world/russia/mig-25-specs.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Used for dimensions, ceiling, range, sensors, variant list, armament families, and user-country list."
+      },
+      {
+        "id": "fn-globalsecurity-variants",
+        "title": "MiG-25 Foxbat - Variants",
+        "url": "https://www.globalsecurity.org/military/world/russia/mig-25-variants.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Used for MiG-25P/R/RB/PU/RU/PD/PDS/BM variant descriptions, Foxbat reporting suffixes, and post-Belenko upgrade context."
+      },
+      {
+        "id": "fn-globalsecurity-service",
+        "title": "MiG-25 Foxbat - In Service",
+        "url": "https://www.globalsecurity.org/military/world/russia/mig-25-service.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Used for Egypt/Sinai reconnaissance deployment, Belenko defection, service cautions, and Iraqi/Gulf War context."
+      },
+      {
         "id": "fn-main",
         "title": "Mikoyan-Gurevich MiG-25",
         "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-25",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation for production count, operator context, and broad variant/service cross-checking; not used as sole source for technical claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
+        "note": "Local rules for neutral wording, estimates, variant differences, current-status cautions, and source handling."
       }
     ],
     "country_flags": [
@@ -32761,108 +32865,168 @@
       "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
       "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
     ],
-    "wars_used_in": [],
+    "wars_used_in": [
+      "Middle East reconnaissance deployments",
+      "Iran-Iraq War",
+      "Gulf War",
+      "Operation Iraqi Freedom aftermath",
+      "Arab-Israeli conflict era"
+    ],
     "variant_families": [
-      "Mikoyan-Gurevich MiG-25 baseline production model",
-      "Mikoyan-Gurevich MiG-25 upgraded avionics or weapons-capable model",
-      "Mikoyan-Gurevich MiG-25 export or locally modernized model"
+      "MiG-25P / PDS interceptor family",
+      "MiG-25R / RB reconnaissance and reconnaissance-bomber family",
+      "MiG-25PU / RU two-seat trainer family",
+      "MiG-25PD improved interceptor family",
+      "MiG-25BM anti-radiation / air-defense suppression family",
+      "MiG-31 Foxhound successor development"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "Soviet Union"
       ],
-      "major_user_note": "Mikoyan-Gurevich MiG-25 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Soviet Union/Russia, Iraq, India, Algeria, Syria, Ukraine, Belarus, Azerbaijan, Bulgaria, and other former or legacy users are covered at summary level.",
+      "all_operators_status": "Representative operators listed with date-sensitive status caveats."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "Viktor Belenko defected to Japan in a Soviet MiG-25P on 6 September 1976, allowing Western examination of the aircraft.",
+        "The NMUSAF MiG-25RB was recovered incomplete after being buried near Al Taqaddum Airbase in Iraq in 2003.",
+        "Ye-155 / Ye-266 record aircraft set multiple altitude and speed records."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "1976 Belenko defection exposed radar, engines, construction methods, and design priorities.",
+        "Iraqi MiG-25 aircraft were involved in Gulf War-era air combat and dispersal/burial events; detailed claims are treated cautiously."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Mikoyan-Gurevich MiG-25 uses jet propulsion."
+      "type": "Two afterburning turbojets",
+      "summary": "The MiG-25 used two large Tumansky R-15B-300 / R-15BD-300 afterburning turbojets. NMUSAF lists approximately 22,500 lb thrust each with afterburner for its technical notes; exact model and rating vary by variant."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Interceptor variants carried up to four large air-to-air missiles. NMUSAF describes two radar-guided AA-6 Acrid missiles and two infrared-guided R-40T missiles for its exhibit notes; later and export fits varied.",
+      "caution": "Reconnaissance-bomber and BM variants differed significantly from interceptor armament, including bombs or anti-radiation missiles on specialized models."
     },
     "similar_development": [
       {
-        "id": "f-4-phantom-ii",
-        "name": "McDonnell Douglas F-4 Phantom II",
-        "url": "aircraft.html?id=f-4-phantom-ii"
-      },
-      {
-        "id": "f-5-freedom-fighter-tiger-ii",
-        "name": "Northrop F-5",
-        "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
-      },
-      {
-        "id": "f-8-crusader",
-        "name": "Vought F-8 Crusader",
-        "url": "aircraft.html?id=f-8-crusader"
+        "id": "f-15-eagle",
+        "name": "F-15 Eagle",
+        "url": "aircraft.html?id=f-15-eagle"
       },
       {
         "id": "f-14-tomcat",
         "name": "Grumman F-14 Tomcat",
         "url": "aircraft.html?id=f-14-tomcat"
+      },
+      {
+        "id": "mig-31",
+        "name": "Mikoyan MiG-31",
+        "url": "aircraft.html?id=mig-31"
+      },
+      {
+        "id": "sr-71-blackbird",
+        "name": "Lockheed SR-71 Blackbird",
+        "url": "aircraft.html?id=sr-71-blackbird"
+      },
+      {
+        "id": "f-4-phantom-ii",
+        "name": "McDonnell Douglas F-4 Phantom II",
+        "url": "aircraft.html?id=f-4-phantom-ii"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 38,
+      "operator_entries": 6,
+      "variant_entries": 8,
+      "external_article_sources": 3
     },
     "footnotes": [
+      {
+        "id": "fn-nmusaf",
+        "title": "Mikoyan-Gurevich MiG-25",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196331/mikoyan-gurevich-mig-25",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Used for NATO name, role, service entry, Mach 2.83 speed, missile fit, Belenko defection context, Iraqi MiG-25RB exhibit history, and technical notes."
+      },
+      {
+        "id": "fn-globalsecurity-main",
+        "title": "MiG-25 Foxbat",
+        "url": "https://www.globalsecurity.org/military/world/russia/mig-25.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Used for development background, Ye-155 prototype dates, high-altitude/high-speed mission, record-aircraft context, production and operational caveats."
+      },
+      {
+        "id": "fn-globalsecurity-specs",
+        "title": "MiG-25 Foxbat Specifications",
+        "url": "https://www.globalsecurity.org/military/world/russia/mig-25-specs.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Used for dimensions, ceiling, range, sensors, variant list, armament families, and user-country list."
+      },
+      {
+        "id": "fn-globalsecurity-variants",
+        "title": "MiG-25 Foxbat - Variants",
+        "url": "https://www.globalsecurity.org/military/world/russia/mig-25-variants.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Used for MiG-25P/R/RB/PU/RU/PD/PDS/BM variant descriptions, Foxbat reporting suffixes, and post-Belenko upgrade context."
+      },
+      {
+        "id": "fn-globalsecurity-service",
+        "title": "MiG-25 Foxbat - In Service",
+        "url": "https://www.globalsecurity.org/military/world/russia/mig-25-service.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Used for Egypt/Sinai reconnaissance deployment, Belenko defection, service cautions, and Iraqi/Gulf War context."
+      },
       {
         "id": "fn-main",
         "title": "Mikoyan-Gurevich MiG-25",
         "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-25",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation for production count, operator context, and broad variant/service cross-checking; not used as sole source for technical claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording, estimates, variant differences, current-status cautions, and source handling."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "National Museum of the U.S. Air Force MiG-25 fact sheet",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196331/mikoyan-gurevich-mig-25",
+        "publisher": "National Museum of the United States Air Force"
+      },
+      {
+        "title": "GlobalSecurity MiG-25 specifications",
+        "url": "https://www.globalsecurity.org/military/world/russia/mig-25-specs.htm",
+        "publisher": "GlobalSecurity.org"
+      },
+      {
+        "title": "GlobalSecurity MiG-25 variants",
+        "url": "https://www.globalsecurity.org/military/world/russia/mig-25-variants.htm",
+        "publisher": "GlobalSecurity.org"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-25 is an Interceptor/reconnaissance aircraft from Soviet Union. Manufacturer: Mikoyan-Gurevich. First flight: 1964. Introduction: 1970. Status: Active/retired by operator.",
+            "text": "The Mikoyan-Gurevich MiG-25 Foxbat was a Soviet high-speed interceptor and reconnaissance aircraft designed for altitude, speed, and missile reach rather than close-in maneuvering. NMUSAF describes it as a high-speed interceptor and reconnaissance aircraft that entered service in 1970, had a top speed of Mach 2.83, used powerful radar, and could carry up to four air-to-air missiles.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf"
             ]
           },
           {
-            "text": "Mikoyan-Gurevich MiG-25 is a fighter. Primary role: interceptor/reconnaissance aircraft. Country of origin: Soviet Union. Manufacturer: Mikoyan-Gurevich.",
+            "text": "The aircraft was built around two large Tumansky turbojets, large side intakes, a simple but robust stainless-steel-heavy structure, and mission-specific interceptor or reconnaissance equipment. The type became a Cold War symbol because Western observers initially overestimated its agility and because the 1976 Viktor Belenko defection exposed the real design to direct examination.",
             "refs": [
-              "fn-wikidata"
+              "fn-nmusaf",
+              "fn-globalsecurity-service"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Compared with the F-16 reference page, this article treats figures as variant-dependent: interceptor, reconnaissance-bomber, trainer, and anti-radar Foxbat variants had different sensors, weapons, crew arrangements, and mission profiles.",
             "refs": [
               "fn-method"
             ]
@@ -32870,51 +33034,70 @@
         ],
         "cards": [
           {
-            "title": "Primary role",
-            "text": "Interceptor/reconnaissance aircraft"
+            "title": "Role",
+            "text": "High-speed interceptor and reconnaissance aircraft"
           },
           {
-            "title": "Designer or builder",
-            "text": "Mikoyan-Gurevich"
+            "title": "NATO reporting name",
+            "text": "Foxbat"
           },
           {
-            "title": "Major origin",
-            "text": "Soviet Union"
+            "title": "First flight",
+            "text": "6 March 1964 reconnaissance prototype; 9 September 1964 interceptor prototype"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Top speed",
+            "text": "Mach 2.83 operational limit"
+          },
+          {
+            "title": "Powerplant",
+            "text": "Two Tumansky R-15-family afterburning turbojets"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-25 first flew in 1964. Introduction date: 1970. Era: Cold War.",
+            "text": "The MiG-25 grew from the Ye-155 program, which answered Soviet air-defense requirements for a manned interceptor able to meet high-altitude, high-speed threats. GlobalSecurity describes the Foxbat as designed to intercept the U.S. B-70-class threat and as a platform that retained potential as a very fast reconnaissance aircraft.",
             "refs": [
-              "fn-main"
+              "fn-globalsecurity-main"
             ]
           },
           {
-            "text": "Producer: Mikoyan-Gurevich. Development context: interceptor/reconnaissance aircraft, jet propulsion, mach 3 class speed category, Cold War era.",
+            "text": "The Ye-155R-1 reconnaissance prototype first flew on 6 March 1964, and the Ye-155P-1 interceptor prototype first flew on 9 September 1964. The aircraft appeared publicly at the 1967 Domodedovo air show and production followed at Gorky.",
             "refs": [
-              "fn-wikidata"
+              "fn-globalsecurity-main"
+            ]
+          },
+          {
+            "text": "Record-aircraft designations Ye-166 and Ye-266 were used for public record claims. Prototype and specially prepared aircraft set multiple speed, climb, and altitude records, including high-altitude records that should not be confused with routine operational ceiling.",
+            "refs": [
+              "fn-globalsecurity-main",
+              "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "Mission driver: high-speed interception and high-altitude reconnaissance, not dogfighting agility.",
             "refs": [
-              "fn-method"
+              "fn-globalsecurity-main"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "Material choice emphasized welded steel/nickel-steel structure and limited titanium use to handle Mach 2-plus heating at lower cost and production risk than a titanium-heavy airframe.",
             "refs": [
-              "fn-method"
+              "fn-nmusaf",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "The 1976 Belenko defection accelerated post-P upgrades because Western inspection exposed radar, electronics, and construction details.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-globalsecurity-variants"
             ]
           }
         ]
@@ -32924,107 +33107,99 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Mach 3 class.",
+            "text": "The MiG-25 used two massive afterburning turbojets and large side intakes to deliver exceptional dash speed and climb. NMUSAF lists two Tumansky R-15B-300 turbojets of approximately 22,500 lb thrust each with afterburner.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Its operational speed is commonly limited to Mach 2.83. Although higher speeds were possible in special circumstances, sources caution that Mach 3-plus operation risked engine damage, so the article avoids treating Mach 3.2 as a normal service speed.",
             "refs": [
+              "fn-nmusaf",
+              "fn-globalsecurity-service",
               "fn-method"
             ]
           },
           {
-            "text": "Mikoyan-Gurevich MiG-25 uses jet propulsion. Engine model field: Not listed.",
+            "text": "The cockpit and avionics reflected Soviet design priorities of the period: powerful radar, robust systems, and maintainable equipment rather than lightweight miniaturization. Western examination after Belenko found vacuum-tube electronics and relatively limited use of advanced materials such as titanium.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf",
+              "fn-globalsecurity-service"
             ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Structure",
+            "text": "Stainless-steel / nickel-steel-heavy construction with limited titanium use"
           },
           {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
+            "title": "Sensors",
+            "text": "Foxfire / Smerch-family radar on interceptor variants; reconnaissance sensors on R/RB derivatives"
+          },
+          {
+            "title": "Weapons",
+            "text": "Up to four large air-to-air missiles on interceptors; bombs or anti-radiation missiles on specialized derivatives"
+          },
+          {
+            "title": "Mission trade-off",
+            "text": "Speed and altitude over maneuverability, range flexibility, and low-level multirole agility"
+          }
+        ]
+      },
+      {
+        "id": "specifications",
+        "title": "Specifications",
+        "paragraphs": [
+          {
+            "text": "Representative specifications below combine NMUSAF exhibit notes and GlobalSecurity specifications. MiG-25P, PD/PDS, RB, BM, and trainer aircraft differed, so values should be read as family-level reference figures rather than a single universal configuration.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf",
+              "fn-globalsecurity-specs",
+              "fn-method"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "1"
+            "text": "One; two on PU/RU trainers"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Length",
+            "text": "70 ft / 21.34 m"
           },
           {
-            "title": "Speed class",
-            "text": "Mach 3 class"
+            "title": "Wingspan",
+            "text": "41 ft / 12.6 m"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Ceiling",
+            "text": "24,400 m listed by GlobalSecurity"
           },
           {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Mikoyan-Gurevich MiG-25 status: Active/retired by operator. Conflict entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Cruise range",
+            "text": "1,560 nautical miles listed by GlobalSecurity"
           },
           {
-            "text": "Conflicts: 0 entries.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Mikoyan-Gurevich MiG-25 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Engines",
+            "text": "Two Tumansky R-15B-300 / R-15BD-300 afterburning turbojets"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum speed",
+            "text": "Mach 2.83 operational limit"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Internal fuel",
+            "text": "14,200 kg listed by GlobalSecurity"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Radar",
+            "text": "Foxfire / Smerch-family radar depending variant"
+          },
+          {
+            "title": "Armament",
+            "text": "R-40 / AA-6 Acrid-family missiles; later or specialized variants differed"
           }
         ]
       },
@@ -33033,35 +33208,41 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-25 variant-family entries: 3. Variant families: Mikoyan-Gurevich MiG-25 baseline production model; Mikoyan-Gurevich MiG-25 upgraded avionics or weapons-capable model; Mikoyan-Gurevich MiG-25 export or locally modernized model.",
+            "text": "The Foxbat family separated into interceptor, reconnaissance, reconnaissance-bomber, trainer, improved interceptor, and anti-radiation branches. GlobalSecurity lists Foxbat suffix families A through F and describes the MiG-31 Foxhound as a successor based on MiG-25 capability but with improved radar and weapons.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-globalsecurity-variants"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Mikoyan-Gurevich MiG-25 baseline production model",
+            "text": "MiG-25P Foxbat-A: initial high-altitude interceptor.",
             "refs": [
-              "fn-main"
+              "fn-globalsecurity-variants"
             ]
           },
           {
-            "text": "Mikoyan-Gurevich MiG-25 upgraded avionics or weapons-capable model",
+            "text": "MiG-25R/RB Foxbat-B: reconnaissance and reconnaissance-bomber aircraft, including programmed bombing capability on RB variants.",
             "refs": [
-              "fn-main"
+              "fn-globalsecurity-variants"
             ]
           },
           {
-            "text": "Mikoyan-Gurevich MiG-25 export or locally modernized model",
+            "text": "MiG-25PU/RU Foxbat-C: two-seat conversion trainers.",
             "refs": [
-              "fn-main"
+              "fn-globalsecurity-variants"
+            ]
+          },
+          {
+            "text": "MiG-25PD/PDS Foxbat-E: improved interceptor standards after exposure of the original P model.",
+            "refs": [
+              "fn-globalsecurity-variants"
+            ]
+          },
+          {
+            "text": "MiG-25BM Foxbat-F: anti-radiation / air-defense suppression derivative with Kh-58 / AS-11 Kilter-class missile capability.",
+            "refs": [
+              "fn-globalsecurity-variants"
             ]
           }
         ]
@@ -33071,45 +33252,245 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Soviet Union. Mikoyan-Gurevich MiG-25 has 1 designer or builder country entry.",
+            "text": "The Soviet Union was the developer and primary operator. Export and successor-state users included Iraq, India, Algeria, Syria, Ukraine, Belarus, Azerbaijan, Bulgaria, and other operators depending source and period. Current status is deliberately caveated because many Foxbat fleets were retired, stored, or only nominally listed long after active flying ended.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
+              "fn-globalsecurity-specs",
+              "fn-main",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Iraq: first MiG-25s entered Iraqi Air Force service in 1980 according to NMUSAF, and an Iraqi MiG-25RB later became the NMUSAF exhibit aircraft after recovery in 2003.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf"
             ]
           },
           {
-            "text": "Major designer or builder entries: Soviet Union.",
+            "text": "India: operated reconnaissance MiG-25 aircraft before retirement; exact sortie and sensor details are outside this run.",
             "refs": [
-              "fn-wikidata"
+              "fn-main",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Algeria and Syria: long associated with late Foxbat service in public references, but current airworthy status is treated as uncertain/date-sensitive.",
+            "refs": [
+              "fn-globalsecurity-specs",
+              "fn-method"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Mach 3 class, first flight 1964, introduction 1970.",
+            "text": "Soviet MiG-25 reconnaissance aircraft were used in Middle East deployments before full routine service, including flights related to Egyptian/Sinai reconnaissance needs. GlobalSecurity describes high-altitude reconnaissance flights that Israeli fighters and Hawk missiles could not effectively intercept.",
+            "refs": [
+              "fn-globalsecurity-service"
+            ]
+          },
+          {
+            "text": "The 6 September 1976 defection by Soviet pilot Viktor Belenko to Japan was one of the aircraft's defining events. The aircraft was partly examined before return to the Soviet Union, and subsequent Soviet upgrades addressed exposed radar and electronics limitations.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-globalsecurity-service",
+              "fn-globalsecurity-variants"
+            ]
+          },
+          {
+            "text": "Iraqi MiG-25s flew during the Iran-Iraq War and Gulf War period. Gulf War aerial-victory and loss claims vary by source, so this article records the conflict context without turning disputed claims into fixed fact.",
+            "refs": [
+              "fn-globalsecurity-service",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1970: MiG-25 entered service according to NMUSAF; GlobalSecurity notes early reliability and engine-use limitations.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-globalsecurity-service"
+            ]
+          },
+          {
+            "text": "1976: Belenko defection exposed the aircraft to Western inspection and changed perceptions of the Foxbat.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "2003: U.S. forces found a buried Iraqi MiG-25RB near Al Taqaddum; the incomplete aircraft later arrived at NMUSAF.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The Foxbat was formidable in its intended envelope but limited outside it. Its design should be evaluated as a high-speed interceptor/reconnaissance platform rather than as a turn-fighting multirole fighter.",
+            "refs": [
+              "fn-globalsecurity-main",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: exceptional speed, altitude, and climb for a serial-production military aircraft.",
+            "refs": [
+              "fn-globalsecurity-main"
+            ]
+          },
+          {
+            "text": "Strength: powerful radar and large long-range missiles for high-altitude interception.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "Strength: reconnaissance versions could exploit speed and altitude to overfly defended areas.",
+            "refs": [
+              "fn-globalsecurity-service"
+            ]
+          },
+          {
+            "text": "Limitation: poor maneuverability and limited close-combat flexibility compared with agile fighters.",
+            "refs": [
+              "fn-globalsecurity-service"
+            ]
+          },
+          {
+            "text": "Limitation: Mach 3-plus dash was not a routine operating condition because of engine-temperature and overspeed risks.",
+            "refs": [
+              "fn-globalsecurity-service"
+            ]
+          },
+          {
+            "text": "Limitation: early avionics lacked the sophistication Western analysts initially feared.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-globalsecurity-service"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "The MiG-25 is best compared with Cold War high-speed interceptors and reconnaissance aircraft rather than lightweight fighters. It influenced Western threat assessment and is often discussed alongside the F-15, F-14, MiG-31, and SR-71.",
+            "refs": [
+              "fn-globalsecurity-specs",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Versus F-15 Eagle",
+            "text": "The Foxbat alarm helped shape Western air-superiority thinking, but the F-15 emphasized maneuverability, avionics, and air-combat flexibility beyond the MiG-25 mission."
+          },
+          {
+            "title": "Versus MiG-31 Foxhound",
+            "text": "The MiG-31 carried forward high-speed interception while adding a second crew member, improved radar, and better multi-target capability."
+          },
+          {
+            "title": "Versus SR-71",
+            "text": "Both were very fast and high-flying, but the SR-71 was a specialized strategic reconnaissance aircraft, while MiG-25 included interceptor and tactical/operational reconnaissance families."
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "Key MiG-25 dates are listed as a concise timeline following the F-16 reference-page pattern.",
+            "refs": [
+              "fn-globalsecurity-main",
+              "fn-nmusaf"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1959: Work on the high-speed Soviet interceptor/reconnaissance family began according to common program histories.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "6 March 1964: Ye-155R-1 reconnaissance prototype first flight.",
+            "refs": [
+              "fn-globalsecurity-main"
+            ]
+          },
+          {
+            "text": "9 September 1964: Ye-155P-1 interceptor prototype first flight.",
+            "refs": [
+              "fn-globalsecurity-main"
+            ]
+          },
+          {
+            "text": "9 July 1967: aircraft publicly shown at the Domodedovo air show.",
+            "refs": [
+              "fn-globalsecurity-main"
+            ]
+          },
+          {
+            "text": "1970: NMUSAF lists MiG-25 service entry; GlobalSecurity separately notes early service/reliability caveats.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-globalsecurity-service"
+            ]
+          },
+          {
+            "text": "6 September 1976: Viktor Belenko defected to Japan in a MiG-25P.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-globalsecurity-service"
+            ]
+          },
+          {
+            "text": "1977-1978: MiG-25PD/PDS improvement program and production followed exposure of the original P model.",
+            "refs": [
+              "fn-globalsecurity-variants"
+            ]
+          },
+          {
+            "text": "2003: Iraqi MiG-25RB recovered near Al Taqaddum after being buried in sand.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Primary stable references for this safe update were the National Museum of the U.S. Air Force MiG-25 exhibit page and GlobalSecurity pages for specifications, variants, development, and service. Wikipedia was retained as supplemental orientation only.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-globalsecurity-main",
+              "fn-globalsecurity-specs",
+              "fn-globalsecurity-variants",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Omitted or caveated facts include exact current operator inventories, final retirement dates, detailed Gulf War kill/loss claims, and precise performance figures for every variant because those details are date-sensitive, disputed, or variant-specific.",
             "refs": [
               "fn-method"
             ]
@@ -33117,11 +33498,11 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "related-pages",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-25 similar-development links: 4.",
+            "text": "Related Milipedia aircraft include Soviet successor interceptors, Western aircraft affected by Foxbat threat perception, and high-speed reconnaissance aircraft.",
             "refs": [
               "fn-method"
             ]
@@ -33129,20 +33510,28 @@
         ],
         "links": [
           {
-            "label": "McDonnell Douglas F-4 Phantom II",
-            "url": "aircraft.html?id=f-4-phantom-ii"
-          },
-          {
-            "label": "Northrop F-5",
-            "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
-          },
-          {
-            "label": "Vought F-8 Crusader",
-            "url": "aircraft.html?id=f-8-crusader"
+            "label": "F-15 Eagle",
+            "url": "aircraft.html?id=f-15-eagle"
           },
           {
             "label": "Grumman F-14 Tomcat",
             "url": "aircraft.html?id=f-14-tomcat"
+          },
+          {
+            "label": "Mikoyan MiG-31",
+            "url": "aircraft.html?id=mig-31"
+          },
+          {
+            "label": "Lockheed SR-71 Blackbird",
+            "url": "aircraft.html?id=sr-71-blackbird"
+          },
+          {
+            "label": "McDonnell Douglas F-4 Phantom II",
+            "url": "aircraft.html?id=f-4-phantom-ii"
+          },
+          {
+            "label": "Back to Aircraft Database",
+            "url": "aircraft.html"
           }
         ]
       }
