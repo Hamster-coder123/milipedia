@@ -3307,3 +3307,79 @@ Record the result of:
 * USAF and GA-ASI public data use slightly different speed and payload presentations; the page records both with source-qualified wording rather than forcing a single universal figure.
 * MQ-9B SkyGuardian/SeaGuardian is related development, not identical to baseline MQ-9A; the update labels it as family context to avoid conflating configurations.
 * The final commit hash cannot be embedded into the committed change log without changing the commit itself; it is reported separately in the scheduled-run response.
+
+### Run 44 — 2026-07-01 15:01:41 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: General Atomics MQ-1 Predator (id: mq-1-predator)
+* Reason selected: The MQ-1 Predator entry was the sparsest unedited aircraft page by comparison against the F-16 reference, with no operator entries, no variant entries, no external article sources, generic generated sections, missing dimensions/engine/range/ceiling details, and only placeholder-level armament wording.
+* Previous condition: Placeholder-like generated entry with 15 exact fact fields, 0 operator entries, 0 variant entries, 0 external article sources, no sourced mission-system explanation, incorrect/overbroad conflict metadata, and no detailed development/design/weapons/operators/timeline coverage.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview with fact cards; article-section ordering from overview through development, design, weapons, specifications, variants, operators, operational history, strengths/limitations, comparison, timeline, sources, and related pages; concise sourced paragraphs; cautious notes for variant/operator differences; internal aircraft.html?id=... link style.
+
+#### Changes Made
+
+* Expanded the MQ-1 Predator entry in data/aircraft.json into a full Milipedia article-style data record while preserving the site renderer and JSON format.
+* Corrected top-level facts for manufacturer, role, aircraft type, first flight, RQ-1/MQ-1B service context, USAF retirement, Rotax 914F engine, speed, range, ceiling, crew, payload, and Hellfire armament.
+* Replaced vague remotely piloted payload wording with MQ-1B-specific AGM-114 Hellfire language and added caveats for unarmed RQ-1/export/Predator XP configurations.
+* Added reliable sources from the U.S. Air Force, Hill Aerospace Museum, and General Atomics Aeronautical Systems, while retaining Wikipedia only as supplementary orientation.
+* Added and expanded sections for Overview, Development History, Design and Capabilities, Weapons Systems, Specifications, Variants and Derivatives, Operators, Operational History, Strengths and Limitations, Comparison and Role Context, Timeline, Sources and Notes, and Related Pages.
+* Added variant/derivative coverage for RQ-1 Predator, MQ-1B Predator, the Predator system/ground control station, Predator XP, and MQ-9 Reaper/Predator B lineage.
+* Added representative operator coverage for the U.S. Air Force, U.S. government users, Italy, and international Predator XP/family customer groups with date-sensitive caveats; avoided unsupported country-by-country configuration claims.
+* Removed generated Gulf War event-gallery metadata because it did not fit the MQ-1 chronology or the new source-supported operational-history framing.
+* Added internal links to MQ-9 Reaper, RQ-4 Global Hawk, U-2 Dragon Lady, C-130 Hercules, and F-16 Fighting Falcon where those IDs exist in the aircraft data.
+* Omitted fixed total-production, classified mission, and operator-specific weapons-authority claims because public sources differ or details are date-sensitive.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the MQ-1 Predator aircraft page data, sources, operators, variants, sections, and related links.
+* hermes-change-log.md — Appended the cumulative log entry for this scheduled run.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Confirmed branch hermes-agent with only data/aircraft.json and hermes-change-log.md modified before staging.
+2. git diff — Reviewed diff/stat; data/aircraft.json changed exactly one aircraft entry, mq-1-predator, and hermes-change-log.md gained this run entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool after editing; reviewed the MQ-1 section list, footnotes, operators, variants, technical fields, and removed event gallery.
+4. F-16 style comparison — Inspected data/f16-template.html and mirrored its dense overview, card-backed technical facts, section order, sources, comparison, timeline, and related-page patterns within the JSON-rendered aircraft-page system.
+5. Internal link check — Scripted check confirmed MQ-1 internal links target existing IDs mq-9-reaper, rq-4-global-hawk, u-2-dragon-lady, c-130-hercules, and f-16-fighting-falcon.
+6. Secret/token check — Scanned the intended working diff for credential-like patterns; no matches were found.
+7. Final review before commit — Confirmed branch, JSON validity, one-entry aircraft diff, intended files only, clean git diff --check, internal links, and completed change log.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand General Atomics MQ-1 Predator
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* Exact total production, CIA-specific operations, current export status, and operator-specific weapons authority were intentionally left generalized because public facts differ, are date-sensitive, or may be classified.
+* Predator XP details are used only as Predator-family derivative context and not substituted for legacy USAF MQ-1B specifications.

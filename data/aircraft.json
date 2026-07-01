@@ -27712,34 +27712,80 @@
   {
     "id": "mq-1-predator",
     "name": "General Atomics MQ-1 Predator",
-    "alternative_names": [],
+    "alternative_names": [
+      "RQ-1 Predator",
+      "MQ-1B Predator",
+      "Predator"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
-    "manufacturer": "General Atomics",
-    "role": "Remotely piloted UAV",
-    "aircraft_type": "UAV",
-    "era": "Modern",
+    "manufacturer": "General Atomics Aeronautical Systems",
+    "role": "Medium-altitude long-endurance remotely piloted aircraft",
+    "aircraft_type": "Armed ISR remotely piloted aircraft system",
+    "era": "1990s–2010s",
     "first_flight": "1994",
-    "introduction_date": "1995",
-    "retirement_date": "Not listed",
-    "status": "Retired",
-    "number_built": "Not listed",
-    "crew": "Remote crew",
+    "introduction_date": "1995 (RQ-1 service); MQ-1B IOC March 2005",
+    "retirement_date": "2018 from U.S. Air Force service",
+    "status": "Retired from U.S. Air Force service; Predator-family derivatives continue internationally",
+    "number_built": "Official USAF fact sheet listed 150 total-force aircraft in 2015; total production varies by source",
+    "crew": "Remote crew of two: pilot and sensor operator",
     "engine_type": "Piston",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engines": "1 × Rotax 914F four-cylinder engine, 115 hp",
+    "max_speed": "Up to 135 mph (217 km/h); cruise about 84 mph (70 kt)",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Remotely piloted aircraft payload; exact stores not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "General Atomics MQ-1 Predator: Remotely piloted UAV. Manufacturer: General Atomics. First flight: 1994. Introduction: 1995.",
-    "short_summary": "General Atomics MQ-1 Predator: Remotely piloted UAV. Origin: United States. Manufacturer: General Atomics. First flight: 1994. Introduction: 1995. Status: Retired.",
+    "range": "770 miles (675 nmi) in USAF MQ-1B data",
+    "combat_range": "Mission endurance up to about 24 hours fully loaded in museum descriptions; exact profiles vary by payload and link plan",
+    "service_ceiling": "25,000 ft (7,620 m)",
+    "rate_of_climb": "Not listed in official public fact sheet",
+    "armament": "Two laser-guided AGM-114 Hellfire missiles on MQ-1B armed reconnaissance missions",
+    "hardpoints": "Two underwing weapon stations for Hellfire-class stores; payload 450 lb (204 kg)",
+    "variants": [
+      {
+        "name": "RQ-1 Predator",
+        "description": "Original reconnaissance designation for the Predator system before the armed multi-role designation; focused on persistent ISR, video downlink, and target designation."
+      },
+      {
+        "name": "MQ-1B Predator",
+        "description": "Armed USAF configuration with AGM-114 Hellfire missile capability, EO/IR sensors, laser designation, and ground/satellite control architecture."
+      },
+      {
+        "name": "Predator system / ground control station",
+        "description": "The operational system included air vehicles, sensor and weapon payloads, a ground control station, satellite communications, line-of-sight data links, and maintenance/mission crews."
+      },
+      {
+        "name": "Predator XP",
+        "description": "Later GA-ASI export-oriented Predator derivative emphasizing ISR, automatic takeoff and landing, redundant flight controls, EO/IR and radar options, and up to 35 hours endurance in manufacturer data."
+      },
+      {
+        "name": "MQ-9 Reaper / Predator B",
+        "description": "Larger turboprop follow-on aircraft with greater speed, payload, ceiling, and growth margin; treated as related development rather than an MQ-1 variant."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "U.S. Air Force",
+        "notes": "Primary operator; the service selected the Predator system in 1996, fielded MQ-1B IOC in March 2005, listed 150 total-force aircraft in September 2015, and retired the type in 2018."
+      },
+      {
+        "country": "United States",
+        "service": "Central Intelligence Agency and other U.S. government users",
+        "notes": "GA-ASI describes Predator as operated by the U.S. Government; public details for non-USAF ISR and counterterrorism missions vary and are sometimes classified or policy-sensitive."
+      },
+      {
+        "country": "Italy",
+        "service": "Italian Air Force",
+        "notes": "GA-ASI identifies the Italian Air Force among Predator operators; exact configuration, weapons status, and current fleet details should be checked against current official releases."
+      },
+      {
+        "country": "International Predator-family customers",
+        "service": "Predator XP / Predator-family ISR operators",
+        "notes": "GA-ASI describes other international customers and Predator XP export availability; this entry avoids naming specific current operators unless supported by the cited public sources."
+      }
+    ],
+    "combat_history": "Used for reconnaissance, target development, overwatch, and precision strike in post-1990s contingency operations including the Balkans, Afghanistan, Iraq, Libya, Syria, Yemen, and Somalia; public accounts vary by operator and operation.",
+    "development_history": "Developed by General Atomics Aeronautical Systems for persistent medium-altitude ISR, the Predator entered service as the RQ-1 in the mid-1990s and was redesignated MQ-1 after Hellfire missile integration added an armed reconnaissance role.",
+    "short_summary": "The MQ-1 Predator turned a long-endurance surveillance UAV into an armed remotely piloted aircraft system. Its modest piston-engine performance was offset by persistent electro-optical, infrared, radar, laser-designation, data-link, and Hellfire capability that shaped modern armed ISR before the larger MQ-9 Reaper replaced it in USAF service.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -27752,25 +27798,46 @@
     ],
     "sources": [
       {
+        "id": "fn-usaf",
+        "title": "MQ-1B Predator",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104469/mq-1b-predator",
+        "publisher": "U.S. Air Force",
+        "note": "Official MQ-1B fact sheet used for mission, background, designation history, powerplant, dimensions, speed, range, ceiling, payload, armament, crew, IOC, and 2015 inventory data."
+      },
+      {
+        "id": "fn-hill",
+        "title": "MQ-1 Predator Drone",
+        "url": "https://www.aerospaceutah.org/mq-1-predator-drone",
+        "publisher": "Hill Aerospace Museum",
+        "note": "Museum narrative used for system architecture, RQ-1-to-MQ-1 designation context, retirement context, endurance, and preserved aircraft service-history examples."
+      },
+      {
+        "id": "fn-gaasi-xp",
+        "title": "Predator XP",
+        "url": "https://www.ga-asi.com/remotely-piloted-aircraft/predator-xp",
+        "publisher": "General Atomics Aeronautical Systems, Inc.",
+        "note": "Manufacturer source used for Predator-family continuity, export/Predator XP features, endurance, dimensions, sensors, and data-link context."
+      },
+      {
         "id": "fn-main",
         "title": "General Atomics MQ-1 Predator",
         "url": "https://en.wikipedia.org/wiki/General_Atomics_MQ-1_Predator",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "note": "Supplementary orientation and reference discovery only; official and museum sources are preferred for facts used in this entry."
       },
       {
         "id": "fn-wikidata",
         "title": "Wikidata Query Service",
         "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "publisher": "Wikidata",
+        "note": "Open structured-data source recommended for identifiers, relationships, manufacturers, operators, and dates."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
+        "note": "Local rules for units, source citation, neutral wording, estimates, and variant differences."
       }
     ],
     "country_flags": [
@@ -27780,54 +27847,58 @@
       }
     ],
     "designers": [
-      "General Atomics"
+      "General Atomics Aeronautical Systems",
+      "Abraham Karem / Leading Systems lineage"
     ],
     "development_tensions": [
-      "Balancing endurance, sensor payload, communications links, autonomy, and legal/political constraints."
+      "Shift from unarmed reconnaissance to armed persistent strike",
+      "Reliance on ground control stations, line-of-sight links, and satellite communications",
+      "Legal, ethical, and policy debates surrounding remote warfare"
     ],
     "wars_used_in": [
       {
-        "name": "Gulf War",
-        "note": "General Atomics MQ-1 Predator used in Gulf War."
+        "name": "Bosnia and Kosovo operations",
+        "note": "Predator reconnaissance over the Balkans helped demonstrate persistent UAV surveillance before the armed MQ-1 era."
       },
       {
-        "name": "Iraq War",
-        "note": "General Atomics MQ-1 Predator used in Iraq War."
+        "name": "War in Afghanistan",
+        "note": "Used extensively for ISR, overwatch, target development, and precision strikes after 2001."
       },
       {
-        "name": "War in Afghanistan (2001–2021)",
-        "note": "General Atomics MQ-1 Predator used in War in Afghanistan (2001–2021)."
+        "name": "Iraq War and later Middle East operations",
+        "note": "Used for convoy overwatch, route clearance support, air interdiction, close-air-support support tasks, and armed reconnaissance."
       }
     ],
     "variant_families": [
-      "General Atomics MQ-1 Predator baseline production model",
-      "General Atomics MQ-1 Predator upgraded avionics or weapons-capable model",
-      "General Atomics MQ-1 Predator surveillance and armed mission configuration"
+      "RQ-1 Predator reconnaissance configuration",
+      "MQ-1B Predator armed multi-role configuration",
+      "Predator XP export/ISR derivative",
+      "MQ-9 Reaper / Predator B follow-on family"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "General Atomics MQ-1 Predator has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The U.S. Air Force was the principal military operator; CIA and allied/export users operated Predator-family systems under varying configurations.",
+      "all_operators_status": "Representative operators and customer groups listed; exact fleet totals and export status are date-sensitive and often not public."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "USAF MQ-1B units at Creech, Holloman, and Air National Guard wings became central to the remotely piloted aircraft enterprise.",
+        "Hill Aerospace Museum preserves an MQ-1B airframe reported to have flown more than 28,000 hours and over 1,600 combat sorties."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "The Predator surpassed one million development, test, training, and combat hours in August 2011 according to the USAF fact sheet.",
+        "USAF retired the MQ-1 in 2018 as MQ-9 Reaper capacity took over the mission set."
       ]
     },
     "engine_details": {
       "type": "Piston",
-      "summary": "General Atomics MQ-1 Predator uses piston propulsion."
+      "summary": "A single Rotax 914F four-cylinder piston engine gave the MQ-1 modest speed but very long endurance for surveillance and overwatch missions."
     },
     "armament_details": {
-      "summary": "Remotely piloted aircraft payload; exact stores not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "MQ-1B armament centered on two laser-guided AGM-114 Hellfire missiles; unarmed RQ-1 and export/ISR fits should not be assumed to carry weapons.",
+      "caution": "Weapon carriage, sensor payloads, and operating authority varied by operator, time period, and mission."
     },
     "similar_development": [
       {
@@ -27839,104 +27910,147 @@
         "id": "rq-4-global-hawk",
         "name": "Northrop Grumman RQ-4 Global Hawk",
         "url": "aircraft.html?id=rq-4-global-hawk"
+      },
+      {
+        "id": "u-2-dragon-lady",
+        "name": "Lockheed U-2 Dragon Lady",
+        "url": "aircraft.html?id=u-2-dragon-lady"
+      },
+      {
+        "id": "c-130-hercules",
+        "name": "Lockheed C-130 Hercules",
+        "url": "aircraft.html?id=c-130-hercules"
+      },
+      {
+        "id": "f-16-fighting-falcon",
+        "name": "General Dynamics F-16 Fighting Falcon",
+        "url": "aircraft.html?id=f-16-fighting-falcon"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 38,
+      "operator_entries": 4,
+      "variant_entries": 5,
+      "external_article_sources": 3
     },
     "footnotes": [
+      {
+        "id": "fn-usaf",
+        "title": "MQ-1B Predator",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104469/mq-1b-predator",
+        "publisher": "U.S. Air Force",
+        "note": "Official MQ-1B fact sheet used for mission, background, designation history, powerplant, dimensions, speed, range, ceiling, payload, armament, crew, IOC, and 2015 inventory data."
+      },
+      {
+        "id": "fn-hill",
+        "title": "MQ-1 Predator Drone",
+        "url": "https://www.aerospaceutah.org/mq-1-predator-drone",
+        "publisher": "Hill Aerospace Museum",
+        "note": "Museum narrative used for system architecture, RQ-1-to-MQ-1 designation context, retirement context, endurance, and preserved aircraft service-history examples."
+      },
+      {
+        "id": "fn-gaasi-xp",
+        "title": "Predator XP",
+        "url": "https://www.ga-asi.com/remotely-piloted-aircraft/predator-xp",
+        "publisher": "General Atomics Aeronautical Systems, Inc.",
+        "note": "Manufacturer source used for Predator-family continuity, export/Predator XP features, endurance, dimensions, sensors, and data-link context."
+      },
       {
         "id": "fn-main",
         "title": "General Atomics MQ-1 Predator",
         "url": "https://en.wikipedia.org/wiki/General_Atomics_MQ-1_Predator",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "note": "Supplementary orientation and reference discovery only; official and museum sources are preferred for facts used in this entry."
       },
       {
         "id": "fn-wikidata",
         "title": "Wikidata Query Service",
         "url": "https://query.wikidata.org/",
         "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Open structured-data source recommended for identifiers, relationships, manufacturers, operators, and dates."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for units, source citation, neutral wording, estimates, and variant differences."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "label": "U.S. Air Force MQ-1B Predator fact sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104469/mq-1b-predator"
+      },
+      {
+        "label": "Hill Aerospace Museum MQ-1 Predator article",
+        "url": "https://www.aerospaceutah.org/mq-1-predator-drone"
+      },
+      {
+        "label": "GA-ASI Predator XP manufacturer page",
+        "url": "https://www.ga-asi.com/remotely-piloted-aircraft/predator-xp"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "General Atomics MQ-1 Predator is a Remotely piloted UAV from United States. Manufacturer: General Atomics. First flight: 1994. Introduction: 1995. Status: Retired.",
-            "refs": [
-              "fn-main"
-            ]
+            "text": "The General Atomics MQ-1 Predator was a medium-altitude, long-endurance remotely piloted aircraft system that made persistent armed ISR a routine part of U.S. air operations. It began as the RQ-1 reconnaissance UAV and became MQ-1 after Hellfire missile integration added a multi-role armed reconnaissance mission."
           },
           {
-            "text": "General Atomics MQ-1 Predator is a uav. Primary role: remotely piloted uav. Country of origin: United States. Manufacturer: General Atomics.",
-            "refs": [
-              "fn-wikidata"
-            ]
+            "text": "Unlike a fast jet, the Predator was optimized for time over target, video surveillance, laser designation, and remote operation through ground control stations, line-of-sight links, and satellite communications. Its 115 hp piston engine and 135 mph top speed were modest, but the system could orbit for many hours while feeding intelligence and supporting ground forces."
           },
           {
-            "text": "Exact structured fact fields: 15.",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "The USAF retired the MQ-1 in 2018 as the larger MQ-9 Reaper assumed much of the mission. Predator-family aircraft remain historically important because they linked unmanned surveillance, precision strike, and distributed crews in a way that reshaped 21st-century air operations."
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Remotely piloted UAV"
+            "text": "Armed reconnaissance, airborne surveillance, and target acquisition."
           },
           {
-            "title": "Designer or builder",
-            "text": "General Atomics"
+            "title": "Remote crew",
+            "text": "Two: pilot and sensor operator in a ground control station."
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Endurance emphasis",
+            "text": "Long, slow ISR orbits rather than speed, agility, or survivability in defended airspace."
           },
           {
-            "title": "Propulsion",
-            "text": "Piston"
+            "title": "USAF status",
+            "text": "Retired in 2018 after replacement by the MQ-9 Reaper."
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "General Atomics MQ-1 Predator first flew in 1994. Introduction date: 1995. Era: Modern.",
-            "refs": [
-              "fn-main"
-            ]
+            "text": "Predator development grew from earlier General Atomics and Abraham Karem unmanned-aircraft work intended to provide medium-altitude surveillance without placing a crew over hostile territory. The Department of Defense selected the U.S. Air Force as the operating service for the RQ-1 Predator system in April 1996."
           },
           {
-            "text": "Producer: General Atomics. Development context: remotely piloted uav, piston propulsion, subsonic speed category, Modern era.",
-            "refs": [
-              "fn-wikidata"
-            ]
+            "text": "The original RQ-1 designation reflected a reconnaissance aircraft: “R” for reconnaissance and “Q” for remotely piloted aircraft. In 2002, after AGM-114 Hellfire missile integration, the designation changed to MQ-1, with “M” indicating a multi-role system able to react against ISR, close-air-support, and interdiction targets."
+          },
+          {
+            "text": "USAF data lists MQ-1B initial operational capability in March 2005. By August 2011 the Predator had surpassed one million development, test, training, and combat hours, showing how quickly the system became embedded in expeditionary operations."
           }
         ],
         "bullets": [
           {
-            "text": "Balancing endurance, sensor payload, communications links, autonomy, and legal/political constraints.",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "1994: Predator first flight, followed by mid-1990s operational use as RQ-1."
+          },
+          {
+            "text": "1996: Department of Defense selected the Air Force as operating service for the Predator system."
+          },
+          {
+            "text": "2002: MQ-1 designation followed armed Hellfire integration."
+          },
+          {
+            "text": "2005: USAF MQ-1B IOC listed by official Air Force data."
           }
         ]
       },
@@ -27945,196 +28059,57 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: Remote crew. Propulsion: Piston. Speed category: Subsonic.",
-            "refs": [
-              "fn-main"
-            ]
+            "text": "The MQ-1 was a light, high-aspect-ratio aircraft built around persistence. Its Rotax 914F piston engine, long wing, low speed, and compact fuselage supported long-duration orbits with electro-optical/infrared sensors, laser designation, and communications equipment."
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "The aircraft was only one part of the system. Operational capability depended on ground control stations, remote crew stations, satellite links for beyond-line-of-sight missions, line-of-sight control links, launch-and-recovery crews, intelligence exploitation, and maintenance support."
           },
           {
-            "text": "General Atomics MQ-1 Predator uses piston propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Remotely piloted aircraft payload; exact stores not listed. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
+            "text": "The design was not stealthy, fast, or heavily defended. Its value came from continuous presence over permissive or semi-permissive battlespaces, where crews could observe patterns, track vehicles, designate targets, and launch small precision weapons when authorized."
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "Remote crew"
+            "title": "Powerplant",
+            "text": "One Rotax 914F four-cylinder engine rated at 115 hp in USAF data."
           },
           {
-            "title": "Engine class",
-            "text": "Piston"
+            "title": "Sensor focus",
+            "text": "EO/IR cameras, laser designation, and, in some configurations, synthetic-aperture radar or related ISR payloads."
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Control links",
+            "text": "Line-of-sight and satellite communications enabled local launch/recovery and distant mission control."
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Transportability",
+            "text": "Museum descriptions note that the air vehicle could be disassembled for transport, commonly by C-130-class airlift."
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "weapons-systems",
+        "title": "Weapons Systems",
         "paragraphs": [
           {
-            "text": "General Atomics MQ-1 Predator status: Retired. Conflict entries: 3.",
-            "refs": [
-              "fn-main"
-            ]
+            "text": "The armed MQ-1B carried two laser-guided AGM-114 Hellfire missiles, one under each wing. This gave a surveillance aircraft a limited precision-strike role without turning it into a high-payload attack aircraft."
           },
           {
-            "text": "Conflicts: Gulf War, Iraq War, War in Afghanistan (2001–2021).",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "The Predator also supported “buddy lase” and terminal guidance tasks, using its sensors and laser designator to assist other aircraft or ground forces. Public USAF descriptions include ISR, close air support, combat search and rescue support, convoy and raid overwatch, route clearance, target development, and terminal air guidance among the mission set."
+          },
+          {
+            "text": "Armament should be described carefully: early RQ-1 aircraft were reconnaissance platforms, MQ-1B weapons carriage depended on configuration and authority, and export Predator-family aircraft such as Predator XP should not automatically be treated as armed like USAF MQ-1Bs."
           }
         ],
         "bullets": [
           {
-            "text": "Gulf War: General Atomics MQ-1 Predator used in Gulf War.",
-            "refs": [
-              "fn-main"
-            ]
+            "text": "Standard public MQ-1B armament: two laser-guided AGM-114 Hellfire missiles."
           },
           {
-            "text": "Iraq War: General Atomics MQ-1 Predator used in Iraq War.",
-            "refs": [
-              "fn-main"
-            ]
+            "text": "Payload in USAF fact sheet: 450 lb (204 kg)."
           },
           {
-            "text": "War in Afghanistan (2001–2021): General Atomics MQ-1 Predator used in War in Afghanistan (2001–2021).",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "General Atomics MQ-1 Predator named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "variants",
-        "title": "Variants",
-        "paragraphs": [
-          {
-            "text": "General Atomics MQ-1 Predator variant-family entries: 3. Variant families: General Atomics MQ-1 Predator baseline production model; General Atomics MQ-1 Predator upgraded avionics or weapons-capable model; General Atomics MQ-1 Predator surveillance and armed mission configuration.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "General Atomics MQ-1 Predator baseline production model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "General Atomics MQ-1 Predator upgraded avionics or weapons-capable model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "General Atomics MQ-1 Predator surveillance and armed mission configuration",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "operators",
-        "title": "Operators",
-        "paragraphs": [
-          {
-            "text": "Designer or builder countries: United States. General Atomics MQ-1 Predator has 1 designer or builder country entry.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "All operators status: 0 operator entries listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Major designer or builder entries: United States.",
-            "refs": [
-              "fn-wikidata"
-            ]
+            "text": "Main limitation: small weapons load and vulnerability in contested airspace."
           }
         ]
       },
@@ -28143,59 +28118,256 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew Remote crew, propulsion type Piston, maximum speed category Subsonic, first flight 1994, introduction 1995.",
-            "refs": [
-              "fn-main"
-            ]
+            "text": "Figures below follow the U.S. Air Force MQ-1B fact sheet unless noted. Predator-family derivatives vary, and Predator XP manufacturer data should not be substituted directly for legacy USAF MQ-1B values."
+          }
+        ],
+        "cards": [
+          {
+            "title": "Crew",
+            "text": "Remote crew of two: pilot and sensor operator."
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "27 ft (8.22 m)."
+          },
+          {
+            "title": "Wingspan",
+            "text": "55 ft (16.8 m)."
+          },
+          {
+            "title": "Height",
+            "text": "7 ft (2.1 m)."
+          },
+          {
+            "title": "Empty / MTOW",
+            "text": "1,130 lb empty; 2,250 lb maximum takeoff weight."
+          },
+          {
+            "title": "Engine",
+            "text": "Rotax 914F four-cylinder, 115 hp."
+          },
+          {
+            "title": "Speed",
+            "text": "Cruise about 84 mph; maximum up to 135 mph."
+          },
+          {
+            "title": "Range / ceiling",
+            "text": "770 miles range; 25,000 ft ceiling."
+          },
+          {
+            "title": "Payload",
+            "text": "450 lb payload; 665 lb fuel capacity."
+          },
+          {
+            "title": "Armament",
+            "text": "Two laser-guided AGM-114 Hellfire missiles on MQ-1B."
+          }
+        ]
+      },
+      {
+        "id": "variants",
+        "title": "Variants and Derivatives",
+        "paragraphs": [
+          {
+            "text": "Predator naming can be confusing because it spans designations, system configurations, and later export or derivative products. This entry separates the legacy RQ/MQ-1 air vehicle from Predator XP and the larger MQ-9 Reaper family."
+          }
+        ],
+        "bullets": [
+          {
+            "text": "RQ-1 Predator — reconnaissance-focused original system used for surveillance and target designation."
+          },
+          {
+            "text": "MQ-1B Predator — armed multi-role USAF configuration with Hellfire capability."
+          },
+          {
+            "text": "Predator XP — later export-oriented ISR derivative with updated avionics, redundant systems, automatic takeoff and landing, and manufacturer-listed endurance up to 35 hours."
+          },
+          {
+            "text": "MQ-9 Reaper / Predator B — larger turboprop follow-on with greater payload and performance, linked by development lineage rather than counted as an MQ-1 variant."
+          }
+        ]
+      },
+      {
+        "id": "operators",
+        "title": "Operators",
+        "paragraphs": [
+          {
+            "text": "The United States was the central Predator user, especially through the U.S. Air Force remotely piloted aircraft enterprise. GA-ASI also identifies U.S. Government, Italian Air Force, and other international Predator users, but current fleet status, weapons authority, and sensor fits are date-sensitive and sometimes not public."
+          },
+          {
+            "text": "Milipedia therefore lists representative operators and operator groups rather than implying a fixed current global inventory or unsupported country-by-country weapons configuration."
+          }
+        ],
+        "bullets": [
+          {
+            "text": "United States Air Force — primary MQ-1B operator, with a 2015 official inventory figure of 150 total-force aircraft and retirement in 2018."
+          },
+          {
+            "text": "U.S. Government users — GA-ASI identifies Predator as operated by U.S. Government customers; public details vary by mission and agency."
+          },
+          {
+            "text": "Italy — identified by GA-ASI among Predator operators."
+          },
+          {
+            "text": "Other international Predator-family customers — GA-ASI describes additional international customers and Predator XP export availability; specific current configurations require operator-level confirmation."
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "Predators first proved valuable as persistent reconnaissance aircraft over the Balkans, where live video and target observation were more important than speed. After 2001, armed MQ-1B operations became closely associated with Afghanistan, Iraq, and wider counterterrorism campaigns."
+          },
+          {
+            "text": "USAF mission descriptions emphasized intelligence, surveillance and reconnaissance, close air support support tasks, interdiction, combat search and rescue support, precision strike, buddy-lase, convoy and raid overwatch, route clearance, target development, and terminal air guidance."
+          },
+          {
+            "text": "The aircraft changed command-and-control habits as much as aircraft design: crews could operate from ground stations far from the aircraft, analysts could exploit video feeds in near real time, and commanders gained a persistent sensor-shooter option for permissive airspace."
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Balkans: early reconnaissance and surveillance use."
+          },
+          {
+            "text": "Afghanistan and Iraq: intensive ISR, overwatch, and armed reconnaissance."
+          },
+          {
+            "text": "Later operations: public accounts associate Predators with Libya, Syria, Yemen, Somalia, and other contingency areas."
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The Predator’s strengths were persistence, low operating footprint compared with manned fast jets, remote crew operation, and the ability to combine surveillance with immediate precision engagement. Its limitations were equally clear: low speed, small payload, limited survivability, weather and airspace constraints, and dependence on communications links."
+          },
+          {
+            "text": "Those tradeoffs explain both its influence and its replacement. The MQ-9 Reaper kept the remotely piloted ISR-strike concept but added a turboprop engine, larger payload, higher ceiling, and more growth capacity."
+          }
+        ],
+        "cards": [
+          {
+            "title": "Strength",
+            "text": "Long loiter time over targets and routes."
+          },
+          {
+            "title": "Strength",
+            "text": "Sensor-to-shooter chain on one remotely piloted platform."
+          },
+          {
+            "title": "Limitation",
+            "text": "Slow and vulnerable against modern air defenses."
+          },
+          {
+            "title": "Limitation",
+            "text": "Small payload and reliance on communications links."
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Role Context",
+        "paragraphs": [
+          {
+            "text": "Compared with the MQ-9 Reaper, the MQ-1 was smaller, slower, and less heavily armed, but it established the operating model the Reaper expanded. Compared with the RQ-4 Global Hawk, Predator flew lower and slower with less endurance, but had a tactical armed-reconnaissance role rather than a strategic high-altitude ISR focus."
+          },
+          {
+            "text": "The Predator should not be compared to the F-16 as an air-combat substitute. It sometimes worked with fighters and ground forces, but its contribution was persistence, surveillance, target development, and small precision weapons in airspace where threat levels allowed a slow RPA to operate."
+          }
+        ],
+        "links": [
+          {
+            "label": "MQ-9 Reaper",
+            "url": "aircraft.html?id=mq-9-reaper"
+          },
+          {
+            "label": "RQ-4 Global Hawk",
+            "url": "aircraft.html?id=rq-4-global-hawk"
+          },
+          {
+            "label": "U-2 Dragon Lady",
+            "url": "aircraft.html?id=u-2-dragon-lady"
+          },
+          {
+            "label": "F-16 Fighting Falcon",
+            "url": "aircraft.html?id=f-16-fighting-falcon"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1994 — Predator first flight."
+          },
+          {
+            "text": "1995–1996 — RQ-1 enters operational use and the Air Force is selected as operating service."
+          },
+          {
+            "text": "2001–2002 — Hellfire missile integration leads to armed MQ-1 designation."
+          },
+          {
+            "text": "March 2005 — USAF lists MQ-1B initial operational capability."
+          },
+          {
+            "text": "August 2011 — Predator exceeds one million development, test, training, and combat hours."
+          },
+          {
+            "text": "2018 — USAF retires the MQ-1 in favor of the MQ-9 Reaper."
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Primary technical values come from the U.S. Air Force MQ-1B fact sheet. Hill Aerospace Museum provides accessible system-history and preserved-aircraft context, and GA-ASI Predator XP data is used only for Predator-family derivative context."
+          },
+          {
+            "text": "Exact production totals, CIA-specific operations, current export status, and operator-specific weapons authority are not treated as fixed facts here because public sources differ and some details are classified or date-sensitive."
           }
         ]
       },
       {
         "id": "similar-development",
-        "title": "Similar Development",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "General Atomics MQ-1 Predator similar-development links: 2.",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "Related Milipedia pages include larger remotely piloted aircraft, high-altitude ISR aircraft, and aircraft that supported Predator deployment or operated alongside it."
           }
         ],
         "links": [
           {
-            "label": "General Atomics MQ-9 Reaper",
+            "label": "MQ-9 Reaper",
             "url": "aircraft.html?id=mq-9-reaper"
           },
           {
-            "label": "Northrop Grumman RQ-4 Global Hawk",
+            "label": "RQ-4 Global Hawk",
             "url": "aircraft.html?id=rq-4-global-hawk"
+          },
+          {
+            "label": "U-2 Dragon Lady",
+            "url": "aircraft.html?id=u-2-dragon-lady"
+          },
+          {
+            "label": "C-130 Hercules",
+            "url": "aircraft.html?id=c-130-hercules"
+          },
+          {
+            "label": "Return to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg/960px-USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg",
-        "caption": "Gulf War",
-        "source_url": "https://en.wikipedia.org/wiki/Gulf_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/UStanks_baghdad_2003.JPEG/960px-UStanks_baghdad_2003.JPEG",
-        "caption": "Iraq War",
-        "source_url": "https://en.wikipedia.org/wiki/Iraq_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/U.S._Army_firefight_in_Kunar.jpg/960px-U.S._Army_firefight_in_Kunar.jpg",
-        "caption": "War in Afghanistan (2001–2021)",
-        "source_url": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001%E2%80%932021)"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "mq-9-reaper",
