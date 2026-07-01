@@ -2693,3 +2693,82 @@ Record the result of:
 * Exact current inventories, production totals, nuclear tasking, detailed H-6N weapons compatibility, mission radius by loadout, and detailed operational sortie/claim histories were intentionally omitted or qualified because they are date-sensitive, sensitive, or inconsistent in open sources.
 * The U.S. Army ODIN H-6 page appeared in search results but web extraction failed, so it was not cited in this update.
 * The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.
+
+### Run 36 — 2026-07-01 07:01:53 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Sukhoi Su-57 (id: su-57)
+* Reason selected: The Su-57 entry was the shortest unedited sparse aircraft candidate in data/aircraft.json, with no operator entries, no variant entries, no external article sources, placeholder specifications, generic armament wording, and generated sections much thinner than the F-16 reference page.
+* Previous condition: Sparse generated record with 15 exact fact fields, no NATO reporting name, 0 operator entries, 0 variant entries, 0 external article sources, no engine/dimension/range/ceiling details, generic weapons text, and missing detailed development, design, variants, operators, operational-history, comparison, timeline, source-note, and related-page coverage.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview with fact cards; section order covering overview, development, design, specifications, variants, operators, operational history, strengths/limitations, comparison, timeline, sources, and related pages; concise technical paragraphs; cautious wording for variant- and source-dependent figures; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the Sukhoi Su-57 entry from a sparse generated record into a fuller Milipedia article data page.
+* Added Felon NATO reporting name plus PAK FA, T-50, and Su-57 Felon alternative-name context.
+* Replaced placeholder top-level fields with cautious public-source data for manufacturer/program context, first flight, service-entry context, small-fleet status, AL-41F1-family engines, speed, range, combat-radius class, service ceiling, hardpoints/internal stations, armament, development history, combat-history caveats, and summary.
+* Added and normalized sources from United Aircraft Corporation, Deagel, Wikipedia as supplementary orientation, Wikidata, and Milipedia data-accuracy rules.
+* Added detailed article sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Comparison and Assessment, Timeline, Sources and Notes, and Related Pages.
+* Added variant coverage for T-50 / PAK FA prototypes, Su-57 production aircraft, Su-57E, Su-57D / two-seat prototype, and the cancelled Sukhoi/HAL FGFA program.
+* Added operator coverage for Russia as the confirmed primary operator and Algeria as reported/uncertain pending current official delivery verification.
+* Added technical detail on low-observable shaping, internal weapons bays, N036 Byelka/MIRES/101KS-family avionics references, AL-41F1-family propulsion, 22 m length, 14.8 m wingspan, 35-tonne-class maximum take-off weight, Mach 2 / 2,600 km/h high-altitude speed estimate, 20,000 m ceiling, and 3,500 km range estimate with source caveats.
+* Replaced generic armament text with Su-57-specific cannon, R-77/RVV-SD/R-77M, R-73/RVV-MD, Kh-31/Kh-38-family, guided-bomb, internal-bay, and external-carriage wording with clearance caveats.
+* Added operational-history wording for reported Syria testing/deployment and Russo-Ukrainian War use claims while avoiding exact sortie, loss, and engagement claims because those are disputed or date-sensitive.
+* Added internal related links to Su-27, MiG-29, F-22, F-35, and Chengdu J-20, plus a database return link.
+* Omitted exact current production total, radar-cross-section claims, live fleet availability, detailed combat effects, export delivery totals, and final engine-standard assertions where public sources are unstable, promotional, classified, or date-dependent.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded the Sukhoi Su-57 aircraft page data, sources, article sections, variants, operators, specifications, armament, and related links.
+* hermes-change-log.md — Appended this cumulative Run 36 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed the data/aircraft.json diff and confirmed it changed only the Su-57 record; reviewed the log append before commit.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool and reviewed the Su-57 entry's section titles, source IDs, variants, operators, specifications, armament caveats, related links, and summary text.
+4. F-16 style comparison — Inspected data/f16-template.html and copied its dense overview, fact-card, section-order, technical-specification, comparison, timeline, source-note, and related-link patterns within the JSON-rendered page format.
+5. Internal link check — Parsed aircraft.html?id=... links in the updated Su-57 entry and verified su-27, mig-29, f-22-raptor, f-35-lightning-ii, and chengdu-j-20 exist in data/aircraft.json; aircraft.html was treated as an existing database navigation link.
+6. Secret/token check — Ran a credential-pattern scan over the intended diff for API keys, access/auth tokens, passwords, private keys, GitHub tokens, and AWS credentials; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, git diff --check success, one-entry JSON change, intended files only, Su-57 was not previously edited by Hermes, and no direct main-branch edit.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Sukhoi Su-57
+* Commit hash: Pending until commit is created; final hash is reported in the scheduled-run response.
+
+#### Issues or Uncertainties
+
+* Su-57 public data remains unusually sensitive and date-dependent; production totals, radar-signature claims, exact weapons clearances, export deliveries, engine-standard status, and combat effects were intentionally omitted or caveated.
+* UAC's Su-57 aircraft page was reachable but extraction was navigation-heavy and did not provide a complete public specification table, so Deagel and Wikipedia were used as secondary/supplementary references with caution.
+* Algeria is listed only as reported/uncertain because current official delivery evidence was not verified in this run.
+* The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.

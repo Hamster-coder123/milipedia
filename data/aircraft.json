@@ -40656,34 +40656,70 @@
   {
     "id": "su-57",
     "name": "Sukhoi Su-57",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "alternative_names": [
+      "PAK FA",
+      "T-50",
+      "Su-57 Felon"
+    ],
+    "nato_reporting_name": "Felon",
     "country_of_origin": "Russia",
-    "manufacturer": "Sukhoi",
-    "role": "Stealth multirole fighter",
+    "manufacturer": "Sukhoi / United Aircraft Corporation",
+    "role": "Low-observable multirole fighter",
     "aircraft_type": "Fighter",
     "era": "Modern",
-    "first_flight": "2010",
+    "first_flight": "29 January 2010",
     "introduction_date": "2020",
     "retirement_date": null,
     "status": "Active",
-    "number_built": "Not listed",
+    "number_built": "Small production fleet; exact current total varies by date and source",
     "crew": "1",
     "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "engines": "Two Saturn AL-41F1-family afterburning turbofans (early/public production references)",
+    "max_speed": "About Mach 2 / 2,600 km/h high-altitude estimate",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Sukhoi Su-57: Stealth multirole fighter. Manufacturer: Sukhoi. First flight: 2010. Introduction: 2020.",
-    "short_summary": "Sukhoi Su-57: Stealth multirole fighter. Origin: Russia. Manufacturer: Sukhoi. First flight: 2010. Introduction: 2020. Status: Active.",
+    "range": "About 3,500 km maximum range estimate",
+    "combat_range": "Roughly 1,500-1,750 km class depending on profile/source",
+    "service_ceiling": "About 20,000 m",
+    "rate_of_climb": "Not consistently published; high-performance fighter-class climb claimed",
+    "armament": "30 mm GSh-30-1/GSh-301-family cannon; internal and external carriage for R-77/RVV-SD/R-77M, R-73/RVV-MD, Kh-31/Kh-38-family weapons, and guided bombs, subject to clearance and variant caveats.",
+    "hardpoints": "Internal weapon bays plus optional external stations; Deagel lists 10 internal stations",
+    "variants": [
+      {
+        "name": "T-50 / PAK FA prototypes",
+        "description": "Prototype and flight-test aircraft used to mature the PAK FA airframe, flight-control system, avionics, low-observable shaping, internal weapon-bay integration, and early AL-41F1-family propulsion."
+      },
+      {
+        "name": "Su-57 production aircraft",
+        "description": "Single-seat production fighter for the Russian Aerospace Forces, initially associated with AL-41F1 engines, N036 Byelka radar/MIRES avionics, internal weapons carriage, and multirole air-to-air and strike weapons."
+      },
+      {
+        "name": "Su-57E",
+        "description": "Export-marketed version shown by UAC/Rosoboronexport channels; exact export configuration, customers, and delivered equipment should be verified from current official contract reporting."
+      },
+      {
+        "name": "Su-57D / two-seat prototype",
+        "description": "Two-seat derivative reported by UAC news in 2026 as a prototype for training and manned-unmanned teaming command tasks; it is not treated here as a mature operational variant."
+      },
+      {
+        "name": "Sukhoi/HAL FGFA",
+        "description": "Cancelled Indian-Russian fifth-generation fighter derivative based on the PAK FA/Su-57 concept; included as program history rather than an active Su-57 operator variant."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Russia",
+        "service": "Russian Aerospace Forces",
+        "notes": "Primary confirmed operator and customer. Public counts, delivery pace, combat availability, and fleet mix remain date-sensitive, so this page avoids exact current inventory claims."
+      },
+      {
+        "country": "Algeria",
+        "service": "Algerian Air Force",
+        "notes": "Widely reported as a customer/operator in some secondary references, but delivery status and configuration should be verified from current official sources before treating it as a settled operational fleet."
+      }
+    ],
+    "combat_history": "Limited and partly disputed public reporting includes Syria testing/deployment claims and later Russo-Ukrainian War use claims; exact sortie, loss, and engagement data omitted pending stronger sources.",
+    "development_history": "Developed from the PAK FA/T-50 program as Russia's first low-observable fifth-generation fighter, selected under Sukhoi leadership in the early 2000s and first flown on 29 January 2010 before initial service around 2020.",
+    "short_summary": "The Sukhoi Su-57 Felon is a Russian low-observable, twin-engine, fifth-generation multirole fighter developed from the PAK FA/T-50 program. It emphasizes internal weapons, integrated sensors, high agility, and strike-capable fighter missions, with many public figures still requiring cautious source handling.",
     "carrier_capable": false,
     "stealth": true,
     "images": [
@@ -40696,18 +40732,32 @@
     ],
     "sources": [
       {
+        "id": "fn-uac-su57",
+        "title": "Su-57",
+        "url": "https://uacrussia.ru/en/aircraft/lineup/military/su-57/",
+        "publisher": "United Aircraft Corporation",
+        "note": "Manufacturer model-line page confirming the Su-57 in UAC military-aircraft lineup; page extraction is navigation-heavy and contains limited specifications."
+      },
+      {
+        "id": "fn-deagel-su57",
+        "title": "Su-57",
+        "url": "https://www.deagel.com/aerospace%20forces/su-57/a000333",
+        "publisher": "Deagel",
+        "note": "Secondary aviation reference used for representative dimensions, AL-41F1 engine fit, maximum speed, ceiling, range, internal stations, weapons, and program context; some production forecasts are treated cautiously."
+      },
+      {
         "id": "fn-main",
         "title": "Sukhoi Su-57",
         "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-57",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "note": "Supplementary overview source used for NATO reporting name, PAK FA/T-50 context, first flight date, service-entry context, and reference cross-checking."
       },
       {
         "id": "fn-wikidata",
         "title": "Wikidata Query Service",
         "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "publisher": "Wikidata",
+        "note": "Open structured-data source used for aircraft identifiers and relationship checks."
       },
       {
         "id": "fn-method",
@@ -40724,7 +40774,8 @@
       }
     ],
     "designers": [
-      "Sukhoi"
+      "Sukhoi",
+      "United Aircraft Corporation"
     ],
     "development_tensions": [
       "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
@@ -40733,16 +40784,18 @@
     ],
     "wars_used_in": [],
     "variant_families": [
-      "Sukhoi Su-57 baseline production model",
-      "Sukhoi Su-57 upgraded avionics or weapons-capable model",
-      "Sukhoi Su-57 export or locally modernized model"
+      "T-50 / PAK FA prototypes",
+      "Su-57 production aircraft",
+      "Su-57E",
+      "Su-57D / two-seat prototype",
+      "Sukhoi/HAL FGFA"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "Russia"
       ],
-      "major_user_note": "Sukhoi Su-57 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Russia is the primary confirmed Su-57 operator; Algeria is reported/uncertain in secondary sources.",
+      "all_operators_status": "2 operator entries listed with caveats."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -40756,141 +40809,194 @@
     },
     "engine_details": {
       "type": "Jet",
-      "summary": "Sukhoi Su-57 uses jet propulsion."
+      "summary": "Twin AL-41F1-family afterburning turbofans are commonly listed for early/public Su-57 production references; later engine standards remain subject to source verification."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Internal-bay and optional external carriage for air-to-air missiles, precision strike weapons, guided bombs, and a 30 mm cannon.",
+      "caution": "Exact weapons compatibility differs by prototype, production batch, export configuration, and public-source reliability."
     },
     "similar_development": [
       {
-        "id": "f-15-eagle",
-        "name": "McDonnell Douglas F-15 Eagle",
-        "url": "aircraft.html?id=f-15-eagle"
+        "id": "su-27",
+        "name": "Sukhoi Su-27",
+        "url": "aircraft.html?id=su-27"
       },
       {
-        "id": "f-16-fighting-falcon",
-        "name": "General Dynamics F-16 Fighting Falcon",
-        "url": "aircraft.html?id=f-16-fighting-falcon"
+        "id": "mig-29",
+        "name": "Mikoyan MiG-29",
+        "url": "aircraft.html?id=mig-29"
       },
       {
-        "id": "f-a-18-hornet",
-        "name": "McDonnell Douglas F/A-18 Hornet",
-        "url": "aircraft.html?id=f-a-18-hornet"
+        "id": "f-22-raptor",
+        "name": "Lockheed Martin F-22 Raptor",
+        "url": "aircraft.html?id=f-22-raptor"
       },
       {
-        "id": "f-a-18e-f-super-hornet",
-        "name": "Boeing F/A-18E/F Super Hornet",
-        "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+        "id": "f-35-lightning-ii",
+        "name": "Lockheed Martin F-35 Lightning II",
+        "url": "aircraft.html?id=f-35-lightning-ii"
+      },
+      {
+        "id": "chengdu-j-20",
+        "name": "Chengdu J-20",
+        "url": "aircraft.html?id=chengdu-j-20"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 34,
+      "operator_entries": 2,
+      "variant_entries": 5,
+      "external_article_sources": 3
     },
     "footnotes": [
+      {
+        "id": "fn-uac-su57",
+        "title": "Su-57",
+        "url": "https://uacrussia.ru/en/aircraft/lineup/military/su-57/",
+        "publisher": "United Aircraft Corporation",
+        "note": "Manufacturer model-line page confirming the Su-57 in UAC military-aircraft lineup; page extraction is navigation-heavy and contains limited specifications."
+      },
+      {
+        "id": "fn-deagel-su57",
+        "title": "Su-57",
+        "url": "https://www.deagel.com/aerospace%20forces/su-57/a000333",
+        "publisher": "Deagel",
+        "note": "Secondary aviation reference used for representative dimensions, AL-41F1 engine fit, maximum speed, ceiling, range, internal stations, weapons, and program context; some production forecasts are treated cautiously."
+      },
       {
         "id": "fn-main",
         "title": "Sukhoi Su-57",
         "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-57",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "note": "Supplementary overview source used for NATO reporting name, PAK FA/T-50 context, first flight date, service-entry context, and reference cross-checking."
       },
       {
         "id": "fn-wikidata",
         "title": "Wikidata Query Service",
         "url": "https://query.wikidata.org/",
         "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Open structured-data source used for aircraft identifiers and relationship checks."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "Su-57",
+        "url": "https://uacrussia.ru/en/aircraft/lineup/military/su-57/",
+        "publisher": "United Aircraft Corporation"
+      },
+      {
+        "title": "Su-57",
+        "url": "https://www.deagel.com/aerospace%20forces/su-57/a000333",
+        "publisher": "Deagel"
+      },
+      {
+        "title": "Sukhoi Su-57",
+        "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-57",
+        "publisher": "Wikipedia"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-57 is a Stealth multirole fighter from Russia. Manufacturer: Sukhoi. First flight: 2010. Introduction: 2020. Status: Active.",
+            "text": "The Sukhoi Su-57 is Russia's low-observable, twin-engine, fifth-generation multirole fighter developed from the PAK FA / T-50 program. It combines internal weapons carriage, high agility, integrated sensors, and a strike-capable fighter mission set rather than being a pure air-superiority aircraft.",
             "refs": [
+              "fn-main",
+              "fn-deagel-su57"
+            ]
+          },
+          {
+            "text": "UAC lists the Su-57 in its military-aircraft lineup, while secondary references identify Sukhoi as the designer and UAC/Sukhoi/KnAAZ-linked organizations as the production network. The first prototype flew on 29 January 2010; the first operational-service handover is generally described around 2020 after a long flight-test and pre-production period.",
+            "refs": [
+              "fn-uac-su57",
               "fn-main"
             ]
           },
           {
-            "text": "Sukhoi Su-57 is a fighter. Primary role: stealth multirole fighter. Country of origin: Russia. Manufacturer: Sukhoi.",
+            "text": "Because many Su-57 details remain sensitive, evolving, or tied to prototypes, figures such as production totals, radar signature, weapons integration, and combat employment are presented cautiously. Representative performance data below should be read as public-source estimates rather than factory-certified values for every aircraft.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Exact structured fact fields: 15.",
-            "refs": [
-              "fn-method"
+              "fn-method",
+              "fn-deagel-su57"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Primary role",
-            "text": "Stealth multirole fighter"
+            "title": "Role",
+            "text": "Low-observable multirole fighter"
           },
           {
-            "title": "Designer or builder",
-            "text": "Sukhoi"
-          },
-          {
-            "title": "Major origin",
+            "title": "Origin",
             "text": "Russia"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Program names",
+            "text": "PAK FA / T-50 / Su-57"
+          },
+          {
+            "title": "NATO name",
+            "text": "Felon"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-57 first flew in 2010. Introduction date: 2020. Era: Modern.",
+            "text": "The Su-57 grew out of Russia's PAK FA requirement for a next-generation tactical aircraft to replace or complement Su-27 and MiG-29-family fighters. Sukhoi was selected as lead designer, with the T-50 prototypes used to validate the new planform, flight controls, internal weapons bays, avionics, and propulsion choices.",
+            "refs": [
+              "fn-main",
+              "fn-deagel-su57"
+            ]
+          },
+          {
+            "text": "The first T-50 flew on 29 January 2010. Development then proceeded through an extended prototype and pre-production phase, including redesign and systems-integration work before the first production Su-57 entered Russian service around 2020.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Producer: Sukhoi. Development context: stealth multirole fighter, jet propulsion, supersonic speed category, Modern era.",
+            "text": "Public references describe early aircraft as using AL-41F1-family engines, with a later new-generation engine often discussed separately in Russian reporting. This page does not assign a single final engine standard to all aircraft because propulsion configuration is one of the program's moving targets.",
             "refs": [
-              "fn-wikidata"
+              "fn-deagel-su57",
+              "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "1999-2002: PAK FA competition and Sukhoi selection for the new frontline fighter program.",
             "refs": [
-              "fn-method"
+              "fn-main"
             ]
           },
           {
-            "text": "Low-observable shaping and internal systems integration increased the importance of sensors, materials, heat management, and maintenance discipline.",
+            "text": "29 January 2010: first flight of the T-50 prototype.",
             "refs": [
-              "fn-method"
+              "fn-main",
+              "fn-deagel-su57"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "2017: Su-57 designation publicly associated with the production fighter.",
             "refs": [
-              "fn-method"
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Around 2020: first production aircraft entered Russian Aerospace Forces service after delays and test losses.",
+            "refs": [
+              "fn-main"
             ]
           }
         ]
@@ -40900,107 +41006,92 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The Su-57 uses a blended, twin-tail, twin-engine layout with low-observable shaping, internal weapons bays, leading-edge extensions, and thrust-vectoring/supermaneuverability emphasis. Its design trades the all-aspect stealth focus of some Western fighters for a Russian package that also stresses agility, speed, range, and large internal fuel volume.",
             "refs": [
-              "fn-main"
+              "fn-main",
+              "fn-deagel-su57"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: yes.",
+            "text": "Deagel describes the avionics suite around the Sh121/MIRES system, N036 Byelka radar family, L402 Himalayas electronic countermeasures, and the 101KS Atoll electro-optical system. Public configuration details differ by prototype and production batch, so subsystem names are treated as representative family information.",
             "refs": [
+              "fn-deagel-su57",
               "fn-method"
             ]
           },
           {
-            "text": "Sukhoi Su-57 uses jet propulsion. Engine model field: Not listed.",
+            "text": "Weapons are carried primarily in internal bays for low-observable missions, with external stations possible when stealth is less important. Publicly associated weapons include a 30 mm GSh-30-1/GSh-301-family cannon, R-77/RVV-SD/R-77M-class medium-range missiles, R-73/RVV-MD-class short-range missiles, Kh-31/Kh-38-family strike weapons, and guided bombs, subject to variant and clearance caveats.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-deagel-su57",
+              "fn-method"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "1"
+            "text": "1 in the production fighter; two-seat derivative reported separately"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Engines",
+            "text": "Two AL-41F1-family afterburning turbofans in early/public references"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Weapons carriage",
+            "text": "Internal bays plus optional external carriage"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "Yes"
+            "title": "Sensor emphasis",
+            "text": "Integrated radar, electro-optical, and electronic-warfare systems"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-57 status: Active. Conflict entries: 0.",
+            "text": "Representative public figures list a length of about 22 m, wingspan about 14.8 m, height about 5.5 m, wing area about 78.8 square meters, and maximum take-off weight around 35 tonnes. These values are close to several public T-50/Su-57 summaries but should be treated as approximate.",
             "refs": [
+              "fn-deagel-su57",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Performance estimates commonly include a high-altitude top speed around Mach 2 / 2,600 km/h, supercruise around Mach 1.3, service ceiling around 20,000 m, maximum range around 3,500 km, and combat radius figures in the roughly 1,500-1,750 km class depending on profile and source.",
+            "refs": [
+              "fn-deagel-su57",
               "fn-main"
             ]
           },
           {
-            "text": "Conflicts: 0 entries.",
+            "text": "Payload and station counts are especially sensitive to whether internal-only, external, prototype, or export configurations are being described. Deagel lists 10 internal stations and a 10,000 kg payload figure; Milipedia records this as a public-source estimate rather than a universal operational loadout.",
             "refs": [
+              "fn-deagel-su57",
               "fn-method"
             ]
           }
         ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
+        "cards": [
           {
-            "text": "Sukhoi Su-57 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "About 22 m"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Wingspan",
+            "text": "About 14.8 m"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum take-off weight",
+            "text": "About 35 tonnes"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Ceiling",
+            "text": "About 20,000 m"
+          },
+          {
+            "title": "Maximum range",
+            "text": "About 3,500 km, source/profile dependent"
           }
         ]
       },
@@ -41009,33 +41100,49 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-57 variant-family entries: 3. Variant families: Sukhoi Su-57 baseline production model; Sukhoi Su-57 upgraded avionics or weapons-capable model; Sukhoi Su-57 export or locally modernized model.",
+            "text": "The Su-57 family is best understood as a program lineage: T-50 prototypes, production Su-57 aircraft, export-marketed Su-57E proposals, reported modernized configurations, and the later two-seat Su-57D prototype. Many names in public sources refer to proposed or developmental standards rather than fielded fleets.",
             "refs": [
-              "fn-main"
+              "fn-main",
+              "fn-uac-su57",
+              "fn-method"
             ]
           },
           {
-            "text": "Complete variant entries listed: 0.",
+            "text": "The cancelled Sukhoi/HAL FGFA belongs in the development story because it shaped early export and two-seat discussions, but it is not an active Indian aircraft in Milipedia unless a future source establishes a delivered derivative.",
             "refs": [
-              "fn-method"
+              "fn-main"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Sukhoi Su-57 baseline production model",
+            "text": "T-50 / PAK FA: prototype and test aircraft used before the Su-57 designation.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Sukhoi Su-57 upgraded avionics or weapons-capable model",
+            "text": "Su-57: single-seat production fighter for Russia.",
             "refs": [
-              "fn-main"
+              "fn-main",
+              "fn-uac-su57"
             ]
           },
           {
-            "text": "Sukhoi Su-57 export or locally modernized model",
+            "text": "Su-57E: export-marketed version; configuration and deliveries require current verification.",
+            "refs": [
+              "fn-uac-su57",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Su-57D / two-seat prototype: reported by UAC news as a later derivative associated with training and manned-unmanned teaming.",
+            "refs": [
+              "fn-uac-su57"
+            ]
+          },
+          {
+            "text": "FGFA: cancelled Indian-Russian derivative program.",
             "refs": [
               "fn-main"
             ]
@@ -41047,45 +41154,97 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Russia. Sukhoi Su-57 has 1 designer or builder country entry.",
+            "text": "Russia is the primary confirmed operator through the Russian Aerospace Forces. Public delivery counts have changed over time, and wartime availability is difficult to verify, so this page records the operator and avoids a precise live inventory.",
             "refs": [
-              "fn-wikidata"
+              "fn-main",
+              "fn-method"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Some secondary references list Algeria as a customer/operator, while other reporting treats export status as uncertain or pending. Milipedia therefore marks Algeria as reported/uncertain until current official delivery documentation is available.",
             "refs": [
+              "fn-main",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Russia — confirmed primary operator and production customer.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Major designer or builder entries: Russia.",
+            "text": "Algeria — reported in secondary sources; delivery status should be verified before using exact fleet figures.",
             "refs": [
-              "fn-wikidata"
+              "fn-main",
+              "fn-method"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "service",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Supersonic, first flight 2010, introduction 2020.",
+            "text": "The Su-57 reached service after an unusually long test period and has been publicly described in Russian service since around 2020. Its operational role is usually framed as air superiority, interception, precision strike, and sensor/shooter networking rather than close air support or mass strike.",
+            "refs": [
+              "fn-main",
+              "fn-deagel-su57"
+            ]
+          },
+          {
+            "text": "Public sources mention limited Syria deployment/testing and later claims of use during the Russo-Ukrainian War. Detailed sortie counts, weapons effects, losses, and engagement claims are omitted here because they are disputed, date-sensitive, or difficult to verify from stable public sources.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The aircraft is also a technology demonstrator for Russia's future combat-aircraft ecosystem, including discussions of cooperation with the S-70 Okhotnik unmanned combat aircraft and two-seat command variants.",
+            "refs": [
+              "fn-deagel-su57",
+              "fn-uac-su57"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include low-observable shaping, internal weapons carriage, high agility, large fighter-class fuel volume, integrated sensors, and a multirole weapons plan. Compared with older Su-27 derivatives, the Su-57 is designed to reduce detectability and fuse information rather than rely only on speed, altitude, and missile reach.",
+            "refs": [
+              "fn-main",
+              "fn-deagel-su57"
+            ]
+          },
+          {
+            "text": "Limitations include a small publicly confirmed fleet, protracted engine and production maturation, uncertain export uptake, and limited independently verified combat record. Public radar-signature and weapons-clearance claims should be treated with caution because they are often promotional, classified, or contested.",
+            "refs": [
+              "fn-method",
+              "fn-main"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Best suited to high-end fighter, interception, precision-strike, and sensor-network roles.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Not a direct one-for-one analogue to the F-22 or F-35; it combines Russian design priorities with fifth-generation features.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Production pace and exact combat employment need continuing verification.",
             "refs": [
               "fn-method"
             ]
@@ -41093,11 +41252,122 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "comparison",
+        "title": "Comparison and Assessment",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-57 similar-development links: 4.",
+            "text": "Against the F-22, the Su-57 is usually compared as a twin-engine high-end stealth fighter, but its public design emphasis appears broader: multirole strike, supermaneuverability, and internal/external weapons flexibility alongside reduced observability.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Against the F-35 and Chengdu J-20, the Su-57 sits in the same fifth-generation category but differs in fleet size, export history, sensor ecosystem, and production maturity. Milipedia therefore compares it by role and design approach rather than claiming a simple ranking.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Closest peer category",
+            "text": "Fifth-generation stealth/low-observable fighters"
+          },
+          {
+            "title": "Older Russian predecessor context",
+            "text": "Intended to succeed or complement Su-27 and MiG-29 families"
+          },
+          {
+            "title": "Key uncertainty",
+            "text": "Fleet maturity and independently verified operational performance"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "The Su-57 timeline is defined by a long gestation: concept and competition in the late 1990s/early 2000s, prototype flight in 2010, public Su-57 naming in 2017, and initial production service around 2020.",
+            "refs": [
+              "fn-main"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1999: PAK FA program context begins in public histories.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "2002: Sukhoi selected as lead designer in widely cited summaries.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "29 January 2010: T-50 first flight.",
+            "refs": [
+              "fn-main",
+              "fn-deagel-su57"
+            ]
+          },
+          {
+            "text": "2017: Su-57 designation announced publicly.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "2020: first production service-entry milestone generally reported.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "2020s: continuing production, modernization, export marketing, and two-seat derivative reporting.",
+            "refs": [
+              "fn-uac-su57",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "UAC is used as the manufacturer/source-of-record for the type's presence in the current Russian military-aircraft lineup, but the extracted UAC aircraft page is navigation-heavy and does not provide a full public spec sheet.",
+            "refs": [
+              "fn-uac-su57"
+            ]
+          },
+          {
+            "text": "Deagel supplies a structured but secondary specification set; fields such as production forecasts, radar cross-section, exact station counts, and future variants are treated as estimates or claims needing corroboration.",
+            "refs": [
+              "fn-deagel-su57",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Wikipedia is used only as a supplementary orientation and cross-check source for program chronology, naming, and service context. Current combat claims, fleet totals, and export deliveries should be revisited with official or specialist sources in later runs.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related aircraft include predecessor Russian fighters, fifth-generation peers, and comparison aircraft in the Milipedia database.",
             "refs": [
               "fn-method"
             ]
@@ -41105,20 +41375,28 @@
         ],
         "links": [
           {
-            "label": "McDonnell Douglas F-15 Eagle",
-            "url": "aircraft.html?id=f-15-eagle"
+            "label": "Sukhoi Su-27",
+            "url": "aircraft.html?id=su-27"
           },
           {
-            "label": "General Dynamics F-16 Fighting Falcon",
-            "url": "aircraft.html?id=f-16-fighting-falcon"
+            "label": "Mikoyan MiG-29",
+            "url": "aircraft.html?id=mig-29"
           },
           {
-            "label": "McDonnell Douglas F/A-18 Hornet",
-            "url": "aircraft.html?id=f-a-18-hornet"
+            "label": "Lockheed Martin F-22 Raptor",
+            "url": "aircraft.html?id=f-22-raptor"
           },
           {
-            "label": "Boeing F/A-18E/F Super Hornet",
-            "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+            "label": "Lockheed Martin F-35 Lightning II",
+            "url": "aircraft.html?id=f-35-lightning-ii"
+          },
+          {
+            "label": "Chengdu J-20",
+            "url": "aircraft.html?id=chengdu-j-20"
+          },
+          {
+            "label": "Return to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }
