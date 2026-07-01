@@ -3925,3 +3925,80 @@ Record the result of:
 * Public sources differ on whether to present 68 built or approximately 70 built, and on ceiling/weight/range figures; the page uses representative values and caveats rather than merging all numbers into a single uncaveated claim.
 * An-22PZ and unbuilt special-mission concept details are public-source limited and are summarized cautiously.
 * The final commit hash cannot be embedded into the committed change log without changing the commit hash again; it is reported separately in this scheduled-run response.
+
+### Run 52 — 2026-07-01 23:03:54 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Tupolev Tu-160 Blackjack (id: tu-160)
+* Reason selected: It was the shortest unedited aircraft entry after parsing prior Selected Page log entries, with no operator entries, no real variant entries, incomplete specifications, placeholder-style development/design/service sections, and only sparse external sources compared with the F-16 reference page.
+* Previous condition: Sparse generated strategic-bomber page with 15 exact fact fields, 0 operator entries, 0 variant entries, unspecified engines/range/ceiling, generic bomb/missile wording, minimal service history, no modernization detail, no meaningful operator history, and no F-16-like comparison/timeline/source-note structure.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview lead; article-section ordering covering overview, development, design, specifications, variants, operators, operational history, strengths/limitations, comparison, timeline, sources, and related pages; short sourced paragraphs; card-style technical facts; cautious wording for variant-sensitive or date-sensitive claims; related-page links using aircraft.html?id=...
+
+#### Changes Made
+
+* Expanded the Tu-160 entry in data/aircraft.json from a sparse generated page into a fuller Milipedia aircraft article record.
+* Updated top-level facts for name, NATO reporting name, White Swan alternative name, manufacturer/production organization, role, first flight, service entry, status, crew, engines, maximum speed, range, combat radius, service ceiling, rate of climb, internal weapons carriage, and development history.
+* Added source metadata and footnotes for Airforce Technology, Aerospaceweb, GlobalSecurity, and supplementary Wikipedia orientation, replacing generic external-source labels.
+* Added detailed Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Comparison, Timeline, Sources and Notes, and Related Pages sections.
+* Added representative specifications for 54.1 m length, swept/unswept wingspan context, 13.1 m height, about 275,000 kg maximum takeoff weight, 2,220 km/h high-altitude maximum speed, 16,000 m service ceiling, about 12,300 km published range, and about 7,300 km combat-radius profile.
+* Added variant coverage for baseline Tu-160/Tu-160S, modernized Tu-160M, restarted-production Tu-160M/Tu-160M2 naming, Tu-160SK Burlak proposal, and cancelled/proposed derivatives.
+* Added operator coverage for current Russian service and former Soviet and Ukrainian operation, with cautious wording about post-Soviet transfer/scrapping history.
+* Added operational-history context for post-Soviet readiness issues, long-range training/presence flights, Syria cruise-missile use, and date-sensitive Russo-Ukrainian War reporting.
+* Added strengths/limitations and comparison material against B-1, B-52, B-2, Tu-95, and Tu-22M pages.
+* Added internal related links to existing B-1 Lancer, B-52 Stratofortress, B-2 Spirit, Tu-95, and Tu-22M entries.
+* Omitted exact current fleet counts, tail-by-tail aircraft names, detailed current weapon clearances, and strike-result claims because those details are date-sensitive, source-dependent, or sensitive.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Tupolev Tu-160 Blackjack aircraft page data, article sections, variants, operators, sources, and related links.
+* hermes-change-log.md — Appended the cumulative Run 52 log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed diff/stat; data/aircraft.json changes are limited to the Tu-160 entry, and hermes-change-log.md adds this Run 52 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed Tu-160 fields, source lists, variants, operators, article sections, and cautious wording for sensitive/date-dependent claims.
+4. F-16 style comparison — Inspected data/f16-template.html and followed its dense lead, technical cards, section order, sourced paragraph style, specifications emphasis, variants/operators/service/comparison/timeline coverage, source notes, and related-page pattern within the JSON-rendered article system.
+5. Internal link check — Verified aircraft.html?id=b-1-lancer, aircraft.html?id=b-52-stratofortress, aircraft.html?id=b-2-spirit, aircraft.html?id=tu-95, and aircraft.html?id=tu-22m target existing aircraft ids in data/aircraft.json.
+6. Secret/token check — Ran a credential-specific scan over the staged diff for private keys, passwords, access/auth tokens, cloud credential names, and similar credential patterns; no credentials were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, diff check, single-entry aircraft change, intended files only, Tu-160 was not previously edited by Hermes, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Tupolev Tu-160 Blackjack
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* Tu-160 fleet totals, new-build Tu-160M delivery counts, weapon integrations, and combat-use details are date-sensitive and source-dependent, so the page uses approximate/cautious wording instead of fixed current inventory or strike-result claims.
+* Some public sources differ on total built counts and Tu-160M/Tu-160M2 naming; the page records the uncertainty rather than forcing a single exact figure.

@@ -45263,35 +45263,75 @@
   },
   {
     "id": "tu-160",
-    "name": "Tupolev Tu-160",
-    "alternative_names": [],
-    "nato_reporting_name": null,
-    "country_of_origin": "Soviet Union/Russia",
-    "manufacturer": "Tupolev",
-    "role": "Supersonic strategic bomber",
-    "aircraft_type": "Bomber",
-    "era": "Modern",
-    "first_flight": "1981",
-    "introduction_date": "1987",
+    "name": "Tupolev Tu-160 Blackjack",
+    "alternative_names": [
+      "Belyy Lebed / White Swan",
+      "Blackjack"
+    ],
+    "nato_reporting_name": "Blackjack",
+    "country_of_origin": "Soviet Union / Russia",
+    "manufacturer": "Tupolev; Kazan Aircraft Production Association",
+    "role": "Supersonic variable-sweep strategic missile carrier and heavy bomber",
+    "aircraft_type": "Strategic bomber",
+    "era": "Cold War / modern",
+    "first_flight": "18 December 1981",
+    "introduction_date": "April 1987",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "4",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "status": "Active with Russian Aerospace Forces; modernized Tu-160M production restarted",
+    "number_built": "About 35-36 aircraft reported by major references; some later sources cite additional rebuilt/new-build Tu-160M airframes",
+    "crew": "4: pilot, co-pilot, navigator, and weapons/electronic-systems operator",
+    "engine_type": "Afterburning turbofan",
+    "engines": "Four Kuznetsov/Samara NK-32 or NK-321 afterburning turbofans; Tu-160M uses upgraded NK-32-02 engines",
+    "max_speed": "2,220 km/h (about Mach 2.05) at altitude",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Bombs, missiles, and precision-guided weapons.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Tupolev Tu-160: Supersonic strategic bomber. Manufacturer: Tupolev. First flight: 1981. Introduction: 1987.",
-    "short_summary": "Tupolev Tu-160: Supersonic strategic bomber. Origin: Soviet Union/Russia. Manufacturer: Tupolev. First flight: 1981. Introduction: 1987. Status: Active.",
+    "range": "About 12,300 km with maximum combat load in common reference profiles; Russian sources also describe 14,000+ km unrefueled ferry-range class claims",
+    "combat_range": "About 7,300 km in a published subsonic/transonic mission profile",
+    "service_ceiling": "16,000 m (52,500 ft)",
+    "rate_of_climb": "About 70 m/s in published reference tables",
+    "armament": "Internal rotary launchers in two weapons bays for long-range cruise missiles such as Kh-55/Kh-555 and Kh-101/Kh-102 families; bomb carriage and newer weapon fits depend on variant and modernization state.",
+    "hardpoints": "Two internal weapon bays, typically fitted with rotary launchers; no external hardpoints normally listed",
+    "variants": [
+      {
+        "name": "Tu-160 / Tu-160S",
+        "description": "Baseline production Blackjack strategic missile carrier, with the Tu-160S designation often applied to serial aircraft."
+      },
+      {
+        "name": "Tu-160M",
+        "description": "Modernized aircraft with updated avionics, navigation, electronic systems, weapons-control equipment, and compatibility with newer long-range cruise missiles."
+      },
+      {
+        "name": "Tu-160M2 / new-build Tu-160M",
+        "description": "Restarted-production standard assembled at Kazan using restored production tooling and modernized systems; public naming varies between Tu-160M and Tu-160M2."
+      },
+      {
+        "name": "Tu-160SK Burlak proposal",
+        "description": "Commercial/space-launch proposal to carry a small launch vehicle under the aircraft; not an operational military bomber variant."
+      },
+      {
+        "name": "Cancelled/proposed derivatives",
+        "description": "Reported interceptor, electronic-warfare, reconnaissance, hydrogen-fueled, and SALT-related conventional derivatives remained proposals or were cancelled."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Russia",
+        "service": "Russian Aerospace Forces / Long Range Aviation",
+        "notes": "Sole current operator in public sources; operates Soviet-built, modernized, and restarted-production Tu-160-family aircraft from long-range aviation units."
+      },
+      {
+        "country": "Soviet Union",
+        "service": "Soviet Air Forces / Long Range Aviation",
+        "notes": "Original service operator before the Soviet dissolution and fleet split."
+      },
+      {
+        "country": "Ukraine",
+        "service": "Ukrainian Air Force / Long-Range Aviation",
+        "notes": "Inherited Tu-160 aircraft after 1991; several were transferred to Russia and the remainder were scrapped under post-Cold War disarmament arrangements."
+      }
+    ],
+    "combat_history": "Used by Russia for long-range cruise-missile launches in Syria from 2015 and in the Russo-Ukrainian War; specific sortie results and claims should be treated cautiously.",
+    "development_history": "The Tu-160 was created in the 1970s Soviet strategic-bomber competition as a large variable-sweep, Mach-2-class missile carrier. The prototype first flew in December 1981, production began at Kazan, and the type entered service in 1987. After a post-Soviet production halt and fleet split between Russia and Ukraine, Russia modernized surviving aircraft and restarted new-build Tu-160M production.",
+    "short_summary": "The Tupolev Tu-160 Blackjack is a Soviet/Russian four-engine, variable-sweep, supersonic strategic bomber and missile carrier. It is among the largest and fastest combat aircraft ever fielded, carries its weapons internally, and remains in Russian Long Range Aviation service in upgraded Tu-160M form.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -45304,18 +45344,32 @@
     ],
     "sources": [
       {
+        "id": "fn-airforce-tech",
+        "title": "Tu-160 Blackjack Strategic Bomber",
+        "url": "https://www.airforce-technology.com/projects/tu-160-blackjack",
+        "publisher": "Airforce Technology",
+        "note": "Used for Tu-160 dimensions, performance tables, design description, upgrades, weapons-bay layout, and service-history milestones."
+      },
+      {
+        "id": "fn-aerospaceweb",
+        "title": "Aerospaceweb.org Aircraft Museum: Tu-160 Blackjack",
+        "url": "http://www.aerospaceweb.org/aircraft/bomber/tu160/",
+        "publisher": "Aerospaceweb.org",
+        "note": "Used as an independent technical cross-check for dimensions, crew, engine, performance, variants, operators, and post-Soviet fleet history."
+      },
+      {
+        "id": "fn-globalsecurity",
+        "title": "Tu-160 BLACKJACK (TUPOLEV)",
+        "url": "http://www.globalsecurity.org/wmd/world/russia/tu-160.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Used for development, airframe design, modernization/restart context, and cautious long-range-missile-carrier wording."
+      },
+      {
         "id": "fn-main",
         "title": "Tupolev Tu-160",
         "url": "https://en.wikipedia.org/wiki/Tupolev_Tu-160",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source only; used to cross-check broad dates, operator sequence, and common variant terminology."
       },
       {
         "id": "fn-method",
@@ -45323,20 +45377,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.aerospaceweb.org/aircraft/bomber/tu160/",
-        "publisher": "aerospaceweb.org",
-        "note": "External source for Tupolev Tu-160."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.globalsecurity.org/wmd/world/russia/tu-160.htm",
-        "publisher": "globalsecurity.org",
-        "note": "External source for Tupolev Tu-160."
       }
     ],
     "country_flags": [
@@ -45353,55 +45393,62 @@
       "Tupolev"
     ],
     "development_tensions": [
-      "Balancing payload, range, survivability, sensor/weapons modernization, and operating cost.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Soviet designers sought intercontinental reach, large internal missile load, and Mach-2-class dash speed in an aircraft far heavier than most combat types.",
+      "Variable-sweep wings and high-thrust afterburning turbofans improved runway and high-speed performance but increased structural, maintenance, fuel-burn, and cost burdens.",
+      "Modernization has focused on avionics, navigation, electronic warfare, engines, and long-range stand-off weapons rather than changing the basic airframe."
     ],
     "wars_used_in": [
       {
+        "name": "Russian intervention in Syria",
+        "note": "Russian Tu-160 aircraft publicly launched long-range cruise missiles against targets in Syria from 2015."
+      },
+      {
         "name": "Russo-Ukrainian War",
-        "note": "Tupolev Tu-160 used in Russo-Ukrainian War."
+        "note": "Tu-160-family bombers have been reported in Russian long-range cruise-missile operations; individual strike claims are date-sensitive and should be verified."
       }
     ],
     "variant_families": [
-      "Tupolev Tu-160 baseline production model",
-      "Tupolev Tu-160 upgraded avionics or weapons-capable model"
+      "Tu-160 / Tu-160S baseline production aircraft",
+      "Tu-160M modernization standard",
+      "Restarted-production Tu-160M/Tu-160M2 aircraft",
+      "Cancelled or proposed Tu-160 derivatives"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "Soviet Union",
         "Russia"
       ],
-      "major_user_note": "Tupolev Tu-160 has 2 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Russia is the only current public operator; the Soviet Union and Ukraine were former operators after the original Soviet fleet split.",
+      "all_operators_status": "3 operator entries listed."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "The aircraft is widely known by the Russian nickname White Swan and the NATO reporting name Blackjack.",
+        "Named Russian Tu-160 aircraft exist, but a tail-by-tail list was not added because current status varies by source."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Post-Soviet Ukrainian airframes were partly transferred to Russia and partly scrapped under arms-reduction arrangements.",
+        "Some modern combat use is politically sensitive and date-sensitive, so this page avoids detailed strike-result claims."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Tupolev Tu-160 uses jet propulsion."
+      "type": "Afterburning turbofan",
+      "summary": "Four NK-32/NK-321-class afterburning turbofans mounted in paired nacelles under the wing-body blend; Tu-160M updates use NK-32-02 engines in public reporting."
     },
     "armament_details": {
-      "summary": "Bombs, missiles, and precision-guided weapons.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Weapons are carried internally in two tandem bays, normally on rotary launchers for long-range cruise missiles. Public references list Kh-55/Kh-555 and Kh-101/Kh-102 families; bomb or anti-ship fits vary by source and modernization standard.",
+      "caution": "Exact current weapon clearances, nuclear/conventional load mixes, and Tu-160M-specific integrations are sensitive and date-dependent."
     },
     "similar_development": [
-      {
-        "id": "b-52-stratofortress",
-        "name": "Boeing B-52 Stratofortress",
-        "url": "aircraft.html?id=b-52-stratofortress"
-      },
       {
         "id": "b-1-lancer",
         "name": "Rockwell B-1 Lancer",
         "url": "aircraft.html?id=b-1-lancer"
+      },
+      {
+        "id": "b-52-stratofortress",
+        "name": "Boeing B-52 Stratofortress",
+        "url": "aircraft.html?id=b-52-stratofortress"
       },
       {
         "id": "b-2-spirit",
@@ -45409,68 +45456,80 @@
         "url": "aircraft.html?id=b-2-spirit"
       },
       {
-        "id": "su-24",
-        "name": "Sukhoi Su-24",
-        "url": "aircraft.html?id=su-24"
+        "id": "tu-95",
+        "name": "Tupolev Tu-95",
+        "url": "aircraft.html?id=tu-95"
+      },
+      {
+        "id": "tu-22m",
+        "name": "Tupolev Tu-22M",
+        "url": "aircraft.html?id=tu-22m"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 2
+      "exact_fact_count": 38,
+      "operator_entries": 3,
+      "variant_entries": 5,
+      "external_article_sources": 3
     },
     "footnotes": [
+      {
+        "id": "fn-airforce-tech",
+        "title": "Tu-160 Blackjack Strategic Bomber",
+        "url": "https://www.airforce-technology.com/projects/tu-160-blackjack",
+        "publisher": "Airforce Technology",
+        "note": "Primary technical and program-summary source for this update."
+      },
+      {
+        "id": "fn-aerospaceweb",
+        "title": "Aerospaceweb.org Aircraft Museum: Tu-160 Blackjack",
+        "url": "http://www.aerospaceweb.org/aircraft/bomber/tu160/",
+        "publisher": "Aerospaceweb.org",
+        "note": "Independent technical cross-check; older operational projections are treated as historical."
+      },
+      {
+        "id": "fn-globalsecurity",
+        "title": "Tu-160 BLACKJACK (TUPOLEV)",
+        "url": "http://www.globalsecurity.org/wmd/world/russia/tu-160.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Program-history and modernization context source."
+      },
       {
         "id": "fn-main",
         "title": "Tupolev Tu-160",
         "url": "https://en.wikipedia.org/wiki/Tupolev_Tu-160",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation and reference-discovery source."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.aerospaceweb.org/aircraft/bomber/tu160/",
-        "publisher": "aerospaceweb.org",
-        "note": "External source for Tupolev Tu-160."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.globalsecurity.org/wmd/world/russia/tu-160.htm",
-        "publisher": "globalsecurity.org",
-        "note": "External source for Tupolev Tu-160."
+        "note": "Local rules for neutral wording and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.aerospaceweb.org/aircraft/bomber/tu160/",
-        "publisher": "aerospaceweb.org",
-        "note": "External source for Tupolev Tu-160."
+        "id": "fn-airforce-tech",
+        "title": "Tu-160 Blackjack Strategic Bomber",
+        "url": "https://www.airforce-technology.com/projects/tu-160-blackjack",
+        "publisher": "Airforce Technology",
+        "note": "Technical specifications, design, upgrade, and weapons overview."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
+        "id": "fn-aerospaceweb",
+        "title": "Aerospaceweb.org Aircraft Museum: Tu-160 Blackjack",
+        "url": "http://www.aerospaceweb.org/aircraft/bomber/tu160/",
+        "publisher": "Aerospaceweb.org",
+        "note": "Technical cross-check and historical variant/operator summary."
+      },
+      {
+        "id": "fn-globalsecurity",
+        "title": "Tu-160 BLACKJACK (TUPOLEV)",
         "url": "http://www.globalsecurity.org/wmd/world/russia/tu-160.htm",
-        "publisher": "globalsecurity.org",
-        "note": "External source for Tupolev Tu-160."
+        "publisher": "GlobalSecurity.org",
+        "note": "Development and modernization background."
       }
     ],
     "article_sections": [
@@ -45479,72 +45538,85 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Tupolev Tu-160 is a Supersonic strategic bomber from Soviet Union/Russia. Manufacturer: Tupolev. First flight: 1981. Introduction: 1987. Status: Active.",
+            "text": "The Tupolev Tu-160 Blackjack is a Soviet/Russian supersonic strategic bomber and missile carrier built around four afterburning turbofans, variable-sweep wings, and two large internal weapons bays. It was designed to carry nuclear or conventional stand-off weapons over intercontinental distances rather than to fight like a tactical attack aircraft.",
             "refs": [
+              "fn-airforce-tech",
+              "fn-aerospaceweb"
+            ]
+          },
+          {
+            "text": "The aircraft first flew in December 1981 and entered service in April 1987. Public references describe it as one of the largest and fastest combat aircraft ever built, with a maximum takeoff weight around 275,000 kg and a high-altitude maximum speed of about 2,220 km/h.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-aerospaceweb"
+            ]
+          },
+          {
+            "text": "Its post-Soviet history is central to the type: production paused, Russia and Ukraine inherited aircraft, Ukraine later transferred or scrapped its examples, and Russia then modernized and restarted production in the Tu-160M family.",
+            "refs": [
+              "fn-globalsecurity",
               "fn-main"
-            ]
-          },
-          {
-            "text": "Tupolev Tu-160 is a bomber. Primary role: supersonic strategic bomber. Country of origin: Soviet Union/Russia. Manufacturer: Tupolev.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Exact structured fact fields: 15.",
-            "refs": [
-              "fn-method"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Supersonic strategic bomber"
+            "text": "Supersonic strategic missile carrier / heavy bomber"
           },
           {
-            "title": "Designer or builder",
-            "text": "Tupolev"
+            "title": "NATO name",
+            "text": "Blackjack"
           },
           {
-            "title": "Major origin",
-            "text": "Soviet Union, Russia"
+            "title": "Nickname",
+            "text": "White Swan / Belyy Lebed"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Crew",
+            "text": "4"
+          },
+          {
+            "title": "Current operator",
+            "text": "Russian Aerospace Forces"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Tupolev Tu-160 first flew in 1981. Introduction date: 1987. Era: Modern.",
+            "text": "Soviet work on a new intercontinental, variable-geometry strategic bomber began in the late 1960s and early 1970s as a response to U.S. high-speed bomber programs and the need for a long-range cruise-missile carrier. Tupolev’s design evolved into a large blended wing-body aircraft with manually commanded wing sweep positions.",
             "refs": [
+              "fn-globalsecurity",
               "fn-main"
             ]
           },
           {
-            "text": "Producer: Tupolev. Development context: supersonic strategic bomber, jet propulsion, supersonic speed category, Modern era.",
+            "text": "The prototype flew on 18 December 1981, production began at Kazan in the mid-1980s, and entry into service followed in 1987. After the Soviet Union dissolved, production and sustainment were constrained by funding, industrial disruption, and the division of aircraft between Russia and Ukraine.",
             "refs": [
-              "fn-wikidata"
+              "fn-airforce-tech",
+              "fn-aerospaceweb"
+            ]
+          },
+          {
+            "text": "Russian modernization work began in stages, adding improved navigation, targeting, electronic-warfare, radar, and cruise-missile capabilities. Public reports describe renewed Tu-160M production and upgraded NK-32-02 engines, but exact fleet totals and delivery status change over time.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-globalsecurity"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing payload, range, survivability, sensor/weapons modernization, and operating cost.",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "Designed as a high-speed, long-range stand-off missile carrier rather than a low-cost bomber."
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "Kazan production capability and NK-32 engine production became major factors in the restart program."
+          },
+          {
+            "text": "Modernization focuses on sensors, navigation, engines, and weapons-control systems while retaining the basic airframe layout."
           }
         ]
       },
@@ -45553,178 +45625,46 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 4. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The Tu-160 uses a blended low-wing airframe with variable-sweep outer wings. Low sweep supports takeoff, landing, and efficient subsonic flight, while high sweep supports high-speed cruise or dash. Large titanium structural members and all-moving tail surfaces are prominent features of the design.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech",
+              "fn-globalsecurity"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Four NK-32/NK-321 afterburning turbofans are installed in paired nacelles under the wing-body blend. The engines give the aircraft Mach-2-class maximum speed, but high-speed flight has heavy fuel and maintenance costs, so long-range profiles normally emphasize subsonic cruise and stand-off weapons.",
             "refs": [
-              "fn-method"
+              "fn-airforce-tech",
+              "fn-aerospaceweb"
             ]
           },
           {
-            "text": "Tupolev Tu-160 uses jet propulsion. Engine model field: Not listed.",
+            "text": "The crew of four uses ejection seats. Public references note fighter-style control sticks rather than bomber-style yokes, conventional electro-mechanical/monitor displays in earlier cockpits, integrated navigation/attack systems, defensive electronic systems, and air-to-air refueling equipment.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Bombs, missiles, and precision-guided weapons. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-airforce-tech"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "4"
+            "title": "Wing planform",
+            "text": "Variable sweep, approximately 20° to 65° in common descriptions"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Engines",
+            "text": "4 × NK-32/NK-321 afterburning turbofans"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Weapons carriage",
+            "text": "Two internal tandem bays with rotary launchers"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Runway need",
+            "text": "About 3,050 m concrete runway in one published table"
           },
           {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Tupolev Tu-160 status: Active. Conflict entries: 1.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: Russo-Ukrainian War.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Russo-Ukrainian War: Tupolev Tu-160 used in Russo-Ukrainian War.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Tupolev Tu-160 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "variants",
-        "title": "Variants",
-        "paragraphs": [
-          {
-            "text": "Tupolev Tu-160 variant-family entries: 2. Variant families: Tupolev Tu-160 baseline production model; Tupolev Tu-160 upgraded avionics or weapons-capable model.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Tupolev Tu-160 baseline production model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Tupolev Tu-160 upgraded avionics or weapons-capable model",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "operators",
-        "title": "Operators",
-        "paragraphs": [
-          {
-            "text": "Designer or builder countries: Soviet Union, Russia. Tupolev Tu-160 has 2 designer or builder country entry.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "All operators status: 0 operator entries listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Major designer or builder entries: Soviet Union, Russia.",
-            "refs": [
-              "fn-wikidata"
-            ]
+            "title": "Refueling",
+            "text": "Probe-equipped for aerial refueling"
           }
         ]
       },
@@ -45733,25 +45673,187 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 4, propulsion type Jet, maximum speed category Supersonic, first flight 1981, introduction 1987.",
+            "text": "Representative Tu-160 figures vary slightly by source and should be read as baseline/public values rather than a single definitive configuration. Airforce Technology lists a 54.1 m length, 35.6 m swept wingspan, 13.1 m height, 275,000 kg maximum takeoff weight, and 40,000 kg maximum combat load.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Common performance figures include 2,220 km/h at altitude, 1,030 km/h near the ground, a 16,000 m service ceiling, about 12,300 km range with maximum combat load, about 7,300 km combat radius in one mission profile, and endurance up to roughly 15 hours.",
             "refs": [
+              "fn-airforce-tech",
+              "fn-aerospaceweb"
+            ]
+          },
+          {
+            "text": "The armament fit is best described by bay and missile family rather than a fixed loadout: public sources list up to 12 Kh-55/Kh-555-class cruise missiles or modern Kh-101/Kh-102-class weapons, while proposed bomb or anti-ship loads depend on variant and upgrade status.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-globalsecurity"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Length",
+            "text": "54.1 m (177 ft 6 in)"
+          },
+          {
+            "title": "Wingspan",
+            "text": "35.6 m swept; about 55.7 m unswept in some sources"
+          },
+          {
+            "title": "Maximum takeoff weight",
+            "text": "About 275,000 kg"
+          },
+          {
+            "title": "Maximum speed",
+            "text": "2,220 km/h at altitude"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "16,000 m"
+          },
+          {
+            "title": "Published range",
+            "text": "About 12,300 km with maximum combat load"
+          }
+        ]
+      },
+      {
+        "id": "variants",
+        "title": "Variants",
+        "paragraphs": [
+          {
+            "text": "Tu-160 variant names are sometimes used differently by Russian industry, Western references, and popular sources. The safest broad split is baseline serial Tu-160/Tu-160S aircraft, modernized Tu-160M aircraft, and restarted-production Tu-160M/Tu-160M2 aircraft.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-aerospaceweb",
+              "fn-globalsecurity"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Tu-160 / Tu-160S — baseline serial Blackjack strategic missile carrier."
+          },
+          {
+            "text": "Tu-160M — modernized aircraft with updated avionics, navigation, electronic systems, and newer weapon compatibility."
+          },
+          {
+            "text": "New-build Tu-160M / Tu-160M2 — restarted-production aircraft assembled after restoration of Kazan production capability; public naming varies."
+          },
+          {
+            "text": "Tu-160SK Burlak — proposed air-launch/space-launch derivative, not an operational bomber."
+          },
+          {
+            "text": "Other proposed derivatives included interceptor, reconnaissance, electronic-warfare, hydrogen-fueled, and conventional-only concepts."
+          }
+        ]
+      },
+      {
+        "id": "operators",
+        "title": "Operators",
+        "paragraphs": [
+          {
+            "text": "Russia is the only current public operator. The Tu-160 serves in Long Range Aviation as a strategic stand-off missile carrier, and the fleet includes modernized aircraft plus resumed-production examples according to Russian and industry statements.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-globalsecurity"
+            ]
+          },
+          {
+            "text": "The Soviet Union was the original operator. After 1991, Ukraine inherited a portion of the fleet; subsequent arms-reduction and settlement arrangements led to some Ukrainian aircraft being transferred to Russia and others scrapped.",
+            "refs": [
+              "fn-aerospaceweb",
+              "fn-main"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Russia — current operator through Russian Aerospace Forces / Long Range Aviation."
+          },
+          {
+            "text": "Soviet Union — original operator before the dissolution of the USSR."
+          },
+          {
+            "text": "Ukraine — former post-Soviet operator; aircraft were transferred or scrapped and are no longer in Ukrainian service."
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "During the 1990s the Tu-160 fleet suffered from funding, readiness, and standardization problems common to many post-Soviet strategic systems. Aerospaceweb notes that early production differences and parts shortages complicated serviceability, while later Russian policy emphasized renewed strategic patrols and modernization.",
+            "refs": [
+              "fn-aerospaceweb"
+            ]
+          },
+          {
+            "text": "Public long-range training and presence missions have included flights to Venezuela in 2008 and very long patrols over Arctic and Pacific routes. These events demonstrated range and refueling capability more than combat employment.",
+            "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "The type’s public combat debut came in 2015 when Russia used Tu-160 bombers to launch cruise missiles during operations in Syria. Tu-160-family aircraft have also been reported in Russian long-range missile operations during the Russo-Ukrainian War, but detailed strike claims are politically sensitive and should be checked against current sources.",
+            "refs": [
+              "fn-main",
               "fn-method"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
         "paragraphs": [
           {
-            "text": "Tupolev Tu-160 similar-development links: 4.",
+            "text": "The Tu-160’s strengths come from the combination of very large internal fuel volume, high-thrust engines, variable geometry, and internal stand-off weapons. It can launch missiles at long range, reposition quickly compared with subsonic bombers, and carry a heavy payload without external drag.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-aerospaceweb"
+            ]
+          },
+          {
+            "text": "Its limitations are also significant: the aircraft is large, expensive, runway-dependent, maintenance-intensive, and not a stealth aircraft. High-speed profiles consume fuel rapidly, and exact mission capability depends heavily on tanker support, weapon availability, avionics modernization, and strategic operating conditions.",
+            "refs": [
+              "fn-method",
+              "fn-aerospaceweb"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: Mach-2-class dash speed combined with intercontinental-range bomber scale."
+          },
+          {
+            "text": "Strength: internal rotary launchers reduce drag and support long-range cruise-missile carriage."
+          },
+          {
+            "text": "Limitation: very high operating cost and specialized maintenance burden."
+          },
+          {
+            "text": "Limitation: survivability increasingly depends on stand-off weapons and electronic support rather than penetrating modern integrated air defenses directly."
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "The Tu-160 is most often compared with the Rockwell B-1 because both use variable-sweep wings and high-speed bomber layouts. The Tu-160 is generally larger, faster, and more focused on strategic stand-off missile carriage, while the B-1B evolved toward conventional penetrating and stand-off roles in U.S. service.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-aerospaceweb"
+            ]
+          },
+          {
+            "text": "Compared with the B-52 and Tu-95, the Tu-160 is much faster and more modern aerodynamically, but those older subsonic bombers can be cheaper to operate and can remain useful when paired with long-range stand-off weapons. Compared with the B-2, the Tu-160 emphasizes speed and payload rather than low observability.",
             "refs": [
               "fn-method"
             ]
@@ -45759,20 +45861,106 @@
         ],
         "links": [
           {
-            "label": "Boeing B-52 Stratofortress",
-            "url": "aircraft.html?id=b-52-stratofortress"
-          },
-          {
             "label": "Rockwell B-1 Lancer",
             "url": "aircraft.html?id=b-1-lancer"
+          },
+          {
+            "label": "Boeing B-52 Stratofortress",
+            "url": "aircraft.html?id=b-52-stratofortress"
           },
           {
             "label": "Northrop Grumman B-2 Spirit",
             "url": "aircraft.html?id=b-2-spirit"
           },
           {
-            "label": "Sukhoi Su-24",
-            "url": "aircraft.html?id=su-24"
+            "label": "Tupolev Tu-95",
+            "url": "aircraft.html?id=tu-95"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "Late 1960s-1970s — Soviet studies and competitions shape a new supersonic strategic bomber requirement."
+          },
+          {
+            "text": "18 December 1981 — Tu-160 prototype first flight."
+          },
+          {
+            "text": "1984 — production authorization and early production activity at Kazan."
+          },
+          {
+            "text": "April 1987 — service entry with Soviet long-range aviation."
+          },
+          {
+            "text": "1991-1990s — post-Soviet fleet split; Ukrainian aircraft later transferred or scrapped."
+          },
+          {
+            "text": "2000s-2010s — Russian modernization work adds updated systems and newer cruise-missile compatibility."
+          },
+          {
+            "text": "2015 — public combat use in Syria with long-range cruise missiles."
+          },
+          {
+            "text": "2018-2022 — public milestones for restored production and new/modernized Tu-160M flights."
+          }
+        ]
+      },
+      {
+        "id": "sources",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "This article uses Airforce Technology for the main technical table and upgrade chronology, Aerospaceweb as an independent older technical cross-check, GlobalSecurity for development and modernization context, and Wikipedia only as supplementary orientation.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-aerospaceweb",
+              "fn-globalsecurity",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Fleet totals, new-build delivery counts, weapon integrations, and combat-use details are date-sensitive. Where sources disagree or depend on current Russian production status, this page uses approximate wording rather than exact current inventories.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages include U.S. and Soviet/Russian long-range bombers plus the Tu-22M regional strike bomber."
+          }
+        ],
+        "links": [
+          {
+            "label": "Rockwell B-1 Lancer",
+            "url": "aircraft.html?id=b-1-lancer"
+          },
+          {
+            "label": "Boeing B-52 Stratofortress",
+            "url": "aircraft.html?id=b-52-stratofortress"
+          },
+          {
+            "label": "Northrop Grumman B-2 Spirit",
+            "url": "aircraft.html?id=b-2-spirit"
+          },
+          {
+            "label": "Tupolev Tu-95",
+            "url": "aircraft.html?id=tu-95"
+          },
+          {
+            "label": "Tupolev Tu-22M",
+            "url": "aircraft.html?id=tu-22m"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }
