@@ -3462,3 +3462,80 @@ Record the result of:
 * NH90 specifications, engines, sensors, weapons, and crew count vary by TTH/NFH and national configuration; the page presents representative values with caveats rather than forcing one universal configuration.
 * Airforce Technology was used only as a secondary cross-check for NFH sensors, avionics, and weapons context; official NHIndustries, Leonardo, and Bundeswehr pages anchor the main article facts.
 * The final commit hash cannot be embedded into the committed change log without changing the commit hash again; it is reported separately in this scheduled-run response.
+
+### Run 46 — 2026-07-01 17:03:41 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Dassault Rafale (id: rafale)
+* Reason selected: It was the shortest unedited aircraft entry in the repository comparison pass, with zero external article sources, zero operator entries, zero variant entries, placeholder-like generated sections, missing engine/range/ceiling/store-station specifications, and generic armament text despite being a major modern fighter.
+* Previous condition: Sparse generated JSON record with 15 exact fact fields, no detailed development history, no Rafale C/B/M or F3R/F4 coverage, no operator list, no Dassault specification cards, no sourced design/weapons-system discussion, and generic Wikipedia/Wikidata/local-method references only.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview and fact-card style; section order covering overview, development history, design/capabilities, weapons systems, specifications, variants, operators, operational history, strengths/limitations, comparison, timeline, sources, and related pages; source-qualified paragraphs; variant/operator caveats; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the Dassault Rafale entry in data/aircraft.json from a sparse generated record into a fuller Milipedia article-style page while preserving the existing JSON-rendered aircraft-page structure.
+* Added Dassault manufacturer sources for the Rafale introduction, specifications/performance data, and omnirole-by-design page, retaining Wikipedia only as supplementary orientation.
+* Replaced placeholder top-level facts with sourced role, first-flight date, French Navy/French Air Force introduction context, status, crew, M88-2 engines, Mach 1.8/750 kt class speed, 50,000 ft ceiling, 14 store stations, 5 heavy-wet stations, and external-load wording.
+* Added detailed overview, development-history, design/capabilities, weapons-systems, specifications, variants/standards, operators, operational-history, strengths/limitations, comparison, timeline, sources/notes, and related-pages sections.
+* Added specification cards for length, wingspan, height, empty-weight class, maximum takeoff weight, internal/external fuel, speed, service ceiling, load factors, store stations, and external load using Dassault public data.
+* Added variant coverage for Rafale A, Rafale C, Rafale B, Rafale M, and F3R/F4/export standards, with caution that national and software-standard details vary.
+* Added operator coverage for France and Dassault-listed export customers Egypt, India, Qatar, Greece, Croatia, United Arab Emirates, Indonesia, and Serbia, avoiding a fixed live inventory table.
+* Replaced generic armament wording with Rafale-specific mission categories and cautious public weapon categories while avoiding unsupported universal weapon-clearance tables.
+* Added operational-history context for French combat-proven service since 2007 and public Afghanistan, Libya, Sahel/Mali, and Iraq/Syria operation categories without unsupported sortie totals or claims.
+* Added internal related links to Mirage 2000, Eurofighter Typhoon, F-16 Fighting Falcon, F-35 Lightning II, and F/A-18E/F Super Hornet after confirming those IDs exist.
+* Removed generated event-gallery metadata whose Kosovo/Libya framing was too thin for the improved source-qualified article.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Dassault Rafale aircraft entry with sourced facts, specifications, variants, operators, article sections, sources, and related links.
+* hermes-change-log.md — Appended the cumulative log entry for this scheduled run.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Confirmed branch hermes-agent; before log append only data/aircraft.json was modified, and before commit only data/aircraft.json and hermes-change-log.md were intended files.
+2. git diff — Reviewed diff/stat; data/aircraft.json changed exactly one aircraft entry, rafale, and hermes-change-log.md gained this run entry.
+3. File review — Parsed data/aircraft.json successfully with python3 -m json.tool and reviewed the Rafale sources, article sections, variants, operators, specification cards, caveats, and related links.
+4. F-16 style comparison — Inspected data/f16-template.html and followed its dense overview, fact-card backed technical details, source/reference pattern, section order, operator/variant caveats, timeline, and related-page structure within the JSON aircraft-page system.
+5. Internal link check — Scripted check confirmed Rafale internal links target existing IDs mirage-2000, eurofighter-typhoon, f-16-fighting-falcon, f-35-lightning-ii, and f-a-18e-f-super-hornet.
+6. Secret/token check — Scanned the intended diff with credential-specific patterns for private keys, passwords, cloud credentials, and access/auth token assignments; no credentials were found.
+7. Final review before commit — Confirmed branch safety, JSON validity, exactly one aircraft entry changed, intended files only, clean formatting checks, internal links, completed change log, and no previous substantial Hermes edit for Rafale.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Dassault Rafale
+* Commit hash: Pending until commit is created; final hash is reported in the scheduled-run response.
+
+#### Issues or Uncertainties
+
+* Current delivery status, country-by-country active inventories, exact national weapons clearances, and configuration details vary by customer and software standard; the page uses Dassault public order statements and cautious wording rather than a fixed live table.
+* Dassault public pages provide strong specifications and design context but not every operational detail; Wikipedia was used only as supplementary orientation for chronology and operation categories.
+* The final commit hash cannot be embedded into the committed change log without changing the commit hash again; it is reported separately in this scheduled-run response.

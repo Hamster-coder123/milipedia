@@ -50183,34 +50183,96 @@
   {
     "id": "rafale",
     "name": "Dassault Rafale",
-    "alternative_names": [],
+    "alternative_names": [
+      "Rafale C",
+      "Rafale B",
+      "Rafale M"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "France",
     "manufacturer": "Dassault Aviation",
-    "role": "Multirole fighter",
-    "aircraft_type": "Fighter",
+    "role": "Omnirole multirole fighter",
+    "aircraft_type": "Twin-engine multirole fighter",
     "era": "Modern",
-    "first_flight": "1986",
-    "introduction_date": "2001",
+    "first_flight": "4 July 1986",
+    "introduction_date": "2004 French Navy; 2006 French Air Force",
     "retirement_date": null,
     "status": "Active",
-    "number_built": "Not listed",
-    "crew": "1 or 2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "number_built": "In continuing production; export orders exceed French orders according to Dassault",
+    "crew": "1 (Rafale C/M) or 2 (Rafale B)",
+    "engine_type": "Turbofan",
+    "engines": "2 × Safran/Snecma M88-2 afterburning turbofans",
+    "max_speed": "Mach 1.8 / 750 kt class",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Dassault Rafale: Multirole fighter. Manufacturer: Dassault Aviation. First flight: 1986. Introduction: 2001.",
-    "short_summary": "Dassault Rafale: Multirole fighter. Origin: France. Manufacturer: Dassault Aviation. First flight: 1986. Introduction: 2001. Status: Active.",
+    "range": "Mission-dependent; large internal fuel plus up to 6.7 t external fuel and aerial-refuelling capability",
+    "combat_range": "Mission- and loadout-dependent; Dassault emphasizes long-range power projection rather than one universal radius",
+    "service_ceiling": "50,000 ft",
+    "rate_of_climb": "Not publicly standardized in Dassault source; performance varies with weight and loadout",
+    "armament": "30 mm internal cannon; MICA, Meteor and other air-to-air missiles; precision-guided bombs; SCALP/Storm Shadow, AM39 Exocet, reconnaissance pods, nuclear deterrent stores for French service, and other customer-cleared weapons.",
+    "hardpoints": "14 store stations, including 5 heavy-wet stations",
+    "variants": [
+      {
+        "name": "Rafale A",
+        "description": "Technology demonstrator first flown in 1986 to prove the canard-delta configuration and French fighter concept before production standards were finalized."
+      },
+      {
+        "name": "Rafale C",
+        "description": "Single-seat land-based air-force variant used for air defence, strike, reconnaissance and multirole missions."
+      },
+      {
+        "name": "Rafale B",
+        "description": "Two-seat land-based variant used for conversion training and operational missions requiring a second crew member."
+      },
+      {
+        "name": "Rafale M",
+        "description": "Carrier-capable single-seat naval variant with strengthened structure, landing gear, arresting hook and corrosion-protection changes for French Navy aircraft-carrier operations."
+      },
+      {
+        "name": "Rafale F3R/F4 standards",
+        "description": "Modernized standards integrating improved sensors, weapons, networking and supportability; Dassault notes the United Arab Emirates ordered Rafale Standard F4 aircraft."
+      }
+    ],
+    "operators": [
+      {
+        "country": "France",
+        "note": "Operated by the French Air and Space Force and French Navy; Dassault states it will remain a French armed-forces fighter beyond 2060."
+      },
+      {
+        "country": "Egypt",
+        "note": "Export customer; Dassault lists Egypt for 55 Rafale."
+      },
+      {
+        "country": "India",
+        "note": "Export customer; Dassault lists 36 Rafale for the Indian Air Force and 26 for the Indian Navy."
+      },
+      {
+        "country": "Qatar",
+        "note": "Export customer; Dassault lists Qatar for 36 Rafale."
+      },
+      {
+        "country": "Greece",
+        "note": "Export customer using a mix of former French Air and Space Force aircraft and new-build Rafales."
+      },
+      {
+        "country": "Croatia",
+        "note": "Export customer for former French Air and Space Force aircraft."
+      },
+      {
+        "country": "United Arab Emirates",
+        "note": "Export customer; Dassault lists 80 Rafale Standard F4 aircraft."
+      },
+      {
+        "country": "Indonesia",
+        "note": "Export customer; Dassault lists Indonesia for 42 Rafale."
+      },
+      {
+        "country": "Serbia",
+        "note": "Export customer; Dassault lists Serbia for 12 Rafale."
+      }
+    ],
+    "combat_history": "Combat-proven since 2007; used by French forces in Afghanistan, Libya, Mali/Sahel operations, Iraq/Syria operations, and other deployments. Export-customer combat use varies by country and date.",
+    "development_history": "France developed the Rafale as a national, carrier-capable and land-based combat-aircraft family after European fighter requirements diverged. Dassault designed a compact close-coupled canard-delta aircraft with common airframe and mission systems for the Rafale C, B and M, enabling air-superiority, strike, reconnaissance, anti-ship and nuclear-deterrence missions from shore bases and aircraft carriers.",
+    "short_summary": "The Dassault Rafale is a French twin-engine omnirole fighter built by Dassault Aviation for the French Air and Space Force, French Navy and export customers. It combines air defence, deep strike, reconnaissance, anti-ship and deterrence roles in a common canard-delta airframe, with Rafale C, B and M variants sharing broadly similar mission systems.",
     "carrier_capable": true,
     "stealth": false,
     "images": [
@@ -50223,25 +50285,39 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-dassault-intro",
+        "title": "Rafale: Introduction",
+        "url": "https://www.dassault-aviation.com/en/defense/rafale/introduction/",
+        "publisher": "Dassault Aviation",
+        "note": "Manufacturer source for role, variants, export customers, French service outlook and omnirole description."
+      },
+      {
+        "id": "fn-dassault-specs",
+        "title": "Rafale specifications and performance data",
+        "url": "https://www.dassault-aviation.com/en/defense/rafale/specifications-and-performance-data/",
+        "publisher": "Dassault Aviation",
+        "note": "Manufacturer source for dimensions, weights, store stations, speed, load factors, thrust and ceiling."
+      },
+      {
+        "id": "fn-dassault-design",
+        "title": "Omnirole by design",
+        "url": "https://www.dassault-aviation.com/en/defense/rafale/omnirole-by-design/",
+        "publisher": "Dassault Aviation",
+        "note": "Manufacturer source for design features, canard-delta layout, fly-by-wire, AGCAS, materials and M88-2 engine data."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Dassault Rafale",
         "url": "https://en.wikipedia.org/wiki/Dassault_Rafale",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation for chronology and operational context; not used as the primary technical authority."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
+        "note": "Local rules for cautious wording, variant differences and source handling."
       }
     ],
     "country_flags": [
@@ -50260,26 +50336,35 @@
     ],
     "wars_used_in": [
       {
-        "name": "Kosovo War",
-        "note": "Dassault Rafale used in Kosovo War."
+        "name": "Afghanistan deployments",
+        "note": "French Rafales flew operational missions after entering service; details vary by service and tasking."
       },
       {
         "name": "2011 military intervention in Libya",
-        "note": "Dassault Rafale used in 2011 military intervention in Libya."
+        "note": "Rafales were among French aircraft used in Libya for air-to-air, strike and reconnaissance tasking."
+      },
+      {
+        "name": "Mali and Sahel operations",
+        "note": "French Rafales supported long-range strike and reconnaissance operations from expeditionary and home bases."
+      },
+      {
+        "name": "Iraq/Syria operations",
+        "note": "French Rafales have supported coalition operations against ISIS with strike and reconnaissance missions."
       }
     ],
     "variant_families": [
-      "Dassault Rafale baseline production model",
-      "Dassault Rafale upgraded avionics or weapons-capable model",
-      "Dassault Rafale two-seat trainer or conversion model",
-      "Dassault Rafale export or locally modernized model"
+      "Rafale A technology demonstrator",
+      "Rafale C single-seat land-based fighter",
+      "Rafale B two-seat land-based fighter",
+      "Rafale M carrier-capable naval fighter",
+      "F1/F2/F3/F3R/F4 standards and export configurations"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "France"
       ],
-      "major_user_note": "Dassault Rafale has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "French Air and Space Force and French Navy operate the Rafale; Dassault lists eight export customer countries in addition to France.",
+      "all_operators_status": "Operators and order totals are date-sensitive; country entries use Dassault public order statements where available."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -50292,18 +50377,23 @@
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Dassault Rafale uses jet propulsion."
+      "type": "Afterburning turbofan",
+      "summary": "Two M88-2 engines provide 10,971 lb dry thrust and 16,620 lb with afterburner each in Dassault public material; the design emphasizes rapid throttle response, maintainability and low operating cost."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Rafale weapon fits are customer- and standard-dependent. Typical roles include air defence, precision strike, reconnaissance, anti-ship attack and French nuclear deterrence support.",
+      "caution": "Exact weapon clearances vary by national configuration and software standard; universal missile-by-missile tables should be source-checked before adding."
     },
     "similar_development": [
       {
-        "id": "f-15-eagle",
-        "name": "McDonnell Douglas F-15 Eagle",
-        "url": "aircraft.html?id=f-15-eagle"
+        "id": "mirage-2000",
+        "name": "Dassault Mirage 2000",
+        "url": "aircraft.html?id=mirage-2000"
+      },
+      {
+        "id": "eurofighter-typhoon",
+        "name": "Eurofighter Typhoon",
+        "url": "aircraft.html?id=eurofighter-typhoon"
       },
       {
         "id": "f-16-fighting-falcon",
@@ -50311,9 +50401,9 @@
         "url": "aircraft.html?id=f-16-fighting-falcon"
       },
       {
-        "id": "f-a-18-hornet",
-        "name": "McDonnell Douglas F/A-18 Hornet",
-        "url": "aircraft.html?id=f-a-18-hornet"
+        "id": "f-35-lightning-ii",
+        "name": "Lockheed Martin F-35 Lightning II",
+        "url": "aircraft.html?id=f-35-lightning-ii"
       },
       {
         "id": "f-a-18e-f-super-hornet",
@@ -50322,54 +50412,82 @@
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 34,
+      "operator_entries": 9,
+      "variant_entries": 5,
+      "external_article_sources": 4
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-dassault-intro",
+        "title": "Rafale: Introduction",
+        "url": "https://www.dassault-aviation.com/en/defense/rafale/introduction/",
+        "publisher": "Dassault Aviation",
+        "note": "Manufacturer source for role, variants, export customers, French service outlook and omnirole description."
+      },
+      {
+        "id": "fn-dassault-specs",
+        "title": "Rafale specifications and performance data",
+        "url": "https://www.dassault-aviation.com/en/defense/rafale/specifications-and-performance-data/",
+        "publisher": "Dassault Aviation",
+        "note": "Manufacturer source for dimensions, weights, store stations, speed, load factors, thrust and ceiling."
+      },
+      {
+        "id": "fn-dassault-design",
+        "title": "Omnirole by design",
+        "url": "https://www.dassault-aviation.com/en/defense/rafale/omnirole-by-design/",
+        "publisher": "Dassault Aviation",
+        "note": "Manufacturer source for design features, canard-delta layout, fly-by-wire, AGCAS, materials and M88-2 engine data."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Dassault Rafale",
         "url": "https://en.wikipedia.org/wiki/Dassault_Rafale",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation for chronology and operational context; not used as the primary technical authority."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for cautious wording, variant differences and source handling."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "label": "Dassault Rafale introduction",
+        "url": "https://www.dassault-aviation.com/en/defense/rafale/introduction/"
+      },
+      {
+        "label": "Dassault Rafale specifications",
+        "url": "https://www.dassault-aviation.com/en/defense/rafale/specifications-and-performance-data/"
+      },
+      {
+        "label": "Dassault Rafale design",
+        "url": "https://www.dassault-aviation.com/en/defense/rafale/omnirole-by-design/"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Dassault Rafale is a Multirole fighter from France. Manufacturer: Dassault Aviation. First flight: 1986. Introduction: 2001. Status: Active.",
+            "text": "The Dassault Rafale is a French twin-engine omnirole fighter designed to perform air-superiority, air-defence, close-air-support, deep-strike, reconnaissance, anti-ship and nuclear-deterrence missions from land bases and aircraft carriers.",
             "refs": [
-              "fn-main"
+              "fn-dassault-intro"
             ]
           },
           {
-            "text": "Dassault Rafale is a fighter. Primary role: multirole fighter. Country of origin: France. Manufacturer: Dassault Aviation.",
+            "text": "Dassault describes the Rafale as a common family built around the single-seat Rafale C, two-seat Rafale B and carrier-capable Rafale M. The variants share a common airframe and mission system, with naval differences concentrated around carrier structure, landing gear, arresting equipment and maritime operating requirements.",
             "refs": [
-              "fn-wikidata"
+              "fn-dassault-intro",
+              "fn-dassault-design"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The entry was expanded from a placeholder-level data record into a sourced article-style page following the F-16 reference structure: overview, development, design, specifications, variants, operators, operational history, comparison, timeline, sources and related links.",
             "refs": [
               "fn-method"
             ]
@@ -50378,56 +50496,67 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Multirole fighter"
+            "text": "Omnirole multirole fighter"
           },
           {
-            "title": "Designer or builder",
-            "text": "Dassault Aviation"
-          },
-          {
-            "title": "Major origin",
+            "title": "National origin",
             "text": "France"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Manufacturer",
+            "text": "Dassault Aviation"
+          },
+          {
+            "title": "Variants",
+            "text": "Rafale C, Rafale B, Rafale M"
+          },
+          {
+            "title": "Status",
+            "text": "Active; French service planned beyond 2060"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Dassault Rafale first flew in 1986. Introduction date: 2001. Era: Modern.",
+            "text": "The Rafale grew from France's requirement for a sovereign fighter able to replace several aircraft types while preserving independent control over sensors, weapons, mission software and support. Dassault emphasizes that the aircraft was developed as a national air-combat system rather than a narrowly specialized interceptor or strike aircraft.",
             "refs": [
-              "fn-main"
+              "fn-dassault-intro"
             ]
           },
           {
-            "text": "Producer: Dassault Aviation. Development context: multirole fighter, jet propulsion, supersonic speed category, Modern era.",
+            "text": "The Rafale A demonstrator first flew in 1986. Production aircraft evolved into land-based and naval versions, allowing the French Air and Space Force and French Navy to use closely related aircraft for air defence, strike, reconnaissance, deterrence and power-projection missions.",
             "refs": [
-              "fn-wikidata"
+              "fn-dassault-intro",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "A central development goal was commonality: the Rafale C, B and M retain similar mission capabilities even though the M must handle catapult launches, arrested recoveries, corrosion exposure and carrier-deck operations.",
+            "refs": [
+              "fn-dassault-design"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "Designed to replace multiple French combat aircraft classes rather than duplicate one legacy role.",
             "refs": [
-              "fn-method"
+              "fn-dassault-intro"
             ]
           },
           {
-            "text": "Carrier compatibility added structural, landing gear, corrosion, and low-speed handling requirements.",
+            "text": "Built around French industrial control of airframe, sensors, propulsion, weapons integration and support.",
             "refs": [
-              "fn-method"
+              "fn-dassault-intro"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "Regular standards such as F3R and F4 keep the aircraft relevant through software, sensor, weapon and connectivity updates.",
             "refs": [
-              "fn-method"
+              "fn-dassault-intro"
             ]
           }
         ]
@@ -50437,163 +50566,190 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1 or 2. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The Rafale uses a close-coupled delta wing and canards to combine agility, high-angle-of-attack handling and range in heavy mission configurations. Dassault states that composite materials make up a large share of the wetted area and contribute to the aircraft's weight and structural-efficiency goals.",
             "refs": [
-              "fn-main"
+              "fn-dassault-design"
             ]
           },
           {
-            "text": "Carrier capable: yes. Stealth: no.",
+            "text": "Its digital fly-by-wire flight-control system deliberately relaxes longitudinal stability, while automatic terrain-following and automatic ground-collision-avoidance functions support low-level penetration and reduce controlled-flight-into-terrain risk.",
             "refs": [
+              "fn-dassault-design"
+            ]
+          },
+          {
+            "text": "Dassault describes the aircraft as discreet rather than fully stealth: radar-signature reduction uses shaping and materials, but the Rafale remains an externally armed fourth-plus-generation fighter rather than an internal-bay stealth design.",
+            "refs": [
+              "fn-dassault-design",
               "fn-method"
-            ]
-          },
-          {
-            "text": "Dassault Rafale uses jet propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "1 or 2"
+            "title": "Configuration",
+            "text": "Twin-engine close-coupled canard-delta"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Flight controls",
+            "text": "Digital fly-by-wire with high-agility handling"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Engines",
+            "text": "2 × M88-2 afterburning turbofans"
           },
           {
             "title": "Carrier capable",
-            "text": "Yes"
+            "text": "Yes, Rafale M"
           },
           {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Signature approach",
+            "text": "Reduced radar signature, not a full stealth aircraft"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "weapons-systems",
+        "title": "Weapons Systems",
         "paragraphs": [
           {
-            "text": "Dassault Rafale status: Active. Conflict entries: 2.",
+            "text": "Rafale loadouts depend on operator, mission and software standard. Public Dassault material presents the aircraft as able to conduct air-to-air, precision strike, reconnaissance, anti-ship and French nuclear-deterrence missions, with 14 store stations and 5 heavy-wet stations.",
             "refs": [
-              "fn-main"
+              "fn-dassault-intro",
+              "fn-dassault-specs"
             ]
           },
           {
-            "text": "Conflicts: Kosovo War, 2011 military intervention in Libya.",
+            "text": "Typical public weapon categories include an internal 30 mm cannon, short- and medium/long-range air-to-air missiles, guided bombs, cruise missiles, anti-ship weapons, reconnaissance pods and external fuel tanks. Exact missile and munition clearances should be tied to a dated national standard before being listed as universal.",
             "refs": [
-              "fn-method"
+              "fn-method",
+              "fn-wikipedia"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Kosovo War: Dassault Rafale used in Kosovo War.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Store stations",
+            "text": "14 total"
           },
           {
-            "text": "2011 military intervention in Libya: Dassault Rafale used in 2011 military intervention in Libya.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Heavy-wet stations",
+            "text": "5"
+          },
+          {
+            "title": "External load",
+            "text": "Up to 9.5 t / 21,000 lb"
+          },
+          {
+            "title": "Mission set",
+            "text": "Air defence, strike, reconnaissance, anti-ship and deterrence"
           }
         ]
       },
       {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Dassault Rafale named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
+            "text": "The following public figures come primarily from Dassault's specifications page and should be read as representative manufacturer data rather than a guarantee for every variant, loadout or export standard.",
             "refs": [
-              "fn-main"
+              "fn-dassault-specs",
+              "fn-method"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "15.30 m"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Wingspan",
+            "text": "10.90 m"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Height",
+            "text": "5.30 m"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Empty weight",
+            "text": "10 t / 22,000 lb class"
+          },
+          {
+            "title": "Max takeoff weight",
+            "text": "24.5 t / 54,000 lb"
+          },
+          {
+            "title": "Internal fuel",
+            "text": "4.7 t / 10,300 lb"
+          },
+          {
+            "title": "External fuel",
+            "text": "Up to 6.7 t / 14,700 lb"
+          },
+          {
+            "title": "Maximum speed",
+            "text": "Mach 1.8 / 750 kt class"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "50,000 ft"
+          },
+          {
+            "title": "Load factor",
+            "text": "-3.2 g to +9 g"
           }
         ]
       },
       {
         "id": "variants",
-        "title": "Variants",
+        "title": "Variants and Standards",
         "paragraphs": [
           {
-            "text": "Dassault Rafale variant-family entries: 4. Variant families: Dassault Rafale baseline production model; Dassault Rafale upgraded avionics or weapons-capable model; Dassault Rafale two-seat trainer or conversion model; Dassault Rafale export or locally modernized model.",
+            "text": "The Rafale family is organized around three operational variants rather than wholly separate airframes: Rafale C for single-seat land-based service, Rafale B for two-seat land-based service and Rafale M for carrier aviation.",
             "refs": [
-              "fn-main"
+              "fn-dassault-intro"
             ]
           },
           {
-            "text": "Complete variant entries listed: 0.",
+            "text": "Capability standards have evolved from early air-defence-focused service through multirole F2/F3 standards and later F3R/F4 upgrades. Export aircraft may have national communications, weapons, identification and support differences.",
             "refs": [
+              "fn-dassault-intro",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Dassault Rafale baseline production model",
+            "text": "Rafale A: technology demonstrator used to mature the concept before production versions.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Dassault Rafale upgraded avionics or weapons-capable model",
+            "text": "Rafale C: single-seat air-force fighter.",
             "refs": [
-              "fn-main"
+              "fn-dassault-intro"
             ]
           },
           {
-            "text": "Dassault Rafale two-seat trainer or conversion model",
+            "text": "Rafale B: two-seat air-force fighter and operational trainer.",
             "refs": [
-              "fn-main"
+              "fn-dassault-intro"
             ]
           },
           {
-            "text": "Dassault Rafale export or locally modernized model",
+            "text": "Rafale M: single-seat naval fighter adapted for carrier launch and recovery.",
             "refs": [
-              "fn-main"
+              "fn-dassault-intro",
+              "fn-dassault-design"
+            ]
+          },
+          {
+            "text": "F3R/F4 and export standards: incremental sensor, weapon, connectivity and sustainment upgrades; details vary by customer.",
+            "refs": [
+              "fn-dassault-intro",
+              "fn-method"
             ]
           }
         ]
@@ -50603,45 +50759,85 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: France. Dassault Rafale has 1 designer or builder country entry.",
+            "text": "France operates the Rafale with both its air and naval aviation arms. Dassault states that the type will remain a French armed-forces fighter beyond 2060, reflecting the depth of its upgrade path.",
             "refs": [
-              "fn-wikidata"
+              "fn-dassault-intro"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Dassault lists eight export customer countries: Egypt, India, Qatar, Greece, Croatia, the United Arab Emirates, Indonesia and Serbia. Order totals and delivery status are date-sensitive, so this page records the manufacturer's public totals where provided rather than a live inventory table.",
             "refs": [
+              "fn-dassault-intro",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "France: French Air and Space Force Rafale B/C and French Navy Rafale M.",
             "refs": [
-              "fn-main"
+              "fn-dassault-intro"
             ]
           },
           {
-            "text": "Major designer or builder entries: France.",
+            "text": "Egypt: 55 Rafale listed by Dassault.",
             "refs": [
-              "fn-wikidata"
+              "fn-dassault-intro"
+            ]
+          },
+          {
+            "text": "India: 36 Indian Air Force Rafale and 26 Indian Navy Rafale listed by Dassault.",
+            "refs": [
+              "fn-dassault-intro"
+            ]
+          },
+          {
+            "text": "Qatar: 36 Rafale listed by Dassault.",
+            "refs": [
+              "fn-dassault-intro"
+            ]
+          },
+          {
+            "text": "Greece, Croatia, United Arab Emirates, Indonesia and Serbia: export customers with national delivery and configuration details requiring date-specific review.",
+            "refs": [
+              "fn-dassault-intro",
+              "fn-method"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1 or 2, propulsion type Jet, maximum speed category Supersonic, first flight 1986, introduction 2001.",
+            "text": "Dassault describes the Rafale as combat proven since 2007. French aircraft have been used for long-range deployments and coalition operations, demonstrating the aircraft's value as both a national sovereignty tool and an expeditionary strike/reconnaissance platform.",
             "refs": [
-              "fn-main"
+              "fn-dassault-intro"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Publicly reported French Rafale operations include Afghanistan-era deployments, the 2011 Libya intervention, Sahel/Mali missions and operations against ISIS in Iraq and Syria. This page avoids event-by-event sortie totals or combat claims because those require dated operational sources beyond manufacturer overview pages.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include a broad mission set, carrier and land-based commonality, mature fly-by-wire controls, high external-load capacity, regular software/hardware standards and French control over core systems and weapons integration.",
+            "refs": [
+              "fn-dassault-intro",
+              "fn-dassault-design"
+            ]
+          },
+          {
+            "text": "Limitations for a reference page include configuration dependence: range, payload, radar/sensor fit, weapons and support arrangements differ by standard, customer and mission. Unlike stealth fighters, most stores are externally carried, affecting signature and drag.",
             "refs": [
               "fn-method"
             ]
@@ -50649,11 +50845,81 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "comparison",
+        "title": "Comparison and Role Context",
         "paragraphs": [
           {
-            "text": "Dassault Rafale similar-development links: 4.",
+            "text": "Compared with the F-16 reference page, the Rafale is twin-engined, carrier-capable in Rafale M form and designed from the outset around French omnirole requirements. Compared with Eurofighter Typhoon, it emphasizes a nationally controlled French ecosystem and a naval variant; compared with F-35, it trades full stealth shaping for external payload flexibility and mature multirole standards.",
+            "refs": [
+              "fn-dassault-intro",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1986: Rafale A demonstrator first flight.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "2004: Rafale enters French Navy service according to Dassault overview material.",
+            "refs": [
+              "fn-dassault-intro"
+            ]
+          },
+          {
+            "text": "2006: Rafale enters French Air Force service according to Dassault overview material.",
+            "refs": [
+              "fn-dassault-intro"
+            ]
+          },
+          {
+            "text": "2007 onward: Dassault describes the Rafale as combat proven.",
+            "refs": [
+              "fn-dassault-intro"
+            ]
+          },
+          {
+            "text": "2020s: Export orders expand to Egypt, India, Qatar, Greece, Croatia, UAE, Indonesia and Serbia in Dassault public listings.",
+            "refs": [
+              "fn-dassault-intro"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Manufacturer pages are the primary references for specifications, design intent and public operator-order statements. Wikipedia is retained only as supplementary orientation for chronology and operational context.",
+            "refs": [
+              "fn-dassault-intro",
+              "fn-dassault-specs",
+              "fn-dassault-design",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Current deliveries, national weapons clearances and exact upgrade configurations should be rechecked against dated national or manufacturer sources before adding fixed fleet tables.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Internal Milipedia pages useful for comparison and development context.",
             "refs": [
               "fn-method"
             ]
@@ -50661,34 +50927,26 @@
         ],
         "links": [
           {
-            "label": "McDonnell Douglas F-15 Eagle",
-            "url": "aircraft.html?id=f-15-eagle"
+            "label": "Dassault Mirage 2000",
+            "url": "aircraft.html?id=mirage-2000"
+          },
+          {
+            "label": "Eurofighter Typhoon",
+            "url": "aircraft.html?id=eurofighter-typhoon"
           },
           {
             "label": "General Dynamics F-16 Fighting Falcon",
             "url": "aircraft.html?id=f-16-fighting-falcon"
           },
           {
-            "label": "McDonnell Douglas F/A-18 Hornet",
-            "url": "aircraft.html?id=f-a-18-hornet"
+            "label": "Lockheed Martin F-35 Lightning II",
+            "url": "aircraft.html?id=f-35-lightning-ii"
           },
           {
             "label": "Boeing F/A-18E/F Super Hornet",
             "url": "aircraft.html?id=f-a-18e-f-super-hornet"
           }
         ]
-      }
-    ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Bllace_refugee_camp.jpg",
-        "caption": "Kosovo War",
-        "source_url": "https://en.wikipedia.org/wiki/Kosovo_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Coalition_action_against_Libya-en.svg/960px-Coalition_action_against_Libya-en.svg.png",
-        "caption": "2011 military intervention in Libya",
-        "source_url": "https://en.wikipedia.org/wiki/2011_military_intervention_in_Libya"
       }
     ]
   },
