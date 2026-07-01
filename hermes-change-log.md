@@ -3075,3 +3075,80 @@ Record the result of:
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * Public J-20 fleet totals, engine standards, radar/electronic-warfare details, and weapons clearances are date-sensitive and often estimate-based, so the update uses cautious wording rather than definitive current tables.
 * Airforce Technology contains older forecast/prototype wording, so it was used mainly for development/design context and representative figures rather than current production counts.
+
+### Run 41 — 2026-07-01 12:01:36 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: CAC/PAC JF-17 Thunder (id: jf-17-thunder)
+* Reason selected: It was the shortest unedited aircraft entry remaining in the repository scan, with zero external article sources, zero operator entries, zero variant entries, generic fighter armament text, and placeholder-like specification fields despite being a major modern multirole aircraft.
+* Previous condition: Sparse generated JSON record with generic overview/development paragraphs, no detailed production history, no operators, no variants, no PAC specifications, no avionics/weapons-system discussion, and only generic Wikipedia/Wikidata/method footnotes.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview; fact-card emphasis; section order moving from overview to development, design, weapons, specifications, variants, operators, operational history, comparison, timeline, sources, and related pages; concise sourced paragraphs; cautious variant-dependent wording; internal aircraft.html?id=... links.
+
+#### Changes Made
+
+* Expanded the JF-17 Thunder record from a sparse generated entry into a fuller Milipedia article-style data record.
+* Added PAC/manufacturer-sourced development history covering prototype rollout, first flight, basic testing, 2007 presentation, PAC production, and 58% Pakistani airframe co-production share.
+* Replaced generic top-level facts with more specific role, manufacturer, first-flight date, service-entry context, RD-93-family engine wording, speed, ceiling, ferry range, hardpoints, load capacity, and armament categories.
+* Added representative PAC specifications for length, height, wingspan, empty weight, maximum takeoff weight, Mach number, speed, ceiling, thrust, g limits, ferry range, stations, and load capacity.
+* Added sections for Overview, Development History and Production, Design and Capabilities, Weapons Systems, Specifications, Variants and Upgrades, Operators, Operational History and Use, Comparison and Assessment, Timeline, Sources and Notes, and Related Pages.
+* Added variant coverage for FC-1 prototypes, JF-17 Block I, Block II, JF-17B, Block III/JF-17C, and export configurations.
+* Added operator coverage for Pakistan, Myanmar, Nigeria, and Azerbaijan with delivery/status caveats where public details are date-sensitive.
+* Added avionics and cockpit detail from the PAC page, including Block III fly-by-wire, AESA radar, mission computers, datalink, helmet-mounted display, HOTAS, and self-protection systems, while noting block/customer differences.
+* Added weapons-system discussion and replaced broad generic fighter wording with PAC-listed weapons categories plus a caution that integrations vary by block and operator.
+* Added internal related-page links to F-16 Fighting Falcon, Chengdu J-7 / F-7 Airguard, Mirage III, and MiG-21 after confirming those ids exist.
+* Omitted unverified combat-kill claims, exact current order-of-battle totals, radar performance figures, and exact missile-by-missile clearances because public data is contested, date-sensitive, or block-specific.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded the CAC/PAC JF-17 Thunder aircraft page data, sources, variants, operators, specifications, and article sections.
+* hermes-change-log.md — Appended the cumulative run entry for this update.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Confirmed branch hermes-agent; before commit, only data/aircraft.json and hermes-change-log.md were intended staged files.
+2. git diff — Reviewed diff and confirmed the JSON edit is limited to the jf-17-thunder aircraft entry plus this change-log entry.
+3. File review — Parsed data/aircraft.json successfully and reviewed the JF-17 section list, sources, variants, operators, armament wording, and specification cards.
+4. F-16 style comparison — Inspected data/f16-template.html and mirrored its dense overview, sourced technical sections, specification emphasis, variants/operators/history/comparison/timeline/source/related-page pattern within the JSON-rendered page structure.
+5. Internal link check — Confirmed related aircraft ids f-16-fighting-falcon, chengdu-j-7, mirage-iii, and mig-21 exist in data/aircraft.json.
+6. Secret/token check — Scanned the staged diff with credential-specific patterns for private keys, passwords, cloud credentials, and access/auth tokens; no credentials were found.
+7. Final review before commit — Confirmed JSON validity, branch safety, intended files only, no unrelated files, no substantial previous Hermes edit for this aircraft, and no trailing-whitespace diff errors.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand CAC/PAC JF-17 Thunder
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Public JF-17 operator counts, delivery totals, radar performance, combat claims, and exact weapon clearances are date-sensitive or contested, so the page uses cautious wording and omits unsupported specifics.
+* Block III avionics and flight-control descriptions come from PAC public wording and should not be assumed to apply unchanged to all earlier blocks or export aircraft.
+* The final commit hash cannot be embedded into the committed change log without changing the commit itself; it is reported separately in the scheduled-run response.

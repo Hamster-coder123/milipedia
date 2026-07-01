@@ -63983,34 +63983,84 @@
   {
     "id": "jf-17-thunder",
     "name": "CAC/PAC JF-17 Thunder",
-    "alternative_names": [],
+    "alternative_names": [
+      "FC-1 Xiaolong",
+      "JF-17",
+      "Thunder"
+    ],
     "nato_reporting_name": null,
-    "country_of_origin": "China/Pakistan",
-    "manufacturer": "CAC / Pakistan Aeronautical Complex",
-    "role": "Multirole fighter",
+    "country_of_origin": "Pakistan / China",
+    "manufacturer": "Pakistan Aeronautical Complex Kamra / Chengdu Aircraft Industry Corporation",
+    "role": "Lightweight all-weather multirole combat aircraft",
     "aircraft_type": "Fighter",
     "era": "Modern",
-    "first_flight": "2003",
-    "introduction_date": "2007",
+    "first_flight": "25 August 2003",
+    "introduction_date": "2007; formally presented to Pakistan on 23 March 2007",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "1 or 2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "status": "Active with Pakistan and export operators",
+    "number_built": "More than 100 for Pakistan; exact current totals vary by block and export deliveries",
+    "crew": "1 in JF-17A/C; 2 in JF-17B dual-seat aircraft",
+    "engine_type": "Afterburning turbofan",
+    "engines": "One RD-93-family afterburning turbofan; public sources identify RD-93/RD-93MA by block",
+    "max_speed": "Mach 1.6 / about 700 knots IAS per PAC specification",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "CAC/PAC JF-17 Thunder: Multirole fighter. Manufacturer: CAC / Pakistan Aeronautical Complex. First flight: 2003. Introduction: 2007.",
-    "short_summary": "CAC/PAC JF-17 Thunder: Multirole fighter. Origin: China/Pakistan. Manufacturer: CAC / Pakistan Aeronautical Complex. First flight: 2003. Introduction: 2007. Status: Active.",
+    "range": "1,880 nmi ferry range per PAC specification; combat radius varies by stores and fuel tanks",
+    "combat_range": "Not consistently published; depends on mission profile, external tanks, weapons, and reserve fuel",
+    "service_ceiling": "55,500 ft per PAC specification",
+    "rate_of_climb": "Not consistently published in official open sources",
+    "armament": "One 23 mm twin-barrel gun plus air-to-air, air-to-surface, anti-ship, anti-radiation, guided-bomb, stand-off, runway-penetration, general-purpose bomb, and training stores as integrated by block/operator.",
+    "hardpoints": "Eight stations and up to 3,400 kg total external load per PAC specification",
+    "variants": [
+      {
+        "name": "FC-1 prototypes",
+        "description": "Chinese-built prototype aircraft used for early structure, flight-quality, performance, engine, and avionics testing before serial JF-17 production."
+      },
+      {
+        "name": "JF-17 Block I",
+        "description": "Initial single-seat production standard that established PAF service from 2007 and began replacing older F-7, A-5, Mirage III, and Mirage 5 fleets."
+      },
+      {
+        "name": "JF-17 Block II",
+        "description": "Improved production standard associated with upgraded avionics, airframe production maturity, and expanded weapons/fuel-system capability."
+      },
+      {
+        "name": "JF-17B",
+        "description": "Dual-seat conversion/training and operational variant produced at PAC; useful for training, conversion, and mission tasks requiring a second crew member."
+      },
+      {
+        "name": "JF-17C / Block III",
+        "description": "Modernized standard publicly associated by PAC with Block III fly-by-wire controls, AESA radar, helmet-mounted display, tactical data link, improved self-protection, and expanded weapons integration."
+      },
+      {
+        "name": "Export configurations",
+        "description": "Customer-specific aircraft delivered or ordered for export operators; avionics, weapons, and support packages can differ from Pakistan Air Force blocks."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Pakistan",
+        "service": "Pakistan Air Force",
+        "notes": "Primary operator and co-producer. PAC states that seven PAF squadrons operate the JF-17, and the aircraft replaces aging F-7, A-5, Mirage III, and Mirage 5 fleets."
+      },
+      {
+        "country": "Myanmar",
+        "service": "Myanmar Air Force",
+        "notes": "Export operator reported in public references; exact aircraft status and configuration should be treated cautiously because open reporting is uneven."
+      },
+      {
+        "country": "Nigeria",
+        "service": "Nigerian Air Force",
+        "notes": "Export operator of JF-17 aircraft for multirole fighter duties."
+      },
+      {
+        "country": "Azerbaijan",
+        "service": "Azerbaijani Air Force",
+        "notes": "Public references report an acquisition/order for the JF-17; delivery totals and block details are date-sensitive."
+      }
+    ],
+    "combat_history": "The JF-17 is primarily documented as a Pakistan Air Force multirole fleet aircraft and export fighter. Public combat claims and recent crisis reporting should be handled carefully because aircraft identity, weapons, and results can be politically contested.",
+    "development_history": "The JF-17/FC-1 was jointly developed by Pakistan Aeronautical Complex and Chengdu as an affordable lightweight multirole fighter for Pakistan and export customers. The first FC-1 prototype rolled out in May 2003, first flew in August 2003, and basic flight testing was completed in 2007 before the type entered Pakistani service.",
+    "short_summary": "The CAC/PAC JF-17 Thunder is a Pakistan-China lightweight multirole fighter built around affordability, local production, and incremental avionics/weapons upgrades. PAC describes three production blocks plus the dual-seat aircraft, with Block III adding a more modern avionics suite including AESA radar and full-authority digital fly-by-wire controls.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -64023,25 +64073,32 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-pac-jf17",
+        "title": "JF-17 Thunder Aircraft",
+        "url": "https://www.pac.org.pk/jf-17",
+        "publisher": "Pakistan Aeronautical Complex Kamra",
+        "note": "Manufacturer page used for development history, production-share notes, Block III systems, dimensions, performance, fuel, and weapons-capability wording."
+      },
+      {
+        "id": "fn-airforce-tech-jf17",
+        "title": "JF-17 Thunder / FC-1 Xiaolong Multirole Combat Aircraft",
+        "url": "https://www.airforce-technology.com/projects/fc1xiaolongjf17thund",
+        "publisher": "Airforce Technology",
+        "note": "Supplementary aviation reference used for program background, exported-operator context, and general weapons/system descriptions."
+      },
+      {
+        "id": "fn-wiki-jf17",
         "title": "CAC/PAC JF-17 Thunder",
         "url": "https://en.wikipedia.org/wiki/CAC%2FPAC_JF-17_Thunder",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for public variant names and operator cross-checks; official/manufacturer data is preferred where available."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
+        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
       }
     ],
     "country_flags": [
@@ -64055,26 +64112,30 @@
       }
     ],
     "designers": [
-      "CAC / Pakistan Aeronautical Complex"
+      "Pakistan Aeronautical Complex Kamra",
+      "Chengdu Aircraft Industry Corporation"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Balancing low acquisition and operating cost against modern radar, electronic-warfare, datalink, and precision-weapons expectations.",
+      "Keeping a lightweight single-engine airframe competitive through block upgrades while preserving maintainability and export affordability.",
+      "Integrating Chinese, Pakistani, and export-customer weapons/sensors without implying that every store is cleared on every block."
     ],
     "wars_used_in": [],
     "variant_families": [
-      "CAC/PAC JF-17 Thunder baseline production model",
-      "CAC/PAC JF-17 Thunder upgraded avionics or weapons-capable model",
-      "CAC/PAC JF-17 Thunder two-seat trainer or conversion model",
-      "CAC/PAC JF-17 Thunder export or locally modernized model"
+      "FC-1 prototypes",
+      "JF-17 Block I",
+      "JF-17 Block II",
+      "JF-17B",
+      "JF-17C / Block III",
+      "Export configurations"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
-        "China",
-        "Pakistan"
+        "Pakistan",
+        "China"
       ],
-      "major_user_note": "CAC/PAC JF-17 Thunder has 2 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Pakistan is the co-producer and principal operator; Myanmar, Nigeria, and Azerbaijan are reported export users/customers.",
+      "all_operators_status": "Operator and delivery totals are date-sensitive and vary by public source."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -64087,55 +64148,62 @@
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "CAC/PAC JF-17 Thunder uses jet propulsion."
+      "type": "Afterburning turbofan",
+      "summary": "Single RD-93-family afterburning turbofan installation; PAC publishes 19,000 lb maximum engine thrust and a thrust-to-weight ratio of 1.07."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "23 mm twin-barrel gun and eight external stations for air-to-air missiles, air-to-surface and anti-ship weapons, anti-radiation missiles, laser-guided weapons, stand-off weapons, runway-penetration bombs, general-purpose bombs, and training stores.",
+      "caution": "Weapon carriage is block-, customer-, and integration-dependent; broad public lists should not be read as every aircraft carrying every weapon."
     },
     "similar_development": [
-      {
-        "id": "f-15-eagle",
-        "name": "McDonnell Douglas F-15 Eagle",
-        "url": "aircraft.html?id=f-15-eagle"
-      },
       {
         "id": "f-16-fighting-falcon",
         "name": "General Dynamics F-16 Fighting Falcon",
         "url": "aircraft.html?id=f-16-fighting-falcon"
       },
       {
-        "id": "f-a-18-hornet",
-        "name": "McDonnell Douglas F/A-18 Hornet",
-        "url": "aircraft.html?id=f-a-18-hornet"
+        "id": "chengdu-j-7",
+        "name": "Chengdu J-7 / F-7 Airguard",
+        "url": "aircraft.html?id=chengdu-j-7"
       },
       {
-        "id": "f-a-18e-f-super-hornet",
-        "name": "Boeing F/A-18E/F Super Hornet",
-        "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+        "id": "mirage-iii",
+        "name": "Dassault Mirage III",
+        "url": "aircraft.html?id=mirage-iii"
+      },
+      {
+        "id": "mig-21",
+        "name": "Mikoyan-Gurevich MiG-21",
+        "url": "aircraft.html?id=mig-21"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 36,
+      "operator_entries": 4,
+      "variant_entries": 6,
+      "external_article_sources": 3
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-pac-jf17",
+        "title": "JF-17 Thunder Aircraft",
+        "url": "https://www.pac.org.pk/jf-17",
+        "publisher": "Pakistan Aeronautical Complex Kamra",
+        "note": "Manufacturer page used for development history, production-share notes, Block III systems, dimensions, performance, fuel, and weapons-capability wording."
+      },
+      {
+        "id": "fn-airforce-tech-jf17",
+        "title": "JF-17 Thunder / FC-1 Xiaolong Multirole Combat Aircraft",
+        "url": "https://www.airforce-technology.com/projects/fc1xiaolongjf17thund",
+        "publisher": "Airforce Technology",
+        "note": "Supplementary aviation reference used for program background, exported-operator context, and general weapons/system descriptions."
+      },
+      {
+        "id": "fn-wiki-jf17",
         "title": "CAC/PAC JF-17 Thunder",
         "url": "https://en.wikipedia.org/wiki/CAC%2FPAC_JF-17_Thunder",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for public variant names and operator cross-checks; official/manufacturer data is preferred where available."
       },
       {
         "id": "fn-method",
@@ -64145,26 +64213,38 @@
         "note": "Local rules for units, source citation, neutral wording, and estimate labels."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "JF-17 Thunder Aircraft",
+        "url": "https://www.pac.org.pk/jf-17",
+        "publisher": "Pakistan Aeronautical Complex Kamra"
+      },
+      {
+        "title": "JF-17 Thunder / FC-1 Xiaolong Multirole Combat Aircraft",
+        "url": "https://www.airforce-technology.com/projects/fc1xiaolongjf17thund",
+        "publisher": "Airforce Technology"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "CAC/PAC JF-17 Thunder is a Multirole fighter from China/Pakistan. Manufacturer: CAC / Pakistan Aeronautical Complex. First flight: 2003. Introduction: 2007. Status: Active.",
+            "text": "The CAC/PAC JF-17 Thunder, also known by the Chinese FC-1 Xiaolong designation, is a lightweight single-engine multirole fighter jointly developed by Pakistan Aeronautical Complex Kamra and Chengdu Aircraft Industry Corporation. It was designed around affordability, domestic production participation, and enough radar, weapons, and datalink growth margin to replace older Pakistan Air Force combat aircraft rather than duplicate a heavier twin-engine fighter.",
             "refs": [
-              "fn-main"
+              "fn-pac-jf17",
+              "fn-wiki-jf17"
             ]
           },
           {
-            "text": "CAC/PAC JF-17 Thunder is a fighter. Primary role: multirole fighter. Country of origin: China/Pakistan. Manufacturer: CAC / Pakistan Aeronautical Complex.",
+            "text": "PAC describes the Thunder as an all-weather, day/night aircraft with air-to-air and air-to-surface combat capability, computerized flight controls, modern avionics, and a weapons-management system. The aircraft is not a stealth design and is not carrier-capable; its significance is the combination of local production, exportability, and block-by-block upgrades.",
             "refs": [
-              "fn-wikidata"
+              "fn-pac-jf17"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Public figures should be read as representative because performance and equipment differ between early Block I aircraft, Block II, the dual-seat JF-17B, and Block III/JF-17C aircraft. Exact weapons clearance, radar fit, and export configuration can vary by operator.",
             "refs": [
               "fn-method"
             ]
@@ -64173,50 +64253,72 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Multirole fighter"
+            "text": "Lightweight all-weather multirole combat aircraft"
           },
           {
-            "title": "Designer or builder",
-            "text": "CAC / Pakistan Aeronautical Complex"
+            "title": "Builders",
+            "text": "Pakistan Aeronautical Complex Kamra and Chengdu Aircraft Industry Corporation"
           },
           {
-            "title": "Major origin",
-            "text": "China, Pakistan"
+            "title": "First flight",
+            "text": "25 August 2003"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "PAF service",
+            "text": "Entered Pakistani service in 2007"
+          },
+          {
+            "title": "Production concept",
+            "text": "PAC states a 58% Pakistani airframe co-production share"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History and Production",
         "paragraphs": [
           {
-            "text": "CAC/PAC JF-17 Thunder first flew in 2003. Introduction date: 2007. Era: Modern.",
+            "text": "The first FC-1 prototype rolled out in May 2003 and made its maiden flight in August 2003. PAC says later prototypes supported structure, flight-quality, performance, engine, and avionics testing, with basic flight testing completed in 2007. The aircraft was presented in Pakistan on 23 March 2007 and became the foundation for a locally supported fighter fleet.",
             "refs": [
-              "fn-main"
+              "fn-pac-jf17"
             ]
           },
           {
-            "text": "Producer: CAC / Pakistan Aeronautical Complex. Development context: multirole fighter, jet propulsion, supersonic speed category, Modern era.",
+            "text": "Production was split between China and Pakistan, with final assembly and flight testing at PAC among the first co-production activities. PAC states that it holds 58% of the JF-17 airframe co-production work share, including structural subassemblies and sustained production infrastructure at Kamra.",
             "refs": [
-              "fn-wikidata"
+              "fn-pac-jf17"
+            ]
+          },
+          {
+            "text": "The program evolved through three production blocks and the dual-seat aircraft. PAC characterizes the changes as continuous improvement in avionics, flight controls, and weapons-carrying capability rather than a single fixed standard.",
+            "refs": [
+              "fn-pac-jf17"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "May 2003: first FC-1/JF-17 prototype rolled out.",
             "refs": [
-              "fn-method"
+              "fn-pac-jf17"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "August 2003: first flight.",
             "refs": [
-              "fn-method"
+              "fn-pac-jf17"
+            ]
+          },
+          {
+            "text": "2007: basic flight testing complete and aircraft formally presented to Pakistan.",
+            "refs": [
+              "fn-pac-jf17"
+            ]
+          },
+          {
+            "text": "November 2009: first PAC-produced aircraft handed over to the Pakistan Air Force.",
+            "refs": [
+              "fn-pac-jf17"
             ]
           }
         ]
@@ -64226,122 +64328,56 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1 or 2. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The JF-17 uses a compact single-engine layout with bifurcated side inlets, leading-edge maneuvering flaps, trailing-edge flaps, twin ventral fins, and tricycle landing gear. PAC specifically highlights bump-inlet technology, hydraulic brakes with anti-skid, a single-piece canopy, and a cockpit sized for a wide pilot percentile range.",
             "refs": [
-              "fn-main"
+              "fn-pac-jf17"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Block III aircraft are described by PAC as having full-authority three-axis quad-redundant digital fly-by-wire controls, autopilot, auto-spin recovery, and automatic trailing-edge-flap controls. Earlier blocks should not automatically be assumed to share the same control-law and avionics standard.",
             "refs": [
+              "fn-pac-jf17",
               "fn-method"
             ]
           },
           {
-            "text": "CAC/PAC JF-17 Thunder uses jet propulsion. Engine model field: Not listed.",
+            "text": "The avionics suite listed by PAC includes dual mission computers, a dual-redundant 1553 bus architecture, AESA radar, self-protection jamming, inertial/GPS navigation, head-up display, HOTAS controls, three color multifunction displays, helmet-mounted display, tactical datalink, and VHF/UHF communications. These details primarily describe the modernized public Block III configuration.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-pac-jf17"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "1 or 2"
+            "title": "Engine",
+            "text": "Single RD-93-family afterburning turbofan; PAC lists 19,000 lb maximum thrust"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Fuel",
+            "text": "PAC lists 5,400 lb / 3,000 liters internal fuel plus centerline and underwing tanks"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Cockpit",
+            "text": "NVG-compatible cockpit, Martin-Baker ejection seat, HOTAS, and multifunction displays"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Avionics caveat",
+            "text": "Radar, datalink, HMD, and EW equipment vary by block and customer"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "weapons",
+        "title": "Weapons Systems",
         "paragraphs": [
           {
-            "text": "CAC/PAC JF-17 Thunder status: Active. Conflict entries: 0.",
+            "text": "PAC lists a modern stores-management system intended to reduce pilot workload and support accurate delivery modes. Public weapons categories include beyond-visual-range active missiles, imaging-infrared short-range missiles, air-to-sea missiles, anti-radiation missiles, laser-guided weapons, stand-off weapons, runway-penetration bombs, general-purpose bombs, training bombs, and a 23 mm double-barrel gun.",
             "refs": [
-              "fn-main"
+              "fn-pac-jf17"
             ]
           },
           {
-            "text": "Conflicts: 0 entries.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "CAC/PAC JF-17 Thunder named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "variants",
-        "title": "Variants",
-        "paragraphs": [
-          {
-            "text": "CAC/PAC JF-17 Thunder variant-family entries: 4. Variant families: CAC/PAC JF-17 Thunder baseline production model; CAC/PAC JF-17 Thunder upgraded avionics or weapons-capable model; CAC/PAC JF-17 Thunder two-seat trainer or conversion model; CAC/PAC JF-17 Thunder export or locally modernized model.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
+            "text": "Because the JF-17 is sold and upgraded in blocks, a safe Milipedia treatment is to describe categories rather than claim that every missile or bomb is cleared on every airframe. Integration depends on radar, datalink, software, pylon wiring, national inventory, and export approvals.",
             "refs": [
               "fn-method"
             ]
@@ -64349,59 +64385,21 @@
         ],
         "bullets": [
           {
-            "text": "CAC/PAC JF-17 Thunder baseline production model",
+            "text": "Eight stations and 3,400 kg total load capacity are listed by PAC.",
             "refs": [
-              "fn-main"
+              "fn-pac-jf17"
             ]
           },
           {
-            "text": "CAC/PAC JF-17 Thunder upgraded avionics or weapons-capable model",
+            "text": "Air-to-air, air-to-surface, maritime strike, and precision-attack roles are publicly advertised.",
             "refs": [
-              "fn-main"
+              "fn-pac-jf17"
             ]
           },
           {
-            "text": "CAC/PAC JF-17 Thunder two-seat trainer or conversion model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "CAC/PAC JF-17 Thunder export or locally modernized model",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "operators",
-        "title": "Operators",
-        "paragraphs": [
-          {
-            "text": "Designer or builder countries: China, Pakistan. CAC/PAC JF-17 Thunder has 2 designer or builder country entry.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
+            "text": "The gun and stores list should be treated as block/operator-dependent, especially for export aircraft.",
             "refs": [
               "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "All operators status: 0 operator entries listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Major designer or builder entries: China, Pakistan.",
-            "refs": [
-              "fn-wikidata"
             ]
           }
         ]
@@ -64411,13 +64409,186 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1 or 2, propulsion type Jet, maximum speed category Supersonic, first flight 2003, introduction 2007.",
+            "text": "Representative PAC-published figures list a length of 47 ft, height of 15 ft, wingspan of 31 ft, empty weight of 7,965 kg, maximum takeoff weight of 13,500 kg, maximum Mach number of 1.6, maximum speed of 700 knots IAS, service ceiling of 55,500 ft, thrust-to-weight ratio of 1.07, maximum engine thrust of 19,000 lb, +8/-3 g limits, ferry range of 1,880 nmi, eight stations, and 3,400 kg total load capacity.",
             "refs": [
-              "fn-main"
+              "fn-pac-jf17"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "These figures are best treated as representative public specifications, not a complete table for every block. Combat radius, sustained turn performance, radar detection range, and current weapons clearances are not consistently published in official open sources.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Length",
+            "text": "47 ft"
+          },
+          {
+            "title": "Wingspan",
+            "text": "31 ft"
+          },
+          {
+            "title": "Height",
+            "text": "15 ft"
+          },
+          {
+            "title": "Empty weight",
+            "text": "7,965 kg"
+          },
+          {
+            "title": "Maximum takeoff weight",
+            "text": "13,500 kg"
+          },
+          {
+            "title": "Maximum speed",
+            "text": "Mach 1.6 / 700 knots IAS"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "55,500 ft"
+          },
+          {
+            "title": "Ferry range",
+            "text": "1,880 nmi"
+          }
+        ]
+      },
+      {
+        "id": "variants",
+        "title": "Variants and Upgrades",
+        "paragraphs": [
+          {
+            "text": "The JF-17 family is better understood as a rolling block-upgrade program than as a single fixed aircraft. PAC states that three blocks and the dual-seat aircraft have been produced, with improvements in avionics, flight controls, and weapons-carrying capability.",
+            "refs": [
+              "fn-pac-jf17"
+            ]
+          },
+          {
+            "text": "Block III/JF-17C is the major public modernization standard, associated with AESA radar, helmet-mounted display, tactical datalink, expanded self-protection systems, and full-authority digital fly-by-wire controls. Export aircraft may not match Pakistan Air Force configuration exactly.",
+            "refs": [
+              "fn-pac-jf17",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "FC-1 prototypes: early development and flight-test aircraft.",
+            "refs": [
+              "fn-pac-jf17"
+            ]
+          },
+          {
+            "text": "JF-17 Block I: initial single-seat service standard.",
+            "refs": [
+              "fn-pac-jf17",
+              "fn-wiki-jf17"
+            ]
+          },
+          {
+            "text": "JF-17 Block II: improved avionics/weapons and production maturity.",
+            "refs": [
+              "fn-pac-jf17"
+            ]
+          },
+          {
+            "text": "JF-17B: dual-seat conversion/training and operational variant.",
+            "refs": [
+              "fn-pac-jf17"
+            ]
+          },
+          {
+            "text": "JF-17C / Block III: modernized configuration with public AESA-radar and HMD claims.",
+            "refs": [
+              "fn-pac-jf17"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operators",
+        "title": "Operators",
+        "paragraphs": [
+          {
+            "text": "Pakistan is the principal user and co-producer. PAC states that seven Pakistan Air Force squadrons operate the JF-17, giving the type a central role in replacing aging fighter and attack aircraft while complementing higher-end assets.",
+            "refs": [
+              "fn-pac-jf17"
+            ]
+          },
+          {
+            "text": "Public references also identify Myanmar, Nigeria, and Azerbaijan as export operators or customers. Totals, delivery status, and block standards are date-sensitive and should be checked against current official releases before using the page as an order-of-battle source.",
+            "refs": [
+              "fn-airforce-tech-jf17",
+              "fn-wiki-jf17",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Pakistan Air Force — primary operator and co-producer; seven squadrons reported by PAC.",
+            "refs": [
+              "fn-pac-jf17"
+            ]
+          },
+          {
+            "text": "Myanmar Air Force — reported export user.",
+            "refs": [
+              "fn-wiki-jf17"
+            ]
+          },
+          {
+            "text": "Nigerian Air Force — reported export user.",
+            "refs": [
+              "fn-airforce-tech-jf17",
+              "fn-wiki-jf17"
+            ]
+          },
+          {
+            "text": "Azerbaijan — reported export customer/operator; exact delivery status is date-sensitive.",
+            "refs": [
+              "fn-wiki-jf17",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History and Use",
+        "paragraphs": [
+          {
+            "text": "In Pakistan service, the JF-17 is a workhorse multirole type rather than a niche demonstrator. Its advertised roles include interception, air defense, strike, maritime attack, precision attack, and training/conversion support in the two-seat version.",
+            "refs": [
+              "fn-pac-jf17",
+              "fn-airforce-tech-jf17"
+            ]
+          },
+          {
+            "text": "Combat and crisis reporting involving the JF-17 can be politically sensitive. This page therefore records broad service roles and program milestones while avoiding unverified kill claims, exact wartime loadouts, or claims that depend on classified sensor/weapon performance.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Service emphasis: affordable multirole availability, local support, and replacement of older fleets.",
+            "refs": [
+              "fn-pac-jf17"
+            ]
+          },
+          {
+            "text": "Export significance: a Chinese-Pakistani fighter marketed to air forces seeking a modern but lower-cost platform.",
+            "refs": [
+              "fn-airforce-tech-jf17"
+            ]
+          },
+          {
+            "text": "Verification caution: public combat claims should be cross-checked before being treated as settled fact.",
             "refs": [
               "fn-method"
             ]
@@ -64425,11 +64596,117 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "comparison",
+        "title": "Comparison and Assessment",
         "paragraphs": [
           {
-            "text": "CAC/PAC JF-17 Thunder similar-development links: 4.",
+            "text": "Compared with the F-16, the JF-17 is usually discussed as a lighter and more affordable complement rather than a one-for-one peer in every mission. Its value lies in local production, upgrade autonomy, and sufficient multirole capability for many missions, while the F-16 remains a more mature global platform with a long combat and upgrade history.",
+            "refs": [
+              "fn-pac-jf17",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Compared with older aircraft such as the Chengdu J-7/F-7, Mirage III, and MiG-21 family, the Thunder offers modern cockpit ergonomics, radar/weapons integration, digital systems, and precision-weapon growth. Against heavier twin-engine fighters, it trades payload, range, and growth margin for lower cost and simpler force-structure scaling.",
+            "refs": [
+              "fn-pac-jf17",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: local production base and incremental upgrade path.",
+            "refs": [
+              "fn-pac-jf17"
+            ]
+          },
+          {
+            "text": "Strength: multirole weapons categories across air-to-air, strike, and maritime missions.",
+            "refs": [
+              "fn-pac-jf17"
+            ]
+          },
+          {
+            "text": "Limitation: single-engine lightweight design constrains payload/range compared with larger fighters.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: public data on radar performance, exact weapons integration, and combat radius is incomplete or block-specific.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "Key open-source milestones show a rapid early prototype-to-service path followed by sustained block upgrades and local production at PAC.",
+            "refs": [
+              "fn-pac-jf17"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "May 2003 — first FC-1/JF-17 prototype rolled out.",
+            "refs": [
+              "fn-pac-jf17"
+            ]
+          },
+          {
+            "text": "August 2003 — first flight.",
+            "refs": [
+              "fn-pac-jf17"
+            ]
+          },
+          {
+            "text": "2007 — basic flight testing completed and aircraft presented to Pakistan.",
+            "refs": [
+              "fn-pac-jf17"
+            ]
+          },
+          {
+            "text": "November 2009 — first PAC-produced JF-17 handed over to the Pakistan Air Force.",
+            "refs": [
+              "fn-pac-jf17"
+            ]
+          },
+          {
+            "text": "2010s-2020s — Block II, JF-17B, and Block III/JF-17C improvements expanded avionics, control-system, and weapons capability.",
+            "refs": [
+              "fn-pac-jf17",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "The manufacturer page is the primary source for specifications and PAC production details. Airforce Technology and Wikipedia were used only as supplementary orientation for public program context, variants, and export operators. Classified or politically disputed performance and combat claims were intentionally omitted.",
+            "refs": [
+              "fn-pac-jf17",
+              "fn-airforce-tech-jf17",
+              "fn-wiki-jf17",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages cover aircraft that the JF-17 complements, replaces, or is often compared against.",
             "refs": [
               "fn-method"
             ]
@@ -64437,20 +64714,24 @@
         ],
         "links": [
           {
-            "label": "McDonnell Douglas F-15 Eagle",
-            "url": "aircraft.html?id=f-15-eagle"
-          },
-          {
             "label": "General Dynamics F-16 Fighting Falcon",
             "url": "aircraft.html?id=f-16-fighting-falcon"
           },
           {
-            "label": "McDonnell Douglas F/A-18 Hornet",
-            "url": "aircraft.html?id=f-a-18-hornet"
+            "label": "Chengdu J-7 / F-7 Airguard",
+            "url": "aircraft.html?id=chengdu-j-7"
           },
           {
-            "label": "Boeing F/A-18E/F Super Hornet",
-            "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+            "label": "Dassault Mirage III",
+            "url": "aircraft.html?id=mirage-iii"
+          },
+          {
+            "label": "Mikoyan-Gurevich MiG-21",
+            "url": "aircraft.html?id=mig-21"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }
