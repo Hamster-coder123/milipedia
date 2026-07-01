@@ -2999,3 +2999,79 @@ Record the result of:
 * CH-47F Block II specifications are used as the modern representative baseline; older CH-47A/B/C/D, MH-47, UK, export, and civil Model 234 aircraft can differ substantially.
 * Special-operations equipment and defensive fits vary by mission and may not be fully public, so those details are deliberately broad.
 * The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.
+
+### Run 40 — 2026-07-01 11:01:53 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Chengdu J-20 (id: chengdu-j-20)
+* Reason selected: The J-20 entry was the lowest-scoring unedited sparse aircraft page in the comparison pass, with no external article sources, no variant entries, no operator entries, no detailed specifications, and generic generated armament/design text far below the F-16 reference density.
+* Previous condition: Placeholder-like generated entry with 0 external article sources, 0 operator entries, 0 variant entries, no engine/range/ceiling/dimension detail, generic gun/missile/external-stores language, and only short generated overview/development/design/service sections.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview and quick-fact cards; section order covering overview, development, design, specifications, variants, operators, operational history, weapons systems, comparison, strengths/limitations, timeline, sources, and related pages; concise source-qualified paragraphs; cautious notes for variant-, engine-, weapon-, and fleet-count uncertainty; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the Chengdu J-20 entry in data/aircraft.json into a fuller Milipedia article record while preserving the JSON-rendered page structure.
+* Corrected top-level facts for alternative names, NATO reporting name, manufacturer, role, first flight, IOC/service status, crew, engines, speed, range, combat range, service ceiling, rate of climb, armament, hardpoints, development history, combat-history caveat, summary, sources, variants, operators, related aircraft, and article-quality counts.
+* Replaced generic armament wording with J-20-specific internal-bay and missile/precision-store wording covering PL-10, PL-12/PL-15-class missiles, reported developmental long-range missiles, and strike-store caveats.
+* Added sources from CASI/Air University, Mitchell Institute for Aerospace Studies, Airforce Technology, and Wikipedia as supplementary orientation only.
+* Added/expanded sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Weapons Systems, Comparison and Role Context, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added representative public specification details for length, wingspan, maximum takeoff weight, Mach 2-class speed, range, combat range, ceiling, engines, and internal weapon carriage while labeling source disagreements and variant dependence.
+* Added J-20, J-20A, J-20B, and J-20S variant coverage with cautious wording for engine/avionics details.
+* Added PLAAF operator coverage and avoided treating export rumors or open-source fleet estimates as confirmed fixed facts.
+* Added internal related links to F-22, F-35, Su-57, Chengdu J-10, and Shenyang J-11, plus a database return link.
+* Omitted fixed current fleet totals, exact engine block assignments, detailed radar performance, and definitive weapons-clearance tables because public sources are date-sensitive or incomplete.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Chengdu J-20 aircraft entry and sources.
+* hermes-change-log.md — Appended the cumulative record for Run 40.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed the diff; data/aircraft.json changed only the Chengdu J-20 entry, and hermes-change-log.md gained this cumulative Run 40 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the J-20 entry section list, sources, variants, operators, armament wording, article-quality fields, and source caveats.
+4. F-16 style comparison — Inspected data/f16-template.html and matched its dense overview, development/design/specifications/variants/operators/operational-history/weapons/comparison/timeline/source ordering within the JSON article renderer.
+5. Internal link check — Verified internal aircraft.html?id= links for F-22, F-35, Su-57, Chengdu J-10, and Shenyang J-11 point to existing aircraft IDs.
+6. Secret/token check — Ran a credential-pattern scan over the staged diff for private keys, passwords, cloud credential names, and access/auth token assignments; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, only intended files staged, exactly one aircraft entry changed, internal links valid, git diff --check clean, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Chengdu J-20
+* Commit hash: Pending until commit is created; final hash is reported in the scheduled-run response.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* Public J-20 fleet totals, engine standards, radar/electronic-warfare details, and weapons clearances are date-sensitive and often estimate-based, so the update uses cautious wording rather than definitive current tables.
+* Airforce Technology contains older forecast/prototype wording, so it was used mainly for development/design context and representative figures rather than current production counts.

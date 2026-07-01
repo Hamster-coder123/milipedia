@@ -61787,34 +61787,81 @@
   {
     "id": "chengdu-j-20",
     "name": "Chengdu J-20",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "alternative_names": [
+      "J-20 Weilong",
+      "Mighty Dragon"
+    ],
+    "nato_reporting_name": "Fagin",
     "country_of_origin": "China",
-    "manufacturer": "Chengdu Aerospace Corporation",
-    "role": "Stealth air superiority fighter",
+    "manufacturer": "Chengdu Aircraft Industry Group / Chengdu Aerospace Corporation",
+    "role": "Stealth air-superiority fighter with precision-strike capability",
     "aircraft_type": "Fighter",
     "era": "Modern",
-    "first_flight": "2011",
+    "first_flight": "11 January 2011",
     "introduction_date": "2017",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "1",
+    "status": "Active with the People's Liberation Army Air Force",
+    "number_built": "Not publicly fixed; open estimates vary and should be treated as date-sensitive",
+    "crew": "1 pilot on J-20/J-20A/J-20B; 2 crew reported for J-20S",
     "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "engines": "Two afterburning turbofans; public sources associate variants with AL-31-family, WS-10-family, and newer WS-15 engines",
+    "max_speed": "Mach 2 class / about 2,100 km/h in representative public data",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Chengdu J-20: Stealth air superiority fighter. Manufacturer: Chengdu Aerospace Corporation. First flight: 2011. Introduction: 2017.",
-    "short_summary": "Chengdu J-20: Stealth air superiority fighter. Origin: China. Manufacturer: Chengdu Aerospace Corporation. First flight: 2011. Introduction: 2017. Status: Active.",
+    "range": "Representative public figures vary: Airforce Technology lists about 3,400 km, while Mitchell lists up to 3,240 nmi maximum range",
+    "combat_range": "Mitchell lists about 1,080 nmi combat range; exact mission radius depends on loadout, fuel, profile, and engine standard",
+    "service_ceiling": "Airforce Technology lists 18,000 m; Mitchell lists 65,617 ft",
+    "rate_of_climb": "Airforce Technology lists about 304 m/s; public values should be treated as estimates",
+    "armament": "Internal weapon bays for PL-10 short-range missiles and PL-12/PL-15-class beyond-visual-range missiles; public sources also associate the type with precision-strike stores such as LS-6, with exact clearances varying by variant and source.",
+    "hardpoints": "Internal main and side bays; Airforce Technology describes eight hardpoints, but external carriage would reduce low-observable performance",
+    "variants": [
+      {
+        "name": "J-20",
+        "description": "Initial production stealth fighter entering PLAAF service around 2017; early aircraft are publicly associated with imported or interim engines and a single-seat configuration.",
+        "refs": [
+          "fn-casi-2018",
+          "fn-mitchell-j20"
+        ]
+      },
+      {
+        "name": "J-20A",
+        "description": "Later refined single-seat variant publicly associated with improved indigenous powerplant and airframe/avionics evolution; exact engine standard is date-sensitive.",
+        "refs": [
+          "fn-mitchell-j20",
+          "fn-wikipedia"
+        ]
+      },
+      {
+        "name": "J-20B",
+        "description": "Reported upgraded production standard often described in open sources as a further avionics/propulsion improvement path; public technical details remain limited.",
+        "refs": [
+          "fn-mitchell-j20",
+          "fn-method"
+        ]
+      },
+      {
+        "name": "J-20S",
+        "description": "Two-seat derivative associated in public reporting with crewed-uncrewed teaming, mission management, or expanded strike/electronic-warfare roles; precise operational configuration requires current source review.",
+        "refs": [
+          "fn-mitchell-j20",
+          "fn-wikipedia"
+        ]
+      }
+    ],
+    "operators": [
+      {
+        "country": "China",
+        "service": "People's Liberation Army Air Force",
+        "status": "Active",
+        "note": "Primary and publicly confirmed operator; CASI reported official frontline deployment in 2018 and Mitchell lists the PLAAF as the operator.",
+        "refs": [
+          "fn-casi-2018",
+          "fn-mitchell-j20"
+        ]
+      }
+    ],
+    "combat_history": "No widely confirmed combat employment is recorded in the sources used for this update; the aircraft is primarily described in open sources as a PLAAF air-superiority, interception, and strategic-deterrence asset.",
+    "development_history": "The J-20 grew out of China’s J-XX/Project 718 effort, with Chengdu selected as prime contractor in the late 2000s. The first prototype flew on 11 January 2011, the design was publicly displayed at Zhuhai in 2016, and the type entered PLAAF service around 2017.",
+    "short_summary": "The Chengdu J-20 Weilong is China’s first operational low-observable fighter, a twin-engine canard-delta aircraft built by Chengdu for the PLAAF. It combines long-range air-superiority duties, internal weapons carriage, modern sensors, and continuing engine/avionics upgrades, but many detailed performance and fleet figures remain estimate-based in public sources.",
     "carrier_capable": false,
     "stealth": true,
     "images": [
@@ -61827,18 +61874,32 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-casi-2018",
+        "title": "China's J-20 stealth fighter jet has officially entered service",
+        "url": "https://www.airuniversity.af.edu/CASI/Display/Article/1604456/chinas-j-20-stealth-fighter-jet-has-officially-entered-service",
+        "publisher": "China Aerospace Studies Institute / Air University",
+        "note": "Used for operational-service context, PLAAF frontline deployment statement, canard stealth design, AESA radar, internal bays, and early engine caveats."
+      },
+      {
+        "id": "fn-mitchell-j20",
+        "title": "J-20 Technical Data",
+        "url": "https://www.mitchellaerospacepower.org/weapons/j-20",
+        "publisher": "Mitchell Institute for Aerospace Studies",
+        "note": "Used for concise status, NATO name, nickname, IOC, operator, active variants, representative dimensions, weights, engines, speed, range, ceiling, and weapons."
+      },
+      {
+        "id": "fn-airforce-technology",
+        "title": "Chengdu J-20 Multirole Stealth Fighter Aircraft",
+        "url": "https://www.airforce-technology.com/projects/chengdu-j20/",
+        "publisher": "Airforce Technology",
+        "note": "Used for program background, Project 718/J-XX context, prototype/testing chronology, design features, cockpit notes, representative dimensions, and performance figures; some older forecast/production values are treated cautiously."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Chengdu J-20",
         "url": "https://en.wikipedia.org/wiki/Chengdu_J-20",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for public terminology, variant names, reference discovery, and date cross-checking; not used alone for sensitive or date-dependent technical claims."
       },
       {
         "id": "fn-method",
@@ -61855,115 +61916,153 @@
       }
     ],
     "designers": [
-      "Chengdu Aerospace Corporation"
+      "Chengdu Aircraft Industry Group",
+      "Chengdu Aircraft Design Institute"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "Low-observable shaping and internal systems integration increased the importance of sensors, materials, heat management, and maintenance discipline.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Balancing long range, stealth shaping, high-speed performance, sensor integration, and maintainability in a large fighter airframe.",
+      "Managing the transition from interim imported or WS-10-family engines toward newer indigenous powerplants without overstating publicly uncertain engine standards.",
+      "Preserving low-observable performance while carrying useful air-to-air and strike payloads inside internal weapon bays."
     ],
     "wars_used_in": [],
     "variant_families": [
-      "Chengdu J-20 baseline production model",
-      "Chengdu J-20 upgraded avionics or weapons-capable model",
-      "Chengdu J-20 export or locally modernized model"
+      "J-20 initial production aircraft",
+      "J-20A/J-20B upgraded single-seat standards",
+      "J-20S two-seat derivative"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "China"
       ],
-      "major_user_note": "Chengdu J-20 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The PLAAF is the only confirmed operator in the sources used for this update.",
+      "all_operators_status": "Active PLAAF service; exact fleet totals are date-sensitive and not fixed here."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "First prototype flew on 11 January 2011.",
+        "Public debut at the 2016 China International Aviation & Aerospace Exhibition helped confirm the program internationally."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "No verified combat losses or named operational incidents were added from the sources used in this run."
       ]
     },
     "engine_details": {
       "type": "Jet",
-      "summary": "Chengdu J-20 uses jet propulsion."
+      "summary": "Twin afterburning turbofan installation; public sources cite AL-31-family engines on early aircraft, WS-10-family interim standards, and WS-15 association with later upgrades.",
+      "caution": "Engine fit is one of the most date- and variant-sensitive parts of the J-20 story, so the page avoids treating one powerplant as universal."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Internal bays are used for low-observable missile carriage. Public sources associate the J-20 with PL-10 short-range missiles, PL-12/PL-15 beyond-visual-range missiles, and selected precision-strike stores.",
+      "caution": "Exact weapons clearances, missile blocks, and external carriage options vary by variant and are not all publicly confirmed."
     },
     "similar_development": [
       {
-        "id": "f-15-eagle",
-        "name": "McDonnell Douglas F-15 Eagle",
-        "url": "aircraft.html?id=f-15-eagle"
+        "id": "f-22-raptor",
+        "name": "Lockheed Martin F-22 Raptor",
+        "url": "aircraft.html?id=f-22-raptor"
       },
       {
-        "id": "f-16-fighting-falcon",
-        "name": "General Dynamics F-16 Fighting Falcon",
-        "url": "aircraft.html?id=f-16-fighting-falcon"
+        "id": "f-35-lightning-ii",
+        "name": "Lockheed Martin F-35 Lightning II",
+        "url": "aircraft.html?id=f-35-lightning-ii"
       },
       {
-        "id": "f-a-18-hornet",
-        "name": "McDonnell Douglas F/A-18 Hornet",
-        "url": "aircraft.html?id=f-a-18-hornet"
+        "id": "su-57",
+        "name": "Sukhoi Su-57",
+        "url": "aircraft.html?id=su-57"
       },
       {
-        "id": "f-a-18e-f-super-hornet",
-        "name": "Boeing F/A-18E/F Super Hornet",
-        "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+        "id": "chengdu-j-10",
+        "name": "Chengdu J-10 Vigorous Dragon",
+        "url": "aircraft.html?id=chengdu-j-10"
+      },
+      {
+        "id": "shenyang-j-11",
+        "name": "Shenyang J-11",
+        "url": "aircraft.html?id=shenyang-j-11"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 24,
+      "operator_entries": 1,
+      "variant_entries": 4,
+      "external_article_sources": 4
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-casi-2018",
+        "title": "China's J-20 stealth fighter jet has officially entered service",
+        "url": "https://www.airuniversity.af.edu/CASI/Display/Article/1604456/chinas-j-20-stealth-fighter-jet-has-officially-entered-service",
+        "publisher": "China Aerospace Studies Institute / Air University",
+        "note": "Used for operational-service context, PLAAF frontline deployment statement, canard stealth design, AESA radar, internal bays, and early engine caveats."
+      },
+      {
+        "id": "fn-mitchell-j20",
+        "title": "J-20 Technical Data",
+        "url": "https://www.mitchellaerospacepower.org/weapons/j-20",
+        "publisher": "Mitchell Institute for Aerospace Studies",
+        "note": "Used for concise status, NATO name, nickname, IOC, operator, active variants, representative dimensions, weights, engines, speed, range, ceiling, and weapons."
+      },
+      {
+        "id": "fn-airforce-technology",
+        "title": "Chengdu J-20 Multirole Stealth Fighter Aircraft",
+        "url": "https://www.airforce-technology.com/projects/chengdu-j20/",
+        "publisher": "Airforce Technology",
+        "note": "Used for program background, Project 718/J-XX context, prototype/testing chronology, design features, cockpit notes, representative dimensions, and performance figures; some older forecast/production values are treated cautiously."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Chengdu J-20",
         "url": "https://en.wikipedia.org/wiki/Chengdu_J-20",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for public terminology, variant names, reference discovery, and date cross-checking; not used alone for sensitive or date-dependent technical claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "China's J-20 stealth fighter jet has officially entered service",
+        "url": "https://www.airuniversity.af.edu/CASI/Display/Article/1604456/chinas-j-20-stealth-fighter-jet-has-officially-entered-service",
+        "publisher": "China Aerospace Studies Institute / Air University"
+      },
+      {
+        "title": "J-20 Technical Data",
+        "url": "https://www.mitchellaerospacepower.org/weapons/j-20",
+        "publisher": "Mitchell Institute for Aerospace Studies"
+      },
+      {
+        "title": "Chengdu J-20 Multirole Stealth Fighter Aircraft",
+        "url": "https://www.airforce-technology.com/projects/chengdu-j20/",
+        "publisher": "Airforce Technology"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Chengdu J-20 is a Stealth air superiority fighter from China. Manufacturer: Chengdu Aerospace Corporation. First flight: 2011. Introduction: 2017. Status: Active.",
+            "text": "The Chengdu J-20, also known as Weilong or Mighty Dragon, is a twin-engine Chinese stealth fighter developed by Chengdu for the People’s Liberation Army Air Force. It is usually described as an air-superiority fighter with precision-strike capability rather than a direct one-for-one copy of any Western or Russian design.",
             "refs": [
-              "fn-main"
+              "fn-casi-2018",
+              "fn-mitchell-j20"
             ]
           },
           {
-            "text": "Chengdu J-20 is a fighter. Primary role: stealth air superiority fighter. Country of origin: China. Manufacturer: Chengdu Aerospace Corporation.",
+            "text": "CASI reported in 2018 that the PLAAF had officially deployed J-20 stealth fighters to frontline fighter squadrons, while Mitchell lists the type as active with a 2017 initial operational capability. Its public profile therefore sits between confirmed operational service and still-evolving, partially opaque technical details.",
             "refs": [
-              "fn-wikidata"
+              "fn-casi-2018",
+              "fn-mitchell-j20"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Because many Chinese fifth-generation fighter details are not released in the same way as U.S. fact sheets, this page treats speed, range, fleet size, engine standard, and weapons fit as representative public-source values rather than immutable specifications.",
             "refs": [
               "fn-method"
             ]
@@ -61972,56 +62071,75 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Stealth air superiority fighter"
+            "text": "Stealth air-superiority fighter with precision-strike capability"
           },
           {
-            "title": "Designer or builder",
-            "text": "Chengdu Aerospace Corporation"
+            "title": "Builder",
+            "text": "Chengdu Aircraft Industry Group"
           },
           {
-            "title": "Major origin",
-            "text": "China"
+            "title": "Operator",
+            "text": "People’s Liberation Army Air Force"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "First flight",
+            "text": "11 January 2011"
+          },
+          {
+            "title": "IOC",
+            "text": "2017"
+          },
+          {
+            "title": "NATO name",
+            "text": "Fagin"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Chengdu J-20 first flew in 2011. Introduction date: 2017. Era: Modern.",
+            "text": "The J-20 emerged from China’s late-1990s J-XX effort, with Airforce Technology describing Project 718 and Chengdu’s selection as prime contractor in 2008. The program reflected a PLAAF requirement for a long-range, low-observable fighter able to compete with modern air-superiority aircraft.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Producer: Chengdu Aerospace Corporation. Development context: stealth air superiority fighter, jet propulsion, supersonic speed category, Modern era.",
+            "text": "High-speed taxi tests were reported in December 2010, followed by the first flight in Chengdu on 11 January 2011. Subsequent prototypes introduced refined intakes, stealth shaping, avionics, and sensor arrangements before the aircraft’s public Zhuhai appearance in 2016 and service entry around 2017.",
             "refs": [
-              "fn-wikidata"
+              "fn-airforce-technology",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Engine development remains central to the J-20 story. CASI’s 2018 article still discussed Russian AL-31FN engines and an expected shift toward WS-15 powerplants, while later open sources associate production aircraft with WS-10-family and WS-15-related standards.",
+            "refs": [
+              "fn-casi-2018",
+              "fn-mitchell-j20",
+              "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "J-XX / Project 718 provided the program framework for a new Chinese fifth-generation fighter.",
             "refs": [
-              "fn-method"
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Low-observable shaping and internal systems integration increased the importance of sensors, materials, heat management, and maintenance discipline.",
+            "text": "First flight: 11 January 2011, after late-2010 taxi testing.",
             "refs": [
-              "fn-method"
+              "fn-airforce-technology",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "Frontline PLAAF deployment was publicly reported in 2018 after service entry around 2017.",
             "refs": [
-              "fn-method"
+              "fn-casi-2018"
             ]
           }
         ]
@@ -62031,107 +62149,91 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The J-20 uses a large canard-delta planform, twin tails, diverterless supersonic inlets, internal weapons bays, and low-observable shaping. CASI summarizes it as a heavy twin-engine stealth fighter with canards, AESA radar, and three internal weapons bays for missiles and bombs.",
             "refs": [
-              "fn-main"
+              "fn-casi-2018",
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: yes.",
+            "text": "Its large airframe is often associated with long range, high-speed interception, and beyond-visual-range air combat. Airforce Technology’s older design summary emphasizes the blended fuselage, low-radar-cross-section shaping, fly-by-wire controls, DSI inlets, V-shaped tail surfaces, and glass cockpit.",
             "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "Unlike carrier fighters, the J-20 is land-based. Public descriptions focus on PLAAF air-superiority and strategic air-defense missions, with strike capability possible through internal precision stores when compatible with mission requirements.",
+            "refs": [
+              "fn-mitchell-j20",
               "fn-method"
-            ]
-          },
-          {
-            "text": "Chengdu J-20 uses jet propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "1"
+            "text": "1 on single-seat variants; 2 for J-20S"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Powerplant",
+            "text": "Two afterburning turbofans"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Stealth",
+            "text": "Internal bays and low-observable shaping"
+          },
+          {
+            "title": "Sensors",
+            "text": "AESA radar and integrated avionics described in public sources"
           },
           {
             "title": "Carrier capable",
             "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "Yes"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Chengdu J-20 status: Active. Conflict entries: 0.",
+            "text": "Representative public specifications differ by source and variant. Mitchell lists a 66.9 ft length, 44.3 ft wingspan, 42,750 lb empty weight, 81,600 lb maximum takeoff weight, Mach 2 maximum speed, 3,240 nmi maximum range, 1,080 nmi combat range, and 65,617 ft ceiling.",
             "refs": [
-              "fn-main"
+              "fn-mitchell-j20"
             ]
           },
           {
-            "text": "Conflicts: 0 entries.",
+            "text": "Airforce Technology gives broadly similar but metric-oriented values: about 23 m length, 15 m wingspan, 5 m height, 35,000 kg maximum takeoff weight, 2,100 km/h maximum speed, 3,400 km range, and 18,000 m ceiling. Those figures are best read as representative public estimates, not a universal official table.",
             "refs": [
+              "fn-airforce-technology",
               "fn-method"
             ]
           }
         ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
+        "cards": [
           {
-            "text": "Chengdu J-20 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "66.9 ft / about 23 m in public sources"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Wingspan",
+            "text": "44.3 ft / about 15 m in public sources"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum takeoff weight",
+            "text": "About 81,600 lb / 35,000 kg"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum speed",
+            "text": "Mach 2 class / about 2,100 km/h"
+          },
+          {
+            "title": "Ceiling",
+            "text": "18,000 m to 65,617 ft in public sources"
+          },
+          {
+            "title": "Combat range",
+            "text": "Mitchell lists about 1,080 nmi"
           }
         ]
       },
@@ -62140,13 +62242,14 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Chengdu J-20 variant-family entries: 3. Variant families: Chengdu J-20 baseline production model; Chengdu J-20 upgraded avionics or weapons-capable model; Chengdu J-20 export or locally modernized model.",
+            "text": "Public variant labels are less settled than for older aircraft. Mitchell lists J-20, J-20A, J-20B, and J-20S as active variants, while other public sources emphasize the initial production aircraft, newer-engine single-seat variants, and the two-seat J-20S.",
             "refs": [
-              "fn-main"
+              "fn-mitchell-j20",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Complete variant entries listed: 0.",
+            "text": "The most important article-level distinction is between early single-seat service aircraft, later upgraded single-seat standards with changing engine and avionics fits, and the J-20S two-seat derivative. Exact block changes should be verified against current specialist sources before adding fine-grained tables.",
             "refs": [
               "fn-method"
             ]
@@ -62154,21 +62257,24 @@
         ],
         "bullets": [
           {
-            "text": "Chengdu J-20 baseline production model",
+            "text": "J-20 — initial single-seat production aircraft associated with early PLAAF service.",
             "refs": [
-              "fn-main"
+              "fn-casi-2018",
+              "fn-mitchell-j20"
             ]
           },
           {
-            "text": "Chengdu J-20 upgraded avionics or weapons-capable model",
+            "text": "J-20A / J-20B — later upgraded single-seat standards reported in public sources; engine, radar, and avionics details are date-sensitive.",
             "refs": [
-              "fn-main"
+              "fn-mitchell-j20",
+              "fn-method"
             ]
           },
           {
-            "text": "Chengdu J-20 export or locally modernized model",
+            "text": "J-20S — two-seat derivative, commonly discussed for mission management, crewed-uncrewed teaming, or expanded strike/electronic-warfare roles.",
             "refs": [
-              "fn-main"
+              "fn-mitchell-j20",
+              "fn-wikipedia"
             ]
           }
         ]
@@ -62178,13 +62284,13 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: China. Chengdu J-20 has 1 designer or builder country entry.",
+            "text": "The People’s Liberation Army Air Force is the confirmed operator. CASI reported official frontline deployment in 2018, quoting PLAAF statements about safeguarding China’s sovereignty, security, and territorial integrity.",
             "refs": [
-              "fn-wikidata"
+              "fn-casi-2018"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Export prospects and unofficial fleet counts appear frequently in open-source commentary, but this page does not treat them as confirmed operators or fixed inventory numbers. Any current fleet count should be checked against the latest public intelligence and official statements.",
             "refs": [
               "fn-method"
             ]
@@ -62192,31 +62298,167 @@
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "China — People’s Liberation Army Air Force: active primary operator.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Major designer or builder entries: China.",
-            "refs": [
-              "fn-wikidata"
+              "fn-casi-2018",
+              "fn-mitchell-j20"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Supersonic, first flight 2011, introduction 2017.",
+            "text": "The J-20 moved from prototype flight testing to public display and then PLAAF frontline service during the 2010s. CASI’s 2018 report stated that low-rate initial production aircraft had reached the PLAAF flight-test unit in late 2016 and that the type had subsequently been deployed to frontline squadrons.",
             "refs": [
-              "fn-main"
+              "fn-casi-2018"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Open sources generally describe the aircraft as part of China’s broader effort to modernize air defense, long-range interception, and high-end air-superiority forces. No verified combat employment was added in this run, so the operational section focuses on service introduction and role rather than battle claims.",
+            "refs": [
+              "fn-casi-2018",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "2011: first prototype flight.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "2016: public appearance at Zhuhai helped confirm the aircraft’s maturity.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "2017–2018: service entry and frontline deployment reported in public sources.",
+            "refs": [
+              "fn-casi-2018",
+              "fn-mitchell-j20"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "weapons-systems",
+        "title": "Weapons Systems",
+        "paragraphs": [
+          {
+            "text": "The J-20’s weapons are carried primarily in internal bays to preserve low observability. CASI describes three internal weapon bays, and Mitchell lists PL-10, PL-12, and PL-15 air-to-air missiles, with PL-16/PL-21 shown as developmental in its table.",
+            "refs": [
+              "fn-casi-2018",
+              "fn-mitchell-j20"
+            ]
+          },
+          {
+            "text": "Airforce Technology’s older article also discusses lateral bays for short-range missiles and a larger belly bay for long-range weapons. It mentions air-to-surface weapons, anti-radiation missiles, laser-guided bombs, and drop bombs, but exact clearances and operational combinations should be handled cautiously.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Short-range AAM",
+            "text": "PL-10 family listed in public sources"
+          },
+          {
+            "title": "Beyond-visual-range AAM",
+            "text": "PL-12 / PL-15 class listed in public sources"
+          },
+          {
+            "title": "Strike stores",
+            "text": "LS-6 and other precision stores reported in public tables"
+          },
+          {
+            "title": "Carriage",
+            "text": "Internal bays for stealth-oriented missions"
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Role Context",
+        "paragraphs": [
+          {
+            "text": "The J-20 is most often compared with the F-22, F-35, and Su-57 because all are low-observable fighters from major air powers. The comparison is imperfect: the F-22 emphasizes air dominance, the F-35 emphasizes multirole sensor fusion and strike, the Su-57 reflects Russia’s own maneuverability and weapons philosophy, and the J-20 appears optimized for long-range PLAAF air-superiority and interception roles.",
+            "refs": [
+              "fn-casi-2018",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Within China’s fighter force, the J-20 sits above the J-10 and J-11/J-16 families as a high-end stealth aircraft. It does not replace those types one-for-one; rather, it adds a low-observable layer to a force still containing large numbers of fourth-generation and 4.5-generation fighters.",
+            "refs": [
+              "fn-casi-2018",
+              "fn-mitchell-j20"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Lockheed Martin F-22 Raptor",
+            "url": "aircraft.html?id=f-22-raptor"
+          },
+          {
+            "label": "Lockheed Martin F-35 Lightning II",
+            "url": "aircraft.html?id=f-35-lightning-ii"
+          },
+          {
+            "label": "Sukhoi Su-57",
+            "url": "aircraft.html?id=su-57"
+          },
+          {
+            "label": "Chengdu J-10 Vigorous Dragon",
+            "url": "aircraft.html?id=chengdu-j-10"
+          },
+          {
+            "label": "Shenyang J-11",
+            "url": "aircraft.html?id=shenyang-j-11"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include low-observable shaping, internal weapons carriage, long-range design emphasis, modern avionics, and a role inside a rapidly modernizing integrated air force. These features make the J-20 strategically important even where exact performance remains uncertain.",
+            "refs": [
+              "fn-casi-2018",
+              "fn-mitchell-j20"
+            ]
+          },
+          {
+            "text": "Limitations and uncertainties include opaque fleet counts, variant-specific engine fits, unknown maintenance and sortie-generation performance, and the difficulty of verifying real-world sensor, data-link, and weapons effectiveness from public sources. The page therefore avoids absolute claims about superiority or combat-proven performance.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: stealth-oriented airframe with internal bays and long-range design emphasis.",
+            "refs": [
+              "fn-casi-2018"
+            ]
+          },
+          {
+            "text": "Strength: continuing engine, avionics, and variant evolution indicates sustained industrial investment.",
+            "refs": [
+              "fn-mitchell-j20"
+            ]
+          },
+          {
+            "text": "Limitation: many key details are estimate-based or variant-dependent in public sources.",
             "refs": [
               "fn-method"
             ]
@@ -62224,11 +62466,85 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "timeline",
+        "title": "Timeline",
         "paragraphs": [
           {
-            "text": "Chengdu J-20 similar-development links: 4.",
+            "text": "The J-20 timeline runs from the J-XX/Project 718 design effort through the 2011 first flight, public 2016 display, 2017 service entry, and subsequent frontline deployment and variant evolution.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-casi-2018",
+              "fn-mitchell-j20"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Late 1990s–2000s — J-XX / Project 718 development background.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "December 2010 — high-speed taxi testing reported.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "11 January 2011 — first flight.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "2016 — public reveal at the China International Aviation & Aerospace Exhibition.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "2017 — Mitchell lists initial operational capability; service-entry reporting begins.",
+            "refs": [
+              "fn-mitchell-j20"
+            ]
+          },
+          {
+            "text": "2018 — CASI reports official PLAAF frontline deployment.",
+            "refs": [
+              "fn-casi-2018"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "The strongest source used in this run for service-entry context was CASI/Air University, while Mitchell provided concise technical data and Airforce Technology supplied development/design background. Wikipedia was retained only as a supplementary orientation and reference-discovery source.",
+            "refs": [
+              "fn-casi-2018",
+              "fn-mitchell-j20",
+              "fn-airforce-technology",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Current fleet totals, exact engine standards, combat radius, and detailed weapons clearances are deliberately phrased as estimates or variant-dependent items because public sources disagree or change over time.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages connect the J-20 to peer stealth fighters and the Chinese aircraft families it complements.",
             "refs": [
               "fn-method"
             ]
@@ -62236,20 +62552,28 @@
         ],
         "links": [
           {
-            "label": "McDonnell Douglas F-15 Eagle",
-            "url": "aircraft.html?id=f-15-eagle"
+            "label": "Lockheed Martin F-22 Raptor",
+            "url": "aircraft.html?id=f-22-raptor"
           },
           {
-            "label": "General Dynamics F-16 Fighting Falcon",
-            "url": "aircraft.html?id=f-16-fighting-falcon"
+            "label": "Lockheed Martin F-35 Lightning II",
+            "url": "aircraft.html?id=f-35-lightning-ii"
           },
           {
-            "label": "McDonnell Douglas F/A-18 Hornet",
-            "url": "aircraft.html?id=f-a-18-hornet"
+            "label": "Sukhoi Su-57",
+            "url": "aircraft.html?id=su-57"
           },
           {
-            "label": "Boeing F/A-18E/F Super Hornet",
-            "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+            "label": "Chengdu J-10 Vigorous Dragon",
+            "url": "aircraft.html?id=chengdu-j-10"
+          },
+          {
+            "label": "Shenyang J-11",
+            "url": "aircraft.html?id=shenyang-j-11"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }
