@@ -51612,34 +51612,101 @@
   {
     "id": "mirage-2000",
     "name": "Dassault Mirage 2000",
-    "alternative_names": [],
+    "alternative_names": [
+      "Mirage 2000C",
+      "Mirage 2000B",
+      "Mirage 2000D",
+      "Mirage 2000N",
+      "Mirage 2000-5",
+      "Mirage 2000-9"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "France",
     "manufacturer": "Dassault Aviation",
-    "role": "Multirole fighter",
+    "role": "Single-engine multirole fighter and air-defence interceptor",
     "aircraft_type": "Fighter",
-    "era": "Modern",
-    "first_flight": "1978",
-    "introduction_date": "1984",
-    "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "1 or 2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "era": "Modern / late Cold War",
+    "first_flight": "10 March 1978",
+    "introduction_date": "1984 with the French Air Force air-defence variant",
+    "retirement_date": "French Mirage 2000C retired in 2022; Mirage 2000D and export aircraft remained in service after that date",
+    "status": "In service with France and several export operators; French air-defence variants have been replaced by Rafale",
+    "number_built": "About 600-601 aircraft; Dassault states 600 produced, half exported",
+    "crew": "1 in single-seat fighter/strike variants; 2 in trainers and Mirage 2000N/D strike variants",
+    "engine_type": "Afterburning turbofan",
+    "engines": "One SNECMA M53-P2 afterburning turbofan",
+    "max_speed": "Mach 2.2+ / about 2,530 km/h depending source and conditions",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Dassault Mirage 2000: Multirole fighter. Manufacturer: Dassault Aviation. First flight: 1978. Introduction: 1984.",
-    "short_summary": "Dassault Mirage 2000: Multirole fighter. Origin: France. Manufacturer: Dassault Aviation. First flight: 1978. Introduction: 1984. Status: Active.",
+    "range": "About 1,550 km listed operational range; ferry range about 3,335 km in Airforce Technology data",
+    "combat_range": "Dassault lists 830 nautical miles at Mach 0.8/15,000 ft with six MICA and external tanks dropped before combat; mission radius varies by loadout",
+    "service_ceiling": "About 55,000-60,000 ft depending source and variant",
+    "rate_of_climb": "About 60,000 ft/min / 285 m/s in public manufacturer and Airforce Technology data",
+    "armament": "Two internal 30 mm DEFA cannon on single-seat variants, MICA/Magic/Super 530D air-to-air missiles, laser-guided bombs, AS-30L, Exocet, Apache/SCALP/Storm Shadow-class stand-off weapons on compatible variants, and ASMP/ASMPA nuclear missiles on French Mirage 2000N/K3 aircraft.",
+    "hardpoints": "Nine store stations; compatible weapons vary by variant and national upgrade",
+    "variants": [
+      {
+        "name": "Mirage 2000C",
+        "description": "Single-seat French air-defence fighter and first main production version, introduced in the mid-1980s with radar-guided missile capability and later upgraded through service life."
+      },
+      {
+        "name": "Mirage 2000B",
+        "description": "Two-seat operational conversion trainer derived from the Mirage 2000C, retaining high-performance handling while supporting pilot training and conversion."
+      },
+      {
+        "name": "Mirage 2000N",
+        "description": "Two-seat low-altitude nuclear strike variant developed for France's airborne deterrent and equipped for ASMP, later ASMPA on upgraded K3 aircraft."
+      },
+      {
+        "name": "Mirage 2000D",
+        "description": "Two-seat conventional strike derivative of the Mirage 2000N, optimized for precision attack with laser-guided and stand-off munitions; France has kept upgraded Mirage 2000D aircraft in service alongside Rafale."
+      },
+      {
+        "name": "Mirage 2000-5",
+        "description": "Modernized multirole/air-defence family with RDY radar, improved cockpit and sensor management, and MICA missile integration; ordered by France, Taiwan, Qatar and Greece."
+      },
+      {
+        "name": "Mirage 2000-9",
+        "description": "Advanced United Arab Emirates export standard derived from the -5 family, integrating national avionics and stand-off weapon capabilities such as Black Shaheen/SCALP-family weapons."
+      },
+      {
+        "name": "Mirage 2000I/TI",
+        "description": "Indian upgrade standard for single-seat and two-seat aircraft brought toward Mirage 2000-5-level avionics, weapons and support systems by Dassault, Thales and Indian partners."
+      }
+    ],
+    "operators": [
+      {
+        "country": "France",
+        "service": "French Air and Space Force",
+        "notes": "Original operator. Mirage 2000C air-defence aircraft were retired after Rafale replacement, while Mirage 2000D strike aircraft continued after upgrades."
+      },
+      {
+        "country": "India",
+        "service": "Indian Air Force",
+        "notes": "Long-term export operator; upgraded Mirage 2000H/TH aircraft to Mirage 2000I/TI standard after a 2011 modernization contract."
+      },
+      {
+        "country": "United Arab Emirates",
+        "service": "United Arab Emirates Air Force",
+        "notes": "Operates Mirage 2000-9 aircraft and earlier customized Mirage 2000-5-derived aircraft; upgrade plans were announced in the late 2010s."
+      },
+      {
+        "country": "Taiwan",
+        "service": "Republic of China Air Force",
+        "notes": "Operates Mirage 2000-5 aircraft delivered beginning in the late 1990s for air defence."
+      },
+      {
+        "country": "Greece",
+        "service": "Hellenic Air Force",
+        "notes": "Operated Mirage 2000 and Mirage 2000-5 Mk2 aircraft; the final new-build Mirage 2000 was delivered to Greece in 2007."
+      },
+      {
+        "country": "Egypt, Peru, Qatar and Brazil",
+        "service": "National air forces",
+        "notes": "Additional export users. Brazil operated second-hand French Mirage 2000C aircraft; exact current status varies by country and date."
+      }
+    ],
+    "combat_history": "French Mirage 2000s flew in the Gulf War era, Kosovo, Afghanistan, Libya, Sahel/Levant operations, and other deployments; Indian, UAE, Peruvian and other operators used the type in regional conflicts or combat deployments. Claims and loadouts should be handled by operator and date.",
+    "development_history": "The Mirage 2000 grew from Dassault's 1970s Delta 1000/Delta 2000 work after more ambitious variable-geometry and twin-engine concepts became too costly. The first prototype flew on 10 March 1978, production Mirage 2000C aircraft entered French air-defence service in 1984, and later N, D, -5 and -9 families turned the type into a broader strike and multirole platform.",
+    "short_summary": "French single-engine delta-wing fighter family designed by Dassault as a Mirage III successor, first flown in 1978 and introduced in 1984. About 600 were produced, roughly half for export, with air-defence, nuclear-strike, conventional-strike, trainer and upgraded multirole variants.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -51652,18 +51719,32 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-dassault-support",
+        "title": "Military customer support: Mirage 2000",
+        "url": "https://www.dassault-aviation.com/en/defense/customer-support/operational-aircraft/mirage-2000",
+        "publisher": "Dassault Aviation",
+        "note": "Manufacturer support page used for first flight, service introduction, production/export count, dimensions, thrust, stations, speed, climb, ceiling and combat-radius data."
+      },
+      {
+        "id": "fn-airforce-tech",
+        "title": "Mirage 2000 Multirole Combat Fighter",
+        "url": "https://www.airforce-technology.com/projects/mirage/",
+        "publisher": "Airforce Technology",
+        "note": "Technical and program article used for variant descriptions, weapons, cockpit/radar systems, operators, performance figures and upgrade chronology."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Dassault Mirage 2000",
         "url": "https://en.wikipedia.org/wiki/Dassault_Mirage_2000",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "note": "Supplementary orientation source for lineage, final delivery, broad service history and cross-checking; not the sole source for technical data."
       },
       {
         "id": "fn-wikidata",
         "title": "Wikidata Query Service",
         "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "publisher": "Wikidata",
+        "note": "Open structured data source used for aircraft identifiers and relationship checks."
       },
       {
         "id": "fn-method",
@@ -51688,26 +51769,38 @@
     ],
     "wars_used_in": [
       {
+        "name": "Gulf War era operations",
+        "note": "French and UAE Mirage 2000 aircraft participated in Gulf-region coalition and national operations; details varied by operator and variant."
+      },
+      {
         "name": "Kosovo War",
-        "note": "Dassault Mirage 2000 used in Kosovo War."
+        "note": "French Mirage 2000 aircraft supported NATO operations; Dassault highlights very high wartime availability during Kosovo."
+      },
+      {
+        "name": "War in Afghanistan",
+        "note": "French Mirage 2000D aircraft deployed to Kandahar in 2008 for ISAF support missions according to Airforce Technology."
       },
       {
         "name": "2011 military intervention in Libya",
-        "note": "Dassault Mirage 2000 used in 2011 military intervention in Libya."
+        "note": "French Mirage 2000 aircraft flew during the Libya intervention; other operators also used Mirage 2000-family aircraft in regional operations."
+      },
+      {
+        "name": "Kargil War and later Indian operations",
+        "note": "Indian Mirage 2000 aircraft were used for precision strike and air-superiority related tasks; specific claims should be checked against operator records."
       }
     ],
     "variant_families": [
-      "Dassault Mirage 2000 baseline production model",
-      "Dassault Mirage 2000 upgraded avionics or weapons-capable model",
-      "Dassault Mirage 2000 two-seat trainer or conversion model",
-      "Dassault Mirage 2000 export or locally modernized model"
+      "Mirage 2000C/B air-defence and training family",
+      "Mirage 2000N/D nuclear and conventional strike family",
+      "Mirage 2000-5/-9 modernized multirole export family",
+      "National upgrade standards such as Mirage 2000I/TI and Mirage 2000D RMV"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "France"
       ],
-      "major_user_note": "Dassault Mirage 2000 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Original French service plus export customers in Asia, the Middle East, Europe and South America.",
+      "all_operators_status": "Representative operators include France, India, United Arab Emirates, Taiwan, Greece, Egypt, Peru, Qatar and Brazil; current status varies by date."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -51720,18 +51813,28 @@
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Dassault Mirage 2000 uses jet propulsion."
+      "type": "Afterburning turbofan",
+      "summary": "Single SNECMA M53-P2 turbofan; Dassault lists maximum thrust of 98 kN and Airforce Technology lists 64 kN dry / 98 kN with afterburner."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Two internal 30 mm DEFA cannon on single-seat variants, MICA/Magic/Super 530D air-to-air missiles, laser-guided bombs, AS-30L, Exocet, Apache/SCALP/Storm Shadow-class stand-off weapons on compatible variants, and ASMP/ASMPA nuclear missiles on French Mirage 2000N/K3 aircraft.",
+      "caution": "Mirage 2000 weapons fits differ sharply among C/B, N, D, -5, -9 and national upgrades. Do not apply nuclear, stand-off or MICA loadouts to every aircraft without checking variant and operator."
     },
     "similar_development": [
       {
-        "id": "f-15-eagle",
-        "name": "McDonnell Douglas F-15 Eagle",
-        "url": "aircraft.html?id=f-15-eagle"
+        "id": "mirage-iii",
+        "name": "Dassault Mirage III",
+        "url": "aircraft.html?id=mirage-iii"
+      },
+      {
+        "id": "mirage-f1",
+        "name": "Dassault Mirage F1",
+        "url": "aircraft.html?id=mirage-f1"
+      },
+      {
+        "id": "rafale",
+        "name": "Dassault Rafale",
+        "url": "aircraft.html?id=rafale"
       },
       {
         "id": "f-16-fighting-falcon",
@@ -51739,117 +51842,164 @@
         "url": "aircraft.html?id=f-16-fighting-falcon"
       },
       {
-        "id": "f-a-18-hornet",
-        "name": "McDonnell Douglas F/A-18 Hornet",
-        "url": "aircraft.html?id=f-a-18-hornet"
-      },
-      {
-        "id": "f-a-18e-f-super-hornet",
-        "name": "Boeing F/A-18E/F Super Hornet",
-        "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+        "id": "mig-21",
+        "name": "Mikoyan-Gurevich MiG-21",
+        "url": "aircraft.html?id=mig-21"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 36,
+      "operator_entries": 6,
+      "variant_entries": 7,
+      "external_article_sources": 3
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-dassault-support",
+        "title": "Military customer support: Mirage 2000",
+        "url": "https://www.dassault-aviation.com/en/defense/customer-support/operational-aircraft/mirage-2000",
+        "publisher": "Dassault Aviation",
+        "note": "Manufacturer support page used for first flight, service introduction, production/export count, dimensions, thrust, stations, speed, climb, ceiling and combat-radius data."
+      },
+      {
+        "id": "fn-airforce-tech",
+        "title": "Mirage 2000 Multirole Combat Fighter",
+        "url": "https://www.airforce-technology.com/projects/mirage/",
+        "publisher": "Airforce Technology",
+        "note": "Technical and program article used for variant descriptions, weapons, cockpit/radar systems, operators, performance figures and upgrade chronology."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Dassault Mirage 2000",
         "url": "https://en.wikipedia.org/wiki/Dassault_Mirage_2000",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "note": "Supplementary orientation source for lineage, final delivery, broad service history and cross-checking; not the sole source for technical data."
       },
       {
         "id": "fn-wikidata",
         "title": "Wikidata Query Service",
         "url": "https://query.wikidata.org/",
         "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Open structured data source used for aircraft identifiers and relationship checks."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "label": "Dassault Aviation Mirage 2000 support page",
+        "url": "https://www.dassault-aviation.com/en/defense/customer-support/operational-aircraft/mirage-2000"
+      },
+      {
+        "label": "Airforce Technology Mirage 2000 technical article",
+        "url": "https://www.airforce-technology.com/projects/mirage/"
+      },
+      {
+        "label": "Wikipedia overview",
+        "url": "https://en.wikipedia.org/wiki/Dassault_Mirage_2000"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Dassault Mirage 2000 is a Multirole fighter from France. Manufacturer: Dassault Aviation. First flight: 1978. Introduction: 1984. Status: Active.",
+            "text": "The Dassault Mirage 2000 is a French single-engine, delta-wing, fourth-generation fighter family designed as a Mirage III successor and produced in air-defence, strike, nuclear-deterrent, trainer and export multirole forms. Dassault states that the first flight occurred in 1978, that the French Air Force introduced the air-defence variant in 1984, and that 600 aircraft were produced with roughly half exported.",
             "refs": [
-              "fn-main"
+              "fn-dassault-support"
             ]
           },
           {
-            "text": "Dassault Mirage 2000 is a fighter. Primary role: multirole fighter. Country of origin: France. Manufacturer: Dassault Aviation.",
+            "text": "The aircraft retained Dassault's compact delta-wing philosophy but added fly-by-wire controls, the SNECMA M53-P2 turbofan, modern radar and a broad weapons system. Public figures list Mach 2.2-class performance, nine store stations and two 30 mm cannon on single-seat variants, although exact weapons and sensors depend heavily on variant and national upgrade.",
             "refs": [
-              "fn-wikidata"
+              "fn-dassault-support",
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The Mirage 2000 served as France's principal air-defence fighter before Rafale replacement and remains important in Mirage 2000D strike service and export fleets. Its variants range from Mirage 2000C/B interceptors to Mirage 2000N/D strike aircraft and the upgraded Mirage 2000-5/-9 multirole export family.",
             "refs": [
-              "fn-method"
+              "fn-airforce-tech",
+              "fn-wikipedia"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Multirole fighter"
+            "text": "Single-engine multirole fighter and air-defence interceptor"
           },
           {
-            "title": "Designer or builder",
+            "title": "Manufacturer",
             "text": "Dassault Aviation"
           },
           {
-            "title": "Major origin",
-            "text": "France"
+            "title": "First flight",
+            "text": "10 March 1978"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Introduced",
+            "text": "1984 in French air-defence service"
+          },
+          {
+            "title": "Production",
+            "text": "About 600-601 aircraft; about half exported"
+          },
+          {
+            "title": "Powerplant",
+            "text": "One SNECMA M53-P2 afterburning turbofan"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Dassault Mirage 2000 first flew in 1978. Introduction date: 1984. Era: Modern.",
+            "text": "The Mirage 2000 emerged after Dassault and the French Air Force reassessed more complex future-combat-aircraft concepts in the 1970s. A smaller single-engine delta offered lower cost and export potential while preserving high speed, quick climb and interceptor performance. The project drew on Mirage delta experience rather than pursuing the variable-geometry Mirage G line.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia",
+              "fn-method"
             ]
           },
           {
-            "text": "Producer: Dassault Aviation. Development context: multirole fighter, jet propulsion, supersonic speed category, Modern era.",
+            "text": "The first prototype flew on 10 March 1978, and the production Mirage 2000C air-defence version entered operational French service in 1984. The type then broadened into the two-seat Mirage 2000B trainer, Mirage 2000N nuclear strike aircraft, Mirage 2000D conventional strike aircraft, and the Mirage 2000-5/-9 modernized multirole families.",
             "refs": [
-              "fn-wikidata"
+              "fn-dassault-support",
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "Production concluded after roughly 600 aircraft, with Dassault emphasizing that half were exported. Wikipedia's summary gives 601 built and notes that the final new aircraft went to Greece in 2007; the page therefore records the total as about 600-601 rather than forcing one exact value.",
+            "refs": [
+              "fn-dassault-support",
+              "fn-wikipedia"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "Design aim: replace Mirage III-era fighters with a modern single-engine delta that remained exportable and supportable.",
             "refs": [
-              "fn-method"
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "Key growth path: air defence first, then two-seat nuclear strike, conventional strike and upgraded multirole/export standards.",
             "refs": [
-              "fn-method"
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "Modernization continued after production ended, including Indian Mirage 2000I/TI upgrades, UAE -9 upgrade planning and French Mirage 2000D renovation.",
+            "refs": [
+              "fn-airforce-tech"
             ]
           }
         ]
@@ -51859,120 +52009,105 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1 or 2. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The Mirage 2000 uses a tailless delta wing, side-mounted air intakes and a single M53-P2 afterburning turbofan. Dassault's public support data lists a 29.9 ft span, 47 ft length, 38,500 lb maximum takeoff weight and 98 kN maximum thrust from the M53-P2.",
             "refs": [
-              "fn-main"
+              "fn-dassault-support"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Airforce Technology describes the Mirage 2000-5 cockpit with HOTAS controls, a Thales head-up display and multiple multifunction displays. The Mirage 2000-5's RDY radar provides multi-target air-defence modes; the 2000D and other strike variants rely on navigation/attack systems and laser designation pods for precision weapons.",
             "refs": [
-              "fn-method"
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Dassault Mirage 2000 uses jet propulsion. Engine model field: Not listed.",
+            "text": "The single-seat fighter has two internal 30 mm cannon and nine store stations. Air-to-air weapons include Magic, Super 530D and MICA depending standard; strike weapons can include laser-guided bombs, AS-30L, Exocet, Apache, SCALP/Storm Shadow-family weapons and nuclear ASMP/ASMPA on the appropriate French nuclear variants.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-dassault-support",
+              "fn-airforce-tech"
             ]
           }
         ],
         "cards": [
           {
+            "title": "Configuration",
+            "text": "Single-engine tailless delta fighter"
+          },
+          {
             "title": "Crew",
-            "text": "1 or 2"
+            "text": "One or two depending variant"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Engine",
+            "text": "SNECMA M53-P2, 98 kN maximum thrust"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Stores",
+            "text": "Nine store stations"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Internal gun",
+            "text": "Two 30 mm guns on single-seat aircraft"
           },
           {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Sensors",
+            "text": "RDY radar and upgraded cockpit/sensor suite on Mirage 2000-5; strike-navigation systems on 2000D/N"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Dassault Mirage 2000 status: Active. Conflict entries: 2.",
+            "text": "The figures below combine Dassault manufacturer support data with Airforce Technology's Mirage 2000 article. They are representative public values, not a single universal configuration: Mirage 2000C/B, N, D, -5, -9 and national upgrades differ in sensors, empty weight, weapons wiring and mission equipment.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: Kosovo War, 2011 military intervention in Libya.",
-            "refs": [
+              "fn-dassault-support",
+              "fn-airforce-tech",
               "fn-method"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Kosovo War: Dassault Mirage 2000 used in Kosovo War.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Length",
+            "text": "47 ft / about 14.3 m"
           },
           {
-            "text": "2011 military intervention in Libya: Dassault Mirage 2000 used in 2011 military intervention in Libya.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Dassault Mirage 2000 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Wingspan",
+            "text": "29.9 ft / about 9.1 m"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Height",
+            "text": "About 5.2 m in Airforce Technology data"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum takeoff weight",
+            "text": "38,500 lb"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Combat weight",
+            "text": "21,000 lb"
+          },
+          {
+            "title": "Maximum speed",
+            "text": "Mach 2.2+ / about 2,530 km/h"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "55,000-60,000 ft depending source"
+          },
+          {
+            "title": "Climb",
+            "text": "60,000 ft/min / about 285 m/s"
+          },
+          {
+            "title": "Range",
+            "text": "1,550 km listed range; 3,335 km ferry range"
+          },
+          {
+            "title": "Combat radius example",
+            "text": "830 nmi at Mach 0.8/15,000 ft with six MICA and tanks dropped before combat, per Dassault"
           }
         ]
       },
@@ -51981,41 +52116,42 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Dassault Mirage 2000 variant-family entries: 4. Variant families: Dassault Mirage 2000 baseline production model; Dassault Mirage 2000 upgraded avionics or weapons-capable model; Dassault Mirage 2000 two-seat trainer or conversion model; Dassault Mirage 2000 export or locally modernized model.",
+            "text": "The Mirage 2000 family is best understood by mission standard. The C/B aircraft formed the fighter and conversion-training baseline; the N/D aircraft created two-seat strike branches; and the -5/-9 aircraft added more modern radar, cockpit, missile and multirole features for France and export customers.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-airforce-tech",
+              "fn-wikipedia"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Dassault Mirage 2000 baseline production model",
+            "text": "Mirage 2000C/B: single-seat air-defence fighter and two-seat trainer/conversion aircraft.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Dassault Mirage 2000 upgraded avionics or weapons-capable model",
+            "text": "Mirage 2000N: two-seat all-weather low-altitude nuclear strike aircraft for ASMP and later ASMPA on upgraded aircraft.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Dassault Mirage 2000 two-seat trainer or conversion model",
+            "text": "Mirage 2000D: conventional strike aircraft derived from the N and optimized for automated bombing, laser-guided weapons and later renovation.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Dassault Mirage 2000 export or locally modernized model",
+            "text": "Mirage 2000-5/-5 Mk2: improved air-defence/multirole family with RDY radar, MICA integration and upgraded cockpit/sensor management.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "Mirage 2000-9 and national upgrades: UAE and Indian aircraft received customized avionics and weapons packages; exact capability depends on customer standard.",
+            "refs": [
+              "fn-airforce-tech"
             ]
           }
         ]
@@ -52025,45 +52161,88 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: France. Dassault Mirage 2000 has 1 designer or builder country entry.",
+            "text": "Dassault says eight export countries selected the Mirage 2000: Brazil, Egypt, Greece, India, Peru, Qatar, Taiwan and the United Arab Emirates. Together with France, that made the aircraft one of the most widely exported Western fourth-generation fighters outside the F-16 family.",
             "refs": [
-              "fn-wikidata"
+              "fn-dassault-support"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Operator status changes over time. France retired the Mirage 2000C air-defence version but continued Mirage 2000D strike modernization; Brazil's second-hand aircraft are historical, while Indian, UAE, Taiwanese and Greek status should be checked against current fleet reporting before giving exact numbers.",
             "refs": [
+              "fn-airforce-tech",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "France: original air-defence, nuclear and conventional-strike operator; Rafale progressively replaced fighter roles.",
             "refs": [
-              "fn-main"
+              "fn-dassault-support",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Major designer or builder entries: France.",
+            "text": "India: major export user with a long-running modernization to Mirage 2000I/TI standard.",
             "refs": [
-              "fn-wikidata"
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "United Arab Emirates: Mirage 2000-9 and customized -5-derived aircraft with stand-off weapon integration and later upgrade planning.",
+            "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "Taiwan, Greece, Egypt, Peru, Qatar and Brazil: additional export users with differing variants and current statuses.",
+            "refs": [
+              "fn-dassault-support",
+              "fn-airforce-tech"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1 or 2, propulsion type Jet, maximum speed category Supersonic, first flight 1978, introduction 1984.",
+            "text": "In French service, the Mirage 2000 covered air-defence alert, nuclear deterrence, precision strike and expeditionary support tasks. Airforce Technology notes French Mirage 2000D deployment to Kandahar in October 2008 for NATO ISAF support, while public summaries also associate the type with Kosovo and Libya operations.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Export-service use differed by country. Indian Mirage 2000 aircraft became known for precision-strike employment, UAE Mirage 2000s served in Gulf-region operations, and Peruvian aircraft were connected to regional deployments. The page avoids unverified air-to-air or strike claims unless supported by operator-specific sources.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Kosovo: Dassault highlights 100% demonstrated wartime availability during Kosovo in its support data.",
+            "refs": [
+              "fn-dassault-support"
+            ]
+          },
+          {
+            "text": "Afghanistan: French Mirage 2000D aircraft deployed to Kandahar in 2008 for ISAF support.",
+            "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "Libya and other expeditionary operations: French Mirage 2000 aircraft were used before Rafale became the dominant French fighter type.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "India and UAE: combat histories are important but claim-sensitive; this entry records broad use and leaves detailed claims for source-specific review.",
             "refs": [
               "fn-method"
             ]
@@ -52071,11 +52250,145 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
         "paragraphs": [
           {
-            "text": "Dassault Mirage 2000 similar-development links: 4.",
+            "text": "The Mirage 2000's strengths were high speed, rapid climb, simple single-engine support, strong exportability and a growth path from interceptor to precision-strike and multirole standards. Its compact delta layout and M53 engine provided Mach 2-class performance without the cost of a twin-engine fighter.",
+            "refs": [
+              "fn-dassault-support",
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "Limitations include delta-wing fuel/range penalties relative to larger fighters, variant-specific avionics and weapons clearances, and a smaller upgrade base than the globally dominant F-16. Older C/B and early export aircraft should not be assumed to share Mirage 2000-5, -9, D RMV or Mirage 2000I/TI capabilities.",
+            "refs": [
+              "fn-method",
+              "fn-airforce-tech"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Role Context",
+        "paragraphs": [
+          {
+            "text": "Compared with the F-16, the Mirage 2000 was another single-engine fourth-generation fighter focused on export affordability and multirole growth, but it used Dassault's tailless delta architecture rather than the F-16's blended-wing-body layout and relaxed-stability design. Compared with the Mirage III and Mirage F1, it added modern radar, controls and weapons integration for the 1980s and later.",
+            "refs": [
+              "fn-method",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "The Rafale eventually replaced the Mirage 2000 as France's primary fighter, but the Mirage 2000D modernization illustrates the older airframe's continued usefulness where upgraded sensors, precision weapons and support infrastructure remain available.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-wikipedia"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "General Dynamics F-16 Fighting Falcon",
+            "url": "aircraft.html?id=f-16-fighting-falcon"
+          },
+          {
+            "label": "Dassault Rafale",
+            "url": "aircraft.html?id=rafale"
+          },
+          {
+            "label": "Dassault Mirage III",
+            "url": "aircraft.html?id=mirage-iii"
+          },
+          {
+            "label": "Dassault Mirage F1",
+            "url": "aircraft.html?id=mirage-f1"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1970s: French future-fighter studies shifted toward a more affordable single-engine delta fighter.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "10 March 1978: Mirage 2000 prototype made its first flight.",
+            "refs": [
+              "fn-dassault-support",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "1984: Mirage 2000 entered French operational service in the air-defence role.",
+            "refs": [
+              "fn-dassault-support"
+            ]
+          },
+          {
+            "text": "Late 1980s-1990s: Mirage 2000N/D strike variants and Mirage 2000-5 modernization broadened the family.",
+            "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "1997: First Mirage 2000-5 delivered to Taiwan, according to Airforce Technology.",
+            "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "2007: Final new Mirage 2000 delivered to Greece, per Wikipedia's summary.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "2011-2016: Indian Mirage 2000 upgrade program moved toward Mirage 2000I/TI operational configuration.",
+            "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "2020s: Mirage 2000D renovation and export-fleet updates kept selected aircraft relevant after French Mirage 2000C retirement.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Dassault's support page is the primary source for manufacturer-stated production, export, first-flight, service-introduction and headline performance data. Airforce Technology supplies detailed public variant, weapons, cockpit, operator and upgrade context. Wikipedia is used only as supplementary orientation and for cross-checking broad chronology.",
+            "refs": [
+              "fn-dassault-support",
+              "fn-airforce-tech",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Some values differ by source and variant. The article therefore gives ranges or source-qualified examples for production total, range, service ceiling, weapons fits and current operator status instead of treating one Mirage 2000 variant as universal.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related aircraft include predecessors, Dassault successors and contemporary single-engine or lightweight fighter comparisons.",
             "refs": [
               "fn-method"
             ]
@@ -52083,20 +52396,28 @@
         ],
         "links": [
           {
-            "label": "McDonnell Douglas F-15 Eagle",
-            "url": "aircraft.html?id=f-15-eagle"
+            "label": "Dassault Mirage III",
+            "url": "aircraft.html?id=mirage-iii"
+          },
+          {
+            "label": "Dassault Mirage F1",
+            "url": "aircraft.html?id=mirage-f1"
+          },
+          {
+            "label": "Dassault Rafale",
+            "url": "aircraft.html?id=rafale"
           },
           {
             "label": "General Dynamics F-16 Fighting Falcon",
             "url": "aircraft.html?id=f-16-fighting-falcon"
           },
           {
-            "label": "McDonnell Douglas F/A-18 Hornet",
-            "url": "aircraft.html?id=f-a-18-hornet"
+            "label": "Mikoyan-Gurevich MiG-21",
+            "url": "aircraft.html?id=mig-21"
           },
           {
-            "label": "Boeing F/A-18E/F Super Hornet",
-            "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+            "label": "Back to Aircraft Database",
+            "url": "index.html#database"
           }
         ]
       }

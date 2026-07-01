@@ -3152,3 +3152,81 @@ Record the result of:
 * Public JF-17 operator counts, delivery totals, radar performance, combat claims, and exact weapon clearances are date-sensitive or contested, so the page uses cautious wording and omits unsupported specifics.
 * Block III avionics and flight-control descriptions come from PAC public wording and should not be assumed to apply unchanged to all earlier blocks or export aircraft.
 * The final commit hash cannot be embedded into the committed change log without changing the commit itself; it is reported separately in the scheduled-run response.
+
+### Run 42 — 2026-07-01 13:01:55 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Dassault Mirage 2000 (id: mirage-2000)
+* Reason selected: It was one of the shortest unedited fighter entries remaining in the repository scan, with zero variant entries, zero operator entries, no real engine/range/ceiling/hardpoint specifications, generic armament wording, and only generic Wikipedia/Wikidata/local-method sources despite being a major fourth-generation fighter.
+* Previous condition: Sparse generated JSON record with placeholder-like top-level fields, no detailed development history, no Mirage 2000C/B/N/D/-5/-9 or export-upgrade coverage, no operator list, no cockpit/radar/weapons-system detail, and a short generic section set far below the F-16 reference density.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview; F-16-like flow from overview to development history, design/capabilities, specifications, variants, operators, operational history, strengths/limitations, comparison, timeline, sources, and related pages; card-style technical facts; cautious variant-dependent specification wording; source-qualified paragraphs; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the Dassault Mirage 2000 record from a sparse generated entry into a fuller Milipedia article-style data record while preserving the JSON renderer-supported structure.
+* Replaced placeholder top-level fields with sourced role, first-flight date, service-entry context, production/export total caveat, status/retirement wording, crew, SNECMA M53-P2 engine, speed, range, combat-radius example, service ceiling, climb rate, armament, hardpoints, development history, combat-history caveat, and short summary.
+* Added Dassault manufacturer support data for first flight, French service introduction, production/export count, dimensions, thrust, store stations, speed, climb, ceiling, and combat-radius example.
+* Added Airforce Technology technical/program details covering Mirage 2000C/B, Mirage 2000N, Mirage 2000D, Mirage 2000-5, Mirage 2000-9, Indian Mirage 2000I/TI upgrades, cockpit/radar systems, weapons, operators, and upgrade chronology.
+* Added variant coverage for Mirage 2000C, Mirage 2000B, Mirage 2000N, Mirage 2000D, Mirage 2000-5, Mirage 2000-9, and Mirage 2000I/TI.
+* Added operator coverage for France, India, United Arab Emirates, Taiwan, Greece, and a grouped Egypt/Peru/Qatar/Brazil export entry with date-sensitive current-status wording.
+* Added article sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Comparison and Role Context, Timeline, Sources and Notes, and Related Pages.
+* Added specification cards for length, wingspan, height, maximum takeoff weight, combat weight, maximum speed, service ceiling, climb rate, range, and a Dassault combat-radius example.
+* Added source records and external-article links for Dassault Aviation, Airforce Technology, Wikipedia as supplementary orientation, Wikidata, and Milipedia data accuracy rules.
+* Added internal related-page links to Mirage III, Mirage F1, Rafale, F-16 Fighting Falcon, and MiG-21 after checking those IDs exist.
+* Omitted or caveated exact current fleet counts, detailed national aircraft-by-aircraft upgrade status, specific combat claims, and universal weapon-clearance tables because those facts vary by variant, operator, date, and source.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Dassault Mirage 2000 aircraft entry with sourced specifications, variants, operators, article sections, sources, and related links.
+* hermes-change-log.md — Appended the cumulative run entry for this update.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Confirmed branch hermes-agent; before commit, only data/aircraft.json and hermes-change-log.md were intended staged files.
+2. git diff — Reviewed diff/stat; data/aircraft.json changed exactly one aircraft entry, preserving id mirage-2000, and hermes-change-log.md gained this cumulative Run 42 entry.
+3. File review — Parsed data/aircraft.json successfully and reviewed the Mirage 2000 section list, sources, variants, operators, armament wording, specification cards, and source caveats.
+4. F-16 style comparison — Inspected data/f16-template.html and mirrored its dense overview, development/design/specifications/variants/operators/operational-history/comparison/timeline/source/related-page pattern within the JSON-rendered page structure.
+5. Internal link check — Parsed aircraft.html?id= links in the Mirage 2000 entry and verified f-16-fighting-falcon, rafale, mirage-iii, mirage-f1, and mig-21 exist in data/aircraft.json.
+6. Secret/token check — Scanned the staged diff with credential-specific patterns for private keys, passwords, cloud credentials, and access/auth token assignments; no credentials were found.
+7. Final review before commit — Confirmed JSON validity, branch safety, intended files only, exactly one aircraft entry changed, internal links valid, no substantial previous Hermes edit for this aircraft, and no trailing-whitespace diff errors.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Dassault Mirage 2000
+* Commit hash: Pending until commit is created; final hash is reported in the scheduled-run response.
+
+#### Issues or Uncertainties
+
+* Dassault's current public Mirage 2000 page is a customer-support page rather than a full historical monograph, so Airforce Technology and Wikipedia were used to supplement variant and operational context.
+* The exact number-built figure differs slightly by source: Dassault states 600 produced, while the supplementary Wikipedia summary gives 601. The page records about 600-601 and notes Dassault's 50% export statement.
+* Current operator counts, national upgrade status, and detailed combat claims are date-sensitive; the update uses cautious wording and omits unsupported specifics.
+* The final commit hash cannot be embedded into the committed change log without changing the commit itself; it is reported separately in the scheduled-run response.
