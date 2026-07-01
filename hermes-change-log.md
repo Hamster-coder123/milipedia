@@ -2459,3 +2459,81 @@ Record the result of:
 * Su-34 specifications vary by baseline aircraft, modernized Su-34M configuration, external tanks, mission profile, and weapons load; representative figures are sourced and caveated.
 * Exact current production totals, export deliveries, current fleet status, combat losses, and detailed Ukraine-war claims were intentionally omitted or qualified because they are date-sensitive and may be disputed.
 * The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.
+
+### Run 33 — 2026-07-01 04:01:46 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Sukhoi Su-25 (id: su-25)
+* Reason selected: The Su-25 entry was the shortest unedited aircraft candidate in the sparse-page scan and had no real operator entries, no variant entries, only one external article source, missing specifications, and placeholder-like generated prose compared with the F-16 reference.
+* Previous condition: Sparse generated entry with 15 exact fact fields, 0 operator entries, 0 variant entries, 1 weak external source, generic armament wording, missing engine/dimensions/range/ceiling details, and short sections that lacked development, design, weapons, operators, variants, comparison, timeline, and source-note density.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense lead overview; pill/fact-card style translated into JSON cards; section order covering overview, development, design, weapons, specifications, variants, operators, operational history, strengths/limitations, comparison, timeline, sources, and related pages; concise sourced paragraphs; internal aircraft.html?id=... related-link style; caveated wording for variant-, operator-, and mission-dependent figures.
+
+#### Changes Made
+
+* Expanded the Sukhoi Su-25 entry from a sparse generated record into a fuller Milipedia article data page.
+* Added Grach/Frogfoot naming, NATO reporting name, refined manufacturer/production context, role, first-flight date, service-entry date, active-status caveats, production-total caveat, crew notes, R-195 engine data, speed, range, combat radius, service ceiling, climb rate, hardpoints, and detailed armament wording.
+* Replaced generic gun/missile/external-stores text with Su-25-specific 30 mm cannon, rockets, bombs, gun pods, air-to-ground missiles, limited self-defense air-to-air missiles, and variant/operator caveats.
+* Added and normalized sources from Airforce Technology / GlobalData, SKYbrary Aviation Safety, Wikipedia as supplementary orientation, Wikidata, and Milipedia data-accuracy rules.
+* Added detailed article sections for Overview, Development History, Design and Capabilities, Weapons Systems, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Comparison, Timeline, Sources and Notes, and Related Pages.
+* Added variant coverage for Su-25, Su-25K, Su-25UB/UBK, Su-25UTG, Su-25T, Su-25TM/Su-39, Su-25SM/SM3, Su-25KM Scorpion, and Su-28.
+* Added operator coverage for Russia, Ukraine, Belarus, Bulgaria, Georgia, North Korea, Peru, Iraq, and other export users, with cautions about date-sensitive fleet status.
+* Added representative specifications for length, wingspan, height, wing area, empty/normal/maximum take-off weight, engines, speed, range, combat radius, service ceiling, and external load.
+* Added operational-history wording for the Soviet-Afghan War and later conflicts while avoiding exact sortie, loss, and combat-claim totals because they are date-sensitive or disputed.
+* Added internal related links to A-10 Thunderbolt II, SEPECAT Jaguar, Su-24, and Su-34, plus the database return link.
+* Omitted exact current inventory counts, exact modern combat loss totals, and operator-specific weapons clearances where public reporting is unstable or variant-specific.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded the Sukhoi Su-25 aircraft page data, sources, article sections, variants, operators, specifications, armament, and related links.
+* hermes-change-log.md — Appended this cumulative Run 33 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed the data/aircraft.json diff and confirmed it changed only the Su-25 record; reviewed the log append before commit.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool and reviewed the Su-25 entry's section titles, source IDs, variant/operator counts, specifications, armament caveats, related links, and summary text.
+4. F-16 style comparison — Inspected data/f16-template.html and copied its dense overview, fact-card, section-order, technical-specification, comparison, timeline, source-note, and related-link patterns within the JSON-rendered page format.
+5. Internal link check — Parsed aircraft.html?id=... links in the updated Su-25 entry and verified a-10-thunderbolt-ii, sepecat-jaguar, su-24, and su-34 exist in data/aircraft.json; aircraft.html was treated as an existing database navigation link.
+6. Secret/token check — Ran a credential-pattern scan over the intended diff for API keys, access/auth tokens, passwords, private keys, GitHub tokens, and AWS credentials; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, git diff --check success, one-entry JSON change, intended files only, Su-25 was not previously edited by Hermes, and no direct main-branch edit.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Sukhoi Su-25
+* Commit hash: Pending until commit is created; final hash is reported in the scheduled-run response.
+
+#### Issues or Uncertainties
+
+* Su-25 specifications vary by baseline aircraft, export configuration, modernization standard, weapons load, external tanks, and mission profile; representative figures are sourced and caveated.
+* Exact current inventory counts, modern combat losses, and operator-specific weapons clearances were intentionally omitted or qualified because they are date-sensitive or difficult to verify from stable public sources.
+* The U.S. Army ODIN Su-25 page was found in search results but web extraction failed, so it was not used as a cited source in this run.
+* The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.

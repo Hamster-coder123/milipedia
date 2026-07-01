@@ -36062,34 +36062,116 @@
   {
     "id": "su-25",
     "name": "Sukhoi Su-25",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "alternative_names": [
+      "Su-25 Grach",
+      "Frogfoot"
+    ],
+    "nato_reporting_name": "Frogfoot",
     "country_of_origin": "Soviet Union",
-    "manufacturer": "Sukhoi",
-    "role": "Close air support aircraft",
+    "manufacturer": "Sukhoi Design Bureau; production associated with Tbilisi and Ulan-Ude plants",
+    "role": "Armored close air support and ground-attack aircraft",
     "aircraft_type": "Attack aircraft",
     "era": "Modern",
-    "first_flight": "1975",
-    "introduction_date": "1981",
+    "first_flight": "22 February 1975",
+    "introduction_date": "July 1981",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "1",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "status": "Active with Russia, Ukraine, and multiple export operators; serviceability and fleet sizes vary by country",
+    "number_built": "About 1,024 according to Airforce Technology; other public sources describe over 1,000",
+    "crew": "1 pilot; two-seat Su-25UB/UBK trainers carry 2",
+    "engine_type": "Twin non-afterburning turbojet",
+    "engines": "Two Soyuz/Gavrilov R-195 turbojets, about 44.18 kN thrust each",
+    "max_speed": "About 950 km/h at sea level",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Sukhoi Su-25: Close air support aircraft. Manufacturer: Sukhoi. First flight: 1975. Introduction: 1981.",
-    "short_summary": "Sukhoi Su-25: Close air support aircraft. Origin: Soviet Union. Manufacturer: Sukhoi. First flight: 1975. Introduction: 1981. Status: Active.",
+    "range": "About 750 km with a 4,400 kg weapon load and external tanks; ferry range claims vary and may include external tanks",
+    "combat_range": "About 375 km in the Airforce Technology baseline profile; radius varies sharply with loadout, altitude, and fuel tanks",
+    "service_ceiling": "About 7,000 m; about 5,000 m with full weapon load in the cited baseline",
+    "rate_of_climb": "About 58 m/s in the cited baseline",
+    "armament": "One 30 mm twin-barrel cannon with 250 rounds; up to about 4,400 kg of rockets, bombs, gun pods, air-to-ground missiles, and short-range self-defense air-to-air missiles on multiple pylons, depending on variant and operator clearance.",
+    "hardpoints": "Ten wing pylons/stations commonly cited for Su-25 stores; exact authorized loads vary by variant and operator",
+    "variants": [
+      {
+        "name": "Su-25",
+        "description": "Baseline single-seat close-support production aircraft for Soviet service, optimized for low-altitude battlefield attack."
+      },
+      {
+        "name": "Su-25K",
+        "description": "Export version supplied to Warsaw Pact and other customers; equipment, weapons clearances, and later upgrade paths varied by operator."
+      },
+      {
+        "name": "Su-25UB / Su-25UBK",
+        "description": "Two-seat operational conversion and weapons-training versions, with UBK denoting an export training variant."
+      },
+      {
+        "name": "Su-25UTG",
+        "description": "Navalized carrier-training derivative with arresting gear for Russian carrier pilot training; not a full strike-production naval fleet type."
+      },
+      {
+        "name": "Su-25T / Su-25TM / Su-39",
+        "description": "Anti-tank and advanced attack developments with improved sensors and precision-weapon concepts, produced only in small numbers or prototypes."
+      },
+      {
+        "name": "Su-25SM / SM3",
+        "description": "Russian modernization standards adding updated navigation, weapons-control, survivability, and cockpit/avionics improvements over legacy aircraft."
+      },
+      {
+        "name": "Su-25KM Scorpion",
+        "description": "Georgian/Israeli modernization proposal with updated avionics and cockpit displays for legacy Su-25K airframes."
+      },
+      {
+        "name": "Su-28",
+        "description": "Demilitarized advanced trainer derivative based on the Su-25UB family."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Russia",
+        "service": "Russian Aerospace Forces and related aviation units",
+        "notes": "Largest continuing post-Soviet operator; upgraded Su-25SM/SM3 aircraft supplement surviving legacy airframes."
+      },
+      {
+        "country": "Ukraine",
+        "service": "Ukrainian Air Force",
+        "notes": "Inherited and operated Su-25s after the Soviet breakup; wartime availability and losses are date-sensitive."
+      },
+      {
+        "country": "Belarus",
+        "service": "Belarusian Air Force",
+        "notes": "Listed among operators in public aviation references and modernization/overhaul discussions."
+      },
+      {
+        "country": "Bulgaria",
+        "service": "Bulgarian Air Force",
+        "notes": "Operated Su-25K/UBK aircraft and contracted modernization work for part of the fleet in the late 2010s."
+      },
+      {
+        "country": "Georgia",
+        "service": "Georgian Air Force / Tbilisi-linked production and modernization ecosystem",
+        "notes": "Associated with Tbilisi production and the Su-25KM Scorpion modernization; operational status has varied over time."
+      },
+      {
+        "country": "North Korea",
+        "service": "Korean People's Army Air Force",
+        "notes": "Received Soviet-era Su-25 deliveries; current readiness and modernization status are difficult to verify publicly."
+      },
+      {
+        "country": "Peru",
+        "service": "Peruvian Air Force",
+        "notes": "Long-running export operator of Su-25 attack aircraft in South America."
+      },
+      {
+        "country": "Iraq",
+        "service": "Iraqi Air Force",
+        "notes": "Operated Su-25s historically and received additional aircraft during the campaign against the Islamic State; exact fleet status is date-sensitive."
+      },
+      {
+        "country": "Other export users",
+        "service": "Selected African, Asian, and former Soviet/Warsaw Pact air arms",
+        "notes": "Public lists include operators such as Angola, Azerbaijan, Kazakhstan, Turkmenistan, and others, but individual inventories change through losses, storage, transfer, and retirement."
+      }
+    ],
+    "combat_history": "Used in the Soviet-Afghan War and numerous post-Soviet or export-operator conflicts, including Chechnya, the 2008 Russia-Georgia war, Syria, Nagorno-Karabakh, and the Russo-Ukrainian War; combat-loss and sortie claims require careful source checking.",
+    "development_history": "The Su-25 was developed by Sukhoi as a rugged, low-altitude close-air-support aircraft for Soviet ground forces. The prototype first flew on 22 February 1975, production began before service entry, and the type entered operational service in 1981.",
+    "short_summary": "The Sukhoi Su-25 Grach (NATO: Frogfoot) is a Soviet-designed, armored, twin-turbojet close-air-support aircraft built for battlefield attack at low altitude. It remains active with Russia, Ukraine, and several export operators, with many airframes upgraded or locally modernized.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -36102,18 +36184,32 @@
     ],
     "sources": [
       {
+        "id": "fn-aft-su25",
+        "title": "Su-25 (Su-28) Frogfoot Close-Support Aircraft",
+        "url": "https://www.airforce-technology.com/projects/su25/",
+        "publisher": "Airforce Technology",
+        "note": "Used for baseline dimensions, performance figures, variants, weapons, engine, and operator examples."
+      },
+      {
+        "id": "fn-skybrary-su25",
+        "title": "SUKHOI Su-25",
+        "url": "https://skybrary.aero/aircraft/su25",
+        "publisher": "SKYbrary Aviation Safety",
+        "note": "Used for concise aircraft description, service context, engine type, and general variant overview."
+      },
+      {
         "id": "fn-main",
         "title": "Sukhoi Su-25",
         "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-25",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "note": "Supplementary orientation for dates, broad operator/variant context, and conflict list; not used as the sole authority for technical claims."
       },
       {
         "id": "fn-wikidata",
         "title": "Wikidata Query Service",
         "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "publisher": "Wikidata",
+        "note": "Open structured data source used for aircraft identifiers and relationship checks."
       },
       {
         "id": "fn-method",
@@ -36121,13 +36217,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.warfare.ru/?linkid=1611&catid=256",
-        "publisher": "warfare.ru",
-        "note": "External source for Sukhoi Su-25."
       }
     ],
     "country_flags": [
@@ -36157,10 +36246,12 @@
     ],
     "operator_summary": {
       "major_designer_or_builder": [
-        "Soviet Union"
+        "Soviet Union",
+        "Russia",
+        "Georgia"
       ],
-      "major_user_note": "Sukhoi Su-25 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Major users have included Soviet/Russian forces, Ukraine, Belarus, Bulgaria, North Korea, Peru, Iraq, and several smaller export operators.",
+      "all_operators_status": "Operator lists are date-sensitive because combat losses, storage, transfers, and modernization programs have changed fleet availability."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -36173,12 +36264,12 @@
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Sukhoi Su-25 uses jet propulsion."
+      "type": "Twin turbojet",
+      "summary": "Two R-195-class non-afterburning turbojets provide the low-altitude thrust and simplicity expected of a battlefield attack aircraft."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Fixed 30 mm cannon plus rockets, bombs, guided air-to-ground missiles, gun pods, and limited short-range air-to-air missiles depending on variant and stores clearance.",
+      "caution": "Exact wartime loadouts vary by operator, upgrade standard, mission, available munitions, and pylon restrictions."
     },
     "similar_development": [
       {
@@ -36193,18 +36284,32 @@
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 1
+      "exact_fact_count": 40,
+      "operator_entries": 9,
+      "variant_entries": 8,
+      "external_article_sources": 4
     },
     "footnotes": [
+      {
+        "id": "fn-aft-su25",
+        "title": "Su-25 (Su-28) Frogfoot Close-Support Aircraft",
+        "url": "https://www.airforce-technology.com/projects/su25/",
+        "publisher": "Airforce Technology",
+        "note": "Baseline dimensions, weights, R-195 engines, weapons, operators, variants, and performance figures."
+      },
+      {
+        "id": "fn-skybrary-su25",
+        "title": "SUKHOI Su-25",
+        "url": "https://skybrary.aero/aircraft/su25",
+        "publisher": "SKYbrary Aviation Safety",
+        "note": "Concise aviation-safety reference for role, engine class, armor/design context, and service overview."
+      },
       {
         "id": "fn-main",
         "title": "Sukhoi Su-25",
         "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-25",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "note": "Supplementary orientation for broad service history and article structure."
       },
       {
         "id": "fn-wikidata",
@@ -36219,22 +36324,29 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.warfare.ru/?linkid=1611&catid=256",
-        "publisher": "warfare.ru",
-        "note": "External source for Sukhoi Su-25."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.warfare.ru/?linkid=1611&catid=256",
-        "publisher": "warfare.ru",
-        "note": "External source for Sukhoi Su-25."
+        "id": "fn-aft-su25",
+        "title": "Su-25 (Su-28) Frogfoot Close-Support Aircraft",
+        "url": "https://www.airforce-technology.com/projects/su25/",
+        "publisher": "Airforce Technology",
+        "note": "Detailed baseline source for technical data and systems."
+      },
+      {
+        "id": "fn-skybrary-su25",
+        "title": "SUKHOI Su-25",
+        "url": "https://skybrary.aero/aircraft/su25",
+        "publisher": "SKYbrary Aviation Safety",
+        "note": "Concise technical and operational description."
+      },
+      {
+        "id": "fn-main",
+        "title": "Sukhoi Su-25",
+        "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-25",
+        "publisher": "Wikipedia",
+        "note": "Supplementary overview and reference discovery."
       }
     ],
     "article_sections": [
@@ -36243,20 +36355,17 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-25 is a Close air support aircraft from Soviet Union. Manufacturer: Sukhoi. First flight: 1975. Introduction: 1981. Status: Active.",
+            "text": "The Sukhoi Su-25 Grach, known to NATO as Frogfoot, is a rugged Soviet-designed close-air-support aircraft built around low-altitude battlefield attack rather than high-speed interception. It combines a single-seat armored cockpit, twin turbojet engines, a heavy fixed cannon, and a large external-stores capacity for rockets, bombs, gun pods, and air-to-ground missiles.",
             "refs": [
-              "fn-main"
+              "fn-aft-su25",
+              "fn-skybrary-su25"
             ]
           },
           {
-            "text": "Sukhoi Su-25 is a attack aircraft. Primary role: close air support aircraft. Country of origin: Soviet Union. Manufacturer: Sukhoi.",
+            "text": "The type first flew on 22 February 1975 and entered Soviet service in 1981. It remains active with Russia, Ukraine, and several export operators, but public fleet counts are highly date-sensitive because of combat losses, storage, transfers, and local modernization programs.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Exact structured fact fields: 15.",
-            "refs": [
+              "fn-aft-su25",
+              "fn-main",
               "fn-method"
             ]
           }
@@ -36264,160 +36373,177 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Close air support aircraft"
+            "text": "Armored close air support / ground attack"
           },
           {
-            "title": "Designer or builder",
-            "text": "Sukhoi"
+            "title": "NATO reporting name",
+            "text": "Frogfoot"
           },
           {
-            "title": "Major origin",
-            "text": "Soviet Union"
+            "title": "First flight",
+            "text": "22 February 1975"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Introduced",
+            "text": "July 1981"
+          },
+          {
+            "title": "Engines",
+            "text": "2 × R-195-class turbojets"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-25 first flew in 1975. Introduction date: 1981. Era: Modern.",
+            "text": "Sukhoi developed the Su-25 to provide Soviet ground forces with a dedicated armored attack aircraft able to operate close to the front line. Its concept emphasized survivability, simple maintenance, and effective low-altitude weapons delivery rather than supersonic speed or long-range strategic strike.",
             "refs": [
+              "fn-skybrary-su25",
               "fn-main"
             ]
           },
           {
-            "text": "Producer: Sukhoi. Development context: close air support aircraft, jet propulsion, subsonic speed category, Modern era.",
+            "text": "Series production and operational introduction followed the 1975 prototype flight, with the aircraft entering service in July 1981. Production and upgrade work became associated with multiple facilities, including Tbilisi and Ulan-Ude, and post-Soviet modernization paths created a wide spread of equipment standards across surviving fleets.",
             "refs": [
-              "fn-wikidata"
+              "fn-aft-su25",
+              "fn-main"
             ]
           }
         ],
-        "bullets": []
+        "bullets": [
+          {
+            "text": "Design goal: close air support against mobile and stationary ground targets near the forward edge of battle.",
+            "refs": [
+              "fn-aft-su25"
+            ]
+          },
+          {
+            "text": "Production total: about 1,024 in the Airforce Technology summary, while broader public sources often describe the family as over 1,000 aircraft.",
+            "refs": [
+              "fn-aft-su25",
+              "fn-method"
+            ]
+          }
+        ]
       },
       {
         "id": "design",
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Subsonic.",
+            "text": "The Su-25 is a shoulder-wing, subsonic attack aircraft with a single armored cockpit and two engines mounted close to the fuselage. The cockpit area is protected by titanium armor and armored transparencies, reflecting the aircraft's expected exposure to small arms, light anti-aircraft fire, and missile threats during low-level attack runs.",
             "refs": [
-              "fn-main"
+              "fn-aft-su25",
+              "fn-skybrary-su25"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Baseline navigation and attack equipment includes optical/laser ranging and targeting aids, a gun/bomb sight, radio-navigation equipment, and countermeasures. Modernized Su-25SM-family aircraft add updated navigation, weapons-control, defensive, and cockpit systems, but equipment differs widely by country and upgrade package.",
             "refs": [
+              "fn-aft-su25",
               "fn-method"
             ]
           },
           {
-            "text": "Sukhoi Su-25 uses jet propulsion. Engine model field: Not listed.",
+            "text": "Unlike dedicated air-superiority fighters, the Su-25's value lies in ruggedness, weapons flexibility, and short-to-medium-range battlefield persistence. It is not stealthy, carrier capable in baseline form, or optimized for beyond-visual-range air combat.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-aft-su25",
+              "fn-method"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "1"
+            "text": "1 pilot; 2 in UB/UBK trainers"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Structure",
+            "text": "Armored cockpit, rugged low-altitude attack airframe"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Countermeasures",
+            "text": "Radar-warning and chaff/flare equipment depending on variant"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Carrier capability",
+            "text": "No for baseline aircraft; Su-25UTG is a naval training derivative"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "weapons",
+        "title": "Weapons Systems",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-25 status: Active. Conflict entries: 2.",
+            "text": "The standard fixed gun fit is a 30 mm twin-barrel cannon with 250 rounds. Underwing stations can carry a broad mix of unguided rockets, bombs, gun pods, laser-guided bombs, air-to-ground missiles, and short-range infrared air-to-air missiles for self-defense, subject to variant and operator integration.",
             "refs": [
-              "fn-main"
+              "fn-aft-su25"
             ]
           },
           {
-            "text": "Conflicts: Soviet–Afghan War, Russo-Ukrainian War.",
+            "text": "Representative weapons cited for the family include Kh-23, Kh-25, and Kh-29 air-to-ground missiles, R-3S/R-60 short-range missiles, S-5/S-8/S-24/S-25 rockets, bombs, and SPPU-series gun pods. Exact wartime carriage should not be assumed without a variant- and operator-specific source.",
             "refs": [
+              "fn-aft-su25",
               "fn-method"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Soviet–Afghan War: Sukhoi Su-25 used in Soviet–Afghan War.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Fixed gun",
+            "text": "30 mm AO-17A/GSh-30-2-family twin-barrel cannon, 250 rounds"
           },
           {
-            "text": "Russo-Ukrainian War: Sukhoi Su-25 used in Russo-Ukrainian War.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "External load",
+            "text": "Up to about 4,400 kg in cited baseline profiles"
+          },
+          {
+            "title": "Stations",
+            "text": "Ten wing pylons/stations commonly cited"
           }
         ]
       },
       {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-25 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
+            "text": "Representative Su-25/Su-25K-family figures from Airforce Technology list a length of 15.53 m, height of 4.8 m, wingspan of 14.36 m, wing area of 30.1 m², empty weight of about 10,740 kg, normal take-off weight of 14,600 kg, and maximum take-off weight of 17,600 kg.",
             "refs": [
-              "fn-main"
+              "fn-aft-su25"
+            ]
+          },
+          {
+            "text": "The same baseline lists two R-195 turbojets rated at about 44.18 kN each, a maximum speed near 950 km/h at sea level, about 750 km range with a 4,400 kg weapon load and external tanks, roughly 375 km combat radius, and a service ceiling around 7,000 m. These figures are representative rather than universal because variant, stores, fuel, temperature, runway, and mission profile matter.",
+            "refs": [
+              "fn-aft-su25",
+              "fn-method"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "15.53 m"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Wingspan",
+            "text": "14.36 m"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Max take-off weight",
+            "text": "17,600 kg"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Max speed",
+            "text": "About 950 km/h at sea level"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "About 7,000 m baseline"
           }
         ]
       },
@@ -36426,35 +36552,45 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-25 variant-family entries: 3. Variant families: Sukhoi Su-25 baseline production model; Sukhoi Su-25 upgraded avionics or weapons-capable model; Sukhoi Su-25 export or locally modernized model.",
+            "text": "The Su-25 family includes baseline attack aircraft, export Su-25K aircraft, two-seat trainers, naval training derivatives, and several modernization or anti-tank development lines. Public sources can blur upgrade names, so individual aircraft should be identified by operator and modernization standard when possible.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
+              "fn-aft-su25",
+              "fn-main",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Sukhoi Su-25 baseline production model",
+            "text": "Su-25 / Su-25K: single-seat Soviet and export close-support aircraft.",
             "refs": [
-              "fn-main"
+              "fn-aft-su25"
             ]
           },
           {
-            "text": "Sukhoi Su-25 upgraded avionics or weapons-capable model",
+            "text": "Su-25UB / UBK: two-seat training and weapons-training versions.",
             "refs": [
-              "fn-main"
+              "fn-aft-su25",
+              "fn-skybrary-su25"
             ]
           },
           {
-            "text": "Sukhoi Su-25 export or locally modernized model",
+            "text": "Su-25UTG: carrier-training aircraft with arrester gear for naval pilot training.",
             "refs": [
-              "fn-main"
+              "fn-aft-su25"
+            ]
+          },
+          {
+            "text": "Su-25T, Su-25TM/Su-39, Su-28, and Su-25KM: specialized attack, trainer, or modernization derivatives with limited production or proposal status compared with the baseline fleet.",
+            "refs": [
+              "fn-aft-su25",
+              "fn-skybrary-su25"
+            ]
+          },
+          {
+            "text": "Su-25SM/SM3: Russian upgrade paths adding newer avionics, navigation, survivability, and weapons-control equipment.",
+            "refs": [
+              "fn-aft-su25"
             ]
           }
         ]
@@ -36464,45 +36600,76 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Soviet Union. Sukhoi Su-25 has 1 designer or builder country entry.",
+            "text": "The Su-25 was widely exported and inherited by post-Soviet states, but operator lists require dates. Some fleets are active, some are stored, and some have suffered combat attrition or undergone local modernization.",
             "refs": [
-              "fn-wikidata"
+              "fn-aft-su25",
+              "fn-main",
+              "fn-method"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Representative users include Russia, Ukraine, Belarus, Bulgaria, Georgia, North Korea, Peru, Iraq, and several other former Soviet, Asian, African, and Eastern European operators. Airforce Technology's operator list also names countries such as Afghanistan, Angola, Azerbaijan, Kazakhstan, Macedonia, Turkmenistan, and others in its historical/operational survey.",
             "refs": [
+              "fn-aft-su25"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Russia and Ukraine: major active wartime users, with losses and serviceability changing rapidly.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Bulgaria: example of a smaller NATO-member legacy operator with Su-25K/UBK modernization work.",
+            "refs": [
+              "fn-aft-su25"
+            ]
+          },
+          {
+            "text": "Iraq and Peru: examples of non-European export users whose Su-25 histories differ from Soviet/Russian service patterns.",
+            "refs": [
+              "fn-aft-su25",
+              "fn-main"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "service",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "The Su-25 first gained major combat experience in the Soviet-Afghan War, where its low-altitude attack role, ruggedness, and weapons load were central to Soviet close-support missions. Later users employed the type in regional wars, internal conflicts, and counterinsurgency operations across the former Soviet sphere, the Middle East, Africa, and the Caucasus.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Modern use in Ukraine and other high-threat air-defense environments shows both the aircraft's continued relevance and its limitations. Low-altitude attack aircraft can be useful for fast, flexible ordnance delivery, but they are vulnerable to modern surface-to-air missiles, fighters, and dense short-range air defenses.",
+            "refs": [
+              "fn-main",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Soviet-Afghan War: formative combat use for Soviet close air support.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Major designer or builder entries: Soviet Union.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "specifications",
-        "title": "Specifications",
-        "paragraphs": [
-          {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Subsonic, first flight 1975, introduction 1981.",
+            "text": "Chechnya, Georgia, Syria, Nagorno-Karabakh, and Ukraine: later public examples of Su-25 combat employment.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Combat claims and loss counts should be handled carefully because public wartime reporting is often incomplete, politicized, or revised later.",
             "refs": [
               "fn-method"
             ]
@@ -36510,11 +36677,112 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-25 similar-development links: 2.",
+            "text": "Strengths include an armored cockpit, twin-engine survivability, short-field practicality, straightforward maintenance, and compatibility with a wide range of unguided and guided attack stores. These traits made the Su-25 attractive to air forces needing a robust battlefield attack aircraft rather than an expensive multirole fighter.",
+            "refs": [
+              "fn-aft-su25",
+              "fn-skybrary-su25"
+            ]
+          },
+          {
+            "text": "Limitations include subsonic speed, short combat radius compared with larger strike aircraft, limited sensor range in older variants, and high exposure when operating in dense air-defense environments. Modernized versions mitigate some avionics and weapons issues but do not turn the aircraft into a stealthy or long-range platform.",
+            "refs": [
+              "fn-aft-su25",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "The Su-25 is often compared with the Fairchild Republic A-10 because both are dedicated armored close-support aircraft centered on battlefield attack and survivability. The A-10 is larger and built around a massive GAU-8 cannon, while the Su-25 is smaller, faster in some low-level profiles, and more widely distributed among post-Soviet and export operators.",
+            "refs": [
+              "fn-aft-su25",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Compared with strike fighters such as the SEPECAT Jaguar or Sukhoi Su-24, the Su-25 trades range, speed, and deep-strike avionics for simplicity, armor, and direct support at the forward edge of battle.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "Key milestones include first flight in February 1975, service introduction in July 1981, export deliveries through the 1980s, development of two-seat and specialized derivatives, Russian Su-25SM modernization entering service in the 2000s, and continued wartime use into the 2020s.",
+            "refs": [
+              "fn-aft-su25",
+              "fn-main"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1975 — Prototype first flight.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "1981 — Soviet service introduction.",
+            "refs": [
+              "fn-aft-su25"
+            ]
+          },
+          {
+            "text": "1980s — Export Su-25K/UBK deliveries and Afghan War combat service.",
+            "refs": [
+              "fn-aft-su25",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "2007 — Su-25SM modernization reported entering Russian service.",
+            "refs": [
+              "fn-aft-su25"
+            ]
+          },
+          {
+            "text": "2020s — Continued combat use, especially by Russia and Ukraine, with date-sensitive loss and fleet-status reporting.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "This page uses Airforce Technology and SKYbrary for baseline technical data, with Wikipedia retained only as supplementary orientation for broad service history and cross-checking. Exact inventory counts, combat losses, and current modernization status were avoided where public reporting is unstable.",
+            "refs": [
+              "fn-aft-su25",
+              "fn-skybrary-su25",
+              "fn-main",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia aircraft include other close-support and strike aircraft used for comparison or operational context.",
             "refs": [
               "fn-method"
             ]
@@ -36528,6 +36796,18 @@
           {
             "label": "SEPECAT Jaguar",
             "url": "aircraft.html?id=sepecat-jaguar"
+          },
+          {
+            "label": "Sukhoi Su-24",
+            "url": "aircraft.html?id=su-24"
+          },
+          {
+            "label": "Sukhoi Su-34",
+            "url": "aircraft.html?id=su-34"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }
