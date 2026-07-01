@@ -3618,3 +3618,81 @@ Record the result of:
 * Embraer and Sierra Nevada Corporation sources are manufacturer/industry sources, so marketing claims about operating cost, reliability, and category leadership were either attributed or softened.
 * Some published speed/range/climb/weight figures differ between manufacturer, U.S.-configured aircraft summaries, and aviation-reference pages; the page records representative values with source and configuration caveats.
 * The final commit hash cannot be embedded into the committed change log without changing the commit hash again; it is reported separately in this scheduled-run response.
+
+### Run 48 — 2026-07-01 19:04:22 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: LTV A-7 Corsair II (id: a-7-corsair-ii)
+* Reason selected: It was the shortest unedited aircraft entry in the sparse-page comparison pass, with one stale external article source, zero operator entries, zero variant entries, placeholder generated sections, missing specifications, missing development/design/operator/variant depth, and generic armament wording.
+* Previous condition: Sparse generated JSON record with 15 exact fact fields, no detailed VAL development history, no A-7A/B/C/D/E/export/YA-7F variant coverage, no U.S. Navy/USAF/ANG/Greece/Portugal operator entries, no representative A-7D technical cards, no sourced navigation/weapon-delivery discussion, and generic Wikipedia/Wikidata/local-method references.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview and fact-card style; section order covering overview, development history, design/capabilities, specifications, variants, operators, operational history, notable events, comparison, strengths/limitations, timeline, sources, and related pages; source-qualified paragraphs; variant-sensitive specifications; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the LTV A-7 Corsair II entry in data/aircraft.json from a sparse generated record into a fuller Milipedia article-style page while preserving the existing JSON-rendered aircraft-page structure.
+* Added and normalized sources from the National Museum of the U.S. Air Force, FlightGlobal archive, Wikipedia as supplementary orientation, and Milipedia local accuracy rules.
+* Replaced placeholder top-level facts with sourced first flight, service introduction, retirement context, production totals, A-7D delivery count, TF41 engine details, A-7D speed/range/ceiling/dimensions, payload wording, and variant-sensitive armament caveats.
+* Added detailed overview, development history, design/capabilities, operational history, notable events, variants, operators, specifications, comparison, strengths/limitations, timeline, sources/notes, and related-pages sections.
+* Added variant coverage for A-7A, A-7B, A-7C, A-7D, A-7E, TA-7C/EA-7L, A-7H/TA-7H, A-7P/TA-7P, and YA-7F.
+* Added historical operator coverage for the U.S. Navy, U.S. Air Force, Air National Guard, Hellenic Air Force, and Portuguese Air Force.
+* Replaced generic armament wording with 20 mm cannon, mixed ordnance, stores-station, and mission-configuration caveats rather than a universal loadout.
+* Added operational context for Southeast Asia/Vietnam, Grenada, Libya, Panama, Desert Storm, Air National Guard use, and post-U.S. Greek/Portuguese retirement.
+* Added notable-aircraft context for the National Museum of the U.S. Air Force A-7D associated with Maj. Colin A. Clarke's 18 November 1972 rescue-support mission.
+* Added internal related links to F-8 Crusader, A-4 Skyhawk, A-6 Intruder, F-105 Thunderchief, F/A-18 Hornet, and F-16 Fighting Falcon after confirming those IDs exist.
+* Omitted exact climb-rate and universal weapons-clearance claims because the selected official source does not provide them and public figures vary by variant and operator.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the LTV A-7 Corsair II aircraft entry with sourced facts, specifications, variants, operators, article sections, sources, caveats, and related links.
+* hermes-change-log.md — Appended the cumulative log entry for this scheduled run.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Confirmed branch hermes-agent; before log append only data/aircraft.json was modified, and before commit only data/aircraft.json and hermes-change-log.md were intended files.
+2. git diff — Reviewed diff/stat; data/aircraft.json changed exactly one aircraft entry, a-7-corsair-ii, and hermes-change-log.md gained this run entry.
+3. File review — Parsed data/aircraft.json successfully with python3 -m json.tool and reviewed the A-7 sources, article sections, variants, operators, specification cards, caveats, and related links.
+4. F-16 style comparison — Inspected data/f16-template.html and followed its dense overview, fact-card backed technical details, source/reference pattern, section order, operator/variant caveats, timeline, and related-page structure within the JSON aircraft-page system.
+5. Internal link check — Scripted check confirmed A-7 internal links target existing IDs f-8-crusader, a-4-skyhawk, a-6-intruder, f-105-thunderchief, f-a-18-hornet, and f-16-fighting-falcon.
+6. Secret/token check — Scanned the intended diff with credential-specific patterns for private keys, passwords, cloud credentials, and access/auth token assignments; no credentials were found.
+7. Final review before commit — Confirmed branch safety, JSON validity, exactly one aircraft entry changed, intended files only, clean formatting checks, internal links, completed change log, and no previous substantial Hermes edit for A-7 Corsair II.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand LTV A-7 Corsair II
+* Commit hash: Pending until commit is created; final hash is reported in the scheduled-run response.
+
+#### Issues or Uncertainties
+
+* A-7 specifications vary by A-7A/B/C/D/E/export model; the page uses National Museum of the U.S. Air Force A-7D technical notes for representative cards and labels them as A-7D data.
+* Exact climb rate and universal weapons/stores clearances were omitted because the selected official source does not provide them and public reference values differ by variant and operator.
+* The National Naval Aviation Museum aircraft page extraction did not yield a usable dedicated A-7 entry during this run; the update therefore relies on the official USAF museum A-7D page plus supplementary orientation sources.
+* The final commit hash cannot be embedded into the committed change log without changing the commit hash again; it is reported separately in this scheduled-run response.

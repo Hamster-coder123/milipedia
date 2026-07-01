@@ -12092,34 +12092,100 @@
   {
     "id": "a-7-corsair-ii",
     "name": "LTV A-7 Corsair II",
-    "alternative_names": [],
+    "alternative_names": [
+      "Corsair II",
+      "SLUF"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
-    "manufacturer": "Ling-Temco-Vought",
-    "role": "Carrier-capable attack aircraft",
+    "manufacturer": "Ling-Temco-Vought / Vought",
+    "role": "Carrier-capable light attack aircraft and close air support aircraft",
     "aircraft_type": "Attack aircraft",
     "era": "Cold War",
-    "first_flight": "1965",
-    "introduction_date": "1967",
-    "retirement_date": "Not listed",
-    "status": "Retired",
-    "number_built": "Not listed",
+    "first_flight": "26 September 1965",
+    "introduction_date": "1 February 1967",
+    "retirement_date": "United States Navy and USAF retired front-line A-7s in 1991; Air National Guard retired A-7Ds in the early 1990s; Greece retired the final A-7s in 2014",
+    "status": "Retired from military service",
+    "number_built": "1,545 total A-7 family aircraft; 459 A-7D aircraft delivered to the U.S. Air Force",
     "crew": "1",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engine_type": "Turbofan",
+    "engines": "One non-afterburning turbofan; A-7D used an Allison TF41 rated at 14,250 lb thrust",
+    "max_speed": "663 mph for A-7D museum data; subsonic attack aircraft",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "LTV A-7 Corsair II: Carrier-capable attack aircraft. Manufacturer: Ling-Temco-Vought. First flight: 1965. Introduction: 1967.",
-    "short_summary": "LTV A-7 Corsair II: Carrier-capable attack aircraft. Origin: United States. Manufacturer: Ling-Temco-Vought. First flight: 1965. Introduction: 1967. Status: Retired.",
+    "range": "3,044 miles listed for A-7D museum data; operational radius varied by stores and profile",
+    "combat_range": "Variant and load dependent; not stated as a single universal value in the official museum source",
+    "service_ceiling": "33,500 ft for A-7D museum data",
+    "rate_of_climb": "Not listed in selected official source",
+    "armament": "One 20 mm cannon on most production variants plus up to about 15,000 lb of mixed ordnance; exact stores varied by variant, operator, and mission.",
+    "hardpoints": "Multiple underwing and fuselage stations for bombs, rockets, missiles, tanks, pods, and special mission stores depending on variant",
+    "variants": [
+      {
+        "name": "YA-7A / A-7A",
+        "note": "Initial Navy prototype and first production family derived from the F-8 Crusader for the VAL light-attack requirement."
+      },
+      {
+        "name": "A-7B",
+        "note": "Improved Navy production model with engine and systems changes compared with early A-7A aircraft."
+      },
+      {
+        "name": "A-7C",
+        "note": "Interim Navy production batch broadly associated with the later A-7E airframe and TF30 powerplant before full A-7E standardization."
+      },
+      {
+        "name": "A-7D",
+        "note": "U.S. Air Force close-air-support version with Allison TF41 turbofan, M61A1 cannon, and USAF avionics/weapons integration; 459 delivered."
+      },
+      {
+        "name": "A-7E",
+        "note": "Main late U.S. Navy carrier version with TF41 power and improved navigation/attack avionics for precision attack from carriers."
+      },
+      {
+        "name": "TA-7C / EA-7L",
+        "note": "Two-seat trainer and specialized electronic/aggressor support conversions used by Navy units."
+      },
+      {
+        "name": "A-7H / TA-7H",
+        "note": "Export versions supplied to Greece."
+      },
+      {
+        "name": "A-7P / TA-7P",
+        "note": "Portuguese Air Force aircraft rebuilt from U.S. Navy A-7A airframes with upgraded systems."
+      },
+      {
+        "name": "YA-7F",
+        "note": "Experimental supersonic derivative proposed as a faster strike aircraft; not adopted for production."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "U.S. Navy",
+        "note": "Original carrier operator; introduced the A-7 into fleet service in 1967 and used it through Vietnam, Grenada, Libya, and Desert Storm before retirement in 1991."
+      },
+      {
+        "country": "United States",
+        "service": "U.S. Air Force",
+        "note": "Operated the A-7D for tactical close air support, including Southeast Asia service with the 354th Tactical Fighter Wing and Operation Just Cause."
+      },
+      {
+        "country": "United States",
+        "service": "Air National Guard",
+        "note": "Received A-7Ds from 1973; by 1987 ANG units in ten states and Puerto Rico flew the type, retiring it in the early 1990s."
+      },
+      {
+        "country": "Greece",
+        "service": "Hellenic Air Force",
+        "note": "Major export operator of A-7H/TA-7H and later ex-U.S. aircraft; retired the final Corsair IIs in 2014."
+      },
+      {
+        "country": "Portugal",
+        "service": "Portuguese Air Force",
+        "note": "Operated A-7P/TA-7P aircraft rebuilt from former U.S. Navy airframes until 1999."
+      }
+    ],
+    "combat_history": "Vietnam War/Southeast Asia War, Operation Urgent Fury in Grenada, Operation El Dorado Canyon, Operation Just Cause, and Operation Desert Storm are the major public combat associations for the family; sortie-level details vary by service and variant.",
+    "development_history": "The A-7 was developed under the U.S. Navy VAL light-attack requirement as a lower-cost, subsonic strike aircraft derived from Vought F-8 Crusader experience. The design first flew on 26 September 1965 and entered Navy squadron service on 1 February 1967.",
+    "short_summary": "The LTV A-7 Corsair II was a U.S. single-seat subsonic light attack aircraft developed from the F-8 Crusader for accurate carrier and close-air-support strike missions. It served with the U.S. Navy, USAF, Air National Guard, Greece, and Portugal from the Vietnam era into the 2010s.",
     "carrier_capable": true,
     "stealth": false,
     "images": [
@@ -12136,28 +12202,28 @@
         "title": "LTV A-7 Corsair II",
         "url": "https://en.wikipedia.org/wiki/LTV_A-7_Corsair_II",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "note": "Supplementary overview source for A-7 program chronology, variant family, operators, and replacement context."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "id": "fn-nmusaf",
+        "title": "LTV A-7D Corsair II",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196072/ltv-a-7d-corsair-ii",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Official museum fact sheet used for A-7D development, Southeast Asia service, ANG use, and representative technical notes."
+      },
+      {
+        "id": "fn-flightglobal",
+        "title": "A-7 Corsair II archive source",
+        "url": "http://www.flightglobal.com/pdfarchive/view/1974/1974%20-%201837.html",
+        "publisher": "FlightGlobal archive",
+        "note": "Period aviation reference retained from the original data record for external-source continuity."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.flightglobal.com/pdfarchive/view/1974/1974%20-%201837.html",
-        "publisher": "flightglobal.com",
-        "note": "External source for LTV A-7 Corsair II."
+        "note": "Local rules for neutral wording, variant-sensitive specifications, and source caveats."
       }
     ],
     "country_flags": [
@@ -12167,52 +12233,72 @@
       }
     ],
     "designers": [
-      "Ling-Temco-Vought"
+      "Vought / Ling-Temco-Vought"
     ],
     "development_tensions": [
-      "Carrier compatibility added structural, landing gear, corrosion, and low-speed handling requirements."
+      "VAL procurement emphasized accuracy, range, payload, rapid development, and lower cost rather than supersonic dash performance.",
+      "Carrier compatibility required robust landing gear, folding/shipboard handling provisions, corrosion resistance, and low-speed approach qualities.",
+      "USAF A-7D requirements drove a different engine, M61 cannon, and close-air-support avionics compared with early Navy aircraft."
     ],
     "wars_used_in": [
       {
-        "name": "Vietnam War",
-        "note": "LTV A-7 Corsair II used in Vietnam War."
+        "name": "Vietnam War / Southeast Asia War",
+        "note": "Navy A-7s entered combat in late 1967; USAF A-7Ds flew with the 354th Tactical Fighter Wing at Korat during the closing months."
+      },
+      {
+        "name": "Operation Urgent Fury",
+        "note": "U.S. Navy A-7s supported the 1983 Grenada operation."
+      },
+      {
+        "name": "Operation El Dorado Canyon",
+        "note": "A-7s participated in the 1986 Libya strike package."
+      },
+      {
+        "name": "Operation Just Cause",
+        "note": "USAF/ANG A-7Ds participated in Panama in 1989."
+      },
+      {
+        "name": "Operation Desert Storm",
+        "note": "U.S. Navy A-7Es flew combat missions before the type left U.S. front-line service."
       }
     ],
     "variant_families": [
-      "LTV A-7 Corsair II baseline production model",
-      "LTV A-7 Corsair II upgraded avionics or weapons-capable model",
-      "LTV A-7 Corsair II export or locally modernized model"
+      "Early Navy A-7A/B/C carrier attack aircraft",
+      "A-7D USAF close-air-support family",
+      "A-7E late Navy carrier attack family",
+      "Two-seat TA-7 and electronic EA-7 conversions",
+      "Greek A-7H/TA-7H and Portuguese A-7P/TA-7P export/modernized families",
+      "YA-7F experimental high-speed derivative"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "LTV A-7 Corsair II has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The A-7 served mainly with U.S. Navy, USAF, and Air National Guard units, with Greece and Portugal as export operators.",
+      "all_operators_status": "All known military operators have retired the type."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "Maj. Colin A. Clarke flew the museum A-7D on a nine-hour rescue-support mission on 18 November 1972 and received the Air Force Cross.",
+        "VA-147 is commonly identified as the first operational U.S. Navy A-7 squadron."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "No single incident list was added; combat and retirement milestones are summarized in operational history."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "LTV A-7 Corsair II uses jet propulsion."
+      "type": "Turbofan",
+      "summary": "The A-7 family used non-afterburning turbofans optimized for subsonic attack endurance and payload. A-7D museum data lists one Allison TF41 of 14,250 lb thrust; early Navy variants used TF30-series engines."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Production aircraft typically carried a 20 mm cannon and external stores such as conventional bombs, guided bombs, rockets, anti-radiation missiles, air-to-air missiles for self-defense, fuel tanks, and pods.",
+      "caution": "The exact weapons fit differed sharply between A-7A/B/C/D/E, export aircraft, and local upgrade programs; this page avoids treating one loadout as universal."
     },
     "similar_development": [
       {
-        "id": "f-105-thunderchief",
-        "name": "Republic F-105 Thunderchief",
-        "url": "aircraft.html?id=f-105-thunderchief"
+        "id": "f-8-crusader",
+        "name": "Vought F-8 Crusader",
+        "url": "aircraft.html?id=f-8-crusader"
       },
       {
         "id": "a-4-skyhawk",
@@ -12225,16 +12311,26 @@
         "url": "aircraft.html?id=a-6-intruder"
       },
       {
-        "id": "su-7",
-        "name": "Sukhoi Su-7",
-        "url": "aircraft.html?id=su-7"
+        "id": "f-105-thunderchief",
+        "name": "Republic F-105 Thunderchief",
+        "url": "aircraft.html?id=f-105-thunderchief"
+      },
+      {
+        "id": "f-a-18-hornet",
+        "name": "McDonnell Douglas F/A-18 Hornet",
+        "url": "aircraft.html?id=f-a-18-hornet"
+      },
+      {
+        "id": "f-16-fighting-falcon",
+        "name": "General Dynamics F-16 Fighting Falcon",
+        "url": "aircraft.html?id=f-16-fighting-falcon"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 1
+      "exact_fact_count": 34,
+      "operator_entries": 5,
+      "variant_entries": 9,
+      "external_article_sources": 3
     },
     "footnotes": [
       {
@@ -12242,37 +12338,51 @@
         "title": "LTV A-7 Corsair II",
         "url": "https://en.wikipedia.org/wiki/LTV_A-7_Corsair_II",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "note": "Supplementary overview source for A-7 program chronology, variant family, operators, and replacement context."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "id": "fn-nmusaf",
+        "title": "LTV A-7D Corsair II",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196072/ltv-a-7d-corsair-ii",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Official museum fact sheet used for A-7D development, Southeast Asia service, ANG use, and representative technical notes."
+      },
+      {
+        "id": "fn-flightglobal",
+        "title": "A-7 Corsair II archive source",
+        "url": "http://www.flightglobal.com/pdfarchive/view/1974/1974%20-%201837.html",
+        "publisher": "FlightGlobal archive",
+        "note": "Period aviation reference retained from the original data record for external-source continuity."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.flightglobal.com/pdfarchive/view/1974/1974%20-%201837.html",
-        "publisher": "flightglobal.com",
-        "note": "External source for LTV A-7 Corsair II."
+        "note": "Local rules for neutral wording, variant-sensitive specifications, and source caveats."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
+        "id": "fn-nmusaf",
+        "title": "LTV A-7D Corsair II",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196072/ltv-a-7d-corsair-ii",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Official museum fact sheet used for A-7D development, Southeast Asia service, ANG use, and representative technical notes."
+      },
+      {
+        "id": "fn-flightglobal",
+        "title": "A-7 Corsair II archive source",
         "url": "http://www.flightglobal.com/pdfarchive/view/1974/1974%20-%201837.html",
-        "publisher": "flightglobal.com",
-        "note": "External source for LTV A-7 Corsair II."
+        "publisher": "FlightGlobal archive",
+        "note": "Period aviation reference retained from the original data record for external-source continuity."
+      },
+      {
+        "id": "fn-main",
+        "title": "LTV A-7 Corsair II",
+        "url": "https://en.wikipedia.org/wiki/LTV_A-7_Corsair_II",
+        "publisher": "Wikipedia",
+        "note": "Supplementary overview source for A-7 program chronology, variant family, operators, and replacement context."
       }
     ],
     "article_sections": [
@@ -12281,65 +12391,90 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "LTV A-7 Corsair II is a Carrier-capable attack aircraft from United States. Manufacturer: Ling-Temco-Vought. First flight: 1965. Introduction: 1967. Status: Retired.",
+            "text": "The LTV A-7 Corsair II was a single-seat, subsonic light attack aircraft built to put a heavier and more accurate weapons load over targets than the A-4 Skyhawk while retaining carrier compatibility. It was derived from Vought F-8 Crusader design experience, but its smaller, simpler, non-afterburning layout traded supersonic fighter performance for range, payload, maintainability, and accurate strike delivery.",
             "refs": [
+              "fn-main",
+              "fn-flightglobal"
+            ]
+          },
+          {
+            "text": "The type first flew on 26 September 1965 and entered U.S. Navy squadron service on 1 February 1967. It quickly deployed to Southeast Asia, later served with the USAF and Air National Guard, and was exported to Greece and Portugal. Public production totals list 1,545 aircraft across the family, while the National Museum of the U.S. Air Force records 459 A-7Ds delivered to the USAF.",
+            "refs": [
+              "fn-main",
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "The A-7 is best understood as a precision attack platform of the late Vietnam and Cold War era rather than as a fighter. Its navigation/weapon-delivery systems, turbofan economy, and large external stores capacity made it useful for close air support, interdiction, maritime carrier strike, and reserve-component attack missions before replacement by aircraft such as the F/A-18 and F-16.",
+            "refs": [
+              "fn-nmusaf",
               "fn-main"
-            ]
-          },
-          {
-            "text": "LTV A-7 Corsair II is a attack aircraft. Primary role: carrier-capable attack aircraft. Country of origin: United States. Manufacturer: Ling-Temco-Vought.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Exact structured fact fields: 15.",
-            "refs": [
-              "fn-method"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Carrier-capable attack aircraft"
+            "text": "Carrier-capable light attack / close air support"
           },
           {
-            "title": "Designer or builder",
-            "text": "Ling-Temco-Vought"
+            "title": "First flight",
+            "text": "26 September 1965"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Introduced",
+            "text": "1 February 1967 with the U.S. Navy"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Built",
+            "text": "1,545 family total; 459 A-7Ds for USAF"
+          },
+          {
+            "title": "Power class",
+            "text": "Single non-afterburning turbofan"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "LTV A-7 Corsair II first flew in 1965. Introduction date: 1967. Era: Cold War.",
+            "text": "The U.S. Navy VAL requirement sought a light attack aircraft that could be fielded quickly and affordably from an existing design. Vought based its proposal on the F-8 Crusader lineage but removed the requirement for supersonic performance, shortened the airframe, and emphasized payload, range, and mission-system accuracy.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Producer: Ling-Temco-Vought. Development context: carrier-capable attack aircraft, jet propulsion, subsonic speed category, Cold War era.",
+            "text": "Development moved rapidly. The prototype first flew in September 1965, and Navy fleet introduction followed in early 1967. The first operational squadron and early deployments placed the aircraft into the Vietnam War before the end of that year, giving the type a short path from contract concept to combat use.",
             "refs": [
-              "fn-wikidata"
+              "fn-main"
+            ]
+          },
+          {
+            "text": "The USAF A-7D diverged from early Navy aircraft with an Allison TF41 turbofan, an M61A1 20 mm cannon, and USAF-oriented weapons and avionics. The first A-7D flew in April 1968, production deliveries began in December 1968, and LTV ultimately delivered 459 A-7Ds to the Air Force.",
+            "refs": [
+              "fn-nmusaf"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Carrier compatibility added structural, landing gear, corrosion, and low-speed handling requirements.",
+            "text": "The design accepted subsonic speed to reduce cost and complexity while improving attack endurance and accuracy.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Carrier use shaped landing gear, structure, corrosion protection, and approach handling.",
             "refs": [
               "fn-method"
+            ]
+          },
+          {
+            "text": "USAF adoption reflected the need to replace aging attack aircraft in close-air-support and tactical bombing roles.",
+            "refs": [
+              "fn-nmusaf"
             ]
           }
         ]
@@ -12349,50 +12484,45 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Subsonic.",
+            "text": "The A-7 used a compact single-seat layout with a high-mounted swept wing, a large nose intake, and a rugged structure suitable for carrier operations. Compared with the F-8, the A-7 was shorter and subsonic, with design effort redirected toward fuel economy, ordnance carriage, and bombing accuracy.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Carrier capable: yes. Stealth: no.",
+            "text": "A key technical distinction was the automatic electronic navigation and weapons-delivery system noted by the National Museum of the U.S. Air Force. This system helped the A-7D achieve accurate ground attack performance in Southeast Asia and made the Corsair II a useful bridge between earlier manual bombing aircraft and later digital precision-attack platforms.",
             "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "Most production A-7s carried a 20 mm gun and external weapons on multiple stations. A-7D museum data lists one M61A1 cannon plus 15,000 lb of mixed ordnance; Navy and export stores varied by model, and individual missions often combined bombs, rockets, tanks, missiles, and pods rather than a fixed standard load.",
+            "refs": [
+              "fn-nmusaf",
               "fn-method"
-            ]
-          },
-          {
-            "text": "LTV A-7 Corsair II uses jet propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "1"
+            "title": "Airframe",
+            "text": "Single-seat, single-engine, carrier-capable attack aircraft"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Engine example",
+            "text": "A-7D: one Allison TF41, 14,250 lb thrust"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Navigation/attack",
+            "text": "Automatic electronic navigation and weapons-delivery system"
           },
           {
-            "title": "Carrier capable",
-            "text": "Yes"
+            "title": "Gun",
+            "text": "M61A1 20 mm cannon on A-7D and many late variants"
           },
           {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Payload note",
+            "text": "Up to 15,000 lb mixed ordnance in A-7D museum data"
           }
         ]
       },
@@ -12401,21 +12531,43 @@
         "title": "Operational History",
         "paragraphs": [
           {
-            "text": "LTV A-7 Corsair II status: Retired. Conflict entries: 1.",
+            "text": "The Corsair II entered combat during the Vietnam War. Navy A-7s deployed from carriers for strike missions, while USAF A-7Ds later demonstrated close-air-support capability with the 354th Tactical Fighter Wing at Korat Royal Thai Air Force Base during the closing months of the Southeast Asia War.",
             "refs": [
-              "fn-main"
+              "fn-main",
+              "fn-nmusaf"
             ]
           },
           {
-            "text": "Conflicts: Vietnam War.",
+            "text": "After Vietnam, A-7s remained in U.S. carrier, USAF, and Air National Guard service. The type appeared in public combat histories for Grenada in 1983, the 1986 Libya strike, Operation Just Cause in Panama in 1989, and Desert Storm in 1991. ANG A-7Ds began arriving in 1973 and were flown by units in ten states and Puerto Rico by 1987.",
             "refs": [
-              "fn-method"
+              "fn-main",
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "U.S. Navy and USAF front-line retirement came in 1991, and the Air National Guard retired the A-7D in the early 1990s. Portugal retired its A-7Ps in 1999, while Greece kept Corsair IIs in service until 2014, making the Hellenic Air Force the final military operator.",
+            "refs": [
+              "fn-main",
+              "fn-nmusaf"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Vietnam War: LTV A-7 Corsair II used in Vietnam War.",
+            "text": "Southeast Asia War: Navy carrier strike and USAF close-air-support use.",
+            "refs": [
+              "fn-main",
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "Operation Just Cause: A-7Ds participated in Panama in 1989.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "Desert Storm: U.S. Navy A-7Es flew final wartime missions before U.S. retirement.",
             "refs": [
               "fn-main"
             ]
@@ -12424,38 +12576,33 @@
       },
       {
         "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
+        "title": "Notable Aircraft, Pilots, and Events",
         "paragraphs": [
           {
-            "text": "LTV A-7 Corsair II named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
+            "text": "The National Museum of the U.S. Air Force A-7D is associated with Maj. Colin A. Clarke, who flew that aircraft on an 18 November 1972 nine-hour rescue-support mission in Southeast Asia and received the Air Force Cross. The aircraft was delivered to the museum on 31 January 1992.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "The type also has an important fleet-introduction milestone: Navy squadrons brought the A-7 into combat quickly after its 1967 service entry. Public summaries commonly cite VA-147 as the first operational Navy A-7 squadron, but squadron-level cruise details are left to dedicated naval aviation sources.",
+            "refs": [
+              "fn-main",
+              "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Named pilots listed: 0.",
+            "text": "A-7D museum aircraft: associated with Air Force Cross mission by Maj. Colin A. Clarke.",
             "refs": [
-              "fn-method"
+              "fn-nmusaf"
             ]
           },
           {
-            "text": "Named individual aircraft listed: 0.",
+            "text": "First flight to combat deployment occurred within roughly two years, illustrating the accelerated VAL procurement path.",
             "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-main"
             ]
           }
         ]
@@ -12465,33 +12612,52 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "LTV A-7 Corsair II variant-family entries: 3. Variant families: LTV A-7 Corsair II baseline production model; LTV A-7 Corsair II upgraded avionics or weapons-capable model; LTV A-7 Corsair II export or locally modernized model.",
+            "text": "A-7 designations can be confusing because the Navy, USAF, export operators, and conversion programs used different standards. The list below groups the major public families without implying that specifications or avionics were identical across all aircraft.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
+              "fn-main",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "LTV A-7 Corsair II baseline production model",
+            "text": "A-7A: initial Navy production version derived from the VAL program.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "LTV A-7 Corsair II upgraded avionics or weapons-capable model",
+            "text": "A-7B and A-7C: improved/interim Navy versions leading toward later Navy standards.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "LTV A-7 Corsair II export or locally modernized model",
+            "text": "A-7D: USAF close-air-support version with TF41 engine, M61A1 cannon, and USAF systems; 459 delivered.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "A-7E: principal late U.S. Navy carrier-attack model with TF41 power and improved avionics.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "TA-7C and EA-7L: two-seat training and specialized conversions.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "A-7H/TA-7H and A-7P/TA-7P: Greek and Portuguese export or rebuilt aircraft.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "YA-7F: experimental faster derivative that did not enter production.",
             "refs": [
               "fn-main"
             ]
@@ -12503,29 +12669,42 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. LTV A-7 Corsair II has 1 designer or builder country entry.",
+            "text": "The A-7 served with two U.S. armed services, the Air National Guard, and two export air arms. Because all operators have retired the type, this page records historical service rather than current inventory.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-main",
+              "fn-nmusaf"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "United States Navy: original carrier operator; flew A-7A/B/C/E and training or support conversions through 1991.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "United States Air Force: operated A-7D close-air-support aircraft in Southeast Asia, tactical units, and later reserve-component transitions.",
             "refs": [
-              "fn-wikidata"
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "Air National Guard: received A-7Ds beginning in 1973 and operated them widely by the late 1980s.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "Hellenic Air Force: export operator and final military user, retiring the Corsair II in 2014.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Portuguese Air Force: operated rebuilt A-7P/TA-7P aircraft until 1999.",
+            "refs": [
+              "fn-main"
             ]
           }
         ]
@@ -12535,13 +12714,188 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Subsonic, first flight 1965, introduction 1967.",
+            "text": "The representative figures below use the National Museum of the U.S. Air Force A-7D technical notes. Navy A-7A/B/C/E and export aircraft differed in engine, avionics, and equipment, so these values should not be treated as universal for every Corsair II.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Crew",
+            "text": "1"
+          },
+          {
+            "title": "Powerplant",
+            "text": "One Allison TF41 turbofan, 14,250 lb thrust (A-7D)"
+          },
+          {
+            "title": "Maximum speed",
+            "text": "663 mph (A-7D museum data)"
+          },
+          {
+            "title": "Cruising speed",
+            "text": "545 mph (A-7D museum data)"
+          },
+          {
+            "title": "Range",
+            "text": "3,044 miles (A-7D museum data)"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "33,500 ft (A-7D museum data)"
+          },
+          {
+            "title": "Wingspan",
+            "text": "38 ft 8 in"
+          },
+          {
+            "title": "Length",
+            "text": "46 ft 1 in"
+          },
+          {
+            "title": "Height",
+            "text": "16 ft 1 in"
+          },
+          {
+            "title": "Loaded weight",
+            "text": "39,325 lb"
+          },
+          {
+            "title": "Armament",
+            "text": "One M61A1 20 mm cannon plus 15,000 lb mixed ordnance"
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Against the A-4 Skyhawk it was meant to supplement and replace, the A-7 offered more modern mission systems, greater range, and a larger attack payload, at the cost of a larger airframe. Against the F-8 Crusader from which its layout was derived, the A-7 gave up supersonic fighter performance in favor of economical strike carriage and bombing accuracy.",
+            "refs": [
+              "fn-main",
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "Compared with the A-6 Intruder, the A-7 was a single-seat light attack aircraft rather than a two-seat all-weather medium attack platform. Compared with later F/A-18 and F-16 replacements, it lacked multirole fighter performance and modern sensors, but it helped define the transition toward accurate jet attack delivery.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths included long subsonic endurance, heavy external payload for its size, carrier suitability, straightforward operation, and accurate attack avionics for the era. These qualities made the Corsair II effective for close support, interdiction, and reserve attack missions.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Limitations followed from the same design choices. The A-7 was subsonic, single-seat, and not intended to dominate air-to-air combat. Its public performance and weapons data are also variant-sensitive, so universal statements about range, payload, or avionics can be misleading without naming the model.",
+            "refs": [
+              "fn-method",
+              "fn-main"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1963: Navy VAL light-attack requirement leads to proposals based on existing aircraft designs.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "26 September 1965: A-7 first flight.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "1 February 1967: Navy squadron introduction.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "April 1968: First A-7D flight for the USAF program.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "December 1968: A-7D production deliveries begin.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "1973: USAF begins assigning A-7Ds to the Air National Guard.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "1976: A-7D production ends after 459 USAF deliveries.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "1989: A-7Ds participate in Operation Just Cause.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "1991-1993: U.S. Navy, USAF, and ANG retire the type from U.S. military use.",
+            "refs": [
+              "fn-main",
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "1999: Portugal retires the A-7P family.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "2014: Greece retires the final operational Corsair IIs.",
+            "refs": [
+              "fn-main"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Official A-7D data comes from the National Museum of the U.S. Air Force. Wikipedia and a retained FlightGlobal archive source are used for family-level orientation, operator/variant context, and reference discovery; variant-specific claims are phrased cautiously when not confirmed by the selected official source.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-main",
+              "fn-flightglobal",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "No exact climb-rate value was added because the selected official source does not provide it, and public sources often mix A-7A, A-7D, and A-7E figures. Likewise, stores lists are summarized by category rather than treated as a fixed standard loadout.",
             "refs": [
               "fn-method"
             ]
@@ -12550,10 +12904,10 @@
       },
       {
         "id": "similar-development",
-        "title": "Similar Development",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "LTV A-7 Corsair II similar-development links: 4.",
+            "text": "Related pages connect the A-7 to its F-8 Crusader design ancestry, light-attack contemporaries, and replacement aircraft in the Milipedia database.",
             "refs": [
               "fn-method"
             ]
@@ -12561,8 +12915,8 @@
         ],
         "links": [
           {
-            "label": "Republic F-105 Thunderchief",
-            "url": "aircraft.html?id=f-105-thunderchief"
+            "label": "Vought F-8 Crusader",
+            "url": "aircraft.html?id=f-8-crusader"
           },
           {
             "label": "Douglas A-4 Skyhawk",
@@ -12573,8 +12927,16 @@
             "url": "aircraft.html?id=a-6-intruder"
           },
           {
-            "label": "Sukhoi Su-7",
-            "url": "aircraft.html?id=su-7"
+            "label": "Republic F-105 Thunderchief",
+            "url": "aircraft.html?id=f-105-thunderchief"
+          },
+          {
+            "label": "McDonnell Douglas F/A-18 Hornet",
+            "url": "aircraft.html?id=f-a-18-hornet"
+          },
+          {
+            "label": "General Dynamics F-16 Fighting Falcon",
+            "url": "aircraft.html?id=f-16-fighting-falcon"
           }
         ]
       }
