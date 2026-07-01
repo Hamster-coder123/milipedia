@@ -2772,3 +2772,79 @@ Record the result of:
 * UAC's Su-57 aircraft page was reachable but extraction was navigation-heavy and did not provide a complete public specification table, so Deagel and Wikipedia were used as secondary/supplementary references with caution.
 * Algeria is listed only as reported/uncertain because current official delivery evidence was not verified in this run.
 * The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.
+
+### Run 37 — 2026-07-01 08:01:52 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Tupolev Tu-22M (id: tu-22m)
+* Reason selected: Among unedited aircraft entries, the Tu-22M page scored as the sparsest candidate by JSON size and completeness, with no operator entries, placeholder-style variant names, only one non-Wikipedia external article source, missing engines/range/ceiling/number-built details, and a much thinner structure than the F-16 reference page.
+* Previous condition: Short generated entry with missing summary, no real operator list, generic strategic-bomber armament text, no detailed development/design/operational-history treatment, sparse specifications, and source coverage largely limited to Wikipedia/Wikidata plus one external page.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview; page flow from overview through development, design, specifications, variants, operators, operational history, strengths/limitations, comparison, timeline, sources, and related pages; concise sourced paragraphs; card-style key facts; cautious notes for variant-sensitive and date-sensitive claims; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the Tupolev Tu-22M entry in data/aircraft.json into a fuller Milipedia article record while preserving the existing data-driven renderer structure.
+* Added Backfire/NATO naming, clearer role and aircraft-type wording, Soviet/Russian origin, service status, crew, engine, range, ceiling, speed, payload, and combat-history summary.
+* Replaced sparse generic armament with Tu-22M-specific public-source wording covering Kh-22/Kh-15-family missiles, FAB-series bombs, about 24,000 kg payload, and the Tu-22M3 GSh-23 tail gun while cautioning that exact loadouts vary by variant and modernization.
+* Added and expanded article sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Comparison, Timeline, Sources and Notes, and Related Pages.
+* Added variant coverage for Tu-22M0, Tu-22M1, Tu-22M2, Tu-22M3, Tu-22M3M, and Tu-22MR/Tu-22ME with cautious modernization notes.
+* Added operator coverage for Russia, the Soviet Union, and Ukraine, avoiding precise current fleet counts because readiness and loss estimates are date-sensitive.
+* Added technical specification cards for Tu-22M3 length, wingspan, height, weights, speed, ceiling, range, and payload from public sources.
+* Added source coverage from Airforce Technology and SKYbrary, retained Wikipedia as supplementary orientation, and retained the existing airwar.ru source as supplementary technical context.
+* Added related internal links to Tu-160, Tu-95, Su-24, and B-1 Lancer, plus the database return link.
+* Omitted exact current aircraft readiness totals, detailed Tu-22M3M weapons integration claims, and precise recent combat-loss counts because those figures vary by date and source.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded the Tupolev Tu-22M aircraft page data, sources, sections, variants, operators, specifications, and related links.
+* hermes-change-log.md — Appended the cumulative record for Run 37.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were modified/intended for staging.
+2. git diff — Reviewed diff/stat; data/aircraft.json changed exactly one aircraft entry, preserving id tu-22m, and hermes-change-log.md only appended this run entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool and reviewed the Tu-22M section titles, source ids, cards, bullets, variants, operators, armament text, and related links.
+4. F-16 style comparison — Inspected data/f16-template.html and mirrored its dense overview, section order, source-note style, specifications emphasis, comparison/timeline coverage, and related-page pattern within the JSON renderer's supported section shapes.
+5. Internal link check — Parsed aircraft.html?id=... links in the Tu-22M entry and verified tu-160, tu-95, su-24, and b-1-lancer exist in data/aircraft.json.
+6. Secret/token check — Ran a credential-pattern scan over the staged diff for API keys, access/auth tokens, passwords, private keys, and cloud credential names; no credential additions were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, git diff --check, one-entry JSON change, intended files only, and complete change-log entry before committing.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Tupolev Tu-22M
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* Exact current Russian fleet readiness, combat-loss totals, and Tu-22M3M weapon-integration details are intentionally left cautious because public figures change and may conflict.
+* Airforce Technology and SKYbrary supplied useful public technical data, but no current official Tupolev/UAC fact sheet was located during this single safe run.

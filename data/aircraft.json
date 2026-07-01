@@ -43159,34 +43159,42 @@
   {
     "id": "tu-22m",
     "name": "Tupolev Tu-22M",
-    "alternative_names": [],
-    "nato_reporting_name": null,
-    "country_of_origin": "Soviet Union",
+    "alternative_names": [
+      "Backfire",
+      "Tu-22M3"
+    ],
+    "nato_reporting_name": "Backfire",
+    "country_of_origin": "Soviet Union/Russia",
     "manufacturer": "Tupolev",
-    "role": "Supersonic strategic/maritime bomber",
-    "aircraft_type": "Bomber",
-    "era": "Cold War/Modern",
-    "first_flight": "1969",
+    "role": "Long-range strategic, conventional strike, and maritime strike bomber",
+    "aircraft_type": "Supersonic variable-sweep bomber",
+    "era": "Cold War / Modern",
+    "first_flight": "30 August 1969",
     "introduction_date": "1972",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
+    "status": "In service with Russia; former Soviet and Ukrainian service",
+    "number_built": "About 497 Tu-22M-family aircraft, depending source and counting method",
     "crew": "4",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "engine_type": "Afterburning turbofan",
+    "engines": "2 × Kuznetsov NK-25 afterburning turbofans on Tu-22M3",
+    "max_speed": "About 2,300 km/h for Tu-22M3",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Bombs, missiles, and precision-guided weapons.",
-    "hardpoints": "Not listed",
+    "range": "About 7,000 km operational range, Tu-22M3 source figure",
+    "combat_range": "Mission radius varies by weapon load, profile, tanker support, and variant",
+    "service_ceiling": "About 14,000 m",
+    "rate_of_climb": "About 15 m/s, source-dependent Tu-22M3 figure",
+    "armament": "Up to about 24,000 kg of bombs and stand-off missiles; Kh-22/Kh-15-family weapons are commonly cited, with GSh-23 tail gun on Tu-22M3.",
+    "hardpoints": "Internal weapons bay plus wing/fuselage stations; carriage varies by variant and modernization standard",
     "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Tupolev Tu-22M: Supersonic strategic/maritime bomber. Manufacturer: Tupolev. First flight: 1969. Introduction: 1972.",
-    "short_summary": "Tupolev Tu-22M: Supersonic strategic/maritime bomber. Origin: Soviet Union. Manufacturer: Tupolev. First flight: 1969. Introduction: 1972. Status: Active.",
+    "operators": [
+      "Russian Aerospace Forces",
+      "Soviet Air Forces",
+      "Soviet Naval Aviation",
+      "Ukrainian Air Force"
+    ],
+    "combat_history": "Used by Soviet and Russian forces in Afghanistan, Chechnya, Georgia, Syria, and the Russo-Ukrainian war; claims and loss counts are date-sensitive.",
+    "development_history": "Developed by Tupolev from the Tu-22 design lineage after the earlier bomber proved difficult to operate and limited in performance.",
+    "short_summary": "Variable-sweep Backfire bomber built for long-range strike and maritime missile attack.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -43199,32 +43207,39 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-airforce-tech",
+        "title": "Tupolev Tu-22M Strategic Bomber",
+        "url": "https://www.airforce-technology.com/projects/tupolev-tu-22m-strategic-bomber",
+        "publisher": "Airforce Technology",
+        "note": "Used for role, crew, first flight, service entry, Tu-22M3 dimensions, payload, sensors, engines, performance, and variant overview."
+      },
+      {
+        "id": "fn-skybrary",
+        "title": "TUPOLEV Tu-22M",
+        "url": "https://skybrary.aero/aircraft/t22m",
+        "publisher": "SKYbrary Aviation Safety",
+        "note": "Supplementary technical reference for broad role, NK-25 engine listing, and aircraft identification."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Tupolev Tu-22M",
         "url": "https://en.wikipedia.org/wiki/Tupolev_Tu-22M",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "note": "Supplementary orientation for development lineage, production count, operators, conflicts, and cross-checking; not used as the sole source for technical specifications."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "id": "fn-airwar",
+        "title": "Tu-22M3",
+        "url": "http://airwar.ru/enc/bomber/tu22m3.html",
+        "publisher": "airwar.ru",
+        "note": "Existing external source retained as a supplementary Russian-language technical reference."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://airwar.ru/enc/bomber/tu22m3.html",
-        "publisher": "airwar.ru",
-        "note": "External source for Tupolev Tu-22M."
+        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
       }
     ],
     "country_flags": [
@@ -43234,89 +43249,130 @@
       }
     ],
     "designers": [
-      "Tupolev"
+      "Tupolev Design Bureau"
     ],
     "development_tensions": [
-      "Balancing payload, range, survivability, sensor/weapons modernization, and operating cost.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "The Tu-22M was a major redesign rather than a simple Tu-22 upgrade, adding variable-sweep wings, new engines, revised landing gear, and a different mission-system layout.",
+      "Public range and payload figures should be read as representative, because treaty-era refuelling changes, variant differences, and weapon loads strongly affect mission radius."
     ],
     "wars_used_in": [
-      {
-        "name": "Russo-Ukrainian War",
-        "note": "Tupolev Tu-22M used in Russo-Ukrainian War."
-      }
+      "Soviet-Afghan War",
+      "First Chechen War",
+      "Russo-Georgian War",
+      "Syrian Civil War",
+      "Russo-Ukrainian War"
     ],
     "variant_families": [
-      "Tupolev Tu-22M baseline production model",
-      "Tupolev Tu-22M upgraded avionics or weapons-capable model"
+      {
+        "name": "Tu-22M0",
+        "summary": "Early prototype/pre-production configuration used to validate the Backfire concept; performance was not sufficient for major production."
+      },
+      {
+        "name": "Tu-22M1",
+        "summary": "Pilot-production aircraft associated with early Soviet Naval Aviation evaluation and development."
+      },
+      {
+        "name": "Tu-22M2",
+        "summary": "First major production Backfire family, with revised wing and fuselage features compared with prototypes."
+      },
+      {
+        "name": "Tu-22M3",
+        "summary": "Main late-production and current-service version with revised intakes, NK-25 engines, improved performance, and broader missile/bomb compatibility."
+      },
+      {
+        "name": "Tu-22M3M",
+        "summary": "Modernized Tu-22M3 standard reported with updated avionics and weapons integration; details and fleet scale remain public-source sensitive."
+      },
+      {
+        "name": "Tu-22MR / Tu-22ME",
+        "summary": "Reconnaissance/electronic or export-associated designations reported in public references, with limited open technical detail."
+      }
     ],
     "operator_summary": {
-      "major_designer_or_builder": [
-        "Soviet Union"
+      "current": [
+        "Russia — Russian Aerospace Forces operate remaining Tu-22M3/Tu-22M3M aircraft; exact ready-aircraft counts vary by date and source."
       ],
-      "major_user_note": "Tupolev Tu-22M has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "former": [
+        "Soviet Union — Soviet Air Forces and Soviet Naval Aviation operated the type in strategic and maritime strike roles.",
+        "Ukraine — inherited aircraft after the Soviet breakup; the fleet was retired/dismantled under post-Cold War arrangements."
+      ]
     },
     "notable": {
-      "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
-      ],
-      "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+      "records": [],
+      "events": [
+        "First prototype flight in August 1969.",
+        "Tu-22M3 first flew in June 1977 and entered service in the early 1980s.",
+        "Soviet use in Afghanistan in 1987-1989 marked early conventional combat employment.",
+        "Russian use has included Chechnya, Georgia, Syria, and Ukraine; recent combat details require date-stamped review."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Tupolev Tu-22M uses jet propulsion."
+      "type": "Two Kuznetsov NK-25 afterburning turbofans on Tu-22M3",
+      "thrust": "About 245.2 kN / 25,000 kgf class per engine in public sources",
+      "notes": "Earlier Tu-22M versions used different Kuznetsov engine arrangements; performance figures here emphasize the Tu-22M3."
     },
     "armament_details": {
-      "summary": "Bombs, missiles, and precision-guided weapons.",
-      "caution": "Exact weapon list: Not listed."
+      "gun": "Remote-controlled twin-barrel GSh-23 23 mm tail gun on Tu-22M3, according to public references.",
+      "missiles": [
+        "Kh-22 anti-ship/stand-off missile",
+        "Kh-15 nuclear or anti-radiation missile family in older public-source descriptions",
+        "Modernized Russian weapons are reported for upgraded aircraft, but exact integration should be treated cautiously."
+      ],
+      "bombs": "Free-fall bombs such as FAB-series weapons are cited in public references; precision and guided-loadout details vary by modernization standard.",
+      "payload": "Up to about 24,000 kg of weapons payload in Airforce Technology public data."
     },
     "similar_development": [
       {
-        "id": "b-52-stratofortress",
-        "name": "Boeing B-52 Stratofortress",
-        "url": "aircraft.html?id=b-52-stratofortress"
+        "name": "Tupolev Tu-160",
+        "url": "aircraft.html?id=tu-160"
       },
       {
-        "id": "b-1-lancer",
-        "name": "Rockwell B-1 Lancer",
-        "url": "aircraft.html?id=b-1-lancer"
+        "name": "Tupolev Tu-95",
+        "url": "aircraft.html?id=tu-95"
       },
       {
-        "id": "b-2-spirit",
-        "name": "Northrop Grumman B-2 Spirit",
-        "url": "aircraft.html?id=b-2-spirit"
-      },
-      {
-        "id": "su-24",
         "name": "Sukhoi Su-24",
         "url": "aircraft.html?id=su-24"
+      },
+      {
+        "name": "Rockwell B-1 Lancer",
+        "url": "aircraft.html?id=b-1-lancer"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 1
+      "exact_fact_count": 28,
+      "operator_entries": 3,
+      "variant_entries": 6,
+      "external_article_sources": 4
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-airforce-tech",
+        "title": "Tupolev Tu-22M Strategic Bomber",
+        "url": "https://www.airforce-technology.com/projects/tupolev-tu-22m-strategic-bomber",
+        "publisher": "Airforce Technology",
+        "note": "Used for role, crew, first flight, service entry, Tu-22M3 dimensions, payload, sensors, engines, performance, and variant overview."
+      },
+      {
+        "id": "fn-skybrary",
+        "title": "TUPOLEV Tu-22M",
+        "url": "https://skybrary.aero/aircraft/t22m",
+        "publisher": "SKYbrary Aviation Safety",
+        "note": "Supplementary technical reference for broad role, NK-25 engine listing, and aircraft identification."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Tupolev Tu-22M",
         "url": "https://en.wikipedia.org/wiki/Tupolev_Tu-22M",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "note": "Supplementary orientation for development lineage, production count, operators, conflicts, and cross-checking; not used as the sole source for technical specifications."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "id": "fn-airwar",
+        "title": "Tu-22M3",
+        "url": "http://airwar.ru/enc/bomber/tu22m3.html",
+        "publisher": "airwar.ru",
+        "note": "Existing external source retained as a supplementary Russian-language technical reference."
       },
       {
         "id": "fn-method",
@@ -43324,22 +43380,28 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://airwar.ru/enc/bomber/tu22m3.html",
-        "publisher": "airwar.ru",
-        "note": "External source for Tupolev Tu-22M."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
+        "title": "Tupolev Tu-22M Strategic Bomber",
+        "url": "https://www.airforce-technology.com/projects/tupolev-tu-22m-strategic-bomber",
+        "publisher": "Airforce Technology"
+      },
+      {
+        "title": "TUPOLEV Tu-22M",
+        "url": "https://skybrary.aero/aircraft/t22m",
+        "publisher": "SKYbrary Aviation Safety"
+      },
+      {
+        "title": "Tupolev Tu-22M",
+        "url": "https://en.wikipedia.org/wiki/Tupolev_Tu-22M",
+        "publisher": "Wikipedia"
+      },
+      {
+        "title": "Tu-22M3",
         "url": "http://airwar.ru/enc/bomber/tu22m3.html",
-        "publisher": "airwar.ru",
-        "note": "External source for Tupolev Tu-22M."
+        "publisher": "airwar.ru"
       }
     ],
     "article_sections": [
@@ -43348,72 +43410,82 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Tupolev Tu-22M is a Supersonic strategic/maritime bomber from Soviet Union. Manufacturer: Tupolev. First flight: 1969. Introduction: 1972. Status: Active.",
+            "text": "The Tupolev Tu-22M, NATO reporting name Backfire, is a Soviet-designed variable-sweep, supersonic bomber built for long-range strike and maritime missile attack. It replaced the limited usefulness of the earlier Tu-22 lineage with a new wing planform, new propulsion, and a mission profile centered on stand-off weapons rather than fighter-like maneuvering.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Tupolev Tu-22M is a bomber. Primary role: supersonic strategic/maritime bomber. Country of origin: Soviet Union. Manufacturer: Tupolev.",
+            "text": "The Tu-22M3 is the best-known production standard. Public references list a four-person crew, two Kuznetsov NK-25 afterburning turbofans, a maximum speed around 2,300 km/h, an operational range figure around 7,000 km, and a service ceiling around 14,000 m for representative Tu-22M3 data.",
             "refs": [
-              "fn-wikidata"
+              "fn-airforce-tech",
+              "fn-skybrary"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Its Cold War importance came from two related missions: strategic or theater strike against land targets and long-range anti-ship attack against naval forces. Modern Russian use continues, but exact readiness, modernization state, missile integration, and combat losses are date-sensitive and should be treated cautiously.",
             "refs": [
-              "fn-method"
+              "fn-airforce-tech",
+              "fn-wikipedia"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Primary role",
-            "text": "Supersonic strategic/maritime bomber"
+            "title": "Role",
+            "text": "Long-range strategic, conventional, and maritime strike bomber"
           },
           {
-            "title": "Designer or builder",
-            "text": "Tupolev"
+            "title": "Crew",
+            "text": "Four"
           },
           {
-            "title": "Major origin",
-            "text": "Soviet Union"
+            "title": "Powerplant",
+            "text": "Two Kuznetsov NK-25 afterburning turbofans on Tu-22M3"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "NATO name",
+            "text": "Backfire"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Tupolev Tu-22M first flew in 1969. Introduction date: 1972. Era: Cold War/Modern.",
+            "text": "Tupolev began the Backfire line after the original Tu-22 proved difficult to operate and insufficient for the bomber roles expected of it. The redesign introduced variable-sweep outer wing panels, a revised fuselage, new landing gear arrangements, and later major engine and intake changes.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Producer: Tupolev. Development context: supersonic strategic/maritime bomber, jet propulsion, supersonic speed category, Cold War/Modern era.",
+            "text": "The first Tu-22M-0 prototype flew in August 1969. Tu-22M-1 followed in July 1971, and the broader Tu-22M family entered service from 1972. The Tu-22M2 became the first major production model, while the Tu-22M3 first flew in June 1977 and entered Soviet inventory in the early 1980s.",
             "refs": [
-              "fn-wikidata"
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "The program should not be read as a simple re-engining of the Tu-22. Public histories describe a much deeper redesign driven by handling, performance, payload, and maritime-strike requirements, even though the designation preserved the Tu-22 name lineage.",
+            "refs": [
+              "fn-wikipedia"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing payload, range, survivability, sensor/weapons modernization, and operating cost.",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "1969: First Tu-22M-0 prototype flight."
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "1971: Tu-22M-1 flight-test activity."
+          },
+          {
+            "text": "1972: Tu-22M service entry and Tu-22M2 production start."
+          },
+          {
+            "text": "1977/1983: Tu-22M3 first flight and service introduction milestones."
           }
         ]
       },
@@ -43422,178 +43494,47 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 4. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The Backfire uses variable-geometry outer wing panels that can be swept for high-speed dash or opened for takeoff, landing, and more efficient cruise. Airforce Technology describes a stepped cockpit, swept fin, fuselage-mounted engine installation, and large air intakes on the Tu-22M3.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "The four-person cockpit includes dedicated stations for pilots and mission crew. Public descriptions list upward-firing ejection seats and a semi-glass cockpit, with mission panels for navigation, weapons, and aircraft control rather than a single-seat fighter-style layout.",
             "refs": [
-              "fn-method"
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Tupolev Tu-22M uses jet propulsion. Engine model field: Not listed.",
+            "text": "Tu-22M3 propulsion comes from two Kuznetsov NK-25 afterburning turbofans. The engine installation, intake redesign, and variable-sweep wing gave the aircraft the combination of supersonic speed, heavy payload, and long-range missile-launch profile that defined the Backfire family.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech",
+              "fn-skybrary"
             ]
           },
           {
-            "text": "Armament field: Bombs, missiles, and precision-guided weapons. Exact weapon list: Not listed.",
+            "text": "Sensors and defensive equipment are reported to include bombing-navigation radar, fire-control equipment, optical backup bombing systems, warning receivers, jammers, and countermeasures. Exact avionics fits differ by version and modernization state.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "4"
+            "title": "Airframe",
+            "text": "Variable-sweep wing bomber with stepped cockpit and swept tail"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Engines",
+            "text": "NK-25 afterburning turbofans on Tu-22M3"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Mission systems",
+            "text": "Bombing-navigation radar, fire-control radar, optical backup sight, and defensive countermeasures in public descriptions"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Tupolev Tu-22M status: Active. Conflict entries: 1.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: Russo-Ukrainian War.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Russo-Ukrainian War: Tupolev Tu-22M used in Russo-Ukrainian War.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Tupolev Tu-22M named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "variants",
-        "title": "Variants",
-        "paragraphs": [
-          {
-            "text": "Tupolev Tu-22M variant-family entries: 2. Variant families: Tupolev Tu-22M baseline production model; Tupolev Tu-22M upgraded avionics or weapons-capable model.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Tupolev Tu-22M baseline production model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Tupolev Tu-22M upgraded avionics or weapons-capable model",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "operators",
-        "title": "Operators",
-        "paragraphs": [
-          {
-            "text": "Designer or builder countries: Soviet Union. Tupolev Tu-22M has 1 designer or builder country entry.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "All operators status: 0 operator entries listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Major designer or builder entries: Soviet Union.",
-            "refs": [
-              "fn-wikidata"
-            ]
+            "title": "Landing gear",
+            "text": "Tricycle landing gear with multi-wheel main bogies for heavy bomber operations"
           }
         ]
       },
@@ -43602,51 +43543,270 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 4, propulsion type Jet, maximum speed category Supersonic, first flight 1969, introduction 1972.",
+            "text": "Representative figures below emphasize the Tu-22M3 because it is the most familiar service version and the version most public sources specify. Earlier Tu-22M0/M1/M2 aircraft and modernized Tu-22M3M aircraft differ in details.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech",
+              "fn-skybrary"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Length",
+            "text": "42.4 m for Tu-22M3"
+          },
+          {
+            "title": "Wingspan",
+            "text": "34.2 m maximum sweep-open span"
+          },
+          {
+            "title": "Height",
+            "text": "11.05 m"
+          },
+          {
+            "title": "Weights",
+            "text": "About 53,500 kg empty and 126,400 kg maximum takeoff weight"
+          },
+          {
+            "title": "Speed",
+            "text": "About 2,300 km/h maximum; 900 km/h cruise cited by Airforce Technology"
+          },
+          {
+            "title": "Ceiling",
+            "text": "About 14,000 m"
+          },
+          {
+            "title": "Range",
+            "text": "About 7,000 km operational range in public Tu-22M3 data"
+          },
+          {
+            "title": "Payload",
+            "text": "Up to about 24,000 kg of weapons on internal and external stations"
+          }
+        ]
+      },
+      {
+        "id": "variants",
+        "title": "Variants",
+        "paragraphs": [
+          {
+            "text": "The Tu-22M family moved from early prototypes through the M2 production bomber to the M3 standard that dominates public references. Some later aircraft have been modernized, but open-source descriptions of the Tu-22M3M should be handled carefully because equipment fits, refuelling provisions, and weapon integrations are politically and technically sensitive.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-wikipedia"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Tu-22M0: early pre-production aircraft used to prove the Backfire layout."
+          },
+          {
+            "text": "Tu-22M1: pilot-production version associated with early Soviet Naval Aviation trials."
+          },
+          {
+            "text": "Tu-22M2: first major production Backfire family, entering production in the early 1970s."
+          },
+          {
+            "text": "Tu-22M3: upgraded production standard with revised intakes, NK-25 engines, and improved performance."
+          },
+          {
+            "text": "Tu-22M3M: modernized Tu-22M3 standard with updated avionics and weapons integration reported in Russian service."
+          },
+          {
+            "text": "Tu-22MR/Tu-22ME: reconnaissance/electronic or export-related designations reported in public references."
+          }
+        ]
+      },
+      {
+        "id": "operators",
+        "title": "Operators",
+        "paragraphs": [
+          {
+            "text": "The principal current operator is Russia. The type previously served Soviet Air Forces and Soviet Naval Aviation, and Ukraine inherited aircraft after the Soviet breakup before retiring or dismantling them. Public current-fleet numbers vary by source date, serviceability definition, and wartime losses.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-wikipedia"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Russia: current operator of remaining Tu-22M3 and modernized aircraft in long-range aviation roles."
+          },
+          {
+            "text": "Soviet Union: original operator through Soviet Air Forces and Soviet Naval Aviation."
+          },
+          {
+            "text": "Ukraine: former inheritor/operator after 1991; the fleet was removed from service under post-Cold War arrangements."
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "During the Cold War, the Backfire was watched closely because it could threaten naval task groups with long-range anti-ship missiles while also serving as a theater or strategic strike bomber. Its range and refuelling status became politically important in arms-control debates.",
+            "refs": [
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Airforce Technology notes Tu-22M combat deployment in Afghanistan between 1987 and 1989 and Russian Tu-22M3 use in Chechnya in 1995. Later open sources describe Russian employment in the Russo-Georgian War, Syria, and the Russo-Ukrainian war.",
             "refs": [
-              "fn-method"
+              "fn-airforce-tech",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Because recent combat losses, missile stocks, and operational readiness are actively contested, this page avoids precise current counts unless a dated source is cited. The safe conclusion is that the Tu-22M remains a high-value but aging long-range strike platform.",
+            "refs": [
+              "fn-wikipedia"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
         "paragraphs": [
           {
-            "text": "Tupolev Tu-22M similar-development links: 4.",
+            "text": "The Tu-22M3 combines a heavy missile/bomb payload with supersonic dash speed and long-range basing flexibility. Those traits made it especially relevant for anti-ship strike and theater-level bombardment roles.",
             "refs": [
-              "fn-method"
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "Limitations include age, maintenance burden, dependence on large bases and specialist support, variant-sensitive avionics, and vulnerability when operating inside modern air-defense and long-range strike environments. Public figures also blur distinctions between ferry range, operational range, and combat radius.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: high payload and stand-off missile compatibility."
+          },
+          {
+            "text": "Strength: supersonic dash and variable-sweep wing flexibility."
+          },
+          {
+            "text": "Limitation: older airframes and modernization-dependent mission systems."
+          },
+          {
+            "text": "Limitation: public readiness and loss figures change quickly in wartime."
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Compared with the much larger Tu-160, the Tu-22M is a smaller, shorter-ranged Backfire bomber optimized around regional strike and maritime attack rather than global strategic penetration. Compared with the Tu-95, it offers supersonic speed but less endurance. Compared with the B-1 Lancer, it occupies a broadly similar variable-sweep bomber category but with different doctrine, weapons, and modernization history.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-wikipedia"
             ]
           }
         ],
         "links": [
           {
-            "label": "Boeing B-52 Stratofortress",
-            "url": "aircraft.html?id=b-52-stratofortress"
+            "label": "Compare with Tupolev Tu-160",
+            "url": "aircraft.html?id=tu-160"
+          },
+          {
+            "label": "Compare with Tupolev Tu-95",
+            "url": "aircraft.html?id=tu-95"
+          },
+          {
+            "label": "Compare with B-1 Lancer",
+            "url": "aircraft.html?id=b-1-lancer"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1969: Tu-22M-0 prototype makes its first flight."
+          },
+          {
+            "text": "1971: Tu-22M-1 follows in flight testing."
+          },
+          {
+            "text": "1972: Tu-22M enters service; Tu-22M2 production begins."
+          },
+          {
+            "text": "1977: Tu-22M3 first flight."
+          },
+          {
+            "text": "1983: Tu-22M3 inducted into Soviet inventory, according to Airforce Technology."
+          },
+          {
+            "text": "1987-1989: Combat deployment in Afghanistan."
+          },
+          {
+            "text": "1990s-present: Russian operations continue through Chechnya, Georgia, Syria, and Ukraine, with details varying by source date."
+          }
+        ]
+      },
+      {
+        "id": "sources",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Primary technical expansion used Airforce Technology for the structured Tu-22M3 data and SKYbrary as a supplementary aviation reference. Wikipedia was used as orientation and cross-checking for production count, operators, conflicts, and development context, not as the sole source for performance claims.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-skybrary",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Exact current aircraft counts, combat losses, and modern weapon integrations are deliberately phrased cautiously because they change over time and may differ between official, intelligence, and open-source estimates.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia entries provide context for Soviet/Russian bomber development and comparable variable-sweep or long-range strike aircraft."
+          }
+        ],
+        "links": [
+          {
+            "label": "Tupolev Tu-160",
+            "url": "aircraft.html?id=tu-160"
+          },
+          {
+            "label": "Tupolev Tu-95",
+            "url": "aircraft.html?id=tu-95"
+          },
+          {
+            "label": "Sukhoi Su-24",
+            "url": "aircraft.html?id=su-24"
           },
           {
             "label": "Rockwell B-1 Lancer",
             "url": "aircraft.html?id=b-1-lancer"
           },
           {
-            "label": "Northrop Grumman B-2 Spirit",
-            "url": "aircraft.html?id=b-2-spirit"
-          },
-          {
-            "label": "Sukhoi Su-24",
-            "url": "aircraft.html?id=su-24"
+            "label": "Back to Aircraft Database",
+            "url": "index.html#database"
           }
         ]
       }
     ],
-    "event_gallery": []
+    "event_gallery": [],
+    "summary": "Soviet/Russian variable-sweep, supersonic long-range bomber and maritime strike aircraft known to NATO as Backfire."
   },
   {
     "id": "tu-160",
