@@ -2848,3 +2848,78 @@ Record the result of:
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * Exact current Russian fleet readiness, combat-loss totals, and Tu-22M3M weapon-integration details are intentionally left cautious because public figures change and may conflict.
 * Airforce Technology and SKYbrary supplied useful public technical data, but no current official Tupolev/UAC fact sheet was located during this single safe run.
+
+### Run 38 — 2026-07-01 09:01:40 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Panavia Tornado (id: panavia-tornado)
+* Reason selected: Among aircraft entries not previously selected by Hermes, the Panavia Tornado page remained sparse and generated-looking, with no real variant entries, no operator entries, placeholder technical fields such as "Not listed," only generic armament and combat-history text, and fewer sourced sections than the F-16 reference page.
+* Previous condition: Short generated entry with empty variants/operators arrays, no detailed IDS/ECR/ADV/GR4 treatment, missing production totals, missing engines/range/ceiling context, generic wars and weapons descriptions, and source coverage limited mostly to Wikipedia/Wikidata/local method notes.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense lead/overview style; article flow from overview through development history, design/capabilities, specifications, variants, operators, operational history, strengths/limitations, comparison, timeline, sources, and related pages; concise sourced paragraphs; card-style key facts; variant-sensitive specification caveats; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the Panavia Tornado data-driven page in data/aircraft.json while preserving the existing renderer-supported JSON structure.
+* Replaced placeholder metadata with sourced role, production, first-flight, introduction, retirement/status, crew, engine, speed, service-ceiling, armament, hardpoint, combat-history, and short-summary wording.
+* Added variant coverage for Tornado IDS, RAF GR1/GR1A/GR1B, RAF GR4/GR4A, Tornado ECR, Tornado ADV F2/F3, and national mid-life-update aircraft.
+* Added operator coverage for the United Kingdom, Germany, Italy, and Saudi Arabia with cautious current-status wording.
+* Added detailed article sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Comparison, Timeline, Sources and Notes, and Related Pages.
+* Added specification cards for crew, length, wingspan, height, empty weight, RB199 engines, maximum speed, and service ceiling, with clear caveats that figures vary by variant/source.
+* Added source records and footnotes for Panavia Aircraft GmbH's official variant overview, Airforce Technology's Tornado technical/program article, BAE Systems GR4 product metadata, Wikipedia as supplementary orientation, and local Milipedia accuracy rules.
+* Added internal related links to Su-24, SEPECAT Jaguar, Eurofighter Typhoon, B-1 Lancer, and F-16 Fighting Falcon.
+* Omitted or caveated exact current inventory counts, current German/Italian/Saudi retirement dates, universal range figures, and universal weapons fits because those facts vary by variant, national upgrade, and date.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded the Panavia Tornado aircraft page data, sections, sources, specifications, variants, operators, operational history, comparison, timeline, and related links.
+* hermes-change-log.md — Appended the cumulative record for Run 38.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json was modified before the log append; after log append the intended files are data/aircraft.json and hermes-change-log.md.
+2. git diff — Reviewed the diff/stat; data/aircraft.json changed exactly one aircraft entry, preserving id panavia-tornado, and the change log only appends this run entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool and reviewed the Panavia Tornado fields, sections, source ids, cards, bullets, variants, operators, armament text, and related links.
+4. F-16 style comparison — Inspected data/f16-template.html and mirrored its dense overview, section order, specification emphasis, source-note style, comparison/timeline coverage, and related-page pattern within the JSON renderer's supported article section shapes.
+5. Internal link check — Parsed aircraft.html?id=... links in the Panavia Tornado entry and verified b-1-lancer, eurofighter-typhoon, f-16-fighting-falcon, sepecat-jaguar, and su-24 exist in data/aircraft.json.
+6. Secret/token check — Ran a credential-pattern scan over the intended aircraft diff for API keys, access/auth tokens, passwords, private keys, and cloud credential names; no credential additions were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, git diff --check success, one-entry JSON change, intended files only, Panavia Tornado was not previously edited by Hermes, and complete change-log entry before committing.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Panavia Tornado
+* Commit hash: Pending until commit is created; final hash is reported in the scheduled-run response.
+
+#### Issues or Uncertainties
+
+* BAE Systems' Tornado GR4 product page was found in search results but web extraction failed, so BAE-derived GR4 headline claims were used sparingly and marked as metadata-derived.
+* Exact range, speed, weapons fits, service status, and retirement dates vary between IDS, ECR, GR4/GR4A, ADV, and national mid-life-update aircraft; the article uses variant-sensitive caveats rather than forcing one universal value.
+* The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.

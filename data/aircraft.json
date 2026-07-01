@@ -52534,34 +52534,86 @@
   {
     "id": "panavia-tornado",
     "name": "Panavia Tornado",
-    "alternative_names": [],
+    "alternative_names": [
+      "Tornado IDS",
+      "Tornado GR1",
+      "Tornado GR4",
+      "Tornado F3",
+      "Tornado ECR"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United Kingdom/Germany/Italy",
-    "manufacturer": "Panavia Aircraft GmbH",
-    "role": "Strike/interdictor aircraft",
-    "aircraft_type": "Bomber",
+    "manufacturer": "Panavia Aircraft GmbH consortium: British Aerospace/BAE Systems, MBB/DASA/EADS/Airbus, and Aeritalia/Alenia/Leonardo",
+    "role": "Variable-sweep multirole strike, reconnaissance, SEAD, and air-defence aircraft family",
+    "aircraft_type": "Strike aircraft / multirole combat aircraft",
     "era": "Cold War/Modern",
-    "first_flight": "1974",
-    "introduction_date": "1979",
-    "retirement_date": null,
-    "status": "Active/retired by operator",
-    "number_built": "Not listed",
+    "first_flight": "14 August 1974",
+    "introduction_date": "1979-1982 depending operator and variant",
+    "retirement_date": "RAF Tornado retired in 2019; German, Italian, and Saudi retirement dates vary by fleet",
+    "status": "Active with some operators and retired by others",
+    "number_built": "990 total: 745 IDS, 51 ECR, and 194 ADV according to Panavia variant totals",
     "crew": "2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "engine_type": "Afterburning turbofan",
+    "engines": "Two Turbo-Union RB199 reheated turbofans; GR4 references list RB199 Mk 103 engines",
+    "max_speed": "About 800 kt at low level in Airforce Technology data; BAE GR4 data lists Mach 1.3, while other variant/source figures vary",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Bombs, missiles, and precision-guided weapons.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Panavia Tornado: Strike/interdictor aircraft. Manufacturer: Panavia Aircraft GmbH. First flight: 1974. Introduction: 1979.",
-    "short_summary": "Panavia Tornado: Strike/interdictor aircraft. Origin: United Kingdom/Germany/Italy. Manufacturer: Panavia Aircraft GmbH. First flight: 1974. Introduction: 1979. Status: Active/retired by operator.",
+    "range": "Mission radius and ferry range vary by variant, fuel tanks, stores, and profile; GR1B maritime-strike reference describes attacks more than 400 miles from base",
+    "combat_range": "Variant and loadout dependent; low-level strike radius was central to the IDS/GR mission but exact comparable radius is not fixed here",
+    "service_ceiling": "50,000 ft for Tornado GR4 in BAE Systems data",
+    "rate_of_climb": "Not fixed here; varies by variant, sweep, stores, and fuel state",
+    "armament": "IDS/GR aircraft used 27 mm Mauser cannon, unguided and precision bombs, anti-radiation missiles, Brimstone, Storm Shadow, Sea Eagle on GR1B, and defensive air-to-air missiles; ADV aircraft carried air-to-air missiles such as Skyflash, Sidewinder, ASRAAM, and AMRAAM depending upgrade.",
+    "hardpoints": "Under-fuselage and under-wing stations for tanks, pods, bombs, missiles, and reconnaissance stores; exact fit varied by variant and national upgrade",
+    "variants": [
+      {
+        "name": "Tornado IDS",
+        "description": "Core Interdiction Strike variant for low-level air-to-ground attack, maritime strike, and tactical reconnaissance; built for partner nations and Saudi Arabia."
+      },
+      {
+        "name": "Tornado GR1 / GR1A / GR1B",
+        "description": "RAF IDS-family strike aircraft, photo-electronic reconnaissance aircraft, and maritime-attack aircraft; GR1B was associated with Sea Eagle anti-ship missiles."
+      },
+      {
+        "name": "Tornado GR4 / GR4A",
+        "description": "RAF mid-life update of GR1/GR1A with upgraded avionics, navigation, defensive aids, FLIR, targeting-pod integration, and precision weapons such as Brimstone, Storm Shadow, and Paveway-family bombs."
+      },
+      {
+        "name": "Tornado ECR",
+        "description": "German and Italian electronic combat/reconnaissance variant for locating and suppressing air defences while retaining IDS-family mission capability."
+      },
+      {
+        "name": "Tornado ADV F2/F3",
+        "description": "Air Defence Variant developed for long-range interception, using a longer forward fuselage, Foxhunter radar, air-to-air missiles, and additional fuel arrangements."
+      },
+      {
+        "name": "National mid-life updates",
+        "description": "German, Italian, RAF, and Saudi programs updated displays, communications, navigation, countermeasures, and precision-weapon compatibility over service life."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United Kingdom",
+        "service": "Royal Air Force",
+        "notes": "Operated GR1/GR1A/GR1B, GR4/GR4A, and ADV F2/F3 aircraft; RAF Tornado force retired in 2019 after Eurofighter Typhoon and other capabilities assumed key roles."
+      },
+      {
+        "country": "Germany",
+        "service": "Luftwaffe and former Marineflieger",
+        "notes": "Operated IDS and ECR aircraft; Marineflieger aircraft supported maritime strike before naval aviation restructuring."
+      },
+      {
+        "country": "Italy",
+        "service": "Aeronautica Militare",
+        "notes": "Operated IDS aircraft and converted ECR aircraft; Italian aircraft received mid-life upgrades and deployed to coalition operations."
+      },
+      {
+        "country": "Saudi Arabia",
+        "service": "Royal Saudi Air Force",
+        "notes": "Only export operator outside the original partner nations, with IDS strike aircraft and ADV air-defence aircraft delivered under Saudi procurement programs."
+      }
+    ],
+    "combat_history": "Used by RAF, Italian, German, and Saudi forces in Gulf War, Balkans, Iraq, Libya, Afghanistan, Syria/Yemen-related operations, and NATO air-policing or reconnaissance missions depending national fleet.",
+    "development_history": "The Tornado was developed by the Panavia tri-national consortium to give the United Kingdom, West Germany, and Italy a common variable-sweep aircraft family for low-level interdiction, reconnaissance, electronic-combat, maritime strike, and air-defence tasks. The first prototype flew on 14 August 1974, with partner-nation service entry occurring around 1979-1982.",
+    "short_summary": "Panavia Tornado: tri-national, twin-engine, variable-sweep combat-aircraft family built for low-level strike, reconnaissance, SEAD, maritime attack, and air defence. Origin: United Kingdom/Germany/Italy. First flight: 14 August 1974. Status: active/retired depending operator.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -52574,18 +52626,32 @@
     ],
     "sources": [
       {
+        "id": "fn-panavia-variants",
+        "title": "Variants",
+        "url": "https://www.panavia.de/aircraft/overview/variants",
+        "publisher": "Panavia Aircraft GmbH",
+        "note": "Manufacturer/consortium source used for IDS, ECR, ADV roles, production totals, variant descriptions, ADV first flight, and operator-production distribution."
+      },
+      {
+        "id": "fn-airforce-tech",
+        "title": "Tornado Multirole Aircraft",
+        "url": "https://www.airforce-technology.com/projects/tornado/",
+        "publisher": "Airforce Technology",
+        "note": "Used for service-entry chronology, baseline dimensions, RB199 Mk 103 engine description, low-level speed figure, GR4 upgrade details, weapons, sensors, and operator context."
+      },
+      {
+        "id": "fn-bae-gr4",
+        "title": "Tornado GR4",
+        "url": "https://www.baesystems.com/en/product/tornado-gr4",
+        "publisher": "BAE Systems",
+        "note": "Used for GR4 role, RB199 Mk 103 engine, Mach 1.3 and 50,000 ft headline capability; web extraction could not retrieve the page during this run, so only search-result metadata was used cautiously."
+      },
+      {
         "id": "fn-main",
         "title": "Panavia Tornado",
         "url": "https://en.wikipedia.org/wiki/Panavia_Tornado",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for broad family context and public-domain cross-checking; not used as the sole source for key technical claims."
       },
       {
         "id": "fn-method",
@@ -52610,26 +52676,45 @@
       }
     ],
     "designers": [
-      "Panavia Aircraft GmbH"
+      "Panavia Aircraft GmbH",
+      "British Aerospace / BAE Systems",
+      "MBB / DASA / EADS / Airbus",
+      "Aeritalia / Alenia / Leonardo"
     ],
     "development_tensions": [
-      "Balancing payload, range, survivability, sensor/weapons modernization, and operating cost.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "A common air vehicle had to satisfy British, German, Italian, and later Saudi requirements while preserving enough commonality for training, logistics, and production sharing.",
+      "Variable-sweep wings supported low-level penetration, high-speed dash, and acceptable airfield performance, but added mechanical complexity and maintenance burden.",
+      "IDS, ECR, GR4/4A, and ADV missions demanded different radar, reconnaissance, electronic-warfare, missile, cockpit, and fuel arrangements on a shared airframe.",
+      "Cold War low-level strike assumptions later had to adapt to precision weapons, targeting pods, stand-off munitions, coalition datalinks, and post-Cold War expeditionary operations."
     ],
     "wars_used_in": [
       {
-        "name": "Kosovo War",
-        "note": "Panavia Tornado used in Kosovo War."
+        "name": "Gulf War",
+        "note": "RAF, Italian, and Saudi Tornados flew strike and related missions during the 1991 Gulf War."
       },
       {
-        "name": "2011 military intervention in Libya",
-        "note": "Panavia Tornado used in 2011 military intervention in Libya."
+        "name": "Bosnia and Kosovo air campaigns",
+        "note": "Tornado operators used IDS/GR and ECR aircraft for strike, reconnaissance, and air-defence-suppression support."
+      },
+      {
+        "name": "Iraq War",
+        "note": "RAF Tornado GR4 aircraft used Storm Shadow and precision weapons in Operation Iraqi Freedom and later Iraq operations."
+      },
+      {
+        "name": "Afghanistan",
+        "note": "RAF and Italian Tornado variants supported coalition operations with reconnaissance, close air support, and precision strike."
+      },
+      {
+        "name": "2011 Libya intervention",
+        "note": "RAF and Italian Tornados participated in Libya operations; exact missions varied by national tasking."
       }
     ],
     "variant_families": [
-      "Panavia Tornado baseline production model",
-      "Panavia Tornado upgraded avionics or weapons-capable model",
-      "Panavia Tornado two-seat trainer or conversion model"
+      "Tornado IDS interdictor/strike baseline for partner nations and Saudi Arabia",
+      "RAF GR1/GR1A/GR1B and GR4/GR4A strike, reconnaissance, maritime-attack, and mid-life-updated aircraft",
+      "Tornado ECR electronic combat and reconnaissance / SEAD aircraft for Germany and Italy",
+      "Tornado ADV F2/F3 air-defence variant with longer nose, Foxhunter radar, and air-to-air missile fit",
+      "National mid-life-update aircraft with improved cockpit, navigation, defensive aids, targeting pods, and precision weapons"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
@@ -52637,150 +52722,208 @@
         "Germany",
         "Italy"
       ],
-      "major_user_note": "Panavia Tornado has 3 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The original users were the United Kingdom, Germany, and Italy; Saudi Arabia was the major export customer.",
+      "all_operators_status": "Four national operator communities are summarized; current status varies by country and date."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "Tri-National Tornado Training Establishment at RAF Cottesmore supported shared training and evaluation after production began.",
+        "RAF GR4 aircraft became associated with Storm Shadow, Brimstone, RAPTOR reconnaissance pod, Litening/TIALD targeting pods, and Paveway-family precision weapons."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "RAF Tornado F3 fleet retirement in March 2011 marked the end of the RAF air-defence Tornado role.",
+        "The RAF retired its remaining Tornado GR4 force in 2019; other national fleets followed separate retirement and replacement plans."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Panavia Tornado uses jet propulsion."
+      "type": "Afterburning turbofan",
+      "summary": "The Tornado family uses two Turbo-Union RB199 reheated turbofans. The engine installation included thrust-reverser capability in strike variants and supported high-speed low-level operation."
     },
     "armament_details": {
-      "summary": "Bombs, missiles, and precision-guided weapons.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Armament was variant- and country-specific: GR/IDS strike aircraft carried cannon, bombs, anti-radiation missiles, anti-ship weapons, stand-off missiles, guided bombs, targeting/reconnaissance pods, and defensive missiles; ADV aircraft centered on air-to-air missile carriage.",
+      "caution": "Exact weapon lists changed by operator, upgrade, and date; nuclear-capable Cold War planning and national weapons fits are not treated as universal Tornado equipment."
     },
     "similar_development": [
       {
-        "id": "b-52-stratofortress",
-        "name": "Boeing B-52 Stratofortress",
-        "url": "aircraft.html?id=b-52-stratofortress"
+        "id": "su-24",
+        "name": "Sukhoi Su-24",
+        "url": "aircraft.html?id=su-24"
+      },
+      {
+        "id": "sepecat-jaguar",
+        "name": "SEPECAT Jaguar",
+        "url": "aircraft.html?id=sepecat-jaguar"
+      },
+      {
+        "id": "eurofighter-typhoon",
+        "name": "Eurofighter Typhoon",
+        "url": "aircraft.html?id=eurofighter-typhoon"
       },
       {
         "id": "b-1-lancer",
         "name": "Rockwell B-1 Lancer",
         "url": "aircraft.html?id=b-1-lancer"
-      },
-      {
-        "id": "b-2-spirit",
-        "name": "Northrop Grumman B-2 Spirit",
-        "url": "aircraft.html?id=b-2-spirit"
-      },
-      {
-        "id": "su-24",
-        "name": "Sukhoi Su-24",
-        "url": "aircraft.html?id=su-24"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 44,
+      "operator_entries": 4,
+      "variant_entries": 6,
+      "external_article_sources": 4
     },
     "footnotes": [
+      {
+        "id": "fn-panavia-variants",
+        "title": "Variants",
+        "url": "https://www.panavia.de/aircraft/overview/variants",
+        "publisher": "Panavia Aircraft GmbH",
+        "note": "Official Panavia source for Tornado variant family, production totals, and operator distribution."
+      },
+      {
+        "id": "fn-airforce-tech",
+        "title": "Tornado Multirole Aircraft",
+        "url": "https://www.airforce-technology.com/projects/tornado/",
+        "publisher": "Airforce Technology",
+        "note": "Technical and program source for service entry, dimensions, GR4 update, weapons, sensors, and upgrade notes."
+      },
+      {
+        "id": "fn-bae-gr4",
+        "title": "Tornado GR4",
+        "url": "https://www.baesystems.com/en/product/tornado-gr4",
+        "publisher": "BAE Systems",
+        "note": "Manufacturer product page located by search; extraction failed, so claims from search metadata are kept limited and attributed."
+      },
       {
         "id": "fn-main",
         "title": "Panavia Tornado",
         "url": "https://en.wikipedia.org/wiki/Panavia_Tornado",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary overview and reference-discovery source."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "Variants",
+        "url": "https://www.panavia.de/aircraft/overview/variants",
+        "publisher": "Panavia Aircraft GmbH"
+      },
+      {
+        "title": "Tornado Multirole Aircraft",
+        "url": "https://www.airforce-technology.com/projects/tornado/",
+        "publisher": "Airforce Technology"
+      },
+      {
+        "title": "Tornado GR4",
+        "url": "https://www.baesystems.com/en/product/tornado-gr4",
+        "publisher": "BAE Systems"
+      },
+      {
+        "title": "Panavia Tornado",
+        "url": "https://en.wikipedia.org/wiki/Panavia_Tornado",
+        "publisher": "Wikipedia"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Panavia Tornado is a Strike/interdictor aircraft from United Kingdom/Germany/Italy. Manufacturer: Panavia Aircraft GmbH. First flight: 1974. Introduction: 1979. Status: Active/retired by operator.",
+            "text": "The Panavia Tornado is a tri-national, twin-engine, variable-sweep combat-aircraft family developed by the United Kingdom, West Germany, and Italy through Panavia Aircraft GmbH. Rather than a single-role aircraft, it became a family of common-airframe variants for interdiction strike, tactical reconnaissance, maritime attack, electronic combat, suppression of enemy air defences, and air defence.",
             "refs": [
-              "fn-main"
+              "fn-panavia-variants",
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Panavia Tornado is a bomber. Primary role: strike/interdictor aircraft. Country of origin: United Kingdom/Germany/Italy. Manufacturer: Panavia Aircraft GmbH.",
+            "text": "The first Tornado prototype flew on 14 August 1974. Airforce Technology lists service entry from 1979-1982 for the RAF, German Air Force, German Navy, Italian Air Force, Italian Navy, and later Saudi service, while Panavia lists 990 total aircraft across IDS, ECR, and ADV production.",
             "refs": [
-              "fn-wikidata"
+              "fn-panavia-variants",
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Its signature design features were a variable-sweep wing, two RB199 reheated turbofans, low-level all-weather navigation/attack equipment, and a shared airframe that could accept specialized national mission equipment. The F-16 page uses dense overview, development, design, variants, operators, operational history, comparison, timeline, and source sections; this entry follows that pattern in data-driven form.",
             "refs": [
+              "fn-airforce-tech",
               "fn-method"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Primary role",
-            "text": "Strike/interdictor aircraft"
+            "title": "Role",
+            "text": "Strike, reconnaissance, SEAD, maritime attack, and air defence family"
           },
           {
-            "title": "Designer or builder",
-            "text": "Panavia Aircraft GmbH"
+            "title": "Crew",
+            "text": "Two"
           },
           {
-            "title": "Major origin",
-            "text": "United Kingdom, Germany, Italy"
+            "title": "Powerplant",
+            "text": "Two Turbo-Union RB199 reheated turbofans"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Production",
+            "text": "990 aircraft across IDS, ECR, and ADV totals listed by Panavia"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Panavia Tornado first flew in 1974. Introduction date: 1979. Era: Cold War/Modern.",
+            "text": "The Tornado emerged from European attempts to replace multiple strike and reconnaissance aircraft with a common high-speed, low-level platform. Panavia Aircraft GmbH joined British, German, and Italian industrial partners, allowing each nation to share production while adapting the aircraft to national missions.",
             "refs": [
-              "fn-main"
+              "fn-panavia-variants",
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Producer: Panavia Aircraft GmbH. Development context: strike/interdictor aircraft, jet propulsion, supersonic speed category, Cold War/Modern era.",
+            "text": "Panavia describes the program as a common air vehicle with mission variants optimized for different roles. That model produced logistics and training commonality, but it also required substantial differences in radar, avionics, fuel, weapons, and reconnaissance equipment between IDS, ECR, RAF GR-series, and ADV aircraft.",
             "refs": [
-              "fn-wikidata"
+              "fn-panavia-variants"
+            ]
+          },
+          {
+            "text": "Production ran through the Cold War and into the 1990s. Airforce Technology states production ceased in 1998, and Panavia's published variant totals account for 745 IDS aircraft, 51 ECR aircraft, and 194 ADV aircraft.",
+            "refs": [
+              "fn-panavia-variants",
+              "fn-airforce-tech"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing payload, range, survivability, sensor/weapons modernization, and operating cost.",
+            "text": "First flight: 14 August 1974.",
             "refs": [
-              "fn-method"
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "RAF GR4 mid-life update: first entered service in 1998, operational clearance in April 2001, and final delivery in June 2003 according to Airforce Technology.",
             "refs": [
-              "fn-method"
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "ADV first flight: 27 October 1979; F3 entered service in November 1985 according to Panavia.",
+            "refs": [
+              "fn-panavia-variants"
+            ]
+          },
+          {
+            "text": "ECR production: 35 Luftwaffe new-build aircraft and 16 Italian converted aircraft are listed by Panavia.",
+            "refs": [
+              "fn-panavia-variants"
             ]
           }
         ]
@@ -52790,27 +52933,59 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 2. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The IDS/GR Tornado was optimized for low-level, all-weather penetration. Airforce Technology describes an advanced sensor and defensive-aids suite, terrain-following and ground-mapping radar, inertial navigation, TACAN, instrument landing equipment, and automatic flight-control functions supporting day/night low-level missions.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "The variable-sweep wing allowed the aircraft to balance takeoff and landing performance, low-level ride, dash speed, and stores carriage. Panavia emphasizes the common air vehicle: the same basic platform could become a strike aircraft, electronic-combat aircraft, reconnaissance platform, maritime attacker, or air-defence interceptor.",
             "refs": [
-              "fn-method"
+              "fn-panavia-variants"
             ]
           },
           {
-            "text": "Panavia Tornado uses jet propulsion. Engine model field: Not listed.",
+            "text": "GR4 upgrades added a digital avionics bus, improved defensive-aids integration, GPS/INS navigation, TERPROM digital terrain mapping, forward-looking infrared, head-up/head-down display updates, digital mapping, targeting pods, RAPTOR reconnaissance pod integration, and precision weapons.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Armament field: Bombs, missiles, and precision-guided weapons. Exact weapon list: Not listed.",
+            "text": "The ADV/F3 air-defence variant changed the aircraft most visibly: Panavia notes a longer forward fuselage, Foxhunter radar, under-fuselage Skyflash missile arrangement, retractable refuelling hose, one cannon removed for extra fuel, and mission equipment for long-range interception rather than low-level strike.",
             "refs": [
-              "fn-main"
+              "fn-panavia-variants",
+              "fn-airforce-tech"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Airframe",
+            "text": "Twin-engine, variable-sweep-wing combat aircraft"
+          },
+          {
+            "title": "Navigation",
+            "text": "Terrain-following / ground-mapping radar and upgraded INS/GPS systems by variant"
+          },
+          {
+            "title": "Strike weapons",
+            "text": "Bombs, laser/GPS-guided weapons, Brimstone, Storm Shadow, ALARM, Sea Eagle on GR1B, and national stores"
+          },
+          {
+            "title": "Air defence",
+            "text": "ADV/F3 used Foxhunter radar and medium/short-range air-to-air missiles"
+          }
+        ]
+      },
+      {
+        "id": "specifications",
+        "title": "Specifications",
+        "paragraphs": [
+          {
+            "text": "Representative values below are drawn mainly from Airforce Technology Tornado data and BAE GR4 headline figures. They should be read as variant-specific snapshots rather than universal figures for every IDS, ECR, GR, and ADV aircraft.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-bae-gr4"
             ]
           }
         ],
@@ -52820,90 +52995,32 @@
             "text": "2"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Length",
+            "text": "17.2 m in Airforce Technology Tornado data; GR4 references often list about 16.7 m"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Wingspan",
+            "text": "13.9 m unswept in Airforce Technology data; swept span varies by wing angle"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Height",
+            "text": "6 m in Airforce Technology data"
           },
           {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Panavia Tornado status: Active/retired by operator. Conflict entries: 2.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Empty weight",
+            "text": "14,500 kg in Airforce Technology data"
           },
           {
-            "text": "Conflicts: Kosovo War, 2011 military intervention in Libya.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Kosovo War: Panavia Tornado used in Kosovo War.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Engines",
+            "text": "2 × Turbo-Union RB199 Mk 103 reheated turbofans with thrust reverser noted for GR/IDS data"
           },
           {
-            "text": "2011 military intervention in Libya: Panavia Tornado used in 2011 military intervention in Libya.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Panavia Tornado named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum speed",
+            "text": "800 kt maximum level speed in Airforce Technology data; BAE GR4 headline data lists Mach 1.3"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Service ceiling",
+            "text": "50,000 ft in BAE GR4 headline data"
           }
         ]
       },
@@ -52912,35 +53029,42 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Panavia Tornado variant-family entries: 3. Variant families: Panavia Tornado baseline production model; Panavia Tornado upgraded avionics or weapons-capable model; Panavia Tornado two-seat trainer or conversion model.",
+            "text": "The Tornado family was intentionally split into mission variants rather than a single universal configuration. Panavia identifies IDS, ECR, and ADV as the three primary variants, with RAF GR subvariants and mid-life updates adding national specialization.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-panavia-variants"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Panavia Tornado baseline production model",
+            "text": "IDS: core Interdiction Strike aircraft for air-to-ground attack, maritime strike, and tactical reconnaissance; 745 including trainers are listed by Panavia.",
             "refs": [
-              "fn-main"
+              "fn-panavia-variants"
             ]
           },
           {
-            "text": "Panavia Tornado upgraded avionics or weapons-capable model",
+            "text": "RAF GR1/GR1A/GR1B: strike, reconnaissance, and maritime-attack adaptations; GR1B could carry Sea Eagle anti-ship missiles.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech",
+              "fn-panavia-variants"
             ]
           },
           {
-            "text": "Panavia Tornado two-seat trainer or conversion model",
+            "text": "GR4/GR4A: RAF mid-life update with improved avionics, defensive aids, navigation, FLIR, pods, and precision weapons; 142 RAF GR1s were upgraded according to Airforce Technology.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "ECR: German and Italian electronic combat/reconnaissance version for locating and suppressing enemy air defences; Panavia lists 51 produced or converted.",
+            "refs": [
+              "fn-panavia-variants"
+            ]
+          },
+          {
+            "text": "ADV F2/F3: air-defence version for long-range interception; Panavia lists 194 built, 170 for the RAF and 24 for Saudi Arabia.",
+            "refs": [
+              "fn-panavia-variants"
             ]
           }
         ]
@@ -52950,45 +53074,102 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United Kingdom, Germany, Italy. Panavia Tornado has 3 designer or builder country entry.",
+            "text": "Tornado users were concentrated in the three partner nations and Saudi Arabia. Current fleet status is date-sensitive, so this article separates historical operator communities from exact current inventory counts.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-panavia-variants",
+              "fn-airforce-tech"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "United Kingdom: RAF strike/reconnaissance and air-defence Tornados, with GR4 retired in 2019 after decades of operations.",
             "refs": [
+              "fn-airforce-tech",
               "fn-main"
             ]
           },
           {
-            "text": "Major designer or builder entries: United Kingdom, Germany, Italy.",
+            "text": "Germany: Luftwaffe and former Marineflieger IDS/ECR use, including maritime strike and SEAD-related roles.",
             "refs": [
-              "fn-wikidata"
+              "fn-panavia-variants"
+            ]
+          },
+          {
+            "text": "Italy: Aeronautica Militare IDS and ECR aircraft, including mid-life-updated aircraft and coalition deployments.",
+            "refs": [
+              "fn-panavia-variants",
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "Saudi Arabia: Royal Saudi Air Force IDS and ADV aircraft; the only export operator outside the original partner nations.",
+            "refs": [
+              "fn-panavia-variants",
+              "fn-airforce-tech"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 2, propulsion type Jet, maximum speed category Supersonic, first flight 1974, introduction 1979.",
+            "text": "The Tornado's combat identity was built around low-level strike and reconnaissance. RAF, Italian, and Saudi Tornados flew during the 1991 Gulf War, and later Tornado operations included the Balkans, Iraq, Afghanistan, Libya, and other national or coalition missions depending operator.",
             "refs": [
+              "fn-airforce-tech",
               "fn-main"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "RAF GR4 aircraft became a key British precision-strike and reconnaissance platform after the mid-life update. Airforce Technology links Tornado operations to Storm Shadow initial operational use in support of Operation Iraqi Freedom, Brimstone integration, Paveway-family weapons, Litening/TIALD targeting pods, and RAPTOR reconnaissance pod deployments.",
+            "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "German and Italian ECR aircraft gave the family a dedicated SEAD/electronic-combat role. The ADV/F3 served a different mission, providing long-range air defence until replacement by Eurofighter Typhoon in RAF service.",
+            "refs": [
+              "fn-panavia-variants",
+              "fn-airforce-tech"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The Tornado was strong where a specialized Cold War low-level strike aircraft needed speed, crew workload sharing, terrain-following capability, and heavy national weapons integration. It was less ideal where later operations demanded stealth, low operating cost, or a single simplified multirole configuration.",
+            "refs": [
+              "fn-panavia-variants",
+              "fn-airforce-tech"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: common airframe supported IDS, ECR, reconnaissance, maritime attack, GR4 strike, and ADV air-defence missions.",
+            "refs": [
+              "fn-panavia-variants"
+            ]
+          },
+          {
+            "text": "Strength: low-level navigation, terrain-following equipment, defensive aids, and two-crew mission management suited all-weather penetration and strike.",
+            "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "Limitation: variable-sweep wing and multiple national configurations increased mechanical and sustainment complexity.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: non-stealth Cold War shaping made later survivability more dependent on stand-off weapons, electronic warfare, tactics, and coalition support.",
             "refs": [
               "fn-method"
             ]
@@ -52996,32 +53177,133 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "comparison",
+        "title": "Comparison",
         "paragraphs": [
           {
-            "text": "Panavia Tornado similar-development links: 4.",
+            "text": "Compared with the F-16 reference page aircraft, the Tornado was larger, twin-engined, two-crew, and optimized around low-level strike and specialized variants rather than a lightweight single-engine fighter lineage. Compared with the Su-24, it shared the variable-sweep strike-aircraft concept but came from a NATO European consortium and evolved into RAF GR4, ECR, and ADV branches. Compared with Eurofighter Typhoon, it represented an older low-level strike/interceptor family that Typhoon partly replaced in air-defence and later strike roles.",
             "refs": [
-              "fn-method"
+              "fn-panavia-variants",
+              "fn-airforce-tech"
             ]
           }
         ],
         "links": [
           {
-            "label": "Boeing B-52 Stratofortress",
-            "url": "aircraft.html?id=b-52-stratofortress"
+            "label": "F-16 Fighting Falcon",
+            "url": "aircraft.html?id=f-16-fighting-falcon"
+          },
+          {
+            "label": "Sukhoi Su-24",
+            "url": "aircraft.html?id=su-24"
+          },
+          {
+            "label": "Eurofighter Typhoon",
+            "url": "aircraft.html?id=eurofighter-typhoon"
+          },
+          {
+            "label": "SEPECAT Jaguar",
+            "url": "aircraft.html?id=sepecat-jaguar"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "14 August 1974: first Tornado flight.",
+            "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "1979-1982: service entry period across RAF, German, Italian, and naval variants listed by Airforce Technology.",
+            "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "27 October 1979: Tornado ADV first flight according to Panavia.",
+            "refs": [
+              "fn-panavia-variants"
+            ]
+          },
+          {
+            "text": "1986-1992: German ECR order and deliveries, ending with the 35th Luftwaffe ECR according to Panavia.",
+            "refs": [
+              "fn-panavia-variants"
+            ]
+          },
+          {
+            "text": "1998-2003: RAF GR4 mid-life-update service entry through final delivery according to Airforce Technology.",
+            "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "March 2011: RAF Tornado F3 retired and replaced by Eurofighter Typhoon in the air-defence role according to Airforce Technology.",
+            "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "2019: RAF Tornado GR4 retirement; other national fleets had separate timelines.",
+            "refs": [
+              "fn-main"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Main sources used this run were Panavia's variant overview and Airforce Technology's Tornado program page. BAE Systems GR4 page metadata was located but could not be extracted directly, so BAE-derived claims are kept limited and clearly attributed. Wikipedia remains a supplementary orientation source only.",
+            "refs": [
+              "fn-panavia-variants",
+              "fn-airforce-tech",
+              "fn-bae-gr4",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Variant-sensitive figures were deliberately phrased with caveats. Exact speed, range, weapons, retirement status, and operator inventory can differ by IDS, ECR, GR4, ADV, national upgrade, and date.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages emphasize variable-sweep strike aircraft, European successors, and aircraft that overlap with Tornado missions."
+          }
+        ],
+        "links": [
+          {
+            "label": "Sukhoi Su-24",
+            "url": "aircraft.html?id=su-24"
+          },
+          {
+            "label": "SEPECAT Jaguar",
+            "url": "aircraft.html?id=sepecat-jaguar"
+          },
+          {
+            "label": "Eurofighter Typhoon",
+            "url": "aircraft.html?id=eurofighter-typhoon"
           },
           {
             "label": "Rockwell B-1 Lancer",
             "url": "aircraft.html?id=b-1-lancer"
           },
           {
-            "label": "Northrop Grumman B-2 Spirit",
-            "url": "aircraft.html?id=b-2-spirit"
-          },
-          {
-            "label": "Sukhoi Su-24",
-            "url": "aircraft.html?id=su-24"
+            "label": "F-16 Fighting Falcon",
+            "url": "aircraft.html?id=f-16-fighting-falcon"
           }
         ]
       }
