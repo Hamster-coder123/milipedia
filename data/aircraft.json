@@ -59261,35 +59261,93 @@
   {
     "id": "nh90",
     "name": "NHIndustries NH90",
-    "alternative_names": [],
+    "alternative_names": [
+      "NATO Helicopter 90",
+      "NH90 TTH",
+      "NH90 NFH"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "Multinational Europe",
     "manufacturer": "NHIndustries",
-    "role": "Medium utility helicopter",
+    "role": "Medium-lift tactical transport and naval multimission helicopter",
     "aircraft_type": "Helicopter",
     "era": "Modern",
-    "first_flight": "1995",
+    "first_flight": "December 1995",
     "introduction_date": "2007",
     "retirement_date": null,
     "status": "Active",
-    "number_built": "Not listed",
-    "crew": "2-4",
+    "number_built": "More than 525 delivered, NHIndustries programme page",
+    "crew": "1-3 depending role; NFH commonly 3 mission crew",
     "engine_type": "Turboshaft",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engines": "Two FADEC-equipped turboshaft engines; RTM322 and GE T700/T6E1 families appear in operator references",
+    "max_speed": "300 km/h / 162 kt maximum cruise speed, basic aircraft at 10 t",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Utility helicopter weapons not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "NHIndustries NH90: Medium utility helicopter. Manufacturer: NHIndustries. First flight: 1995. Introduction: 2007.",
-    "short_summary": "NHIndustries NH90: Medium utility helicopter. Origin: Multinational Europe. Manufacturer: NHIndustries. First flight: 1995. Introduction: 2007. Status: Active.",
-    "carrier_capable": false,
+    "range": "982 km / 530 nm maximum range; 1,600 km / 864 nm ferry range with internal auxiliary fuel tanks",
+    "combat_range": "Mission-dependent; not given as a single common figure",
+    "service_ceiling": "Hover data varies by configuration; Leonardo lists HIGE 3,200 m and HOGE 2,600 m for basic aircraft at 10 t",
+    "rate_of_climb": "Not listed in reviewed official sources",
+    "armament": "Configuration-dependent; NFH can carry ASW/ASuW weapons such as torpedoes and Marte Mk2/S anti-ship missiles, while TTH fits vary by mission kit",
+    "hardpoints": "Mission stores and cabin/weapon stations vary by TTH/NFH and national configuration",
+    "variants": [
+      {
+        "name": "NH90 TTH",
+        "description": "Tactical Transport Helicopter for land-based transport, SAR, MEDEVAC/CASEVAC, special operations, command and control, parachuting, VIP transport, and disaster relief roles."
+      },
+      {
+        "name": "NH90 NFH",
+        "description": "NATO Frigate Helicopter for shipborne and shore-based ASW, ASuW, maritime surveillance, SAR, VERTREP, and naval support roles."
+      },
+      {
+        "name": "NH90 NTH Sea Lion",
+        "description": "German Navy maritime derivative used for personnel/material transport, sea surveillance, SAR over sea, evacuation, boarding support, and ship/shore operations."
+      }
+    ],
+    "operators": [
+      {
+        "country": "France",
+        "service": "Programme/customer context; founding NH90 nation."
+      },
+      {
+        "country": "Italy",
+        "service": "Programme/customer context; founding NH90 nation."
+      },
+      {
+        "country": "Netherlands",
+        "service": "Programme/customer context; founding NH90 nation."
+      },
+      {
+        "country": "Germany",
+        "service": "German Army NH90 TTH and German Navy NTH Sea Lion service documented by the Bundeswehr."
+      },
+      {
+        "country": "Belgium",
+        "service": "NH90 programme/customer context noted by the Bundeswehr."
+      },
+      {
+        "country": "Finland",
+        "service": "NH90 programme/customer context noted by the Bundeswehr."
+      },
+      {
+        "country": "Norway",
+        "service": "NH90 programme/customer context noted by the Bundeswehr."
+      },
+      {
+        "country": "Sweden",
+        "service": "NH90 programme/customer context noted by the Bundeswehr."
+      },
+      {
+        "country": "Spain",
+        "service": "NH90 programme/customer context noted by the Bundeswehr."
+      },
+      {
+        "country": "Oman",
+        "service": "NH90 user context noted by the Bundeswehr."
+      }
+    ],
+    "combat_history": "Operational use includes German forward air medical evacuation deployments in Afghanistan in 2013-2014 and German NH90 use in Mali since early 2017; combat-claim details are operator-specific.",
+    "development_history": "Multinational NATO helicopter programme initiated by France, Italy, the Netherlands, and Germany; PT1 first flew in December 1995 and TTH/NFH production families entered service from 2007-era deliveries.",
+    "short_summary": "NHIndustries NH90 is a multinational European twin-engine fly-by-wire helicopter family built in TTH tactical-transport and NFH naval/frigate versions for land, maritime, rescue, medical, and special-mission roles.",
+    "carrier_capable": true,
     "stealth": false,
     "images": [
       {
@@ -59301,18 +59359,46 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
-        "title": "NHIndustries NH90",
-        "url": "https://en.wikipedia.org/wiki/NHIndustries_NH90",
-        "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "id": "fn-nhi-home",
+        "title": "NHIndustries: NH90 Multimission Helicopters",
+        "url": "https://www.nhindustries.com/",
+        "publisher": "NHIndustries",
+        "note": "Manufacturer programme page used for delivery count, flight-hour count, operator count, consortium composition, and TTH/NFH overview."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "id": "fn-nhi-tth",
+        "title": "NH90 TTH Tactical Transport Helicopter",
+        "url": "https://www.nhindustries.com/nh90-helicopter/nh90-tth-tactical-transport-helicopter/",
+        "publisher": "NHIndustries",
+        "note": "Manufacturer page used for Tactical Transport Helicopter mission roles, troop capacity, survivability features, cabin layout, and equipment-package wording."
+      },
+      {
+        "id": "fn-nhi-nfh",
+        "title": "NH90 NFH NATO Frigate Helicopter",
+        "url": "https://www.nhindustries.com/nh90-helicopter/nh90-nfh-nato-frigate-helicopter/",
+        "publisher": "NHIndustries",
+        "note": "Manufacturer page used for naval mission roles, ship-operation features, crew concept, mission system, sensors, data link, and representative weapons."
+      },
+      {
+        "id": "fn-leonardo",
+        "title": "NH90 - Military Helicopters",
+        "url": "https://helicopters.leonardo.com/en/products/nh90",
+        "publisher": "Leonardo Helicopters",
+        "note": "Prime partner product page used for technical data, mission equipment, crew/passenger capacity, speed, range, endurance, and TTH/NFH descriptions."
+      },
+      {
+        "id": "fn-bundeswehr",
+        "title": "NATO - Helicopter 90 (NH90)",
+        "url": "https://www.bundeswehr.de/en/organization/equipment/armaments-projects/nato-helicopter-90-nh90-",
+        "publisher": "Bundeswehr",
+        "note": "Official German Armed Forces page used for programme history, founding nations, first prototype flight, German TTH and Sea Lion service, Afghanistan and Mali use, and technical dimensions."
+      },
+      {
+        "id": "fn-airforce-tech",
+        "title": "NH90 NFH Nato Frigate Helicopter",
+        "url": "https://www.airforce-technology.com/projects/nh90-nfh-asw",
+        "publisher": "Airforce Technology",
+        "note": "Secondary technical reference used for NFH avionics, sensors, powerplant examples, ASW/ASuW roles, and order/delivery context."
       },
       {
         "id": "fn-method",
@@ -59320,13 +59406,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.eurocopter.com/publications/FO/scripts/newsFO_complet.php?lang=EN&news_id=473",
-        "publisher": "eurocopter.com",
-        "note": "External source for NHIndustries NH90."
       }
     ],
     "country_flags": [
@@ -59336,108 +59415,183 @@
       }
     ],
     "designers": [
-      "NHIndustries"
+      "NHIndustries",
+      "Airbus Helicopters",
+      "Leonardo",
+      "GKN Fokker Aerospace"
     ],
     "development_tensions": [
-      "Balancing lift, survivability, vibration, hot-and-high performance, and battlefield maintainability."
+      "Creating a common helicopter family for both tactical land transport and shipborne naval missions.",
+      "Balancing mission equipment, survivability, cabin volume, shipboard folding features, and national customization without losing commonality.",
+      "Keeping specifications accurate despite variant-specific engines, sensors, weights, and national mission kits."
     ],
-    "wars_used_in": [],
+    "wars_used_in": [
+      "Afghanistan War medical evacuation deployment",
+      "Mali deployment/support use"
+    ],
     "variant_families": [
-      "NHIndustries NH90 baseline production model",
-      "NHIndustries NH90 upgraded avionics or weapons-capable model",
-      "NHIndustries NH90 two-seat trainer or conversion model",
-      "NHIndustries NH90 utility, attack, naval, or export model"
+      "NH90 TTH tactical transport",
+      "NH90 NFH NATO frigate helicopter",
+      "NH90 NTH Sea Lion national naval derivative"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
-        "Multinational Europe"
+        "France",
+        "Italy",
+        "Netherlands",
+        "Germany",
+        "Airbus Helicopters",
+        "Leonardo",
+        "GKN Fokker Aerospace"
       ],
-      "major_user_note": "NHIndustries NH90 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "NHIndustries reports 18 operators on its current programme page; operator status is date-sensitive and nationally configured.",
+      "all_operators_status": "Representative programme/customer countries listed from official and manufacturer sources; verify current active fleet status by country before making a complete current-operator table."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "PT1 prototype first flight in December 1995.",
+        "PT5 navy-version prototype first flight in December 1999.",
+        "First German NH90 NTH Sea Lion handed over on 24 October 2019."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "German NH90 forward air medical evacuation use in Afghanistan, 2013-2014.",
+        "German NH90 use in Mali since early 2017."
       ]
     },
     "engine_details": {
       "type": "Turboshaft",
-      "summary": "NHIndustries NH90 uses turboshaft propulsion."
+      "summary": "Two FADEC-equipped turboshaft engines; Leonardo describes the NH90 powerplant generically, while Airforce Technology identifies RTM322 and GE T700/T6E1 options for NFH-related configurations."
     },
     "armament_details": {
-      "summary": "Utility helicopter weapons not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Armament is configuration-dependent. NFH mission equipment can include torpedoes, anti-ship missiles, and related maritime stores; TTH equipment varies by national package and role.",
+      "caution": "Do not apply one weapon list to all NH90 operators or variants."
     },
     "similar_development": [
-      {
-        "id": "ah-1-cobra",
-        "name": "Bell AH-1 Cobra",
-        "url": "aircraft.html?id=ah-1-cobra"
-      },
-      {
-        "id": "ah-64-apache",
-        "name": "Boeing AH-64 Apache",
-        "url": "aircraft.html?id=ah-64-apache"
-      },
-      {
-        "id": "uh-1-iroquois",
-        "name": "Bell UH-1 Iroquois",
-        "url": "aircraft.html?id=uh-1-iroquois"
-      },
       {
         "id": "uh-60-black-hawk",
         "name": "Sikorsky UH-60 Black Hawk",
         "url": "aircraft.html?id=uh-60-black-hawk"
+      },
+      {
+        "id": "mi-8",
+        "name": "Mil Mi-8",
+        "url": "aircraft.html?id=mi-8"
+      },
+      {
+        "id": "ch-53-sea-stallion",
+        "name": "Sikorsky CH-53 Sea Stallion",
+        "url": "aircraft.html?id=ch-53-sea-stallion"
+      },
+      {
+        "id": "eurocopter-tiger",
+        "name": "Eurocopter Tiger",
+        "url": "aircraft.html?id=eurocopter-tiger"
+      },
+      {
+        "id": "ch-47-chinook",
+        "name": "Boeing CH-47 Chinook",
+        "url": "aircraft.html?id=ch-47-chinook"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 1
+      "exact_fact_count": 54,
+      "operator_entries": 10,
+      "variant_entries": 3,
+      "external_article_sources": 6
     },
     "footnotes": [
       {
-        "id": "fn-main",
-        "title": "NHIndustries NH90",
-        "url": "https://en.wikipedia.org/wiki/NHIndustries_NH90",
-        "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "id": "fn-nhi-home",
+        "title": "NHIndustries: NH90 Multimission Helicopters",
+        "url": "https://www.nhindustries.com/",
+        "publisher": "NHIndustries",
+        "note": "Manufacturer programme page used for delivery count, flight-hour count, operator count, consortium composition, and TTH/NFH overview."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "id": "fn-nhi-tth",
+        "title": "NH90 TTH Tactical Transport Helicopter",
+        "url": "https://www.nhindustries.com/nh90-helicopter/nh90-tth-tactical-transport-helicopter/",
+        "publisher": "NHIndustries",
+        "note": "Manufacturer page used for Tactical Transport Helicopter mission roles, troop capacity, survivability features, cabin layout, and equipment-package wording."
+      },
+      {
+        "id": "fn-nhi-nfh",
+        "title": "NH90 NFH NATO Frigate Helicopter",
+        "url": "https://www.nhindustries.com/nh90-helicopter/nh90-nfh-nato-frigate-helicopter/",
+        "publisher": "NHIndustries",
+        "note": "Manufacturer page used for naval mission roles, ship-operation features, crew concept, mission system, sensors, data link, and representative weapons."
+      },
+      {
+        "id": "fn-leonardo",
+        "title": "NH90 - Military Helicopters",
+        "url": "https://helicopters.leonardo.com/en/products/nh90",
+        "publisher": "Leonardo Helicopters",
+        "note": "Prime partner product page used for technical data, mission equipment, crew/passenger capacity, speed, range, endurance, and TTH/NFH descriptions."
+      },
+      {
+        "id": "fn-bundeswehr",
+        "title": "NATO - Helicopter 90 (NH90)",
+        "url": "https://www.bundeswehr.de/en/organization/equipment/armaments-projects/nato-helicopter-90-nh90-",
+        "publisher": "Bundeswehr",
+        "note": "Official German Armed Forces page used for programme history, founding nations, first prototype flight, German TTH and Sea Lion service, Afghanistan and Mali use, and technical dimensions."
+      },
+      {
+        "id": "fn-airforce-tech",
+        "title": "NH90 NFH Nato Frigate Helicopter",
+        "url": "https://www.airforce-technology.com/projects/nh90-nfh-asw",
+        "publisher": "Airforce Technology",
+        "note": "Secondary technical reference used for NFH avionics, sensors, powerplant examples, ASW/ASuW roles, and order/delivery context."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.eurocopter.com/publications/FO/scripts/newsFO_complet.php?lang=EN&news_id=473",
-        "publisher": "eurocopter.com",
-        "note": "External source for NHIndustries NH90."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.eurocopter.com/publications/FO/scripts/newsFO_complet.php?lang=EN&news_id=473",
-        "publisher": "eurocopter.com",
-        "note": "External source for NHIndustries NH90."
+        "id": "fn-nhi-home",
+        "title": "NHIndustries: NH90 Multimission Helicopters",
+        "url": "https://www.nhindustries.com/",
+        "publisher": "NHIndustries",
+        "note": "Manufacturer programme page used for delivery count, flight-hour count, operator count, consortium composition, and TTH/NFH overview."
+      },
+      {
+        "id": "fn-nhi-tth",
+        "title": "NH90 TTH Tactical Transport Helicopter",
+        "url": "https://www.nhindustries.com/nh90-helicopter/nh90-tth-tactical-transport-helicopter/",
+        "publisher": "NHIndustries",
+        "note": "Manufacturer page used for Tactical Transport Helicopter mission roles, troop capacity, survivability features, cabin layout, and equipment-package wording."
+      },
+      {
+        "id": "fn-nhi-nfh",
+        "title": "NH90 NFH NATO Frigate Helicopter",
+        "url": "https://www.nhindustries.com/nh90-helicopter/nh90-nfh-nato-frigate-helicopter/",
+        "publisher": "NHIndustries",
+        "note": "Manufacturer page used for naval mission roles, ship-operation features, crew concept, mission system, sensors, data link, and representative weapons."
+      },
+      {
+        "id": "fn-leonardo",
+        "title": "NH90 - Military Helicopters",
+        "url": "https://helicopters.leonardo.com/en/products/nh90",
+        "publisher": "Leonardo Helicopters",
+        "note": "Prime partner product page used for technical data, mission equipment, crew/passenger capacity, speed, range, endurance, and TTH/NFH descriptions."
+      },
+      {
+        "id": "fn-bundeswehr",
+        "title": "NATO - Helicopter 90 (NH90)",
+        "url": "https://www.bundeswehr.de/en/organization/equipment/armaments-projects/nato-helicopter-90-nh90-",
+        "publisher": "Bundeswehr",
+        "note": "Official German Armed Forces page used for programme history, founding nations, first prototype flight, German TTH and Sea Lion service, Afghanistan and Mali use, and technical dimensions."
+      },
+      {
+        "id": "fn-airforce-tech",
+        "title": "NH90 NFH Nato Frigate Helicopter",
+        "url": "https://www.airforce-technology.com/projects/nh90-nfh-asw",
+        "publisher": "Airforce Technology",
+        "note": "Secondary technical reference used for NFH avionics, sensors, powerplant examples, ASW/ASuW roles, and order/delivery context."
       }
     ],
     "article_sections": [
@@ -59446,20 +59600,23 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "NHIndustries NH90 is a Medium utility helicopter from Multinational Europe. Manufacturer: NHIndustries. First flight: 1995. Introduction: 2007. Status: Active.",
+            "text": "The NHIndustries NH90 is a twin-engine, medium-lift, fly-by-wire military helicopter family developed and built by the multinational NHIndustries consortium for tactical transport, naval, search-and-rescue, medical evacuation, special operations, and utility missions. NHIndustries describes the programme as a collaboration between Airbus Helicopters, Leonardo, and GKN Fokker Aerospace, with more than 525 deliveries, more than 460,000 flight hours, and 18 operators reported on its current programme page.",
             "refs": [
-              "fn-main"
+              "fn-nhi-home"
             ]
           },
           {
-            "text": "NHIndustries NH90 is a helicopter. Primary role: medium utility helicopter. Country of origin: Multinational Europe. Manufacturer: NHIndustries.",
+            "text": "The family is organized around two main mission versions: the Tactical Transport Helicopter (TTH) for land-based battlefield support and the NATO Frigate Helicopter (NFH) for shipborne maritime operations. Both versions share a common core rotorcraft with a composite airframe, redundant fly-by-wire controls, two FADEC-equipped turboshaft engines, integrated mission systems, and reconfigurable cabin space.",
             "refs": [
-              "fn-wikidata"
+              "fn-nhi-tth",
+              "fn-nhi-nfh",
+              "fn-leonardo"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The NH90 is not a single national design. Its founding programme nations were France, Italy, the Netherlands, and Germany; later customers and operators adapted national variants for transport, maritime, special-mission, and support roles. This article treats published performance and equipment figures as representative because NH90 configuration, engine selection, sensors, defensive aids, and weapon fits differ by customer and mission version.",
             "refs": [
+              "fn-bundeswehr",
               "fn-method"
             ]
           }
@@ -59467,43 +59624,65 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Medium utility helicopter"
+            "text": "Medium tactical transport and naval multimission helicopter"
           },
           {
-            "title": "Designer or builder",
-            "text": "NHIndustries"
+            "title": "Main versions",
+            "text": "NH90 TTH land/tactical transport; NH90 NFH naval/frigate helicopter"
           },
           {
-            "title": "Major origin",
-            "text": "Multinational Europe"
+            "title": "Programme origin",
+            "text": "Multinational European NATO helicopter programme"
           },
           {
-            "title": "Propulsion",
-            "text": "Turboshaft"
+            "title": "Manufacturing team",
+            "text": "NHIndustries: Airbus Helicopters, Leonardo, and GKN Fokker Aerospace"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "NHIndustries NH90 first flew in 1995. Introduction date: 2007. Era: Modern.",
+            "text": "The NATO Helicopter 90 programme was created to produce a common nine-to-eleven-ton helicopter family for transport and naval missions. The Bundeswehr states that France, Italy, the Netherlands, and Germany initiated the development effort, with NAHEMA representing the participating programme nations and the NHI group acting as contractor.",
             "refs": [
-              "fn-main"
+              "fn-bundeswehr"
             ]
           },
           {
-            "text": "Producer: NHIndustries. Development context: medium utility helicopter, turboshaft propulsion, subsonic speed category, Modern era.",
+            "text": "Development separated the common baseline aircraft into a transport helicopter and a navy helicopter. National requirements then produced country-specific variants, including German Army TTH aircraft and the German Navy NTH Sea Lion derivative of the naval family.",
             "refs": [
-              "fn-wikidata"
+              "fn-bundeswehr"
+            ]
+          },
+          {
+            "text": "The first PT1 prototype flew in December 1995. The fifth prototype, a navy-version test aircraft, made its first flight in December 1999. Leonardo lists the type's service entry as 2007, and the original Milipedia record used 1995 first flight and 2007 introduction fields.",
+            "refs": [
+              "fn-bundeswehr",
+              "fn-leonardo"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing lift, survivability, vibration, hot-and-high performance, and battlefield maintainability.",
+            "text": "Programme requirement: a common NATO helicopter family usable for battlefield transport and maritime operations.",
             "refs": [
+              "fn-bundeswehr"
+            ]
+          },
+          {
+            "text": "Industrial structure: Airbus Helicopters, Leonardo, and Fokker/GKN Fokker within NHIndustries.",
+            "refs": [
+              "fn-nhi-home",
+              "fn-bundeswehr"
+            ]
+          },
+          {
+            "text": "Main design tension: a common airframe had to support both land-tactical transport and shipborne ASW/ASuW roles without forcing every operator into the same equipment fit.",
+            "refs": [
+              "fn-nhi-tth",
+              "fn-nhi-nfh",
               "fn-method"
             ]
           }
@@ -59514,107 +59693,99 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 2-4. Propulsion: Turboshaft. Speed category: Subsonic.",
+            "text": "The NH90 uses a composite, corrosion-resistant airframe, two turboshaft engines, and redundant fly-by-wire flight control. Manufacturer material emphasizes reduced acoustic, radar, and infrared signatures, crashworthy structure, armored pilot seats or armor protection depending version, self-sealing tanks, defensive aids, and countermeasures as survivability features.",
             "refs": [
-              "fn-main"
+              "fn-nhi-tth",
+              "fn-nhi-nfh",
+              "fn-leonardo"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "The TTH version has a wide unobstructed cabin that can be reconfigured for tactical transport, special operations, search and rescue, medical evacuation, command and control, parachuting, VVIP transport, disaster relief, and other utility roles. NHIndustries and Leonardo state that the cabin can carry up to 20 fully equipped troops; Leonardo also lists a medical evacuation arrangement with 12 stretchers.",
             "refs": [
+              "fn-nhi-tth",
+              "fn-leonardo"
+            ]
+          },
+          {
+            "text": "The NFH version adds a maritime mission system for autonomous and cooperative anti-submarine warfare, anti-surface warfare, search and rescue, maritime surveillance, vertical replenishment, troop transport, and special operations. NHIndustries lists tactical 360-degree radar, FLIR, dipping sonar, sonobuoy storage and processing, electronic warfare equipment, IFF interrogator, Data Link 11, digital map, and light stores dispenser among NFH mission-system elements.",
+            "refs": [
+              "fn-nhi-nfh",
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "Shipboard operation drove a different configuration from the land-focused TTH. The NFH includes automatic blade and tail folding for frigate compatibility, deck-lock and deck-handling features, and maritime systems that allow operation from shore bases or ships in demanding sea conditions.",
+            "refs": [
+              "fn-nhi-nfh",
+              "fn-leonardo"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Flight controls",
+            "text": "Redundant fly-by-wire system"
+          },
+          {
+            "title": "Airframe",
+            "text": "Full-composite, corrosion-resistant structure"
+          },
+          {
+            "title": "Cabin",
+            "text": "Reconfigurable; up to 20 troops in TTH transport configuration"
+          },
+          {
+            "title": "Naval mission equipment",
+            "text": "Radar, FLIR, dipping sonar, sonobuoys, data link, and ASW/ASuW weapons depending configuration"
+          }
+        ]
+      },
+      {
+        "id": "specifications",
+        "title": "Specifications",
+        "paragraphs": [
+          {
+            "text": "Representative data below primarily follows Leonardo's NH90 technical table for the TTH/NFH common aircraft and cross-checks dimensions against the Bundeswehr page. Published values vary by national configuration, mission kit, engine installation, fuel, and gross-weight standard.",
+            "refs": [
+              "fn-leonardo",
+              "fn-bundeswehr",
               "fn-method"
-            ]
-          },
-          {
-            "text": "NHIndustries NH90 uses turboshaft propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Utility helicopter weapons not listed. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "2-4"
+            "text": "1-3 depending role; NFH normally uses three mission crew, with four possible for some training/mission configurations"
           },
           {
-            "title": "Engine class",
-            "text": "Turboshaft"
+            "title": "Passenger capacity",
+            "text": "Up to 20 troops in TTH transport configuration"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Maximum gross weight",
+            "text": "TTH/NFH: 10,600 / 11,000 kg in Leonardo data"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Length",
+            "text": "19.56 m with rotors turning in Leonardo data; Bundeswehr lists 19.60 m"
           },
           {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "NHIndustries NH90 status: Active. Conflict entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Main rotor diameter",
+            "text": "16.30 m"
           },
           {
-            "text": "Conflicts: 0 entries.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "NHIndustries NH90 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Powerplant",
+            "text": "Two FADEC-equipped turboshaft engines; RTM322 and GE T700/T6E1 families appear in published NFH references depending customer"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum cruise speed",
+            "text": "300 km/h / 162 kt for basic aircraft at 10 t in Leonardo data"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum range",
+            "text": "982 km / 530 nm internal range; 1,600 km / 864 nm ferry range with internal auxiliary fuel tanks in Leonardo data"
           }
         ]
       },
@@ -59623,41 +59794,40 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "NHIndustries NH90 variant-family entries: 4. Variant families: NHIndustries NH90 baseline production model; NHIndustries NH90 upgraded avionics or weapons-capable model; NHIndustries NH90 two-seat trainer or conversion model; NHIndustries NH90 utility, attack, naval, or export model.",
+            "text": "The NH90 family should be read as a configurable programme rather than a single fixed model. TTH and NFH are the two primary mission branches, while national subvariants add customer-specific equipment, engines, sensors, mission consoles, naval fittings, defensive systems, and support arrangements.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-bundeswehr",
+              "fn-nhi-tth",
+              "fn-nhi-nfh"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "NHIndustries NH90 baseline production model",
+            "text": "NH90 TTH: Tactical Transport Helicopter for battlefield mobility, troop transport, CASEVAC/MEDEVAC, SAR, special operations, C2, parachuting, VIP transport, disaster relief, and utility support.",
             "refs": [
-              "fn-main"
+              "fn-nhi-tth",
+              "fn-leonardo"
             ]
           },
           {
-            "text": "NHIndustries NH90 upgraded avionics or weapons-capable model",
+            "text": "NH90 NFH: NATO Frigate Helicopter for ASW, ASuW, maritime surveillance, SAR, VERTREP, troop transport, special operations, and other naval missions.",
             "refs": [
-              "fn-main"
+              "fn-nhi-nfh",
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "NHIndustries NH90 two-seat trainer or conversion model",
+            "text": "NH90 NTH Sea Lion: German Navy maritime variant described by the Bundeswehr for personnel and material transport, sea surveillance, search and rescue over sea, evacuation, and boarding support.",
             "refs": [
-              "fn-main"
+              "fn-bundeswehr"
             ]
           },
           {
-            "text": "NHIndustries NH90 utility, attack, naval, or export model",
+            "text": "National mission packages: customer-specific defensive aids, sonar/radar fits, obstacle-warning systems, cabin equipment, and weapons integrations create meaningful differences between operator fleets.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech",
+              "fn-method"
             ]
           }
         ]
@@ -59667,57 +59837,192 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Multinational Europe. NHIndustries NH90 has 1 designer or builder country entry.",
+            "text": "NHIndustries' current programme page reports 18 operators, while older Airforce Technology reporting listed 444 aircraft operational in 13 countries as of April 2021. The difference reflects the date-sensitive nature of NH90 deliveries, withdrawals, and national fleet decisions; this entry therefore avoids a fixed complete operator table until the site's data is periodically refreshed.",
             "refs": [
-              "fn-wikidata"
+              "fn-nhi-home",
+              "fn-airforce-tech",
+              "fn-method"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "The Bundeswehr page identifies the founding programme nations as France, Italy, the Netherlands, and Germany, then names Belgium, Sweden, Finland, Norway, Greece, Australia, New Zealand, Spain, Oman, and Qatar in the wider NH90 community or customer context. Some countries have since changed their fleet plans, so those names are best treated as programme/customer context rather than a fully current active-operator list.",
             "refs": [
+              "fn-bundeswehr",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Founding programme nations: France, Italy, the Netherlands, and Germany.",
             "refs": [
-              "fn-main"
+              "fn-bundeswehr"
             ]
           },
           {
-            "text": "Major designer or builder entries: Multinational Europe.",
+            "text": "German Army use: tactical transport, SAR, forward air medical evacuation, and deployed support; four NH90s were used as forward air medical evacuation helicopters in Afghanistan in 2013-2014.",
             "refs": [
-              "fn-wikidata"
+              "fn-bundeswehr"
+            ]
+          },
+          {
+            "text": "German Navy use: NTH Sea Lion for personnel/material transport, sea surveillance, SAR over sea, evacuation, boarding, and operations from class 702 combat support ships or ashore.",
+            "refs": [
+              "fn-bundeswehr"
+            ]
+          },
+          {
+            "text": "Programme-page fleet scale: more than 525 deliveries and 18 operators reported by NHIndustries on its current homepage.",
+            "refs": [
+              "fn-nhi-home"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 2-4, propulsion type Turboshaft, maximum speed category Subsonic, first flight 1995, introduction 2007.",
+            "text": "The NH90 entered service as a multinational utility and naval helicopter rather than as a combat aircraft optimized for one country's doctrine. It has been used for transport, search and rescue, medical evacuation, maritime surveillance, shipboard support, disaster-relief, special-operations support, and other missions across national fleets.",
             "refs": [
-              "fn-main"
+              "fn-nhi-tth",
+              "fn-nhi-nfh",
+              "fn-leonardo"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "German service provides a documented example of operational use: four NH90s were employed as forward air medical evacuation helicopters in Afghanistan in 2013 and 2014, and the type has also been used in Mali since early 2017. These entries are recorded as operational deployments, not as claims about the whole international fleet.",
+            "refs": [
+              "fn-bundeswehr"
+            ]
+          },
+          {
+            "text": "For naval users, the NFH mission set includes anti-submarine and anti-surface warfare, search and rescue, maritime surveillance, anti-piracy and counterterrorism support, intelligence gathering, vertical replenishment, troop transport, disaster relief, and special operations. Airforce Technology describes typical NFH ASW task profiles built around transit, sonar/sonobuoy work, surveillance, torpedo employment, return, and reserve time.",
+            "refs": [
+              "fn-leonardo",
+              "fn-airforce-tech"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The NH90's strengths come from combining a modern fly-by-wire helicopter with a large missionized cabin and two major variants that share a common design. Its limitations mostly come from programme complexity: national customization, maritime versus land mission equipment, date-sensitive fleet status, and variant-specific performance make simple one-line specifications misleading.",
+            "refs": [
+              "fn-method",
+              "fn-nhi-home"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: common family covers tactical transport and naval missions, reducing the need for separate unrelated helicopter designs.",
+            "refs": [
+              "fn-bundeswehr"
+            ]
+          },
+          {
+            "text": "Strength: fly-by-wire controls, integrated avionics, mission-system data fusion, and a glass cockpit reduce workload compared with older utility helicopter generations.",
+            "refs": [
+              "fn-leonardo",
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "Strength: composite airframe, crashworthy and survivability features, defensive aids, self-protection options, and shipboard folding features support demanding battlefield and maritime roles.",
+            "refs": [
+              "fn-nhi-tth",
+              "fn-nhi-nfh"
+            ]
+          },
+          {
+            "text": "Limitation: payload, range, weapons, sensors, engines, and crew numbers depend heavily on TTH/NFH and national configuration.",
             "refs": [
               "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: current operator and fleet-status claims can change as nations retire, replace, or modify NH90 fleets; the article therefore uses dated source wording for counts.",
+            "refs": [
+              "fn-method",
+              "fn-nhi-home"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "Key dates are limited to source-backed programme milestones and representative service events.",
+            "refs": [
+              "fn-bundeswehr",
+              "fn-leonardo"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1995: PT1 prototype first flight in December 1995.",
+            "refs": [
+              "fn-bundeswehr"
+            ]
+          },
+          {
+            "text": "1999: PT5, the navy-version prototype, first flew in December 1999.",
+            "refs": [
+              "fn-bundeswehr"
+            ]
+          },
+          {
+            "text": "2006: the Bundeswehr states that German NH90 TTH deliveries started at the end of 2006.",
+            "refs": [
+              "fn-bundeswehr"
+            ]
+          },
+          {
+            "text": "2007: Leonardo lists NH90 introduction/service entry in 2007.",
+            "refs": [
+              "fn-leonardo"
+            ]
+          },
+          {
+            "text": "2013-2014: four German NH90s were employed as forward air medical evacuation helicopters in Afghanistan.",
+            "refs": [
+              "fn-bundeswehr"
+            ]
+          },
+          {
+            "text": "2017: the Bundeswehr states that the NH90 has been used successfully in Mali since early 2017.",
+            "refs": [
+              "fn-bundeswehr"
+            ]
+          },
+          {
+            "text": "2019: first German NH90 NTH Sea Lion was handed over on 24 October 2019.",
+            "refs": [
+              "fn-bundeswehr"
+            ]
+          },
+          {
+            "text": "2026-era NHIndustries programme page: more than 525 deliveries, more than 460,000 flight hours, and 18 operators reported.",
+            "refs": [
+              "fn-nhi-home"
             ]
           }
         ]
       },
       {
         "id": "similar-development",
-        "title": "Similar Development",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "NHIndustries NH90 similar-development links: 4.",
+            "text": "Related Milipedia pages cover comparable utility, transport, attack, and naval helicopter context. Links are limited to aircraft IDs present in data/aircraft.json.",
             "refs": [
               "fn-method"
             ]
@@ -59725,20 +60030,24 @@
         ],
         "links": [
           {
-            "label": "Bell AH-1 Cobra",
-            "url": "aircraft.html?id=ah-1-cobra"
-          },
-          {
-            "label": "Boeing AH-64 Apache",
-            "url": "aircraft.html?id=ah-64-apache"
-          },
-          {
-            "label": "Bell UH-1 Iroquois",
-            "url": "aircraft.html?id=uh-1-iroquois"
-          },
-          {
             "label": "Sikorsky UH-60 Black Hawk",
             "url": "aircraft.html?id=uh-60-black-hawk"
+          },
+          {
+            "label": "Mil Mi-8",
+            "url": "aircraft.html?id=mi-8"
+          },
+          {
+            "label": "Sikorsky CH-53 Sea Stallion",
+            "url": "aircraft.html?id=ch-53-sea-stallion"
+          },
+          {
+            "label": "Eurocopter Tiger",
+            "url": "aircraft.html?id=eurocopter-tiger"
+          },
+          {
+            "label": "Boeing CH-47 Chinook",
+            "url": "aircraft.html?id=ch-47-chinook"
           }
         ]
       }

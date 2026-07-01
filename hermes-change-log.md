@@ -3383,3 +3383,82 @@ Record the result of:
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * Exact total production, CIA-specific operations, current export status, and operator-specific weapons authority were intentionally left generalized because public facts differ, are date-sensitive, or may be classified.
 * Predator XP details are used only as Predator-family derivative context and not substituted for legacy USAF MQ-1B specifications.
+### Run 45 — 2026-07-01 16:01:56 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: NHIndustries NH90 (id: nh90)
+* Reason selected: The NH90 entry was the sparsest unedited aircraft page by serialized length, with generic generated text, no operator entries, no variant entries, only one stale external article source, missing specifications, and no real TTH/NFH development, mission-system, operator, or operational-history coverage.
+* Previous condition: Placeholder-like generated entry with 15 exact fact fields, 0 operator entries, 0 variant entries, incomplete engine/range/ceiling fields, generic utility-helicopter armament text, and generated article sections that did not match the density or sourcing of the F-16 reference page.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview with fact cards; section ordering from overview through development, design/capabilities, specifications, variants, operators, operational history, strengths/limitations, timeline, sources, and related pages; concise source-backed paragraphs; variant/operator caveats; internal aircraft.html?id=... related-link style; cautious handling of configuration-dependent data.
+
+#### Changes Made
+
+* Expanded only the NHIndustries NH90 entry in data/aircraft.json while preserving the JSON-rendered aircraft-page structure and existing site behavior.
+* Replaced placeholder summary, development, propulsion, range, crew, armament, operator, and variant fields with sourced NH90-specific data.
+* Added manufacturer and official/operator sources from NHIndustries, Leonardo Helicopters, and the Bundeswehr, plus a secondary Airforce Technology NFH reference for avionics/sensor and naval-role cross-checking.
+* Added detailed overview coverage of the NH90 as a multinational European twin-engine fly-by-wire helicopter family built around TTH tactical transport and NFH naval/frigate versions.
+* Added development-history paragraphs covering the NATO nine-to-eleven-ton requirement, founding nations, NAHEMA/NHI structure, December 1995 PT1 first flight, December 1999 navy-prototype flight, and 2007-era service introduction.
+* Added design and capability details for composite/corrosion-resistant airframe, redundant fly-by-wire controls, reconfigurable cabin, troop/MEDEVAC roles, survivability features, NFH maritime mission system, radar/FLIR/sonar/sonobuoy/data-link equipment, and shipboard folding/deck features.
+* Added representative specifications from Leonardo and Bundeswehr sources, including maximum gross weight, length, rotor diameter, crew, passenger capacity, engine class, cruise speed, internal range, ferry range, and hover data caveats.
+* Added variant coverage for NH90 TTH, NH90 NFH, and NH90 NTH Sea Lion, with warnings that national variants differ by equipment, engine, sensors, and weapons.
+* Added representative operator/programme coverage for founding nations and selected customer/operator context, with source-qualified notes that current operator status is date-sensitive.
+* Added operational-history coverage for documented German NH90 use as forward air medical evacuation helicopters in Afghanistan in 2013-2014 and German use in Mali since early 2017, plus NFH maritime mission context.
+* Added strengths and limitations section emphasizing common-family flexibility, modern avionics/fly-by-wire systems, survivability features, and the limitations of variant-specific published data.
+* Added a sourced timeline and related-page internal links to UH-60 Black Hawk, Mi-8, CH-53 Sea Stallion, Eurocopter Tiger, and CH-47 Chinook.
+* Omitted a complete current operator table, fixed current fleet status by country, and one universal weapons/specification set because NH90 configurations and national fleet decisions are date-sensitive and variant-specific.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the NHIndustries NH90 aircraft entry with sourced facts, sections, specifications, variants, operators, and related links.
+* hermes-change-log.md — Appended the cumulative log entry for this scheduled run.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Confirmed branch hermes-agent; before log append only data/aircraft.json was modified, and before commit only data/aircraft.json and hermes-change-log.md were intended files.
+2. git diff — Reviewed diff/stat; data/aircraft.json changed exactly one aircraft entry, nh90, and hermes-change-log.md gained this run entry.
+3. File review — Parsed data/aircraft.json successfully with python3 -m json.tool and reviewed the NH90 sources, section list, variants, operators, technical cards, caveats, and related links.
+4. F-16 style comparison — Inspected data/f16-template.html and followed its dense overview, card-backed technical facts, section order, source/reference pattern, cautious operator/variant wording, timeline, and related-page structure within the JSON aircraft-page system.
+5. Internal link check — Scripted check confirmed NH90 internal links target existing IDs uh-60-black-hawk, mi-8, ch-53-sea-stallion, eurocopter-tiger, and ch-47-chinook.
+6. Secret/token check — Scanned the intended diff with credential-specific patterns for private keys, passwords, cloud credentials, and access/auth token assignments; no credentials were found.
+7. Final review before commit — Confirmed branch safety, JSON validity, exactly one aircraft entry changed, intended files only, clean formatting checks, internal links, completed change log, and no previous substantial Hermes edit for NH90.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand NHIndustries NH90
+* Commit hash: Pending until commit is created; final hash is reported in the scheduled-run response.
+
+#### Issues or Uncertainties
+
+* The exact current active-operator list and country-by-country fleet status are date-sensitive and affected by national retirement/replacement decisions, so the page uses source-qualified programme/customer wording rather than a definitive all-operators table.
+* NH90 specifications, engines, sensors, weapons, and crew count vary by TTH/NFH and national configuration; the page presents representative values with caveats rather than forcing one universal configuration.
+* Airforce Technology was used only as a secondary cross-check for NFH sensors, avionics, and weapons context; official NHIndustries, Leonardo, and Bundeswehr pages anchor the main article facts.
+* The final commit hash cannot be embedded into the committed change log without changing the commit hash again; it is reported separately in this scheduled-run response.
