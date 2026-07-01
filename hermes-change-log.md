@@ -3845,3 +3845,83 @@ Record the result of:
 
 * Exact E-2-family production total, current national fleet counts, and variant-specific range/endurance were treated as date-sensitive or mission-dependent and were not stated as fixed values.
 * Wikipedia was retained only as a supplementary orientation/cross-check source; principal facts use official U.S. Navy and Northrop Grumman pages.
+### Run 51 — 2026-07-01 22:01:52 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Antonov An-22 Antei (id: an-22)
+* Reason selected: It was the shortest unedited aircraft entry in the sparse-page comparison pass, with zero complete variant entries, zero operator entries, placeholder specifications, generic generated sections, and substantially less history/design/operator/specification density than the F-16 reference page.
+* Previous condition: Sparse generated JSON record with basic origin/manufacturer/date fields, no NATO reporting name, no usable engine/range/ceiling/payload/cargo-volume detail, no substantive An-22/An-22A/An-22PZ variant coverage, no Soviet/Russian/Ukrainian/Aeroflot operator notes, and generic support-aircraft armament wording.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview with fact cards; section order covering overview, development, design/capabilities, operational history, variants, operators, specifications, strengths/limitations, comparison, timeline, sources, and related pages; source-qualified technical paragraphs; cautious variant/status wording; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the Antonov An-22 entry from a sparse generated record into a fuller Milipedia aircraft article while preserving the existing JSON-rendered aircraft-page structure.
+* Added the Antei/Antey/Antheus alternative names, NATO reporting name Cock, strategic-airlifter role, and a more precise first-flight date.
+* Replaced placeholder propulsion, speed, range, ceiling, cargo, hardpoint, status, and development-history fields with sourced or carefully caveated values.
+* Added sources from Antonov Company search result context, SKYbrary, WeaponSystems.net, ProCharter, Wikipedia as supplementary orientation, and Milipedia local accuracy rules.
+* Added development history covering the An-8/An-12 replacement requirement, 1964 rollout, 27 February 1965 first flight, Paris Air Show debut, Tashkent production, and production-total caveats.
+* Added design/capability coverage for the high wing, rear ramp, twin tail, rough-field landing gear, NK-12MA turboprops, contra-rotating propellers, pressurization arrangement, cargo volume, and 80-tonne-class payload.
+* Added operational-history notes for Soviet Military Transport Aviation, later Russian use, Antonov Airlines/heavy commercial work, humanitarian or industrial airlift, and date-sensitive current-service status.
+* Added variant entries for An-22, An-22A, An-22PZ, and projected/unbuilt civil or special-mission concepts.
+* Added operator entries for Soviet Military Transport Aviation, Russian inherited operations, Ukraine/Antonov-affiliated cargo use, and Aeroflot/Soviet civil logistics.
+* Added representative specification cards for crew, dimensions, weight, speed, range, ceiling, payload, cargo hold, and powerplant, with caveats where public sources differ.
+* Added strengths/limitations, comparison, timeline, sources/notes, and related-pages sections in the F-16-like article order.
+* Added internal related links to An-12, Il-76, C-5 Galaxy, C-17 Globemaster III, and C-130 Hercules after verifying those IDs exist.
+* Omitted fixed live inventory, final retirement/loss chronology, detailed incident lists, and exact mission-by-mission performance where the facts are date-sensitive or vary by configuration.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Antonov An-22 Antei aircraft entry with sourced facts, specifications, variants, operators, article sections, caveats, and related links.
+* hermes-change-log.md — Appended the cumulative Run 51 log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Confirmed branch hermes-agent; before log append only data/aircraft.json was modified, and before commit only data/aircraft.json and hermes-change-log.md were intended files.
+2. git diff — Reviewed diff/stat; data/aircraft.json changed exactly one aircraft entry, an-22, and hermes-change-log.md gained this Run 51 entry.
+3. File review — Parsed data/aircraft.json successfully with python3 -m json.tool and reviewed the An-22 sections, cards, bullets, sources, variants, operators, caveats, and related links.
+4. F-16 style comparison — Inspected data/f16-template.html and followed its dense overview, fact-card backed technical details, source/reference pattern, section order, variants/operators/history/comparison/timeline coverage, and internal related-page structure within the JSON aircraft-page system.
+5. Internal link check — Scripted check confirmed An-22 internal links target existing IDs an-12, il-76, c-5-galaxy, c-17-globemaster-iii, and c-130-hercules.
+6. Secret/token check — Scanned the intended diff with credential-specific patterns for private keys, passwords, cloud credential names, and access/auth credential assignments; no credentials were found.
+7. Final review before commit — Confirmed branch safety, JSON validity, exactly one aircraft entry changed, intended files only, clean formatting checks, internal links, completed change log, and no previous substantial Hermes edit for Antonov An-22.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Antonov An-22 Antei
+* Commit hash: Pending until commit is created; final hash is reported in the scheduled-run response.
+
+#### Issues or Uncertainties
+
+* Direct extraction of the Antonov anniversary article failed during this run, but search results identified the official manufacturer page and its key first-flight/first-widebody context; SKYbrary, WeaponSystems.net, ProCharter, and Wikipedia were used to cross-check and qualify details.
+* Current An-22 surviving-airframe, readiness, final-retirement, and loss status is date-sensitive; the page avoids fixed live inventory claims and notes that remaining-use statements require current verification.
+* Public sources differ on whether to present 68 built or approximately 70 built, and on ceiling/weight/range figures; the page uses representative values and caveats rather than merging all numbers into a single uncaveated claim.
+* An-22PZ and unbuilt special-mission concept details are public-source limited and are summarized cautiously.
+* The final commit hash cannot be embedded into the committed change log without changing the commit hash again; it is reported separately in this scheduled-run response.

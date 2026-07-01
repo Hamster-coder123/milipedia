@@ -47429,35 +47429,77 @@
   },
   {
     "id": "an-22",
-    "name": "Antonov An-22",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "name": "Antonov An-22 Antei",
+    "alternative_names": [
+      "An-22 Antey",
+      "An-22 Antheus",
+      "Ан-22 Антей"
+    ],
+    "nato_reporting_name": "Cock",
     "country_of_origin": "Soviet Union",
     "manufacturer": "Antonov",
-    "role": "Heavy military transport aircraft",
-    "aircraft_type": "Transport aircraft",
-    "era": "Cold War/Modern",
-    "first_flight": "1965",
-    "introduction_date": "1967",
-    "retirement_date": null,
-    "status": "Active/retired by operator",
-    "number_built": "Not listed",
-    "crew": "5-6",
+    "role": "Heavy strategic airlifter and outsized cargo transport",
+    "aircraft_type": "Strategic transport aircraft",
+    "era": "Cold War",
+    "first_flight": "27 February 1965",
+    "introduction_date": "1967-1969 service entry period",
+    "retirement_date": "Mostly retired; any remaining airworthy aircraft require current verification",
+    "status": "Retired or very limited surviving use, depending on operator and date",
+    "number_built": "68 commonly cited; some summaries round to about 70",
+    "crew": "5-6 crew, with room for additional personnel in the forward cabin",
     "engine_type": "Turboprop",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engines": "4 × Kuznetsov NK-12MA turboprops, each driving contra-rotating propellers",
+    "max_speed": "About 740 km/h / 400 kt",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Support aircraft; fixed offensive armament not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Antonov An-22: Heavy military transport aircraft. Manufacturer: Antonov. First flight: 1965. Introduction: 1967.",
-    "short_summary": "Antonov An-22: Heavy military transport aircraft. Origin: Soviet Union. Manufacturer: Antonov. First flight: 1965. Introduction: 1967. Status: Active/retired by operator.",
+    "range": "About 5,000 km with maximum payload; longer ferry/partial-load ranges reported",
+    "combat_range": "Not applicable; strategic transport range varies by payload and fuel load",
+    "service_ceiling": "About 7,500-8,000 m in public sources, depending on weight and profile",
+    "rate_of_climb": "Not consistently stated in selected sources",
+    "armament": "Unarmed transport aircraft; military value is heavy-lift and airborne-forces support.",
+    "hardpoints": "None; rear-ramp cargo hold for vehicles, cargo, paratroops, and outsized loads",
+    "variants": [
+      {
+        "name": "An-22",
+        "description": "Baseline strategic transport; main production model with wide cargo fuselage, rear ramp, and NK-12MA turboprops."
+      },
+      {
+        "name": "An-22A",
+        "description": "Improved aircraft associated with electrical and augmented flight-control-system updates; public designation usage differs from military usage."
+      },
+      {
+        "name": "An-22PZ",
+        "description": "Special-purpose transport adaptation associated with carrying large aircraft assemblies; details are more limited in public sources."
+      },
+      {
+        "name": "Projected civil/passenger and special-mission concepts",
+        "description": "Passenger, nuclear-powered, missile-carrier, and other concepts were studied or reported but did not become production service variants."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Soviet Union",
+        "service": "Soviet Military Transport Aviation",
+        "notes": "Original and principal operator; used for airborne forces, heavy military cargo, and strategic transport missions."
+      },
+      {
+        "country": "Russia",
+        "service": "Russian military and associated operators",
+        "notes": "Inherited Soviet aircraft and operated small numbers after 1991; current readiness and final retirement status are date-sensitive."
+      },
+      {
+        "country": "Ukraine",
+        "service": "Antonov Airlines / Antonov-affiliated civil cargo operations",
+        "notes": "Used An-22 aircraft for specialist civil and humanitarian heavy-lift missions; individual-airframe status requires current verification."
+      },
+      {
+        "country": "Soviet Union",
+        "service": "Aeroflot and Soviet civil logistics",
+        "notes": "Some aircraft carried civil registrations or supported state/civil logistics alongside military transport work."
+      }
+    ],
+    "combat_history": "Used mainly for strategic and theater airlift, not combat attack missions; carried troops, vehicles, airborne equipment, humanitarian freight, and outsized cargo for Soviet/Russian and Antonov-affiliated operators.",
+    "development_history": "Designed by Antonov to supplement the An-8/An-12 with a much larger heavy-lift aircraft. The An-22 first flew on 27 February 1965, appeared at the 1965 Paris Air Show, and entered Soviet service later in the 1960s.",
+    "short_summary": "The Antonov An-22 Antei is a Soviet heavy strategic turboprop transport, NATO reporting name Cock, known as the first widebody transport aircraft and the largest turboprop-powered aircraft type.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -47470,18 +47512,39 @@
     ],
     "sources": [
       {
+        "id": "fn-antonov-55",
+        "title": "55th anniversary of maiden flight of the world's largest turboprop aircraft AN-22 Antei",
+        "url": "https://www.antonov.com/en/article/55-rokiv-z-dnya-pershogo-polotu-naybilshogo-turbogvintovogo-litaka-v-sviti-an-22-antey",
+        "publisher": "Antonov Company",
+        "note": "Manufacturer anniversary article used for first-flight, first-widebody, large-turboprop, record-setting, and Antonov program context; page was identified through search snippets when direct extraction failed."
+      },
+      {
+        "id": "fn-skybrary",
+        "title": "ANTONOV An-22 Antheus",
+        "url": "https://skybrary.aero/aircraft/an22",
+        "publisher": "SKYbrary Aviation Safety",
+        "note": "Reference used for engine, speed, service-era, NATO reporting name, replacement-by-An-124, and high-level production/service notes."
+      },
+      {
+        "id": "fn-weaponsystems",
+        "title": "Antonov An-22 Antei",
+        "url": "https://weaponsystems.net/system/980-Antonov+An-22+Antei",
+        "publisher": "WeaponSystems.net",
+        "note": "Reference used for mission, design, rough-field undercarriage, rear ramp, airborne-forces payload, users, and recent operational-status context."
+      },
+      {
+        "id": "fn-procharter",
+        "title": "Antonov An-22 “Antei”",
+        "url": "https://procharter.com/aircraft/aircraft-guide/cargo-aircraft-guide/antonov-an-22",
+        "publisher": "ProCharter",
+        "note": "Commercial aircraft-guide reference used for cargo-volume, payload, range, runway, cabin, and development-history cross-checks; many narrative details align with Wikipedia, so values are treated as representative rather than definitive."
+      },
+      {
         "id": "fn-main",
         "title": "Antonov An-22",
         "url": "https://en.wikipedia.org/wiki/Antonov_An-22",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for chronology, production total, designation spellings, variants, and operator history; not used alone for disputed or date-sensitive claims."
       },
       {
         "id": "fn-method",
@@ -47489,20 +47552,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.airliners.net/info/stats.main?id=36",
-        "publisher": "airliners.net",
-        "note": "External source for Antonov An-22."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.airforce.ru/history/76gvtae/index.htm",
-        "publisher": "airforce.ru",
-        "note": "External source for Antonov An-22."
       }
     ],
     "country_flags": [
@@ -47515,48 +47564,57 @@
       "Antonov"
     ],
     "development_tensions": [
-      "Balancing payload, short-field performance, reliability, strategic reach, and rough-field operation."
+      "Combining 80-tonne-class payload and a very large cargo hold with short/rough-field performance.",
+      "Balancing turboprop efficiency and field performance against the speed and sustainment advantages of later jet transports.",
+      "Maintaining a small fleet of unique giant turboprops as airframes aged and parts became scarce."
     ],
-    "wars_used_in": [],
+    "wars_used_in": [
+      "Strategic and humanitarian airlift missions; no fixed combat-attack role listed"
+    ],
     "variant_families": [
-      "Antonov An-22 baseline production model",
-      "Antonov An-22 upgraded avionics or weapons-capable model",
-      "Antonov An-22 cargo, special mission, or aerial support model"
+      "An-22 baseline",
+      "An-22A improved aircraft",
+      "An-22PZ and special-purpose adaptations",
+      "Unbuilt passenger and special-mission concepts"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
-        "Soviet Union"
+        "Soviet Union",
+        "Ukraine (Antonov design heritage)"
       ],
-      "major_user_note": "Antonov An-22 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Original Soviet military operator; later Russian and Antonov-affiliated civil/heavy-cargo use in small numbers.",
+      "all_operators_status": "Operator and surviving-fleet status are date-sensitive because only a very small number of aircraft remained airworthy in late service."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "The An-22 type is notable for first-widebody transport status and largest-turboprop-aircraft status rather than named ace/pilot associations."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Individual loss and final-service events require date-specific source review; this run avoids a fixed current-loss list."
       ]
     },
     "engine_details": {
       "type": "Turboprop",
-      "summary": "Antonov An-22 uses turboprop propulsion."
+      "summary": "Four Kuznetsov NK-12MA turboprops of about 15,000 shp each drive contra-rotating propeller pairs, creating strong slipstream over the wing and flaps for short-field performance."
     },
     "armament_details": {
-      "summary": "Support aircraft; fixed offensive armament not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Unarmed military transport aircraft.",
+      "caution": "Some missions involved military cargo or airborne-force delivery, but the aircraft itself is not treated as an offensive weapons platform."
     },
     "similar_development": [
       {
-        "id": "c-130-hercules",
-        "name": "Lockheed C-130 Hercules",
-        "url": "aircraft.html?id=c-130-hercules"
+        "id": "an-12",
+        "name": "Antonov An-12",
+        "url": "aircraft.html?id=an-12"
+      },
+      {
+        "id": "il-76",
+        "name": "Ilyushin Il-76 Candid",
+        "url": "aircraft.html?id=il-76"
       },
       {
         "id": "c-5-galaxy",
-        "name": "Lockheed C-5 Galaxy",
+        "name": "Lockheed C-5 Galaxy / C-5M Super Galaxy",
         "url": "aircraft.html?id=c-5-galaxy"
       },
       {
@@ -47565,68 +47623,96 @@
         "url": "aircraft.html?id=c-17-globemaster-iii"
       },
       {
-        "id": "il-76",
-        "name": "Ilyushin Il-76",
-        "url": "aircraft.html?id=il-76"
+        "id": "c-130-hercules",
+        "name": "Lockheed C-130 Hercules",
+        "url": "aircraft.html?id=c-130-hercules"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 2
+      "exact_fact_count": 42,
+      "operator_entries": 4,
+      "variant_entries": 4,
+      "external_article_sources": 5
     },
     "footnotes": [
+      {
+        "id": "fn-antonov-55",
+        "title": "55th anniversary of maiden flight of the world's largest turboprop aircraft AN-22 Antei",
+        "url": "https://www.antonov.com/en/article/55-rokiv-z-dnya-pershogo-polotu-naybilshogo-turbogvintovogo-litaka-v-sviti-an-22-antey",
+        "publisher": "Antonov Company",
+        "note": "Manufacturer anniversary article used for first-flight, first-widebody, large-turboprop, record-setting, and Antonov program context; page was identified through search snippets when direct extraction failed."
+      },
+      {
+        "id": "fn-skybrary",
+        "title": "ANTONOV An-22 Antheus",
+        "url": "https://skybrary.aero/aircraft/an22",
+        "publisher": "SKYbrary Aviation Safety",
+        "note": "Reference used for engine, speed, service-era, NATO reporting name, replacement-by-An-124, and high-level production/service notes."
+      },
+      {
+        "id": "fn-weaponsystems",
+        "title": "Antonov An-22 Antei",
+        "url": "https://weaponsystems.net/system/980-Antonov+An-22+Antei",
+        "publisher": "WeaponSystems.net",
+        "note": "Reference used for mission, design, rough-field undercarriage, rear ramp, airborne-forces payload, users, and recent operational-status context."
+      },
+      {
+        "id": "fn-procharter",
+        "title": "Antonov An-22 “Antei”",
+        "url": "https://procharter.com/aircraft/aircraft-guide/cargo-aircraft-guide/antonov-an-22",
+        "publisher": "ProCharter",
+        "note": "Commercial aircraft-guide reference used for cargo-volume, payload, range, runway, cabin, and development-history cross-checks; many narrative details align with Wikipedia, so values are treated as representative rather than definitive."
+      },
       {
         "id": "fn-main",
         "title": "Antonov An-22",
         "url": "https://en.wikipedia.org/wiki/Antonov_An-22",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for chronology, production total, designation spellings, variants, and operator history; not used alone for disputed or date-sensitive claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.airliners.net/info/stats.main?id=36",
-        "publisher": "airliners.net",
-        "note": "External source for Antonov An-22."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.airforce.ru/history/76gvtae/index.htm",
-        "publisher": "airforce.ru",
-        "note": "External source for Antonov An-22."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.airliners.net/info/stats.main?id=36",
-        "publisher": "airliners.net",
-        "note": "External source for Antonov An-22."
+        "id": "fn-antonov-55",
+        "title": "55th anniversary of maiden flight of the world's largest turboprop aircraft AN-22 Antei",
+        "url": "https://www.antonov.com/en/article/55-rokiv-z-dnya-pershogo-polotu-naybilshogo-turbogvintovogo-litaka-v-sviti-an-22-antey",
+        "publisher": "Antonov Company",
+        "note": "Manufacturer anniversary article used for first-flight, first-widebody, large-turboprop, record-setting, and Antonov program context; page was identified through search snippets when direct extraction failed."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.airforce.ru/history/76gvtae/index.htm",
-        "publisher": "airforce.ru",
-        "note": "External source for Antonov An-22."
+        "id": "fn-skybrary",
+        "title": "ANTONOV An-22 Antheus",
+        "url": "https://skybrary.aero/aircraft/an22",
+        "publisher": "SKYbrary Aviation Safety",
+        "note": "Reference used for engine, speed, service-era, NATO reporting name, replacement-by-An-124, and high-level production/service notes."
+      },
+      {
+        "id": "fn-weaponsystems",
+        "title": "Antonov An-22 Antei",
+        "url": "https://weaponsystems.net/system/980-Antonov+An-22+Antei",
+        "publisher": "WeaponSystems.net",
+        "note": "Reference used for mission, design, rough-field undercarriage, rear ramp, airborne-forces payload, users, and recent operational-status context."
+      },
+      {
+        "id": "fn-procharter",
+        "title": "Antonov An-22 “Antei”",
+        "url": "https://procharter.com/aircraft/aircraft-guide/cargo-aircraft-guide/antonov-an-22",
+        "publisher": "ProCharter",
+        "note": "Commercial aircraft-guide reference used for cargo-volume, payload, range, runway, cabin, and development-history cross-checks; many narrative details align with Wikipedia, so values are treated as representative rather than definitive."
+      },
+      {
+        "id": "fn-main",
+        "title": "Antonov An-22",
+        "url": "https://en.wikipedia.org/wiki/Antonov_An-22",
+        "publisher": "Wikipedia",
+        "note": "Supplementary orientation source for chronology, production total, designation spellings, variants, and operator history; not used alone for disputed or date-sensitive claims."
       }
     ],
     "article_sections": [
@@ -47635,19 +47721,21 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Antonov An-22 is a Heavy military transport aircraft from Soviet Union. Manufacturer: Antonov. First flight: 1965. Introduction: 1967. Status: Active/retired by operator.",
+            "text": "The Antonov An-22 Antei is a Soviet heavy strategic transport designed by the Antonov bureau to move outsized military cargo farther than the An-8 and An-12 families could carry it. It combined a very large high-wing fuselage, rear loading ramp, rough-field landing gear, and four Kuznetsov NK-12MA turboprops driving contra-rotating propellers.",
             "refs": [
+              "fn-weaponsystems",
+              "fn-skybrary"
+            ]
+          },
+          {
+            "text": "The aircraft is widely described as the first widebody transport aircraft and remains the largest turboprop-powered aircraft type. It first flew on 27 February 1965, appeared at the 1965 Paris Air Show, entered Soviet military transport service later in the decade, and was produced in limited numbers at Tashkent.",
+            "refs": [
+              "fn-antonov-55",
               "fn-main"
             ]
           },
           {
-            "text": "Antonov An-22 is a transport aircraft. Primary role: heavy military transport aircraft. Country of origin: Soviet Union. Manufacturer: Antonov.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Public sources mix An-22, An-22A, military, civil, and charter-operator data. This page uses representative An-22/An-22A figures and marks payload, range, and operator status as configuration- and date-sensitive where needed.",
             "refs": [
               "fn-method"
             ]
@@ -47655,45 +47743,75 @@
         ],
         "cards": [
           {
-            "title": "Primary role",
-            "text": "Heavy military transport aircraft"
+            "title": "Role",
+            "text": "Heavy strategic airlifter / outsized cargo transport"
           },
           {
-            "title": "Designer or builder",
-            "text": "Antonov"
+            "title": "NATO reporting name",
+            "text": "Cock"
           },
           {
-            "title": "Major origin",
-            "text": "Soviet Union"
+            "title": "First flight",
+            "text": "27 February 1965"
           },
           {
-            "title": "Propulsion",
-            "text": "Turboprop"
+            "title": "Distinctive feature",
+            "text": "Four NK-12MA turboprops with contra-rotating propellers"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Antonov An-22 first flew in 1965. Introduction date: 1967. Era: Cold War/Modern.",
+            "text": "Soviet planners wanted a transport able to carry larger armored vehicles, missile equipment, helicopters, and airborne-force loads over strategic distances while still using austere airfields. Antonov's Model 100/An-20 studies led to the An-22 prototype, which was rolled out in 1964 and first flown from the Kyiv area to Uzyn in February 1965.",
             "refs": [
-              "fn-main"
+              "fn-main",
+              "fn-procharter"
             ]
           },
           {
-            "text": "Producer: Antonov. Development context: heavy military transport aircraft, turboprop propulsion, subsonic speed category, Cold War/Modern era.",
+            "text": "The An-22 was developed as a step change beyond the An-12 rather than a simple enlargement. Its wide fuselage and rear ramp were intended to load vehicles directly, while high-lift devices and the enormous propeller slipstream helped the aircraft operate from short or unprepared surfaces.",
             "refs": [
-              "fn-wikidata"
+              "fn-weaponsystems",
+              "fn-procharter"
+            ]
+          },
+          {
+            "text": "Production was concentrated at the Tashkent aircraft plant during the late 1960s and 1970s. Sources commonly cite about 68 to 70 aircraft built; this entry uses 68 as the precise figure where a precise value is needed and notes that some summaries round the total to about 70.",
+            "refs": [
+              "fn-main",
+              "fn-skybrary",
+              "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing payload, short-field performance, reliability, strategic reach, and rough-field operation.",
+            "text": "1964 — prototype rollout after Antonov widebody transport design work.",
             "refs": [
-              "fn-method"
+              "fn-main"
+            ]
+          },
+          {
+            "text": "1965 — first flight and public debut at the Paris Air Show.",
+            "refs": [
+              "fn-antonov-55",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "1969 — first military deliveries to Soviet Military Transport Aviation are commonly cited.",
+            "refs": [
+              "fn-main",
+              "fn-procharter"
+            ]
+          },
+          {
+            "text": "1970s — An-22A production incorporated electrical and flight-control-system improvements in civil-style designation usage.",
+            "refs": [
+              "fn-main"
             ]
           }
         ]
@@ -47703,50 +47821,54 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 5-6. Propulsion: Turboprop. Speed category: Subsonic.",
+            "text": "The An-22 uses a high-mounted wing, circular-section fuselage, twin tail, and a rear loading ramp. The arrangement keeps the cargo floor clear, allows roll-on/roll-off loading, and reduces tail-height penalties compared with a single very tall fin.",
             "refs": [
-              "fn-main"
+              "fn-weaponsystems",
+              "fn-procharter"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Four Kuznetsov NK-12MA turboprops, each rated around 15,000 shp, drive eight-blade contra-rotating propellers. The propeller wash over the wing and large flaps is central to the aircraft's short-field performance, while the heavy landing gear was designed for austere or unpaved surfaces.",
             "refs": [
+              "fn-skybrary",
+              "fn-procharter"
+            ]
+          },
+          {
+            "text": "The forward crew/passenger area is pressurized, while the main cargo hold uses lower pressurization to save structural weight. Public descriptions commonly list a roughly 33 m cargo hold, about 639-640 m³ of volume, space for heavy vehicles or paratroop equipment, and up to about 80 tonnes of payload depending on mission profile.",
+            "refs": [
+              "fn-procharter",
+              "fn-weaponsystems"
+            ]
+          },
+          {
+            "text": "The An-22 is not an armed strike aircraft. Its military value came from strategic and theater airlift: moving troops, vehicles, helicopters, missiles, engines, relief cargo, and other loads that smaller Soviet transports could not accommodate.",
+            "refs": [
+              "fn-weaponsystems",
               "fn-method"
-            ]
-          },
-          {
-            "text": "Antonov An-22 uses turboprop propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Support aircraft; fixed offensive armament not listed. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "5-6"
+            "title": "Powerplant",
+            "text": "4 × Kuznetsov NK-12MA turboprops, about 15,000 shp each"
           },
           {
-            "title": "Engine class",
-            "text": "Turboprop"
+            "title": "Propellers",
+            "text": "Contra-rotating eight-blade propeller pairs"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Cargo volume",
+            "text": "About 639-640 m³ in public aircraft-guide sources"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Payload",
+            "text": "Up to about 80,000 kg, mission dependent"
           },
           {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Runway / rough-field design",
+            "text": "Large wheels, rugged gear, high-lift flaps, and propwash-assisted lift"
           }
         ]
       },
@@ -47755,54 +47877,47 @@
         "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Antonov An-22 status: Active/retired by operator. Conflict entries: 0.",
+            "text": "The An-22 served primarily with Soviet Military Transport Aviation and later Russian forces, while a small number supported civil or commercial heavy-lift work through Aeroflot-related and Antonov Airlines operations. Its missions included outsized cargo, military equipment movement, airborne-force support, humanitarian airlift, and specialist industrial transport.",
             "refs": [
-              "fn-main"
+              "fn-main",
+              "fn-weaponsystems"
             ]
           },
           {
-            "text": "Conflicts: 0 entries.",
+            "text": "The type's ability to operate from austere airfields and carry vehicles gave it a niche between smaller tactical transports and later jet strategic transports. It was eventually superseded in the heaviest transport role by aircraft such as the An-124, but the An-22 retained value where turboprop field performance and its large hold were useful.",
             "refs": [
-              "fn-method"
+              "fn-skybrary",
+              "fn-weaponsystems"
             ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
+          },
           {
-            "text": "Antonov An-22 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
+            "text": "Current-service statements for the An-22 are date-sensitive. Some sources written before the mid-2020s describe a few aircraft as still active; this page avoids a fixed live inventory and treats the type as mostly retired, with any surviving use requiring current verification.",
             "refs": [
-              "fn-main"
+              "fn-skybrary",
+              "fn-weaponsystems",
+              "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Named pilots listed: 0.",
+            "text": "Strategic airlift for Soviet and later Russian heavy military cargo.",
             "refs": [
-              "fn-method"
+              "fn-weaponsystems"
             ]
           },
           {
-            "text": "Named individual aircraft listed: 0.",
+            "text": "Civil and commercial outsized-cargo tasks by Aeroflot-related operators and Antonov Airlines.",
             "refs": [
-              "fn-method"
+              "fn-main",
+              "fn-antonov-55"
             ]
           },
           {
-            "text": "Notable incidents listed: 0.",
+            "text": "Humanitarian and industrial freight tasks where the cargo hold and rear ramp were more important than jet speed.",
             "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-main",
+              "fn-procharter"
             ]
           }
         ]
@@ -47812,35 +47927,39 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Antonov An-22 variant-family entries: 3. Variant families: Antonov An-22 baseline production model; Antonov An-22 upgraded avionics or weapons-capable model; Antonov An-22 cargo, special mission, or aerial support model.",
+            "text": "The An-22 family did not evolve into a large number of production subtypes. Public sources most often distinguish the initial An-22, the An-22A with system improvements, and special-purpose or unbuilt projects rather than a long sequence of operational marks.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
+              "fn-main",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Antonov An-22 baseline production model",
+            "text": "An-22 — baseline production strategic transport and airborne-forces heavy-lift aircraft.",
+            "refs": [
+              "fn-main",
+              "fn-weaponsystems"
+            ]
+          },
+          {
+            "text": "An-22A — improved aircraft associated in public sources with electrical and augmented flight-control-system changes; military designation usage was not always separate.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Antonov An-22 upgraded avionics or weapons-capable model",
+            "text": "An-22PZ — special transport adaptation for moving large aircraft assemblies; public accounts vary on exact configuration details.",
             "refs": [
-              "fn-main"
+              "fn-main",
+              "fn-method"
             ]
           },
           {
-            "text": "Antonov An-22 cargo, special mission, or aerial support model",
+            "text": "Unbuilt studies — passenger, nuclear-powered, missile-carrier, and other concepts are mentioned in secondary sources but did not become operational production variants.",
             "refs": [
-              "fn-main"
+              "fn-main",
+              "fn-method"
             ]
           }
         ]
@@ -47850,29 +47969,39 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Soviet Union. Antonov An-22 has 1 designer or builder country entry.",
+            "text": "The Soviet Union was the original military operator. After 1991, surviving aircraft passed into Russian military or civil use, while Ukrainian Antonov-affiliated operations used An-22 aircraft for heavy commercial missions. Operator status is difficult to state as a permanent fact because the remaining fleet became very small and individual airframes changed condition over time.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
+              "fn-weaponsystems",
+              "fn-main",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Soviet Union — Military Transport Aviation, original user and principal Cold War operator.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Major designer or builder entries: Soviet Union.",
+            "text": "Russia — inherited Soviet aircraft; Russian military and related operators used small numbers after the Soviet breakup.",
             "refs": [
-              "fn-wikidata"
+              "fn-weaponsystems",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Ukraine / Antonov Airlines — Antonov-affiliated cargo operations used An-22 aircraft for specialist commercial and humanitarian heavy-lift work.",
+            "refs": [
+              "fn-antonov-55",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Aeroflot and associated Soviet civil registrations — civil/logistics use alongside state military transport duties.",
+            "refs": [
+              "fn-main"
             ]
           }
         ]
@@ -47882,37 +48011,119 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 5-6, propulsion type Turboprop, maximum speed category Subsonic, first flight 1965, introduction 1967.",
+            "text": "Representative An-22/An-22A figures are listed for comparison. Exact values vary by source, loading, fuel, runway, and whether the source describes maximum payload, ferry, or commercial charter profiles.",
             "refs": [
-              "fn-main"
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Crew",
+            "text": "Usually 5-6 crew; forward cabin can carry additional personnel"
+          },
+          {
+            "title": "Length",
+            "text": "About 57.9 m"
+          },
+          {
+            "title": "Wingspan",
+            "text": "About 64.4 m"
+          },
+          {
+            "title": "Maximum takeoff weight",
+            "text": "About 225-250 tonnes in public sources"
+          },
+          {
+            "title": "Maximum speed",
+            "text": "About 740 km/h / 400 kt"
+          },
+          {
+            "title": "Cruise speed",
+            "text": "About 560-580 km/h in aircraft-guide sources"
+          },
+          {
+            "title": "Range",
+            "text": "About 5,000 km with maximum payload; ferry/partial-load figures can exceed 10,000 km"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "Often listed around 7,500-8,000 m, source dependent"
+          },
+          {
+            "title": "Cargo payload",
+            "text": "Up to about 80 tonnes"
+          },
+          {
+            "title": "Cargo hold",
+            "text": "Roughly 33 m long and about 639-640 m³ volume"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The An-22's strengths were payload volume, rough-field access, and heavy turboprop lift. Its limitations were the small production base, high maintenance burden of a unique giant turboprop, limited speed compared with jet strategic transports, and the age and scarcity of surviving airframes.",
+            "refs": [
+              "fn-skybrary",
+              "fn-weaponsystems",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: large rear-ramp hold for vehicles, helicopters, and outsized freight.",
+            "refs": [
+              "fn-weaponsystems"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Strength: turboprop/propwash-assisted short-field performance for austere operations.",
             "refs": [
+              "fn-procharter"
+            ]
+          },
+          {
+            "text": "Limitation: small surviving fleet and aging support base make current readiness highly variable.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: jet transports such as the An-124, C-5, and C-17 offer higher cruise speed or newer sustainment ecosystems for many missions.",
+            "refs": [
+              "fn-skybrary",
               "fn-method"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "comparison",
+        "title": "Comparison",
         "paragraphs": [
           {
-            "text": "Antonov An-22 similar-development links: 4.",
+            "text": "Compared with the An-12, the An-22 could carry much larger and heavier equipment, including multiple airborne combat vehicles. Compared with the Il-76, it was a slower turboprop but offered a wide cargo hold and rough-field design heritage. Compared with Western jet strategic transports such as the C-5 and C-17, the An-22 sits in a distinctive niche as a very large turboprop airlifter rather than a high-speed jet cargo aircraft.",
             "refs": [
-              "fn-method"
+              "fn-weaponsystems",
+              "fn-skybrary"
             ]
           }
         ],
         "links": [
           {
-            "label": "Lockheed C-130 Hercules",
-            "url": "aircraft.html?id=c-130-hercules"
+            "label": "Antonov An-12",
+            "url": "aircraft.html?id=an-12"
           },
           {
-            "label": "Lockheed C-5 Galaxy",
+            "label": "Ilyushin Il-76 Candid",
+            "url": "aircraft.html?id=il-76"
+          },
+          {
+            "label": "Lockheed C-5 Galaxy / C-5M Super Galaxy",
             "url": "aircraft.html?id=c-5-galaxy"
           },
           {
@@ -47920,8 +48131,125 @@
             "url": "aircraft.html?id=c-17-globemaster-iii"
           },
           {
-            "label": "Ilyushin Il-76",
+            "label": "Lockheed C-130 Hercules",
+            "url": "aircraft.html?id=c-130-hercules"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "Key milestones are listed with source-qualified dates where public references agree closely.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Late 1950s-early 1960s — requirement and design work for a heavier Soviet airlifter beyond the An-8/An-12 class.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "18 August 1964 — An-22 prototype rollout is commonly cited.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "27 February 1965 — first flight of the An-22 Antei.",
+            "refs": [
+              "fn-antonov-55",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "1965 — international public debut at the Paris Air Show.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "1969 — first Soviet military deliveries commonly listed.",
+            "refs": [
+              "fn-main",
+              "fn-procharter"
+            ]
+          },
+          {
+            "text": "1970s — production total reaches roughly 68 aircraft before the type gives way to newer heavy-lift designs.",
+            "refs": [
+              "fn-main",
+              "fn-skybrary"
+            ]
+          },
+          {
+            "text": "Post-1991 — remaining aircraft used by Russian and Antonov-affiliated civil/heavy-cargo operators in very small numbers.",
+            "refs": [
+              "fn-weaponsystems",
+              "fn-main"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Manufacturer and specialist references establish the An-22's first-widebody/large-turboprop status, NK-12MA propulsion, rough-field design, and heavy-cargo mission. Wikipedia is retained only as a supplementary orientation source for chronology, production count, and naming cross-checks.",
+            "refs": [
+              "fn-antonov-55",
+              "fn-skybrary",
+              "fn-weaponsystems",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Figures for service ceiling, range, and weights differ among aircraft guides and encyclopedic references. The article therefore uses representative ranges and explicitly ties payload/range performance to mission configuration.",
+            "refs": [
+              "fn-procharter",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia aircraft pages emphasize Soviet/Russian transport lineage and comparable strategic airlift roles.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Antonov An-12",
+            "url": "aircraft.html?id=an-12"
+          },
+          {
+            "label": "Ilyushin Il-76 Candid",
             "url": "aircraft.html?id=il-76"
+          },
+          {
+            "label": "Lockheed C-5 Galaxy / C-5M Super Galaxy",
+            "url": "aircraft.html?id=c-5-galaxy"
+          },
+          {
+            "label": "Boeing C-17 Globemaster III",
+            "url": "aircraft.html?id=c-17-globemaster-iii"
+          },
+          {
+            "label": "Lockheed C-130 Hercules",
+            "url": "aircraft.html?id=c-130-hercules"
           }
         ]
       }
