@@ -2923,3 +2923,79 @@ Record the result of:
 * BAE Systems' Tornado GR4 product page was found in search results but web extraction failed, so BAE-derived GR4 headline claims were used sparingly and marked as metadata-derived.
 * Exact range, speed, weapons fits, service status, and retirement dates vary between IDS, ECR, GR4/GR4A, ADV, and national mid-life-update aircraft; the article uses variant-sensitive caveats rather than forcing one universal value.
 * The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.
+
+### Run 39 — 2026-07-01 10:03:36 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Boeing CH-47 Chinook (id: ch-47-chinook)
+* Reason selected: Among aircraft entries not previously selected by Hermes, the CH-47 page was one of the sparsest pages relative to the F-16 reference: empty variants and operators arrays, several "Not listed" specification fields, generic combat-history wording, no detailed heavy-lift design discussion, and only generic Wikipedia/Wikidata/local-method sources.
+* Previous condition: Generated-looking transport-helicopter entry with short summary text, no operator or variant coverage, no useful engine/range/ceiling/load data, no CH-47F/Block II modernization detail, and sparse article sections.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview paragraphs; article flow from overview through development history, design/capabilities, specifications, variants, operators, operational history, strengths/limitations, timeline, sources, and related pages; concise sourced paragraphs; card-style key facts; variant-sensitive caveats; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the Boeing CH-47 Chinook data-driven page in data/aircraft.json while preserving the existing renderer-supported JSON structure.
+* Replaced placeholder metadata with sourced role, manufacturer lineage, first-flight date, status, production-family count caveat, crew/troop-capacity wording, engine, speed, mission-radius, service-ceiling, armament, hardpoint/sling-load, development-history, combat-history, and short-summary text.
+* Added variant coverage for YHC-1B/HC-1B, CH-47A, CH-47B/C, CH-47D, CH-47F, CH-47F Block II, MH-47 special-operations variants, UK Chinook variants, and Boeing Vertol 234 civil aircraft.
+* Added operator coverage for the United States, United Kingdom, Japan, Italy, Netherlands, Australia, and a grouped international-operator entry with cautious date-sensitive wording.
+* Added detailed article sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Timeline, and Related Pages.
+* Added CH-47F Block II specification cards for rotor diameter, height, fuselage length, maximum gross weight, maximum/cruise speeds, service ceiling, useful load, troop capacity, and sling-load limits.
+* Added source records for Boeing's H-47 Chinook page, the U.S. Army CH-47 fact sheet, Wikipedia as supplementary orientation, and local Milipedia accuracy rules.
+* Added internal related links to UH-60 Black Hawk, Mi-26, Mi-8, V-22 Osprey, and C-130 Hercules.
+* Omitted or caveated exact current fleet counts, variant-universal range, combat-loss totals, and special-operations equipment details because those facts vary by operator, date, mission, or classification sensitivity.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded the Boeing CH-47 Chinook page data, specifications, variants, operators, article sections, sources, and related links.
+* hermes-change-log.md — Appended the cumulative record for Run 39.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json was modified before the log append; after log append the intended files are data/aircraft.json and hermes-change-log.md.
+2. git diff — Reviewed the diff/stat; data/aircraft.json changed exactly one aircraft entry, preserving id ch-47-chinook, and the change log only appends this run entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool and reviewed the CH-47 fields, section titles, source ids, cards, bullets, variants, operators, armament text, and related links.
+4. F-16 style comparison — Inspected data/f16-template.html and mirrored its dense overview, section order, specification emphasis, source-note style, timeline coverage, and related-page pattern within the JSON renderer's supported article section shapes.
+5. Internal link check — Parsed aircraft.html?id=... links in the CH-47 entry and verified uh-60-black-hawk, mi-26, mi-8, v-22-osprey, and c-130-hercules exist in data/aircraft.json.
+6. Secret/token check — Ran a credential-pattern scan over the intended aircraft diff for API keys, access/auth tokens, passwords, private keys, and cloud credential names; no credential additions were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, git diff --check success, one-entry JSON change, intended files only, CH-47 was not previously edited by Hermes, and complete change-log entry before committing.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Boeing CH-47 Chinook
+* Commit hash: Pending until commit is created; final hash is reported in the scheduled-run response.
+
+#### Issues or Uncertainties
+
+* Exact current international fleet counts, readiness, and delivery status are date-sensitive, so the page lists representative operators and Boeing customer-country coverage rather than fixed counts.
+* CH-47F Block II specifications are used as the modern representative baseline; older CH-47A/B/C/D, MH-47, UK, export, and civil Model 234 aircraft can differ substantially.
+* Special-operations equipment and defensive fits vary by mission and may not be fully public, so those details are deliberately broad.
+* The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.

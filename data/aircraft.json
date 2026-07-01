@@ -25809,34 +25809,112 @@
   {
     "id": "ch-47-chinook",
     "name": "Boeing CH-47 Chinook",
-    "alternative_names": [],
+    "alternative_names": [
+      "CH-47",
+      "H-47 Chinook",
+      "CH-47F Chinook",
+      "Chinook"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
-    "manufacturer": "Boeing Vertol",
-    "role": "Transport helicopter",
+    "manufacturer": "Vertol / Boeing Vertol / Boeing",
+    "role": "Heavy-lift transport helicopter",
     "aircraft_type": "Helicopter",
-    "era": "Cold War/Modern",
-    "first_flight": "1961",
+    "era": "Cold War to present",
+    "first_flight": "21 September 1961",
     "introduction_date": "1962",
-    "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "3",
+    "retirement_date": "Not applicable; in service and in production",
+    "status": "Active; CH-47F and Block II modernization in production/support",
+    "number_built": "More than 1,200 CH-47-family helicopters by 2012; production and rebuilds continue",
+    "crew": "Minimum 3: pilot, copilot, and flight engineer; troop capacity commonly listed as 33 troops plus 3 crew for CH-47F",
     "engine_type": "Turboshaft",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engines": "Two Honeywell T55-GA-714A turboshafts on CH-47F Block II, rated by Boeing at 4,777 shp each",
+    "max_speed": "302 km/h / 170 KTAS for CH-47F Block II; U.S. Army CH-47F fact sheet lists 160-knot maximum cruise speed",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Utility helicopter weapons not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Boeing CH-47 Chinook: Transport helicopter. Manufacturer: Boeing Vertol. First flight: 1961. Introduction: 1962.",
-    "short_summary": "Boeing CH-47 Chinook: Transport helicopter. Origin: United States. Manufacturer: Boeing Vertol. First flight: 1961. Introduction: 1962. Status: Active.",
+    "range": "Mission radius about 306 km / 165 nautical miles for CH-47F Block II; range varies with payload, fuel, weather, and external stores",
+    "combat_range": "Payload-dependent; CH-47F can move intra-theater loads and personnel rather than a fixed combat-radius profile",
+    "service_ceiling": "20,000 ft / 6,096 m for CH-47F Block II",
+    "rate_of_climb": "Not fixed here; varies by gross weight, temperature, altitude, and variant",
+    "armament": "Normally unarmed as a heavy-lift transport, though military Chinooks can carry defensive door/window machine guns depending on operator and mission fit.",
+    "hardpoints": "Three external cargo hooks; U.S. Army CH-47F data lists 26,000 lb center-hook, 17,000 lb forward/aft hook, and 25,000 lb tandem sling-load capacity",
+    "variants": [
+      {
+        "name": "YHC-1B / HC-1B",
+        "description": "Preproduction enlarged Vertol Model 114 aircraft that first flew in September 1961 before the CH-47 designation was adopted."
+      },
+      {
+        "name": "CH-47A",
+        "description": "Initial U.S. Army production Chinook introduced in 1962; established the tandem-rotor heavy-lift layout."
+      },
+      {
+        "name": "CH-47B / CH-47C",
+        "description": "Improved Vietnam-era and post-Vietnam models with more powerful engines and lift/performance changes compared with early CH-47A aircraft."
+      },
+      {
+        "name": "CH-47D",
+        "description": "Major rebuild and upgrade standard introduced in the early 1980s with improved engines, composite rotor blades, upgraded avionics, and better reliability."
+      },
+      {
+        "name": "CH-47F",
+        "description": "Modern production/remanufacture standard with Common Avionics Architecture System cockpit, Digital Automatic Flight Control System, improved airframe features, and mission-system growth capacity."
+      },
+      {
+        "name": "CH-47F Block II",
+        "description": "Current Boeing upgrade/production standard emphasizing improved lift, drivetrain and structural changes, commonality, open avionics, and sustainment improvements."
+      },
+      {
+        "name": "MH-47D/E/G",
+        "description": "Special operations Chinook variants used by U.S. Army special operations aviation, with mission equipment for long-range infiltration, extraction, and support missions."
+      },
+      {
+        "name": "Boeing Chinook UK variants",
+        "description": "Royal Air Force Chinook family adapted through UK-specific marks and upgrade programs."
+      },
+      {
+        "name": "Boeing Vertol 234",
+        "description": "Civil/commercial Chinook model used for heavy cargo, construction, logging, oil-and-gas support, passenger, and firefighting work."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "U.S. Army and U.S. Army Special Operations Aviation",
+        "notes": "Primary operator and original customer; uses CH-47F-family aircraft for heavy lift, air assault support, resupply, disaster response, and special operations variants."
+      },
+      {
+        "country": "United Kingdom",
+        "service": "Royal Air Force",
+        "notes": "One of the largest long-term non-U.S. Chinook operators, with national upgrade standards and extensive expeditionary use."
+      },
+      {
+        "country": "Japan",
+        "service": "Japan Ground Self-Defense Force and related national operators",
+        "notes": "Operates Kawasaki/Boeing-supported Chinook variants; Boeing lists Japan among Block II/international customers."
+      },
+      {
+        "country": "Italy",
+        "service": "Italian Army Aviation",
+        "notes": "Long-term European operator, including CH-47F aircraft built with Leonardo/AgustaWestland industrial participation."
+      },
+      {
+        "country": "Netherlands",
+        "service": "Royal Netherlands Air Force",
+        "notes": "Modern CH-47F operator listed by Boeing among Chinook customers."
+      },
+      {
+        "country": "Australia",
+        "service": "Australian Army",
+        "notes": "Uses Chinooks for heavy-lift helicopter support and coalition/interoperability missions."
+      },
+      {
+        "country": "Canada, India, Egypt, Greece, Morocco, Saudi Arabia, Singapore, South Korea, Spain, Taiwan, Thailand, Turkey, United Arab Emirates and others",
+        "service": "National army, air force, or joint aviation units",
+        "notes": "Representative international users; exact fleet sizes, deliveries, and readiness are date-sensitive."
+      }
+    ],
+    "combat_history": "Used by the U.S. Army and many export operators for air assault support, artillery and vehicle lift, resupply, casualty evacuation, special operations support, disaster relief, and expeditionary logistics. Combat employment spans Vietnam, the Gulf War era, Afghanistan, Iraq, and other national deployments, but fleet counts and loss totals are date-sensitive.",
+    "development_history": "Developed from Vertol tandem-rotor work after the U.S. Army sought a turbine-powered replacement for piston-engine heavy helicopters. The enlarged Model 114/YHC-1B first flew on 21 September 1961 and became the CH-47A Chinook in the 1962 U.S. tri-service designation system.",
+    "short_summary": "The Boeing CH-47 Chinook is a twin-engine, tandem-rotor, heavy-lift transport helicopter developed from Vertol designs for the U.S. Army. Its rear ramp, three cargo hooks, high cruise speed for a helicopter, and large useful load make it a long-lived logistics, troop-lift, disaster-relief, and special-operations platform.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -25849,18 +25927,25 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-boeing",
+        "title": "H-47 Chinook",
+        "url": "https://www.boeing.com/defense/military-rotorcraft/h-47-chinook",
+        "publisher": "Boeing",
+        "note": "Manufacturer page used for CH-47F Block II specifications, customer list, Block II upgrade descriptions, and mission overview."
+      },
+      {
+        "id": "fn-army",
+        "title": "CH-47 Chinook Helicopter",
+        "url": "https://www.army.mil/article/137584/ch_47_chinook_helicopter",
+        "publisher": "U.S. Army",
+        "note": "Official Army fact sheet used for CH-47F mission, cockpit, payload, crew, gross-weight, and sling-load details."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Boeing CH-47 Chinook",
         "url": "https://en.wikipedia.org/wiki/Boeing_CH-47_Chinook",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for early Vertol development timeline, family overview, and variant context; checked against official sources where possible."
       },
       {
         "id": "fn-method",
@@ -25984,66 +26069,85 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Boeing CH-47 Chinook is a Transport helicopter from United States. Manufacturer: Boeing Vertol. First flight: 1961. Introduction: 1962. Status: Active.",
+            "text": "The Boeing CH-47 Chinook is a U.S.-origin twin-engine, tandem-rotor, heavy-lift helicopter designed for moving troops, vehicles, artillery, supplies, and external sling loads in combat and non-combat operations.",
             "refs": [
-              "fn-main"
+              "fn-boeing",
+              "fn-army"
             ]
           },
           {
-            "text": "Boeing CH-47 Chinook is a helicopter. Primary role: transport helicopter. Country of origin: United States. Manufacturer: Boeing Vertol.",
+            "text": "The aircraft's defining features are its two large counter-rotating rotors, full-width rear loading ramp, unobstructed tail area, large cabin, and three external cargo hooks. These features let the Chinook carry bulky internal cargo or underslung loads without the tail-rotor clearance limits of conventional single-main-rotor helicopters.",
             "refs": [
-              "fn-wikidata"
+              "fn-boeing",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "CH-47F and CH-47F Block II data should be read as representative of modern aircraft rather than every Chinook ever built. Earlier CH-47A/B/C/D aircraft, special-operations MH-47s, UK marks, and civil Model 234 aircraft differ in engines, avionics, fuel, payload, and mission equipment.",
             "refs": [
-              "fn-method"
+              "fn-boeing",
+              "fn-army"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Primary role",
-            "text": "Transport helicopter"
+            "title": "Role",
+            "text": "Heavy-lift transport helicopter"
           },
           {
-            "title": "Designer or builder",
-            "text": "Boeing Vertol"
+            "title": "Configuration",
+            "text": "Twin-engine tandem rotor with rear loading ramp"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Modern baseline",
+            "text": "CH-47F / CH-47F Block II"
           },
           {
-            "title": "Propulsion",
-            "text": "Turboshaft"
+            "title": "Normal mission",
+            "text": "Troop lift, cargo, sling load, disaster relief, special operations support"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Boeing CH-47 Chinook first flew in 1961. Introduction date: 1962. Era: Cold War/Modern.",
+            "text": "Vertol began tandem-rotor development from the Model 107/V-107 family while the U.S. Army searched for a turbine-powered replacement for older piston-engine heavy helicopters. The Army found the smaller YHC-1A unsuitable for its heavier transport need and ordered the enlarged Model 114 as the YHC-1B.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Producer: Boeing Vertol. Development context: transport helicopter, turboshaft propulsion, subsonic speed category, Cold War/Modern era.",
+            "text": "The preproduction YHC-1B first flew on 21 September 1961. In 1962 it became the CH-47A Chinook under the tri-service designation system, beginning a family that has remained in production, upgrade, and operational service for more than six decades.",
             "refs": [
-              "fn-wikidata"
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Major modernization steps moved from early CH-47A/B/C aircraft to the CH-47D rebuild standard and then to the CH-47F. Boeing's current Block II work emphasizes improved lift, structural changes, drivetrain improvements, open avionics and mission systems, autonomy-related growth, and sustainment improvements.",
+            "refs": [
+              "fn-boeing",
+              "fn-army"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing lift, survivability, vibration, hot-and-high performance, and battlefield maintainability.",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "1950s: Vertol tandem-rotor work and U.S. Army turbine-heavy-lift requirement."
+          },
+          {
+            "text": "21 September 1961: YHC-1B first flight."
+          },
+          {
+            "text": "1962: CH-47A designation and operational introduction."
+          },
+          {
+            "text": "1980s: CH-47D rebuild and modernization standard becomes a major fleet step."
+          },
+          {
+            "text": "2000s-present: CH-47F and Block II production/remanufacture continue the family."
           }
         ]
       },
@@ -26052,196 +26156,41 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 3. Propulsion: Turboshaft. Speed category: Subsonic.",
+            "text": "The tandem-rotor layout removes the need for a tail rotor, so engine power can be used for lift and forward thrust. Counter-rotating rotors also help the helicopter handle center-of-gravity changes during loading, unloading, and sling-load work.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "The CH-47F uses a digital cockpit with the Common Avionics Architecture System and the Digital Automatic Flight Control System. The U.S. Army describes the system as improving pilot workload, situational awareness, interoperability, survivability, and control in adverse environments such as brownout, reduced visibility, and high winds.",
             "refs": [
-              "fn-method"
+              "fn-army",
+              "fn-boeing"
             ]
           },
           {
-            "text": "Boeing CH-47 Chinook uses turboshaft propulsion. Engine model field: Not listed.",
+            "text": "Boeing lists CH-47F Block II propulsion as two Honeywell T55-GA-714A engines at 4,777 shaft horsepower each. Block II published figures include 170 KTAS maximum speed, 157 KTAS cruise speed, 20,000 ft service ceiling, 54,000 lb maximum gross weight, and 27,700 lb useful load.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Utility helicopter weapons not listed. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-boeing"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "3"
+            "title": "Cargo access",
+            "text": "Large rear loading ramp plus internal cargo area"
           },
           {
-            "title": "Engine class",
-            "text": "Turboshaft"
+            "title": "External lift",
+            "text": "Three cargo hooks for center, forward/aft, or tandem sling loads"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Modern avionics",
+            "text": "CAAS cockpit and DAFCS on CH-47F"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Boeing CH-47 Chinook status: Active. Conflict entries: 3.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: Gulf War, Iraq War, War in Afghanistan (2001–2021).",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Gulf War: Boeing CH-47 Chinook used in Gulf War.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Iraq War: Boeing CH-47 Chinook used in Iraq War.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "War in Afghanistan (2001–2021): Boeing CH-47 Chinook used in War in Afghanistan (2001–2021).",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Boeing CH-47 Chinook named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "variants",
-        "title": "Variants",
-        "paragraphs": [
-          {
-            "text": "Boeing CH-47 Chinook variant-family entries: 3. Variant families: Boeing CH-47 Chinook baseline production model; Boeing CH-47 Chinook upgraded avionics or weapons-capable model; Boeing CH-47 Chinook utility, attack, naval, or export model.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Boeing CH-47 Chinook baseline production model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Boeing CH-47 Chinook upgraded avionics or weapons-capable model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Boeing CH-47 Chinook utility, attack, naval, or export model",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "operators",
-        "title": "Operators",
-        "paragraphs": [
-          {
-            "text": "Designer or builder countries: United States. Boeing CH-47 Chinook has 1 designer or builder country entry.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "All operators status: 0 operator entries listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Major designer or builder entries: United States.",
-            "refs": [
-              "fn-wikidata"
-            ]
+            "title": "Engines",
+            "text": "Two Honeywell T55-family turboshafts on modern U.S. variants"
           }
         ]
       },
@@ -26250,46 +26199,247 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 3, propulsion type Turboshaft, maximum speed category Subsonic, first flight 1961, introduction 1962.",
+            "text": "Representative CH-47F Block II specifications are listed because Milipedia's data entry previously had no meaningful Chinook performance table. Older variants and national marks may differ substantially.",
             "refs": [
-              "fn-main"
+              "fn-boeing",
+              "fn-army"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Rotor diameter",
+            "text": "60 ft / 18.3 m"
+          },
+          {
+            "title": "Overall height",
+            "text": "18 ft 7.8 in / 5.7 m"
+          },
+          {
+            "title": "Fuselage length",
+            "text": "51 ft 2 in / 15.6 m"
+          },
+          {
+            "title": "Maximum gross weight",
+            "text": "54,000 lb / 24,494 kg Block II; Army CH-47F fact sheet lists 50,000 lb"
+          },
+          {
+            "title": "Maximum speed",
+            "text": "302 km/h / 170 KTAS Block II"
+          },
+          {
+            "title": "Cruise speed",
+            "text": "291 km/h / 157 KTAS Block II; Army CH-47F max cruise listed as 160 knots"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "20,000 ft / 6,096 m"
+          },
+          {
+            "title": "Useful load",
+            "text": "27,700 lb / 12,565 kg Block II"
+          },
+          {
+            "title": "Troop capacity",
+            "text": "36 total in Army fact sheet wording: 33 troops plus three crew members"
+          },
+          {
+            "title": "Sling-load limits",
+            "text": "26,000 lb center hook; 17,000 lb forward/aft hook; 25,000 lb tandem"
+          }
+        ]
+      },
+      {
+        "id": "variants",
+        "title": "Variants",
+        "paragraphs": [
+          {
+            "text": "The Chinook family is best understood as a long-running airframe with repeated rebuild and national-configuration programs rather than a single fixed specification. U.S. Army aircraft moved through CH-47A/B/C, CH-47D, and CH-47F standards, while special operations and export customers field different mission equipment.",
+            "refs": [
+              "fn-boeing",
+              "fn-wikipedia"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "CH-47A/B/C: early production and improved Cold War transport variants."
+          },
+          {
+            "text": "CH-47D: major rebuilt standard with stronger performance, improved avionics, and composite rotor blades."
+          },
+          {
+            "text": "CH-47F: digital cockpit and modern U.S. Army production/remanufacture standard."
+          },
+          {
+            "text": "CH-47F Block II: current lift, structure, drivetrain, avionics, and sustainment improvement path."
+          },
+          {
+            "text": "MH-47 family: special operations variants with long-range and mission-specific equipment."
+          },
+          {
+            "text": "Boeing Vertol 234 and national variants: commercial and export/nationally modified Chinooks."
+          }
+        ]
+      },
+      {
+        "id": "operators",
+        "title": "Operators",
+        "paragraphs": [
+          {
+            "text": "Boeing lists the Chinook as acquired by the U.S. Army, U.S. Special Operations Command, and 20 international countries. Because deliveries, retirements, and modernization contracts change over time, this page lists representative operators rather than a fixed fleet count.",
+            "refs": [
+              "fn-boeing"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "The United States remains the principal user, while long-term international Chinook communities include the United Kingdom, Japan, Italy, the Netherlands, Australia, Canada, India, Singapore, Spain, South Korea, and several Middle Eastern operators.",
             "refs": [
-              "fn-method"
+              "fn-boeing",
+              "fn-wikipedia"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Original user",
+            "text": "United States Army"
+          },
+          {
+            "title": "Special operations",
+            "text": "U.S. Army special operations MH-47 variants"
+          },
+          {
+            "title": "International footprint",
+            "text": "Boeing lists 20 international customer countries"
+          },
+          {
+            "title": "Civil work",
+            "text": "Model 234 and surplus Chinooks support construction, logging, firefighting, and heavy cargo"
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "The Chinook entered service during the Vietnam War era and became a central U.S. Army heavy-lift asset. Its high speed for a helicopter, cabin volume, rear ramp, and sling-load capability made it suitable for moving artillery, vehicles, ammunition, troops, casualties, and recovery equipment.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Modern CH-47F missions include combat logistics, air assault support, casualty evacuation, humanitarian assistance, disaster relief, homeland defense support, and overseas contingency operations. The Army specifically describes the CH-47F as its only heavy-lift cargo helicopter supporting critical combat and non-combat operations.",
+            "refs": [
+              "fn-army"
+            ]
+          },
+          {
+            "text": "Special operations Chinooks add long-range infiltration and extraction roles. Public articles should avoid treating all MH-47 equipment as standard CH-47F equipment because refueling probes, sensors, defensive systems, and mission avionics vary by configuration and classification level.",
+            "refs": [
+              "fn-boeing",
+              "fn-wikipedia"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
         "paragraphs": [
           {
-            "text": "Boeing CH-47 Chinook similar-development links: 4.",
+            "text": "The Chinook's strengths are lift, speed, access, and adaptability: it can move heavy internal or external cargo, operate in difficult environments, and accept repeated avionics and structural modernization. The tandem-rotor layout gives it a distinctive advantage for cargo work where a tail rotor would complicate ramp and sling operations.",
             "refs": [
-              "fn-method"
+              "fn-boeing",
+              "fn-army"
             ]
+          },
+          {
+            "text": "Its limitations are those of a large heavy-lift helicopter. Payload, range, and hover performance depend heavily on altitude, temperature, fuel, and load; it is not a stealthy aircraft; and defensive armament, when fitted, is primarily for protection rather than attack. Exact useful load should therefore be tied to a specific variant and mission profile.",
+            "refs": [
+              "fn-boeing",
+              "fn-army"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strong: high useful load, large cabin, rear ramp, three-hook external cargo system."
+          },
+          {
+            "text": "Strong: fast cruise for a helicopter and long service life through rebuild programs."
+          },
+          {
+            "text": "Caution: performance varies sharply with hot-and-high conditions and load."
+          },
+          {
+            "text": "Caution: normally a transport helicopter, not an attack platform."
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "The CH-47 timeline illustrates a rare aircraft family that moved from early-1960s Cold War service into modern digital-cockpit and Block II production without losing its original heavy-lift mission.",
+            "refs": [
+              "fn-boeing",
+              "fn-wikipedia"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1957-1958: Vertol V-107/YHC-1A work informs a larger Army heavy transport."
+          },
+          {
+            "text": "1961: YHC-1B first flight."
+          },
+          {
+            "text": "1962: CH-47A designation and introduction."
+          },
+          {
+            "text": "1982: CH-47D enters service as a major improved standard."
+          },
+          {
+            "text": "2007-2008: CH-47F initial operational testing and first equipped-unit milestones noted by the Army fact sheet."
+          },
+          {
+            "text": "2020s: CH-47F Block II production, orders, and upgrade activity continue."
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia entries help compare the Chinook with utility helicopters, tiltrotors, heavy rotorcraft, and fixed-wing tactical transports.",
+            "refs": []
           }
         ],
         "links": [
           {
-            "label": "Bell AH-1 Cobra",
-            "url": "aircraft.html?id=ah-1-cobra"
+            "label": "UH-60 Black Hawk",
+            "href": "aircraft.html?id=uh-60-black-hawk"
           },
           {
-            "label": "Boeing AH-64 Apache",
-            "url": "aircraft.html?id=ah-64-apache"
+            "label": "Mi-26",
+            "href": "aircraft.html?id=mi-26"
           },
           {
-            "label": "Bell UH-1 Iroquois",
-            "url": "aircraft.html?id=uh-1-iroquois"
+            "label": "Mi-8",
+            "href": "aircraft.html?id=mi-8"
           },
           {
-            "label": "Sikorsky UH-60 Black Hawk",
-            "url": "aircraft.html?id=uh-60-black-hawk"
+            "label": "V-22 Osprey",
+            "href": "aircraft.html?id=v-22-osprey"
+          },
+          {
+            "label": "C-130 Hercules",
+            "href": "aircraft.html?id=c-130-hercules"
           }
         ]
       }
