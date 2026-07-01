@@ -38482,58 +38482,99 @@
   {
     "id": "su-34",
     "name": "Sukhoi Su-34",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "alternative_names": [
+      "Su-32",
+      "Su-27IB",
+      "Fullback"
+    ],
+    "nato_reporting_name": "Fullback",
     "country_of_origin": "Russia",
-    "manufacturer": "Sukhoi",
-    "role": "Strike fighter",
-    "aircraft_type": "Bomber",
+    "manufacturer": "Sukhoi; Novosibirsk Aircraft Production Association / Novosibirsk Aircraft Plant",
+    "role": "All-weather strike fighter / fighter-bomber",
+    "aircraft_type": "Strike aircraft",
     "era": "Modern",
-    "first_flight": "1990",
-    "introduction_date": "2014",
+    "first_flight": "13 April 1990",
+    "introduction_date": "2014 Russian Air Force service entry; earlier production and evaluation deliveries began before formal acceptance",
     "retirement_date": null,
     "status": "Active",
-    "number_built": "Not listed",
-    "crew": "2",
+    "number_built": "More than 170 reported in specialist open sources; exact current production total is date-sensitive",
+    "crew": "2, side-by-side",
     "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "engines": "Two Saturn/Lyulka AL-31F-family afterburning turbofans; sources vary on AL-31F, AL-31FM1, and modernized fits",
+    "max_speed": "Approximately 1,900 km/h at altitude; about 1,300 km/h at low altitude",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Bombs, missiles, and precision-guided weapons.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Sukhoi Su-34: Strike fighter. Manufacturer: Sukhoi. First flight: 1990. Introduction: 2014.",
-    "short_summary": "Sukhoi Su-34: Strike fighter. Origin: Russia. Manufacturer: Sukhoi. First flight: 1990. Introduction: 2014. Status: Active.",
+    "range": "Ferry range up to about 4,500 km with external tanks; combat radius varies by profile and load",
+    "combat_range": "About 600 km low-level radius with normal combat load and internal fuel; about 1,130 km with external tanks in Airforce Technology data",
+    "service_ceiling": "Approximately 14,000 m",
+    "rate_of_climb": "Not consistently published in reliable open references",
+    "armament": "30 mm GSh-301 cannon; up to about 8,000 kg of guided and unguided air-to-surface weapons, anti-radiation and anti-ship missiles, rockets, bombs, and self-defence air-to-air missiles depending mission fit",
+    "hardpoints": "10 external weapon stations",
+    "variants": [
+      {
+        "name": "T-10V / Su-27IB prototypes",
+        "description": "Development aircraft derived from the Su-27 family with a redesigned forward fuselage and side-by-side crew arrangement for long-range strike missions."
+      },
+      {
+        "name": "Su-34",
+        "description": "Baseline Russian production fighter-bomber with side-by-side crew, armored cockpit, terrain-following/attack avionics, internal cannon, aerial-refuelling probe, and broad air-to-surface weapons compatibility."
+      },
+      {
+        "name": "Su-32 / Su-32FN / Su-32MF",
+        "description": "Export and mission-marketing designations associated with the Su-34 family; public sources use these names inconsistently, so they are best treated as related designations rather than separate confirmed production fleets."
+      },
+      {
+        "name": "Su-34M",
+        "description": "Modernized production/upgrade standard reported from the late 2010s and 2020s with updated avionics, weapons integration, and mission-system improvements; exact configuration details are not fully public."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Russia",
+        "service": "Russian Aerospace Forces",
+        "status": "Active",
+        "note": "Primary known operator. Aircraft are used by Russian tactical aviation units for strike, interdiction, and long-range fighter-bomber missions."
+      },
+      {
+        "country": "Algeria",
+        "service": "Algerian Air Force",
+        "status": "Reported / uncertain",
+        "note": "Open sources have reported possible Su-32/Su-34 export interest or orders, but publicly verifiable delivery and operational-status details remain uncertain and should not be treated as firm fleet data without newer official confirmation."
+      }
+    ],
+    "combat_history": "Used by Russia in Syria from 2015 and in the Russo-Ukrainian War. Losses, sortie counts, and exact mission effects are disputed and date-sensitive, so the page summarizes confirmed broad use rather than detailed claims.",
+    "development_history": "Developed by Sukhoi from the Su-27 Flanker family as a long-range tactical strike aircraft intended to replace Su-24-class bombers. The T-10V/Su-27IB prototype first flew on 13 April 1990, but post-Soviet funding problems slowed development before production deliveries and formal Russian service entry in the 2000s-2010s.",
+    "short_summary": "The Sukhoi Su-34 Fullback is a Russian twin-engine, two-seat, all-weather strike fighter derived from the Su-27 family. It combines a side-by-side armored cockpit, long-range fuel capacity, precision-strike avionics, and a heavy external weapons load for tactical bombing, interdiction, and maritime-strike missions.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/MAKS2015part1-10_%28cropped%29.jpg/330px-MAKS2015part1-10_%28cropped%29.jpg",
-        "caption": "Sukhoi Su-34",
-        "credit": "Wikimedia/Wikipedia thumbnail source",
+        "caption": "Russian Aerospace Forces Su-34 at MAKS 2015",
+        "credit": "Wikimedia Commons / Wikipedia thumbnail source",
         "license": "Verify original file license before reuse."
       }
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-airforce-tech",
+        "title": "Su-34 (Su-32) Fullback Fighter Bomber",
+        "url": "https://www.airforce-technology.com/projects/su34/",
+        "publisher": "Airforce Technology / GlobalData",
+        "note": "Used for dimensions, weights, speed, ceiling, range profiles, weapons stations, cannon, production-delivery overview, and design/cockpit descriptions."
+      },
+      {
+        "id": "fn-deagel",
+        "title": "Su-34",
+        "url": "https://www.deagel.com/Combat%20Aircraft/Su-34/a000181",
+        "publisher": "Deagel",
+        "note": "Supplementary specialist reference for first-flight date, design lineage, cockpit armor, AL-31-family engines, variant names, and production/modernization context; figures are treated cautiously."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Sukhoi Su-34",
         "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-34",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation for article structure, NATO reporting name, service chronology, conflicts, and cross-reference discovery, not used as the sole source for technical specifications."
       },
       {
         "id": "fn-method",
@@ -38541,13 +38582,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.ausairpower.net/APA-Fullback.html",
-        "publisher": "ausairpower.net",
-        "note": "External source for Sukhoi Su-34."
       }
     ],
     "country_flags": [
@@ -38557,113 +38591,131 @@
       }
     ],
     "designers": [
-      "Sukhoi"
+      "Sukhoi Design Bureau"
     ],
     "development_tensions": [
-      "Balancing payload, range, survivability, sensor/weapons modernization, and operating cost.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Adapting the agile Su-27 air-superiority airframe into a heavier long-range strike aircraft required a new armored cockpit, more fuel, mission avionics, and a strengthened weapons-carrying structure.",
+      "The aircraft trades pure fighter agility for crew endurance, payload, sensor capacity, and low-altitude strike survivability.",
+      "Modern combat use has highlighted the tension between stand-off precision attack and the risk to large crewed strike aircraft operating near dense air defenses."
     ],
     "wars_used_in": [
       {
+        "name": "Russian military intervention in Syria",
+        "note": "Russian Su-34s were deployed for strike missions from 2015."
+      },
+      {
         "name": "Russo-Ukrainian War",
-        "note": "Sukhoi Su-34 used in Russo-Ukrainian War."
+        "note": "Su-34s have been used extensively by Russia during the 2022 invasion period; exact loss and claim figures remain date-sensitive and disputed."
       }
     ],
     "variant_families": [
-      "Sukhoi Su-34 baseline production model",
-      "Sukhoi Su-34 upgraded avionics or weapons-capable model",
-      "Sukhoi Su-34 two-seat trainer or conversion model"
+      "T-10V / Su-27IB prototypes",
+      "Su-34 baseline production aircraft",
+      "Su-32 export-designation family",
+      "Su-34M modernized aircraft"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "Russia"
       ],
-      "major_user_note": "Sukhoi Su-34 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Russia is the only confirmed primary operator in reliable public summaries; export status remains uncertain.",
+      "all_operators_status": "1 confirmed active operator entry plus one uncertain reported export-interest entry."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "The Su-34 is notable for its side-by-side cockpit with space for long-duration missions rather than for widely documented individual aircraft names."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Open reporting includes accidents and combat losses, especially during the Russo-Ukrainian War, but this page avoids exact loss totals because figures change and may be disputed."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Sukhoi Su-34 uses jet propulsion."
+      "type": "Twin afterburning turbofan",
+      "summary": "Production aircraft are generally described with AL-31F-family afterburning turbofans; public sources vary on the exact subvariant for baseline and modernized aircraft."
     },
     "armament_details": {
-      "summary": "Bombs, missiles, and precision-guided weapons.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "The Su-34 has a built-in GSh-301 30 mm cannon with 180 rounds and ten external stations for up to roughly 8,000 kg of stores, including guided bombs, unguided bombs and rockets, anti-radiation missiles, anti-ship missiles, air-to-surface missiles, and self-defence air-to-air missiles.",
+      "caution": "Exact weapons compatibility depends on production standard, modernization package, export restrictions, mission software, and national inventory."
     },
     "similar_development": [
       {
-        "id": "b-52-stratofortress",
-        "name": "Boeing B-52 Stratofortress",
-        "url": "aircraft.html?id=b-52-stratofortress"
-      },
-      {
-        "id": "b-1-lancer",
-        "name": "Rockwell B-1 Lancer",
-        "url": "aircraft.html?id=b-1-lancer"
-      },
-      {
-        "id": "b-2-spirit",
-        "name": "Northrop Grumman B-2 Spirit",
-        "url": "aircraft.html?id=b-2-spirit"
+        "id": "su-27",
+        "name": "Sukhoi Su-27",
+        "url": "aircraft.html?id=su-27"
       },
       {
         "id": "su-24",
         "name": "Sukhoi Su-24",
         "url": "aircraft.html?id=su-24"
+      },
+      {
+        "id": "su-35",
+        "name": "Sukhoi Su-35",
+        "url": "aircraft.html?id=su-35"
+      },
+      {
+        "id": "tu-22m",
+        "name": "Tupolev Tu-22M",
+        "url": "aircraft.html?id=tu-22m"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 1
+      "exact_fact_count": 42,
+      "operator_entries": 2,
+      "variant_entries": 4,
+      "external_article_sources": 3
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-airforce-tech",
+        "title": "Su-34 (Su-32) Fullback Fighter Bomber",
+        "url": "https://www.airforce-technology.com/projects/su34/",
+        "publisher": "Airforce Technology / GlobalData",
+        "note": "Primary technical and program reference for this update."
+      },
+      {
+        "id": "fn-deagel",
+        "title": "Su-34",
+        "url": "https://www.deagel.com/Combat%20Aircraft/Su-34/a000181",
+        "publisher": "Deagel",
+        "note": "Supplementary reference for first flight, design lineage, variant names, engines, and production context; date-sensitive production totals are caveated."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Sukhoi Su-34",
         "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-34",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for service and conflict context."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.ausairpower.net/APA-Fullback.html",
-        "publisher": "ausairpower.net",
-        "note": "External source for Sukhoi Su-34."
+        "note": "Local rules for neutral wording and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.ausairpower.net/APA-Fullback.html",
-        "publisher": "ausairpower.net",
-        "note": "External source for Sukhoi Su-34."
+        "id": "fn-airforce-tech",
+        "title": "Su-34 (Su-32) Fullback Fighter Bomber",
+        "url": "https://www.airforce-technology.com/projects/su34/",
+        "publisher": "Airforce Technology / GlobalData",
+        "note": "Technical/program source."
+      },
+      {
+        "id": "fn-deagel",
+        "title": "Su-34",
+        "url": "https://www.deagel.com/Combat%20Aircraft/Su-34/a000181",
+        "publisher": "Deagel",
+        "note": "Supplementary technical/source cross-check."
+      },
+      {
+        "id": "fn-wikipedia",
+        "title": "Sukhoi Su-34",
+        "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-34",
+        "publisher": "Wikipedia",
+        "note": "Supplementary orientation only."
       }
     ],
     "article_sections": [
@@ -38672,70 +38724,97 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-34 is a Strike fighter from Russia. Manufacturer: Sukhoi. First flight: 1990. Introduction: 2014. Status: Active.",
+            "text": "The Sukhoi Su-34 Fullback is a Russian twin-engine, two-seat, all-weather strike fighter and fighter-bomber derived from the Su-27 Flanker family. Unlike the single-seat Su-27, the Su-34 has a broad side-by-side cockpit, long-range mission equipment, and a weapons system optimized for tactical bombing, interdiction, maritime strike, and precision attack.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Sukhoi Su-34 is a bomber. Primary role: strike fighter. Country of origin: Russia. Manufacturer: Sukhoi.",
+            "text": "The aircraft first flew as the T-10V/Su-27IB development line on 13 April 1990. Production and service entry were delayed by the post-Soviet funding environment, but the type became a major Russian Aerospace Forces strike platform during the 2010s and 2020s.",
             "refs": [
-              "fn-wikidata"
+              "fn-deagel",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Open sources list a length of 23.34 m, wingspan of 14.05 m, maximum take-off weight around 45,100 kg, 10 weapon stations, and a typical maximum external combat load of about 8,000 kg. Those figures should be read as representative because mission fuel, external tanks, modernization standard, and weapons fit change performance.",
             "refs": [
+              "fn-airforce-tech",
               "fn-method"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Primary role",
-            "text": "Strike fighter"
+            "title": "Role",
+            "text": "All-weather strike fighter / fighter-bomber"
           },
           {
-            "title": "Designer or builder",
-            "text": "Sukhoi"
+            "title": "NATO reporting name",
+            "text": "Fullback"
           },
           {
-            "title": "Major origin",
+            "title": "Crew",
+            "text": "2 side-by-side"
+          },
+          {
+            "title": "Origin",
             "text": "Russia"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "First flight",
+            "text": "13 April 1990"
+          },
+          {
+            "title": "Weapons stations",
+            "text": "10"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-34 first flew in 1990. Introduction date: 2014. Era: Modern.",
+            "text": "Sukhoi began the Su-32/Su-34 family in the 1980s as a long-range replacement for the Su-24 Fencer and as a way to adapt the Su-27 airframe to tactical strike missions. The resulting aircraft kept the Flanker family's broad aerodynamic layout but changed the forward fuselage, cockpit, avionics, fuel capacity, and mission equipment.",
             "refs": [
-              "fn-main"
+              "fn-deagel",
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Producer: Sukhoi. Development context: strike fighter, jet propulsion, supersonic speed category, Modern era.",
+            "text": "The prototype line was known as T-10V and Su-27IB before the Su-34 name became standard. The first flight in April 1990 came just before the collapse of the Soviet Union, which stretched development and procurement across more than two decades.",
             "refs": [
-              "fn-wikidata"
+              "fn-deagel",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Airforce Technology reports early production deliveries from the mid-2000s, full-rate production beginning in 2008, major Russian orders in 2008 and 2012, and continued modernized Su-34/Su-34M procurement after 2019-2020. Exact totals are date-sensitive and vary among public sources.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-deagel"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing payload, range, survivability, sensor/weapons modernization, and operating cost.",
+            "text": "Original design goal: replace Su-24-class tactical bombers with a longer-range, more survivable strike aircraft based on the Su-27 family.",
             "refs": [
-              "fn-method"
+              "fn-deagel"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "Production organization: Sukhoi design authority with Novosibirsk production involvement.",
             "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "Modernization: Su-34M reporting points to updated mission systems and weapons integration, but detailed configuration data is not fully public.",
+            "refs": [
+              "fn-airforce-tech",
               "fn-method"
             ]
           }
@@ -38746,27 +38825,75 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 2. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The Su-34 retains a Su-27-derived wing, tail, twin-engine layout, and canard-equipped Flanker-family appearance, but its forward fuselage is substantially different. The broad nose houses side-by-side K-36DM ejection seats, multi-function displays, and mission systems for long-duration strike sorties.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech",
+              "fn-deagel"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "A distinctive feature is the armored cockpit. Deagel describes an armored titanium capsule with 17 mm plates, while Airforce Technology notes the side-by-side cockpit and expanded internal fuel. The crew arrangement improves communication and endurance but adds frontal area and weight compared with single-seat Flanker fighters.",
             "refs": [
+              "fn-deagel",
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "The aircraft is normally described with two AL-31F-family afterburning turbofans. It has aerial refuelling capability, terrain-following/attack avionics, and a weapons system intended for guided bombs, air-to-surface missiles, anti-ship weapons, anti-radiation missiles, rockets, and self-defence air-to-air missiles.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-deagel"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Length",
+            "text": "23.34 m"
+          },
+          {
+            "title": "Wingspan",
+            "text": "14.05 m"
+          },
+          {
+            "title": "Height",
+            "text": "6.36 m"
+          },
+          {
+            "title": "Maximum take-off weight",
+            "text": "About 45,100 kg"
+          },
+          {
+            "title": "Normal combat load",
+            "text": "About 4,000 kg"
+          },
+          {
+            "title": "Maximum combat load",
+            "text": "About 8,000 kg"
+          }
+        ]
+      },
+      {
+        "id": "specifications",
+        "title": "Specifications",
+        "paragraphs": [
+          {
+            "text": "Representative Su-34 figures from Airforce Technology list a maximum high-altitude speed of about 1,900 km/h, low-altitude speed of about 1,300 km/h, service ceiling of about 14,000 m, and ferry range of about 4,500 km with external tanks.",
+            "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "Combat radius depends strongly on altitude, stores, external tanks, and mission profile. Airforce Technology gives about 600 km near-ground radius at 900 km/h with normal combat load and internal fuel, increasing to about 1,130 km with external tanks under the same broad profile.",
+            "refs": [
+              "fn-airforce-tech",
               "fn-method"
             ]
           },
           {
-            "text": "Sukhoi Su-34 uses jet propulsion. Engine model field: Not listed.",
+            "text": "Because Su-34 and Su-34M equipment differs, this page avoids presenting one universal radar, engine-subvariant, or weapons table as valid for every aircraft.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Bombs, missiles, and precision-guided weapons. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-method"
             ]
           }
         ],
@@ -38776,84 +38903,32 @@
             "text": "2"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Engines",
+            "text": "Two AL-31F-family afterburning turbofans"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "High-altitude speed",
+            "text": "About 1,900 km/h"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Low-altitude speed",
+            "text": "About 1,300 km/h"
           },
           {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Sukhoi Su-34 status: Active. Conflict entries: 1.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Service ceiling",
+            "text": "About 14,000 m"
           },
           {
-            "text": "Conflicts: Russo-Ukrainian War.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Russo-Ukrainian War: Sukhoi Su-34 used in Russo-Ukrainian War.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Sukhoi Su-34 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Ferry range",
+            "text": "About 4,500 km with external tanks"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Gun",
+            "text": "1 x 30 mm GSh-301, 180 rounds"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Hardpoints",
+            "text": "10"
           }
         ]
       },
@@ -38862,35 +38937,39 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-34 variant-family entries: 3. Variant families: Sukhoi Su-34 baseline production model; Sukhoi Su-34 upgraded avionics or weapons-capable model; Sukhoi Su-34 two-seat trainer or conversion model.",
+            "text": "The Su-34 family is not as publicly fragmented as the F-16 block system, but sources use several names for prototypes, export-marketed aircraft, naval/maritime concepts, and modernized production standards.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-deagel",
+              "fn-wikipedia"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Sukhoi Su-34 baseline production model",
+            "text": "T-10V / Su-27IB: prototype and development designations for the Su-27-derived strike aircraft.",
             "refs": [
-              "fn-main"
+              "fn-deagel",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Sukhoi Su-34 upgraded avionics or weapons-capable model",
+            "text": "Su-34: baseline Russian production fighter-bomber, optimized for long-range tactical strike and precision attack.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Sukhoi Su-34 two-seat trainer or conversion model",
+            "text": "Su-32 / Su-32FN / Su-32MF: export and mission-marketing designations often associated with strike, maritime, and multirole variants; public sources do not always separate them as delivered production subtypes.",
             "refs": [
-              "fn-main"
+              "fn-deagel",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Su-34M: modernized aircraft reported in new production and upgrade contracts, with updated avionics and weapons integration; exact equipment fits require current official verification.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-method"
             ]
           }
         ]
@@ -38900,45 +38979,29 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Russia. Sukhoi Su-34 has 1 designer or builder country entry.",
+            "text": "Russia is the principal confirmed Su-34 operator. The aircraft equips Russian Aerospace Forces tactical aviation units and is used for strike, interdiction, and long-range fighter-bomber missions.",
             "refs": [
-              "fn-wikidata"
+              "fn-airforce-tech",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Public reporting has periodically described export interest or possible Algerian orders for Su-32/Su-34-family aircraft, but reliable open confirmation of operational service outside Russia is limited. This page therefore lists Algeria only as reported/uncertain rather than a confirmed active fleet.",
             "refs": [
+              "fn-wikipedia",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Russia — Russian Aerospace Forces: confirmed active operator.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Major designer or builder entries: Russia.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "specifications",
-        "title": "Specifications",
-        "paragraphs": [
-          {
-            "text": "Comparable fields: crew 2, propulsion type Jet, maximum speed category Supersonic, first flight 1990, introduction 2014.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Algeria — reported interest/order claims appear in open sources, but delivery and operational status require verification.",
             "refs": [
               "fn-method"
             ]
@@ -38946,11 +39009,158 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-34 similar-development links: 4.",
+            "text": "The Su-34 became publicly prominent during Russian operations in Syria from 2015, where it was used for strike missions from deployed air bases. Its long range, heavy payload, and precision-weapon compatibility made it a central modern Russian strike type.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "The aircraft has also been used extensively in the Russo-Ukrainian War. Public reporting includes combat losses and changing tactics involving stand-off glide bombs and missiles, but exact sortie counts, claims, and loss totals are not stable enough for a fixed encyclopedia-style data field in this update.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The Su-34 is often described as a successor to the Su-24 for tactical bombing and as a partial substitute for some missions formerly associated with heavier strike aircraft, but it is not a strategic bomber. Its niche is heavy tactical/operational strike by a crewed supersonic aircraft.",
+            "refs": [
+              "fn-deagel",
+              "fn-airforce-tech"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include long range for a tactical aircraft, a large weapon load, a comfortable side-by-side cockpit for two crew members, armored crew protection, aerial refuelling, and compatibility with a wide mix of Russian air-to-surface weapons.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-deagel"
+            ]
+          },
+          {
+            "text": "Limitations include high acquisition and operating cost compared with smaller attack aircraft, a large radar and infrared signature, dependence on mission-specific weapons and targeting support, and vulnerability when operating inside modern integrated air-defense coverage.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Best suited for",
+            "text": "Long-range tactical strike, interdiction, maritime attack, and heavy precision-weapon delivery"
+          },
+          {
+            "title": "Less suited for",
+            "text": "Low-cost close air support, stealth penetration, or air-superiority missions against modern fighters"
+          },
+          {
+            "title": "Key trade-off",
+            "text": "Payload and crew endurance over fighter-like agility and low observability"
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Assessment",
+        "paragraphs": [
+          {
+            "text": "Compared with the Su-24 it was designed to replace, the Su-34 offers a newer airframe lineage, higher performance, modernized avionics, greater crew comfort, and broader precision-weapons potential. Compared with the Su-27 and Su-35, it is a heavier strike aircraft rather than a pure air-superiority fighter.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-deagel"
+            ]
+          },
+          {
+            "text": "In Western terms, the Su-34 is closer to a heavy strike fighter concept than to a light multirole fighter such as the F-16. Its closest Milipedia comparison set is Su-24 for mission replacement, Su-27/Su-35 for family lineage, and Tu-22M for overlapping long-range strike discussions.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "Early 1980s — Sukhoi begins Su-32/Su-34 family development as a Su-24 replacement concept.",
+            "refs": [
+              "fn-deagel"
+            ]
+          },
+          {
+            "text": "13 April 1990 — T-10V/Su-27IB prototype makes its first flight.",
+            "refs": [
+              "fn-deagel"
+            ]
+          },
+          {
+            "text": "2000s — Development and production deliveries continue after long post-Soviet delays.",
+            "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "2008 — Full-rate production and larger Russian procurement activity reported.",
+            "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "2014 — Commonly cited Russian Air Force formal service-entry year.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "2015 — Su-34s deploy for Russian operations in Syria.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "2019-2020 onward — Modernized Su-34M and continued procurement are reported in open sources.",
+            "refs": [
+              "fn-airforce-tech"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Airforce Technology is used as the primary technical source for dimensions, weight, speed, ceiling, range, hardpoints, cannon, and program-delivery context. Deagel is used as a supplementary specialist source for first-flight date, variant names, cockpit armor, engine-family context, and production trends.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-deagel"
+            ]
+          },
+          {
+            "text": "Wikipedia is retained as a supplementary orientation source for the NATO reporting name, broad service chronology, and conflict context. Exact current fleet totals, aircraft losses, and export status were deliberately caveated or omitted because they change and may be disputed.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages connect the Su-34 to its Flanker-family lineage, the Su-24 strike aircraft it was intended to replace, and heavier Russian long-range strike aircraft.",
             "refs": [
               "fn-method"
             ]
@@ -38958,20 +39168,24 @@
         ],
         "links": [
           {
-            "label": "Boeing B-52 Stratofortress",
-            "url": "aircraft.html?id=b-52-stratofortress"
-          },
-          {
-            "label": "Rockwell B-1 Lancer",
-            "url": "aircraft.html?id=b-1-lancer"
-          },
-          {
-            "label": "Northrop Grumman B-2 Spirit",
-            "url": "aircraft.html?id=b-2-spirit"
+            "label": "Sukhoi Su-27",
+            "url": "aircraft.html?id=su-27"
           },
           {
             "label": "Sukhoi Su-24",
             "url": "aircraft.html?id=su-24"
+          },
+          {
+            "label": "Sukhoi Su-35",
+            "url": "aircraft.html?id=su-35"
+          },
+          {
+            "label": "Tupolev Tu-22M",
+            "url": "aircraft.html?id=tu-22m"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "index.html#database"
           }
         ]
       }
