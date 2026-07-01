@@ -28200,34 +28200,90 @@
   {
     "id": "mq-9-reaper",
     "name": "General Atomics MQ-9 Reaper",
-    "alternative_names": [],
+    "alternative_names": [
+      "MQ-9A Reaper",
+      "Predator B",
+      "Reaper"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
-    "manufacturer": "General Atomics",
-    "role": "Remotely piloted UAV",
+    "manufacturer": "General Atomics Aeronautical Systems, Inc.",
+    "role": "Medium-altitude, long-endurance remotely piloted ISR and strike aircraft",
     "aircraft_type": "UAV",
     "era": "Modern",
     "first_flight": "2001",
-    "introduction_date": "2007",
+    "introduction_date": "October 2007 initial operating capability with the U.S. Air Force",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "Remote crew",
+    "status": "Active with the U.S. Air Force and multiple allied/export operators; roles and inventories are date-sensitive",
+    "number_built": "Not fixed in this entry; the MQ-9 family remains in service and has multiple national/export configurations",
+    "crew": "Two remote aircrew: pilot and sensor operator; launch/recovery and maintenance crews support deployed operations",
     "engine_type": "Turboprop",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engines": "One Honeywell TPE331-10GD turboprop, 900 shp maximum in U.S. Air Force fact-sheet data",
+    "max_speed": "About 240 KTAS in General Atomics MQ-9A data; U.S. Air Force lists a 230 mph cruise speed for Reaper",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Remotely piloted aircraft payload; exact stores not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "General Atomics MQ-9 Reaper: Remotely piloted UAV. Manufacturer: General Atomics. First flight: 2001. Introduction: 2007.",
-    "short_summary": "General Atomics MQ-9 Reaper: Remotely piloted UAV. Origin: United States. Manufacturer: General Atomics. First flight: 2001. Introduction: 2007. Status: Active.",
+    "range": "U.S. Air Force fact sheet lists 1,150 miles / 1,000 nmi; Extended Range configuration lists about 1,611 miles / 1,400 nmi",
+    "combat_range": "Mission radius and on-station time vary by payload, communications plan, launch site, and fuel; GA-ASI lists more than 27 hours endurance for MQ-9A and about 34 hours for Extended Range",
+    "service_ceiling": "Up to 50,000 ft in General Atomics MQ-9A data",
+    "rate_of_climb": "Not emphasized in public fact sheets; optimized for endurance and persistent ISR/strike rather than fighter-style climb performance",
+    "armament": "Mission-dependent stores include AGM-114 Hellfire missiles and laser/GPS-guided bombs such as GBU-12, GBU-38, GBU-49, and GBU-54; sensor-only and maritime/ISR payload fits are also used.",
+    "hardpoints": "External stations for weapons, sensors, and fuel tanks; public USAF/GA-ASI data describes up to 3,000 lb external stores and 3,750 lb total payload for MQ-9A baseline data",
+    "variants": [
+      {
+        "name": "MQ-9A Reaper / Predator B",
+        "description": "Baseline turboprop medium-altitude long-endurance remotely piloted aircraft developed from the MQ-1 Predator experience, used for persistent ISR, target tracking, and precision strike."
+      },
+      {
+        "name": "MQ-9A Block 1 / Block 5",
+        "description": "Production and upgrade standards with improved avionics, reliability, communications, electrical capacity, and mission-system integration; exact national fits vary."
+      },
+      {
+        "name": "MQ-9A Extended Range (ER)",
+        "description": "Field-retrofittable configuration using wing-borne fuel pods and reinforced landing gear to increase endurance from the already long-duration baseline to about 34 hours in GA-ASI public data."
+      },
+      {
+        "name": "Predator B maritime / sensor configurations",
+        "description": "MQ-9A/Predator B aircraft can be fitted with EO/IR sensors, Lynx multi-mode radar, maritime surveillance radar, electronic-support measures, laser designators, and other mission payloads."
+      },
+      {
+        "name": "MQ-9B SkyGuardian / SeaGuardian family",
+        "description": "Later derivative family sharing Reaper lineage but developed for different certification, endurance, and maritime or civil-airspace requirements; treated as related development rather than the same baseline aircraft."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "U.S. Air Force, Air Force Special Operations Command, U.S. Customs and Border Protection, NASA and other U.S. government users",
+        "notes": "Original and largest user community; USAF data describes the MQ-9 as a remotely piloted aircraft system for intelligence collection in support of strike, coordination, and reconnaissance missions."
+      },
+      {
+        "country": "United Kingdom",
+        "service": "Royal Air Force",
+        "notes": "Operated Reaper and later selected the Protector RG Mk1/MQ-9B family as the follow-on remotely piloted aircraft capability."
+      },
+      {
+        "country": "Italy",
+        "service": "Italian Air Force",
+        "notes": "Listed by GA-ASI among MQ-9A customers; exact configuration, armament status, and current numbers are date-sensitive."
+      },
+      {
+        "country": "France",
+        "service": "French Air and Space Force",
+        "notes": "Listed by GA-ASI among MQ-9A customers and used for expeditionary ISR; weapons integration and inventory details vary by time period."
+      },
+      {
+        "country": "Spain",
+        "service": "Spanish Air and Space Force",
+        "notes": "Listed by GA-ASI among MQ-9A customers for remotely piloted ISR missions."
+      },
+      {
+        "country": "Other MQ-9/MQ-9B customers",
+        "service": "Allied air arms and government agencies",
+        "notes": "Additional customers and orders exist across the broader Reaper/SkyGuardian/SeaGuardian family; this entry avoids fixed current totals because deliveries, upgrades, and retirements change over time."
+      }
+    ],
+    "combat_history": "Used extensively for persistent ISR, armed overwatch, dynamic targeting, and precision strike during post-2001 operations, including Afghanistan, Iraq, counter-ISIS missions, and other expeditionary deployments; specific strike claims and current deployments are politically and date sensitive.",
+    "development_history": "General Atomics developed the turboprop Predator B/MQ-9A with company funding, first flying it in 2001 as a larger, more powerful evolution of the MQ-1 Predator. The U.S. Air Force adopted the system to support overseas contingency operations, giving it initial operating capability in October 2007.",
+    "short_summary": "The General Atomics MQ-9 Reaper is a turboprop, medium-altitude, long-endurance remotely piloted aircraft used for persistent intelligence, surveillance, reconnaissance, target tracking, and precision strike. Compared with the MQ-1 Predator, it is larger, more powerful, carries more payload, and integrates a broader sensor and weapons suite.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -28240,18 +28296,32 @@
     ],
     "sources": [
       {
+        "id": "fn-usaf",
+        "title": "MQ-9 Reaper",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104470/mq-9-reaper/",
+        "publisher": "U.S. Air Force",
+        "note": "Official fact sheet used for mission description, system composition, crew, sensors, weapons, dimensions, payload, range, IOC, and current USAF inventory context."
+      },
+      {
+        "id": "fn-gaasi",
+        "title": "MQ-9A Reaper (Predator B)",
+        "url": "https://www.ga-asi.com/remotely-piloted-aircraft/mq-9a",
+        "publisher": "General Atomics Aeronautical Systems, Inc.",
+        "note": "Manufacturer page used for development lineage, endurance, speed, ceiling, payload, engine, modular payloads, Extended Range description, and listed customer examples."
+      },
+      {
         "id": "fn-main",
         "title": "General Atomics MQ-9 Reaper",
         "url": "https://en.wikipedia.org/wiki/General_Atomics_MQ-9_Reaper",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "note": "Supplementary orientation only for general variant/operator cross-checking and image provenance; official and manufacturer sources are preferred for article facts."
       },
       {
         "id": "fn-wikidata",
         "title": "Wikidata Query Service",
         "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "publisher": "Wikidata",
+        "note": "Open structured-data source used for aircraft identifiers and relationship checks."
       },
       {
         "id": "fn-method",
@@ -28268,54 +28338,54 @@
       }
     ],
     "designers": [
-      "General Atomics"
+      "General Atomics Aeronautical Systems, Inc."
     ],
     "development_tensions": [
-      "Balancing endurance, sensor payload, communications links, autonomy, and legal/political constraints."
+      "Increasing payload, endurance, and communications reliability while managing airspace integration, legal/political constraints, satellite-link dependence, and vulnerability in contested airspace."
     ],
     "wars_used_in": [
       {
-        "name": "Gulf War",
-        "note": "General Atomics MQ-9 Reaper used in Gulf War."
-      },
-      {
-        "name": "Iraq War",
-        "note": "General Atomics MQ-9 Reaper used in Iraq War."
-      },
-      {
         "name": "War in Afghanistan (2001–2021)",
-        "note": "General Atomics MQ-9 Reaper used in War in Afghanistan (2001–2021)."
+        "note": "Representative operational theater for U.S. and allied Reaper ISR/strike missions after IOC."
+      },
+      {
+        "name": "Iraq War and post-2003 Iraq operations",
+        "note": "Used for persistent ISR, overwatch, and precision strike in Iraq-related operations; exact mission details are campaign- and date-specific."
+      },
+      {
+        "name": "Counter-ISIS operations",
+        "note": "Reaper aircraft have been associated with coalition ISR and strike operations against ISIS; specific strike claims are not enumerated here."
       }
     ],
     "variant_families": [
-      "General Atomics MQ-9 Reaper baseline production model",
-      "General Atomics MQ-9 Reaper upgraded avionics or weapons-capable model",
-      "General Atomics MQ-9 Reaper surveillance and armed mission configuration"
+      "MQ-9A Reaper / Predator B",
+      "MQ-9A Block 1 and Block 5",
+      "MQ-9A Extended Range",
+      "Predator B maritime/sensor payload configurations",
+      "Related MQ-9B SkyGuardian and SeaGuardian family"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "General Atomics MQ-9 Reaper has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "United States is the original and principal operator; GA-ASI also lists the United Kingdom, Italy, France, Spain, NASA, and U.S. Department of Homeland Security among MQ-9A customers.",
+      "all_operators_status": "Representative operators listed; current inventories and weapon clearances are date-sensitive."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "Remotely piloted aircraft are usually identified by system, unit, or mission rather than public individual airframe names."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Operational losses, shootdowns, and airspace incidents exist but are highly date-sensitive and not enumerated in this overview."
       ]
     },
     "engine_details": {
       "type": "Turboprop",
-      "summary": "General Atomics MQ-9 Reaper uses turboprop propulsion."
+      "summary": "Honeywell TPE331-10GD turboprop with digital electronic engine control in GA-ASI description; USAF fact sheet lists 900 shp maximum."
     },
     "armament_details": {
-      "summary": "Remotely piloted aircraft payload; exact stores not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "AGM-114 Hellfire missiles and guided bombs are integrated for armed missions; MQ-9 can also fly ISR-only or specialized sensor payload configurations.",
+      "caution": "Weapons fits vary by operator, rules of engagement, clearance status, and mission kit. Public sources should not be read as a universal loadout table."
     },
     "similar_development": [
       {
@@ -28327,28 +28397,52 @@
         "id": "rq-4-global-hawk",
         "name": "Northrop Grumman RQ-4 Global Hawk",
         "url": "aircraft.html?id=rq-4-global-hawk"
+      },
+      {
+        "id": "f-16-fighting-falcon",
+        "name": "General Dynamics F-16 Fighting Falcon",
+        "url": "aircraft.html?id=f-16-fighting-falcon"
+      },
+      {
+        "id": "c-130-hercules",
+        "name": "Lockheed C-130 Hercules",
+        "url": "aircraft.html?id=c-130-hercules"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 40,
+      "operator_entries": 6,
+      "variant_entries": 5,
+      "external_article_sources": 2
     },
     "footnotes": [
+      {
+        "id": "fn-usaf",
+        "title": "MQ-9 Reaper",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104470/mq-9-reaper/",
+        "publisher": "U.S. Air Force",
+        "note": "Official fact sheet for U.S. mission, system, sensor, weapons, and specification data."
+      },
+      {
+        "id": "fn-gaasi",
+        "title": "MQ-9A Reaper (Predator B)",
+        "url": "https://www.ga-asi.com/remotely-piloted-aircraft/mq-9a",
+        "publisher": "General Atomics Aeronautical Systems, Inc.",
+        "note": "Manufacturer page for MQ-9A endurance, speed, ceiling, payload, powerplant, modular payload, ER, and customer information."
+      },
       {
         "id": "fn-main",
         "title": "General Atomics MQ-9 Reaper",
         "url": "https://en.wikipedia.org/wiki/General_Atomics_MQ-9_Reaper",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "note": "Supplementary orientation and image/reference discovery only."
       },
       {
         "id": "fn-wikidata",
         "title": "Wikidata Query Service",
         "url": "https://query.wikidata.org/",
         "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Open structured-data source recommended for identifiers, relationships, manufacturers, operators, and dates."
       },
       {
         "id": "fn-method",
@@ -28358,26 +28452,36 @@
         "note": "Local rules for units, source citation, neutral wording, and estimate labels."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "label": "U.S. Air Force MQ-9 Reaper fact sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104470/mq-9-reaper/"
+      },
+      {
+        "label": "GA-ASI MQ-9A Reaper page",
+        "url": "https://www.ga-asi.com/remotely-piloted-aircraft/mq-9a"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "General Atomics MQ-9 Reaper is a Remotely piloted UAV from United States. Manufacturer: General Atomics. First flight: 2001. Introduction: 2007. Status: Active.",
+            "text": "The MQ-9 Reaper is a turboprop, medium-altitude, long-endurance remotely piloted aircraft system built around persistent intelligence collection, strike coordination, reconnaissance, and precision attack missions. It is larger and more powerful than the MQ-1 Predator and was adopted by the U.S. Air Force as a multi-role remotely piloted aircraft for post-2001 contingency operations.",
             "refs": [
-              "fn-main"
+              "fn-usaf",
+              "fn-gaasi"
             ]
           },
           {
-            "text": "General Atomics MQ-9 Reaper is a uav. Primary role: remotely piloted uav. Country of origin: United States. Manufacturer: General Atomics.",
+            "text": "A full Reaper system includes sensor- and weapon-equipped aircraft, a ground control station, satellite communications links, and operations and maintenance crews. The aircraft may be used for armed overwatch or flown with sensor-heavy mission kits depending on tasking and national rules.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Public data should be read as representative rather than universal: MQ-9A, Extended Range, national, maritime, and later MQ-9B-family configurations differ in payload, endurance, certification, and weapons integration.",
             "refs": [
               "fn-method"
             ]
@@ -28386,44 +28490,57 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Remotely piloted UAV"
+            "text": "Persistent ISR, strike coordination, reconnaissance, and precision attack"
           },
           {
-            "title": "Designer or builder",
-            "text": "General Atomics"
+            "title": "Powerplant",
+            "text": "Honeywell TPE331-10GD turboprop, 900 shp maximum"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Endurance",
+            "text": "More than 27 hours for MQ-9A; about 34 hours for Extended Range in GA-ASI data"
           },
           {
-            "title": "Propulsion",
-            "text": "Turboprop"
+            "title": "Ceiling",
+            "text": "Up to 50,000 ft in manufacturer data"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "General Atomics MQ-9 Reaper first flew in 2001. Introduction date: 2007. Era: Modern.",
+            "text": "General Atomics Aeronautical Systems developed Predator B/MQ-9A with company funding and first flew it in 2001. The design drew on MQ-1 Predator operational experience but added far more power, payload, and reliability margin.",
             "refs": [
-              "fn-main"
+              "fn-gaasi"
             ]
           },
           {
-            "text": "Producer: General Atomics. Development context: remotely piloted uav, turboprop propulsion, subsonic speed category, Modern era.",
+            "text": "The U.S. Air Force proposed and fielded the MQ-9 Reaper to support overseas contingency operations. The service fact sheet explains the designation as M for multi-role, Q for remotely piloted aircraft system, and 9 as its place in the Air Force RPA series.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Initial operating capability came in October 2007. Since then the family has been upgraded through Block standards, Extended Range kits, improved sensors, and customer-specific configurations.",
+            "refs": [
+              "fn-usaf",
+              "fn-gaasi"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing endurance, sensor payload, communications links, autonomy, and legal/political constraints.",
+            "text": "Developed from Predator experience but not merely a small scout: GA-ASI describes the MQ-9A as carrying 500% more payload and having nine times the horsepower compared with earlier Predator lineage.",
             "refs": [
-              "fn-method"
+              "fn-gaasi"
+            ]
+          },
+          {
+            "text": "Extended Range kits add wing-borne fuel pods and reinforced landing gear to increase endurance and mission flexibility.",
+            "refs": [
+              "fn-gaasi"
             ]
           }
         ]
@@ -28433,65 +28550,62 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: Remote crew. Propulsion: Turboprop. Speed category: Subsonic.",
+            "text": "The Reaper is optimized for persistence rather than fighter-like speed. Its turboprop engine, long straight wing, satellite-control architecture, and modular payload bays allow long missions with a remote pilot and sensor operator controlling the aircraft and mission systems.",
             "refs": [
-              "fn-main"
+              "fn-usaf",
+              "fn-gaasi"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "The baseline sensor fit includes the Multi-Spectral Targeting System, with infrared, color and monochrome daylight television, shortwave infrared, laser designator, and laser illuminator capabilities; full-motion video streams may be viewed separately or fused.",
             "refs": [
-              "fn-method"
+              "fn-usaf"
             ]
           },
           {
-            "text": "General Atomics MQ-9 Reaper uses turboprop propulsion. Engine model field: Not listed.",
+            "text": "Other mission payloads can include Lynx multi-mode radar, maritime surveillance radar, electronic-support measures, laser designators, and weapons packages. This modularity explains why different Reaper operators may present very different external fits.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Remotely piloted aircraft payload; exact stores not listed. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-gaasi"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "Remote crew"
+            "title": "Crew concept",
+            "text": "Remote pilot and sensor operator, supported by launch/recovery and maintenance teams"
           },
           {
-            "title": "Engine class",
-            "text": "Turboprop"
+            "title": "Communications",
+            "text": "Line-of-sight links for launch/recovery plus satellite links for over-the-horizon control"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Payload",
+            "text": "3,750 lb total payload in USAF data; GA-ASI lists 3,850 lb payload including 3,000 lb external stores"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Deployment",
+            "text": "USAF describes the aircraft as disassemblable for containerized transport and C-130-or-larger airlift"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "weapons-systems",
+        "title": "Weapons Systems",
         "paragraphs": [
           {
-            "text": "General Atomics MQ-9 Reaper status: Active. Conflict entries: 3.",
+            "text": "For armed missions, the MQ-9 can carry AGM-114 Hellfire missiles and guided bombs such as GBU-12 Paveway II, GBU-38 JDAM, GBU-49 Enhanced Paveway II, and GBU-54 Laser JDAM according to the USAF fact sheet.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Conflicts: Gulf War, Iraq War, War in Afghanistan (2001–2021).",
+            "text": "The onboard laser rangefinder/designator supports laser-guided munitions, while synthetic-aperture radar and electro-optical/infrared sensors support target location, surveillance, and bomb-damage or coordinate generation tasks.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Because weapon clearance depends on operator, configuration, policy, and mission kit, this page avoids a universal loadout diagram and treats the listed stores as representative public integrations.",
             "refs": [
               "fn-method"
             ]
@@ -28499,129 +28613,21 @@
         ],
         "bullets": [
           {
-            "text": "Gulf War: General Atomics MQ-9 Reaper used in Gulf War.",
+            "text": "AGM-114 Hellfire: precision air-to-ground missile used for low-collateral-damage anti-armor and anti-personnel engagements.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Iraq War: General Atomics MQ-9 Reaper used in Iraq War.",
+            "text": "GBU-12, GBU-49, GBU-54, and GBU-38: guided bomb options listed by the USAF for Reaper missions.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           },
           {
-            "text": "War in Afghanistan (2001–2021): General Atomics MQ-9 Reaper used in War in Afghanistan (2001–2021).",
+            "text": "Sensor-only or maritime surveillance payloads may replace weapons depending on mission and operator.",
             "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "General Atomics MQ-9 Reaper named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "variants",
-        "title": "Variants",
-        "paragraphs": [
-          {
-            "text": "General Atomics MQ-9 Reaper variant-family entries: 3. Variant families: General Atomics MQ-9 Reaper baseline production model; General Atomics MQ-9 Reaper upgraded avionics or weapons-capable model; General Atomics MQ-9 Reaper surveillance and armed mission configuration.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "General Atomics MQ-9 Reaper baseline production model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "General Atomics MQ-9 Reaper upgraded avionics or weapons-capable model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "General Atomics MQ-9 Reaper surveillance and armed mission configuration",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "operators",
-        "title": "Operators",
-        "paragraphs": [
-          {
-            "text": "Designer or builder countries: United States. General Atomics MQ-9 Reaper has 1 designer or builder country entry.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "All operators status: 0 operator entries listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Major designer or builder entries: United States.",
-            "refs": [
-              "fn-wikidata"
+              "fn-gaasi"
             ]
           }
         ]
@@ -28631,25 +28637,231 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew Remote crew, propulsion type Turboprop, maximum speed category Subsonic, first flight 2001, introduction 2007.",
+            "text": "The following figures are representative MQ-9A/Reaper public data from U.S. Air Force and GA-ASI sources. Extended Range and customer aircraft may differ.",
             "refs": [
-              "fn-main"
+              "fn-usaf",
+              "fn-gaasi"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Length",
+            "text": "36 ft (11 m)"
+          },
+          {
+            "title": "Wingspan",
+            "text": "66 ft (20.1 m)"
+          },
+          {
+            "title": "Height",
+            "text": "12.5 ft (3.8 m)"
+          },
+          {
+            "title": "Empty weight",
+            "text": "4,900 lb (2,223 kg)"
+          },
+          {
+            "title": "Maximum takeoff weight",
+            "text": "10,500 lb baseline; 11,700 lb ER in USAF data"
+          },
+          {
+            "title": "Powerplant",
+            "text": "Honeywell TPE331-10GD turboprop, 900 shp maximum"
+          },
+          {
+            "title": "Speed",
+            "text": "GA-ASI lists 240 KTAS; USAF lists 230 mph cruise speed"
+          },
+          {
+            "title": "Range",
+            "text": "1,150 miles / 1,000 nmi; ER about 1,611 miles / 1,400 nmi"
+          },
+          {
+            "title": "Payload",
+            "text": "3,750 lb in USAF data; GA-ASI lists 3,850 lb payload including 3,000 lb external stores"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "Up to 50,000 ft"
+          }
+        ]
+      },
+      {
+        "id": "variants",
+        "title": "Variants and Upgrades",
+        "paragraphs": [
+          {
+            "text": "The Reaper family is best understood as a baseline MQ-9A/Predator B line with incremental Block upgrades, Extended Range kits, and customer mission payloads, plus later MQ-9B derivatives that have their own certification and maritime/civil-airspace design goals.",
+            "refs": [
+              "fn-gaasi",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "MQ-9A Reaper / Predator B: baseline armed ISR and strike aircraft used by the USAF and allied customers.",
+            "refs": [
+              "fn-gaasi"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Block 1 / Block 5: production and upgrade standards; exact avionics and payload integration differ by customer and time period.",
             "refs": [
-              "fn-method"
+              "fn-gaasi"
+            ]
+          },
+          {
+            "text": "MQ-9A Extended Range: adds fuel-pod and landing-gear changes for longer endurance, listed by GA-ASI as raising endurance to about 34 hours.",
+            "refs": [
+              "fn-gaasi"
+            ]
+          },
+          {
+            "text": "MQ-9B SkyGuardian / SeaGuardian: related development family, not identical to baseline MQ-9A, with different certification and maritime mission emphasis.",
+            "refs": [
+              "fn-gaasi"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "operators",
+        "title": "Operators",
         "paragraphs": [
           {
-            "text": "General Atomics MQ-9 Reaper similar-development links: 2.",
+            "text": "GA-ASI lists the U.S. Air Force, U.S. Department of Homeland Security, NASA, the Royal Air Force, the Italian Air Force, the French Air Force, and the Spanish Air Force among MQ-9A customers. Current inventories, armament clearances, and follow-on MQ-9B transitions change over time.",
+            "refs": [
+              "fn-gaasi",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "United States: USAF and other government users form the original and broadest user base, with the USAF fact sheet current as of January 2025 listing AFSOC inventory context.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "United Kingdom: Royal Air Force Reaper service and later Protector/MQ-9B transition illustrate the family lineage but should not be conflated with every MQ-9A configuration.",
+            "refs": [
+              "fn-gaasi"
+            ]
+          },
+          {
+            "text": "Italy, France, and Spain: listed public MQ-9A customers; this article avoids fixed current totals because deliveries and upgrades are date-sensitive.",
+            "refs": [
+              "fn-gaasi"
+            ]
+          },
+          {
+            "text": "NASA and U.S. Department of Homeland Security: nontraditional users show the aircraft family’s surveillance, research, and government-agency roles beyond combat operations.",
+            "refs": [
+              "fn-gaasi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "service",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "The Reaper became one of the most visible aircraft of the post-2001 remotely piloted aircraft era, combining persistent full-motion video, laser designation, and precision weapons in Afghanistan, Iraq-related operations, counterterrorism missions, and coalition campaigns.",
+            "refs": [
+              "fn-usaf",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "USAF doctrine uses remote split operations: launch-and-recovery crews at forward locations handle takeoff and landing, while mission crews can control the aircraft via beyond-line-of-sight links from elsewhere, reducing deployed footprint and centralizing control.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Operational claims, strike outcomes, current basing, and shootdown or loss details are politically sensitive and time-dependent, so the page focuses on roles and capabilities rather than event-by-event tallies.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Primary function: intelligence collection in support of strike, coordination, and reconnaissance missions.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Armed role: time-sensitive target engagement with persistence and precision when authorized.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Peacetime roles: border/security surveillance, research, maritime patrol experiments, training, and ISR support depending on user.",
+            "refs": [
+              "fn-gaasi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The MQ-9A’s strength is persistence: it can orbit for many hours with sensors, datalinks, and weapons while avoiding risk to onboard aircrew. That makes it valuable for surveillance, pattern-of-life analysis, convoy overwatch, and precision engagements in permissive or semi-permissive airspace.",
+            "refs": [
+              "fn-usaf",
+              "fn-gaasi"
+            ]
+          },
+          {
+            "text": "Its limitations follow from the same design choices. The Reaper is subsonic, non-stealthy, reliant on communications links and runways, and vulnerable in dense air-defense environments. It is therefore not a direct substitute for penetrating crewed combat aircraft in contested airspace.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Strength",
+            "text": "Long endurance, modular sensors, precision weapons, remote crew safety"
+          },
+          {
+            "title": "Limitation",
+            "text": "Slow, non-stealthy, link-dependent, and best suited to permissive/semi-permissive airspace"
+          },
+          {
+            "title": "Operational caveat",
+            "text": "Policy and rules of engagement can be as important as aircraft performance in defining use"
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Role Context",
+        "paragraphs": [
+          {
+            "text": "Compared with the MQ-1 Predator, the MQ-9 is larger, more powerful, and able to carry much more payload, making it a true multi-role ISR/strike platform rather than mainly a surveillance aircraft with limited armament.",
+            "refs": [
+              "fn-gaasi",
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Compared with high-altitude strategic ISR aircraft such as the RQ-4 Global Hawk, the Reaper trades altitude and broad-area sensor specialization for a mix of medium-altitude persistence, weapons carriage, and more tactical employment.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Compared with fast crewed strike aircraft such as the F-16, the Reaper lacks speed, survivability, and air-to-air capability, but offers far greater loiter time and lower risk to aircrew for approved missions.",
             "refs": [
               "fn-method"
             ]
@@ -28663,6 +28875,99 @@
           {
             "label": "Northrop Grumman RQ-4 Global Hawk",
             "url": "aircraft.html?id=rq-4-global-hawk"
+          },
+          {
+            "label": "General Dynamics F-16 Fighting Falcon",
+            "url": "aircraft.html?id=f-16-fighting-falcon"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "2001: Predator B/MQ-9A first flight according to GA-ASI public history.",
+            "refs": [
+              "fn-gaasi"
+            ]
+          },
+          {
+            "text": "October 2007: U.S. Air Force initial operating capability for the MQ-9 Reaper.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "2010s: MQ-9A becomes a major U.S. and allied remotely piloted ISR/strike aircraft, with Block upgrades and export/adapted customer fleets.",
+            "refs": [
+              "fn-gaasi",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Extended Range era: fuel-pod and landing-gear changes extend endurance from more than 27 hours to about 34 hours in GA-ASI data.",
+            "refs": [
+              "fn-gaasi"
+            ]
+          },
+          {
+            "text": "2020s: Reaper operations and modernization continue while several users plan or field MQ-9B-family follow-on systems.",
+            "refs": [
+              "fn-gaasi",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "The U.S. Air Force fact sheet is the primary source for USAF mission language, system composition, crew, weapons, and specification values; the GA-ASI manufacturer page is the primary source for development, endurance, speed, payload, engine, modular payload, Extended Range, and customer examples.",
+            "refs": [
+              "fn-usaf",
+              "fn-gaasi"
+            ]
+          },
+          {
+            "text": "Wikipedia and Wikidata remain supplementary only. Exact current inventory, operators, weapon-clearance status, deployments, and combat-event claims require date-stamped official or specialist sources before being treated as definitive.",
+            "refs": [
+              "fn-main",
+              "fn-wikidata",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "similar-development",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages place the MQ-9 in context with its predecessor, high-altitude UAV peers, transport/deployment infrastructure, and crewed strike aircraft it complements rather than replaces.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "General Atomics MQ-1 Predator",
+            "url": "aircraft.html?id=mq-1-predator"
+          },
+          {
+            "label": "Northrop Grumman RQ-4 Global Hawk",
+            "url": "aircraft.html?id=rq-4-global-hawk"
+          },
+          {
+            "label": "General Dynamics F-16 Fighting Falcon",
+            "url": "aircraft.html?id=f-16-fighting-falcon"
+          },
+          {
+            "label": "Lockheed C-130 Hercules",
+            "url": "aircraft.html?id=c-130-hercules"
           }
         ]
       }

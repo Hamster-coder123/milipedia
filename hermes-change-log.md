@@ -3230,3 +3230,80 @@ Record the result of:
 * The exact number-built figure differs slightly by source: Dassault states 600 produced, while the supplementary Wikipedia summary gives 601. The page records about 600-601 and notes Dassault's 50% export statement.
 * Current operator counts, national upgrade status, and detailed combat claims are date-sensitive; the update uses cautious wording and omits unsupported specifics.
 * The final commit hash cannot be embedded into the committed change log without changing the commit itself; it is reported separately in the scheduled-run response.
+
+### Run 43 — 2026-07-01 14:01:28 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: General Atomics MQ-9 Reaper (id: mq-9-reaper)
+* Reason selected: It was the shortest unedited aircraft entry remaining in the repository scan, with zero external article sources, zero operator entries, zero variant entries, missing engine/range/ceiling/hardpoint specifications, generic remotely piloted payload wording, and placeholder-like generated operational/history sections despite being a major modern ISR/strike UAV.
+* Previous condition: Sparse generated JSON record with no detailed development history, no MQ-9A/Block/Extended Range variant coverage, no operator list, no sensor/communications/weapons-system explanation, incorrect generic conflict metadata, and only generic Wikipedia/Wikidata/local-method sources.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview and fact-card style; section order covering overview, development, design/capabilities, weapons systems, specifications, variants, operators, operational history, strengths/limitations, comparison, timeline, sources, and related pages; cautious variant-dependent wording; internal aircraft.html?id=... related-link style; source-qualified paragraphs and cards supported by the JSON renderer.
+
+#### Changes Made
+
+* Expanded the General Atomics MQ-9 Reaper record from a sparse generated entry into a fuller Milipedia article-style data record while preserving the existing JSON renderer structure.
+* Replaced placeholder top-level fields with sourced manufacturer, role, IOC/service status, crew, Honeywell TPE331-10GD engine, speed, range, endurance, service ceiling, payload/hardpoint, armament, development history, combat-history caveat, and short-summary wording.
+* Added official U.S. Air Force source coverage for system composition, remote crew, MTS-B sensors, laser designation, synthetic-aperture radar, Hellfire and guided-bomb weapons, remote split operations, specifications, IOC, and USAF inventory context.
+* Added GA-ASI manufacturer-source coverage for Predator B/MQ-9A development, first flight, endurance, 240 KTAS speed, 50,000 ft ceiling, payload, TPE331 engine, modular payloads, Extended Range configuration, and representative customers.
+* Added variants and upgrade coverage for MQ-9A/Predator B, Block 1/Block 5, MQ-9A Extended Range, maritime/sensor configurations, and related MQ-9B SkyGuardian/SeaGuardian family context.
+* Added operator coverage for the United States, United Kingdom, Italy, France, Spain, and broader government/allied users with date-sensitive inventory and weapons-clearance cautions.
+* Replaced generic armament wording with MQ-9-specific mission-dependent stores and sensor payloads, including AGM-114 Hellfire and GBU-12/38/49/54 guided weapons from the USAF fact sheet.
+* Added article sections for Overview, Development History, Design and Capabilities, Weapons Systems, Specifications, Variants and Upgrades, Operators, Operational History, Strengths and Limitations, Comparison and Role Context, Timeline, Sources and Notes, and Related Pages.
+* Added internal related-page links to MQ-1 Predator, RQ-4 Global Hawk, F-16 Fighting Falcon, and C-130 Hercules after confirming those ids exist.
+* Omitted fixed current worldwide fleet totals, event-by-event strike claims, current basing, exact national weapons clearances, and loss/shootdown tallies because those facts are date-sensitive, policy-sensitive, or require separate dated sourcing.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the General Atomics MQ-9 Reaper aircraft entry with sourced specifications, sensors, weapons, variants, operators, article sections, sources, and related links.
+* hermes-change-log.md — Appended the cumulative run entry for this update.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Confirmed branch hermes-agent; before commit, only data/aircraft.json and hermes-change-log.md were intended staged files.
+2. git diff — Reviewed diff/stat; data/aircraft.json changed exactly one aircraft entry, preserving id mq-9-reaper, and hermes-change-log.md gained this cumulative Run 43 entry.
+3. File review — Parsed data/aircraft.json successfully and reviewed the MQ-9 section list, sources, variants, operators, armament wording, specification cards, and source caveats.
+4. F-16 style comparison — Inspected data/f16-template.html and mirrored its dense overview, development/design/specifications/variants/operators/operational-history/comparison/timeline/source/related-page pattern within the JSON-rendered page structure.
+5. Internal link check — Parsed aircraft.html?id= links in the MQ-9 entry and verified mq-1-predator, rq-4-global-hawk, f-16-fighting-falcon, and c-130-hercules exist in data/aircraft.json.
+6. Secret/token check — Scanned the staged diff with credential-specific patterns for private keys, passwords, cloud credentials, and access/auth token assignments; no credentials were found.
+7. Final review before commit — Confirmed JSON validity, branch safety, intended files only, exactly one aircraft entry changed, internal links valid, no substantial previous Hermes edit for this aircraft, and no trailing-whitespace diff errors.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand General Atomics MQ-9 Reaper
+* Commit hash: Pending until commit is created; final hash is reported in the scheduled-run response.
+
+#### Issues or Uncertainties
+
+* Current worldwide MQ-9/MQ-9B operator counts, national weapon clearances, active deployments, loss events, and specific strike claims are date-sensitive and sometimes policy-sensitive, so the page uses cautious wording and omits unsupported specifics.
+* USAF and GA-ASI public data use slightly different speed and payload presentations; the page records both with source-qualified wording rather than forcing a single universal figure.
+* MQ-9B SkyGuardian/SeaGuardian is related development, not identical to baseline MQ-9A; the update labels it as family context to avoid conflating configurations.
+* The final commit hash cannot be embedded into the committed change log without changing the commit itself; it is reported separately in the scheduled-run response.
