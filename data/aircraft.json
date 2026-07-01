@@ -67413,34 +67413,105 @@
   {
     "id": "embraer-emb-314-super-tucano",
     "name": "Embraer EMB 314 Super Tucano",
-    "alternative_names": [],
+    "alternative_names": [
+      "A-29 Super Tucano",
+      "ALX"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "Brazil",
-    "manufacturer": "Embraer",
-    "role": "Trainer/light attack aircraft",
-    "aircraft_type": "Trainer",
+    "manufacturer": "Embraer Defense & Security; U.S. aircraft assembled with Sierra Nevada Corporation",
+    "role": "Turboprop light attack, armed reconnaissance, counter-insurgency, and tactical trainer aircraft",
+    "aircraft_type": "Trainer / light attack aircraft",
     "era": "Modern",
-    "first_flight": "1999",
+    "first_flight": "2 June 1999 (production-configured ALX/A-29)",
     "introduction_date": "2003",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
+    "status": "Active; in production and in worldwide service",
+    "number_built": "More than 290 contracted according to Embraer; public counts vary by date and order status",
     "crew": "1 or 2",
-    "engine_type": "Turboprop",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engine_type": "Single turboprop",
+    "engines": "1 × Pratt & Whitney Canada PT6A-68C turboprop, 1,600 shp",
+    "max_speed": "320 kt maximum operating speed; 593 km/h often cited as maximum speed",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Trainer aircraft; light-attack stores not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Embraer EMB 314 Super Tucano: Trainer/light attack aircraft. Manufacturer: Embraer. First flight: 1999. Introduction: 2003.",
-    "short_summary": "Embraer EMB 314 Super Tucano: Trainer/light attack aircraft. Origin: Brazil. Manufacturer: Embraer. First flight: 1999. Introduction: 2003. Status: Active.",
+    "range": "Up to 1,550 nmi with three external tanks; ferry/range figures vary by configuration",
+    "combat_range": "Mission radius depends on stores and tanks; Embraer lists examples from 100 nmi/3 h 30 min to 400 nmi/1 h with a light-attack fit",
+    "service_ceiling": "35,000 ft",
+    "rate_of_climb": "3,240 ft/min at sea level in Embraer brochure; other references cite about 4,724 ft/min for EMB-314 data",
+    "armament": "Two internal .50-caliber/12.7 mm machine guns plus five stores stations for rockets, bombs, laser-guided munitions, cannon or sensor pods, external tanks, and selected air-to-air or air-to-ground weapons depending on operator integration.",
+    "hardpoints": "Five NATO-standard external stations plus two internal machine guns",
+    "variants": [
+      {
+        "name": "A-29A / EMB 314 single-seat",
+        "note": "Single-seat light-attack version associated with Brazilian ALX requirements."
+      },
+      {
+        "name": "A-29B / EMB 314 two-seat",
+        "note": "Two-seat trainer/light-attack and armed-reconnaissance version; the common export and tactical-training configuration."
+      },
+      {
+        "name": "A-29N",
+        "note": "NATO-oriented version announced by Embraer with NATO-required equipment, data-link communications, and training-system updates."
+      },
+      {
+        "name": "A-29M",
+        "note": "Brazilian modernization standard announced for existing aircraft, intended to add data link, helmet-mounted display, expanded guided-weapons integration, and updated displays."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Brazil",
+        "service": "Brazilian Air Force",
+        "note": "Original ALX customer; uses the type for Amazon surveillance, training, border patrol, and light-attack missions."
+      },
+      {
+        "country": "Colombia",
+        "service": "Colombian Aerospace Force",
+        "note": "Early export operator; Airforce Technology lists 25 ordered for border patrol and internal-security missions."
+      },
+      {
+        "country": "Chile",
+        "service": "Chilean Air Force",
+        "note": "Ordered the Super Tucano as an advanced trainer/light attack aircraft."
+      },
+      {
+        "country": "Ecuador",
+        "service": "Ecuadorian Air Force",
+        "note": "Regional operator; public order totals changed during acquisition."
+      },
+      {
+        "country": "Dominican Republic",
+        "service": "Dominican Air Force",
+        "note": "Uses the type for pilot training, border patrol, internal security, and counter-narcotics missions."
+      },
+      {
+        "country": "Indonesia",
+        "service": "Indonesian Air Force",
+        "note": "Ordered A-29s to replace OV-10 Bronco aircraft, with later follow-on aircraft and training equipment."
+      },
+      {
+        "country": "Lebanon",
+        "service": "Lebanese Air Force",
+        "note": "Received A-29s under U.S.-supported light-attack assistance and training arrangements."
+      },
+      {
+        "country": "Nigeria",
+        "service": "Nigerian Air Force",
+        "note": "Received 12 A-29s through a U.S. Foreign Military Sales pathway with training and support."
+      },
+      {
+        "country": "Philippines",
+        "service": "Philippine Air Force",
+        "note": "Operates A-29s in the 15th Strike Wing after deliveries completed in 2020."
+      },
+      {
+        "country": "United States",
+        "service": "USAF / AFSOC / test and training users",
+        "note": "Small U.S. fleet assembled with SNC; used for light-attack experiment, adviser, test, and partner-training activities."
+      }
+    ],
+    "combat_history": "Combat-proven in permissive counter-insurgency and internal-security environments; specific mission claims vary by operator and should be treated cautiously unless sourced to an official release.",
+    "development_history": "The EMB 314/A-29 grew from the EMB 312 Tucano family and Brazil's ALX requirement for an aircraft suited to Amazon surveillance, border patrol, training, and light attack. Embraer developed a stronger airframe, more powerful PT6A engine, pressurized and modernized cockpit, internal machine guns, and five external stations. The production-configured ALX first flew on 2 June 1999 and entered Brazilian service in 2003.",
+    "short_summary": "The Embraer EMB 314 Super Tucano, also known as the A-29 and ALX, is a Brazilian turboprop aircraft that combines light attack, armed reconnaissance, counter-insurgency, and tactical-training roles in a rugged single-engine platform. It is optimized for austere bases, unpaved runways, long endurance, low operating cost, and training-to-combat continuity rather than high-threat air combat.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -67453,18 +67524,39 @@
     ],
     "sources": [
       {
+        "id": "fn-embraer-brochure",
+        "title": "A-29 Super Tucano brochure",
+        "url": "https://www.embraer.com/media/bwqlipfq/a-29-super-tucano-brochure-english.pdf",
+        "publisher": "Embraer Defense & Security",
+        "note": "Manufacturer brochure used for mission roles, performance, cockpit, systems, survivability, stores, and worldwide-presence figures."
+      },
+      {
+        "id": "fn-airforce-technology",
+        "title": "EMB-314 Super Tucano / ALX Trainer and Light Attack Aircraft",
+        "url": "https://www.airforce-technology.com/projects/super_tucano",
+        "publisher": "Airforce Technology",
+        "note": "Aviation reference used for dimensions, weights, production/development context, and historical order summaries."
+      },
+      {
+        "id": "fn-snc",
+        "title": "The A-29 Super Tucano Light Attack Multi-Mission Aircraft",
+        "url": "https://www.sncorp.com/news-archive/the-a-29-super-tucano-light-attack-multi-mission-aircraft-affordable-combat-capability",
+        "publisher": "Sierra Nevada Corporation",
+        "note": "Industry-source context for U.S. assembly, foreign military sales, training/support approach, and operating-cost claims."
+      },
+      {
+        "id": "fn-afa",
+        "title": "A-29 Super Tucano",
+        "url": "https://www.airandspaceforces.com/weapons-platforms/a-29",
+        "publisher": "Air & Space Forces Magazine",
+        "note": "Used for U.S. fleet context and U.S.-configured A-29 dimensions, engine, ceiling, range, and armament summary."
+      },
+      {
         "id": "fn-main",
         "title": "Embraer EMB 314 Super Tucano",
         "url": "https://en.wikipedia.org/wiki/Embraer_EMB_314_Super_Tucano",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation only; official/manufacturer and aviation-reference sources are preferred above."
       },
       {
         "id": "fn-method",
@@ -67472,71 +67564,77 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.foxnews.com/story/0,2933,361322,00.html",
-        "publisher": "foxnews.com",
-        "note": "External source for Embraer EMB 314 Super Tucano."
       }
     ],
     "country_flags": [
       {
         "label": "Brazil",
         "emoji": "🇧🇷"
+      },
+      {
+        "label": "United States assembly partner",
+        "emoji": "🇺🇸"
       }
     ],
     "designers": [
       "Embraer"
     ],
-    "development_tensions": [],
+    "development_tensions": [
+      "Designed for permissive and asymmetric environments; it is not a substitute for high-performance fighters in defended airspace.",
+      "Manufacturer and operator figures change as aircraft are ordered, delivered, modernized, or transferred, so inventory counts should be treated as date-sensitive.",
+      "Weapons and sensors vary substantially by customer configuration and export approvals."
+    ],
     "wars_used_in": [
       {
         "name": "War in Afghanistan (2001–2021)",
-        "note": "Embraer EMB 314 Super Tucano used in War in Afghanistan (2001–2021)."
+        "note": "Afghan A-29s were procured and trained through U.S.-supported programs and used for Afghan light-attack operations before the 2021 collapse of the Afghan government."
+      },
+      {
+        "name": "Internal-security and counter-insurgency operations",
+        "note": "Several operators use the Super Tucano for border patrol, counter-narcotics, armed reconnaissance, and counter-insurgency missions; public combat claims vary by country and source."
       }
     ],
     "variant_families": [
-      "Embraer EMB 314 Super Tucano baseline production model",
-      "Embraer EMB 314 Super Tucano upgraded avionics or weapons-capable model",
-      "Embraer EMB 314 Super Tucano two-seat trainer or conversion model"
+      "A-29A single-seat light-attack aircraft",
+      "A-29B two-seat trainer/light-attack aircraft",
+      "A-29N NATO-oriented configuration",
+      "A-29M Brazilian modernization standard"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
-        "Brazil"
+        "Brazil",
+        "United States assembly for selected customers"
       ],
-      "major_user_note": "Embraer EMB 314 Super Tucano has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Embraer lists more than 20 air forces and more than 290 aircraft contracted; representative operators include Brazil, Colombia, Chile, Ecuador, Dominican Republic, Indonesia, Lebanon, Nigeria, Philippines, and the United States.",
+      "all_operators_status": "Worldwide operator list is date-sensitive; this page lists representative publicly sourced operators rather than a complete live inventory."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "Afghan and Nigerian A-29 crews were trained through U.S.-supported programs at Moody AFB and other training pipelines."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "A fatal A-29 crash during the 2018 U.S. Light Attack Experiment ended the A-29 flight segment at Holloman AFB.",
+        "U.S. A-29s delivered in 2021 later became excess to USAF needs and were considered for foreign military sale, according to Air & Space Forces Magazine."
       ]
     },
     "engine_details": {
-      "type": "Turboprop",
-      "summary": "Embraer EMB 314 Super Tucano uses turboprop propulsion."
+      "type": "Pratt & Whitney Canada PT6A-68C turboprop",
+      "summary": "Single PT6A-68C rated at 1,600 shp in Embraer and U.S. A-29 descriptions, driving a five-blade propeller and monitored by modern engine/crew-alerting systems."
     },
     "armament_details": {
-      "summary": "Trainer aircraft; light-attack stores not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Integrated two internal .50-caliber machine guns and five external stores stations; public stores include rockets, Mk 81/82-class bombs, laser-guided bombs, APKWS/laser-guided rockets, cannon pods, EO/IR sensor pods, external tanks, flares, and selected air-to-air weapons depending on configuration.",
+      "caution": "Specific munitions depend on national integration, export approval, software block, and mission fit; this page avoids implying that every operator uses every listed store."
     },
     "similar_development": [
-      {
-        "id": "t-38-talon",
-        "name": "Northrop T-38 Talon",
-        "url": "aircraft.html?id=t-38-talon"
-      },
       {
         "id": "t-6-texan-ii",
         "name": "Beechcraft T-6 Texan II",
         "url": "aircraft.html?id=t-6-texan-ii"
+      },
+      {
+        "id": "t-38-talon",
+        "name": "Northrop T-38 Talon",
+        "url": "aircraft.html?id=t-38-talon"
       },
       {
         "id": "yak-130",
@@ -67547,51 +67645,91 @@
         "id": "bae-hawk",
         "name": "BAE Systems Hawk",
         "url": "aircraft.html?id=bae-hawk"
+      },
+      {
+        "id": "a-10-thunderbolt-ii",
+        "name": "Fairchild Republic A-10 Thunderbolt II",
+        "url": "aircraft.html?id=a-10-thunderbolt-ii"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 1
+      "exact_fact_count": 42,
+      "operator_entries": 10,
+      "variant_entries": 4,
+      "external_article_sources": 4
     },
     "footnotes": [
+      {
+        "id": "fn-embraer-brochure",
+        "title": "A-29 Super Tucano brochure",
+        "url": "https://www.embraer.com/media/bwqlipfq/a-29-super-tucano-brochure-english.pdf",
+        "publisher": "Embraer Defense & Security",
+        "note": "Manufacturer brochure used for mission roles, performance, cockpit, systems, survivability, stores, and worldwide-presence figures."
+      },
+      {
+        "id": "fn-airforce-technology",
+        "title": "EMB-314 Super Tucano / ALX Trainer and Light Attack Aircraft",
+        "url": "https://www.airforce-technology.com/projects/super_tucano",
+        "publisher": "Airforce Technology",
+        "note": "Aviation reference used for dimensions, weights, production/development context, and historical order summaries."
+      },
+      {
+        "id": "fn-snc",
+        "title": "The A-29 Super Tucano Light Attack Multi-Mission Aircraft",
+        "url": "https://www.sncorp.com/news-archive/the-a-29-super-tucano-light-attack-multi-mission-aircraft-affordable-combat-capability",
+        "publisher": "Sierra Nevada Corporation",
+        "note": "Industry-source context for U.S. assembly, foreign military sales, training/support approach, and operating-cost claims."
+      },
+      {
+        "id": "fn-afa",
+        "title": "A-29 Super Tucano",
+        "url": "https://www.airandspaceforces.com/weapons-platforms/a-29",
+        "publisher": "Air & Space Forces Magazine",
+        "note": "Used for U.S. fleet context and U.S.-configured A-29 dimensions, engine, ceiling, range, and armament summary."
+      },
       {
         "id": "fn-main",
         "title": "Embraer EMB 314 Super Tucano",
         "url": "https://en.wikipedia.org/wiki/Embraer_EMB_314_Super_Tucano",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation only; official/manufacturer and aviation-reference sources are preferred above."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.foxnews.com/story/0,2933,361322,00.html",
-        "publisher": "foxnews.com",
-        "note": "External source for Embraer EMB 314 Super Tucano."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.foxnews.com/story/0,2933,361322,00.html",
-        "publisher": "foxnews.com",
-        "note": "External source for Embraer EMB 314 Super Tucano."
+        "id": "fn-embraer-brochure",
+        "title": "A-29 Super Tucano brochure",
+        "url": "https://www.embraer.com/media/bwqlipfq/a-29-super-tucano-brochure-english.pdf",
+        "publisher": "Embraer Defense & Security",
+        "note": "Manufacturer brochure used for mission roles, performance, cockpit, systems, survivability, stores, and worldwide-presence figures."
+      },
+      {
+        "id": "fn-airforce-technology",
+        "title": "EMB-314 Super Tucano / ALX Trainer and Light Attack Aircraft",
+        "url": "https://www.airforce-technology.com/projects/super_tucano",
+        "publisher": "Airforce Technology",
+        "note": "Aviation reference used for dimensions, weights, production/development context, and historical order summaries."
+      },
+      {
+        "id": "fn-snc",
+        "title": "The A-29 Super Tucano Light Attack Multi-Mission Aircraft",
+        "url": "https://www.sncorp.com/news-archive/the-a-29-super-tucano-light-attack-multi-mission-aircraft-affordable-combat-capability",
+        "publisher": "Sierra Nevada Corporation",
+        "note": "Industry-source context for U.S. assembly, foreign military sales, training/support approach, and operating-cost claims."
+      },
+      {
+        "id": "fn-afa",
+        "title": "A-29 Super Tucano",
+        "url": "https://www.airandspaceforces.com/weapons-platforms/a-29",
+        "publisher": "Air & Space Forces Magazine",
+        "note": "Used for U.S. fleet context and U.S.-configured A-29 dimensions, engine, ceiling, range, and armament summary."
       }
     ],
     "article_sections": [
@@ -67600,20 +67738,23 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Embraer EMB 314 Super Tucano is a Trainer/light attack aircraft from Brazil. Manufacturer: Embraer. First flight: 1999. Introduction: 2003. Status: Active.",
+            "text": "The Embraer EMB 314 Super Tucano, usually marketed as the A-29 Super Tucano and also known as ALX, is a Brazilian turboprop aircraft built around three connected roles: light attack, armed reconnaissance, and tactical training.",
             "refs": [
-              "fn-main"
+              "fn-embraer-brochure",
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Embraer EMB 314 Super Tucano is a trainer. Primary role: trainer/light attack aircraft. Country of origin: Brazil. Manufacturer: Embraer.",
+            "text": "Unlike a fast jet trainer or high-threat fighter, the A-29 is optimized for austere runways, low operating cost, long endurance, internal guns, sensor carriage, and precise weapons delivery in permissive or lightly contested environments.",
             "refs": [
-              "fn-wikidata"
+              "fn-embraer-brochure",
+              "fn-snc"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Embraer says the type has more than 290 aircraft contracted, more than 580,000 flight hours, and roughly 60,000 operational/combat flight hours; those totals are date-sensitive and should not be read as a fixed inventory count.",
             "refs": [
+              "fn-embraer-brochure",
               "fn-method"
             ]
           }
@@ -67621,67 +67762,85 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Trainer/light attack aircraft"
+            "text": "Light attack, armed reconnaissance, counter-insurgency, and tactical trainer"
           },
           {
-            "title": "Designer or builder",
-            "text": "Embraer"
+            "title": "First flight",
+            "text": "2 June 1999"
           },
           {
-            "title": "Major origin",
-            "text": "Brazil"
+            "title": "Powerplant",
+            "text": "1 × PT6A-68C turboprop, 1,600 shp"
           },
           {
-            "title": "Propulsion",
-            "text": "Turboprop"
+            "title": "Operating idea",
+            "text": "Rugged, low-cost, long-endurance aircraft for permissive missions"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Embraer EMB 314 Super Tucano first flew in 1999. Introduction date: 2003. Era: Modern.",
+            "text": "The Super Tucano developed from Embraer's Tucano trainer lineage and from Brazil's ALX requirement for an aircraft able to patrol the Amazon region, train pilots, and conduct light attack from remote airfields with limited infrastructure.",
             "refs": [
+              "fn-airforce-technology",
               "fn-main"
             ]
           },
           {
-            "text": "Producer: Embraer. Development context: trainer/light attack aircraft, turboprop propulsion, subsonic speed category, Modern era.",
+            "text": "Compared with the EMB 312 Tucano, the EMB 314 received a stronger airframe, reinforced landing gear, a more powerful Pratt & Whitney Canada PT6A engine, pressurized cockpit, internal machine guns, and modern mission avionics.",
             "refs": [
-              "fn-wikidata"
+              "fn-airforce-technology",
+              "fn-embraer-brochure"
+            ]
+          },
+          {
+            "text": "The production-configured ALX/A-29 first flew on 2 June 1999, Brazilian deliveries began in 2003, and the type later gained a broad export base as a training and counter-insurgency aircraft.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-afa"
             ]
           }
         ],
-        "bullets": []
+        "bullets": [
+          {
+            "text": "1995: Embraer received a Brazilian ALX development contract for a light attack and surveillance aircraft."
+          },
+          {
+            "text": "1999: Production-configured ALX/A-29 first flight."
+          },
+          {
+            "text": "2003: Brazilian service introduction and initial deliveries."
+          },
+          {
+            "text": "2020s: A-29N and A-29M modernization paths announced for NATO-oriented and Brazilian upgraded aircraft."
+          }
+        ]
       },
       {
         "id": "design",
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1 or 2. Propulsion: Turboprop. Speed category: Subsonic.",
+            "text": "The aircraft is a low-wing tandem-seat turboprop with a rugged airframe, corrosion protection, reinforced landing gear for unpaved runways, and a high fatigue-life structure intended for repeated training and operational sorties.",
             "refs": [
-              "fn-main"
+              "fn-embraer-brochure",
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Its cockpit uses a glass-cockpit/HOTAS layout, head-up display, mission computers, autopilot/flight-director functions, night-vision compatibility, oxygen generation, zero-zero ejection seats, and mission planning/debriefing support.",
             "refs": [
-              "fn-method"
+              "fn-embraer-brochure",
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Embraer EMB 314 Super Tucano uses turboprop propulsion. Engine model field: Not listed.",
+            "text": "Mission systems can include EO/IR sensors, laser designation, tactical data links, navigation/attack systems, identification friend-or-foe equipment, and configurable self-protection equipment such as chaff/flare dispensers, radar warning, and missile-approach warning depending on customer fit.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Trainer aircraft; light-attack stores not listed. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-embraer-brochure"
             ]
           }
         ],
@@ -67691,35 +67850,76 @@
             "text": "1 or 2"
           },
           {
-            "title": "Engine class",
-            "text": "Turboprop"
+            "title": "Hardpoints",
+            "text": "Five external stores stations plus internal guns"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Runway concept",
+            "text": "Austere and unpaved runway operations"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Survivability",
+            "text": "Armor, redundancy, low signatures, and self-protection options"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "powerplant-and-performance",
+        "title": "Powerplant and Performance",
         "paragraphs": [
           {
-            "text": "Embraer EMB 314 Super Tucano status: Active. Conflict entries: 1.",
+            "text": "The A-29 is powered by a single Pratt & Whitney Canada PT6A-68C turboprop rated at 1,600 shp, driving a five-blade propeller. Embraer's brochure highlights automatic engine control/monitoring through PMU and EICAS functions.",
             "refs": [
-              "fn-main"
+              "fn-embraer-brochure",
+              "fn-afa"
             ]
           },
           {
-            "text": "Conflicts: War in Afghanistan (2001–2021).",
+            "text": "Embraer lists a maximum operating speed of 320 kt, a cruise speed of 280 kt, service ceiling of 35,000 ft, maximum range of 1,550 nmi with three external tanks, and 3,240 ft/min rate of climb at sea level. Airforce Technology lists metric equivalents and additional dimensions, but some public figures differ by configuration and source.",
+            "refs": [
+              "fn-embraer-brochure",
+              "fn-airforce-technology"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Engine",
+            "text": "PT6A-68C, 1,600 shp"
+          },
+          {
+            "title": "Maximum operating speed",
+            "text": "320 kt Vmo"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "35,000 ft"
+          },
+          {
+            "title": "Range",
+            "text": "Up to 1,550 nmi with three external tanks"
+          }
+        ]
+      },
+      {
+        "id": "weapons-and-sensors",
+        "title": "Weapons Systems and Sensors",
+        "paragraphs": [
+          {
+            "text": "A key Super Tucano design feature is that the two internal .50-caliber machine guns do not consume external pylons, leaving the five stations available for fuel tanks, sensors, rockets, bombs, training stores, cannon pods, or other certified weapons.",
+            "refs": [
+              "fn-embraer-brochure",
+              "fn-afa"
+            ]
+          },
+          {
+            "text": "Embraer's public stores examples include 70 mm rocket launchers, Mk 81/Mk 82-class bombs, GBU-12 and GBU-58 laser-guided bombs, Griffin and Lizard precision weapons, APKWS/laser-guided rockets, EO/IR sensor and designator pods, SUU-20 training dispensers, SUU-25 flare launchers, and external fuel tanks.",
+            "refs": [
+              "fn-embraer-brochure"
+            ]
+          },
+          {
+            "text": "Weapons integration is configuration-specific. The page therefore describes representative public capabilities rather than claiming that every A-29 operator fields every munition listed in manufacturer material.",
             "refs": [
               "fn-method"
             ]
@@ -67727,118 +67927,16 @@
         ],
         "bullets": [
           {
-            "text": "War in Afghanistan (2001–2021): Embraer EMB 314 Super Tucano used in War in Afghanistan (2001–2021).",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Embraer EMB 314 Super Tucano named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "Built-in armament: two internal .50-caliber/12.7 mm machine guns."
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "External stations: four wing stations and one centerline station."
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "Sensor fit: EO/IR and laser-designator options for day/night identification and precision attack."
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "variants",
-        "title": "Variants",
-        "paragraphs": [
-          {
-            "text": "Embraer EMB 314 Super Tucano variant-family entries: 3. Variant families: Embraer EMB 314 Super Tucano baseline production model; Embraer EMB 314 Super Tucano upgraded avionics or weapons-capable model; Embraer EMB 314 Super Tucano two-seat trainer or conversion model.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Embraer EMB 314 Super Tucano baseline production model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Embraer EMB 314 Super Tucano upgraded avionics or weapons-capable model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Embraer EMB 314 Super Tucano two-seat trainer or conversion model",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "operators",
-        "title": "Operators",
-        "paragraphs": [
-          {
-            "text": "Designer or builder countries: Brazil. Embraer EMB 314 Super Tucano has 1 designer or builder country entry.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "All operators status: 0 operator entries listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Major designer or builder entries: Brazil.",
-            "refs": [
-              "fn-wikidata"
-            ]
+            "text": "Training fit: embedded tactical simulation, mission planning, and mission debriefing tools are available."
           }
         ]
       },
@@ -67847,13 +67945,218 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1 or 2, propulsion type Turboprop, maximum speed category Subsonic, first flight 1999, introduction 2003.",
+            "text": "Representative A-29 / EMB 314 data: crew 1 or 2; length about 11.38-11.42 m; wingspan about 11.14-11.33 m; height about 3.97 m; maximum takeoff weight about 5,200-5,400 kg depending on source and external-load definition.",
             "refs": [
+              "fn-embraer-brochure",
+              "fn-airforce-technology",
+              "fn-afa"
+            ]
+          },
+          {
+            "text": "Performance: PT6A-68C turboprop rated at 1,600 shp; 320 kt maximum operating speed; 280 kt cruise speed; 35,000 ft ceiling; up to 1,550 nmi with three external tanks; +7/-3.5 g limit load factor in the manufacturer brochure.",
+            "refs": [
+              "fn-embraer-brochure"
+            ]
+          },
+          {
+            "text": "Stores: five external stations with up to about 1,550 kg of external loads in the Embraer brochure; U.S. summary data lists up to 3,714 lb of external weapons on four wing and one centerline station.",
+            "refs": [
+              "fn-embraer-brochure",
+              "fn-afa"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Length",
+            "text": "~11.38-11.42 m (37 ft 4 in class)"
+          },
+          {
+            "title": "Wingspan",
+            "text": "~11.14-11.33 m (36.5 ft class)"
+          },
+          {
+            "title": "Height",
+            "text": "~3.97 m / 13 ft"
+          },
+          {
+            "title": "MTOW",
+            "text": "~5,200-5,400 kg depending on source"
+          },
+          {
+            "title": "External load",
+            "text": "Up to ~1,550 kg / 3,714 lb class"
+          }
+        ]
+      },
+      {
+        "id": "variants",
+        "title": "Variants and Upgrades",
+        "paragraphs": [
+          {
+            "text": "The A-29 family is usually described through single-seat and two-seat configurations plus national and block-specific mission fits rather than radically different airframes.",
+            "refs": [
+              "fn-airforce-technology",
               "fn-main"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "The A-29N is a NATO-oriented version announced with NATO-required equipment and data-link communications. Brazil's A-29M modernization is intended to update aircraft with new displays, data link, helmet-mounted display, expanded guided-weapons compatibility, and other avionics changes.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "A-29A: single-seat light-attack configuration associated with Brazilian ALX procurement."
+          },
+          {
+            "text": "A-29B: two-seat trainer/light attack/armed reconnaissance configuration used by many export customers."
+          },
+          {
+            "text": "A-29N: NATO-oriented version announced by Embraer."
+          },
+          {
+            "text": "A-29M: Brazilian upgrade standard announced for modernization of existing aircraft."
+          }
+        ]
+      },
+      {
+        "id": "operators",
+        "title": "Operators",
+        "paragraphs": [
+          {
+            "text": "Embraer describes the A-29 as a worldwide aircraft with more than 20 air forces and more than 290 aircraft contracted. Public operator lists change as aircraft are delivered, retired, transferred, or ordered, so this page lists representative users rather than a live inventory.",
+            "refs": [
+              "fn-embraer-brochure",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Representative operators include Brazil, Colombia, Chile, Ecuador, the Dominican Republic, Indonesia, Lebanon, Nigeria, the Philippines, the United States, and several other air forces in Africa, Latin America, and Asia.",
+            "refs": [
+              "fn-embraer-brochure",
+              "fn-airforce-technology",
+              "fn-afa"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Brazil: original ALX customer for Amazon surveillance, training, and light attack."
+          },
+          {
+            "text": "Colombia, Chile, Ecuador, and Dominican Republic: early Latin American operators."
+          },
+          {
+            "text": "Indonesia and the Philippines: Asia-Pacific operators using the type as a light attack/advanced trainer."
+          },
+          {
+            "text": "Lebanon, Nigeria, and Afghanistan: U.S.-supported acquisition/training pathways for partner light-attack capability."
+          },
+          {
+            "text": "United States: small fleet used for experimentation, test, adviser, and training roles rather than a large combat inventory."
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "Operationally, the Super Tucano is most associated with counter-insurgency, armed overwatch, border patrol, counter-narcotics, and partner-nation training missions where long endurance and low cost are more important than supersonic speed.",
+            "refs": [
+              "fn-embraer-brochure",
+              "fn-snc"
+            ]
+          },
+          {
+            "text": "The type gained particular visibility through Afghan Air Force training and combat operations, Nigerian deliveries and pilot training, Latin American internal-security use, and U.S. light-attack experiments.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-afa"
+            ]
+          },
+          {
+            "text": "Because many A-29 missions occur in internal-security contexts with contested claims, this page avoids unsourced kill counts or strike-effectiveness claims and focuses on aircraft roles and publicly documented program history.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Brazilian use linked the aircraft to Amazon surveillance and border-patrol requirements."
+          },
+          {
+            "text": "Afghan A-29s were trained through U.S.-supported programs and became the best-known combat use case in Western reporting."
+          },
+          {
+            "text": "Nigeria, Lebanon, and other partner fleets show the aircraft's Foreign Military Sales and training-support role."
+          },
+          {
+            "text": "U.S. Light Attack Experiment data helped evaluate the aircraft but did not lead to a large USAF operational fleet."
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The A-29's strengths are endurance, short-field ruggedness, low operating cost, simple logistics, integrated training, good cockpit visibility, and the ability to carry sensors and precision weapons while retaining internal guns.",
+            "refs": [
+              "fn-embraer-brochure",
+              "fn-snc"
+            ]
+          },
+          {
+            "text": "Its limitations follow from the same design choice: as a subsonic turboprop, it lacks the speed, altitude performance, survivability margin, and air-defense penetration capability of modern fighters in heavily defended airspace.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Strength",
+            "text": "Low-cost armed overwatch and training in permissive environments"
+          },
+          {
+            "title": "Strength",
+            "text": "Austere-base and unpaved-runway operation"
+          },
+          {
+            "title": "Limitation",
+            "text": "Not intended for high-threat air-defense environments"
+          },
+          {
+            "title": "Limitation",
+            "text": "Weapons/sensor fit is customer-specific"
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Compared with jet trainers such as the BAE Hawk or Yak-130, the Super Tucano trades speed for endurance, operating economy, unprepared-runway tolerance, and direct light-attack utility.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Compared with the T-6 Texan II, the A-29 is more explicitly marketed and integrated as a combat-proven armed reconnaissance/light-attack platform, though both aircraft have been considered in U.S. light-attack or training discussions.",
+            "refs": [
+              "fn-afa",
+              "fn-snc"
+            ]
+          },
+          {
+            "text": "Compared with the A-10, the A-29 is far smaller and cheaper to operate, but it cannot match the A-10's armor, payload, gun system, or survivability in more dangerous close-air-support environments.",
             "refs": [
               "fn-method"
             ]
@@ -67861,11 +68164,65 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "timeline",
+        "title": "Timeline",
         "paragraphs": [
           {
-            "text": "Embraer EMB 314 Super Tucano similar-development links: 4.",
+            "text": "Selected milestones emphasize development and program context rather than exhaustive operator inventories.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-embraer-brochure",
+              "fn-afa"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1995: Brazilian ALX development contract awarded to Embraer."
+          },
+          {
+            "text": "2 June 1999: Production-configured ALX/A-29 first flight."
+          },
+          {
+            "text": "2003: Entry into Brazilian service."
+          },
+          {
+            "text": "2010s: Expansion through Latin American, Asian, African, Middle Eastern, and U.S.-supported customers."
+          },
+          {
+            "text": "2021: U.S. AFSOC A-29s delivered; Nigeria completed major A-29 induction period."
+          },
+          {
+            "text": "2023-2025: A-29N, A-29M, and anti-drone/counter-UAS related updates announced in public reporting."
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Primary formatting follows the F-16 reference page's dense overview, technical cards, section order, neutral source notes, variants, operators, operational history, comparison, strengths/limitations, timeline, and related-page style, adapted to the JSON-rendered Milipedia aircraft template.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Embraer and SNC are manufacturer/industry sources and may present marketing claims; performance, order, and operating-cost statements from them are used with attribution or cautious wording.",
+            "refs": [
+              "fn-embraer-brochure",
+              "fn-snc",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Comparable Milipedia pages include trainers, light attack aircraft, and close-air-support platforms with different performance and survivability tradeoffs.",
             "refs": [
               "fn-method"
             ]
@@ -67873,12 +68230,12 @@
         ],
         "links": [
           {
-            "label": "Northrop T-38 Talon",
-            "url": "aircraft.html?id=t-38-talon"
-          },
-          {
             "label": "Beechcraft T-6 Texan II",
             "url": "aircraft.html?id=t-6-texan-ii"
+          },
+          {
+            "label": "Northrop T-38 Talon",
+            "url": "aircraft.html?id=t-38-talon"
           },
           {
             "label": "Yakovlev Yak-130",
@@ -67887,16 +68244,18 @@
           {
             "label": "BAE Systems Hawk",
             "url": "aircraft.html?id=bae-hawk"
+          },
+          {
+            "label": "Fairchild Republic A-10 Thunderbolt II",
+            "url": "aircraft.html?id=a-10-thunderbolt-ii"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/U.S._Army_firefight_in_Kunar.jpg/960px-U.S._Army_firefight_in_Kunar.jpg",
-        "caption": "War in Afghanistan (2001–2021)",
-        "source_url": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001%E2%80%932021)"
-      }
-    ]
+    "event_gallery": []
   }
 ]

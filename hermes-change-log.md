@@ -3539,3 +3539,82 @@ Record the result of:
 * Current delivery status, country-by-country active inventories, exact national weapons clearances, and configuration details vary by customer and software standard; the page uses Dassault public order statements and cautious wording rather than a fixed live table.
 * Dassault public pages provide strong specifications and design context but not every operational detail; Wikipedia was used only as supplementary orientation for chronology and operation categories.
 * The final commit hash cannot be embedded into the committed change log without changing the commit hash again; it is reported separately in this scheduled-run response.
+
+### Run 47 — 2026-07-01 18:04:17 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Embraer EMB 314 Super Tucano (id: embraer-emb-314-super-tucano)
+* Reason selected: It was the shortest unedited aircraft entry in the repository comparison pass, with one stale external article source, zero operator entries, zero variant entries, placeholder-like generated sections, missing engine/range/ceiling/dimension/store-station specifications, and light-attack armament left as "not listed."
+* Previous condition: Sparse generated JSON record with 15 exact fact fields, no detailed ALX/A-29 development history, no Super Tucano A-29A/A-29B/A-29N/A-29M coverage, no representative operator list, no Embraer performance cards, no sourced cockpit/sensor/weapons-system discussion, generic Wikipedia/Wikidata/local-method references, and an unrelated low-quality external source.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview and fact-card style; section order covering overview, development history, design/capabilities, powerplant/performance, weapons systems, specifications, variants, operators, operational history, strengths/limitations, comparison, timeline, sources, and related pages; source-qualified paragraphs; configuration/operator caveats; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the Embraer EMB 314 Super Tucano entry in data/aircraft.json from a sparse generated record into a fuller Milipedia article-style page while preserving the existing JSON-rendered aircraft-page structure.
+* Added manufacturer/industry/reference sources from Embraer, Airforce Technology, Sierra Nevada Corporation, and Air & Space Forces Magazine, retaining Wikipedia only as supplementary orientation.
+* Replaced placeholder top-level facts with sourced role, alternative A-29/ALX naming, first-flight date, 2003 introduction, active/in-production status, PT6A-68C engine, 1,600 shp rating, maximum operating speed, range, service ceiling, rate-of-climb caveat, hardpoints, internal guns, and configuration-dependent armament wording.
+* Added detailed overview, development-history, design/capabilities, powerplant/performance, weapons-and-sensors, specifications, variants/upgrades, operators, operational-history, strengths/limitations, comparison, timeline, sources/notes, and related-pages sections.
+* Added specification cards for length, wingspan, height, maximum takeoff weight, external load, maximum operating speed, service ceiling, range, engine, stores stations, and configuration caveats.
+* Added variant and upgrade coverage for A-29A, A-29B, A-29N, and A-29M while noting that national configurations and software/weapons fits differ.
+* Added representative operator coverage for Brazil, Colombia, Chile, Ecuador, Dominican Republic, Indonesia, Lebanon, Nigeria, Philippines, and the United States, avoiding a fixed live inventory table.
+* Replaced generic light-attack armament wording with Super Tucano-specific internal guns, five external stores stations, public examples of rockets/bombs/precision weapons/sensor pods/tanks, and caution that not every operator carries every listed store.
+* Added operational-history context for Amazon surveillance, counter-insurgency/internal-security missions, Afghan A-29 training and use, Nigerian training/delivery context, Latin American users, and U.S. light-attack experiment/test/adviser use without unsupported strike claims.
+* Added internal related links to T-6 Texan II, T-38 Talon, Yak-130, BAE Hawk, and A-10 Thunderbolt II after confirming those IDs exist.
+* Removed the generated Afghanistan event-gallery image metadata because it was too generic for the improved source-qualified page.
+* Omitted exact current country-by-country inventories, all possible export customers, and universal weapons clearances because those details are date-sensitive and vary by national configuration.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Embraer EMB 314 Super Tucano aircraft entry with sourced facts, specifications, variants, operators, article sections, sources, and related links.
+* hermes-change-log.md — Appended the cumulative log entry for this scheduled run.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Confirmed branch hermes-agent; before log append only data/aircraft.json was modified, and before commit only data/aircraft.json and hermes-change-log.md were intended files.
+2. git diff — Reviewed diff/stat; data/aircraft.json changed exactly one aircraft entry, embraer-emb-314-super-tucano, and hermes-change-log.md gained this run entry.
+3. File review — Parsed data/aircraft.json successfully with python3 -m json.tool and reviewed the Super Tucano sources, article sections, variants, operators, specification cards, caveats, and related links.
+4. F-16 style comparison — Inspected data/f16-template.html and followed its dense overview, fact-card backed technical details, source/reference pattern, section order, operator/variant caveats, timeline, and related-page structure within the JSON aircraft-page system.
+5. Internal link check — Scripted check confirmed Super Tucano internal links target existing IDs t-6-texan-ii, t-38-talon, yak-130, bae-hawk, and a-10-thunderbolt-ii.
+6. Secret/token check — Scanned the intended diff with credential-specific patterns for private keys, passwords, cloud credentials, and access/auth token assignments; no credentials were found.
+7. Final review before commit — Confirmed branch safety, JSON validity, exactly one aircraft entry changed, intended files only, clean formatting checks, internal links, completed change log, and no previous substantial Hermes edit for Super Tucano.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Embraer EMB 314 Super Tucano
+* Commit hash: Pending until commit is created; final hash is reported in the scheduled-run response.
+
+#### Issues or Uncertainties
+
+* Current delivery status, country-by-country active inventories, and exact national weapons/sensor clearances vary by customer, export approval, and software standard; the page uses source-qualified representative operator and capability wording rather than a fixed live table.
+* Embraer and Sierra Nevada Corporation sources are manufacturer/industry sources, so marketing claims about operating cost, reliability, and category leadership were either attributed or softened.
+* Some published speed/range/climb/weight figures differ between manufacturer, U.S.-configured aircraft summaries, and aviation-reference pages; the page records representative values with source and configuration caveats.
+* The final commit hash cannot be embedded into the committed change log without changing the commit hash again; it is reported separately in this scheduled-run response.
