@@ -2615,3 +2615,81 @@ Record the result of:
 * Exact current operator inventories, final retirement dates, and detailed Gulf War kill/loss claims were intentionally omitted or qualified because they are date-sensitive or disputed.
 * GlobalSecurity provides useful structured variant/specification/service summaries but contains some broad or dated wording, so technical claims were cross-checked against NMUSAF where possible and phrased cautiously.
 * The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.
+
+### Run 35 — 2026-07-01 06:01:54 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Xi'an H-6 (id: xian-h-6)
+* Reason selected: The H-6 entry was the shortest unedited aircraft candidate in the sparse-page scan, with 0 operator entries, 0 variant entries, placeholder specifications, generic armament, and generated sections much thinner than the F-16 reference.
+* Previous condition: Sparse generated record with 15 exact fact fields, no NATO reporting name, no variant/operator entries, no real range/engine/ceiling/hardpoint details, placeholder operational history, and generic development/design/specification sections.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview lead; fact-card style translated into JSON cards; section order covering overview, development, design, specifications, variants, operators, operational history, strengths/limitations, comparison, timeline, sources/notes, and related pages; concise sourced paragraphs; internal aircraft.html?id=... related-link style; cautious wording for variant-dependent figures.
+
+#### Changes Made
+
+* Expanded the Xi'an H-6 entry from a sparse generated record into a fuller Milipedia article data page.
+* Added Badger NATO reporting name, Hong-6 / H-6K Zhanshen / H-6N Leishen alternative-name context, refined manufacturer wording, strategic bomber and missile-carrier role, H-6 family first-flight/service-entry caveats, active status, crew caveat, and variant-dependent engine/performance fields.
+* Replaced placeholder specifications with sourced representative data for WP-8 engines, high-subsonic 570 kt speed, 3,200 nmi maximum range, more-than-1,000-mile H-6K radius context, 42,000 ft ceiling, six H-6K hardpoints, and dimensions/weights in the specifications section.
+* Replaced generic armament text with family-level wording for bombs, land-attack cruise missiles, anti-ship missiles, possible later air-launched ballistic missile carriage, legacy NR-23 cannon fit, and variant/operator/date-sensitive caveats.
+* Added and normalized sources from Mitchell Institute for Aerospace Studies, GlobalSecurity, Wikipedia as supplementary orientation, Wikidata, and the local Milipedia data-accuracy rules.
+* Added detailed article sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Comparison and Assessment, Timeline, Sources and Notes, and Related Pages.
+* Added variant coverage for H-6/H-6A, H-6D/B-6D, HY-6/H-6U/H-6DU, H-6H/H-6M, H-6K, H-6J, and H-6N.
+* Added operator coverage for China as the current principal operator and Iraq/Egypt as historical or reported former export users, while avoiding unstable active-inventory claims.
+* Added operational-history wording for Chinese patrol/training/maritime-strike/signaling use and cautious Iraqi Gulf War context.
+* Added internal related links to B-52 Stratofortress, Tu-95, Tu-22M, P-3 Orion, and Xi'an Y-20, plus a database return link.
+* Omitted exact current inventory, total production, nuclear tasking, H-6N missile compatibility details, detailed sortie/claim histories, and exact mission radius by loadout where public sources are sensitive, inconsistent, or date-dependent.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded the Xi'an H-6 aircraft page data, sources, article sections, variants, operators, specifications, armament, and related links.
+* hermes-change-log.md — Appended this cumulative Run 35 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed the data/aircraft.json diff and confirmed it changed only the Xi'an H-6 record; reviewed the log append before commit.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool and reviewed the H-6 entry's section titles, source IDs, variants, operators, specifications, armament caveats, related links, and summary text.
+4. F-16 style comparison — Inspected data/f16-template.html and copied its dense overview, fact-card, section-order, technical-specification, comparison, timeline, source-note, and related-link patterns within the JSON-rendered page format.
+5. Internal link check — Parsed aircraft.html?id=... links in the updated H-6 entry and verified b-52-stratofortress, tu-95, tu-22m, p-3-orion, and xian-y-20 exist in data/aircraft.json; aircraft.html was treated as an existing database navigation link.
+6. Secret/token check — Ran a credential-pattern scan over the intended diff for API keys, access/auth tokens, passwords, private keys, GitHub tokens, and AWS credentials; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, git diff --check success, one-entry JSON change, intended files only, H-6 was not previously edited by Hermes, and no direct main-branch edit.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Xi'an H-6
+* Commit hash: Pending until commit is created; final hash is reported in the scheduled-run response.
+
+#### Issues or Uncertainties
+
+* H-6 specifications vary by baseline bomber, tanker, maritime-strike, H-6K, H-6J, and H-6N variant; representative figures are sourced and caveated.
+* Exact current inventories, production totals, nuclear tasking, detailed H-6N weapons compatibility, mission radius by loadout, and detailed operational sortie/claim histories were intentionally omitted or qualified because they are date-sensitive, sensitive, or inconsistent in open sources.
+* The U.S. Army ODIN H-6 page appeared in search results but web extraction failed, so it was not cited in this update.
+* The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.

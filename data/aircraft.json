@@ -61389,34 +61389,84 @@
   {
     "id": "xian-h-6",
     "name": "Xi'an H-6",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "alternative_names": [
+      "Hong-6",
+      "H-6 Badger",
+      "H-6K Zhanshen",
+      "H-6N Leishen"
+    ],
+    "nato_reporting_name": "Badger",
     "country_of_origin": "China",
-    "manufacturer": "Xi'an Aircraft Industrial Corporation",
-    "role": "Strategic bomber",
+    "manufacturer": "Xi'an Aircraft Industrial Corporation / Xian Aircraft Company",
+    "role": "Strategic bomber and long-range missile carrier",
     "aircraft_type": "Bomber",
     "era": "Cold War/Modern",
-    "first_flight": "1959",
-    "introduction_date": "1969",
+    "first_flight": "1959 for the Chinese-built H-6 family; H-6K modernization reportedly flew in the late 2000s",
+    "introduction_date": "1969 initial operational capability for the H-6 family",
     "retirement_date": null,
     "status": "Active",
-    "number_built": "Not listed",
-    "crew": "4",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "number_built": "Not reliably listed in open sources; production and modernization continued for multiple PLAAF/PLANAF variants",
+    "crew": "4 on commonly listed H-6/H-6K data; exact crew fit varies by variant and mission equipment",
+    "engine_type": "Twin turbojet/turbofan, variant dependent",
+    "engines": "Two Xian WP-8 turbojets on legacy data; later H-6K/H-6N aircraft are widely reported with D-30KP-2-family turbofans and enlarged intakes",
+    "max_speed": "About 570 kt / high-subsonic in Mitchell Institute data; variant and load dependent",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Bombs, missiles, and precision-guided weapons.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Xi'an H-6: Strategic bomber. Manufacturer: Xi'an Aircraft Industrial Corporation. First flight: 1959. Introduction: 1969.",
-    "short_summary": "Xi'an H-6: Strategic bomber. Origin: China. Manufacturer: Xi'an Aircraft Industrial Corporation. First flight: 1959. Introduction: 1969. Status: Active.",
+    "range": "Mitchell Institute lists 3,200 nmi maximum range for the H-6 data set; H-6K figures are often reported around the 6,000 km class and should be treated as variant dependent",
+    "combat_range": "GlobalSecurity describes H-6K combat radius as more than 1,000 miles; exact radius depends on payload, fuel, refueling, and route profile",
+    "service_ceiling": "About 42,000 ft in Mitchell Institute technical data",
+    "rate_of_climb": "Not consistently listed in accessible sources; omitted rather than estimated",
+    "armament": "Variant-dependent free-fall bombs, naval strike missiles, land-attack cruise missiles, anti-ship missiles, possible air-launched ballistic missile carriage on later H-6N/H-6K reporting, and legacy NR-23 defensive cannon fit on older models.",
+    "hardpoints": "H-6K is described with six underwing missile hardpoints; earlier versions used different internal bay and external-store arrangements",
+    "variants": [
+      {
+        "name": "H-6 / H-6A",
+        "description": "Early Chinese-built bomber family derived from the Tupolev Tu-16; H-6A is commonly associated with nuclear-capable bomber development."
+      },
+      {
+        "name": "H-6D / B-6D",
+        "description": "Naval/export missile-carrier version associated with anti-ship missile carriage; export examples served with Iraq and Egypt in limited numbers."
+      },
+      {
+        "name": "HY-6 / H-6U / H-6DU",
+        "description": "Aerial-refueling tanker adaptations with hose-and-drogue equipment, used to extend Chinese tactical-aircraft training and reach."
+      },
+      {
+        "name": "H-6H / H-6M",
+        "description": "Intermediate cruise-missile and standoff-weapon modernizations that helped bridge legacy bomber airframes and later H-6K capabilities."
+      },
+      {
+        "name": "H-6K Zhanshen",
+        "description": "Major modernized PLAAF missile-carrier variant with redesigned nose, enlarged intakes, modern avionics, electronic-warfare/data-link equipment, and six underwing missile stations according to GlobalSecurity and Mitchell summaries."
+      },
+      {
+        "name": "H-6J",
+        "description": "PLANAF maritime-strike development generally associated with long-range anti-ship missile missions."
+      },
+      {
+        "name": "H-6N Leishen",
+        "description": "Later long-range strike variant widely reported with aerial-refueling provision and compatibility with very large externally carried missiles; exact weapons fit is sensitive and evolving."
+      }
+    ],
+    "operators": [
+      {
+        "country": "China",
+        "service": "People's Liberation Army Air Force and People's Liberation Army Navy Air Force",
+        "notes": "Primary operator of the H-6 family, including bomber, tanker, maritime-strike, cruise-missile, H-6K, H-6J, and H-6N variants."
+      },
+      {
+        "country": "Iraq",
+        "service": "Iraqi Air Force",
+        "notes": "Former export operator of B-6D/H-6D-family aircraft; remaining examples were destroyed on the ground during the 1991 Gulf War in widely cited secondary accounts."
+      },
+      {
+        "country": "Egypt",
+        "service": "Egyptian Air Force",
+        "notes": "Reported former user of export H-6/B-6D-related aircraft; exact surviving status is historical and not treated as current service here."
+      }
+    ],
+    "combat_history": "Chinese H-6 aircraft have served primarily in deterrence, patrol, maritime strike, training, and long-range signaling missions; Iraq operated export B-6D/H-6D aircraft, and remaining Iraqi bombers were destroyed on the ground during the 1991 Gulf War according to common secondary histories.",
+    "development_history": "The Xi'an H-6 began as China's licensed production of the Soviet Tupolev Tu-16 Badger, with deliveries and production arrangements beginning in the late 1950s and Chinese service entry in the 1960s. Decades of updates turned the basic bomber into tanker, maritime-strike, cruise-missile, H-6K, H-6J, and H-6N families.",
+    "short_summary": "Xi'an H-6: Chinese Badger-family strategic bomber and missile carrier derived from the Tupolev Tu-16, introduced in 1969 and modernized through H-6K/H-6N-era standoff strike variants.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -61429,11 +61479,25 @@
     ],
     "sources": [
       {
+        "id": "fn-mitchell",
+        "title": "H-6",
+        "url": "https://www.mitchellaerospacepower.org/weapons/h-6",
+        "publisher": "Mitchell Institute for Aerospace Studies",
+        "note": "Technical data page used for status, NATO name, operator, dimensions, weights, engines, speed, range, ceiling, variants, and weapon categories."
+      },
+      {
+        "id": "fn-globalsecurity-h6k",
+        "title": "H-6K Air Striking Platform",
+        "url": "https://www.globalsecurity.org/military/world/china/h-6k.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Used for H-6K modernization context, redesigned nose, enlarged intakes, radar/sensor/data-link/EW notes, six hardpoints, and cautious range/radius context."
+      },
+      {
         "id": "fn-main",
         "title": "Xi'an H-6",
-        "url": "https://en.wikipedia.org/wiki/Xi'an_H-6",
+        "url": "https://en.wikipedia.org/wiki/Xi%27an_H-6",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "note": "Supplementary orientation source for lineage, broad variant/operator context, and reference discovery; not used alone for sensitive current claims."
       },
       {
         "id": "fn-wikidata",
@@ -61448,27 +61512,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.sinodefence.com/airforce/groundattack/h6.asp",
-        "publisher": "sinodefence.com",
-        "note": "External source for Xi'an H-6."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.sinodefence.com/airforce/airlift/h6tanker.asp",
-        "publisher": "sinodefence.com",
-        "note": "External source for Xi'an H-6."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.ausairpower.net/APA-Badger.html",
-        "publisher": "ausairpower.net",
-        "note": "External source for Xi'an H-6."
       }
     ],
     "country_flags": [
@@ -61481,19 +61524,26 @@
       "Xi'an Aircraft Industrial Corporation"
     ],
     "development_tensions": [
-      "Balancing payload, range, survivability, sensor/weapons modernization, and operating cost."
+      "Extending a 1950s Tu-16-derived airframe for modern standoff strike while balancing payload, range, survivability, tanker support, sensor upgrades, electronic warfare, and operating cost."
     ],
-    "wars_used_in": [],
+    "wars_used_in": [
+      "1991 Gulf War: Iraqi H-6/B-6D aircraft were reportedly destroyed on the ground rather than used as a sustained combat bomber force."
+    ],
     "variant_families": [
-      "Xi'an H-6 baseline production model",
-      "Xi'an H-6 upgraded avionics or weapons-capable model"
+      "H-6/H-6A baseline bomber family",
+      "H-6D/B-6D maritime and export missile carrier",
+      "HY-6/H-6U tanker family",
+      "H-6H/H-6M standoff-weapon upgrades",
+      "H-6K Zhanshen long-range missile carrier",
+      "H-6J naval strike variant",
+      "H-6N Leishen refuelable large-missile carrier"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "China"
       ],
-      "major_user_note": "Xi'an H-6 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "China remains the principal current H-6 operator through PLAAF and PLANAF bomber, missile-carrier, and tanker variants.",
+      "all_operators_status": "Current operator: China. Former or reported export users include Iraq and Egypt."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -61506,106 +61556,104 @@
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Xi'an H-6 uses jet propulsion."
+      "type": "Turbojet/turbofan, variant dependent",
+      "summary": "Legacy H-6 data lists two Xian WP-8 engines; H-6K/H-6N reporting commonly cites D-30KP-2-family turbofans with enlarged intakes."
     },
     "armament_details": {
-      "summary": "Bombs, missiles, and precision-guided weapons.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Variant-dependent bombs, naval and land-attack cruise missiles, anti-ship missiles, possible later air-launched ballistic missile carriage, and legacy NR-23 cannon installations on older aircraft.",
+      "caution": "Specific missile compatibility and nuclear/conventional roles are variant-, operator-, and date-dependent; uncertain current loadouts are phrased cautiously."
     },
     "similar_development": [
+      {
+        "id": "tu-95",
+        "name": "Tupolev Tu-95",
+        "url": "aircraft.html?id=tu-95"
+      },
       {
         "id": "b-52-stratofortress",
         "name": "Boeing B-52 Stratofortress",
         "url": "aircraft.html?id=b-52-stratofortress"
       },
       {
-        "id": "b-1-lancer",
-        "name": "Rockwell B-1 Lancer",
-        "url": "aircraft.html?id=b-1-lancer"
+        "id": "tu-22m",
+        "name": "Tupolev Tu-22M",
+        "url": "aircraft.html?id=tu-22m"
       },
       {
-        "id": "b-2-spirit",
-        "name": "Northrop Grumman B-2 Spirit",
-        "url": "aircraft.html?id=b-2-spirit"
+        "id": "p-3-orion",
+        "name": "Lockheed P-3 Orion",
+        "url": "aircraft.html?id=p-3-orion"
       },
       {
-        "id": "su-24",
-        "name": "Sukhoi Su-24",
-        "url": "aircraft.html?id=su-24"
+        "id": "xian-y-20",
+        "name": "Xi'an Y-20 Kunpeng",
+        "url": "aircraft.html?id=xian-y-20"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 35,
+      "operator_entries": 3,
+      "variant_entries": 7,
+      "external_article_sources": 4
     },
     "footnotes": [
       {
+        "id": "fn-mitchell",
+        "title": "H-6",
+        "url": "https://www.mitchellaerospacepower.org/weapons/h-6",
+        "publisher": "Mitchell Institute for Aerospace Studies",
+        "note": "Technical data page used for status, NATO name, operator, dimensions, weights, engines, speed, range, ceiling, variants, and weapon categories."
+      },
+      {
+        "id": "fn-globalsecurity-h6k",
+        "title": "H-6K Air Striking Platform",
+        "url": "https://www.globalsecurity.org/military/world/china/h-6k.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Used for H-6K modernization context, redesigned nose, enlarged intakes, radar/sensor/data-link/EW notes, six hardpoints, and cautious range/radius context."
+      },
+      {
         "id": "fn-main",
         "title": "Xi'an H-6",
-        "url": "https://en.wikipedia.org/wiki/Xi'an_H-6",
+        "url": "https://en.wikipedia.org/wiki/Xi%27an_H-6",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "note": "Supplementary orientation source for lineage, broad variant/operator context, and reference discovery; not used alone for sensitive current claims."
       },
       {
         "id": "fn-wikidata",
         "title": "Wikidata Query Service",
         "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
+        "publisher": "Wikidata"
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.sinodefence.com/airforce/groundattack/h6.asp",
-        "publisher": "sinodefence.com",
-        "note": "External source for Xi'an H-6."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.sinodefence.com/airforce/airlift/h6tanker.asp",
-        "publisher": "sinodefence.com",
-        "note": "External source for Xi'an H-6."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.ausairpower.net/APA-Badger.html",
-        "publisher": "ausairpower.net",
-        "note": "External source for Xi'an H-6."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.sinodefence.com/airforce/groundattack/h6.asp",
-        "publisher": "sinodefence.com",
-        "note": "External source for Xi'an H-6."
+        "id": "fn-mitchell",
+        "title": "H-6",
+        "url": "https://www.mitchellaerospacepower.org/weapons/h-6",
+        "publisher": "Mitchell Institute for Aerospace Studies",
+        "note": "Technical data page used for status, NATO name, operator, dimensions, weights, engines, speed, range, ceiling, variants, and weapon categories."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.sinodefence.com/airforce/airlift/h6tanker.asp",
-        "publisher": "sinodefence.com",
-        "note": "External source for Xi'an H-6."
+        "id": "fn-globalsecurity-h6k",
+        "title": "H-6K Air Striking Platform",
+        "url": "https://www.globalsecurity.org/military/world/china/h-6k.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Used for H-6K modernization context, redesigned nose, enlarged intakes, radar/sensor/data-link/EW notes, six hardpoints, and cautious range/radius context."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.ausairpower.net/APA-Badger.html",
-        "publisher": "ausairpower.net",
-        "note": "External source for Xi'an H-6."
+        "id": "fn-main",
+        "title": "Xi'an H-6",
+        "url": "https://en.wikipedia.org/wiki/Xi%27an_H-6",
+        "publisher": "Wikipedia",
+        "note": "Supplementary orientation source for lineage, broad variant/operator context, and reference discovery; not used alone for sensitive current claims."
       }
     ],
     "article_sections": [
@@ -61614,65 +61662,86 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Xi'an H-6 is a Strategic bomber from China. Manufacturer: Xi'an Aircraft Industrial Corporation. First flight: 1959. Introduction: 1969. Status: Active.",
+            "text": "The Xi'an H-6 is China's long-serving Badger-family strategic bomber and missile carrier, derived from licensed production of the Soviet Tupolev Tu-16. The type entered Chinese service in the 1960s and remains active because later variants moved from gravity-bomb delivery toward tanker, maritime strike, cruise-missile, and long-range standoff roles.",
             "refs": [
-              "fn-main"
+              "fn-main",
+              "fn-mitchell"
             ]
           },
           {
-            "text": "Xi'an H-6 is a bomber. Primary role: strategic bomber. Country of origin: China. Manufacturer: Xi'an Aircraft Industrial Corporation.",
+            "text": "Mitchell Institute data identifies the H-6 as an active strategic bomber operated by the PLAAF, with the Badger NATO name, 1969 IOC, four crew, two WP-8 engines in the listed baseline data, 570 kt maximum speed, 3,200 nmi maximum range, and 42,000 ft ceiling. Those figures are best read as representative H-6-family data rather than a precise value for every variant.",
             "refs": [
-              "fn-wikidata"
+              "fn-mitchell"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The H-6K and H-6N illustrate the aircraft family's modern role: a non-stealthy but useful standoff carrier that can launch missiles from outside many point-defense envelopes. Exact current inventory, weapons integration, and nuclear/conventional tasking are date-sensitive, so this page uses cautious family-level wording.",
             "refs": [
+              "fn-globalsecurity-h6k",
               "fn-method"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Primary role",
-            "text": "Strategic bomber"
+            "title": "Role",
+            "text": "Strategic bomber / long-range missile carrier"
           },
           {
-            "title": "Designer or builder",
-            "text": "Xi'an Aircraft Industrial Corporation"
+            "title": "Origin",
+            "text": "China, derived from the Soviet Tu-16 Badger"
           },
           {
-            "title": "Major origin",
-            "text": "China"
+            "title": "Status",
+            "text": "Active with Chinese forces"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "NATO name",
+            "text": "Badger"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Xi'an H-6 first flew in 1959. Introduction date: 1969. Era: Cold War/Modern.",
+            "text": "China received Tu-16-related technology and began the H-6 as a licensed local production program in the late 1950s. The first Chinese-built aircraft flew in 1959, and the H-6 family reached operational service around 1969. The basic design retained the swept-wing, twin-engine, high-subsonic bomber layout of the Tu-16.",
             "refs": [
-              "fn-main"
+              "fn-main",
+              "fn-mitchell"
             ]
           },
           {
-            "text": "Producer: Xi'an Aircraft Industrial Corporation. Development context: strategic bomber, jet propulsion, subsonic speed category, Cold War/Modern era.",
+            "text": "The airframe outlived its original Cold War bomber role because China repeatedly adapted it to new missions. Tanker versions supported aerial refueling, naval versions carried anti-ship missiles, and later H-6H/H-6M/H-6K aircraft emphasized standoff weapons rather than penetration bombing.",
             "refs": [
-              "fn-wikidata"
+              "fn-globalsecurity-h6k"
+            ]
+          },
+          {
+            "text": "GlobalSecurity describes the H-6K as a major modernization with enlarged intakes, a redesigned nose radome, ground-search radar, a thermal/TV sensor turret, data-link and electronic-warfare equipment, six underwing hardpoints, and an enclosed tail section. This modernization changed the H-6 from an aging bomber into a cruise-missile truck for regional power projection.",
+            "refs": [
+              "fn-globalsecurity-h6k"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing payload, range, survivability, sensor/weapons modernization, and operating cost.",
+            "text": "1959: first flight of the Chinese H-6 family.",
             "refs": [
-              "fn-method"
+              "fn-main"
+            ]
+          },
+          {
+            "text": "1969: Mitchell Institute lists initial operational capability.",
+            "refs": [
+              "fn-mitchell"
+            ]
+          },
+          {
+            "text": "2000s: H-6K modernization emerged publicly after renewed production and upgrade work.",
+            "refs": [
+              "fn-globalsecurity-h6k"
             ]
           }
         ]
@@ -61682,26 +61751,23 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 4. Propulsion: Jet. Speed category: Subsonic.",
+            "text": "The H-6 keeps the Tu-16-style swept wing, shoulder-mounted engine arrangement, glazed/nose crew stations on earlier aircraft, and a large fuselage volume for fuel, mission systems, and weapons. Survivability against modern air defenses depends less on stealth and more on route planning, escorts, electronic support, and launching long-range weapons from standoff distance.",
             "refs": [
-              "fn-main"
+              "fn-method",
+              "fn-globalsecurity-h6k"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Legacy H-6 data lists two Xian WP-8 engines, while H-6K/H-6N reporting commonly describes newer D-30KP-2-family turbofans and enlarged intakes. Because public sources mix baseline and modernized data, this page labels engine and performance figures as variant dependent.",
             "refs": [
-              "fn-method"
+              "fn-mitchell",
+              "fn-globalsecurity-h6k"
             ]
           },
           {
-            "text": "Xi'an H-6 uses jet propulsion. Engine model field: Not listed.",
+            "text": "Weapons fit varies sharply by model. Older aircraft could carry bombs and defensive cannon; H-6D/B-6D aircraft emphasized anti-ship missiles; H-6K/H-6J/H-6N reporting emphasizes land-attack cruise missiles, anti-ship missiles, and very large externally carried weapons.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Bombs, missiles, and precision-guided weapons. Exact weapon list: Not listed.",
-            "refs": [
+              "fn-mitchell",
               "fn-main"
             ]
           }
@@ -61709,80 +61775,64 @@
         "cards": [
           {
             "title": "Crew",
-            "text": "4"
+            "text": "Commonly listed as 4"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Engines",
+            "text": "2 x WP-8 on legacy data; later D-30KP-2-family reports for H-6K/H-6N"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Speed",
+            "text": "High subsonic; 570 kt listed by Mitchell"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Ceiling",
+            "text": "42,000 ft listed by Mitchell"
           },
           {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Hardpoints",
+            "text": "H-6K described with six underwing missile hardpoints"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Xi'an H-6 status: Active. Conflict entries: 0.",
+            "text": "Representative H-6-family figures from Mitchell Institute: length 114.2 ft, wingspan 108.3 ft, height 34.0 ft, empty weight 82,012 lb, maximum takeoff weight 174,165 lb, two Xian WP-8 powerplants, 570 kt maximum speed, 3,200 nmi maximum range, 42,000 ft ceiling, and four crew.",
             "refs": [
-              "fn-main"
+              "fn-mitchell"
             ]
           },
           {
-            "text": "Conflicts: 0 entries.",
+            "text": "These values should not be applied mechanically to every H-6K, H-6J, tanker, or H-6N aircraft. Later variants changed sensors, intakes, tail installations, pylons, weapons, and likely weights and mission radius.",
             "refs": [
-              "fn-method"
+              "fn-method",
+              "fn-globalsecurity-h6k"
             ]
           }
         ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
+        "cards": [
           {
-            "text": "Xi'an H-6 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "114.2 ft / 34.8 m class"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Wingspan",
+            "text": "108.3 ft / 33.0 m class"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum takeoff weight",
+            "text": "174,165 lb listed by Mitchell"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum range",
+            "text": "3,200 nmi listed by Mitchell"
+          },
+          {
+            "title": "Ceiling",
+            "text": "42,000 ft"
           }
         ]
       },
@@ -61791,29 +61841,56 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Xi'an H-6 variant-family entries: 2. Variant families: Xi'an H-6 baseline production model; Xi'an H-6 upgraded avionics or weapons-capable model.",
+            "text": "The H-6 family includes bomber, missile-carrier, tanker, maritime-strike, and later long-range standoff variants. Public designations often overlap, and exact configuration details can vary by production batch and modernization standard.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
+              "fn-main",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Xi'an H-6 baseline production model",
+            "text": "H-6/H-6A: early bomber and nuclear-capable development family.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Xi'an H-6 upgraded avionics or weapons-capable model",
+            "text": "H-6D/B-6D: naval/export anti-ship missile carrier family.",
             "refs": [
               "fn-main"
+            ]
+          },
+          {
+            "text": "HY-6/H-6U/H-6DU: hose-and-drogue tanker adaptations.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "H-6H/H-6M: intermediate standoff-weapon upgrades.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "H-6K Zhanshen: modernized PLAAF missile carrier with redesigned nose, sensors, EW/data-link equipment, enlarged intakes, and six underwing missile hardpoints.",
+            "refs": [
+              "fn-globalsecurity-h6k",
+              "fn-mitchell"
+            ]
+          },
+          {
+            "text": "H-6J: PLANAF maritime-strike variant associated with long-range anti-ship missiles.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "H-6N Leishen: later refuelable variant widely reported for very large externally carried missile roles; exact operational loadouts remain sensitive and evolving.",
+            "refs": [
+              "fn-mitchell",
+              "fn-method"
             ]
           }
         ]
@@ -61823,45 +61900,74 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: China. Xi'an H-6 has 1 designer or builder country entry.",
+            "text": "China is the principal current operator, with H-6 aircraft serving in PLAAF bomber/missile-carrier units and PLANAF maritime-strike roles. The aircraft is important less as a classic penetrating bomber and more as a visible long-range standoff and signaling platform.",
             "refs": [
-              "fn-wikidata"
+              "fn-mitchell",
+              "fn-globalsecurity-h6k"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Iraq and Egypt are commonly listed as former export users of B-6D/H-6D-related aircraft. Current service status, exact surviving numbers, and export variant details are historical or uncertain, so this page avoids active-inventory claims for those operators.",
             "refs": [
+              "fn-main",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "China — PLAAF and PLANAF, current H-6 family operator.",
+            "refs": [
+              "fn-mitchell"
+            ]
+          },
+          {
+            "text": "Iraq — former export user; remaining aircraft were destroyed on the ground in 1991 according to common secondary histories.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Major designer or builder entries: China.",
+            "text": "Egypt — reported former export user; exact later status not treated as current here.",
             "refs": [
-              "fn-wikidata"
+              "fn-main",
+              "fn-method"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 4, propulsion type Jet, maximum speed category Subsonic, first flight 1959, introduction 1969.",
+            "text": "Chinese H-6 activity is closely associated with long-range patrols, bomber training, maritime strike signaling, and flights around the Taiwan Strait, East China Sea, South China Sea, and Western Pacific approaches. Open sources generally describe the aircraft as a standoff carrier for regional anti-access and power-projection missions rather than as a stealthy deep-penetration bomber.",
             "refs": [
+              "fn-globalsecurity-h6k",
               "fn-main"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "The Iraqi export H-6/B-6D story is much narrower: publicly available summaries describe remaining Iraqi H-6 bombers as destroyed on the ground during the 1991 Gulf War. This page does not list detailed combat claims because sortie use, missile firings, and final airframe status are not consistently documented in the accessible sources used for this run.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include a large airframe, long endurance for regional missions, enough payload and pylon capacity for heavy standoff weapons, and a mature support base inside China. Modern variants also benefit from improved sensors, data links, and electronic-warfare equipment compared with early H-6 bombers.",
+            "refs": [
+              "fn-globalsecurity-h6k"
+            ]
+          },
+          {
+            "text": "Limitations are equally clear: the H-6 is not stealthy, descends from a 1950s bomber configuration, and depends on standoff weapons, escorts, and operating geography for survivability against modern fighter and surface-to-air missile networks.",
             "refs": [
               "fn-method"
             ]
@@ -61869,11 +61975,18 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "comparison",
+        "title": "Comparison and Assessment",
         "paragraphs": [
           {
-            "text": "Xi'an H-6 similar-development links: 4.",
+            "text": "Compared with U.S. B-52 or Russian Tu-95 families, the H-6 is smaller and has less intercontinental reach, but it fills a similar modernization pattern: an older bomber airframe preserved by new engines, electronics, and standoff weapons. Compared with tactical strike aircraft, it offers larger missile carriage and longer patrol endurance.",
+            "refs": [
+              "fn-mitchell",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The closest historical comparison is the Tu-16 itself, but that page is not currently represented as a local Milipedia aircraft entry. Internal links therefore point to other long-range patrol, bomber, and Chinese aerospace pages already present in the database.",
             "refs": [
               "fn-method"
             ]
@@ -61885,16 +61998,84 @@
             "url": "aircraft.html?id=b-52-stratofortress"
           },
           {
-            "label": "Rockwell B-1 Lancer",
-            "url": "aircraft.html?id=b-1-lancer"
+            "label": "Tupolev Tu-95",
+            "url": "aircraft.html?id=tu-95"
           },
           {
-            "label": "Northrop Grumman B-2 Spirit",
-            "url": "aircraft.html?id=b-2-spirit"
+            "label": "Tupolev Tu-22M",
+            "url": "aircraft.html?id=tu-22m"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "1950s: Soviet Tu-16 deliveries and production arrangements gave China the basis for the H-6. 1959: first Chinese-built H-6 flight. 1969: H-6 IOC listed by Mitchell Institute. 1980s-1990s: naval, tanker, and improved bomber variants broadened the family. 2000s onward: H-6K/H-6J/H-6N-era modernization emphasized long-range standoff strike.",
+            "refs": [
+              "fn-main",
+              "fn-mitchell",
+              "fn-globalsecurity-h6k"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Mitchell Institute supplied the most compact technical-data table used here. GlobalSecurity supplied H-6K modernization context. Wikipedia was used as supplementary orientation and for broad variant/operator cross-checking only. The ODIN H-6 page appeared in search results but could not be fetched by the web extractor during this run.",
+            "refs": [
+              "fn-mitchell",
+              "fn-globalsecurity-h6k",
+              "fn-main"
+            ]
           },
           {
-            "label": "Sukhoi Su-24",
-            "url": "aircraft.html?id=su-24"
+            "text": "Facts deliberately left broad include current production totals, active inventory counts, nuclear tasking, exact H-6N missile compatibility, and precise mission radius by loadout. Those details are sensitive, date-dependent, or inconsistent across open public sources.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related local Milipedia pages include strategic bombers, long-range missile carriers, maritime patrol/strike aircraft, and Chinese heavy aircraft already present in the database.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Back to aircraft database",
+            "url": "aircraft.html"
+          },
+          {
+            "label": "Boeing B-52 Stratofortress",
+            "url": "aircraft.html?id=b-52-stratofortress"
+          },
+          {
+            "label": "Tupolev Tu-95",
+            "url": "aircraft.html?id=tu-95"
+          },
+          {
+            "label": "Tupolev Tu-22M",
+            "url": "aircraft.html?id=tu-22m"
+          },
+          {
+            "label": "Lockheed P-3 Orion",
+            "url": "aircraft.html?id=p-3-orion"
+          },
+          {
+            "label": "Xi'an Y-20 Kunpeng",
+            "url": "aircraft.html?id=xian-y-20"
           }
         ]
       }
