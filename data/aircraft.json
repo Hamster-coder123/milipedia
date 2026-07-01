@@ -31436,34 +31436,158 @@
   {
     "id": "mig-23",
     "name": "Mikoyan-Gurevich MiG-23",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "alternative_names": [
+      "Flogger"
+    ],
+    "nato_reporting_name": "Flogger",
     "country_of_origin": "Soviet Union",
-    "manufacturer": "Mikoyan-Gurevich",
-    "role": "Swing-wing fighter",
-    "aircraft_type": "Fighter",
+    "manufacturer": "Mikoyan-Gurevich / Mikoyan design bureau",
+    "role": "Variable-sweep fighter-interceptor with secondary ground-attack capability",
+    "aircraft_type": "Single-engine supersonic fighter",
     "era": "Cold War",
-    "first_flight": "1967",
-    "introduction_date": "1970",
-    "retirement_date": null,
-    "status": "Active/retired by operator",
-    "number_built": "Not listed",
-    "crew": "1",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "first_flight": "10 June 1967 (23-11 prototype; family first-flight year 1967)",
+    "introduction_date": "1970/1971 early-service period, depending source",
+    "retirement_date": "Retired by many former operators; limited or unclear legacy use by a small number of export operators",
+    "status": "Historical Cold War fighter; limited or retired by most operators",
+    "number_built": "More than 5,000 MiG-23s of all types (museum statement); 5,047 commonly cited in general references",
+    "crew": "1 pilot; 2 in MiG-23UB trainer",
+    "engine_type": "Afterburning turbojet",
+    "engines": "One Tumansky R-29-300 family afterburning turbojet on many mature variants",
+    "max_speed": "About Mach 2.35-2.4 depending variant and source",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Mikoyan-Gurevich MiG-23: Swing-wing fighter. Manufacturer: Mikoyan-Gurevich. First flight: 1967. Introduction: 1970.",
-    "short_summary": "Mikoyan-Gurevich MiG-23: Swing-wing fighter. Origin: Soviet Union. Manufacturer: Mikoyan-Gurevich. First flight: 1967. Introduction: 1970. Status: Active/retired by operator.",
+    "range": "About 600 miles general display figure; variant-dependent",
+    "combat_range": "About 740 miles in March Field display data; verify by subvariant and loadout",
+    "service_ceiling": "About 59,000 ft in March Field display data",
+    "rate_of_climb": "Variant-dependent; not standardized in the sources used for this run",
+    "armament": "One twin-barrel 23 mm GSh-23L cannon plus variant-dependent infrared and radar-guided air-to-air missiles; fighter-bomber branches could carry rockets, bombs, and air-to-surface weapons.",
+    "hardpoints": "Multiple fuselage/wing stations; exact station count and permitted stores vary by MiG-23 subvariant",
+    "variants": [
+      {
+        "name": "23-11 prototype / early MiG-23 development aircraft",
+        "description": "Variable-geometry prototype line that first flew in 1967 after Mikoyan examined lift-jet and swing-wing solutions for a MiG-21 successor. Public sources differ in shorthand prototype dates, so the page uses 1967 as the family first-flight year.",
+        "refs": [
+          "fn-nmusaf-mld",
+          "fn-wikipedia"
+        ]
+      },
+      {
+        "name": "MiG-23S / early Flogger-A",
+        "description": "Initial production fighter family using early fire-control equipment and the basic MiG-23 airframe; useful historically but less capable than later Sapfir-23-equipped fighters.",
+        "refs": [
+          "fn-wikipedia"
+        ]
+      },
+      {
+        "name": "MiG-23M / MiG-23MF",
+        "description": "Mature fighter/interceptor family associated with Sapfir-23 radar, R-23 beyond-visual-range missiles, infrared search and track, and a broader weapons set than the MiG-21 it replaced.",
+        "refs": [
+          "fn-nmusaf-ms",
+          "fn-wikipedia"
+        ]
+      },
+      {
+        "name": "MiG-23MS Flogger-E",
+        "description": "Export variant described by the National Museum of the U.S. Air Force as less capable than domestic Soviet versions, with a less sophisticated radar in a smaller radome. The museum aircraft later flew in U.S. Project Constant Peg adversary training.",
+        "refs": [
+          "fn-nmusaf-ms"
+        ]
+      },
+      {
+        "name": "MiG-23ML / MiG-23MLA",
+        "description": "Lighter and improved fighter series with upgraded avionics and missile compatibility; commonly treated as the late Cold War high-performance interceptor branch before the MLD upgrade.",
+        "refs": [
+          "fn-nmusaf-mld",
+          "fn-wikipedia"
+        ]
+      },
+      {
+        "name": "MiG-23MLD Flogger-K",
+        "description": "Late fighter modification of the MiG-23ML with improved avionics, armament, aerodynamic features, and a leading-edge notch to improve flight characteristics according to museum summaries.",
+        "refs": [
+          "fn-nmusaf-mld",
+          "fn-march-field"
+        ]
+      },
+      {
+        "name": "MiG-23BN",
+        "description": "Fighter-bomber branch using a revised nose and ground-attack equipment; it is related to, but should not be confused with, the more specialized MiG-27 family.",
+        "refs": [
+          "fn-march-field",
+          "fn-airforce-technology-mig27"
+        ]
+      },
+      {
+        "name": "MiG-23UB",
+        "description": "Two-seat conversion trainer used to prepare pilots for MiG-23 units. Combat and avionics capability depended on specific subvariant and national modifications.",
+        "refs": [
+          "fn-airforce-technology-mig27",
+          "fn-wikipedia"
+        ]
+      }
+    ],
+    "operators": [
+      {
+        "country": "Soviet Union",
+        "service": "Soviet Air Force / Soviet Air Defence Forces",
+        "status": "Historical primary operator",
+        "note": "The MiG-23/27 Flogger series was used extensively by the former Soviet Union; the fighter family served mainly as fighter-interceptors with secondary ground-attack capability.",
+        "refs": [
+          "fn-nmusaf-mld",
+          "fn-march-field"
+        ]
+      },
+      {
+        "country": "Russia",
+        "service": "Russian Air Force / successor forces",
+        "status": "Former or limited legacy use depending period",
+        "note": "Russia inherited Soviet MiG-23-family aircraft after the Soviet breakup, but modern Russian fighter service moved to later MiG-29/Su-27-family aircraft; exact retirement timing varies by source and variant.",
+        "refs": [
+          "fn-wikipedia",
+          "fn-method"
+        ]
+      },
+      {
+        "country": "Warsaw Pact and Eastern Europe",
+        "service": "Poland, Hungary, Bulgaria, East Germany, Romania, Czechoslovakia and successor services",
+        "status": "Historical operators",
+        "note": "March Field Air Museum lists these Warsaw Pact and Eastern European air arms among users of the Flogger series. Country-by-country retirement dates are not fixed here because they vary by service and subvariant.",
+        "refs": [
+          "fn-march-field"
+        ]
+      },
+      {
+        "country": "Middle East and North Africa",
+        "service": "Syria, Iraq, Libya, Egypt, Algeria and other regional operators",
+        "status": "Historical or limited service depending country",
+        "note": "Export MiG-23s served widely in the region. Public combat claims and airframe status are often disputed or date-sensitive, so this entry summarizes operator geography rather than fixed current inventories.",
+        "refs": [
+          "fn-march-field",
+          "fn-wikipedia"
+        ]
+      },
+      {
+        "country": "Asia and Caribbean operators",
+        "service": "India, Afghanistan, North Korea, Cuba and others",
+        "status": "Historical or limited service depending country",
+        "note": "The MiG-23 family was exported outside Europe and the Middle East as a comparatively fast interceptor/fighter-bomber option. India is also associated with MiG-27 derivatives rather than only fighter MiG-23s.",
+        "refs": [
+          "fn-march-field",
+          "fn-airforce-technology-mig27"
+        ]
+      },
+      {
+        "country": "United States",
+        "service": "4477th Test Squadron “Red Eagles” / Project Constant Peg",
+        "status": "Clandestine evaluation and adversary-training use",
+        "note": "The National Museum of the U.S. Air Force states that its MiG-23MS flew with the 4477th Test Squadron during Project Constant Peg before declassification and museum transfer.",
+        "refs": [
+          "fn-nmusaf-ms"
+        ]
+      }
+    ],
+    "combat_history": "Widely operated by Soviet, Warsaw Pact, Middle Eastern, African, Asian, and Caribbean users; combat record is highly variant- and operator-dependent and should not be summarized without country-specific caveats.",
+    "development_history": "Designed in the mid-1960s as a MiG-21 successor with variable-sweep wings, a more powerful engine, improved radar/fire control, and beyond-visual-range missile capability. Production and exports created many fighter, trainer, and fighter-bomber subvariants.",
+    "short_summary": "The Mikoyan-Gurevich MiG-23 “Flogger” was a Soviet Cold War variable-sweep fighter family built to replace or supplement the MiG-21 with more range, radar capability, missile reach, and basing flexibility. Its many variants ranged from simplified export fighters to late MiG-23MLD interceptors and MiG-23BN/MiG-27 attack derivatives.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -31476,18 +31600,39 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-nmusaf-ms",
+        "title": "Mikoyan-Gurevich MiG-23MS “Flogger-E”",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/1162493/mikoyan-gurevich-mig-23ms-flogger-e",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Official museum fact sheet used for MiG-23MS export context, swing-wing explanation, Project Constant Peg note, engine, armament, Mach number, wing sweep settings, and more-than-5,000-family production statement."
+      },
+      {
+        "id": "fn-nmusaf-mld",
+        "title": "Mikoyan-Gurevich MiG-23MLD",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196862/mikoyan-gurevich-mig-23mld",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Official museum fact sheet used for the MiG-23/27 Flogger family role description, 1964-1966 design period, MiG-21 successor context, and MLD upgrade summary."
+      },
+      {
+        "id": "fn-march-field",
+        "title": "MiG-23 Flogger",
+        "url": "https://www.marchfield.org/mig-23-flogger",
+        "publisher": "March Field Air Museum",
+        "note": "Museum reference used for role context, operator regions, variant names, dimensions, speed, range, ceiling, and general variable-sweep explanation. Some figures are museum-display/general-family figures and vary by variant."
+      },
+      {
+        "id": "fn-airforce-technology-mig27",
+        "title": "MiG-27K (MiG 23) Flogger Fighter Bomber",
+        "url": "https://www.airforce-technology.com/projects/mig27/",
+        "publisher": "Airforce Technology",
+        "note": "Supplementary specialist reference used only for MiG-27 derivative context and to avoid mixing dedicated MiG-27 ground-attack specifications into the fighter MiG-23 baseline."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Mikoyan-Gurevich MiG-23",
         "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-23",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for first-flight date, production total cross-check, broad variant naming, and general service history; official and museum sources are preferred for committed technical wording."
       },
       {
         "id": "fn-method",
@@ -31504,115 +31649,191 @@
       }
     ],
     "designers": [
-      "Mikoyan-Gurevich"
+      "Mikoyan-Gurevich design bureau",
+      "Mikoyan design bureau"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Replacing the MiG-21 required better range, radar, missile reach, and short-field performance without turning the aircraft into a large Western-style two-seat interceptor.",
+      "Variable-sweep wings improved basing and high-speed performance but added weight, maintenance complexity, and variant-specific handling compromises.",
+      "Export variants balanced availability and cost against reduced radar/fire-control capability compared with domestic Soviet models."
     ],
-    "wars_used_in": [],
+    "wars_used_in": [
+      "Cold War air-defense service",
+      "Middle Eastern and regional conflicts involving export users",
+      "Project Constant Peg adversary-training use"
+    ],
     "variant_families": [
-      "Mikoyan-Gurevich MiG-23 baseline production model",
-      "Mikoyan-Gurevich MiG-23 upgraded avionics or weapons-capable model",
-      "Mikoyan-Gurevich MiG-23 export or locally modernized model"
+      "MiG-23 fighter/interceptor family",
+      "MiG-23 export fighter family",
+      "MiG-23ML/MLD late interceptor family",
+      "MiG-23UB trainer family",
+      "MiG-23BN / MiG-27 fighter-bomber derivative family"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "Soviet Union"
       ],
-      "major_user_note": "Mikoyan-Gurevich MiG-23 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The MiG-23 family was used by the Soviet Union, Warsaw Pact states, and many export customers across the Middle East, Africa, Asia, and the Caribbean.",
+      "all_operators_status": "6 grouped operator entries listed; exact country inventories are date-sensitive."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "MiG-23MS museum aircraft at the National Museum of the U.S. Air Force flew in Project Constant Peg with the 4477th Test Squadron.",
+        "Named individual combat pilots are omitted because this run did not verify pilot-level claims."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Project Constant Peg exposed U.S. fighter pilots to MiG-23 handling and performance under classified adversary-training conditions.",
+        "Country-specific combat claims and losses are intentionally omitted pending variant/operator-specific verification."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Mikoyan-Gurevich MiG-23 uses jet propulsion."
+      "type": "Afterburning turbojet",
+      "summary": "Many mature MiG-23 variants used one Tumansky R-29-family afterburning turbojet; the National Museum of the U.S. Air Force lists the MiG-23MS R-29-300 at about 27,500 lb thrust."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Built-in 23 mm GSh-23L cannon plus variant-dependent AA-2/R-3, AA-7/R-23, AA-8/R-60, later R-24-family missiles and selected ground-attack stores.",
+      "caution": "Do not apply one weapons list to every MiG-23: export MiG-23MS, domestic MiG-23M/ML/MLD, MiG-23BN, and MiG-27 aircraft had different radar and weapons integration."
     },
     "similar_development": [
+      {
+        "id": "mig-21",
+        "name": "Mikoyan-Gurevich MiG-21",
+        "url": "aircraft.html?id=mig-21"
+      },
+      {
+        "id": "su-17",
+        "name": "Sukhoi Su-17",
+        "url": "aircraft.html?id=su-17"
+      },
+      {
+        "id": "su-24",
+        "name": "Sukhoi Su-24",
+        "url": "aircraft.html?id=su-24"
+      },
       {
         "id": "f-4-phantom-ii",
         "name": "McDonnell Douglas F-4 Phantom II",
         "url": "aircraft.html?id=f-4-phantom-ii"
       },
       {
-        "id": "f-5-freedom-fighter-tiger-ii",
-        "name": "Northrop F-5",
-        "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
-      },
-      {
-        "id": "f-8-crusader",
-        "name": "Vought F-8 Crusader",
-        "url": "aircraft.html?id=f-8-crusader"
-      },
-      {
         "id": "f-14-tomcat",
         "name": "Grumman F-14 Tomcat",
         "url": "aircraft.html?id=f-14-tomcat"
+      },
+      {
+        "id": "mig-29",
+        "name": "Mikoyan MiG-29",
+        "url": "aircraft.html?id=mig-29"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 30,
+      "operator_entries": 6,
+      "variant_entries": 8,
+      "external_article_sources": 5
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-nmusaf-ms",
+        "title": "Mikoyan-Gurevich MiG-23MS “Flogger-E”",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/1162493/mikoyan-gurevich-mig-23ms-flogger-e",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Official museum fact sheet used for MiG-23MS export context, swing-wing explanation, Project Constant Peg note, engine, armament, Mach number, wing sweep settings, and more-than-5,000-family production statement."
+      },
+      {
+        "id": "fn-nmusaf-mld",
+        "title": "Mikoyan-Gurevich MiG-23MLD",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196862/mikoyan-gurevich-mig-23mld",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Official museum fact sheet used for the MiG-23/27 Flogger family role description, 1964-1966 design period, MiG-21 successor context, and MLD upgrade summary."
+      },
+      {
+        "id": "fn-march-field",
+        "title": "MiG-23 Flogger",
+        "url": "https://www.marchfield.org/mig-23-flogger",
+        "publisher": "March Field Air Museum",
+        "note": "Museum reference used for role context, operator regions, variant names, dimensions, speed, range, ceiling, and general variable-sweep explanation. Some figures are museum-display/general-family figures and vary by variant."
+      },
+      {
+        "id": "fn-airforce-technology-mig27",
+        "title": "MiG-27K (MiG 23) Flogger Fighter Bomber",
+        "url": "https://www.airforce-technology.com/projects/mig27/",
+        "publisher": "Airforce Technology",
+        "note": "Supplementary specialist reference used only for MiG-27 derivative context and to avoid mixing dedicated MiG-27 ground-attack specifications into the fighter MiG-23 baseline."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Mikoyan-Gurevich MiG-23",
         "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-23",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for first-flight date, production total cross-check, broad variant naming, and general service history; official and museum sources are preferred for committed technical wording."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "Mikoyan-Gurevich MiG-23MS “Flogger-E”",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/1162493/mikoyan-gurevich-mig-23ms-flogger-e",
+        "publisher": "National Museum of the United States Air Force",
+        "summary": "Official museum fact sheet used for MiG-23MS export context, swing-wing explanation, Project Constant Peg note, engine, armament, Mach number, wing sweep settings, and more-than-5,000-family production statement."
+      },
+      {
+        "title": "Mikoyan-Gurevich MiG-23MLD",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196862/mikoyan-gurevich-mig-23mld",
+        "publisher": "National Museum of the United States Air Force",
+        "summary": "Official museum fact sheet used for the MiG-23/27 Flogger family role description, 1964-1966 design period, MiG-21 successor context, and MLD upgrade summary."
+      },
+      {
+        "title": "MiG-23 Flogger",
+        "url": "https://www.marchfield.org/mig-23-flogger",
+        "publisher": "March Field Air Museum",
+        "summary": "Museum reference used for role context, operator regions, variant names, dimensions, speed, range, ceiling, and general variable-sweep explanation. Some figures are museum-display/general-family figures and vary by variant."
+      },
+      {
+        "title": "MiG-27K (MiG 23) Flogger Fighter Bomber",
+        "url": "https://www.airforce-technology.com/projects/mig27/",
+        "publisher": "Airforce Technology",
+        "summary": "Supplementary specialist reference used only for MiG-27 derivative context and to avoid mixing dedicated MiG-27 ground-attack specifications into the fighter MiG-23 baseline."
+      },
+      {
+        "title": "Mikoyan-Gurevich MiG-23",
+        "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-23",
+        "publisher": "Wikipedia",
+        "summary": "Supplementary orientation source for first-flight date, production total cross-check, broad variant naming, and general service history; official and museum sources are preferred for committed technical wording."
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-23 is a Swing-wing fighter from Soviet Union. Manufacturer: Mikoyan-Gurevich. First flight: 1967. Introduction: 1970. Status: Active/retired by operator.",
+            "text": "The Mikoyan-Gurevich MiG-23, NATO reporting name Flogger, was a Soviet single-engine, supersonic, variable-sweep-wing fighter family developed as a more capable successor to the MiG-21. It combined higher speed, a more powerful engine, improved radar/fire-control equipment, and beyond-visual-range missile capability in a compact Cold War fighter airframe.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf-ms",
+              "fn-nmusaf-mld",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Mikoyan-Gurevich MiG-23 is a fighter. Primary role: swing-wing fighter. Country of origin: Soviet Union. Manufacturer: Mikoyan-Gurevich.",
+            "text": "The type served mainly as a fighter-interceptor, with secondary ground-attack capability and a separate fighter-bomber/strike lineage that led to the MiG-23BN and MiG-27. Museum sources emphasize the selectable wing sweep: low sweep for takeoff and landing or heavier stores, intermediate sweep for maneuvering, and high sweep for supersonic flight.",
             "refs": [
-              "fn-wikidata"
+              "fn-nmusaf-ms",
+              "fn-march-field",
+              "fn-airforce-technology-mig27"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The MiG-23 was exported broadly across Warsaw Pact, Middle Eastern, African, Asian, and Caribbean air forces. Because subvariants ranged from early MiG-23S fighters to export MiG-23MS aircraft and late MiG-23MLD interceptors, specifications and combat capability vary substantially by model and operator.",
             "refs": [
+              "fn-march-field",
+              "fn-wikipedia",
               "fn-method"
             ]
           }
@@ -31620,50 +31841,79 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Swing-wing fighter"
+            "text": "Variable-sweep fighter-interceptor with secondary strike capability"
           },
           {
-            "title": "Designer or builder",
-            "text": "Mikoyan-Gurevich"
+            "title": "NATO reporting name",
+            "text": "Flogger"
           },
           {
-            "title": "Major origin",
-            "text": "Soviet Union"
+            "title": "Powerplant",
+            "text": "One Tumansky / Khatchaturov R-29-family afterburning turbojet on many mature variants"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Wing sweep",
+            "text": "16°, 45°, and 72° selectable settings cited for the MiG-23MS"
+          },
+          {
+            "title": "Production family",
+            "text": "More than 5,000 MiG-23s of all types according to the National Museum of the U.S. Air Force"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-23 first flew in 1967. Introduction date: 1970. Era: Cold War.",
+            "text": "The MiG-23 was designed in the mid-1960s as a successor to the widely used MiG-21. The MiG-21 was fast and relatively simple, but its short range, limited radar, and constrained weapons load pushed Soviet designers toward a fighter with better takeoff performance, range, avionics, and missile compatibility.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf-mld",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Producer: Mikoyan-Gurevich. Development context: swing-wing fighter, jet propulsion, supersonic speed category, Cold War era.",
+            "text": "Mikoyan explored both lift-jet and variable-geometry solutions. The swing-wing approach became the practical route, allowing the pilot to trade runway performance, maneuvering behavior, and high-speed drag by selecting different sweep settings in flight.",
             "refs": [
-              "fn-wikidata"
+              "fn-nmusaf-ms",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Series production began at the end of the 1960s, and operational service followed in the early 1970s. Export demand produced simplified versions such as the MiG-23MS, while later Soviet-standard fighters received improved airframes, avionics, and missile compatibility.",
+            "refs": [
+              "fn-nmusaf-ms",
+              "fn-march-field",
+              "fn-wikipedia"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "Design period: 1964-1966 in museum summaries for the MiG-23/27 family.",
             "refs": [
+              "fn-nmusaf-mld",
+              "fn-march-field"
+            ]
+          },
+          {
+            "text": "Family first-flight year: 1967; Wikipedia gives 10 June 1967 for the 23-11 variable-geometry prototype.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Early production and service entry: late 1960s/early 1970s; published sources differ between 1970 and 1971 for introduction shorthand.",
+            "refs": [
+              "fn-march-field",
+              "fn-wikipedia",
               "fn-method"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "Production scale: more than 5,000 MiG-23s of all types according to the National Museum of the U.S. Air Force.",
             "refs": [
-              "fn-method"
+              "fn-nmusaf-ms"
             ]
           }
         ]
@@ -31673,107 +31923,116 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The MiG-23 airframe is defined by shoulder-mounted variable-sweep wings, side intakes, a single vertical tail, tricycle landing gear designed for rougher forward bases, and a single afterburning turbojet. The swing wing helped the aircraft operate from shorter or remote runways while still reaching very high speed when swept.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf-ms",
+              "fn-march-field"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "The fighter introduced a more capable radar and fire-control system than the MiG-21 family. The National Museum of the U.S. Air Force notes that the MiG-23 could fire missiles at targets beyond visual range, and Wikipedia describes the Sapfir/RP-23 family as a major step for Soviet fighter radar capability.",
             "refs": [
+              "fn-nmusaf-ms",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Armament normally centered on a built-in twin-barrel 23 mm GSh-23L cannon and combinations of short-range infrared missiles, medium-range R-23/R-24-family missiles on later fighters, bombs, rockets, and air-to-surface weapons depending variant. Export MiG-23MS aircraft used less capable radar and weapons integration than domestic Soviet fighters.",
+            "refs": [
+              "fn-nmusaf-ms",
+              "fn-wikipedia",
               "fn-method"
             ]
           },
           {
-            "text": "Mikoyan-Gurevich MiG-23 uses jet propulsion. Engine model field: Not listed.",
+            "text": "The aircraft’s strengths were speed, acceleration, missile reach for its generation, and basing flexibility. Its limitations included high pilot workload, variant-dependent radar quality, maintenance complexity relative to simpler MiG-21s, and a combat record that is difficult to summarize because export aircraft often differed sharply from Soviet-standard models.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf-ms",
+              "fn-march-field",
+              "fn-wikipedia"
             ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Airframe",
+            "text": "Single-seat variable-sweep-wing fighter; MiG-23UB trainer adds a second seat"
           },
           {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
+            "title": "Engine",
+            "text": "One Tumansky R-29-300 family turbojet; MiG-23MS museum figure about 27,500 lb thrust"
+          },
+          {
+            "title": "Radar and fire control",
+            "text": "Sapfir/RP-23-family capability on fighter variants; less sophisticated radar on MiG-23MS export aircraft"
+          },
+          {
+            "title": "Weapons",
+            "text": "GSh-23L cannon plus infrared and radar-guided air-to-air missiles; ground-attack stores varied by subvariant"
+          },
+          {
+            "title": "Basing",
+            "text": "Robust landing gear and wing sweep improved short/remote runway operation compared with a pure high-speed delta layout"
+          }
+        ]
+      },
+      {
+        "id": "specifications",
+        "title": "Specifications",
+        "paragraphs": [
+          {
+            "text": "Specifications are representative public figures for MiG-23 fighter-family aircraft. The MiG-23MS museum notes are used for powerplant, armament, Mach number, and wing sweep; March Field Air Museum display data is used for dimensions, range, and ceiling. Exact values vary by MiG-23S/M/MF/ML/MLD/BN/UB subvariant, fuel load, stores, and national modification.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf-ms",
+              "fn-march-field",
+              "fn-method"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "1"
+            "text": "1 pilot on fighter variants; 2 on MiG-23UB trainer"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Length",
+            "text": "55 ft 1 in (March Field Air Museum general display figure)"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Height",
+            "text": "15 ft 10 in (March Field Air Museum)"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Wingspan",
+            "text": "46 ft 9 in spread; 26 ft 9 in swept (March Field Air Museum)"
           },
           {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Mikoyan-Gurevich MiG-23 status: Active/retired by operator. Conflict entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Wing sweep settings",
+            "text": "16°, 45°, and 72° on MiG-23MS technical notes"
           },
           {
-            "text": "Conflicts: 0 entries.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Mikoyan-Gurevich MiG-23 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Engine",
+            "text": "One Tumansky R-29-300 turbojet, about 27,500 lb thrust on MiG-23MS museum notes"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum speed",
+            "text": "About Mach 2.35-2.4 depending source and variant; March Field lists 1,550 mph"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Range",
+            "text": "About 600 miles general range / 740 miles combat figure in March Field display data; variant-dependent"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Service ceiling",
+            "text": "About 59,000 ft in March Field display data"
+          },
+          {
+            "title": "Gun",
+            "text": "One twin-barrel 23 mm GSh-23L cannon"
+          },
+          {
+            "title": "Missiles",
+            "text": "MiG-23MS notes cite AA-2 Atoll, AA-8 Aphid, and AA-7 Apex mixtures; later fighters could use improved R-23/R-24-family weapons"
           }
         ]
       },
@@ -31782,35 +32041,67 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-23 variant-family entries: 3. Variant families: Mikoyan-Gurevich MiG-23 baseline production model; Mikoyan-Gurevich MiG-23 upgraded avionics or weapons-capable model; Mikoyan-Gurevich MiG-23 export or locally modernized model.",
+            "text": "The MiG-23 family is unusually variant-sensitive. Early production fighters, export fighters, lighter late interceptors, fighter-bomber branches, and trainers can look similar but differ in radar, weight, avionics, weapons integration, and mission emphasis.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-nmusaf-mld",
+              "fn-nmusaf-ms",
+              "fn-march-field"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Mikoyan-Gurevich MiG-23 baseline production model",
+            "text": "23-11 prototype / early MiG-23 development aircraft: Variable-geometry prototype line that first flew in 1967 after Mikoyan examined lift-jet and swing-wing solutions for a MiG-21 successor. Public sources differ in shorthand prototype dates, so the page uses 1967 as the family first-flight year.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf-mld",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Mikoyan-Gurevich MiG-23 upgraded avionics or weapons-capable model",
+            "text": "MiG-23S / early Flogger-A: Initial production fighter family using early fire-control equipment and the basic MiG-23 airframe; useful historically but less capable than later Sapfir-23-equipped fighters.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Mikoyan-Gurevich MiG-23 export or locally modernized model",
+            "text": "MiG-23M / MiG-23MF: Mature fighter/interceptor family associated with Sapfir-23 radar, R-23 beyond-visual-range missiles, infrared search and track, and a broader weapons set than the MiG-21 it replaced.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf-ms",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "MiG-23MS Flogger-E: Export variant described by the National Museum of the U.S. Air Force as less capable than domestic Soviet versions, with a less sophisticated radar in a smaller radome. The museum aircraft later flew in U.S. Project Constant Peg adversary training.",
+            "refs": [
+              "fn-nmusaf-ms"
+            ]
+          },
+          {
+            "text": "MiG-23ML / MiG-23MLA: Lighter and improved fighter series with upgraded avionics and missile compatibility; commonly treated as the late Cold War high-performance interceptor branch before the MLD upgrade.",
+            "refs": [
+              "fn-nmusaf-mld",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "MiG-23MLD Flogger-K: Late fighter modification of the MiG-23ML with improved avionics, armament, aerodynamic features, and a leading-edge notch to improve flight characteristics according to museum summaries.",
+            "refs": [
+              "fn-nmusaf-mld",
+              "fn-march-field"
+            ]
+          },
+          {
+            "text": "MiG-23BN: Fighter-bomber branch using a revised nose and ground-attack equipment; it is related to, but should not be confused with, the more specialized MiG-27 family.",
+            "refs": [
+              "fn-march-field",
+              "fn-airforce-technology-mig27"
+            ]
+          },
+          {
+            "text": "MiG-23UB: Two-seat conversion trainer used to prepare pilots for MiG-23 units. Combat and avionics capability depended on specific subvariant and national modifications.",
+            "refs": [
+              "fn-airforce-technology-mig27",
+              "fn-wikipedia"
             ]
           }
         ]
@@ -31820,57 +32111,118 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Soviet Union. Mikoyan-Gurevich MiG-23 has 1 designer or builder country entry.",
+            "text": "The MiG-23 became one of the most widely distributed Soviet combat-aircraft families of the Cold War. This page groups operators geographically because exact current inventories and retirement dates are date-sensitive and vary by source.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
+              "fn-march-field",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Soviet Union — Soviet Air Force / Soviet Air Defence Forces: The MiG-23/27 Flogger series was used extensively by the former Soviet Union; the fighter family served mainly as fighter-interceptors with secondary ground-attack capability.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf-mld",
+              "fn-march-field"
             ]
           },
           {
-            "text": "Major designer or builder entries: Soviet Union.",
+            "text": "Russia — Russian Air Force / successor forces: Russia inherited Soviet MiG-23-family aircraft after the Soviet breakup, but modern Russian fighter service moved to later MiG-29/Su-27-family aircraft; exact retirement timing varies by source and variant.",
             "refs": [
-              "fn-wikidata"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "specifications",
-        "title": "Specifications",
-        "paragraphs": [
-          {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Supersonic, first flight 1967, introduction 1970.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
-            "refs": [
+              "fn-wikipedia",
               "fn-method"
             ]
+          },
+          {
+            "text": "Warsaw Pact and Eastern Europe — Poland, Hungary, Bulgaria, East Germany, Romania, Czechoslovakia and successor services: March Field Air Museum lists these Warsaw Pact and Eastern European air arms among users of the Flogger series. Country-by-country retirement dates are not fixed here because they vary by service and subvariant.",
+            "refs": [
+              "fn-march-field"
+            ]
+          },
+          {
+            "text": "Middle East and North Africa — Syria, Iraq, Libya, Egypt, Algeria and other regional operators: Export MiG-23s served widely in the region. Public combat claims and airframe status are often disputed or date-sensitive, so this entry summarizes operator geography rather than fixed current inventories.",
+            "refs": [
+              "fn-march-field",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Asia and Caribbean operators — India, Afghanistan, North Korea, Cuba and others: The MiG-23 family was exported outside Europe and the Middle East as a comparatively fast interceptor/fighter-bomber option. India is also associated with MiG-27 derivatives rather than only fighter MiG-23s.",
+            "refs": [
+              "fn-march-field",
+              "fn-airforce-technology-mig27"
+            ]
+          },
+          {
+            "text": "United States — 4477th Test Squadron “Red Eagles” / Project Constant Peg: The National Museum of the U.S. Air Force states that its MiG-23MS flew with the 4477th Test Squadron during Project Constant Peg before declassification and museum transfer.",
+            "refs": [
+              "fn-nmusaf-ms"
+            ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-23 similar-development links: 4.",
+            "text": "In Soviet and Warsaw Pact service, the MiG-23 filled the gap between short-range MiG-21 units and later fourth-generation fighters. It offered higher speed, more radar/missile capability, and more flexible basing than the aircraft it replaced, but it did not have the same simple operating model as the MiG-21.",
+            "refs": [
+              "fn-nmusaf-mld",
+              "fn-nmusaf-ms"
+            ]
+          },
+          {
+            "text": "Export aircraft saw service across the Middle East, Africa, Asia, and Eastern Europe. Public accounts often group MiG-23 fighters, MiG-23BN fighter-bombers, and MiG-27 strike aircraft together, so individual air-to-air claims, losses, and ground-attack results should be checked against variant-specific sources before being treated as aircraft-family facts.",
+            "refs": [
+              "fn-march-field",
+              "fn-airforce-technology-mig27",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "One unusual U.S. service chapter was Project Constant Peg. The National Museum of the U.S. Air Force states that its MiG-23MS was flown by the 4477th Test Squadron “Red Eagles” to give U.S. fighter pilots realistic training against Soviet technology before the aircraft was declassified and moved to the museum.",
+            "refs": [
+              "fn-nmusaf-ms"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Primary Soviet role: fighter-interceptor with secondary ground-attack capability.",
+            "refs": [
+              "fn-nmusaf-mld"
+            ]
+          },
+          {
+            "text": "Export combat record: broad but difficult to summarize without country- and variant-specific caveats.",
+            "refs": [
+              "fn-march-field",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "U.S. adversary-training use: Project Constant Peg evaluated MiG-23MS aircraft under classified conditions.",
+            "refs": [
+              "fn-nmusaf-ms"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Role Context",
+        "paragraphs": [
+          {
+            "text": "Compared with the MiG-21, the MiG-23 emphasized range, radar capability, missile reach, and runway flexibility rather than simplicity and close-in agility alone. Compared with Western swing-wing aircraft such as the F-111 or F-14, it was a smaller single-engine fighter rather than a large two-seat strike aircraft or fleet-defense interceptor.",
+            "refs": [
+              "fn-nmusaf-mld",
+              "fn-nmusaf-ms",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Within Milipedia, useful comparisons are the MiG-21 as its direct predecessor, the Su-17 as another Soviet variable-geometry fighter-bomber family, the F-4 Phantom II as a Western BVR-era combat aircraft, and the MiG-29 as a later Soviet fighter generation.",
             "refs": [
               "fn-method"
             ]
@@ -31878,20 +32230,154 @@
         ],
         "links": [
           {
+            "label": "Mikoyan-Gurevich MiG-21",
+            "url": "aircraft.html?id=mig-21"
+          },
+          {
+            "label": "Sukhoi Su-17",
+            "url": "aircraft.html?id=su-17"
+          },
+          {
             "label": "McDonnell Douglas F-4 Phantom II",
             "url": "aircraft.html?id=f-4-phantom-ii"
           },
           {
-            "label": "Northrop F-5",
-            "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
+            "label": "Mikoyan MiG-29",
+            "url": "aircraft.html?id=mig-29"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths included high speed, selectable wing geometry, beyond-visual-range missile integration for a Soviet fighter of its generation, and a large export/support ecosystem. The airframe could serve as an interceptor, fighter, trainer, or attack-family basis depending variant.",
+            "refs": [
+              "fn-nmusaf-ms",
+              "fn-march-field",
+              "fn-wikipedia"
+            ]
           },
           {
-            "label": "Vought F-8 Crusader",
-            "url": "aircraft.html?id=f-8-crusader"
+            "text": "Limitations included high workload, limited rearward visibility in many accounts, variant-sensitive radar/weapons performance, and maintenance demands greater than simpler earlier fighters. Export versions such as the MiG-23MS could be less capable than Soviet domestic standards, so broad family claims can overstate specific aircraft capability.",
+            "refs": [
+              "fn-nmusaf-ms",
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "Milestones below use cautious public-source wording because different sources use prototype, production, and service-entry dates differently.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1964-1966 — Design period for the MiG-23/27 Flogger series in National Museum of the U.S. Air Force summaries.",
+            "refs": [
+              "fn-nmusaf-mld"
+            ]
+          },
+          {
+            "text": "1967 — Variable-geometry MiG-23 prototype first-flight year; Wikipedia gives 10 June 1967 for the 23-11 prototype.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "1969 — Early production MiG-23S flight/production period in supplementary sources.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Early 1970s — MiG-23 service entry period; March Field says operational service began in 1971, while many data tables use 1970 as an introduction shorthand.",
+            "refs": [
+              "fn-march-field",
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "1973 — National Museum of the U.S. Air Force notes first delivery of the MiG-23MS export variant.",
+            "refs": [
+              "fn-nmusaf-ms"
+            ]
+          },
+          {
+            "text": "Cold War and after — Wide Soviet, Warsaw Pact, export, and Project Constant Peg use; many operators later retired the type or moved to later fighters.",
+            "refs": [
+              "fn-nmusaf-ms",
+              "fn-march-field"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "This update uses U.S. Air Force museum pages as the main technical anchors, March Field Air Museum for display specifications and operator geography, Airforce Technology only for MiG-27 derivative context, and Wikipedia for broad orientation. Variant-specific performance should be checked before applying one figure to all MiG-23 aircraft.",
+            "refs": [
+              "fn-nmusaf-ms",
+              "fn-nmusaf-mld",
+              "fn-march-field",
+              "fn-airforce-technology-mig27",
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia aircraft help place the MiG-23 in Soviet fighter development and Cold War fighter comparisons.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Mikoyan-Gurevich MiG-21",
+            "url": "aircraft.html?id=mig-21"
+          },
+          {
+            "label": "Sukhoi Su-17",
+            "url": "aircraft.html?id=su-17"
+          },
+          {
+            "label": "Sukhoi Su-24",
+            "url": "aircraft.html?id=su-24"
+          },
+          {
+            "label": "McDonnell Douglas F-4 Phantom II",
+            "url": "aircraft.html?id=f-4-phantom-ii"
           },
           {
             "label": "Grumman F-14 Tomcat",
             "url": "aircraft.html?id=f-14-tomcat"
+          },
+          {
+            "label": "Mikoyan MiG-29",
+            "url": "aircraft.html?id=mig-29"
+          },
+          {
+            "label": "Back to Aircraft Database",
+            "url": "index.html#database"
           }
         ]
       }

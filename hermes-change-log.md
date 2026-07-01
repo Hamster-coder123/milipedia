@@ -2152,3 +2152,80 @@ Record the result of:
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * Current Global Hawk inventories, retirement status by block, customer readiness, and mission-system fits are date-sensitive; the page uses representative operator coverage and cautious wording rather than a fixed current fleet table.
 * Some derivative details such as RangeHawk and export operating status were summarized at a high level because this single safe run relied on accessible official/manufacturer sources and avoided exhaustive order-of-battle research.
+
+### Run 29 — 2026-07-01 00:01:57 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Mikoyan-Gurevich MiG-23 Flogger (id: mig-23)
+* Reason selected: Sparse-candidate scoring found the MiG-23 was the shortest unedited aircraft entry, with no operators, no variants, no external article sources, missing engine/range/ceiling detail, and placeholder-like generated text far below the F-16 reference page's density.
+* Previous condition: Placeholder-like generated fighter page with 15 exact fact fields, 0 operator entries, 0 variant entries, 0 external article sources, generic armament wording, "Not listed" fields for engine/range/ceiling, and short generated sections with no detailed development, design, variant, operator, timeline, or source-note coverage.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense lead overview; article-section order covering overview, development history, design/capabilities, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, sources/notes, and related pages; concise sourced technical paragraphs; card-style specification summaries; cautious variant/operator caveats; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the MiG-23 entry from a sparse generated fighter page into a fuller Milipedia article data record.
+* Added NATO reporting name Flogger, alternative name, country/manufacturer refinement, role/type clarification, first-flight and introduction caveats, production-family figures, engine, speed, range, ceiling, and cautious service-status wording.
+* Replaced generic armament text with MiG-23-specific wording for the GSh-23L cannon, AA-2/AA-7/AA-8 and later R-23/R-24-family missile context, plus variant-dependent ground-attack stores caveats.
+* Added source metadata and footnotes for the National Museum of the U.S. Air Force MiG-23MS page, National Museum MiG-23MLD page, March Field Air Museum MiG-23 page, Airforce Technology MiG-27 derivative page, supplementary Wikipedia orientation, and Milipedia accuracy rules.
+* Added/expanded sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Comparison and Role Context, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added technical details for variable wing sweep settings, R-29-family turbojet context, approximate Mach 2.35-2.4 maximum speed, March Field dimensions/range/ceiling figures, one-seat/two-seat trainer crew differences, and family production scale.
+* Added variant coverage for 23-11 prototype/early development, MiG-23S, MiG-23M/MF, MiG-23MS, MiG-23ML/MLA, MiG-23MLD, MiG-23BN, and MiG-23UB.
+* Added grouped operator coverage for Soviet forces, Russia/successor forces, Warsaw Pact/Eastern Europe users, Middle East/North Africa users, Asia/Caribbean users, and U.S. Project Constant Peg adversary-training use.
+* Added operational-history context for Soviet/Warsaw Pact service, export use, variant-specific combat-record caveats, and the 4477th Test Squadron/Project Constant Peg museum-aircraft note.
+* Added internal related links to the existing MiG-21, Su-17, Su-24, F-4 Phantom II, F-14 Tomcat, MiG-29, and database pages.
+* Omitted exact current inventories, country-by-country retirement dates, detailed combat claims/losses, and universal weapons fits because those details vary by subvariant, operator, and source date.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Mikoyan-Gurevich MiG-23 aircraft entry, sources, sections, variants, operators, specifications, caveats, and related links.
+* hermes-change-log.md — Appended the cumulative Run 29 log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, the only intended modified files were data/aircraft.json and hermes-change-log.md.
+2. git diff — Reviewed diff/stat and aircraft diff; data/aircraft.json changes are limited to the MiG-23 entry, and hermes-change-log.md adds this Run 29 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool and reviewed the updated MiG-23 fields, sections, sources, variants, operators, specification cards, armament wording, and caveats.
+4. F-16 style comparison — Inspected data/f16-template.html and matched its dense lead, technical/specification emphasis, sourced paragraphs, variants/operators/service/comparison/timeline coverage, source notes, and related-page patterns within the JSON article system.
+5. Internal link check — Verified aircraft.html?id=mig-21, aircraft.html?id=su-17, aircraft.html?id=su-24, aircraft.html?id=f-4-phantom-ii, aircraft.html?id=f-14-tomcat, and aircraft.html?id=mig-29 target existing aircraft ids in data/aircraft.json; index.html#database is an existing site navigation link.
+6. Secret/token check — Ran credential-specific scan over the staged diff for API keys, tokens, passwords, private keys, GitHub tokens, and AWS credentials; no credentials were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, diff check, intended files only, one-entry aircraft diff, MiG-23 was not previously edited by Hermes, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Mikoyan-Gurevich MiG-23 Flogger
+* Commit hash: Pending until commit is created; final hash is reported in the scheduled-run response.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* MiG-23 specifications vary heavily by MiG-23S/M/MF/ML/MLD/BN/UB subvariant and export configuration, so the page uses representative museum figures with explicit caveats rather than a universal performance table.
+* Exact current operators, country-by-country retirement dates, detailed combat claims, and loss records were intentionally omitted or grouped because they are date-sensitive and require variant/operator-specific verification.
