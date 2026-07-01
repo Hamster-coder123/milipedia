@@ -2229,3 +2229,80 @@ Record the result of:
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * MiG-23 specifications vary heavily by MiG-23S/M/MF/ML/MLD/BN/UB subvariant and export configuration, so the page uses representative museum figures with explicit caveats rather than a universal performance table.
 * Exact current operators, country-by-country retirement dates, detailed combat claims, and loss records were intentionally omitted or grouped because they are date-sensitive and require variant/operator-specific verification.
+
+### Run 30 — 2026-07-01 01:01:51 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Douglas A-4 Skyhawk (id: a-4-skyhawk)
+* Reason selected: The page was one of the sparsest unedited aircraft records compared with the F-16 reference, with no summary/specification object, no operator entries, no variant entries, generic generated paragraphs, placeholder specification text, and stale/non-authoritative external source labels.
+* Previous condition: Generated placeholder-style entry with 15 exact fact fields, 0 operator entries, 0 variant entries, no top-level summary/specifications data, generic "gun/air-to-air missiles/air-to-ground weapons" armament wording, and missing development, design, variants, operators, timeline, comparison, and source-note detail.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview lead; technical fact cards; section order from overview through development, design, operational history, notable events, variants, operators, specifications, comparison, timeline, sources, and related pages; concise sourced paragraphs; cautious wording for variant-dependent figures; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the Douglas A-4 Skyhawk entry from a sparse generated record into a fuller Milipedia article data page.
+* Replaced placeholder top-level facts with sourced data for manufacturer, first flight, introduction, U.S. retirement context, number built, crew, representative engines, speed, range, ceiling, hardpoints, armament, combat history, development history, and short summary.
+* Added official and museum-oriented sources from Naval History and Heritage Command / National Naval Aviation Museum, Smithsonian National Air and Space Museum, and The Museum of Flight; retained Wikipedia only as supplementary orientation for broad operator/conflict context.
+* Removed stale generic external source labels and replaced footnotes/external article metadata with named source records.
+* Added detailed sections for Overview, Development History, Design and Capabilities, Operational History, Notable Aircraft/Pilots/Events, Variants, Operators, Specifications, Comparison and Assessment, Timeline, Sources and Notes, and Related Pages.
+* Added variant coverage for A-4A/B/C, A-4E/F, TA-4 trainers, A-4M, and export/modernized families including A-4AR, A-4G, A-4K/Kahu, A-4SU, and A-4KU.
+* Added representative operator coverage for the United States, Israel, Argentina, Australia, New Zealand, Singapore, Brazil, and Kuwait with status caveats.
+* Added design details on Ed Heinemann's lightweight philosophy, non-folding compact delta wing, J65-to-J52 engine progression, carrier suitability, external stores, and Blue Angels/Vietnam/Falklands context.
+* Added specifications using museum-sourced representative figures while avoiding overclaiming that every subvariant shared the same engine, range, avionics, or weapons fit.
+* Added internal related links to A-6 Intruder, A-7 Corsair II, F-4 Phantom II, and F-105 Thunderchief, plus a database return link.
+* Omitted exact current active fleet totals and exhaustive country-by-country inventory details because those are date-sensitive and vary by national upgrade/retirement status.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded the Douglas A-4 Skyhawk aircraft page data, sources, article sections, variants, operators, and technical details.
+* hermes-change-log.md — Appended this cumulative Run 30 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, only data/aircraft.json was modified; after the log update, only data/aircraft.json and hermes-change-log.md were intended for commit.
+2. git diff — Reviewed the data/aircraft.json diff and confirmed it changed only the Douglas A-4 Skyhawk record; reviewed the log append before commit.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the selected entry's section titles, source IDs, operator count, and variant count.
+4. F-16 style comparison — Inspected data/f16-template.html and copied its dense overview, technical cards, section ordering, sourced paragraph style, comparison/timeline/source-note coverage, and related-link pattern within the JSON-rendered page format.
+5. Internal link check — Parsed aircraft.html?id=... links in the updated A-4 entry and verified a-6-intruder, a-7-corsair-ii, f-4-phantom-ii, and f-105-thunderchief exist in data/aircraft.json; index.html return link was left as a site link.
+6. Secret/token check — Ran a credential-pattern scan over the staged diff for API keys, access/auth tokens, passwords, private keys, GitHub tokens, and AWS credentials; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, git diff --check success, one-entry JSON change, intended files only, and no direct main-branch edit.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Douglas A-4 Skyhawk
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Public A-4 specifications vary significantly by subvariant and operator; the article uses representative museum figures and marks range/loadout/engine details as variant-dependent.
+* Exact current active-service status and fleet counts were intentionally not asserted because they are date-sensitive.
+* The final commit hash cannot be embedded in the committed log entry without changing the commit; it is reported in the scheduled-run response.

@@ -10811,31 +10811,97 @@
     "alternative_names": [],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
-    "manufacturer": "Douglas Aircraft",
-    "role": "Carrier-capable attack aircraft",
-    "aircraft_type": "Attack aircraft",
+    "manufacturer": "Douglas Aircraft / McDonnell Douglas",
+    "role": "Carrier-capable light attack aircraft",
+    "aircraft_type": "Light attack aircraft",
     "era": "Cold War",
-    "first_flight": "1954",
-    "introduction_date": "1956",
-    "retirement_date": null,
-    "status": "Active/retired by operator",
-    "number_built": "Not listed",
-    "crew": "1 or 2",
+    "first_flight": "22 June 1954",
+    "introduction_date": "October 1956",
+    "retirement_date": "U.S. Navy 2003; varies by operator",
+    "status": "Retired by U.S. Navy and U.S. Marine Corps; limited foreign service or reserve status varies by operator",
+    "number_built": "2,960",
+    "crew": "1; 2 in TA-4 trainers",
     "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engines": "One Wright J65 on early models or Pratt & Whitney J52 on later production models",
+    "max_speed": "About 673-674 mph at sea level for representative J52-powered models",
     "speed_category": "Subsonic",
-    "range": "Not listed",
+    "range": "About 2,000-2,525 miles depending on model, fuel, and load",
     "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
+    "service_ceiling": "About 33,800 ft for representative A-4E data",
     "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Douglas A-4 Skyhawk: Carrier-capable attack aircraft. Manufacturer: Douglas Aircraft. First flight: 1954. Introduction: 1956.",
-    "short_summary": "Douglas A-4 Skyhawk: Carrier-capable attack aircraft. Origin: United States. Manufacturer: Douglas Aircraft. First flight: 1954. Introduction: 1956. Status: Active/retired by operator.",
+    "armament": "Two 20 mm cannon and external bombs, rockets, missiles, fuel tanks, or mission stores; later models could carry up to about 8,200 lb on five stations.",
+    "hardpoints": "Three on early aircraft; five on later models",
+    "variants": [
+      {
+        "name": "A4D-1 / A-4A",
+        "note": "Initial production single-seat Navy attack model."
+      },
+      {
+        "name": "A4D-2 / A-4B",
+        "note": "Strengthened model with in-flight refueling provisions and other improvements."
+      },
+      {
+        "name": "A4D-2N / A-4C",
+        "note": "All-weather improved model with nose radar, cockpit and safety improvements; Smithsonian notes 638 A-4Cs built."
+      },
+      {
+        "name": "A-4E / A-4F",
+        "note": "J52-powered production models with increased payload capability; A-4F added a more powerful J52-P-8A and avionics hump on many aircraft."
+      },
+      {
+        "name": "TA-4 family",
+        "note": "Two-seat trainer and conversion aircraft used for advanced training and operational conversion."
+      },
+      {
+        "name": "A-4M and export upgrades",
+        "note": "Later Marine Corps A-4M Skyhawk II and national upgrades such as A-4AR, A-4K/Kahu, A-4SU, A-4G, and A-4KU."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "U.S. Navy / U.S. Marine Corps",
+        "note": "Original and largest users; the Navy retired its last Skyhawk in 2003 and the Marine Corps retired the type earlier."
+      },
+      {
+        "country": "Israel",
+        "service": "Israeli Air Force",
+        "note": "Major export combat operator; used Skyhawks in Arab-Israeli conflicts and retired the type from Israeli service in the 2010s."
+      },
+      {
+        "country": "Argentina",
+        "service": "Argentine Air Force / Naval Aviation",
+        "note": "Used A-4 variants in the Falklands War; later A-4AR Fightinghawk modernization extended service."
+      },
+      {
+        "country": "Australia",
+        "service": "Royal Australian Navy",
+        "note": "Operated A-4G Skyhawks from aircraft carrier HMAS Melbourne."
+      },
+      {
+        "country": "New Zealand",
+        "service": "Royal New Zealand Air Force",
+        "note": "Operated A-4K aircraft, later upgraded through the Kahu program."
+      },
+      {
+        "country": "Singapore",
+        "service": "Republic of Singapore Air Force",
+        "note": "Operated and modernized Skyhawks, including A-4SU Super Skyhawk aircraft."
+      },
+      {
+        "country": "Brazil",
+        "service": "Brazilian Naval Aviation",
+        "note": "Operated ex-Kuwaiti carrier-capable Skyhawks as AF-1/F-1 variants."
+      },
+      {
+        "country": "Kuwait",
+        "service": "Kuwait Air Force",
+        "note": "Operated A-4KU aircraft, some of which later went to Brazil."
+      }
+    ],
+    "combat_history": "Major U.S. Navy and Marine Corps light-attack aircraft in the Vietnam War; also used in Israeli, Argentine, Kuwaiti, and other service.",
+    "development_history": "Designed by Ed Heinemann's Douglas team as a deliberately small, light, carrier-capable attack aircraft to replace the piston-engine AD/A-1 Skyraider. The XA4D-1 first flew on 22 June 1954 and the type entered Navy squadron service in 1956.",
+    "short_summary": "The Douglas A-4 Skyhawk was a compact U.S. carrier-capable light attack aircraft designed around simplicity, low weight, and heavy external stores capacity. It became a major Navy and Marine Corps strike aircraft in Vietnam, served with many export users, and flew with the Blue Angels from 1974/1975 to 1986.",
     "carrier_capable": true,
     "stealth": false,
     "images": [
@@ -10848,18 +10914,32 @@
     ],
     "sources": [
       {
+        "id": "fn-nhhc",
+        "title": "A-4 Skyhawk",
+        "url": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/a/a-4-skyhawk.html",
+        "publisher": "Naval History and Heritage Command / National Naval Aviation Museum",
+        "note": "Official Navy museum overview and specifications for the Skyhawk."
+      },
+      {
+        "id": "fn-smithsonian",
+        "title": "Douglas A4D-2N/A-4C Skyhawk",
+        "url": "https://airandspace.si.edu/collection-objects/douglas-a4d-2n-a-4c-skyhawk/nasm_A19760757000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "note": "Museum collection page with design history, variant progression, Vietnam service, and A-4C details."
+      },
+      {
+        "id": "fn-mof",
+        "title": "Douglas A-4F Skyhawk II",
+        "url": "https://www.museumofflight.org/exhibits-and-events/aircraft/douglas-4f-skyhawk-ii",
+        "publisher": "The Museum of Flight",
+        "note": "Museum aircraft page with A-4F specifications, Blue Angels service, and production totals."
+      },
+      {
         "id": "fn-main",
         "title": "Douglas A-4 Skyhawk",
         "url": "https://en.wikipedia.org/wiki/Douglas_A-4_Skyhawk",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for broad operator and conflict context; official and museum sources preferred above."
       },
       {
         "id": "fn-method",
@@ -10867,27 +10947,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://broadcast.illuminatedtech.com/display/story.cfm?bp=109&sid=8088",
-        "publisher": "broadcast.illuminatedtech.com",
-        "note": "External source for Douglas A-4 Skyhawk."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.naval-history.net/F41argaircraft.htm",
-        "publisher": "naval-history.net",
-        "note": "External source for Douglas A-4 Skyhawk."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://home.att.net/~jbaugher4/newa4_15.html",
-        "publisher": "home.att.net",
-        "note": "External source for Douglas A-4 Skyhawk."
       }
     ],
     "country_flags": [
@@ -10897,47 +10956,66 @@
       }
     ],
     "designers": [
-      "Douglas Aircraft"
+      "Ed Heinemann",
+      "Douglas Aircraft Company"
     ],
     "development_tensions": [
-      "Carrier compatibility added structural, landing gear, corrosion, and low-speed handling requirements."
+      "The Navy wanted a jet attack aircraft that could operate from carriers without becoming as large and complex as many 1950s combat aircraft.",
+      "Heinemann's team emphasized a compact delta wing, simple structure, and no wing-fold mechanism; the result was light enough to fit carrier decks without folding wings.",
+      "Performance, weapons carriage, range, and avionics varied substantially between early J65-powered A4D/A-4A-B-C aircraft and later J52-powered A-4E/F/M and export upgrades."
     ],
     "wars_used_in": [
       {
         "name": "Vietnam War",
-        "note": "Douglas A-4 Skyhawk used in Vietnam War."
+        "note": "U.S. Navy and Marine Corps Skyhawks flew light-attack, close-air-support, and strike missions."
+      },
+      {
+        "name": "Arab-Israeli wars",
+        "note": "Israeli A-4s were heavily used as ground-attack aircraft, including during the War of Attrition and Yom Kippur War."
+      },
+      {
+        "name": "Falklands War",
+        "note": "Argentine Skyhawks conducted low-level anti-ship and attack missions against British forces."
+      },
+      {
+        "name": "Gulf War",
+        "note": "Kuwaiti Skyhawks saw wartime use during the 1990-1991 Gulf crisis and Operation Desert Storm period."
       }
     ],
     "variant_families": [
-      "Douglas A-4 Skyhawk baseline production model",
-      "Douglas A-4 Skyhawk upgraded avionics or weapons-capable model",
-      "Douglas A-4 Skyhawk two-seat trainer or conversion model",
-      "Douglas A-4 Skyhawk export or locally modernized model"
+      "A4D-1/A-4A and A4D-2/A-4B early single-seat attack aircraft",
+      "A4D-2N/A-4C all-weather improved model with radar and safety improvements",
+      "A-4E and A-4F J52-powered models with greater payload, five stations, and avionics improvements",
+      "TA-4 family two-seat advanced trainers",
+      "A-4M Skyhawk II U.S. Marine Corps attack variant",
+      "Export and modernization variants including A-4G, A-4K/Kahu, A-4AR Fightinghawk, and A-4SU Super Skyhawk"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Douglas A-4 Skyhawk has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The United States Navy and Marine Corps were the original major users; Israel, Argentina, Australia, New Zealand, Singapore, Brazil, Kuwait, and others operated export or modernized Skyhawks.",
+      "all_operators_status": "U.S. Navy retired its last Skyhawks in 2003; U.S. Marine Corps retired them in 1998; foreign retirement dates vary and some air arms or contractors retained aircraft longer."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "A-4s equipped the U.S. Navy Blue Angels flight demonstration team from the mid-1970s through the 1986 season.",
+        "Naval aviator and future U.S. senator John McCain was flying an A-4E when shot down over North Vietnam in 1967.",
+        "A4D/A-4 aircraft were nicknamed 'Skyhawk,' 'Scooter,' and 'Heinemann's Hot Rod' in reference to the aircraft's compact size and lively handling."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "During testing the Skyhawk set a 500 km closed-course speed record at about 695 mph, an unusual achievement for a light attack aircraft.",
+        "Vietnam-era combat losses and shipboard operations made the type central to U.S. naval aviation experience in the 1960s and 1970s.",
+        "Argentine Skyhawk attacks in the Falklands War demonstrated the risk posed by low-level strike aircraft even in the missile age."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Douglas A-4 Skyhawk uses jet propulsion."
+      "type": "Single turbojet",
+      "summary": "Early Skyhawks used Wright J65 turbojets, while later A-4E/F/M and many export aircraft used Pratt & Whitney J52 engines; representative museum data lists the J52-P-6A at 8,500 lb static thrust and the A-4F J52-P-8A at 9,300 lb thrust."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Standard gun armament was two 20 mm cannon. External stores could include bombs, rockets, Sidewinder missiles on some variants, fuel tanks, buddy-refueling stores, and nuclear or conventional strike loads depending on model and era.",
+      "caution": "Exact weapons and maximum loads are variant-, nation-, and period-specific; public sources commonly cite about 5,000 lb on early three-station aircraft and up to about 8,200 lb on later five-station aircraft."
     },
     "similar_development": [
       {
@@ -10962,76 +11040,76 @@
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 34,
+      "operator_entries": 8,
+      "variant_entries": 6,
+      "external_article_sources": 4
     },
     "footnotes": [
+      {
+        "id": "fn-nhhc",
+        "title": "A-4 Skyhawk",
+        "url": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/a/a-4-skyhawk.html",
+        "publisher": "Naval History and Heritage Command / National Naval Aviation Museum",
+        "note": "Official Navy museum overview and specifications for the Skyhawk."
+      },
+      {
+        "id": "fn-smithsonian",
+        "title": "Douglas A4D-2N/A-4C Skyhawk",
+        "url": "https://airandspace.si.edu/collection-objects/douglas-a4d-2n-a-4c-skyhawk/nasm_A19760757000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "note": "Museum collection page with design history, variant progression, Vietnam service, and A-4C details."
+      },
+      {
+        "id": "fn-mof",
+        "title": "Douglas A-4F Skyhawk II",
+        "url": "https://www.museumofflight.org/exhibits-and-events/aircraft/douglas-4f-skyhawk-ii",
+        "publisher": "The Museum of Flight",
+        "note": "Museum aircraft page with A-4F specifications, Blue Angels service, and production totals."
+      },
       {
         "id": "fn-main",
         "title": "Douglas A-4 Skyhawk",
         "url": "https://en.wikipedia.org/wiki/Douglas_A-4_Skyhawk",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for broad operator and conflict context; official and museum sources preferred above."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://broadcast.illuminatedtech.com/display/story.cfm?bp=109&sid=8088",
-        "publisher": "broadcast.illuminatedtech.com",
-        "note": "External source for Douglas A-4 Skyhawk."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.naval-history.net/F41argaircraft.htm",
-        "publisher": "naval-history.net",
-        "note": "External source for Douglas A-4 Skyhawk."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://home.att.net/~jbaugher4/newa4_15.html",
-        "publisher": "home.att.net",
-        "note": "External source for Douglas A-4 Skyhawk."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://broadcast.illuminatedtech.com/display/story.cfm?bp=109&sid=8088",
-        "publisher": "broadcast.illuminatedtech.com",
-        "note": "External source for Douglas A-4 Skyhawk."
+        "id": "fn-nhhc",
+        "title": "A-4 Skyhawk",
+        "url": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/a/a-4-skyhawk.html",
+        "publisher": "Naval History and Heritage Command / National Naval Aviation Museum",
+        "note": "Official Navy museum overview and specifications for the Skyhawk."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.naval-history.net/F41argaircraft.htm",
-        "publisher": "naval-history.net",
-        "note": "External source for Douglas A-4 Skyhawk."
+        "id": "fn-smithsonian",
+        "title": "Douglas A4D-2N/A-4C Skyhawk",
+        "url": "https://airandspace.si.edu/collection-objects/douglas-a4d-2n-a-4c-skyhawk/nasm_A19760757000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "note": "Museum collection page with design history, variant progression, Vietnam service, and A-4C details."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://home.att.net/~jbaugher4/newa4_15.html",
-        "publisher": "home.att.net",
-        "note": "External source for Douglas A-4 Skyhawk."
+        "id": "fn-mof",
+        "title": "Douglas A-4F Skyhawk II",
+        "url": "https://www.museumofflight.org/exhibits-and-events/aircraft/douglas-4f-skyhawk-ii",
+        "publisher": "The Museum of Flight",
+        "note": "Museum aircraft page with A-4F specifications, Blue Angels service, and production totals."
+      },
+      {
+        "id": "fn-main",
+        "title": "Douglas A-4 Skyhawk",
+        "url": "https://en.wikipedia.org/wiki/Douglas_A-4_Skyhawk",
+        "publisher": "Wikipedia",
+        "note": "Supplementary orientation source for broad operator and conflict context; official and museum sources preferred above."
       }
     ],
     "article_sections": [
@@ -11040,20 +11118,24 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Douglas A-4 Skyhawk is a Carrier-capable attack aircraft from United States. Manufacturer: Douglas Aircraft. First flight: 1954. Introduction: 1956. Status: Active/retired by operator.",
+            "text": "The Douglas A-4 Skyhawk was a compact, single-engine, carrier-capable light attack aircraft designed for the U.S. Navy and Marine Corps. It was deliberately smaller and simpler than many 1950s jet combat aircraft, yet it could carry a substantial external weapons load from carrier decks and austere shore bases.",
             "refs": [
-              "fn-main"
+              "fn-nhhc",
+              "fn-smithsonian"
             ]
           },
           {
-            "text": "Douglas A-4 Skyhawk is a attack aircraft. Primary role: carrier-capable attack aircraft. Country of origin: United States. Manufacturer: Douglas Aircraft.",
+            "text": "Ed Heinemann's Douglas team produced a design that avoided folding wings, used a short-span delta wing, and emphasized low weight, easy handling aboard carriers, and straightforward maintenance. Nearly 3,000 aircraft were produced from the mid-1950s through 1979, and the family served in attack, trainer, adversary, demonstration, and export roles.",
             "refs": [
-              "fn-wikidata"
+              "fn-nhhc",
+              "fn-mof"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The Skyhawk became one of the defining U.S. naval attack aircraft of the Vietnam era and was later prominent in Israeli, Argentine, Kuwaiti, Brazilian, Singaporean, New Zealand, Australian, and other service. Public specifications vary by model; this page uses representative museum figures and notes variant-specific uncertainty where appropriate.",
             "refs": [
+              "fn-smithsonian",
+              "fn-main",
               "fn-method"
             ]
           }
@@ -11061,44 +11143,77 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Carrier-capable attack aircraft"
+            "text": "Carrier-capable light attack aircraft"
           },
           {
-            "title": "Designer or builder",
-            "text": "Douglas Aircraft"
+            "title": "Designer",
+            "text": "Ed Heinemann / Douglas Aircraft Company"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "First flight",
+            "text": "22 June 1954"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Production",
+            "text": "2,960 built, 1950s-1979"
+          },
+          {
+            "title": "Nickname",
+            "text": "Skyhawk, Scooter, Heinemann's Hot Rod"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Douglas A-4 Skyhawk first flew in 1954. Introduction date: 1956. Era: Cold War.",
+            "text": "The A-4 originated when the Navy sought a jet-powered replacement for the piston-engine AD/A-1 Skyraider. Rather than meet the requirement with a large and complex aircraft, Heinemann's team proposed a much smaller attack jet that reportedly came in at roughly half the requested weight while still meeting the Navy's operational needs.",
             "refs": [
+              "fn-smithsonian",
+              "fn-mof"
+            ]
+          },
+          {
+            "text": "The initial Navy contract was issued in June 1952, the XA4D-1 first flew on 22 June 1954, and early Skyhawks reached squadron service in October 1956. Test flying also produced a 500 km closed-course speed record near 695 mph, underscoring how lively the small attack aircraft was for its class.",
+            "refs": [
+              "fn-smithsonian",
               "fn-main"
             ]
           },
           {
-            "text": "Producer: Douglas Aircraft. Development context: carrier-capable attack aircraft, jet propulsion, subsonic speed category, Cold War era.",
+            "text": "Production and improvement continued through multiple generations: early J65-powered A4D/A-4A/B/C aircraft, later J52-powered A-4E/F/M models, two-seat TA-4 trainers, and export aircraft with national avionics and weapons upgrades.",
             "refs": [
-              "fn-wikidata"
+              "fn-smithsonian",
+              "fn-nhhc"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Carrier compatibility added structural, landing gear, corrosion, and low-speed handling requirements.",
+            "text": "1952: Navy contract for the first Skyhawk prototype.",
             "refs": [
-              "fn-method"
+              "fn-smithsonian"
+            ]
+          },
+          {
+            "text": "1954: First flight of the XA4D-1.",
+            "refs": [
+              "fn-smithsonian"
+            ]
+          },
+          {
+            "text": "1956: First operational Navy deliveries and service entry.",
+            "refs": [
+              "fn-smithsonian",
+              "fn-nhhc"
+            ]
+          },
+          {
+            "text": "1979: Production ended after about 2,960 aircraft.",
+            "refs": [
+              "fn-mof",
+              "fn-main"
             ]
           }
         ]
@@ -11108,50 +11223,49 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1 or 2. Propulsion: Jet. Speed category: Subsonic.",
+            "text": "The Skyhawk's compact delta wing did not fold, saving weight and reducing mechanical complexity on carrier decks. Its small size, tricycle landing gear, arresting hook, and robust structure made it suitable for shipboard attack operations while preserving enough performance for low-level strike missions.",
             "refs": [
-              "fn-main"
+              "fn-smithsonian",
+              "fn-mof"
             ]
           },
           {
-            "text": "Carrier capable: yes. Stealth: no.",
+            "text": "Early aircraft used Wright J65 turbojets; later production models adopted Pratt & Whitney J52 engines that improved thrust, fuel consumption, and payload capability. Museum data for a representative A-4E lists one J52-P-6A at 8,500 lb static thrust, while The Museum of Flight lists an A-4F J52-P-8A at 9,300 lb thrust.",
             "refs": [
+              "fn-nhhc",
+              "fn-mof",
+              "fn-smithsonian"
+            ]
+          },
+          {
+            "text": "Armament centered on two 20 mm cannon and external stores. Early three-station aircraft carried about 5,000 lb, while subsequent five-station models are commonly cited with up to about 8,200 lb of ordnance; actual loads depended on engine, variant, mission, carrier conditions, and operator clearances.",
+            "refs": [
+              "fn-nhhc",
+              "fn-smithsonian",
               "fn-method"
-            ]
-          },
-          {
-            "text": "Douglas A-4 Skyhawk uses jet propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "1 or 2"
+            "text": "1 pilot; 2 in TA-4 trainers"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Wing",
+            "text": "Compact delta wing, no folding mechanism"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Engine family",
+            "text": "Wright J65 early; Pratt & Whitney J52 later"
           },
           {
             "title": "Carrier capable",
             "text": "Yes"
           },
           {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Stores",
+            "text": "Cannon plus bombs, rockets, missiles, tanks, buddy-refueling or other mission stores"
           }
         ]
       },
@@ -11160,61 +11274,94 @@
         "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Douglas A-4 Skyhawk status: Active/retired by operator. Conflict entries: 1.",
+            "text": "In U.S. service the Skyhawk equipped Navy and Marine attack squadrons, fought extensively in Vietnam, served as an advanced trainer in TA-4 form, and later worked as an adversary/aggressor aircraft. It also flew with the Blue Angels from the mid-1970s through the 1986 season.",
             "refs": [
-              "fn-main"
+              "fn-nhhc",
+              "fn-smithsonian",
+              "fn-mof"
             ]
           },
           {
-            "text": "Conflicts: Vietnam War.",
+            "text": "Export Skyhawks saw important combat service outside the United States. Israeli aircraft flew major ground-attack missions in Middle Eastern wars; Argentine Skyhawks made low-level attacks in the Falklands War; Kuwaiti A-4KUs were associated with Gulf War-era operations; and several countries modernized aircraft for long post-production careers.",
             "refs": [
+              "fn-nhhc",
+              "fn-main",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The Navy retired its last Skyhawk in 2003, fifty-one years after issuing the first prototype contract, but non-U.S. retirement dates and residual operations differ by country and should be checked against current national sources before treating any operator list as final.",
+            "refs": [
+              "fn-nhhc",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Vietnam War: Douglas A-4 Skyhawk used in Vietnam War.",
+            "text": "Vietnam War: U.S. Navy and Marine Corps strike and close-support use.",
+            "refs": [
+              "fn-smithsonian"
+            ]
+          },
+          {
+            "text": "Blue Angels: Demonstration-team aircraft through the 1975-1986 period noted by museum sources.",
+            "refs": [
+              "fn-nhhc",
+              "fn-mof"
+            ]
+          },
+          {
+            "text": "Falklands War: Argentine Skyhawks demonstrated low-level anti-ship attack effectiveness and vulnerability.",
             "refs": [
               "fn-main"
+            ]
+          },
+          {
+            "text": "Post-U.S. service: Brazil, Argentina, Singapore, New Zealand, Israel, and other users operated upgraded or export Skyhawks for varying periods.",
+            "refs": [
+              "fn-main",
+              "fn-method"
             ]
           }
         ]
       },
       {
         "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
+        "title": "Notable Aircraft, Pilots, and Events",
         "paragraphs": [
           {
-            "text": "Douglas A-4 Skyhawk named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
+            "text": "The Skyhawk is closely associated with Ed Heinemann's lightweight design philosophy, often summarized by the phrase 'simplicate and add lightness.' Its lack of folding wings and small deck footprint became defining design features rather than limitations.",
             "refs": [
-              "fn-main"
+              "fn-smithsonian",
+              "fn-mof"
+            ]
+          },
+          {
+            "text": "A-4s also have a visible public legacy through preserved museum aircraft, Blue Angels display history, and Vietnam-era stories. John McCain was flying an A-4E from USS Oriskany when he was shot down over North Vietnam in 1967; that event is notable historically but does not define the aircraft's full service record.",
+            "refs": [
+              "fn-main",
+              "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Named pilots listed: 0.",
+            "text": "The National Naval Aviation Museum displays multiple Skyhawks, including a first-production A-4A and Blue Angels aircraft.",
             "refs": [
-              "fn-method"
+              "fn-nhhc"
             ]
           },
           {
-            "text": "Named individual aircraft listed: 0.",
+            "text": "The Smithsonian A-4C is documented as a VA-76 aircraft that served from USS Bon Homme Richard during the Vietnam War period.",
             "refs": [
-              "fn-method"
+              "fn-smithsonian"
             ]
           },
           {
-            "text": "Notable incidents listed: 0.",
+            "text": "The Museum of Flight's A-4F served with Navy units, later with the Blue Angels, and is preserved in Blue Angel markings.",
             "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-mof"
             ]
           }
         ]
@@ -11224,41 +11371,57 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Douglas A-4 Skyhawk variant-family entries: 4. Variant families: Douglas A-4 Skyhawk baseline production model; Douglas A-4 Skyhawk upgraded avionics or weapons-capable model; Douglas A-4 Skyhawk two-seat trainer or conversion model; Douglas A-4 Skyhawk export or locally modernized model.",
+            "text": "The A-4 family is best understood as a long-running series rather than a single fixed configuration. Early A4D aircraft used J65 engines and three stores stations; later A-4E/F/M aircraft used J52 powerplants and expanded avionics and payload options; two-seat TA-4 aircraft supported advanced training.",
             "refs": [
-              "fn-main"
+              "fn-smithsonian",
+              "fn-nhhc"
             ]
           },
           {
-            "text": "Complete variant entries listed: 0.",
+            "text": "Export and national upgrade programs changed avionics, engines, weapons, and navigation systems. Because equipment fit differed widely, variant-level specifications should be treated as representative unless a specific subvariant and operator are named.",
             "refs": [
-              "fn-method"
+              "fn-method",
+              "fn-main"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Douglas A-4 Skyhawk baseline production model",
+            "text": "A-4A/B: early single-seat Navy attack models, originally designated A4D under the pre-1962 Navy system.",
+            "refs": [
+              "fn-smithsonian"
+            ]
+          },
+          {
+            "text": "A-4C: all-weather improved model; Smithsonian notes 638 A-4Cs built, making it a major early-production model.",
+            "refs": [
+              "fn-smithsonian"
+            ]
+          },
+          {
+            "text": "A-4E/F: J52-powered aircraft with greater payload and avionics changes; many A-4Fs carried the recognizable avionics hump.",
+            "refs": [
+              "fn-smithsonian",
+              "fn-mof"
+            ]
+          },
+          {
+            "text": "TA-4: two-seat advanced trainer and conversion family.",
+            "refs": [
+              "fn-nhhc"
+            ]
+          },
+          {
+            "text": "A-4M: late U.S. Marine Corps Skyhawk II attack model.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Douglas A-4 Skyhawk upgraded avionics or weapons-capable model",
+            "text": "A-4AR, A-4G, A-4K/Kahu, A-4SU, and A-4KU: representative export or national modernization families.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Douglas A-4 Skyhawk two-seat trainer or conversion model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Douglas A-4 Skyhawk export or locally modernized model",
-            "refs": [
-              "fn-main"
+              "fn-main",
+              "fn-method"
             ]
           }
         ]
@@ -11268,29 +11431,53 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Douglas A-4 Skyhawk has 1 designer or builder country entry.",
+            "text": "The United States Navy and Marine Corps were the primary original operators, but the Skyhawk became an unusually international attack aircraft. Public lists include numerous air arms; this page highlights representative major operators rather than a complete current order of battle.",
             "refs": [
-              "fn-wikidata"
+              "fn-nhhc",
+              "fn-main",
+              "fn-method"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Many operator histories involve locally modified aircraft and changing retirement dates. For example, Argentina, Brazil, Singapore, New Zealand, Israel, Australia, and Kuwait operated distinct Skyhawk versions or upgrades with different avionics and weapons clearances.",
             "refs": [
+              "fn-main",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "United States: Navy, Marine Corps, training, adversary, and Blue Angels service.",
+            "refs": [
+              "fn-nhhc",
+              "fn-mof"
+            ]
+          },
+          {
+            "text": "Israel: major ground-attack operator in Arab-Israeli conflicts.",
+            "refs": [
+              "fn-nhhc",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Argentina: Air Force and naval Skyhawks, including Falklands War combat and later A-4AR modernization.",
+            "refs": [
+              "fn-nhhc",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Australia and New Zealand: naval and air force A-4G/A-4K family operations in the Pacific region.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "Singapore, Brazil, and Kuwait: notable later export and modernization users.",
             "refs": [
-              "fn-wikidata"
+              "fn-main"
             ]
           }
         ]
@@ -11300,13 +11487,122 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1 or 2, propulsion type Jet, maximum speed category Subsonic, first flight 1954, introduction 1956.",
+            "text": "Representative A-4E/A-4F family data from museum sources: crew one; length about 40 ft; wingspan about 27 ft 6 in; height about 15 ft; empty weight around 9,853-10,000 lb; gross or maximum takeoff weight about 24,500 lb.",
             "refs": [
+              "fn-nhhc",
+              "fn-mof"
+            ]
+          },
+          {
+            "text": "Powerplant and performance: one Pratt & Whitney J52 on later representative models, with museum figures ranging from 8,500 lb static thrust for a J52-P-6A to 9,300 lb for a J52-P-8A; maximum speed about 673-674 mph at sea level; service ceiling about 33,800 ft in NHHC data; range commonly reported around 2,000-2,525 miles depending on model and load.",
+            "refs": [
+              "fn-nhhc",
+              "fn-mof"
+            ]
+          },
+          {
+            "text": "Armament: two 20 mm cannon and external stores. NHHC cites up to 8,200 lb of ordnance for the displayed A-4E-era data, while Smithsonian notes earlier three-station aircraft around 5,000 lb and subsequent five-station models at higher load; exact operational loads should be matched to subvariant and mission.",
+            "refs": [
+              "fn-nhhc",
+              "fn-smithsonian",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Assessment",
+        "paragraphs": [
+          {
+            "text": "Compared with larger U.S. Navy attack aircraft such as the A-6 Intruder and A-7 Corsair II, the A-4 was simpler, lighter, and cheaper, but it had less all-weather sensor capability and less internal fuel/payload growth. Its strengths were small size, carrier handling, maintainability, and a useful weapons load for a compact single-engine aircraft.",
+            "refs": [
+              "fn-smithsonian",
+              "fn-mof",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The Skyhawk's long export life reflected upgrade potential, but later air-defense environments exposed the limitations of a subsonic, non-stealthy attack aircraft without the sensors and survivability systems of newer strike platforms.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "Key dates are listed for broad orientation; some operator-specific milestones vary by country and variant.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1952: Navy prototype contract for the Skyhawk program.",
+            "refs": [
+              "fn-smithsonian"
+            ]
+          },
+          {
+            "text": "22 June 1954: First flight of the XA4D-1.",
+            "refs": [
+              "fn-smithsonian"
+            ]
+          },
+          {
+            "text": "October 1956: First operational deliveries to Navy attack squadron service.",
+            "refs": [
+              "fn-smithsonian"
+            ]
+          },
+          {
+            "text": "1960s-1970s: Major U.S. Navy and Marine Corps combat use in Vietnam.",
+            "refs": [
+              "fn-smithsonian"
+            ]
+          },
+          {
+            "text": "1974/1975-1986: Blue Angels Skyhawk era, depending on source framing of transition and seasons.",
+            "refs": [
+              "fn-nhhc",
+              "fn-mof"
+            ]
+          },
+          {
+            "text": "1979: End of production after about 2,960 aircraft.",
+            "refs": [
+              "fn-mof",
               "fn-main"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "2003: U.S. Navy retired its last Skyhawk.",
+            "refs": [
+              "fn-nhhc"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Official and museum sources were prioritized for this update: Naval History and Heritage Command/National Naval Aviation Museum, Smithsonian National Air and Space Museum, and The Museum of Flight. Wikipedia was retained only as supplementary orientation for broad operator and conflict context.",
+            "refs": [
+              "fn-nhhc",
+              "fn-smithsonian",
+              "fn-mof",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Figures on speed, range, engines, and armament differ by A-4 subvariant. The specifications above use representative museum aircraft data and avoid claiming that every Skyhawk had the same engine, payload, or avionics fit.",
             "refs": [
               "fn-method"
             ]
@@ -11315,20 +11611,16 @@
       },
       {
         "id": "similar-development",
-        "title": "Similar Development",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "Douglas A-4 Skyhawk similar-development links: 4.",
+            "text": "Related Milipedia pages include carrier and Cold War attack aircraft that help frame the Skyhawk's role and successors.",
             "refs": [
               "fn-method"
             ]
           }
         ],
         "links": [
-          {
-            "label": "Republic F-105 Thunderchief",
-            "url": "aircraft.html?id=f-105-thunderchief"
-          },
           {
             "label": "Grumman A-6 Intruder",
             "url": "aircraft.html?id=a-6-intruder"
@@ -11338,8 +11630,16 @@
             "url": "aircraft.html?id=a-7-corsair-ii"
           },
           {
-            "label": "Sukhoi Su-7",
-            "url": "aircraft.html?id=su-7"
+            "label": "McDonnell Douglas F-4 Phantom II",
+            "url": "aircraft.html?id=f-4-phantom-ii"
+          },
+          {
+            "label": "Republic F-105 Thunderchief",
+            "url": "aircraft.html?id=f-105-thunderchief"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "index.html"
           }
         ]
       }
