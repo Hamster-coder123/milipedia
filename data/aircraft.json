@@ -17940,86 +17940,132 @@
   {
     "id": "e-2-hawkeye",
     "name": "Grumman E-2 Hawkeye",
-    "alternative_names": [],
+    "alternative_names": [
+      "E-2C Hawkeye",
+      "E-2D Advanced Hawkeye",
+      "Advanced Hawkeye"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
     "manufacturer": "Grumman / Northrop Grumman",
-    "role": "Carrier-based AEW aircraft",
+    "role": "Carrier-based airborne early warning, battle management, and command-and-control aircraft",
     "aircraft_type": "AWACS/AEW",
     "era": "Cold War/Modern",
-    "first_flight": "1960",
-    "introduction_date": "1964",
+    "first_flight": "21 October 1960 for the E-2 prototype family; E-2D first flight 3 August 2007",
+    "introduction_date": "January 1964; E-2D initial operational capability in October 2014",
     "retirement_date": null,
     "status": "Active",
-    "number_built": "Not listed",
-    "crew": "5",
+    "number_built": "More than 200 E-2-family aircraft; exact total varies by source and production block",
+    "crew": "5: two pilots and three mission-system operators",
     "engine_type": "Turboprop",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engines": "Two Allison/Rolls-Royce T56-A-427 turboprop engines; E-2D uses upgraded T56-A-427A-family powerplants",
+    "max_speed": "300+ knots; U.S. Navy fact file lists 345 mph / 552 km/h",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Support aircraft; fixed offensive armament not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Grumman E-2 Hawkeye: Carrier-based AEW aircraft. Manufacturer: Grumman / Northrop Grumman. First flight: 1960. Introduction: 1964.",
-    "short_summary": "Grumman E-2 Hawkeye: Carrier-based AEW aircraft. Origin: United States. Manufacturer: Grumman / Northrop Grumman. First flight: 1960. Introduction: 1964. Status: Active.",
+    "range": "Range/endurance varies by mission profile; aerial-refueling-equipped E-2D aircraft extend time on station",
+    "combat_range": "Not normally stated as a combat radius; mission value is airborne station time and radar/command-and-control coverage",
+    "service_ceiling": "30,000 ft / 9,100 m",
+    "rate_of_climb": "Not listed in official Navy fact-file data",
+    "armament": "Unarmed airborne early warning and command-and-control aircraft; mission equipment is radar, IFF, electronic surveillance, communications, and battle-management systems rather than fixed weapons.",
+    "hardpoints": "No offensive weapons stations; carrier equipment includes catapult launch fittings, arresting hook, and folding wings",
+    "variants": [
+      {
+        "name": "E-2A",
+        "description": "Initial production Hawkeye that replaced the E-1 Tracer and introduced a purpose-designed carrier AEW airframe for the U.S. Navy."
+      },
+      {
+        "name": "E-2B",
+        "description": "Upgraded early Hawkeye with improved computing and reliability modifications applied to E-2A airframes."
+      },
+      {
+        "name": "E-2C",
+        "description": "Major production and modernization family that entered service in 1973, adding upgraded radar, mission computers, electronic surveillance equipment, engines, and propellers across successive blocks."
+      },
+      {
+        "name": "E-2C Hawkeye 2000",
+        "description": "Late E-2C standard with a new mission computer, improved radar displays, and Cooperative Engagement Capability integrated with Aegis-equipped ships for theater air and missile-defense support."
+      },
+      {
+        "name": "E-2D Advanced Hawkeye",
+        "description": "Current-production variant with a state-of-the-art radar, open-architecture mission systems, improved situational awareness, upgraded supportability, and aerial-refueling provisions on later aircraft."
+      },
+      {
+        "name": "Export E-2C/E-2D aircraft",
+        "description": "International Hawkeyes tailored for operators such as France, Japan, Egypt, Taiwan, Singapore, Mexico, and earlier Israeli service; equipment and upgrade state vary by customer and date."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "United States Navy",
+        "notes": "Primary operator; carrier airborne-command-and-control squadrons use E-2C and E-2D aircraft as the command-and-control node of the carrier air wing."
+      },
+      {
+        "country": "France",
+        "service": "French Navy",
+        "notes": "Operates carrier-capable E-2 aircraft from French naval aviation and has ordered E-2D Advanced Hawkeye aircraft for future service."
+      },
+      {
+        "country": "Japan",
+        "service": "Japan Air Self-Defense Force",
+        "notes": "Long-time Hawkeye operator for island-chain air surveillance and command-and-control duties; Japan has procured E-2D aircraft through U.S. foreign military sales."
+      },
+      {
+        "country": "Egypt",
+        "service": "Egyptian Air Force",
+        "notes": "E-2C operator listed by U.S. Navy fact-file material and manufacturer international-user summaries."
+      },
+      {
+        "country": "Taiwan",
+        "service": "Republic of China Air Force",
+        "notes": "Operates E-2-family aircraft for air-surveillance and command-and-control coverage around Taiwan."
+      },
+      {
+        "country": "Singapore, Mexico, and Israel",
+        "service": "National air arms, with Israel a former operator",
+        "notes": "Representative additional E-2C users; current status, upgrade standard, and fleet counts are date-sensitive."
+      }
+    ],
+    "combat_history": "The E-2 made its combat debut during the Vietnam War and later supported U.S. Navy operations around the world. Navy fact-file history credits Hawkeyes with directing F-14 combat air patrols during the 1986 Libya strikes, airborne command and control during the 1991 Gulf War, Northern and Southern Watch over Iraq, NATO operations over the former Yugoslavia, and Operations Enduring Freedom and Iraqi Freedom.",
+    "development_history": "Developed by Grumman as the successor to the E-1 Tracer, the E-2 was the first carrier-based aircraft designed from the outset for all-weather airborne early warning and command-and-control. The airframe combined a high wing, twin turboprops, folding wings, carrier landing gear, and a large dorsal rotodome. The E-2C became operational in 1973, while the E-2D Advanced Hawkeye reached initial operational capability in October 2014.",
+    "short_summary": "The Grumman E-2 Hawkeye is a U.S. Navy carrier-based airborne early warning, battle-management, and command-and-control aircraft. Its twin-turboprop, high-wing airframe carries a large 24-foot radar rotodome and a five-person crew, allowing carrier strike groups and joint commanders to detect, classify, and manage air and surface activity far beyond shipboard sensor horizons.",
     "carrier_capable": true,
     "stealth": false,
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/E-2D_Advanced_Hawkeye_aircraft_conduct_a_test_flight.jpg/330px-E-2D_Advanced_Hawkeye_aircraft_conduct_a_test_flight.jpg",
-        "caption": "Grumman E-2 Hawkeye",
+        "caption": "E-2D Advanced Hawkeye during a test flight",
         "credit": "Wikimedia/Wikipedia thumbnail source",
         "license": "Verify original file license before reuse."
       }
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-navy",
+        "title": "E-2 Hawkeye Airborne Command and Control Aircraft",
+        "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2382134/e-2-hawkeye-airborne-command-and-control-aircraft",
+        "publisher": "U.S. Navy",
+        "note": "Official Navy fact file used for mission description, background, variants, operational-history examples, and general characteristics."
+      },
+      {
+        "id": "fn-northrop",
+        "title": "E-2D Advanced Hawkeye",
+        "url": "https://www.northropgrumman.com/what-we-do/aircraft/e-2d-advanced-hawkeye",
+        "publisher": "Northrop Grumman",
+        "note": "Manufacturer page used for E-2D modernization, mission-system, interoperability, and international-community context."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Grumman E-2 Hawkeye",
         "url": "https://en.wikipedia.org/wiki/Grumman_E-2_Hawkeye",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for first-flight date, broad variant list, and historic/export cross-checking; not used alone for technical claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.history.navy.mil/planes/e2.htm",
-        "publisher": "history.navy.mil",
-        "note": "External source for Grumman E-2 Hawkeye."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.caew.info/",
-        "publisher": "caew.info",
-        "note": "External source for Grumman E-2 Hawkeye."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.irconnect.com/noc/press/pages/news_releases.html?d=124332",
-        "publisher": "irconnect.com",
-        "note": "External source for Grumman E-2 Hawkeye."
+        "note": "Repository-local guidance for conservative wording where variant, operator, inventory, or current-status details vary."
       }
     ],
     "country_flags": [
@@ -18029,119 +18075,125 @@
       }
     ],
     "designers": [
-      "Grumman / Northrop Grumman"
+      "Grumman Aircraft Engineering Corporation",
+      "Northrop Grumman"
     ],
     "development_tensions": [
-      "Carrier compatibility added structural, landing gear, corrosion, and low-speed handling requirements."
+      "Carrier compatibility required folding wings, rugged landing gear, corrosion protection, catapult launch structure, and low-speed handling while still carrying a large radar rotodome.",
+      "The aircraft trades fighter speed and self-defense weapons for endurance, sensor reach, communications capacity, and command-and-control crew workstations.",
+      "E-2D modernization improves sensor and network capability, but operator counts, export deliveries, and upgrade states remain date-sensitive."
     ],
-    "wars_used_in": [],
+    "wars_used_in": [
+      "Vietnam War",
+      "1986 Libya strikes",
+      "Gulf War",
+      "Operations Northern Watch and Southern Watch",
+      "Operation Deny Flight and NATO Balkans operations",
+      "Operation Enduring Freedom",
+      "Operation Iraqi Freedom"
+    ],
     "variant_families": [
-      "Grumman E-2 Hawkeye baseline production model",
-      "Grumman E-2 Hawkeye upgraded avionics or weapons-capable model"
+      "E-2A",
+      "E-2B",
+      "E-2C",
+      "E-2C Hawkeye 2000",
+      "E-2D Advanced Hawkeye",
+      "Export E-2C/E-2D aircraft"
     ],
     "operator_summary": {
-      "major_designer_or_builder": [
-        "United States"
+      "primary_users": [
+        "United States Navy",
+        "French Navy",
+        "Japan Air Self-Defense Force",
+        "Egyptian Air Force",
+        "Republic of China Air Force"
       ],
-      "major_user_note": "Grumman E-2 Hawkeye has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "notes": "The United States Navy is the principal operator; E-2C/E-2D aircraft also serve or have served with several allied and partner air arms."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "Individual aircraft and crew names are not emphasized in this overview because the Hawkeye's significance is normally squadron, carrier-air-wing, and command-and-control employment."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "The 1991 Gulf War example in Navy fact-file history credits E-2 control with supporting the carrier-based F/A-18 shoot-down of two Iraqi MiG-21 aircraft.",
+        "Aerial-refueling-equipped E-2D aircraft completed fleet training in FY2020, expanding range and persistence for carrier operations."
       ]
     },
     "engine_details": {
-      "type": "Turboprop",
-      "summary": "Grumman E-2 Hawkeye uses turboprop propulsion."
+      "type": "Two turboprops",
+      "summary": "Official Navy characteristics list two Allison T56-A-427 turboprop engines rated at 5,100 shaft horsepower each for the Hawkeye family; E-2D aircraft use modernized T56-A-427A-family engines and upgraded support systems."
     },
     "armament_details": {
-      "summary": "Support aircraft; fixed offensive armament not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "The Hawkeye is unarmed in normal service. Its operational effect comes from radar, IFF, passive sensors, communications relay, and crew-directed battle management.",
+      "caution": "Do not infer fighter-style hardpoints or offensive weapon loads for E-2 variants."
     },
     "similar_development": [
       {
         "id": "e-3-sentry",
         "name": "Boeing E-3 Sentry",
         "url": "aircraft.html?id=e-3-sentry"
+      },
+      {
+        "id": "f-14-tomcat",
+        "name": "Grumman F-14 Tomcat",
+        "url": "aircraft.html?id=f-14-tomcat"
+      },
+      {
+        "id": "f-a-18-hornet",
+        "name": "McDonnell Douglas F/A-18 Hornet",
+        "url": "aircraft.html?id=f-a-18-hornet"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 38,
+      "operator_entries": 6,
+      "variant_entries": 6,
+      "external_article_sources": 2
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-navy",
+        "title": "E-2 Hawkeye Airborne Command and Control Aircraft",
+        "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2382134/e-2-hawkeye-airborne-command-and-control-aircraft",
+        "publisher": "U.S. Navy",
+        "note": "Official Navy fact file used for mission description, background, variants, operational-history examples, and general characteristics."
+      },
+      {
+        "id": "fn-northrop",
+        "title": "E-2D Advanced Hawkeye",
+        "url": "https://www.northropgrumman.com/what-we-do/aircraft/e-2d-advanced-hawkeye",
+        "publisher": "Northrop Grumman",
+        "note": "Manufacturer page used for E-2D modernization, mission-system, interoperability, and international-community context."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Grumman E-2 Hawkeye",
         "url": "https://en.wikipedia.org/wiki/Grumman_E-2_Hawkeye",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for first-flight date, broad variant list, and historic/export cross-checking; not used alone for technical claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.history.navy.mil/planes/e2.htm",
-        "publisher": "history.navy.mil",
-        "note": "External source for Grumman E-2 Hawkeye."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.caew.info/",
-        "publisher": "caew.info",
-        "note": "External source for Grumman E-2 Hawkeye."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.irconnect.com/noc/press/pages/news_releases.html?d=124332",
-        "publisher": "irconnect.com",
-        "note": "External source for Grumman E-2 Hawkeye."
+        "note": "Repository-local guidance for conservative wording where variant, operator, inventory, or current-status details vary."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.history.navy.mil/planes/e2.htm",
-        "publisher": "history.navy.mil",
-        "note": "External source for Grumman E-2 Hawkeye."
+        "id": "fn-navy",
+        "title": "E-2 Hawkeye Airborne Command and Control Aircraft",
+        "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2382134/e-2-hawkeye-airborne-command-and-control-aircraft",
+        "publisher": "U.S. Navy",
+        "note": "Official Navy fact file."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.caew.info/",
-        "publisher": "caew.info",
-        "note": "External source for Grumman E-2 Hawkeye."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.irconnect.com/noc/press/pages/news_releases.html?d=124332",
-        "publisher": "irconnect.com",
-        "note": "External source for Grumman E-2 Hawkeye."
+        "id": "fn-northrop",
+        "title": "E-2D Advanced Hawkeye",
+        "url": "https://www.northropgrumman.com/what-we-do/aircraft/e-2d-advanced-hawkeye",
+        "publisher": "Northrop Grumman",
+        "note": "Manufacturer overview of E-2D capabilities and modernization."
       }
     ],
     "article_sections": [
@@ -18150,65 +18202,85 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Grumman E-2 Hawkeye is a Carrier-based AEW aircraft from United States. Manufacturer: Grumman / Northrop Grumman. First flight: 1960. Introduction: 1964. Status: Active.",
+            "text": "The Grumman E-2 Hawkeye is the U.S. Navy's all-weather, carrier-based tactical battle-management, airborne early warning, and command-and-control aircraft. It is a twin-engine, high-wing turboprop with a five-person crew and a 24-foot diameter radar rotodome mounted above the fuselage.",
             "refs": [
-              "fn-main"
+              "fn-navy"
             ]
           },
           {
-            "text": "Grumman E-2 Hawkeye is a awacs/aew. Primary role: carrier-based aew aircraft. Country of origin: United States. Manufacturer: Grumman / Northrop Grumman.",
+            "text": "The Hawkeye gives a carrier strike group an airborne sensor and command post that can look beyond shipboard radar horizons, coordinate fighters and strike aircraft, relay communications, and manage air and surface tracks for the Carrier Strike Group and Joint Force Commander.",
             "refs": [
-              "fn-wikidata"
+              "fn-navy"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The E-2D Advanced Hawkeye is the current modernized standard. Northrop Grumman describes it as an airborne command-and-control platform with 360-degree coverage, multi-domain sensor fusion, and an architecture intended for continuing modernization.",
             "refs": [
-              "fn-method"
+              "fn-northrop"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Carrier-based AEW aircraft"
+            "text": "Carrier-based airborne early warning, battle management, and command and control"
           },
           {
-            "title": "Designer or builder",
-            "text": "Grumman / Northrop Grumman"
+            "title": "Crew",
+            "text": "Five: two pilots and three mission-system operators"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Powerplant",
+            "text": "Two T56-series turboprops"
           },
           {
-            "title": "Propulsion",
-            "text": "Turboprop"
+            "title": "Distinctive feature",
+            "text": "24-foot / 7.3 m dorsal radar rotodome"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Grumman E-2 Hawkeye first flew in 1960. Introduction date: 1964. Era: Cold War/Modern.",
+            "text": "Continuous improvement in airborne radars during the 1950s led the U.S. Navy to seek a dedicated carrier aircraft for early warning and command-and-control. The earlier E-1 Tracer was based on the S-2 Tracker airframe, while the E-2 was designed from the outset for the all-weather AEW mission.",
             "refs": [
-              "fn-main"
+              "fn-navy"
             ]
           },
           {
-            "text": "Producer: Grumman / Northrop Grumman. Development context: carrier-based aew aircraft, turboprop propulsion, subsonic speed category, Cold War/Modern era.",
+            "text": "The E-2 replaced the E-1 in 1964 and became known in Navy service as the 'eyes of the fleet.' The E-2C became operational in 1973 and passed one million flight hours in August 2004 after successive sensor, engine, propeller, and avionics upgrades.",
             "refs": [
-              "fn-wikidata"
+              "fn-navy"
+            ]
+          },
+          {
+            "text": "Hawkeye 2000 added a new mission computer, improved radar displays, and Cooperative Engagement Capability. The E-2D Advanced Hawkeye later introduced a major radar and aircraft-systems modernization, reached initial operational capability in October 2014, and gained aerial-refueling capability to extend range and persistence.",
+            "refs": [
+              "fn-navy",
+              "fn-northrop"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Carrier compatibility added structural, landing gear, corrosion, and low-speed handling requirements.",
+            "text": "Design lineage: E-1 Tracer replacement, but not simply a converted transport or patrol aircraft.",
+            "refs": [
+              "fn-navy"
+            ]
+          },
+          {
+            "text": "Carrier suitability shaped the aircraft as much as the radar mission: folding wings, deck handling, catapult launches, arrested recoveries, and robust landing gear all drove the design.",
             "refs": [
               "fn-method"
+            ]
+          },
+          {
+            "text": "E-2D upgrades focus on sensor reach, target-quality tracking, battle-space awareness, readiness, and continued mission-system growth rather than speed or weapons carriage.",
+            "refs": [
+              "fn-navy",
+              "fn-northrop"
             ]
           }
         ]
@@ -18218,50 +18290,41 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 5. Propulsion: Turboprop. Speed category: Subsonic.",
+            "text": "The Hawkeye's airframe has a high-mounted straight wing, twin turboprop engines, a carrier-strengthened undercarriage, a tail arrangement designed to work around the rotodome airflow, and folding outer wing panels for crowded carrier decks.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Carrier capable: yes. Stealth: no.",
-            "refs": [
+              "fn-navy",
               "fn-method"
             ]
           },
           {
-            "text": "Grumman E-2 Hawkeye uses turboprop propulsion. Engine model field: Not listed.",
+            "text": "Mission equipment includes computerized radar, Identification Friend or Foe, electronic surveillance sensors, and communications systems. The crew uses these systems to provide early warning, threat analysis, air-control coordination, surface surveillance coordination, communications relay, and search-and-rescue airborne coordination.",
             "refs": [
-              "fn-main"
+              "fn-navy"
             ]
           },
           {
-            "text": "Armament field: Support aircraft; fixed offensive armament not listed. Exact weapon list: Not listed.",
+            "text": "The E-2D adds a state-of-the-art radar and upgraded aircraft systems. Manufacturer material emphasizes continuous 360-degree coverage, simultaneous air and ground tracking, multi-domain interoperability, and a real-time common operating picture for joint forces.",
             "refs": [
-              "fn-main"
+              "fn-northrop"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "5"
+            "title": "Airframe",
+            "text": "High-wing, twin-turboprop carrier aircraft with folding wings and dorsal rotodome"
           },
           {
-            "title": "Engine class",
-            "text": "Turboprop"
+            "title": "Radar mission",
+            "text": "Airborne early warning, battle management, threat analysis, and command-and-control"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Defensive posture",
+            "text": "Normally unarmed; relies on escorted operations, situational awareness, and carrier air-wing integration"
           },
           {
-            "title": "Carrier capable",
-            "text": "Yes"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "E-2D growth path",
+            "text": "Modern radar, open mission architecture, networked sensor fusion, and aerial-refueling provisions"
           }
         ]
       },
@@ -18270,54 +18333,35 @@
         "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Grumman E-2 Hawkeye status: Active. Conflict entries: 0.",
+            "text": "The E-2 made its combat debut during the Vietnam War and became a routine command-and-control node for U.S. carrier operations. Its mission is usually indirect but central: it directs fighters, supports strike coordination, and keeps commanders aware of air and surface activity.",
             "refs": [
-              "fn-main"
+              "fn-navy"
             ]
           },
           {
-            "text": "Conflicts: 0 entries.",
+            "text": "Navy history credits E-2s with directing F-14 Tomcats during the 1986 two-carrier strike against Libya. In the 1991 Gulf War, E-2 Hawkeyes provided air control for carrier F/A-18s that shot down two Iraqi MiG-21 aircraft in the opening days of the air campaign.",
             "refs": [
-              "fn-method"
+              "fn-navy"
             ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
+          },
           {
-            "text": "Grumman E-2 Hawkeye named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
+            "text": "Later E-2 operations included Northern Watch and Southern Watch over Iraq, NATO operations over the former Yugoslavia including Deny Flight, and airborne battle-management support during Operations Enduring Freedom and Iraqi Freedom. The type has also supported drug-interdiction operations and communications coordination from U.S. and foreign bases.",
             "refs": [
-              "fn-main"
+              "fn-navy"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Named pilots listed: 0.",
+            "text": "Typical missions: airborne early warning, counter-air control, close-air-support coordination, time-critical strike coordination, search-and-rescue coordination, and communications relay.",
             "refs": [
-              "fn-method"
+              "fn-navy"
             ]
           },
           {
-            "text": "Named individual aircraft listed: 0.",
+            "text": "E-2D aerial-refueling capability expands persistence, enables longer station time, and supports dual-coverage concepts away from the carrier.",
             "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-navy"
             ]
           }
         ]
@@ -18327,29 +18371,43 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Grumman E-2 Hawkeye variant-family entries: 2. Variant families: Grumman E-2 Hawkeye baseline production model; Grumman E-2 Hawkeye upgraded avionics or weapons-capable model.",
+            "text": "The Hawkeye family is best understood as an evolving sensor-and-command system carried by a durable carrier airframe. Most variant changes center on radar, mission computing, communications, reliability, engines, propellers, and network integration.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
+              "fn-navy",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Grumman E-2 Hawkeye baseline production model",
+            "text": "E-2A: original production aircraft that introduced the purpose-built carrier AEW design.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Grumman E-2 Hawkeye upgraded avionics or weapons-capable model",
+            "text": "E-2B: upgraded early airframes with improved mission computing and reliability modifications.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "E-2C: long-serving major production family, operational from 1973, repeatedly updated with improved sensors, engines, propellers, and mission electronics.",
+            "refs": [
+              "fn-navy"
+            ]
+          },
+          {
+            "text": "E-2C Hawkeye 2000: late E-2C configuration with a new mission computer, improved displays, and Cooperative Engagement Capability for sea-based theater air and missile defense.",
+            "refs": [
+              "fn-navy"
+            ]
+          },
+          {
+            "text": "E-2D Advanced Hawkeye: current variant with major radar and mission-system upgrades, IOC in October 2014, and aerial-refueling capability on later aircraft.",
+            "refs": [
+              "fn-navy",
+              "fn-northrop"
             ]
           }
         ]
@@ -18359,29 +18417,44 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Grumman E-2 Hawkeye has 1 designer or builder country entry.",
+            "text": "The United States Navy is the Hawkeye's principal operator and uses it in carrier airborne-command-and-control squadrons. The aircraft is integral to the carrier air wing rather than a stand-alone AWACS platform.",
             "refs": [
-              "fn-wikidata"
+              "fn-navy"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "U.S. Navy fact-file material lists E-2C variants with Egypt, Japan, Taiwan, and France. Northrop Grumman also describes Japan, France, Egypt, and Taiwan as current E-2 platform operators and notes a long-running international support community for E-2C and E-2D users.",
             "refs": [
+              "fn-navy",
+              "fn-northrop"
+            ]
+          },
+          {
+            "text": "Other E-2 users and former users have included Singapore, Mexico, and Israel. Exact aircraft counts and upgrade standards are date-sensitive and should be checked against current national or procurement sources before being treated as fixed inventory data.",
+            "refs": [
+              "fn-wikipedia",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "United States Navy: primary carrier-borne operator.",
             "refs": [
-              "fn-main"
+              "fn-navy"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "France: carrier aviation operator and E-2D customer.",
             "refs": [
-              "fn-wikidata"
+              "fn-northrop"
+            ]
+          },
+          {
+            "text": "Japan, Egypt, and Taiwan: international E-2 operators identified by official Navy or manufacturer sources.",
+            "refs": [
+              "fn-navy",
+              "fn-northrop"
             ]
           }
         ]
@@ -18391,13 +18464,96 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 5, propulsion type Turboprop, maximum speed category Subsonic, first flight 1960, introduction 1964.",
+            "text": "The values below follow the U.S. Navy fact-file general characteristics for the Hawkeye family, with E-2D-specific capability notes separated from basic dimensions where possible.",
             "refs": [
-              "fn-main"
+              "fn-navy"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Primary function",
+            "text": "Airborne command and control; battle-space management"
+          },
+          {
+            "title": "Contractor",
+            "text": "Northrop Grumman Aerospace Corporation"
+          },
+          {
+            "title": "Crew",
+            "text": "Five"
+          },
+          {
+            "title": "Powerplant",
+            "text": "Two Allison T56-A-427 turboprops, 5,100 shp each in Navy fact-file data"
+          },
+          {
+            "title": "Length",
+            "text": "57 ft 6 in / 17.5 m"
+          },
+          {
+            "title": "Wingspan",
+            "text": "80 ft 7 in / 28 m"
+          },
+          {
+            "title": "Height",
+            "text": "18 ft 3 in / 5.6 m"
+          },
+          {
+            "title": "Maximum takeoff weight",
+            "text": "53,000 lb / 23,850 kg"
+          },
+          {
+            "title": "Basic weight",
+            "text": "40,200 lb / 18,090 kg in Navy fact-file data"
+          },
+          {
+            "title": "Airspeed",
+            "text": "300+ knots / 345 mph / 552 km/h"
+          },
+          {
+            "title": "Ceiling",
+            "text": "30,000 ft / 9,100 m"
+          },
+          {
+            "title": "Armament",
+            "text": "None; sensor, communications, IFF, and command-and-control mission systems"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The Hawkeye's strength is not speed or weapons load but the ability to extend a carrier group's sensor picture, coordinate multiple missions at once, and keep commanders connected across dispersed aircraft and ships.",
+            "refs": [
+              "fn-navy"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Its limitations follow from that mission: the aircraft is subsonic, normally unarmed, and dependent on escort, air superiority, emissions management, and carrier-air-wing integration in contested airspace. Claims about sensor range and tracking capacity should be treated carefully because public figures can be variant- and mode-dependent.",
+            "refs": [
+              "fn-method",
+              "fn-northrop"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: compact carrier-based AEW&C capability with a smaller footprint than large land-based AWACS aircraft.",
+            "refs": [
+              "fn-northrop"
+            ]
+          },
+          {
+            "text": "Strength: simultaneous command-and-control, communications relay, rescue coordination, strike coordination, and surface-surveillance support.",
+            "refs": [
+              "fn-navy"
+            ]
+          },
+          {
+            "text": "Limitation: unarmed, subsonic, and optimized for escorted control of the battlespace rather than direct combat.",
             "refs": [
               "fn-method"
             ]
@@ -18405,11 +18561,80 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "comparison",
+        "title": "Comparison",
         "paragraphs": [
           {
-            "text": "Grumman E-2 Hawkeye similar-development links: 1.",
+            "text": "Compared with the Boeing E-3 Sentry, the E-2 is smaller and carrier-capable, with less aircraft volume but the ability to operate from aircraft carriers and forward maritime environments. Compared with shipboard radar alone, the Hawkeye raises the sensor and command node above the horizon and extends the time available for fighter direction and missile-defense decisions.",
+            "refs": [
+              "fn-navy",
+              "fn-northrop"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Boeing E-3 Sentry",
+            "url": "aircraft.html?id=e-3-sentry"
+          },
+          {
+            "label": "Grumman F-14 Tomcat",
+            "url": "aircraft.html?id=f-14-tomcat"
+          },
+          {
+            "label": "McDonnell Douglas F/A-18 Hornet",
+            "url": "aircraft.html?id=f-a-18-hornet"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "1956: improving airborne-radar technology helps define a purpose-built airborne early warning and command-and-control aircraft concept.",
+            "refs": [
+              "fn-navy"
+            ]
+          },
+          {
+            "text": "1964: E-2 replaces the E-1 Tracer in Navy service and begins its long role as the 'eyes of the fleet.'",
+            "refs": [
+              "fn-navy"
+            ]
+          },
+          {
+            "text": "1973: E-2C becomes operational, beginning the main Cold War and post-Cold War production and upgrade family.",
+            "refs": [
+              "fn-navy"
+            ]
+          },
+          {
+            "text": "2004: E-2C fleet surpasses one million flight hours.",
+            "refs": [
+              "fn-navy"
+            ]
+          },
+          {
+            "text": "October 2014: E-2D reaches initial operational capability.",
+            "refs": [
+              "fn-navy"
+            ]
+          },
+          {
+            "text": "FY2020: the first operational fleet squadron completes E-2D aerial-refueling training, expanding range and persistence options.",
+            "refs": [
+              "fn-navy"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "similar-development",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages connect the Hawkeye to larger land-based AWACS aircraft and to carrier fighters commonly controlled by Hawkeye crews.",
             "refs": [
               "fn-method"
             ]
@@ -18419,6 +18644,14 @@
           {
             "label": "Boeing E-3 Sentry",
             "url": "aircraft.html?id=e-3-sentry"
+          },
+          {
+            "label": "Grumman F-14 Tomcat",
+            "url": "aircraft.html?id=f-14-tomcat"
+          },
+          {
+            "label": "McDonnell Douglas F/A-18 Hornet",
+            "url": "aircraft.html?id=f-a-18-hornet"
           }
         ]
       }
