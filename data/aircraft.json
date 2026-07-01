@@ -36925,34 +36925,56 @@
   {
     "id": "su-24",
     "name": "Sukhoi Su-24",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "alternative_names": [
+      "Su-24 Fencer",
+      "Su-24M Fencer-D",
+      "Su-24MK"
+    ],
+    "nato_reporting_name": "Fencer",
     "country_of_origin": "Soviet Union",
-    "manufacturer": "Sukhoi",
-    "role": "Tactical bomber",
-    "aircraft_type": "Bomber",
+    "manufacturer": "Sukhoi Design Bureau / Novosibirsk Aircraft Production Association",
+    "role": "All-weather tactical strike and interdiction aircraft",
+    "aircraft_type": "Strike aircraft / tactical bomber",
     "era": "Cold War/Modern",
-    "first_flight": "1967",
-    "introduction_date": "1974",
+    "first_flight": "17 January 1970 (T-6-2I variable-geometry prototype; fixed-wing T-6 prototype flew in 1967)",
+    "introduction_date": "1974 (initial Su-24 service); 1983 for Su-24M",
     "retirement_date": null,
     "status": "Active",
-    "number_built": "Not listed",
+    "number_built": "More than 900 delivered (family total, public-source estimate)",
     "crew": "2",
     "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "engines": "2 × Lyulka/Saturn AL-21F-3A afterburning turbojets",
+    "max_speed": "1,550 km/h at 11,000 m; 1,340 km/h near ground (Su-24M figures)",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Bombs, missiles, and precision-guided weapons.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Sukhoi Su-24: Tactical bomber. Manufacturer: Sukhoi. First flight: 1967. Introduction: 1974.",
-    "short_summary": "Sukhoi Su-24: Tactical bomber. Origin: Soviet Union. Manufacturer: Sukhoi. First flight: 1967. Introduction: 1974. Status: Active.",
+    "range": "3,055 km ferry range with external tanks (Su-24M figure)",
+    "combat_range": "Not listed consistently in public sources; varies with payload, profile, and external tanks",
+    "service_ceiling": "11,000 m",
+    "rate_of_climb": "About 9,000 m/min (Su-24M figure)",
+    "armament": "Internal 23 mm GSh-6-23 cannon plus variable external load of bombs, rockets, gun pods, anti-radiation missiles, TV/laser-guided missiles, and limited short-range self-defense missiles; exact fit depends on variant and mission.",
+    "hardpoints": "Up to eight or nine external stations depending on variant and loadout description",
+    "variants": [
+      "Su-24",
+      "Su-24M",
+      "Su-24MK",
+      "Su-24MR",
+      "Su-24MP",
+      "Su-24M2"
+    ],
+    "operators": [
+      "Russia",
+      "Ukraine",
+      "Syria",
+      "Iran",
+      "Algeria",
+      "Belarus",
+      "Azerbaijan",
+      "Kazakhstan",
+      "Libya",
+      "Sudan"
+    ],
+    "combat_history": "Used by Soviet, Russian, Ukrainian, Syrian, Libyan, Iraqi and other forces in regional conflicts; public reporting is strongest for Afghanistan, Chechnya, Georgia, Syria, and the Russo-Ukrainian War.",
+    "development_history": "The Su-24 was developed to give Soviet Frontal Aviation a fast, all-weather, low-level strike aircraft with a two-seat side-by-side cockpit, terrain-following/navigation-attack avionics, and a variable-sweep wing for combining runway performance with high-speed penetration.",
+    "short_summary": "Sukhoi Su-24 Fencer is a Soviet/Russian two-seat, variable-sweep, all-weather tactical bomber built around low-level interdiction, precision attack upgrades, and long service in Russian and export air arms.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -36969,14 +36991,14 @@
         "title": "Sukhoi Su-24",
         "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-24",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "note": "Supplementary orientation source for variant names, broad service history, and cross-checking."
       },
       {
         "id": "fn-wikidata",
         "title": "Wikidata Query Service",
         "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "publisher": "Wikidata",
+        "note": "Open structured data source used for aircraft identifiers and relationship checks."
       },
       {
         "id": "fn-method",
@@ -36986,11 +37008,18 @@
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       },
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.airforce-technology.com/projects/su24/",
-        "publisher": "airforce-technology.com",
-        "note": "External source for Sukhoi Su-24."
+        "id": "fn-aft",
+        "title": "Su-24M Fencer Bomber",
+        "url": "https://www.airforce-technology.com/projects/su24/",
+        "publisher": "Airforce Technology",
+        "note": "Technical source for Su-24M role, dimensions, performance, payload, design features, weapons, targeting system, upgrades, and public operator list."
+      },
+      {
+        "id": "fn-aero",
+        "title": "Su-24 Fencer - Aircraft Museum",
+        "url": "https://aerospaceweb.org/aircraft/bomber/su24/",
+        "publisher": "Aerospaceweb.org",
+        "note": "Supplementary technical and variant reference; some performance figures differ from Airforce Technology and are treated cautiously."
       }
     ],
     "country_flags": [
@@ -37003,30 +37032,46 @@
       "Sukhoi"
     ],
     "development_tensions": [
-      "Balancing payload, range, survivability, sensor/weapons modernization, and operating cost.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "The aircraft traded simplicity and operating economy for all-weather low-level penetration, a large avionics suite, and variable-geometry wing mechanics.",
+      "Public specifications often mix baseline Su-24, Su-24M, export Su-24MK, and upgraded national variants; this page labels figures as Su-24M where the source does so."
     ],
     "wars_used_in": [
       {
         "name": "Soviet–Afghan War",
-        "note": "Sukhoi Su-24 used in Soviet–Afghan War."
+        "note": "Soviet Su-24 units were used for theater strike missions; details vary by source."
+      },
+      {
+        "name": "Chechen wars",
+        "note": "Russian Su-24 aircraft supported strike and reconnaissance operations."
+      },
+      {
+        "name": "Russo-Georgian War",
+        "note": "Su-24-family aircraft appeared in public reporting on Russian air operations."
+      },
+      {
+        "name": "Syrian Civil War",
+        "note": "Syrian and Russian Su-24-family aircraft were reported in combat use, including the 2015 Turkish shootdown of a Russian Su-24M."
       },
       {
         "name": "Russo-Ukrainian War",
-        "note": "Sukhoi Su-24 used in Russo-Ukrainian War."
+        "note": "Both Russian and Ukrainian Su-24-family aircraft have appeared in public reporting; claims and losses are date-sensitive."
       }
     ],
     "variant_families": [
-      "Sukhoi Su-24 baseline production model",
-      "Sukhoi Su-24 upgraded avionics or weapons-capable model",
-      "Sukhoi Su-24 two-seat trainer or conversion model"
+      "Su-24 initial production Fencer tactical bomber",
+      "Su-24M Fencer-D with upgraded navigation/attack system and expanded guided-weapons capability",
+      "Su-24MK export strike variant",
+      "Su-24MR reconnaissance variant",
+      "Su-24MP electronic-warfare variant",
+      "Su-24M2 modernized aircraft with updated navigation, displays, and weapons interfaces"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
-        "Soviet Union"
+        "Soviet Union",
+        "Russia"
       ],
-      "major_user_note": "Sukhoi Su-24 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The Su-24 entered Soviet service and remained important in Russian, Ukrainian, Syrian and several export inventories; exact active counts are date-sensitive.",
+      "all_operators_status": "Representative current and former operators are listed; fleet counts require current order-of-battle verification."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -37039,40 +37084,45 @@
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Sukhoi Su-24 uses jet propulsion."
+      "type": "Afterburning turbojet",
+      "summary": "Two AL-21F-3A-family afterburning turbojets provide the Su-24M figures commonly cited for low-altitude dash speed and 11,000 m service ceiling."
     },
     "armament_details": {
-      "summary": "Bombs, missiles, and precision-guided weapons.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Variant-dependent strike load carried on external stations, including unguided bombs/rockets, guided bombs, anti-radiation and TV/laser-guided missiles, gun pods, and limited R-60/R-73-class self-defense missiles.",
+      "caution": "Weapon compatibility varies by Su-24, Su-24M/MK, national upgrade, pylon, and targeting pod/navigation-attack fit."
     },
     "similar_development": [
       {
-        "id": "b-52-stratofortress",
-        "name": "Boeing B-52 Stratofortress",
-        "url": "aircraft.html?id=b-52-stratofortress"
-      },
-      {
-        "id": "b-1-lancer",
-        "name": "Rockwell B-1 Lancer",
-        "url": "aircraft.html?id=b-1-lancer"
-      },
-      {
-        "id": "b-2-spirit",
-        "name": "Northrop Grumman B-2 Spirit",
-        "url": "aircraft.html?id=b-2-spirit"
+        "id": "panavia-tornado",
+        "name": "Panavia Tornado",
+        "url": "aircraft.html?id=panavia-tornado"
       },
       {
         "id": "su-34",
         "name": "Sukhoi Su-34",
         "url": "aircraft.html?id=su-34"
+      },
+      {
+        "id": "su-17",
+        "name": "Sukhoi Su-17",
+        "url": "aircraft.html?id=su-17"
+      },
+      {
+        "id": "a-6-intruder",
+        "name": "Grumman A-6 Intruder",
+        "url": "aircraft.html?id=a-6-intruder"
+      },
+      {
+        "id": "tu-22m",
+        "name": "Tupolev Tu-22M",
+        "url": "aircraft.html?id=tu-22m"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 1
+      "exact_fact_count": 36,
+      "operator_entries": 10,
+      "variant_entries": 6,
+      "external_article_sources": 2
     },
     "footnotes": [
       {
@@ -37080,7 +37130,7 @@
         "title": "Sukhoi Su-24",
         "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-24",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "note": "Supplementary orientation source for variant names, broad service history, and cross-checking."
       },
       {
         "id": "fn-wikidata",
@@ -37097,20 +37147,34 @@
         "note": "Local rules for units, source citation, neutral wording, and estimate labels."
       },
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.airforce-technology.com/projects/su24/",
-        "publisher": "airforce-technology.com",
-        "note": "External source for Sukhoi Su-24."
+        "id": "fn-aft",
+        "title": "Su-24M Fencer Bomber",
+        "url": "https://www.airforce-technology.com/projects/su24/",
+        "publisher": "Airforce Technology",
+        "note": "Technical source for Su-24M role, dimensions, performance, payload, design features, weapons, targeting system, upgrades, and public operator list."
+      },
+      {
+        "id": "fn-aero",
+        "title": "Su-24 Fencer - Aircraft Museum",
+        "url": "https://aerospaceweb.org/aircraft/bomber/su24/",
+        "publisher": "Aerospaceweb.org",
+        "note": "Supplementary technical and variant reference; some performance figures differ from Airforce Technology and are treated cautiously."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.airforce-technology.com/projects/su24/",
-        "publisher": "airforce-technology.com",
-        "note": "External source for Sukhoi Su-24."
+        "id": "fn-aft",
+        "title": "Su-24M Fencer Bomber",
+        "url": "https://www.airforce-technology.com/projects/su24/",
+        "publisher": "Airforce Technology",
+        "note": "Detailed technical article on Su-24M design, performance, avionics, weapons, upgrades, and operators."
+      },
+      {
+        "id": "fn-aero",
+        "title": "Su-24 Fencer - Aircraft Museum",
+        "url": "https://aerospaceweb.org/aircraft/bomber/su24/",
+        "publisher": "Aerospaceweb.org",
+        "note": "Supplementary technical and variant reference; some performance figures differ from Airforce Technology and are treated cautiously."
       }
     ],
     "article_sections": [
@@ -37119,19 +37183,20 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-24 is a Tactical bomber from Soviet Union. Manufacturer: Sukhoi. First flight: 1967. Introduction: 1974. Status: Active.",
+            "text": "The Sukhoi Su-24, NATO reporting name Fencer, is a two-seat Soviet/Russian tactical bomber and strike aircraft designed for all-weather, day-or-night attack against ground and surface targets. Its side-by-side crew arrangement, variable-sweep wing, and navigation/attack system made it a Soviet counterpart to Western low-level interdiction aircraft rather than a simple fighter-bomber.",
             "refs": [
+              "fn-aft",
               "fn-main"
             ]
           },
           {
-            "text": "Sukhoi Su-24 is a bomber. Primary role: tactical bomber. Country of origin: Soviet Union. Manufacturer: Sukhoi.",
+            "text": "The Su-24M is the best-documented strike version in open sources. Airforce Technology describes it as a Sukhoi/Novosibirsk-built front-line bomber that entered service in 1983 as a development of the original Su-24 and that can carry up to roughly 8,000 kg of combat load in some configurations.",
             "refs": [
-              "fn-wikidata"
+              "fn-aft"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Because the family includes baseline bombers, export Su-24MKs, reconnaissance Su-24MRs, electronic-warfare Su-24MPs, and national modernizations, this page avoids treating every published speed, weapon, or operator count as universal to every aircraft.",
             "refs": [
               "fn-method"
             ]
@@ -37140,48 +37205,62 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Tactical bomber"
+            "text": "All-weather tactical strike / interdiction"
           },
           {
-            "title": "Designer or builder",
-            "text": "Sukhoi"
+            "title": "NATO name",
+            "text": "Fencer"
           },
           {
-            "title": "Major origin",
-            "text": "Soviet Union"
+            "title": "Crew",
+            "text": "2, pilot and navigator/weapons-system officer"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Wing type",
+            "text": "Variable-sweep shoulder wing"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development and Production",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-24 first flew in 1967. Introduction date: 1974. Era: Cold War/Modern.",
+            "text": "The Su-24 emerged from Soviet requirements for a fast strike aircraft able to penetrate at low altitude in poor weather. The early T-6 program evolved from fixed-wing prototypes into a variable-geometry design, allowing high-speed dash performance while retaining better takeoff and landing behavior than a pure high-speed wing.",
             "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Production involved the Sukhoi design organization and the Novosibirsk production plant. More than 900 Su-24-family aircraft are reported to have been delivered, but open-source totals vary depending on whether prototypes, reconnaissance aircraft, and export Su-24MKs are counted together.",
+            "refs": [
+              "fn-aft",
               "fn-main"
             ]
           },
           {
-            "text": "Producer: Sukhoi. Development context: tactical bomber, jet propulsion, supersonic speed category, Cold War/Modern era.",
+            "text": "The Su-24M introduced a more capable PNS-M navigation/attack system, laser/TV sighting equipment, aerial refueling provisions, and a wider precision-guided weapons set. Later Su-24M2 and SVP-24/Gefest-related upgrades improved navigation, displays, and weapon-delivery accuracy on selected Russian aircraft.",
             "refs": [
-              "fn-wikidata"
+              "fn-aft"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing payload, range, survivability, sensor/weapons modernization, and operating cost.",
+            "text": "Initial fixed-wing T-6 prototype work dates to 1967, while the variable-geometry prototype flew later; service introduction is normally given as the mid-1970s for the original Su-24.",
             "refs": [
-              "fn-method"
+              "fn-main"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "Su-24M service is commonly cited from 1983 and is the basis for many public specifications.",
+            "refs": [
+              "fn-aft"
+            ]
+          },
+          {
+            "text": "Modernization did not make all Fencers identical; export, reconnaissance, naval, and national upgrade standards differ.",
             "refs": [
               "fn-method"
             ]
@@ -37193,120 +37272,129 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 2. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The Fencer uses a rectangular-section semi-monocoque fuselage, side-by-side pressurized cockpit, shoulder-mounted variable-sweep wing, all-moving horizontal tail surfaces, and tricycle landing gear intended for operation from prepared and some unpaved runways. Airforce Technology lists fixed wing sweep positions from 16 degrees to 69 degrees.",
             "refs": [
-              "fn-main"
+              "fn-aft"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "The Su-24M navigation and aiming system is described as supporting terrain warning, level and toss bombing, missile target designation, radar-emitter attack, and semi-automatic landing approaches. The modified PNS-M system added laser/TV sighting support for guided weapons.",
             "refs": [
-              "fn-method"
+              "fn-aft"
             ]
           },
           {
-            "text": "Sukhoi Su-24 uses jet propulsion. Engine model field: Not listed.",
+            "text": "Power comes from two AL-21F-3A-family afterburning turbojets. Public Su-24M figures include 1,340 km/h near the ground, 1,550 km/h at 11 km altitude, a ferry range of about 3,055 km with external tanks, and an 11,000 m service ceiling.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Bombs, missiles, and precision-guided weapons. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-aft"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "2"
+            "title": "Powerplant",
+            "text": "2 × AL-21F-3A afterburning turbojets"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Maximum speed",
+            "text": "1,550 km/h at altitude; 1,340 km/h near ground (Su-24M)"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Service ceiling",
+            "text": "11,000 m"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Ferry range",
+            "text": "3,055 km with external tanks (Su-24M)"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "weapons-systems",
+        "title": "Weapons Systems and Avionics",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-24 status: Active. Conflict entries: 2.",
+            "text": "The Su-24 was built around low-level attack rather than air superiority. Standard armament includes an internal 23 mm GSh-6-23 cannon and mission-dependent external stores such as conventional bombs, rocket pods, gun pods, laser/TV-guided missiles, anti-radiation missiles, and guided bombs.",
             "refs": [
-              "fn-main"
+              "fn-aft"
             ]
           },
           {
-            "text": "Conflicts: Soviet–Afghan War, Russo-Ukrainian War.",
+            "text": "Airforce Technology lists Kh-23/Kh-23M, Kh-28, Kh-58, Kh-25L, Kh-29, Kh-31P, Kh-59, KAB-series guided bombs, rocket pods, and limited short-range air-to-air missiles among weapons associated with Su-24 and Su-24M configurations. These should be read as compatibility examples, not as a single normal loadout.",
             "refs": [
+              "fn-aft",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The Su-24M2 and SVP-24/Gefest-era upgrades are important because they improved navigation and delivery accuracy without changing the aircraft into a modern stealth platform. Survivability still depends heavily on mission planning, stand-off weapons, electronic warfare, altitude profile, and supporting forces.",
+            "refs": [
+              "fn-aft",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Soviet–Afghan War: Sukhoi Su-24 used in Soviet–Afghan War.",
+            "text": "Normal combat load is listed as 3,000 kg and maximum combat load as 8,000 kg for the Su-24M source profile.",
             "refs": [
-              "fn-main"
+              "fn-aft"
             ]
           },
           {
-            "text": "Russo-Ukrainian War: Sukhoi Su-24 used in Russo-Ukrainian War.",
+            "text": "Aerial refueling equipment is associated with Su-24M aircraft in the Airforce Technology profile.",
             "refs": [
-              "fn-main"
+              "fn-aft"
+            ]
+          },
+          {
+            "text": "Exact weapon carriage is variant- and nation-specific; public photos alone should not be used to infer universal capability.",
+            "refs": [
+              "fn-method"
             ]
           }
         ]
       },
       {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
+        "id": "specifications",
+        "title": "Specifications (Su-24M reference profile)",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-24 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
+            "text": "Representative Su-24M dimensions and performance from Airforce Technology: length 22.67 m, height 5.92 m, wingspan 10.36 m swept and 17.63 m extended, normal takeoff weight 35,910 kg, maximum takeoff weight 39,700 kg, internal fuel 9,850 kg, and ferry range 3,055 km with external fuel tanks.",
             "refs": [
-              "fn-main"
+              "fn-aft"
+            ]
+          },
+          {
+            "text": "These figures should not be applied automatically to every baseline, reconnaissance, electronic-warfare, export, or upgraded Fencer. Stores, tanks, mission profile, and national avionics fits change radius, speed, and payload.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Aerospaceweb publishes a separate Su-24M data sheet with the same 39,700 kg maximum takeoff weight and 8,000 kg payload but different speed, ceiling, and range figures; the discrepancy is flagged rather than merged into a single definitive value.",
+            "refs": [
+              "fn-aero",
+              "fn-method"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "22.67 m"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Wingspan",
+            "text": "10.36 m swept / 17.63 m extended"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Max takeoff weight",
+            "text": "39,700 kg"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum combat load",
+            "text": "8,000 kg"
           }
         ]
       },
@@ -37315,35 +37403,49 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-24 variant-family entries: 3. Variant families: Sukhoi Su-24 baseline production model; Sukhoi Su-24 upgraded avionics or weapons-capable model; Sukhoi Su-24 two-seat trainer or conversion model.",
+            "text": "The Fencer family is best understood as a set of related strike, export, reconnaissance, electronic-warfare, and modernization standards rather than a single static aircraft.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-main",
+              "fn-aft"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Sukhoi Su-24 baseline production model",
+            "text": "Su-24: initial tactical bomber production family, introduced in the 1970s.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Sukhoi Su-24 upgraded avionics or weapons-capable model",
+            "text": "Su-24M: upgraded strike version with PNS-M navigation/attack system, laser/TV sighting equipment, refueling capability, and wider guided-weapons compatibility.",
+            "refs": [
+              "fn-aft"
+            ]
+          },
+          {
+            "text": "Su-24MK: export version of the Su-24M family, delivered to several non-Soviet operators.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Sukhoi Su-24 two-seat trainer or conversion model",
+            "text": "Su-24MR: tactical reconnaissance version, generally discussed separately from the bomber loadout.",
             "refs": [
               "fn-main"
+            ]
+          },
+          {
+            "text": "Su-24MP: electronic-warfare/jamming variant produced in much smaller numbers.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Su-24M2 and national upgrades: modernized avionics/navigation and weapons-interface packages; configuration details differ by country and batch.",
+            "refs": [
+              "fn-aft",
+              "fn-method"
             ]
           }
         ]
@@ -37353,13 +37455,62 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Soviet Union. Sukhoi Su-24 has 1 designer or builder country entry.",
+            "text": "Airforce Technology lists Russian Air Force and Navy use and export service with Azerbaijan, Algeria, Belarus, Kazakhstan, Libya, Syria, Sudan, and Ukraine. Public inventories have changed through retirements, attrition, sanctions, and war losses, so this page treats the list as representative rather than a current confirmed order of battle.",
             "refs": [
-              "fn-wikidata"
+              "fn-aft",
+              "fn-method"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "The aircraft remains especially visible in Russian and Ukrainian service because both inherited or retained Su-24-family aircraft from the Soviet system, while some export users operate smaller fleets or stored aircraft.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Russia: inherited the largest Soviet successor fleet and modernized selected Su-24M aircraft while replacing many roles with Su-34 aircraft.",
+            "refs": [
+              "fn-aft"
+            ]
+          },
+          {
+            "text": "Ukraine: inherited Su-24 aircraft and has used surviving aircraft in the Russo-Ukrainian War; exact active counts are highly date-sensitive.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Syria, Algeria, Iran, Libya, Sudan, Belarus, Azerbaijan, and Kazakhstan: listed in public sources as operators or former/reported operators, with readiness varying widely.",
+            "refs": [
+              "fn-aft",
+              "fn-main"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "service",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "The Su-24 has seen wider combat use than many Soviet tactical aircraft because it combined range, payload, and all-weather navigation/attack equipment. Public accounts include Soviet operations in Afghanistan, Russian operations in Chechnya and Georgia, Syrian and Russian operations in Syria, Libyan and Iraqi service, and extensive reporting from the Russo-Ukrainian War.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "One widely reported incident was the 2015 Turkish shootdown of a Russian Su-24M near the Syrian-Turkish border, which highlighted the aircraft’s continued use in contested airspace and the political risk around strike missions close to national boundaries.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Operational claims, loss totals, and current missile integrations are particularly sensitive to date and source. This entry therefore emphasizes stable design and service-context facts and avoids unverified kill, sortie, or inventory claims.",
             "refs": [
               "fn-method"
             ]
@@ -37367,43 +37518,115 @@
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Designed mission: low-level, all-weather strike against ground and surface targets.",
+            "refs": [
+              "fn-aft"
+            ]
+          },
+          {
+            "text": "Representative conflicts: Afghanistan, Chechnya, Georgia, Syria, Libya, and Ukraine.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Major designer or builder entries: Soviet Union.",
+            "text": "Replacement path: Russian forces have progressively shifted many strike roles to the Su-34, but Su-24-family aircraft have remained in use during the transition.",
             "refs": [
-              "fn-wikidata"
+              "fn-aft",
+              "fn-main"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 2, propulsion type Jet, maximum speed category Supersonic, first flight 1967, introduction 1974.",
+            "text": "The Fencer’s strengths are payload, speed at low level, two-crew workload sharing, all-weather navigation/attack design, and a large upgrade base. Its limitations are high operating burden, older airframe/engine technology, no stealth shaping, and vulnerability when forced into dense modern air-defense environments without stand-off weapons or support.",
             "refs": [
-              "fn-main"
+              "fn-aft",
+              "fn-method"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Compared with simpler fighter-bombers, the Su-24 offered a more specialized interdiction system. Compared with newer precision-strike aircraft, it depends more on upgrades, mission planning, and external support to survive and deliver weapons effectively.",
             "refs": [
               "fn-method"
             ]
           }
+        ],
+        "cards": [
+          {
+            "title": "Strength",
+            "text": "Heavy strike payload and all-weather low-level attack design"
+          },
+          {
+            "title": "Strength",
+            "text": "Large family with reconnaissance, export, and modernization variants"
+          },
+          {
+            "title": "Limitation",
+            "text": "Non-stealth Cold War design with high operating demands"
+          },
+          {
+            "title": "Limitation",
+            "text": "Capability claims vary sharply by variant and upgrade standard"
+          }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "timeline",
+        "title": "Timeline",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-24 similar-development links: 4.",
+            "text": "Selected milestones for the Su-24 family, using conservative public-source dates and noting where baseline and Su-24M dates differ.",
+            "refs": [
+              "fn-main",
+              "fn-aft"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1967: early T-6 prototype work associated with the Su-24 program.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "1970: variable-geometry T-6-2I prototype first flight commonly cited for the definitive layout.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "1974: initial Su-24 service-entry period.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "1983: Su-24M service entry cited by Airforce Technology.",
+            "refs": [
+              "fn-aft"
+            ]
+          },
+          {
+            "text": "2010s: Russian modernization and replacement programs increasingly shift front-line strike duties toward upgraded Su-24M/M2 aircraft and the newer Su-34.",
+            "refs": [
+              "fn-aft",
+              "fn-main"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Related Pages",
+        "paragraphs": [
+          {
+            "text": "The Su-24 is often compared with the Panavia Tornado and General Dynamics F-111 because all emphasized high-speed low-level strike, variable geometry, and sophisticated navigation/attack systems for their era. Within Milipedia, the Su-34 is the most direct Russian successor in the strike role.",
             "refs": [
               "fn-method"
             ]
@@ -37411,20 +37634,28 @@
         ],
         "links": [
           {
-            "label": "Boeing B-52 Stratofortress",
-            "url": "aircraft.html?id=b-52-stratofortress"
-          },
-          {
-            "label": "Rockwell B-1 Lancer",
-            "url": "aircraft.html?id=b-1-lancer"
-          },
-          {
-            "label": "Northrop Grumman B-2 Spirit",
-            "url": "aircraft.html?id=b-2-spirit"
+            "label": "Panavia Tornado",
+            "url": "aircraft.html?id=panavia-tornado"
           },
           {
             "label": "Sukhoi Su-34",
             "url": "aircraft.html?id=su-34"
+          },
+          {
+            "label": "Sukhoi Su-17",
+            "url": "aircraft.html?id=su-17"
+          },
+          {
+            "label": "Grumman A-6 Intruder",
+            "url": "aircraft.html?id=a-6-intruder"
+          },
+          {
+            "label": "Tupolev Tu-22M",
+            "url": "aircraft.html?id=tu-22m"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }

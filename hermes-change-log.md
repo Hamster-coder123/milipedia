@@ -3696,3 +3696,80 @@ Record the result of:
 * Exact climb rate and universal weapons/stores clearances were omitted because the selected official source does not provide them and public reference values differ by variant and operator.
 * The National Naval Aviation Museum aircraft page extraction did not yield a usable dedicated A-7 entry during this run; the update therefore relies on the official USAF museum A-7D page plus supplementary orientation sources.
 * The final commit hash cannot be embedded into the committed change log without changing the commit hash again; it is reported separately in this scheduled-run response.
+
+### Run 49 — 2026-07-01 20:03:38 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Sukhoi Su-24 (id: su-24)
+* Reason selected: The Su-24 entry was one of the shortest unedited aircraft pages compared with the F-16 reference, with only one external article source, no operator entries, no complete variant entries, generic generated sections, placeholder specifications, and no dense design/weapons/operators/timeline treatment.
+* Previous condition: Sparse generated page with 15 exact fact fields, 0 operator entries, 0 variant entries, placeholder values for engines/range/ceiling/hardpoints, generic armament wording, and article sections that mostly repeated metadata instead of explaining the Fencer family.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview with grouped technical facts; article-section order covering overview, development, design/capabilities, weapons/avionics, specifications, variants, operators, operational history, strengths/limitations, timeline, comparison, sources, and related pages; concise source-referenced paragraphs; cards for key facts; bullets for variants/timeline; cautious wording for variant-dependent performance and weapons; internal aircraft link style using aircraft.html?id=...
+
+#### Changes Made
+
+* Expanded the Sukhoi Su-24 data entry from a sparse generated page into a fuller Milipedia aircraft article.
+* Added the Fencer NATO reporting name, alternative names, richer manufacturer/role/type fields, two-seat all-weather strike framing, and a clearer short summary.
+* Replaced placeholder engine, speed, range, ceiling, climb-rate, armament, hardpoint, combat-history, and development-history fields with sourced or carefully caveated values.
+* Added representative Su-24/Su-24M/Su-24MK/Su-24MR/Su-24MP/Su-24M2 variant coverage.
+* Added representative operator coverage for Russia, Ukraine, Syria, Iran, Algeria, Belarus, Azerbaijan, Kazakhstan, Libya, and Sudan with date-sensitive caveats.
+* Added Airforce Technology and Aerospaceweb external references, while retaining Wikipedia only as a supplementary orientation/cross-check source.
+* Added or rewrote article sections for Overview, Development and Production, Design and Capabilities, Weapons Systems and Avionics, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Timeline, and Comparison and Related Pages.
+* Added Su-24M reference-profile dimensions, weights, payload, speeds, ceiling, range, engine, navigation/attack-system, wing-sweep, fuel, and weapons information from technical sources.
+* Added caution that public figures mix baseline Su-24, Su-24M, export, reconnaissance, electronic-warfare, and modernized national variants.
+* Added internal related-page links to Panavia Tornado, Sukhoi Su-34, Sukhoi Su-17, Grumman A-6 Intruder, Tupolev Tu-22M, and the aircraft database return link.
+* Omitted precise current fleet counts, loss totals, sortie counts, and universal weapon-load claims because those are date-sensitive or variant-dependent.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Sukhoi Su-24 aircraft entry with sourced article content, specifications, variants, operators, and internal links.
+* hermes-change-log.md — Appended the cumulative Run 49 log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were modified and intended for staging.
+2. git diff — Reviewed the working diff; data/aircraft.json changed only the Su-24 entry and hermes-change-log.md appended this run entry.
+3. File review — Parsed data/aircraft.json successfully with python3 -m json.tool; reviewed the Su-24 section list, cards, bullets, sources, and top-level fields.
+4. F-16 style comparison — Inspected data/f16-template.html and mirrored its dense lead, section density, specification emphasis, variants/operators/service/timeline coverage, comparison links, and cautious source-referenced tone inside the JSON article renderer format.
+5. Internal link check — Verified all local aircraft.html?id=... targets added for Su-24 exist in data/aircraft.json; the database return link is intentionally generic.
+6. Secret/token check — Ran a credential-pattern scan over the staged diff; no credentials or private data were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, one-aircraft-entry change, intended files only, source caveats, and complete change log entry.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Sukhoi Su-24
+* Commit hash: Recorded in final run response after commit.
+
+#### Issues or Uncertainties
+
+* Current operator inventories, combat losses, and specific Ukraine-war integrations are date-sensitive and were intentionally avoided or phrased cautiously.
+* Public Su-24M specification sources differ on some speed, ceiling, and range figures; this run used Airforce Technology as the primary specification source and flagged Aerospaceweb discrepancies rather than merging conflicting values.
+* The page may benefit from future official-manufacturer or primary Russian-language source review if accessible.
