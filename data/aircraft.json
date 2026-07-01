@@ -33152,35 +33152,89 @@
   {
     "id": "mig-29",
     "name": "Mikoyan MiG-29",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "alternative_names": [
+      "MiG-29 Fulcrum",
+      "Mikoyan-Gurevich MiG-29",
+      "Fulcrum"
+    ],
+    "nato_reporting_name": "Fulcrum",
     "country_of_origin": "Soviet Union",
-    "manufacturer": "Mikoyan",
-    "role": "Air superiority/multirole fighter",
+    "manufacturer": "Mikoyan Design Bureau / RSK MiG",
+    "role": "Twin-engine air-superiority and multirole fighter",
     "aircraft_type": "Fighter",
-    "era": "Modern",
-    "first_flight": "1977",
+    "era": "Cold War / modern",
+    "first_flight": "6 October 1977",
     "introduction_date": "1983",
-    "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "1 or 2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "retirement_date": "Still in service with multiple operators; early Soviet/Russian examples have been retired, upgraded, exported, or replaced at different times",
+    "status": "Active with several air arms in upgraded, export, and naval variants; legacy baseline fleets vary by operator",
+    "number_built": "About 1,600 aircraft across MiG-29 family variants, often cited for the wider Fulcrum family",
+    "crew": "1 pilot in most fighter variants; 2 in trainer and some naval/training variants",
+    "engine_type": "Afterburning turbofan",
+    "engines": "Two Klimov/Isotov RD-33 afterburning turbofans; museum data lists about 18,300 lbf thrust each with afterburner for MiG-29A",
+    "max_speed": "About Mach 2.3; Airforce Technology lists 2,400 km/h at altitude and 1,500 km/h near the ground",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Mikoyan MiG-29: Air superiority/multirole fighter. Manufacturer: Mikoyan. First flight: 1977. Introduction: 1983.",
-    "short_summary": "Mikoyan MiG-29: Air superiority/multirole fighter. Origin: Soviet Union. Manufacturer: Mikoyan. First flight: 1977. Introduction: 1983. Status: Active.",
-    "carrier_capable": false,
+    "range": "About 1,430-1,500 km for representative baseline figures; ferry range about 2,100 km in Airforce Technology data",
+    "combat_range": "Mission radius varies sharply with fuel, tanks, altitude profile, and stores; early Fulcrums were shorter-ranged than larger heavy fighters",
+    "service_ceiling": "About 18,000 m (59,000 ft) for representative MiG-29 figures",
+    "rate_of_climb": "Airforce Technology lists about 330 m/s for representative MiG-29 data",
+    "armament": "One 30 mm GSh-301 cannon; typical air-to-air weapons include R-27/AA-10, R-73/AA-11 and earlier R-60/AA-8 missiles, while multirole/upgraded variants can carry bombs, rockets, and selected air-to-ground guided weapons depending on avionics standard and operator.",
+    "hardpoints": "Six principal external weapon stations on many early MiG-29 variants; later MiG-29M/SMT/K family aircraft and export fits vary by model",
+    "variants": [
+      {
+        "name": "MiG-29A / 9.12 Fulcrum-A",
+        "description": "Early single-seat Soviet tactical fighter variant represented by the National Museum of the U.S. Air Force aircraft; optimized for air defense and close-in air combat with limited strike capability."
+      },
+      {
+        "name": "MiG-29UB",
+        "description": "Two-seat operational trainer with dual controls; generally lacks the full radar fit of combat single-seaters."
+      },
+      {
+        "name": "MiG-29S / MiG-29SE",
+        "description": "Improved single-seat variants with avionics and weapons enhancements over early Fulcrums, depending on production standard and export customer."
+      },
+      {
+        "name": "MiG-29SMT",
+        "description": "Modernized multirole upgrade with added fuel capacity, updated cockpit/avionics, in-flight refuelling probe on many aircraft, and broader guided-weapon options."
+      },
+      {
+        "name": "MiG-29K / MiG-29KUB",
+        "description": "Carrier-capable naval Fulcrum family for Russian and Indian naval service, with strengthened structure, folding wings, arrester gear, and maritime multirole avionics."
+      },
+      {
+        "name": "MiG-29M / MiG-35 family",
+        "description": "Deeply revised Fulcrum derivatives with newer avionics, airframe changes, and multirole mission systems; public sources sometimes treat the MiG-35 as the most advanced family member rather than a simple baseline MiG-29 variant."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Soviet Union / Russia",
+        "summary": "Original operator and principal developer; Soviet Frontal Aviation received deliveries from 1983, and Russia has operated baseline, upgraded, naval, and later Fulcrum-family aircraft."
+      },
+      {
+        "country": "Ukraine",
+        "summary": "Inherited MiG-29s after the Soviet breakup and has used upgraded Fulcrums for air defense and wartime operations; exact available numbers change with attrition and repair."
+      },
+      {
+        "country": "India",
+        "summary": "Long-time MiG-29 user in both air-force and naval forms, including MiG-29UPG upgrades and MiG-29K/KUB carrier aircraft for Indian Navy service."
+      },
+      {
+        "country": "Poland",
+        "summary": "Operated MiG-29s inherited or acquired from former Warsaw Pact inventories, including ex-German aircraft transferred after Luftwaffe service."
+      },
+      {
+        "country": "Germany",
+        "summary": "Inherited East German MiG-29s after reunification, modified them for NATO procedures, and later transferred the remaining fleet to Poland."
+      },
+      {
+        "country": "Other export and legacy operators",
+        "summary": "Public sources list numerous operators including Algeria, Bangladesh, Belarus, Bulgaria, Cuba, Eritrea, Hungary, Iran, Kazakhstan, Malaysia, Myanmar, North Korea, Peru, Romania, Serbia, Slovakia, Syria, Sudan, Turkmenistan, Uzbekistan, and Yemen; status varies by year and upgrade standard."
+      }
+    ],
+    "combat_history": "Used by Iraqi, Yugoslav/Serbian, Eritrean, Ukrainian, Russian, Indian, and other forces in air-defense, interception, strike, and training roles; combat results are highly context-dependent and often tied to sensors, support, pilot training, and rules of engagement.",
+    "development_history": "The MiG-29 was developed by Mikoyan in the early 1970s as a Soviet frontal/tactical fighter to counter a new generation of Western fighters including the F-15 and F-16. The prototype first flew on 6 October 1977, production began in 1982, and deliveries to Soviet Frontal Aviation units started in 1983.",
+    "short_summary": "The Mikoyan MiG-29 Fulcrum is a Soviet twin-engine fighter built around high agility, a helmet-sighted close-combat missile system, and a compact frontal-aviation air-defense role. Later Fulcrum variants added multirole avionics, greater fuel capacity, naval capability, and export-specific upgrades.",
+    "carrier_capable": true,
     "stealth": false,
     "images": [
       {
@@ -33192,18 +33246,25 @@
     ],
     "sources": [
       {
+        "id": "fn-nmusaf",
+        "title": "Mikoyan-Gurevich MiG-29A",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197174/mikoyan-gurevich-mig-29a",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Used for MiG-29A development history, first flight, Soviet deliveries, radar/helmet-sight description, armament, engines, and Mach 2.3 speed."
+      },
+      {
+        "id": "fn-airforce-tech",
+        "title": "MiG-29 Fulcrum Fighter Bomber",
+        "url": "https://www.airforce-technology.com/projects/mig29",
+        "publisher": "Airforce Technology",
+        "note": "Used for representative dimensions, weights, speed, ceiling, range, rate of climb, operators, upgrade programs, and MiG-29K/SMT context; treated cautiously where the article blends family variants."
+      },
+      {
         "id": "fn-main",
         "title": "Mikoyan MiG-29",
         "url": "https://en.wikipedia.org/wiki/Mikoyan_MiG-29",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for family overview and cross-checking only."
       },
       {
         "id": "fn-method",
@@ -33223,40 +33284,49 @@
       "Mikoyan"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Balancing a compact tactical fighter airframe against desired radar, missile, fuel, and runway-performance requirements.",
+      "Providing exceptional short-range agility while early variants retained limited internal fuel and a conventional hydraulic flight-control system.",
+      "Keeping the aircraft exportable and maintainable while later operators demanded NATO-compatible communications, navigation, and guided-weapon upgrades.",
+      "Separating baseline MiG-29A performance from later MiG-29SMT, MiG-29K, MiG-29M, and MiG-35 family capabilities in public descriptions."
     ],
-    "wars_used_in": [],
+    "wars_used_in": [
+      "Gulf War",
+      "Yugoslav Wars / Kosovo War",
+      "Eritrean-Ethiopian War",
+      "Russo-Ukrainian War and 2022 Russian invasion of Ukraine",
+      "Regional air-defense and strike operations by export operators"
+    ],
     "variant_families": [
-      "Mikoyan MiG-29 baseline production model",
-      "Mikoyan MiG-29 upgraded avionics or weapons-capable model",
-      "Mikoyan MiG-29 two-seat trainer or conversion model",
-      "Mikoyan MiG-29 export or locally modernized model"
+      "Baseline MiG-29A/9.12 and MiG-29B export fighters",
+      "MiG-29UB two-seat trainers",
+      "MiG-29S/SE and MiG-29SM/SMT multirole upgrades",
+      "MiG-29K/KUB carrier-capable naval variants",
+      "MiG-29M/M2 and MiG-35 advanced Fulcrum-family derivatives"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
-        "Soviet Union"
+        "Soviet Union",
+        "Russia"
       ],
-      "major_user_note": "Mikoyan MiG-29 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The MiG-29 was widely exported and inherited by many post-Soviet and Warsaw Pact air arms. Current operator status changes frequently, so the page lists representative users and flags date-sensitive fleet totals for verification rather than presenting a frozen worldwide inventory."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "The National Museum of the U.S. Air Force displays an early MiG-29A formerly assigned to the 234th Guards Fighter Aviation Regiment at Kubinka.",
+        "German Luftwaffe MiG-29s became unusually well studied by NATO after reunification and were later transferred to Poland."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "The MiG-29 made its first major public appearance in the West when Soviet aircraft visited Kuopio-Rissala, Finland, in July 1986.",
+        "Combat losses and victory claims vary by conflict and source; outcomes often reflected training, support, identification, and command-and-control as much as aircraft performance."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Mikoyan MiG-29 uses jet propulsion."
+      "type": "Afterburning turbofan",
+      "summary": "The Fulcrum uses two RD-33 afterburning turbofans mounted in widely spaced nacelles. The arrangement gives strong acceleration and redundancy for a compact fighter, but early engines were known for visible smoke and maintenance demands compared with later Western turbofans."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "One 30 mm GSh-301 cannon; typical air-to-air weapons include R-27/AA-10, R-73/AA-11 and earlier R-60/AA-8 missiles, while multirole/upgraded variants can carry bombs, rockets, and selected air-to-ground guided weapons depending on avionics standard and operator.",
+      "caution": "Exact weapons depend on variant, avionics upgrade, export restrictions, national stocks, and mission. Early MiG-29As should not be described as having the same precision-strike capability as MiG-29SMT, MiG-29K, MiG-29M, or MiG-35 derivatives."
     },
     "similar_development": [
       {
@@ -33270,303 +33340,153 @@
         "url": "aircraft.html?id=f-16-fighting-falcon"
       },
       {
-        "id": "f-a-18-hornet",
-        "name": "McDonnell Douglas F/A-18 Hornet",
-        "url": "aircraft.html?id=f-a-18-hornet"
+        "id": "su-27",
+        "name": "Sukhoi Su-27",
+        "url": "aircraft.html?id=su-27"
       },
       {
-        "id": "f-a-18e-f-super-hornet",
-        "name": "Boeing F/A-18E/F Super Hornet",
-        "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+        "id": "mig-21",
+        "name": "Mikoyan-Gurevich MiG-21",
+        "url": "aircraft.html?id=mig-21"
+      },
+      {
+        "id": "mig-25",
+        "name": "Mikoyan-Gurevich MiG-25",
+        "url": "aircraft.html?id=mig-25"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 38,
+      "operator_entries": 6,
+      "variant_entries": 6,
+      "external_article_sources": 2
     },
     "footnotes": [
+      {
+        "id": "fn-nmusaf",
+        "title": "Mikoyan-Gurevich MiG-29A",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197174/mikoyan-gurevich-mig-29a",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Used for MiG-29A development history, first flight, Soviet deliveries, radar/helmet-sight description, armament, engines, and Mach 2.3 speed."
+      },
+      {
+        "id": "fn-airforce-tech",
+        "title": "MiG-29 Fulcrum Fighter Bomber",
+        "url": "https://www.airforce-technology.com/projects/mig29",
+        "publisher": "Airforce Technology",
+        "note": "Used for representative dimensions, weights, speed, ceiling, range, rate of climb, operators, upgrade programs, and MiG-29K/SMT context; treated cautiously where the article blends family variants."
+      },
       {
         "id": "fn-main",
         "title": "Mikoyan MiG-29",
         "url": "https://en.wikipedia.org/wiki/Mikoyan_MiG-29",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for family overview and cross-checking only."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "id": "fn-nmusaf",
+        "title": "Mikoyan-Gurevich MiG-29A",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197174/mikoyan-gurevich-mig-29a",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Used for MiG-29A development history, first flight, Soviet deliveries, radar/helmet-sight description, armament, engines, and Mach 2.3 speed."
+      },
+      {
+        "id": "fn-airforce-tech",
+        "title": "MiG-29 Fulcrum Fighter Bomber",
+        "url": "https://www.airforce-technology.com/projects/mig29",
+        "publisher": "Airforce Technology",
+        "note": "Used for representative dimensions, weights, speed, ceiling, range, rate of climb, operators, upgrade programs, and MiG-29K/SMT context; treated cautiously where the article blends family variants."
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Mikoyan MiG-29 is an Air superiority/multirole fighter from Soviet Union. Manufacturer: Mikoyan. First flight: 1977. Introduction: 1983. Status: Active.",
-            "refs": [
-              "fn-main"
-            ]
+            "text": "The Mikoyan MiG-29 Fulcrum is a Soviet twin-engine fighter designed for the frontal-aviation mission: defend forward airspace, contest enemy fighters, and operate from dispersed tactical bases close to the front. It was conceived as the lighter counterpart to the larger Sukhoi Su-27, much as the F-16 complemented the F-15 in U.S. planning."
           },
           {
-            "text": "Mikoyan MiG-29 is a fighter. Primary role: air superiority/multirole fighter. Country of origin: Soviet Union. Manufacturer: Mikoyan.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Exact structured fact fields: 15.",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "Early Fulcrums emphasized acceleration, high-angle-of-attack handling, a powerful short-range missile system, and enough radar performance to threaten low-flying targets that earlier Soviet fighters struggled to engage. Later variants added more fuel, better avionics, multirole weapons, and naval equipment, making the family broader than the original MiG-29A air-defense fighter."
           }
         ],
         "cards": [
           {
-            "title": "Primary role",
-            "text": "Air superiority/multirole fighter"
+            "title": "Role",
+            "text": "Air-superiority / multirole fighter"
           },
           {
-            "title": "Designer or builder",
-            "text": "Mikoyan"
+            "title": "First flight",
+            "text": "6 October 1977"
           },
           {
-            "title": "Major origin",
-            "text": "Soviet Union"
+            "title": "Introduced",
+            "text": "1983 with Soviet Frontal Aviation"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Engines",
+            "text": "Two RD-33 afterburning turbofans"
+          },
+          {
+            "title": "NATO name",
+            "text": "Fulcrum"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Mikoyan MiG-29 first flew in 1977. Introduction date: 1983. Era: Modern.",
-            "refs": [
-              "fn-main"
-            ]
+            "text": "The MiG-29 emerged from Soviet studies of the new Western fighter generation that produced the F-15 and F-16. Mikoyan was assigned the lighter tactical or frontal fighter requirement, while Sukhoi developed the larger Su-27. Work began in the early 1970s, the first prototype flew on 6 October 1977, and U.S. reconnaissance satellites detected the new fighter soon afterward."
           },
           {
-            "text": "Producer: Mikoyan. Development context: air superiority/multirole fighter, jet propulsion, supersonic speed category, Modern era.",
-            "refs": [
-              "fn-wikidata"
-            ]
+            "text": "Production began in 1982 and deliveries to Soviet Frontal Aviation units started in 1983. Compared with contemporary Western fighters, early MiG-29s retained conventional hydraulic controls and an aluminum-alloy structure, but later variants introduced improved avionics, greater fuel capacity, refuelling probes, and limited composite or flight-control improvements depending on model."
           }
         ],
         "bullets": [
-          {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
-            "refs": [
-              "fn-method"
-            ]
-          }
+          "Designed as a compact tactical fighter rather than a long-range heavy interceptor.",
+          "Developed in parallel with the larger Su-27, giving the Soviet Union a high-low fighter pairing.",
+          "Publicly displayed in the West during a Soviet visit to Finland in July 1986.",
+          "Modernization programs such as MiG-29SMT and MiG-29UPG extended the type into multirole service."
         ]
       },
       {
-        "id": "design",
+        "id": "design-and-capabilities",
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1 or 2. Propulsion: Jet. Speed category: Supersonic.",
-            "refs": [
-              "fn-main"
-            ]
+            "text": "The MiG-29 airframe uses large leading-edge root extensions, widely spaced engine nacelles, and a blended lifting body to support high maneuverability at subsonic and transonic speeds. Early aircraft were particularly respected in close combat, where the combination of the Shchel helmet-mounted sight and agile infrared missiles let a pilot cue weapons far off the nose."
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Mikoyan MiG-29 uses jet propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
+            "text": "The Phazotron N019 radar, infrared search-and-track sensor, and laser rangefinder gave the Fulcrum a sensor fit much more capable than earlier Soviet tactical fighters. Its limitations were equally important: early variants had modest internal fuel, relatively short endurance, and avionics that were less flexible than later Western multirole systems."
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "1 or 2"
+            "title": "Airframe",
+            "text": "Twin-engine fighter with LERX/high-AoA maneuver emphasis"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Sensors",
+            "text": "N019 radar, IRST/laser rangefinder on early fighters"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Close combat",
+            "text": "Helmet sight plus R-73/AA-11 class missiles gave strong within-visual-range threat"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Mikoyan MiG-29 status: Active. Conflict entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: 0 entries.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Mikoyan MiG-29 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "variants",
-        "title": "Variants",
-        "paragraphs": [
-          {
-            "text": "Mikoyan MiG-29 variant-family entries: 4. Variant families: Mikoyan MiG-29 baseline production model; Mikoyan MiG-29 upgraded avionics or weapons-capable model; Mikoyan MiG-29 two-seat trainer or conversion model; Mikoyan MiG-29 export or locally modernized model.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Mikoyan MiG-29 baseline production model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Mikoyan MiG-29 upgraded avionics or weapons-capable model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Mikoyan MiG-29 two-seat trainer or conversion model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Mikoyan MiG-29 export or locally modernized model",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "operators",
-        "title": "Operators",
-        "paragraphs": [
-          {
-            "text": "Designer or builder countries: Soviet Union. Mikoyan MiG-29 has 1 designer or builder country entry.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "All operators status: 0 operator entries listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Major designer or builder entries: Soviet Union.",
-            "refs": [
-              "fn-wikidata"
-            ]
+            "title": "Limitations",
+            "text": "Early models had limited fuel, analog cockpit, and less multirole flexibility than later upgrades"
           }
         ]
       },
@@ -33575,28 +33495,106 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1 or 2, propulsion type Jet, maximum speed category Supersonic, first flight 1977, introduction 1983.",
-            "refs": [
-              "fn-main"
-            ]
+            "text": "Representative MiG-29 figures vary by variant and source. Airforce Technology lists a length of 17.32 m, height of 4.73 m, wingspan of 11.36 m, empty weight of about 11,000 kg, normal take-off weight of 14,900 kg, and maximum take-off weight of 18,000 kg for its MiG-29 data."
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "The same source lists two RD-33 engines with 8,300 kgf / 81.4 kN class thrust, maximum speed of 2,400 km/h at altitude, 1,500 km/h near the ground, service ceiling of 18,000 m, range around 1,430-1,500 km, ferry range around 2,100 km, and rate of climb about 330 m/s. Museum data for a MiG-29A gives two RD-33 turbofans of about 18,300 lbf thrust each and maximum speed around Mach 2.3."
+          }
+        ],
+        "cards": [
+          {
+            "title": "Length",
+            "text": "17.32 m (representative)"
+          },
+          {
+            "title": "Wingspan",
+            "text": "11.36 m (representative)"
+          },
+          {
+            "title": "Max take-off weight",
+            "text": "18,000 kg (representative)"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "18,000 m"
+          },
+          {
+            "title": "Armament",
+            "text": "30 mm cannon, air-to-air missiles, and variant-dependent air-to-ground stores"
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "variants",
+        "title": "Variants",
         "paragraphs": [
           {
-            "text": "Mikoyan MiG-29 similar-development links: 4.",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "The Fulcrum family ranges from early MiG-29A air-defense fighters to heavily revised multirole and carrier-capable aircraft. Many public descriptions mix baseline MiG-29, MiG-29K, MiG-29M, and MiG-35 data, so Milipedia treats figures as representative unless a variant is specified."
+          }
+        ],
+        "bullets": [
+          "MiG-29A / 9.12: early single-seat tactical fighter and primary Cold War Fulcrum.",
+          "MiG-29UB: two-seat trainer used to convert pilots while retaining similar handling.",
+          "MiG-29S/SE: improved fighter standards with selected weapons and avionics changes.",
+          "MiG-29SMT: upgraded multirole variant with added dorsal fuel, glass cockpit elements, improved radar, and broader weapons compatibility.",
+          "MiG-29K/KUB: navalized carrier aircraft with folding wings, arrester gear, strengthened structure, and maritime multirole equipment.",
+          "MiG-29M/M2 and MiG-35: deeper redesigns that extend the Fulcrum line with newer sensors, cockpit, and mission systems."
+        ]
+      },
+      {
+        "id": "operators",
+        "title": "Operators",
+        "paragraphs": [
+          {
+            "text": "The MiG-29 became one of the most widely distributed fourth-generation Soviet fighters. It served with the Soviet Union, Russia, many post-Soviet republics, Warsaw Pact and former Warsaw Pact states, and export customers in Asia, Africa, the Middle East, and Latin America. Current totals are date-sensitive because airframes have been upgraded, retired, transferred, lost, or placed in storage."
+          }
+        ],
+        "bullets": [
+          "Soviet Union/Russia: original user and developer, operating baseline, upgraded, and naval Fulcrums.",
+          "Ukraine: inherited and upgraded MiG-29s; wartime availability and losses require current-source verification.",
+          "India: operates air-force MiG-29 upgrades and naval MiG-29K/KUB aircraft.",
+          "Germany/Poland: Germany inherited East German MiG-29s after reunification, adapted them to NATO procedures, and transferred the fleet to Poland.",
+          "Other operators have included Algeria, Bangladesh, Belarus, Bulgaria, Cuba, Eritrea, Hungary, Iran, Kazakhstan, Malaysia, Myanmar, North Korea, Peru, Romania, Serbia, Slovakia, Syria, Sudan, Turkmenistan, Uzbekistan, and Yemen."
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "In Soviet service the MiG-29 was assigned to forward fighter regiments as an air-defense and battlefield air-superiority aircraft. After the Soviet breakup, large numbers passed to newly independent states and export users, making the Fulcrum a frequent participant in regional conflicts and NATO evaluation exercises."
+          },
+          {
+            "text": "Combat record should be read carefully. MiG-29s have fought in the Gulf War, the Yugoslav/Kosovo air campaign, the Eritrean-Ethiopian War, and the Russo-Ukrainian War, but aircraft outcomes often reflected pilot training, early-warning support, electronic warfare, basing, and rules of engagement rather than aircraft kinematics alone."
+          }
+        ],
+        "bullets": [
+          "First major Western public exposure came at the 1986 Finland visit.",
+          "German MiG-29 operations after reunification gave NATO valuable insight into Fulcrum strengths and weaknesses.",
+          "MiG-29K service moved the family into carrier aviation with India and Russia.",
+          "Modern conflicts show both the usefulness of upgraded Fulcrums and the vulnerability of legacy aircraft in dense missile and electronic-warfare environments."
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The MiG-29 is best known for close-range agility, a strong thrust-to-weight ratio, rough-field tactical concept, and an early helmet-sight/missile combination that surprised many Western observers. Its compact size and export availability also made it attractive to air forces needing a credible fourth-generation fighter without the cost of a heavy aircraft."
+          }
+        ],
+        "bullets": [
+          "Strengths: acceleration, high-AoA handling, short-range missile cueing, compact basing footprint, and broad export support.",
+          "Limitations: early endurance and range, cockpit workload, analog avionics, smokier early RD-33 engines, and variant-dependent multirole capability.",
+          "Upgrade path: SMT, UPG, K/KUB, M/M2, and MiG-35-related efforts address fuel, radar, cockpit, and guided-weapon limitations but should not be back-projected onto every Fulcrum."
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "The MiG-29 is often compared with the F-16 because both are relatively light fourth-generation fighters, but the Fulcrum was initially more narrowly focused on short-range frontal air defense. It is also paired with the Su-27 in Soviet planning: the MiG-29 covered tactical forward fighter requirements while the Su-27 offered greater range and payload in the heavy-fighter role."
           }
         ],
         "links": [
@@ -33609,12 +33607,69 @@
             "url": "aircraft.html?id=f-16-fighting-falcon"
           },
           {
-            "label": "McDonnell Douglas F/A-18 Hornet",
-            "url": "aircraft.html?id=f-a-18-hornet"
+            "label": "Sukhoi Su-27",
+            "url": "aircraft.html?id=su-27"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "Key public milestones for the MiG-29 family show its transition from Cold War tactical fighter to long-lived export and upgrade platform."
+          }
+        ],
+        "bullets": [
+          "Early 1970s: Mikoyan begins work on the Soviet light/frontal fighter requirement.",
+          "6 October 1977: first MiG-29 prototype flight.",
+          "1982: production begins.",
+          "1983: deliveries to Soviet Frontal Aviation units start.",
+          "July 1986: Soviet MiG-29s appear publicly in Finland, giving Western observers a first close look.",
+          "1990s: German reunification and post-Soviet exports spread Fulcrums through NATO evaluations and new national fleets.",
+          "2000s-2020s: MiG-29SMT, MiG-29UPG, MiG-29K/KUB, and related upgrades keep the family active, while some legacy fleets retire or transfer."
+        ]
+      },
+      {
+        "id": "sources-and-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "The National Museum of the U.S. Air Force page provides the strongest concise source for MiG-29A development, first flight, early service, sensors, armament, and engine data. Airforce Technology supplies useful representative dimensions and variant/operator context, but it blends family information, so variant-specific claims are worded cautiously."
           },
           {
-            "label": "Boeing F/A-18E/F Super Hornet",
-            "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+            "text": "Wikipedia is retained only as a supplementary orientation link. Current operator counts, wartime attrition, and exact national weapons clearances should be verified with up-to-date official or specialist sources before being presented as fixed facts."
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages connect the MiG-29 to its Western counterparts and Soviet/Russian design lineage."
+          }
+        ],
+        "links": [
+          {
+            "label": "McDonnell Douglas F-15 Eagle",
+            "url": "aircraft.html?id=f-15-eagle"
+          },
+          {
+            "label": "General Dynamics F-16 Fighting Falcon",
+            "url": "aircraft.html?id=f-16-fighting-falcon"
+          },
+          {
+            "label": "Sukhoi Su-27",
+            "url": "aircraft.html?id=su-27"
+          },
+          {
+            "label": "Mikoyan-Gurevich MiG-21",
+            "url": "aircraft.html?id=mig-21"
+          },
+          {
+            "label": "Return to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }

@@ -2306,3 +2306,79 @@ Record the result of:
 * Public A-4 specifications vary significantly by subvariant and operator; the article uses representative museum figures and marks range/loadout/engine details as variant-dependent.
 * Exact current active-service status and fleet counts were intentionally not asserted because they are date-sensitive.
 * The final commit hash cannot be embedded in the committed log entry without changing the commit; it is reported in the scheduled-run response.
+
+### Run 31 — 2026-07-01 02:01:50 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Mikoyan MiG-29 (id: mig-29)
+* Reason selected: The MiG-29 record was the shortest unedited zero-source aircraft candidate, with no operator entries, no variant entries, no external article sources, placeholder specifications, and generic generated article sections compared with the F-16 reference page.
+* Previous condition: Generated placeholder-style entry with 15 exact fact fields, 0 operator entries, 0 variant entries, 0 external article sources, no dimensions/engine/range/ceiling/rate-of-climb details, generic armament wording, and missing development, design, variants, operators, combat-history, comparison, timeline, and source-note depth.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview with fact cards; section order from overview through development, design, specifications, variants, operators, operational history, strengths/limitations, comparison, timeline, sources, and related pages; concise technical paragraphs; cautionary notes for variant-dependent data; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the Mikoyan MiG-29 entry from a sparse generated record into a fuller Milipedia article data page.
+* Added the Fulcrum NATO reporting name and alternative names, plus sourced top-level facts for manufacturer, role, era, first flight, service entry, service status, production scale, crew, engines, speed, range, ceiling, climb, hardpoints, armament, combat history, development history, and summary.
+* Replaced generic armament text with MiG-29-specific GSh-301 cannon, R-27/R-73/R-60 missile, and variant-dependent air-to-ground weapon wording.
+* Added official/museum and aviation-reference sources from the National Museum of the U.S. Air Force and Airforce Technology, retaining Wikipedia only as supplementary orientation.
+* Added variant coverage for MiG-29A/9.12, MiG-29UB, MiG-29S/SE, MiG-29SMT, MiG-29K/KUB, and MiG-29M/MiG-35 family derivatives.
+* Added representative operator coverage for Soviet Union/Russia, Ukraine, India, Poland, Germany, and broader export/legacy operators with date-sensitive status caveats.
+* Added detailed sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Comparison, Timeline, Sources and Notes, and Related Pages.
+* Added technical details for RD-33 engines, Mach 2.3/2,400 km/h class speed, 17.32 m length, 11.36 m wingspan, 18,000 kg representative maximum take-off weight, 18,000 m ceiling, roughly 1,430-1,500 km range, and about 330 m/s climb rate with variant/source cautions.
+* Added internal related links to F-15 Eagle, F-16 Fighting Falcon, Su-27, MiG-21, and the aircraft database return link.
+* Omitted exact current fleet totals, exhaustive country-by-country inventories, and detailed combat victory/loss claims because those are date-sensitive and often depend on disputed or context-heavy sources.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded the Mikoyan MiG-29 aircraft page data, sources, article sections, variants, operators, and technical details.
+* hermes-change-log.md — Appended this cumulative Run 31 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed the data/aircraft.json diff and confirmed it changed only the MiG-29 record; reviewed the log append before commit.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool and reviewed the MiG-29 entry's section titles, sources, operators, variants, related links, and cautionary wording.
+4. F-16 style comparison — Inspected data/f16-template.html and copied its dense overview, fact-card, section-order, technical-specification, comparison, timeline, source-note, and related-link patterns within the JSON-rendered page format.
+5. Internal link check — Parsed aircraft.html?id=... links in the updated MiG-29 entry and verified f-15-eagle, f-16-fighting-falcon, su-27, mig-21, and mig-25 exist in data/aircraft.json; aircraft.html return link was left as a site link.
+6. Secret/token check — Ran a credential-pattern scan over the staged diff for API keys, access/auth tokens, passwords, private keys, GitHub tokens, and AWS credentials; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, git diff --check success, one-entry JSON change, intended files only, and no direct main-branch edit.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Mikoyan MiG-29
+* Commit hash: Pending until commit is created; final hash is reported in the scheduled-run response.
+
+#### Issues or Uncertainties
+
+* MiG-29 specifications vary significantly across MiG-29A, UB, S/SE, SMT, K/KUB, M/M2, export, and MiG-35-related derivatives, so representative figures are labeled and variant-dependent claims are caveated.
+* Current operator inventories, wartime attrition, and detailed combat claims were intentionally not fixed as exact facts because they require current source verification and can be disputed.
+* The final commit hash cannot be embedded in the committed log entry without changing the commit; it is reported in the scheduled-run response.
