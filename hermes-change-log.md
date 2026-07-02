@@ -4002,3 +4002,79 @@ Record the result of:
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * Tu-160 fleet totals, new-build Tu-160M delivery counts, weapon integrations, and combat-use details are date-sensitive and source-dependent, so the page uses approximate/cautious wording instead of fixed current inventory or strike-result claims.
 * Some public sources differ on total built counts and Tu-160M/Tu-160M2 naming; the page records the uncertainty rather than forcing a single exact figure.
+
+### Run 53 — 2026-07-02 19:04:01 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Eurofighter Typhoon (id: eurofighter-typhoon)
+* Reason selected: It was the sparsest unedited aircraft candidate by the current scoring pass, with 0 operator entries, 0 variant entries, 0 external article sources, generic gun/missile wording, and multiple top-level fields still marked "Not listed" despite the aircraft's importance.
+* Previous condition: Placeholder-like generated entry with short generic sections, only Wikipedia/Wikidata/method sources, no detailed development/tranche/operator coverage, no real EJ200/avionics/weapons treatment, and no variant/operator lists.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview and fact-card rhythm; article-section order from overview through development, design, specifications, variants, operators, operational history, comparison, timeline, sources, and related links; concise sourced paragraphs; representative specifications with caveats; internal aircraft.html?id=... related-link style; source notes that distinguish official/specialist sources from supplementary orientation.
+
+#### Changes Made
+
+* Expanded the Eurofighter Typhoon entry in data/aircraft.json into a fuller Milipedia article data record while preserving the JSON-rendered site structure.
+* Corrected and expanded top-level facts for multinational origin, manufacturer/partner-company context, swing-role mission, first-flight/service-entry wording, active status, EJ200 engines, speed/range/ceiling caveats, armament, hardpoints, development history, and short summary.
+* Replaced generic armament wording with RAF/source-backed representative Typhoon weapons: 27 mm Mauser gun, ASRAAM, AMRAAM, Meteor, Paveway IV, Brimstone 2, Storm Shadow, and a clear caveat that weapons vary by tranche, software standard, operator, and clearance.
+* Added official/specialist sources from the Royal Air Force, Airforce Technology, and MTU Aero Engines, retaining Wikipedia only as supplementary orientation.
+* Added variant/tranche coverage for development aircraft, Tranche 1, Tranche 2, Tranche 3/3A, RAF FGR4/T3, and export Typhoons.
+* Added representative operator coverage for the United Kingdom, Germany, Italy, Spain, Austria, Saudi Arabia, Oman, Kuwait, and Qatar, with date-sensitive fleet-status caveats.
+* Added/expanded article sections for Overview, Development History, Design and Capabilities, Weapons Systems, Specifications, Variants and Standards, Operators, Operational History, Strengths and Limitations, Comparison and Role Context, Timeline, Sources and Notes, and Related Pages.
+* Added technical details for EJ200 thrust, canard-delta configuration, composites/materials, radar/IRST/helmet/HOTAS concepts, 13-store-station public description, RAF FGR4 dimensions, 55,000 ft altitude, 2,900 km range source, and probe-and-drogue refuelling.
+* Added internal related links to Dassault Rafale, Saab JAS 39 Gripen, Panavia Tornado, McDonnell Douglas F-15 Eagle, and General Dynamics F-16 Fighting Falcon.
+* Omitted or caveated exact current fleet totals, universal maximum speed claims, exact combat radius, and detailed national weapons clearances because those are date-, tranche-, and operator-dependent.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded the Eurofighter Typhoon aircraft page data, sources, variants, operators, technical content, and article sections.
+* hermes-change-log.md — Appended this cumulative Run 53 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were modified and intended for staging.
+2. git diff — Reviewed diff/stat; data/aircraft.json changed exactly one aircraft entry, id eurofighter-typhoon, and hermes-change-log.md received this appended run entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the Eurofighter entry section list, source list, representative specifications, variants, operators, weapons caveats, and article quality fields.
+4. F-16 style comparison — Inspected data/f16-template.html and followed its dense overview, section ordering, sourced paragraph style, technical-specification emphasis, variants/operators/operational-history/comparison/timeline/source/related-page pattern within the data-driven aircraft page format.
+5. Internal link check — Parsed data/aircraft.json ids and confirmed related links to rafale, jas-39-gripen, panavia-tornado, f-15-eagle, and f-16-fighting-falcon resolve to existing local aircraft ids; the database return link intentionally has no id.
+6. Secret/token check — Ran a credential-pattern scan over the staged diff for private keys, cloud credential names, passwords, and access/auth token assignments; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, git diff --check cleanliness, single-entry aircraft change, intended files only, complete change log, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Eurofighter Typhoon
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* Public Typhoon facts vary by tranche, national standard, software upgrade, export configuration, and date. Exact fleet totals, current delivery status, combat radius, maximum-speed claims, and national weapons clearances were intentionally caveated or omitted.
+* The rendered data-driven page is less visually bespoke than the static F-16 template, but it now follows the same article density and section progression available within data/aircraft.json.

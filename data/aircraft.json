@@ -51020,34 +51020,109 @@
   {
     "id": "eurofighter-typhoon",
     "name": "Eurofighter Typhoon",
-    "alternative_names": [],
+    "alternative_names": [
+      "EF2000",
+      "Typhoon FGR4",
+      "Eurofighter EF-2000"
+    ],
     "nato_reporting_name": null,
-    "country_of_origin": "Multinational Europe",
-    "manufacturer": "Eurofighter Jagdflugzeug GmbH",
-    "role": "Multirole fighter",
+    "country_of_origin": "United Kingdom, Germany, Italy, Spain / multinational Europe",
+    "manufacturer": "Eurofighter Jagdflugzeug GmbH; partner final assembly by BAE Systems, Airbus and Leonardo predecessor companies",
+    "role": "Swing-role air-superiority and multirole combat aircraft",
     "aircraft_type": "Fighter",
     "era": "Modern",
-    "first_flight": "1994",
-    "introduction_date": "2003",
+    "first_flight": "27 March 1994 for the first EFA development aircraft; production aircraft followed in 2003",
+    "introduction_date": "2003 type acceptance and first deliveries; RAF F2/FGR4 service followed in the mid-2000s",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "1 or 2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "status": "Active with European partner nations and export operators",
+    "number_built": "More than 550 aircraft sold by 2019; production and modernization orders continued afterward",
+    "crew": "1 in single-seat fighters; 2 in trainer/conversion aircraft",
+    "engine_type": "Afterburning turbofan",
+    "engines": "Two Eurojet EJ200 afterburning turbofans",
+    "max_speed": "RAF public FGR4 data lists Mach 1.6; performance varies by altitude, loadout and national standard",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
+    "range": "Airforce Technology lists about 2,900 km range; combat radius varies heavily with weapons, tanks and mission profile",
+    "combat_range": "Mission-dependent; public sources usually quote ferry/range figures rather than a single combat-radius value",
+    "service_ceiling": "RAF public data lists 55,000 ft",
+    "rate_of_climb": "High fighter climb performance; exact public figures vary by standard and loadout",
+    "armament": "27 mm Mauser cannon; Meteor, AMRAAM and ASRAAM air-to-air missiles; Paveway IV, Brimstone 2, Storm Shadow and other air-to-surface stores depending on operator, tranche and clearance.",
+    "hardpoints": "13 external stations in common public descriptions; usable combinations vary by standard and clearance",
+    "variants": [
+      {
+        "name": "Development Aircraft / EFA demonstrators",
+        "description": "Prototype and development aircraft used to validate the canard-delta configuration, flight controls, EJ200 integration and mission systems before production acceptance."
+      },
+      {
+        "name": "Tranche 1 Typhoon",
+        "description": "Early production aircraft primarily delivered for air-defence and training roles; later operators applied varying sustainment and limited-upgrade paths."
+      },
+      {
+        "name": "Tranche 2 Typhoon",
+        "description": "Improved production standard that supported expanded multirole capability, including P1E-style precision-attack and sensor/weapons integration."
+      },
+      {
+        "name": "Tranche 3 / Tranche 3A",
+        "description": "Later-production airframes with provisions for growth such as enhanced radar and mission-system upgrades, while national capability packages differ."
+      },
+      {
+        "name": "Typhoon FGR4 / T3",
+        "description": "RAF single-seat and twin-seat standards; FGR4 combined air-defence duties with precision strike, reconnaissance support, QRA and expeditionary operations."
+      },
+      {
+        "name": "Export Typhoons",
+        "description": "Customer-configured aircraft for Austria, Saudi Arabia, Oman, Kuwait, Qatar and newer orders; equipment, weapons and support arrangements vary by contract."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United Kingdom",
+        "service": "Royal Air Force",
+        "notes": "Operates Typhoon FGR4/T3 for QRA, air policing, expeditionary air defence and precision-strike missions; RAF history notes Libya, Iraq/Syria and NATO air-policing deployments."
+      },
+      {
+        "country": "Germany",
+        "service": "Luftwaffe",
+        "notes": "Original partner operator with Eurofighter units for air policing, NATO commitments and national air-defence tasks; German industry also supports EJ200 production and maintenance."
+      },
+      {
+        "country": "Italy",
+        "service": "Aeronautica Militare",
+        "notes": "Original partner operator; public sources describe Italian Typhoons in air-defence and NATO air-policing roles."
+      },
+      {
+        "country": "Spain",
+        "service": "Spanish Air and Space Force",
+        "notes": "Original partner operator with national final-assembly participation and ongoing modernization/replacement orders."
+      },
+      {
+        "country": "Austria",
+        "service": "Austrian Armed Forces",
+        "notes": "Export operator of Tranche 1 aircraft for national air-policing duties; public sources note Austrian aircraft were brought to Tranche 1 standard."
+      },
+      {
+        "country": "Saudi Arabia",
+        "service": "Royal Saudi Air Force",
+        "notes": "Major export operator under Project Salaam; public sources list a 72-aircraft order and later support/upgrade activity."
+      },
+      {
+        "country": "Oman",
+        "service": "Royal Air Force of Oman",
+        "notes": "Export customer; Airforce Technology describes a 12-aircraft order with first aircraft rolled out and delivered in 2017."
+      },
+      {
+        "country": "Kuwait",
+        "service": "Kuwait Air Force",
+        "notes": "Export operator of later-standard Typhoons; exact fleet and delivery status should be checked against current national/industry releases."
+      },
+      {
+        "country": "Qatar",
+        "service": "Qatar Emiri Air Force",
+        "notes": "Export customer and partner in a joint UK-Qatari RAF squadron; delivery and operational status are date-sensitive."
+      }
+    ],
     "combat_history": "Not listed",
-    "development_history": "Eurofighter Typhoon: Multirole fighter. Manufacturer: Eurofighter Jagdflugzeug GmbH. First flight: 1994. Introduction: 2003.",
-    "short_summary": "Eurofighter Typhoon: Multirole fighter. Origin: Multinational Europe. Manufacturer: Eurofighter Jagdflugzeug GmbH. First flight: 1994. Introduction: 2003. Status: Active.",
+    "development_history": "The Eurofighter Typhoon grew from European Combat Fighter, Agile Combat Aircraft and European Fighter Aircraft studies into a four-nation consortium fighter. Development aircraft began flying in 1994, type acceptance occurred in 2003, and incremental Tranche and enhancement programmes expanded the aircraft from air-defence emphasis to full swing-role service.",
+    "short_summary": "Eurofighter Typhoon is a multinational European swing-role fighter built around a canard-delta airframe, EJ200 engines, advanced radar/IRST sensors and continuously upgraded air-to-air and precision-strike weapons. It is active with the original partner air forces and several export operators.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -51060,62 +51135,101 @@
     ],
     "sources": [
       {
+        "id": "fn-raf",
+        "title": "Typhoon FGR4",
+        "url": "https://www.raf.mod.uk/aircraft/current-aircraft/typhoon-fgr41",
+        "publisher": "Royal Air Force",
+        "note": "Official RAF aircraft page used for role, RAF weapons, specifications, history and operational examples."
+      },
+      {
+        "id": "fn-aft",
+        "title": "Eurofighter Typhoon Multirole Combat Fighter",
+        "url": "https://www.airforce-technology.com/projects/ef2000/",
+        "publisher": "Airforce Technology",
+        "note": "Reference used for programme history, production/tranche context, materials, range, dimensions, hardpoints and operator context."
+      },
+      {
+        "id": "fn-mtu",
+        "title": "EJ200",
+        "url": "https://www.mtu.de/engines/military-aircraft-engines/fighter-aircraft/ej200",
+        "publisher": "MTU Aero Engines",
+        "note": "Manufacturer/industry source for EJ200 thrust, consortium and technical-data details."
+      },
+      {
         "id": "fn-main",
         "title": "Eurofighter Typhoon",
         "url": "https://en.wikipedia.org/wiki/Eurofighter_Typhoon",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation only; official and specialist sources above are preferred for article facts."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
+        "note": "Local rules for neutral wording, estimates, variant differences and source handling."
       }
     ],
     "country_flags": [
       {
-        "label": "Multinational Europe",
-        "emoji": "🇪🇺"
+        "label": "United Kingdom",
+        "emoji": "🇬🇧"
+      },
+      {
+        "label": "Germany",
+        "emoji": "🇩🇪"
+      },
+      {
+        "label": "Italy",
+        "emoji": "🇮🇹"
+      },
+      {
+        "label": "Spain",
+        "emoji": "🇪🇸"
       }
     ],
     "designers": [
-      "Eurofighter Jagdflugzeug GmbH"
+      "Eurofighter Jagdflugzeug GmbH",
+      "BAE Systems",
+      "Airbus predecessor companies",
+      "Leonardo / Alenia predecessor companies"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Meeting different partner-nation air-defence and strike requirements while preserving a common production aircraft.",
+      "Evolving a Cold War air-superiority design into a modern swing-role aircraft with precision weapons, targeting pods, AESA radar upgrades and long-term supportability.",
+      "Balancing high agility and supercruise potential against external-store drag, range, cost and export-customer configuration differences."
     ],
     "wars_used_in": [
       {
-        "name": "Kosovo War",
-        "note": "Eurofighter Typhoon used in Kosovo War."
+        "name": "2011 military intervention in Libya",
+        "note": "RAF Typhoons flew combat missions during Operation Ellamy; RAF public history identifies Libya as the type's first combat use."
       },
       {
-        "name": "2011 military intervention in Libya",
-        "note": "Eurofighter Typhoon used in 2011 military intervention in Libya."
+        "name": "Operation Shader / Iraq and Syria",
+        "note": "RAF Typhoons have supported coalition operations against ISIS targets with precision weapons, according to RAF public summaries."
+      },
+      {
+        "name": "NATO air policing and QRA",
+        "note": "Typhoons routinely conduct quick-reaction alert and NATO air-policing missions in the UK, Falklands, Baltic region, Romania and other deployments."
       }
     ],
     "variant_families": [
-      "Eurofighter Typhoon baseline production model",
-      "Eurofighter Typhoon upgraded avionics or weapons-capable model",
-      "Eurofighter Typhoon two-seat trainer or conversion model",
-      "Eurofighter Typhoon export or locally modernized model"
+      "Development aircraft and Instrumented Production Aircraft",
+      "Tranche 1 air-defence-focused early production",
+      "Tranche 2 multirole aircraft and P1E upgrades",
+      "Tranche 3/3A aircraft with growth provisions",
+      "National FGR4, T, Tifone and Tifón standards",
+      "Export standards for Austria, Saudi Arabia, Oman, Kuwait, Qatar and newer customers"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
-        "Multinational Europe"
+        "United Kingdom",
+        "Germany",
+        "Italy",
+        "Spain"
       ],
-      "major_user_note": "Eurofighter Typhoon has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Original partner users are the RAF, German Air Force, Italian Air Force and Spanish Air and Space Force; export customers include Austria, Saudi Arabia, Oman, Kuwait and Qatar, with further orders and prospects changing over time.",
+      "all_operators_status": "Representative operators listed; exact fleet totals are date-sensitive."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -51128,14 +51242,24 @@
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Eurofighter Typhoon uses jet propulsion."
+      "type": "Afterburning turbofan",
+      "summary": "Two Eurojet EJ200 engines power the Typhoon. MTU's public EJ200 page lists 20,000 lbf afterburning thrust and 13,500 lbf dry thrust per engine, with digital control, low/high-pressure compressor workshare and Eurojet partner production."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Typical public RAF FGR4 weapons include the 27 mm Mauser gun, ASRAAM, AMRAAM, Meteor, Paveway IV, Brimstone 2 and Storm Shadow. Other operators integrate different national weapons and pods.",
+      "caution": "Typhoon weapons fit depends on tranche, software standard, export clearance and national integration; the list is representative, not a universal loadout."
     },
     "similar_development": [
+      {
+        "id": "rafale",
+        "name": "Dassault Rafale",
+        "url": "aircraft.html?id=rafale"
+      },
+      {
+        "id": "jas-39-gripen",
+        "name": "Saab JAS 39 Gripen",
+        "url": "aircraft.html?id=jas-39-gripen"
+      },
       {
         "id": "f-15-eagle",
         "name": "McDonnell Douglas F-15 Eagle",
@@ -51147,117 +51271,153 @@
         "url": "aircraft.html?id=f-16-fighting-falcon"
       },
       {
-        "id": "f-a-18-hornet",
-        "name": "McDonnell Douglas F/A-18 Hornet",
-        "url": "aircraft.html?id=f-a-18-hornet"
-      },
-      {
-        "id": "f-a-18e-f-super-hornet",
-        "name": "Boeing F/A-18E/F Super Hornet",
-        "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+        "id": "panavia-tornado",
+        "name": "Panavia Tornado",
+        "url": "aircraft.html?id=panavia-tornado"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 33,
+      "operator_entries": 9,
+      "variant_entries": 6,
+      "external_article_sources": 3
     },
     "footnotes": [
+      {
+        "id": "fn-raf",
+        "title": "Typhoon FGR4",
+        "url": "https://www.raf.mod.uk/aircraft/current-aircraft/typhoon-fgr41",
+        "publisher": "Royal Air Force",
+        "note": "Official RAF aircraft page used for role, RAF weapons, specifications, history and operational examples."
+      },
+      {
+        "id": "fn-aft",
+        "title": "Eurofighter Typhoon Multirole Combat Fighter",
+        "url": "https://www.airforce-technology.com/projects/ef2000/",
+        "publisher": "Airforce Technology",
+        "note": "Reference used for programme history, production/tranche context, materials, range, dimensions, hardpoints and operator context."
+      },
+      {
+        "id": "fn-mtu",
+        "title": "EJ200",
+        "url": "https://www.mtu.de/engines/military-aircraft-engines/fighter-aircraft/ej200",
+        "publisher": "MTU Aero Engines",
+        "note": "Industry source for EJ200 thrust and technical data."
+      },
       {
         "id": "fn-main",
         "title": "Eurofighter Typhoon",
         "url": "https://en.wikipedia.org/wiki/Eurofighter_Typhoon",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation only."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording and source handling."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "Royal Air Force Typhoon FGR4",
+        "url": "https://www.raf.mod.uk/aircraft/current-aircraft/typhoon-fgr41",
+        "publisher": "Royal Air Force"
+      },
+      {
+        "title": "Eurofighter Typhoon Multirole Combat Fighter",
+        "url": "https://www.airforce-technology.com/projects/ef2000/",
+        "publisher": "Airforce Technology"
+      },
+      {
+        "title": "EJ200",
+        "url": "https://www.mtu.de/engines/military-aircraft-engines/fighter-aircraft/ej200",
+        "publisher": "MTU Aero Engines"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Eurofighter Typhoon is a Multirole fighter from Multinational Europe. Manufacturer: Eurofighter Jagdflugzeug GmbH. First flight: 1994. Introduction: 2003. Status: Active.",
+            "text": "Eurofighter Typhoon is a multinational European swing-role fighter built by the United Kingdom, Germany, Italy and Spain through Eurofighter Jagdflugzeug GmbH and national partner companies. It began as a Cold War air-superiority programme but entered service as an agile canard-delta aircraft that has steadily gained precision-strike and reconnaissance-support capability.",
             "refs": [
-              "fn-main"
+              "fn-raf",
+              "fn-aft"
             ]
           },
           {
-            "text": "Eurofighter Typhoon is a fighter. Primary role: multirole fighter. Country of origin: Multinational Europe. Manufacturer: Eurofighter Jagdflugzeug GmbH.",
+            "text": "The Typhoon combines two EJ200 engines, relaxed-stability flight controls, a large foreplane-delta wing, radar/IRST sensors and a modular weapons architecture. RAF public material describes the FGR4 as active across air policing, peacekeeping and high-intensity combat roles, while other partner and export fleets use nationally tailored standards.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Exact structured fact fields: 15.",
-            "refs": [
-              "fn-method"
+              "fn-raf",
+              "fn-mtu"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Multirole fighter"
+            "text": "Swing-role air-superiority and multirole combat aircraft"
           },
           {
-            "title": "Designer or builder",
-            "text": "Eurofighter Jagdflugzeug GmbH"
+            "title": "Partner origins",
+            "text": "United Kingdom, Germany, Italy and Spain"
           },
           {
-            "title": "Major origin",
-            "text": "Multinational Europe"
+            "title": "Powerplant",
+            "text": "2 × Eurojet EJ200 afterburning turbofans"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Status",
+            "text": "Active; continuing upgrades and export support"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Eurofighter Typhoon first flew in 1994. Introduction date: 2003. Era: Modern.",
+            "text": "Typhoon traces its lineage through European Combat Fighter studies, the Agile Combat Aircraft effort and the European Fighter Aircraft programme. France ultimately pursued the Rafale separately, while the UK, Germany, Italy and Spain continued the EFA/Eurofighter route with BAE, MBB/Airbus, Aeritalia/Alenia/Leonardo and CASA participation.",
             "refs": [
-              "fn-main"
+              "fn-raf",
+              "fn-aft"
             ]
           },
           {
-            "text": "Producer: Eurofighter Jagdflugzeug GmbH. Development context: multirole fighter, jet propulsion, supersonic speed category, Modern era.",
+            "text": "The first EFA development aircraft flew in 1994. Series production followed after the 1998 production contract, first production flights in 2003 and type acceptance in June 2003. Tranche 1, 2 and 3 production separated early air-defence deliveries from later multirole and growth-provision aircraft.",
             "refs": [
-              "fn-wikidata"
+              "fn-aft",
+              "fn-raf"
+            ]
+          },
+          {
+            "text": "Capability growth has been central to the programme. RAF Project Centurion transferred important Tornado GR4 weapons to Typhoon before Tornado retirement, while partner nations have pursued AESA radar, mission-computer, defensive-aids and weapons upgrades on different schedules.",
+            "refs": [
+              "fn-raf",
+              "fn-aft"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "1980s: European partner studies narrowed into the EFA/Eurofighter programme after different national requirements split the Rafale path from the Eurofighter path.",
             "refs": [
-              "fn-method"
+              "fn-raf"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "1994: first EFA demonstrator flight validated the basic canard-delta concept and digital flight-control approach.",
             "refs": [
-              "fn-method"
+              "fn-raf"
+            ]
+          },
+          {
+            "text": "2003-2004: type acceptance and first production deliveries to partner air forces established operational fleets.",
+            "refs": [
+              "fn-aft"
             ]
           }
         ]
@@ -51267,195 +51427,80 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1 or 2. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The Typhoon airframe uses a close-coupled canard and delta wing to emphasize high agility, supersonic performance and rapid energy changes. Airforce Technology describes extensive carbon-fibre composite, glass-reinforced plastic, aluminium-lithium, titanium and aluminium-casting use rather than a traditional all-metal fighter structure.",
             "refs": [
-              "fn-main"
+              "fn-aft"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Two Eurojet EJ200 engines provide the powerplant. MTU lists each EJ200 at 20,000 lbf maximum thrust with afterburner and 13,500 lbf dry thrust, with digital engine control and Eurojet consortium production by MTU, Rolls-Royce, Avio Aero and ITP Aero.",
             "refs": [
-              "fn-method"
+              "fn-mtu"
             ]
           },
           {
-            "text": "Eurofighter Typhoon uses jet propulsion. Engine model field: Not listed.",
+            "text": "Mission systems vary by national standard. Public descriptions include Captor/ECR 90 radar, PIRATE infrared search and track, helmet cueing, hands-on-throttle-and-stick controls, defensive aids, towed decoys and targeting pods such as Litening on RAF strike configurations.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-raf",
+              "fn-aft"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "1 or 2"
+            "title": "Configuration",
+            "text": "Close-coupled canard-delta, relaxed-stability fighter"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Sensors",
+            "text": "Captor radar family, PIRATE IRST on equipped aircraft, helmet and targeting-pod integration"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Defensive aids",
+            "text": "Electronic support/countermeasures, missile warning, expendables and towed-decoy options"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Refuelling",
+            "text": "RAF public data lists probe-and-drogue air-to-air refuelling"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "weapons",
+        "title": "Weapons Systems",
         "paragraphs": [
           {
-            "text": "Eurofighter Typhoon status: Active. Conflict entries: 2.",
+            "text": "RAF public data lists the Mauser 27 mm gun, ASRAAM, AMRAAM and Meteor for air-to-air missions, plus Paveway IV, Brimstone 2 and Storm Shadow for air-to-surface missions. Airforce Technology describes 13 weapon stations, but actual loadouts depend on clearance and operator configuration.",
             "refs": [
-              "fn-main"
+              "fn-raf",
+              "fn-aft"
             ]
           },
           {
-            "text": "Conflicts: Kosovo War, 2011 military intervention in Libya.",
+            "text": "Typhoon is best described as swing-role rather than simply multirole: the same sortie planning and avionics architecture can combine counter-air, defensive counter-air, reconnaissance support and precision attack, but external stores impose range and drag trade-offs.",
             "refs": [
+              "fn-raf",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Kosovo War: Eurofighter Typhoon used in Kosovo War.",
+            "text": "Air-to-air: ASRAAM, AMRAAM and Meteor appear in RAF public weapon-system data.",
             "refs": [
-              "fn-main"
+              "fn-raf"
             ]
           },
           {
-            "text": "2011 military intervention in Libya: Eurofighter Typhoon used in 2011 military intervention in Libya.",
+            "text": "Air-to-surface: RAF FGR4 public data includes Paveway IV, Brimstone 2 and Storm Shadow; other users have national weapon integrations.",
             "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Eurofighter Typhoon named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-raf"
             ]
           },
           {
-            "text": "Named individual aircraft listed: 0.",
+            "text": "Gun: the 27 mm Mauser cannon is listed by RAF public data.",
             "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "variants",
-        "title": "Variants",
-        "paragraphs": [
-          {
-            "text": "Eurofighter Typhoon variant-family entries: 4. Variant families: Eurofighter Typhoon baseline production model; Eurofighter Typhoon upgraded avionics or weapons-capable model; Eurofighter Typhoon two-seat trainer or conversion model; Eurofighter Typhoon export or locally modernized model.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Eurofighter Typhoon baseline production model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Eurofighter Typhoon upgraded avionics or weapons-capable model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Eurofighter Typhoon two-seat trainer or conversion model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Eurofighter Typhoon export or locally modernized model",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "operators",
-        "title": "Operators",
-        "paragraphs": [
-          {
-            "text": "Designer or builder countries: Multinational Europe. Eurofighter Typhoon has 1 designer or builder country entry.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "All operators status: 0 operator entries listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Major designer or builder entries: Multinational Europe.",
-            "refs": [
-              "fn-wikidata"
+              "fn-raf"
             ]
           }
         ]
@@ -51465,13 +51510,337 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1 or 2, propulsion type Jet, maximum speed category Supersonic, first flight 1994, introduction 2003.",
+            "text": "Representative public specifications should be read as FGR4/Eurofighter-family data, not as a universal value for every tranche or loadout. RAF public data lists length 15.96 m, height 5.29 m, wingspan 11.09 m, wing area 50 m², maximum speed Mach 1.6 and maximum altitude 55,000 ft.",
             "refs": [
+              "fn-raf"
+            ]
+          },
+          {
+            "text": "Airforce Technology lists a 10.95 m wingspan, 15.96 m length and 2,900 km range. Small differences between sources usually reflect rounding, national page conventions or configuration assumptions; this page avoids exact combat radius claims where public sources vary.",
+            "refs": [
+              "fn-aft",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Crew",
+            "text": "1 pilot in single-seat fighters; 2 in conversion trainers"
+          },
+          {
+            "title": "Length",
+            "text": "15.96 m in RAF/Airforce Technology public data"
+          },
+          {
+            "title": "Wingspan",
+            "text": "About 11 m; RAF lists 11.09 m"
+          },
+          {
+            "title": "Ceiling",
+            "text": "55,000 ft in RAF public data"
+          },
+          {
+            "title": "Engines",
+            "text": "2 × EJ200; MTU lists 20,000 lbf reheat thrust each"
+          },
+          {
+            "title": "Range",
+            "text": "Airforce Technology lists about 2,900 km; mission radius varies"
+          }
+        ]
+      },
+      {
+        "id": "variants",
+        "title": "Variants and Standards",
+        "paragraphs": [
+          {
+            "text": "Typhoon variants are better understood as tranches, national standards and enhancement packages rather than wholly separate airframes. Tranche 1 covered early operational capability; Tranche 2 brought improved hardware/software growth; Tranche 3/3A added further provisions for future sensors and weapons.",
+            "refs": [
+              "fn-aft",
+              "fn-raf"
+            ]
+          },
+          {
+            "text": "National designations such as RAF FGR4/T3, Italian Tifone and Spanish Tifón sit on top of the shared Eurofighter architecture. Export aircraft often have customer-specific communications, weapons, defensive aids and support packages.",
+            "refs": [
+              "fn-raf",
+              "fn-aft"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Development Aircraft / EFA demonstrators: Prototype and development aircraft used to validate the canard-delta configuration, flight controls, EJ200 integration and mission systems before production acceptance.",
+            "refs": [
+              "fn-aft",
+              "fn-raf"
+            ]
+          },
+          {
+            "text": "Tranche 1 Typhoon: Early production aircraft primarily delivered for air-defence and training roles; later operators applied varying sustainment and limited-upgrade paths.",
+            "refs": [
+              "fn-aft",
+              "fn-raf"
+            ]
+          },
+          {
+            "text": "Tranche 2 Typhoon: Improved production standard that supported expanded multirole capability, including P1E-style precision-attack and sensor/weapons integration.",
+            "refs": [
+              "fn-aft",
+              "fn-raf"
+            ]
+          },
+          {
+            "text": "Tranche 3 / Tranche 3A: Later-production airframes with provisions for growth such as enhanced radar and mission-system upgrades, while national capability packages differ.",
+            "refs": [
+              "fn-aft",
+              "fn-raf"
+            ]
+          },
+          {
+            "text": "Typhoon FGR4 / T3: RAF single-seat and twin-seat standards; FGR4 combined air-defence duties with precision strike, reconnaissance support, QRA and expeditionary operations.",
+            "refs": [
+              "fn-aft",
+              "fn-raf"
+            ]
+          },
+          {
+            "text": "Export Typhoons: Customer-configured aircraft for Austria, Saudi Arabia, Oman, Kuwait, Qatar and newer orders; equipment, weapons and support arrangements vary by contract.",
+            "refs": [
+              "fn-aft",
+              "fn-raf"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operators",
+        "title": "Operators",
+        "paragraphs": [
+          {
+            "text": "Original partner operators are the United Kingdom, Germany, Italy and Spain. Export users include Austria, Saudi Arabia, Oman, Kuwait and Qatar, with exact fleet size and delivery status changing as orders, upgrades and retirements proceed.",
+            "refs": [
+              "fn-aft",
+              "fn-raf"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "United Kingdom — Royal Air Force: Operates Typhoon FGR4/T3 for QRA, air policing, expeditionary air defence and precision-strike missions; RAF history notes Libya, Iraq/Syria and NATO air-policing deployments.",
+            "refs": [
+              "fn-aft",
+              "fn-raf"
+            ]
+          },
+          {
+            "text": "Germany — Luftwaffe: Original partner operator with Eurofighter units for air policing, NATO commitments and national air-defence tasks; German industry also supports EJ200 production and maintenance.",
+            "refs": [
+              "fn-aft",
+              "fn-raf"
+            ]
+          },
+          {
+            "text": "Italy — Aeronautica Militare: Original partner operator; public sources describe Italian Typhoons in air-defence and NATO air-policing roles.",
+            "refs": [
+              "fn-aft",
+              "fn-raf"
+            ]
+          },
+          {
+            "text": "Spain — Spanish Air and Space Force: Original partner operator with national final-assembly participation and ongoing modernization/replacement orders.",
+            "refs": [
+              "fn-aft",
+              "fn-raf"
+            ]
+          },
+          {
+            "text": "Austria — Austrian Armed Forces: Export operator of Tranche 1 aircraft for national air-policing duties; public sources note Austrian aircraft were brought to Tranche 1 standard.",
+            "refs": [
+              "fn-aft",
+              "fn-raf"
+            ]
+          },
+          {
+            "text": "Saudi Arabia — Royal Saudi Air Force: Major export operator under Project Salaam; public sources list a 72-aircraft order and later support/upgrade activity.",
+            "refs": [
+              "fn-aft",
+              "fn-raf"
+            ]
+          },
+          {
+            "text": "Oman — Royal Air Force of Oman: Export customer; Airforce Technology describes a 12-aircraft order with first aircraft rolled out and delivered in 2017.",
+            "refs": [
+              "fn-aft",
+              "fn-raf"
+            ]
+          },
+          {
+            "text": "Kuwait — Kuwait Air Force: Export operator of later-standard Typhoons; exact fleet and delivery status should be checked against current national/industry releases.",
+            "refs": [
+              "fn-aft",
+              "fn-raf"
+            ]
+          },
+          {
+            "text": "Qatar — Qatar Emiri Air Force: Export customer and partner in a joint UK-Qatari RAF squadron; delivery and operational status are date-sensitive.",
+            "refs": [
+              "fn-aft",
+              "fn-raf"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "service",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "The RAF describes Typhoon as active in Quick Reaction Alert, the Falkland Islands, NATO Baltic and southern air-policing deployments, and expeditionary combat operations. It first saw combat during the 2011 Libya intervention and later supported Operation Shader over Iraq and Syria.",
+            "refs": [
+              "fn-raf"
+            ]
+          },
+          {
+            "text": "Across partner nations, Typhoon has become a core European air-defence platform: fast reaction alert, peacetime interception, NATO reassurance deployments and high-end exercises are as important to its record as strike operations.",
+            "refs": [
+              "fn-raf",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "2011 military intervention in Libya: RAF Typhoons flew combat missions during Operation Ellamy; RAF public history identifies Libya as the type's first combat use.",
+            "refs": [
+              "fn-raf"
+            ]
+          },
+          {
+            "text": "Operation Shader / Iraq and Syria: RAF Typhoons have supported coalition operations against ISIS targets with precision weapons, according to RAF public summaries.",
+            "refs": [
+              "fn-raf"
+            ]
+          },
+          {
+            "text": "NATO air policing and QRA: Typhoons routinely conduct quick-reaction alert and NATO air-policing missions in the UK, Falklands, Baltic region, Romania and other deployments.",
+            "refs": [
+              "fn-raf"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include agility, high-altitude performance, powerful EJ200 engines, modern air-to-air weapons, continuous upgrades and a large multinational support base. The canard-delta design and sensor/weapon integration make the aircraft especially valuable for air policing and beyond-visual-range combat.",
+            "refs": [
+              "fn-raf",
+              "fn-mtu"
+            ]
+          },
+          {
+            "text": "Limitations are mostly programme and configuration related: standards differ between tranches and nations, advanced upgrades can be expensive, and external-store-heavy strike missions reduce the clean-airframe performance often associated with the type. It is not a dedicated stealth aircraft, though some sources describe reduced frontal radar-signature features.",
+            "refs": [
+              "fn-aft",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Role Context",
+        "paragraphs": [
+          {
+            "text": "Compared with the Rafale and Gripen, Typhoon represents the heavier end of the European canard-delta fighter family, optimized around high-energy air combat and later expanded into strike. Compared with the F-15 and F-16, it is a newer European design with multinational production and sustainment rather than a single-country U.S. programme.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The Typhoon also replaced or supplemented national Tornado, Phantom, Jaguar and older air-defence fleets, but it did not duplicate every Tornado role immediately; RAF Project Centurion is a useful example of how weapons and mission capabilities migrated over time.",
+            "refs": [
+              "fn-raf"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Dassault Rafale",
+            "url": "aircraft.html?id=rafale"
+          },
+          {
+            "label": "Saab JAS 39 Gripen",
+            "url": "aircraft.html?id=jas-39-gripen"
+          },
+          {
+            "label": "Panavia Tornado",
+            "url": "aircraft.html?id=panavia-tornado"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "1979-1980s: European Combat Fighter and related studies define the requirement space for a future European fighter.",
+            "refs": [
+              "fn-raf"
+            ]
+          },
+          {
+            "text": "1987-1988: remaining partner nations formalize the European Fighter Aircraft programme and award development contracts.",
+            "refs": [
+              "fn-raf"
+            ]
+          },
+          {
+            "text": "1994: the first EFA development aircraft flies.",
+            "refs": [
+              "fn-raf"
+            ]
+          },
+          {
+            "text": "2003: production aircraft fly, type acceptance is granted and first partner deliveries begin.",
+            "refs": [
+              "fn-aft"
+            ]
+          },
+          {
+            "text": "2011: RAF Typhoons see combat during Operation Ellamy over Libya.",
+            "refs": [
+              "fn-raf"
+            ]
+          },
+          {
+            "text": "2010s-2020s: Project Centurion, P1E-style enhancements, AESA radar programmes and export deliveries continue to expand the type's role.",
+            "refs": [
+              "fn-raf",
+              "fn-aft"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Primary facts in this entry come from the RAF official Typhoon FGR4 page, Airforce Technology's Eurofighter project profile and MTU's EJ200 technical page. Wikipedia is retained only as supplementary orientation and for cross-checking broad article structure.",
+            "refs": [
+              "fn-raf",
+              "fn-aft",
+              "fn-mtu",
               "fn-main"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Omitted or caveated facts include exact current fleet totals, universal maximum speed claims, combat radius and detailed national weapons clearances, because those vary by tranche, operator, software standard and date.",
             "refs": [
               "fn-method"
             ]
@@ -51479,17 +51848,29 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "related",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "Eurofighter Typhoon similar-development links: 4.",
+            "text": "Related Milipedia entries provide context for contemporary European fighters, older air-defence aircraft and multirole aircraft that overlap with Typhoon missions.",
             "refs": [
               "fn-method"
             ]
           }
         ],
         "links": [
+          {
+            "label": "Dassault Rafale",
+            "url": "aircraft.html?id=rafale"
+          },
+          {
+            "label": "Saab JAS 39 Gripen",
+            "url": "aircraft.html?id=jas-39-gripen"
+          },
+          {
+            "label": "Panavia Tornado",
+            "url": "aircraft.html?id=panavia-tornado"
+          },
           {
             "label": "McDonnell Douglas F-15 Eagle",
             "url": "aircraft.html?id=f-15-eagle"
@@ -51499,12 +51880,8 @@
             "url": "aircraft.html?id=f-16-fighting-falcon"
           },
           {
-            "label": "McDonnell Douglas F/A-18 Hornet",
-            "url": "aircraft.html?id=f-a-18-hornet"
-          },
-          {
-            "label": "Boeing F/A-18E/F Super Hornet",
-            "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+            "label": "Back to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }
