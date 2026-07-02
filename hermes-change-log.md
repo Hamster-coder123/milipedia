@@ -4306,3 +4306,80 @@ Record the result of:
 * F-35 operator delivery status, fleet counts, Block 4 details, weapons clearances, combat mission details, and sensor/electronic-warfare performance are date-sensitive or not fully public, so the article uses cautious public-source wording.
 * The page is data-driven and cannot exactly reproduce the bespoke static F-16 layout, but it now follows the F-16 article density and section order as far as the JSON renderer supports.
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+
+### Run 57 — 2026-07-02 23:04:23 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Rockwell B-1 Lancer (id: b-1-lancer)
+* Reason selected: It was a sparse, previously unedited bomber page compared with the F-16 reference, with placeholder-style generated prose, no concrete engine/range/ceiling specifications, no variant entries, no operator entries, and only one stale external source.
+* Previous condition: The page had 9 generated sections, 0 operator entries, 0 variant entries, generic armament text, "Not listed" fields for engines/range/ceiling/hardpoints, and no detailed development/design/operators/timeline/source coverage.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense lead overview; section order covering Overview, Development History, Design, Specifications, Variants, Operators, Operational History, Comparison, Strengths and Limitations, Timeline, Sources, and Related Pages; technical fact-card density; internal aircraft.html?id=... related-link style; conservative notes for variant-, date-, and mission-dependent facts.
+
+#### Changes Made
+
+* Expanded the Rockwell B-1 Lancer entry from a sparse generated record into a detailed Milipedia aircraft article.
+* Added concrete top-level facts for the B-1A/B timeline, B-1B initial operational capability, USAF status, production totals, crew, General Electric F101-GE-102 engines, Mach 1.2 / 900+ mph speed, intercontinental range caveat, more-than-30,000 ft ceiling, payload, and conventional-only armament role.
+* Replaced stale/generic source data with U.S. Air Force, Boeing, National Museum of the U.S. Air Force, Air & Space Forces Magazine, supplementary Wikipedia, and Milipedia method/source-caution entries.
+* Added 12 F-16-style article sections: Overview, Development History, Design and Capabilities, Specifications, Variants and Modernization, Operators, Operational History, Strengths and Limitations, Comparison and Role Context, Timeline, Sources and Notes, and Related Pages.
+* Added variant/modernization coverage for B-1A, B-1B, conventional-only B-1B, and Integrated Battle Station / FIDL modernized B-1B configurations.
+* Added the United States Air Force as the sole operator and caveated current inventory, basing, and modernization status as date-sensitive.
+* Added operational history for Operation Desert Fox, Operation Allied Force, Operation Enduring Freedom, Operation Iraqi Freedom, and later conventional strike use, using public-source caveats.
+* Added specification cards for dimensions, engines, thrust, fuel, maximum takeoff weight, ceiling, speed, and payload.
+* Added strengths/limitations and comparison context with the B-52, B-2, Tu-160, and B-21 replacement program.
+* Added related internal links to B-52 Stratofortress, B-2 Spirit, Tu-160, and Tu-95, plus an external USAF B-21 Raider fact-sheet link because no local B-21 page was present.
+* Omitted or caveated exact current inventory, live deployment details, combat radius, classified survivability details, and configuration-specific weapons clearances.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Rockwell B-1 Lancer aircraft entry and its sources/sections.
+* hermes-change-log.md — Appended the cumulative Run 57 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before log update only data/aircraft.json was modified on branch hermes-agent; after log update the intended modified files were data/aircraft.json and hermes-change-log.md only.
+2. git diff — Reviewed the aircraft JSON diff showing only the b-1-lancer record expansion; final diff reviewed again before commit.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the B-1 entry section list, sources, variant entries, operator entry, top-level fields, cards, bullets, and cautious wording.
+4. F-16 style comparison — Inspected data/f16-template.html and mirrored its dense overview, technical specification cards, development/design/specifications/variants/operators/operational-history/comparison/timeline/source/related-page section progression within the JSON-rendered article system.
+5. Internal link check — Parsed data/aircraft.json ids and confirmed all B-1 aircraft.html?id=... links resolve to existing local aircraft ids; the B-21 link is intentionally external because no local B-21 record was present.
+6. Secret/token check — Ran a credential-pattern scan over the staged diff for private keys, passwords, access/auth tokens, and cloud credential names; no credentials or private data were added.
+7. Final review before commit — Confirmed branch hermes-agent, valid JSON, git diff --check cleanliness, exactly one changed aircraft entry, intended files only, complete change-log entry, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Rockwell B-1 Lancer
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Current B-1B inventory, basing, modernization status, weapons clearances, replacement timeline, and deployment details are date-sensitive; the page uses conservative public-source wording.
+* The aircraft's exact combat radius is mission- and tanker-dependent and is not stated as one stable public value in the main USAF fact sheet, so it was intentionally omitted as a single uncaveated figure.
+* The page is data-driven and cannot exactly reproduce the bespoke static F-16 layout, but it now follows the F-16 article density and section order as far as the JSON renderer supports.

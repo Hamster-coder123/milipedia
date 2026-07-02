@@ -14793,34 +14793,61 @@
   {
     "id": "b-1-lancer",
     "name": "Rockwell B-1 Lancer",
-    "alternative_names": [],
+    "alternative_names": [
+      "B-1B Lancer",
+      "Bone"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
-    "manufacturer": "Rockwell International / Boeing",
-    "role": "Strategic bomber",
-    "aircraft_type": "Bomber",
-    "era": "Modern",
-    "first_flight": "1974",
-    "introduction_date": "1986",
+    "manufacturer": "Rockwell International; Boeing sustainment and modernization",
+    "role": "Long-range multirole heavy bomber",
+    "aircraft_type": "Supersonic heavy bomber",
+    "era": "Cold War and modern",
+    "first_flight": "23 December 1974 (B-1A); 18 October 1984 (first production B-1B)",
+    "introduction_date": "October 1986 initial operational capability; first B-1B delivered June 1985",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "4",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "status": "Active with the U.S. Air Force; planned to be replaced by the B-21 Raider",
+    "number_built": "104 B-1B production aircraft, plus four B-1A prototypes",
+    "crew": "4: aircraft commander, copilot, and two weapon systems/combat systems officers",
+    "engine_type": "Afterburning turbofan",
+    "engines": "Four General Electric F101-GE-102 afterburning turbofans, each rated at more than 30,000 lbf thrust",
+    "max_speed": "900+ mph; about Mach 1.2 at sea level",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Bombs, missiles, and precision-guided weapons.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Rockwell B-1 Lancer: Strategic bomber. Manufacturer: Rockwell International / Boeing. First flight: 1974. Introduction: 1986.",
-    "short_summary": "Rockwell B-1 Lancer: Strategic bomber. Origin: United States. Manufacturer: Rockwell International / Boeing. First flight: 1974. Introduction: 1986. Status: Active.",
+    "range": "Intercontinental; Air & Space Forces Magazine lists about 7,455 miles, extendable by aerial refueling",
+    "combat_range": "Mission- and load-dependent; not stated as a single public figure in the main USAF fact sheet",
+    "service_ceiling": "More than 30,000 ft (9,144 m)",
+    "rate_of_climb": "Not listed in the main public fact sheets",
+    "armament": "Up to 75,000 lb internal payload including JDAM, JASSM, JASSM-ER, LRASM, general-purpose bombs, naval mines, and other approved conventional weapons; nuclear role removed",
+    "hardpoints": "Three internal weapons bays; external carriage options are configuration- and treaty-conversion-dependent",
+    "variants": [
+      {
+        "name": "B-1A",
+        "note": "Mach 2-class prototype strategic bomber; four aircraft were developed and tested before production cancellation in 1977."
+      },
+      {
+        "name": "B-1B",
+        "note": "Production version revived in 1981 with reduced radar cross section, revised inlets, increased usable payload, improved radar, and Mach 1.2 maximum speed."
+      },
+      {
+        "name": "Conventional B-1B",
+        "note": "Post-Cold War configuration converted away from nuclear armament under START/New START implementation and focused on conventional precision strike."
+      },
+      {
+        "name": "Integrated Battle Station / FIDL upgraded B-1B",
+        "note": "Modernized cockpit, data-link, central test, communications, and sustainment upgrades that support conventional strike and networked operations."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "United States Air Force",
+        "status": "Current",
+        "note": "Air Force Global Strike Command operates combat-coded B-1Bs, with test and development aircraft supporting Air Force Materiel Command."
+      }
+    ],
+    "combat_history": "First used in combat during Operation Desert Fox in December 1998; later employed in Operation Allied Force, Operation Enduring Freedom, Operation Iraqi Freedom, Operation Inherent Resolve, and other conventional strike operations.",
+    "development_history": "The B-1 began as a high-speed replacement concept for the B-52, flew as the B-1A in 1974, was canceled in 1977, and was revived in 1981 as the B-1B with a lower maximum speed, greater usable payload, improved radar, and reduced radar cross section.",
+    "short_summary": "The Rockwell B-1 Lancer is an American supersonic variable-sweep heavy bomber. The production B-1B entered USAF service in 1986, transitioned to an exclusively conventional role, and remains a high-payload long-range strike aircraft pending replacement by the B-21 Raider.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -14833,32 +14860,46 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-usaf",
+        "title": "B-1B Lancer",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104500/b-1b-lancer",
+        "publisher": "U.S. Air Force",
+        "note": "Primary public fact sheet for mission, features, background, specifications, armament, IOC, and inventory as of September 2016."
+      },
+      {
+        "id": "fn-boeing",
+        "title": "B-1 Lancer",
+        "url": "https://www.boeing.com/defense/fighters-and-bombers/b-1-lancer",
+        "publisher": "Boeing",
+        "note": "Manufacturer/sustainment page for current role, modernization, payload, service-life, and specification summary."
+      },
+      {
+        "id": "fn-nmusaf",
+        "title": "Boeing B-1B Lancer",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198101/boeing-b-1b-lancer",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Museum background source for B-1B historical context and display-aircraft information."
+      },
+      {
+        "id": "fn-asf",
+        "title": "B-1B Lancer",
+        "url": "https://www.airandspaceforces.com/weapons/b-1",
+        "publisher": "Air & Space Forces Magazine",
+        "note": "Supplementary current-force and modernization context; values are date-sensitive and treated cautiously."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Rockwell B-1 Lancer",
         "url": "https://en.wikipedia.org/wiki/Rockwell_B-1_Lancer",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation and cross-checking source, not the primary authority for technical figures."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.boeing.com/history/bna/b1b.htm",
-        "publisher": "boeing.com",
-        "note": "External source for Rockwell B-1 Lancer."
+        "note": "Local rules for neutral wording, variant-sensitive specifications, source citation, and cautious handling of date-sensitive data."
       }
     ],
     "country_flags": [
@@ -14868,54 +14909,66 @@
       }
     ],
     "designers": [
-      "Rockwell International / Boeing"
+      "Rockwell International",
+      "North American Aircraft division",
+      "Boeing sustainment and modernization teams"
     ],
     "development_tensions": [
-      "Balancing payload, range, survivability, sensor/weapons modernization, and operating cost.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "The B-1A promised very high speed, range, and payload, but cost, cruise-missile alternatives, air-defense changes, and emerging stealth-bomber work led to the 1977 cancellation.",
+      "The revived B-1B traded the B-1A's Mach 2-class speed for lower radar cross section, revised inlets, greater usable payload, improved avionics, and conventional-strike adaptability.",
+      "Modern B-1B planning balances very high payload and long-range strike utility against aging-airframe sustainment, fatigue management, availability, and transition to the B-21."
     ],
     "wars_used_in": [
       {
-        "name": "Gulf War",
-        "note": "Rockwell B-1 Lancer used in Gulf War."
+        "name": "Operation Desert Fox",
+        "note": "USAF sources identify December 1998 operations against Iraq as the B-1B's first combat use."
       },
       {
-        "name": "Iraq War",
-        "note": "Rockwell B-1 Lancer used in Iraq War."
+        "name": "Operation Allied Force",
+        "note": "Six B-1Bs delivered more than 20 percent of total ordnance while flying less than 2 percent of combat sorties, according to USAF historical data."
       },
       {
-        "name": "War in Afghanistan (2001–2021)",
-        "note": "Rockwell B-1 Lancer used in War in Afghanistan (2001–2021)."
+        "name": "Operation Enduring Freedom",
+        "note": "USAF material credits eight B-1Bs with nearly 40 percent of coalition air-delivered tonnage in the first six months."
+      },
+      {
+        "name": "Operation Iraqi Freedom",
+        "note": "The B-1B flew a small share of sorties but delivered a large share of JDAMs during early operations, according to USAF figures."
+      },
+      {
+        "name": "Operation Inherent Resolve and later conventional operations",
+        "note": "Boeing describes extensive post-2001 combat use across Syria, Libya, Afghanistan, and Iraq; exact sortie counts and campaign details vary by date."
       }
     ],
     "variant_families": [
-      "Rockwell B-1 Lancer baseline production model",
-      "Rockwell B-1 Lancer upgraded avionics or weapons-capable model"
+      "B-1A",
+      "B-1B",
+      "Conventional B-1B",
+      "Integrated Battle Station / FIDL upgraded B-1B"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Rockwell B-1 Lancer has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The United States Air Force is the only operational B-1B user.",
+      "all_operators_status": "One current operator entry; current inventory and basing are date-sensitive."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "B-1A prototype program: four test aircraft supported pre-cancellation evaluation.",
+        "The B-1B fleet has set numerous speed, payload, range, and time-to-climb records in its class, according to USAF material."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Air & Space Forces Magazine notes recent damaged-airframe and regeneration decisions, but exact fleet status should be checked against current USAF releases before using live inventory numbers."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Rockwell B-1 Lancer uses jet propulsion."
+      "type": "Four afterburning turbofans",
+      "summary": "Four General Electric F101-GE-102 engines provide more than 30,000 lbf thrust each with afterburner and support high-subsonic and supersonic low-altitude flight."
     },
     "armament_details": {
-      "summary": "Bombs, missiles, and precision-guided weapons.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Public USAF/Boeing data emphasize the B-1B's large internal conventional payload, including JDAM, JASSM, JASSM-ER, LRASM, general-purpose bombs, naval mines, and other approved weapons.",
+      "caution": "Actual carriage depends on block, bay configuration, treaty-conversion status, weapon clearance, mission planning, and date. The nuclear role was removed and is not treated as an active capability."
     },
     "similar_development": [
       {
@@ -14929,59 +14982,106 @@
         "url": "aircraft.html?id=b-2-spirit"
       },
       {
-        "id": "su-24",
-        "name": "Sukhoi Su-24",
-        "url": "aircraft.html?id=su-24"
+        "id": "tu-160",
+        "name": "Tupolev Tu-160",
+        "url": "aircraft.html?id=tu-160"
       },
       {
-        "id": "su-34",
-        "name": "Sukhoi Su-34",
-        "url": "aircraft.html?id=su-34"
+        "id": "tu-95",
+        "name": "Tupolev Tu-95",
+        "url": "aircraft.html?id=tu-95"
+      },
+      {
+        "id": "b-21-raider",
+        "name": "Northrop Grumman B-21 Raider",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/3768066/b-21-raider/"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 1
+      "exact_fact_count": 48,
+      "operator_entries": 1,
+      "variant_entries": 4,
+      "external_article_sources": 5
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-usaf",
+        "title": "B-1B Lancer",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104500/b-1b-lancer",
+        "publisher": "U.S. Air Force",
+        "note": "Primary public fact sheet for mission, features, background, specifications, armament, IOC, and inventory as of September 2016."
+      },
+      {
+        "id": "fn-boeing",
+        "title": "B-1 Lancer",
+        "url": "https://www.boeing.com/defense/fighters-and-bombers/b-1-lancer",
+        "publisher": "Boeing",
+        "note": "Manufacturer/sustainment page for current role, modernization, payload, service-life, and specification summary."
+      },
+      {
+        "id": "fn-nmusaf",
+        "title": "Boeing B-1B Lancer",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198101/boeing-b-1b-lancer",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Museum background source for B-1B historical context and display-aircraft information."
+      },
+      {
+        "id": "fn-asf",
+        "title": "B-1B Lancer",
+        "url": "https://www.airandspaceforces.com/weapons/b-1",
+        "publisher": "Air & Space Forces Magazine",
+        "note": "Supplementary current-force and modernization context; values are date-sensitive and treated cautiously."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Rockwell B-1 Lancer",
         "url": "https://en.wikipedia.org/wiki/Rockwell_B-1_Lancer",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation and cross-checking source, not the primary authority for technical figures."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.boeing.com/history/bna/b1b.htm",
-        "publisher": "boeing.com",
-        "note": "External source for Rockwell B-1 Lancer."
+        "note": "Local rules for neutral wording, variant-sensitive specifications, source citation, and cautious handling of date-sensitive data."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.boeing.com/history/bna/b1b.htm",
-        "publisher": "boeing.com",
-        "note": "External source for Rockwell B-1 Lancer."
+        "id": "fn-usaf",
+        "title": "B-1B Lancer",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104500/b-1b-lancer",
+        "publisher": "U.S. Air Force",
+        "note": "Primary public fact sheet for mission, features, background, specifications, armament, IOC, and inventory as of September 2016."
+      },
+      {
+        "id": "fn-boeing",
+        "title": "B-1 Lancer",
+        "url": "https://www.boeing.com/defense/fighters-and-bombers/b-1-lancer",
+        "publisher": "Boeing",
+        "note": "Manufacturer/sustainment page for current role, modernization, payload, service-life, and specification summary."
+      },
+      {
+        "id": "fn-nmusaf",
+        "title": "Boeing B-1B Lancer",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198101/boeing-b-1b-lancer",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Museum background source for B-1B historical context and display-aircraft information."
+      },
+      {
+        "id": "fn-asf",
+        "title": "B-1B Lancer",
+        "url": "https://www.airandspaceforces.com/weapons/b-1",
+        "publisher": "Air & Space Forces Magazine",
+        "note": "Supplementary current-force and modernization context; values are date-sensitive and treated cautiously."
+      },
+      {
+        "id": "fn-wikipedia",
+        "title": "Rockwell B-1 Lancer",
+        "url": "https://en.wikipedia.org/wiki/Rockwell_B-1_Lancer",
+        "publisher": "Wikipedia",
+        "note": "Supplementary orientation and cross-checking source, not the primary authority for technical figures."
       }
     ],
     "article_sections": [
@@ -14990,231 +15090,261 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Rockwell B-1 Lancer is a Strategic bomber from United States. Manufacturer: Rockwell International / Boeing. First flight: 1974. Introduction: 1986. Status: Active.",
+            "text": "The Rockwell B-1 Lancer is an American supersonic, variable-sweep, long-range heavy bomber developed during the Cold War and operated by the United States Air Force. The operational B-1B version entered service in the mid-1980s and became a conventional-only bomber after the nuclear mission was eliminated and treaty conversion work was completed.",
             "refs": [
-              "fn-main"
+              "fn-usaf",
+              "fn-boeing"
             ]
           },
           {
-            "text": "Rockwell B-1 Lancer is a bomber. Primary role: strategic bomber. Country of origin: United States. Manufacturer: Rockwell International / Boeing.",
+            "text": "The B-1B combines a blended wing/body, variable-geometry wings, four afterburning turbofans, three internal weapons bays, terrain-following and synthetic-aperture radar modes, defensive electronic warfare systems, and a four-person crew. USAF and Boeing sources emphasize its large conventional payload, high speed, long loiter time, and ability to integrate into joint strike packages.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf",
+              "fn-boeing"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Unlike the B-2 and B-21 stealth bombers, the B-1B is not a pure low-observable platform; its survivability comes from reduced radar cross section compared with the B-1A, high speed, low-altitude penetration design, electronic countermeasures, self-protection systems, and standoff-weapon compatibility. Current use and retirement timing are date-sensitive because the fleet is being sustained while the B-21 program matures.",
             "refs": [
+              "fn-usaf",
+              "fn-asf",
               "fn-method"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Primary role",
-            "text": "Strategic bomber"
+            "title": "Role",
+            "text": "Long-range multirole heavy bomber"
           },
           {
-            "title": "Designer or builder",
-            "text": "Rockwell International / Boeing"
-          },
-          {
-            "title": "Major origin",
+            "title": "Origin",
             "text": "United States"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "First B-1B flight",
+            "text": "18 October 1984"
+          },
+          {
+            "title": "IOC",
+            "text": "1 October 1986"
+          },
+          {
+            "title": "Crew",
+            "text": "Four"
+          },
+          {
+            "title": "Primary operator",
+            "text": "United States Air Force"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Rockwell B-1 Lancer first flew in 1974. Introduction date: 1986. Era: Modern.",
+            "text": "The original B-1A was conceived as a high-speed strategic bomber that could combine B-52-like range and payload with much higher dash speed. Four B-1A prototypes were developed and tested, and the first B-1A flight took place on 23 December 1974. The program was canceled in 1977 before production, although flight testing continued into the early 1980s.",
             "refs": [
-              "fn-main"
+              "fn-usaf",
+              "fn-asf"
             ]
           },
           {
-            "text": "Producer: Rockwell International / Boeing. Development context: strategic bomber, jet propulsion, supersonic speed category, Modern era.",
+            "text": "The Reagan administration revived the aircraft in 1981 as the B-1B. The revised version added substantial usable payload, improved radar, a reduced radar cross section, and redesigned inlets. Those inlet and survivability changes reduced maximum speed from the B-1A's Mach 2-class target to about Mach 1.2, but created a more practical production bomber for low-altitude penetration and later conventional operations.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf",
+              "fn-asf"
+            ]
+          },
+          {
+            "text": "The first production B-1B flew in October 1984, the first aircraft was delivered to Dyess Air Force Base in June 1985, initial operational capability followed on 1 October 1986, and the last production B-1B was delivered on 2 May 1988. Public data should distinguish the four B-1A prototypes from the 104 B-1B production aircraft.",
+            "refs": [
+              "fn-usaf",
+              "fn-asf"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing payload, range, survivability, sensor/weapons modernization, and operating cost.",
+            "text": "B-1A: high-speed prototype program, canceled before production in 1977.",
             "refs": [
-              "fn-method"
+              "fn-usaf"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "B-1B: revived production version with lower observable features, improved radar, increased payload, and reduced Mach 1.2 maximum speed.",
             "refs": [
-              "fn-method"
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Post-Cold War conversion removed the nuclear mission and centered the fleet on conventional precision strike.",
+            "refs": [
+              "fn-usaf"
             ]
           }
         ]
       },
       {
-        "id": "design",
+        "id": "design-capabilities",
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 4. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The B-1B's blended wing/body layout and variable-geometry wings let the crew configure the aircraft for takeoff, landing, air refueling, efficient cruise, weapons employment, and high-subsonic or supersonic flight. Forward wing sweep is used for takeoff, landing, refueling, and some high-altitude weapons employment; aft sweep is the principal high-speed combat configuration.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Offensive systems include synthetic-aperture radar, terrain-following and self-targeting modes, GPS-aided inertial navigation, and modernized cockpit and data-link equipment. USAF material describes FIDL/Link 16 and cockpit upgrades as improving situational awareness, beyond-line-of-sight reachback, and the ability to strike emerging targets from command-and-control cueing.",
             "refs": [
+              "fn-usaf",
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Defensive equipment includes the ALQ-161 electronic countermeasures system, radar-warning functions, chaff and flare dispensers, and ALE-50 towed decoy capability. These systems complement the aircraft's reduced radar cross section but do not make it a stealth bomber in the B-2/B-21 sense.",
+            "refs": [
+              "fn-usaf",
               "fn-method"
             ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Powerplant",
+            "text": "4 × GE F101-GE-102 afterburning turbofans"
           },
           {
-            "text": "Rockwell B-1 Lancer uses jet propulsion. Engine model field: Not listed.",
+            "title": "Wingspan",
+            "text": "137 ft forward sweep; 79 ft swept aft"
+          },
+          {
+            "title": "Length",
+            "text": "146 ft"
+          },
+          {
+            "title": "Payload",
+            "text": "Up to 75,000 lb internal conventional stores"
+          },
+          {
+            "title": "Speed",
+            "text": "900+ mph; about Mach 1.2 at sea level"
+          },
+          {
+            "title": "Ceiling",
+            "text": "More than 30,000 ft"
+          }
+        ]
+      },
+      {
+        "id": "specifications",
+        "title": "Specifications",
+        "paragraphs": [
+          {
+            "text": "Representative public specifications below describe the B-1B and should not be applied to the earlier B-1A without qualification. USAF and Boeing figures agree on the broad dimensions, four F101 engines, 477,000 lb maximum takeoff weight, 75,000 lb internal payload, and more-than-30,000 ft ceiling.",
             "refs": [
-              "fn-main"
+              "fn-usaf",
+              "fn-boeing"
             ]
           },
           {
-            "text": "Armament field: Bombs, missiles, and precision-guided weapons. Exact weapon list: Not listed.",
+            "text": "Range is often summarized as intercontinental or approximately 7,455 miles in Air & Space Forces Magazine data, with global reach when supported by aerial refueling. Combat radius varies substantially with routing, profile, weapons, tanking, altitude, and reserve requirements, so this page avoids a single uncaveated combat-radius figure.",
             "refs": [
-              "fn-main"
+              "fn-usaf",
+              "fn-asf",
+              "fn-method"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "4"
+            "text": "Aircraft commander, copilot, and two weapon systems/combat systems officers"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Length",
+            "text": "146 ft (44.5 m)"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Height",
+            "text": "34 ft (10.4 m)"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Wingspan",
+            "text": "137 ft extended; 79 ft swept"
           },
           {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Empty/approx. weight",
+            "text": "Approximately 190,000 lb"
+          },
+          {
+            "title": "Maximum takeoff weight",
+            "text": "477,000 lb"
+          },
+          {
+            "title": "Fuel capacity",
+            "text": "265,274 lb"
+          },
+          {
+            "title": "Engines",
+            "text": "4 × General Electric F101-GE-102"
+          },
+          {
+            "title": "Thrust",
+            "text": "30,000+ lbf each with afterburner"
+          },
+          {
+            "title": "Payload",
+            "text": "Up to 75,000 lb internal"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "variants-modernization",
+        "title": "Variants and Modernization",
         "paragraphs": [
           {
-            "text": "Rockwell B-1 Lancer status: Active. Conflict entries: 3.",
+            "text": "The B-1 family is smaller and less variant-diverse than many fighter families. The B-1A was the canceled prototype standard, while the B-1B was the only production version. Most later differences are modernization, mission-system, structural, sustainment, and conventional-weapon-integration states rather than new airframe variants.",
             "refs": [
-              "fn-main"
+              "fn-usaf",
+              "fn-asf"
             ]
           },
           {
-            "text": "Conflicts: Gulf War, Iraq War, War in Afghanistan (2001–2021).",
+            "text": "The Integrated Battle Station modernization added an all-digital cockpit, Fully Integrated Data Link, and Central Integrated Test System. Boeing and Air & Space Forces Magazine also describe continuing sustainment, communications, pylon, standoff-weapon, and large-weapon integration work intended to keep the fleet relevant until B-21 replacement.",
             "refs": [
-              "fn-method"
+              "fn-boeing",
+              "fn-asf"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Gulf War: Rockwell B-1 Lancer used in Gulf War.",
+            "text": "B-1A: prototype strategic bomber with Mach 2-class performance target; four built and tested.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Iraq War: Rockwell B-1 Lancer used in Iraq War.",
+            "text": "B-1B: production bomber with revised inlets, reduced radar cross section, greater usable payload, improved radar, and Mach 1.2 maximum speed.",
             "refs": [
-              "fn-main"
+              "fn-usaf",
+              "fn-asf"
             ]
           },
           {
-            "text": "War in Afghanistan (2001–2021): Rockwell B-1 Lancer used in War in Afghanistan (2001–2021).",
+            "text": "Conventional-only B-1B: fleet configuration after nuclear mission removal and treaty conversion work.",
             "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Rockwell B-1 Lancer named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Named individual aircraft listed: 0.",
+            "text": "Modernized B-1B: upgraded cockpit, data links, diagnostics, communications, and weapons integration; details vary by aircraft and date.",
             "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "variants",
-        "title": "Variants",
-        "paragraphs": [
-          {
-            "text": "Rockwell B-1 Lancer variant-family entries: 2. Variant families: Rockwell B-1 Lancer baseline production model; Rockwell B-1 Lancer upgraded avionics or weapons-capable model.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Rockwell B-1 Lancer baseline production model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Rockwell B-1 Lancer upgraded avionics or weapons-capable model",
-            "refs": [
-              "fn-main"
+              "fn-boeing",
+              "fn-asf"
             ]
           }
         ]
@@ -15224,45 +15354,30 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Rockwell B-1 Lancer has 1 designer or builder country entry.",
+            "text": "The United States Air Force is the only operational user of the B-1B. Public USAF information historically listed the active force inventory at 62 aircraft as of September 2016, while later Air & Space Forces Magazine reporting lists lower date-sensitive inventory figures after retirements and regeneration decisions. Current totals should therefore be checked against the latest USAF or AFGSC releases before reuse.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
+              "fn-usaf",
+              "fn-asf",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "United States Air Force / Air Force Global Strike Command: current operational bomber force user.",
             "refs": [
-              "fn-main"
+              "fn-usaf",
+              "fn-asf"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "Air Force Materiel Command and test organizations: support evaluation, test, development, and sustainment activities.",
             "refs": [
-              "fn-wikidata"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "specifications",
-        "title": "Specifications",
-        "paragraphs": [
-          {
-            "text": "Comparable fields: crew 4, propulsion type Jet, maximum speed category Supersonic, first flight 1974, introduction 1986.",
-            "refs": [
-              "fn-main"
+              "fn-asf"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "No export operators are listed for the B-1B.",
             "refs": [
               "fn-method"
             ]
@@ -15270,11 +15385,210 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Rockwell B-1 Lancer similar-development links: 4.",
+            "text": "The B-1B's combat debut came in Operation Desert Fox in December 1998. During Operation Allied Force in 1999, USAF material states that six B-1s delivered more than 20 percent of total ordnance while flying less than 2 percent of combat sorties.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "In the opening months of Operation Enduring Freedom, eight B-1Bs dropped nearly 40 percent of coalition air-delivered tonnage and a large share of JDAMs according to USAF figures. In Operation Iraqi Freedom, the aircraft flew less than one percent of combat missions while delivering 43 percent of JDAMs used, illustrating why public summaries often describe the B-1B as a high-payload precision-strike workhorse.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Boeing describes more than 12,000 post-2001 sorties across multiple theaters including Syria, Libya, Afghanistan, and Iraq. Campaign-specific totals, current deployments, and named strikes can be politically and date-sensitive, so this article summarizes broad service use rather than listing every event.",
+            "refs": [
+              "fn-boeing",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The B-1B's strengths are payload, speed, range with tanker support, large internal weapons volume, modernized precision-strike capability, and the ability to carry a diverse conventional weapons mix. Its variable-sweep wing and four afterburning engines give it a flight envelope unlike subsonic heavy bombers, while its bays can support massed conventional effects.",
+            "refs": [
+              "fn-usaf",
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Limitations include aging-airframe sustainment burden, availability challenges, fatigue-sensitive operations, no active nuclear role, and less survivability in modern integrated air defenses than purpose-built stealth bombers. The fleet is therefore useful but transitional: public sources increasingly frame it as a bridge to B-21 service rather than as a long-term standalone future bomber.",
+            "refs": [
+              "fn-asf",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: very large conventional payload and standoff-weapon compatibility.",
+            "refs": [
+              "fn-usaf",
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Strength: high dash speed and aerial-refueling-supported global reach.",
+            "refs": [
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Limitation: not a stealth bomber and must rely on tactics, electronic warfare, support assets, and standoff weapons in high-threat environments.",
+            "refs": [
+              "fn-usaf",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: fleet age and readiness issues drive modernization, retirements, and B-21 replacement planning.",
+            "refs": [
+              "fn-asf"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison-role-context",
+        "title": "Comparison and Role Context",
+        "paragraphs": [
+          {
+            "text": "Within the U.S. bomber force, the B-52 emphasizes long endurance and standoff payload at subsonic speed, the B-2 emphasizes stealthy penetration, and the B-1B emphasizes high conventional payload and speed. The B-1B lost its nuclear mission, so it should not be described as an active nuclear bomber even though it originated in a strategic-bomber program.",
+            "refs": [
+              "fn-usaf",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Compared with the Soviet/Russian Tu-160, the B-1B is also a large variable-sweep supersonic bomber, but the two aircraft differ in engines, role history, weapons integration, force structure, and nuclear mission status. The B-1B's modern public identity is conventional precision strike rather than strategic nuclear delivery.",
+            "refs": [
+              "fn-asf",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "U.S. role peer",
+            "text": "B-52: subsonic standoff/heavy payload bomber"
+          },
+          {
+            "title": "U.S. stealth peer",
+            "text": "B-2: low-observable penetrating bomber"
+          },
+          {
+            "title": "Future replacement",
+            "text": "B-21 Raider"
+          },
+          {
+            "title": "Foreign broad analogue",
+            "text": "Tu-160 variable-sweep supersonic bomber"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "23 December 1974: B-1A first flight.",
+            "refs": [
+              "fn-asf"
+            ]
+          },
+          {
+            "text": "1977: Original B-1A program canceled before production.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "1981: B-1B program initiated by the Reagan administration.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "18 October 1984: First production B-1B flight.",
+            "refs": [
+              "fn-asf"
+            ]
+          },
+          {
+            "text": "June 1985: First B-1B delivered to Dyess Air Force Base, Texas.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "1 October 1986: Initial operational capability achieved.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "2 May 1988: Final B-1B delivered.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "1994: United States eliminated the B-1 nuclear mission; physical treaty conversion was later completed under New START implementation.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "December 1998: B-1B first used in combat during Operation Desert Fox.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "September 2020: Air & Space Forces Magazine identifies completion of the Integrated Battle Station upgrade as the fleet's most comprehensive upgrade to that date.",
+            "refs": [
+              "fn-asf"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "The main technical baseline uses the U.S. Air Force fact sheet and Boeing's current B-1 Lancer page. The National Museum of the U.S. Air Force and Air & Space Forces Magazine provide historical, display-aircraft, modernization, and force-structure context. Wikipedia is retained only as a supplementary orientation source.",
+            "refs": [
+              "fn-usaf",
+              "fn-boeing",
+              "fn-nmusaf",
+              "fn-asf",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Inventory, basing, modernization status, exact weapons clearance, and replacement timelines are date-sensitive. This page avoids live operational claims, exact current deployment details, or classified survivability/weapons information unless present in public sources.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages connect the B-1B to the U.S. bomber force, variable-sweep bomber analogues, and future replacement context.",
             "refs": [
               "fn-method"
             ]
@@ -15290,12 +15604,16 @@
             "url": "aircraft.html?id=b-2-spirit"
           },
           {
-            "label": "Sukhoi Su-24",
-            "url": "aircraft.html?id=su-24"
+            "label": "Tupolev Tu-160",
+            "url": "aircraft.html?id=tu-160"
           },
           {
-            "label": "Sukhoi Su-34",
-            "url": "aircraft.html?id=su-34"
+            "label": "Tupolev Tu-95",
+            "url": "aircraft.html?id=tu-95"
+          },
+          {
+            "label": "B-21 Raider (USAF fact sheet)",
+            "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/3768066/b-21-raider/"
           }
         ]
       }
