@@ -4229,3 +4229,80 @@ Record the result of:
 * Exact combat radius, sensor details, low-observable materials, defensive systems, and some weapons/configuration details are classified or mission-sensitive; these were omitted or caveated.
 * Current inventory is date-sensitive; the article cites the May 2026 USAF fact sheet and avoids broader claims beyond the public source.
 * The data-driven page cannot reproduce the bespoke interactive F-16 image labeling, but it now follows the F-16 article density and section pattern available through `data/aircraft.json`.
+
+### Run 56 — 2026-07-02 22:02:19 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Lockheed Martin F-35 Lightning II (id: f-35-lightning-ii)
+* Reason selected: The F-35 entry was the shortest unedited sparse aircraft candidate, with no external article sources, no operator entries, no variant entries, missing F135 engine/range/ceiling/dimension details, generic armament text, and placeholder-like generated sections despite being a major aircraft page.
+* Previous condition: Generated data record with 15 exact fact fields, 0 operator entries, 0 variant entries, 0 external article sources, generic combat/conflict wording, no detailed development/design/operators/timeline coverage, and specifications listed as "Not listed" in several key fields.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview and fact-card opening; article-section order covering overview, development, design/capabilities, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, sources, and related pages; concise technical paragraphs with source refs; cautious treatment of variant-dependent performance and weapons; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the F-35 Lightning II entry from a sparse generated page into a detailed Milipedia article data record.
+* Corrected top-level aircraft facts for role, manufacturer/partners, active production/service status, F135 engine, Mach 1.6 speed, F-35A representative range and ceiling, crew, hardpoints, and variant-dependent armament wording.
+* Added official/manufacturer source records from Lockheed Martin, U.S. Air Force, NAVAIR, and F35.com, retaining Wikipedia only as supplementary orientation.
+* Added detailed article sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History and Combat Use, Strengths and Limitations, Comparison, Timeline, Sources and Notes, and Related Pages.
+* Added F-35A/B/C variant descriptions plus Block 4 / Technology Refresh modernization context.
+* Added multinational operator/customer coverage using F35.com program categories while noting that delivery status and fleet counts are date-sensitive.
+* Added public sensor and avionics details for DAS, EOTS, helmet-mounted display, tactical data links, electronic warfare, sensor fusion, and networked operations.
+* Replaced generic weapons language with safer internal/external stores wording and explicit caveats for variant, block, customer, and mission differences.
+* Removed the generated Syrian-civil-war event gallery to avoid overstating combat specificity from a generic placeholder.
+* Added internal related links to F-16, F/A-18 Hornet, Super Hornet, Harrier, F-22, J-20, and Su-57 pages.
+* Omitted exact current fleet totals, radar cross-section claims, detailed electronic-warfare performance, current weapons-clearance lists, and specific combat claims because those details are classified, date-sensitive, or customer-dependent.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the F-35 Lightning II aircraft entry and its sources/sections.
+* hermes-change-log.md — Appended the cumulative Run 56 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json, hermes-change-log.md, and a temporary local helper script were present; the helper script was removed before staging and only the intended two files were staged.
+2. git diff — Reviewed the working diff; data/aircraft.json changed only the f-35-lightning-ii entry, and hermes-change-log.md appended this run.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool and reviewed the F-35 entry for section structure, refs, cards, bullets, and top-level fields.
+4. F-16 style comparison — Inspected data/f16-template.html and mirrored its dense overview, section order, technical cards, comparison/timeline/source/related-page coverage within the JSON-rendered article system.
+5. Internal link check — Verified all aircraft.html?id=... links in the updated F-35 entry target existing IDs in data/aircraft.json.
+6. Secret/token check — Ran a credential-pattern scan over the staged diff; no credentials or private data were added.
+7. Final review before commit — Confirmed branch hermes-agent, valid JSON, intended files only, no main-branch edits, and complete change-log entry.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Lockheed Martin F-35 Lightning II
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* F-35 operator delivery status, fleet counts, Block 4 details, weapons clearances, combat mission details, and sensor/electronic-warfare performance are date-sensitive or not fully public, so the article uses cautious public-source wording.
+* The page is data-driven and cannot exactly reproduce the bespoke static F-16 layout, but it now follows the F-16 article density and section order as far as the JSON renderer supports.
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.

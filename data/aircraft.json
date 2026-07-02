@@ -8152,34 +8152,179 @@
   {
     "id": "f-35-lightning-ii",
     "name": "Lockheed Martin F-35 Lightning II",
-    "alternative_names": [],
+    "alternative_names": [
+      "Joint Strike Fighter",
+      "JSF"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
-    "manufacturer": "Lockheed Martin",
-    "role": "Stealth multirole fighter",
-    "aircraft_type": "Fighter",
+    "manufacturer": "Lockheed Martin; Northrop Grumman and BAE Systems are principal partners",
+    "role": "Fifth-generation stealth multirole strike fighter",
+    "aircraft_type": "Stealth multirole fighter",
     "era": "Modern",
-    "first_flight": "2006",
-    "introduction_date": "2015",
+    "first_flight": "15 December 2006 (F-35A AA-1); family rollout began in 2006",
+    "introduction_date": "2015 (U.S. Marine Corps F-35B IOC); U.S. Air Force F-35A IOC in 2016; U.S. Navy F-35C IOC in 2019",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
+    "status": "Active production and service",
+    "number_built": "More than 1,150 in service by 2026, according to F35.com program material",
     "crew": "1",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "engine_type": "Afterburning turbofan",
+    "engines": "One Pratt & Whitney F135; F135-PW-100 on F-35A/C and shaft-driven lift fan system on F-35B",
+    "max_speed": "Mach 1.6 (about 1,200 mph)",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Lockheed Martin F-35 Lightning II: Stealth multirole fighter. Manufacturer: Lockheed Martin. First flight: 2006. Introduction: 2015.",
-    "short_summary": "Lockheed Martin F-35 Lightning II: Stealth multirole fighter. Origin: United States. Manufacturer: Lockheed Martin. First flight: 2006. Introduction: 2015. Status: Active.",
+    "range": "F-35A: more than 1,350 miles / 1,200+ nautical miles on internal fuel; unlimited with aerial refueling",
+    "combat_range": "Variant- and mission-dependent; public sources emphasize internal-fuel range rather than one universal combat radius",
+    "service_ceiling": "Above 50,000 ft",
+    "rate_of_climb": "Not publicly standardized in official fact sheets",
+    "armament": "Internal and external weapon stations for air-to-air and air-to-surface missions; F-35A includes an internal 25 mm gun, while B/C use gun pods when required. Public loadouts vary by variant, block, customer, and mission.",
+    "hardpoints": "Internal weapon bays plus external stations for non-stealth or ferry/strike configurations; exact cleared loadouts vary by block and customer",
+    "variants": [
+      {
+        "name": "F-35A",
+        "description": "Conventional takeoff and landing variant for the U.S. Air Force and many partner air forces; the USAF fact sheet lists one Pratt & Whitney F135-PW-100, 43,000 lb thrust, Mach 1.6 speed, and 1,200+ nmi internal-fuel range.",
+        "role": "Land-based stealth multirole fighter"
+      },
+      {
+        "name": "F-35B",
+        "description": "Short takeoff/vertical landing variant for the U.S. Marine Corps, Royal Navy/Royal Air Force, Italian services, and other operators needing expeditionary or small-deck basing. It uses a lift-fan system and trades some fuel/weapon volume for STOVL capability.",
+        "role": "STOVL strike fighter"
+      },
+      {
+        "name": "F-35C",
+        "description": "Carrier variant for U.S. Navy catapult launch and arrested recovery, with larger wing and tail surfaces, stronger landing gear, and folding wingtips compared with the land-based F-35A.",
+        "role": "Carrier-based stealth strike fighter"
+      },
+      {
+        "name": "Block 4 / Technology Refresh modernization",
+        "description": "Continuing upgrade path for all three variants, described publicly as adding more computing capacity, electronic-warfare improvements, target-recognition upgrades, and expanded weapons integration. Details and timing vary by customer and software release.",
+        "role": "Fleet modernization standard"
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "operator": "U.S. Air Force, U.S. Marine Corps, and U.S. Navy",
+        "status": "Current",
+        "note": "All three U.S. services operate or are fielding the family: F-35A for the Air Force, F-35B for the Marine Corps, and F-35C for Navy/Marine carrier aviation."
+      },
+      {
+        "country": "United Kingdom",
+        "operator": "Royal Navy / Royal Air Force Lightning Force",
+        "status": "Current",
+        "note": "Original partner nation operating the F-35B for land and Queen Elizabeth-class carrier deployments."
+      },
+      {
+        "country": "Italy",
+        "operator": "Italian Air Force and Navy",
+        "status": "Current",
+        "note": "Original partner nation operating F-35A and F-35B aircraft; Italian industry also supports final assembly and sustainment."
+      },
+      {
+        "country": "Netherlands",
+        "operator": "Royal Netherlands Air Force",
+        "status": "Current",
+        "note": "Original partner nation and European F-35A operator."
+      },
+      {
+        "country": "Australia",
+        "operator": "Royal Australian Air Force",
+        "status": "Current",
+        "note": "Original partner nation operating F-35A aircraft as its frontline fighter."
+      },
+      {
+        "country": "Norway",
+        "operator": "Royal Norwegian Air Force",
+        "status": "Current",
+        "note": "Original partner nation operating F-35A aircraft for national and NATO missions."
+      },
+      {
+        "country": "Denmark",
+        "operator": "Royal Danish Air Force",
+        "status": "Current / fielding",
+        "note": "Original partner nation transitioning from F-16s to F-35A aircraft."
+      },
+      {
+        "country": "Canada",
+        "operator": "Royal Canadian Air Force",
+        "status": "On order / planned",
+        "note": "F35.com lists Canada among partner countries; delivery and operational status are date-sensitive."
+      },
+      {
+        "country": "Israel",
+        "operator": "Israeli Air Force",
+        "status": "Current",
+        "note": "Foreign Military Sales customer operating the F-35I Adir, a nationally configured F-35A derivative."
+      },
+      {
+        "country": "Japan",
+        "operator": "Japan Air Self-Defense Force",
+        "status": "Current",
+        "note": "Foreign Military Sales customer fielding F-35A and planning F-35B operations."
+      },
+      {
+        "country": "Republic of Korea",
+        "operator": "Republic of Korea Air Force / Navy plans",
+        "status": "Current / expanding",
+        "note": "Foreign Military Sales customer operating F-35A aircraft, with additional procurement plans publicly reported."
+      },
+      {
+        "country": "Belgium",
+        "operator": "Belgian Air Component",
+        "status": "On order / fielding",
+        "note": "F35.com lists Belgium among FMS customers; delivery status should be checked for current totals."
+      },
+      {
+        "country": "Poland",
+        "operator": "Polish Air Force",
+        "status": "On order / fielding",
+        "note": "FMS customer acquiring F-35A aircraft."
+      },
+      {
+        "country": "Singapore",
+        "operator": "Republic of Singapore Air Force",
+        "status": "On order / planned",
+        "note": "FMS customer associated mainly with F-35B procurement plans."
+      },
+      {
+        "country": "Finland",
+        "operator": "Finnish Air Force",
+        "status": "On order / transition",
+        "note": "FMS customer selected for Finland’s HX fighter replacement."
+      },
+      {
+        "country": "Switzerland",
+        "operator": "Swiss Air Force",
+        "status": "On order / transition",
+        "note": "FMS customer selected to replace legacy fighter fleets."
+      },
+      {
+        "country": "Germany",
+        "operator": "German Air Force",
+        "status": "On order / transition",
+        "note": "FMS customer associated with future NATO nuclear-sharing and strike roles."
+      },
+      {
+        "country": "Czech Republic",
+        "operator": "Czech Air Force",
+        "status": "Planned / on order",
+        "note": "F35.com lists the Czech Republic among FMS customers."
+      },
+      {
+        "country": "Greece",
+        "operator": "Hellenic Air Force",
+        "status": "Planned / approved",
+        "note": "F35.com lists Greece among FMS customers; exact delivery timing is date-sensitive."
+      },
+      {
+        "country": "Romania",
+        "operator": "Romanian Air Force",
+        "status": "Planned / approved",
+        "note": "F35.com lists Romania among FMS customers; current fleet counts should be verified before stating deliveries."
+      }
+    ],
+    "combat_history": "Combat-proven in U.S. and allied service; public accounts should be treated cautiously because mission details and national reporting vary.",
+    "development_history": "The F-35 grew out of the Joint Strike Fighter program. On 26 October 2001 the U.S. Department of Defense selected the Lockheed Martin-led JSF team for System Development and Demonstration, with Northrop Grumman and BAE Systems as principal partners. The program pursued one family of aircraft for conventional runways, short takeoff/vertical landing, and carrier operations.",
+    "short_summary": "The Lockheed Martin F-35 Lightning II is a U.S.-led fifth-generation stealth multirole fighter family built in F-35A conventional, F-35B STOVL, and F-35C carrier variants. It combines low-observable shaping, integrated sensors, sensor fusion, secure data links, internal weapons carriage, and international sustainment for U.S. and allied air arms.",
     "carrier_capable": true,
     "stealth": true,
     "images": [
@@ -8192,18 +8337,46 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "lm-f35",
+        "title": "F-35 Lightning II",
+        "url": "https://www.lockheedmartin.com/en-us/products/f-35.html",
+        "publisher": "Lockheed Martin",
+        "note": "Manufacturer overview and program context for the F-35 family."
+      },
+      {
+        "id": "usaf-f35a",
+        "title": "F-35A Lightning II fact sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/478441/f-35a-lightning-ii",
+        "publisher": "U.S. Air Force",
+        "note": "Official F-35A mission, sensors, engine, dimensions, payload, speed, range, and ceiling data."
+      },
+      {
+        "id": "navair-f35",
+        "title": "F-35 Lightning II",
+        "url": "https://www.navair.navy.mil/product/F-35-Lightning-II",
+        "publisher": "Naval Air Systems Command",
+        "note": "Official naval acquisition and Joint Strike Fighter development summary."
+      },
+      {
+        "id": "f35-about",
+        "title": "About the F-35",
+        "url": "https://www.f35.com/f35/about.html",
+        "publisher": "F35.com / Lockheed Martin",
+        "note": "Program overview, partner/customer list, fleet scale, flight-hour milestone, and current modernization caveats."
+      },
+      {
+        "id": "f35-capabilities",
+        "title": "5th Gen Capabilities",
+        "url": "https://www.f35.com/f35/about/5th-gen-capabilities.html",
+        "publisher": "F35.com / Lockheed Martin",
+        "note": "Public description of stealth, sensor fusion, connectivity, Block 4, and Mach 1.6 performance."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Lockheed Martin F-35 Lightning II",
         "url": "https://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation only; official sources above are preferred for article facts."
       },
       {
         "id": "fn-method",
@@ -8220,56 +8393,55 @@
       }
     ],
     "designers": [
-      "Lockheed Martin"
+      "Lockheed Martin",
+      "Northrop Grumman",
+      "BAE Systems"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "Carrier compatibility added structural, landing gear, corrosion, and low-speed handling requirements.",
-      "Low-observable shaping and internal systems integration increased the importance of sensors, materials, heat management, and maintenance discipline.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "One airframe family had to satisfy conventional runway, STOVL, and catapult/arrested carrier requirements without becoming three unrelated aircraft.",
+      "Low-observable shaping, internal weapons carriage, fuel volume, supersonic performance, and thermal management had to be balanced inside a compact single-engine fighter.",
+      "The program emphasized sensor fusion and networking as much as classic fighter performance, creating a software- and upgrade-heavy sustainment challenge.",
+      "International participation helped spread cost and interoperability benefits but created variant, sovereignty, weapons-integration, and delivery-status differences that require careful sourcing."
     ],
     "wars_used_in": [
       {
-        "name": "Syrian civil war",
-        "note": "Lockheed Martin F-35 Lightning II used in Syrian civil war."
+        "name": "Middle East combat operations",
+        "note": "U.S. and allied F-35s have conducted combat operations, but public mission details are often limited and nationally reported."
       }
     ],
     "variant_families": [
-      "Lockheed Martin F-35 Lightning II baseline production model",
-      "Lockheed Martin F-35 Lightning II upgraded avionics or weapons-capable model",
-      "Lockheed Martin F-35 Lightning II export or locally modernized model"
+      "F-35A",
+      "F-35B",
+      "F-35C",
+      "Block 4 / Technology Refresh modernization"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
-        "United States"
+        "United States",
+        "United Kingdom",
+        "Italy"
       ],
-      "major_user_note": "Lockheed Martin F-35 Lightning II has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "F35.com describes the aircraft as selected by the United States and 19 allied nations, with 12 nations operating across the global fleet and additional customers to follow.",
+      "all_operators_status": "20 partner/customer countries are listed here because the F-35 program spans active operators, transition fleets, and approved future customers; delivery counts are date-sensitive."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "AA-1 was the first F-35A test aircraft and first flew in December 2006.",
+        "The F-35 family passed more than one million flight hours according to F35.com program material."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "The aircraft has experienced development, software, sustainment, and mishap scrutiny typical of a large modern fighter program; incident-by-incident treatment is outside this page and should use official accident reports."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Lockheed Martin F-35 Lightning II uses jet propulsion."
+      "type": "Afterburning turbofan",
+      "summary": "The F-35A fact sheet lists one Pratt & Whitney F135-PW-100 turbofan rated at 43,000 lb of thrust; the F-35B adds a shaft-driven lift-fan system for STOVL operation."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "The F-35 carries weapons internally to preserve low observability and can use external stations when stealth is less critical. The F-35A has an internal 25 mm gun; B/C variants use mission-specific gun pods if required.",
+      "caution": "Exact weapons carriage depends on variant, software/block standard, customer clearances, and mission configuration; official public sources describe capability categories rather than one fixed loadout."
     },
     "similar_development": [
-      {
-        "id": "f-15-eagle",
-        "name": "McDonnell Douglas F-15 Eagle",
-        "url": "aircraft.html?id=f-15-eagle"
-      },
       {
         "id": "f-16-fighting-falcon",
         "name": "General Dynamics F-16 Fighting Falcon",
@@ -8284,121 +8456,225 @@
         "id": "f-a-18e-f-super-hornet",
         "name": "Boeing F/A-18E/F Super Hornet",
         "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+      },
+      {
+        "id": "harrier",
+        "name": "Hawker Siddeley Harrier",
+        "url": "aircraft.html?id=harrier"
+      },
+      {
+        "id": "f-22-raptor",
+        "name": "Lockheed Martin F-22 Raptor",
+        "url": "aircraft.html?id=f-22-raptor"
+      },
+      {
+        "id": "chengdu-j-20",
+        "name": "Chengdu J-20",
+        "url": "aircraft.html?id=chengdu-j-20"
+      },
+      {
+        "id": "su-57",
+        "name": "Sukhoi Su-57",
+        "url": "aircraft.html?id=su-57"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 38,
+      "operator_entries": 20,
+      "variant_entries": 4,
+      "external_article_sources": 5
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "lm-f35",
+        "title": "F-35 Lightning II",
+        "url": "https://www.lockheedmartin.com/en-us/products/f-35.html",
+        "publisher": "Lockheed Martin",
+        "note": "Manufacturer overview and program context for the F-35 family."
+      },
+      {
+        "id": "usaf-f35a",
+        "title": "F-35A Lightning II fact sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/478441/f-35a-lightning-ii",
+        "publisher": "U.S. Air Force",
+        "note": "Official F-35A mission, sensors, engine, dimensions, payload, speed, range, and ceiling data."
+      },
+      {
+        "id": "navair-f35",
+        "title": "F-35 Lightning II",
+        "url": "https://www.navair.navy.mil/product/F-35-Lightning-II",
+        "publisher": "Naval Air Systems Command",
+        "note": "Official naval acquisition and Joint Strike Fighter development summary."
+      },
+      {
+        "id": "f35-about",
+        "title": "About the F-35",
+        "url": "https://www.f35.com/f35/about.html",
+        "publisher": "F35.com / Lockheed Martin",
+        "note": "Program overview, partner/customer list, fleet scale, flight-hour milestone, and current modernization caveats."
+      },
+      {
+        "id": "f35-capabilities",
+        "title": "5th Gen Capabilities",
+        "url": "https://www.f35.com/f35/about/5th-gen-capabilities.html",
+        "publisher": "F35.com / Lockheed Martin",
+        "note": "Public description of stealth, sensor fusion, connectivity, Block 4, and Mach 1.6 performance."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Lockheed Martin F-35 Lightning II",
         "url": "https://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation only; official sources above are preferred for article facts."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "id": "lm-f35",
+        "title": "F-35 Lightning II",
+        "url": "https://www.lockheedmartin.com/en-us/products/f-35.html",
+        "publisher": "Lockheed Martin",
+        "note": "Manufacturer overview and program context for the F-35 family."
+      },
+      {
+        "id": "usaf-f35a",
+        "title": "F-35A Lightning II fact sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/478441/f-35a-lightning-ii",
+        "publisher": "U.S. Air Force",
+        "note": "Official F-35A mission, sensors, engine, dimensions, payload, speed, range, and ceiling data."
+      },
+      {
+        "id": "navair-f35",
+        "title": "F-35 Lightning II",
+        "url": "https://www.navair.navy.mil/product/F-35-Lightning-II",
+        "publisher": "Naval Air Systems Command",
+        "note": "Official naval acquisition and Joint Strike Fighter development summary."
+      },
+      {
+        "id": "f35-about",
+        "title": "About the F-35",
+        "url": "https://www.f35.com/f35/about.html",
+        "publisher": "F35.com / Lockheed Martin",
+        "note": "Program overview, partner/customer list, fleet scale, flight-hour milestone, and current modernization caveats."
+      },
+      {
+        "id": "f35-capabilities",
+        "title": "5th Gen Capabilities",
+        "url": "https://www.f35.com/f35/about/5th-gen-capabilities.html",
+        "publisher": "F35.com / Lockheed Martin",
+        "note": "Public description of stealth, sensor fusion, connectivity, Block 4, and Mach 1.6 performance."
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Lockheed Martin F-35 Lightning II is a Stealth multirole fighter from United States. Manufacturer: Lockheed Martin. First flight: 2006. Introduction: 2015. Status: Active.",
+            "text": "The Lockheed Martin F-35 Lightning II is a U.S.-led fifth-generation stealth multirole fighter family built around three service variants: the land-based F-35A, short takeoff/vertical landing F-35B, and carrier-capable F-35C. It was designed to replace several legacy fighter and strike fleets while emphasizing low observability, integrated sensors, secure data sharing, and precision strike.",
             "refs": [
-              "fn-main"
+              "usaf-f35a",
+              "navair-f35"
             ]
           },
           {
-            "text": "Lockheed Martin F-35 Lightning II is a fighter. Primary role: stealth multirole fighter. Country of origin: United States. Manufacturer: Lockheed Martin.",
+            "text": "Official U.S. Air Force data for the F-35A describes a single-seat multirole fighter with a Pratt & Whitney F135 engine, Mach 1.6 speed, more than 1,350 miles of internal-fuel range, and a ceiling above 50,000 ft. Public figures vary for the B and C because their STOVL and carrier requirements change airframe geometry, fuel volume, and weight.",
             "refs": [
-              "fn-wikidata"
+              "usaf-f35a",
+              "f35-capabilities"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The aircraft is as much a networked mission system as a fighter. Its public descriptions emphasize sensor fusion, the Electro-Optical Distributed Aperture System, Electro-Optical Targeting System, helmet-mounted display, secure data links, and ongoing Block 4 modernization.",
             "refs": [
-              "fn-method"
+              "usaf-f35a",
+              "f35-capabilities"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Stealth multirole fighter"
+            "text": "Fifth-generation stealth multirole strike fighter"
           },
           {
-            "title": "Designer or builder",
-            "text": "Lockheed Martin"
+            "title": "Variants",
+            "text": "F-35A CTOL, F-35B STOVL, F-35C carrier variant"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Prime contractor",
+            "text": "Lockheed Martin, with Northrop Grumman and BAE Systems as principal partners"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Powerplant",
+            "text": "One Pratt & Whitney F135 afterburning turbofan"
+          },
+          {
+            "title": "Speed",
+            "text": "Mach 1.6 public maximum"
+          },
+          {
+            "title": "Global status",
+            "text": "Active production and multinational service"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Lockheed Martin F-35 Lightning II first flew in 2006. Introduction date: 2015. Era: Modern.",
+            "text": "The F-35 emerged from the Joint Strike Fighter program, which sought a common family of aircraft for the U.S. Air Force, Marine Corps, Navy, and allied partners. NAVAIR records that on 26 October 2001 the U.S. Department of Defense selected the Lockheed Martin-led JSF team after a four-year competition.",
             "refs": [
-              "fn-main"
+              "navair-f35"
             ]
           },
           {
-            "text": "Producer: Lockheed Martin. Development context: stealth multirole fighter, jet propulsion, supersonic speed category, Modern era.",
+            "text": "Lockheed Martin became prime contractor, while Northrop Grumman and BAE Systems were named principal partners. NAVAIR describes final assembly at Fort Worth, center-fuselage work by Northrop Grumman in California, aft fuselage and tails by BAE Systems at Samlesbury, and flight testing at Fort Worth, Edwards AFB, and NAS Patuxent River.",
             "refs": [
-              "fn-wikidata"
+              "navair-f35"
+            ]
+          },
+          {
+            "text": "The program’s basic challenge was to make one aircraft family satisfy three different basing models. The F-35A uses conventional runways, the F-35B adds STOVL lift systems for expeditionary and small-carrier operations, and the F-35C adds carrier structure, larger wing area, and arrested-recovery features.",
+            "refs": [
+              "navair-f35",
+              "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "26 October 2001: Lockheed Martin-led team selected for JSF development.",
             "refs": [
+              "navair-f35"
+            ]
+          },
+          {
+            "text": "2006: first F-35A test aircraft flew after rollout at Fort Worth.",
+            "refs": [
+              "fn-wikipedia",
+              "f35-about"
+            ]
+          },
+          {
+            "text": "2015-2019: the three U.S. service variants reached initial operational milestones in stages rather than all at once.",
+            "refs": [
+              "fn-wikipedia",
               "fn-method"
             ]
           },
           {
-            "text": "Carrier compatibility added structural, landing gear, corrosion, and low-speed handling requirements.",
+            "text": "Block 4 modernization continues to add software, electronic-warfare, sensor, and weapons improvements across the family.",
             "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Low-observable shaping and internal systems integration increased the importance of sensors, materials, heat management, and maintenance discipline.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
-            "refs": [
-              "fn-method"
+              "f35-capabilities"
             ]
           }
         ]
@@ -8408,27 +8684,59 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The F-35 combines aligned-edge low-observable shaping, internal fuel and weapons volume, and a single high-thrust F135 engine. F35.com stresses that stealth does not make the aircraft invisible, but reduces and complicates detection and targeting by combining shaping, coatings, internal carriage, embedded sensors, and signature-control measures.",
             "refs": [
-              "fn-main"
+              "f35-about"
             ]
           },
           {
-            "text": "Carrier capable: yes. Stealth: yes.",
+            "text": "Mission systems are central to the design. The USAF fact sheet lists DAS for spherical missile warning and day/night pilot vision, EOTS for precision targeting and air-to-air detection, a helmet-mounted display that projects flight and targeting data on the visor, and tactical data links for sharing information with airborne, surface, and ground platforms.",
             "refs": [
+              "usaf-f35a"
+            ]
+          },
+          {
+            "text": "Weapons carriage is configuration-dependent. The F-35 can carry weapons internally when low observability is required and externally when payload or ferry requirements outweigh signature concerns; the F-35A has an internal gun, while B/C gun use is via podded installations.",
+            "refs": [
+              "usaf-f35a",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Low observability",
+            "text": "Shaping, coatings, internal carriage, and signature-management features"
+          },
+          {
+            "title": "Sensors",
+            "text": "DAS, EOTS, helmet-mounted display, radar, EW, and fused mission systems"
+          },
+          {
+            "title": "Networking",
+            "text": "Secure tactical data links for joint and coalition operations"
+          },
+          {
+            "title": "Armament caution",
+            "text": "Mission-, block-, customer-, and variant-dependent"
+          }
+        ]
+      },
+      {
+        "id": "specifications",
+        "title": "Specifications",
+        "paragraphs": [
+          {
+            "text": "Representative official figures below are for the F-35A unless noted. The F-35B and F-35C differ because STOVL equipment and carrier structure change weight, fuel, wing area, and shipboard handling requirements.",
+            "refs": [
+              "usaf-f35a",
               "fn-method"
             ]
           },
           {
-            "text": "Lockheed Martin F-35 Lightning II uses jet propulsion. Engine model field: Not listed.",
+            "text": "USAF data lists one Pratt & Whitney F135-PW-100 producing 43,000 lb of thrust, 35 ft wingspan, 51 ft length, 14 ft height, 70,000 lb-class maximum takeoff weight, 18,498 lb internal fuel, 18,000 lb payload, Mach 1.6 speed, more than 1,350 miles of internal-fuel range, and a ceiling above 50,000 ft.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "usaf-f35a"
             ]
           }
         ],
@@ -8438,84 +8746,20 @@
             "text": "1"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Engine",
+            "text": "One Pratt & Whitney F135-PW-100, 43,000 lb thrust (F-35A data)"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Dimensions",
+            "text": "Wingspan 35 ft; length 51 ft; height 14 ft (F-35A)"
           },
           {
-            "title": "Carrier capable",
-            "text": "Yes"
+            "title": "Weights",
+            "text": "70,000 lb-class MTOW; 18,498 lb internal fuel; 18,000 lb payload"
           },
           {
-            "title": "Stealth",
-            "text": "Yes"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Lockheed Martin F-35 Lightning II status: Active. Conflict entries: 1.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: Syrian civil war.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Syrian civil war: Lockheed Martin F-35 Lightning II used in Syrian civil war.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Lockheed Martin F-35 Lightning II named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Performance",
+            "text": "Mach 1.6; above 50,000 ft ceiling; 1,200+ nmi internal-fuel range"
           }
         ]
       },
@@ -8524,35 +8768,42 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Lockheed Martin F-35 Lightning II variant-family entries: 3. Variant families: Lockheed Martin F-35 Lightning II baseline production model; Lockheed Martin F-35 Lightning II upgraded avionics or weapons-capable model; Lockheed Martin F-35 Lightning II export or locally modernized model.",
+            "text": "The family is normally described by three airframe variants rather than one universal configuration. The F-35A is the conventional runway model, the F-35B is the STOVL model, and the F-35C is the catapult/arrested carrier model.",
             "refs": [
-              "fn-main"
+              "navair-f35",
+              "f35-about"
             ]
           },
           {
-            "text": "Complete variant entries listed: 0.",
+            "text": "Modernization is also a major part of variant identity. F35.com describes Block 4 as the most significant capability evolution to date, with more than 70 major upgrades across the three variants, including electronic warfare, target recognition, computing, and weapons-integration improvements.",
             "refs": [
-              "fn-method"
+              "f35-capabilities"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Lockheed Martin F-35 Lightning II baseline production model",
+            "text": "F-35A: conventional takeoff and landing aircraft for air forces.",
             "refs": [
-              "fn-main"
+              "usaf-f35a"
             ]
           },
           {
-            "text": "Lockheed Martin F-35 Lightning II upgraded avionics or weapons-capable model",
+            "text": "F-35B: STOVL aircraft for expeditionary bases and ships without catapults.",
             "refs": [
-              "fn-main"
+              "navair-f35"
             ]
           },
           {
-            "text": "Lockheed Martin F-35 Lightning II export or locally modernized model",
+            "text": "F-35C: carrier aircraft with naval structure and larger wing/tail surfaces.",
             "refs": [
-              "fn-main"
+              "navair-f35"
+            ]
+          },
+          {
+            "text": "Block 4 / Technology Refresh: continuing modernization path rather than a separate airframe variant.",
+            "refs": [
+              "f35-capabilities"
             ]
           }
         ]
@@ -8562,13 +8813,54 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Lockheed Martin F-35 Lightning II has 1 designer or builder country entry.",
+            "text": "The F-35 is a multinational program. F35.com lists the United States and 19 allied nations as program members or customers, with partner countries including the U.S., U.K., Italy, Netherlands, Canada, Australia, Denmark, and Norway, and FMS customers including Israel, Japan, Republic of Korea, Belgium, Poland, Singapore, Finland, Switzerland, Germany, Czech Republic, Greece, and Romania.",
             "refs": [
-              "fn-wikidata"
+              "f35-about"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Operator status changes rapidly because some countries are active users, some are receiving aircraft, and some are approved or contracted future operators. This page therefore groups public customers without claiming exact live fleet counts.",
+            "refs": [
+              "f35-about",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "United States: Air Force F-35A, Marine Corps F-35B/C, and Navy F-35C.",
+            "refs": [
+              "usaf-f35a",
+              "navair-f35"
+            ]
+          },
+          {
+            "text": "Original partners include the U.K., Italy, Netherlands, Australia, Norway, Denmark, and Canada, with Turkey part of early development but no longer listed in current F35.com customer summaries.",
+            "refs": [
+              "f35-about",
+              "usaf-f35a"
+            ]
+          },
+          {
+            "text": "Foreign Military Sales customers listed by F35.com include Israel, Japan, Republic of Korea, Belgium, Poland, Singapore, Finland, Switzerland, Germany, Czech Republic, Greece, and Romania.",
+            "refs": [
+              "f35-about"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History and Combat Use",
+        "paragraphs": [
+          {
+            "text": "The F-35 has moved from development into routine U.S. and allied operations, training, deterrence deployments, and combat missions. F35.com describes the type as combat-proven and notes more than a million flight hours across the global fleet.",
+            "refs": [
+              "f35-about"
+            ]
+          },
+          {
+            "text": "Public combat-history summaries should remain cautious. Missions may be reported by individual nations, but sensor use, weapons employment, electronic-warfare activity, and coalition tasking are often omitted or classified.",
             "refs": [
               "fn-method"
             ]
@@ -8576,53 +8868,80 @@
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "U.S. services use the F-35 for strike, air defense, close air support support packages, suppression/destruction of air defenses, ISR-enabled targeting, and networked force-multiplier roles.",
             "refs": [
-              "fn-main"
+              "usaf-f35a",
+              "f35-capabilities"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "The F-35B and F-35C extend the family to amphibious assault ships, expeditionary bases, and large-deck aircraft carriers.",
             "refs": [
-              "fn-wikidata"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "specifications",
-        "title": "Specifications",
-        "paragraphs": [
-          {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Supersonic, first flight 2006, introduction 2015.",
-            "refs": [
-              "fn-main"
+              "navair-f35"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "International F-35 fleets improve coalition commonality but also introduce national weapons, basing, software, sustainment, and sovereignty differences.",
             "refs": [
+              "f35-about",
               "fn-method"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
         "paragraphs": [
           {
-            "text": "Lockheed Martin F-35 Lightning II similar-development links: 4.",
+            "text": "The F-35’s main strengths are low-observable penetration, sensor fusion, electronic warfare, secure information sharing, and a common family used by many allied air arms. These features make it a command-and-sensor node as well as a strike fighter.",
+            "refs": [
+              "f35-capabilities",
+              "usaf-f35a"
+            ]
+          },
+          {
+            "text": "Limitations and caveats include high software dependence, sustainment complexity, variant differences, upgrade timing, weapons-clearance schedules, and the fact that low observability is conditional rather than invisibility. Public cost, readiness, and fleet-size numbers should be dated when quoted.",
+            "refs": [
+              "f35-about",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Strength",
+            "text": "Stealth, sensor fusion, EW, networking, multinational scale"
+          },
+          {
+            "title": "Limitation",
+            "text": "Complex sustainment, software and upgrade dependencies, variant-specific tradeoffs"
+          },
+          {
+            "title": "Caution",
+            "text": "Current fleet counts and cleared weapons change frequently"
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Compared with the F-16 and F/A-18 fleets it replaces or supplements, the F-35 emphasizes first-look survivability, internal sensors, and data fusion over purely kinematic performance. It can still fly supersonically, but its public value proposition is the ability to collect, process, and share information while carrying weapons internally.",
+            "refs": [
+              "usaf-f35a",
+              "f35-capabilities"
+            ]
+          },
+          {
+            "text": "Compared with the F-22, the F-35 is a broader multirole and export-oriented family rather than a U.S.-only air-superiority fighter. Compared with other modern stealth fighters, public comparisons are difficult because radar cross-section, electronic-warfare performance, software standards, and mission data files are not fully public.",
             "refs": [
               "fn-method"
             ]
           }
         ],
         "links": [
-          {
-            "label": "McDonnell Douglas F-15 Eagle",
-            "url": "aircraft.html?id=f-15-eagle"
-          },
           {
             "label": "General Dynamics F-16 Fighting Falcon",
             "url": "aircraft.html?id=f-16-fighting-falcon"
@@ -8634,17 +8953,131 @@
           {
             "label": "Boeing F/A-18E/F Super Hornet",
             "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+          },
+          {
+            "label": "Lockheed Martin F-22 Raptor",
+            "url": "aircraft.html?id=f-22-raptor"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "Key public milestones emphasize program selection, first flight, initial operating milestones, international expansion, and continuing modernization.",
+            "refs": [
+              "navair-f35",
+              "f35-about",
+              "f35-capabilities"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "2001: Lockheed Martin-led team selected for Joint Strike Fighter development.",
+            "refs": [
+              "navair-f35"
+            ]
+          },
+          {
+            "text": "2006: first F-35A flight and early program rollout period.",
+            "refs": [
+              "f35-about",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "2015: first U.S. service initial operating milestone, with later USAF and Navy milestones following by variant.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "2020s: global fleet exceeds one million flight hours and more than 1,150 aircraft in service according to F35.com program material.",
+            "refs": [
+              "f35-about"
+            ]
+          },
+          {
+            "text": "Ongoing: Technology Refresh and Block 4 upgrades add computing, EW, sensor, and weapon-integration improvements.",
+            "refs": [
+              "f35-capabilities"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Official and manufacturer sources were preferred for this update: U.S. Air Force F-35A fact-sheet data for specifications and sensors; NAVAIR for the JSF selection and industrial-team summary; and F35.com/Lockheed Martin material for program scale, partner/customer lists, fleet hours, stealth explanation, and modernization. Wikipedia was retained only as supplementary orientation.",
+            "refs": [
+              "usaf-f35a",
+              "navair-f35",
+              "f35-about",
+              "f35-capabilities",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Exact current aircraft totals, combat claims, mission data, radar cross-section, electronic-warfare details, and national weapons clearances were intentionally not over-specified because they are classified, date-sensitive, or variant/customer-dependent.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages connect the F-35 to legacy aircraft it replaced or complemented and to other fifth-generation fighter programs.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "General Dynamics F-16 Fighting Falcon",
+            "url": "aircraft.html?id=f-16-fighting-falcon"
+          },
+          {
+            "label": "McDonnell Douglas F/A-18 Hornet",
+            "url": "aircraft.html?id=f-a-18-hornet"
+          },
+          {
+            "label": "Boeing F/A-18E/F Super Hornet",
+            "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+          },
+          {
+            "label": "Hawker Siddeley Harrier",
+            "url": "aircraft.html?id=harrier"
+          },
+          {
+            "label": "Lockheed Martin F-22 Raptor",
+            "url": "aircraft.html?id=f-22-raptor"
+          },
+          {
+            "label": "Chengdu J-20",
+            "url": "aircraft.html?id=chengdu-j-20"
+          },
+          {
+            "label": "Sukhoi Su-57",
+            "url": "aircraft.html?id=su-57"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Bombed_out_vehicles_Aleppo.jpg/960px-Bombed_out_vehicles_Aleppo.jpg",
-        "caption": "Syrian civil war",
-        "source_url": "https://en.wikipedia.org/wiki/Syrian_civil_war"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "f-100-super-sabre",
