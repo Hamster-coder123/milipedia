@@ -4152,3 +4152,80 @@ Record the result of:
 * The current USAF public fact-sheet URL failed direct extraction during this run, so the article used an archived USAF fact-sheet copy hosted by GulfLINK for detailed USAF technical and Desert Storm data.
 * Exact current E-3 operator inventories and retirement timelines are date-sensitive; the page uses conservative wording and cites NATO's current page for NATO fleet status and 2035 modernization planning.
 * Wikipedia was used only as a supplementary orientation source for total production and broad variant/operator context.
+
+### Run 55 — 2026-07-02 21:02:08 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Northrop Grumman B-2 Spirit (id: b-2-spirit)
+* Reason selected: It was the sparsest unedited aircraft record in the current candidate scan, with generic generated prose, no concrete dimensions, no engines, no range or ceiling, no operator entry, no real variants, and only generic Wikipedia/Wikidata-oriented sources.
+* Previous condition: The page had 9 generated sections, 0 operator entries, 0 variant entries, several "Not listed" technical fields, placeholder-style conflict and operator text, and no official/manufacturer source set.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense lead summary, quick overview facts, section order similar to Overview / Development History / Design / Specifications / Variants / Operators / Operational History / Comparison / Strengths and Limitations / Timeline / Sources / Related Pages; concise technical paragraphs with source refs; fact-card style specifications; conservative notes where public figures vary.
+
+#### Changes Made
+
+* Expanded the B-2 Spirit record from generated placeholder content into a detailed low-observable strategic bomber article.
+* Added specific top-level facts for first flight, IOC, status, inventory, crew, GE F118 engines, high-subsonic speed, range, ceiling, internal weapons carriage, Whiteman AFB basing, and combat/service history.
+* Replaced generic source lists with official U.S. Air Force, Northrop Grumman technical/overview, National Museum of the U.S. Air Force, and supplementary Wikipedia orientation sources.
+* Added 13 article sections matching the F-16-style density within the data-driven renderer: Overview, Development History, Design and Capabilities, Operational History, Notable Aircraft and Events, Variants and Modernization, Operators, Specifications, Strengths and Limitations, Comparison and Role Context, Timeline, Sources and Notes, and Related Pages.
+* Added variant/modernization entries for B-2A, modernized B-2A fleet aircraft, and test/display aircraft.
+* Added the United States Air Force / Air Force Global Strike Command as the sole operator and caveated the date-sensitive inventory figure using the May 2026 USAF fact sheet.
+* Added operational history covering Operation Allied Force, Operation Enduring Freedom, Operation Iraqi Freedom, and Air Force Global Strike Command responsibility.
+* Added specification cards for dimensions, weight, fuel capacity, engines, ceiling, range, speed, crew, and payload, preserving the USAF/Northrop payload discrepancy rather than forcing a single uncertain value.
+* Added internal related links to B-52 Stratofortress, B-1 Lancer, Tu-160, and F-35 Lightning II, plus one external F-117 link because no local F-117 record exists.
+* Omitted classified or mission-sensitive low-observable, sensor, and weapons details; marked configuration-dependent payload and mission-radius facts cautiously.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded the Northrop Grumman B-2 Spirit aircraft data and rendered article content.
+* hermes-change-log.md — Appended this cumulative run entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before log update only `data/aircraft.json` was modified on branch `hermes-agent`; after log update the intended files were `data/aircraft.json` and `hermes-change-log.md` only.
+2. git diff — Reviewed the aircraft JSON diff showing only the B-2 Spirit record expansion; final diff reviewed again before commit.
+3. File review — `python3 -m json.tool data/aircraft.json` passed; B-2 record reviewed for section count, sources, operators, variants, facts, and reference IDs.
+4. F-16 style comparison — Inspected `data/f16-template.html`; copied dense section progression, technical-reference style, fact-card density, related-link pattern, and conservative caveat wording.
+5. Internal link check — Script checked B-2 `article_sections[].links[]` aircraft IDs against `data/aircraft.json`; no missing internal aircraft IDs were found. The F-117 link is external because no local F-117 record exists.
+6. Secret/token check — Credential-pattern scan of the intended aircraft diff found no API keys, access/auth tokens, private keys, or cloud credential names.
+7. Final review before commit — Confirmed intended modified files only: `data/aircraft.json` and `hermes-change-log.md`; final diff, JSON formatting, internal links, and status checked before commit.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Northrop Grumman B-2 Spirit
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Public payload figures differ: the current USAF fact sheet lists 60,000 lb, while Northrop Grumman technical data lists more than 40,000 lb. The page records both with source context.
+* Exact combat radius, sensor details, low-observable materials, defensive systems, and some weapons/configuration details are classified or mission-sensitive; these were omitted or caveated.
+* Current inventory is date-sensitive; the article cites the May 2026 USAF fact sheet and avoids broader claims beyond the public source.
+* The data-driven page cannot reproduce the bespoke interactive F-16 image labeling, but it now follows the F-16 article density and section pattern available through `data/aircraft.json`.

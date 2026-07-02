@@ -14888,65 +14888,105 @@
   {
     "id": "b-2-spirit",
     "name": "Northrop Grumman B-2 Spirit",
-    "alternative_names": [],
+    "alternative_names": [
+      "B-2A Spirit",
+      "Spirit stealth bomber"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
     "manufacturer": "Northrop Grumman",
-    "role": "Stealth strategic bomber",
-    "aircraft_type": "Bomber",
+    "role": "Low-observable strategic heavy bomber",
+    "aircraft_type": "Strategic bomber",
     "era": "Modern",
-    "first_flight": "1989",
-    "introduction_date": "1997",
+    "first_flight": "17 July 1989",
+    "introduction_date": "April 1997 initial operating capability",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "status": "Active with the United States Air Force",
+    "number_built": "21 built; 20 listed in active-force inventory in the May 2026 USAF fact sheet, including one test aircraft",
+    "crew": "2 pilots: aircraft commander/pilot and mission commander",
+    "engine_type": "Turbofan",
+    "engines": "Four General Electric F118-GE-100 non-afterburning turbofans, 17,300 lbf thrust each",
+    "max_speed": "High subsonic",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
+    "range": "Approximately 6,000 nautical miles unrefueled; about 10,000 nautical miles with one aerial refueling in Northrop Grumman data",
+    "combat_range": "Intercontinental strike radius with aerial refueling; exact combat radius varies by route, payload, and mission profile",
+    "service_ceiling": "50,000 ft",
     "rate_of_climb": "Not listed",
-    "armament": "Bombs, missiles, and precision-guided weapons.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Northrop Grumman B-2 Spirit: Stealth strategic bomber. Manufacturer: Northrop Grumman. First flight: 1989. Introduction: 1997.",
-    "short_summary": "Northrop Grumman B-2 Spirit: Stealth strategic bomber. Origin: United States. Manufacturer: Northrop Grumman. First flight: 1989. Introduction: 1997. Status: Active.",
+    "armament": "Internal conventional or nuclear stores; USAF lists conventional or nuclear weapons and a payload figure of 60,000 lb, while Northrop Grumman lists more than 40,000 lb.",
+    "hardpoints": "Internal weapons bays only; no external hardpoints are normally used because external stores would compromise low observability",
+    "variants": [
+      {
+        "name": "B-2A Spirit",
+        "description": "Only operational production version, a two-seat low-observable strategic bomber with internal weapons bays and four GE F118 turbofans.",
+        "role": "Strategic conventional and nuclear strike"
+      },
+      {
+        "name": "Modernized B-2A",
+        "description": "Fleet-standard aircraft progressively updated for precision conventional weapons, nuclear deterrence, communications, mission planning, and survivability improvements.",
+        "role": "Current USAF long-range strike and deterrence"
+      },
+      {
+        "name": "Test and non-flying museum aircraft",
+        "description": "Engineering, manufacturing, development, structural-test, and display aircraft supported flight-test, environmental testing, sustainment lessons, and public preservation.",
+        "role": "Flight test, systems development, restoration, and display"
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "operator": "United States Air Force / Air Force Global Strike Command",
+        "status": "Current",
+        "note": "Whiteman AFB, Missouri, is the only operational B-2 base; the May 2026 USAF fact sheet lists 20 active-force aircraft, including one test aircraft."
+      }
+    ],
+    "combat_history": "Combat debut in Operation Allied Force in 1999; later long-range missions in Operation Enduring Freedom and Operation Iraqi Freedom.",
+    "development_history": "The B-2 Spirit emerged from the U.S. stealth bomber program as a flying-wing, low-observable strategic bomber built by Northrop Grumman with an industry team including Boeing, Hughes Radar Systems, General Electric, and Vought. Public rollout occurred on 22 November 1988, first flight followed on 17 July 1989, and the first aircraft was delivered to Whiteman AFB on 17 December 1993.",
+    "short_summary": "Northrop Grumman B-2 Spirit: American low-observable strategic heavy bomber. First flight: 17 July 1989. Initial operating capability: April 1997. Crew: two. Powerplant: four GE F118-GE-100 turbofans. Role: intercontinental conventional and nuclear strike from heavily defended airspace.",
     "carrier_capable": false,
     "stealth": true,
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/RAF_F-35B_integration_flying_training_with_USAF_B-2_30092019_-_4.jpg/330px-RAF_F-35B_integration_flying_training_with_USAF_B-2_30092019_-_4.jpg",
-        "caption": "Northrop Grumman B-2 Spirit",
-        "credit": "Wikimedia/Wikipedia thumbnail source",
-        "license": "Verify original file license before reuse."
+        "url": "https://media.defense.gov/2021/Sep/29/2002864043/1200/1200/0/190829-F-YC884-9062.JPG",
+        "caption": "A U.S. Air Force 509th Bomb Wing B-2 Spirit approaches a KC-135 during a Bomber Task Force training exercise over England, 29 August 2019.",
+        "credit": "U.S. Air Force photo by Staff Sgt. Jordan Castelan",
+        "license": "Public domain U.S. Air Force image."
       }
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "usaf-b2",
+        "title": "B-2 Spirit",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104482/b-2-spirit",
+        "publisher": "U.S. Air Force",
+        "note": "Official USAF fact sheet used for mission, background, contractors, combat history, specifications, cost, IOC, and inventory."
+      },
+      {
+        "id": "northrop-b2-tech",
+        "title": "B-2 Technical Details",
+        "url": "https://www.northropgrumman.com/what-we-do/aircraft/b-2-stealth-bomber/technical-details",
+        "publisher": "Northrop Grumman",
+        "note": "Manufacturer technical data used for dimensions, engines, ceiling, unrefueled/refueled range, payload, crew, and top-speed category."
+      },
+      {
+        "id": "northrop-b2-overview",
+        "title": "B-2 Spirit Stealth Bomber",
+        "url": "https://www.northropgrumman.com/what-we-do/aircraft/b-2-stealth-bomber",
+        "publisher": "Northrop Grumman",
+        "note": "Manufacturer overview used for modernization, survivability, and long-range strike role."
+      },
+      {
+        "id": "nmusaf-b2",
+        "title": "Northrop B-2 Spirit",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195832/northrop-b-2-spirit",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Museum page used for rollout, flight-test, display-aircraft, environmental-test, and technical-note cross-checks."
+      },
+      {
+        "id": "wiki-b2",
         "title": "Northrop B-2 Spirit",
         "url": "https://en.wikipedia.org/wiki/Northrop_B-2_Spirit",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
-      },
-      {
-        "id": "fn-method",
-        "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
-        "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
+        "note": "Supplementary orientation only; official and manufacturer sources were preferred for article facts."
       }
     ],
     "country_flags": [
@@ -14956,55 +14996,56 @@
       }
     ],
     "designers": [
-      "Northrop Grumman"
+      "Northrop Advanced Systems / Northrop Grumman industry team"
     ],
     "development_tensions": [
-      "Balancing payload, range, survivability, sensor/weapons modernization, and operating cost.",
-      "Low-observable shaping and internal systems integration increased the importance of sensors, materials, heat management, and maintenance discipline."
+      "Combining low observability, intercontinental range, heavy internal payload, and all-altitude penetration capability without external stores.",
+      "Sustaining radar-absorbent materials, special coatings, mission systems, and a very small fleet while keeping enough aircraft mission-capable.",
+      "Modernizing communications, sensors, weapons integration, and maintainability as air-defense networks and standoff strike requirements evolve."
     ],
     "wars_used_in": [
       {
-        "name": "Gulf War",
-        "note": "Northrop Grumman B-2 Spirit used in Gulf War."
+        "name": "Operation Allied Force",
+        "note": "USAF credits B-2s with destroying 33 percent of Serbian targets in the first eight weeks while flying nonstop missions from Missouri to Kosovo and back."
       },
       {
-        "name": "Iraq War",
-        "note": "Northrop Grumman B-2 Spirit used in Iraq War."
+        "name": "Operation Enduring Freedom",
+        "note": "B-2s flew very long-range missions from Whiteman AFB to Afghanistan and back, demonstrating global reach with aerial refueling."
       },
       {
-        "name": "War in Afghanistan (2001–2021)",
-        "note": "Northrop Grumman B-2 Spirit used in War in Afghanistan (2001–2021)."
+        "name": "Operation Iraqi Freedom",
+        "note": "B-2s flew 22 sorties from a forward operating location and 27 from Whiteman AFB, releasing more than 1.5 million pounds of munitions according to USAF history."
       }
     ],
     "variant_families": [
-      "Northrop Grumman B-2 Spirit baseline production model",
-      "Northrop Grumman B-2 Spirit upgraded avionics or weapons-capable model",
-      "Northrop Grumman B-2 Spirit two-seat trainer or conversion model"
+      "B-2A Spirit baseline production aircraft",
+      "Modernized B-2A fleet with continuing communications, weapons, defensive-management, and maintainability upgrades",
+      "Development, test, and museum airframes including early EMD aircraft and the National Museum example assembled from structural-test assets"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Northrop Grumman B-2 Spirit has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The B-2 is operated by the United States Air Force; no export operators are listed.",
+      "all_operators_status": "One national military operator: United States Air Force."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "Spirit of Missouri: first B-2 delivered to Whiteman AFB on 17 December 1993.",
+        "Spirit of Ohio: aircraft used for extensive McKinley Climatic Laboratory environmental testing before additional cold-weather checks in Alaska."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "The B-2 reached full operational capability in December 2003.",
+        "The National Museum of the U.S. Air Force displays a B-2 assembled from structural-test and representative components rather than a former combat-coded aircraft."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Northrop Grumman B-2 Spirit uses jet propulsion."
+      "type": "Turbofan",
+      "summary": "Four General Electric F118-GE-100 non-afterburning turbofans, each rated at 17,300 lbf thrust in USAF and Northrop data."
     },
     "armament_details": {
-      "summary": "Bombs, missiles, and precision-guided weapons.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Internal conventional or nuclear weapons. Public USAF data gives conventional or nuclear armament and a 60,000 lb payload; Northrop technical data lists more than 40,000 lb payload. Specific loadouts vary and some details remain mission-sensitive.",
+      "caution": "Use public, configuration-dependent payload figures carefully; weapons are carried internally to preserve low observability."
     },
     "similar_development": [
       {
@@ -15018,117 +15059,180 @@
         "url": "aircraft.html?id=b-1-lancer"
       },
       {
-        "id": "su-24",
-        "name": "Sukhoi Su-24",
-        "url": "aircraft.html?id=su-24"
+        "id": "tu-160",
+        "name": "Tupolev Tu-160",
+        "url": "aircraft.html?id=tu-160"
       },
       {
-        "id": "su-34",
-        "name": "Sukhoi Su-34",
-        "url": "aircraft.html?id=su-34"
+        "id": "f-117-nighthawk",
+        "name": "Lockheed F-117 Nighthawk",
+        "url": "https://en.wikipedia.org/wiki/Lockheed_F-117_Nighthawk"
+      },
+      {
+        "id": "f-35-lightning-ii",
+        "name": "Lockheed Martin F-35 Lightning II",
+        "url": "aircraft.html?id=f-35-lightning-ii"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 34,
+      "operator_entries": 1,
+      "variant_entries": 3,
+      "external_article_sources": 4
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "usaf-b2",
+        "title": "B-2 Spirit",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104482/b-2-spirit",
+        "publisher": "U.S. Air Force",
+        "note": "Official USAF fact sheet used for mission, background, contractors, combat history, specifications, cost, IOC, and inventory."
+      },
+      {
+        "id": "northrop-b2-tech",
+        "title": "B-2 Technical Details",
+        "url": "https://www.northropgrumman.com/what-we-do/aircraft/b-2-stealth-bomber/technical-details",
+        "publisher": "Northrop Grumman",
+        "note": "Manufacturer technical data used for dimensions, engines, ceiling, unrefueled/refueled range, payload, crew, and top-speed category."
+      },
+      {
+        "id": "northrop-b2-overview",
+        "title": "B-2 Spirit Stealth Bomber",
+        "url": "https://www.northropgrumman.com/what-we-do/aircraft/b-2-stealth-bomber",
+        "publisher": "Northrop Grumman",
+        "note": "Manufacturer overview used for modernization, survivability, and long-range strike role."
+      },
+      {
+        "id": "nmusaf-b2",
+        "title": "Northrop B-2 Spirit",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195832/northrop-b-2-spirit",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Museum page used for rollout, flight-test, display-aircraft, environmental-test, and technical-note cross-checks."
+      },
+      {
+        "id": "wiki-b2",
         "title": "Northrop B-2 Spirit",
         "url": "https://en.wikipedia.org/wiki/Northrop_B-2_Spirit",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
-      },
-      {
-        "id": "fn-method",
-        "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
-        "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Supplementary orientation only; official and manufacturer sources were preferred for article facts."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "U.S. Air Force B-2 Spirit fact sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104482/b-2-spirit",
+        "publisher": "U.S. Air Force"
+      },
+      {
+        "title": "Northrop Grumman B-2 technical details",
+        "url": "https://www.northropgrumman.com/what-we-do/aircraft/b-2-stealth-bomber/technical-details",
+        "publisher": "Northrop Grumman"
+      },
+      {
+        "title": "National Museum of the USAF Northrop B-2 Spirit",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195832/northrop-b-2-spirit",
+        "publisher": "National Museum of the United States Air Force"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Northrop Grumman B-2 Spirit is a Stealth strategic bomber from United States. Manufacturer: Northrop Grumman. First flight: 1989. Introduction: 1997. Status: Active.",
+            "text": "The Northrop Grumman B-2 Spirit is an American low-observable strategic heavy bomber designed to deliver conventional or nuclear weapons through sophisticated air defenses. The U.S. Air Force describes it as a multi-role bomber and a major milestone in bomber modernization, combining stealth, heavy payload, high aerodynamic efficiency, and intercontinental reach.",
             "refs": [
-              "fn-main"
+              "usaf-b2"
             ]
           },
           {
-            "text": "Northrop Grumman B-2 Spirit is a bomber. Primary role: stealth strategic bomber. Country of origin: United States. Manufacturer: Northrop Grumman.",
+            "text": "The B-2 uses a tailless flying-wing planform, four buried General Electric F118-GE-100 turbofans, two crew stations, and internal weapons bays. Official USAF data lists high-subsonic speed, 50,000 ft ceiling, 172 ft wingspan, 69 ft length, and a 336,500 lb maximum takeoff weight.",
             "refs": [
-              "fn-wikidata"
+              "usaf-b2",
+              "northrop-b2-tech"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The fleet is small and specialized. USAF data current to May 2026 lists 20 active-force aircraft, including one test aircraft, and Whiteman Air Force Base, Missouri, remains the only operational B-2 base.",
             "refs": [
-              "fn-method"
+              "usaf-b2"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Stealth strategic bomber"
+            "text": "Low-observable strategic heavy bomber"
           },
           {
-            "title": "Designer or builder",
-            "text": "Northrop Grumman"
+            "title": "Manufacturer",
+            "text": "Northrop Grumman with an industry contractor team"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "First flight",
+            "text": "17 July 1989"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Crew",
+            "text": "Two pilots"
+          },
+          {
+            "title": "Powerplant",
+            "text": "Four GE F118-GE-100 turbofans"
+          },
+          {
+            "title": "Operational base",
+            "text": "Whiteman AFB, Missouri"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Northrop Grumman B-2 Spirit first flew in 1989. Introduction date: 1997. Era: Modern.",
+            "text": "The B-2 was developed as a stealth strategic bomber able to combine long range, large internal weapons load, and penetration of defended airspace. It was publicly rolled out at Air Force Plant 42 in Palmdale, California, on 22 November 1988, then made its first flight on 17 July 1989.",
             "refs": [
-              "fn-main"
+              "usaf-b2",
+              "nmusaf-b2"
             ]
           },
           {
-            "text": "Producer: Northrop Grumman. Development context: stealth strategic bomber, jet propulsion, subsonic speed category, Modern era.",
+            "text": "Flight testing was handled by the B-2 Combined Test Force at Edwards Air Force Base. The first aircraft delivered to an operational unit, Spirit of Missouri, arrived at Whiteman AFB on 17 December 1993, and the type reached initial operating capability in April 1997.",
             "refs": [
-              "fn-wikidata"
+              "usaf-b2"
+            ]
+          },
+          {
+            "text": "Northrop Grumman was the prime contractor for overall system design and integration. The official USAF contractor team also names Boeing Military Airplanes, Hughes Radar Systems, General Electric Aircraft Engine Group, and Vought Aircraft Industries.",
+            "refs": [
+              "usaf-b2"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing payload, range, survivability, sensor/weapons modernization, and operating cost.",
+            "text": "Public rollout: 22 November 1988 at Palmdale, California.",
             "refs": [
-              "fn-method"
+              "usaf-b2"
             ]
           },
           {
-            "text": "Low-observable shaping and internal systems integration increased the importance of sensors, materials, heat management, and maintenance discipline.",
+            "text": "First flight: 17 July 1989.",
             "refs": [
-              "fn-method"
+              "usaf-b2"
+            ]
+          },
+          {
+            "text": "First operational delivery: Spirit of Missouri to Whiteman AFB, 17 December 1993.",
+            "refs": [
+              "usaf-b2"
+            ]
+          },
+          {
+            "text": "Initial operating capability: April 1997; full operational capability followed in December 2003.",
+            "refs": [
+              "usaf-b2"
             ]
           }
         ]
@@ -15138,50 +15242,45 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 2. Propulsion: Jet. Speed category: Subsonic.",
+            "text": "The B-2 derives survivability from reduced radar, infrared, acoustic, visual, and electromagnetic signatures. USAF material notes that many low-observable details remain classified, but identifies composite materials, special coatings, and flying-wing shaping as visible contributors to the aircraft’s stealth characteristics.",
             "refs": [
-              "fn-main"
+              "usaf-b2"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: yes.",
+            "text": "The flying-wing configuration blends aerodynamic efficiency with internal fuel, internal weapons carriage, and all-altitude penetration capability. Northrop Grumman describes the aircraft as a strategic, long-range heavy bomber with low-observable technology for nuclear and conventional missions.",
             "refs": [
-              "fn-method"
+              "northrop-b2-tech"
             ]
           },
           {
-            "text": "Northrop Grumman B-2 Spirit uses jet propulsion. Engine model field: Not listed.",
+            "text": "The crew consists of two pilots: a pilot in the left seat and mission commander in the right. The four F118 engines are embedded in the wing to preserve shaping and signature control, and the aircraft uses aerial refueling for global-range strike missions.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Bombs, missiles, and precision-guided weapons. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "usaf-b2",
+              "northrop-b2-tech"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "2"
+            "title": "Airframe",
+            "text": "Tailless flying wing with blended structure and internal bays"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Stealth measures",
+            "text": "Shaping, composites, special coatings, and signature-management practices"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Engines",
+            "text": "Four GE F118-GE-100 turbofans, 17,300 lbf each"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Payload carriage",
+            "text": "Internal weapons bays; no normal external stores"
           },
           {
-            "title": "Stealth",
-            "text": "Yes"
+            "title": "Range",
+            "text": "About 6,000 nmi unrefueled; about 10,000 nmi with one refueling in Northrop data"
           }
         ]
       },
@@ -15190,111 +15289,120 @@
         "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Northrop Grumman B-2 Spirit status: Active. Conflict entries: 3.",
+            "text": "The B-2’s combat debut came during Operation Allied Force in 1999. USAF history states that B-2s destroyed 33 percent of Serbian targets in the first eight weeks while flying nonstop missions from Missouri to Kosovo and back.",
             "refs": [
-              "fn-main"
+              "usaf-b2"
             ]
           },
           {
-            "text": "Conflicts: Gulf War, Iraq War, War in Afghanistan (2001–2021).",
+            "text": "During Operation Enduring Freedom, B-2s flew some of their longest missions to date from Whiteman AFB to Afghanistan and back. In Operation Iraqi Freedom, the aircraft flew 22 sorties from a forward operating location plus 27 from Whiteman AFB and released more than 1.5 million pounds of munitions.",
             "refs": [
-              "fn-method"
+              "usaf-b2"
+            ]
+          },
+          {
+            "text": "Air Force Global Strike Command assumed responsibility for the B-2 on 1 February 2009. The type continues to support nuclear deterrence, conventional long-range strike, bomber task force training, and demonstrations of global reach.",
+            "refs": [
+              "usaf-b2",
+              "northrop-b2-overview"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Gulf War: Northrop Grumman B-2 Spirit used in Gulf War.",
+            "text": "Operation Allied Force: first combat use and long-range strikes from Missouri.",
             "refs": [
-              "fn-main"
+              "usaf-b2"
             ]
           },
           {
-            "text": "Iraq War: Northrop Grumman B-2 Spirit used in Iraq War.",
+            "text": "Operation Enduring Freedom: very long-range Afghanistan missions with aerial refueling.",
             "refs": [
-              "fn-main"
+              "usaf-b2"
             ]
           },
           {
-            "text": "War in Afghanistan (2001–2021): Northrop Grumman B-2 Spirit used in War in Afghanistan (2001–2021).",
+            "text": "Operation Iraqi Freedom: mixed forward-deployed and Whiteman-launched sorties.",
             "refs": [
-              "fn-main"
+              "usaf-b2"
             ]
           }
         ]
       },
       {
         "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
+        "title": "Notable Aircraft and Events",
         "paragraphs": [
           {
-            "text": "Northrop Grumman B-2 Spirit named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
+            "text": "Spirit of Missouri is notable as the first B-2 delivered to Whiteman AFB. Spirit of Ohio is associated with more than 1,000 hours of environmental testing at the McKinley Climatic Laboratory before additional cold-weather checks in Alaska.",
             "refs": [
-              "fn-main"
+              "usaf-b2",
+              "nmusaf-b2"
+            ]
+          },
+          {
+            "text": "The National Museum of the U.S. Air Force displays a B-2 in the Cold War Gallery. Museum notes identify it as a display aircraft assembled from structural-test and representative components, making it important for public interpretation rather than an ex-operational bomber.",
+            "refs": [
+              "nmusaf-b2"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Named pilots listed: 0.",
+            "text": "22 November 1988: public rollout at Palmdale.",
             "refs": [
-              "fn-method"
+              "usaf-b2"
             ]
           },
           {
-            "text": "Named individual aircraft listed: 0.",
+            "text": "17 July 1989: first flight.",
             "refs": [
-              "fn-method"
+              "usaf-b2"
             ]
           },
           {
-            "text": "Notable incidents listed: 0.",
+            "text": "December 2003: full operational capability.",
             "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
+              "usaf-b2"
             ]
           }
         ]
       },
       {
         "id": "variants",
-        "title": "Variants",
+        "title": "Variants and Modernization",
         "paragraphs": [
           {
-            "text": "Northrop Grumman B-2 Spirit variant-family entries: 3. Variant families: Northrop Grumman B-2 Spirit baseline production model; Northrop Grumman B-2 Spirit upgraded avionics or weapons-capable model; Northrop Grumman B-2 Spirit two-seat trainer or conversion model.",
+            "text": "The operational aircraft is the B-2A Spirit. Unlike larger aircraft families with many production marks, the B-2 fleet is better understood as a small set of production, test, and continuously modernized aircraft rather than a broad variant family.",
             "refs": [
-              "fn-main"
+              "usaf-b2",
+              "northrop-b2-overview"
             ]
           },
           {
-            "text": "Complete variant entries listed: 0.",
+            "text": "Northrop Grumman states that upgrade programs continue to improve lethality, information collection and dissemination, communications, and the ability to receive updated target information during missions. Public sources do not describe every change because low-observable and mission-system details remain sensitive.",
             "refs": [
-              "fn-method"
+              "northrop-b2-overview"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Northrop Grumman B-2 Spirit baseline production model",
+            "text": "B-2A Spirit: production low-observable strategic bomber.",
             "refs": [
-              "fn-main"
+              "usaf-b2"
             ]
           },
           {
-            "text": "Northrop Grumman B-2 Spirit upgraded avionics or weapons-capable model",
+            "text": "Modernized B-2A: fleet aircraft updated for communications, mission-system, and weapons-integration improvements.",
             "refs": [
-              "fn-main"
+              "northrop-b2-overview"
             ]
           },
           {
-            "text": "Northrop Grumman B-2 Spirit two-seat trainer or conversion model",
+            "text": "Test and display airframes: used for development, environmental testing, sustainment, or museum display.",
             "refs": [
-              "fn-main"
+              "nmusaf-b2"
             ]
           }
         ]
@@ -15304,29 +15412,29 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Northrop Grumman B-2 Spirit has 1 designer or builder country entry.",
+            "text": "The United States Air Force is the only B-2 operator. Air Force Global Strike Command controls the operational fleet, and Whiteman Air Force Base, Missouri, is identified by USAF material as the only operational base for the type.",
             "refs": [
-              "fn-wikidata"
+              "usaf-b2"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "The May 2026 USAF fact sheet lists active-force inventory as 20 aircraft, including one test aircraft, with no Air National Guard or Air Force Reserve inventory.",
             "refs": [
-              "fn-method"
+              "usaf-b2"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "United States Air Force / Air Force Global Strike Command: current sole operator.",
             "refs": [
-              "fn-main"
+              "usaf-b2"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "Whiteman AFB, Missouri: only operational B-2 base.",
             "refs": [
-              "fn-wikidata"
+              "usaf-b2"
             ]
           }
         ]
@@ -15336,27 +15444,98 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 2, propulsion type Jet, maximum speed category Subsonic, first flight 1989, introduction 1997.",
+            "text": "Figures below use the USAF May 2026 fact sheet unless noted. Northrop Grumman gives the same dimensions, engine rating, ceiling, and high-subsonic speed, while listing more than 40,000 lb payload and a specific unrefueled/refueled range figure.",
             "refs": [
-              "fn-main"
+              "usaf-b2",
+              "northrop-b2-tech"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Crew",
+            "text": "Two pilots"
+          },
+          {
+            "title": "Length",
+            "text": "69 ft"
+          },
+          {
+            "title": "Wingspan",
+            "text": "172 ft"
+          },
+          {
+            "title": "Height",
+            "text": "17 ft"
+          },
+          {
+            "title": "Empty/basic weight",
+            "text": "USAF lists 160,000 lb weight"
+          },
+          {
+            "title": "Maximum takeoff weight",
+            "text": "336,500 lb"
+          },
+          {
+            "title": "Fuel capacity",
+            "text": "167,000 lb in USAF data"
+          },
+          {
+            "title": "Powerplant",
+            "text": "Four GE F118-GE-100 turbofans"
+          },
+          {
+            "title": "Speed",
+            "text": "High subsonic"
+          },
+          {
+            "title": "Range",
+            "text": "Intercontinental; 6,000 nmi unrefueled in Northrop data"
+          },
+          {
+            "title": "Ceiling",
+            "text": "50,000 ft"
+          },
+          {
+            "title": "Payload",
+            "text": "USAF lists 60,000 lb; Northrop lists more than 40,000 lb"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The B-2’s strengths are stealth penetration, long range, large internal payload, nuclear/conventional flexibility, and the ability to operate from the continental United States with aerial refueling. Those traits let a small number of aircraft hold defended targets at risk without visible forward basing.",
+            "refs": [
+              "usaf-b2",
+              "northrop-b2-tech"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Its limitations are also structural to the concept: the fleet is very small, sustainment is specialized, public details on sensors and weapons are limited, and low-observable materials and coatings require careful maintenance. The coming B-21 Raider is intended to continue and eventually expand the stealth bomber mission set, but the B-2 remains active.",
             "refs": [
-              "fn-method"
+              "northrop-b2-overview"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "comparison",
+        "title": "Comparison and Role Context",
         "paragraphs": [
           {
-            "text": "Northrop Grumman B-2 Spirit similar-development links: 4.",
+            "text": "Within the U.S. bomber force, the B-2 fills the penetrating stealth role, while the B-52 emphasizes large-scale standoff and conventional payload persistence and the B-1B emphasizes high-speed conventional bomber tasking. The B-2’s small fleet and specialized maintenance make it a scarce asset rather than a mass sortie generator.",
             "refs": [
-              "fn-method"
+              "usaf-b2"
+            ]
+          },
+          {
+            "text": "Compared with fourth- and fifth-generation fighters, the B-2 is not an air-superiority platform; its value lies in range, survivability, payload, and the ability to strike highly defended strategic targets from long distances.",
+            "refs": [
+              "northrop-b2-tech",
+              "northrop-b2-overview"
             ]
           }
         ],
@@ -15370,12 +15549,122 @@
             "url": "aircraft.html?id=b-1-lancer"
           },
           {
-            "label": "Sukhoi Su-24",
-            "url": "aircraft.html?id=su-24"
+            "label": "Lockheed Martin F-35 Lightning II",
+            "url": "aircraft.html?id=f-35-lightning-ii"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "Key public milestones trace the B-2 from rollout and first flight through operational capability, early combat, and continuing modernization. Exact configuration changes after delivery are not fully public because mission systems and low-observable details remain sensitive.",
+            "refs": [
+              "usaf-b2",
+              "northrop-b2-overview"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "22 November 1988 — public rollout at Air Force Plant 42, Palmdale, California.",
+            "refs": [
+              "usaf-b2"
+            ]
           },
           {
-            "label": "Sukhoi Su-34",
-            "url": "aircraft.html?id=su-34"
+            "text": "17 July 1989 — first flight.",
+            "refs": [
+              "usaf-b2"
+            ]
+          },
+          {
+            "text": "17 December 1993 — Spirit of Missouri delivered to Whiteman AFB.",
+            "refs": [
+              "usaf-b2"
+            ]
+          },
+          {
+            "text": "April 1997 — initial operating capability.",
+            "refs": [
+              "usaf-b2"
+            ]
+          },
+          {
+            "text": "1999 — combat debut in Operation Allied Force.",
+            "refs": [
+              "usaf-b2"
+            ]
+          },
+          {
+            "text": "December 2003 — full operational capability.",
+            "refs": [
+              "usaf-b2"
+            ]
+          },
+          {
+            "text": "1 February 2009 — Air Force Global Strike Command assumed responsibility for the B-2.",
+            "refs": [
+              "usaf-b2"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "This page relies primarily on the current U.S. Air Force fact sheet, Northrop Grumman technical and overview pages, and the National Museum of the U.S. Air Force page. Wikipedia remains only a supplementary orientation source.",
+            "refs": [
+              "usaf-b2",
+              "northrop-b2-tech",
+              "northrop-b2-overview",
+              "nmusaf-b2",
+              "wiki-b2"
+            ]
+          },
+          {
+            "text": "Payload figures differ between public sources: the USAF fact sheet lists 60,000 lb, while Northrop Grumman’s technical page lists more than 40,000 lb. The article keeps both figures visible rather than forcing a single value.",
+            "refs": [
+              "usaf-b2",
+              "northrop-b2-tech"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "similar-development",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages include U.S. heavy bombers, comparable long-range strike aircraft, and other low-observable combat aircraft. External links are used only where the aircraft is not present in the local database.",
+            "refs": [
+              "wiki-b2"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Boeing B-52 Stratofortress",
+            "url": "aircraft.html?id=b-52-stratofortress"
+          },
+          {
+            "label": "Rockwell B-1 Lancer",
+            "url": "aircraft.html?id=b-1-lancer"
+          },
+          {
+            "label": "Tupolev Tu-160",
+            "url": "aircraft.html?id=tu-160"
+          },
+          {
+            "label": "Lockheed Martin F-35 Lightning II",
+            "url": "aircraft.html?id=f-35-lightning-ii"
+          },
+          {
+            "label": "Lockheed F-117 Nighthawk",
+            "url": "https://en.wikipedia.org/wiki/Lockheed_F-117_Nighthawk"
           }
         ]
       }
