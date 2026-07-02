@@ -18661,34 +18661,103 @@
   {
     "id": "e-3-sentry",
     "name": "Boeing E-3 Sentry",
-    "alternative_names": [],
+    "alternative_names": [
+      "E-3 AWACS",
+      "AWACS",
+      "Sentry"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
-    "manufacturer": "Boeing",
-    "role": "Airborne warning and control",
+    "manufacturer": "Boeing Aerospace / Boeing",
+    "role": "Airborne warning and control, battle management, surveillance, and communications",
     "aircraft_type": "AWACS/AEW",
-    "era": "Modern",
-    "first_flight": "1972",
-    "introduction_date": "1977",
-    "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "13-19",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "era": "Cold War/Modern",
+    "first_flight": "1972; production engineering/test aircraft in October 1975",
+    "introduction_date": "March 1977 with the U.S. Air Force; NATO deliveries began January 1982",
+    "retirement_date": "Being replaced gradually by newer AEW&C systems; NATO plans E-3A viability through 2035",
+    "status": "Active with remaining U.S., NATO, French, Saudi, Chilean, and related operator fleets; retired by the United Kingdom",
+    "number_built": "68 E-3 aircraft generally listed across U.S., NATO, United Kingdom, France, and Saudi production; Japan uses related E-767 aircraft",
+    "crew": "Flight crew of 4 plus mission crew of 13-19 specialists depending on mission",
+    "engine_type": "Four turbofan engines",
+    "engines": "Four Pratt & Whitney TF33-PW-100A turbofans, 21,000 lb thrust each in USAF fact-sheet data",
+    "max_speed": "Optimum cruise about 360 mph / Mach 0.48 in USAF fact-sheet data",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Support aircraft; fixed offensive armament not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Boeing E-3 Sentry: Airborne warning and control. Manufacturer: Boeing. First flight: 1972. Introduction: 1977.",
-    "short_summary": "Boeing E-3 Sentry: Airborne warning and control. Origin: United States. Manufacturer: Boeing. First flight: 1972. Introduction: 1977. Status: Active.",
+    "range": "More than 8 hours unrefueled endurance; range/on-station time can be increased by aerial refueling",
+    "combat_range": "Mission endurance and station time vary by orbit, tanker support, crew, and mission load; not one fixed combat radius",
+    "service_ceiling": "Above 29,000 ft in USAF fact-sheet data",
+    "rate_of_climb": "Not emphasized for the E-3 mission; AWACS value comes from altitude, radar horizon, endurance, and communications",
+    "armament": "Unarmed support aircraft; defensive value comes from surveillance, identification, communications, fighter control, and command-and-control links.",
+    "hardpoints": "No combat stores stations listed for the standard AWACS mission configuration",
+    "variants": [
+      {
+        "name": "EC-137D prototypes / E-3 development aircraft",
+        "description": "Boeing 707-based test aircraft used during radar and mission-system evaluation before production E-3 service."
+      },
+      {
+        "name": "E-3A",
+        "description": "Early production AWACS standard used by the U.S. Air Force and NATO; NATO operates E-3A aircraft from Geilenkirchen, Germany."
+      },
+      {
+        "name": "E-3B/C",
+        "description": "U.S. Air Force modernization standards incorporating mission computer, communications, radar, and display upgrades over the service life."
+      },
+      {
+        "name": "E-3D Sentry AEW.1",
+        "description": "United Kingdom variant formerly operated by the Royal Air Force from 1991 to 2021."
+      },
+      {
+        "name": "E-3F",
+        "description": "French Air and Space Force variant operated in coordination with NATO AWACS missions."
+      },
+      {
+        "name": "E-3A Final Lifetime Extension Programme",
+        "description": "NATO modernization effort adding mission and audio-system improvements to sustain operational viability through 2035."
+      },
+      {
+        "name": "E-767 related aircraft",
+        "description": "Japan Air Self-Defense Force AWACS aircraft using E-3-derived mission concepts on a Boeing 767 airframe after 707 production had ended."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "United States Air Force, 552nd Air Control Wing and associated units",
+        "notes": "Original operator; the first E-3s were received at Tinker Air Force Base in March 1977."
+      },
+      {
+        "country": "NATO",
+        "service": "NATO Airborne Early Warning and Control Force, E-3A Component",
+        "notes": "NATO-owned and operated multinational fleet based at Geilenkirchen, Germany, with forward-operating locations in Europe."
+      },
+      {
+        "country": "France",
+        "service": "French Air and Space Force",
+        "notes": "Operates E-3F aircraft and coordinates with NATO AWACS operations as an interoperable national fleet."
+      },
+      {
+        "country": "Saudi Arabia",
+        "service": "Royal Saudi Air Force",
+        "notes": "Operates E-3 aircraft for national airborne warning and control missions."
+      },
+      {
+        "country": "United Kingdom",
+        "service": "Royal Air Force",
+        "notes": "Former E-3D operator; NATO notes the RAF E-3D contribution ran from 1991 to 2021 and is being succeeded by E-7 Wedgetail capability."
+      },
+      {
+        "country": "Chile",
+        "service": "Chilean Air Force",
+        "notes": "Listed as an E-3 user in general reference sources; detailed inventory status is date-sensitive."
+      },
+      {
+        "country": "Japan",
+        "service": "Japan Air Self-Defense Force",
+        "notes": "Operates the related Boeing E-767 AWACS, not a 707-based E-3, but the mission-system lineage is closely connected."
+      }
+    ],
+    "combat_history": "Operation Desert Shield/Desert Storm, Operation Allied Force, NATO air policing and crisis-response missions, Iraq and Afghanistan-era command-and-control support, counter-drug and maritime/counter-terrorism support roles.",
+    "development_history": "Developed to replace the EC-121 Warning Star as a jet-powered airborne warning and control platform using a modified Boeing 707/320 airframe, a large rotating radar dome, pulse-Doppler radar, identification friend-or-foe equipment, communications consoles, and battle-management workstations.",
+    "short_summary": "The Boeing E-3 Sentry is a modified Boeing 707 airborne warning and control aircraft. Its rotating radar dome, command-and-control consoles, identification systems, communications suite, and aerial-refueling endurance allow crews to detect, identify, track, and manage air and surface activity for U.S., NATO, and allied commanders.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -18701,46 +18770,32 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-usaf-gulflink",
+        "title": "E-3 Sentry (AWACS)",
+        "url": "https://www.gulflink.osd.mil/al_jub_ii/al_jub_ii_refs/n50en103/E_3_Sentry_AWACS.html",
+        "publisher": "USAF fact sheet archived by GulfLINK",
+        "note": "Used for mission description, rotodome dimensions, radar range, Block 30/35, RSIP, Desert Storm statistics, crew, engines, dimensions, speed, ceiling, endurance, and deployment date."
+      },
+      {
+        "id": "fn-nato-awacs",
+        "title": "AWACS: NATO's 'eyes in the sky'",
+        "url": "https://www.nato.int/cps/en/natohq/topics_48904.htm",
+        "publisher": "NATO",
+        "note": "Used for NATO fleet role, missions, E-3A Component structure, 14-aircraft NATO fleet statement, eastern-flank surveillance, and Final Lifetime Extension Programme through 2035."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Boeing E-3 Sentry",
         "url": "https://en.wikipedia.org/wiki/Boeing_E-3_Sentry",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for total production, broad operators, and variant naming; detailed claims are cross-checked against official/organizational sources where possible."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
+        "url": "https://github.com/Hamster-coder123/milipedia",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.airpower.maxwell.af.mil/airchronicles/aureview/1972/may-jun/pearce.html",
-        "publisher": "airpower.maxwell.af.mil",
-        "note": "External source for Boeing E-3 Sentry."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.boeing.com/defense-space/ic/awacs/e3svcww/ukfr.html",
-        "publisher": "boeing.com",
-        "note": "External source for Boeing E-3 Sentry."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.es.northropgrumman.com/solutions/awacs/assets/AWACS.pdf",
-        "publisher": "es.northropgrumman.com",
-        "note": "External source for Boeing E-3 Sentry."
+        "note": "Repository-local guidance: use conservative wording where operator inventories, modernization standards, and exact current counts are date-sensitive."
       }
     ],
     "country_flags": [
@@ -18752,31 +18807,38 @@
     "designers": [
       "Boeing"
     ],
-    "development_tensions": [],
+    "development_tensions": [
+      "Replacing ground-bound or older piston-era warning systems required a jet platform with endurance, altitude, radar horizon, crew workstations, communications, and survivability.",
+      "The rotating rotodome and mission electronics added drag, weight, cooling, power, and maintenance demands to a commercial-airliner airframe.",
+      "AWACS crews balance wide-area surveillance, friendly-force identification, fighter control, communications relay, and battle-management workload rather than kinetic weapons employment.",
+      "Modernization has focused on radar processing, electronic support measures, secure data links, navigation, mission computers, and interoperability because the basic 707 airframe is old."
+    ],
     "wars_used_in": [
-      {
-        "name": "Gulf War",
-        "note": "Boeing E-3 Sentry used in Gulf War."
-      },
-      {
-        "name": "Iraq War",
-        "note": "Boeing E-3 Sentry used in Iraq War."
-      },
-      {
-        "name": "War in Afghanistan (2001–2021)",
-        "note": "Boeing E-3 Sentry used in War in Afghanistan (2001–2021)."
-      }
+      "Operation Desert Shield and Operation Desert Storm",
+      "Operation Allied Force",
+      "Iraq War-era air operations",
+      "War in Afghanistan (2001-2021)",
+      "NATO air policing and eastern-flank surveillance after Russia's 2022 full-scale invasion of Ukraine",
+      "Counter-drug surveillance support missions"
     ],
     "variant_families": [
-      "Boeing E-3 Sentry baseline production model",
-      "Boeing E-3 Sentry upgraded avionics or weapons-capable model"
+      "EC-137D/E-3 development aircraft",
+      "E-3A",
+      "E-3B/C",
+      "E-3D",
+      "E-3F",
+      "NATO E-3A Final Lifetime Extension Programme",
+      "Boeing E-767 related AWACS"
     ],
     "operator_summary": {
-      "major_designer_or_builder": [
-        "United States"
+      "primary_users": [
+        "United States Air Force",
+        "NATO Airborne Early Warning and Control Force",
+        "French Air and Space Force",
+        "Royal Saudi Air Force",
+        "former Royal Air Force"
       ],
-      "major_user_note": "Boeing E-3 Sentry has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "notes": "The E-3 is unusual because NATO operates its own multinational aircraft fleet rather than only coordinating national aircraft."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -18789,91 +18851,86 @@
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Boeing E-3 Sentry uses jet propulsion."
+      "type": "Four TF33 turbofans",
+      "models": [
+        "Pratt & Whitney TF33-PW-100A"
+      ],
+      "notes": "USAF fact-sheet data lists four TF33-PW-100A turbofan engines, each rated at 21,000 lb thrust."
     },
     "armament_details": {
-      "summary": "Support aircraft; fixed offensive armament not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "guns": [],
+      "air_to_air": [],
+      "air_to_ground": [],
+      "notes": "The E-3 is unarmed. Its mission effect is surveillance, identification, command and control, communications relay, and directing fighters or other assets."
     },
     "similar_development": [
       {
         "id": "e-2-hawkeye",
         "name": "Grumman E-2 Hawkeye",
         "url": "aircraft.html?id=e-2-hawkeye"
+      },
+      {
+        "id": "p-8-poseidon",
+        "name": "Boeing P-8 Poseidon",
+        "url": "aircraft.html?id=p-8-poseidon"
+      },
+      {
+        "id": "kc-135-stratotanker",
+        "name": "Boeing KC-135 Stratotanker",
+        "url": "aircraft.html?id=kc-135-stratotanker"
+      },
+      {
+        "id": "c-135-family",
+        "name": "Boeing 707/C-135 family context",
+        "url": "aircraft.html?id=kc-135-stratotanker"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 38,
+      "operator_entries": 7,
+      "variant_entries": 7,
+      "external_article_sources": 2
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-usaf-gulflink",
+        "title": "E-3 Sentry (AWACS)",
+        "url": "https://www.gulflink.osd.mil/al_jub_ii/al_jub_ii_refs/n50en103/E_3_Sentry_AWACS.html",
+        "publisher": "USAF fact sheet archived by GulfLINK",
+        "note": "Official USAF fact sheet copy used for mission, systems, specifications, and Desert Storm record."
+      },
+      {
+        "id": "fn-nato-awacs",
+        "title": "AWACS: NATO's 'eyes in the sky'",
+        "url": "https://www.nato.int/cps/en/natohq/topics_48904.htm",
+        "publisher": "NATO",
+        "note": "NATO page used for current NATO AWACS role, fleet, organization, eastern-flank missions, and modernization planning."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Boeing E-3 Sentry",
         "url": "https://en.wikipedia.org/wiki/Boeing_E-3_Sentry",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for production and variant/operator overview."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
+        "url": "https://github.com/Hamster-coder123/milipedia",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.airpower.maxwell.af.mil/airchronicles/aureview/1972/may-jun/pearce.html",
-        "publisher": "airpower.maxwell.af.mil",
-        "note": "External source for Boeing E-3 Sentry."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.boeing.com/defense-space/ic/awacs/e3svcww/ukfr.html",
-        "publisher": "boeing.com",
-        "note": "External source for Boeing E-3 Sentry."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.es.northropgrumman.com/solutions/awacs/assets/AWACS.pdf",
-        "publisher": "es.northropgrumman.com",
-        "note": "External source for Boeing E-3 Sentry."
+        "note": "Local style and uncertainty rule used for conservative current-status wording."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.airpower.maxwell.af.mil/airchronicles/aureview/1972/may-jun/pearce.html",
-        "publisher": "airpower.maxwell.af.mil",
-        "note": "External source for Boeing E-3 Sentry."
+        "title": "E-3 Sentry (AWACS)",
+        "url": "https://www.gulflink.osd.mil/al_jub_ii/al_jub_ii_refs/n50en103/E_3_Sentry_AWACS.html",
+        "publisher": "USAF / GulfLINK"
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.boeing.com/defense-space/ic/awacs/e3svcww/ukfr.html",
-        "publisher": "boeing.com",
-        "note": "External source for Boeing E-3 Sentry."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.es.northropgrumman.com/solutions/awacs/assets/AWACS.pdf",
-        "publisher": "es.northropgrumman.com",
-        "note": "External source for Boeing E-3 Sentry."
+        "title": "AWACS: NATO's 'eyes in the sky'",
+        "url": "https://www.nato.int/cps/en/natohq/topics_48904.htm",
+        "publisher": "NATO"
       }
     ],
     "article_sections": [
@@ -18882,218 +18939,246 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Boeing E-3 Sentry is an Airborne warning and control from United States. Manufacturer: Boeing. First flight: 1972. Introduction: 1977. Status: Active.",
+            "text": "The Boeing E-3 Sentry is a jet-powered airborne warning and control system built around a modified Boeing 707/320 airframe. Its mission is not to attack targets directly; it provides all-weather surveillance, command, control, communications, battle management, and air-defense coordination for U.S., NATO, and allied forces.",
             "refs": [
-              "fn-main"
+              "fn-usaf-gulflink",
+              "fn-nato-awacs"
             ]
           },
           {
-            "text": "Boeing E-3 Sentry is a awacs/aew. Primary role: airborne warning and control. Country of origin: United States. Manufacturer: Boeing.",
+            "text": "The aircraft is instantly recognizable because of the rotating radar dome above the rear fuselage. USAF fact-sheet data describes the dome as 30 ft in diameter and 6 ft thick; the radar can survey from the earth's surface into the stratosphere and detect low-flying targets at ranges greater than 250 miles under cited conditions.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf-gulflink"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "In operational use, the E-3 turns sensor information into a shared air picture. Console operators can track friendly and enemy aircraft and ships, pass data to command centers, direct fighter-interceptors, support interdiction and close-air-support planning, and provide commanders with a broad view of an air campaign.",
             "refs": [
-              "fn-method"
+              "fn-usaf-gulflink"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Primary role",
-            "text": "Airborne warning and control"
+            "title": "Primary mission",
+            "text": "Airborne warning, control, surveillance, and battle management"
           },
           {
-            "title": "Designer or builder",
-            "text": "Boeing"
+            "title": "Airframe basis",
+            "text": "Modified Boeing 707/320 commercial airframe"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Signature feature",
+            "text": "30 ft rotating radar dome above the fuselage"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Crew concept",
+            "text": "4 flight crew plus 13-19 mission specialists"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Boeing E-3 Sentry first flew in 1972. Introduction date: 1977. Era: Modern.",
+            "text": "The E-3 was developed after the U.S. Air Force sought a modern jet replacement for older airborne warning aircraft such as the EC-121 Warning Star. Boeing supplied the 707-based airframe while the mission system combined radar, identification friend-or-foe, navigation, communications, computers, and operator consoles.",
             "refs": [
-              "fn-main"
+              "fn-usaf-gulflink",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Producer: Boeing. Development context: airborne warning and control, jet propulsion, subsonic speed category, Modern era.",
+            "text": "Engineering, test, and evaluation on the first E-3 began in October 1975, and the first operational U.S. Air Force aircraft were received by the 552nd Airborne Warning and Control Wing at Tinker Air Force Base in March 1977. NATO received its first E-3 in January 1982.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf-gulflink"
+            ]
+          },
+          {
+            "text": "The Sentry has been modernized repeatedly. The Block 30/35 program added electronic support measures, JTIDS, additional computer memory, and GPS. The Radar System Improvement Program was a U.S./NATO radar hardware and software update, while NATO's Final Lifetime Extension Programme is intended to sustain NATO E-3A mission viability through 2035.",
+            "refs": [
+              "fn-usaf-gulflink",
+              "fn-nato-awacs"
             ]
           }
         ],
-        "bullets": []
+        "bullets": [
+          {
+            "text": "1972: E-3 development lineage first flight commonly listed in general references.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "October 1975: engineering, test, and evaluation began on the first E-3 Sentry.",
+            "refs": [
+              "fn-usaf-gulflink"
+            ]
+          },
+          {
+            "text": "March 1977: first U.S. Air Force E-3s delivered to the Tinker AFB AWACS wing.",
+            "refs": [
+              "fn-usaf-gulflink"
+            ]
+          },
+          {
+            "text": "January 1982: first NATO E-3 delivered.",
+            "refs": [
+              "fn-usaf-gulflink"
+            ]
+          },
+          {
+            "text": "2035: NATO planning horizon for E-3A operational viability after Final Lifetime Extension Programme modernization.",
+            "refs": [
+              "fn-nato-awacs"
+            ]
+          }
+        ]
       },
       {
         "id": "design",
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 13-19. Propulsion: Jet. Speed category: Subsonic.",
+            "text": "The E-3 uses a large 707-derived fuselage to carry mission consoles, communications equipment, computers, crew rest provisions, fuel, and the rotodome support structure. Four TF33 turbofans provide the long-endurance cruise performance needed for surveillance orbits rather than fighter-like speed.",
             "refs": [
-              "fn-main"
+              "fn-usaf-gulflink"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "The radar and IFF system are designed for look-down detection, identification, and tracking over land or water by reducing ground clutter returns that can confuse less capable radar systems. The radar picture is processed and presented to specialists at consoles in graphic and tabular formats.",
             "refs": [
+              "fn-usaf-gulflink"
+            ]
+          },
+          {
+            "text": "The E-3 is unarmed. Its combat value comes from mobility, radar horizon, survivable repositioning compared with fixed ground radar, jam-resistant operation, secure communications, data distribution, and the ability to coordinate fighters, tankers, strike aircraft, airlift, maritime forces, and command centers.",
+            "refs": [
+              "fn-usaf-gulflink",
               "fn-method"
-            ]
-          },
-          {
-            "text": "Boeing E-3 Sentry uses jet propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Support aircraft; fixed offensive armament not listed. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "13-19"
+            "title": "Powerplant",
+            "text": "Four Pratt & Whitney TF33-PW-100A turbofans"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Radar dome",
+            "text": "30 ft diameter, 6 ft thick, mounted above the fuselage"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Endurance",
+            "text": "More than 8 hours unrefueled; extendable by aerial refueling"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Weapons",
+            "text": "None; control and surveillance aircraft"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Boeing E-3 Sentry status: Active. Conflict entries: 3.",
+            "text": "Representative specifications below use the USAF fact-sheet values for the E-3 Sentry and should not be read as every national upgrade state or every later avionics configuration.",
             "refs": [
-              "fn-main"
+              "fn-usaf-gulflink",
+              "fn-method"
             ]
           },
           {
-            "text": "Conflicts: Gulf War, Iraq War, War in Afghanistan (2001–2021).",
+            "text": "Dimensions: length 145 ft 6 in; wingspan 130 ft 10 in; height 41 ft 4 in. Rotodome: 30 ft diameter and 6 ft thick. Maximum takeoff weight: 347,000 lb.",
             "refs": [
-              "fn-method"
+              "fn-usaf-gulflink"
+            ]
+          },
+          {
+            "text": "Performance and crew: four TF33-PW-100A turbofans of 21,000 lb thrust each; optimum cruise about 360 mph / Mach 0.48; ceiling above 29,000 ft; endurance more than 8 hours unrefueled; flight crew of four plus 13-19 mission specialists.",
+            "refs": [
+              "fn-usaf-gulflink"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Gulf War: Boeing E-3 Sentry used in Gulf War.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Length",
+            "text": "145 ft 6 in"
           },
           {
-            "text": "Iraq War: Boeing E-3 Sentry used in Iraq War.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Wingspan",
+            "text": "130 ft 10 in"
           },
           {
-            "text": "War in Afghanistan (2001–2021): Boeing E-3 Sentry used in War in Afghanistan (2001–2021).",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Boeing E-3 Sentry named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Height",
+            "text": "41 ft 4 in"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum takeoff weight",
+            "text": "347,000 lb"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Ceiling",
+            "text": "Above 29,000 ft"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Endurance",
+            "text": "More than 8 hours unrefueled"
           }
         ]
       },
       {
         "id": "variants",
-        "title": "Variants",
+        "title": "Variants and Modernization",
         "paragraphs": [
           {
-            "text": "Boeing E-3 Sentry variant-family entries: 2. Variant families: Boeing E-3 Sentry baseline production model; Boeing E-3 Sentry upgraded avionics or weapons-capable model.",
+            "text": "E-3 variant naming is less about weapons and more about national mission systems, communications, radar processing, cockpit and console equipment, and sustainment standards. The U.S., NATO, French, former British, and Saudi aircraft all share the Boeing 707 AWACS concept but have different modernization histories.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-method",
+              "fn-wikipedia"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Boeing E-3 Sentry baseline production model",
+            "text": "E-3A: early production and NATO fleet baseline; NATO currently describes a 14-aircraft E-3A fleet.",
             "refs": [
-              "fn-main"
+              "fn-nato-awacs",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Boeing E-3 Sentry upgraded avionics or weapons-capable model",
+            "text": "E-3B/C: U.S. Air Force upgrade standards used to incorporate improved mission systems over the fleet life.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "E-3D: RAF Sentry AEW.1 fleet, operated from 1991 to 2021 according to NATO's summary of the British contribution.",
+            "refs": [
+              "fn-nato-awacs"
+            ]
+          },
+          {
+            "text": "E-3F: French Air and Space Force national AWACS variant coordinated with NATO interoperability needs.",
+            "refs": [
+              "fn-nato-awacs",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Block 30/35 and RSIP: major electronics, data-link, GPS, electronic-support, and radar improvements described in USAF material.",
+            "refs": [
+              "fn-usaf-gulflink"
+            ]
+          },
+          {
+            "text": "Final Lifetime Extension Programme: NATO mission and audio-system modernization intended to keep NATO E-3A aircraft operationally viable through 2035.",
+            "refs": [
+              "fn-nato-awacs"
             ]
           }
         ]
@@ -19103,13 +19188,73 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Boeing E-3 Sentry has 1 designer or builder country entry.",
+            "text": "The E-3 has served with the United States, NATO as a collectively owned-and-operated fleet, France, Saudi Arabia, the United Kingdom, and later second-hand or related operator arrangements. Exact current inventories change as E-7 and other AEW&C replacements arrive, so this section emphasizes operator role rather than live aircraft counts.",
             "refs": [
-              "fn-wikidata"
+              "fn-nato-awacs",
+              "fn-wikipedia",
+              "fn-method"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "NATO's E-3A Component is based at NATO Air Base Geilenkirchen, Germany, and maintains forward-operating bases or locations in Türkiye, Greece, Italy, and Norway. NATO describes AWACS as supporting air policing, counter-terrorism, airspace management, evacuation support, crisis response, wartime missions, maritime support, close air support, combat search and rescue, disaster relief, and counter-piracy.",
+            "refs": [
+              "fn-nato-awacs"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "United States: original AWACS operator; first aircraft delivered to the Tinker AFB wing in March 1977.",
+            "refs": [
+              "fn-usaf-gulflink"
+            ]
+          },
+          {
+            "text": "NATO: multinational E-3A fleet managed by NATO Airborne Early Warning and Control Force at Geilenkirchen.",
+            "refs": [
+              "fn-nato-awacs"
+            ]
+          },
+          {
+            "text": "France: national E-3F fleet that coordinates with NATO AWACS interoperability.",
+            "refs": [
+              "fn-nato-awacs"
+            ]
+          },
+          {
+            "text": "United Kingdom: former E-3D operator, with E-7 Wedgetail replacing the retired British Sentry contribution.",
+            "refs": [
+              "fn-nato-awacs"
+            ]
+          },
+          {
+            "text": "Saudi Arabia, Chile, and Japan-related E-767 context: included where broad E-3/AWACS lineage operator summaries are used; live fleet status should be date-checked.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "E-3 aircraft were among the first assets deployed for Operation Desert Shield, establishing a continuous radar screen against Iraqi air threats. During Desert Storm, USAF fact-sheet data credits E-3s with more than 400 missions, more than 5,000 on-station hours, control support to more than 120,000 coalition sorties, and assistance in 38 of 40 recorded coalition air-to-air kills.",
+            "refs": [
+              "fn-usaf-gulflink"
+            ]
+          },
+          {
+            "text": "The E-3 also supported Operation Allied Force, Iraq and Afghanistan-era air operations, counter-drug surveillance, and NATO crisis-response missions. NATO states that AWACS aircraft have played an important role along the Alliance's eastern flank after Russia's 2022 full-scale invasion of Ukraine, including surveillance over the Baltic and Black Seas and monitoring the skies over Ukraine.",
+            "refs": [
+              "fn-usaf-gulflink",
+              "fn-nato-awacs"
+            ]
+          },
+          {
+            "text": "Unlike fighters such as the F-16, the E-3's operational record is measured in controlled sorties, detection, battle management, command-link reliability, and shared situational awareness rather than weapons released or aerial victories by the aircraft itself.",
             "refs": [
               "fn-method"
             ]
@@ -19117,45 +19262,46 @@
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Operation Desert Shield/Desert Storm: continuous radar screen, sortie control, and air-battle command support.",
             "refs": [
-              "fn-main"
+              "fn-usaf-gulflink"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "Operation Allied Force: cited by USAF material as proof of AWACS battle-command value.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf-gulflink"
+            ]
+          },
+          {
+            "text": "NATO eastern-flank surveillance: hundreds of flights after 2022 monitoring air and surface activity near Ukraine and Allied territory.",
+            "refs": [
+              "fn-nato-awacs"
+            ]
+          },
+          {
+            "text": "Peacetime and crisis uses: air policing, counter-terrorism support, airspace management, evacuation support, maritime support, disaster relief, and counter-piracy.",
+            "refs": [
+              "fn-nato-awacs"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "comparison",
+        "title": "Comparison and Role Context",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 13-19, propulsion type Jet, maximum speed category Subsonic, first flight 1972, introduction 1977.",
+            "text": "Compared with fighter pages such as the F-16, the E-3 should be read as a command-and-control aircraft rather than a combat aircraft built around speed, maneuverability, and weapons. It sacrifices tactical agility for endurance, radar horizon, communications capacity, and mission-crew workstations.",
             "refs": [
-              "fn-main"
+              "fn-method"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Compared with the carrier-based E-2 Hawkeye, the E-3 is larger, land-based, and built from a jet airliner airframe, while the E-2 is a turboprop aircraft designed for carrier operations. Compared with newer E-7 AEW&C aircraft, the E-3 represents an older rotating-dome architecture on a 707-era platform.",
             "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "similar-development",
-        "title": "Similar Development",
-        "paragraphs": [
-          {
-            "text": "Boeing E-3 Sentry similar-development links: 1.",
-            "refs": [
-              "fn-method"
+              "fn-method",
+              "fn-nato-awacs"
             ]
           }
         ],
@@ -19163,27 +19309,170 @@
           {
             "label": "Grumman E-2 Hawkeye",
             "url": "aircraft.html?id=e-2-hawkeye"
+          },
+          {
+            "label": "General Dynamics F-16 Fighting Falcon",
+            "url": "aircraft.html?id=f-16-fighting-falcon"
+          },
+          {
+            "label": "Boeing KC-135 Stratotanker",
+            "url": "aircraft.html?id=kc-135-stratotanker"
+          },
+          {
+            "label": "Boeing P-8 Poseidon",
+            "url": "aircraft.html?id=p-8-poseidon"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The E-3's strengths are persistent wide-area radar coverage, airborne command-and-control, communications relay, friendly/enemy track management, and the ability to move its radar and command post away from vulnerable fixed sites. Its limitations come from airframe age, tanker and basing dependence, high-value target vulnerability, and the need for fighter, tanker, and electronic-warfare support in contested airspace.",
+            "refs": [
+              "fn-usaf-gulflink",
+              "fn-nato-awacs",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: detects, identifies, and tracks air activity over land or water while reducing ground clutter problems.",
+            "refs": [
+              "fn-usaf-gulflink"
+            ]
+          },
+          {
+            "text": "Strength: directs fighter-interceptors and distributes information to command centers, ships, and air operations commanders.",
+            "refs": [
+              "fn-usaf-gulflink"
+            ]
+          },
+          {
+            "text": "Strength: aerial refueling and crew rest provisions can extend mission duration beyond the unrefueled profile.",
+            "refs": [
+              "fn-usaf-gulflink"
+            ]
+          },
+          {
+            "text": "Limitation: no onboard offensive armament; survival depends on routing, escorts, standoff distance, electronic protection, and air superiority.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: 707-based fleets require modernization or replacement to remain interoperable with current networks and sensors.",
+            "refs": [
+              "fn-nato-awacs",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1972: E-3 development first-flight year commonly listed in general references.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "October 1975: engineering, test, and evaluation began on the first E-3.",
+            "refs": [
+              "fn-usaf-gulflink"
+            ]
+          },
+          {
+            "text": "March 1977: first E-3s delivered to the U.S. Air Force AWACS wing at Tinker Air Force Base.",
+            "refs": [
+              "fn-usaf-gulflink"
+            ]
+          },
+          {
+            "text": "January 1982: first NATO E-3 delivered.",
+            "refs": [
+              "fn-usaf-gulflink"
+            ]
+          },
+          {
+            "text": "1991: Desert Storm AWACS missions provided continuous surveillance and battle-management support.",
+            "refs": [
+              "fn-usaf-gulflink"
+            ]
+          },
+          {
+            "text": "1999-2004 period: RSIP radar improvement installation described for U.S. fleet modernization planning.",
+            "refs": [
+              "fn-usaf-gulflink"
+            ]
+          },
+          {
+            "text": "2022 onward: NATO AWACS intensified eastern-flank surveillance after Russia's full-scale invasion of Ukraine.",
+            "refs": [
+              "fn-nato-awacs"
+            ]
+          },
+          {
+            "text": "2035: NATO E-3A operational viability target after Final Lifetime Extension Programme work.",
+            "refs": [
+              "fn-nato-awacs"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "This update follows the F-16 page's article-density pattern with overview, development, design, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, sources, and related links. Because E-3 operator inventories and modernization statuses are date-sensitive, exact live counts are stated only when the cited source explicitly gives them.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The archived USAF fact sheet is used for detailed technical and Desert Storm data. NATO's current topic page is used for NATO fleet structure, mission set, eastern-flank activity, and modernization through 2035. Wikipedia remains a supplementary orientation source for production and variant context.",
+            "refs": [
+              "fn-usaf-gulflink",
+              "fn-nato-awacs",
+              "fn-wikipedia"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "links": [
+          {
+            "label": "Grumman E-2 Hawkeye",
+            "url": "aircraft.html?id=e-2-hawkeye"
+          },
+          {
+            "label": "General Dynamics F-16 Fighting Falcon",
+            "url": "aircraft.html?id=f-16-fighting-falcon"
+          },
+          {
+            "label": "Boeing KC-135 Stratotanker",
+            "url": "aircraft.html?id=kc-135-stratotanker"
+          },
+          {
+            "label": "Boeing P-8 Poseidon",
+            "url": "aircraft.html?id=p-8-poseidon"
+          },
+          {
+            "label": "Return to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg/960px-USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg",
-        "caption": "Gulf War",
-        "source_url": "https://en.wikipedia.org/wiki/Gulf_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/UStanks_baghdad_2003.JPEG/960px-UStanks_baghdad_2003.JPEG",
-        "caption": "Iraq War",
-        "source_url": "https://en.wikipedia.org/wiki/Iraq_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/U.S._Army_firefight_in_Kunar.jpg/960px-U.S._Army_firefight_in_Kunar.jpg",
-        "caption": "War in Afghanistan (2001–2021)",
-        "source_url": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001%E2%80%932021)"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "p-3-orion",
