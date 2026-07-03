@@ -6085,3 +6085,81 @@ Record the result of:
 * Web search/extract tooling returned external 432 errors during source discovery; direct URL retrieval and existing repository source references were used instead.
 * The National Museum of the United States Air Force page blocked direct programmatic extraction in this environment, but its stable fact-sheet URL is retained as the preferred museum reference.
 * F-102 production totals, drone-conversion counts, combat-loss details, and weapons fits vary by source, subvariant, upgrade, and counting method, so the page uses representative/caveated wording rather than exact universal tables.
+
+### Run 80 — 2026-07-03 22:04:47 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Lockheed P-3 Orion (id: p-3-orion)
+* Reason selected: The P-3 entry was one of the shortest unedited aircraft pages remaining compared with the F-16 reference, with generic generated text, empty top-level operators and variants, sparse specifications, no detailed design/MLU/operators/timeline treatment, and misleading generic fighter-style armament wording.
+* Previous condition: Placeholder-like generated entry with nine generic sections, no operator entries, no variant entries, incomplete engine/range/ceiling data, generic Wikipedia/Wikidata/method/source footnotes plus stale external links, and no detailed ASW/sensor/mission-system discussion.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview and key fact cards; section order from overview through development, design, specifications, variants, operators, operational history, notable events, comparison, strengths/limitations, timeline, sources, and related pages; cautious variant-specific wording; internal aircraft.html?id=... related links; source/reference IDs on paragraphs and bullets.
+
+#### Changes Made
+
+* Expanded the Lockheed P-3 Orion data entry into a fuller Milipedia article while preserving the JSON-rendered aircraft-page structure.
+* Corrected and expanded top-level facts for role, type, introduction/status, number built, crew caveats, engines, speed, range, ceiling, climb rate, hardpoints, combat-history summary, development summary, operator summary, and related aircraft.
+* Replaced the generated gun/air-to-air/air-to-ground armament sentence with P-3-specific internal-bay and underwing-stores wording, with caveats for unarmed NASA/NOAA/customs/research/civil configurations.
+* Added reliable source references from Lockheed Martin and NASA Airborne Science, retained Wikipedia only as supplementary orientation, and kept Milipedia accuracy-rules sourcing.
+* Added detailed sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Notable Events and Program Milestones, Comparison, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added variant coverage for P-3A, P-3B, P-3C, EP-3E, WP-3D, NASA P-3, AP-3C/P-3K-family upgrades, and MLU/service-life-extension aircraft.
+* Added operator coverage for U.S. Navy, NASA, NOAA, Japan, South Korea, Australia, New Zealand, Norway, and broader military/civil/customs/firefighting users with date-sensitive caveats.
+* Added technical and mission details for Allison T56 turboprops, MAD boom, radar/acoustic/EO-IR/imaging-sensor fits, NASA science ports and data systems, endurance/range figures, internal bay, external hardpoints, and structural MLU work.
+* Added internal links to Boeing P-8 Poseidon, Lockheed C-130 Hercules, Tupolev Tu-95, and the aircraft database.
+* Cleared the generated event gallery for this entry to avoid unrelated or stale conflict imagery.
+* Omitted exact current fleet totals, classified/nonpublic mission-system fits, and universal weapons clearances because they vary by aircraft, operator, and upgrade standard.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded the Lockheed P-3 Orion aircraft page entry and sources.
+* hermes-change-log.md — Appended the cumulative log entry for this hourly run.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Confirmed on hermes-agent with only data/aircraft.json and hermes-change-log.md modified before staging/commit.
+2. git diff — Reviewed full diff/stat; JSON change is limited to the p-3-orion entry plus the new cumulative log entry.
+3. File review — Parsed data/aircraft.json successfully and reviewed the selected entry's top-level fields, section list, source IDs, operator/variant coverage, armament wording, and removed event gallery.
+4. F-16 style comparison — Inspected data/f16-template.html and copied its dense lead, key facts, section order, specifications emphasis, variants/operators/history/comparison/timeline/sources/related-pages structure within the JSON renderer.
+5. Internal link check — Recursively checked aircraft.html?id=... links in the P-3 entry; p-8-poseidon, c-130-hercules, and tu-95 exist in data/aircraft.json, with index.html#database intentionally local navigation.
+6. Secret/token check — Scanned the staged diff with credential-specific patterns for private keys, cloud credential names, passwords, and access/auth tokens; no credentials were added.
+7. Final review before commit — Confirmed branch, JSON validity, focused files, no main-branch edits, no unrelated files, and a clean formatting check before committing.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Lockheed P-3 Orion
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* The web_search/web_extract backend returned HTTP 432 errors, so source lookup used direct URL retrieval with Python instead.
+* The current U.S. Navy fact page was inaccessible from this environment with HTTP 403; the run relied on Lockheed Martin, NASA, and supplementary Wikipedia orientation rather than overclaiming inaccessible Navy data.
+* Exact current operator fleet counts, detailed sensor configurations, and weapons clearances are date-sensitive and often configuration-specific, so the article uses cautious family-level wording.
+* The commit hash cannot be embedded in the same committed log entry without making it stale; the authoritative final hash is reported in this scheduled-run response.

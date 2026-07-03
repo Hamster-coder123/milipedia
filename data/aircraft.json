@@ -20881,34 +20881,57 @@
   {
     "id": "p-3-orion",
     "name": "Lockheed P-3 Orion",
-    "alternative_names": [],
+    "alternative_names": [
+      "P-3 Orion",
+      "P-3C Orion",
+      "Orion"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
     "manufacturer": "Lockheed",
-    "role": "Maritime patrol aircraft",
-    "aircraft_type": "Reconnaissance aircraft",
+    "role": "Maritime patrol and anti-submarine warfare aircraft",
+    "aircraft_type": "Four-engine turboprop maritime patrol aircraft",
     "era": "Cold War/Modern",
-    "first_flight": "1959",
+    "first_flight": "1958 prototype; production P-3 family introduced in 1962",
     "introduction_date": "1962",
     "retirement_date": null,
-    "status": "Active/retired by operator",
-    "number_built": "Not listed",
-    "crew": "11",
+    "status": "Active with several military, civil, and research operators; replaced by P-8 in U.S. Navy patrol squadrons",
+    "number_built": "757 P-3 family aircraft reported by public sources",
+    "crew": "Mission-dependent; U.S. Navy P-3C crews typically about 11",
     "engine_type": "Turboprop",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engines": "Four Allison T56-A-14 turboprops on P-3C data",
+    "max_speed": "About 411 kt / 473 mph for P-3C reference data; NASA research P-3 lists 405 kt",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Lockheed P-3 Orion: Maritime patrol aircraft. Manufacturer: Lockheed. First flight: 1959. Introduction: 1962.",
-    "short_summary": "Lockheed P-3 Orion: Maritime patrol aircraft. Origin: United States. Manufacturer: Lockheed. First flight: 1959. Introduction: 1962. Status: Active/retired by operator.",
+    "range": "About 3,800 nmi for NASA P-3 research configuration; P-3C ferry range publicly listed near 4,830 nmi",
+    "combat_range": "Mission dependent; public P-3C data commonly cites about 1,345 nmi with low-altitude station time",
+    "service_ceiling": "About 28,300 ft for P-3C reference data; NASA research aircraft lists 32,000 ft maximum altitude payload/weather dependent",
+    "rate_of_climb": "About 1,950 ft/min in public P-3C reference data",
+    "armament": "Internal weapons bay and underwing stations for torpedoes, mines, depth weapons, anti-ship missiles, rockets, and other stores depending variant and national configuration; no fixed gun",
+    "hardpoints": "Internal bay plus underwing stations; Lockheed describes an internal bay and ten external hardpoints",
+    "variants": [
+      "P-3A original U.S. Navy production version derived from the Electra-based prototype",
+      "P-3B improved production version with uprated systems and export/service subvariants",
+      "P-3C principal late U.S. Navy maritime patrol and anti-submarine version with progressively updated mission avionics",
+      "EP-3E ARIES signals intelligence derivative of the Orion airframe",
+      "WP-3D NOAA weather-research/hurricane-reconnaissance derivative",
+      "AP-3C Australian upgraded maritime patrol version",
+      "P-3K/P-3K2 New Zealand upgraded Orion family",
+      "P-3 MLU / service-life-extension aircraft with new wing and stabilizer structures"
+    ],
+    "operators": [
+      "United States Navy (former front-line patrol aircraft; replaced in active patrol squadrons by P-8 Poseidon)",
+      "NASA Airborne Science Program (modified P-3 research aircraft N426NA)",
+      "NOAA (WP-3D hurricane and weather research aircraft)",
+      "Japan Maritime Self-Defense Force",
+      "Republic of Korea Navy",
+      "Royal Australian Air Force (former AP-3C operator)",
+      "Royal New Zealand Air Force (former P-3K2 operator)",
+      "Royal Norwegian Air Force (former operator; aircraft transferred/replaced as fleets modernized)",
+      "Additional military, civil, customs, firefighting, and test operators vary by date and configuration"
+    ],
+    "combat_history": "Designed for Cold War maritime patrol and anti-submarine warfare, the Orion later supported surveillance, search and rescue, disaster response, counter-piracy, overland reconnaissance, customs/border missions, weather research, and scientific flying. Combat and crisis use varies widely by operator and variant.",
+    "development_history": "The P-3 was adapted from the Lockheed L-188 Electra airliner to meet a U.S. Navy need for a long-endurance patrol and anti-submarine aircraft. It added a shortened forward fuselage, weapons bay, mission sensors, sonobuoy capability, external stores, and a tail magnetic-anomaly-detection boom.",
+    "short_summary": "Long-endurance four-engine turboprop maritime patrol aircraft developed from the Lockheed Electra and used worldwide for ASW, maritime surveillance, reconnaissance, research, and special-mission work.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -20974,30 +20997,16 @@
     ],
     "development_tensions": [],
     "wars_used_in": [
-      {
-        "name": "Gulf War",
-        "note": "Lockheed P-3 Orion used in Gulf War."
-      },
-      {
-        "name": "Iraq War",
-        "note": "Lockheed P-3 Orion used in Iraq War."
-      },
-      {
-        "name": "War in Afghanistan (2001–2021)",
-        "note": "Lockheed P-3 Orion used in War in Afghanistan (2001–2021)."
-      }
+      "Cold War maritime patrol",
+      "Vietnam War-era patrol operations",
+      "counter-piracy and maritime-security operations",
+      "operator-specific surveillance and crisis-response missions"
     ],
     "variant_families": [
       "Lockheed P-3 Orion baseline production model",
       "Lockheed P-3 Orion upgraded avionics or weapons-capable model"
     ],
-    "operator_summary": {
-      "major_designer_or_builder": [
-        "United States"
-      ],
-      "major_user_note": "Lockheed P-3 Orion has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
-    },
+    "operator_summary": "Lockheed Martin describes more than 400 aircraft worldwide flown by 21 operators in 17 countries; exact current military and civil fleet status changes as P-8, C-295, ATR-72MP, and other replacements arrive.",
     "notable": {
       "notable_pilots_or_aircraft": [
         "Named pilots listed: 0.",
@@ -21008,14 +21017,8 @@
         "Loss claims listed: 0."
       ]
     },
-    "engine_details": {
-      "type": "Turboprop",
-      "summary": "Lockheed P-3 Orion uses turboprop propulsion."
-    },
-    "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
-    },
+    "engine_details": "Four Allison T56 turboprops; P-3C reference data lists T56-A-14 engines, while NASA emphasizes endurance, range, and science power/data modifications on its P-3.",
+    "armament_details": "P-3C-family aircraft may carry lightweight torpedoes, mines, depth weapons, AGM-84 Harpoon/SLAM-family weapons, rockets, and bombs depending service, upgrade, and mission. Research, weather, customs, and civilian aircraft may be unarmed.",
     "similar_development": [
       {
         "id": "p-8-poseidon",
@@ -21023,36 +21026,43 @@
         "url": "aircraft.html?id=p-8-poseidon"
       },
       {
-        "id": "u-2-dragon-lady",
-        "name": "Lockheed U-2",
-        "url": "aircraft.html?id=u-2-dragon-lady"
+        "id": "c-130-hercules",
+        "name": "Lockheed C-130 Hercules",
+        "url": "aircraft.html?id=c-130-hercules"
       },
       {
-        "id": "sr-71-blackbird",
-        "name": "Lockheed SR-71 Blackbird",
-        "url": "aircraft.html?id=sr-71-blackbird"
+        "id": "tu-95",
+        "name": "Tupolev Tu-95",
+        "url": "aircraft.html?id=tu-95"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 28,
+      "operator_entries": 9,
+      "variant_entries": 8,
+      "external_article_sources": 4
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-lockheed",
+        "title": "P-3 Orion: Maritime Patrol Aircraft",
+        "url": "https://www.lockheedmartin.com/en-us/products/p-3.html",
+        "publisher": "Lockheed Martin",
+        "note": "Manufacturer overview for mission set, global operator statement, sensors, engines, weapons stations, and Mid-Life Upgrade context."
+      },
+      {
+        "id": "fn-nasa",
+        "title": "P-3 Orion",
+        "url": "https://airbornescience.nasa.gov/aircraft/P-3_Orion",
+        "publisher": "NASA Airborne Science Program",
+        "note": "Official NASA aircraft page for the modified research P-3, performance figures, mission modifications, science payload, and current-status wording."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Lockheed P-3 Orion",
         "url": "https://en.wikipedia.org/wiki/Lockheed_P-3_Orion",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation and cross-check source for family history, P-3C specifications, variants, and operators; not used as the sole source for manufacturer/NASA claims."
       },
       {
         "id": "fn-method",
@@ -21060,50 +21070,23 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.navy.mil/navydata/fact_display.asp?cid=1100&tid=1400&ct=1",
-        "publisher": "navy.mil",
-        "note": "External source for Lockheed P-3 Orion."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.vpnavy.org/vp26mem.html",
-        "publisher": "vpnavy.org",
-        "note": "External source for Lockheed P-3 Orion."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.military.com/NewContent/0,13190,SS_070505_Navy,00.html",
-        "publisher": "military.com",
-        "note": "External source for Lockheed P-3 Orion."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.navy.mil/navydata/fact_display.asp?cid=1100&tid=1400&ct=1",
-        "publisher": "navy.mil",
-        "note": "External source for Lockheed P-3 Orion."
+        "title": "P-3 Orion: Maritime Patrol Aircraft",
+        "url": "https://www.lockheedmartin.com/en-us/products/p-3.html",
+        "publisher": "Lockheed Martin"
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.vpnavy.org/vp26mem.html",
-        "publisher": "vpnavy.org",
-        "note": "External source for Lockheed P-3 Orion."
+        "title": "P-3 Orion",
+        "url": "https://airbornescience.nasa.gov/aircraft/P-3_Orion",
+        "publisher": "NASA Airborne Science Program"
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.military.com/NewContent/0,13190,SS_070505_Navy,00.html",
-        "publisher": "military.com",
-        "note": "External source for Lockheed P-3 Orion."
+        "title": "Lockheed P-3 Orion",
+        "url": "https://en.wikipedia.org/wiki/Lockheed_P-3_Orion",
+        "publisher": "Wikipedia"
       }
     ],
     "article_sections": [
@@ -21112,20 +21095,24 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Lockheed P-3 Orion is a Maritime patrol aircraft from United States. Manufacturer: Lockheed. First flight: 1959. Introduction: 1962. Status: Active/retired by operator.",
+            "text": "The Lockheed P-3 Orion is a four-engine turboprop maritime patrol aircraft developed from the Lockheed L-188 Electra airliner for long-endurance anti-submarine warfare, anti-surface warfare, maritime surveillance, reconnaissance, and special-mission work. Its most recognizable external feature is the tail magnetic-anomaly-detection boom used for submarine localization.",
             "refs": [
-              "fn-main"
+              "fn-lockheed",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Lockheed P-3 Orion is a reconnaissance aircraft. Primary role: maritime patrol aircraft. Country of origin: United States. Manufacturer: Lockheed.",
+            "text": "Lockheed Martin describes the P-3 as a multi-mission, maritime long-endurance aircraft able to conduct air, surface, and subsurface patrol over extended periods and far from support facilities. The type has served for more than 50 years and remains active with several military, civil, research, and special-mission operators even as P-8 Poseidon and other newer aircraft replace many front-line fleets.",
             "refs": [
-              "fn-wikidata"
+              "fn-lockheed",
+              "fn-method"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Milipedia treats this as a P-3-family article rather than a single national configuration. P-3A, P-3B, P-3C, EP-3, AP-3C, WP-3D, NASA research aircraft, and national upgrades differ in sensors, weapons clearance, crew size, mission equipment, and current status, so specifications below are labeled as representative public data where possible.",
             "refs": [
+              "fn-nasa",
+              "fn-wikipedia",
               "fn-method"
             ]
           }
@@ -21133,166 +21120,163 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Maritime patrol aircraft"
+            "text": "Maritime patrol, ASW, ASuW, reconnaissance, and special missions"
           },
           {
-            "title": "Designer or builder",
-            "text": "Lockheed"
+            "title": "Airframe basis",
+            "text": "Lockheed L-188 Electra derivative"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Powerplant",
+            "text": "Four Allison T56 turboprops on P-3C-family data"
           },
           {
-            "title": "Propulsion",
-            "text": "Turboprop"
+            "title": "Status",
+            "text": "Active/retired by operator; U.S. Navy patrol role replaced by P-8"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Lockheed P-3 Orion first flew in 1959. Introduction date: 1962. Era: Cold War/Modern.",
+            "text": "The Orion was created after the U.S. Navy sought a more capable replacement for older piston-engined maritime patrol aircraft. Lockheed adapted the Electra airliner design into a military patrol platform, retaining the efficient four-turboprop layout while adding mission equipment, an internal bay, external stores provisions, and a distinctive tail sensor boom.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Producer: Lockheed. Development context: maritime patrol aircraft, turboprop propulsion, subsonic speed category, Cold War/Modern era.",
+            "text": "The prototype flew in 1958 and the first operational deliveries followed in the early 1960s. The aircraft became one of the defining Cold War maritime-patrol platforms because it combined long endurance, a large crewed mission cabin, sonobuoy processing, radar, electro-optical and acoustic sensors, and space for weapons or mission equipment.",
             "refs": [
-              "fn-wikidata"
+              "fn-wikipedia",
+              "fn-lockheed"
+            ]
+          },
+          {
+            "text": "The P-3 continued to evolve through avionics updates and structural life-extension work. Lockheed Martin describes the P-3 Mid-Life Upgrade as replacing fatigue-limited outer wings, the center wing lower section, and horizontal stabilizer with new production components to add flight hours and reduce corrosion-related ownership cost.",
+            "refs": [
+              "fn-lockheed"
             ]
           }
         ],
-        "bullets": []
+        "bullets": [
+          {
+            "text": "1958: Electra-based prototype flight for the Orion family.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "1962: early U.S. Navy squadron deliveries and introduction of the P-3 designation era.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "2000s-2010s: service-life-extension and MLU programs kept selected P-3 fleets viable while P-8 replacement programs advanced.",
+            "refs": [
+              "fn-lockheed",
+              "fn-method"
+            ]
+          }
+        ]
       },
       {
-        "id": "design",
+        "id": "design-and-capabilities",
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 11. Propulsion: Turboprop. Speed category: Subsonic.",
+            "text": "The P-3 airframe is optimized for endurance rather than fighter-like speed. Four turboprops give efficient low-altitude patrol performance, and crews can use engine-management techniques during long on-station periods. The cabin supports pilots, tactical coordinators, sensor operators, acoustic operators, and mission specialists, with crew size varying by operator and mission.",
             "refs": [
-              "fn-main"
+              "fn-lockheed",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Mission equipment depends on variant and upgrade standard. Public sources describe radar, electro-optical and infrared sensors, imaging radar, magnetic-anomaly detection, sonobuoy systems, communications equipment, and mission computers. NASA’s aircraft demonstrates the same airframe adaptability: it has science ports, sensor windows, wing mounting locations, data networks, satellite communications, and experiment power provisions.",
             "refs": [
+              "fn-lockheed",
+              "fn-nasa"
+            ]
+          },
+          {
+            "text": "Weapons are mission- and operator-specific. P-3C-family maritime patrol aircraft can use an internal weapons bay and underwing stations for torpedoes, mines, missiles, rockets, bombs, or external stores, while NASA, NOAA, customs, firefighting, and research aircraft may be unarmed and configured around sensors, communications, or payload carriage.",
+            "refs": [
+              "fn-lockheed",
+              "fn-wikipedia",
               "fn-method"
             ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Sensor identity",
+            "text": "Maritime radar, acoustic processing, MAD boom, EO/IR and imaging sensors by variant"
           },
           {
-            "text": "Lockheed P-3 Orion uses turboprop propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Endurance mission",
+            "text": "Designed for long patrols far from support bases"
           },
           {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
+            "title": "Stores arrangement",
+            "text": "Internal bay plus external stations on armed maritime patrol variants"
+          },
+          {
+            "title": "Science adaptability",
+            "text": "NASA P-3 uses ports, windows, wing mounts, and cabin data systems"
+          }
+        ]
+      },
+      {
+        "id": "specifications",
+        "title": "Specifications",
+        "paragraphs": [
+          {
+            "text": "Representative P-3C values are used for the military patrol aircraft; NASA values describe its modified research aircraft and may differ because of payload, weather, and mission restrictions.",
             "refs": [
-              "fn-main"
+              "fn-nasa",
+              "fn-wikipedia",
+              "fn-method"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "11"
+            "text": "Mission dependent; about 11 in U.S. Navy P-3C service, 24 onboard operators listed by NASA including flight crew"
           },
           {
-            "title": "Engine class",
-            "text": "Turboprop"
+            "title": "Length",
+            "text": "116 ft 10 in / 35.61 m in public P-3C reference data"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Wingspan",
+            "text": "99 ft 8 in / 30.38 m in public P-3C reference data"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Engines",
+            "text": "4 × Allison T56-A-14 turboprops on P-3C data"
           },
           {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Lockheed P-3 Orion status: Active/retired by operator. Conflict entries: 3.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Maximum speed",
+            "text": "411 kt in P-3C reference data; NASA P-3 lists 405 kt"
           },
           {
-            "text": "Conflicts: Gulf War, Iraq War, War in Afghanistan (2001–2021).",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Gulf War: Lockheed P-3 Orion used in Gulf War.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Range",
+            "text": "NASA lists 3,800 nmi; P-3C ferry-range references are higher and configuration-dependent"
           },
           {
-            "text": "Iraq War: Lockheed P-3 Orion used in Iraq War.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Service ceiling",
+            "text": "28,300 ft P-3C reference; NASA lists 32,000 ft payload/weather dependent"
           },
           {
-            "text": "War in Afghanistan (2001–2021): Lockheed P-3 Orion used in War in Afghanistan (2001–2021).",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Lockheed P-3 Orion named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Useful payload",
+            "text": "NASA lists 18,000 lb for its modified science aircraft"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Armament",
+            "text": "No fixed gun; torpedoes, mines, missiles, rockets, bombs, and stores vary by variant/operator"
           }
         ]
       },
@@ -21301,29 +21285,54 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Lockheed P-3 Orion variant-family entries: 2. Variant families: Lockheed P-3 Orion baseline production model; Lockheed P-3 Orion upgraded avionics or weapons-capable model.",
+            "text": "The Orion family includes baseline patrol aircraft, electronic-intelligence aircraft, weather and research aircraft, and heavily modernized national variants. Public variant labels often describe broad families; individual aircraft may have unique mission-system fits.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
+              "fn-wikipedia",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Lockheed P-3 Orion baseline production model",
+            "text": "P-3A: first production U.S. Navy Orion family.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Lockheed P-3 Orion upgraded avionics or weapons-capable model",
+            "text": "P-3B: improved patrol version used by the U.S. Navy and export operators.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "P-3C: principal late Cold War and post-Cold War maritime patrol/ASW version, with multiple update programs.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "EP-3E ARIES: signals-intelligence derivative based on the Orion airframe.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "WP-3D: NOAA weather-research derivative associated with hurricane and atmospheric work.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "NASA P-3: modified former naval aircraft used for airborne science, instrument testing, and satellite calibration/validation.",
+            "refs": [
+              "fn-nasa"
+            ]
+          },
+          {
+            "text": "MLU/SLEP aircraft: structurally renewed P-3s with new wing and stabilizer components for extended service life.",
+            "refs": [
+              "fn-lockheed"
             ]
           }
         ]
@@ -21333,58 +21342,111 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Lockheed P-3 Orion has 1 designer or builder country entry.",
+            "text": "The P-3 has served with navies, air forces, research agencies, customs organizations, and civilian operators. Lockheed Martin states that more than 400 aircraft worldwide are flown by 21 operators in 17 countries; current totals change as aircraft are retired, transferred, rebuilt, or replaced.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
+              "fn-lockheed",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "United States: U.S. Navy patrol P-3Cs were replaced in front-line patrol squadrons by the P-8; NASA and NOAA continue specialized Orion-family work.",
             "refs": [
-              "fn-main"
+              "fn-nasa",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "Japan and South Korea: major maritime-patrol operators in Northeast Asia.",
             "refs": [
-              "fn-wikidata"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "specifications",
-        "title": "Specifications",
-        "paragraphs": [
-          {
-            "text": "Comparable fields: crew 11, propulsion type Turboprop, maximum speed category Subsonic, first flight 1959, introduction 1962.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
-            "refs": [
+              "fn-wikipedia",
               "fn-method"
             ]
+          },
+          {
+            "text": "Australia and New Zealand: long-term Orion users that retired or replaced their AP-3C/P-3K2 fleets with newer maritime patrol aircraft.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Norway, Germany, Portugal, Spain, Chile, Argentina, Greece, Pakistan, Taiwan, Thailand, and other users have operated P-3-family aircraft in different periods and configurations.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Civil and special users have included NASA, NOAA, customs/border missions, firefighting conversions, and test or research organizations.",
+            "refs": [
+              "fn-nasa",
+              "fn-wikipedia"
+            ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Lockheed P-3 Orion similar-development links: 3.",
+            "text": "During the Cold War, the Orion’s central mission was finding, tracking, and if necessary attacking submarines. Its mix of long endurance, sonobuoy carriage, acoustic processing, radar, MAD, and weapons capacity made it a core element of maritime patrol squadrons and allied ocean surveillance networks.",
             "refs": [
+              "fn-lockheed",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "The aircraft’s mission set broadened after the Cold War. Lockheed Martin cites support for Operation Unified Assistance after the 2004 Indian Ocean tsunami, Hurricane Katrina response, Operation Atalanta in the Gulf of Aden, and the Deepwater Horizon oil-rig disaster as examples of P-3 utility outside traditional submarine hunting.",
+            "refs": [
+              "fn-lockheed"
+            ]
+          },
+          {
+            "text": "Specialized aircraft show the airframe’s longevity beyond naval patrol. NASA uses its P-3 for ecology, meteorology, atmospheric chemistry, cryospheric research, oceanography, soil science, biology, instrument testing, and satellite calibration/validation, while NOAA WP-3D aircraft are associated with hurricane and weather research.",
+            "refs": [
+              "fn-nasa",
+              "fn-wikipedia"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "notable-events",
+        "title": "Notable Events and Program Milestones",
+        "cards": [
+          {
+            "title": "1958",
+            "text": "Electra-derived Orion prototype flew, beginning the P-3 family."
+          },
+          {
+            "title": "1962",
+            "text": "U.S. Navy operational introduction era for early P-3 aircraft."
+          },
+          {
+            "title": "1991",
+            "text": "NASA lists its P-3 as entering Airborne Science Program service."
+          },
+          {
+            "title": "2000s",
+            "text": "P-3 MLU and structural renewal work addressed fatigue-limited wing and tail components."
+          },
+          {
+            "title": "2010s-2020s",
+            "text": "P-8 Poseidon increasingly replaced U.S. and allied P-3 maritime patrol fleets."
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Compared with the Boeing P-8 Poseidon, the P-3 is a turboprop aircraft optimized around low-altitude endurance and a large legacy mission crew, while the P-8 is a jet transport derivative with modern open-systems avionics and different high-altitude operating concepts. Compared with the C-130, the P-3 is less a general cargo aircraft and more a sensor-and-weapons maritime patrol system.",
+            "refs": [
+              "fn-lockheed",
+              "fn-nasa",
               "fn-method"
             ]
           }
@@ -21395,33 +21457,143 @@
             "url": "aircraft.html?id=p-8-poseidon"
           },
           {
-            "label": "Lockheed U-2",
-            "url": "aircraft.html?id=u-2-dragon-lady"
+            "label": "Lockheed C-130 Hercules",
+            "url": "aircraft.html?id=c-130-hercules"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "bullets": [
+          {
+            "text": "Strength: long endurance, efficient turboprop patrol performance, and room for a large mission crew and sensors.",
+            "refs": [
+              "fn-lockheed"
+            ]
           },
           {
-            "label": "Lockheed SR-71 Blackbird",
-            "url": "aircraft.html?id=sr-71-blackbird"
+            "text": "Strength: adaptable airframe used for ASW, ASuW, ISR, science, weather, customs, firefighting, and test roles.",
+            "refs": [
+              "fn-lockheed",
+              "fn-nasa"
+            ]
+          },
+          {
+            "text": "Strength: large global support history and structural life-extension options for selected fleets.",
+            "refs": [
+              "fn-lockheed"
+            ]
+          },
+          {
+            "text": "Limitation: older airframes face fatigue, corrosion, obsolescence, and sustainment pressures, driving replacement or MLU decisions.",
+            "refs": [
+              "fn-lockheed",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: public specifications and weapons fits vary sharply by version and operator, so a single table cannot describe every P-3 accurately.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: non-stealth turboprop survivability depends on mission planning, threat environment, standoff sensors/weapons, and supporting forces.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1957-1958: U.S. Navy replacement requirement leads to Lockheed Electra-based Orion development.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "1958: Orion prototype first flight.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "1962: early U.S. Navy operational introduction.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "1991: NASA Airborne Science Program begins operating its P-3 according to NASA aircraft data.",
+            "refs": [
+              "fn-nasa"
+            ]
+          },
+          {
+            "text": "2000s: Lockheed Martin P-3 MLU work marketed as a service-life extension solution.",
+            "refs": [
+              "fn-lockheed"
+            ]
+          },
+          {
+            "text": "2010s-2020s: P-8 Poseidon and other replacements reduce many front-line P-3 fleets while specialized aircraft continue serving.",
+            "refs": [
+              "fn-method",
+              "fn-wikipedia"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-and-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Manufacturer and NASA pages were used for mission, MLU, operator-scale, and science-aircraft details. Wikipedia was used as supplementary orientation for the broader P-3 family, P-3C specifications, variants, and operator history where official current pages are fragmented or configuration-specific.",
+            "refs": [
+              "fn-lockheed",
+              "fn-nasa",
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Exact current fleet counts, weapons clearances, and mission-system fits were intentionally not over-specified because they vary by operator, upgrade, retirement schedule, and classified or nonpublic configuration.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "links": [
+          {
+            "label": "Boeing P-8 Poseidon",
+            "url": "aircraft.html?id=p-8-poseidon"
+          },
+          {
+            "label": "Lockheed C-130 Hercules",
+            "url": "aircraft.html?id=c-130-hercules"
+          },
+          {
+            "label": "Tupolev Tu-95",
+            "url": "aircraft.html?id=tu-95"
+          },
+          {
+            "label": "Back to Aircraft Database",
+            "url": "index.html#database"
           }
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg/960px-USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg",
-        "caption": "Gulf War",
-        "source_url": "https://en.wikipedia.org/wiki/Gulf_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/UStanks_baghdad_2003.JPEG/960px-UStanks_baghdad_2003.JPEG",
-        "caption": "Iraq War",
-        "source_url": "https://en.wikipedia.org/wiki/Iraq_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/U.S._Army_firefight_in_Kunar.jpg/960px-U.S._Army_firefight_in_Kunar.jpg",
-        "caption": "War in Afghanistan (2001–2021)",
-        "source_url": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001%E2%80%932021)"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "p-8-poseidon",
