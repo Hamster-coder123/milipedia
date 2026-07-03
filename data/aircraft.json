@@ -33685,34 +33685,58 @@
   {
     "id": "mig-19",
     "name": "Mikoyan-Gurevich MiG-19",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "alternative_names": [
+      "MiG-19 Farmer",
+      "Mikoyan-Gurevich MiG-19S",
+      "Farmer"
+    ],
+    "nato_reporting_name": "Farmer",
     "country_of_origin": "Soviet Union",
     "manufacturer": "Mikoyan-Gurevich",
-    "role": "Supersonic fighter",
-    "aircraft_type": "Fighter",
+    "role": "Supersonic day fighter / interceptor",
+    "aircraft_type": "Second-generation jet fighter",
     "era": "Cold War",
-    "first_flight": "1952",
+    "first_flight": "24 May 1952 (SM-2/I-360); MiG-19 prototype in September 1953 per NMUSAF",
     "introduction_date": "1955",
-    "retirement_date": "Not listed",
-    "status": "Retired",
-    "number_built": "Not listed",
+    "retirement_date": "Soviet service phased out in the early 1960s; other operators retained the family longer",
+    "status": "Retired from principal Soviet and Warsaw Pact service; Chinese J-6 derivatives survived longer with some operators",
+    "number_built": "Approximately 2,172 Soviet MiG-19 airframes, plus licensed/derived production in China and Czechoslovakia; NMUSAF notes possibly as many as 10,000 MiG-19/J-6-family aircraft in various versions",
     "crew": "1",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "engine_type": "Afterburning turbojet",
+    "engines": "Two Tumansky RD-9 turbojets / RD-9B-family afterburning turbojets",
+    "max_speed": "903–908 mph (MiG-19S reference figures; source-dependent)",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Mikoyan-Gurevich MiG-19: Supersonic fighter. Manufacturer: Mikoyan-Gurevich. First flight: 1952. Introduction: 1955.",
-    "short_summary": "Mikoyan-Gurevich MiG-19: Supersonic fighter. Origin: Soviet Union. Manufacturer: Mikoyan-Gurevich. First flight: 1952. Introduction: 1955. Status: Retired.",
+    "range": "1,367 miles listed by March Field for MiG-19S; ferry/combat figures vary by stores and tanks",
+    "combat_range": "Not stated consistently in the cited museum sources; varies by mission profile",
+    "service_ceiling": "About 60,600 ft for MiG-19S reference data",
+    "rate_of_climb": "Not updated; exact public figures vary by variant and engine",
+    "armament": "Three NR-30 30 mm cannon on MiG-19S; radar/missile variants could carry K-5-family air-to-air missiles and other external stores depending on variant",
+    "hardpoints": "Variant-dependent external missile/rocket/bomb stations; March Field lists four missiles or eight 55 mm rockets for a MiG-19S reference fit",
+    "variants": [
+      "MiG-19 — initial day-fighter production model developed from the SM-9 prototype line.",
+      "MiG-19S — improved day fighter with an all-moving tail and three NR-30 30 mm cannon; used here as the representative specification baseline because the cited museum aircraft and fact sheets focus on the S model.",
+      "MiG-19P — all-weather interceptor variant with Izumrud radar and cannon armament.",
+      "MiG-19PM — missile-armed all-weather interceptor variant that replaced guns with K-5M-family air-to-air missiles.",
+      "MiG-19SV / related high-altitude experiments — lightened or modified interceptors aimed at improved ceiling, built in limited numbers or as prototypes.",
+      "Aero S-105 — Czechoslovak licensed-production MiG-19S.",
+      "Shenyang J-6 / F-6 — Chinese licensed and developed MiG-19-family aircraft; production totals and local subvariants are usually discussed separately from Soviet-built MiG-19 totals."
+    ],
+    "operators": [
+      "Soviet Air Forces and Soviet Air Defence Forces",
+      "People’s Liberation Army Air Force / Chinese J-6 family operators",
+      "Czechoslovak Air Force and other Warsaw Pact air arms",
+      "Vietnam People’s Air Force / North Vietnam",
+      "Korean People’s Army Air Force",
+      "Cuban Revolutionary Air and Air Defense Force",
+      "Iraqi Air Force and other Middle Eastern or export users, with exact inventories varying by period and by whether Chinese F-6/J-6 derivatives are counted"
+    ],
+    "combat_history": [
+      "Vietnam War and Southeast Asian air combat (including North Vietnamese MiG-19/J-6 operations)",
+      "Cold War air-defense interceptions by Soviet and allied forces",
+      "Regional service with Chinese, Middle Eastern, African, and other export operators"
+    ],
+    "development_history": "Developed to give the Soviet fighter force a level-flight supersonic successor to the MiG-15/MiG-17 line, the MiG-19 used a thin swept wing, twin afterburning turbojets, and heavier cannon armament. Prototype and SM-series testing led to production in 1955, with early handling, tail-control, and heat-management problems addressed through improved MiG-19S and radar-equipped interceptor variants.",
+    "short_summary": "The Mikoyan-Gurevich MiG-19 Farmer was the Soviet Union’s first production fighter capable of supersonic speed in level flight. It bridged the MiG-17 and MiG-21 eras with a twin-engine, swept-wing design and served widely across Soviet, Warsaw Pact, Chinese, North Vietnamese, Middle Eastern, and other air arms.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -33724,41 +33748,10 @@
       }
     ],
     "sources": [
-      {
-        "id": "fn-main",
-        "title": "Mikoyan-Gurevich MiG-19",
-        "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-19",
-        "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
-      },
-      {
-        "id": "fn-method",
-        "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
-        "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.globalaircraft.org/planes/mig-19_farmer.pl",
-        "publisher": "globalaircraft.org",
-        "note": "External source for Mikoyan-Gurevich MiG-19."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://urrib2000.narod.ru/EqMiG19-e.html",
-        "publisher": "urrib2000.narod.ru",
-        "note": "External source for Mikoyan-Gurevich MiG-19."
-      }
+      "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198064/mikoyan-gurevich-mig-19s",
+      "https://www.marchfield.org/mig-19-farmer",
+      "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-19",
+      "MILIPEDIA_PLAN.md#16-data-accuracy-rules"
     ],
     "country_flags": [
       {
@@ -33780,17 +33773,14 @@
       }
     ],
     "variant_families": [
-      "Mikoyan-Gurevich MiG-19 baseline production model",
-      "Mikoyan-Gurevich MiG-19 upgraded avionics or weapons-capable model",
-      "Mikoyan-Gurevich MiG-19 export or locally modernized model"
+      "MiG-19 day-fighter family",
+      "MiG-19S improved day fighter",
+      "MiG-19P/PM all-weather interceptor family",
+      "High-altitude MiG-19SV experiments",
+      "Aero S-105 licensed production",
+      "Shenyang J-6 / export F-6 derivatives"
     ],
-    "operator_summary": {
-      "major_designer_or_builder": [
-        "Soviet Union"
-      ],
-      "major_user_note": "Mikoyan-Gurevich MiG-19 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
-    },
+    "operator_summary": "The MiG-19 served the Soviet Union as a short-lived front-line fighter before the MiG-21 replaced it in principal Soviet units, but the family spread widely through Warsaw Pact, Chinese, North Vietnamese, Cuban, North Korean, Iraqi, and other export users. Counts are sensitive to whether Chinese J-6/F-6 derivatives are included.",
     "notable": {
       "notable_pilots_or_aircraft": [
         "Named pilots listed: 0.",
@@ -33801,93 +33791,66 @@
         "Loss claims listed: 0."
       ]
     },
-    "engine_details": {
-      "type": "Jet",
-      "summary": "Mikoyan-Gurevich MiG-19 uses jet propulsion."
-    },
-    "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
-    },
+    "engine_details": "MiG-19S reference sources list two Tumansky RD-9-family afterburning turbojets; the National Museum of the U.S. Air Force gives 7,165 lb thrust for each engine. Early development aircraft used AM-5/AM-9 development engines before production RD-9-family installations.",
+    "armament_details": "MiG-19S armament centered on three NR-30 30 mm cannon. Radar and missile variants changed the fit: MiG-19P retained cannon with radar, while MiG-19PM emphasized K-5M-family air-to-air missiles and removed guns. External rocket, missile, and bomb loads were variant- and operator-dependent, so this page avoids treating a single stores list as universal.",
     "similar_development": [
-      {
-        "id": "f-4-phantom-ii",
-        "name": "McDonnell Douglas F-4 Phantom II",
-        "url": "aircraft.html?id=f-4-phantom-ii"
-      },
-      {
-        "id": "f-5-freedom-fighter-tiger-ii",
-        "name": "Northrop F-5",
-        "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
-      },
-      {
-        "id": "f-8-crusader",
-        "name": "Vought F-8 Crusader",
-        "url": "aircraft.html?id=f-8-crusader"
-      },
-      {
-        "id": "f-14-tomcat",
-        "name": "Grumman F-14 Tomcat",
-        "url": "aircraft.html?id=f-14-tomcat"
-      }
+      "mig-17",
+      "mig-21",
+      "f-100-super-sabre",
+      "f-4-phantom-ii",
+      "f-105-thunderchief"
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 2
+      "exact_fact_count": 28,
+      "operator_entries": 7,
+      "variant_entries": 7,
+      "external_article_sources": 3
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-nmusaf-mig19s",
+        "title": "Mikoyan-Gurevich MiG-19S",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198064/mikoyan-gurevich-mig-19s",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Used for first-Soviet-level-supersonic wording, service overview, production/export context, museum aircraft note, MiG-19S armament, engine, speed, dimension, and weight figures."
+      },
+      {
+        "id": "fn-march-mig19",
+        "title": "MiG-19 Farmer",
+        "url": "https://www.marchfield.org/mig-19-farmer",
+        "publisher": "March Field Air Museum",
+        "note": "Used for public debut context, sweep/twin-engine description, Chinese licensed-production note, and MiG-19S reference specifications including dimensions, range, speed, ceiling, and armament."
+      },
+      {
+        "id": "fn-wiki-orientation",
         "title": "Mikoyan-Gurevich MiG-19",
         "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-19",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation for prototype chronology, variant naming, and operational history; museum sources are preferred for key technical values."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.globalaircraft.org/planes/mig-19_farmer.pl",
-        "publisher": "globalaircraft.org",
-        "note": "External source for Mikoyan-Gurevich MiG-19."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://urrib2000.narod.ru/EqMiG19-e.html",
-        "publisher": "urrib2000.narod.ru",
-        "note": "External source for Mikoyan-Gurevich MiG-19."
+        "note": "Local rules for units, neutral wording, source citation, estimate labels, and variant-dependent caution."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.globalaircraft.org/planes/mig-19_farmer.pl",
-        "publisher": "globalaircraft.org",
-        "note": "External source for Mikoyan-Gurevich MiG-19."
+        "title": "Mikoyan-Gurevich MiG-19S",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198064/mikoyan-gurevich-mig-19s",
+        "publisher": "National Museum of the U.S. Air Force"
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://urrib2000.narod.ru/EqMiG19-e.html",
-        "publisher": "urrib2000.narod.ru",
-        "note": "External source for Mikoyan-Gurevich MiG-19."
+        "title": "MiG-19 Farmer",
+        "url": "https://www.marchfield.org/mig-19-farmer",
+        "publisher": "March Field Air Museum"
+      },
+      {
+        "title": "Mikoyan-Gurevich MiG-19",
+        "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-19",
+        "publisher": "Wikipedia"
       }
     ],
     "article_sections": [
@@ -33896,71 +33859,90 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-19 is a Supersonic fighter from Soviet Union. Manufacturer: Mikoyan-Gurevich. First flight: 1952. Introduction: 1955. Status: Retired.",
+            "text": "The Mikoyan-Gurevich MiG-19, NATO reporting name Farmer, was a second-generation Soviet single-seat twinjet fighter and interceptor. It is best remembered as the first Soviet production fighter capable of supersonic speed in level flight, filling the gap between the Korean War-era MiG-15/MiG-17 family and the later MiG-21 Fishbed.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf-mig19s",
+              "fn-wiki-orientation"
             ]
           },
           {
-            "text": "Mikoyan-Gurevich MiG-19 is a fighter. Primary role: supersonic fighter. Country of origin: Soviet Union. Manufacturer: Mikoyan-Gurevich.",
+            "text": "The type entered production and service in the mid-1950s and became an important late-1950s Soviet fighter before the MiG-21 displaced it in first-line Soviet service. Its wider significance came from licensed and derivative production, especially China’s J-6/F-6 family, and from export service in Vietnam, Cuba, North Korea, Iraq, Warsaw Pact countries, and other air arms.",
             "refs": [
-              "fn-wikidata"
+              "fn-nmusaf-mig19s",
+              "fn-march-mig19"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Because MiG-19 figures vary by variant and by whether Chinese J-6 derivatives are included, this page uses the MiG-19S as the representative specification baseline and flags production totals as estimates rather than a single definitive number.",
             "refs": [
+              "fn-nmusaf-mig19s",
               "fn-method"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Primary role",
-            "text": "Supersonic fighter"
+            "title": "Role",
+            "text": "Supersonic day fighter / interceptor"
           },
           {
-            "title": "Designer or builder",
-            "text": "Mikoyan-Gurevich"
-          },
-          {
-            "title": "Major origin",
+            "title": "National origin",
             "text": "Soviet Union"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Crew",
+            "text": "1 pilot"
+          },
+          {
+            "title": "Representative variant",
+            "text": "MiG-19S Farmer"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-19 first flew in 1952. Introduction date: 1955. Era: Cold War.",
+            "text": "Mikoyan-Gurevich began the MiG-19 line as a higher-performance successor to the MiG-17, seeking greater range, heavier armament, and sustained supersonic speed in level flight. The design adopted two axial-flow turbojets rather than the single-engine arrangement of earlier MiGs, plus a thin 55-degree swept wing optimized for transonic and supersonic flight.",
             "refs": [
-              "fn-main"
+              "fn-march-mig19",
+              "fn-wiki-orientation"
             ]
           },
           {
-            "text": "Producer: Mikoyan-Gurevich. Development context: supersonic fighter, jet propulsion, supersonic speed category, Cold War era.",
+            "text": "Prototype work passed through SM-series aircraft. Wikipedia’s chronology lists the SM-2/I-360 first flight on 24 May 1952, while the National Museum of the U.S. Air Force notes a MiG-19 prototype first flight in September 1953. The production aircraft appeared publicly in a 48-aircraft formation at the 1955 Soviet Aviation Day fly-by, signaling rapid Soviet adoption of the type.",
             "refs": [
-              "fn-wikidata"
+              "fn-nmusaf-mig19s",
+              "fn-march-mig19",
+              "fn-wiki-orientation"
+            ]
+          },
+          {
+            "text": "Early production was rushed and the family required refinement. Published histories describe engine/fuel-tank heat issues, high-angle-of-attack handling concerns, and control changes that led to the MiG-19S with an all-moving tail. In parallel, radar-equipped MiG-19P and missile-armed MiG-19PM interceptors pursued all-weather defense roles.",
+            "refs": [
+              "fn-wiki-orientation",
+              "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "Development aim: a level-flight supersonic successor to MiG-15/MiG-17-era fighters.",
             "refs": [
-              "fn-method"
+              "fn-nmusaf-mig19s"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "Public debut: 48 MiG-19s at the 1955 Soviet Aviation Day fly-by, according to March Field Air Museum.",
             "refs": [
-              "fn-method"
+              "fn-march-mig19"
+            ]
+          },
+          {
+            "text": "Service transition: the Soviet Union phased the MiG-19 out in the early 1960s as the MiG-21 matured.",
+            "refs": [
+              "fn-nmusaf-mig19s"
             ]
           }
         ]
@@ -33970,27 +33952,98 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The MiG-19 combined a compact fuselage with a sharply swept wing and two afterburning Tumansky RD-9-family turbojets. The twin-engine layout gave better installed thrust than earlier single-engine MiGs but also created heat-management and maintenance challenges in the densely packed rear fuselage.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf-mig19s",
+              "fn-wiki-orientation"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "The MiG-19S is cited by the National Museum of the U.S. Air Force with two Tumansky RD-9 turbojets producing 7,165 lb thrust each, a maximum speed of 903 mph, a 30 ft 2 in span, 40 ft 3 in length, 12 ft height, and 19,096 lb maximum weight. March Field lists a similar MiG-19S reference set with 908 mph maximum speed and a 60,600 ft ceiling, but its dimensions differ slightly; variant and museum-source differences are therefore preserved rather than forced into one value.",
             "refs": [
+              "fn-nmusaf-mig19s",
+              "fn-march-mig19",
               "fn-method"
             ]
           },
           {
-            "text": "Mikoyan-Gurevich MiG-19 uses jet propulsion. Engine model field: Not listed.",
+            "text": "The basic day fighter emphasized high speed, climb, and cannon firepower. Radar-equipped P and PM variants traded some of that simplicity for all-weather interception equipment and early missile capability, while export and Chinese derivative aircraft could differ in avionics, weapons wiring, and stores.",
             "refs": [
-              "fn-main"
+              "fn-wiki-orientation",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Engines",
+            "text": "Two Tumansky RD-9-family afterburning turbojets"
+          },
+          {
+            "title": "Maximum speed",
+            "text": "903–908 mph for MiG-19S reference data"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "About 60,600 ft in March Field MiG-19S data"
+          },
+          {
+            "title": "Carrier capable",
+            "text": "No"
+          }
+        ]
+      },
+      {
+        "id": "weapons",
+        "title": "Armament and Avionics",
+        "paragraphs": [
+          {
+            "text": "The MiG-19S was primarily a gun fighter. The National Museum of the U.S. Air Force lists three NR-30 30 mm cannon, while March Field describes three 30 mm cannon in the wing roots plus provision for missiles or 55 mm rockets on the referenced MiG-19S fit.",
+            "refs": [
+              "fn-nmusaf-mig19s",
+              "fn-march-mig19"
             ]
           },
           {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
+            "text": "All-weather MiG-19P interceptors added nose-mounted Izumrud radar, and the MiG-19PM shifted toward missile interception with K-5M-family missiles and deleted cannon. Because armament changed substantially across the family, this page treats the MiG-19S cannon fit as the baseline and describes missile/rocket stores as variant-dependent.",
             "refs": [
-              "fn-main"
+              "fn-wiki-orientation",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Baseline MiG-19S: three NR-30 30 mm cannon.",
+            "refs": [
+              "fn-nmusaf-mig19s"
+            ]
+          },
+          {
+            "text": "Possible external stores: missiles or rocket packs on some fits, with exact clearances varying by version and operator.",
+            "refs": [
+              "fn-march-mig19",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "MiG-19P/PM: radar and early air-to-air missile interception variants rather than simple day fighters.",
+            "refs": [
+              "fn-wiki-orientation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "specifications",
+        "title": "Specifications (MiG-19S reference)",
+        "paragraphs": [
+          {
+            "text": "The following values summarize public MiG-19S museum-source data. They should not be applied automatically to every MiG-19, Aero S-105, or Shenyang J-6/F-6 derivative because engines, equipment, and local modifications changed across the family.",
+            "refs": [
+              "fn-nmusaf-mig19s",
+              "fn-march-mig19",
+              "fn-method"
             ]
           }
         ],
@@ -34000,84 +34053,32 @@
             "text": "1"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Length",
+            "text": "40 ft 3 in (NMUSAF) / 44 ft (March Field)"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Wingspan",
+            "text": "30 ft 2 in (NMUSAF) / 36 ft 6 in (March Field)"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Height",
+            "text": "12 ft (NMUSAF) / 13 ft 6 in (March Field)"
           },
           {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Mikoyan-Gurevich MiG-19 status: Retired. Conflict entries: 1.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Maximum weight",
+            "text": "19,096 lb"
           },
           {
-            "text": "Conflicts: Vietnam War.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Vietnam War: Mikoyan-Gurevich MiG-19 used in Vietnam War.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Mikoyan-Gurevich MiG-19 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum speed",
+            "text": "903–908 mph"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Range",
+            "text": "1,367 miles listed by March Field"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Ceiling",
+            "text": "60,600 ft listed by March Field"
           }
         ]
       },
@@ -34086,35 +34087,45 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-19 variant-family entries: 3. Variant families: Mikoyan-Gurevich MiG-19 baseline production model; Mikoyan-Gurevich MiG-19 upgraded avionics or weapons-capable model; Mikoyan-Gurevich MiG-19 export or locally modernized model.",
+            "text": "The MiG-19 family split quickly between day fighters, all-weather interceptors, high-altitude experiments, and licensed or derivative production. Exact subvariant naming is complicated by Soviet prototypes, export designations, and Chinese J-6/F-6 production, so the entries below group the principal families rather than attempting a complete serial-by-serial list.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
+              "fn-wiki-orientation",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Mikoyan-Gurevich MiG-19 baseline production model",
+            "text": "MiG-19: initial production day-fighter line derived from the SM-9 prototype program.",
             "refs": [
-              "fn-main"
+              "fn-wiki-orientation"
             ]
           },
           {
-            "text": "Mikoyan-Gurevich MiG-19 upgraded avionics or weapons-capable model",
+            "text": "MiG-19S: improved day fighter with all-moving tail and three NR-30 cannon; used as this page’s specification baseline.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf-mig19s",
+              "fn-wiki-orientation"
             ]
           },
           {
-            "text": "Mikoyan-Gurevich MiG-19 export or locally modernized model",
+            "text": "MiG-19P and MiG-19PM: all-weather radar and missile interceptor developments.",
             "refs": [
-              "fn-main"
+              "fn-wiki-orientation"
+            ]
+          },
+          {
+            "text": "MiG-19SV and related high-altitude experiments: limited efforts to increase interception ceiling.",
+            "refs": [
+              "fn-wiki-orientation"
+            ]
+          },
+          {
+            "text": "Aero S-105 and Shenyang J-6/F-6: licensed or derivative production in Czechoslovakia and China; Chinese production greatly expanded the family’s worldwide footprint.",
+            "refs": [
+              "fn-nmusaf-mig19s",
+              "fn-march-mig19",
+              "fn-wiki-orientation"
             ]
           }
         ]
@@ -34124,45 +34135,134 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Soviet Union. Mikoyan-Gurevich MiG-19 has 1 designer or builder country entry.",
+            "text": "The National Museum of the U.S. Air Force notes use by Cuba, North Vietnam, North Korea, Iraq, and most Warsaw Pact nations, in addition to Soviet and Chinese service. China’s licensed J-6/F-6 line complicates operator counts because many export aircraft were Chinese derivatives rather than Soviet-built MiG-19s.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
+              "fn-nmusaf-mig19s",
+              "fn-march-mig19",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Soviet Union: principal early operator; the type was phased out in favor of the MiG-21 in the early 1960s.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf-mig19s"
             ]
           },
           {
-            "text": "Major designer or builder entries: Soviet Union.",
+            "text": "China: licensed and developed the aircraft as the J-6/F-6, creating the largest long-lived branch of the family.",
             "refs": [
-              "fn-wikidata"
+              "fn-march-mig19",
+              "fn-wiki-orientation"
+            ]
+          },
+          {
+            "text": "Warsaw Pact users: Czechoslovakia, Poland, and other aligned air arms operated the MiG-19 or local production forms.",
+            "refs": [
+              "fn-nmusaf-mig19s"
+            ]
+          },
+          {
+            "text": "Combat/export users: North Vietnam, North Korea, Cuba, Iraq, and additional states used MiG-19 or J-6/F-6-family aircraft, with exact inventories depending on year and source.",
+            "refs": [
+              "fn-nmusaf-mig19s",
+              "fn-method"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "service",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Supersonic, first flight 1952, introduction 1955.",
+            "text": "In Soviet service, the MiG-19 served as a brief but important transition fighter. It gave air-defense units a level-flight supersonic platform, but the more capable MiG-21 soon displaced it in front-line Soviet use. During the Cold War, Soviet and allied MiG-19 units were also associated with air-defense interceptions of reconnaissance aircraft and border intrusions.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf-mig19s",
+              "fn-wiki-orientation"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "The MiG-19/J-6 family saw combat and alert service across Asia and the Middle East. Over Vietnam, North Vietnamese MiG-19/J-6 units operated in a dense air-defense system alongside MiG-17s and MiG-21s, where cannon armament and short-range acceleration were useful in close engagements but radar and missile limitations constrained all-weather and beyond-visual-range capability.",
+            "refs": [
+              "fn-wiki-orientation",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Later export service varied widely. Some operators used MiG-19 or J-6 aircraft as day fighters and interceptors, while others used them for training, local defense, or as a low-cost supplement to newer aircraft. The family’s long service life reflects the simplicity and availability of the design as much as its original late-1950s performance.",
+            "refs": [
+              "fn-nmusaf-mig19s",
+              "fn-march-mig19",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Cold War role: short-lived Soviet front-line fighter and air-defense interceptor.",
+            "refs": [
+              "fn-nmusaf-mig19s"
+            ]
+          },
+          {
+            "text": "Southeast Asia: North Vietnamese use is one of the best-known combat contexts.",
+            "refs": [
+              "fn-nmusaf-mig19s",
+              "fn-wiki-orientation"
+            ]
+          },
+          {
+            "text": "Export life: extended mainly through Chinese J-6/F-6 production and local operator sustainment.",
+            "refs": [
+              "fn-march-mig19",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The MiG-19’s strengths were speed, climb, heavy cannon armament, and relatively compact construction. Against earlier subsonic fighters it offered a meaningful performance step, and against some Vietnam-era opponents it remained dangerous in close visual engagements.",
+            "refs": [
+              "fn-nmusaf-mig19s",
+              "fn-wiki-orientation"
+            ]
+          },
+          {
+            "text": "Its limitations were equally important: short endurance compared with later fighters, demanding handling and early technical issues, limited radar capability in day-fighter variants, and early missile technology in interceptor versions. These factors explain why the Soviet Union moved rapidly to the MiG-21 while other operators kept MiG-19/J-6 aircraft in simpler or lower-cost roles.",
+            "refs": [
+              "fn-wiki-orientation",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: first Soviet production fighter with level-flight supersonic capability.",
+            "refs": [
+              "fn-nmusaf-mig19s"
+            ]
+          },
+          {
+            "text": "Strength: three 30 mm cannon on the MiG-19S gave heavy short-range firepower.",
+            "refs": [
+              "fn-nmusaf-mig19s"
+            ]
+          },
+          {
+            "text": "Limitation: variant-dependent radar and missile capability lagged later second-generation and third-generation fighters.",
+            "refs": [
+              "fn-wiki-orientation",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: production and operator totals are often confused with the Chinese J-6/F-6 family and should be labeled carefully.",
             "refs": [
               "fn-method"
             ]
@@ -34170,11 +34270,128 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "comparison",
+        "title": "Comparison",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-19 similar-development links: 4.",
+            "text": "The MiG-19 is often compared with the North American F-100 Super Sabre because both were early supersonic fighters of the 1950s. It also overlapped operationally with later and more capable aircraft such as the F-4 Phantom II and F-105 Thunderchief over Vietnam, where mission context, pilot training, radar support, and ground-controlled interception mattered as much as raw aircraft figures.",
+            "refs": [
+              "fn-march-mig19",
+              "fn-wiki-orientation",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Within the MiG line, the MiG-19 sits between the MiG-17 and MiG-21: more powerful and faster than the MiG-17, but less refined as a lightweight interceptor than the MiG-21. This bridging role makes it historically important despite its shorter Soviet service life.",
+            "refs": [
+              "fn-nmusaf-mig19s",
+              "fn-wiki-orientation"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Predecessor context: MiG-15/MiG-17 swept-wing subsonic and transonic fighters.",
+            "refs": [
+              "fn-wiki-orientation"
+            ]
+          },
+          {
+            "text": "Western contemporary: F-100 Super Sabre.",
+            "refs": [
+              "fn-march-mig19"
+            ]
+          },
+          {
+            "text": "Successor context: MiG-21 Fishbed, which replaced the MiG-19 in many Soviet roles.",
+            "refs": [
+              "fn-nmusaf-mig19s"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "Key dates vary slightly by whether prototype, pre-production, or public-introduction milestones are being discussed; the timeline below preserves source wording where it matters.",
+            "refs": [
+              "fn-nmusaf-mig19s",
+              "fn-wiki-orientation",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1950–1951: Mikoyan-Gurevich begins work toward a higher-performance MiG-17 successor and twin-engine testbeds.",
+            "refs": [
+              "fn-wiki-orientation"
+            ]
+          },
+          {
+            "text": "24 May 1952: SM-2/I-360 prototype first flight listed in Wikipedia’s chronology.",
+            "refs": [
+              "fn-wiki-orientation"
+            ]
+          },
+          {
+            "text": "September 1953: National Museum of the U.S. Air Force states the MiG-19 prototype made its first flight.",
+            "refs": [
+              "fn-nmusaf-mig19s"
+            ]
+          },
+          {
+            "text": "1955: production and service entry; public fly-by of 48 aircraft at Soviet Aviation Day.",
+            "refs": [
+              "fn-nmusaf-mig19s",
+              "fn-march-mig19"
+            ]
+          },
+          {
+            "text": "Early 1960s: Soviet Union phases out the MiG-19 in favor of the MiG-21, while other operators continue using the family.",
+            "refs": [
+              "fn-nmusaf-mig19s"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Primary page update sources are the National Museum of the U.S. Air Force MiG-19S fact sheet and March Field Air Museum MiG-19 Farmer page. Wikipedia was used as supplementary orientation for prototype chronology, variant names, and operational-history context. Conflicting dimensional values from museum pages are retained with source labels rather than averaged.",
+            "refs": [
+              "fn-nmusaf-mig19s",
+              "fn-march-mig19",
+              "fn-wiki-orientation",
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "National Museum of the U.S. Air Force — MiG-19S",
+            "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198064/mikoyan-gurevich-mig-19s"
+          },
+          {
+            "label": "March Field Air Museum — MiG-19 Farmer",
+            "url": "https://www.marchfield.org/mig-19-farmer"
+          },
+          {
+            "label": "Wikipedia — Mikoyan-Gurevich MiG-19",
+            "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-19"
+          }
+        ]
+      },
+      {
+        "id": "related",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related aircraft in Milipedia include the preceding MiG-17, following MiG-21, and Western or Vietnam-era contemporaries such as the F-100, F-4, and F-105.",
             "refs": [
               "fn-method"
             ]
@@ -34182,31 +34399,29 @@
         ],
         "links": [
           {
+            "label": "Mikoyan-Gurevich MiG-17",
+            "url": "aircraft.html?id=mig-17"
+          },
+          {
+            "label": "Mikoyan-Gurevich MiG-21",
+            "url": "aircraft.html?id=mig-21"
+          },
+          {
+            "label": "North American F-100 Super Sabre",
+            "url": "aircraft.html?id=f-100-super-sabre"
+          },
+          {
             "label": "McDonnell Douglas F-4 Phantom II",
             "url": "aircraft.html?id=f-4-phantom-ii"
           },
           {
-            "label": "Northrop F-5",
-            "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
-          },
-          {
-            "label": "Vought F-8 Crusader",
-            "url": "aircraft.html?id=f-8-crusader"
-          },
-          {
-            "label": "Grumman F-14 Tomcat",
-            "url": "aircraft.html?id=f-14-tomcat"
+            "label": "Republic F-105 Thunderchief",
+            "url": "aircraft.html?id=f-105-thunderchief"
           }
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg/960px-U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg",
-        "caption": "Vietnam War",
-        "source_url": "https://en.wikipedia.org/wiki/Vietnam_War"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "mig-21",

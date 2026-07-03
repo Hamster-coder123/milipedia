@@ -4775,3 +4775,82 @@ Record the result of:
 * Sea Harrier and Harrier II are closely related but distinct; the page now treats them as related developments rather than collapsing their operators and combat records into the first-generation Harrier baseline.
 * Exact loadouts, loss counts, and operator serviceability details were intentionally not made into fixed tables because they vary by source, date, mark, and operating conditions.
 * Commit hash cannot be embedded in the committed change log without changing the hash again; the final hash is reported in the scheduled-run response.
+
+### Run 63 — 2026-07-03 05:04:01 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Mikoyan-Gurevich MiG-19 (id: mig-19)
+* Reason selected: The MiG-19 was one of the sparsest unedited aircraft records after comparing data-driven aircraft pages against the F-16 reference style. It had no operator entries, no real variant entries, no detailed specifications, generic armament text, generated overview prose, stale weak external sources, and only placeholder-style section content.
+* Previous condition: Sparse generated page with 15 exact fact fields, 0 operator entries, 0 variant entries, no Farmer/NATO reporting-name detail, no RD-9 engine/specification coverage, no MiG-19S/P/PM/J-6/S-105 variant explanation, no real operator list, generic Vietnam-only operational history, and a placeholder specifications section.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview lead, F-16-style section progression from overview through development/design/weapons/specifications/variants/operators/operational history/strengths/comparison/timeline/sources/related pages, concise sourced paragraphs, card-style specification summaries, cautious variant-specific wording, internal aircraft.html?id=... link style, and explicit source notes.
+
+#### Changes Made
+
+* Expanded the Mikoyan-Gurevich MiG-19 entry from generated placeholder prose into a fuller Milipedia article data record.
+* Added alternative names and NATO reporting-name coverage for Farmer, and updated top-level role, aircraft type, first-flight/service-entry wording, retirement/status, production caveats, crew, engine, speed, range, ceiling, armament, hardpoints, and summary fields.
+* Added sourced development-history content explaining the MiG-17 successor requirement, twin-engine swept-wing design, SM-series/prototype chronology, 1955 public debut, early handling/heat-management problems, and transition to MiG-19S/P/PM variants.
+* Added design, powerplant, armament, avionics, and capabilities sections covering the twin Tumansky RD-9-family turbojets, 55-degree swept-wing context, MiG-19S cannon baseline, all-weather radar variants, missile-armed MiG-19PM, and variant-dependent stores cautions.
+* Added representative MiG-19S specification cards for crew, dimensions, maximum weight, speed, range, ceiling, and source-labeled dimensional conflicts between the National Museum of the U.S. Air Force and March Field Air Museum pages.
+* Added variant entries for MiG-19, MiG-19S, MiG-19P, MiG-19PM, MiG-19SV/high-altitude experiments, Aero S-105, and Shenyang J-6/F-6 derivative production.
+* Added operator coverage for Soviet, Chinese/J-6, Czechoslovak/Warsaw Pact, North Vietnamese, North Korean, Cuban, Iraqi, and broader export users with caveats about date- and derivative-sensitive inventories.
+* Added operational-history, strengths/limitations, comparison, timeline, sources/notes, and related-pages sections to better match F-16 article density within the JSON-rendered page system.
+* Removed the stale generated Vietnam War event-gallery image and replaced weak/generated source metadata with the National Museum of the U.S. Air Force, March Field Air Museum, Wikipedia orientation, and Milipedia data accuracy rules.
+* Updated internal related links to existing Milipedia aircraft IDs for MiG-17, MiG-21, F-100, F-4, and F-105.
+* Omitted exact universal combat-radius figures, detailed loss tables, and a single definitive production total because public sources vary by variant and by whether Chinese J-6/F-6 derivatives are counted.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Mikoyan-Gurevich MiG-19 aircraft entry and cleaned its generated metadata/source structure.
+* hermes-change-log.md — Appended the cumulative Run 63 log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed the aircraft diff and confirmed the JSON change is limited to the MiG-19 entry plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed MiG-19 top-level facts, sections, variants, operators, footnotes, event-gallery cleanup, related links, and source metadata.
+4. F-16 style comparison — Inspected data/f16-template.html and followed its dense overview, section ordering, specification-card emphasis, sourced section writing, comparison, timeline, and related-page patterns within the data-driven article format.
+5. Internal link check — Verified aircraft.html?id=mig-17, aircraft.html?id=mig-21, aircraft.html?id=f-100-super-sabre, aircraft.html?id=f-4-phantom-ii, and aircraft.html?id=f-105-thunderchief resolve to existing aircraft ids; external source links were left as external references.
+6. Secret/token check — Ran a credential-specific scan over the staged diff for private keys, passwords, cloud credential names, and access/auth token patterns; no credentials were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, one-aircraft-entry change, intended files only, no main-branch edit, completed change log, and clean diff formatting.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Mikoyan-Gurevich MiG-19
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Public MiG-19S dimensional values differ between the National Museum of the U.S. Air Force and March Field Air Museum pages; both source-labeled values were preserved rather than averaged.
+* Production totals are especially sensitive because some sources count only Soviet-built MiG-19 aircraft while others include Czechoslovak and Chinese J-6/F-6 family production; the page now labels this caveat explicitly.
+* Wikipedia was used only as supplementary orientation for prototype chronology, variant naming, and operational-history context; official/museum pages were preferred for central technical claims.
+* Exact combat-radius figures, loss tables, and universal stores configurations were intentionally omitted because they vary by variant, operator, date, and public-source reliability.
+* Commit hash cannot be embedded in the committed change log without changing the hash again; the final hash is reported in the scheduled-run response.
