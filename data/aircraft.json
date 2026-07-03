@@ -63863,35 +63863,115 @@
   },
   {
     "id": "c-27j-spartan",
-    "name": "Alenia C-27J Spartan",
-    "alternative_names": [],
+    "name": "Leonardo C-27J Spartan",
+    "alternative_names": [
+      "Alenia C-27J Spartan",
+      "C-27J Next Generation",
+      "HC-27J"
+    ],
     "nato_reporting_name": null,
-    "country_of_origin": "Italy/United States",
+    "country_of_origin": "Italy",
     "manufacturer": "Alenia Aermacchi / Leonardo",
-    "role": "Tactical airlifter",
+    "role": "Tactical airlifter and multi-mission transport",
     "aircraft_type": "Transport aircraft",
     "era": "Modern",
-    "first_flight": "1999",
-    "introduction_date": "2006",
+    "first_flight": "24 September 1999",
+    "introduction_date": "2006 with the Italian Air Force",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "3",
+    "status": "Active in military, coast guard, and special-mission service",
+    "number_built": "More than 100 aircraft; public counts vary by date and contract status",
+    "crew": "Three: pilot, co-pilot, and loadmaster in typical transport service",
     "engine_type": "Turboprop",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engines": "Two Rolls-Royce AE2100-D2A turboprops with Dowty R-391 six-blade propellers",
+    "max_speed": "325 KTAS / 602 km/h top cruise speed; RAAF lists 670 km/h maximum speed",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Support aircraft; fixed offensive armament not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
+    "range": "RAAF lists 1,700 km at maximum takeoff weight; mission radius varies by payload, runway, and reserves",
+    "combat_range": "Not normally published as a single combat-radius figure; tactical airlift radius depends on payload, field conditions, and mission profile",
+    "service_ceiling": "30,000 ft / 9,144 m",
+    "rate_of_climb": "Leonardo lists climb capability up to about 2,500 ft/min and descent up to about 4,000 ft/min",
+    "armament": "Baseline transport aircraft has no fixed offensive armament; some special-mission kits add sensors, self-protection systems, or armed roll-on/roll-off mission equipment depending on customer configuration.",
+    "hardpoints": "Not a conventional fighter-style hardpoint aircraft; mission equipment is normally cargo-bay, palletized, or special-mission kit based.",
+    "variants": [
+      {
+        "name": "C-27J Spartan",
+        "description": "Baseline military tactical transport, troop carrier, cargo aircraft, airdrop platform, and aeromedical evacuation aircraft."
+      },
+      {
+        "name": "C-27J Next Generation",
+        "description": "Leonardo updated standard with new avionics, aerodynamic improvements, enhanced communication/navigation equipment, and continued multi-mission kit compatibility."
+      },
+      {
+        "name": "HC-27J",
+        "description": "U.S. Coast Guard medium range surveillance adaptation of former U.S. Air Force C-27Js, missionized for maritime patrol and homeland-security support."
+      },
+      {
+        "name": "MC-27J / Praetorian concept",
+        "description": "Special-mission and fire-support configuration family using roll-on/roll-off mission systems; public descriptions should be treated as customer- and kit-dependent."
+      },
+      {
+        "name": "Maritime patrol / ISR configurations",
+        "description": "Kit-based versions with sensors such as AESA search radar, electro-optical/infrared systems, communications equipment, and mission consoles for patrol, ASW, C3ISR, SIGINT, or special-operations support."
+      },
+      {
+        "name": "Firefighting configuration",
+        "description": "Roll-on/roll-off firefighting arrangement compatible with second-generation Modular Airborne Fire Fighting System equipment."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Italy",
+        "service": "Italian Air Force",
+        "notes": "Launch operator; uses the C-27J for tactical airlift and multi-mission support."
+      },
+      {
+        "country": "Australia",
+        "service": "Royal Australian Air Force No. 35 Squadron",
+        "notes": "RAAF states that 10 Spartans operate from RAAF Base Amberley and bridge the gap between helicopters and larger airlifters."
+      },
+      {
+        "country": "United States",
+        "service": "U.S. Coast Guard",
+        "notes": "USCG is integrating 14 former Air Force C-27Js into its medium range surveillance fleet alongside HC-144 Ocean Sentries."
+      },
+      {
+        "country": "Greece",
+        "service": "Hellenic Air Force",
+        "notes": "One of the early European C-27J operators; exact fleet availability varies by date."
+      },
+      {
+        "country": "Romania",
+        "service": "Romanian Air Force",
+        "notes": "Operates the type for tactical transport and national air-mobility missions."
+      },
+      {
+        "country": "Bulgaria",
+        "service": "Bulgarian Air Force",
+        "notes": "European operator of the C-27J tactical transport."
+      },
+      {
+        "country": "Lithuania",
+        "service": "Lithuanian Air Force",
+        "notes": "Uses the C-27J for airlift and support missions in a smaller-force transport role."
+      },
+      {
+        "country": "Mexico",
+        "service": "Mexican Air Force and security/government aviation users",
+        "notes": "Public operator lists include Mexican military/government use; mission details vary by service."
+      },
+      {
+        "country": "Peru",
+        "service": "Peruvian Air Force",
+        "notes": "Uses the Spartan for transport and remote-region support; the type is often photographed in Andean operating environments."
+      },
+      {
+        "country": "Other customers",
+        "service": "Multiple national air arms",
+        "notes": "Public lists also include countries such as Azerbaijan, Chad, Kenya, Morocco, Slovakia, Slovenia, and Zambia; exact delivery and availability figures should be checked against current official sources."
+      }
+    ],
     "combat_history": "Not listed",
-    "development_history": "Alenia C-27J Spartan: Tactical airlifter. Manufacturer: Alenia Aermacchi / Leonardo. First flight: 1999. Introduction: 2006.",
-    "short_summary": "Alenia C-27J Spartan: Tactical airlifter. Origin: Italy/United States. Manufacturer: Alenia Aermacchi / Leonardo. First flight: 1999. Introduction: 2006. Status: Active.",
+    "development_history": "The C-27J is an advanced development of the G.222/C-27A airlifter, redesigned with C-130J-family Rolls-Royce AE2100 engines, six-blade propellers, and modern avionics for short-field tactical transport.",
+    "short_summary": "The Leonardo C-27J Spartan is a twin-turboprop tactical airlifter built for short and rough airstrips, military cargo and troop transport, airdrop, aeromedical evacuation, humanitarian relief, and special-mission kits.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -63904,77 +63984,71 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-leonardo",
+        "title": "C-27J Spartan Next Generation",
+        "url": "https://aeronautics.leonardo.com/en/products/c-27j-spartan-next-generation",
+        "publisher": "Leonardo Aeronautics",
+        "note": "Manufacturer page used for mission description, avionics, STOL/rough-field capability, cargo-compartment claims, propulsion, payload, cruise speed, and service ceiling."
+      },
+      {
+        "id": "fn-raaf",
+        "title": "C-27J Spartan",
+        "url": "https://www.airforce.gov.au/aircraft/c-27j-spartan",
+        "publisher": "Royal Australian Air Force",
+        "note": "Official operator page used for Australian service, crew, dimensions, engine, range, ceiling, speed, cargo/passenger/aeromedical capacity, and rough-strip mission context."
+      },
+      {
+        "id": "fn-uscg",
+        "title": "C-27J medium range surveillance aircraft program profile",
+        "url": "https://www.dcms.uscg.mil/Our-Organization/Assistant-Commandant-for-Acquisitions-CG-9/Programs/Air-Programs/MRS-HC-144-C27J/C-27J-Program-Profile",
+        "publisher": "U.S. Coast Guard",
+        "note": "Official U.S. Coast Guard program source for the transfer and missionization of 14 former U.S. Air Force C-27Js into the medium range surveillance fleet; page availability may vary, but the program fact is also indexed in public USCG snippets."
+      },
+      {
+        "id": "fn-wiki",
         "title": "Alenia C-27J Spartan",
         "url": "https://en.wikipedia.org/wiki/Alenia_C-27J_Spartan",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for first flight date, G.222 lineage, broad variant names, and international operator list; official and manufacturer sources are preferred where available."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.airforcetimes.com/news/2007/06/defense_JCA_070613/",
-        "publisher": "airforcetimes.com",
-        "note": "External source for Alenia C-27J Spartan."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.c-27j.com/team",
-        "publisher": "c-27j.com",
-        "note": "External source for Alenia C-27J Spartan."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.aviationweek.com/aw/generic/story_channel.jsp?channel=defense&id=news/LMF05016.xml",
-        "publisher": "aviationweek.com",
-        "note": "External source for Alenia C-27J Spartan."
+        "note": "Local rules for neutral wording, estimates, variant differences, internal links, and source handling."
       }
     ],
     "country_flags": [
       {
         "label": "Italy",
         "emoji": "🇮🇹"
-      },
-      {
-        "label": "United States",
-        "emoji": "🇺🇸"
       }
     ],
     "designers": [
-      "Alenia Aermacchi / Leonardo"
+      "Alenia Aermacchi",
+      "Leonardo"
     ],
     "development_tensions": [
-      "Balancing payload, short-field performance, reliability, strategic reach, and rough-field operation."
+      "Combining C-130J-derived propulsion and avionics commonality with a smaller airframe for austere-field tactical lift.",
+      "Balancing payload, runway performance, cargo-bay volume, survivability equipment, and low operating cost in the light/medium transport class.",
+      "Keeping a baseline transport aircraft adaptable for maritime patrol, ISR, firefighting, and special-operations kits without turning every example into the same configuration."
     ],
     "wars_used_in": [],
     "variant_families": [
-      "Alenia C-27J Spartan baseline production model",
-      "Alenia C-27J Spartan upgraded avionics or weapons-capable model",
-      "Alenia C-27J Spartan cargo, special mission, or aerial support model"
+      "C-27J baseline tactical transport",
+      "C-27J Next Generation",
+      "HC-27J maritime surveillance",
+      "MC-27J / special-mission kits",
+      "Maritime patrol / ISR / ASW configurations",
+      "Firefighting configuration"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
-        "Italy",
-        "United States"
+        "Italy"
       ],
-      "major_user_note": "Alenia C-27J Spartan has 2 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The C-27J is used by the Italian Air Force, Royal Australian Air Force, U.S. Coast Guard, and a wider group of European, African, Latin American, and Indo-Pacific operators.",
+      "all_operators_status": "Representative operators listed; exact current fleet totals are date-sensitive."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -63988,11 +64062,11 @@
     },
     "engine_details": {
       "type": "Turboprop",
-      "summary": "Alenia C-27J Spartan uses turboprop propulsion."
+      "summary": "Two Rolls-Royce AE2100-D2A engines rated by Leonardo at 3,458 kW / 4,637 shp each drive Dowty R-391 six-blade propellers."
     },
     "armament_details": {
-      "summary": "Support aircraft; fixed offensive armament not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Baseline transports are unarmed except for defensive/self-protection equipment; special-mission kits may add sensors or weapons depending on customer configuration.",
+      "caution": "Do not read MC-27J or armed-kit descriptions as applying to every C-27J airframe."
     },
     "similar_development": [
       {
@@ -64001,9 +64075,9 @@
         "url": "aircraft.html?id=c-130-hercules"
       },
       {
-        "id": "c-5-galaxy",
-        "name": "Lockheed C-5 Galaxy",
-        "url": "aircraft.html?id=c-5-galaxy"
+        "id": "a400m-atlas",
+        "name": "Airbus A400M Atlas",
+        "url": "aircraft.html?id=a400m-atlas"
       },
       {
         "id": "c-17-globemaster-iii",
@@ -64011,82 +64085,82 @@
         "url": "aircraft.html?id=c-17-globemaster-iii"
       },
       {
-        "id": "il-76",
-        "name": "Ilyushin Il-76",
-        "url": "aircraft.html?id=il-76"
+        "id": "ch-47-chinook",
+        "name": "Boeing CH-47 Chinook",
+        "url": "aircraft.html?id=ch-47-chinook"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 34,
+      "operator_entries": 10,
+      "variant_entries": 6,
+      "external_article_sources": 4
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-leonardo",
+        "title": "C-27J Spartan Next Generation",
+        "url": "https://aeronautics.leonardo.com/en/products/c-27j-spartan-next-generation",
+        "publisher": "Leonardo Aeronautics",
+        "note": "Manufacturer page used for mission description, avionics, STOL/rough-field capability, cargo-compartment claims, propulsion, payload, cruise speed, and service ceiling."
+      },
+      {
+        "id": "fn-raaf",
+        "title": "C-27J Spartan",
+        "url": "https://www.airforce.gov.au/aircraft/c-27j-spartan",
+        "publisher": "Royal Australian Air Force",
+        "note": "Official operator page used for Australian service, crew, dimensions, engine, range, ceiling, speed, cargo/passenger/aeromedical capacity, and rough-strip mission context."
+      },
+      {
+        "id": "fn-uscg",
+        "title": "C-27J medium range surveillance aircraft program profile",
+        "url": "https://www.dcms.uscg.mil/Our-Organization/Assistant-Commandant-for-Acquisitions-CG-9/Programs/Air-Programs/MRS-HC-144-C27J/C-27J-Program-Profile",
+        "publisher": "U.S. Coast Guard",
+        "note": "Official U.S. Coast Guard program source for the transfer and missionization of 14 former U.S. Air Force C-27Js into the medium range surveillance fleet; page availability may vary, but the program fact is also indexed in public USCG snippets."
+      },
+      {
+        "id": "fn-wiki",
         "title": "Alenia C-27J Spartan",
         "url": "https://en.wikipedia.org/wiki/Alenia_C-27J_Spartan",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for first flight date, G.222 lineage, broad variant names, and international operator list; official and manufacturer sources are preferred where available."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.airforcetimes.com/news/2007/06/defense_JCA_070613/",
-        "publisher": "airforcetimes.com",
-        "note": "External source for Alenia C-27J Spartan."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.c-27j.com/team",
-        "publisher": "c-27j.com",
-        "note": "External source for Alenia C-27J Spartan."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.aviationweek.com/aw/generic/story_channel.jsp?channel=defense&id=news/LMF05016.xml",
-        "publisher": "aviationweek.com",
-        "note": "External source for Alenia C-27J Spartan."
+        "note": "Local rules for neutral wording, estimates, variant differences, internal links, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.airforcetimes.com/news/2007/06/defense_JCA_070613/",
-        "publisher": "airforcetimes.com",
-        "note": "External source for Alenia C-27J Spartan."
+        "id": "fn-leonardo",
+        "title": "C-27J Spartan Next Generation",
+        "url": "https://aeronautics.leonardo.com/en/products/c-27j-spartan-next-generation",
+        "publisher": "Leonardo Aeronautics",
+        "note": "Manufacturer page used for mission description, avionics, STOL/rough-field capability, cargo-compartment claims, propulsion, payload, cruise speed, and service ceiling."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.c-27j.com/team",
-        "publisher": "c-27j.com",
-        "note": "External source for Alenia C-27J Spartan."
+        "id": "fn-raaf",
+        "title": "C-27J Spartan",
+        "url": "https://www.airforce.gov.au/aircraft/c-27j-spartan",
+        "publisher": "Royal Australian Air Force",
+        "note": "Official operator page used for Australian service, crew, dimensions, engine, range, ceiling, speed, cargo/passenger/aeromedical capacity, and rough-strip mission context."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.aviationweek.com/aw/generic/story_channel.jsp?channel=defense&id=news/LMF05016.xml",
-        "publisher": "aviationweek.com",
-        "note": "External source for Alenia C-27J Spartan."
+        "id": "fn-uscg",
+        "title": "C-27J medium range surveillance aircraft program profile",
+        "url": "https://www.dcms.uscg.mil/Our-Organization/Assistant-Commandant-for-Acquisitions-CG-9/Programs/Air-Programs/MRS-HC-144-C27J/C-27J-Program-Profile",
+        "publisher": "U.S. Coast Guard",
+        "note": "Official U.S. Coast Guard program source for the transfer and missionization of 14 former U.S. Air Force C-27Js into the medium range surveillance fleet; page availability may vary, but the program fact is also indexed in public USCG snippets."
+      },
+      {
+        "id": "fn-wiki",
+        "title": "Alenia C-27J Spartan",
+        "url": "https://en.wikipedia.org/wiki/Alenia_C-27J_Spartan",
+        "publisher": "Wikipedia",
+        "note": "Supplementary orientation source for first flight date, G.222 lineage, broad variant names, and international operator list; official and manufacturer sources are preferred where available."
       }
     ],
     "article_sections": [
@@ -64095,20 +64169,22 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Alenia C-27J Spartan is a Tactical airlifter from Italy/United States. Manufacturer: Alenia Aermacchi / Leonardo. First flight: 1999. Introduction: 2006. Status: Active.",
+            "text": "The Leonardo C-27J Spartan is a twin-turboprop tactical airlifter in the light-to-medium transport class. It combines a compact high-wing cargo aircraft with C-130J-family Rolls-Royce AE2100 engines, modern avionics, and short/rough-field performance for missions too large for helicopters but smaller than Hercules or Globemaster tasks.",
             "refs": [
-              "fn-main"
+              "fn-leonardo",
+              "fn-raaf"
             ]
           },
           {
-            "text": "Alenia C-27J Spartan is a transport aircraft. Primary role: tactical airlifter. Country of origin: Italy/United States. Manufacturer: Alenia Aermacchi / Leonardo.",
+            "text": "Leonardo markets the C-27J Next Generation as a multi-role military transport aircraft for troops, cargo, airdrop, battlefield medical evacuation, VIP movement, humanitarian relief, disaster response, firefighting, maritime patrol, ISR, and special-operations support.",
             "refs": [
-              "fn-wikidata"
+              "fn-leonardo"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The page treats the aircraft as a kit-adaptable transport rather than a fighter-style weapons platform: the baseline Spartan has no fixed offensive armament, while self-protection systems, maritime sensors, roll-on/roll-off mission systems, and armed special-mission packages depend on customer configuration.",
             "refs": [
+              "fn-leonardo",
               "fn-method"
             ]
           }
@@ -64116,44 +64192,66 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Tactical airlifter"
+            "text": "Tactical airlift and multi-mission transport"
           },
           {
-            "title": "Designer or builder",
+            "title": "Manufacturer",
             "text": "Alenia Aermacchi / Leonardo"
           },
           {
-            "title": "Major origin",
-            "text": "Italy, United States"
+            "title": "First flight",
+            "text": "24 September 1999"
           },
           {
-            "title": "Propulsion",
-            "text": "Turboprop"
+            "title": "Powerplant",
+            "text": "Two Rolls-Royce AE2100-D2A turboprops"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Alenia C-27J Spartan first flew in 1999. Introduction date: 2006. Era: Modern.",
+            "text": "The C-27J was developed from the earlier Aeritalia/Alenia G.222, known in U.S. service as the C-27A Spartan. The new J-model kept the basic compact transport concept but incorporated more powerful Rolls-Royce AE2100 engines, six-blade propellers, and digital avionics associated with the larger C-130J family.",
             "refs": [
-              "fn-main"
+              "fn-wiki",
+              "fn-leonardo"
             ]
           },
           {
-            "text": "Producer: Alenia Aermacchi / Leonardo. Development context: tactical airlifter, turboprop propulsion, subsonic speed category, Modern era.",
+            "text": "The first C-27J flew in September 1999, and Italy introduced the type in 2006. Subsequent production and marketing moved under Leonardo, which now presents the Next Generation standard with avionics and aerodynamic updates intended to keep the aircraft useful in modern airlift and special-mission fleets.",
             "refs": [
-              "fn-wikidata"
+              "fn-wiki",
+              "fn-leonardo"
+            ]
+          },
+          {
+            "text": "A central design tradeoff is size: the Spartan cannot carry C-130-size loads, but its smaller footprint, high power, and cargo floor are intended to serve austere airfields, mountainous regions, island routes, humanitarian missions, and the \"last tactical mile\" between helicopters and larger fixed-wing transports.",
+            "refs": [
+              "fn-leonardo",
+              "fn-raaf"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing payload, short-field performance, reliability, strategic reach, and rough-field operation.",
+            "text": "Developed from the G.222/C-27A family rather than from a clean-sheet airliner design.",
             "refs": [
-              "fn-method"
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Uses C-130J-related propulsion and avionics concepts in a smaller transport aircraft.",
+            "refs": [
+              "fn-leonardo",
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Next Generation updates emphasize avionics, communications, efficiency, and mission flexibility.",
+            "refs": [
+              "fn-leonardo"
             ]
           }
         ]
@@ -64163,144 +64261,144 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 3. Propulsion: Turboprop. Speed category: Subsonic.",
+            "text": "The C-27J is a high-wing, rear-ramp, twin-turboprop transport optimized for tactical access. Leonardo states that it is qualified for short takeoff and landing on snowy, sandy, and unprepared runways, can perform tactical manoeuvres up to 3 g, and has strong descent and climb performance for steep approaches.",
             "refs": [
-              "fn-main"
+              "fn-leonardo"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "The cargo compartment is central to the design. Leonardo describes it as the largest in its category and able to support about five tonnes per square metre, while the RAAF lists practical loads such as 34 passengers, 21 stretcher patients, or 5,000 kg of cargo for Australian service.",
             "refs": [
+              "fn-leonardo",
+              "fn-raaf"
+            ]
+          },
+          {
+            "text": "Avionics and mission systems vary by standard. Leonardo describes a glass cockpit with five multifunction colour displays, tactical-transport radar, advanced communications, an APU for autonomous operation, and optional self-protection, secure communications, ballistic protection, in-flight refuelling provisions, and palletized mission systems.",
+            "refs": [
+              "fn-leonardo"
+            ]
+          },
+          {
+            "text": "Special-mission kits can add AESA radar, electro-optical/infrared sensors, communications and intelligence equipment, maritime patrol or ASW consoles, SIGINT equipment, firefighting modules, or special-operations support packages. Those options should not be assumed to be present on all Spartans.",
+            "refs": [
+              "fn-leonardo",
               "fn-method"
-            ]
-          },
-          {
-            "text": "Alenia C-27J Spartan uses turboprop propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Support aircraft; fixed offensive armament not listed. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "3"
+            "title": "Payload",
+            "text": "Leonardo lists 24,912 lb / 11,300 kg maximum payload"
           },
           {
-            "title": "Engine class",
-            "text": "Turboprop"
+            "title": "Troops",
+            "text": "46 troops; up to 60 in high-density configuration"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Cargo floor",
+            "text": "About five tonnes per square metre cited by Leonardo"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Rough-field use",
+            "text": "Qualified for snowy, sandy, and unprepared runways"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Alenia C-27J Spartan status: Active. Conflict entries: 0.",
+            "text": "Representative public specifications vary slightly by national configuration and source. Leonardo technical data for the C-27J Next Generation lists a 70,107 lb / 31,800 kg maximum takeoff weight, 24,912 lb / 11,300 kg maximum payload, 325 KTAS / 602 km/h top cruise speed, and 30,000 ft / 9,144 m service ceiling.",
             "refs": [
-              "fn-main"
+              "fn-leonardo"
             ]
           },
           {
-            "text": "Conflicts: 0 entries.",
+            "text": "The Royal Australian Air Force lists its Spartans with a 22.7 m length, 9.6 m height, 28.7 m wingspan, 30,500 kg weight, two Rolls-Royce AE 2100-D2 engines, 1,700 km range at maximum takeoff weight, 30,000 ft ceiling, and 670 km/h maximum speed.",
             "refs": [
+              "fn-raaf"
+            ]
+          },
+          {
+            "text": "For Milipedia comparisons, the most useful specification framing is not a single combat radius but the combination of payload, field performance, cargo-bay accessibility, crew/loadmaster concept, self-protection options, and the ability to shift between transport and special-mission kits.",
+            "refs": [
+              "fn-leonardo",
               "fn-method"
             ]
           }
         ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
+        "cards": [
           {
-            "text": "Alenia C-27J Spartan named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length / span / height",
+            "text": "22.7 m / 28.7 m / 9.6 m (RAAF)"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum takeoff weight",
+            "text": "31,800 kg / 70,107 lb (Leonardo)"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum payload",
+            "text": "11,300 kg / 24,912 lb (Leonardo)"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Service ceiling",
+            "text": "30,000 ft / 9,144 m"
           }
         ]
       },
       {
         "id": "variants",
-        "title": "Variants",
+        "title": "Variants and Mission Kits",
         "paragraphs": [
           {
-            "text": "Alenia C-27J Spartan variant-family entries: 3. Variant families: Alenia C-27J Spartan baseline production model; Alenia C-27J Spartan upgraded avionics or weapons-capable model; Alenia C-27J Spartan cargo, special mission, or aerial support model.",
+            "text": "The baseline C-27J is the standard tactical transport version for cargo, personnel, airdrop, and aeromedical evacuation. Leonardo's Next Generation standard adds modernized avionics and efficiency improvements while retaining the type's short-field and multi-mission focus.",
             "refs": [
-              "fn-main"
+              "fn-leonardo"
             ]
           },
           {
-            "text": "Complete variant entries listed: 0.",
+            "text": "Special-mission labels such as HC-27J, MC-27J, maritime patrol, ASW, C3ISR, SIGINT, firefighting, or special-operations support generally describe customer-specific kits and mission systems. Public descriptions should therefore be read as possible configurations, not as a universal fit.",
             "refs": [
+              "fn-leonardo",
+              "fn-uscg",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Alenia C-27J Spartan baseline production model",
+            "text": "C-27J Spartan — baseline tactical transport, airdrop, troop, cargo, and aeromedical aircraft.",
             "refs": [
-              "fn-main"
+              "fn-leonardo",
+              "fn-raaf"
             ]
           },
           {
-            "text": "Alenia C-27J Spartan upgraded avionics or weapons-capable model",
+            "text": "C-27J Next Generation — updated Leonardo standard with avionics and aerodynamic improvements.",
             "refs": [
-              "fn-main"
+              "fn-leonardo"
             ]
           },
           {
-            "text": "Alenia C-27J Spartan cargo, special mission, or aerial support model",
+            "text": "HC-27J — U.S. Coast Guard medium range surveillance adaptation of former U.S. Air Force Spartans.",
             "refs": [
-              "fn-main"
+              "fn-uscg"
+            ]
+          },
+          {
+            "text": "MC-27J / special-mission kits — roll-on/roll-off mission system family associated with fire-support and surveillance roles.",
+            "refs": [
+              "fn-leonardo",
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Firefighting configuration — compatible with roll-on/roll-off MAFFS II equipment according to Leonardo.",
+            "refs": [
+              "fn-leonardo"
             ]
           }
         ]
@@ -64310,45 +64408,155 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Italy, United States. Alenia C-27J Spartan has 2 designer or builder country entry.",
+            "text": "The Italian Air Force was the launch operator and remains the type's home-country user. The aircraft has also been ordered or operated by a broad set of countries, with exact active totals changing as deliveries, upgrades, and retirements progress.",
             "refs": [
-              "fn-wikidata"
+              "fn-wiki",
+              "fn-method"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Australia provides a clear official example of the Spartan's niche: the RAAF says its 10 aircraft are operated by No. 35 Squadron at RAAF Base Amberley and bridge the gap between Army helicopters and larger Air Force aircraft.",
             "refs": [
+              "fn-raaf"
+            ]
+          },
+          {
+            "text": "In U.S. service, the C-27J had a short Air Force/Army Joint Cargo Aircraft chapter before surviving aircraft were transferred to roles including U.S. Coast Guard medium range surveillance. USCG public material describes 14 Spartans in that fleet alongside HC-144 Ocean Sentries.",
+            "refs": [
+              "fn-uscg",
+              "fn-wiki"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Italy — launch and manufacturer-country operator.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Australia — 10 RAAF Spartans, No. 35 Squadron, RAAF Base Amberley.",
+            "refs": [
+              "fn-raaf"
+            ]
+          },
+          {
+            "text": "United States — U.S. Coast Guard HC-27J medium range surveillance fleet based on former USAF aircraft.",
+            "refs": [
+              "fn-uscg"
+            ]
+          },
+          {
+            "text": "European and international operators include Greece, Romania, Bulgaria, Lithuania, Mexico, Peru, and other customers; current inventories require date-specific official checks.",
+            "refs": [
+              "fn-wiki",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "service",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "Operationally, the C-27J is valued for reaching airfields or regions where a larger strategic airlifter may be inefficient and a helicopter may lack range or payload. Leonardo cites use in difficult environments from the Andes to Afghanistan, while Australia emphasizes unsurfaced airstrips and remote humanitarian support.",
+            "refs": [
+              "fn-leonardo",
+              "fn-raaf"
+            ]
+          },
+          {
+            "text": "Typical missions include airlift of cargo and personnel, airdrop of paratroops and supplies, aeromedical evacuation, disaster-relief flying, and support to remote communities or deployed forces. The same airframe can be adapted for maritime patrol, surveillance, command-and-control, or firefighting when properly equipped.",
+            "refs": [
+              "fn-leonardo",
+              "fn-raaf"
+            ]
+          },
+          {
+            "text": "The U.S. Joint Cargo Aircraft story is a cautionary program note: the aircraft was acquired for direct support airlift, but U.S. Air Force budget decisions ended that chapter early and moved aircraft into Coast Guard and special-operations-related use rather than a large USAF tactical-airlift fleet.",
+            "refs": [
+              "fn-wiki",
+              "fn-uscg"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Role Context",
+        "paragraphs": [
+          {
+            "text": "Compared with a Lockheed C-130 Hercules, the C-27J is smaller and carries less total payload, but it can be more efficient for light tactical loads and can use austere airfields that do not justify a larger airlifter. Compared with a CH-47 Chinook, it has greater fixed-wing speed and range but cannot hover or land vertically.",
+            "refs": [
+              "fn-leonardo",
+              "fn-raaf",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "It is also different from larger tactical and strategic transports such as the Airbus A400M or Boeing C-17. Those aircraft move heavier loads across longer distances, while the Spartan is aimed at the lower end of the fixed-wing airlift ladder and at mission-kit flexibility.",
+            "refs": [
+              "fn-leonardo",
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Lockheed C-130 Hercules",
+            "url": "aircraft.html?id=c-130-hercules"
+          },
+          {
+            "label": "Airbus A400M Atlas",
+            "url": "aircraft.html?id=a400m-atlas"
+          },
+          {
+            "label": "Boeing C-17 Globemaster III",
+            "url": "aircraft.html?id=c-17-globemaster-iii"
+          },
+          {
+            "label": "Boeing CH-47 Chinook",
+            "url": "aircraft.html?id=ch-47-chinook"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include short-field performance, rugged cargo handling, strong power-to-size ratio, a useful cargo compartment for its class, autonomous operation with an APU, and the ability to accept roll-on/roll-off mission kits.",
+            "refs": [
+              "fn-leonardo"
+            ]
+          },
+          {
+            "text": "Limitations are mainly class-related: the C-27J cannot replace a C-130, A400M, or C-17 for heavy or bulky loads, published range figures change with payload, and special-mission sensors or weapons depend on customer configuration rather than the baseline aircraft.",
+            "refs": [
+              "fn-leonardo",
+              "fn-raaf",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Best fit: light/medium tactical airlift, austere strips, remote humanitarian support, and modular special missions.",
             "refs": [
-              "fn-main"
+              "fn-leonardo",
+              "fn-raaf"
             ]
           },
           {
-            "text": "Major designer or builder entries: Italy, United States.",
+            "text": "Watch item: do not generalize optional MC-27J, ISR, ASW, or firefighting kit capabilities to every airframe.",
             "refs": [
-              "fn-wikidata"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "specifications",
-        "title": "Specifications",
-        "paragraphs": [
-          {
-            "text": "Comparable fields: crew 3, propulsion type Turboprop, maximum speed category Subsonic, first flight 1999, introduction 2006.",
-            "refs": [
-              "fn-main"
+              "fn-method"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Watch item: operator fleet counts and delivery status are date-sensitive.",
             "refs": [
               "fn-method"
             ]
@@ -64356,11 +64564,88 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "timeline",
+        "title": "Timeline",
         "paragraphs": [
           {
-            "text": "Alenia C-27J Spartan similar-development links: 4.",
+            "text": "1990s — Alenia and partners developed the C-27J from the G.222/C-27A concept using new propulsion and avionics.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "24 September 1999 — first flight of the C-27J.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "2006 — introduction with the Italian Air Force.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "2007 — selected for the U.S. Joint Cargo Aircraft program, before later U.S. Air Force divestment.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "2015 — first Australian Spartan arrived, according to the RAAF.",
+            "refs": [
+              "fn-raaf"
+            ]
+          },
+          {
+            "text": "2020s — Leonardo continues to market the C-27J Next Generation and multi-mission kit options.",
+            "refs": [
+              "fn-leonardo"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Primary factual weight is given to Leonardo as manufacturer and the Royal Australian Air Force as an official operator source. The U.S. Coast Guard source is used for the HC-27J/medium-range-surveillance fleet context, while Wikipedia is retained only for broad orientation where official sources are less concise.",
+            "refs": [
+              "fn-leonardo",
+              "fn-raaf",
+              "fn-uscg",
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Several public specifications are configuration-specific. This entry therefore quotes Leonardo and RAAF values with labels instead of forcing one universal number for range, speed, payload, or special-mission equipment.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Leonardo C-27J Next Generation",
+            "url": "https://aeronautics.leonardo.com/en/products/c-27j-spartan-next-generation"
+          },
+          {
+            "label": "Royal Australian Air Force C-27J Spartan",
+            "url": "https://www.airforce.gov.au/aircraft/c-27j-spartan"
+          },
+          {
+            "label": "U.S. Coast Guard C-27J program profile",
+            "url": "https://www.dcms.uscg.mil/Our-Organization/Assistant-Commandant-for-Acquisitions-CG-9/Programs/Air-Programs/MRS-HC-144-C27J/C-27J-Program-Profile"
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages place the Spartan among tactical and strategic airlift options and adjacent rotorcraft used for the last tactical mile.",
             "refs": [
               "fn-method"
             ]
@@ -64372,16 +64657,20 @@
             "url": "aircraft.html?id=c-130-hercules"
           },
           {
-            "label": "Lockheed C-5 Galaxy",
-            "url": "aircraft.html?id=c-5-galaxy"
+            "label": "Airbus A400M Atlas",
+            "url": "aircraft.html?id=a400m-atlas"
           },
           {
             "label": "Boeing C-17 Globemaster III",
             "url": "aircraft.html?id=c-17-globemaster-iii"
           },
           {
-            "label": "Ilyushin Il-76",
-            "url": "aircraft.html?id=il-76"
+            "label": "Boeing CH-47 Chinook",
+            "url": "aircraft.html?id=ch-47-chinook"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }

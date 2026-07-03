@@ -5157,3 +5157,78 @@ Record the result of:
 * MiG-21 first-flight/testing dates and total production counts vary by prototype, production standard, and whether license-built/derivative aircraft are included; the page uses cautious wording rather than one absolute value.
 * Current operator inventories and retirement dates are date-sensitive and were intentionally not listed as exact counts without fresh national-source verification.
 * Specifications are representative of museum-documented MiG-21PF and MiG-21F-13 examples and should not be treated as universal for every MiG-21 subvariant.
+### Run 68 — 2026-07-03 10:04:41 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Leonardo C-27J Spartan (id: c-27j-spartan)
+* Reason selected: The C-27J entry was one of the sparsest unedited aircraft records remaining when compared with the dense F-16 reference page and the previously expanded aircraft pages. It had placeholder specifications, no operators, no variants, generic support-aircraft wording, and only generated/stale external source entries.
+* Previous condition: Generated stub with 15 exact fact fields, 0 operator entries, 0 variant entries, 9 short generated sections, no useful dimensions/range/payload/engine detail, and no development/design/operator/timeline coverage comparable to the F-16 page.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview; article section order from overview through development, design, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, sources, and related pages; short sourced paragraphs; card-style key facts; cautious wording for variant/configuration differences; internal aircraft.html?id=... link style.
+
+#### Changes Made
+
+* Expanded the C-27J Spartan data record from a generated stub into a fuller Milipedia-style aircraft article.
+* Updated top-level identity and technical fields to reflect the Leonardo/Alenia C-27J, including first flight date, introduction context, active status, crew, Rolls-Royce AE2100-D2A engines, representative speed, range, ceiling, climb/descent capability, payload, and non-fighter armament framing.
+* Replaced placeholder sources and stale generic external links with Leonardo Aeronautics, Royal Australian Air Force, U.S. Coast Guard, Wikipedia as supplementary orientation, and the local Milipedia accuracy rules.
+* Added detailed article sections for Overview, Development History, Design and Capabilities, Specifications, Variants and Mission Kits, Operators, Operational History, Comparison and Role Context, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added variant and mission-kit coverage for baseline C-27J, C-27J Next Generation, HC-27J, MC-27J/special-mission kits, maritime patrol/ISR configurations, and firefighting configuration.
+* Added representative operators including Italy, Australia, the United States Coast Guard, Greece, Romania, Bulgaria, Lithuania, Mexico, Peru, and other customers with date-sensitive caveats.
+* Added comparison links and context for C-130 Hercules, A400M Atlas, C-17 Globemaster III, and CH-47 Chinook.
+* Added careful caveats that payload/range/speed values vary by source and configuration, and that special-mission or armed kits should not be assumed to apply to every airframe.
+* Omitted exact current worldwide fleet totals and customer-specific special-mission equipment fits because those details are date-sensitive or configuration-specific.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the C-27J Spartan aircraft record and its sources, specifications, variants, operators, sections, and related links.
+* hermes-change-log.md — Appended the cumulative log entry for this hourly run.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files after removing the temporary helper script.
+2. git diff — Reviewed the diff; data/aircraft.json changed exactly one aircraft entry, id c-27j-spartan, and the log entry was appended.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the selected C-27J entry, sources, section list, cards, bullets, links, variants, operators, and cautious configuration wording.
+4. F-16 style comparison — Inspected data/f16-template.html and followed its dense overview, section order, specifications focus, variants/operators coverage, comparison/timeline/source/related-page pattern, and internal-link style within the JSON-rendered article system.
+5. Internal link check — Recursively checked C-27J internal aircraft links and verified c-130-hercules, a400m-atlas, c-17-globemaster-iii, and ch-47-chinook exist in data/aircraft.json.
+6. Secret/token check — Ran a credential-pattern scan over the staged diff for private keys, passwords, cloud credential names, and access/auth token patterns; no credentials were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, no diff whitespace errors, one changed aircraft entry, intended files only, complete log structure, and no main-branch edit.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Leonardo C-27J Spartan
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* The U.S. Coast Guard program page was difficult to extract directly during this run, but its public search snippets and program/profile URL support the 14-aircraft medium range surveillance context; the log records this as a source-availability caveat.
+* Exact current worldwide production and active-fleet numbers were intentionally not asserted because they change by delivery, retirement, and contract status.
+* Special-mission and armed-kit capabilities vary by customer; the page avoids implying that every C-27J has MC-27J, ISR, ASW, or firefighting equipment.
+* The final commit hash cannot be embedded in the same committed log entry without changing the hash; the authoritative hash is reported in the scheduled-run response.
