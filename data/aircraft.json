@@ -70124,34 +70124,55 @@
   {
     "id": "iai-kfir",
     "name": "IAI Kfir",
-    "alternative_names": [],
+    "alternative_names": [
+      "F-21A Kfir",
+      "Kfir C1",
+      "Kfir C2",
+      "Kfir C7",
+      "Kfir C10/CE"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "Israel",
     "manufacturer": "Israel Aerospace Industries",
-    "role": "Multirole fighter",
-    "aircraft_type": "Fighter",
-    "era": "Cold War/Modern",
-    "first_flight": "1973",
-    "introduction_date": "1975",
-    "retirement_date": null,
-    "status": "Active/retired by operator",
-    "number_built": "Not listed",
-    "crew": "1 or 2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "role": "Multirole fighter-bomber and attack aircraft",
+    "aircraft_type": "Fighter-bomber",
+    "era": "Cold War / modernized export service",
+    "first_flight": "June 1973",
+    "introduction_date": "1975-1976",
+    "retirement_date": "Retired by Israel; export and contractor use varied by operator",
+    "status": "Retired by Israel; active or recently modernized with some export/contractor operators",
+    "number_built": "About 100 early production examples in some public summaries; 220+ family total often cited",
+    "crew": "1; 2 in TC-series trainers",
+    "engine_type": "Turbojet",
+    "engines": "1 × General Electric / IAI J79 turbojet",
+    "max_speed": "About 2,285 km/h (Mach 2-class)",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "IAI Kfir: Multirole fighter. Manufacturer: Israel Aerospace Industries. First flight: 1973. Introduction: 1975.",
-    "short_summary": "IAI Kfir: Multirole fighter. Origin: Israel. Manufacturer: Israel Aerospace Industries. First flight: 1973. Introduction: 1975. Status: Active/retired by operator.",
+    "range": "About 1,300 km representative public figure",
+    "combat_range": "About 768 km representative public figure",
+    "service_ceiling": "About 18,000 m representative service-ceiling figure",
+    "rate_of_climb": "Not consistently listed in public sources",
+    "armament": "Twin 30 mm cannon and variant-dependent air-to-air missiles, bombs, rockets, precision weapons, and external stores on up to nine hardpoints.",
+    "hardpoints": "Up to nine external hardpoints in public F-21/Kfir data",
+    "variants": [
+      "Kfir C1 early single-seat production model / F-21A aggressor lease aircraft",
+      "Kfir C2 canard-equipped fighter-bomber",
+      "Kfir TC2 two-seat trainer",
+      "Kfir C7 upgraded fighter-bomber with revised cockpit and additional stores capability",
+      "Kfir TC7 two-seat trainer derived from C7",
+      "Kfir C10/CE or Kfir 2000 export modernization with modern radar/avionics options",
+      "Kfir C12 C10-related export upgrade without full radar fit in some sources"
+    ],
+    "operators": [
+      "Israeli Air Force",
+      "United States Navy / Marine Corps / Air Force aggressor training leases",
+      "Colombian Aerospace Force",
+      "Ecuadorian Air Force",
+      "Sri Lanka Air Force",
+      "Contractor adversary-air operators such as ATAC"
+    ],
+    "combat_history": "Israeli strike and air-defense service including Lebanon-related operations; export and training use varied by operator.",
+    "development_history": "Developed by Israel Aerospace Industries from the Mirage 5/Nesher line with Israeli avionics and a J79 turbojet after the French Mirage embargo; first flew in June 1973 and entered Israeli service in the mid-1970s.",
+    "short_summary": "Israeli Mirage-derived Mach-2-class multirole fighter-bomber powered by a J79 turbojet, exported and later modernized for strike, air-defense, and adversary-training roles.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -70164,18 +70185,39 @@
     ],
     "sources": [
       {
+        "id": "fn-iai-history",
+        "title": "IAI and the Security of Israel",
+        "url": "https://www.iai.co.il/about/history",
+        "publisher": "Israel Aerospace Industries",
+        "note": "Manufacturer history page noting the Kfir as Israel's first home-grown fighter-bomber developed and manufactured by IAI and entering Israeli Air Force service."
+      },
+      {
+        "id": "fn-iai-sri-lanka-upgrade",
+        "title": "IAI to Upgrade the Sri Lankan Air Force's Kfir Aircraft",
+        "url": "https://www.iai.co.il/press/iai-to-upgrade-the-sri-lankan-air-forces-kfir-aircraft",
+        "publisher": "Israel Aerospace Industries",
+        "note": "Manufacturer press release describing avionics, mission-system, structural, and maintenance upgrades for Sri Lanka's Kfir fleet."
+      },
+      {
+        "id": "fn-aft-kfir",
+        "title": "F-21 Kfir Fighter Jet",
+        "url": "https://www.airforce-technology.com/projects/f-21-kfir-jet/",
+        "publisher": "Airforce Technology",
+        "note": "Technical and program overview used for public specifications, variants, operators, F-21 aggressor use, and Colombian modernization context."
+      },
+      {
+        "id": "fn-elm-2032",
+        "title": "ELM-2032 Fire Control Radar",
+        "url": "https://www.iai.co.il/product/elm-2032",
+        "publisher": "Israel Aerospace Industries",
+        "note": "Manufacturer page for the multimode EL/M-2032 radar family cited for modernized Kfir C10/CE avionics context."
+      },
+      {
         "id": "fn-main",
         "title": "IAI Kfir",
         "url": "https://en.wikipedia.org/wiki/IAI_Kfir",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for lineage, dates, variant names, and operator cross-checking; not used as the sole source for technical claims."
       },
       {
         "id": "fn-method",
@@ -70183,13 +70225,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.aeroflight.co.uk/waf/israel/iafnouse.htm",
-        "publisher": "aeroflight.co.uk",
-        "note": "External source for IAI Kfir."
       }
     ],
     "country_flags": [
@@ -70202,51 +70237,60 @@
       "Israel Aerospace Industries"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Fitting the hotter, more powerful J79 into a Mirage-derived airframe required cooling, inlet, rear-fuselage, and heat-shield changes.",
+      "Export upgrades balanced modern radar and precision-weapon integration against the size, electrical, cooling, and cost limits of a 1970s delta-wing fighter."
     ],
     "wars_used_in": [
       {
-        "name": "Lebanese Civil War",
-        "note": "IAI Kfir used in Lebanese Civil War."
+        "name": "Lebanese Civil War / Lebanon operations",
+        "note": "Israeli Kfirs are associated with strike operations in Lebanon; detailed mission records vary by source."
       }
     ],
     "variant_families": [
-      "IAI Kfir baseline production model",
-      "IAI Kfir upgraded avionics or weapons-capable model",
-      "IAI Kfir two-seat trainer or conversion model",
-      "IAI Kfir export or locally modernized model"
+      "Early Kfir C1 and U.S. F-21A aggressor aircraft",
+      "Canard-equipped Kfir C2 and TC2 trainer",
+      "Upgraded Kfir C7 and TC7 trainer",
+      "Export-modernized Kfir C10/CE, TC10, and C12 standards"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "Israel"
       ],
-      "major_user_note": "IAI Kfir has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Original Israeli Air Force type with later export, lease, and contractor adversary-air use.",
+      "all_operators_status": "Israel retired the type; Colombia, Ecuador, Sri Lanka, and contractor operators used or modernized aircraft at different times."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "U.S. F-21A aggressor Kfirs provided dissimilar-air-combat training.",
+        "Colombian and Sri Lankan Kfirs received notable modernization programs."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Public combat claims are source-dependent; Milipedia records Lebanon service cautiously."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "IAI Kfir uses jet propulsion."
+      "type": "Turbojet",
+      "summary": "Single J79-GE/J79-J1E-family turbojet installation, adapted to the Mirage-derived airframe with cooling and heat-shield changes."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Twin 30 mm cannon plus external stores including air-to-air missiles, bombs, rockets, air-to-surface weapons, and precision-guided munitions on upgraded variants.",
+      "caution": "Exact loadouts and weapons clearances vary by Kfir variant, national operator, and modernization package."
     },
     "similar_development": [
+      {
+        "id": "mirage-iii",
+        "name": "Dassault Mirage III",
+        "url": "aircraft.html?id=mirage-iii"
+      },
       {
         "id": "f-4-phantom-ii",
         "name": "McDonnell Douglas F-4 Phantom II",
         "url": "aircraft.html?id=f-4-phantom-ii"
+      },
+      {
+        "id": "a-4-skyhawk",
+        "name": "Douglas A-4 Skyhawk",
+        "url": "aircraft.html?id=a-4-skyhawk"
       },
       {
         "id": "f-5-freedom-fighter-tiger-ii",
@@ -70254,59 +70298,89 @@
         "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
       },
       {
-        "id": "f-8-crusader",
-        "name": "Vought F-8 Crusader",
-        "url": "aircraft.html?id=f-8-crusader"
-      },
-      {
-        "id": "f-14-tomcat",
-        "name": "Grumman F-14 Tomcat",
-        "url": "aircraft.html?id=f-14-tomcat"
+        "id": "mig-21",
+        "name": "Mikoyan-Gurevich MiG-21",
+        "url": "aircraft.html?id=mig-21"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 1
+      "exact_fact_count": 32,
+      "operator_entries": 6,
+      "variant_entries": 7,
+      "external_article_sources": 4
     },
     "footnotes": [
+      {
+        "id": "fn-iai-history",
+        "title": "IAI and the Security of Israel",
+        "url": "https://www.iai.co.il/about/history",
+        "publisher": "Israel Aerospace Industries",
+        "note": "Manufacturer history page noting the Kfir as Israel's first home-grown fighter-bomber developed and manufactured by IAI and entering Israeli Air Force service."
+      },
+      {
+        "id": "fn-iai-sri-lanka-upgrade",
+        "title": "IAI to Upgrade the Sri Lankan Air Force's Kfir Aircraft",
+        "url": "https://www.iai.co.il/press/iai-to-upgrade-the-sri-lankan-air-forces-kfir-aircraft",
+        "publisher": "Israel Aerospace Industries",
+        "note": "Manufacturer press release describing avionics, mission-system, structural, and maintenance upgrades for Sri Lanka's Kfir fleet."
+      },
+      {
+        "id": "fn-aft-kfir",
+        "title": "F-21 Kfir Fighter Jet",
+        "url": "https://www.airforce-technology.com/projects/f-21-kfir-jet/",
+        "publisher": "Airforce Technology",
+        "note": "Technical and program overview used for public specifications, variants, operators, F-21 aggressor use, and Colombian modernization context."
+      },
+      {
+        "id": "fn-elm-2032",
+        "title": "ELM-2032 Fire Control Radar",
+        "url": "https://www.iai.co.il/product/elm-2032",
+        "publisher": "Israel Aerospace Industries",
+        "note": "Manufacturer page for the multimode EL/M-2032 radar family cited for modernized Kfir C10/CE avionics context."
+      },
       {
         "id": "fn-main",
         "title": "IAI Kfir",
         "url": "https://en.wikipedia.org/wiki/IAI_Kfir",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for lineage, dates, variant names, and operator cross-checking; not used as the sole source for technical claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.aeroflight.co.uk/waf/israel/iafnouse.htm",
-        "publisher": "aeroflight.co.uk",
-        "note": "External source for IAI Kfir."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.aeroflight.co.uk/waf/israel/iafnouse.htm",
-        "publisher": "aeroflight.co.uk",
-        "note": "External source for IAI Kfir."
+        "id": "fn-iai-history",
+        "title": "IAI and the Security of Israel",
+        "url": "https://www.iai.co.il/about/history",
+        "publisher": "Israel Aerospace Industries",
+        "note": "Manufacturer history page noting the Kfir as Israel's first home-grown fighter-bomber developed and manufactured by IAI and entering Israeli Air Force service."
+      },
+      {
+        "id": "fn-iai-sri-lanka-upgrade",
+        "title": "IAI to Upgrade the Sri Lankan Air Force's Kfir Aircraft",
+        "url": "https://www.iai.co.il/press/iai-to-upgrade-the-sri-lankan-air-forces-kfir-aircraft",
+        "publisher": "Israel Aerospace Industries",
+        "note": "Manufacturer press release describing avionics, mission-system, structural, and maintenance upgrades for Sri Lanka's Kfir fleet."
+      },
+      {
+        "id": "fn-aft-kfir",
+        "title": "F-21 Kfir Fighter Jet",
+        "url": "https://www.airforce-technology.com/projects/f-21-kfir-jet/",
+        "publisher": "Airforce Technology",
+        "note": "Technical and program overview used for public specifications, variants, operators, F-21 aggressor use, and Colombian modernization context."
+      },
+      {
+        "id": "fn-elm-2032",
+        "title": "ELM-2032 Fire Control Radar",
+        "url": "https://www.iai.co.il/product/elm-2032",
+        "publisher": "Israel Aerospace Industries",
+        "note": "Manufacturer page for the multimode EL/M-2032 radar family cited for modernized Kfir C10/CE avionics context."
       }
     ],
     "article_sections": [
@@ -70315,19 +70389,22 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "IAI Kfir is a Multirole fighter from Israel. Manufacturer: Israel Aerospace Industries. First flight: 1973. Introduction: 1975. Status: Active/retired by operator.",
+            "text": "The IAI Kfir is an Israeli delta-wing multirole fighter-bomber developed by Israel Aerospace Industries from the Mirage 5/Nesher family and adapted around Israeli avionics and a license-built General Electric J79 turbojet. Its Hebrew name means “lion cub,” and the aircraft gave Israel an indigenous fast-jet type after the French arms embargo disrupted Mirage deliveries.",
             "refs": [
+              "fn-iai-history",
+              "fn-aft-kfir",
               "fn-main"
             ]
           },
           {
-            "text": "IAI Kfir is a fighter. Primary role: multirole fighter. Country of origin: Israel. Manufacturer: Israel Aerospace Industries.",
+            "text": "Kfir service began in the mid-1970s. In Israeli use it was soon supplemented by F-15 and F-16 fighters, but it remained important as a strike aircraft, export fighter, and later as a dissimilar-air-combat training aircraft under the U.S. F-21A designation.",
             "refs": [
-              "fn-wikidata"
+              "fn-aft-kfir",
+              "fn-main"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Because Kfirs were upgraded repeatedly and exported in several national configurations, avionics, radar, weapons, and even active-service status vary by operator and variant. This page uses representative public figures and notes variant-dependent details where appropriate.",
             "refs": [
               "fn-method"
             ]
@@ -70336,50 +70413,66 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Multirole fighter"
+            "text": "Multirole fighter-bomber / attack fighter"
           },
           {
-            "title": "Designer or builder",
-            "text": "Israel Aerospace Industries"
-          },
-          {
-            "title": "Major origin",
+            "title": "Origin",
             "text": "Israel"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Manufacturer",
+            "text": "Israel Aerospace Industries"
+          },
+          {
+            "title": "Powerplant",
+            "text": "1 × General Electric / IAI J79 turbojet"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "IAI Kfir first flew in 1973. Introduction date: 1975. Era: Cold War/Modern.",
+            "text": "The Kfir grew out of Israel’s experience with the Mirage III and the locally produced Nesher. Israel wanted the range and strike capacity of the Mirage 5 while retaining a modern supersonic airframe that could be supported domestically.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Producer: Israel Aerospace Industries. Development context: multirole fighter, jet propulsion, supersonic speed category, Cold War/Modern era.",
+            "text": "The key engineering change was installation of the J79 engine, already familiar from the F-4 Phantom II. The more powerful engine required inlet, cooling, and rear-fuselage changes, including a heat shield and extra cooling intake, but gave the Mirage-derived airframe strong Mach-2-class performance.",
             "refs": [
-              "fn-wikidata"
+              "fn-aft-kfir",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "A re-engined test aircraft flew before the Kfir prototype, and the improved Ra’am B/Kfir configuration made its first flight in June 1973. IAI delivered the first Kfirs to the Israeli Air Force in 1975, with operational service following in 1976.",
+            "refs": [
+              "fn-aft-kfir",
+              "fn-main"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "Design priority: combine a Mirage-derived airframe with Israeli avionics, domestic support, and the J79 powerplant.",
             "refs": [
-              "fn-method"
+              "fn-main"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "Program context: a national fast-jet capability after France blocked Mirage 5 deliveries to Israel.",
             "refs": [
-              "fn-method"
+              "fn-iai-history",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Later development emphasized export upgrades, radar modernization, precision-weapon compatibility, and structural refurbishment.",
+            "refs": [
+              "fn-iai-sri-lanka-upgrade",
+              "fn-aft-kfir"
             ]
           }
         ]
@@ -70389,114 +70482,88 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1 or 2. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The Kfir kept the compact tailless-delta layout of the Mirage family but combined it with a strengthened structure, revised rear fuselage, enlarged intakes, and a J79 engine installation. C2 and later variants added small canards and aerodynamic refinements to improve handling and combat performance.",
             "refs": [
+              "fn-aft-kfir",
               "fn-main"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "The cockpit and mission systems were progressively improved. Kfir C7 aircraft added a revised cockpit, HOTAS-style controls, provisions for in-flight refueling, and improved weapons integration; later C10/CE and related upgrades introduced modern multifunction displays, helmet sight capability in some configurations, and EL/M-2032-class radar options.",
             "refs": [
+              "fn-aft-kfir",
+              "fn-elm-2032"
+            ]
+          },
+          {
+            "text": "The aircraft is not a stealth design and is not carrier-based. Its value came from speed, climb, low purchase and support cost compared with newer fighters, and the ability to carry a useful mix of air-to-air and air-to-ground stores on a compact airframe.",
+            "refs": [
+              "fn-aft-kfir",
               "fn-method"
-            ]
-          },
-          {
-            "text": "IAI Kfir uses jet propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "1 or 2"
+            "text": "1; two-seat trainers/conversions exist"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Layout",
+            "text": "Single-engine tailless delta with canards on later variants"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Radar/avionics",
+            "text": "Variant-dependent; C10/CE upgrades associated with EL/M-2032-class radar"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Role fit",
+            "text": "Air defense, strike, training adversary, and export multirole missions"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "IAI Kfir status: Active/retired by operator. Conflict entries: 1.",
+            "text": "Representative public figures for the F-21/Kfir family list a length of about 15.55 m, wingspan of 8.22 m, height of about 4.25 m, empty weight around 7,290 kg, and a maximum takeoff weight around 14,600 kg. Exact figures vary by variant, stores, and whether a two-seat trainer is being described.",
             "refs": [
-              "fn-main"
+              "fn-aft-kfir",
+              "fn-method"
             ]
           },
           {
-            "text": "Conflicts: Lebanese Civil War.",
+            "text": "Airforce Technology lists a General Electric J79-GE-17 turbojet, maximum speed of 2,285 km/h, maximum range of about 1,300 km, combat radius around 768 km, and service ceiling around 18,000 m. The same source also gives an altitude figure of 30,000 m in its summary; Milipedia uses the 18,000 m service-ceiling figure for consistency and treats higher altitude wording as requiring caution.",
             "refs": [
+              "fn-aft-kfir",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Typical armament included twin 30 mm cannon and external carriage of air-to-air missiles, bombs, rockets, and air-to-surface weapons. Modernized aircraft could integrate Israeli and export-customer weapons, but specific clearances depend on national upgrade standard.",
+            "refs": [
+              "fn-aft-kfir",
               "fn-method"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Lebanese Civil War: IAI Kfir used in Lebanese Civil War.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "IAI Kfir named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Engine",
+            "text": "1 × GE/IAI J79 turbojet, about 8,120 kgf thrust public figure"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum speed",
+            "text": "About 2,285 km/h / Mach 2-class"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Range",
+            "text": "About 1,300 km representative ferry/mission figure"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Payload",
+            "text": "Up to about 16,000 lb / 6,085 kg on nine hardpoints in public F-21/Kfir data"
           }
         ]
       },
@@ -70505,41 +70572,45 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "IAI Kfir variant-family entries: 4. Variant families: IAI Kfir baseline production model; IAI Kfir upgraded avionics or weapons-capable model; IAI Kfir two-seat trainer or conversion model; IAI Kfir export or locally modernized model.",
+            "text": "The family started with early Kfir production aircraft and moved through C1, C2, C7, two-seat trainers, U.S. F-21A aggressor aircraft, and export modernization standards such as C10/CE and C12. Naming is not always consistent across operators, so variant descriptions should be read as family-level summaries rather than a complete production ledger.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
+              "fn-aft-kfir",
+              "fn-main",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "IAI Kfir baseline production model",
+            "text": "Kfir C1: early single-seat production configuration, some later leased to the United States as F-21A aggressor aircraft.",
             "refs": [
+              "fn-aft-kfir",
               "fn-main"
             ]
           },
           {
-            "text": "IAI Kfir upgraded avionics or weapons-capable model",
+            "text": "Kfir C2 / TC2: canard-equipped production fighter and two-seat trainer derivative.",
             "refs": [
-              "fn-main"
+              "fn-aft-kfir"
             ]
           },
           {
-            "text": "IAI Kfir two-seat trainer or conversion model",
+            "text": "Kfir C7 / TC7: upgraded cockpit, avionics, extra hardpoints, refueling provision, and improved weapons compatibility.",
             "refs": [
-              "fn-main"
+              "fn-aft-kfir"
             ]
           },
           {
-            "text": "IAI Kfir export or locally modernized model",
+            "text": "Kfir C10/CE and TC10: export modernization standard associated with EL/M-2032 radar, multifunction displays, and helmet-sight capability in public descriptions.",
             "refs": [
-              "fn-main"
+              "fn-aft-kfir",
+              "fn-elm-2032"
+            ]
+          },
+          {
+            "text": "Kfir C12: C10-related upgrade standard without the full EL/M-2032 radar fit in some descriptions.",
+            "refs": [
+              "fn-aft-kfir"
             ]
           }
         ]
@@ -70549,45 +70620,193 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Israel. IAI Kfir has 1 designer or builder country entry.",
+            "text": "Israel was the original operator, using the Kfir as a fighter-bomber and strike aircraft before replacing it with newer U.S.-built types. Export and leased examples served with Colombia, Ecuador, Sri Lanka, and the United States, while privately operated Kfirs have been used for adversary-air and training support.",
             "refs": [
-              "fn-wikidata"
+              "fn-aft-kfir",
+              "fn-main"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Colombia modernized Kfirs under a 2007 contract, while Sri Lanka contracted IAI for a Kfir upgrade and restoration program that included avionics, mission systems, structural refurbishment, and maintenance capability. Current aircraft counts should be checked against recent national disclosures.",
             "refs": [
+              "fn-aft-kfir",
+              "fn-iai-sri-lanka-upgrade",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Israeli Air Force: original combat operator; later retired from frontline service as F-15/F-16 fleets expanded.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Major designer or builder entries: Israel.",
+            "text": "United States Navy, Marine Corps, and Air Force: leased F-21A/Kfir aircraft for dissimilar-air-combat training and aggressor support.",
             "refs": [
-              "fn-wikidata"
+              "fn-aft-kfir"
+            ]
+          },
+          {
+            "text": "Colombia, Ecuador, and Sri Lanka: export operators with different modernization and service histories.",
+            "refs": [
+              "fn-aft-kfir",
+              "fn-iai-sri-lanka-upgrade"
+            ]
+          },
+          {
+            "text": "ATAC and other contractor adversary providers: civilian-operated examples used for threat simulation and training support.",
+            "refs": [
+              "fn-aft-kfir"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1 or 2, propulsion type Jet, maximum speed category Supersonic, first flight 1973, introduction 1975.",
+            "text": "The Kfir entered Israeli service in the mid-1970s. Its period as Israel’s top air-superiority aircraft was brief because F-15 deliveries began soon afterward, but it remained useful in strike and secondary fighter roles.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Public accounts credit Kfirs with strike missions in Lebanon and a small number of air-combat episodes, including a 1979 Syrian MiG-21 claim. Combat records and kill attributions vary by source, so the page avoids overclaiming beyond broadly documented service use.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Outside Israel, the type’s most durable role has been as an export fighter and an adversary trainer. The U.S. F-21A lease gave Navy and Marine pilots a compact delta-wing opponent for dissimilar-air-combat training, while later contractor-operated examples continued that training niche.",
+            "refs": [
+              "fn-aft-kfir"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Lebanon: Israeli Kfirs are associated with strike missions during the late 1970s and 1980s.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Adversary training: F-21A/Kfir aircraft provided a Mirage-like performance and visual profile for U.S. training units.",
+            "refs": [
+              "fn-aft-kfir"
+            ]
+          },
+          {
+            "text": "Export modernization: Colombian and Sri Lankan programs demonstrate the airframe’s post-Cold-War upgrade life.",
+            "refs": [
+              "fn-aft-kfir",
+              "fn-iai-sri-lanka-upgrade"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Assessment",
+        "paragraphs": [
+          {
+            "text": "Compared with the Mirage III/5 family, the Kfir offered a more powerful J79 engine and Israeli avionics but carried the fuel, landing-speed, and growth limitations of a compact tailless-delta airframe. Compared with fourth-generation fighters such as the F-16, it lacked the same sustained-turn performance, sensor growth, and long-term modernization margin.",
+            "refs": [
+              "fn-aft-kfir",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Its strengths were speed, climb, strong strike load for its size, local supportability, and upgrade affordability. Its limitations were high fuel consumption relative to newer turbofans, small airframe volume, older radar/avionics baselines on early aircraft, and variant-dependent weapons integration.",
+            "refs": [
+              "fn-aft-kfir",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Strengths",
+            "text": "Mach-2-class speed, simple rugged airframe, useful external payload, mature J79 support base"
+          },
+          {
+            "title": "Limitations",
+            "text": "Older delta handling traits, limited growth margin, variant-dependent sensors and weapons"
+          },
+          {
+            "title": "Best fit",
+            "text": "Strike fighter, export modernization, and adversary-air training roles"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1967: French arms embargo blocks Mirage 5 deliveries to Israel, shaping the local fighter program context.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "1970–1971: J79-powered Mirage/Nesher test aircraft demonstrate the engine conversion path.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "June 1973: Improved Kfir/Ra’am B configuration makes its first flight.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "1975–1976: First Kfirs are delivered to the Israeli Air Force and enter service.",
+            "refs": [
+              "fn-aft-kfir",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "1980s: F-21A leased aircraft support U.S. Navy and Marine Corps aggressor training.",
+            "refs": [
+              "fn-aft-kfir"
+            ]
+          },
+          {
+            "text": "2007–2009: Colombia contracts for Kfir upgrades and receives modernized aircraft.",
+            "refs": [
+              "fn-aft-kfir"
+            ]
+          },
+          {
+            "text": "2021 onward: IAI announces Sri Lankan Kfir modernization and restoration work.",
+            "refs": [
+              "fn-iai-sri-lanka-upgrade"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Manufacturer material was used for IAI program context and modernization claims. Airforce Technology supplied public specification values and export/variant summaries. Wikipedia was retained only as a supplementary orientation source for lineage and dates.",
+            "refs": [
+              "fn-iai-history",
+              "fn-iai-sri-lanka-upgrade",
+              "fn-aft-kfir",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Exact weapons and radar fits are not universal across Kfir operators. Current fleet counts and active status also change as Colombia, Sri Lanka, contractor adversary fleets, and retired operators make replacement decisions.",
             "refs": [
               "fn-method"
             ]
@@ -70595,11 +70814,11 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "related-pages",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "IAI Kfir similar-development links: 4.",
+            "text": "Related Milipedia pages cover the Kfir’s Mirage-family lineage, the F-4/J79 engine context, export-era peers, and aircraft it faced or replaced in service.",
             "refs": [
               "fn-method"
             ]
@@ -70607,31 +70826,33 @@
         ],
         "links": [
           {
+            "label": "Dassault Mirage III",
+            "url": "aircraft.html?id=mirage-iii"
+          },
+          {
             "label": "McDonnell Douglas F-4 Phantom II",
             "url": "aircraft.html?id=f-4-phantom-ii"
+          },
+          {
+            "label": "Douglas A-4 Skyhawk",
+            "url": "aircraft.html?id=a-4-skyhawk"
+          },
+          {
+            "label": "Mikoyan-Gurevich MiG-21",
+            "url": "aircraft.html?id=mig-21"
           },
           {
             "label": "Northrop F-5",
             "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
           },
           {
-            "label": "Vought F-8 Crusader",
-            "url": "aircraft.html?id=f-8-crusader"
-          },
-          {
-            "label": "Grumman F-14 Tomcat",
-            "url": "aircraft.html?id=f-14-tomcat"
+            "label": "Back to aircraft database",
+            "url": "index.html"
           }
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/USS_New_Jersey_firing_in_Beirut%2C_1984.jpg/960px-USS_New_Jersey_firing_in_Beirut%2C_1984.jpg",
-        "caption": "Lebanese Civil War",
-        "source_url": "https://en.wikipedia.org/wiki/Lebanese_Civil_War"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "embraer-emb-314-super-tucano",

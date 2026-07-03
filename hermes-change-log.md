@@ -4462,3 +4462,83 @@ Record the result of:
 * Current active F-15 fleet totals, export subvariant avionics fits, detailed weapons clearances, and operator-specific combat claims are date-sensitive or configuration-dependent, so the page uses conservative public-source wording.
 * USAF F-15C/D and Boeing F-15EX specification values differ by variant and source; the article labels them rather than forcing one universal F-15 value.
 * The page is data-driven and cannot exactly reproduce the bespoke static F-16 layout, but it now follows the F-16 article density and section order as far as the JSON renderer supports.
+
+### Run 59 — 2026-07-03 01:03:47 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: IAI Kfir (id: iai-kfir)
+* Reason selected: The Kfir entry was the sparsest unedited aircraft page found during this run, with no operator entries, no concrete variant entries, mostly generated prose, one stale external article source, missing engine/range/ceiling/hardpoint details, and only short placeholder sections compared with the F-16 reference page.
+* Previous condition: Placeholder-like generated record with 15 exact fact fields, 0 operator entries, 0 variant entries, 1 external source, generic armament wording, no substantive development/design/operators/variants/timeline/comparison coverage, and several "Not listed" technical fields.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview and key-fact cards; article-section order from overview through development, design, specifications, variants, operators, operational history, comparison, timeline, sources, and related pages; concise sourced paragraphs; cautious variant-dependent wording; internal aircraft.html?id=... links; source notes explaining reliability and uncertainty.
+
+#### Changes Made
+
+* Expanded the IAI Kfir entry in data/aircraft.json from a sparse generated page into a detailed Milipedia aircraft article record.
+* Corrected top-level facts for role, aircraft type, first flight, service entry, retirement/status caveats, crew, engine, speed, range, combat radius, service ceiling, hardpoints, armament, development history, and summary text.
+* Replaced generic armament wording with Kfir-specific twin-30 mm cannon and variant-dependent external-store language, including a caution that weapons clearances vary by operator and modernization package.
+* Added manufacturer and reference sources from Israel Aerospace Industries, Airforce Technology, and a supplementary Wikipedia orientation page; retained Milipedia accuracy rules as the local caveat source.
+* Added detailed sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Comparison and Assessment, Timeline, Sources and Notes, and Related Pages.
+* Added representative public technical details for the J79 turbojet, Mach-2-class/2,285 km/h speed, about 1,300 km range, about 768 km combat radius, about 18,000 m service ceiling, dimensions, weights, and up to nine hardpoints.
+* Added Kfir variant coverage for C1/F-21A, C2/TC2, C7/TC7, C10/CE/TC10, and C12 while noting that export naming and equipment fits vary.
+* Added operator coverage for Israel, U.S. aggressor-training leases, Colombia, Ecuador, Sri Lanka, and contractor adversary-air use, with date-sensitive current-fleet caveats.
+* Added operational-history coverage for Israeli service, Lebanon-related strike use, the source-dependent 1979 MiG-21 claim context, U.S. F-21A dissimilar-air-combat training, and export modernization.
+* Added comparison, strengths/limitations, and timeline content to better match the F-16 page density within the JSON-rendered article format.
+* Added related internal links to Mirage III, F-4 Phantom II, A-4 Skyhawk, MiG-21, Northrop F-5, and the aircraft database return link.
+* Removed the generated Lebanon event gallery because it used a broad conflict image rather than a Kfir-specific article asset.
+* Omitted exact current fleet totals and detailed national weapons-clearance tables because those facts vary by operator and may require more current verification.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the IAI Kfir aircraft entry and its article sections, sources, variants, operators, and related links.
+* hermes-change-log.md — Appended this cumulative run entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files after removing the temporary helper script.
+2. git diff — Reviewed the aircraft diff; data/aircraft.json changed exactly the IAI Kfir entry, and hermes-change-log.md received this new cumulative entry.
+3. File review — Parsed data/aircraft.json successfully with python3 -m json.tool and reviewed the Kfir entry fields, section order, source IDs, cards, bullets, and links.
+4. F-16 style comparison — Inspected data/f16-template.html and mirrored its dense overview, technical focus, section progression, sourced paragraphs, comparison, timeline, and related-page style within the existing data-driven renderer.
+5. Internal link check — Verified aircraft.html?id=mirage-iii, f-4-phantom-ii, a-4-skyhawk, mig-21, and f-5-freedom-fighter-tiger-ii all target existing aircraft IDs; index.html was treated as the database return link.
+6. Secret/token check — Ran a credential-pattern scan over the intended/staged diff for private keys, passwords, cloud credential names, and access/auth tokens; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, no main-branch edits, JSON validity, exactly one changed aircraft entry, clean whitespace check, intended files only, and complete log entry.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand IAI Kfir
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* IAI current web pages were discoverable via search but direct extraction failed during this run; the IAI URLs were retained as manufacturer references, and Airforce Technology/Wikipedia extraction was used for readable cross-checking.
+* Public Kfir production totals, active fleet counts, and service-ceiling/maximum-altitude figures vary by source and variant, so the article uses cautious representative wording rather than one absolute value.
+* Exact current weapons clearances and radar fits differ by C7/C10/CE/C12/operator modernization package and may need future operator-specific review.
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
