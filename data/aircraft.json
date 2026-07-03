@@ -9804,34 +9804,83 @@
   {
     "id": "f-102-delta-dagger",
     "name": "Convair F-102 Delta Dagger",
-    "alternative_names": [],
+    "alternative_names": [
+      "Delta Dagger",
+      "Deuce"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
     "manufacturer": "Convair",
-    "role": "Interceptor",
-    "aircraft_type": "Fighter",
+    "role": "All-weather supersonic interceptor",
+    "aircraft_type": "Interceptor aircraft",
     "era": "Cold War",
-    "first_flight": "1953",
+    "first_flight": "24 October 1953 for YF-102; area-ruled YF-102A followed in 1954",
     "introduction_date": "1956",
-    "retirement_date": "Not listed",
-    "status": "Retired",
-    "number_built": "Not listed",
-    "crew": "1",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "retirement_date": "1976 from U.S. Air Force/Air National Guard operational service; late 1970s for export operators",
+    "status": "Retired; preserved in museums and formerly converted to target drones",
+    "number_built": "About 1,000 production and trainer aircraft; counts vary by inclusion of prototypes and drone conversions",
+    "crew": "1; 2 in TF-102A trainer",
+    "engine_type": "Afterburning turbojet",
+    "engines": "One Pratt & Whitney J57 afterburning turbojet; F-102A public technical sources commonly cite J57-P-23 class power",
+    "max_speed": "About 810 mph / Mach 1.25 class at altitude for F-102A public-source examples",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Convair F-102 Delta Dagger: Interceptor. Manufacturer: Convair. First flight: 1953. Introduction: 1956.",
-    "short_summary": "Convair F-102 Delta Dagger: Interceptor. Origin: United States. Manufacturer: Convair. First flight: 1953. Introduction: 1956. Status: Retired.",
+    "range": "About 1,000 miles in public F-102A technical summaries; mission radius varied with profile and alert load",
+    "combat_range": "Not stated as one universal value; dependent on alert profile, weapons load, fuel, and tanker support",
+    "service_ceiling": "About 55,000 ft in public technical summaries",
+    "rate_of_climb": "Variant/source dependent; not recorded as one universal value in this update",
+    "armament": "Internal weapons bay for Falcon air-to-air missiles and 2.75 in folding-fin aerial rockets on early fits; later F-102A upgrades could carry AIM-26 nuclear/conventional Falcon missiles. No fixed gun.",
+    "hardpoints": "Primary weapons carried internally; external tanks used on some aircraft, but public loadouts were not treated as universal",
+    "variants": [
+      {
+        "name": "YF-102",
+        "description": "Initial prototypes with the original non-area-ruled fuselage; flight testing showed the design could not meet the required supersonic performance."
+      },
+      {
+        "name": "YF-102A",
+        "description": "Area-ruled redesign/prototype standard that solved much of the drag problem and led to the production configuration."
+      },
+      {
+        "name": "F-102A",
+        "description": "Main single-seat production all-weather interceptor with delta wing, internal weapons bay, radar/fire-control system, and Falcon/rocket armament."
+      },
+      {
+        "name": "TF-102A",
+        "description": "Side-by-side two-seat trainer version with a broadened forward fuselage; used for conversion and proficiency training."
+      },
+      {
+        "name": "F-102B / F-106 lineage",
+        "description": "The improved F-102B concept evolved into the Convair F-106 Delta Dart, a separate Mach 2 interceptor rather than a simple F-102 variant."
+      },
+      {
+        "name": "QF/PQM-102 target drones",
+        "description": "Retired airframes converted for unmanned or optionally piloted full-scale target and missile-test work."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "U.S. Air Force / Air Defense Command and Pacific Air Forces",
+        "notes": "Primary operator; used the F-102 for continental and overseas air-defense alert, including deployments to Southeast Asia."
+      },
+      {
+        "country": "United States",
+        "service": "Air National Guard",
+        "notes": "Received many aircraft as active-duty units re-equipped; ANG service continued until the type left U.S. operational service in 1976."
+      },
+      {
+        "country": "Greece",
+        "service": "Hellenic Air Force",
+        "notes": "Operated ex-U.S. F-102A/TF-102A aircraft in the late 1960s and 1970s before replacement by newer fighters."
+      },
+      {
+        "country": "Turkey",
+        "service": "Turkish Air Force",
+        "notes": "Operated ex-U.S. F-102A/TF-102A aircraft from the late 1960s; public sources differ on exact delivered totals, so this page avoids a single fleet number."
+      }
+    ],
+    "combat_history": "Designed for Cold War bomber interception and used mainly on alert duty. F-102s deployed to Southeast Asia during the Vietnam War, where they flew air-defense, escort, and limited ground-attack/support missions; the type was not a dogfighter and was gradually replaced by F-101, F-4, and especially F-106 capabilities.",
+    "development_history": "The F-102 grew out of the USAF's late-1940s '1954 interceptor' requirement. Early YF-102 testing exposed transonic drag problems, and Convair's area-rule redesign produced the F-102A configuration that became the first operational delta-wing and supersonic all-weather interceptor in USAF service.",
+    "short_summary": "Convair F-102 Delta Dagger: a Cold War USAF all-weather supersonic interceptor, notable for area-rule redesign, delta-wing layout, internal missile/rocket bay, SAGE-era air-defense service, and evolution toward the F-106 Delta Dart.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -9844,46 +9893,39 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-nmusaf-f102a",
+        "title": "Convair F-102A Delta Dagger",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196120/convair-f-102a-delta-dagger/",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Museum fact sheet used for F-102A interceptor role, first operational supersonic/all-weather context, F-106 successor relationship, and representative aircraft background."
+      },
+      {
+        "id": "fn-globalaircraft-f102",
+        "title": "F-102 Delta Dagger",
+        "url": "https://www.globalaircraft.org/planes/f-102_delta_dagger.pl",
+        "publisher": "GlobalAircraft.org",
+        "note": "Supplementary technical source used for F-102A dimensions, J57 thrust figure, speed, ceiling, range, and missile/rocket armament summary."
+      },
+      {
+        "id": "fn-aerospaceweb-f102",
+        "title": "Convair F-102 Delta Dagger",
+        "url": "http://www.aerospaceweb.org/aircraft/fighter/f102/",
+        "publisher": "Aerospaceweb.org",
+        "note": "Supplementary reference retained for specifications and development cross-checking; public extraction was not available during this run, so facts were not uniquely dependent on it."
+      },
+      {
+        "id": "fn-wikipedia-f102",
         "title": "Convair F-102 Delta Dagger",
         "url": "https://en.wikipedia.org/wiki/Convair_F-102_Delta_Dagger",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation for variant names, operator overview, timeline, and references; official/museum and technical sources were preferred where available."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.aerospaceweb.org/aircraft/fighter/f102/",
-        "publisher": "aerospaceweb.org",
-        "note": "External source for Convair F-102 Delta Dagger."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.globalaircraft.org/planes/f-102_delta_dagger.pl",
-        "publisher": "globalaircraft.org",
-        "note": "External source for Convair F-102 Delta Dagger."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.mcchordairmuseum.org/REV%20B%20MAM%20COLLECTION%20F-102%20BORDER.htm",
-        "publisher": "mcchordairmuseum.org",
-        "note": "External source for Convair F-102 Delta Dagger."
+        "note": "Local rules for neutral wording, source handling, estimate labels, variant-sensitive specifications, and internal links."
       }
     ],
     "country_flags": [
@@ -9896,133 +9938,145 @@
       "Convair"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Original YF-102 performance fell short until Convair applied area-rule shaping to reduce transonic drag.",
+      "The aircraft had to integrate airframe, radar/fire-control, data-link, internal weapons, and alert operations at a time when missile-interceptor technology was changing quickly.",
+      "The F-102A was an effective step into supersonic all-weather interception, but the more capable F-106 soon became the preferred Delta Dart successor."
     ],
-    "wars_used_in": [],
+    "wars_used_in": [
+      "Vietnam War",
+      "Cold War air-defense alerts"
+    ],
     "variant_families": [
-      "Convair F-102 Delta Dagger baseline production model",
-      "Convair F-102 Delta Dagger upgraded avionics or weapons-capable model",
-      "Convair F-102 Delta Dagger export or locally modernized model"
+      "YF-102",
+      "YF-102A",
+      "F-102A",
+      "TF-102A",
+      "F-106 lineage",
+      "QF/PQM-102 target drones"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Convair F-102 Delta Dagger has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The United States was the primary user; Greece and Turkey operated ex-U.S. aircraft.",
+      "all_operators_status": "Retired from operational service; preserved aircraft remain in museum collections."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "The F-102A is commonly cited as the USAF's first operational supersonic all-weather interceptor and first operational delta-wing fighter.",
+        "Future U.S. president George W. Bush trained and served on F-102s in the Texas Air National Guard; this is a public-history note rather than an aircraft-performance claim."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Early YF-102 testing produced a major redesign after the non-area-ruled prototype failed to reach the desired supersonic performance.",
+        "Several F-102s were lost in Southeast Asia to accidents, ground fire, or operational causes; individual loss claims vary by source and were not tabulated here."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Convair F-102 Delta Dagger uses jet propulsion."
+      "type": "Afterburning turbojet",
+      "summary": "One Pratt & Whitney J57 afterburning turbojet powered the F-102A. Public technical summaries commonly list about 16,000 lb thrust with afterburner for the J57-P-23 class installation; subvariant values should be checked before using exact thrust in a comparison table."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "The F-102 carried its weapons primarily in an internal bay: AIM-4 Falcon-series guided missiles and 2.75 in Folding-Fin Aerial Rockets on early/common fits, with later compatibility for AIM-26 Falcon missiles on upgraded aircraft. It did not have a fixed cannon.",
+      "caution": "Armament changed by block, upgrade, and period; do not apply every Falcon/rocket/AIM-26 combination to every aircraft."
     },
     "similar_development": [
+      {
+        "id": "f-106-delta-dart",
+        "name": "Convair F-106 Delta Dart",
+        "url": "https://en.wikipedia.org/wiki/Convair_F-106_Delta_Dart"
+      },
+      {
+        "id": "f-101-voodoo",
+        "name": "McDonnell F-101 Voodoo",
+        "url": "https://en.wikipedia.org/wiki/McDonnell_F-101_Voodoo"
+      },
       {
         "id": "f-4-phantom-ii",
         "name": "McDonnell Douglas F-4 Phantom II",
         "url": "aircraft.html?id=f-4-phantom-ii"
       },
       {
-        "id": "f-5-freedom-fighter-tiger-ii",
-        "name": "Northrop F-5",
-        "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
+        "id": "f-104-starfighter",
+        "name": "Lockheed F-104 Starfighter",
+        "url": "aircraft.html?id=f-104-starfighter"
       },
       {
-        "id": "f-8-crusader",
-        "name": "Vought F-8 Crusader",
-        "url": "aircraft.html?id=f-8-crusader"
-      },
-      {
-        "id": "f-14-tomcat",
-        "name": "Grumman F-14 Tomcat",
-        "url": "aircraft.html?id=f-14-tomcat"
+        "id": "f-100-super-sabre",
+        "name": "North American F-100 Super Sabre",
+        "url": "aircraft.html?id=f-100-super-sabre"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 38,
+      "operator_entries": 4,
+      "variant_entries": 6,
+      "external_article_sources": 4
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-nmusaf-f102a",
+        "title": "Convair F-102A Delta Dagger",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196120/convair-f-102a-delta-dagger/",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Museum fact sheet used for F-102A interceptor role, first operational supersonic/all-weather context, F-106 successor relationship, and representative aircraft background."
+      },
+      {
+        "id": "fn-globalaircraft-f102",
+        "title": "F-102 Delta Dagger",
+        "url": "https://www.globalaircraft.org/planes/f-102_delta_dagger.pl",
+        "publisher": "GlobalAircraft.org",
+        "note": "Supplementary technical source used for F-102A dimensions, J57 thrust figure, speed, ceiling, range, and missile/rocket armament summary."
+      },
+      {
+        "id": "fn-aerospaceweb-f102",
+        "title": "Convair F-102 Delta Dagger",
+        "url": "http://www.aerospaceweb.org/aircraft/fighter/f102/",
+        "publisher": "Aerospaceweb.org",
+        "note": "Supplementary reference retained for specifications and development cross-checking; public extraction was not available during this run, so facts were not uniquely dependent on it."
+      },
+      {
+        "id": "fn-wikipedia-f102",
         "title": "Convair F-102 Delta Dagger",
         "url": "https://en.wikipedia.org/wiki/Convair_F-102_Delta_Dagger",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation for variant names, operator overview, timeline, and references; official/museum and technical sources were preferred where available."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.aerospaceweb.org/aircraft/fighter/f102/",
-        "publisher": "aerospaceweb.org",
-        "note": "External source for Convair F-102 Delta Dagger."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.globalaircraft.org/planes/f-102_delta_dagger.pl",
-        "publisher": "globalaircraft.org",
-        "note": "External source for Convair F-102 Delta Dagger."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.mcchordairmuseum.org/REV%20B%20MAM%20COLLECTION%20F-102%20BORDER.htm",
-        "publisher": "mcchordairmuseum.org",
-        "note": "External source for Convair F-102 Delta Dagger."
+        "note": "Local rules for neutral wording, source handling, estimate labels, variant-sensitive specifications, and internal links."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
+        "id": "fn-nmusaf-f102a",
+        "title": "Convair F-102A Delta Dagger",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196120/convair-f-102a-delta-dagger/",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Museum fact sheet used for F-102A interceptor role, first operational supersonic/all-weather context, F-106 successor relationship, and representative aircraft background."
+      },
+      {
+        "id": "fn-globalaircraft-f102",
+        "title": "F-102 Delta Dagger",
+        "url": "https://www.globalaircraft.org/planes/f-102_delta_dagger.pl",
+        "publisher": "GlobalAircraft.org",
+        "note": "Supplementary technical source used for F-102A dimensions, J57 thrust figure, speed, ceiling, range, and missile/rocket armament summary."
+      },
+      {
+        "id": "fn-aerospaceweb-f102",
+        "title": "Convair F-102 Delta Dagger",
         "url": "http://www.aerospaceweb.org/aircraft/fighter/f102/",
-        "publisher": "aerospaceweb.org",
-        "note": "External source for Convair F-102 Delta Dagger."
+        "publisher": "Aerospaceweb.org",
+        "note": "Supplementary reference retained for specifications and development cross-checking; public extraction was not available during this run, so facts were not uniquely dependent on it."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.globalaircraft.org/planes/f-102_delta_dagger.pl",
-        "publisher": "globalaircraft.org",
-        "note": "External source for Convair F-102 Delta Dagger."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.mcchordairmuseum.org/REV%20B%20MAM%20COLLECTION%20F-102%20BORDER.htm",
-        "publisher": "mcchordairmuseum.org",
-        "note": "External source for Convair F-102 Delta Dagger."
+        "id": "fn-wikipedia-f102",
+        "title": "Convair F-102 Delta Dagger",
+        "url": "https://en.wikipedia.org/wiki/Convair_F-102_Delta_Dagger",
+        "publisher": "Wikipedia",
+        "note": "Supplementary orientation for variant names, operator overview, timeline, and references; official/museum and technical sources were preferred where available."
       }
     ],
     "article_sections": [
@@ -10031,20 +10085,24 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Convair F-102 Delta Dagger is an Interceptor from United States. Manufacturer: Convair. First flight: 1953. Introduction: 1956. Status: Retired.",
+            "text": "The Convair F-102 Delta Dagger was a single-seat Cold War interceptor built to defend North America and overseas bases against high-speed bomber threats. It brought a delta wing, afterburning J57 turbojet power, radar-directed missile armament, and SAGE-era alert operations into U.S. Air Defense Command service.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf-f102a",
+              "fn-wikipedia-f102"
             ]
           },
           {
-            "text": "Convair F-102 Delta Dagger is a fighter. Primary role: interceptor. Country of origin: United States. Manufacturer: Convair.",
+            "text": "The aircraft is important less as a maneuvering fighter than as an early integrated all-weather missile interceptor. Public museum and technical references describe it as the USAF's first operational supersonic all-weather interceptor and first operational delta-wing fighter, while also noting that the later F-106 Delta Dart was a much more capable development path.",
             "refs": [
-              "fn-wikidata"
+              "fn-nmusaf-f102a",
+              "fn-globalaircraft-f102",
+              "fn-method"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "This update treats figures such as speed, range, ceiling, and production as representative F-102A public-source values. Exact totals and loads vary with prototypes, TF-102 trainers, later drone conversions, and upgrade blocks.",
             "refs": [
+              "fn-globalaircraft-f102",
               "fn-method"
             ]
           }
@@ -10052,51 +10110,64 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Interceptor"
+            "text": "All-weather supersonic interceptor"
           },
           {
-            "title": "Designer or builder",
-            "text": "Convair"
+            "title": "First flight",
+            "text": "YF-102: 24 October 1953; redesigned YF-102A in 1954"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Service entry",
+            "text": "1956 with USAF air-defense units"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Defining feature",
+            "text": "Area-ruled delta-wing interceptor with internal missile/rocket bay"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Convair F-102 Delta Dagger first flew in 1953. Introduction date: 1956. Era: Cold War.",
+            "text": "The F-102 came from the USAF's late-1940s requirement for a 1954-generation interceptor centered on radar/fire-control integration rather than a conventional gun-fighter formula. Convair's delta-wing approach promised high-speed climb and all-weather interception, but it was highly dependent on successful transonic aerodynamics and systems integration.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf-f102a",
+              "fn-wikipedia-f102"
             ]
           },
           {
-            "text": "Producer: Convair. Development context: interceptor, jet propulsion, supersonic speed category, Cold War era.",
+            "text": "The original YF-102 first flew in October 1953 and quickly demonstrated that the design could not reach the expected supersonic performance. Convair then reshaped the fuselage according to the area rule, producing the 'wasp-waisted' YF-102A/F-102A form that reduced transonic drag and allowed the aircraft to enter production.",
             "refs": [
-              "fn-wikidata"
+              "fn-nmusaf-f102a",
+              "fn-wikipedia-f102"
+            ]
+          },
+          {
+            "text": "Production F-102As entered service in 1956, while the broader interceptor system around the aircraft evolved rapidly. The program's lessons fed directly into the F-106 Delta Dart, which began as an improved F-102B concept before becoming a separate, higher-performance interceptor.",
+            "refs": [
+              "fn-nmusaf-f102a",
+              "fn-wikipedia-f102"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Requirement",
+            "text": "USAF 1954 Ultimate Interceptor / all-weather air-defense requirement"
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Problem solved",
+            "text": "Area-rule redesign after early transonic drag shortfall"
+          },
+          {
+            "title": "Production focus",
+            "text": "F-102A single-seater plus TF-102A trainer"
+          },
+          {
+            "title": "Successor path",
+            "text": "F-102B concept evolved into the F-106 Delta Dart"
           }
         ]
       },
@@ -10105,107 +10176,89 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The F-102A used a tailless delta wing, tricycle landing gear, side inlets, and an internally carried weapons package. The delta planform suited high-speed interception, but the aircraft was not optimized for close-in turning combat and should not be described as a multirole fighter-bomber in the later F-4 or F-16 sense.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Carrier capable: no. Stealth: no.",
-            "refs": [
+              "fn-nmusaf-f102a",
               "fn-method"
             ]
           },
           {
-            "text": "Convair F-102 Delta Dagger uses jet propulsion. Engine model field: Not listed.",
+            "text": "Its weapons bay reduced drag for the missile-interceptor mission. Typical public descriptions list Falcon guided missiles and 2.75 in rockets, with later upgraded aircraft able to carry AIM-26 Falcon weapons. The F-102 had no fixed gun, correcting the previous generic page text.",
             "refs": [
-              "fn-main"
+              "fn-globalaircraft-f102",
+              "fn-wikipedia-f102",
+              "fn-method"
             ]
           },
           {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
+            "text": "The J57 afterburning turbojet gave the F-102A Mach 1-class speed and a public-source ceiling around 55,000 ft. Performance values should be treated as representative because trainer aircraft, drone conversions, fuel/loadout combinations, and source definitions differ.",
             "refs": [
-              "fn-main"
+              "fn-globalaircraft-f102",
+              "fn-method"
             ]
           }
         ],
         "cards": [
           {
+            "title": "Airframe",
+            "text": "Single-engine delta wing with area-ruled fuselage"
+          },
+          {
             "title": "Crew",
-            "text": "1"
+            "text": "One pilot; TF-102A trainer seated two side-by-side"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Powerplant",
+            "text": "Pratt & Whitney J57 afterburning turbojet"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
-          },
-          {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Weapons concept",
+            "text": "Internal Falcon missile and rocket bay; no fixed cannon"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Convair F-102 Delta Dagger status: Retired. Conflict entries: 0.",
+            "text": "Representative F-102A figures: length about 68 ft 4 in including probe/boom, wingspan about 38 ft 1 in, height about 21 ft 2 in, and maximum takeoff weight about 31,559 lb in GlobalAircraft's public table.",
             "refs": [
-              "fn-main"
+              "fn-globalaircraft-f102"
             ]
           },
           {
-            "text": "Conflicts: 0 entries.",
+            "text": "Performance examples include about 810 mph maximum speed, 55,000 ft service ceiling, and about 1,000 miles range. These are not presented as universal values for every F-102 subvariant, training aircraft, or drone conversion.",
             "refs": [
+              "fn-globalaircraft-f102",
               "fn-method"
             ]
           }
         ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
+        "cards": [
           {
-            "text": "Convair F-102 Delta Dagger named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "About 68 ft 4 in (including boom/probe, source wording varies)"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Wingspan",
+            "text": "About 38 ft 1 in"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum takeoff weight",
+            "text": "About 31,559 lb"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Speed / ceiling",
+            "text": "About 810 mph; about 55,000 ft ceiling"
+          },
+          {
+            "title": "Range",
+            "text": "About 1,000 miles public-source example"
+          },
+          {
+            "title": "Armament",
+            "text": "Falcon missiles and 2.75 in rockets in internal bay; no fixed gun"
           }
         ]
       },
@@ -10214,35 +10267,43 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Convair F-102 Delta Dagger variant-family entries: 3. Variant families: Convair F-102 Delta Dagger baseline production model; Convair F-102 Delta Dagger upgraded avionics or weapons-capable model; Convair F-102 Delta Dagger export or locally modernized model.",
+            "text": "The F-102 family is best understood as a short but important chain: original YF-102 prototypes, area-ruled YF-102A/pre-production aircraft, the main F-102A interceptor, the TF-102A trainer, and later QF/PQM target-drone conversions. The F-106 should be linked as a related successor, not folded into F-102A production totals.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
+              "fn-wikipedia-f102",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Convair F-102 Delta Dagger baseline production model",
+            "text": "YF-102 — original prototype configuration before area-rule redesign.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia-f102"
             ]
           },
           {
-            "text": "Convair F-102 Delta Dagger upgraded avionics or weapons-capable model",
+            "text": "YF-102A — redesigned area-ruled prototypes/pre-production development aircraft.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia-f102"
             ]
           },
           {
-            "text": "Convair F-102 Delta Dagger export or locally modernized model",
+            "text": "F-102A — main all-weather interceptor production version.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf-f102a",
+              "fn-wikipedia-f102"
+            ]
+          },
+          {
+            "text": "TF-102A — two-seat trainer with a widened forward fuselage.",
+            "refs": [
+              "fn-wikipedia-f102"
+            ]
+          },
+          {
+            "text": "QF/PQM-102 — retired airframes converted for target-drone and missile-test roles.",
+            "refs": [
+              "fn-wikipedia-f102"
             ]
           }
         ]
@@ -10252,13 +10313,14 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Convair F-102 Delta Dagger has 1 designer or builder country entry.",
+            "text": "The United States was the principal operator through Air Defense Command, overseas USAF units, Pacific deployments, and later Air National Guard service. Greece and Turkey received ex-U.S. aircraft, extending the type's service life into the late 1970s.",
             "refs": [
-              "fn-wikidata"
+              "fn-nmusaf-f102a",
+              "fn-wikipedia-f102"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Operator numbers and individual aircraft histories vary by source and by whether TF-102A trainers are included, so this page gives role-level operator coverage rather than a single definitive fleet table.",
             "refs": [
               "fn-method"
             ]
@@ -10266,43 +10328,166 @@
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "United States Air Force / Air Defense Command — primary all-weather interceptor operator.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf-f102a"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "Air National Guard — continued U.S. alert/training service after many active units re-equipped.",
             "refs": [
-              "fn-wikidata"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "specifications",
-        "title": "Specifications",
-        "paragraphs": [
-          {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Supersonic, first flight 1953, introduction 1956.",
-            "refs": [
-              "fn-main"
+              "fn-wikipedia-f102"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Hellenic Air Force — operated ex-U.S. F-102A/TF-102A aircraft.",
             "refs": [
+              "fn-wikipedia-f102"
+            ]
+          },
+          {
+            "text": "Turkish Air Force — operated ex-U.S. F-102A/TF-102A aircraft; exact totals vary by source.",
+            "refs": [
+              "fn-wikipedia-f102",
               "fn-method"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Convair F-102 Delta Dagger similar-development links: 4.",
+            "text": "In U.S. service the F-102 stood alert as part of the Cold War air-defense network. Its mission was to climb under ground-control and radar direction, intercept incoming bombers, and fire guided weapons from an internal bay rather than dogfight with guns.",
+            "refs": [
+              "fn-nmusaf-f102a",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "F-102 units deployed to Southeast Asia during the Vietnam War. Public summaries describe air-defense and escort duties, plus limited ground-attack/support use in some periods; this update avoids detailed sortie and loss totals because open-source counts vary.",
+            "refs": [
+              "fn-wikipedia-f102",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "By the mid-to-late 1960s the type increasingly moved to Air National Guard units as F-101, F-4, and F-106 aircraft covered more demanding missions. U.S. operational retirement came in 1976, while target-drone conversions continued the airframe's utility in testing.",
+            "refs": [
+              "fn-nmusaf-f102a",
+              "fn-wikipedia-f102"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Compared with the F-100 Super Sabre and F-104 Starfighter, the F-102 was more specialized around all-weather interception and internal missile carriage than tactical attack or point-speed record performance. Compared with the F-106, it was the earlier and less capable member of the Convair delta-interceptor line.",
+            "refs": [
+              "fn-method",
+              "fn-wikipedia-f102"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "North American F-100 Super Sabre",
+            "url": "aircraft.html?id=f-100-super-sabre"
+          },
+          {
+            "label": "Lockheed F-104 Starfighter",
+            "url": "aircraft.html?id=f-104-starfighter"
+          },
+          {
+            "label": "McDonnell Douglas F-4 Phantom II",
+            "url": "aircraft.html?id=f-4-phantom-ii"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths included all-weather interception, a low-drag internal weapons bay, delta-wing high-speed capability, and the program's successful recovery from early transonic drag problems through area-rule shaping.",
+            "refs": [
+              "fn-nmusaf-f102a",
+              "fn-globalaircraft-f102"
+            ]
+          },
+          {
+            "text": "Limitations included dependence on period radar/fire-control technology, lack of a fixed gun, limited multirole flexibility, and rapid obsolescence as more capable interceptors and fighters entered service.",
+            "refs": [
+              "fn-method",
+              "fn-wikipedia-f102"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: first-generation supersonic all-weather interceptor capability for USAF alert forces.",
+            "refs": [
+              "fn-nmusaf-f102a"
+            ]
+          },
+          {
+            "text": "Strength: area-rule redesign made the production aircraft viable after prototype shortfalls.",
+            "refs": [
+              "fn-nmusaf-f102a"
+            ]
+          },
+          {
+            "text": "Limitation: specialized bomber-interceptor weapons fit, not a broad close-air-combat or strike platform.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: quickly overshadowed by the F-106 Delta Dart and later multirole fighters.",
+            "refs": [
+              "fn-wikipedia-f102"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "Key dates: 1948-1949 USAF interceptor requirement work; 24 October 1953 YF-102 first flight; 1954 area-rule YF-102A testing; 1956 F-102A service entry; 1960s Southeast Asia deployments and Air National Guard transfers; 1976 U.S. operational retirement; later QF/PQM drone use.",
+            "refs": [
+              "fn-nmusaf-f102a",
+              "fn-wikipedia-f102"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Best-source priority for this update was museum/official material, then public technical tables, then Wikipedia for orientation and cross-checking. Exact subvariant production totals, combat-loss counts, drone-conversion counts, and missile clearances should be verified before use in a numeric comparison graphic.",
+            "refs": [
+              "fn-nmusaf-f102a",
+              "fn-globalaircraft-f102",
+              "fn-wikipedia-f102",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages emphasize U.S. Century Series and later fighter/interceptor context. The F-106 and F-101 are noted as external related aircraft because local pages for them were not found in this run.",
             "refs": [
               "fn-method"
             ]
@@ -10310,20 +10495,24 @@
         ],
         "links": [
           {
+            "label": "North American F-100 Super Sabre",
+            "url": "aircraft.html?id=f-100-super-sabre"
+          },
+          {
+            "label": "Lockheed F-104 Starfighter",
+            "url": "aircraft.html?id=f-104-starfighter"
+          },
+          {
             "label": "McDonnell Douglas F-4 Phantom II",
             "url": "aircraft.html?id=f-4-phantom-ii"
           },
           {
-            "label": "Northrop F-5",
-            "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
+            "label": "Convair F-106 Delta Dart (external)",
+            "url": "https://en.wikipedia.org/wiki/Convair_F-106_Delta_Dart"
           },
           {
-            "label": "Vought F-8 Crusader",
-            "url": "aircraft.html?id=f-8-crusader"
-          },
-          {
-            "label": "Grumman F-14 Tomcat",
-            "url": "aircraft.html?id=f-14-tomcat"
+            "label": "Back to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }

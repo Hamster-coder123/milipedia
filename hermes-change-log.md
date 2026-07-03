@@ -6007,3 +6007,81 @@ Record the result of:
 * Public production totals differ by source (Saab history cites 329, while Saab Finland and Swedish Air Force Historic Flight cite 337), so the page uses source-qualified range wording.
 * Viggen specifications, engines, armament, avionics, and weights vary significantly across AJ/AJS, JA, reconnaissance, trainer, and SK37E variants, so representative values are explicitly caveated.
 * The Viggen page is rendered through data/aircraft.json rather than the bespoke static F-16 HTML, so the formatting match is structural and density-based rather than identical markup.
+
+### Run 79 — 2026-07-03 21:04:48 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Convair F-102 Delta Dagger (id: f-102-delta-dagger)
+* Reason selected: After excluding pages already substantially updated by Hermes, the F-102 was one of the shortest unedited aircraft entries, with no real variants, no operator entries, placeholder specifications, generic fighter armament text, and generated sections far below the F-16 reference density.
+* Previous condition: Sparse generated entry with 0 variant entries, 0 operator entries, missing engine/range/ceiling/production/detail fields, generic source labels, no accurate F-102A weapons-bay wording, and no F-16-style development, design, specifications, variants, operators, operational-history, comparison, timeline, source-note, or related-page depth.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview paragraphs and fact cards; article-section order covering overview, development history, design/capabilities, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, sources, and related pages; concise sourced technical prose; representative specification caveats; internal related-link style using aircraft.html?id=...; source notes that explain variant and public-data uncertainty.
+
+#### Changes Made
+
+* Expanded only the Convair F-102 Delta Dagger entry in data/aircraft.json from a sparse generated record into a fuller Milipedia aircraft page.
+* Updated top-level facts for alternative names, role, aircraft type, first flight, retirement/status, production caveat, crew, engine family, maximum speed, range, service ceiling, armament, hardpoints, development history, combat/service summary, and short summary.
+* Replaced misleading generic gun/air-to-ground/external-stores wording with F-102-specific internal weapons-bay language covering Falcon air-to-air missiles, 2.75 in rockets, later AIM-26 compatibility, and no fixed gun.
+* Added F-102-specific sources from the National Museum of the United States Air Force, GlobalAircraft.org, Aerospaceweb.org as a retained cross-check reference, supplementary Wikipedia orientation, and Milipedia accuracy rules.
+* Added detailed F-16-style article sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Comparison, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added technical and development context for the USAF 1954-interceptor requirement, original YF-102 drag/performance shortfall, area-rule redesign, delta-wing configuration, J57 afterburning turbojet, SAGE-era alert role, internal missile/rocket bay, representative dimensions, speed, ceiling, and range.
+* Added variant coverage for YF-102, YF-102A, F-102A, TF-102A, F-102B/F-106 lineage, and QF/PQM-102 target-drone conversions.
+* Added operator coverage for the U.S. Air Force/Air Defense Command, Air National Guard, Hellenic Air Force, and Turkish Air Force with caveats where exact totals vary.
+* Added operational-history context for Cold War air-defense alert duty, Southeast Asia deployments during the Vietnam War, Air National Guard transition, replacement by F-101/F-4/F-106 capabilities, and target-drone afterlife.
+* Added related internal links to F-100, F-104, and F-4 Milipedia pages; F-101 and F-106 were retained as external related links because no local aircraft ids were found.
+* Omitted exact drone-conversion totals, detailed combat-loss tables, universal combat radius, and one-size-fits-all missile clearances because public sources vary by block, conversion, period, and counting method.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Convair F-102 Delta Dagger aircraft page data, sources, sections, specifications, variants, operators, weapons wording, and related links.
+* hermes-change-log.md — Appended the cumulative Run 79 log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed diff/stat; data/aircraft.json changes are limited to the f-102-delta-dagger entry, and hermes-change-log.md adds this Run 79 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the F-102 entry's top-level fields, sections, source list, variants, operators, armament correction, representative specification caveats, and related links.
+4. F-16 style comparison — Inspected data/f16-template.html and copied its dense lead, section order, sourced paragraphs, specification emphasis, variants/operators/service/comparison/timeline coverage, source notes, and related-page patterns within the JSON-rendered article system.
+5. Internal link check — Verified aircraft.html?id=f-100-super-sabre, aircraft.html?id=f-104-starfighter, and aircraft.html?id=f-4-phantom-ii target existing aircraft ids in data/aircraft.json; F-101 and F-106 related links are intentionally external because no local ids were present.
+6. Secret/token check — Ran a credential-specific scan over the staged diff for private keys, cloud credential names, passwords, and access/auth token patterns; no credentials were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, diff check, intended files only, Convair F-102 Delta Dagger was not previously substantially edited by Hermes, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Convair F-102 Delta Dagger
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* Web search/extract tooling returned external 432 errors during source discovery; direct URL retrieval and existing repository source references were used instead.
+* The National Museum of the United States Air Force page blocked direct programmatic extraction in this environment, but its stable fact-sheet URL is retained as the preferred museum reference.
+* F-102 production totals, drone-conversion counts, combat-loss details, and weapons fits vary by source, subvariant, upgrade, and counting method, so the page uses representative/caveated wording rather than exact universal tables.
