@@ -58791,34 +58791,106 @@
   {
     "id": "saab-35-draken",
     "name": "Saab 35 Draken",
-    "alternative_names": [],
+    "alternative_names": [
+      "J 35 Draken",
+      "Fpl 35",
+      "Flygplan 35",
+      "Draken (Dragon/Kite)"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "Sweden",
-    "manufacturer": "Saab",
-    "role": "Fighter/interceptor",
+    "manufacturer": "Saab / Svenska Aeroplan AB",
+    "role": "Supersonic fighter-interceptor and limited attack/reconnaissance aircraft",
     "aircraft_type": "Fighter",
     "era": "Cold War",
-    "first_flight": "1955",
-    "introduction_date": "1960",
-    "retirement_date": "Not listed",
-    "status": "Retired",
-    "number_built": "Not listed",
-    "crew": "1",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "first_flight": "25 October 1955",
+    "introduction_date": "March 1960 frontline Swedish Air Force service",
+    "retirement_date": "Sweden retired the type in 1999; Austria retired its Drakens in 2005",
+    "status": "Retired from military service; preserved and flown by museums/private operators in limited cases",
+    "number_built": "About 615-651 aircraft depending on source basis and inclusion of prototypes/export batches",
+    "crew": "1 in fighter/reconnaissance versions; 2 in Sk 35C and TF-35 trainers",
+    "engine_type": "Single afterburning turbojet",
+    "engines": "One Svenska Flygmotor/Volvo Flygmotor RM6, a licensed Rolls-Royce Avon family engine; J 35J museum data lists RM6C with 7,750 kgf thrust",
+    "max_speed": "Mach 2 class; museum data lists 2,125 km/h for J 35J and 1,520 mph for RF-35",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Saab 35 Draken: Fighter/interceptor. Manufacturer: Saab. First flight: 1955. Introduction: 1960.",
-    "short_summary": "Saab 35 Draken: Fighter/interceptor. Origin: Sweden. Manufacturer: Saab. First flight: 1955. Introduction: 1960. Status: Retired.",
+    "range": "Pima RF-35 data lists 1,710 miles; Polish Aviation Museum J 35J data lists 2,840 km ferry range",
+    "combat_range": "Variant, tank, stores, and profile dependent; not fixed as one universal number in the cited sources",
+    "service_ceiling": "About 20,000 m / 66,000 ft in cited museum data",
+    "rate_of_climb": "High interceptor climb performance; exact figure varies by variant/source and is not fixed here",
+    "armament": "Aden 30 mm cannon installation depending on variant, AIM-9/Swedish Sidewinder-family missiles, Swedish RB-27/RB-28 missiles on later J 35F/J aircraft, bombs, rockets, reconnaissance equipment, tanks, and export-specific stores.",
+    "hardpoints": "J 35J museum page describes eight underwing/underfuselage hardpoints; Danish and other export fits varied by version",
+    "variants": [
+      {
+        "name": "Saab 210 / Lilldraken",
+        "description": "Sub-scale double-delta test aircraft used to validate the unusual wing planform before the full-size Draken."
+      },
+      {
+        "name": "J 35A",
+        "description": "Early Swedish fighter version; first production family and the initial step from prototype to operational Draken service."
+      },
+      {
+        "name": "J 35B",
+        "description": "More capable Swedish interceptor integrated with the STRIL 60 air-defense system according to museum summaries."
+      },
+      {
+        "name": "Sk 35C",
+        "description": "Two-seat trainer conversion used for Draken conversion and continuation training."
+      },
+      {
+        "name": "J 35D",
+        "description": "Improved Swedish fighter with stronger RM6C-family powerplant and better performance than early aircraft."
+      },
+      {
+        "name": "S 35E",
+        "description": "Reconnaissance version with camera equipment replacing parts of the fighter installation."
+      },
+      {
+        "name": "J 35F",
+        "description": "Major Swedish fighter modernization with updated fire-control equipment and missile armament; later basis for the J 35J update."
+      },
+      {
+        "name": "J 35J",
+        "description": "Late Swedish modernization of 66 J 35F aircraft between 1987 and 1991 with avionics changes and AIM-9L capability."
+      },
+      {
+        "name": "Danish F-35 / RF-35 / TF-35",
+        "description": "Export versions for Denmark including single-seat attack, reconnaissance, and two-seat trainer aircraft."
+      },
+      {
+        "name": "Finnish J 35 / 35XS and Austrian J 35Ö",
+        "description": "Export and refurbished national-service versions for Finland and Austria, with local service equipment and retirement dates differing by operator."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Sweden",
+        "service": "Swedish Air Force",
+        "notes": "Original and largest operator; used the Draken as a national air-defense fighter from 1960 until retirement in 1999 after replacement by Viggen and Gripen families."
+      },
+      {
+        "country": "Denmark",
+        "service": "Royal Danish Air Force",
+        "notes": "Operated more than 50 Danish Draken variants, including F-35 attack, RF-35 reconnaissance, and TF-35 trainer aircraft; surviving airframes later appeared in museums and training use."
+      },
+      {
+        "country": "Finland",
+        "service": "Finnish Air Force",
+        "notes": "Operated Draken fighters as part of Finland's Cold War air-defense force, including Swedish-built and Finnish-associated versions."
+      },
+      {
+        "country": "Austria",
+        "service": "Austrian Air Force",
+        "notes": "Purchased refurbished J 35D aircraft redesignated J 35Ö; Austria was the last military Draken operator and retired the type in 2005."
+      },
+      {
+        "country": "United States",
+        "service": "Civil/test-pilot and adversary-training use of former Danish aircraft",
+        "notes": "Former Danish Drakens were exported after service for U.S. training and private/civil operations rather than U.S. military front-line service."
+      }
+    ],
+    "combat_history": "The Draken was a Cold War air-defense fighter and export interceptor but is not generally recorded as having been used in combat by its military operators.",
+    "development_history": "Swedish work on a supersonic interceptor began in the late 1940s under engineer Erik Bratt and Saab. Requirements emphasized Mach-class speed, high climb rate, all-weather interception, national-range coverage, road-base/short-field operation, maintainability, and small dimensions. Saab adopted the double-delta wing in 1951, tested it with the Saab 210, flew the full-scale Draken prototype on 25 October 1955, and introduced the aircraft into Swedish frontline service in 1960.",
+    "short_summary": "The Saab 35 Draken was a Swedish single-engine Mach-2-class fighter-interceptor built around an innovative double-delta wing. Developed for Sweden's Cold War air-defense network, it entered service in 1960, served in Swedish, Danish, Finnish, and Austrian air forces, and became notable for combining high speed, road-base practicality, Scandinavian export service, and distinctive handling qualities.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -58831,39 +58903,32 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-pima",
+        "title": "SAAB RF 35 Draken",
+        "url": "https://pimaair.org/museum-aircraft/saab-35-draken",
+        "publisher": "Pima Air & Space Museum",
+        "note": "Museum aircraft page used for RF-35 overview, double-delta/Mach-2 description, Danish export variants, dimensions, speed, ceiling, range, engine, and crew."
+      },
+      {
+        "id": "fn-polish-museum",
+        "title": "SAAB J 35J Draken",
+        "url": "https://muzeumlotnictwa.pl/en/exhibits/saab-j-35j-draken-2",
+        "publisher": "Polish Aviation Museum",
+        "note": "Museum page used for Swedish requirements, Erik Bratt, double-delta adoption, prototype date, production-family sequence, J 35J modernization, export users, production count basis, J 35J technical data, and armament."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Saab 35 Draken",
         "url": "https://en.wikipedia.org/wiki/Saab_35_Draken",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for broad variant/operator cross-checking and retirement context; not used alone for detailed technical claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.warbirdalley.com/draken.htm",
-        "publisher": "warbirdalley.com",
-        "note": "External source for Saab 35 Draken."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.doppeladler.com/oebh/luftfahrzeuge/draken.htm",
-        "publisher": "doppeladler.com",
-        "note": "External source for Saab 35 Draken."
+        "note": "Repository-local guidance: use conservative wording where production totals, variant equipment, weapons, and date-sensitive operator details vary by source."
       }
     ],
     "country_flags": [
@@ -58873,122 +58938,129 @@
       }
     ],
     "designers": [
-      "Saab"
+      "Saab",
+      "Erik Bratt and Saab design team"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Combining Mach-2-class interception, climb, and all-weather capability with Sweden's need for dispersed road-base operation and fast turnaround.",
+      "Using an innovative double-delta wing before full-scale operational experience existed, requiring Saab 210 sub-scale testing and careful pilot conversion.",
+      "Balancing interceptor radar/missile requirements against limited internal volume, fuel, and the need for small dimensions and maintainability."
     ],
-    "wars_used_in": [],
+    "wars_used_in": [
+      "Cold War air-defense service",
+      "No generally recorded combat use by military operators"
+    ],
     "variant_families": [
-      "Saab 35 Draken baseline production model",
-      "Saab 35 Draken upgraded avionics or weapons-capable model",
-      "Saab 35 Draken export or locally modernized model"
+      "Saab 210 test aircraft",
+      "J 35A/B/D/F/J Swedish fighters",
+      "Sk 35C trainers",
+      "S 35E/RF-35 reconnaissance variants",
+      "Danish F-35/RF-35/TF-35 exports",
+      "Finnish 35XS/J 35 service",
+      "Austrian J 35Ö"
     ],
     "operator_summary": {
-      "major_designer_or_builder": [
-        "Sweden"
+      "primary_users": [
+        "Swedish Air Force",
+        "Royal Danish Air Force",
+        "Finnish Air Force",
+        "Austrian Air Force"
       ],
-      "major_user_note": "Saab 35 Draken has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "notes": "The Draken remained a primarily European Cold War fighter family, with Sweden as the main user and Denmark, Finland, and Austria as military export operators."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "Erik Bratt is associated with the design leadership in museum summaries.",
+        "Saab 210/Lilldraken is notable as the sub-scale double-delta proof aircraft."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "No major combat-use incidents were added in this run.",
+        "The type is widely associated with early tactical cobra-maneuver demonstrations, but this is treated as handling/public-reputation context rather than combat evidence."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Saab 35 Draken uses jet propulsion."
+      "type": "Single afterburning turbojet",
+      "models": [
+        "Svenska Flygmotor / Volvo Flygmotor RM6 family, licensed Rolls-Royce Avon derivative",
+        "RM6C on J 35J and RF-35 museum examples"
+      ],
+      "notes": "Public museum pages list RM6C-family power; exact thrust and engine subvariant differ by Draken model."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "guns": [
+        "Aden 30 mm cannon installation; later J 35F/J Swedish fighters carried reduced cannon fit compared with earlier twin-cannon arrangements"
+      ],
+      "air_to_air": [
+        "AIM-9 / Swedish Sidewinder-family missiles",
+        "RB-27 and RB-28 missiles on J 35F/J context from museum source"
+      ],
+      "air_to_ground": [
+        "Bombs and unguided rocket launchers on suitable variants, especially export/attack configurations"
+      ],
+      "notes": "Weapons and reconnaissance equipment varied substantially between Swedish interceptor, Danish attack/reconnaissance, Finnish, Austrian, and trainer versions."
     },
     "similar_development": [
       {
-        "id": "f-4-phantom-ii",
-        "name": "McDonnell Douglas F-4 Phantom II",
-        "url": "aircraft.html?id=f-4-phantom-ii"
+        "id": "saab-37-viggen",
+        "name": "Saab 37 Viggen",
+        "url": "aircraft.html?id=saab-37-viggen"
       },
       {
-        "id": "f-5-freedom-fighter-tiger-ii",
-        "name": "Northrop F-5",
-        "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
+        "id": "jas-39-gripen",
+        "name": "Saab JAS 39 Gripen",
+        "url": "aircraft.html?id=jas-39-gripen"
       },
       {
-        "id": "f-8-crusader",
-        "name": "Vought F-8 Crusader",
-        "url": "aircraft.html?id=f-8-crusader"
+        "id": "mirage-iii",
+        "name": "Dassault Mirage III",
+        "url": "aircraft.html?id=mirage-iii"
       },
       {
-        "id": "f-14-tomcat",
-        "name": "Grumman F-14 Tomcat",
-        "url": "aircraft.html?id=f-14-tomcat"
+        "id": "f-104-starfighter",
+        "name": "Lockheed F-104 Starfighter",
+        "url": "aircraft.html?id=f-104-starfighter"
+      },
+      {
+        "id": "mig-21",
+        "name": "Mikoyan-Gurevich MiG-21",
+        "url": "aircraft.html?id=mig-21"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 2
+      "exact_fact_count": 42,
+      "operator_entries": 5,
+      "variant_entries": 10,
+      "external_article_sources": 4
     },
     "footnotes": [
       {
-        "id": "fn-main",
-        "title": "Saab 35 Draken",
-        "url": "https://en.wikipedia.org/wiki/Saab_35_Draken",
-        "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "id": "fn-pima",
+        "text": "Pima Air & Space Museum data is for an RF-35 Danish reconnaissance example and should not be treated as universal for every Swedish fighter or trainer variant."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "id": "fn-polish-museum",
+        "text": "Polish Aviation Museum data is for a J 35J example and is used as a representative late Swedish Draken technical baseline."
       },
       {
         "id": "fn-method",
-        "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
-        "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.warbirdalley.com/draken.htm",
-        "publisher": "warbirdalley.com",
-        "note": "External source for Saab 35 Draken."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.doppeladler.com/oebh/luftfahrzeuge/draken.htm",
-        "publisher": "doppeladler.com",
-        "note": "External source for Saab 35 Draken."
+        "text": "Production totals differ between public sources because some count bases include different prototype, Swedish, and export categories; this page reports a cautious range rather than forcing one number."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.warbirdalley.com/draken.htm",
-        "publisher": "warbirdalley.com",
-        "note": "External source for Saab 35 Draken."
+        "title": "SAAB RF 35 Draken",
+        "url": "https://pimaair.org/museum-aircraft/saab-35-draken",
+        "publisher": "Pima Air & Space Museum"
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.doppeladler.com/oebh/luftfahrzeuge/draken.htm",
-        "publisher": "doppeladler.com",
-        "note": "External source for Saab 35 Draken."
+        "title": "SAAB J 35J Draken",
+        "url": "https://muzeumlotnictwa.pl/en/exhibits/saab-j-35j-draken-2",
+        "publisher": "Polish Aviation Museum"
+      },
+      {
+        "title": "Saab 35 Draken",
+        "url": "https://en.wikipedia.org/wiki/Saab_35_Draken",
+        "publisher": "Wikipedia"
       }
     ],
     "article_sections": [
@@ -58997,71 +59069,102 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Saab 35 Draken is a Fighter/interceptor from Sweden. Manufacturer: Saab. First flight: 1955. Introduction: 1960. Status: Retired.",
+            "text": "The Saab 35 Draken was a Swedish single-engine fighter-interceptor developed by Saab for national air defense during the Cold War. Its most recognizable engineering feature was the double-delta wing: a sharper inner delta for volume and high-speed lift combined with an outer delta planform for lower-speed handling and landing behavior.",
             "refs": [
-              "fn-main"
+              "fn-pima",
+              "fn-polish-museum"
             ]
           },
           {
-            "text": "Saab 35 Draken is a fighter. Primary role: fighter/interceptor. Country of origin: Sweden. Manufacturer: Saab.",
+            "text": "The program was built around Sweden's specific operating model: intercept high-altitude bombers and hostile aircraft, cover a dispersed national air-defense network, operate from short and road-like airstrips, and return to combat readiness quickly with a relatively small ground crew.",
             "refs": [
-              "fn-wikidata"
+              "fn-polish-museum"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Although designed first as an interceptor rather than a dogfighter, the Draken became known for strong instantaneous turning and distinctive handling. It is often cited as one of the first operational combat aircraft able to reach Mach 2 in level flight, and it became a long-lived export fighter in Denmark, Finland, and Austria.",
             "refs": [
-              "fn-method"
+              "fn-pima",
+              "fn-wikipedia"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Fighter/interceptor"
+            "text": "Supersonic fighter-interceptor"
           },
           {
-            "title": "Designer or builder",
-            "text": "Saab"
+            "title": "Wing concept",
+            "text": "Double-delta tailless layout"
           },
           {
-            "title": "Major origin",
-            "text": "Sweden"
+            "title": "First flight",
+            "text": "25 October 1955"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Service entry",
+            "text": "1960 with Sweden"
+          },
+          {
+            "title": "Main users",
+            "text": "Sweden, Denmark, Finland, Austria"
+          },
+          {
+            "title": "Status",
+            "text": "Retired from military service"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Saab 35 Draken first flew in 1955. Introduction date: 1960. Era: Cold War.",
+            "text": "Swedish studies for a new supersonic fighter began in the late 1940s. The Polish Aviation Museum summary identifies engineer Erik Bratt as leading early work and describes requirements set with the Swedish Air Force for supersonic speed, high climb rate, all-weather capability, national-range coverage, short takeoff and landing, road-base operation, maintainability, and compact dimensions.",
             "refs": [
-              "fn-main"
+              "fn-polish-museum"
             ]
           },
           {
-            "text": "Producer: Saab. Development context: fighter/interceptor, jet propulsion, supersonic speed category, Cold War era.",
+            "text": "Saab selected the double-delta configuration in 1951. Because the layout was unusual, Saab first validated it with the Saab 210 sub-scale test aircraft before committing the full-size fighter to production development.",
             "refs": [
-              "fn-wikidata"
+              "fn-polish-museum",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "The Draken prototype first flew in October 1955. A production J 35A flew in 1958, followed by trainer, interceptor, reconnaissance, and later modernized fighter versions. Swedish service eventually moved from early Drakens to J 35F and J 35J aircraft before retirement in favor of Viggen and Gripen families.",
+            "refs": [
+              "fn-polish-museum",
+              "fn-wikipedia"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "1947-1949: Swedish work and tactical requirements for a new supersonic fighter take shape.",
             "refs": [
-              "fn-method"
+              "fn-polish-museum"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "1951: Double-delta aerodynamic configuration selected.",
             "refs": [
-              "fn-method"
+              "fn-polish-museum"
+            ]
+          },
+          {
+            "text": "25 October 1955: Full-scale Draken prototype first flight.",
+            "refs": [
+              "fn-polish-museum",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "1960: Frontline Swedish Air Force service begins.",
+            "refs": [
+              "fn-wikipedia"
             ]
           }
         ]
@@ -59071,107 +59174,99 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The Draken used a tailless double-delta wing, side air intakes, a single vertical tail, tricycle landing gear, and a single afterburning turbojet. The design gave the aircraft high-speed interceptor performance while preserving enough lift and control for Sweden's dispersed-base concept.",
             "refs": [
-              "fn-main"
+              "fn-pima",
+              "fn-polish-museum"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Power came from the RM6 family, a Swedish-built Rolls-Royce Avon derivative. The Polish Aviation Museum J 35J page lists an RM6C engine with 7,750 kgf thrust, while the Pima RF-35 page lists one Svenska Flygmotor RM6C afterburning turbo engine for its Danish reconnaissance aircraft.",
             "refs": [
+              "fn-pima",
+              "fn-polish-museum"
+            ]
+          },
+          {
+            "text": "Avionics and weapons differed substantially between early Swedish interceptors, STRIL 60-integrated aircraft, later J 35F/J fighters, reconnaissance versions, trainers, and export machines. This page therefore avoids assigning one universal radar, missile, or hardpoint configuration to all Drakens.",
+            "refs": [
+              "fn-polish-museum",
               "fn-method"
-            ]
-          },
-          {
-            "text": "Saab 35 Draken uses jet propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
         "cards": [
           {
+            "title": "Airframe",
+            "text": "Tailless double-delta interceptor"
+          },
+          {
+            "title": "Engine",
+            "text": "One RM6/Avon-family afterburning turbojet"
+          },
+          {
             "title": "Crew",
-            "text": "1"
+            "text": "One in most versions; two in trainers"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
-          },
-          {
-            "title": "Speed class",
-            "text": "Supersonic"
-          },
-          {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Weapons",
+            "text": "Cannon, Sidewinder-family missiles, Swedish missiles, rockets/bombs by variant"
           },
           {
             "title": "Stealth",
-            "text": "No"
+            "text": "No; Cold War conventional fighter"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Saab 35 Draken status: Retired. Conflict entries: 0.",
+            "text": "Representative specifications vary by model. The figures below combine public museum examples: Pima's Danish RF-35 and the Polish Aviation Museum's Swedish J 35J. They should not be read as one exact configuration for every Draken version.",
             "refs": [
-              "fn-main"
+              "fn-pima",
+              "fn-polish-museum",
+              "fn-method"
             ]
           },
           {
-            "text": "Conflicts: 0 entries.",
+            "text": "Pima RF-35 example: wingspan 30 ft 11 in, length 50 ft 4 in, height 12 ft 9 in, loaded weight 26,266 lb, maximum speed 1,520 mph, service ceiling 66,000 ft, range 1,710 miles, one RM6C afterburning turbo engine, and crew of one.",
             "refs": [
-              "fn-method"
+              "fn-pima"
+            ]
+          },
+          {
+            "text": "Polish Aviation Museum J 35J example: wingspan 9.4 m, length 15.35 m, takeoff weight 15,000 kg, maximum speed 2,125 km/h, ceiling 20,000 m, ferry range 2,840 km, RM6C engine, and eight underwing/underfuselage hardpoints.",
+            "refs": [
+              "fn-polish-museum"
             ]
           }
         ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
+        "cards": [
           {
-            "text": "Saab 35 Draken named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "15.35 m / 50 ft 4 in"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Wingspan",
+            "text": "9.4 m / about 30 ft 11 in"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Height",
+            "text": "12 ft 9 in in Pima RF-35 data"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum speed",
+            "text": "Mach-2 class; 2,125 km/h or 1,520 mph museum figures"
+          },
+          {
+            "title": "Ceiling",
+            "text": "20,000 m / about 66,000 ft"
+          },
+          {
+            "title": "Ferry/range",
+            "text": "2,840 km J 35J ferry figure; 1,710 mi RF-35 range figure"
           }
         ]
       },
@@ -59180,35 +59275,57 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Saab 35 Draken variant-family entries: 3. Variant families: Saab 35 Draken baseline production model; Saab 35 Draken upgraded avionics or weapons-capable model; Saab 35 Draken export or locally modernized model.",
+            "text": "The Draken family included Swedish interceptor, trainer, reconnaissance, and late-upgrade versions, plus export adaptations for Denmark, Finland, and Austria. Milipedia groups major families rather than listing every production sub-block.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
+              "fn-polish-museum",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Saab 35 Draken baseline production model",
+            "text": "Saab 210/Lilldraken: sub-scale double-delta proof aircraft.",
             "refs": [
-              "fn-main"
+              "fn-polish-museum",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Saab 35 Draken upgraded avionics or weapons-capable model",
+            "text": "J 35A/B/D: early and improved Swedish fighter-interceptor families, including STRIL 60-linked J 35B context.",
             "refs": [
-              "fn-main"
+              "fn-polish-museum"
             ]
           },
           {
-            "text": "Saab 35 Draken export or locally modernized model",
+            "text": "Sk 35C: two-seat trainer version.",
             "refs": [
-              "fn-main"
+              "fn-polish-museum"
+            ]
+          },
+          {
+            "text": "S 35E and RF-35: reconnaissance versions with camera equipment and mission-specific noses.",
+            "refs": [
+              "fn-pima",
+              "fn-polish-museum"
+            ]
+          },
+          {
+            "text": "J 35F/J 35J: late Swedish fighter versions, with J 35J modernization adding avionics changes and AIM-9L compatibility to 66 aircraft between 1987 and 1991.",
+            "refs": [
+              "fn-polish-museum"
+            ]
+          },
+          {
+            "text": "Danish F-35/RF-35/TF-35: attack, reconnaissance, and trainer export Drakens for the Royal Danish Air Force.",
+            "refs": [
+              "fn-pima"
+            ]
+          },
+          {
+            "text": "Finnish and Austrian Drakens: export/refurbished service versions with national equipment and retirement schedules.",
+            "refs": [
+              "fn-polish-museum",
+              "fn-wikipedia"
             ]
           }
         ]
@@ -59218,78 +59335,280 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Sweden. Saab 35 Draken has 1 designer or builder country entry.",
+            "text": "The Draken remained concentrated among European neutral or Scandinavian-aligned air arms rather than becoming a broad global export fighter. Sweden was the original operator, while Denmark, Finland, and Austria provided the main military export-service stories.",
             "refs": [
-              "fn-wikidata"
+              "fn-polish-museum",
+              "fn-wikipedia"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Sweden: original user and largest service community; retired the Draken in 1999 after replacement by later Saab fighters.",
+            "refs": [
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Denmark: bought more than 50 aircraft in F-35 attack, RF-35 reconnaissance, and TF-35 trainer forms.",
             "refs": [
+              "fn-pima"
+            ]
+          },
+          {
+            "text": "Finland: operated Drakens for national air defense during the Cold War and post-Cold-War transition period.",
+            "refs": [
+              "fn-polish-museum",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Austria: used refurbished J 35Ö aircraft and became the last military operator, retiring the type in 2005.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "United States: former Danish aircraft later appeared in U.S. civilian/test-pilot and training contexts, not as U.S. front-line combat aircraft.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "service",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "In Swedish service, the Draken was part of a national air-defense system shaped by geography, neutrality, and the threat of high-speed aircraft crossing or approaching Swedish airspace. Its road-base and quick-turnaround assumptions were as important as its headline maximum speed.",
+            "refs": [
+              "fn-polish-museum",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The aircraft was exported within Europe and adapted for different missions. Denmark used dedicated attack and reconnaissance versions, Finland used the type for air defense, and Austria used refurbished aircraft as an interim fighter until the mid-2000s.",
+            "refs": [
+              "fn-pima",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "The Draken is not generally credited with combat use. Its significance is therefore technical, doctrinal, and operational rather than combat-proven: a Mach-2 Swedish interceptor that showed a small country could produce a distinctive high-performance fighter family.",
+            "refs": [
+              "fn-wikipedia",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Cold War Sweden: national interception and dispersed-base readiness.",
             "refs": [
-              "fn-main"
+              "fn-polish-museum"
             ]
           },
           {
-            "text": "Major designer or builder entries: Sweden.",
+            "text": "Danish service: attack, reconnaissance, and training variants with later preserved/exported airframes.",
             "refs": [
-              "fn-wikidata"
+              "fn-pima"
+            ]
+          },
+          {
+            "text": "Austrian service: final military Draken retirement in 2005.",
+            "refs": [
+              "fn-wikipedia"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "comparison",
+        "title": "Comparison and Role Context",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Supersonic, first flight 1955, introduction 1960.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Compared with the Mirage III and MiG-21, the Draken belonged to the same broad generation of compact Mach-2-class fighters, but it reflected Sweden's unique dispersed-base air-defense doctrine and double-delta aerodynamic solution rather than a large export-war-fighting ecosystem.",
             "refs": [
               "fn-method"
             ]
-          }
-        ]
-      },
-      {
-        "id": "similar-development",
-        "title": "Similar Development",
-        "paragraphs": [
+          },
           {
-            "text": "Saab 35 Draken similar-development links: 4.",
+            "text": "Compared with the F-104 Starfighter, the Draken was less narrowly optimized around a small wing and very high-speed profile, trading some pure interceptor identity for distinctive turning behavior and Scandinavian operational practicality. Compared with later Saab Viggen and Gripen designs, the Draken was simpler and less multirole/networked but established Sweden's supersonic fighter lineage.",
             "refs": [
+              "fn-polish-museum",
               "fn-method"
             ]
           }
         ],
         "links": [
           {
-            "label": "McDonnell Douglas F-4 Phantom II",
-            "url": "aircraft.html?id=f-4-phantom-ii"
+            "label": "Dassault Mirage III",
+            "url": "aircraft.html?id=mirage-iii"
           },
           {
-            "label": "Northrop F-5",
-            "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
+            "label": "Mikoyan-Gurevich MiG-21",
+            "url": "aircraft.html?id=mig-21"
           },
           {
-            "label": "Vought F-8 Crusader",
-            "url": "aircraft.html?id=f-8-crusader"
+            "label": "Lockheed F-104 Starfighter",
+            "url": "aircraft.html?id=f-104-starfighter"
           },
           {
-            "label": "Grumman F-14 Tomcat",
-            "url": "aircraft.html?id=f-14-tomcat"
+            "label": "Saab 37 Viggen",
+            "url": "aircraft.html?id=saab-37-viggen"
+          },
+          {
+            "label": "Saab JAS 39 Gripen",
+            "url": "aircraft.html?id=jas-39-gripen"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The Draken's strengths were high speed, compact size, Swedish maintainability logic, dispersed-base compatibility, and the double-delta wing's high-angle-of-attack reputation. Its limitations were those of a first-generation Mach-2 interceptor: limited internal volume, aging avionics, no stealth, and variant-dependent weapons and sensor capability.",
+            "refs": [
+              "fn-polish-museum",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: Mach-2-class performance from a domestic Swedish airframe and engine installation.",
+            "refs": [
+              "fn-pima",
+              "fn-polish-museum"
+            ]
+          },
+          {
+            "text": "Strength: designed for Swedish air-defense basing and quick readiness rather than only peacetime airbase operations.",
+            "refs": [
+              "fn-polish-museum"
+            ]
+          },
+          {
+            "text": "Limitation: late-life relevance depended on national avionics, missile, and maintenance upgrades.",
+            "refs": [
+              "fn-polish-museum",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: no combat record to validate public claims about effectiveness against actual opponents.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1947-1949: Swedish supersonic-fighter work and requirements formulation.",
+            "refs": [
+              "fn-polish-museum"
+            ]
+          },
+          {
+            "text": "1951: Double-delta configuration adopted.",
+            "refs": [
+              "fn-polish-museum"
+            ]
+          },
+          {
+            "text": "25 October 1955: Draken prototype first flight.",
+            "refs": [
+              "fn-polish-museum"
+            ]
+          },
+          {
+            "text": "1958-1960: Production and service-entry sequence begins with J 35A and follow-on versions.",
+            "refs": [
+              "fn-polish-museum",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "1965: Modernized J 35F production begins according to museum summary.",
+            "refs": [
+              "fn-polish-museum"
+            ]
+          },
+          {
+            "text": "1987-1991: 66 J 35F aircraft modernized to J 35J standard.",
+            "refs": [
+              "fn-polish-museum"
+            ]
+          },
+          {
+            "text": "1999: Sweden retires the Draken.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "2005: Austria retires the last military Drakens.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Primary factual sources for this update were museum pages from Pima Air & Space Museum and the Polish Aviation Museum. Wikipedia was used as supplementary orientation for broad operator and retirement context only.",
+            "refs": [
+              "fn-pima",
+              "fn-polish-museum",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Exact production totals, weapon fits, radar equipment, and dimensions differ by variant and source basis. This page uses cautious ranges and variant-labeled wording rather than forcing a single universal Draken configuration.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "links": [
+          {
+            "label": "Saab 37 Viggen",
+            "url": "aircraft.html?id=saab-37-viggen"
+          },
+          {
+            "label": "Saab JAS 39 Gripen",
+            "url": "aircraft.html?id=jas-39-gripen"
+          },
+          {
+            "label": "Dassault Mirage III",
+            "url": "aircraft.html?id=mirage-iii"
+          },
+          {
+            "label": "Lockheed F-104 Starfighter",
+            "url": "aircraft.html?id=f-104-starfighter"
+          },
+          {
+            "label": "Mikoyan-Gurevich MiG-21",
+            "url": "aircraft.html?id=mig-21"
+          },
+          {
+            "label": "Return to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }
