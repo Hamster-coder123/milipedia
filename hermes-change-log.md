@@ -5930,3 +5930,80 @@ Record the result of:
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * Mi-24-family specifications, avionics, weapons, and crew/cargo arrangements vary significantly across Mi-24A/D/V/P, Mi-25, Mi-35, Mi-35M/P, and local upgrade standards, so representative values are explicitly caveated.
 * Exact current operator inventories, readiness, transfer status, and recent-conflict loss totals were intentionally omitted because they are date-sensitive and sometimes contested.
+
+### Run 78 — 2026-07-03 20:04:36 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Saab 37 Viggen (id: saab-37-viggen)
+* Reason selected: The Saab 37 Viggen was the shortest unedited sparse aircraft page found after excluding pages already substantially updated by Hermes, with no real variants, no real operator entries, placeholder specifications, generic armament wording, and article sections far below the F-16 reference density.
+* Previous condition: Sparse generated entry with 0 variant entries, 0 operator entries, missing engine/range/dimension/service-ceiling/production details, generic source placeholders, and no F-16-style development, design, specifications, variants, operators, operational-history, comparison, timeline, source-note, or related-page depth.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview paragraphs and fact cards; article-section order covering overview, development history, design/capabilities, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, sources, and related pages; concise sourced technical prose; representative specification caveats; internal related-link style using aircraft.html?id=...; source notes that explain variant and production-count uncertainty.
+
+#### Changes Made
+
+* Expanded only the Saab 37 Viggen entry in data/aircraft.json from a sparse generated record into a fuller Milipedia article data page.
+* Updated top-level aircraft facts for alternative names, country, manufacturer, role, aircraft type, first flight, introduction, retirement/status, production-count caveat, crew, engine family, maximum speed, range, service ceiling, armament, hardpoints, development history, combat/service summary, and short summary.
+* Replaced generic source placeholders with Viggen-specific references from Saab manufacturer history, Saab Finland, Swedish Air Force Historic Flight, Flugzeuginfo.net, GlobalAircraft.org, supplementary Wikipedia orientation, and Milipedia local accuracy rules.
+* Added detailed F-16-style article sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Comparison and Role Context, Timeline, Sources and Notes, and Related Pages.
+* Added representative technical details for the canard-delta airframe, Bas 60/road-base operating concept, thrust-reverser landing system, RM8A/RM8B JT8D-derived afterburning turbofan, CK37 computer/STRIL avionics context, seven hardpoints, AJS range figures, Mach 2 class speed, 18,000-20,000 m public ceiling figures, and variant-sensitive weight/loadout caveats.
+* Added variant coverage for AJ 37, SK 37, SH 37, SF 37, JA 37, AJS/AJSH/AJSF 37, and SK37E.
+* Added operator coverage for the Swedish Air Force as the sole military operator and Swedish Air Force Historic Flight as a preserved-flying heritage operator.
+* Added operational-history context for Swedish dispersed national defense, attack/reconnaissance/fighter roles, AJS modernization, lack of broad combat deployment, and transition to Gripen.
+* Added strengths/limitations and comparison context against Saab 35 Draken, Saab JAS 39 Gripen, Lockheed F-104 Starfighter, McDonnell Douglas F-4 Phantom II, Dassault Mirage III, and Panavia Tornado.
+* Omitted exact universal combat radius, detailed accident tables, and one-size-fits-all weapons or avionics tables because public data varies by AJ/AJS, JA, reconnaissance, trainer, and SK37E variant.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Saab 37 Viggen aircraft page data, sources, sections, specifications, variants, operators, and related links.
+* hermes-change-log.md — Appended the cumulative Run 78 log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files; the temporary helper script was removed.
+2. git diff — Reviewed diff/stat; data/aircraft.json changes are limited to the saab-37-viggen entry, and hermes-change-log.md adds this Run 78 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the Viggen entry's top-level fields, sections, source list, variants, operators, representative specification caveats, and related links.
+4. F-16 style comparison — Inspected data/f16-template.html and copied its dense lead, section order, sourced paragraphs, specification emphasis, variants/operators/service/comparison/timeline coverage, source notes, and related-page patterns within the JSON-rendered article system.
+5. Internal link check — Verified aircraft.html?id=saab-35-draken, aircraft.html?id=jas-39-gripen, aircraft.html?id=f-104-starfighter, aircraft.html?id=f-4-phantom-ii, aircraft.html?id=mirage-iii, and aircraft.html?id=panavia-tornado target existing aircraft ids in data/aircraft.json.
+6. Secret/token check — Ran a credential-specific scan over the staged diff for private keys, cloud credential names, passwords, and access/auth token patterns; no credentials were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, diff check, intended files only, Saab 37 Viggen was not previously substantially edited by Hermes, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Saab 37 Viggen
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* Public production totals differ by source (Saab history cites 329, while Saab Finland and Swedish Air Force Historic Flight cite 337), so the page uses source-qualified range wording.
+* Viggen specifications, engines, armament, avionics, and weights vary significantly across AJ/AJS, JA, reconnaissance, trainer, and SK37E variants, so representative values are explicitly caveated.
+* The Viggen page is rendered through data/aircraft.json rather than the bespoke static F-16 HTML, so the formatting match is structural and density-based rather than identical markup.

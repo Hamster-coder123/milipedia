@@ -63871,34 +63871,79 @@
   {
     "id": "saab-37-viggen",
     "name": "Saab 37 Viggen",
-    "alternative_names": [],
+    "alternative_names": [
+      "Viggen",
+      "Thunderbolt",
+      "Aircraft System 37",
+      "System 37"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "Sweden",
     "manufacturer": "Saab",
-    "role": "Multirole combat aircraft",
-    "aircraft_type": "Fighter",
+    "role": "Multirole combat aircraft family for attack, fighter, reconnaissance, training and electronic warfare",
+    "aircraft_type": "Multirole combat aircraft",
     "era": "Cold War",
-    "first_flight": "1967",
+    "first_flight": "8 February 1967",
     "introduction_date": "1971",
-    "retirement_date": "Not listed",
-    "status": "Retired",
-    "number_built": "Not listed",
-    "crew": "1 or 2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "retirement_date": "2005 from active Swedish Air Force service",
+    "status": "Retired from military service; preserved and flown by Swedish Air Force Historic Flight",
+    "number_built": "329-337 reported depending on source/counting method",
+    "crew": "1; 2 in SK/SK37E trainer and electronic-warfare variants",
+    "engine_type": "Afterburning turbofan",
+    "engines": "One Volvo Flygmotor RM8A or RM8B afterburning turbofan with thrust reverser, derived from the Pratt & Whitney JT8D",
+    "max_speed": "Mach 2 class at altitude",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Saab 37 Viggen: Multirole combat aircraft. Manufacturer: Saab. First flight: 1967. Introduction: 1971.",
-    "short_summary": "Saab 37 Viggen: Multirole combat aircraft. Origin: Sweden. Manufacturer: Saab. First flight: 1967. Introduction: 1971. Status: Retired.",
+    "range": "About 1,700 km internal fuel and 2,100 km with external tank for AJS 37 source example; other mission/variant ranges vary",
+    "combat_range": "Variant- and mission-dependent; not stated as one universal value",
+    "service_ceiling": "18,000-20,000 m in public technical sources",
+    "rate_of_climb": "Variant-dependent; not stated as one universal value",
+    "armament": "Variant-dependent: 30 mm cannon or cannon pods, Sidewinder/Skyflash air-to-air missiles, Rb04/Rb15 anti-ship missiles, Rb05/Rb75 air-to-ground weapons, rockets, bombs, Bk 90 dispenser, pods, and fuel tanks depending on version.",
+    "hardpoints": "Seven stations on AJ/AJS-family aircraft in public sources",
+    "variants": [
+      {
+        "name": "AJ 37",
+        "description": "Single-seat attack version with secondary air-defense capability; first production Viggen family delivered to the Swedish Air Force."
+      },
+      {
+        "name": "SK 37",
+        "description": "Two-seat conversion trainer with radar removed and an added rear cockpit; retained limited weapons-training capability."
+      },
+      {
+        "name": "SH 37",
+        "description": "Maritime reconnaissance and sea-surveillance version."
+      },
+      {
+        "name": "SF 37",
+        "description": "Photographic reconnaissance version with specialized sensor/camera nose."
+      },
+      {
+        "name": "JA 37",
+        "description": "Fighter/interceptor version with RM8B engine, different avionics/radar and air-to-air armament emphasis."
+      },
+      {
+        "name": "AJS 37 / AJSH 37 / AJSF 37",
+        "description": "1990s upgraded AJ, SH and SF aircraft with integrated attack/fighter/reconnaissance capability and newer weapons compatibility."
+      },
+      {
+        "name": "SK37E",
+        "description": "Electronic-warfare aggressor/support conversion of SK 37 trainers, with internal jamming systems, radar-warning equipment, data bus changes and pods such as U22/U95."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Sweden",
+        "service": "Swedish Air Force / Flygvapnet",
+        "notes": "Sole military operator; used Viggen in attack, reconnaissance, fighter, training and electronic-warfare roles from the 1970s until retirement in 2005."
+      },
+      {
+        "country": "Sweden",
+        "service": "Swedish Air Force Historic Flight",
+        "notes": "Civil-registered preserved AJS 37 and SK37E aircraft operated as flying heritage examples, not combat-service aircraft."
+      }
+    ],
+    "combat_history": "No broad combat deployment recorded in the sources used; operational significance was Swedish national air defense, attack, reconnaissance, dispersed-base operations, and electronic-warfare training/support.",
+    "development_history": "Saab developed the Viggen as System 37 to replace Lansen and Draken mission areas with a Swedish canard-delta combat aircraft able to use short road bases, fly Mach 2 class missions, and integrate national avionics and data-link systems.",
+    "short_summary": "Swedish Saab 37 Viggen: a canard-delta Mach 2 class Cold War combat aircraft family for attack, reconnaissance, fighter, trainer, and EW roles, notable for short-road-base operation, RM8 thrust reverser, and advanced computer-centered avionics.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -63911,46 +63956,53 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-saab-history-viggen",
+        "title": "Viggen - ryggraden i det svenska flygvapnet under tre decennier",
+        "url": "https://www.saab.com/sv/markets/sweden/stories/2021/saab-37-viggen",
+        "publisher": "Saab",
+        "note": "Manufacturer history used for System 37 development context, first flight, onboard computer significance, version overview, production totals, and final delivery context."
+      },
+      {
+        "id": "fn-saab-finland-viggen",
+        "title": "Saab 37 Viggen",
+        "url": "https://www.saab.com/fi/markets/finland/artikkelit/2017/saab-37-viggen",
+        "publisher": "Saab Finland",
+        "note": "Manufacturer summary used for first-flight date and pilot, Swedish Air Force delivery, five main versions, retirement timing, and headline performance figures."
+      },
+      {
+        "id": "fn-swafhf-ajs-sk37",
+        "title": "AJS 37 & SK 37 E Viggen",
+        "url": "https://swafhf.com/startsida/sk37-ajs-viggen",
+        "publisher": "Swedish Air Force Historic Flight",
+        "note": "Used for preserved AJS/SK 37E aircraft data, technical specifications, armament examples, short-runway requirement, RM8A/RM8B engine lineage, variant roles, AJS upgrade counts, and SK37E electronic-warfare conversion details."
+      },
+      {
+        "id": "fn-flugzeuginfo-viggen",
+        "title": "Saab Saab-37 Viggen - Specifications - Technical Data / Description",
+        "url": "http://www.flugzeuginfo.net/acdata_php/acdata_s37_en.php",
+        "publisher": "Flugzeuginfo.net",
+        "note": "Supplementary technical table used for RM8B thrust, representative dimensions, speed, service ceiling, range, weights, production range, and variant list."
+      },
+      {
+        "id": "fn-globalaircraft-viggen",
+        "title": "Saab 37 Viggen",
+        "url": "https://www.globalaircraft.org/planes/saab_37_viggen.pl",
+        "publisher": "GlobalAircraft.org",
+        "note": "Supplementary reference used for RM8 engine/JT8D lineage, thrust reverser, 500 m dispersed-base requirement, CK37/STRIL 60 avionics context, seven hardpoints, and KCA cannon / Skyflash / Sidewinder armament examples."
+      },
+      {
+        "id": "fn-wikipedia-viggen",
         "title": "Saab 37 Viggen",
         "url": "https://en.wikipedia.org/wiki/Saab_37_Viggen",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation only; not used for unique claims when manufacturer, historic-flight, or technical references were available."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.aircraftresourcecenter.com/AWA1/101-200/walk200_viggen/walk200.htm",
-        "publisher": "aircraftresourcecenter.com",
-        "note": "External source for Saab 37 Viggen."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.datasaab.se/Papers/Articles/Viggenck37.pdf",
-        "publisher": "datasaab.se",
-        "note": "External source for Saab 37 Viggen."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.militartekniska.se/mtt/include/archive/200104/MTT401_Viggen.pdf",
-        "publisher": "militartekniska.se",
-        "note": "External source for Saab 37 Viggen."
+        "note": "Local rules for neutral wording, estimate labels, source handling, and variant-sensitive specifications."
       }
     ],
     "country_flags": [
@@ -63968,129 +64020,162 @@
     ],
     "wars_used_in": [],
     "variant_families": [
-      "Saab 37 Viggen baseline production model",
-      "Saab 37 Viggen upgraded avionics or weapons-capable model",
-      "Saab 37 Viggen two-seat trainer or conversion model",
-      "Saab 37 Viggen export or locally modernized model"
+      "AJ 37",
+      "SK 37",
+      "SH 37",
+      "SF 37",
+      "JA 37",
+      "AJS 37 / AJSH 37 / AJSF 37",
+      "SK37E"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "Sweden"
       ],
-      "major_user_note": "Saab 37 Viggen has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The Swedish Air Force was the only military operator.",
+      "all_operators_status": "Military service retired in 2005; Swedish Air Force Historic Flight operates preserved civil-registered examples."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "Prototype 37-1 flew on 8 February 1967.",
+        "Swedish Air Force Historic Flight AJS 37 SE-DXN and SK37E SE-DXO preserve flying Viggen examples."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "1974-1975 wing-spar issue led to a temporary flying stop and structural reinforcement after AJ 37 crashes."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Saab 37 Viggen uses jet propulsion."
+      "type": "Afterburning turbofan",
+      "summary": "One Volvo Flygmotor RM8A/RM8B, a Swedish afterburning/thrust-reverser derivative of the Pratt & Whitney JT8D; RM8A and RM8B figures vary by variant and source."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Weapons vary by AJ/AJS, JA, reconnaissance, trainer and EW variants; common public examples include cannon or cannon pods, Sidewinder, Skyflash, Rb04/Rb15, Rb05/Rb75, rockets, bombs, Bk 90 and ECM/laser pods.",
+      "caution": "Do not treat all weapons as cleared on every Viggen variant; radar, mission system, hardpoint and operator fit differ."
     },
     "similar_development": [
+      {
+        "id": "saab-35-draken",
+        "name": "Saab 35 Draken",
+        "url": "aircraft.html?id=saab-35-draken"
+      },
+      {
+        "id": "jas-39-gripen",
+        "name": "Saab JAS 39 Gripen",
+        "url": "aircraft.html?id=jas-39-gripen"
+      },
+      {
+        "id": "f-104-starfighter",
+        "name": "Lockheed F-104 Starfighter",
+        "url": "aircraft.html?id=f-104-starfighter"
+      },
       {
         "id": "f-4-phantom-ii",
         "name": "McDonnell Douglas F-4 Phantom II",
         "url": "aircraft.html?id=f-4-phantom-ii"
       },
       {
-        "id": "f-5-freedom-fighter-tiger-ii",
-        "name": "Northrop F-5",
-        "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
+        "id": "mirage-iii",
+        "name": "Dassault Mirage III",
+        "url": "aircraft.html?id=mirage-iii"
       },
       {
-        "id": "f-8-crusader",
-        "name": "Vought F-8 Crusader",
-        "url": "aircraft.html?id=f-8-crusader"
-      },
-      {
-        "id": "f-14-tomcat",
-        "name": "Grumman F-14 Tomcat",
-        "url": "aircraft.html?id=f-14-tomcat"
+        "id": "panavia-tornado",
+        "name": "Panavia Tornado",
+        "url": "aircraft.html?id=panavia-tornado"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 40,
+      "operator_entries": 2,
+      "variant_entries": 7,
+      "external_article_sources": 5
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-saab-history-viggen",
+        "title": "Viggen - ryggraden i det svenska flygvapnet under tre decennier",
+        "url": "https://www.saab.com/sv/markets/sweden/stories/2021/saab-37-viggen",
+        "publisher": "Saab",
+        "note": "Manufacturer history used for System 37 development context, first flight, onboard computer significance, version overview, production totals, and final delivery context."
+      },
+      {
+        "id": "fn-saab-finland-viggen",
+        "title": "Saab 37 Viggen",
+        "url": "https://www.saab.com/fi/markets/finland/artikkelit/2017/saab-37-viggen",
+        "publisher": "Saab Finland",
+        "note": "Manufacturer summary used for first-flight date and pilot, Swedish Air Force delivery, five main versions, retirement timing, and headline performance figures."
+      },
+      {
+        "id": "fn-swafhf-ajs-sk37",
+        "title": "AJS 37 & SK 37 E Viggen",
+        "url": "https://swafhf.com/startsida/sk37-ajs-viggen",
+        "publisher": "Swedish Air Force Historic Flight",
+        "note": "Used for preserved AJS/SK 37E aircraft data, technical specifications, armament examples, short-runway requirement, RM8A/RM8B engine lineage, variant roles, AJS upgrade counts, and SK37E electronic-warfare conversion details."
+      },
+      {
+        "id": "fn-flugzeuginfo-viggen",
+        "title": "Saab Saab-37 Viggen - Specifications - Technical Data / Description",
+        "url": "http://www.flugzeuginfo.net/acdata_php/acdata_s37_en.php",
+        "publisher": "Flugzeuginfo.net",
+        "note": "Supplementary technical table used for RM8B thrust, representative dimensions, speed, service ceiling, range, weights, production range, and variant list."
+      },
+      {
+        "id": "fn-globalaircraft-viggen",
+        "title": "Saab 37 Viggen",
+        "url": "https://www.globalaircraft.org/planes/saab_37_viggen.pl",
+        "publisher": "GlobalAircraft.org",
+        "note": "Supplementary reference used for RM8 engine/JT8D lineage, thrust reverser, 500 m dispersed-base requirement, CK37/STRIL 60 avionics context, seven hardpoints, and KCA cannon / Skyflash / Sidewinder armament examples."
+      },
+      {
+        "id": "fn-wikipedia-viggen",
         "title": "Saab 37 Viggen",
         "url": "https://en.wikipedia.org/wiki/Saab_37_Viggen",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation only; not used for unique claims when manufacturer, historic-flight, or technical references were available."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.aircraftresourcecenter.com/AWA1/101-200/walk200_viggen/walk200.htm",
-        "publisher": "aircraftresourcecenter.com",
-        "note": "External source for Saab 37 Viggen."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.datasaab.se/Papers/Articles/Viggenck37.pdf",
-        "publisher": "datasaab.se",
-        "note": "External source for Saab 37 Viggen."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.militartekniska.se/mtt/include/archive/200104/MTT401_Viggen.pdf",
-        "publisher": "militartekniska.se",
-        "note": "External source for Saab 37 Viggen."
+        "note": "Local rules for neutral wording, estimate labels, source handling, and variant-sensitive specifications."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.aircraftresourcecenter.com/AWA1/101-200/walk200_viggen/walk200.htm",
-        "publisher": "aircraftresourcecenter.com",
-        "note": "External source for Saab 37 Viggen."
+        "id": "fn-saab-history-viggen",
+        "title": "Viggen - ryggraden i det svenska flygvapnet under tre decennier",
+        "url": "https://www.saab.com/sv/markets/sweden/stories/2021/saab-37-viggen",
+        "publisher": "Saab",
+        "note": "Manufacturer history used for System 37 development context, first flight, onboard computer significance, version overview, production totals, and final delivery context."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.datasaab.se/Papers/Articles/Viggenck37.pdf",
-        "publisher": "datasaab.se",
-        "note": "External source for Saab 37 Viggen."
+        "id": "fn-saab-finland-viggen",
+        "title": "Saab 37 Viggen",
+        "url": "https://www.saab.com/fi/markets/finland/artikkelit/2017/saab-37-viggen",
+        "publisher": "Saab Finland",
+        "note": "Manufacturer summary used for first-flight date and pilot, Swedish Air Force delivery, five main versions, retirement timing, and headline performance figures."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.militartekniska.se/mtt/include/archive/200104/MTT401_Viggen.pdf",
-        "publisher": "militartekniska.se",
-        "note": "External source for Saab 37 Viggen."
+        "id": "fn-swafhf-ajs-sk37",
+        "title": "AJS 37 & SK 37 E Viggen",
+        "url": "https://swafhf.com/startsida/sk37-ajs-viggen",
+        "publisher": "Swedish Air Force Historic Flight",
+        "note": "Used for preserved AJS/SK 37E aircraft data, technical specifications, armament examples, short-runway requirement, RM8A/RM8B engine lineage, variant roles, AJS upgrade counts, and SK37E electronic-warfare conversion details."
+      },
+      {
+        "id": "fn-flugzeuginfo-viggen",
+        "title": "Saab Saab-37 Viggen - Specifications - Technical Data / Description",
+        "url": "http://www.flugzeuginfo.net/acdata_php/acdata_s37_en.php",
+        "publisher": "Flugzeuginfo.net",
+        "note": "Supplementary technical table used for RM8B thrust, representative dimensions, speed, service ceiling, range, weights, production range, and variant list."
+      },
+      {
+        "id": "fn-globalaircraft-viggen",
+        "title": "Saab 37 Viggen",
+        "url": "https://www.globalaircraft.org/planes/saab_37_viggen.pl",
+        "publisher": "GlobalAircraft.org",
+        "note": "Supplementary reference used for RM8 engine/JT8D lineage, thrust reverser, 500 m dispersed-base requirement, CK37/STRIL 60 avionics context, seven hardpoints, and KCA cannon / Skyflash / Sidewinder armament examples."
       }
     ],
     "article_sections": [
@@ -64099,20 +64184,26 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Saab 37 Viggen is a Multirole combat aircraft from Sweden. Manufacturer: Saab. First flight: 1967. Introduction: 1971. Status: Retired.",
+            "text": "The Saab 37 Viggen was Sweden's Cold War System 37 combat aircraft family, designed and built by Saab as a national multirole platform for attack, reconnaissance, fighter, trainer, and later electronic-warfare missions. The name is usually translated as Thunderbolt and also refers to the canard configuration that made the aircraft visually distinct from the Saab 35 Draken it partly replaced.",
             "refs": [
-              "fn-main"
+              "fn-saab-history-viggen",
+              "fn-swafhf-ajs-sk37"
             ]
           },
           {
-            "text": "Saab 37 Viggen is a fighter. Primary role: multirole combat aircraft. Country of origin: Sweden. Manufacturer: Saab.",
+            "text": "Viggen combined a large single Volvo Flygmotor RM8 afterburning turbofan, close-coupled canard foreplanes, a delta main wing, thrust-reverser-assisted landings, and a rugged undercarriage for Sweden's Bas 60 dispersed-road-base concept. Saab and Swedish Air Force Historic Flight sources emphasize that short runway operations and independent operation from austere bases were core requirements, not afterthoughts.",
             "refs": [
-              "fn-wikidata"
+              "fn-saab-history-viggen",
+              "fn-swafhf-ajs-sk37",
+              "fn-globalaircraft-viggen"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The first prototype flew on 8 February 1967, the first production AJ 37 was delivered to the Swedish Air Force in June 1971, the final JA 37 was delivered in June 1990, and active Swedish service ended in 2005. Public sources differ between 329 and 337 for total production depending on counting method; this page records the range and cites the source-specific caveat.",
             "refs": [
+              "fn-saab-finland-viggen",
+              "fn-saab-history-viggen",
+              "fn-swafhf-ajs-sk37",
               "fn-method"
             ]
           }
@@ -64120,160 +64211,185 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Multirole combat aircraft"
+            "text": "Swedish multirole combat aircraft family"
           },
           {
-            "title": "Designer or builder",
-            "text": "Saab"
+            "title": "First flight",
+            "text": "8 February 1967"
           },
           {
-            "title": "Major origin",
-            "text": "Sweden"
+            "title": "Defining feature",
+            "text": "Canard-delta layout and thrust reverser for short-base operations"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Service",
+            "text": "Swedish Air Force, 1971-2005 active service window"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Saab 37 Viggen first flew in 1967. Introduction date: 1971. Era: Cold War.",
+            "text": "Saab and Swedish planners began studying a replacement for the Saab 32 Lansen and Saab 35 Draken mission set in the 1950s. Saab's history describes repeated design studies before the decisive System 37 concept decisions around 1961-1962, when Sweden chose a unified aircraft type for attack, reconnaissance, and fighter duties rather than several separate programs.",
             "refs": [
-              "fn-main"
+              "fn-saab-history-viggen",
+              "fn-saab-finland-viggen"
             ]
           },
           {
-            "text": "Producer: Saab. Development context: multirole combat aircraft, jet propulsion, supersonic speed category, Cold War era.",
+            "text": "The selected concept paired a Swedish-built derivative of the Pratt & Whitney JT8D airliner turbofan with a canard-delta airframe. The result was a comparatively large single-engine combat aircraft, but the RM8 gave the low-level fuel economy, afterburner thrust, and thrust-reverser integration needed for short takeoff and landing from prepared road strips.",
             "refs": [
-              "fn-wikidata"
+              "fn-saab-history-viggen",
+              "fn-swafhf-ajs-sk37",
+              "fn-globalaircraft-viggen"
+            ]
+          },
+          {
+            "text": "Prototype 37-1 flew at Linköping on 8 February 1967. The Swedish government ordered an initial batch shortly afterward, and the first production AJ 37 was handed over on 21 June 1971. Operational conversion began in 1973, with the first-generation attack and reconnaissance aircraft delivered through the late 1970s.",
+            "refs": [
+              "fn-swafhf-ajs-sk37",
+              "fn-saab-finland-viggen"
+            ]
+          },
+          {
+            "text": "Early service revealed structural stresses from the aircraft's high-performance low-level mission profile. Swedish Air Force Historic Flight notes that three AJ 37 crashes in 1974-1975 led to a flying stop and wing-spar reinforcement. Later modernization converted many AJ/SH/SF aircraft to AJS, AJSH, and AJSF standards in the 1990s, adding weapons and mission flexibility as the JAS 39 Gripen entered service.",
+            "refs": [
+              "fn-swafhf-ajs-sk37",
+              "fn-method"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Program name",
+            "text": "Aircraft System 37 / System 37"
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Main supplier",
+            "text": "Saab, with Volvo Flygmotor RM8 powerplant"
+          },
+          {
+            "title": "Prototype flight",
+            "text": "8 February 1967 from Saab's Linköping field"
+          },
+          {
+            "title": "Production caveat",
+            "text": "329-337 aircraft reported depending on source and counting method"
           }
         ]
       },
       {
-        "id": "design",
+        "id": "design-and-capabilities",
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1 or 2. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The Viggen's close-coupled canards were chosen primarily to meet short-field and low-speed handling requirements while preserving Mach 2 class performance at altitude. The canards and delta wing generated lift for takeoff and landing, and the main landing gear was built for hard, no-flare landings on short dispersed strips.",
             "refs": [
-              "fn-main"
+              "fn-saab-finland-viggen",
+              "fn-swafhf-ajs-sk37",
+              "fn-globalaircraft-viggen"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Power came from the Volvo Flygmotor RM8 family, a heavily modified license-built Pratt & Whitney JT8D with Swedish afterburner and thrust reverser. AJS-era data from Swedish Air Force Historic Flight lists the RM8A at 6,690 kp dry and 11,790 kp with maximum afterburner, while other technical references list the JA 37's RM8B at about 72.1 kN dry and 115.7-125 kN with afterburner depending source and rating method.",
             "refs": [
+              "fn-swafhf-ajs-sk37",
+              "fn-flugzeuginfo-viggen",
+              "fn-globalaircraft-viggen",
               "fn-method"
             ]
           },
           {
-            "text": "Saab 37 Viggen uses jet propulsion. Engine model field: Not listed.",
+            "text": "Avionics were unusually advanced for a European combat aircraft of its generation. Saab describes the Viggen as the first aircraft outside the United States equipped with an onboard computer; the CK37 central computer, radar, data-link integration with Swedish air-defense systems, and mission-specific sensors helped a single pilot fly attack or interception tasks without a navigator in most versions.",
             "refs": [
-              "fn-main"
+              "fn-saab-history-viggen",
+              "fn-saab-finland-viggen",
+              "fn-globalaircraft-viggen"
             ]
           },
           {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
+            "text": "Weapons and sensors differed sharply by role. AJ/AJS aircraft carried anti-ship missiles, rockets, bombs, Maverick missiles, Sidewinder missiles, pods, and fuel tanks on seven stations; JA 37 interceptors used a fixed 30 mm KCA cannon and air-to-air missiles including Skyflash and Sidewinder; reconnaissance aircraft carried dedicated sensor noses and mission equipment rather than one universal fighter-bomber fit.",
             "refs": [
-              "fn-main"
+              "fn-swafhf-ajs-sk37",
+              "fn-globalaircraft-viggen",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Airframe",
+            "text": "Single-engine canard-delta aircraft with rugged dispersed-base landing gear"
+          },
+          {
+            "title": "Engine",
+            "text": "Volvo Flygmotor RM8A/RM8B afterburning turbofan with thrust reverser"
+          },
+          {
+            "title": "Avionics",
+            "text": "CK37 central computer and Swedish STRIL-linked mission system context"
+          },
+          {
+            "title": "Stores",
+            "text": "Seven hardpoints on AJ/AJS-family aircraft; variant-dependent weapons"
+          }
+        ]
+      },
+      {
+        "id": "specifications",
+        "title": "Specifications",
+        "paragraphs": [
+          {
+            "text": "Representative figures below combine AJS 37 historic-flight data with JA 37-oriented technical tables. They should not be mixed as a single universal standard because AJ, AJS, SF, SH, SK, SK37E, and JA aircraft had different engines, radar fits, sensor noses, weapons, and weights.",
+            "refs": [
+              "fn-swafhf-ajs-sk37",
+              "fn-flugzeuginfo-viggen",
+              "fn-method"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "1 or 2"
+            "text": "1 in AJ/AJS/SF/SH/JA; 2 in SK/SK37E trainers and EW aircraft"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Length",
+            "text": "About 16.3-16.4 m"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Wingspan",
+            "text": "10.6 m main wing; AJS source also lists 5.45 m canard span"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Height",
+            "text": "About 5.8-5.9 m"
           },
           {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Saab 37 Viggen status: Retired. Conflict entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Powerplant",
+            "text": "One Volvo Flygmotor RM8A or RM8B afterburning turbofan"
           },
           {
-            "text": "Conflicts: 0 entries.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Saab 37 Viggen named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum speed",
+            "text": "Mach 2 class at altitude; AJS source lists Mach 2 / 1,350 indicated"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Range",
+            "text": "AJS source lists about 1,700 km internal fuel and 2,100 km with external tank"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Service ceiling",
+            "text": "18,000-20,000 m in public technical sources"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Takeoff weight",
+            "text": "AJS source lists 15,525 kg; Saab Finland lists 18,800 kg maximum takeoff weight; other tables list higher JA/attack values"
+          },
+          {
+            "title": "External load",
+            "text": "Up to about 7 tonnes on AJ/AJS-family aircraft in Swedish Air Force Historic Flight description"
           }
         ]
       },
@@ -64282,41 +64398,57 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Saab 37 Viggen variant-family entries: 4. Variant families: Saab 37 Viggen baseline production model; Saab 37 Viggen upgraded avionics or weapons-capable model; Saab 37 Viggen two-seat trainer or conversion model; Saab 37 Viggen export or locally modernized model.",
+            "text": "Viggen designations encoded the aircraft's role in Swedish service. The family began with the AJ 37 attack aircraft, then expanded through trainer, reconnaissance, interceptor, and modernization standards. Export versions were studied, but the Viggen remained a Swedish Air Force type rather than a broad export product.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-saab-finland-viggen",
+              "fn-swafhf-ajs-sk37"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Saab 37 Viggen baseline production model",
+            "text": "AJ 37 — original attack version with secondary air-defense role, delivered from 1971.",
             "refs": [
-              "fn-main"
+              "fn-swafhf-ajs-sk37"
             ]
           },
           {
-            "text": "Saab 37 Viggen upgraded avionics or weapons-capable model",
+            "text": "SK 37 — two-seat conversion trainer with radar removed, rear cockpit added, and limited weapons-training capability.",
             "refs": [
-              "fn-main"
+              "fn-swafhf-ajs-sk37"
             ]
           },
           {
-            "text": "Saab 37 Viggen two-seat trainer or conversion model",
+            "text": "SF 37 — photographic reconnaissance version with dedicated camera/sensor nose.",
             "refs": [
-              "fn-main"
+              "fn-saab-finland-viggen",
+              "fn-flugzeuginfo-viggen"
             ]
           },
           {
-            "text": "Saab 37 Viggen export or locally modernized model",
+            "text": "SH 37 — maritime reconnaissance and sea-surveillance version.",
             "refs": [
-              "fn-main"
+              "fn-saab-finland-viggen",
+              "fn-swafhf-ajs-sk37"
+            ]
+          },
+          {
+            "text": "JA 37 — fighter/interceptor version with RM8B engine, radar and air-to-air weapons focus; Saab Finland describes it as a substantially new aircraft and a powerful European fighter in its era.",
+            "refs": [
+              "fn-saab-finland-viggen",
+              "fn-saab-history-viggen"
+            ]
+          },
+          {
+            "text": "AJS/AJSH/AJSF 37 — 1990s upgraded first-generation aircraft with integrated attack, fighter, and reconnaissance capabilities plus new weapons such as Rb15F and Bk 90.",
+            "refs": [
+              "fn-swafhf-ajs-sk37"
+            ]
+          },
+          {
+            "text": "SK37E — electronic-warfare aggressor and support conversion of SK 37 trainers, with internal and pod-mounted jamming equipment.",
+            "refs": [
+              "fn-swafhf-ajs-sk37"
             ]
           }
         ]
@@ -64326,13 +64458,131 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Sweden. Saab 37 Viggen has 1 designer or builder country entry.",
+            "text": "The Swedish Air Force was the Viggen's only military operator. The aircraft equipped attack, reconnaissance, fighter, conversion-training, and electronic-warfare units and became, in Saab's wording, the backbone of Swedish air power for roughly three decades.",
             "refs": [
-              "fn-wikidata"
+              "fn-saab-history-viggen",
+              "fn-swafhf-ajs-sk37"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "After retirement, examples remained in museums in Sweden and abroad, while the Swedish Air Force Historic Flight returned an AJS 37 and SK37E to flying display status under civil registrations. Those aircraft are preserved heritage examples rather than active military operators.",
+            "refs": [
+              "fn-saab-finland-viggen",
+              "fn-swafhf-ajs-sk37"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Military operator",
+            "text": "Sweden — Swedish Air Force / Flygvapnet"
+          },
+          {
+            "title": "Export status",
+            "text": "No regular foreign military service recorded in the sources used"
+          },
+          {
+            "title": "Preservation",
+            "text": "Museums in Sweden and abroad; airworthy Swedish Air Force Historic Flight aircraft"
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "The Viggen was designed around Sweden's policy of dispersed national defense. Its ability to use 500 m road bases, receive rapid servicing, and fly high-speed low-level missions was intended to reduce vulnerability to airbase attacks and allow combat operations from many prepared sites.",
+            "refs": [
+              "fn-swafhf-ajs-sk37",
+              "fn-globalaircraft-viggen"
+            ]
+          },
+          {
+            "text": "AJ 37 units initially focused on strike and anti-ship work, while SH and SF versions handled maritime and photographic reconnaissance. JA 37 interceptors later took over the fighter role from the Draken, and the AJS upgrade kept first-generation aircraft useful by integrating attack, fighter, reconnaissance, and newer weapon options.",
+            "refs": [
+              "fn-swafhf-ajs-sk37",
+              "fn-saab-history-viggen"
+            ]
+          },
+          {
+            "text": "The type did not build its reputation through combat deployments; its significance lies in Swedish national air-defense posture, independent avionics development, short-base operations, and the transition from Draken-era aircraft to Gripen-era systems. The last active Swedish Viggens left service in 2005, after which the Gripen carried forward Saab's dispersed-operations philosophy.",
+            "refs": [
+              "fn-saab-finland-viggen",
+              "fn-saab-history-viggen",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Viggen's strengths were high speed, low-level strike performance, short-field operation, a robust national support concept, and mission systems tailored to Swedish command-and-control infrastructure. The aircraft was also technically notable for combining a computer-centered cockpit, data-link environment, advanced radar/navigation aids, and a powerful thrust-reverser-equipped turbofan in a single-seat combat aircraft.",
+            "refs": [
+              "fn-saab-history-viggen",
+              "fn-globalaircraft-viggen"
+            ]
+          },
+          {
+            "text": "Its limitations flowed from the same specialization. The RM8 was large, afterburner fuel burn was high, the aircraft was optimized for Sweden's basing and defense system rather than export commonality, and late Cold War modernization could not fully avoid replacement by the lighter, newer JAS 39 Gripen. Public performance and production figures also vary by variant, so source-specific caveats are necessary.",
+            "refs": [
+              "fn-globalaircraft-viggen",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison-role-context",
+        "title": "Comparison and Role Context",
+        "paragraphs": [
+          {
+            "text": "Compared with the Saab 35 Draken, the Viggen was a larger and more mission-system-heavy aircraft built for attack, reconnaissance, and later fighter duties as part of one national system. Compared with export fighters such as the F-4 Phantom II, F-104 Starfighter, and Mirage III, it was less internationally widespread but more tightly optimized around Sweden's road-base and national data-link doctrine.",
+            "refs": [
+              "fn-saab-history-viggen",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The Viggen also forms an important bridge to the JAS 39 Gripen: both were Saab canard-delta Swedish fighters designed around dispersed operations, rapid turnaround, and national mission-system integration, but Gripen moved the concept into a smaller fourth-generation multirole platform with broad export use.",
+            "refs": [
+              "fn-saab-history-viggen",
+              "fn-swafhf-ajs-sk37"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Saab 35 Draken",
+            "url": "aircraft.html?id=saab-35-draken"
+          },
+          {
+            "label": "Saab JAS 39 Gripen",
+            "url": "aircraft.html?id=jas-39-gripen"
+          },
+          {
+            "label": "Lockheed F-104 Starfighter",
+            "url": "aircraft.html?id=f-104-starfighter"
+          },
+          {
+            "label": "McDonnell Douglas F-4 Phantom II",
+            "url": "aircraft.html?id=f-4-phantom-ii"
+          },
+          {
+            "label": "Dassault Mirage III",
+            "url": "aircraft.html?id=mirage-iii"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "Selected milestones emphasize development, delivery, modernization, and retirement rather than combat events, because the Viggen remained a Swedish national-defense aircraft and did not see broad combat deployment.",
             "refs": [
               "fn-method"
             ]
@@ -64340,43 +64590,94 @@
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Early 1950s — Saab begins preliminary studies for what becomes the Viggen family.",
             "refs": [
-              "fn-main"
+              "fn-swafhf-ajs-sk37"
             ]
           },
           {
-            "text": "Major designer or builder entries: Sweden.",
+            "text": "1961-1962 — Swedish System 37 decisions define a unified aircraft for attack, reconnaissance, and fighter missions.",
             "refs": [
-              "fn-wikidata"
+              "fn-saab-history-viggen"
+            ]
+          },
+          {
+            "text": "8 February 1967 — First Viggen prototype flight at Linköping.",
+            "refs": [
+              "fn-saab-history-viggen",
+              "fn-saab-finland-viggen"
+            ]
+          },
+          {
+            "text": "21 June 1971 — First production AJ 37 delivered to the Swedish Air Force.",
+            "refs": [
+              "fn-swafhf-ajs-sk37"
+            ]
+          },
+          {
+            "text": "1973 — Operational conversion begins at F 7 Såtenäs.",
+            "refs": [
+              "fn-swafhf-ajs-sk37"
+            ]
+          },
+          {
+            "text": "1974-1975 — Wing-spar problems ground the fleet for investigation and reinforcement after crashes.",
+            "refs": [
+              "fn-swafhf-ajs-sk37"
+            ]
+          },
+          {
+            "text": "1991-1997 — AJ/SH/SF aircraft upgraded to AJS/AJSH/AJSF standards.",
+            "refs": [
+              "fn-swafhf-ajs-sk37"
+            ]
+          },
+          {
+            "text": "29 June 1990 — Final JA 37 delivered to the Swedish Air Force.",
+            "refs": [
+              "fn-saab-history-viggen",
+              "fn-saab-finland-viggen"
+            ]
+          },
+          {
+            "text": "2005 — Viggen leaves active Swedish Air Force service.",
+            "refs": [
+              "fn-saab-finland-viggen"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "sources-and-notes",
+        "title": "Sources and Notes",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1 or 2, propulsion type Jet, maximum speed category Supersonic, first flight 1967, introduction 1971.",
+            "text": "This page prioritizes Saab manufacturer history and Swedish Air Force Historic Flight preservation data, with Flugzeuginfo and GlobalAircraft used as supplementary technical references. Wikipedia is retained for orientation only. Variant-sensitive data are deliberately marked as representative because AJ/AJS, JA, reconnaissance, trainer, and SK37E aircraft differ substantially.",
             "refs": [
-              "fn-main"
+              "fn-saab-history-viggen",
+              "fn-swafhf-ajs-sk37",
+              "fn-flugzeuginfo-viggen",
+              "fn-globalaircraft-viggen",
+              "fn-method"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Production totals are reported cautiously: Saab's Swedish history page cites 329, while Saab Finland and Swedish Air Force Historic Flight cite 337. Rather than forcing a single number, the Milipedia entry records the conflict and uses source-qualified wording.",
             "refs": [
+              "fn-saab-history-viggen",
+              "fn-saab-finland-viggen",
+              "fn-swafhf-ajs-sk37",
               "fn-method"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "related-pages",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "Saab 37 Viggen similar-development links: 4.",
+            "text": "Related aircraft include Saab predecessor and successor types plus contemporary Cold War fighters that help place the Viggen's national-defense design choices in context.",
             "refs": [
               "fn-method"
             ]
@@ -64384,20 +64685,28 @@
         ],
         "links": [
           {
+            "label": "Saab 35 Draken",
+            "url": "aircraft.html?id=saab-35-draken"
+          },
+          {
+            "label": "Saab JAS 39 Gripen",
+            "url": "aircraft.html?id=jas-39-gripen"
+          },
+          {
+            "label": "Lockheed F-104 Starfighter",
+            "url": "aircraft.html?id=f-104-starfighter"
+          },
+          {
             "label": "McDonnell Douglas F-4 Phantom II",
             "url": "aircraft.html?id=f-4-phantom-ii"
           },
           {
-            "label": "Northrop F-5",
-            "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
+            "label": "Dassault Mirage III",
+            "url": "aircraft.html?id=mirage-iii"
           },
           {
-            "label": "Vought F-8 Crusader",
-            "url": "aircraft.html?id=f-8-crusader"
-          },
-          {
-            "label": "Grumman F-14 Tomcat",
-            "url": "aircraft.html?id=f-14-tomcat"
+            "label": "Panavia Tornado",
+            "url": "aircraft.html?id=panavia-tornado"
           }
         ]
       }
