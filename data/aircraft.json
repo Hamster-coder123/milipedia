@@ -38699,34 +38699,103 @@
   {
     "id": "su-7",
     "name": "Sukhoi Su-7",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "alternative_names": [
+      "S-1",
+      "S-22",
+      "Fitter-A"
+    ],
+    "nato_reporting_name": "Fitter-A",
     "country_of_origin": "Soviet Union",
     "manufacturer": "Sukhoi",
-    "role": "Fighter-bomber",
-    "aircraft_type": "Attack aircraft",
+    "role": "Supersonic fighter-bomber and ground-attack aircraft",
+    "aircraft_type": "Fighter-bomber / attack aircraft",
     "era": "Cold War",
-    "first_flight": "1955",
-    "introduction_date": "1959",
-    "retirement_date": "Not listed",
-    "status": "Retired",
-    "number_built": "Not listed",
-    "crew": "1",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "first_flight": "7 September 1955",
+    "introduction_date": "1959 for the Su-7 fighter; 1961 for the Su-7B fighter-bomber",
+    "retirement_date": "Soviet Su-7B service was replaced from 1977 through the mid-1980s; some export users retained aircraft longer",
+    "status": "Retired from most users; public sources describe only limited or residual service claims",
+    "number_built": "1,847 Su-7-series aircraft reported by GlobalSecurity and Wikipedia",
+    "crew": "1 (Su-7U/UM trainers had 2)",
+    "engine_type": "Afterburning turbojet",
+    "engines": "1 × Lyulka AL-7F/AL-7F-1 afterburning turbojet",
+    "max_speed": "About 1,700 km/h for Su-7B data; S-1 prototype exceeded 2,000 km/h in tests",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Sukhoi Su-7: Fighter-bomber. Manufacturer: Sukhoi. First flight: 1955. Introduction: 1959.",
-    "short_summary": "Sukhoi Su-7: Fighter-bomber. Origin: Soviet Union. Manufacturer: Sukhoi. First flight: 1955. Introduction: 1959. Status: Retired.",
+    "range": "About 1,130 km for Su-7B data; combat radius depended heavily on drop tanks and loadout",
+    "combat_range": "Short for a strike aircraft; fuel consumption often forced carriage of drop tanks on weapon stations",
+    "service_ceiling": "About 19,500 m (63,976 ft) for Su-7B data",
+    "rate_of_climb": "Not consistently listed in the sources used for this update",
+    "armament": "Two 30 mm NR-30 cannon and wing pylons for bombs, rocket pods, and other ground-attack stores; missile and nuclear-capable fits varied by variant and operator",
+    "hardpoints": "Typically under-wing pylons; early Su-7B data lists limited stations, later BM/BKL/BMK aircraft added improved external-store arrangements",
+    "variants": [
+      {
+        "name": "S-1 / Su-7",
+        "description": "Swept-wing front-line fighter prototype and early production fighter; entered limited fighter service, mainly in the Soviet Far East, before the MiG-21 became the preferred fighter."
+      },
+      {
+        "name": "S-22 / Su-7B",
+        "description": "Ground-attack fighter-bomber derivative first flown in 1959 and introduced in 1961; became the key Soviet Fitter-A strike version of the early 1960s."
+      },
+      {
+        "name": "Su-7BM",
+        "description": "Improved fighter-bomber with refinements for range, navigation, and nuclear-capable strike tasking in Soviet service; exact equipment differed by batch."
+      },
+      {
+        "name": "Su-7BKL",
+        "description": "Rough-field improved version associated with JATO provisions, ski-equipped landing-gear features, and low-level strike use where runway performance was a major limitation."
+      },
+      {
+        "name": "Su-7BMK",
+        "description": "Export fighter-bomber version supplied to several Soviet-aligned or non-aligned air arms."
+      },
+      {
+        "name": "Su-7U / Su-7UM / Su-7UMK",
+        "description": "Two-seat operational conversion trainers; GlobalSecurity notes Su-7U production from 1966 to 1972, with UMK export trainers."
+      },
+      {
+        "name": "Su-7IG / S-22I",
+        "description": "Variable-geometry demonstrator that addressed the Su-7's runway and low-speed handling problems and led to the Sukhoi Su-17 family."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Soviet Union",
+        "service": "Soviet Air Forces / Frontal Aviation",
+        "notes": "Original user; the Su-7 fighter served briefly, while Su-7B-family fighter-bombers equipped numerous tactical aviation units before replacement by Su-17 and MiG-27 types."
+      },
+      {
+        "country": "India",
+        "service": "Indian Air Force",
+        "notes": "One of the best-known export users; Indian Su-7s served as strike aircraft during the 1971 Indo-Pakistani War. Exact attrition and sortie figures vary by source."
+      },
+      {
+        "country": "Egypt",
+        "service": "Egyptian Air Force",
+        "notes": "Operated Su-7s in the Arab-Israeli conflict era, including the Six-Day War, War of Attrition, and Yom Kippur War context described in public histories."
+      },
+      {
+        "country": "Poland",
+        "service": "Polish Air Force",
+        "notes": "Warsaw Pact operator; surviving Su-7BM/BKL/UM aircraft are documented in European museum and photo-reference sources."
+      },
+      {
+        "country": "Czechoslovakia",
+        "service": "Czechoslovak Air Force",
+        "notes": "Warsaw Pact operator; Flugzeuginfo photo records document preserved Czechoslovak Su-7BM and Su-7BKL aircraft."
+      },
+      {
+        "country": "Afghanistan",
+        "service": "Afghan air arms",
+        "notes": "Received Su-7BMK aircraft and used the type in Afghan internal-war and Soviet-intervention contexts; detailed fleet and loss claims require source-by-source verification."
+      },
+      {
+        "country": "Algeria, Iraq, Syria, Romania, North Korea and others",
+        "service": "Export and aligned air arms",
+        "notes": "Public sources list a broad export base. This page groups lower-detail users to avoid overstating exact fleet counts without current primary sources."
+      }
+    ],
+    "combat_history": "Used by Soviet and export air arms as a rugged high-speed strike aircraft; export combat use included Middle Eastern wars, Indian service, and Afghan operations, but claims vary by source and variant.",
+    "development_history": "The Su-7 began as Sukhoi's swept-wing S-1 front-line fighter after the design bureau was re-established in the 1950s. Its fighter career was brief, but the S-22/Su-7B fighter-bomber became a major Soviet tactical strike aircraft of the 1960s and led directly to the variable-sweep Su-17 family.",
+    "short_summary": "The Sukhoi Su-7 Fitter-A was a single-seat Soviet supersonic fighter that evolved into a rugged fighter-bomber and ground-attack aircraft. It offered impressive low-level speed and simple maintenance, but short range, high fuel burn, and demanding takeoff/landing behavior limited its operational flexibility.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -38739,46 +38808,32 @@
     ],
     "sources": [
       {
+        "id": "fn-flug",
+        "title": "Suchoi / Sukhoi Su-7 - Specifications - Technical Data / Description",
+        "url": "http://www.flugzeuginfo.net/acdata_php/acdata_su7_en.php",
+        "publisher": "Flugzeuginfo.net",
+        "note": "Used for Su-7B dimensional, engine, speed, ceiling, range, weight, production-status, and NATO-code data."
+      },
+      {
+        "id": "fn-gs",
+        "title": "Su-7 FITTER A (SUKHOI)",
+        "url": "https://www.globalsecurity.org/military/world/russia/su-7.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Used for development chronology, armament summary, production totals, export framing, replacement by Su-17/MiG-27, and design details."
+      },
+      {
         "id": "fn-main",
         "title": "Sukhoi Su-7",
         "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-7",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for variant names, operator context, and service-history cross-checks."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.globalsecurity.org/military/world/russia/su-7.htm",
-        "publisher": "globalsecurity.org",
-        "note": "External source for Sukhoi Su-7."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.globalaircraft.org/planes/su-7_fitter-a.pl",
-        "publisher": "globalaircraft.org",
-        "note": "External source for Sukhoi Su-7."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.militaryfactory.com/aircraft/detail.asp?aircraft_id=69",
-        "publisher": "militaryfactory.com",
-        "note": "External source for Sukhoi Su-7."
+        "note": "Local rules for cautious wording, variant caveats, and source handling."
       }
     ],
     "country_flags": [
@@ -38791,59 +38846,72 @@
       "Sukhoi"
     ],
     "development_tensions": [
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "High speed and simple rugged construction made the Su-7 useful as a low-level strike aircraft, but the same design produced heavy controls, high landing speeds, short range, and demanding runway requirements.",
+      "The aircraft's fuel-hungry AL-7 engine and swept wing made drop tanks and JATO/rough-field aids important, reducing the useful weapon load on many missions.",
+      "Sukhoi's variable-sweep Su-17 was a direct response to Su-7 takeoff, landing, range, and payload limitations."
     ],
     "wars_used_in": [
       {
-        "name": "Soviet–Afghan War",
-        "note": "Sukhoi Su-7 used in Soviet–Afghan War."
+        "name": "Six-Day War / War of Attrition / Yom Kippur War",
+        "note": "Egyptian Su-7 service is associated with the Arab-Israeli conflict period; detailed sortie and loss claims vary by source."
+      },
+      {
+        "name": "Indo-Pakistani War of 1971",
+        "note": "Indian Air Force Su-7s were used in strike missions during the war; exact results and losses should be checked against specialist sources before adding totals."
+      },
+      {
+        "name": "Afghan conflicts",
+        "note": "Afghan Su-7BMK operations are noted in public histories, including use during internal conflict and the Soviet-intervention era."
       }
     ],
     "variant_families": [
-      "Sukhoi Su-7 baseline production model",
-      "Sukhoi Su-7 upgraded avionics or weapons-capable model",
-      "Sukhoi Su-7 export or locally modernized model"
+      "Su-7 fighter",
+      "Su-7B/BM/BKL fighter-bomber family",
+      "Su-7BMK export family",
+      "Su-7U/UM/UMK trainers",
+      "Su-17 variable-sweep development"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "Soviet Union"
       ],
-      "major_user_note": "Sukhoi Su-7 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Major users included the Soviet Union, India, Egypt, Poland, Czechoslovakia, Afghanistan, and other export customers; exact fleet counts are variant- and date-sensitive.",
+      "all_operators_status": "7 grouped operator entries listed."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "S-1 prototype first flew on 7 September 1955 with A. G. Kochetkov at the controls.",
+        "The S-1 prototype recorded more than 2,000 km/h in 1956 tests, demonstrating the design's high-speed potential."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Early testing was affected by AL-7F reliability problems; GlobalSecurity records the loss of the first prototype in November 1957.",
+        "High landing speed and lack of approach aids made bad-weather and short-field operation difficult for line units."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Sukhoi Su-7 uses jet propulsion."
+      "type": "Afterburning turbojet",
+      "summary": "The Su-7 family used a single Lyulka AL-7F/AL-7F-1 afterburning turbojet. Flugzeuginfo lists Su-7B thrust as 67.1 kN dry and 94.1 kN with afterburner, while GlobalSecurity emphasizes that early AL-7F reliability problems shaped testing and production decisions.",
+      "caution": "Engine suffix and thrust figures differ among Su-7, Su-7B, BM, BKL, BMK, and trainer variants."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Standard fixed armament was two 30 mm NR-30 cannon in the wing roots. Public summaries list bombs and rocket pods on under-wing pylons; later fighter-bomber variants could carry a wider range of air-to-ground stores.",
+      "caution": "Loadouts were variant-, operator-, mission-, and period-dependent. This update avoids presenting a universal missile or special-weapons table as if it applied to every Su-7."
     },
     "similar_development": [
+      {
+        "id": "su-17",
+        "name": "Sukhoi Su-17",
+        "url": "aircraft.html?id=su-17"
+      },
+      {
+        "id": "mig-21",
+        "name": "Mikoyan-Gurevich MiG-21",
+        "url": "aircraft.html?id=mig-21"
+      },
       {
         "id": "f-105-thunderchief",
         "name": "Republic F-105 Thunderchief",
         "url": "aircraft.html?id=f-105-thunderchief"
-      },
-      {
-        "id": "a-4-skyhawk",
-        "name": "Douglas A-4 Skyhawk",
-        "url": "aircraft.html?id=a-4-skyhawk"
-      },
-      {
-        "id": "a-6-intruder",
-        "name": "Grumman A-6 Intruder",
-        "url": "aircraft.html?id=a-6-intruder"
       },
       {
         "id": "a-7-corsair-ii",
@@ -38852,76 +38920,62 @@
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
+      "exact_fact_count": 31,
+      "operator_entries": 7,
+      "variant_entries": 7,
       "external_article_sources": 3
     },
     "footnotes": [
+      {
+        "id": "fn-flug",
+        "title": "Suchoi / Sukhoi Su-7 - Specifications - Technical Data / Description",
+        "url": "http://www.flugzeuginfo.net/acdata_php/acdata_su7_en.php",
+        "publisher": "Flugzeuginfo.net",
+        "note": "Used for Su-7B dimensional, engine, speed, ceiling, range, weight, production-status, and NATO-code data."
+      },
+      {
+        "id": "fn-gs",
+        "title": "Su-7 FITTER A (SUKHOI)",
+        "url": "https://www.globalsecurity.org/military/world/russia/su-7.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Used for development chronology, armament summary, production totals, export framing, replacement by Su-17/MiG-27, and design details."
+      },
       {
         "id": "fn-main",
         "title": "Sukhoi Su-7",
         "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-7",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for variant names, operator context, and service-history cross-checks."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.globalsecurity.org/military/world/russia/su-7.htm",
-        "publisher": "globalsecurity.org",
-        "note": "External source for Sukhoi Su-7."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.globalaircraft.org/planes/su-7_fitter-a.pl",
-        "publisher": "globalaircraft.org",
-        "note": "External source for Sukhoi Su-7."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.militaryfactory.com/aircraft/detail.asp?aircraft_id=69",
-        "publisher": "militaryfactory.com",
-        "note": "External source for Sukhoi Su-7."
+        "note": "Local rules for cautious wording, variant caveats, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.globalsecurity.org/military/world/russia/su-7.htm",
-        "publisher": "globalsecurity.org",
-        "note": "External source for Sukhoi Su-7."
+        "id": "fn-flug",
+        "title": "Suchoi / Sukhoi Su-7 - Specifications - Technical Data / Description",
+        "url": "http://www.flugzeuginfo.net/acdata_php/acdata_su7_en.php",
+        "publisher": "Flugzeuginfo.net",
+        "note": "Used for Su-7B dimensional, engine, speed, ceiling, range, weight, production-status, and NATO-code data."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.globalaircraft.org/planes/su-7_fitter-a.pl",
-        "publisher": "globalaircraft.org",
-        "note": "External source for Sukhoi Su-7."
+        "id": "fn-gs",
+        "title": "Su-7 FITTER A (SUKHOI)",
+        "url": "https://www.globalsecurity.org/military/world/russia/su-7.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Used for development chronology, armament summary, production totals, export framing, replacement by Su-17/MiG-27, and design details."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.militaryfactory.com/aircraft/detail.asp?aircraft_id=69",
-        "publisher": "militaryfactory.com",
-        "note": "External source for Sukhoi Su-7."
+        "id": "fn-main",
+        "title": "Sukhoi Su-7",
+        "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-7",
+        "publisher": "Wikipedia",
+        "note": "Supplementary orientation source for variant names, operator context, and service-history cross-checks."
       }
     ],
     "article_sections": [
@@ -38930,64 +38984,82 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-7 is a Fighter-bomber from Soviet Union. Manufacturer: Sukhoi. First flight: 1955. Introduction: 1959. Status: Retired.",
+            "text": "The Sukhoi Su-7 Fitter-A was a Soviet swept-wing supersonic aircraft that began as a front-line fighter and became better known as a fighter-bomber and ground-attack aircraft. Its rugged construction, high low-level speed, and simple systems made it a useful Cold War strike platform, but it was hampered by short range, heavy controls, and demanding takeoff and landing behavior.",
             "refs": [
+              "fn-gs",
               "fn-main"
             ]
           },
           {
-            "text": "Sukhoi Su-7 is a attack aircraft. Primary role: fighter-bomber. Country of origin: Soviet Union. Manufacturer: Sukhoi.",
+            "text": "Milipedia treats the Su-7 as a family page because the early Su-7 fighter, Su-7B/BM/BKL fighter-bombers, export BMK aircraft, and two-seat trainers differed in equipment and mission. Specification figures below use Su-7B data where the source identifies a representative version.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Exact structured fact fields: 15.",
-            "refs": [
+              "fn-flug",
               "fn-method"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Primary role",
-            "text": "Fighter-bomber"
+            "title": "Role",
+            "text": "Supersonic fighter-bomber / attack aircraft"
           },
           {
-            "title": "Designer or builder",
-            "text": "Sukhoi"
+            "title": "NATO name",
+            "text": "Fitter-A; trainer reporting name Moujik appears in some references"
           },
           {
-            "title": "Major origin",
-            "text": "Soviet Union"
+            "title": "First flight",
+            "text": "7 September 1955"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Production",
+            "text": "1957-1972; 1,847 aircraft reported across versions"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-7 first flew in 1955. Introduction date: 1959. Era: Cold War.",
+            "text": "Sukhoi's design bureau returned to front-line fighter work in the early 1950s. The swept-wing S-1 prototype was built around the new Lyulka AL-7 turbojet, an all-moving tailplane, irreversible hydraulically boosted controls, and an adjustable nose-inlet centerbody for supersonic flight.",
             "refs": [
+              "fn-gs",
               "fn-main"
             ]
           },
           {
-            "text": "Producer: Sukhoi. Development context: fighter-bomber, jet propulsion, supersonic speed category, Cold War era.",
+            "text": "The S-1 first flew on 7 September 1955. Test flying quickly demonstrated high speed, with GlobalSecurity describing a June 1956 flight above 2,000 km/h and the aircraft appearing publicly at Tushino soon afterward. Early production Su-7 fighters entered limited service in 1959, but the MiG-21 became the more important Soviet front-line fighter.",
             "refs": [
-              "fn-wikidata"
+              "fn-gs",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Sukhoi then adapted the design into the S-22/Su-7B strike aircraft. The fighter-bomber version first flew in 1959 and entered service in 1961, giving Soviet tactical aviation a fast, rugged attack aircraft until Su-17 and MiG-27 replacements arrived from the late 1970s onward.",
+            "refs": [
+              "fn-gs",
+              "fn-main"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "Key innovation: 60-degree swept wing, movable inlet cone, and all-moving tailplane for supersonic flight.",
             "refs": [
+              "fn-gs"
+            ]
+          },
+          {
+            "text": "Key limitation: the AL-7 family gave strong performance but high fuel burn, reducing useful combat radius.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Follow-on solution: the Su-7IG/S-22I swing-wing demonstrator led to the Su-17 family.",
+            "refs": [
+              "fn-main",
               "fn-method"
             ]
           }
@@ -38998,114 +39070,88 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The Su-7 used a nose intake feeding a single afterburning AL-7 turbojet, a long tubular fuselage, swept wings with wide roots, and a swept tail. The aircraft was optimized for speed and strength rather than economy or short-field performance.",
             "refs": [
-              "fn-main"
+              "fn-gs",
+              "fn-flug"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "GlobalSecurity lists two 30 mm NR-30 cannon in the wing roots and under-wing pylons for bombs or rocket pods. Public descriptions of later variants include broader strike stores, but exact loadouts varied by operator, mission, and variant, so this page avoids a universal weapons table.",
             "refs": [
+              "fn-gs",
               "fn-method"
             ]
           },
           {
-            "text": "Sukhoi Su-7 uses jet propulsion. Engine model field: Not listed.",
+            "text": "Operationally, the Su-7 was valued for speed, simplicity, and ruggedness. Its drawbacks were just as important: high landing speeds, poor cockpit visibility during approach, limited fuel fraction for strike work, and reliance on drop tanks that occupied weapon stations.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-main",
+              "fn-gs"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "1"
+            "text": "1; two-seat Su-7U/UM trainers existed"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Engine",
+            "text": "1 × Lyulka AL-7F/AL-7F-1 afterburning turbojet"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Fixed armament",
+            "text": "2 × 30 mm NR-30 cannon"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Design trade-off",
+            "text": "Fast and robust, but short-ranged and runway-hungry"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-7 status: Retired. Conflict entries: 1.",
+            "text": "Representative Su-7B figures from Flugzeuginfo list a crew of one, one Lyulka AL-7F turbojet, 67.1 kN dry thrust and 94.1 kN with afterburner, maximum speed about 1,700 km/h, service ceiling about 19,500 m, and range about 1,130 km.",
             "refs": [
-              "fn-main"
+              "fn-flug"
             ]
           },
           {
-            "text": "Conflicts: Soviet–Afghan War.",
+            "text": "The same source lists empty weight at 8,636 kg and maximum takeoff weight at 14,800 kg, with wingspan 8.93 m, length 17.37 m, height 4.57 m, and wing area 27.6 square metres. These should be read as version-specific Su-7B data, not universal values for every Fitter variant.",
             "refs": [
+              "fn-flug",
               "fn-method"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Soviet–Afghan War: Sukhoi Su-7 used in Soviet–Afghan War.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Sukhoi Su-7 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Wingspan",
+            "text": "8.93 m (29 ft 4 in)"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "17.37 m (about 57 ft)"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Max speed",
+            "text": "About 1,700 km/h for Su-7B reference data"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Service ceiling",
+            "text": "About 19,500 m (63,976 ft)"
+          },
+          {
+            "title": "Range",
+            "text": "About 1,130 km; combat radius was much shorter with stores"
+          },
+          {
+            "title": "MTOW",
+            "text": "14,800 kg in the Flugzeuginfo Su-7B table"
           }
         ]
       },
@@ -39114,33 +39160,41 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-7 variant-family entries: 3. Variant families: Sukhoi Su-7 baseline production model; Sukhoi Su-7 upgraded avionics or weapons-capable model; Sukhoi Su-7 export or locally modernized model.",
+            "text": "The Fitter-A family is best understood as a progression from early fighter to strike aircraft, export fighter-bomber, trainer, and finally a technology bridge to the variable-sweep Su-17.",
             "refs": [
+              "fn-gs",
               "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Sukhoi Su-7 baseline production model",
+            "text": "Su-7: early fighter version with limited operational use before Soviet fighter emphasis shifted to the MiG-21.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Sukhoi Su-7 upgraded avionics or weapons-capable model",
+            "text": "Su-7B/BM/BKL: fighter-bomber family with progressive strike, range, rough-field, and operating refinements.",
+            "refs": [
+              "fn-gs",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Su-7BMK: export fighter-bomber supplied to several users outside the Soviet Union.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Sukhoi Su-7 export or locally modernized model",
+            "text": "Su-7U/UM/UMK: two-seat trainers; GlobalSecurity notes trainer production from 1966 to 1972.",
+            "refs": [
+              "fn-gs"
+            ]
+          },
+          {
+            "text": "Su-7IG/S-22I: swing-wing test aircraft that led to the Sukhoi Su-17.",
             "refs": [
               "fn-main"
             ]
@@ -39152,45 +39206,186 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Soviet Union. Sukhoi Su-7 has 1 designer or builder country entry.",
+            "text": "The Su-7 served with the Soviet Union and a range of export customers. This page groups operators where reliable current fleet counts were not checked during this single run, emphasizing historical use over exact inventories.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
+              "fn-gs",
+              "fn-main",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Soviet Union: original fighter and fighter-bomber operator; Su-7B-family aircraft equipped tactical aviation units before replacement by Su-17 and MiG-27 types.",
+            "refs": [
+              "fn-gs"
+            ]
+          },
+          {
+            "text": "India and Egypt: major non-Warsaw Pact combat users in public histories.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Major designer or builder entries: Soviet Union.",
+            "text": "Poland and Czechoslovakia: Warsaw Pact operators documented by preserved aircraft and photo references.",
             "refs": [
-              "fn-wikidata"
+              "fn-flug"
+            ]
+          },
+          {
+            "text": "Afghanistan, Algeria, Iraq, Syria, Romania, North Korea and others: reported export users; exact totals and dates require specialist checking before adding fleet tables.",
+            "refs": [
+              "fn-main",
+              "fn-method"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Supersonic, first flight 1955, introduction 1959.",
+            "text": "Soviet Su-7B units used the aircraft as a fast tactical fighter-bomber during the 1960s and 1970s. GlobalSecurity states that up to 25 Soviet fighter-bomber aviation units were equipped with Su-7B types at peak deployment and that replacement by Su-17 and MiG-27 aircraft began in 1977.",
+            "refs": [
+              "fn-gs"
+            ]
+          },
+          {
+            "text": "Export combat use is most often associated with the Middle East, the 1971 Indo-Pakistani War, and Afghan service. Because public sources disagree on detailed losses, sortie counts, and exact subvariants, this update records the contexts without adding precise claims that were not verified from specialist primary references.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength in service: high speed at low altitude and simple field maintenance.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Limitation in service: short combat radius and runway demands made mission planning and basing restrictive.",
+            "refs": [
+              "fn-main",
+              "fn-gs"
+            ]
+          },
+          {
+            "text": "Legacy: shortcomings in takeoff/landing performance helped drive the variable-sweep Su-17 development path.",
+            "refs": [
+              "fn-main"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Compared with the MiG-21, the Su-7 sacrificed fighter agility and compactness for a heavier, rugged strike airframe. Compared with Western strike aircraft such as the F-105 or A-7, it was simpler and fast but had less range and less flexible avionics in most public descriptions.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The Su-17 is the closest internal comparison: it retained the Su-7's strike lineage while using variable-sweep wings and later systems to improve runway performance, range, and mission flexibility.",
+            "refs": [
+              "fn-main"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Sukhoi Su-17",
+            "url": "aircraft.html?id=su-17"
+          },
+          {
+            "label": "Mikoyan-Gurevich MiG-21",
+            "url": "aircraft.html?id=mig-21"
+          },
+          {
+            "label": "Republic F-105 Thunderchief",
+            "url": "aircraft.html?id=f-105-thunderchief"
+          },
+          {
+            "label": "LTV A-7 Corsair II",
+            "url": "aircraft.html?id=a-7-corsair-ii"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The Fitter's strengths were high speed, robust construction, and straightforward maintenance. Its limitations were unusually central to its story: fuel consumption, high approach speeds, poor landing visibility, and short radius limited the useful payload and drove later design changes.",
+            "refs": [
+              "fn-main",
+              "fn-gs"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: rugged and fast enough for low-level strike profiles.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Strength: simple systems eased maintenance for many Cold War operators.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Limitation: drop tanks often consumed hardpoints needed for weapons.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Limitation: high landing speed and runway requirements complicated dispersed operations.",
+            "refs": [
+              "fn-main",
+              "fn-gs"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "1953: Sukhoi's bureau returned to supersonic swept-wing fighter work. 1955: S-1 first flight. 1956: public appearance at Tushino and high-speed test results. 1959: Su-7 fighter service entry. 1961: Su-7B fighter-bomber service entry. 1966-1972: trainer production period noted by GlobalSecurity. 1977 onward: Soviet replacement by Su-17 and MiG-27 types began.",
+            "refs": [
+              "fn-gs",
+              "fn-main"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Flugzeuginfo was used for the representative Su-7B specification table; GlobalSecurity for development, production, armament, and replacement context; Wikipedia only as a supplementary orientation source for variant and operator cross-checks.",
+            "refs": [
+              "fn-flug",
+              "fn-gs",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Unverified exact fleet counts, detailed combat-loss totals, and universal weapon clearances were omitted because they vary by variant, user, date, and source.",
             "refs": [
               "fn-method"
             ]
@@ -39198,11 +39393,11 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "related-pages",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-7 similar-development links: 4.",
+            "text": "Related Milipedia pages include the Su-17 successor family, the MiG-21 fighter contemporary, and broadly comparable Cold War strike aircraft.",
             "refs": [
               "fn-method"
             ]
@@ -39210,29 +39405,26 @@
         ],
         "links": [
           {
+            "label": "Sukhoi Su-17",
+            "url": "aircraft.html?id=su-17"
+          },
+          {
+            "label": "Mikoyan-Gurevich MiG-21",
+            "url": "aircraft.html?id=mig-21"
+          },
+          {
             "label": "Republic F-105 Thunderchief",
             "url": "aircraft.html?id=f-105-thunderchief"
           },
           {
-            "label": "Douglas A-4 Skyhawk",
-            "url": "aircraft.html?id=a-4-skyhawk"
-          },
-          {
-            "label": "Grumman A-6 Intruder",
-            "url": "aircraft.html?id=a-6-intruder"
-          },
-          {
             "label": "LTV A-7 Corsair II",
             "url": "aircraft.html?id=a-7-corsair-ii"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "aircraft.html"
           }
         ]
-      }
-    ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Mortar_attack_on_Shigal_Tarna_garrison%2C_Kunar_Province%2C_87.jpg/960px-Mortar_attack_on_Shigal_Tarna_garrison%2C_Kunar_Province%2C_87.jpg",
-        "caption": "Soviet–Afghan War",
-        "source_url": "https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War"
       }
     ]
   },

@@ -5542,3 +5542,80 @@ Record the result of:
 * Current active fleet size, Admiral Kuznetsov availability, exact modernization configuration, and detailed combat-employment claims were intentionally omitted or caveated because they are date-sensitive or not sufficiently supported by the reviewed sources.
 * GlobalSecurity was used for background/source context from search results and known page location, but full extraction was not required because Airforce Technology supplied the main technical baseline.
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+
+### Run 73 — 2026-07-03 15:04:25 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Sukhoi Su-7 (id: su-7)
+* Reason selected: It was the shortest unedited aircraft entry found in the repository after excluding pages already recorded as substantially updated by Hermes, with zero operator entries, zero variant entries, sparse generated sections, placeholder specification fields, and generic armament wording.
+* Previous condition: Placeholder-like generated entry with only generic Wikipedia/Wikidata/method/external-source references, no variants or operators, missing engine/range/ceiling/production details, short generic overview/design/service sections, and no reliable comparison/timeline/source-note treatment.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense lead overview; article-section order from overview through development, design, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, sources, and related pages; concise sourced paragraphs; card-style key facts; cautious wording for variant-specific data; internal aircraft.html?id=... link style.
+
+#### Changes Made
+
+* Expanded the Sukhoi Su-7 entry from a sparse generated record into a fuller Milipedia article data page.
+* Added Fitter-A alternative/NATO naming, clarified the distinction between early Su-7 fighter service and Su-7B fighter-bomber service, and updated status/retirement wording with date-sensitive caveats.
+* Added representative Su-7B specifications from Flugzeuginfo, including Lyulka AL-7F thrust, maximum speed, ceiling, range, weights, dimensions, and production status.
+* Replaced generic generated armament wording with Su-7-specific two 30 mm NR-30 cannon and under-wing ground-attack stores, with variant/operator loadout caveats.
+* Added development history covering the S-1 prototype, 1955 first flight, Tushino appearance/high-speed testing context, S-22/Su-7B strike conversion, and Su-17 lineage.
+* Added variants for S-1/Su-7, Su-7B, Su-7BM, Su-7BKL, Su-7BMK, Su-7U/UM/UMK, and Su-7IG/S-22I.
+* Added grouped operator coverage for the Soviet Union, India, Egypt, Poland, Czechoslovakia, Afghanistan, and other export users without overstating exact fleet counts.
+* Added operational-history, comparison, strengths/limitations, timeline, sources/notes, and related-page sections following the F-16 density pattern within the JSON-rendered page system.
+* Added reliable source records from Flugzeuginfo and GlobalSecurity, retained Wikipedia as supplementary orientation, and retained Milipedia data accuracy rules.
+* Updated internal related links to Su-17, MiG-21, F-105, and A-7 pages and removed the stale generated event gallery.
+* Omitted exact current fleet counts, detailed combat-loss totals, and universal weapon-clearance tables because those facts vary by source, operator, date, and variant.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded the Sukhoi Su-7 aircraft entry, sources, variants, operators, specifications, article sections, and related links.
+* hermes-change-log.md — Appended this cumulative run entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were modified and staged.
+2. git diff — Reviewed diff/stat; data/aircraft.json changed only the su-7 entry and hermes-change-log.md appended Run 73.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool and reviewed the Su-7 entry section list, source IDs, variants, operators, specifications, armament, and stale metadata removal.
+4. F-16 style comparison — Inspected data/f16-template.html and copied the dense overview, section order, sourced paragraph style, specifications emphasis, comparison, strengths/limitations, timeline, sources, and related-page patterns.
+5. Internal link check — Verified aircraft.html?id=su-17, aircraft.html?id=mig-21, aircraft.html?id=f-105-thunderchief, and aircraft.html?id=a-7-corsair-ii target existing aircraft IDs; aircraft.html is the intentional database return link.
+6. Secret/token check — Ran credential-focused scans over the staged diff; no credential material, private keys, auth tokens, or cloud access keys were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, focused one-entry aircraft change, intended files only, no direct main edit, and complete change-log entry.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Sukhoi Su-7
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash; the final hash is reported in the scheduled-run response.
+* Exact Su-7 fleet counts, detailed combat-loss totals, some export-user statuses, and universal weapons clearances were intentionally omitted or grouped because public sources vary by variant, operator, and date.
+* The Su-7 page is rendered through data/aircraft.json rather than the bespoke static F-16 HTML, so the formatting match is structural and density-based rather than identical markup.
