@@ -5697,3 +5697,80 @@ Record the result of:
 * Exact production totals differ slightly between public sources (725 vs. 726), so the page uses an approximate range rather than a single hard figure.
 * Current operator status, detailed combat/loss claims, and exact weapons/avionics fits were intentionally caveated or omitted because Mirage F1 capabilities vary significantly by subvariant, national upgrade, and date.
 * The Mirage F1 page is rendered through data/aircraft.json rather than the bespoke static F-16 HTML, so the formatting match is structural and density-based rather than identical markup.
+
+### Run 75 — 2026-07-03 17:02:18 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Sukhoi Su-30 (id: su-30)
+* Reason selected: The Su-30 record was one of the sparsest unedited aircraft pages found in the comparison pass, with only generated text, 15 exact fact fields, no real variant records, no operator records, missing engines/range/dimensions/weapons detail, and placeholder-style sections well below the F-16 reference density.
+* Previous condition: Placeholder-like generated entry with 0 operator entries, 0 variant entries, generic gun/missile/external-store wording, no Su-30MKI/Su-30SM branch context, no reliable extractable detailed sources beyond generic Wikipedia/Wikidata/external placeholders, and sparse specifications.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html and AIRCRAFT PUBLIC PERCEPTION/F16.txt
+* Formatting patterns copied: Dense overview; article-section ordering through overview, development, design, specifications, variants, operators, operational history, weapons systems, comparison, strengths/limitations, timeline, sources, and related pages; concise source-qualified paragraphs; card-style key facts; cautious notes for variant/operator/loadout differences; internal aircraft.html?id=... links.
+
+#### Changes Made
+
+* Expanded the Sukhoi Su-30 entry in data/aircraft.json into a fuller Milipedia article record while preserving the existing JSON-rendered page system.
+* Updated top-level facts for NATO reporting-name family, country of origin, manufacturer/production branches, role, first-flight chronology, service-entry caveats, status, crew, engine family, speed, range, climb rate, hardpoints, development history, operational summary, variants, operators, related aircraft, and article-quality counts.
+* Replaced the generic generated armament text with Su-30-specific public-source wording covering the 30 mm GSh-30-1 cannon, air-to-air missiles, air-to-surface weapons, anti-ship/land-attack weapons, guided/unguided bombs, rockets, pods, BrahMos context for Indian Su-30MKI aircraft, and variant/operator caveats.
+* Added/expanded sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Weapons Systems, Comparison and Role Context, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added representative public technical details for AL-31F/AL-31FP-family engines, 12,500 kgf per-engine Su-30MKI afterburning thrust, 25,000 kgf combined Su-30SM afterburning thrust, 21.9 m length, 14.7 m wingspan, 6.4 m height, 38,800 kg maximum takeoff weight, Mach 1.9-Mach 2 speed class, 3,000 km unrefuelled range, 8,000 km Su-30MKI range with two refuellings, 300 m/s Su-30MKI climb figure, 12 hardpoints, and up to about 8 tonnes of external stores where source-supported.
+* Added variant coverage for Su-27PU/early Su-30, Su-30K, Su-30MKI, Su-30MKK/MK2, Su-30MKM/MKA, Su-30SM, and Su-30SME/modernization pathways.
+* Added representative operator coverage for Russia, India, China, Algeria, Malaysia, Kazakhstan/Belarus, and grouped export users such as Indonesia, Vietnam, Venezuela, Uganda, Angola, Armenia, Myanmar and others with dated-inventory caveats.
+* Added source metadata from Airforce Technology's Su-30MKI and Su-30SM pages, identified the HAL Su-30MKI page as an official manufacturer reference, retained Wikipedia only as supplementary orientation, and kept Milipedia local accuracy rules.
+* Added internal related/comparison links to Su-27, Su-35, Su-34, MiG-29, F-15 Eagle, and F-16 Fighting Falcon.
+* Omitted exact current fleet totals, current combat-loss counts, detailed national radar/electronic-warfare fits, and all operator-specific weapons clearances because those facts are date-sensitive, disputed, or require narrower dated sources.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Sukhoi Su-30 aircraft entry and sources.
+* hermes-change-log.md — Appended the cumulative record for Run 75.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed the diff; data/aircraft.json changed only the Su-30 entry, and hermes-change-log.md gained this cumulative Run 75 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the Su-30 entry section list, sources, variants, operators, armament wording, article-quality fields, and source caveats.
+4. F-16 style comparison — Inspected data/f16-template.html and AIRCRAFT PUBLIC PERCEPTION/F16.txt and matched the dense overview, sourced paragraphs, specifications, variants/operators, operational-history, weapons, comparison, strengths/limitations, timeline, source-note, and related-link ordering within the JSON article renderer.
+5. Internal link check — Verified internal aircraft.html?id= links for Su-27, Su-35, Su-34, MiG-29, F-15 Eagle, and F-16 Fighting Falcon point to existing aircraft IDs.
+6. Secret/token check — Ran a credential-pattern scan over the staged diff for API keys, tokens, passwords, private keys, GitHub tokens, and AWS credentials; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, only intended files staged, exactly one aircraft entry changed, internal links valid, git diff --check clean, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Sukhoi Su-30
+* Commit hash: Pending until commit is created; final hash is reported in the scheduled-run response.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* Public Su-30 details vary substantially by branch and operator, especially Su-30MKI, Su-30SM, Su-30MKK/MK2, Su-30MKM, and Su-30MKA configurations, so this update uses source-qualified representative values rather than one universal table.
+* HAL's official Su-30MKI page was identified but automated extraction failed in this run; HAL was retained as an official reference while technical claims were based on extractable Airforce Technology pages and cautious supplementary orientation.
+* Current inventory totals, loss claims, radar/electronic-warfare fits, and national weapons clearances were intentionally omitted or caveated because they are date-sensitive or disputed.

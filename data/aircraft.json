@@ -42584,119 +42584,201 @@
   {
     "id": "su-30",
     "name": "Sukhoi Su-30",
-    "alternative_names": [],
-    "nato_reporting_name": null,
-    "country_of_origin": "Russia",
-    "manufacturer": "Sukhoi",
-    "role": "Multirole fighter",
+    "alternative_names": [
+      "Su-30 Flanker-C/G/H",
+      "Su-30MK family",
+      "Su-30SM",
+      "Su-30MKI"
+    ],
+    "nato_reporting_name": "Flanker-C/G/H family",
+    "country_of_origin": "Soviet Union / Russia",
+    "manufacturer": "Sukhoi; production by Irkut/United Aircraft Corporation, KnAAPO, and licensed HAL assembly for Su-30MKI",
+    "role": "Two-seat long-range multirole fighter and air-superiority/strike aircraft",
     "aircraft_type": "Fighter",
-    "era": "Modern",
-    "first_flight": "1989",
-    "introduction_date": "1996",
+    "era": "Late Cold War development and modern service",
+    "first_flight": "31 December 1989 for the Su-27PU/Su-30 lineage; Su-30SM first flight September 2012; Su-30MKI pre-production flight November 2000",
+    "introduction_date": "1990s for early Su-30 family; Su-30MKI service entry September 2002; Su-30SM deliveries from November 2012",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "status": "Active with Russia, India, China-derived/export users, and multiple other air forces; exact inventories are date-sensitive",
+    "number_built": "More than 600 Su-30-family aircraft reported by secondary summaries; exact current production and licensed-assembly totals vary by date and variant",
+    "crew": "2 in tandem: pilot and weapon systems officer / navigator",
+    "engine_type": "Twin afterburning turbofan / reheated bypass turbojet",
+    "engines": "Two Saturn/Lyulka AL-31F-family engines; thrust-vectoring AL-31FP on Su-30MKI and Su-30SM-family aircraft",
+    "max_speed": "Mach 1.9 for Su-30MKI reference; Mach 2 class for Su-30SM reference",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Sukhoi Su-30: Multirole fighter. Manufacturer: Sukhoi. First flight: 1989. Introduction: 1996.",
-    "short_summary": "Sukhoi Su-30: Multirole fighter. Origin: Russia. Manufacturer: Sukhoi. First flight: 1989. Introduction: 1996. Status: Active.",
+    "range": "About 3,000 km unrefueled for Su-30MKI/Su-30SM public references; Su-30MKI source notes up to 8,000 km with two refuellings",
+    "combat_range": "Mission radius varies by variant, stores, tanks, refuelling, and flight profile; not fixed as one universal Su-30 value here",
+    "service_ceiling": "Not stated consistently in the cited primary project pages; commonly treated as high-altitude fighter class and left variant-dependent here",
+    "rate_of_climb": "Su-30MKI reference lists about 300 m/s; variant/loadout dependent",
+    "armament": "30 mm GSh-30-1 cannon, air-to-air missiles, air-to-surface missiles, anti-ship/land-attack weapons, guided and unguided bombs, rockets, pods, and external tanks depending on variant/operator integration.",
+    "hardpoints": "Su-30MKI reference: 12 hardpoints with up to about 8 tonnes of external stores; exact station use varies by variant and national weapons fit",
+    "variants": [
+      {
+        "name": "Su-27PU / early Su-30",
+        "description": "Long-range two-seat interceptor/command variant derived from the Su-27UB trainer; this lineage became the Su-30 family."
+      },
+      {
+        "name": "Su-30K",
+        "description": "Early export aircraft delivered to India before the more capable Su-30MKI became the main Indian configuration."
+      },
+      {
+        "name": "Su-30MKI",
+        "description": "Indian Air Force multirole version jointly developed by Sukhoi and HAL with canards, thrust-vectoring AL-31FP engines, Indian/French/Israeli/Russian avionics integration, and HAL license production."
+      },
+      {
+        "name": "Su-30MKK / Su-30MK2",
+        "description": "KnAAPO-built export branch originally associated with China and later users such as Indonesia, Uganda, Venezuela, and Vietnam; generally a canard-less two-seat multirole Flanker branch."
+      },
+      {
+        "name": "Su-30MKM / Su-30MKA",
+        "description": "Malaysia and Algeria-oriented derivatives of the Irkut/Su-30MKI branch with national avionics, sensors, and weapons differences."
+      },
+      {
+        "name": "Su-30SM",
+        "description": "Russian-service derivative of the Su-30MK family produced by Irkut, with thrust vectoring, advanced avionics, Russian Air Force/Navy use, and export/service links to Kazakhstan and Belarus."
+      },
+      {
+        "name": "Su-30SME and modernization programs",
+        "description": "Export and upgrade pathways for Su-30SM-family aircraft; exact equipment fits and national upgrade packages require dated operator-specific sources."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Russia",
+        "service": "Russian Aerospace Forces and Russian Naval Aviation",
+        "notes": "Uses Su-30SM-family aircraft for air superiority, strike, maritime attack, escort, training, and command-and-control roles; exact active totals change by date and losses/production."
+      },
+      {
+        "country": "India",
+        "service": "Indian Air Force",
+        "notes": "Major Su-30MKI operator with HAL license production, indigenous overhaul capability, BrahMos integration, and continuing Super Sukhoi-style modernization planning."
+      },
+      {
+        "country": "China",
+        "service": "People's Liberation Army Air Force and Naval Air Force",
+        "notes": "Operated Su-30MKK/MK2-family aircraft and used the broader Flanker ecosystem as part of China's transition to heavy multirole fighters."
+      },
+      {
+        "country": "Algeria",
+        "service": "Algerian Air Force",
+        "notes": "Major Su-30MKA operator; included here as a representative Irkut-branch export user."
+      },
+      {
+        "country": "Malaysia",
+        "service": "Royal Malaysian Air Force",
+        "notes": "Operates Su-30MKM aircraft with Malaysian-service avionics and mission-equipment choices."
+      },
+      {
+        "country": "Kazakhstan and Belarus",
+        "service": "National air forces",
+        "notes": "Su-30SM customers noted in public delivery reporting; fixed current quantities require dated checking."
+      },
+      {
+        "country": "Indonesia, Vietnam, Venezuela, Uganda, Angola, Armenia, Myanmar and others",
+        "service": "Export air arms",
+        "notes": "Representative export users of Su-30MK-family variants; inventory status, serviceability, weapons clearances, and upgrades are date-sensitive."
+      }
+    ],
+    "combat_history": "Used operationally by Russia, India and export operators in air-defense, strike, maritime and deterrence roles; the type is publicly associated with the Russo-Ukrainian War, Indian Ocean and border deterrence, and regional air-force modernization, but detailed loss and mission claims require dated specialist sources.",
+    "development_history": "The Su-30 grew from the Su-27UB/Su-27PU two-seat Flanker lineage, originally emphasizing long-range interception, command-and-control and endurance for Soviet/Russian air-defense needs. Export requirements then split the family into Irkut and KnAAPO branches, producing MKI/MKM/MKA/SM and MKK/MK2 families with different avionics, canard/thrust-vectoring choices and weapons fits.",
+    "short_summary": "The Sukhoi Su-30 is a two-seat, twin-engine Flanker-family multirole fighter developed from the Su-27. It combines long range, heavy weapons carriage, air-superiority capability, strike/maritime missions and export adaptability, with major branches including Su-30MKI, Su-30MKK/MK2 and Su-30SM.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Sukhoi_Su-30SM_in_flight_2014.jpg/330px-Sukhoi_Su-30SM_in_flight_2014.jpg",
-        "caption": "Sukhoi Su-30",
+        "caption": "Russian Air Force Su-30SM in flight, 2014",
         "credit": "Wikimedia/Wikipedia thumbnail source",
         "license": "Verify original file license before reuse."
       }
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-aft-mki",
+        "title": "Su-30MKI Multirole Fighter Aircraft",
+        "url": "https://www.airforce-technology.com/projects/su-30mki-multirole-fighter-aircraft-india",
+        "publisher": "Airforce Technology / GlobalData",
+        "note": "Used for Su-30MKI development, HAL license production, service entry, dimensions, engines, avionics, weapons, stores load, speed, range, and BrahMos integration context."
+      },
+      {
+        "id": "fn-aft-sm",
+        "title": "Su-30SM Multirole Fighter Aircraft, Russia",
+        "url": "https://www.airforce-technology.com/projects/su-30sm-multirole-fighter-aircraft",
+        "publisher": "Airforce Technology / GlobalData",
+        "note": "Used for Su-30SM development, first flight/delivery chronology, operators, roles, avionics, engines, 8-ton payload, Mach 2 statement, range and refuelling context."
+      },
+      {
+        "id": "fn-hal-mki",
+        "title": "SU-30 MKI",
+        "url": "https://www.hal-india.co.in/product/su-30-mki",
+        "publisher": "Hindustan Aeronautics Limited",
+        "note": "Manufacturer page identified for official HAL role and product context; automated extraction was unavailable in this run, so details were not taken solely from it."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Sukhoi Su-30",
         "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-30",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for broad lineage, NATO reporting names, branch split, first-flight date, and operator discovery; not used alone for precise technical claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.aircraftinaction.co.uk/2007/Waddington.htm",
-        "publisher": "aircraftinaction.co.uk",
-        "note": "External source for Sukhoi Su-30."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.knaapo.ru/eng/products/military/su30mk.wbp",
-        "publisher": "knaapo.ru",
-        "note": "External source for Sukhoi Su-30."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.sukhoi.org/eng/planes/military/su30mk/lth/",
-        "publisher": "sukhoi.org",
-        "note": "External source for Sukhoi Su-30."
+        "note": "Local rules for neutral wording, estimates, variant differences, source handling, and cautious treatment of dated inventories."
       }
     ],
     "country_flags": [
       {
         "label": "Russia",
         "emoji": "🇷🇺"
+      },
+      {
+        "label": "India",
+        "emoji": "🇮🇳"
       }
     ],
     "designers": [
-      "Sukhoi"
+      "Sukhoi Design Bureau",
+      "Irkut / United Aircraft Corporation",
+      "KnAAPO",
+      "Hindustan Aeronautics Limited for licensed Su-30MKI production"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Adapting a large air-superiority Flanker airframe into a two-seat command, strike, maritime and export multirole aircraft without losing fighter performance.",
+      "Managing branch divergence between Irkut/Su-30MKI-SM-family aircraft and KnAAPO Su-30MKK/MK2-family aircraft.",
+      "Balancing high agility, long range, heavy payload and large radar/avionics capacity against size, fuel demand, maintenance complexity and non-stealth survivability.",
+      "Integrating national avionics and weapons packages while avoiding a single misleading all-variant configuration description."
     ],
     "wars_used_in": [
       {
         "name": "Russo-Ukrainian War",
-        "note": "Sukhoi Su-30 used in Russo-Ukrainian War."
+        "note": "Russian Su-30-family aircraft are publicly associated with the conflict; detailed mission and loss claims are date-sensitive."
+      },
+      {
+        "name": "Regional deterrence and air-defense operations",
+        "note": "India, Russia and export operators use Su-30 variants for air-defense, maritime, patrol, escort and strike roles."
       }
     ],
     "variant_families": [
-      "Sukhoi Su-30 baseline production model",
-      "Sukhoi Su-30 upgraded avionics or weapons-capable model",
-      "Sukhoi Su-30 two-seat trainer or conversion model",
-      "Sukhoi Su-30 export or locally modernized model"
+      "Su-27PU / early Su-30",
+      "Su-30K",
+      "Su-30MKI",
+      "Su-30MKK / Su-30MK2",
+      "Su-30MKM / Su-30MKA",
+      "Su-30SM / Su-30SME"
     ],
     "operator_summary": {
-      "major_designer_or_builder": [
-        "Russia"
+      "primary_users": [
+        "Russian Aerospace Forces",
+        "Indian Air Force",
+        "People's Liberation Army Air Force / Naval Air Force",
+        "Algerian Air Force",
+        "Royal Malaysian Air Force",
+        "multiple export air arms"
       ],
-      "major_user_note": "Sukhoi Su-30 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "notes": "The Su-30 is one of the most widely exported heavy Flanker-family fighters, but exact current inventories and upgrade standards are date-sensitive."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -42704,111 +42786,104 @@
         "Named individual aircraft listed: 0."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Detailed loss and incident claims intentionally not tabulated in this safe update.",
+        "Combat-loss totals in active conflicts require dated verification before publication as fixed numbers."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Sukhoi Su-30 uses jet propulsion."
+      "type": "Two afterburning turbofan / reheated bypass turbojet engines",
+      "models": [
+        "AL-31F family on baseline/export aircraft",
+        "AL-31FP thrust-vectoring engines on Su-30MKI and Su-30SM-family aircraft"
+      ],
+      "notes": "Airforce Technology states two AL-31FP engines for Su-30MKI, each generating 12,500 kgf full afterburning thrust; its Su-30SM page states a combined 25,000 kgf afterburning thrust."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "guns": [
+        "30 mm GSh-30-1 cannon"
+      ],
+      "air_to_air": [
+        "R-27 family",
+        "R-73 family",
+        "R-77 family; national alternatives such as Astra on Indian upgrade paths may apply"
+      ],
+      "air_to_ground": [
+        "Kh-29",
+        "Kh-31",
+        "Kh-59M",
+        "guided and unguided bombs",
+        "rocket pods",
+        "BrahMos integration on Indian Su-30MKI aircraft",
+        "Oniks/Yakhont context reported for Su-30SM-family anti-surface roles"
+      ],
+      "notes": "Weapons integration depends heavily on variant, radar/avionics standard, national certification, and date."
     },
     "similar_development": [
+      {
+        "id": "su-27",
+        "name": "Sukhoi Su-27",
+        "url": "aircraft.html?id=su-27"
+      },
+      {
+        "id": "su-35",
+        "name": "Sukhoi Su-35",
+        "url": "aircraft.html?id=su-35"
+      },
+      {
+        "id": "su-34",
+        "name": "Sukhoi Su-34",
+        "url": "aircraft.html?id=su-34"
+      },
+      {
+        "id": "mig-29",
+        "name": "Mikoyan MiG-29",
+        "url": "aircraft.html?id=mig-29"
+      },
       {
         "id": "f-15-eagle",
         "name": "McDonnell Douglas F-15 Eagle",
         "url": "aircraft.html?id=f-15-eagle"
-      },
-      {
-        "id": "f-16-fighting-falcon",
-        "name": "General Dynamics F-16 Fighting Falcon",
-        "url": "aircraft.html?id=f-16-fighting-falcon"
-      },
-      {
-        "id": "f-a-18-hornet",
-        "name": "McDonnell Douglas F/A-18 Hornet",
-        "url": "aircraft.html?id=f-a-18-hornet"
-      },
-      {
-        "id": "f-a-18e-f-super-hornet",
-        "name": "Boeing F/A-18E/F Super Hornet",
-        "url": "aircraft.html?id=f-a-18e-f-super-hornet"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
+      "exact_fact_count": 52,
+      "operator_entries": 7,
+      "variant_entries": 7,
       "external_article_sources": 3
     },
     "footnotes": [
       {
-        "id": "fn-main",
-        "title": "Sukhoi Su-30",
-        "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-30",
-        "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "id": "fn-aft-mki",
+        "text": "Airforce Technology's Su-30MKI project page gives the Indian variant's role, HAL/operator context, November 2000 pre-production flight, September 2002 service entry, Mach 1.9 speed, 3,000 km range, AL-31FP engines, 12 hardpoints and 8-ton stores capacity."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "id": "fn-aft-sm",
+        "text": "Airforce Technology's Su-30SM page describes the Russian variant as an Irkut-built derivative of the Su-30MK family, with Russian Air Force/Navy and Kazakhstan operator context, September 2012 first flight, November 2012 first deliveries, AL-31FP engines, Mach 2 speed and 3,000 km unrefuelled range."
+      },
+      {
+        "id": "fn-wikipedia",
+        "text": "Wikipedia was used only as supplementary orientation for the Su-27PU origin story, branch split between KnAAPO and Irkut, NATO reporting-name family, and broad operator discovery."
       },
       {
         "id": "fn-method",
-        "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
-        "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.aircraftinaction.co.uk/2007/Waddington.htm",
-        "publisher": "aircraftinaction.co.uk",
-        "note": "External source for Sukhoi Su-30."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.knaapo.ru/eng/products/military/su30mk.wbp",
-        "publisher": "knaapo.ru",
-        "note": "External source for Sukhoi Su-30."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.sukhoi.org/eng/planes/military/su30mk/lth/",
-        "publisher": "sukhoi.org",
-        "note": "External source for Sukhoi Su-30."
+        "text": "This page avoids fixed current fleet totals, exact combat-loss tables, and one-size-fits-all weapons/radar claims because the Su-30 family varies sharply by variant, operator, upgrade standard and date."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.aircraftinaction.co.uk/2007/Waddington.htm",
-        "publisher": "aircraftinaction.co.uk",
-        "note": "External source for Sukhoi Su-30."
+        "title": "Su-30MKI Multirole Fighter Aircraft",
+        "url": "https://www.airforce-technology.com/projects/su-30mki-multirole-fighter-aircraft-india",
+        "publisher": "Airforce Technology"
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.knaapo.ru/eng/products/military/su30mk.wbp",
-        "publisher": "knaapo.ru",
-        "note": "External source for Sukhoi Su-30."
+        "title": "Su-30SM Multirole Fighter Aircraft, Russia",
+        "url": "https://www.airforce-technology.com/projects/su-30sm-multirole-fighter-aircraft",
+        "publisher": "Airforce Technology"
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.sukhoi.org/eng/planes/military/su30mk/lth/",
-        "publisher": "sukhoi.org",
-        "note": "External source for Sukhoi Su-30."
+        "title": "SU-30 MKI",
+        "url": "https://www.hal-india.co.in/product/su-30-mki",
+        "publisher": "Hindustan Aeronautics Limited"
       }
     ],
     "article_sections": [
@@ -42817,20 +42892,24 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-30 is a Multirole fighter from Russia. Manufacturer: Sukhoi. First flight: 1989. Introduction: 1996. Status: Active.",
+            "text": "The Sukhoi Su-30 is a two-seat, twin-engine member of the Flanker family developed from the Su-27/Su-27UB lineage. It began as a long-range interceptor and command-oriented derivative, then became a major multirole fighter family for Russia, India, China-related export branches, and other operators.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia",
+              "fn-method"
             ]
           },
           {
-            "text": "Sukhoi Su-30 is a fighter. Primary role: multirole fighter. Country of origin: Russia. Manufacturer: Sukhoi.",
+            "text": "Unlike a single, uniform model, the Su-30 is best understood as a family. Irkut-developed aircraft such as the Su-30MKI, Su-30MKM, Su-30MKA and Su-30SM emphasize thrust vectoring, two-seat mission management and multirole avionics. KnAAPO-built Su-30MKK/MK2 aircraft form a separate export branch associated with China and later customers.",
             "refs": [
-              "fn-wikidata"
+              "fn-wikipedia",
+              "fn-aft-sm"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The aircraft's public identity is that of a heavy, long-range, non-stealth multirole fighter: less compact than an F-16, but able to carry large fuel and weapons loads, operate with a second crew member, and perform air-superiority, strike, maritime attack, escort and command-and-control tasks.",
             "refs": [
+              "fn-aft-mki",
+              "fn-aft-sm",
               "fn-method"
             ]
           }
@@ -42838,50 +42917,76 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Multirole fighter"
+            "text": "Two-seat long-range multirole fighter"
           },
           {
-            "title": "Designer or builder",
-            "text": "Sukhoi"
+            "title": "Crew",
+            "text": "Two in tandem"
           },
           {
-            "title": "Major origin",
-            "text": "Russia"
+            "title": "Engine family",
+            "text": "Two AL-31F/AL-31FP-family engines"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Stores",
+            "text": "Up to about 8 tonnes on 12 Su-30MKI hardpoints"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-30 first flew in 1989. Introduction date: 1996. Era: Modern.",
+            "text": "The Su-30 originated in the Soviet/Russian Su-27 family. The Su-27UB two-seat trainer provided a basis for a longer-range Su-27PU concept intended to improve endurance, command-and-control, and air-defense coverage over large areas.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Producer: Sukhoi. Development context: multirole fighter, jet propulsion, supersonic speed category, Modern era.",
+            "text": "The first Su-27PU/Su-30-lineage aircraft flew on 31 December 1989. As Russian and export requirements evolved, the family moved away from a single interceptor concept toward two major production branches and many national configurations.",
             "refs": [
-              "fn-wikidata"
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "India's Su-30MKI became one of the most important Su-30 branches. Airforce Technology describes the MKI as jointly developed by Sukhoi and HAL for the Indian Air Force, with development beginning in 1995, early prototypes in the late 1990s, and service entry in September 2002.",
+            "refs": [
+              "fn-aft-mki"
+            ]
+          },
+          {
+            "text": "The Su-30SM adapted the Su-30MK family to Russian Air Force requirements. Airforce Technology reports a September 2012 maiden flight for the Russian MoD aircraft and first deliveries to the Russian Air Force in November 2012.",
+            "refs": [
+              "fn-aft-sm"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "1986-1989: Su-27PU/Su-30 concept develops from two-seat Su-27 lineage.",
             "refs": [
-              "fn-method"
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "1995-2002: Su-30MKI development and Indian service-entry path.",
             "refs": [
-              "fn-method"
+              "fn-aft-mki"
+            ]
+          },
+          {
+            "text": "2000s: Export branches proliferate through India, China-related MKK/MK2 users, Algeria, Malaysia and others.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-aft-sm"
+            ]
+          },
+          {
+            "text": "2012 onward: Su-30SM becomes a major Russian-service variant.",
+            "refs": [
+              "fn-aft-sm"
             ]
           }
         ]
@@ -42891,114 +42996,102 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 2. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The Su-30 keeps the broad Flanker layout: twin engines, large wing-body blending, twin tails, high fuel capacity and a tandem two-seat cockpit. This gives the aircraft range, payload and crew-workload advantages for long missions, though it remains a large non-stealth fighter.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Carrier capable: no. Stealth: no.",
-            "refs": [
+              "fn-aft-mki",
+              "fn-aft-sm",
               "fn-method"
             ]
           },
           {
-            "text": "Sukhoi Su-30 uses jet propulsion. Engine model field: Not listed.",
+            "text": "Su-30MKI and Su-30SM-family aircraft use AL-31FP thrust-vectoring engines in public project descriptions. Airforce Technology lists each Su-30MKI engine at 12,500 kgf full afterburning thrust and describes thrust-vectoring control as part of the MKI's maneuverability package.",
             "refs": [
-              "fn-main"
+              "fn-aft-mki",
+              "fn-aft-sm"
             ]
           },
           {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
+            "text": "The MKI source describes a tandem glass cockpit, fly-by-wire flight controls, N011M radar, optical locator and targeting-pod integration. The Su-30SM page similarly emphasizes a glass cockpit, multifunction displays, navigation/identification equipment and open-architecture avionics.",
             "refs": [
-              "fn-main"
+              "fn-aft-mki",
+              "fn-aft-sm"
+            ]
+          },
+          {
+            "text": "Because sensors, datalinks, electronic warfare systems and weapons are national/variant-specific, Milipedia should not state that every Su-30 carries the same radar, missile set or modernization package.",
+            "refs": [
+              "fn-method"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "2"
+            "title": "Airframe",
+            "text": "Large Flanker-family twin-engine fighter"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Cockpit",
+            "text": "Tandem two-seat mission crew"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
-          },
-          {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Flight controls",
+            "text": "Fly-by-wire on Su-30MKI reference"
           },
           {
             "title": "Stealth",
-            "text": "No"
+            "text": "No; survivability depends on sensors, tactics, EW, weapons range and support"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-30 status: Active. Conflict entries: 1.",
+            "text": "Representative specifications below are drawn from Su-30MKI and Su-30SM public project pages. They should be read as variant-specific reference points, not a universal table for every Su-30 branch.",
             "refs": [
-              "fn-main"
+              "fn-aft-mki",
+              "fn-aft-sm",
+              "fn-method"
             ]
           },
           {
-            "text": "Conflicts: Russo-Ukrainian War.",
+            "text": "Su-30MKI reference data: length 21.9 m, wingspan 14.7 m, height 6.4 m, maximum takeoff weight 38,800 kg, two AL-31FP engines, Mach 1.9 maximum speed, 3,000 km unrefuelled range, 8,000 km maximum range with two refuellings, and 300 m/s rate of climb.",
             "refs": [
-              "fn-method"
+              "fn-aft-mki"
+            ]
+          },
+          {
+            "text": "Su-30SM reference data: two AL-31FP reheated engines with total afterburning thrust of 25,000 kgf, Mach 2 horizontal flight speed, 3,000 km maximum unrefuelled range, 3.5-hour endurance, flight-refuelling probe and up to 8 tonnes of weapons payload.",
+            "refs": [
+              "fn-aft-sm"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Russo-Ukrainian War: Sukhoi Su-30 used in Russo-Ukrainian War.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Sukhoi Su-30 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "21.9 m on Su-30MKI reference"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Wingspan",
+            "text": "14.7 m on Su-30MKI reference"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Height",
+            "text": "6.4 m on Su-30MKI reference"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Max takeoff weight",
+            "text": "38,800 kg on Su-30MKI reference"
+          },
+          {
+            "title": "Speed",
+            "text": "Mach 1.9-Mach 2 depending reference/variant"
+          },
+          {
+            "title": "Range",
+            "text": "About 3,000 km unrefuelled on MKI/SM references"
           }
         ]
       },
@@ -43007,41 +43100,44 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-30 variant-family entries: 4. Variant families: Sukhoi Su-30 baseline production model; Sukhoi Su-30 upgraded avionics or weapons-capable model; Sukhoi Su-30 two-seat trainer or conversion model; Sukhoi Su-30 export or locally modernized model.",
+            "text": "The Su-30 family is divided by production branch and customer configuration. Milipedia groups the major families instead of listing every batch, upgrade, radar change or national weapons clearance.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
+              "fn-wikipedia",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Sukhoi Su-30 baseline production model",
+            "text": "Su-27PU / early Su-30: long-range two-seat Flanker development lineage.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Sukhoi Su-30 upgraded avionics or weapons-capable model",
+            "text": "Su-30MKI: Indian variant with canards, thrust vectoring, HAL license production, Indian-service avionics/weapons integration and BrahMos pathway.",
             "refs": [
-              "fn-main"
+              "fn-aft-mki"
             ]
           },
           {
-            "text": "Sukhoi Su-30 two-seat trainer or conversion model",
+            "text": "Su-30MKK/MK2: KnAAPO-built export branch associated first with China and later customers including Indonesia, Uganda, Venezuela and Vietnam.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia",
+              "fn-method"
             ]
           },
           {
-            "text": "Sukhoi Su-30 export or locally modernized model",
+            "text": "Su-30MKM/MKA: Malaysia and Algeria-oriented derivatives related to the Irkut/Su-30MKI branch.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia",
+              "fn-aft-sm"
+            ]
+          },
+          {
+            "text": "Su-30SM: Russian-service multirole derivative based on the Su-30MK family, with Russian Air Force, Navy and export/customer reporting.",
+            "refs": [
+              "fn-aft-sm"
             ]
           }
         ]
@@ -43051,13 +43147,68 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Russia. Sukhoi Su-30 has 1 designer or builder country entry.",
+            "text": "The Su-30's operator base is one of its defining features. It spread from Russian service and Indian license production into a broad export ecosystem covering Asia, North Africa, Eastern Europe and parts of Latin America and Africa.",
             "refs": [
-              "fn-wikidata"
+              "fn-aft-sm",
+              "fn-wikipedia",
+              "fn-method"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Airforce Technology's Su-30SM page lists the Russian Air Force, Russian Navy and Kazakhstan Air Force for Su-30SM context, and also notes Su-30MK-series service with Algeria, Angola, Armenia, Belarus, India, Indonesia, Kazakhstan, China, Malaysia, Uganda, Venezuela and Vietnam, among others.",
+            "refs": [
+              "fn-aft-sm"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Russia: Su-30SM-family aircraft in air force and naval aviation service.",
+            "refs": [
+              "fn-aft-sm"
+            ]
+          },
+          {
+            "text": "India: Su-30MKI is a major Indian Air Force type, assembled/overhauled by HAL and integrated with Indian weapons and upgrade programs.",
+            "refs": [
+              "fn-aft-mki",
+              "fn-hal-mki"
+            ]
+          },
+          {
+            "text": "China and later MKK/MK2 users: important KnAAPO export branch with national equipment and mission differences.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Algeria, Malaysia, Kazakhstan, Belarus, Indonesia, Vietnam, Venezuela, Uganda and others: representative export/customer base; exact current counts require dated verification.",
+            "refs": [
+              "fn-aft-sm",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "In Russian service, the Su-30SM filled a multirole niche between older Su-27-family fighters, strike aircraft and later Su-35/Su-34 specializations. Public descriptions emphasize counter-air, counter-land, counter-sea, electronic-counter-countermeasures and command-and-control tasks.",
+            "refs": [
+              "fn-aft-sm"
+            ]
+          },
+          {
+            "text": "In Indian service, the Su-30MKI became a long-range air-superiority and strike centerpiece. Airforce Technology notes HAL license production, domestic overhaul capability, a Thanjavur squadron associated with BrahMos carriage, and ongoing weapons/avionics integration.",
+            "refs": [
+              "fn-aft-mki"
+            ]
+          },
+          {
+            "text": "The Su-30 family has been reported in modern conflicts and crises, including the Russo-Ukrainian War, but this update avoids fixed loss totals or sortie-effectiveness claims because those numbers change rapidly and are often disputed.",
             "refs": [
               "fn-method"
             ]
@@ -43065,49 +43216,110 @@
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Air defense and escort: long range, two crew and heavy missile carriage support patrol and intercept missions.",
             "refs": [
-              "fn-main"
+              "fn-aft-sm",
+              "fn-method"
             ]
           },
           {
-            "text": "Major designer or builder entries: Russia.",
+            "text": "Strike and maritime attack: Su-30MKI/SM public descriptions include air-to-surface and anti-ship weapon integration.",
             "refs": [
-              "fn-wikidata"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "specifications",
-        "title": "Specifications",
-        "paragraphs": [
-          {
-            "text": "Comparable fields: crew 2, propulsion type Jet, maximum speed category Supersonic, first flight 1989, introduction 1996.",
-            "refs": [
-              "fn-main"
+              "fn-aft-mki",
+              "fn-aft-sm"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Training and command support: the second cockpit helps complex mission management, though it also adds size and cost.",
             "refs": [
+              "fn-wikipedia",
               "fn-method"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "weapons-systems",
+        "title": "Weapons Systems",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-30 similar-development links: 4.",
+            "text": "The Su-30 family is usually described as a heavy multirole weapons platform rather than a lightweight dogfighter alone. Airforce Technology lists a 30 mm GSh-30-1 cannon, 12 Su-30MKI hardpoints, up to 8 tonnes of external stores, air-to-air missiles, guided/unguided bombs, rocket pods and multiple air-to-surface missile families.",
             "refs": [
+              "fn-aft-mki"
+            ]
+          },
+          {
+            "text": "Indian Su-30MKI aircraft are notable for BrahMos air-launched cruise-missile integration. The same source notes successful BrahMos tests and a Thanjavur squadron able to carry the weapon, making the MKI a strategic maritime/land-attack carrier as well as a fighter.",
+            "refs": [
+              "fn-aft-mki"
+            ]
+          },
+          {
+            "text": "Su-30SM public descriptions include air-to-air, air-to-surface and anti-surface weapons, including Oniks/Yakhont context. Weapon availability should always be tied to a particular operator, aircraft standard and year.",
+            "refs": [
+              "fn-aft-sm",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Gun",
+            "text": "30 mm GSh-30-1"
+          },
+          {
+            "title": "Air-to-air",
+            "text": "R-27, R-73, R-77-class weapons and national equivalents by operator"
+          },
+          {
+            "title": "Strike",
+            "text": "Kh-series missiles, guided bombs, rockets and operator-specific weapons"
+          },
+          {
+            "title": "Special note",
+            "text": "BrahMos integration is specific to Indian Su-30MKI context"
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Role Context",
+        "paragraphs": [
+          {
+            "text": "Compared with the F-16, the Su-30 is much larger, carries two crew, and emphasizes range, payload and sensor volume over low cost and compactness. The F-16 reference page's caution about variant differences applies even more strongly to the Su-30 because national Su-30 branches differ substantially.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Compared with the F-15E, the Su-30 occupies a similar broad idea of a heavy twin-engine air-superiority/strike fighter, but with Flanker-family aerodynamics, Russian/export weapons integration and, on some versions, thrust vectoring and canards.",
+            "refs": [
+              "fn-method",
+              "fn-aft-mki",
+              "fn-aft-sm"
+            ]
+          },
+          {
+            "text": "Compared with the Su-27, the Su-30 adds a second mission crew member and a stronger multirole/export identity. Compared with the Su-35, it generally trades some later single-seat fighter refinements for two-seat mission management and the enormous spread of export variants.",
+            "refs": [
+              "fn-wikipedia",
               "fn-method"
             ]
           }
         ],
         "links": [
+          {
+            "label": "Sukhoi Su-27",
+            "url": "aircraft.html?id=su-27"
+          },
+          {
+            "label": "Sukhoi Su-35",
+            "url": "aircraft.html?id=su-35"
+          },
+          {
+            "label": "Sukhoi Su-34",
+            "url": "aircraft.html?id=su-34"
+          },
           {
             "label": "McDonnell Douglas F-15 Eagle",
             "url": "aircraft.html?id=f-15-eagle"
@@ -43115,14 +43327,159 @@
           {
             "label": "General Dynamics F-16 Fighting Falcon",
             "url": "aircraft.html?id=f-16-fighting-falcon"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The Su-30's strengths are range, payload, two-seat mission management, Flanker aerodynamics, heavy weapons integration and broad export adaptability. Its limitations are the same features in reverse: large size, high fuel and maintenance demand, non-stealth survivability, and the difficulty of making a single statement that applies to every branch.",
+            "refs": [
+              "fn-aft-mki",
+              "fn-aft-sm",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: long unrefuelled range and aerial-refuelling support on major variants.",
+            "refs": [
+              "fn-aft-mki",
+              "fn-aft-sm"
+            ]
           },
           {
-            "label": "McDonnell Douglas F/A-18 Hornet",
-            "url": "aircraft.html?id=f-a-18-hornet"
+            "text": "Strength: heavy external stores capacity for air-to-air, strike and anti-surface missions.",
+            "refs": [
+              "fn-aft-mki",
+              "fn-aft-sm"
+            ]
           },
           {
-            "label": "Boeing F/A-18E/F Super Hornet",
-            "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+            "text": "Strength: two crew can divide radar, navigation, weapons and tactical-management workload.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: no stealth shaping; high-threat operations depend on tactics, standoff weapons, EW, support aircraft and air-defense environment.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: variant/operator differences make unsourced universal claims about radar, missiles or performance misleading.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1986: Su-27PU long-range two-seat concept begins from Su-27UB lineage.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "31 December 1989: First Su-27PU/Su-30-lineage flight.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "1995: Su-30MKI development for India begins according to Airforce Technology.",
+            "refs": [
+              "fn-aft-mki"
+            ]
+          },
+          {
+            "text": "November 2000: First pre-production Su-30MKI flight; HAL license-production agreement path begins in the same period.",
+            "refs": [
+              "fn-aft-mki"
+            ]
+          },
+          {
+            "text": "September 2002: Su-30MKI inducted into Indian Air Force service.",
+            "refs": [
+              "fn-aft-mki"
+            ]
+          },
+          {
+            "text": "September-November 2012: Su-30SM first flight and first Russian Air Force deliveries reported.",
+            "refs": [
+              "fn-aft-sm"
+            ]
+          },
+          {
+            "text": "2017-2019: Public reporting highlights BrahMos integration and live-firing milestones from Su-30MKI aircraft.",
+            "refs": [
+              "fn-aft-mki"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Primary article expansion used the repository's F-16 page as the density and structure reference, while adapting content to the JSON-rendered aircraft-page format. Su-30 claims are source-qualified by variant where possible.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Airforce Technology project pages provided the most detailed extractable Su-30MKI and Su-30SM public data in this run. HAL's page was identified as an official manufacturer/product reference, but automated extraction failed, so the page does not rely on HAL alone for technical specifics.",
+            "refs": [
+              "fn-aft-mki",
+              "fn-aft-sm",
+              "fn-hal-mki"
+            ]
+          },
+          {
+            "text": "Wikipedia was used only as a supplementary orientation source for broad family lineage, branch split, NATO reporting names and operator discovery. Current fleet totals, combat-loss counts and national upgrade fits should be checked with dated sources before being turned into fixed tables.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "links": [
+          {
+            "label": "Sukhoi Su-27",
+            "url": "aircraft.html?id=su-27"
+          },
+          {
+            "label": "Sukhoi Su-35",
+            "url": "aircraft.html?id=su-35"
+          },
+          {
+            "label": "Sukhoi Su-34",
+            "url": "aircraft.html?id=su-34"
+          },
+          {
+            "label": "Mikoyan MiG-29",
+            "url": "aircraft.html?id=mig-29"
+          },
+          {
+            "label": "McDonnell Douglas F-15 Eagle",
+            "url": "aircraft.html?id=f-15-eagle"
+          },
+          {
+            "label": "Return to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }
