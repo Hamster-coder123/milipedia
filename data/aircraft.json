@@ -39239,86 +39239,160 @@
   {
     "id": "su-17",
     "name": "Sukhoi Su-17",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "alternative_names": [
+      "Su-20",
+      "Su-22",
+      "Fitter",
+      "Fitter-K"
+    ],
+    "nato_reporting_name": "Fitter",
     "country_of_origin": "Soviet Union",
     "manufacturer": "Sukhoi",
-    "role": "Swing-wing fighter-bomber",
+    "role": "Variable-sweep-wing fighter-bomber and ground-attack aircraft",
     "aircraft_type": "Attack aircraft",
     "era": "Cold War",
-    "first_flight": "1966",
-    "introduction_date": "1970",
-    "retirement_date": null,
-    "status": "Active/retired by operator",
-    "number_built": "Not listed",
-    "crew": "1",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "first_flight": "2 August 1966",
+    "introduction_date": "1970-1972 family service entry, depending source and variant",
+    "retirement_date": "Retired by Russia and many former operators; limited Su-22-family service continued with some export users",
+    "status": "Retired or limited service depending operator",
+    "number_built": "About 1,200 Su-17/20/22 family aircraft in Aerospaceweb summary; Wikipedia lists a broader 2,867 family figure",
+    "crew": "1; Su-17UM/Su-22UM trainers use 2",
+    "engine_type": "Afterburning turbojet",
+    "engines": "One Lyulka AL-21F-3 afterburning turbojet on Su-17M/Su-17M4-family aircraft; export subvariants could differ",
+    "max_speed": "Representative Su-17M/Su-22M4-family figures range from about Mach 1.75 to Mach 2.09 depending source, altitude, and variant",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Sukhoi Su-17: Swing-wing fighter-bomber. Manufacturer: Sukhoi. First flight: 1966. Introduction: 1970.",
-    "short_summary": "Sukhoi Su-17: Swing-wing fighter-bomber. Origin: Soviet Union. Manufacturer: Sukhoi. First flight: 1966. Introduction: 1970. Status: Active/retired by operator.",
+    "range": "Aerospaceweb lists typical range about 740 nmi and ferry range about 1,375 nmi for representative Su-17M/Su-17M4 data; FAS lists different cruise-range values by designation",
+    "combat_range": "Mission radius varied by stores, tanks, altitude profile, and reconnaissance or strike fit; not fixed here",
+    "service_ceiling": "About 49,870 ft / 15,200 m in Aerospaceweb data; FAS lists 18,000 m for selected designations",
+    "rate_of_climb": "Aerospaceweb lists an initial climb rate of 45,275 ft/min for representative data; exact figure varied by variant and loadout",
+    "armament": "Two 30 mm NR-30 cannon on single-seat strike variants, up to about 9,370 lb / 4,250 kg of stores on external pylons, and variant-dependent rockets, bombs, missiles, gun pods, reconnaissance pods, electronic-warfare pods, and special weapons.",
+    "hardpoints": "Eight to ten external pylons depending variant and fit",
+    "variants": [
+      {
+        "name": "Su-7IG / S-22I",
+        "description": "Variable-geometry Su-7 demonstrator that proved the swing-wing approach and led to the Su-17 family."
+      },
+      {
+        "name": "Su-17 / Su-17M",
+        "description": "Early production and definitive Fitter-C strike versions; the Su-17M added a more efficient AL-21F-family engine, improved fuel capacity, and better navigation/attack equipment."
+      },
+      {
+        "name": "Su-20",
+        "description": "Export derivative of the Su-17M with less sophisticated avionics, supplied to Soviet-aligned customers including Poland, Afghanistan, Egypt, Iraq, North Korea, Syria, Algeria, Angola, and Vietnam in source lists."
+      },
+      {
+        "name": "Su-17M2 / Su-22",
+        "description": "Improved attack family with a lengthened nose, upgraded navigation/attack system, laser rangefinder, and export Su-22 derivatives."
+      },
+      {
+        "name": "Su-17UM / Su-22UM",
+        "description": "Two-seat training family with revised forward fuselage and improved instructor visibility; later UM3/UM3K aircraft matched later production standards more closely but usually sacrificed some combat equipment."
+      },
+      {
+        "name": "Su-17M3 / Su-22M",
+        "description": "Deeper-fuselage version with increased fuel capacity and compatibility with infrared air-to-air missiles such as K-13/AA-2 or R-60/AA-8 on later fits."
+      },
+      {
+        "name": "Su-17M4 / Su-22M4",
+        "description": "Final major production Fitter-K standard optimized for low-level strike with more capable avionics, mission computer/navigation upgrades, laser rangefinding/designation equipment, radar-warning gear, and broader precision-weapon compatibility."
+      },
+      {
+        "name": "Su-17M4R / Su-22M4R",
+        "description": "Reconnaissance conversions carrying KKR-series centerline reconnaissance pods with cameras and electronic-intelligence equipment."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Soviet Union / Russia",
+        "service": "Soviet Air Forces and successor Russian units",
+        "notes": "Original developer and major Cold War user; Russian front-line use ended after the Soviet period as Su-24, Su-25, Su-27-family and later aircraft took over many missions."
+      },
+      {
+        "country": "Poland",
+        "service": "Polish Air Force",
+        "notes": "Major Warsaw Pact and post-Cold War Su-20/Su-22 operator; RIAT described Poland as the final European operator at the time of its 2023 profile and noted planned FA-50 replacement."
+      },
+      {
+        "country": "Germany / former East Germany",
+        "service": "National People's Army Air Forces, then German custody after reunification",
+        "notes": "East German aircraft became a notable source of museum and evaluation examples; the NMUSAF Su-22M4 was acquired from Germany."
+      },
+      {
+        "country": "Syria",
+        "service": "Syrian Arab Air Force",
+        "notes": "Long-time export operator listed in FAS and Aerospaceweb source material; current status and losses are date-sensitive."
+      },
+      {
+        "country": "Iraq",
+        "service": "Iraqi Air Force",
+        "notes": "Export operator listed by FAS, Aerospaceweb, and museum summaries; aircraft served in regional-war strike inventories."
+      },
+      {
+        "country": "Peru",
+        "service": "Peruvian Air Force",
+        "notes": "Su-22 export operator listed in FAS and Aerospaceweb source material; the type was used as a strike aircraft in South American service."
+      },
+      {
+        "country": "Afghanistan, Algeria, Angola, Hungary, Libya, North Korea, Vietnam, Yemen and others",
+        "service": "National air forces",
+        "notes": "Representative export users; exact variant mix, serviceability, retirement date, and surviving fleet counts require country-specific verification."
+      }
+    ],
+    "combat_history": "Used primarily for Soviet and export close air support, interdiction, reconnaissance, and low-level strike. The family is associated with the Soviet-Afghan War and several export-operator regional conflicts, but exact loss and sortie claims are source- and country-specific.",
+    "development_history": "Developed from the fixed-wing Sukhoi Su-7 after Sukhoi fitted variable-geometry outer wing panels and a stronger engine to improve takeoff, landing, range, and strike flexibility without discarding the rugged Su-7 fuselage concept.",
+    "short_summary": "The Sukhoi Su-17 was a Soviet single-seat, single-engine, variable-sweep-wing fighter-bomber developed from the Su-7. Known to NATO as Fitter, it introduced swing-wing attack-aircraft service in the Soviet inventory and spawned Su-20 and Su-22 export families used by Warsaw Pact, Middle Eastern, African, Asian, and Latin American air forces.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Vietnamese_Su-22M4_with_Kh-25s.jpg/330px-Vietnamese_Su-22M4_with_Kh-25s.jpg",
-        "caption": "Sukhoi Su-17",
-        "credit": "Wikimedia/Wikipedia thumbnail source",
-        "license": "Verify original file license before reuse."
+        "url": "https://media.defense.gov/2007/Dec/20/2000419117/1200/1200/0/071220-F-1234S-012.JPG",
+        "caption": "Sukhoi Su-22MR / Su-22M4-family Fitter-K in National Museum of the U.S. Air Force storage.",
+        "credit": "U.S. Air Force / National Museum of the U.S. Air Force",
+        "license": "Official U.S. Air Force image; verify reuse requirements before publication."
       }
     ],
     "sources": [
+      {
+        "id": "fn-nmusaf",
+        "title": "Sukhoi SU-22M4",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197989/sukhoi-su-22m4/",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Official museum page used for swing-wing development context, Fitter-K museum aircraft notes, armament load, engine, speed, and wing-sweep data."
+      },
+      {
+        "id": "fn-aerospaceweb",
+        "title": "Su-17 'Fitter' - Aircraft Museum",
+        "url": "https://aerospaceweb.org/aircraft/attack/su17/",
+        "publisher": "Aerospaceweb.org",
+        "note": "Technical reference used for Su-17M/Su-17M4 dimensions, weights, performance, variants, and export-model lineage; values are treated as representative and variant-sensitive."
+      },
+      {
+        "id": "fn-fas",
+        "title": "Su-17,-20,-22 FITTER (SUKHOI)",
+        "url": "https://man.fas.org/dod-101/sys/ac/row/su-17.htm",
+        "publisher": "Federation of American Scientists",
+        "note": "Legacy recognition and specifications page used for configuration, sensors, payload, range, and representative user-country lists."
+      },
+      {
+        "id": "fn-riat",
+        "title": "Sukhoi Su-22M Fitter",
+        "url": "https://www.airtattoo.com/riat-2023/aircraft/sukhoi-su-22m-fitter-poland",
+        "publisher": "Royal International Air Tattoo",
+        "note": "Airshow profile used for Polish Su-22M4 service context and the Su-22 export/Su-17M4 relationship."
+      },
       {
         "id": "fn-main",
         "title": "Sukhoi Su-17",
         "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-17",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for broad nomenclature, dates, and operator cross-checking; not used as the sole source for technical claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.warfare.ru/?catid=255&linkid=1603",
-        "publisher": "warfare.ru",
-        "note": "External source for Sukhoi Su-17."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.fas.org/man/dod-101/sys/ac/row/su-17.htm",
-        "publisher": "fas.org",
-        "note": "External source for Sukhoi Su-17."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.scramble.nl/cz.htm",
-        "publisher": "scramble.nl",
-        "note": "External source for Sukhoi Su-17."
+        "note": "Local rules for neutral wording, variant-sensitive caveats, units, and source handling."
       }
     ],
     "country_flags": [
@@ -39331,137 +39405,163 @@
       "Sukhoi"
     ],
     "development_tensions": [
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Variable sweep improved field performance and low-speed handling but added structural weight, maintenance complexity, and fuel/volume trade-offs.",
+      "The family retained a nose intake and single turbojet layout, limiting radar volume compared with later strike aircraft."
     ],
     "wars_used_in": [
       {
-        "name": "Soviet–Afghan War",
-        "note": "Sukhoi Su-17 used in Soviet–Afghan War."
+        "name": "Soviet-Afghan War",
+        "note": "Soviet Su-17-family aircraft are widely associated with strike and reconnaissance operations in Afghanistan; detailed sortie and loss totals are not fixed here."
+      },
+      {
+        "name": "Regional conflicts by export operators",
+        "note": "Su-20/Su-22 operators used the family in several Middle Eastern, African, and Latin American conflicts; claims vary by source and country."
       }
     ],
     "variant_families": [
-      "Sukhoi Su-17 baseline production model",
-      "Sukhoi Su-17 upgraded avionics or weapons-capable model",
-      "Sukhoi Su-17 export or locally modernized model"
+      "Su-17 Soviet strike family",
+      "Su-20 early export family",
+      "Su-22 export strike family",
+      "Su-17UM/Su-22UM trainer family",
+      "Su-17M4/Su-22M4 Fitter-K final production family"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "Soviet Union"
       ],
-      "major_user_note": "Sukhoi Su-17 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The family served the Soviet Union and many export users across Warsaw Pact, Middle Eastern, African, Asian, and Latin American air arms.",
+      "all_operators_status": "Most operators have retired the type; limited Su-22-family service persisted with some countries. Current inventories are date-sensitive."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "National Museum of the U.S. Air Force Su-22M4/Fitter-K storage aircraft acquired from Germany in 2003.",
+        "Polish Su-22M4/UM3K aircraft represented one of the last European Fitter fleets before planned replacement by FA-50 aircraft."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "No single loss event was added as a definitive article centerpiece because publicly available claims vary by conflict and operator.",
+        "Operational-history notes are limited to broad, sourced use patterns rather than exhaustive combat-claim lists."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Sukhoi Su-17 uses jet propulsion."
+      "type": "Afterburning turbojet",
+      "summary": "Representative Su-17M/Su-22M4-family aircraft used one Lyulka AL-21F-3 afterburning turbojet; NMUSAF lists 24,700 lb thrust with afterburner and Aerospaceweb lists 24,800 lb."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Single-seat strike variants carried two 30 mm NR-30 cannon and external stores including rockets, bombs, air-to-surface missiles, short-range air-to-air missiles, gun pods, reconnaissance pods, and electronic pods, depending variant and national fit.",
+      "caution": "Exact weapons clearance varied substantially across Su-17, Su-20, Su-22, reconnaissance, trainer, and modernized national variants."
     },
     "similar_development": [
       {
-        "id": "f-105-thunderchief",
-        "name": "Republic F-105 Thunderchief",
-        "url": "aircraft.html?id=f-105-thunderchief"
+        "id": "su-7",
+        "name": "Sukhoi Su-7",
+        "url": "aircraft.html?id=su-7"
       },
       {
-        "id": "a-4-skyhawk",
-        "name": "Douglas A-4 Skyhawk",
-        "url": "aircraft.html?id=a-4-skyhawk"
+        "id": "su-24",
+        "name": "Sukhoi Su-24",
+        "url": "aircraft.html?id=su-24"
       },
       {
-        "id": "a-6-intruder",
-        "name": "Grumman A-6 Intruder",
-        "url": "aircraft.html?id=a-6-intruder"
+        "id": "su-25",
+        "name": "Sukhoi Su-25",
+        "url": "aircraft.html?id=su-25"
       },
       {
         "id": "a-7-corsair-ii",
         "name": "LTV A-7 Corsair II",
         "url": "aircraft.html?id=a-7-corsair-ii"
+      },
+      {
+        "id": "f-105-thunderchief",
+        "name": "Republic F-105 Thunderchief",
+        "url": "aircraft.html?id=f-105-thunderchief"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 36,
+      "operator_entries": 7,
+      "variant_entries": 8,
+      "external_article_sources": 5
     },
     "footnotes": [
+      {
+        "id": "fn-nmusaf",
+        "title": "Sukhoi SU-22M4",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197989/sukhoi-su-22m4/",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Official museum page used for swing-wing development context, Fitter-K museum aircraft notes, armament load, engine, speed, and wing-sweep data."
+      },
+      {
+        "id": "fn-aerospaceweb",
+        "title": "Su-17 'Fitter' - Aircraft Museum",
+        "url": "https://aerospaceweb.org/aircraft/attack/su17/",
+        "publisher": "Aerospaceweb.org",
+        "note": "Technical reference used for Su-17M/Su-17M4 dimensions, weights, performance, variants, and export-model lineage; values are treated as representative and variant-sensitive."
+      },
+      {
+        "id": "fn-fas",
+        "title": "Su-17,-20,-22 FITTER (SUKHOI)",
+        "url": "https://man.fas.org/dod-101/sys/ac/row/su-17.htm",
+        "publisher": "Federation of American Scientists",
+        "note": "Legacy recognition and specifications page used for configuration, sensors, payload, range, and representative user-country lists."
+      },
+      {
+        "id": "fn-riat",
+        "title": "Sukhoi Su-22M Fitter",
+        "url": "https://www.airtattoo.com/riat-2023/aircraft/sukhoi-su-22m-fitter-poland",
+        "publisher": "Royal International Air Tattoo",
+        "note": "Airshow profile used for Polish Su-22M4 service context and the Su-22 export/Su-17M4 relationship."
+      },
       {
         "id": "fn-main",
         "title": "Sukhoi Su-17",
         "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-17",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for broad nomenclature, dates, and operator cross-checking; not used as the sole source for technical claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.warfare.ru/?catid=255&linkid=1603",
-        "publisher": "warfare.ru",
-        "note": "External source for Sukhoi Su-17."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.fas.org/man/dod-101/sys/ac/row/su-17.htm",
-        "publisher": "fas.org",
-        "note": "External source for Sukhoi Su-17."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.scramble.nl/cz.htm",
-        "publisher": "scramble.nl",
-        "note": "External source for Sukhoi Su-17."
+        "note": "Local rules for neutral wording, variant-sensitive caveats, units, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.warfare.ru/?catid=255&linkid=1603",
-        "publisher": "warfare.ru",
-        "note": "External source for Sukhoi Su-17."
+        "id": "fn-nmusaf",
+        "title": "Sukhoi SU-22M4",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197989/sukhoi-su-22m4/",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Official museum page used for swing-wing development context, Fitter-K museum aircraft notes, armament load, engine, speed, and wing-sweep data."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.fas.org/man/dod-101/sys/ac/row/su-17.htm",
-        "publisher": "fas.org",
-        "note": "External source for Sukhoi Su-17."
+        "id": "fn-aerospaceweb",
+        "title": "Su-17 'Fitter' - Aircraft Museum",
+        "url": "https://aerospaceweb.org/aircraft/attack/su17/",
+        "publisher": "Aerospaceweb.org",
+        "note": "Technical reference used for Su-17M/Su-17M4 dimensions, weights, performance, variants, and export-model lineage; values are treated as representative and variant-sensitive."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.scramble.nl/cz.htm",
-        "publisher": "scramble.nl",
-        "note": "External source for Sukhoi Su-17."
+        "id": "fn-fas",
+        "title": "Su-17,-20,-22 FITTER (SUKHOI)",
+        "url": "https://man.fas.org/dod-101/sys/ac/row/su-17.htm",
+        "publisher": "Federation of American Scientists",
+        "note": "Legacy recognition and specifications page used for configuration, sensors, payload, range, and representative user-country lists."
+      },
+      {
+        "id": "fn-riat",
+        "title": "Sukhoi Su-22M Fitter",
+        "url": "https://www.airtattoo.com/riat-2023/aircraft/sukhoi-su-22m-fitter-poland",
+        "publisher": "Royal International Air Tattoo",
+        "note": "Airshow profile used for Polish Su-22M4 service context and the Su-22 export/Su-17M4 relationship."
+      },
+      {
+        "id": "fn-main",
+        "title": "Sukhoi Su-17",
+        "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-17",
+        "publisher": "Wikipedia",
+        "note": "Supplementary orientation source for broad nomenclature, dates, and operator cross-checking; not used as the sole source for technical claims."
       }
     ],
     "article_sections": [
@@ -39470,19 +39570,22 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-17 is a Swing-wing fighter-bomber from Soviet Union. Manufacturer: Sukhoi. First flight: 1966. Introduction: 1970. Status: Active/retired by operator.",
+            "text": "The Sukhoi Su-17 was a Soviet variable-sweep-wing fighter-bomber developed from the earlier Su-7. NATO assigned the family the reporting name Fitter, with later export versions commonly known as Su-20 and Su-22. The design kept the rugged single-engine, nose-intake Su-7 lineage but added swing wings and improved attack systems to give the aircraft better field performance and a wider strike envelope.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf",
+              "fn-aerospaceweb"
             ]
           },
           {
-            "text": "Sukhoi Su-17 is a attack aircraft. Primary role: swing-wing fighter-bomber. Country of origin: Soviet Union. Manufacturer: Sukhoi.",
+            "text": "The Su-17 family served as a ground-attack, close-air-support, interdiction, reconnaissance, and limited air-defense platform. The final Su-17M4/Su-22M4 Fitter-K standard added more capable avionics for low-level strike and could carry a broad mix of unguided and guided stores, but exact capability depended heavily on variant and export fit.",
             "refs": [
-              "fn-wikidata"
+              "fn-nmusaf",
+              "fn-aerospaceweb",
+              "fn-riat"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Milipedia treats the figures below as representative of Su-17M/Su-17M4 and Su-22M4-family aircraft rather than universal values for every Fitter. Engine, avionics, radar, missile, trainer, and reconnaissance equipment changed across the long production run and between Soviet and export customers.",
             "refs": [
               "fn-method"
             ]
@@ -39491,45 +39594,62 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Swing-wing fighter-bomber"
+            "text": "Variable-sweep-wing fighter-bomber and ground-attack aircraft"
           },
           {
-            "title": "Designer or builder",
-            "text": "Sukhoi"
+            "title": "NATO reporting name",
+            "text": "Fitter"
           },
           {
-            "title": "Major origin",
-            "text": "Soviet Union"
+            "title": "Developed from",
+            "text": "Sukhoi Su-7"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Representative final family",
+            "text": "Su-17M4 / Su-22M4 Fitter-K"
+          },
+          {
+            "title": "Powerplant",
+            "text": "One Lyulka AL-21F-3 afterburning turbojet on representative later variants"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-17 first flew in 1966. Introduction date: 1970. Era: Cold War.",
+            "text": "Sukhoi created the Su-17 by modifying the fixed-wing Su-7 attack fighter with variable-geometry outer wing panels. The National Museum of the U.S. Air Force notes that the change greatly improved performance and helped make the Fitter one of the Soviet Union's first swing-wing attack aircraft.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf"
             ]
           },
           {
-            "text": "Producer: Sukhoi. Development context: swing-wing fighter-bomber, jet propulsion, supersonic speed category, Cold War era.",
+            "text": "Aerospaceweb describes early Western interpretation of the design as a possible experiment, but the concept matured into production Su-17 and Su-17M aircraft. The Su-17M added a more efficient and more powerful engine, greater fuel capacity, and an improved navigation and attack system.",
             "refs": [
-              "fn-wikidata"
+              "fn-aerospaceweb"
+            ]
+          },
+          {
+            "text": "Later marks stretched the nose for sensors and laser ranging, introduced trainers with revised cockpit visibility, increased internal fuel, and culminated in the Su-17M4/Su-22M4 Fitter-K optimized for low-level strike. Production of the family ended around 1990-1991 depending source wording.",
+            "refs": [
+              "fn-aerospaceweb",
+              "fn-nmusaf"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "Su-7IG/S-22I: variable-geometry demonstrator based on the Su-7."
+          },
+          {
+            "text": "Su-17M/Fitter-C: improved production ground-attack model."
+          },
+          {
+            "text": "Su-20 and Su-22: export families with variant-specific avionics and weapons differences."
+          },
+          {
+            "text": "Su-17M4/Su-22M4: final Fitter-K production standard with improved low-level strike avionics."
           }
         ]
       },
@@ -39538,184 +39658,45 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The aircraft has mid-to-low-mounted variable-sweep wings, a long tubular fuselage, nose intake, single rear exhaust, bubble canopy, prominent dorsal spine, swept tail, and single afterburning turbojet. FAS recognition notes emphasize the blunt nose, large single exhaust, and swept tapered tail surfaces.",
             "refs": [
-              "fn-main"
+              "fn-fas"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Variable geometry let the Fitter use lower sweep for takeoff, landing, and low-speed lift, and higher sweep for high-speed dash and low-level attack. NMUSAF describes three fixed wing-sweep positions: 28 degrees for low speed, 62 degrees for high speed, and one intermediate position.",
             "refs": [
-              "fn-method"
+              "fn-nmusaf"
             ]
           },
           {
-            "text": "Sukhoi Su-17 uses jet propulsion. Engine model field: Not listed.",
+            "text": "Avionics ranged from early navigation/attack equipment to later laser rangefinders, radar-warning receivers, mission computers, reconnaissance pods, and weapons interfaces. FAS lists radar warning receivers and bombing/attack sensors for representative Fitter-C/Fitter-F data, while Aerospaceweb credits the Fitter-K with much more capable low-level strike avionics.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-fas",
+              "fn-aerospaceweb"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "1"
+            "text": "One pilot; two in trainer variants"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Wing",
+            "text": "Variable sweep, with NMUSAF-noted 28-degree, intermediate, and 62-degree settings"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Engine",
+            "text": "Lyulka AL-21F-3 afterburning turbojet on representative later aircraft"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Stores",
+            "text": "Eight to ten hardpoints depending variant"
           },
           {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Sukhoi Su-17 status: Active/retired by operator. Conflict entries: 1.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: Soviet–Afghan War.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Soviet–Afghan War: Sukhoi Su-17 used in Soviet–Afghan War.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Sukhoi Su-17 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "variants",
-        "title": "Variants",
-        "paragraphs": [
-          {
-            "text": "Sukhoi Su-17 variant-family entries: 3. Variant families: Sukhoi Su-17 baseline production model; Sukhoi Su-17 upgraded avionics or weapons-capable model; Sukhoi Su-17 export or locally modernized model.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Sukhoi Su-17 baseline production model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Sukhoi Su-17 upgraded avionics or weapons-capable model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Sukhoi Su-17 export or locally modernized model",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "operators",
-        "title": "Operators",
-        "paragraphs": [
-          {
-            "text": "Designer or builder countries: Soviet Union. Sukhoi Su-17 has 1 designer or builder country entry.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "All operators status: 0 operator entries listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Major designer or builder entries: Soviet Union.",
-            "refs": [
-              "fn-wikidata"
-            ]
+            "title": "Primary mission",
+            "text": "Low-level strike, interdiction, reconnaissance, and close support"
           }
         ]
       },
@@ -39724,14 +39705,283 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Supersonic, first flight 1966, introduction 1970.",
+            "text": "Representative values below combine NMUSAF Su-22M4/Fitter-K notes with Aerospaceweb Su-17M/Su-17M4 data. They should not be treated as universal for every export, trainer, reconnaissance, or national-upgrade aircraft.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf",
+              "fn-aerospaceweb",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Crew",
+            "text": "1; two-seat UM/UM3 trainers use 2"
+          },
+          {
+            "title": "Length",
+            "text": "Su-17M: 61 ft 6 in / 18.75 m; Su-17M4: 62 ft 5 in / 19.02 m"
+          },
+          {
+            "title": "Wingspan",
+            "text": "45 ft 3 in / 13.80 m unswept; 32 ft 10 in / 10.00 m swept"
+          },
+          {
+            "title": "Height",
+            "text": "About 16 ft 5-10 in / 5.00-5.13 m depending variant"
+          },
+          {
+            "title": "Empty weight",
+            "text": "About 22,050 lb / 10,000 kg for Su-17M; 23,455 lb / 10,640 kg for Su-17M4"
+          },
+          {
+            "title": "Maximum takeoff weight",
+            "text": "About 42,990 lb / 19,500 kg"
+          },
+          {
+            "title": "Powerplant",
+            "text": "One Lyulka AL-21F-3 afterburning turbojet; about 24,700-24,800 lb afterburning thrust in sources"
+          },
+          {
+            "title": "Maximum speed",
+            "text": "NMUSAF: 1,550 mph / Mach 2.09; Aerospaceweb Su-17M4: about 1,170 mph at altitude and 840 mph at sea level"
+          },
+          {
+            "title": "Range",
+            "text": "Aerospaceweb: typical 740 nmi / 1,370 km; ferry 1,375 nmi / 2,550 km"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "Aerospaceweb: about 49,870 ft / 15,200 m; FAS lists 18,000 m for selected designations"
+          },
+          {
+            "title": "Armament",
+            "text": "Two 30 mm NR-30 cannon and up to about 9,370 lb / 4,250 kg of external stores"
+          }
+        ]
+      },
+      {
+        "id": "variants",
+        "title": "Variants",
+        "paragraphs": [
+          {
+            "text": "The Fitter family is best read as a sequence of Soviet Su-17 strike aircraft, Su-20 early export aircraft, Su-22 export aircraft, and two-seat Su-17UM/Su-22UM trainers. NATO subnames such as Fitter-C, Fitter-D, Fitter-E, Fitter-F, Fitter-G, Fitter-H, Fitter-J, and Fitter-K map to different configurations and are not interchangeable.",
+            "refs": [
+              "fn-aerospaceweb"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Final Su-17M4/Su-22M4 Fitter-K aircraft had improved avionics and weapon compatibility compared with early Fitters. RIAT describes the Su-22M4 as the export version of the final Su-17M4 with advanced avionics and a nose laser rangefinder.",
             "refs": [
+              "fn-riat"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Su-7IG",
+            "text": "Swing-wing demonstrator based on the Su-7."
+          },
+          {
+            "title": "Su-17M",
+            "text": "Improved Soviet production ground-attack aircraft with better engine, fuel, and attack systems."
+          },
+          {
+            "title": "Su-20",
+            "text": "Early export derivative of the Su-17M."
+          },
+          {
+            "title": "Su-22",
+            "text": "Export derivative family of later Su-17 versions."
+          },
+          {
+            "title": "Su-17UM / Su-22UM",
+            "text": "Two-seat operational trainer family."
+          },
+          {
+            "title": "Su-17M4 / Su-22M4",
+            "text": "Final Fitter-K production strike family."
+          }
+        ]
+      },
+      {
+        "id": "operators",
+        "title": "Operators",
+        "paragraphs": [
+          {
+            "text": "The Su-17/20/22 family served widely with the Soviet Union and export customers. FAS and Aerospaceweb list users across the former Soviet sphere, Warsaw Pact, Middle East, Africa, Asia, and Latin America, but modern fleet counts are highly date-sensitive and are not fixed here.",
+            "refs": [
+              "fn-fas",
+              "fn-aerospaceweb",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Representative operators include the Soviet Union/Russia, Poland, East Germany/Germany, Afghanistan, Algeria, Angola, Iraq, Libya, Peru, Syria, Vietnam, Yemen, and several former Warsaw Pact air arms. Poland's Su-22M4/UM3K fleet became notable as one of the last European Fitter forces before replacement planning.",
+            "refs": [
+              "fn-fas",
+              "fn-riat"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Original user",
+            "text": "Soviet Air Forces"
+          },
+          {
+            "title": "European export users",
+            "text": "Poland, East Germany, Czechoslovakia/Czech and Slovak successor context, Hungary and others by period"
+          },
+          {
+            "title": "Middle Eastern users",
+            "text": "Iraq, Syria, Libya, Yemen and others by source lists"
+          },
+          {
+            "title": "Other export users",
+            "text": "Afghanistan, Algeria, Angola, Peru, Vietnam and others"
+          },
+          {
+            "title": "Status caveat",
+            "text": "Most fleets retired; limited Su-22-family use may persist and requires current verification"
+          }
+        ]
+      },
+      {
+        "id": "service",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "In Soviet service, the Fitter filled tactical strike, reconnaissance, and close-support roles. Its variable wing and rugged attack-aircraft layout made it better suited to short-field and low-level work than the original Su-7 concept while retaining high supersonic dash performance.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-aerospaceweb"
+            ]
+          },
+          {
+            "text": "Export Fitters gave many Soviet-aligned air forces a relatively fast strike aircraft able to carry cannon, rockets, bombs, missiles, and specialized pods. The family is associated with the Soviet-Afghan War and with several regional conflicts involving export users, but detailed combat claims, losses, and serviceability rates differ sharply by country and source.",
+            "refs": [
+              "fn-fas",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "By the post-Cold War period, many operators retired the type or used it in shrinking fleets. Poland remained a prominent European operator into the 2020s and planned replacement with the FA-50 according to RIAT's 2023 airshow profile.",
+            "refs": [
+              "fn-riat"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Primary wartime roles: strike, close support, interdiction, armed reconnaissance, and reconnaissance pod carriage."
+          },
+          {
+            "text": "Key limitation: dated cockpit/avionics and maintenance burden compared with newer precision-strike aircraft."
+          },
+          {
+            "text": "Key strength: high speed, useful payload, robust airframe lineage, and broad stores compatibility in later variants."
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The Su-17's main strengths were speed, payload, robust construction, and improved takeoff/landing flexibility from the variable-sweep wing. Later marks could carry guided weapons and specialized pods, making the type more than a simple unguided-bomb carrier.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-aerospaceweb"
+            ]
+          },
+          {
+            "text": "Its limitations flowed from the same lineage: a single turbojet, nose intake, analog-era cockpit, older sensors, and swing-wing complexity. Export models often had downgraded avionics, and two-seat trainers or reconnaissance variants did not necessarily carry the same combat equipment as single-seat strike aircraft.",
+            "refs": [
+              "fn-aerospaceweb",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Compared with the fixed-wing Su-7, the Su-17 added variable sweep and progressively improved fuel, avionics, and weapon integration. Compared with the Su-24, it was smaller, simpler, and single-seat rather than a larger two-seat all-weather strike aircraft. Compared with the Su-25, it emphasized speed and fighter-bomber lineage rather than armored low-speed close-air-support survivability.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-aerospaceweb"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Sukhoi Su-7",
+            "url": "aircraft.html?id=su-7"
+          },
+          {
+            "label": "Sukhoi Su-24",
+            "url": "aircraft.html?id=su-24"
+          },
+          {
+            "label": "Sukhoi Su-25",
+            "url": "aircraft.html?id=su-25"
+          },
+          {
+            "label": "LTV A-7 Corsair II",
+            "url": "aircraft.html?id=a-7-corsair-ii"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1959: Su-7 Fitter-A enters Soviet service according to NMUSAF background."
+          },
+          {
+            "text": "2 August 1966: Su-17/Su-7IG lineage first-flight date in Aerospaceweb and Wikipedia-derived references."
+          },
+          {
+            "text": "1970-1972: Su-17-family service-entry period depending source and variant."
+          },
+          {
+            "text": "Mid-1970s: Su-17M2, trainers, and later M3-family improvements expand avionics and fuel capacity."
+          },
+          {
+            "text": "1980s: Su-17M4/Su-22M4 Fitter-K appears as the final major production standard."
+          },
+          {
+            "text": "1990-1991: Production ends around the collapse of the Soviet period, depending source wording."
+          },
+          {
+            "text": "2003: NMUSAF Fitter-K acquired from Germany."
+          },
+          {
+            "text": "2020s: Remaining Su-22 operators continue drawdown or replacement planning."
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "The strongest source used for official public museum context is the National Museum of the U.S. Air Force Su-22M4 page. Aerospaceweb and FAS provide structured technical and recognition data but are older secondary references, so conflicting performance and production figures are presented as representative rather than absolute.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-aerospaceweb",
+              "fn-fas",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Wikipedia was retained only for broad orientation and cross-checking because the page itself flags some sourcing issues. Exact active inventories, loss claims, nuclear-store details, and country-specific modernization states require current specialist verification before being stated as definitive.",
+            "refs": [
+              "fn-main",
               "fn-method"
             ]
           }
@@ -39739,40 +39989,41 @@
       },
       {
         "id": "similar-development",
-        "title": "Similar Development",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-17 similar-development links: 4.",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "Related Milipedia entries include the Su-7 predecessor, later Soviet strike aircraft, and comparable Western strike aircraft."
           }
         ],
         "links": [
           {
-            "label": "Republic F-105 Thunderchief",
-            "url": "aircraft.html?id=f-105-thunderchief"
+            "label": "Sukhoi Su-7",
+            "url": "aircraft.html?id=su-7"
           },
           {
-            "label": "Douglas A-4 Skyhawk",
-            "url": "aircraft.html?id=a-4-skyhawk"
+            "label": "Sukhoi Su-24",
+            "url": "aircraft.html?id=su-24"
           },
           {
-            "label": "Grumman A-6 Intruder",
-            "url": "aircraft.html?id=a-6-intruder"
+            "label": "Sukhoi Su-25",
+            "url": "aircraft.html?id=su-25"
           },
           {
             "label": "LTV A-7 Corsair II",
             "url": "aircraft.html?id=a-7-corsair-ii"
+          },
+          {
+            "label": "Republic F-105 Thunderchief",
+            "url": "aircraft.html?id=f-105-thunderchief"
           }
         ]
       }
     ],
     "event_gallery": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Mortar_attack_on_Shigal_Tarna_garrison%2C_Kunar_Province%2C_87.jpg/960px-Mortar_attack_on_Shigal_Tarna_garrison%2C_Kunar_Province%2C_87.jpg",
-        "caption": "Soviet–Afghan War",
-        "source_url": "https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War"
+        "url": "https://media.defense.gov/2007/Dec/20/2000419121/1200/1200/0/071220-F-1234S-009.JPG",
+        "caption": "Sukhoi Su-22MR/Fitter-K museum aircraft showing the long fuselage, nose intake, dorsal spine, and variable-sweep wing planform.",
+        "source_url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197989/sukhoi-su-22m4/"
       }
     ]
   },

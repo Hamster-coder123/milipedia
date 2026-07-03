@@ -5387,3 +5387,80 @@ Record the result of:
 
 * Representative specifications use MiG-17F/Fresco-C museum figures; other MiG-17, Lim, J-5, radar, reconnaissance, and attack variants differ.
 * Exact rate of climb, full world operator inventory, and detailed regional combat claims were omitted or caveated because the reviewed sources were not sufficient for a safe exhaustive treatment in this single run.
+
+### Run 71 — 2026-07-03 13:01:54 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Sukhoi Su-17 (id: su-17)
+* Reason selected: The Su-17 entry was one of the shortest unedited aircraft pages remaining, with placeholder specifications, no populated variants, no operator entries, generic armament text, and only sparse generated sections compared with the F-16 reference page.
+* Previous condition: Sparse generated article with 9 short sections, 0 variant entries, 0 operator entries, generic development/design/operator text, incomplete specifications, placeholder combat history, and stale generic similar-development metadata.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview; article-section order covering development, design, specifications, variants, operators, operational history, strengths and limitations, comparison, timeline, sources, and related pages; concise sourced paragraphs; cards for key technical facts; internal aircraft links using aircraft.html?id=...; careful caveats for variant-sensitive data.
+
+#### Changes Made
+
+* Expanded the Su-17 entry from sparse generated text into a fuller F-16-style Milipedia aircraft article record.
+* Added NATO reporting name Fitter, alternative names Su-20/Su-22/Fitter/Fitter-K, improved role/status fields, first-flight wording, representative production/service caveats, and variant-sensitive specification fields.
+* Replaced placeholder engine, range, ceiling, climb, hardpoint, and armament fields with sourced representative Su-17M/Su-17M4/Su-22M4-family data while preserving caveats for variant and export differences.
+* Added reliable source coverage from the National Museum of the U.S. Air Force, Aerospaceweb, FAS, and the Royal International Air Tattoo; retained Wikipedia only as supplementary orientation.
+* Added detailed article sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Comparison, Timeline, Sources and Notes, and Related Pages.
+* Added variants covering Su-7IG, Su-17/Su-17M, Su-20, Su-17M2/Su-22, Su-17UM/Su-22UM trainers, Su-17M3/Su-22M, Su-17M4/Su-22M4, and reconnaissance derivatives.
+* Added representative operators and operator notes for the Soviet Union/Russia, Poland, Germany/former East Germany, Syria, Iraq, Peru, and other export users, with current fleet counts omitted as date-sensitive.
+* Added operational-history context for Soviet and export strike/reconnaissance use, including Soviet-Afghan War association and export-operator regional use, without adding unverified loss or sortie claims.
+* Cleaned stale generated metadata by replacing generic event-gallery content with a Su-22M4 museum-aircraft source image and replacing related-aircraft links with existing Su-7, Su-24, Su-25, A-7, and F-105 pages.
+* Omitted exact active inventories, detailed loss claims, and universal weapons-clearance lists because reviewed sources showed those facts are variant-, operator-, and date-sensitive.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded and corrected only the Su-17 aircraft entry.
+* hermes-change-log.md — Appended the cumulative Run 71 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed diff/stat; data/aircraft.json changed only the Su-17 entry, and hermes-change-log.md appended the Run 71 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the Su-17 section list, sources, variants, operators, armament caveats, specifications, and metadata cleanup.
+4. F-16 style comparison — Inspected data/f16-template.html and matched its dense overview, technical cards, development/design/specification/variants/operators/service/comparison/timeline/source/related-page pattern within the JSON-rendered article system.
+5. Internal link check — Recursively checked aircraft.html?id=... references in the Su-17 entry; Su-7, Su-24, Su-25, A-7 Corsair II, and F-105 Thunderchief links target existing aircraft ids.
+6. Secret/token check — Checked the staged diff with credential-specific patterns for keys, tokens, passwords, private keys, and common cloud credential names; no credentials were added.
+7. Final review before commit — Confirmed branch hermes-agent, fetched state, JSON validity, only one aircraft entry changed with the same id, only intended files staged, no formatting errors from git diff --check, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Sukhoi Su-17
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Representative specifications combine Su-17M, Su-17M4, and Su-22M4-family data; individual export, trainer, reconnaissance, and national-upgrade aircraft can differ.
+* Public sources disagree or use different scopes for total production figures and some performance values, so the article records ranges/caveats rather than one false-precision value.
+* Current operator inventories, exact combat losses, sortie totals, and country-specific weapons clearances were intentionally omitted or caveated because they are date-sensitive or source-specific.
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
