@@ -46079,34 +46079,81 @@
   {
     "id": "tu-95",
     "name": "Tupolev Tu-95",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "alternative_names": [
+      "Bear",
+      "Tu-95MS Bear-H"
+    ],
+    "nato_reporting_name": "Bear",
     "country_of_origin": "Soviet Union",
-    "manufacturer": "Tupolev",
-    "role": "Strategic bomber",
+    "manufacturer": "Tupolev / JSC Tupolev Design Bureau",
+    "role": "Strategic bomber and standoff cruise-missile carrier",
     "aircraft_type": "Bomber",
     "era": "Cold War/Modern",
-    "first_flight": "1952",
+    "first_flight": "1952 (Tu-95 family); 1979 (Tu-95MS prototype)",
     "introduction_date": "1956",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
+    "status": "Active in Russian Long-Range Aviation service; legacy Soviet variants retired or converted",
+    "number_built": "More than 500 Tu-95/Tu-142 family aircraft reported by Airforce Technology; exact bomber-subvariant totals vary by source",
     "crew": "6-7",
     "engine_type": "Turboprop",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engines": "4 × Kuznetsov NK-12-family turboprops with contra-rotating propellers; NK-12MP listed for Tu-95MS",
+    "max_speed": "830 km/h for Tu-95MS; older family references list up to 920 km/h at altitude",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Bombs, missiles, and precision-guided weapons.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Tupolev Tu-95: Strategic bomber. Manufacturer: Tupolev. First flight: 1952. Introduction: 1956.",
-    "short_summary": "Tupolev Tu-95: Strategic bomber. Origin: Soviet Union. Manufacturer: Tupolev. First flight: 1952. Introduction: 1956. Status: Active.",
+    "range": "10,500 km Tu-95MS flight range; up to 14,100 km with one refuelling; older family figures list 15,000 km",
+    "combat_range": "About 6,400 km unrefuelled combat radius in Airforce Technology's Tu-95 Bear family data",
+    "service_ceiling": "10,500 m for Tu-95MS; some family references list 12,000 m/FL410",
+    "rate_of_climb": "10 m/s family figure in Airforce Technology data",
+    "armament": "Variant-dependent: Tu-95MS cruise missiles such as Kh-55-family and later Kh-101-compatible modifications; some versions retain 23 mm tail guns. Exact loadouts require variant/date verification.",
+    "hardpoints": "Internal rotary launcher and/or external stations depending Tu-95MS subvariant and modernization; older family bomb/missile arrangements vary.",
+    "variants": [
+      {
+        "name": "Tu-95",
+        "description": "Original strategic bomber family introduced in the 1950s."
+      },
+      {
+        "name": "Tu-95K / missile-carrier families",
+        "description": "Cold War Bear variants adapted for changing Soviet stand-off missile systems."
+      },
+      {
+        "name": "Tu-95MS Bear-H",
+        "description": "Later cruise-missile carrier, based on Tu-142 airframe experience and produced from 1981 to 1992."
+      },
+      {
+        "name": "Tu-95MSM",
+        "description": "Modernized Tu-95MS standard with updated systems and newer cruise-missile compatibility; public details are date-sensitive."
+      },
+      {
+        "name": "Tu-142",
+        "description": "Maritime patrol, anti-submarine, and communications derivative of the Bear family."
+      },
+      {
+        "name": "Tu-114 / Tu-116",
+        "description": "Civil and special passenger derivatives related to the Tu-95 design lineage."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Soviet Union",
+        "service": "Soviet Air Forces / Long-Range Aviation and Soviet Naval Aviation",
+        "status": "Former",
+        "note": "Original operator of the Tu-95 family and Bear maritime derivatives."
+      },
+      {
+        "country": "Russia",
+        "service": "Russian Aerospace Forces / Long-Range Aviation",
+        "status": "Current",
+        "note": "Principal public operator of Tu-95MS/Tu-95MSM strategic missile carriers."
+      },
+      {
+        "country": "India",
+        "service": "Indian Navy / former Tu-142 maritime-patrol operation",
+        "status": "Former related-family operator",
+        "note": "Associated with Tu-142 Bear-F maritime aircraft, not Tu-95MS strategic bomber service."
+      }
+    ],
+    "combat_history": "Cold War long-range patrols and intercept encounters; post-2007 Russian strategic patrol resumption; modern Russian standoff missile-carrier use. Exact combat claims and sortie counts require source-specific verification.",
+    "development_history": "Developed by Tupolev as a Soviet intercontinental strategic bomber, the Tu-95 combined swept wings with NK-12 contra-rotating turboprops for long range and heavy payload. Later Tu-95MS aircraft shifted the family toward cruise-missile carriage and modernization in Russian service.",
+    "short_summary": "Soviet/Russian long-range turboprop strategic bomber and missile carrier, NATO reporting name Bear, notable for NK-12 contra-rotating propellers, long endurance, and decades of modernization.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -46119,18 +46166,39 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-aft-tu95ms",
+        "title": "Tu-95MS Strategic Bomber",
+        "url": "https://www.airforce-technology.com/projects/tu-95ms-strategic-bomber",
+        "publisher": "Airforce Technology",
+        "note": "Used for Tu-95MS design, engine, avionics, payload, modernization, and performance details."
+      },
+      {
+        "id": "fn-aft-tu95bear",
+        "title": "Tu-95 Bear Strategic Intercontinental Bomber",
+        "url": "https://www.airforce-technology.com/projects/tu95bear",
+        "publisher": "Airforce Technology",
+        "note": "Used for Tu-95 family development, dimensions, engine, patrol history, variants, and performance data."
+      },
+      {
+        "id": "fn-skybrary-tu95",
+        "title": "TUPOLEV TU-95",
+        "url": "https://skybrary.aero/aircraft/tu95",
+        "publisher": "SKYbrary Aviation Safety",
+        "note": "Used for aircraft type-code context, first-flight/service summary, dimensions, engine model, cruise data, range, and ceiling."
+      },
+      {
+        "id": "fn-smithsonian-bear",
+        "title": "Eye to Eye with a Bear",
+        "url": "https://www.smithsonianmag.com/air-space-magazine/eye-eye-bear-bomber-180953363/",
+        "publisher": "Smithsonian Air & Space Magazine",
+        "note": "Used for Cold War intercept context, NATO Bear designation, NK-12 contra-rotating propeller description, noise, and surveillance-patrol role."
+      },
+      {
+        "id": "fn-wikipedia-tu95",
         "title": "Tupolev Tu-95",
         "url": "https://en.wikipedia.org/wiki/Tupolev_Tu-95",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for variant names and broad chronology; technical statements were cross-checked against more specialized references where possible."
       },
       {
         "id": "fn-method",
@@ -46138,81 +46206,76 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.fas.org/nuke/guide/russia/bomber/tu-95.htm",
-        "publisher": "fas.org",
-        "note": "External source for Tupolev Tu-95."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.aviation.ru/Tu/95/Tu-95.html",
-        "publisher": "aviation.ru",
-        "note": "External source for Tupolev Tu-95."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.timesonline.co.uk/tol/news/world/europe/article3234607.ece",
-        "publisher": "timesonline.co.uk",
-        "note": "External source for Tupolev Tu-95."
       }
     ],
     "country_flags": [
       {
         "label": "Soviet Union",
         "emoji": "☭"
+      },
+      {
+        "label": "Russia",
+        "emoji": "🇷🇺"
       }
     ],
     "designers": [
       "Tupolev"
     ],
     "development_tensions": [
-      "Balancing payload, range, survivability, sensor/weapons modernization, and operating cost."
+      "Balancing turboprop range and efficiency against speed, survivability, acoustic signature, and modern air-defense threats.",
+      "Separating Tu-95 bomber, Tu-95MS missile-carrier, and Tu-142 maritime-derivative details without overgeneralizing."
     ],
     "wars_used_in": [
       {
-        "name": "Russo-Ukrainian War",
-        "note": "Tupolev Tu-95 used in Russo-Ukrainian War."
+        "name": "Cold War patrols",
+        "note": "Long-range patrol and surveillance encounters near NATO and U.S. forces rather than declared combat."
+      },
+      {
+        "name": "Russian military operations",
+        "note": "Tu-95MS aircraft are publicly associated with standoff cruise-missile launches; exact combat-use details require careful source verification."
       }
     ],
     "variant_families": [
-      "Tupolev Tu-95 baseline production model",
-      "Tupolev Tu-95 upgraded avionics or weapons-capable model"
+      "Tu-95 strategic bomber family",
+      "Tu-95MS / Tu-95MSM cruise-missile carriers",
+      "Tu-142 maritime patrol and communications derivatives",
+      "Tu-114/Tu-116 civil and special passenger derivatives"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
-        "Soviet Union"
+        "Soviet Union",
+        "Russia"
       ],
-      "major_user_note": "Tupolev Tu-95 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Soviet Union was the original operator; Russia remains the principal Tu-95MS operator; India operated related Tu-142 maritime aircraft.",
+      "all_operators_status": "Current bomber operation is primarily Russian in public sources; related-family operators are separated to avoid conflating Tu-142 and Tu-95MS service."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "Cold War NATO intercept photographs and patrol encounters made the Bear one of the most recognizable Soviet aircraft."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "1966 Forrestal-area intercept described by Smithsonian Air & Space; 2007 Russian patrol resumption reported by Airforce Technology; 2010 40-hour patrol-duration report in Airforce Technology."
       ]
     },
     "engine_details": {
       "type": "Turboprop",
-      "summary": "Tupolev Tu-95 uses turboprop propulsion."
+      "summary": "Four Kuznetsov NK-12-family turboprops drive contra-rotating propellers; Tu-95MS references list NK-12MP engines and AV-60N propellers.",
+      "caution": "Power ratings and engine suffixes vary by variant and source."
     },
     "armament_details": {
-      "summary": "Bombs, missiles, and precision-guided weapons.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Tu-95MS is primarily a cruise-missile carrier; public sources list Kh-55-family internal rotary-launcher carriage and later Kh-101-compatible modifications, with some variants retaining tail guns.",
+      "caution": "Do not treat every Tu-95-family aircraft as carrying the same missiles, gun fit, or payload at the same time."
     },
     "similar_development": [
       {
         "id": "b-52-stratofortress",
         "name": "Boeing B-52 Stratofortress",
         "url": "aircraft.html?id=b-52-stratofortress"
+      },
+      {
+        "id": "tu-160",
+        "name": "Tupolev Tu-160 Blackjack",
+        "url": "aircraft.html?id=tu-160"
       },
       {
         "id": "b-1-lancer",
@@ -46223,84 +46286,93 @@
         "id": "b-2-spirit",
         "name": "Northrop Grumman B-2 Spirit",
         "url": "aircraft.html?id=b-2-spirit"
-      },
-      {
-        "id": "su-24",
-        "name": "Sukhoi Su-24",
-        "url": "aircraft.html?id=su-24"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 40,
+      "operator_entries": 3,
+      "variant_entries": 6,
+      "external_article_sources": 5
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-aft-tu95ms",
+        "title": "Tu-95MS Strategic Bomber",
+        "url": "https://www.airforce-technology.com/projects/tu-95ms-strategic-bomber",
+        "publisher": "Airforce Technology",
+        "note": "Used for Tu-95MS design, engine, avionics, payload, modernization, and performance details."
+      },
+      {
+        "id": "fn-aft-tu95bear",
+        "title": "Tu-95 Bear Strategic Intercontinental Bomber",
+        "url": "https://www.airforce-technology.com/projects/tu95bear",
+        "publisher": "Airforce Technology",
+        "note": "Used for Tu-95 family development, dimensions, engine, patrol history, variants, and performance data."
+      },
+      {
+        "id": "fn-skybrary-tu95",
+        "title": "TUPOLEV TU-95",
+        "url": "https://skybrary.aero/aircraft/tu95",
+        "publisher": "SKYbrary Aviation Safety",
+        "note": "Used for aircraft type-code context, first-flight/service summary, dimensions, engine model, cruise data, range, and ceiling."
+      },
+      {
+        "id": "fn-smithsonian-bear",
+        "title": "Eye to Eye with a Bear",
+        "url": "https://www.smithsonianmag.com/air-space-magazine/eye-eye-bear-bomber-180953363/",
+        "publisher": "Smithsonian Air & Space Magazine",
+        "note": "Used for Cold War intercept context, NATO Bear designation, NK-12 contra-rotating propeller description, noise, and surveillance-patrol role."
+      },
+      {
+        "id": "fn-wikipedia-tu95",
         "title": "Tupolev Tu-95",
         "url": "https://en.wikipedia.org/wiki/Tupolev_Tu-95",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for variant names and broad chronology; technical statements were cross-checked against more specialized references where possible."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.fas.org/nuke/guide/russia/bomber/tu-95.htm",
-        "publisher": "fas.org",
-        "note": "External source for Tupolev Tu-95."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.aviation.ru/Tu/95/Tu-95.html",
-        "publisher": "aviation.ru",
-        "note": "External source for Tupolev Tu-95."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.timesonline.co.uk/tol/news/world/europe/article3234607.ece",
-        "publisher": "timesonline.co.uk",
-        "note": "External source for Tupolev Tu-95."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.fas.org/nuke/guide/russia/bomber/tu-95.htm",
-        "publisher": "fas.org",
-        "note": "External source for Tupolev Tu-95."
+        "id": "fn-aft-tu95ms",
+        "title": "Tu-95MS Strategic Bomber",
+        "url": "https://www.airforce-technology.com/projects/tu-95ms-strategic-bomber",
+        "publisher": "Airforce Technology",
+        "note": "Used for Tu-95MS design, engine, avionics, payload, modernization, and performance details."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.aviation.ru/Tu/95/Tu-95.html",
-        "publisher": "aviation.ru",
-        "note": "External source for Tupolev Tu-95."
+        "id": "fn-aft-tu95bear",
+        "title": "Tu-95 Bear Strategic Intercontinental Bomber",
+        "url": "https://www.airforce-technology.com/projects/tu95bear",
+        "publisher": "Airforce Technology",
+        "note": "Used for Tu-95 family development, dimensions, engine, patrol history, variants, and performance data."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.timesonline.co.uk/tol/news/world/europe/article3234607.ece",
-        "publisher": "timesonline.co.uk",
-        "note": "External source for Tupolev Tu-95."
+        "id": "fn-skybrary-tu95",
+        "title": "TUPOLEV TU-95",
+        "url": "https://skybrary.aero/aircraft/tu95",
+        "publisher": "SKYbrary Aviation Safety",
+        "note": "Used for aircraft type-code context, first-flight/service summary, dimensions, engine model, cruise data, range, and ceiling."
+      },
+      {
+        "id": "fn-smithsonian-bear",
+        "title": "Eye to Eye with a Bear",
+        "url": "https://www.smithsonianmag.com/air-space-magazine/eye-eye-bear-bomber-180953363/",
+        "publisher": "Smithsonian Air & Space Magazine",
+        "note": "Used for Cold War intercept context, NATO Bear designation, NK-12 contra-rotating propeller description, noise, and surveillance-patrol role."
+      },
+      {
+        "id": "fn-wikipedia-tu95",
+        "title": "Tupolev Tu-95",
+        "url": "https://en.wikipedia.org/wiki/Tupolev_Tu-95",
+        "publisher": "Wikipedia",
+        "note": "Supplementary orientation source for variant names and broad chronology; technical statements were cross-checked against more specialized references where possible."
       }
     ],
     "article_sections": [
@@ -46309,20 +46381,23 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Tupolev Tu-95 is a Strategic bomber from Soviet Union. Manufacturer: Tupolev. First flight: 1952. Introduction: 1956. Status: Active.",
+            "text": "The Tupolev Tu-95, NATO reporting name Bear, is a Soviet-designed four-engine turboprop strategic bomber and missile carrier. It first flew in 1952 and entered Soviet Long-Range Aviation service in the mid-1950s, then remained in Russian Aerospace Forces service through repeated modernization of the Tu-95MS cruise-missile carrier standard.",
             "refs": [
-              "fn-main"
+              "fn-skybrary-tu95",
+              "fn-aft-tu95ms"
             ]
           },
           {
-            "text": "Tupolev Tu-95 is a bomber. Primary role: strategic bomber. Country of origin: Soviet Union. Manufacturer: Tupolev.",
+            "text": "The aircraft is unusual among strategic bombers because it combines swept wings, very large contra-rotating propellers, long range, and heavy missile payloads instead of pure turbojet or turbofan propulsion. Public sources describe the Tu-95 family as both a strategic bomber and a standoff missile platform, with maritime-patrol Tu-142 derivatives developed from the same basic lineage.",
             "refs": [
-              "fn-wikidata"
+              "fn-aft-tu95bear",
+              "fn-smithsonian-bear"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "For Milipedia comparison, the Tu-95 occupies the same long-range strategic-bomber category as the Boeing B-52, but its turboprop efficiency, Cold War patrol visibility, and current cruise-missile role give it a distinct operating profile.",
             "refs": [
+              "fn-aft-tu95bear",
               "fn-method"
             ]
           }
@@ -46330,74 +46405,135 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Strategic bomber"
+            "text": "Strategic bomber and cruise-missile carrier"
           },
           {
-            "title": "Designer or builder",
-            "text": "Tupolev"
+            "title": "NATO reporting name",
+            "text": "Bear"
           },
           {
-            "title": "Major origin",
-            "text": "Soviet Union"
+            "title": "Current public standard",
+            "text": "Tu-95MS / modernized Tu-95MSM family"
           },
           {
-            "title": "Propulsion",
-            "text": "Turboprop"
+            "title": "Propulsion identity",
+            "text": "Four Kuznetsov NK-12-family turboprops with contra-rotating propellers"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Tupolev Tu-95 first flew in 1952. Introduction date: 1956. Era: Cold War/Modern.",
+            "text": "Tupolev developed the Tu-95 as a long-range intercontinental bomber during the early Cold War. Airforce Technology describes the Bear as originally constructed as a strategic, intercontinental heavy-payload bomber and lists service introduction in 1956.",
             "refs": [
-              "fn-main"
+              "fn-aft-tu95bear"
             ]
           },
           {
-            "text": "Producer: Tupolev. Development context: strategic bomber, turboprop propulsion, subsonic speed category, Cold War/Modern era.",
+            "text": "The design traded the higher top speed of contemporary jet bombers for exceptional range and fuel economy from powerful NK-12 turboprops. Its 35-degree swept wing, large all-metal structure, and counter-rotating propellers gave the aircraft its recognizable shape and sound.",
             "refs": [
-              "fn-wikidata"
+              "fn-aft-tu95ms",
+              "fn-smithsonian-bear"
+            ]
+          },
+          {
+            "text": "The later Tu-95MS was developed as a modernized missile-carrier version based on Tu-142 airframe experience. Airforce Technology states that Tu-95MS serial production ran at Kuibyshev Aircraft Works, now Aviakor in Samara, from 1981 to 1992, with upgraded aircraft delivered to the Russian Air Force in the 2010s.",
+            "refs": [
+              "fn-aft-tu95ms"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing payload, range, survivability, sensor/weapons modernization, and operating cost.",
+            "text": "Early Tu-95 family: strategic nuclear/conventional bomber and reconnaissance-patrol platform during the Cold War.",
             "refs": [
-              "fn-method"
+              "fn-aft-tu95bear",
+              "fn-smithsonian-bear"
+            ]
+          },
+          {
+            "text": "Tu-142 family: maritime-patrol and submarine-communications derivative, not identical to the bomber but developed from the Bear lineage.",
+            "refs": [
+              "fn-aft-tu95bear",
+              "fn-skybrary-tu95"
+            ]
+          },
+          {
+            "text": "Tu-95MS: standoff cruise-missile carrier, publicly associated with Kh-55/Kh-101-family weapons depending on configuration and modernization.",
+            "refs": [
+              "fn-aft-tu95ms"
             ]
           }
         ]
       },
       {
-        "id": "design",
+        "id": "design-capabilities",
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 6-7. Propulsion: Turboprop. Speed category: Subsonic.",
+            "text": "The Tu-95 has a semi-monocoque fuselage, high-aspect-ratio swept wing, retractable tricycle landing gear, and three pressurized compartments. The Tu-95MS data page lists a length of 49.6 m, height of 13.3 m, wingspan of 50.05 m, and maximum takeoff weight of 185 t for that variant.",
             "refs": [
-              "fn-main"
+              "fn-aft-tu95ms"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Propulsion is the defining feature. The Tu-95MS uses four NK-12MP turboprops, each driving an eight-bladed contra-rotating AV-60N propeller. The Smithsonian notes that the propeller tips can rotate at supersonic speed, contributing to the Bear's unusual noise signature.",
             "refs": [
+              "fn-aft-tu95ms",
+              "fn-smithsonian-bear"
+            ]
+          },
+          {
+            "text": "Avionics and self-defense systems vary by model and modernization package. Public Tu-95MS descriptions list navigation/attack radar, celestial and inertial navigation equipment, missile-approach warning, radar-warning receivers, chaff/flare dispensers, and electronic-countermeasures equipment, but exact fits should be treated as variant- and date-dependent.",
+            "refs": [
+              "fn-aft-tu95ms",
               "fn-method"
             ]
           },
           {
-            "text": "Tupolev Tu-95 uses turboprop propulsion. Engine model field: Not listed.",
+            "text": "Armament also depends on variant. The older family could carry bombs and defensive tail guns, while Tu-95MS aircraft are principally associated with air-launched cruise missiles. Public sources list internal rotary launchers for Kh-55 missiles and later compatibility or modification paths for Kh-101-class missiles; live inventory and loadout claims should be treated cautiously.",
             "refs": [
-              "fn-main"
+              "fn-aft-tu95ms",
+              "fn-aft-tu95bear",
+              "fn-method"
             ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Airframe",
+            "text": "Large all-metal, swept-wing strategic bomber with semi-monocoque fuselage"
           },
           {
-            "text": "Armament field: Bombs, missiles, and precision-guided weapons. Exact weapon list: Not listed.",
+            "title": "Crew",
+            "text": "Typically 6-7 depending on variant and mission equipment"
+          },
+          {
+            "title": "Engines",
+            "text": "Four Kuznetsov NK-12-family turboprops"
+          },
+          {
+            "title": "Defensive fit",
+            "text": "Tail cannon on many versions; ECM and warning equipment vary by model"
+          },
+          {
+            "title": "Primary modern weapons",
+            "text": "Standoff cruise missiles rather than direct penetration bombing"
+          }
+        ]
+      },
+      {
+        "id": "specifications",
+        "title": "Specifications",
+        "paragraphs": [
+          {
+            "text": "Specifications below use public Tu-95MS/Tu-95 family figures. Values differ between early Tu-95, Tu-95MS, Tu-142, and modernized aircraft, so Milipedia should treat these as representative rather than universal for every Bear variant.",
             "refs": [
-              "fn-main"
+              "fn-aft-tu95ms",
+              "fn-aft-tu95bear",
+              "fn-method"
             ]
           }
         ],
@@ -46407,84 +46543,44 @@
             "text": "6-7"
           },
           {
-            "title": "Engine class",
-            "text": "Turboprop"
+            "title": "Length",
+            "text": "49.6 m for Tu-95MS; 49.1-49.2 m family figures appear in other public sources"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Wingspan",
+            "text": "About 50.05-51.10 m depending source and variant"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Height",
+            "text": "About 13.3-13.4 m for Tu-95MS/Bear public data"
           },
           {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Tupolev Tu-95 status: Active. Conflict entries: 1.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Maximum takeoff weight",
+            "text": "185,000-188,000 kg in Tu-95MS/Bear public references"
           },
           {
-            "text": "Conflicts: Russo-Ukrainian War.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Russo-Ukrainian War: Tupolev Tu-95 used in Russo-Ukrainian War.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Tupolev Tu-95 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Powerplant",
+            "text": "Four Kuznetsov NK-12-family turboprops"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum speed",
+            "text": "830 km/h for Tu-95MS; older family page lists up to 920 km/h at altitude"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Cruise speed",
+            "text": "550 km/h in Tu-95MS page; SKYbrary lists 435 kt cruise"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Range",
+            "text": "10,500 km Tu-95MS flight range; up to 14,100 km with one refuelling; older family page lists 15,000 km"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "10,500 m for Tu-95MS; 12,000 m/FL410 family figures in other references"
+          },
+          {
+            "title": "Payload",
+            "text": "Up to 20,000 kg maximum payload on Tu-95MS public data"
           }
         ]
       },
@@ -46493,29 +46589,52 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Tupolev Tu-95 variant-family entries: 2. Variant families: Tupolev Tu-95 baseline production model; Tupolev Tu-95 upgraded avionics or weapons-capable model.",
+            "text": "The Bear name covers a broad family, so variant labels can be confusing. The bomber, maritime-patrol, radio-relay, experimental, and airliner derivatives should not be treated as one identical configuration.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
+              "fn-aft-tu95bear",
+              "fn-wikipedia-tu95",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Tupolev Tu-95 baseline production model",
+            "text": "Tu-95 / early Bear series: original strategic bomber family introduced during the 1950s.",
             "refs": [
-              "fn-main"
+              "fn-aft-tu95bear"
             ]
           },
           {
-            "text": "Tupolev Tu-95 upgraded avionics or weapons-capable model",
+            "text": "Tu-95K / missile-carrier families: versions adapted for stand-off missile carriage as Soviet weapons changed.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia-tu95",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Tu-95MS Bear-H: later cruise-missile carrier produced from 1981 to 1992 and modernized in Russian service.",
+            "refs": [
+              "fn-aft-tu95ms"
+            ]
+          },
+          {
+            "text": "Tu-95MSM: modernization label associated with updated mission equipment and newer missile compatibility; public configuration details remain date-sensitive.",
+            "refs": [
+              "fn-aft-tu95ms",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Tu-142 Bear-F/J: maritime patrol, anti-submarine, and submarine-communications derivatives developed from the Tu-95 lineage.",
+            "refs": [
+              "fn-aft-tu95bear",
+              "fn-skybrary-tu95"
+            ]
+          },
+          {
+            "text": "Tu-114 and Tu-116: civil/passenger derivatives from the same design family, separate from the bomber's operational role.",
+            "refs": [
+              "fn-wikipedia-tu95"
             ]
           }
         ]
@@ -46525,57 +46644,232 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Soviet Union. Tupolev Tu-95 has 1 designer or builder country entry.",
+            "text": "Operational records are clearest at the state and service level rather than by exact surviving airframe count. The Soviet Union introduced the aircraft, Russia remains the principal public operator of Tu-95MS bombers, and Indian service was associated with Tu-142 maritime-patrol derivatives rather than Tu-95MS bombers.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
+              "fn-aft-tu95bear",
+              "fn-aft-tu95ms",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Soviet Union — original Long-Range Aviation and naval aviation user before the Soviet dissolution.",
             "refs": [
-              "fn-main"
+              "fn-aft-tu95bear"
             ]
           },
           {
-            "text": "Major designer or builder entries: Soviet Union.",
+            "text": "Russia — current public operator of Tu-95MS/Tu-95MSM strategic missile carriers in Long-Range Aviation service.",
             "refs": [
-              "fn-wikidata"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "specifications",
-        "title": "Specifications",
-        "paragraphs": [
-          {
-            "text": "Comparable fields: crew 6-7, propulsion type Turboprop, maximum speed category Subsonic, first flight 1952, introduction 1956.",
-            "refs": [
-              "fn-main"
+              "fn-aft-tu95ms"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Indian Air Force / Indian Naval Aviation context — Airforce Technology lists Indian operation of Tu-142MK-E Bear-F maritime aircraft; this should not be conflated with Russian Tu-95MS bomber operation.",
             "refs": [
+              "fn-aft-tu95bear",
               "fn-method"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Tupolev Tu-95 similar-development links: 4.",
+            "text": "During the Cold War, Tu-95s were prominent long-range patrol aircraft near NATO and U.S. airspace. Smithsonian Air & Space describes U.S. Navy carrier intercept procedures during a 1966 Mediterranean encounter, illustrating how Bear patrols became routine intelligence and air-defense events rather than simply bomber sorties.",
+            "refs": [
+              "fn-smithsonian-bear"
+            ]
+          },
+          {
+            "text": "Airforce Technology notes that Russia resumed long-range Tu-95 and Tu-160 patrols in 2007 after a long pause. Subsequent public patrol examples include flights over the Arctic, Pacific, Norwegian Sea, Aleutian region, and other routes monitored or intercepted by NATO and partner air forces.",
+            "refs": [
+              "fn-aft-tu95bear",
+              "fn-aft-tu95ms"
+            ]
+          },
+          {
+            "text": "The Tu-95MS has been used as a standoff missile carrier in modern Russian operations. Airforce Technology describes a 2014 tactical flight test in which Tu-95MS aircraft launched precision cruise missiles; later combat-use reporting should be handled carefully because public claims may be incomplete or politically contested.",
+            "refs": [
+              "fn-aft-tu95ms",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Cold War patrols: long-range reconnaissance, bomber presence missions, and electronic-surveillance encounters near NATO naval and air-defense forces.",
+            "refs": [
+              "fn-smithsonian-bear"
+            ]
+          },
+          {
+            "text": "Post-2007 patrol resumption: Russian long-range aviation returned to visible bomber patrol patterns after a gap reported by Airforce Technology.",
+            "refs": [
+              "fn-aft-tu95bear"
+            ]
+          },
+          {
+            "text": "Modern role: standoff cruise-missile platform, with exact sortie counts and missile inventories requiring careful source-by-source verification.",
+            "refs": [
+              "fn-aft-tu95ms",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The Tu-95's main strengths are range, endurance, payload capacity, and the efficiency of its turboprop propulsion. Those characteristics support long patrols and cruise-missile launch missions without requiring the aircraft to penetrate dense modern air defenses.",
+            "refs": [
+              "fn-aft-tu95ms",
+              "fn-aft-tu95bear"
+            ]
+          },
+          {
+            "text": "Its limitations are equally clear: it is not stealthy, is large and noisy, and depends heavily on standoff weapons, electronic self-protection, routing, escorts, and basing arrangements to survive in a modern threat environment. Public speed and ceiling figures also vary by source and variant, so they should not be overgeneralized.",
+            "refs": [
+              "fn-smithsonian-bear",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Strength",
+            "text": "Long range and endurance for patrol and standoff missile missions"
+          },
+          {
+            "title": "Strength",
+            "text": "Large payload and adaptable airframe with decades of modernization"
+          },
+          {
+            "title": "Limitation",
+            "text": "Non-stealthy, acoustically distinctive, and visually recognizable"
+          },
+          {
+            "title": "Limitation",
+            "text": "Variant-sensitive weapons and avionics details are not always public"
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Compared with the Boeing B-52, the Tu-95 is similarly long-lived and built around long-range heavy-bomber missions, but it uses turboprop propulsion rather than eight turbofans. Compared with the Tu-160, it is slower and older but generally associated with endurance and cruise-missile carriage rather than high-speed dash performance.",
+            "refs": [
+              "fn-aft-tu95bear",
+              "fn-aft-tu95ms",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The maritime Tu-142 should be treated as related development rather than a one-for-one bomber equivalent. It shares the Bear lineage but was optimized for patrol, anti-submarine, and communications roles.",
+            "refs": [
+              "fn-aft-tu95bear",
+              "fn-skybrary-tu95"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Boeing B-52 Stratofortress",
+            "url": "aircraft.html?id=b-52-stratofortress"
+          },
+          {
+            "label": "Tupolev Tu-160 Blackjack",
+            "url": "aircraft.html?id=tu-160"
+          },
+          {
+            "label": "Rockwell B-1 Lancer",
+            "url": "aircraft.html?id=b-1-lancer"
+          },
+          {
+            "label": "Northrop Grumman B-2 Spirit",
+            "url": "aircraft.html?id=b-2-spirit"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1952 — Tu-95 first flight according to SKYbrary's type summary.",
+            "refs": [
+              "fn-skybrary-tu95"
+            ]
+          },
+          {
+            "text": "1956 — Tu-95 enters Soviet service in public summaries.",
+            "refs": [
+              "fn-skybrary-tu95",
+              "fn-aft-tu95bear"
+            ]
+          },
+          {
+            "text": "1966 — U.S. Navy carrier aircraft intercept Tu-95 Bear patrols near the carrier Forrestal, an example of Cold War Bear-watch operations.",
+            "refs": [
+              "fn-smithsonian-bear"
+            ]
+          },
+          {
+            "text": "1979 — Tu-95MS prototype first flight according to Airforce Technology.",
+            "refs": [
+              "fn-aft-tu95ms"
+            ]
+          },
+          {
+            "text": "1981-1992 — Tu-95MS serial production at Kuibyshev/Aviakor in Samara.",
+            "refs": [
+              "fn-aft-tu95ms"
+            ]
+          },
+          {
+            "text": "2007 — Russia resumes long-range strategic-bomber patrols involving Tu-95 and Tu-160 aircraft after a reported 15-year gap.",
+            "refs": [
+              "fn-aft-tu95bear"
+            ]
+          },
+          {
+            "text": "2014-2015 — Upgraded Tu-95MS deliveries and public missile-launch testing appear in Russian service reporting.",
+            "refs": [
+              "fn-aft-tu95ms"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "This page uses Airforce Technology for detailed Tu-95/Tu-95MS technical data, SKYbrary for independent type summary and dimensional checks, Smithsonian Air & Space for Cold War intercept context, and Wikipedia only as supplementary orientation for family naming. Exact aircraft counts, current base assignments, missile inventories, and combat-use claims should be rechecked against contemporary official or specialist sources before adding finer detail.",
+            "refs": [
+              "fn-aft-tu95ms",
+              "fn-aft-tu95bear",
+              "fn-skybrary-tu95",
+              "fn-smithsonian-bear",
+              "fn-wikipedia-tu95",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia aircraft emphasize strategic-bomber role comparisons and later Soviet/Russian bomber development.",
             "refs": [
               "fn-method"
             ]
@@ -46587,16 +46881,16 @@
             "url": "aircraft.html?id=b-52-stratofortress"
           },
           {
+            "label": "Tupolev Tu-160 Blackjack",
+            "url": "aircraft.html?id=tu-160"
+          },
+          {
             "label": "Rockwell B-1 Lancer",
             "url": "aircraft.html?id=b-1-lancer"
           },
           {
             "label": "Northrop Grumman B-2 Spirit",
             "url": "aircraft.html?id=b-2-spirit"
-          },
-          {
-            "label": "Sukhoi Su-24",
-            "url": "aircraft.html?id=su-24"
           }
         ]
       }

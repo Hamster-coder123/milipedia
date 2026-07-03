@@ -4929,3 +4929,77 @@ Record the result of:
 
 * BAE Systems product pages were difficult to extract directly in this environment, so manufacturer claims were used conservatively and cross-checked against RAF data where exact specifications were included.
 * Exact global fleet totals, retirement status by country, and weapons fits are date-sensitive and variant-specific; the article intentionally uses cautious representative wording rather than exhaustive tables.
+
+### Run 65 — 2026-07-03 07:02:36 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Tupolev Tu-95 (id: tu-95)
+* Reason selected: It was the shortest unedited aircraft candidate in the current sparse-candidate scan and was much less complete than the F-16 reference page, with generated prose, no operators, no variant entries, missing specifications, and stale generic external sources.
+* Previous condition: Placeholder-like generated entry with 15 exact fact fields, 0 operator entries, 0 variant entries, broad "Not listed" specifications, generic armament wording, and article sections that reported counts rather than explaining the aircraft.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview; development/design/specifications/variants/operators/operational-history/strengths/comparison/timeline/source/related-pages ordering; concise technical paragraphs with refs; card-based specification summaries supported by the JSON renderer; internal aircraft links using aircraft.html?id=...
+
+#### Changes Made
+
+* Expanded the Tupolev Tu-95 entry from a generated stub into a fuller Milipedia article data record.
+* Added NATO reporting name, alternative names, refined role/status wording, Tu-95MS/Tu-95-family first-flight context, NK-12 engine details, range/ceiling/speed caveats, and variant-sensitive armament wording.
+* Replaced stale/generated source entries with Airforce Technology Tu-95MS and Tu-95 Bear pages, SKYbrary, Smithsonian Air & Space, a supplementary Wikipedia orientation source, and the local Milipedia accuracy rules reference.
+* Added sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Comparison, Timeline, Sources and Notes, and Related Pages.
+* Added variant coverage for early Tu-95, missile-carrier families, Tu-95MS, Tu-95MSM, Tu-142, and Tu-114/Tu-116 related derivatives.
+* Added operator coverage for the Soviet Union, Russia, and India as a related Tu-142 operator while explicitly avoiding conflation with Tu-95MS bomber operation.
+* Added internal related-page links to B-52, Tu-160, B-1, and B-2 entries.
+* Cleaned generated metadata including operator summary, development tensions, notable events, engine details, armament details, and event gallery.
+* Omitted or caveated exact current fleet counts, live missile inventories, and combat-use claims where public data is date-sensitive or politically contested.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Tupolev Tu-95 aircraft record and its sources/sections/metadata.
+* hermes-change-log.md — Appended the cumulative Run 65 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Confirmed branch hermes-agent with only data/aircraft.json and hermes-change-log.md modified before staging.
+2. git diff — Reviewed diff/stat; data/aircraft.json changed only the tu-95 aircraft entry, and hermes-change-log.md only appended this run entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the Tu-95 entry section list, sources, variants, operators, armament caveats, and article-quality counts.
+4. F-16 style comparison — Inspected data/f16-template.html and followed its dense lead, section order, technical card/specification style, source notes, comparison, timeline, and related-page pattern within JSON-rendered article constraints.
+5. Internal link check — Recursively checked Tu-95 aircraft.html?id=... links; B-52, Tu-160, B-1, and B-2 IDs all exist in data/aircraft.json.
+6. Secret/token check — Ran a credential-pattern scan over the staged diff; no credentials, access/auth tokens, passwords, or private-key material were found.
+7. Final review before commit — Confirmed branch, JSON validity, single-entry aircraft change, intended files only, diff-check clean, internal links valid, and change log complete before commit.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Tupolev Tu-95
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Exact current fleet counts, live base assignments, missile inventories, and combat-use claims are date-sensitive; this run used cautious wording and omitted unsupported fine detail.
+* Airforce Technology lists differing Tu-95MS and broader Tu-95-family performance figures; the page records both as representative variant-specific public values rather than a single universal number.
