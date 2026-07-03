@@ -4696,3 +4696,82 @@ Record the result of:
 * AH-1G, AH-1S, AH-1E, AH-1F, and twin-engine Marine Cobra derivatives differ substantially; the article uses representative single-engine AH-1 data and explicitly caveats variant-dependent specifications.
 * Exact current export inventories, operator-specific retirement dates, and all national weapon clearances were omitted because cited public sources are date-sensitive or variant-specific.
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+
+### Run 62 — 2026-07-03 04:02:26 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Hawker Siddeley Harrier (id: harrier)
+* Reason selected: The Harrier entry was the sparsest unedited non-reference aircraft page found after comparing aircraft data against the F-16 reference style; it had no operators, no real variants, no dimensions, no range or ceiling data, only two weak external sources, and placeholder-style article sections.
+* Previous condition: Sparse generated page with 15 exact fact fields, 0 operator entries, 0 variant entries, missing Pegasus/V/STOL technical explanation, no GR.1/GR.3/AV-8/Matador family coverage, incorrect/overbroad conflict references, generic armament wording, and an empty specifications section.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview lead, section order from overview through development/design/service/specifications/variants/operators/comparison/timeline/sources/related pages, concise sourced paragraphs, card-style specification blocks, cautious variant-specific wording, internal aircraft.html?id=... link style, and explicit source notes.
+
+#### Changes Made
+
+* Expanded the Hawker Siddeley Harrier entry from a sparse generated record into a fuller Milipedia article data record.
+* Updated top-level facts for alternative names, manufacturer, role, aircraft type, first flight/service entry wording, retirement/status, production caveat, crew, Pegasus engine details, speed, range, combat radius, ceiling, armament, hardpoints, carrier capability, and summary text.
+* Added sourced development history explaining the P.1127/Kestrel lineage, cancellation context for more ambitious VTOL concepts, RAF dispersed-basing doctrine, GR.3 upgrades, and export/derivative paths.
+* Added design and capability coverage for the Pegasus vectored-thrust engine, nozzle system, short/vertical takeoff trade-offs, ADEN cannon pods, pylons, Sidewinder/rocket/bomb/reconnaissance/drop-tank loadout caveats, and austere/site operations.
+* Added operational-history coverage for RAF Germany dispersed operations, Norway/Belize deployments, Falklands War GR.3 service from HMS Hermes and rough strips, USMC AV-8A/C expeditionary use, and Spanish/Thai Matador naval service.
+* Added variant entries for GR.1/GR.1A, GR.3, T.2/T.4 trainers, AV-8A, AV-8C, AV-8S/TAV-8S Matador, Sea Harrier, and Harrier II/AV-8B as a related successor.
+* Added operator entries for the Royal Air Force, U.S. Marine Corps, Spanish Navy, Royal Thai Navy, and Royal Navy-associated training/evaluation communities with caveats about related Sea Harrier/Harrier II families.
+* Added representative GR.3 specification cards for dimensions, weights, Pegasus powerplant, speed, range, ferry range, ceiling, and stores.
+* Added comparison, strengths/limitations, timeline, sources/notes, and related-pages sections to better match F-16 article density within the JSON-rendered page system.
+* Replaced misleading generated Kosovo/Libya event-gallery entries with first-generation Harrier imagery and removed stale similar-development links in favor of A-4, A-7, Yak-38, F-35, and F-4 links.
+* Added/updated source metadata using the Royal Air Force Museum Harrier GR3 page, Flugzeuginfo technical data, Wikipedia as supplementary orientation, and Milipedia data accuracy rules.
+* Omitted exact aircraft-by-aircraft loss tables, current-service claims, and detailed weapons-clearance tables because they vary by mark, operator, date, and public-source reliability.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Hawker Siddeley Harrier aircraft entry and corrected its stale generated conflict/related-page metadata.
+* hermes-change-log.md — Appended the cumulative Run 62 log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed the aircraft diff and confirmed the JSON change is limited to the Harrier entry plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed Harrier top-level facts, sections, variants, operators, footnotes, event gallery, and source metadata.
+4. F-16 style comparison — Inspected data/f16-template.html and followed its dense overview, section ordering, specification-card emphasis, sources, comparison, timeline, and related-page patterns within the data-driven article format.
+5. Internal link check — Verified aircraft.html?id=a-4-skyhawk, aircraft.html?id=a-7-corsair-ii, aircraft.html?id=yak-38, aircraft.html?id=f-35-lightning-ii, and aircraft.html?id=f-4-phantom-ii resolve to existing aircraft ids; external source/image links were left as external references.
+6. Secret/token check — Ran a credential-specific scan over the staged diff for private keys, passwords, cloud credential names, and access/auth token patterns; no credentials were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, one-aircraft-entry change, intended files only, no main-branch edit, completed change log, and clean diff formatting.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Hawker Siddeley Harrier
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* The Royal Air Force Museum official page provided strong role and service context but limited numeric specifications, so representative GR.3 technical numbers were cross-checked with Flugzeuginfo and Wikipedia and phrased as variant-specific public data.
+* Sea Harrier and Harrier II are closely related but distinct; the page now treats them as related developments rather than collapsing their operators and combat records into the first-generation Harrier baseline.
+* Exact loadouts, loss counts, and operator serviceability details were intentionally not made into fixed tables because they vary by source, date, mark, and operating conditions.
+* Commit hash cannot be embedded in the committed change log without changing the hash again; the final hash is reported in the scheduled-run response.

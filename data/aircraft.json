@@ -58028,35 +58028,100 @@
   {
     "id": "harrier",
     "name": "Hawker Siddeley Harrier",
-    "alternative_names": [],
+    "alternative_names": [
+      "Harrier GR.1",
+      "Harrier GR.3",
+      "AV-8A Harrier",
+      "AV-8S Matador",
+      "Harrier Jump Jet"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United Kingdom",
-    "manufacturer": "Hawker Siddeley",
-    "role": "V/STOL attack aircraft",
-    "aircraft_type": "Attack aircraft",
+    "manufacturer": "Hawker Siddeley / British Aerospace",
+    "role": "V/STOL ground-attack and reconnaissance aircraft",
+    "aircraft_type": "First-generation V/STOL attack aircraft",
     "era": "Cold War",
-    "first_flight": "1967",
-    "introduction_date": "1969",
-    "retirement_date": "Not listed",
-    "status": "Retired",
-    "number_built": "Not listed",
-    "crew": "1",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
-    "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Hawker Siddeley Harrier: V/STOL attack aircraft. Manufacturer: Hawker Siddeley. First flight: 1967. Introduction: 1969.",
-    "short_summary": "Hawker Siddeley Harrier: V/STOL attack aircraft. Origin: United Kingdom. Manufacturer: Hawker Siddeley. First flight: 1967. Introduction: 1969. Status: Retired.",
-    "carrier_capable": false,
+    "first_flight": "28 December 1967 for the Harrier GR.1 production aircraft; P.1127 prototype flew in 1960",
+    "introduction_date": "1969 with the Royal Air Force",
+    "retirement_date": "First-generation RAF/USMC/Spanish/Thai Harriers retired by operator; later Harrier II family retired separately by the UK in 2010",
+    "status": "Retired from first-generation military service",
+    "number_built": "About 300 first-generation Harrier/AV-8/Matador aircraft; production totals vary by inclusion of trainers and export marks",
+    "crew": "1 for single-seat attack variants; 2 for trainer variants",
+    "engine_type": "Vectored-thrust turbofan",
+    "engines": "1 × Rolls-Royce Pegasus vectored-thrust turbofan; GR.3 commonly cited with Pegasus 103/Pegasus 11 Mk 103 class engine",
+    "max_speed": "About 635 kt / 731 mph / 1,176 km/h at sea level for Harrier GR.3 data",
+    "speed_category": "High-subsonic",
+    "range": "About 360 nmi combat radius with payload in representative GR.3 data; ferry range could exceed 1,800 nmi with drop tanks",
+    "combat_range": "About 360 nmi ho-lo-hi with 4,400 lb payload in commonly cited GR.3 figures; mission radius varied strongly with stores, takeoff mode, and tanking",
+    "service_ceiling": "About 51,200 ft for representative Harrier GR.3 data",
+    "rate_of_climb": "Public figures vary; GR.3 data emphasize rapid climb and short/vertical takeoff rather than a single universal climb-rate number",
+    "armament": "Two 30 mm ADEN cannon pods on many attack variants plus up to about 5,000 lb of stores on five pylons; typical stores included bombs, rockets, AIM-9 Sidewinder when wired, reconnaissance pods, and drop tanks, varying by variant and operator.",
+    "hardpoints": "Four under-wing stations plus one under-fuselage pylon station on representative GR.3 data; loadout depended on takeoff profile and mission.",
+    "variants": [
+      {
+        "name": "Harrier GR.1 / GR.1A",
+        "note": "Initial RAF single-seat attack versions that brought the V/STOL Harrier into service from 1969; the GR.1A introduced improved Pegasus power."
+      },
+      {
+        "name": "Harrier GR.3",
+        "note": "Improved RAF attack/reconnaissance version with better attack sensors, electronic countermeasures, and more powerful Pegasus engine; the main Falklands War RAF Harrier variant."
+      },
+      {
+        "name": "Harrier T.2 / T.2A / T.4 / T.4A",
+        "note": "Two-seat RAF training variants with stretched forward fuselage and revised fin arrangements for conversion and operational training."
+      },
+      {
+        "name": "AV-8A Harrier",
+        "note": "U.S. Marine Corps single-seat export version derived from the first-generation Harrier, used for close support and expeditionary ship/shore basing."
+      },
+      {
+        "name": "AV-8C Harrier",
+        "note": "Service-life and equipment upgrade for remaining USMC AV-8As before replacement by the AV-8B Harrier II."
+      },
+      {
+        "name": "AV-8S / TAV-8S Matador",
+        "note": "Spanish Navy single-seat and two-seat first-generation Harriers later transferred in part to Thailand."
+      },
+      {
+        "name": "Sea Harrier",
+        "note": "Carrier-focused naval derivative with radar and fleet air-defence changes; closely related but distinct enough to treat separately from the RAF GR.1/GR.3 baseline."
+      },
+      {
+        "name": "Harrier II / AV-8B",
+        "note": "Second-generation development by British Aerospace and McDonnell Douglas with a larger composite wing and revised systems; related successor rather than the same first-generation airframe."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United Kingdom",
+        "service": "Royal Air Force",
+        "note": "Original operator of the Harrier GR.1/GR.3 for close air support, reconnaissance, RAF Germany dispersed operations, Belize/Norway deployments, and Falklands War service from HMS Hermes and ashore."
+      },
+      {
+        "country": "United States",
+        "service": "United States Marine Corps",
+        "note": "Operated AV-8A and AV-8C first-generation Harriers from expeditionary forward bases and amphibious ships before replacing them with AV-8B Harrier II aircraft."
+      },
+      {
+        "country": "Spain",
+        "service": "Spanish Navy",
+        "note": "Operated AV-8S/TAV-8S Matador aircraft from the carrier Dédalo; later sold surviving first-generation aircraft to Thailand."
+      },
+      {
+        "country": "Thailand",
+        "service": "Royal Thai Navy",
+        "note": "Operated ex-Spanish AV-8S/TAV-8S Matadors from HTMS Chakri Naruebet, but serviceability and budget limits curtailed use before retirement."
+      },
+      {
+        "country": "United Kingdom",
+        "service": "Royal Navy training and evaluation communities",
+        "note": "Used related two-seat trainer variants and developed the Sea Harrier from the first-generation Harrier family for fleet air defence."
+      }
+    ],
+    "combat_history": "RAF Harrier GR.3s flew attack and close-support missions in the 1982 Falklands War after rapid modifications for carrier deployment from HMS Hermes; first-generation Harriers otherwise served mainly in deterrent, expeditionary, training, and dispersed-basing roles rather than frequent combat.",
+    "development_history": "The Harrier grew from the Hawker P.1127/Kestrel V/STOL experiments after British supersonic VTOL plans such as P.1154 did not reach service. Hawker Siddeley turned the vectored-thrust Pegasus concept into the GR.1 and GR.3, making the aircraft useful for dispersed close support from rough strips and ships.",
+    "short_summary": "The Hawker Siddeley Harrier was the first operational vertical/short takeoff and landing jet attack aircraft, combining a single vectored-thrust Pegasus engine with a compact ground-attack airframe. It served with the RAF, US Marine Corps, Spanish Navy, Royal Navy-related trainer communities, and Royal Thai Navy, and proved the military value and limitations of first-generation V/STOL combat jets.",
+    "carrier_capable": true,
     "stealth": false,
     "images": [
       {
@@ -58067,41 +58132,10 @@
       }
     ],
     "sources": [
-      {
-        "id": "fn-main",
-        "title": "Hawker Siddeley Harrier",
-        "url": "https://en.wikipedia.org/wiki/Hawker_Siddeley_Harrier",
-        "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
-      },
-      {
-        "id": "fn-method",
-        "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
-        "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.naval-history.net/F63braircraftlost.htm",
-        "publisher": "naval-history.net",
-        "note": "External source for Hawker Siddeley Harrier."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.harrier.org.uk/",
-        "publisher": "harrier.org.uk",
-        "note": "External source for Hawker Siddeley Harrier."
-      }
+      "Royal Air Force Museum collection page for Hawker Siddeley Harrier GR3 XZ997",
+      "Hawker Siddeley Harrier article and cited public reference trail",
+      "Flugzeuginfo technical data page for Harrier GR.1/GR.3",
+      "Milipedia data accuracy rules for cautious sourced wording"
     ],
     "country_flags": [
       {
@@ -58112,89 +58146,83 @@
     "designers": [
       "Hawker Siddeley"
     ],
-    "development_tensions": [],
+    "development_tensions": [
+      "Achieving vertical/short takeoff without excessive mechanical complexity or multiple lift engines.",
+      "Balancing fuel, payload, and hover performance in a compact attack aircraft.",
+      "Adapting a land-based close-support aircraft for shipboard and expeditionary operations.",
+      "Managing accident rates, maintenance demands, and range limits inherent to early V/STOL operations."
+    ],
     "wars_used_in": [
-      {
-        "name": "Kosovo War",
-        "note": "Hawker Siddeley Harrier used in Kosovo War."
-      },
-      {
-        "name": "2011 military intervention in Libya",
-        "note": "Hawker Siddeley Harrier used in 2011 military intervention in Libya."
-      }
+      "Falklands War",
+      "Belize deterrent deployments",
+      "Cold War RAF Germany dispersed-base exercises",
+      "Spanish and Thai naval carrier operations; combat use was limited outside British service"
     ],
     "variant_families": [
-      "Hawker Siddeley Harrier baseline production model",
-      "Hawker Siddeley Harrier upgraded avionics or weapons-capable model",
-      "Hawker Siddeley Harrier export or locally modernized model"
+      "Harrier GR.1/GR.1A/GR.3 RAF attack variants",
+      "T.2/T.4 trainer variants",
+      "AV-8A/AV-8C U.S. Marine Corps variants",
+      "AV-8S/TAV-8S Matador Spanish and Thai naval variants",
+      "Sea Harrier and Harrier II related developments outside the original first-generation family"
     ],
-    "operator_summary": {
-      "major_designer_or_builder": [
-        "United Kingdom"
-      ],
-      "major_user_note": "Hawker Siddeley Harrier has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
-    },
-    "notable": {
-      "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
-      ],
-      "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
-      ]
-    },
-    "engine_details": {
-      "type": "Jet",
-      "summary": "Hawker Siddeley Harrier uses jet propulsion."
-    },
-    "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
-    },
+    "operator_summary": "Primary first-generation operators included the Royal Air Force, United States Marine Corps, Spanish Navy, and Royal Thai Navy; Royal Navy-associated trainer variants and later Sea Harriers/Harrier IIs are related but should not be collapsed into the same baseline aircraft.",
+    "notable": "Harrier GR.3s deployed from HMS Hermes during the 1982 Falklands War for close air support and attack missions, while Sea Harriers handled much of the fleet air-defence task. The type also made dispersed basing and small-deck fixed-wing operations a practical reality, though with range, payload, and maintenance trade-offs.",
+    "engine_details": "The Pegasus engine used four swivelling nozzles to vector thrust for vertical lift, short rolling takeoffs, transitions, and conventional flight. Water injection and careful weight management were important for hot/high or heavy V/STOL operations.",
+    "armament_details": "Public Harrier GR.3 references list ADEN cannon pods, bombs, BL755 cluster bombs, SNEB rocket pods, Sidewinder carriage on suitably wired stations, reconnaissance pods, and drop tanks. Individual loads depended on service, aircraft mark, pylon wiring, runway/deck mode, and mission profile.",
     "similar_development": [
-      {
-        "id": "f-105-thunderchief",
-        "name": "Republic F-105 Thunderchief",
-        "url": "aircraft.html?id=f-105-thunderchief"
-      },
       {
         "id": "a-4-skyhawk",
         "name": "Douglas A-4 Skyhawk",
         "url": "aircraft.html?id=a-4-skyhawk"
       },
       {
-        "id": "a-6-intruder",
-        "name": "Grumman A-6 Intruder",
-        "url": "aircraft.html?id=a-6-intruder"
-      },
-      {
         "id": "a-7-corsair-ii",
         "name": "LTV A-7 Corsair II",
         "url": "aircraft.html?id=a-7-corsair-ii"
+      },
+      {
+        "id": "yak-38",
+        "name": "Yakovlev Yak-38",
+        "url": "aircraft.html?id=yak-38"
+      },
+      {
+        "id": "f-35-lightning-ii",
+        "name": "Lockheed Martin F-35 Lightning II",
+        "url": "aircraft.html?id=f-35-lightning-ii"
+      },
+      {
+        "id": "f-4-phantom-ii",
+        "name": "McDonnell Douglas F-4 Phantom II",
+        "url": "aircraft.html?id=f-4-phantom-ii"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 2
+      "exact_fact_count": 35,
+      "operator_entries": 5,
+      "variant_entries": 8,
+      "external_article_sources": 3
     },
     "footnotes": [
+      {
+        "id": "fn-rafmuseum",
+        "title": "Hawker Siddeley Harrier GR3",
+        "url": "https://www.rafmuseum.org.uk/research/collections/hawker-siddeley-harrier-gr3",
+        "publisher": "Royal Air Force Museum",
+        "note": "Museum collection page used for GR.3 role, GR.1-to-GR.3 development, improved sensors/ECM/powerplant, dispersed basing concept, Falklands War operations, and Belize/Norway service context."
+      },
       {
         "id": "fn-main",
         "title": "Hawker Siddeley Harrier",
         "url": "https://en.wikipedia.org/wiki/Hawker_Siddeley_Harrier",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "note": "Supplementary orientation source for first flight, service entry, variants, operators, Falklands overview, and GR.3 specification tables; public facts cross-checked against museum/technical references where possible."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "id": "fn-flugzeug",
+        "title": "Hawker Siddeley / British Aerospace Harrier GR.1/GR.3",
+        "url": "http://www.flugzeuginfo.net/acdata_php/acdata_harrier_en.php",
+        "publisher": "Flugzeuginfo.net",
+        "note": "Technical data reference for representative GR.3 dimensions, Pegasus 11 Mk.103 thrust, speed, range, ceiling, weights, and variant list."
       },
       {
         "id": "fn-method",
@@ -58202,36 +58230,23 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.naval-history.net/F63braircraftlost.htm",
-        "publisher": "naval-history.net",
-        "note": "External source for Hawker Siddeley Harrier."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.harrier.org.uk/",
-        "publisher": "harrier.org.uk",
-        "note": "External source for Hawker Siddeley Harrier."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.naval-history.net/F63braircraftlost.htm",
-        "publisher": "naval-history.net",
-        "note": "External source for Hawker Siddeley Harrier."
+        "title": "Hawker Siddeley Harrier GR3",
+        "url": "https://www.rafmuseum.org.uk/research/collections/hawker-siddeley-harrier-gr3",
+        "publisher": "Royal Air Force Museum"
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.harrier.org.uk/",
-        "publisher": "harrier.org.uk",
-        "note": "External source for Hawker Siddeley Harrier."
+        "title": "Hawker Siddeley / British Aerospace Harrier GR.1/GR.3",
+        "url": "http://www.flugzeuginfo.net/acdata_php/acdata_harrier_en.php",
+        "publisher": "Flugzeuginfo.net"
+      },
+      {
+        "title": "Hawker Siddeley Harrier",
+        "url": "https://en.wikipedia.org/wiki/Hawker_Siddeley_Harrier",
+        "publisher": "Wikipedia"
       }
     ],
     "article_sections": [
@@ -58240,20 +58255,23 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Hawker Siddeley Harrier is a V/STOL attack aircraft from United Kingdom. Manufacturer: Hawker Siddeley. First flight: 1967. Introduction: 1969. Status: Retired.",
+            "text": "The Hawker Siddeley Harrier was the first operational jet aircraft able to combine practical vertical/short takeoff and landing with a front-line attack role. Its single Rolls-Royce Pegasus vectored-thrust turbofan let the aircraft operate from short strips, road bases, hides, and small ships rather than depending only on long concrete runways.",
             "refs": [
+              "fn-rafmuseum",
               "fn-main"
             ]
           },
           {
-            "text": "Hawker Siddeley Harrier is a attack aircraft. Primary role: v/stol attack aircraft. Country of origin: United Kingdom. Manufacturer: Hawker Siddeley.",
+            "text": "The original RAF Harrier GR.1 entered service in 1969, and the later GR.3 added improved attack sensors, electronic countermeasures, and more power. Export and service variants included the U.S. Marine Corps AV-8A/AV-8C and the Spanish AV-8S Matador, while the Sea Harrier and Harrier II carried the concept into more specialized naval and second-generation forms.",
             "refs": [
-              "fn-wikidata"
+              "fn-rafmuseum",
+              "fn-main"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Public Harrier data is often variant-specific. This page uses the GR.3 as the main specification baseline because it is the most commonly documented first-generation combat standard, while noting where USMC, Spanish, Thai, trainer, Sea Harrier, or Harrier II details differ.",
             "refs": [
+              "fn-flugzeug",
               "fn-method"
             ]
           }
@@ -58261,90 +58279,122 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "V/STOL attack aircraft"
+            "text": "V/STOL ground attack, close support, and tactical reconnaissance"
           },
           {
-            "title": "Designer or builder",
-            "text": "Hawker Siddeley"
+            "title": "Manufacturer",
+            "text": "Hawker Siddeley; later British Aerospace support and production context"
           },
           {
-            "title": "Major origin",
+            "title": "Origin",
             "text": "United Kingdom"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "First RAF service",
+            "text": "1969"
+          },
+          {
+            "title": "Key innovation",
+            "text": "Single Pegasus engine with four swivelling vectoring nozzles"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Hawker Siddeley Harrier first flew in 1967. Introduction date: 1969. Era: Cold War.",
+            "text": "The Harrier lineage began with Hawker P.1127/Kestrel V/STOL experiments, which showed that a single vectored-thrust turbofan could lift and propel a combat aircraft without resorting to many separate lift engines. After more ambitious supersonic V/STOL concepts failed to enter service, Hawker Siddeley refined the subsonic attack-aircraft approach into the Harrier GR.1.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Producer: Hawker Siddeley. Development context: v/stol attack aircraft, jet propulsion, subsonic speed category, Cold War era.",
+            "text": "The RAF requirement emphasized survivability through dispersal. In a European war, conventional airfields were expected to be high-priority targets, so the Harrier was designed to fly from short, rough strips and camouflaged operating sites close to army formations.",
             "refs": [
-              "fn-wikidata"
+              "fn-rafmuseum"
+            ]
+          },
+          {
+            "text": "The GR.3 upgrade improved the first-generation RAF aircraft with attack sensors, electronic countermeasures, and a more powerful Pegasus engine. Export interest then created U.S., Spanish, and Thai service paths, while naval experience led to the radar-equipped Sea Harrier and, later, the larger Harrier II family.",
+            "refs": [
+              "fn-rafmuseum",
+              "fn-main"
             ]
           }
         ],
-        "bullets": []
+        "bullets": [
+          {
+            "text": "P.1127 and Kestrel testing proved vectored-thrust V/STOL control before the production Harrier order.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "GR.1 production aircraft first flew in 1967 and entered RAF service in 1969.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "GR.3 improvements focused on attack sensors, ECM, and more engine power rather than turning the aircraft into a supersonic fighter.",
+            "refs": [
+              "fn-rafmuseum"
+            ]
+          },
+          {
+            "text": "The Harrier concept traded range and payload for basing flexibility, short reaction time, and independence from large air bases.",
+            "refs": [
+              "fn-rafmuseum",
+              "fn-method"
+            ]
+          }
+        ]
       },
       {
         "id": "design",
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Subsonic.",
+            "text": "The Harrier used a compact shoulder-wing airframe around the Pegasus engine. Four swivelling nozzles directed exhaust for vertical lift, short rolling takeoffs, transition to wing-borne flight, and conventional cruise. Reaction-control jets helped the pilot control the aircraft at very low speeds and in hover.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "For attack missions the aircraft could carry ADEN gun pods, bombs, rockets, Sidewinders when wired for the mission, reconnaissance pods, and drop tanks. Because V/STOL performance depends heavily on aircraft weight, temperature, altitude, and launch mode, a maximum weapons list should not be read as every-store-at-once combat capability.",
             "refs": [
+              "fn-flugzeug",
               "fn-method"
             ]
           },
           {
-            "text": "Hawker Siddeley Harrier uses jet propulsion. Engine model field: Not listed.",
+            "text": "The RAF Museum emphasizes the practical military value of the aircraft’s simplicity and flexibility: Harriers in Germany could be hidden away from vulnerable fixed bases, and Falklands War GR.3s could continue operating from ships and austere landing strips in conditions that would have constrained conventional aircraft.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-rafmuseum"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "1"
+            "text": "1 in GR.1/GR.3/AV-8A/AV-8S; 2 in trainer variants"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Engine",
+            "text": "1 × Rolls-Royce Pegasus vectored-thrust turbofan"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Representative thrust",
+            "text": "About 21,500 lbf / 95.6 kN for Pegasus 11 Mk.103 / Pegasus 103 class GR.3 data"
+          },
+          {
+            "title": "Takeoff modes",
+            "text": "Vertical, short rolling, ski-jump/shipboard in adapted operations, and conventional"
           },
           {
             "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "text": "Yes, with variant/operator-specific shipboard equipment and procedures"
           }
         ]
       },
@@ -58353,27 +58403,47 @@
         "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Hawker Siddeley Harrier status: Retired. Conflict entries: 2.",
+            "text": "RAF Harriers served in the close air support and tactical reconnaissance role, especially with RAF Germany where dispersed operating sites were central to the concept. The RAF Museum notes service in Germany, Norway, Belize, and the Falklands, illustrating that the aircraft was valued as much for flexible deployment as for raw performance.",
             "refs": [
+              "fn-rafmuseum"
+            ]
+          },
+          {
+            "text": "During the Falklands War, RAF Harrier GR.3s deployed aboard HMS Hermes and later from basic island strips. They were used mainly for ground attack and close support, while Sea Harriers normally carried the air-defence burden; GR.3s were nevertheless adapted for certain shipboard and emergency air-defence tasks.",
+            "refs": [
+              "fn-rafmuseum",
               "fn-main"
             ]
           },
           {
-            "text": "Conflicts: Kosovo War, 2011 military intervention in Libya.",
+            "text": "The USMC used AV-8A/C aircraft to develop expeditionary fixed-wing operations from amphibious ships and forward sites. Spain and Thailand used the AV-8S Matador in naval service, though Thailand’s later operations were limited by support and serviceability constraints.",
             "refs": [
-              "fn-method"
+              "fn-main"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Kosovo War: Hawker Siddeley Harrier used in Kosovo War.",
+            "text": "RAF Germany: dispersed hides and short rough strips formed the aircraft’s core Cold War employment concept.",
+            "refs": [
+              "fn-rafmuseum"
+            ]
+          },
+          {
+            "text": "Falklands War: GR.3s flew attack sorties from HMS Hermes and austere landing areas, with losses and modifications reflecting the difficulty of adapting a land-attack aircraft to a maritime war.",
+            "refs": [
+              "fn-rafmuseum",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "USMC service: first-generation Harriers established practical ship/shore expeditionary patterns before replacement by the AV-8B.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "2011 military intervention in Libya: Hawker Siddeley Harrier used in 2011 military intervention in Libya.",
+            "text": "Spanish and Thai service: AV-8S Matadors showed the attraction of small-carrier fixed-wing aviation, but also the sustainment burden of a niche V/STOL fleet.",
             "refs": [
               "fn-main"
             ]
@@ -58382,38 +58452,41 @@
       },
       {
         "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
+        "title": "Notable Aircraft, Pilots, and Events",
         "paragraphs": [
           {
-            "text": "Hawker Siddeley Harrier named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
+            "text": "Harrier GR.3 XZ997, preserved by the Royal Air Force Museum, represents the improved RAF attack/reconnaissance standard. The museum describes the GR.3 as fitted with improved attack sensors, electronic countermeasures, and a more powerful engine over the GR.1.",
             "refs": [
-              "fn-main"
+              "fn-rafmuseum"
+            ]
+          },
+          {
+            "text": "The Falklands deployment became the first-generation Harrier’s defining combat episode. Ten RAF GR.3s embarked in the task force, required rapid maritime modifications, and operated in harsh South Atlantic conditions from carrier and shore bases.",
+            "refs": [
+              "fn-main",
+              "fn-rafmuseum"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Named pilots listed: 0.",
+            "text": "First operational jet V/STOL attack aircraft, making the “jump jet” idea a deployable military system rather than a demonstrator.",
             "refs": [
-              "fn-method"
+              "fn-rafmuseum",
+              "fn-main"
             ]
           },
           {
-            "text": "Named individual aircraft listed: 0.",
+            "text": "Falklands War sorties from HMS Hermes and rough island strips demonstrated both the value and vulnerability of short-deck/expeditionary fixed-wing operations.",
             "refs": [
-              "fn-method"
+              "fn-rafmuseum",
+              "fn-main"
             ]
           },
           {
-            "text": "Notable incidents listed: 0.",
+            "text": "Influenced later Sea Harrier, British Aerospace Harrier II, McDonnell Douglas AV-8B, and F-35B short-takeoff/vertical-landing thinking.",
             "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-main"
             ]
           }
         ]
@@ -58423,34 +58496,67 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Hawker Siddeley Harrier variant-family entries: 3. Variant families: Hawker Siddeley Harrier baseline production model; Hawker Siddeley Harrier upgraded avionics or weapons-capable model; Hawker Siddeley Harrier export or locally modernized model.",
+            "text": "First-generation Harrier designations are easy to mix with Sea Harrier and Harrier II designations. The following list keeps the original Hawker Siddeley/British Aerospace first-generation attack/trainer/export line separate from later related developments.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
+              "fn-main",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Hawker Siddeley Harrier baseline production model",
+            "text": "Harrier GR.1 / GR.1A: Initial RAF single-seat attack versions that brought the V/STOL Harrier into service from 1969; the GR.1A introduced improved Pegasus power.",
             "refs": [
+              "fn-main",
               "fn-main"
             ]
           },
           {
-            "text": "Hawker Siddeley Harrier upgraded avionics or weapons-capable model",
+            "text": "Harrier GR.3: Improved RAF attack/reconnaissance version with better attack sensors, electronic countermeasures, and more powerful Pegasus engine; the main Falklands War RAF Harrier variant.",
             "refs": [
+              "fn-main",
+              "fn-rafmuseum"
+            ]
+          },
+          {
+            "text": "Harrier T.2 / T.2A / T.4 / T.4A: Two-seat RAF training variants with stretched forward fuselage and revised fin arrangements for conversion and operational training.",
+            "refs": [
+              "fn-main",
               "fn-main"
             ]
           },
           {
-            "text": "Hawker Siddeley Harrier export or locally modernized model",
+            "text": "AV-8A Harrier: U.S. Marine Corps single-seat export version derived from the first-generation Harrier, used for close support and expeditionary ship/shore basing.",
             "refs": [
+              "fn-main",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "AV-8C Harrier: Service-life and equipment upgrade for remaining USMC AV-8As before replacement by the AV-8B Harrier II.",
+            "refs": [
+              "fn-main",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "AV-8S / TAV-8S Matador: Spanish Navy single-seat and two-seat first-generation Harriers later transferred in part to Thailand.",
+            "refs": [
+              "fn-main",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Sea Harrier: Carrier-focused naval derivative with radar and fleet air-defence changes; closely related but distinct enough to treat separately from the RAF GR.1/GR.3 baseline.",
+            "refs": [
+              "fn-main",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Harrier II / AV-8B: Second-generation development by British Aerospace and McDonnell Douglas with a larger composite wing and revised systems; related successor rather than the same first-generation airframe.",
+            "refs": [
+              "fn-main",
               "fn-main"
             ]
           }
@@ -58461,29 +58567,47 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United Kingdom. Hawker Siddeley Harrier has 1 designer or builder country entry.",
+            "text": "Operator lists differ depending on whether Sea Harriers, Harrier IIs, two-seat trainers, and second-hand Matadors are included. This page lists the main first-generation Harrier/AV-8/Matador users and treats related successor families separately.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
+              "fn-main",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "United Kingdom — Royal Air Force: Original operator of the Harrier GR.1/GR.3 for close air support, reconnaissance, RAF Germany dispersed operations, Belize/Norway deployments, and Falklands War service from HMS Hermes and ashore.",
             "refs": [
+              "fn-main",
+              "fn-rafmuseum"
+            ]
+          },
+          {
+            "text": "United States — United States Marine Corps: Operated AV-8A and AV-8C first-generation Harriers from expeditionary forward bases and amphibious ships before replacing them with AV-8B Harrier II aircraft.",
+            "refs": [
+              "fn-main",
               "fn-main"
             ]
           },
           {
-            "text": "Major designer or builder entries: United Kingdom.",
+            "text": "Spain — Spanish Navy: Operated AV-8S/TAV-8S Matador aircraft from the carrier Dédalo; later sold surviving first-generation aircraft to Thailand.",
             "refs": [
-              "fn-wikidata"
+              "fn-main",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Thailand — Royal Thai Navy: Operated ex-Spanish AV-8S/TAV-8S Matadors from HTMS Chakri Naruebet, but serviceability and budget limits curtailed use before retirement.",
+            "refs": [
+              "fn-main",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "United Kingdom — Royal Navy training and evaluation communities: Used related two-seat trainer variants and developed the Sea Harrier from the first-generation Harrier family for fleet air defence.",
+            "refs": [
+              "fn-main",
+              "fn-main"
             ]
           }
         ]
@@ -58493,13 +58617,175 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Subsonic, first flight 1967, introduction 1969.",
+            "text": "Representative values below use Harrier GR.3 data where available. Exact performance changed with engine mark, stores, drop tanks, ambient conditions, takeoff mode, and whether the aircraft was operating from land, ship, or austere site.",
+            "refs": [
+              "fn-flugzeug",
+              "fn-main",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Crew",
+            "text": "1"
+          },
+          {
+            "title": "Length",
+            "text": "About 46 ft 10 in / 14.27 m for GR.3 data"
+          },
+          {
+            "title": "Wingspan",
+            "text": "About 25 ft 5 in / 7.75 m; ferry tips could increase span"
+          },
+          {
+            "title": "Height",
+            "text": "About 11 ft 11 in / 3.63 m"
+          },
+          {
+            "title": "Empty weight",
+            "text": "About 13,535 lb / 6,139 kg in GR.3 data"
+          },
+          {
+            "title": "Maximum takeoff weight",
+            "text": "About 25,200 lb / 11,431 kg"
+          },
+          {
+            "title": "Powerplant",
+            "text": "1 × Rolls-Royce Pegasus 103 / Pegasus 11 Mk.103 class vectored-thrust turbofan"
+          },
+          {
+            "title": "Maximum speed",
+            "text": "About 635 kt / 731 mph / 1,176 km/h at sea level"
+          },
+          {
+            "title": "Combat radius",
+            "text": "About 360 nmi ho-lo-hi with representative payload; lower for some low-level profiles"
+          },
+          {
+            "title": "Ferry range",
+            "text": "About 1,850 nmi with large drop tanks in representative public data"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "About 51,200 ft"
+          },
+          {
+            "title": "Stores",
+            "text": "ADEN cannon pods, bombs, rockets, reconnaissance pods, Sidewinder when wired, and drop tanks; loadouts varied"
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Compared with conventional attack aircraft such as the A-4 Skyhawk or A-7 Corsair II, the Harrier sacrificed some range, payload, and simplicity in return for the ability to operate from sites unavailable to ordinary fixed-wing jets. That basing flexibility was the aircraft’s strategic value.",
+            "refs": [
+              "fn-method",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Compared with the Yak-38, the Harrier’s single vectored-thrust engine was a different engineering solution from separate lift-plus-cruise arrangements. Compared with the later F-35B, the first-generation Harrier was far simpler and smaller, with no stealth or modern sensor fusion, but it established the operational case for STOVL combat aircraft.",
+            "refs": [
+              "fn-method",
+              "fn-main"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths included dispersed basing, short reaction time, shipboard adaptability, good low-speed controllability for the era, and the ability to keep flying when large runways were threatened. These qualities made the Harrier unusually valuable for NATO forward defence and crisis deployments.",
+            "refs": [
+              "fn-rafmuseum"
+            ]
+          },
+          {
+            "text": "Limitations included short range with heavy loads, sensitivity to weight and weather during vertical operations, a demanding pilot workload, accident risk, and less radar/air-defence capability than dedicated fighters. The Harrier was a specialized attack platform, not a general replacement for all conventional fighters.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1960 — Hawker P.1127 prototype begins flight testing, proving the vectored-thrust concept that led to the Harrier.",
+            "refs": [
+              "fn-main",
+              "fn-flugzeug"
+            ]
+          },
+          {
+            "text": "1967 — Production Harrier GR.1 first flight is recorded for the RAF attack version.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "1969 — Harrier enters RAF service, making practical jet V/STOL combat operations available to a front-line air arm.",
+            "refs": [
+              "fn-rafmuseum",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Early 1970s — U.S. Marine Corps adopts the AV-8A and tests ship/shore expeditionary operating concepts.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "1970s — Spain acquires AV-8S Matadors for carrier operations.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "1982 — RAF Harrier GR.3s deploy to the Falklands War from HMS Hermes and austere island strips.",
+            "refs": [
+              "fn-rafmuseum",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "1980s — USMC AV-8A/C aircraft give way to the larger AV-8B Harrier II, while RAF first-generation Harriers are replaced by later Harrier II variants.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "1998-2006 — Thailand operates ex-Spanish first-generation Matadors for a limited period before retiring them.",
+            "refs": [
+              "fn-main"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "The RAF Museum source is used for the GR.3 role, RAF employment concept, Falklands context, and the distinction between GR.1 and GR.3 improvements. Flugzeuginfo and Wikipedia provide representative specification and variant context; exact figures should be treated as GR.3-baseline values unless another variant is named.",
+            "refs": [
+              "fn-rafmuseum",
+              "fn-flugzeug",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Unverified current-service claims, exact aircraft-by-aircraft loss accounting, and detailed variant-specific weapons clearances were intentionally omitted or phrased cautiously because they vary by service, mark, date, and public-source reliability.",
             "refs": [
               "fn-method"
             ]
@@ -58508,10 +58794,10 @@
       },
       {
         "id": "similar-development",
-        "title": "Similar Development",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "Hawker Siddeley Harrier similar-development links: 4.",
+            "text": "Related Milipedia pages show the Harrier’s attack-aircraft peers, Soviet V/STOL counterpart, and later STOVL successor concepts.",
             "refs": [
               "fn-method"
             ]
@@ -58519,34 +58805,42 @@
         ],
         "links": [
           {
-            "label": "Republic F-105 Thunderchief",
-            "url": "aircraft.html?id=f-105-thunderchief"
-          },
-          {
             "label": "Douglas A-4 Skyhawk",
             "url": "aircraft.html?id=a-4-skyhawk"
           },
           {
-            "label": "Grumman A-6 Intruder",
-            "url": "aircraft.html?id=a-6-intruder"
-          },
-          {
             "label": "LTV A-7 Corsair II",
             "url": "aircraft.html?id=a-7-corsair-ii"
+          },
+          {
+            "label": "Yakovlev Yak-38",
+            "url": "aircraft.html?id=yak-38"
+          },
+          {
+            "label": "Lockheed Martin F-35 Lightning II",
+            "url": "aircraft.html?id=f-35-lightning-ii"
+          },
+          {
+            "label": "McDonnell Douglas F-4 Phantom II",
+            "url": "aircraft.html?id=f-4-phantom-ii"
+          },
+          {
+            "label": "Back to Aircraft Database",
+            "url": "aircraft.html"
           }
         ]
       }
     ],
     "event_gallery": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Bllace_refugee_camp.jpg",
-        "caption": "Kosovo War",
-        "source_url": "https://en.wikipedia.org/wiki/Kosovo_War"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Spanish_Hawker_Siddeley_AV-8S_Matador_in_flight_over_the_Mediterranean_Sea%2C_1_June_1988_%286430231%29.jpg/640px-Spanish_Hawker_Siddeley_AV-8S_Matador_in_flight_over_the_Mediterranean_Sea%2C_1_June_1988_%286430231%29.jpg",
+        "caption": "AV-8S Matador in flight; representative of first-generation export Harrier naval operations.",
+        "source_url": "https://en.wikipedia.org/wiki/Hawker_Siddeley_Harrier"
       },
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Coalition_action_against_Libya-en.svg/960px-Coalition_action_against_Libya-en.svg.png",
-        "caption": "2011 military intervention in Libya",
-        "source_url": "https://en.wikipedia.org/wiki/2011_military_intervention_in_Libya"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/DF-ST-85-13457.JPEG/640px-DF-ST-85-13457.JPEG",
+        "caption": "Royal Air Force Harrier GR.3, the improved attack/reconnaissance variant used in the Falklands War.",
+        "source_url": "https://en.wikipedia.org/wiki/Hawker_Siddeley_Harrier"
       }
     ]
   },
