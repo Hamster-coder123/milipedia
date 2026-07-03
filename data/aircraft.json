@@ -42940,143 +42940,187 @@
   {
     "id": "su-33",
     "name": "Sukhoi Su-33",
-    "alternative_names": [],
-    "nato_reporting_name": null,
-    "country_of_origin": "Russia",
-    "manufacturer": "Sukhoi",
-    "role": "Carrier-based fighter",
-    "aircraft_type": "Fighter",
+    "alternative_names": [
+      "Su-27K",
+      "T-10K",
+      "Flanker-D"
+    ],
+    "nato_reporting_name": "Flanker-D",
+    "country_of_origin": "Soviet Union / Russia",
+    "manufacturer": "Sukhoi / Komsomolsk-on-Amur Aircraft Production Association",
+    "role": "Carrier-based air-superiority and multirole fighter",
+    "aircraft_type": "Carrier-based fighter",
     "era": "Modern",
-    "first_flight": "1987",
-    "introduction_date": "1998",
+    "first_flight": "17 August 1987 (Su-27K prototype; some secondary profiles use broader May 1985 program wording)",
+    "introduction_date": "1990s; formal Su-33 service commonly listed as 31 August 1998, while some profiles list 1994 operational entry",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
+    "status": "Active / limited Russian naval service; availability depends on carrier and airframe status",
+    "number_built": "24 listed in public references",
     "crew": "1",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "engine_type": "Afterburning turbofan",
+    "engines": "Two AL-31F afterburning turbofans",
+    "max_speed": "2,300 km/h",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Sukhoi Su-33: Carrier-based fighter. Manufacturer: Sukhoi. First flight: 1987. Introduction: 1998.",
-    "short_summary": "Sukhoi Su-33: Carrier-based fighter. Origin: Russia. Manufacturer: Sukhoi. First flight: 1987. Introduction: 1998. Status: Active.",
+    "range": "3,000 km maximum range (representative public figure)",
+    "combat_range": "Not consistently published; depends on launch weight, stores, carrier wind-over-deck conditions, and aerial refueling",
+    "service_ceiling": "17,000 m",
+    "rate_of_climb": "325 m/s (Airforce Technology figure)",
+    "armament": "One 30 mm GSh-30-1 cannon with 150 rounds; up to 6,500 kg of external stores on 12 hardpoints, including R-27 and R-73 air-to-air missiles and selected rockets, bombs, guided missiles, and ECM pods depending fit",
+    "hardpoints": "12",
+    "variants": [
+      {
+        "name": "T-10K / Su-27K prototypes",
+        "description": "Development and flight-test aircraft for the naval Flanker program. Prototypes validated ski-jump takeoff, carrier approach behavior, strengthened landing gear, folding surfaces, and deck-recovery equipment."
+      },
+      {
+        "name": "Su-33 production aircraft",
+        "description": "Single-seat Russian Navy carrier-based fighter derived from the Su-27 family, with canards, strengthened structure, twin-wheel nose gear, arrestor hook, folding outer wings and stabilators, naval navigation aids, and twelve external stations."
+      },
+      {
+        "name": "Modernized Su-33 aircraft",
+        "description": "Russian Navy aircraft that received selective avionics, navigation, and weapons-interface updates during service; public sources do not support treating these as a separate large-production variant."
+      },
+      {
+        "name": "Su-33UB / Su-27KUB",
+        "description": "Two-seat side-by-side naval trainer and combat-capable development aircraft associated with the Su-33 family. It did not become a standard production replacement for the single-seat fleet."
+      },
+      {
+        "name": "Shenyang J-15 relationship",
+        "description": "Chinese carrier fighter broadly related to the Su-33/Su-27K design lineage through prototype and Flanker-family technology, but it is a distinct Chinese program and is not listed here as a Russian Su-33 operator variant."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Russia",
+        "service": "Russian Naval Aviation",
+        "notes": "Only confirmed operational user of the Su-33. The type served with the carrier air wing of Admiral Kuznetsov and associated shore-based naval aviation units; availability depends heavily on carrier status and airframe life."
+      },
+      {
+        "country": "Soviet Union",
+        "service": "Soviet Navy aviation trials and development program",
+        "notes": "The Su-27K was created under late-Soviet carrier aviation requirements and completed initial test work before Soviet dissolution; operational service occurred under Russia."
+      },
+      {
+        "country": "China",
+        "service": "Prospective customer only; no Su-33 fleet accepted",
+        "notes": "Public sources describe unsuccessful Su-33 sale discussions and later Chinese carrier-fighter development. China is therefore not listed as a Su-33 operator."
+      },
+      {
+        "country": "India",
+        "service": "Prospective customer only; no Su-33 fleet accepted",
+        "notes": "India evaluated carrier-fighter options but did not adopt the Su-33; MiG-29K-family aircraft filled the Indian Navy carrier role instead."
+      }
+    ],
+    "combat_history": "Limited Russian naval aviation operational use, centered on Admiral Kuznetsov deployments, deck training, fleet air defense, and carrier-air-wing presence. Public sources support caution rather than detailed sortie or weapons-employment claims.",
+    "development_history": "Developed from the Su-27 as the Su-27K/T-10K naval Flanker to give Soviet and later Russian naval aviation a conventional carrier-based fighter for ski-jump takeoff and arrested recovery.",
+    "short_summary": "Carrier-based Flanker-D naval fighter derived from the Su-27 and produced in small numbers for Russian Naval Aviation.",
     "carrier_capable": true,
     "stealth": false,
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Sukhoi_Su-33_77_RED_%2830268117476%29.jpg/330px-Sukhoi_Su-33_77_RED_%2830268117476%29.jpg",
-        "caption": "Sukhoi Su-33",
-        "credit": "Wikimedia/Wikipedia thumbnail source",
-        "license": "Verify original file license before reuse."
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sukhoi%20Su-33%2077%20RED%20%2830268117476%29.jpg",
+        "caption": "Russian Navy Sukhoi Su-33, red 77, showing the naval Flanker layout with canards and carrier modifications.",
+        "credit": "Wikimedia Commons image; verify license metadata before reuse.",
+        "license": "Wikimedia Commons source page license applies."
       }
     ],
     "sources": [
+      {
+        "id": "fn-airforce-tech",
+        "title": "Su-33 Flanker-D Carrier-Based Fighter",
+        "url": "https://www.airforce-technology.com/projects/sukhoisu-33/",
+        "publisher": "Airforce Technology",
+        "note": "Technical profile used for role, dimensions, weights, AL-31F engines, hardpoints, armament categories, avionics, range, ceiling, and Russian Navy operator context."
+      },
+      {
+        "id": "fn-globalsecurity",
+        "title": "Su-33 (Su-27K)",
+        "url": "https://www.globalsecurity.org/military/world/russia/su-33.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Background source used for Su-27K navalization context, ski-jump carrier operations, air-to-air emphasis, and weapon-system caveats."
+      },
+      {
+        "id": "fn-militaryfactory",
+        "title": "Sukhoi Su-33 (Flanker-D) Carrier-Based Air Defense Fighter Aircraft",
+        "url": "https://www.militaryfactory.com/aircraft/detail.php?aircraft_id=196",
+        "publisher": "Military Factory",
+        "note": "Supplementary reference used for carrier-specific structural changes, avionics description, weapons examples, and limited-production context; values treated cautiously where dates differ from other sources."
+      },
       {
         "id": "fn-main",
         "title": "Sukhoi Su-33",
         "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-33",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for nomenclature, first-flight/service-date cross-checking, production total, and the Su-27K-to-Su-33 designation change; not used as the only source for technical claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.aerospaceweb.org/aircraft/fighter/su33/",
-        "publisher": "aerospaceweb.org",
-        "note": "External source for Sukhoi Su-33."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.knaapo.ru/eng/products/military/su33.wbp",
-        "publisher": "knaapo.ru",
-        "note": "External source for Sukhoi Su-33."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.sukhoi.org/eng/planes/military/su33/lth/",
-        "publisher": "sukhoi.org",
-        "note": "External source for Sukhoi Su-33."
+        "note": "Local rules for neutral wording, variant-sensitive caveats, units, and source handling."
       }
     ],
     "country_flags": [
       {
         "label": "Russia",
         "emoji": "🇷🇺"
+      },
+      {
+        "label": "Soviet Union",
+        "emoji": "☭"
       }
     ],
     "designers": [
-      "Sukhoi"
+      "Sukhoi Design Bureau"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "Carrier compatibility added structural, landing gear, corrosion, and low-speed handling requirements.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Adapting a large land-based air-superiority fighter to ski-jump carrier operations without catapult assistance.",
+      "Balancing strengthened naval structure and folding surfaces against weight, range, and deck handling.",
+      "Sustaining a small specialist fleet with limited carrier availability and post-Soviet budget pressure."
     ],
-    "wars_used_in": [],
+    "wars_used_in": [
+      "Russian carrier deployment connected with the Syrian Civil War (limited public details)"
+    ],
     "variant_families": [
-      "Sukhoi Su-33 baseline production model",
-      "Sukhoi Su-33 upgraded avionics or weapons-capable model",
-      "Sukhoi Su-33 export or locally modernized model"
+      "T-10K / Su-27K prototypes",
+      "Su-33 production aircraft",
+      "Modernized Su-33 aircraft",
+      "Su-33UB / Su-27KUB",
+      "Shenyang J-15 relationship"
     ],
-    "operator_summary": {
-      "major_designer_or_builder": [
-        "Russia"
-      ],
-      "major_user_note": "Sukhoi Su-33 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
-    },
+    "operator_summary": "Russian Naval Aviation is the only confirmed operational Su-33 user; other countries are non-operator evaluation or derivative-program context.",
     "notable": {
-      "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+      "program": [
+        "Su-27K navalization program",
+        "Admiral Kuznetsov carrier air wing"
       ],
-      "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+      "incidents": [
+        "One Su-33 was lost during recovery operations in the 2016 Admiral Kuznetsov Syria deployment according to public reporting; pilot survival and accident details should be checked against official records before adding more detail."
       ]
     },
-    "engine_details": {
-      "type": "Jet",
-      "summary": "Sukhoi Su-33 uses jet propulsion."
-    },
-    "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
-    },
+    "engine_details": "Two AL-31F afterburning turbofans; Airforce Technology lists 15,500 kgf thrust each and notes suitability for inlet distortion and demanding operating conditions.",
+    "armament_details": "Internal GSh-30-1 30 mm cannon; public references list R-27/R-73-family air-to-air missiles, selected guided and unguided rockets/bombs, anti-radiation/anti-ship missile options, and ECM pods. Compatibility varies by aircraft and upgrade state.",
     "similar_development": [
       {
-        "id": "f-15-eagle",
-        "name": "McDonnell Douglas F-15 Eagle",
-        "url": "aircraft.html?id=f-15-eagle"
+        "id": "su-27",
+        "name": "Sukhoi Su-27",
+        "url": "aircraft.html?id=su-27"
       },
       {
-        "id": "f-16-fighting-falcon",
-        "name": "General Dynamics F-16 Fighting Falcon",
-        "url": "aircraft.html?id=f-16-fighting-falcon"
+        "id": "su-30",
+        "name": "Sukhoi Su-30",
+        "url": "aircraft.html?id=su-30"
+      },
+      {
+        "id": "mig-29",
+        "name": "Mikoyan MiG-29",
+        "url": "aircraft.html?id=mig-29"
+      },
+      {
+        "id": "f-14-tomcat",
+        "name": "Grumman F-14 Tomcat",
+        "url": "aircraft.html?id=f-14-tomcat"
       },
       {
         "id": "f-a-18-hornet",
@@ -43090,76 +43134,76 @@
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 39,
+      "operator_entries": 4,
+      "variant_entries": 5,
+      "external_article_sources": 4
     },
     "footnotes": [
+      {
+        "id": "fn-airforce-tech",
+        "title": "Su-33 Flanker-D Carrier-Based Fighter",
+        "url": "https://www.airforce-technology.com/projects/sukhoisu-33/",
+        "publisher": "Airforce Technology",
+        "note": "Technical profile used for role, dimensions, weights, AL-31F engines, hardpoints, armament categories, avionics, range, ceiling, and Russian Navy operator context."
+      },
+      {
+        "id": "fn-globalsecurity",
+        "title": "Su-33 (Su-27K)",
+        "url": "https://www.globalsecurity.org/military/world/russia/su-33.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Background source used for Su-27K navalization context, ski-jump carrier operations, air-to-air emphasis, and weapon-system caveats."
+      },
+      {
+        "id": "fn-militaryfactory",
+        "title": "Sukhoi Su-33 (Flanker-D) Carrier-Based Air Defense Fighter Aircraft",
+        "url": "https://www.militaryfactory.com/aircraft/detail.php?aircraft_id=196",
+        "publisher": "Military Factory",
+        "note": "Supplementary reference used for carrier-specific structural changes, avionics description, weapons examples, and limited-production context; values treated cautiously where dates differ from other sources."
+      },
       {
         "id": "fn-main",
         "title": "Sukhoi Su-33",
         "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-33",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for nomenclature, first-flight/service-date cross-checking, production total, and the Su-27K-to-Su-33 designation change; not used as the only source for technical claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.aerospaceweb.org/aircraft/fighter/su33/",
-        "publisher": "aerospaceweb.org",
-        "note": "External source for Sukhoi Su-33."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.knaapo.ru/eng/products/military/su33.wbp",
-        "publisher": "knaapo.ru",
-        "note": "External source for Sukhoi Su-33."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.sukhoi.org/eng/planes/military/su33/lth/",
-        "publisher": "sukhoi.org",
-        "note": "External source for Sukhoi Su-33."
+        "note": "Local rules for neutral wording, variant-sensitive caveats, units, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.aerospaceweb.org/aircraft/fighter/su33/",
-        "publisher": "aerospaceweb.org",
-        "note": "External source for Sukhoi Su-33."
+        "id": "fn-airforce-tech",
+        "title": "Su-33 Flanker-D Carrier-Based Fighter",
+        "url": "https://www.airforce-technology.com/projects/sukhoisu-33/",
+        "publisher": "Airforce Technology",
+        "note": "Technical profile used for role, dimensions, weights, AL-31F engines, hardpoints, armament categories, avionics, range, ceiling, and Russian Navy operator context."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.knaapo.ru/eng/products/military/su33.wbp",
-        "publisher": "knaapo.ru",
-        "note": "External source for Sukhoi Su-33."
+        "id": "fn-globalsecurity",
+        "title": "Su-33 (Su-27K)",
+        "url": "https://www.globalsecurity.org/military/world/russia/su-33.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Background source used for Su-27K navalization context, ski-jump carrier operations, air-to-air emphasis, and weapon-system caveats."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.sukhoi.org/eng/planes/military/su33/lth/",
-        "publisher": "sukhoi.org",
-        "note": "External source for Sukhoi Su-33."
+        "id": "fn-militaryfactory",
+        "title": "Sukhoi Su-33 (Flanker-D) Carrier-Based Air Defense Fighter Aircraft",
+        "url": "https://www.militaryfactory.com/aircraft/detail.php?aircraft_id=196",
+        "publisher": "Military Factory",
+        "note": "Supplementary reference used for carrier-specific structural changes, avionics description, weapons examples, and limited-production context; values treated cautiously where dates differ from other sources."
+      },
+      {
+        "id": "fn-main",
+        "title": "Sukhoi Su-33",
+        "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-33",
+        "publisher": "Wikipedia",
+        "note": "Supplementary orientation source for nomenclature, first-flight/service-date cross-checking, production total, and the Su-27K-to-Su-33 designation change; not used as the only source for technical claims."
       }
     ],
     "article_sections": [
@@ -43168,20 +43212,24 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-33 is a Carrier-based fighter from Russia. Manufacturer: Sukhoi. First flight: 1987. Introduction: 1998. Status: Active.",
+            "text": "The Sukhoi Su-33 is a Soviet/Russian single-seat, twin-engine carrier-based fighter developed from the Su-27 family for Russian naval aviation. It was originally known as the Su-27K during development and later received the Su-33 designation; NATO identifies the type as Flanker-D.",
             "refs": [
+              "fn-airforce-tech",
               "fn-main"
             ]
           },
           {
-            "text": "Sukhoi Su-33 is a fighter. Primary role: carrier-based fighter. Country of origin: Russia. Manufacturer: Sukhoi.",
+            "text": "Compared with the land-based Su-27, the Su-33 added carrier-specific structure and equipment: strengthened landing gear, an arrestor hook, folding wing and tail surfaces, canards, a twin-wheel nose unit, naval navigation aids, corrosion-protection measures, and an aerial-refueling probe. The design was optimized for ski-jump takeoff and arrested recovery aboard Admiral Kuznetsov rather than U.S.-style catapult launch.",
             "refs": [
-              "fn-wikidata"
+              "fn-airforce-tech",
+              "fn-militaryfactory"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Only a small fleet was completed. Airforce Technology lists 24 aircraft built, and the Russian Navy remains the only confirmed operator. Because Russia has had limited carrier availability, current operational readiness, fleet size, and upgrade status should be treated as date-sensitive.",
             "refs": [
+              "fn-airforce-tech",
+              "fn-main",
               "fn-method"
             ]
           }
@@ -43189,55 +43237,78 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Carrier-based fighter"
+            "text": "Carrier-based air-superiority / multirole fighter"
           },
           {
-            "title": "Designer or builder",
-            "text": "Sukhoi"
+            "title": "NATO reporting name",
+            "text": "Flanker-D"
           },
           {
-            "title": "Major origin",
-            "text": "Russia"
+            "title": "Original designation",
+            "text": "Su-27K / T-10K development family"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Primary operator",
+            "text": "Russian Naval Aviation"
+          },
+          {
+            "title": "Carrier fit",
+            "text": "Ski-jump takeoff and arrested landing aboard Admiral Kuznetsov"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-33 first flew in 1987. Introduction date: 1998. Era: Modern.",
+            "text": "The Su-33 grew out of Soviet attempts to give the navy a more capable fixed-wing fighter than the Yak-38 vertical-takeoff aircraft could provide. The new Kuznetsov-class carrier concept used a ski-jump flight deck, so Sukhoi adapted the Su-27 into a naval fighter rather than designing an entirely new carrier aircraft.",
             "refs": [
-              "fn-main"
+              "fn-main",
+              "fn-globalsecurity"
             ]
           },
           {
-            "text": "Producer: Sukhoi. Development context: carrier-based fighter, jet propulsion, supersonic speed category, Modern era.",
+            "text": "Sukhoi design work focused on preserving Su-27 range and air-combat performance while making the aircraft safe for deck launch, low-speed approach, and arrested recovery. The first Su-27K prototype flight is usually listed as 17 August 1987, while Airforce Technology uses a broader May 1985 design/testing reference; the page therefore records the more common 1987 first-flight date and notes source variation in the log.",
             "refs": [
-              "fn-wikidata"
+              "fn-main",
+              "fn-airforce-tech",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Post-Soviet budget reductions and the small size of Russia's carrier force limited production. The Su-33 was used from Admiral Kuznetsov in the mid-1990s and officially entered Russian Navy service in the late 1990s, but it never became a large export or multi-carrier fleet aircraft.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-militaryfactory",
+              "fn-main"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "Development designation: Su-27K / T-10K naval Flanker family.",
             "refs": [
-              "fn-method"
+              "fn-main"
             ]
           },
           {
-            "text": "Carrier compatibility added structural, landing gear, corrosion, and low-speed handling requirements.",
+            "text": "Core requirement: high-performance fleet air defense from a ski-jump carrier with arrested recovery.",
             "refs": [
-              "fn-method"
+              "fn-globalsecurity"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "Major design changes: canards, reinforced gear, folding surfaces, arrestor hook, aerial-refueling probe, and naval avionics/navigation aids.",
             "refs": [
+              "fn-airforce-tech",
+              "fn-militaryfactory"
+            ]
+          },
+          {
+            "text": "Production remained limited because the Soviet Union collapsed, Russia operated only one full-deck carrier, and later Russian carrier aviation shifted toward the MiG-29K family.",
+            "refs": [
+              "fn-main",
               "fn-method"
             ]
           }
@@ -43248,27 +43319,59 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The Su-33 keeps the broad Su-27 Flanker aerodynamic layout: blended fuselage, high swept wing, twin fins, large leading-edge root extensions, two widely spaced engines, and a single-seat cockpit. Carrier-specific canards and enlarged high-lift surfaces improve controllability at the lower approach speeds needed for deck recovery.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech",
+              "fn-militaryfactory"
             ]
           },
           {
-            "text": "Carrier capable: yes. Stealth: no.",
+            "text": "The landing system is central to the aircraft's identity. A strengthened undercarriage, twin-wheel nose unit, arresting hook, folding outer wing panels, and folding stabilators reduce deck-impact loads and storage footprint. The aircraft is a conventional takeoff-and-landing naval fighter, not a vertical/short-takeoff aircraft.",
             "refs": [
+              "fn-airforce-tech"
+            ]
+          },
+          {
+            "text": "Avionics are described in public sources as including radar/fire-control, navigation, IFF, radar-warning, jamming/countermeasure, and communications equipment. Exact radar standard, missile compatibility, and modernization details vary by aircraft and source, so the entry avoids unsupported claims about current upgrades.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-militaryfactory",
               "fn-method"
             ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Powerplant",
+            "text": "Two AL-31F afterburning turbofans"
           },
           {
-            "text": "Sukhoi Su-33 uses jet propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Carrier equipment",
+            "text": "Arrestor hook, reinforced landing gear, naval navigation aids, folding wing and tail surfaces"
           },
           {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
+            "title": "High-lift features",
+            "text": "Canards, large leading-edge flaps, flaps and ailerons for low-speed carrier handling"
+          },
+          {
+            "title": "Refueling",
+            "text": "Probe-and-drogue aerial-refueling probe fitted"
+          },
+          {
+            "title": "Weapons stations",
+            "text": "Twelve external hardpoints plus a 30 mm internal cannon"
+          }
+        ]
+      },
+      {
+        "id": "specifications",
+        "title": "Specifications",
+        "paragraphs": [
+          {
+            "text": "Specifications below use the Airforce Technology Su-33 profile as the primary public technical baseline. Values should be read as representative for the Su-33 family rather than proof that every individual aircraft, loadout, and carrier operating condition can achieve the same figures.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech",
+              "fn-method"
             ]
           }
         ],
@@ -43278,77 +43381,44 @@
             "text": "1"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Length",
+            "text": "21.19 m"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Wingspan",
+            "text": "14.7 m"
           },
           {
-            "title": "Carrier capable",
-            "text": "Yes"
+            "title": "Height",
+            "text": "5.9 m"
           },
           {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Sukhoi Su-33 status: Active. Conflict entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Empty weight",
+            "text": "18,400 kg"
           },
           {
-            "text": "Conflicts: 0 entries.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Sukhoi Su-33 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum takeoff weight",
+            "text": "33,000 kg"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Engines",
+            "text": "Two AL-31F afterburning turbofans"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum speed",
+            "text": "2,300 km/h"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum range",
+            "text": "3,000 km"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "17,000 m"
+          },
+          {
+            "title": "Armament",
+            "text": "One 30 mm GSh-30-1 cannon with 150 rounds; R-27/R-73-family air-to-air missiles and selected guided/unguided air-to-surface stores depending fit"
           }
         ]
       },
@@ -43357,36 +43427,40 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-33 variant-family entries: 3. Variant families: Sukhoi Su-33 baseline production model; Sukhoi Su-33 upgraded avionics or weapons-capable model; Sukhoi Su-33 export or locally modernized model.",
+            "text": "The Su-33 family is much smaller than the land-based Flanker family. Most public references center on the Su-27K prototypes, the single-seat production Su-33, selective modernization work, and the non-standard two-seat Su-27KUB/Su-33UB development aircraft.",
             "refs": [
-              "fn-main"
+              "fn-main",
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Complete variant entries listed: 0.",
+            "text": "Export or derivative discussions should not be confused with confirmed Su-33 operators. The Shenyang J-15 is best treated as a related Chinese carrier-fighter program rather than a Su-33 variant in Russian service.",
             "refs": [
+              "fn-main",
               "fn-method"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Sukhoi Su-33 baseline production model",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "T-10K / Su-27K prototypes",
+            "text": "Development and flight-test aircraft for the naval Flanker program. Prototypes validated ski-jump takeoff, carrier approach behavior, strengthened landing gear, folding surfaces, and deck-recovery equipment."
           },
           {
-            "text": "Sukhoi Su-33 upgraded avionics or weapons-capable model",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Su-33 production aircraft",
+            "text": "Single-seat Russian Navy carrier-based fighter derived from the Su-27 family, with canards, strengthened structure, twin-wheel nose gear, arrestor hook, folding outer wings and stabilators, naval navigation aids, and twelve external stations."
           },
           {
-            "text": "Sukhoi Su-33 export or locally modernized model",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Modernized Su-33 aircraft",
+            "text": "Russian Navy aircraft that received selective avionics, navigation, and weapons-interface updates during service; public sources do not support treating these as a separate large-production variant."
+          },
+          {
+            "title": "Su-33UB / Su-27KUB",
+            "text": "Two-seat side-by-side naval trainer and combat-capable development aircraft associated with the Su-33 family. It did not become a standard production replacement for the single-seat fleet."
+          },
+          {
+            "title": "Shenyang J-15 relationship",
+            "text": "Chinese carrier fighter broadly related to the Su-33/Su-27K design lineage through prototype and Flanker-family technology, but it is a distinct Chinese program and is not listed here as a Russian Su-33 operator variant."
           }
         ]
       },
@@ -43395,45 +43469,210 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Russia. Sukhoi Su-33 has 1 designer or builder country entry.",
+            "text": "The Su-33 has a very narrow operator base compared with the F-16 reference page. Russia is the only confirmed operational user; Soviet entries refer to the development program before Russian service, and China/India are included only as non-operator context because sales or adoption did not occur.",
             "refs": [
-              "fn-wikidata"
+              "fn-airforce-tech",
+              "fn-main",
+              "fn-method"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "The type is associated with Admiral Kuznetsov and shore-based Russian naval aviation support. Current aircraft availability is unusually dependent on carrier overhaul status, airframe age, and replacement planning, so exact active counts are intentionally omitted.",
             "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Russia",
+            "text": "Russian Naval Aviation: Only confirmed operational user of the Su-33. The type served with the carrier air wing of Admiral Kuznetsov and associated shore-based naval aviation units; availability depends heavily on carrier status and airframe life."
+          },
+          {
+            "title": "Soviet Union",
+            "text": "Soviet Navy aviation trials and development program: The Su-27K was created under late-Soviet carrier aviation requirements and completed initial test work before Soviet dissolution; operational service occurred under Russia."
+          },
+          {
+            "title": "China",
+            "text": "Prospective customer only; no Su-33 fleet accepted: Public sources describe unsuccessful Su-33 sale discussions and later Chinese carrier-fighter development. China is therefore not listed as a Su-33 operator."
+          },
+          {
+            "title": "India",
+            "text": "Prospective customer only; no Su-33 fleet accepted: India evaluated carrier-fighter options but did not adopt the Su-33; MiG-29K-family aircraft filled the Indian Navy carrier role instead."
+          }
+        ]
+      },
+      {
+        "id": "service",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "Su-33 service has centered on fleet air defense, air-superiority patrol, training, deck qualification, and carrier-air-wing presence for Admiral Kuznetsov. Public descriptions emphasize air-to-air work, with secondary multirole capability through rockets, bombs, anti-radiation/anti-ship missile options, and countermeasure pods.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-militaryfactory"
+            ]
+          },
+          {
+            "text": "The aircraft participated in Russian carrier deployments, including operations connected with Admiral Kuznetsov. One Su-33 was lost during the 2016 Syria deployment after a landing-gear/arresting system related recovery accident reported by aviation-safety sources, but detailed combat performance claims are avoided because official sortie and weapons-employment data are limited.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The Su-33's long-term future has been uncertain because Russian carrier availability has been limited and MiG-29K-family aircraft were ordered as a replacement or supplement. The page therefore describes the type as active/limited-service rather than assuming a precise retirement date.",
+            "refs": [
+              "fn-main",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Primary service setting: Russian Naval Aviation and Admiral Kuznetsov carrier air wing.",
             "refs": [
-              "fn-main"
+              "fn-airforce-tech"
             ]
           },
           {
-            "text": "Major designer or builder entries: Russia.",
+            "text": "Main mission set: fleet air defense, combat air patrol, escort, training, and limited multirole strike options.",
             "refs": [
-              "fn-wikidata"
+              "fn-airforce-tech",
+              "fn-militaryfactory"
+            ]
+          },
+          {
+            "text": "Operational limitation: small fleet and dependence on a single carrier make availability more constrained than land-based Flanker variants.",
+            "refs": [
+              "fn-main",
+              "fn-method"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Supersonic, first flight 1987, introduction 1998.",
+            "text": "Strengths include Flanker-family range and aerodynamic performance, a large airframe with meaningful fuel and weapons capacity, strong low-speed handling aids for carrier work, aerial refueling, and a conventional fighter layout more capable than the Yak-38 generation it followed.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-militaryfactory"
+            ]
+          },
+          {
+            "text": "Limitations are equally important: the aircraft is large for a ski-jump carrier, has no catapult launch margin, lacks stealth shaping, exists in small numbers, and depends on one carrier infrastructure. Public evidence for broad modern precision-strike integration is thinner than for newer Flanker derivatives, so weapon claims are kept conservative.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "The Su-33 is closest to the Su-27 in aerodynamic origin, to the MiG-29K in Russian carrier-air-wing role, and to the F-14/F/A-18 families in the broader category of carrier fighters. Unlike the F/A-18E/F, it was produced in very small numbers and tied to one national carrier program.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Sukhoi Su-27",
+            "url": "aircraft.html?id=su-27"
+          },
+          {
+            "label": "Sukhoi Su-30",
+            "url": "aircraft.html?id=su-30"
+          },
+          {
+            "label": "Mikoyan MiG-29",
+            "url": "aircraft.html?id=mig-29"
+          },
+          {
+            "label": "Grumman F-14 Tomcat",
+            "url": "aircraft.html?id=f-14-tomcat"
+          },
+          {
+            "label": "Boeing F/A-18E/F Super Hornet",
+            "url": "aircraft.html?id=f-a-18e-f-super-hornet"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "Late 1970s: Soviet naval aviation studies carrier fighters to replace the limited Yak-38 fixed-wing capability.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "1984: Sukhoi receives direction to develop a naval air-defense fighter from the Su-27 family.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "1987: First Su-27K prototype flight is commonly listed as 17 August 1987.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Early 1990s: Soviet collapse and Russian budget pressure sharply limit the carrier-fighter production run.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "1994-1998: Public sources differ on entry-into-service wording; Airforce Technology lists 1994, while other sources identify formal service acceptance in 1998.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "2009: Russian Navy orders MiG-29K-family aircraft as a carrier-fighter replacement/supplement path.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "2016: Admiral Kuznetsov deploys with Su-33s and MiG-29Ks during the Syria campaign; one Su-33 is lost during recovery operations according to public aviation-safety reporting.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Airforce Technology supplies the main technical specification baseline. GlobalSecurity and Military Factory provide supplementary design, armament, and carrier-operation context. Wikipedia is used for orientation and cross-checking but not as the sole support for technical specifications.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-globalsecurity",
+              "fn-militaryfactory",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Uncertain or date-sensitive items were deliberately caveated: exact active fleet count, current carrier availability, modernization standard, and combat-employment details. Public first-flight and entry-into-service dates differ by source, so both the record and change log describe the discrepancy.",
             "refs": [
               "fn-method"
             ]
@@ -43442,10 +43681,10 @@
       },
       {
         "id": "similar-development",
-        "title": "Similar Development",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "Sukhoi Su-33 similar-development links: 4.",
+            "text": "Related pages connect the Su-33 to land-based Flanker relatives and comparable carrier-fighter families already represented in Milipedia.",
             "refs": [
               "fn-method"
             ]
@@ -43453,12 +43692,20 @@
         ],
         "links": [
           {
-            "label": "McDonnell Douglas F-15 Eagle",
-            "url": "aircraft.html?id=f-15-eagle"
+            "label": "Sukhoi Su-27",
+            "url": "aircraft.html?id=su-27"
           },
           {
-            "label": "General Dynamics F-16 Fighting Falcon",
-            "url": "aircraft.html?id=f-16-fighting-falcon"
+            "label": "Sukhoi Su-30",
+            "url": "aircraft.html?id=su-30"
+          },
+          {
+            "label": "Mikoyan MiG-29",
+            "url": "aircraft.html?id=mig-29"
+          },
+          {
+            "label": "Grumman F-14 Tomcat",
+            "url": "aircraft.html?id=f-14-tomcat"
           },
           {
             "label": "McDonnell Douglas F/A-18 Hornet",
@@ -43471,7 +43718,13 @@
         ]
       }
     ],
-    "event_gallery": []
+    "event_gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sukhoi%20Su-33%2077%20RED%20%2830268117476%29.jpg",
+        "caption": "Russian Navy Sukhoi Su-33 showing the carrier-based Flanker-D configuration.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sukhoi_Su-33_77_RED_(30268117476).jpg"
+      }
+    ]
   },
   {
     "id": "su-34",

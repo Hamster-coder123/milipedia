@@ -5464,3 +5464,81 @@ Record the result of:
 * Public sources disagree or use different scopes for total production figures and some performance values, so the article records ranges/caveats rather than one false-precision value.
 * Current operator inventories, exact combat losses, sortie totals, and country-specific weapons clearances were intentionally omitted or caveated because they are date-sensitive or source-specific.
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+
+### Run 72 — 2026-07-03 14:01:59 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Sukhoi Su-33 (id: su-33)
+* Reason selected: The Su-33 entry was the shortest unedited aircraft page found in the current sparse-candidate scan, with placeholder specifications, no populated variant or operator entries, generic armament text, sparse generated article sections, and source metadata that was much less complete than the F-16 reference page.
+* Previous condition: Sparse generated article with 9 short sections, 0 variant entries, 0 operator entries, no detailed development/design/operational-history/timeline coverage, missing dimensions/weights/engine/range/ceiling/hardpoints, and generic similar-development links.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense lead overview; section order covering overview, development history, design, specifications, variants, operators, operational history, strengths and limitations, comparison, timeline, sources/notes, and related pages; concise sourced paragraphs; card-style technical facts; internal aircraft links using aircraft.html?id=...; cautious variant- and source-sensitive wording.
+
+#### Changes Made
+
+* Expanded the Su-33 entry from placeholder generated text into a fuller F-16-style Milipedia article record.
+* Added NATO reporting name Flanker-D, alternative designations Su-27K/T-10K, Soviet/Russian origin, manufacturer details, role/status wording, number-built context, carrier-capable summary, and a concise short summary.
+* Replaced missing top-level specifications with representative Su-33 data for length, wingspan, height, empty weight, maximum takeoff weight, AL-31F engines, maximum speed, range, service ceiling, rate of climb, 12 hardpoints, and GSh-30-1/R-27/R-73-family armament caveats.
+* Added source coverage from Airforce Technology, GlobalSecurity, Military Factory, Wikipedia as supplementary orientation, and local Milipedia accuracy rules.
+* Added detailed article sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Comparison, Timeline, Sources and Notes, and Related Pages.
+* Added variants/development-family entries for T-10K/Su-27K prototypes, Su-33 production aircraft, modernized Su-33 aircraft, Su-33UB/Su-27KUB, and the Shenyang J-15 relationship as a related but distinct program.
+* Added operator context distinguishing Russia as the only confirmed operational user, the Soviet development program, and China/India as non-operator/prospective-customer context.
+* Added operational-history context for Admiral Kuznetsov service, fleet air-defense/training roles, limited Syria-deployment public details, and MiG-29K replacement/supplement caveats.
+* Replaced stale/generic related links with existing Milipedia links to Su-27, Su-30, MiG-29, F-14 Tomcat, F/A-18 Hornet, and F/A-18E/F Super Hornet.
+* Added an event-gallery image/source pointer for a Wikimedia Commons Su-33 image and cleaned generated metadata such as development tensions, operator summary, notable program/incidents, engine details, and armament details.
+* Omitted exact active fleet count, current carrier availability, modernization standard, and detailed combat claims because those facts are date-sensitive or insufficiently sourced for a safe single-run update.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded and corrected only the Su-33 aircraft entry.
+* hermes-change-log.md — Appended the cumulative Run 72 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed diff/stat; data/aircraft.json changed only the Su-33 entry, and hermes-change-log.md appended the Run 72 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the Su-33 section list, sources, variants, operators, specifications, carrier-specific caveats, and metadata cleanup.
+4. F-16 style comparison — Inspected data/f16-template.html and matched its dense overview, technical cards, development/design/specification/variants/operators/service/comparison/timeline/source/related-page pattern within the JSON-rendered article system.
+5. Internal link check — Recursively checked aircraft.html?id=... references in the Su-33 entry; Su-27, Su-30, MiG-29, F-14 Tomcat, F/A-18 Hornet, and F/A-18E/F Super Hornet links target existing aircraft ids.
+6. Secret/token check — Checked the intended/staged diff with credential-specific patterns for keys, tokens, passwords, private keys, and common cloud credential names; no credentials were added.
+7. Final review before commit — Confirmed branch hermes-agent, fetched state, JSON validity, only one aircraft entry changed with the same id, only intended files staged, no formatting errors from git diff --check, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Sukhoi Su-33
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Public sources disagree on Su-33 first-flight/program milestone and entry-into-service wording, so the article notes 17 August 1987 as the common Su-27K prototype first-flight date while preserving a caveat for broader May 1985/1994 source language.
+* Current active fleet size, Admiral Kuznetsov availability, exact modernization configuration, and detailed combat-employment claims were intentionally omitted or caveated because they are date-sensitive or not sufficiently supported by the reviewed sources.
+* GlobalSecurity was used for background/source context from search results and known page location, but full extraction was not required because Airforce Technology supplied the main technical baseline.
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
