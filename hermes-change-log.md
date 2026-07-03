@@ -4383,3 +4383,82 @@ Record the result of:
 * Current B-1B inventory, basing, modernization status, weapons clearances, replacement timeline, and deployment details are date-sensitive; the page uses conservative public-source wording.
 * The aircraft's exact combat radius is mission- and tanker-dependent and is not stated as one stable public value in the main USAF fact sheet, so it was intentionally omitted as a single uncaveated figure.
 * The page is data-driven and cannot exactly reproduce the bespoke static F-16 layout, but it now follows the F-16 article density and section order as far as the JSON renderer supports.
+
+### Run 58 — 2026-07-03 00:04:36 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: McDonnell Douglas F-15 Eagle (id: f-15-eagle)
+* Reason selected: It was one of the sparsest previously unedited major fighter pages compared with the F-16 reference, with placeholder-style generated prose, no external article sources, no operator or variant entries, and missing concrete engine, range, ceiling, armament, development, modernization, and operational-history detail.
+* Previous condition: The page had 9 generated sections, 0 operator entries, 0 variant entries, 0 external article sources, generic gun/missile/stores armament wording, "Not listed" fields for engines/range/ceiling/hardpoints, and no detailed F-15A/B/C/D/E/EX distinction.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview; section order covering Overview, Development History, Design, Specifications, Variants, Operators, Operational History, Notable Events, Comparison, Strengths and Limitations, Timeline, Sources, and Related Pages; technical card density; internal aircraft.html?id=... link style; conservative notes for variant-, source-, mission-, and date-dependent facts.
+
+#### Changes Made
+
+* Expanded the McDonnell Douglas F-15 Eagle entry from a sparse generated record into a detailed Milipedia aircraft article.
+* Added concrete top-level facts for country, role, aircraft type, first flights, introduction/IOC, status, crew, F100-family engines, Mach/speed data, ferry range, service ceiling, hardpoints/payload caveats, and family-level summary.
+* Replaced generic generated armament wording with F-15-specific M61A1 cannon, Sidewinder, Sparrow, AMRAAM, and variant-dependent strike-weapons wording.
+* Added official/manufacturer sources from the U.S. Air Force and Boeing, retained Wikipedia only as supplementary orientation, and retained the Milipedia method/source-caution entry.
+* Added 13 F-16-style article sections: Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Notable Events and Program Milestones, Comparison, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added variant coverage for F-15A, F-15B, F-15C, F-15D, F-15E Strike Eagle, export Strike Eagle variants, and F-15EX Eagle II.
+* Added operator coverage for the United States, Japan, Israel, Saudi Arabia, South Korea, Singapore, and Qatar, while avoiding unstable current fleet counts.
+* Added operational-history coverage for Desert Storm, Southern Watch, Provide Comfort, Allied Force, Enduring Freedom, Iraqi Freedom, and later public-source caveats.
+* Added specification cards and paragraphs using USAF F-15C/D values and Boeing F-15EX values, with explicit variant/source caveats.
+* Added strengths/limitations and comparison context with F-16, F-14, F-22, Su-27, MiG-29, and Eurofighter Typhoon.
+* Added internal related links to F-16, F-14, F-22, Su-27, MiG-29, and Eurofighter Typhoon pages.
+* Removed the generic generated event gallery for this entry because it was not curated for the F-15 page.
+* Omitted or caveated exact current fleet totals, detailed export avionics fits, detailed weapons clearances by operator, and uncited combat claims because those details are date-sensitive or variant-dependent.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the McDonnell Douglas F-15 Eagle aircraft entry and its sources/sections.
+* hermes-change-log.md — Appended the cumulative Run 58 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before log update only data/aircraft.json was modified on branch hermes-agent; after log update the intended modified files were data/aircraft.json and hermes-change-log.md only.
+2. git diff — Reviewed the aircraft JSON diff showing only the f-15-eagle record expansion; final diff reviewed again before commit.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the F-15 entry section list, sources, variant entries, operator entries, top-level fields, cards, bullets, and cautious wording.
+4. F-16 style comparison — Inspected data/f16-template.html and mirrored its dense overview, technical specification cards, development/design/specifications/variants/operators/operational-history/comparison/timeline/source/related-page section progression within the JSON-rendered article system.
+5. Internal link check — Parsed data/aircraft.json ids and confirmed all F-15 aircraft.html?id=... links resolve to existing local aircraft ids.
+6. Secret/token check — Ran a credential-pattern scan over the staged diff for private keys, passwords, access/auth tokens, and cloud credential names; no credentials or private data were added.
+7. Final review before commit — Confirmed branch hermes-agent, valid JSON, git diff --check cleanliness, exactly one changed aircraft entry, intended files only, complete change-log entry, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand McDonnell Douglas F-15 Eagle
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Current active F-15 fleet totals, export subvariant avionics fits, detailed weapons clearances, and operator-specific combat claims are date-sensitive or configuration-dependent, so the page uses conservative public-source wording.
+* USAF F-15C/D and Boeing F-15EX specification values differ by variant and source; the article labels them rather than forcing one universal F-15 value.
+* The page is data-driven and cannot exactly reproduce the bespoke static F-16 layout, but it now follows the F-16 article density and section order as far as the JSON renderer supports.

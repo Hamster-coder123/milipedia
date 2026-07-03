@@ -4185,34 +4185,69 @@
   {
     "id": "f-15-eagle",
     "name": "McDonnell Douglas F-15 Eagle",
-    "alternative_names": [],
+    "alternative_names": [
+      "F-15 Eagle",
+      "Eagle",
+      "F-15C Eagle",
+      "F-15D Eagle",
+      "F-15E Strike Eagle",
+      "F-15EX Eagle II"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
     "manufacturer": "McDonnell Douglas / Boeing",
-    "role": "Air superiority fighter",
-    "aircraft_type": "Fighter",
-    "era": "Cold War/Modern",
-    "first_flight": "1972",
-    "introduction_date": "1976",
+    "role": "Air-superiority fighter; later multirole strike fighter in F-15E/F-15EX forms",
+    "aircraft_type": "Twin-engine tactical fighter",
+    "era": "Cold War / modern",
+    "first_flight": "July 1972 (F-15A); July 1973 (F-15B)",
+    "introduction_date": "1976; USAF initial operating capability September 1975",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "1 or 2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "status": "Active in upgraded and export variants; early A/B and many C/D aircraft retired or retiring by operator",
+    "number_built": "More than 1,500 F-15 family aircraft; public totals vary by variant and export-production cutoff",
+    "crew": "1 (F-15A/C and F-15EX front cockpit normally single-pilot capable); 2 (F-15B/D/E and many export strike variants)",
+    "engine_type": "Two afterburning turbofans",
+    "engines": "Two Pratt & Whitney F100-PW-100/220/229 or family-equivalent afterburning turbofans depending on variant",
+    "max_speed": "1,875 mph / Mach 2 class for F-15C/D; Boeing lists Mach 2.5 for F-15EX",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "McDonnell Douglas F-15 Eagle: Air superiority fighter. Manufacturer: McDonnell Douglas / Boeing. First flight: 1972. Introduction: 1976.",
-    "short_summary": "McDonnell Douglas F-15 Eagle: Air superiority fighter. Origin: United States. Manufacturer: McDonnell Douglas / Boeing. First flight: 1972. Introduction: 1976. Status: Active.",
+    "range": "3,450 mi / 3,000 nmi ferry range with conformal and external tanks for F-15C/D configuration cited by USAF",
+    "combat_range": "Mission-dependent; F-15E/F-15EX range varies sharply with stores, tanks, terrain-following profile, and refueling support",
+    "service_ceiling": "65,000 ft for F-15C/D; Boeing lists 50,000 ft for F-15EX",
+    "rate_of_climb": "High-performance climb capability; exact public figures vary by weight and variant",
+    "armament": "M61A1 20 mm cannon; AIM-9 Sidewinder, AIM-7 Sparrow on earlier aircraft, AIM-120 AMRAAM, and variant-dependent air-to-ground weapons on F-15E/F-15EX/export strike aircraft",
+    "hardpoints": "External wing/fuselage stations plus conformal-fuel-tank stations on F-15C/D/E/EX configurations; F-15EX payload publicly listed at 29,500 lb",
+    "variants": [
+      "F-15A single-seat original air-superiority fighter",
+      "F-15B two-seat trainer/combat-capable derivative of the F-15A",
+      "F-15C improved single-seat Eagle with added internal fuel and provision for conformal fuel tanks",
+      "F-15D two-seat version of the F-15C",
+      "F-15E Strike Eagle two-seat all-weather strike fighter with terrain-following/navigation and targeting systems",
+      "F-15I, F-15K, F-15S/SA, F-15SG, and F-15QA export strike-family variants tailored for Israel, South Korea, Saudi Arabia, Singapore, and Qatar",
+      "F-15EX Eagle II new-build U.S. Air Force variant with digital fly-by-wire controls, glass cockpit, open mission systems, AESA radar, EPAWSS, and expanded weapons carriage"
+    ],
+    "operators": [
+      "United States Air Force and Air National Guard",
+      "Japan Air Self-Defense Force",
+      "Israeli Air Force",
+      "Royal Saudi Air Force",
+      "Republic of Korea Air Force",
+      "Republic of Singapore Air Force",
+      "Qatar Emiri Air Force"
+    ],
+    "combat_history": [
+      "Operation Desert Storm / Gulf War",
+      "Operations Southern Watch and Provide Comfort",
+      "Operation Allied Force",
+      "Operation Enduring Freedom",
+      "Operation Iraqi Freedom and later Middle East air operations",
+      "Israeli, Saudi, and other operator-specific combat use where public reporting supports variant-level attribution"
+    ],
+    "development_history": [
+      "The F-15 grew from the U.S. Air Force F-X requirement for a dedicated air-superiority fighter after Vietnam-era lessons emphasized energy maneuverability, radar performance, and beyond-visual-range weapons.",
+      "The first F-15A flew in July 1972, the F-15B trainer followed in July 1973, and the first Eagle for an operational combat squadron was delivered in January 1976.",
+      "F-15C/D aircraft added internal fuel, conformal-fuel-tank provisions, higher maximum takeoff weight, and MSIP avionics improvements, while the F-15E adapted the airframe for all-weather strike without abandoning air-to-air capability.",
+      "Boeing’s F-15EX carries the production line into a new digital/open-systems generation intended to complement stealth aircraft with payload, range, magazine depth, and rapid upgrade capacity."
+    ],
+    "short_summary": "The McDonnell Douglas F-15 Eagle is a twin-engine American tactical fighter designed for air superiority and later adapted into Strike Eagle and Eagle II multirole variants. Its combination of thrust, radar, weapons, range, and growth capacity made it one of the defining fourth-generation fighters and a long-lived export platform.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -4224,27 +4259,10 @@
       }
     ],
     "sources": [
-      {
-        "id": "fn-main",
-        "title": "McDonnell Douglas F-15 Eagle",
-        "url": "https://en.wikipedia.org/wiki/McDonnell_Douglas_F-15_Eagle",
-        "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
-      },
-      {
-        "id": "fn-method",
-        "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
-        "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      }
+      "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104501/f-15-eagle/",
+      "https://www.boeing.com/defense/f-15ex/",
+      "https://en.wikipedia.org/wiki/McDonnell_Douglas_F-15_Eagle",
+      "MILIPEDIA_PLAN.md#16-data-accuracy-rules"
     ],
     "country_flags": [
       {
@@ -4253,129 +4271,113 @@
       }
     ],
     "designers": [
-      "McDonnell Douglas / Boeing"
+      "McDonnell Douglas",
+      "Boeing"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Optimized air-superiority performance versus the weight and complexity of later multirole strike equipment.",
+      "Large payload and range versus higher operating cost and radar signature compared with smaller fighters or stealth designs.",
+      "Keeping legacy Eagles tactically relevant through radar, electronic-warfare, mission-computer, and weapons upgrades while replacing aging airframes."
     ],
     "wars_used_in": [
-      {
-        "name": "Gulf War",
-        "note": "McDonnell Douglas F-15 Eagle used in Gulf War."
-      },
-      {
-        "name": "Iraq War",
-        "note": "McDonnell Douglas F-15 Eagle used in Iraq War."
-      },
-      {
-        "name": "War in Afghanistan (2001–2021)",
-        "note": "McDonnell Douglas F-15 Eagle used in War in Afghanistan (2001–2021)."
-      }
+      "Gulf War",
+      "Iraq War",
+      "War in Afghanistan (2001–2021)",
+      "Kosovo War / Operation Allied Force",
+      "Middle East air-policing and strike operations"
     ],
     "variant_families": [
-      "McDonnell Douglas F-15 Eagle baseline production model",
-      "McDonnell Douglas F-15 Eagle upgraded avionics or weapons-capable model",
-      "McDonnell Douglas F-15 Eagle two-seat trainer or conversion model",
-      "McDonnell Douglas F-15 Eagle export or locally modernized model"
+      "F-15A/B",
+      "F-15C/D",
+      "F-15E Strike Eagle",
+      "Export Strike Eagle family",
+      "F-15EX Eagle II"
     ],
-    "operator_summary": {
-      "major_designer_or_builder": [
-        "United States"
-      ],
-      "major_user_note": "McDonnell Douglas F-15 Eagle has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
-    },
-    "notable": {
-      "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
-      ],
-      "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
-      ]
-    },
-    "engine_details": {
-      "type": "Jet",
-      "summary": "McDonnell Douglas F-15 Eagle uses jet propulsion."
-    },
-    "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
-    },
+    "operator_summary": "The F-15 family has served with the United States and several close U.S.-aligned air arms, including Japan, Israel, Saudi Arabia, South Korea, Singapore, and Qatar; exact active fleet counts are date-sensitive and vary by modernization status.",
+    "notable": [
+      "F-15C fighters were credited by the U.S. Air Force with 34 of 37 USAF air-to-air victories during Operation Desert Storm.",
+      "The F-15E used LANTIRN-era night/all-weather systems in Desert Storm for SCUD-launcher and artillery-hunting missions.",
+      "The F-15EX continues the family with digital fly-by-wire controls, AESA radar, EPAWSS electronic warfare, open mission systems, and very high weapons payload."
+    ],
+    "engine_details": "USAF F-15C/D fact-sheet data lists two Pratt & Whitney F100-PW-100, -220, or -229 afterburning turbofans; C/D thrust is listed at 23,450 lb per engine. Export and newer F-15EX aircraft may use later F100/F110-family configurations depending on customer and block.",
+    "armament_details": "USAF F-15C/D armament includes an internal M61A1 20 mm cannon and external AIM-9/AIM-120 combinations, with AIM-7 used historically. F-15E/export strike variants and F-15EX add precision-guided bombs, standoff weapons, and larger mixed loads; public carriage claims should be read as configuration-dependent rather than a single standard combat load.",
     "similar_development": [
-      {
-        "id": "f-4-phantom-ii",
-        "name": "McDonnell Douglas F-4 Phantom II",
-        "url": "aircraft.html?id=f-4-phantom-ii"
-      },
-      {
-        "id": "f-5-freedom-fighter-tiger-ii",
-        "name": "Northrop F-5",
-        "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
-      },
-      {
-        "id": "f-8-crusader",
-        "name": "Vought F-8 Crusader",
-        "url": "aircraft.html?id=f-8-crusader"
-      },
-      {
-        "id": "f-14-tomcat",
-        "name": "Grumman F-14 Tomcat",
-        "url": "aircraft.html?id=f-14-tomcat"
-      }
+      "f-16-fighting-falcon",
+      "f-14-tomcat",
+      "f-22-raptor",
+      "su-27",
+      "mig-29",
+      "eurofighter-typhoon"
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "exact_fact_count": 28,
+      "operator_entries": 7,
+      "variant_entries": 7,
+      "external_article_sources": 3
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-usaf-f15",
+        "title": "F-15 Eagle",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104501/f-15-eagle/",
+        "publisher": "U.S. Air Force",
+        "note": "Used for mission description, radar/avionics overview, development milestones, Desert Storm service notes, specifications, armament, IOC, and inventory context."
+      },
+      {
+        "id": "fn-boeing-f15ex",
+        "title": "F-15EX",
+        "url": "https://www.boeing.com/defense/f-15ex/",
+        "publisher": "Boeing",
+        "note": "Used for F-15EX modernization features, payload, digital fly-by-wire, open mission systems, AESA/EPAWSS wording, specifications, and listed customer countries."
+      },
+      {
+        "id": "fn-wiki-orientation",
         "title": "McDonnell Douglas F-15 Eagle",
         "url": "https://en.wikipedia.org/wiki/McDonnell_Douglas_F-15_Eagle",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for family naming and chronology; official USAF and Boeing sources are preferred for cited technical claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
+        "note": "Local rules for units, neutral wording, source citation, and estimate labels."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "F-15 Eagle",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104501/f-15-eagle/",
+        "publisher": "U.S. Air Force"
+      },
+      {
+        "title": "F-15EX",
+        "url": "https://www.boeing.com/defense/f-15ex/",
+        "publisher": "Boeing"
+      },
+      {
+        "title": "McDonnell Douglas F-15 Eagle",
+        "url": "https://en.wikipedia.org/wiki/McDonnell_Douglas_F-15_Eagle",
+        "publisher": "Wikipedia"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "McDonnell Douglas F-15 Eagle is an Air superiority fighter from United States. Manufacturer: McDonnell Douglas / Boeing. First flight: 1972. Introduction: 1976. Status: Active.",
+            "text": "The McDonnell Douglas F-15 Eagle is a twin-engine American tactical fighter built around air-superiority requirements and later expanded into two-seat strike and multirole variants. The baseline Eagle combined high thrust, a large radar, all-aspect weapons integration, and generous fuel capacity; the later F-15E Strike Eagle and F-15EX Eagle II extend the family into deep strike, payload carriage, networking, and rapid-upgrade missions.",
             "refs": [
-              "fn-main"
+              "fn-usaf-f15",
+              "fn-boeing-f15ex"
             ]
           },
           {
-            "text": "McDonnell Douglas F-15 Eagle is a fighter. Primary role: air superiority fighter. Country of origin: United States. Manufacturer: McDonnell Douglas / Boeing.",
+            "text": "Milipedia treats the page as an F-15-family article rather than a single block standard. Public data for speed, ceiling, payload, engines, cockpit crew, and mission systems differs between F-15A/B, F-15C/D, F-15E, export Strike Eagles, and F-15EX, so representative values are labeled by source and variant where possible.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Exact structured fact fields: 15.",
-            "refs": [
+              "fn-usaf-f15",
               "fn-method"
             ]
           }
@@ -4383,50 +4385,63 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Air superiority fighter"
+            "text": "Air-superiority fighter; strike/multirole in later variants"
           },
           {
-            "title": "Designer or builder",
-            "text": "McDonnell Douglas / Boeing"
+            "title": "First flight",
+            "text": "F-15A in July 1972; F-15B in July 1973"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Powerplant",
+            "text": "Two afterburning Pratt & Whitney F100-family turbofans on USAF C/D data"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Status",
+            "text": "Active in multiple upgraded and export fleets"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "McDonnell Douglas F-15 Eagle first flew in 1972. Introduction date: 1976. Era: Cold War/Modern.",
+            "text": "The F-15 emerged from the U.S. Air Force pursuit of a dedicated air-superiority fighter after combat experience highlighted the need for acceleration, climb, radar reach, and reliable missile employment. McDonnell Douglas flew the first F-15A in July 1972, followed by the two-seat F-15B in July 1973; the first operational-squadron Eagle was delivered in January 1976.",
             "refs": [
-              "fn-main"
+              "fn-usaf-f15"
             ]
           },
           {
-            "text": "Producer: McDonnell Douglas / Boeing. Development context: air superiority fighter, jet propulsion, supersonic speed category, Cold War/Modern era.",
+            "text": "F-15C and F-15D aircraft entered the USAF inventory from 1979 with added internal fuel, provision for conformal fuel tanks, and higher maximum takeoff weight. The Multistage Improvement Program then added a more capable central computer, missile-control improvements, electronic-warfare updates, and later APG-70 radar installations on some aircraft.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf-f15"
+            ]
+          },
+          {
+            "text": "The two-seat F-15E adapted the Eagle into an all-weather deep-strike aircraft with upgraded rear cockpit displays, terrain-following flight-control integration, APG-70 radar, and LANTIRN navigation/targeting pods. Boeing’s F-15EX keeps the production family alive with digital fly-by-wire, glass cockpit, open mission systems, AESA radar, EPAWSS electronic warfare, and increased weapons capacity.",
+            "refs": [
+              "fn-usaf-f15",
+              "fn-boeing-f15ex"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "F-15A first flight: July 1972; F-15B first flight: July 1973.",
             "refs": [
-              "fn-method"
+              "fn-usaf-f15"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "First Eagle delivered to a combat squadron: January 1976; USAF fact sheet lists IOC in September 1975.",
             "refs": [
-              "fn-method"
+              "fn-usaf-f15"
+            ]
+          },
+          {
+            "text": "F-15C/D improvements included 2,000 lb of additional internal fuel and conformal-fuel-tank provisions.",
+            "refs": [
+              "fn-usaf-f15"
             ]
           }
         ]
@@ -4436,126 +4451,79 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1 or 2. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The Eagle’s large twin-engine airframe prioritizes energy, acceleration, altitude performance, and radar/weapons integration. USAF descriptions emphasize a head-up display that keeps essential flight and weapons information in the pilot’s line of sight, and a pulse-Doppler radar able to look up or down while filtering ground clutter.",
             "refs": [
-              "fn-main"
+              "fn-usaf-f15"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "F-15C/D armament centers on the M61A1 20 mm cannon and external air-to-air missiles such as AIM-9 Sidewinder and AIM-120 AMRAAM, while older configurations also used AIM-7 Sparrow. F-15E, export Strike Eagle, and F-15EX configurations add air-to-ground precision weapons, standoff weapons, conformal stations, and much higher mixed-load flexibility.",
             "refs": [
+              "fn-usaf-f15",
+              "fn-boeing-f15ex"
+            ]
+          },
+          {
+            "text": "Boeing describes the F-15EX as a growth-oriented Eagle variant with digital fly-by-wire controls, all-glass cockpit, modern mission systems, open architecture, advanced AESA radar, EPAWSS, and line-of-sight plus beyond-line-of-sight networking. Those features should not be back-applied to early A/B/C/D aircraft without variant qualification.",
+            "refs": [
+              "fn-boeing-f15ex",
               "fn-method"
-            ]
-          },
-          {
-            "text": "McDonnell Douglas F-15 Eagle uses jet propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "1 or 2"
+            "title": "Radar and display concept",
+            "text": "Pulse-Doppler radar plus HUD-centered weapons employment on USAF Eagle description"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Strike Eagle equipment",
+            "text": "Two-seat cockpit, terrain-following/navigation and targeting systems, APG-70-era radar"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "F-15EX modernization",
+            "text": "Digital fly-by-wire, glass cockpit, open mission systems, AESA radar, EPAWSS"
           },
           {
             "title": "Carrier capable",
             "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "McDonnell Douglas F-15 Eagle status: Active. Conflict entries: 3.",
+            "text": "Representative USAF F-15C/D data: wingspan 42.8 ft (13 m), length 63.8 ft (19.44 m), height 18.5 ft (5.6 m), empty/weight field 31,700 lb, maximum takeoff weight 68,000 lb for C/D models, speed 1,875 mph / Mach 2 class, ceiling 65,000 ft, and 3,450 mi / 3,000 nmi ferry range with conformal and external tanks.",
             "refs": [
-              "fn-main"
+              "fn-usaf-f15"
             ]
           },
           {
-            "text": "Conflicts: Gulf War, Iraq War, War in Afghanistan (2001–2021).",
+            "text": "Boeing’s public F-15EX page lists the same basic length, width, and height, but a maximum takeoff weight of 81,000 lb, maximum speed Mach 2.5, ceiling 50,000 ft, payload 29,500 lb, and 20,000+ hour service life. The differences reflect variant, mission, and source framing rather than a single universal F-15 value.",
             "refs": [
+              "fn-boeing-f15ex",
               "fn-method"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Gulf War: McDonnell Douglas F-15 Eagle used in Gulf War.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Engines",
+            "text": "Two F100-PW-100/220/229 afterburning turbofans in USAF C/D fact-sheet data"
           },
           {
-            "text": "Iraq War: McDonnell Douglas F-15 Eagle used in Iraq War.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Thrust",
+            "text": "23,450 lb each engine for C/D models cited by USAF"
           },
           {
-            "text": "War in Afghanistan (2001–2021): McDonnell Douglas F-15 Eagle used in War in Afghanistan (2001–2021).",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "McDonnell Douglas F-15 Eagle named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Crew",
+            "text": "One on F-15A/C; two on F-15B/D/E and many export strike variants"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "F-15EX payload",
+            "text": "29,500 lb listed by Boeing"
           }
         ]
       },
@@ -4564,41 +4532,36 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "McDonnell Douglas F-15 Eagle variant-family entries: 4. Variant families: McDonnell Douglas F-15 Eagle baseline production model; McDonnell Douglas F-15 Eagle upgraded avionics or weapons-capable model; McDonnell Douglas F-15 Eagle two-seat trainer or conversion model; McDonnell Douglas F-15 Eagle export or locally modernized model.",
+            "text": "The F-15 family divides into original single-seat and two-seat air-superiority Eagles, improved C/D aircraft, two-seat Strike Eagle derivatives, export strike variants, and the new-build F-15EX Eagle II. Variant names often imply major differences in fuel, radar, cockpit, electronic warfare, and weapons compatibility.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-usaf-f15",
+              "fn-boeing-f15ex"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "McDonnell Douglas F-15 Eagle baseline production model",
+            "text": "F-15A/B: original single-seat fighter and two-seat trainer/combat-capable derivative.",
             "refs": [
-              "fn-main"
+              "fn-usaf-f15"
             ]
           },
           {
-            "text": "McDonnell Douglas F-15 Eagle upgraded avionics or weapons-capable model",
+            "text": "F-15C/D: improved Eagle models with additional fuel, conformal-fuel-tank provisions, higher maximum takeoff weight, and MSIP upgrades.",
             "refs": [
-              "fn-main"
+              "fn-usaf-f15"
             ]
           },
           {
-            "text": "McDonnell Douglas F-15 Eagle two-seat trainer or conversion model",
+            "text": "F-15E Strike Eagle: two-seat all-weather air-to-air and deep-interdiction fighter with upgraded rear cockpit, APG-70-era radar, and LANTIRN-supported night/low-altitude attack.",
             "refs": [
-              "fn-main"
+              "fn-usaf-f15"
             ]
           },
           {
-            "text": "McDonnell Douglas F-15 Eagle export or locally modernized model",
+            "text": "F-15EX Eagle II: current Boeing/U.S. Air Force family member with digital controls, open systems, AESA radar, EPAWSS, advanced networking, and 29,500 lb public payload figure.",
             "refs": [
-              "fn-main"
+              "fn-boeing-f15ex"
             ]
           }
         ]
@@ -4608,45 +4571,261 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. McDonnell Douglas F-15 Eagle has 1 designer or builder country entry.",
+            "text": "The United States remains the central F-15 operator through the Air Force and Air National Guard, with legacy C/D aircraft being retired or replaced by F-15EX in some missions while F-15E Strike Eagles continue strike duties. Boeing also lists Japan, Israel, Korea, Qatar, Saudi Arabia, Singapore, and the U.S. as F-15EX/family customer countries on its current product page.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf-f15",
+              "fn-boeing-f15ex"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Exact active fleet totals are intentionally not fixed here because they change with retirements, deliveries, attrition, and modernization programs. Operator notes should distinguish local variants such as Japan’s F-15J/DJ, Israel’s F-15I, Korea’s F-15K, Singapore’s F-15SG, Saudi F-15S/SA, and Qatar’s F-15QA when more detailed pages are created.",
             "refs": [
+              "fn-boeing-f15ex",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "United States",
+            "text": "USAF, Air National Guard, F-15C/D, F-15E, and F-15EX fleets"
+          },
+          {
+            "title": "Asia-Pacific operators",
+            "text": "Japan, South Korea, and Singapore operate local F-15 variants"
+          },
+          {
+            "title": "Middle East operators",
+            "text": "Israel, Saudi Arabia, and Qatar operate strike-family variants"
+          },
+          {
+            "title": "Fleet-count caveat",
+            "text": "Public totals vary by date and modernization status"
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "USAF F-15C/D/E aircraft deployed to Operation Desert Storm in 1991. The Air Force credits F-15C fighters with 34 of 37 USAF air-to-air victories in that campaign, while F-15E aircraft mainly flew night missions against SCUD launchers and artillery using LANTIRN-era systems.",
+            "refs": [
+              "fn-usaf-f15"
+            ]
+          },
+          {
+            "text": "After Desert Storm, Eagles and Strike Eagles supported air expeditionary deployments and operations including Southern Watch, Provide Comfort, Allied Force, Enduring Freedom, and Iraqi Freedom. The page avoids assigning every later coalition or export combat event to a specific F-15 variant unless public source wording supports it.",
+            "refs": [
+              "fn-usaf-f15",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Desert Storm: air-superiority and strike missions; F-15C credited with most USAF air-to-air victories.",
             "refs": [
-              "fn-main"
+              "fn-usaf-f15"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "No-fly-zone and expeditionary deployments: Southern Watch and Provide Comfort are listed by the USAF fact sheet.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf-f15"
+            ]
+          },
+          {
+            "text": "Later campaigns: Allied Force, Enduring Freedom, and Iraqi Freedom appear in USAF service summaries.",
+            "refs": [
+              "fn-usaf-f15"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "notable-events",
+        "title": "Notable Events and Program Milestones",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1 or 2, propulsion type Jet, maximum speed category Supersonic, first flight 1972, introduction 1976.",
+            "text": "The Eagle’s long service life is closely tied to its growth margin: additional fuel in the C/D models, MSIP avionics updates, Strike Eagle mission-system integration, and now F-15EX digital/open-architecture upgrades. This gives the family unusually broad coverage from Cold War air defense through modern standoff and networked payload missions.",
             "refs": [
-              "fn-main"
+              "fn-usaf-f15",
+              "fn-boeing-f15ex"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1972: F-15A first flight.",
+            "refs": [
+              "fn-usaf-f15"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "1976: first Eagle for a combat squadron delivered in January.",
+            "refs": [
+              "fn-usaf-f15"
+            ]
+          },
+          {
+            "text": "1979: F-15C/D models begin entering the Air Force inventory.",
+            "refs": [
+              "fn-usaf-f15"
+            ]
+          },
+          {
+            "text": "1983-1985: MSIP begins, with first production MSIP F-15C in 1985.",
+            "refs": [
+              "fn-usaf-f15"
+            ]
+          },
+          {
+            "text": "2020s: F-15EX fielding emphasizes payload, open systems, electronic warfare, and networking.",
+            "refs": [
+              "fn-boeing-f15ex"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Compared with the F-16, the F-15 is larger, twin-engined, more expensive to operate, and optimized around radar reach, payload, and energy rather than lightweight multirole affordability. Compared with the F-14, the Eagle was land-based and did not need variable geometry or carrier equipment. Compared with the F-22, modern F-15s can carry more external weapons but lack the same stealth shaping and integrated low-observable design.",
+            "refs": [
+              "fn-usaf-f15",
+              "fn-boeing-f15ex",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "F-16 Fighting Falcon: smaller single-engine multirole counterpart with lower cost and broad export scale.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "F-14 Tomcat: carrier-based fleet-defense fighter with variable-sweep wings and naval design constraints.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "F-22 Raptor: stealth air-dominance successor for contested first-day operations; F-15EX complements it with payload and availability.",
+            "refs": [
+              "fn-boeing-f15ex",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include acceleration, altitude performance, radar/weapons integration, range, payload, and a large airframe that has accepted decades of avionics, electronic-warfare, and weapons upgrades. The F-15EX in particular emphasizes magazine depth, digital architecture, and fast technology insertion.",
+            "refs": [
+              "fn-usaf-f15",
+              "fn-boeing-f15ex"
+            ]
+          },
+          {
+            "text": "Limitations include size, cost, maintenance burden, and non-stealth shaping. In dense modern air defenses, even upgraded Eagles usually rely on tactics, electronic warfare, standoff weapons, networking, and coordination with stealth aircraft rather than low observability alone.",
+            "refs": [
+              "fn-boeing-f15ex",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Strength",
+            "text": "High payload, speed, range, radar/weapons growth, and long upgrade path"
+          },
+          {
+            "title": "Limitation",
+            "text": "Large non-stealth airframe with higher operating footprint than smaller fighters"
+          },
+          {
+            "title": "Modern role",
+            "text": "Complements stealth aircraft with weapons capacity, networking, and readiness"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1972 — F-15A first flight.",
+            "refs": [
+              "fn-usaf-f15"
+            ]
+          },
+          {
+            "text": "1973 — F-15B first flight.",
+            "refs": [
+              "fn-usaf-f15"
+            ]
+          },
+          {
+            "text": "1975 — USAF fact sheet lists initial operating capability in September.",
+            "refs": [
+              "fn-usaf-f15"
+            ]
+          },
+          {
+            "text": "1976 — First Eagle destined for a combat squadron delivered in January.",
+            "refs": [
+              "fn-usaf-f15"
+            ]
+          },
+          {
+            "text": "1979 — F-15C/D models begin entering inventory.",
+            "refs": [
+              "fn-usaf-f15"
+            ]
+          },
+          {
+            "text": "1983 — Multistage Improvement Program initiated.",
+            "refs": [
+              "fn-usaf-f15"
+            ]
+          },
+          {
+            "text": "1991 — F-15C/D/E aircraft serve in Operation Desert Storm.",
+            "refs": [
+              "fn-usaf-f15"
+            ]
+          },
+          {
+            "text": "2020s — F-15EX continues the family with digital systems, expanded payload, and open architecture.",
+            "refs": [
+              "fn-boeing-f15ex"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Core facts are drawn from the U.S. Air Force F-15 Eagle fact sheet and Boeing’s current F-15EX page. Wikipedia is retained only as a supplementary orientation link because public F-15 family data can mix multiple variants, export subtypes, and time periods.",
+            "refs": [
+              "fn-usaf-f15",
+              "fn-boeing-f15ex",
+              "fn-wiki-orientation",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Uncertain or moving targets omitted from the main fields include exact current fleet totals, every export subvariant avionics fit, detailed weapons clearance by operator, and combat claims not tied to a cited public source.",
             "refs": [
               "fn-method"
             ]
@@ -4654,11 +4833,11 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "related-pages",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "McDonnell Douglas F-15 Eagle similar-development links: 4.",
+            "text": "Related Milipedia pages emphasize U.S. fighter development, fourth-generation peers, and later air-dominance successors.",
             "refs": [
               "fn-method"
             ]
@@ -4666,41 +4845,37 @@
         ],
         "links": [
           {
-            "label": "McDonnell Douglas F-4 Phantom II",
-            "url": "aircraft.html?id=f-4-phantom-ii"
+            "label": "F-16 Fighting Falcon",
+            "url": "aircraft.html?id=f-16-fighting-falcon"
           },
           {
-            "label": "Northrop F-5",
-            "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
-          },
-          {
-            "label": "Vought F-8 Crusader",
-            "url": "aircraft.html?id=f-8-crusader"
-          },
-          {
-            "label": "Grumman F-14 Tomcat",
+            "label": "F-14 Tomcat",
             "url": "aircraft.html?id=f-14-tomcat"
+          },
+          {
+            "label": "F-22 Raptor",
+            "url": "aircraft.html?id=f-22-raptor"
+          },
+          {
+            "label": "Su-27 Flanker",
+            "url": "aircraft.html?id=su-27"
+          },
+          {
+            "label": "MiG-29 Fulcrum",
+            "url": "aircraft.html?id=mig-29"
+          },
+          {
+            "label": "Eurofighter Typhoon",
+            "url": "aircraft.html?id=eurofighter-typhoon"
+          },
+          {
+            "label": "Back to Aircraft Database",
+            "url": "aircraft.html"
           }
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg/960px-USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg",
-        "caption": "Gulf War",
-        "source_url": "https://en.wikipedia.org/wiki/Gulf_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/UStanks_baghdad_2003.JPEG/960px-UStanks_baghdad_2003.JPEG",
-        "caption": "Iraq War",
-        "source_url": "https://en.wikipedia.org/wiki/Iraq_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/U.S._Army_firefight_in_Kunar.jpg/960px-U.S._Army_firefight_in_Kunar.jpg",
-        "caption": "War in Afghanistan (2001–2021)",
-        "source_url": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001%E2%80%932021)"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "f-16-fighting-falcon",
