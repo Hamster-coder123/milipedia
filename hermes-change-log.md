@@ -6163,3 +6163,81 @@ Record the result of:
 * The current U.S. Navy fact page was inaccessible from this environment with HTTP 403; the run relied on Lockheed Martin, NASA, and supplementary Wikipedia orientation rather than overclaiming inaccessible Navy data.
 * Exact current operator fleet counts, detailed sensor configurations, and weapons clearances are date-sensitive and often configuration-specific, so the article uses cautious family-level wording.
 * The commit hash cannot be embedded in the same committed log entry without making it stale; the authoritative final hash is reported in this scheduled-run response.
+
+### Run 81 — 2026-07-03 23:02:35 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Eurocopter Tiger (id: eurocopter-tiger)
+* Reason selected: It was the shortest unedited aircraft entry after excluding pages already substantially updated by Hermes, with only generated prose, no variant entries, no operator entries, sparse specifications, and generic attack-helicopter armament wording.
+* Previous condition: Placeholder-like generated entry with 15 exact fact fields, 0 operator entries, 0 variant entries, 3 stale external article sources, no detailed development/design/operators/timeline coverage, and many "Not listed" technical fields.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview; article-section ordering from overview through development, design, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, sources, and related pages; concise sourced paragraphs; card-style key facts; cautious variant-specific wording; internal aircraft.html?id=... links.
+
+#### Changes Made
+
+* Expanded the Eurocopter Tiger entry from a sparse generated record into a fuller data-driven Milipedia article.
+* Added corrected top-level facts for role, first flight, crew, engines, representative speed/range/ceiling, combat history, armament, and summary text.
+* Replaced generic armament wording with variant/operator-specific Tiger HAP/HAD/UHT/ARH weapon cautions.
+* Added manufacturer/source framing from Airbus, supplementary Wikipedia and Helis.com references, and Milipedia method notes.
+* Added variants for Tiger HAP, Tiger HAD, Tiger UHT/KHT, Tiger ARH, and Tiger Mark III modernization.
+* Added operator entries for France, Germany, Spain, and Australia with date-sensitive replacement/modernization caveats.
+* Added expanded sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Comparison, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added representative technical details for tandem cockpit, 13 m rotor, MTR390-family turboshafts, avionics, sighting systems, survivability measures, maximum takeoff weight, maximum speed, range, ceiling, and climb rate.
+* Cleaned stale generated metadata by replacing variant/operator summaries and leaving no event-gallery entries.
+* Added internal related links to AH-64 Apache, AH-1 Cobra, Mi-24 Hind, and Ka-52 Alligator.
+* Omitted exact current fleet totals and operator-specific missile clearances where they are date-sensitive or variant-dependent.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded the Eurocopter Tiger aircraft page data and sources.
+* hermes-change-log.md — Appended this cumulative run entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Verified before commit that only data/aircraft.json and hermes-change-log.md were modified/staged.
+2. git diff — Reviewed final diff/stat and confirmed the aircraft JSON change was limited to the Eurocopter Tiger entry plus this log entry.
+3. File review — Parsed data/aircraft.json successfully and reviewed the Eurocopter Tiger sections, sources, variants, operators, and top-level facts.
+4. F-16 style comparison — Inspected data/f16-template.html and matched its dense lead, section order, specifications emphasis, cautious sourced prose, comparison/timeline/source/related-page pattern within the JSON-rendered page format.
+5. Internal link check — Verified local aircraft.html?id=... links point to existing aircraft IDs; plain aircraft.html database link was allowed.
+6. Secret/token check — Ran a credential-focused scan over the staged diff; no private keys, cloud credentials, passwords, or access/auth tokens were added.
+7. Final review before commit — Confirmed branch, JSON validity, intended files only, one aircraft entry changed, diff cleanliness, log completeness, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Eurocopter Tiger
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Web search/extract backend returned HTTP 432 errors, so source retrieval used direct Python URL fetching for reachable known pages.
+* Exact current Tiger fleet totals, German retirement timing, Australian replacement status, and national missile clearances are date-sensitive and should be verified against current national releases before use in procurement-specific contexts.
+* Public specifications vary by Tiger standard and equipment fit; representative Tiger HAD figures were labeled as configuration-dependent.
+* The final commit hash cannot be embedded in the committed log without changing the hash again; the authoritative hash is reported in the run output.

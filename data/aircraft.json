@@ -69069,34 +69069,80 @@
   {
     "id": "eurocopter-tiger",
     "name": "Eurocopter Tiger",
-    "alternative_names": [],
+    "alternative_names": [
+      "EC665 Tiger",
+      "Airbus Helicopters Tiger",
+      "Tigre"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "France/Germany",
     "manufacturer": "Eurocopter / Airbus Helicopters",
-    "role": "Attack helicopter",
-    "aircraft_type": "Helicopter",
+    "role": "Multi-role attack and armed reconnaissance helicopter",
+    "aircraft_type": "Attack helicopter",
     "era": "Modern",
-    "first_flight": "1991",
+    "first_flight": "27 April 1991",
     "introduction_date": "2003",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "2",
+    "status": "In service with several operators; being replaced or retired in some fleets",
+    "number_built": "About 175 reported by 2026 public summaries; operator totals change by retrofit and retirement status",
+    "crew": "2 (pilot and gunner/weapon systems officer in tandem cockpit)",
     "engine_type": "Turboshaft",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engines": "2 × MTR390 / enhanced MTR390-family turboshaft engines, variant-dependent",
+    "max_speed": "290 km/h (about 180 mph) with mast-mounted sight; public figures vary by configuration",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Cannon, rockets, and guided missiles.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Eurocopter Tiger: Attack helicopter. Manufacturer: Eurocopter / Airbus Helicopters. First flight: 1991. Introduction: 2003.",
-    "short_summary": "Eurocopter Tiger: Attack helicopter. Origin: France/Germany. Manufacturer: Eurocopter / Airbus Helicopters. First flight: 1991. Introduction: 2003. Status: Active.",
+    "range": "Ferry range about 1,130 km with external tanks; combat radius/range varies with weapons and fuel",
+    "combat_range": "About 740 km armed with standard fuel in common public Tiger HAD summaries",
+    "service_ceiling": "About 4,000 m (13,000 ft) in common public Tiger HAD summaries",
+    "rate_of_climb": "About 10.7 m/s (2,110 ft/min), configuration-dependent",
+    "armament": "30 mm chin cannon on most HAP/HAD/ARH versions, plus rockets and anti-tank or air-to-air missiles depending on national variant; German UHT fit differs and emphasizes mast sight/anti-armor weapons.",
+    "hardpoints": "Four external stores stations, national-variant and clearance dependent",
+    "variants": [
+      {
+        "name": "Tiger HAP",
+        "description": "French early support-and-protection version optimized for escort, fire support, and air-to-air self-defense with cannon, rockets, and Mistral missiles."
+      },
+      {
+        "name": "Tiger HAD",
+        "description": "Multi-role attack version for France and Spain with more powerful engines, improved communications, anti-tank missile integration, and extended mission equipment; Airbus describes Block 2 as suitable for maritime shipboard environments."
+      },
+      {
+        "name": "Tiger UHT / KHT",
+        "description": "German anti-tank/support helicopter configuration with a mast-mounted sight and national weapon fit; it differs from cannon-equipped HAP/HAD/ARH aircraft."
+      },
+      {
+        "name": "Tiger ARH",
+        "description": "Australian Armed Reconnaissance Helicopter version based on the Tiger family and adapted for Australian Army reconnaissance and escort missions; Australia is replacing the type with AH-64E Apache."
+      },
+      {
+        "name": "Tiger Mark III",
+        "description": "Planned/ongoing modernization path led by Airbus for future avionics, communications, and weapon-system upgrades; exact national participation and fielding schedules are date-dependent."
+      }
+    ],
+    "operators": [
+      {
+        "country": "France",
+        "service": "French Army Light Aviation (ALAT)",
+        "notes": "Major operator of HAP/HAD Tigre aircraft; French deployments helped prove the type in Afghanistan, Libya, Mali, and other expeditionary missions."
+      },
+      {
+        "country": "Germany",
+        "service": "German Army Aviation Corps",
+        "notes": "Operates the UHT configuration; public plans call for replacement rather than a full Mark III path, so future fleet status is date-sensitive."
+      },
+      {
+        "country": "Spain",
+        "service": "Spanish Army Airmobile Force / FAMET",
+        "notes": "Operates Tiger HAD aircraft with Spanish mission equipment and anti-tank missile integration; Airbus imagery and text describe Spanish HAD aircraft in formation and Block 2 context."
+      },
+      {
+        "country": "Australia",
+        "service": "Australian Army",
+        "notes": "Operated Tiger ARH armed reconnaissance helicopters; Australia selected the AH-64E Apache as replacement, so service status should be checked for current fleet details."
+      }
+    ],
+    "combat_history": "Used operationally by French, German, Spanish, and Australian forces in roles including Afghanistan, Libya, Mali, and armed reconnaissance or escort missions; details vary by operator.",
+    "development_history": "The Tiger began as a Franco-German Cold War anti-tank helicopter requirement and evolved into a lighter composite multi-role attack helicopter after the European security environment changed. Eurocopter, later Airbus Helicopters, developed national configurations for France, Germany, Spain, and Australia.",
+    "short_summary": "The Eurocopter EC665 Tiger is a Franco-German twin-engine, two-seat attack helicopter built by Eurocopter/Airbus Helicopters. It combines a narrow composite airframe, digital cockpit, roof or mast-mounted sensors depending on variant, and national weapon fits for armed reconnaissance, escort, close support, and anti-armor missions.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -69109,18 +69155,32 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-airbus-tiger",
+        "title": "Tiger — The combat-proven attack helicopter",
+        "url": "https://www.airbus.com/en/products-services/helicopters/military-helicopters/tiger",
+        "publisher": "Airbus",
+        "note": "Manufacturer page used for mission roles, cockpit, avionics, survivability, MTR390-family engine wording, operational-deployment examples, and Tiger HAD Block 2 context."
+      },
+      {
+        "id": "fn-airbus-mark-iii",
+        "title": "Sharpening its claws: the Tiger gets ready for future battles",
+        "url": "https://www.airbus.com/en/newsroom/stories/2026-06-sharpening-its-claws-the-tiger-gets-ready-for-future-battles",
+        "publisher": "Airbus",
+        "note": "Manufacturer newsroom context for Mark III modernization; used only for broad upgrade framing."
+      },
+      {
+        "id": "fn-wikipedia-tiger",
         "title": "Eurocopter Tiger",
         "url": "https://en.wikipedia.org/wiki/Eurocopter_Tiger",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "note": "Supplementary orientation source for public specification figures, dates, operator/variant names, and terminology; cross-check before using for sensitive or date-dependent claims."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "id": "fn-helis-tiger",
+        "title": "Eurocopter / Airbus Tiger helicopter history",
+        "url": "http://www.helis.com/Since80s/h_aetg.php",
+        "publisher": "Helis.com",
+        "note": "Supplementary aviation reference retained from the generated entry for production and operator-history orientation."
       },
       {
         "id": "fn-method",
@@ -69128,27 +69188,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.helis.com/Since80s/h_aetg.php",
-        "publisher": "helis.com",
-        "note": "External source for Eurocopter Tiger."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.defenseindustrydaily.com/2005/12/france-spain-order-new-eurocopter-tiger-had-variant-updated/index.php",
-        "publisher": "defenseindustrydaily.com",
-        "note": "External source for Eurocopter Tiger."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.defence.gov.au/dmo/asd/air87/main.cfm",
-        "publisher": "defence.gov.au",
-        "note": "External source for Eurocopter Tiger."
       }
     ],
     "country_flags": [
@@ -69169,18 +69208,24 @@
     ],
     "wars_used_in": [],
     "variant_families": [
-      "Eurocopter Tiger baseline production model",
-      "Eurocopter Tiger upgraded avionics or weapons-capable model",
-      "Eurocopter Tiger two-seat trainer or conversion model",
-      "Eurocopter Tiger utility, attack, naval, or export model"
+      "Tiger HAP",
+      "Tiger HAD",
+      "Tiger UHT / KHT",
+      "Tiger ARH",
+      "Tiger Mark III"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "France",
         "Germany"
       ],
-      "major_user_note": "Eurocopter Tiger has 2 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_users": [
+        "France",
+        "Germany",
+        "Spain",
+        "Australia"
+      ],
+      "all_operators_status": "Four principal military operators are listed; fleet totals and retirement status are date-sensitive."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -69194,105 +69239,105 @@
     },
     "engine_details": {
       "type": "Turboshaft",
-      "summary": "Eurocopter Tiger uses turboshaft propulsion."
+      "summary": "Twin MTR390-family turboshaft installation; Airbus describes enhanced MTR390 engines on the Tiger HAD."
     },
     "armament_details": {
-      "summary": "Cannon, rockets, and guided missiles.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "National fits include a 30 mm cannon on most non-UHT versions, unguided rockets, Hellfire or Spike-family anti-tank missiles where cleared, PARS 3 LR/HOT in German contexts, and Mistral or Stinger air-to-air missiles depending on operator.",
+      "caution": "Weapon availability is variant- and operator-specific; German UHT, French HAP/HAD, Spanish HAD, and Australian ARH fits should not be treated as interchangeable."
     },
     "similar_development": [
-      {
-        "id": "ah-1-cobra",
-        "name": "Bell AH-1 Cobra",
-        "url": "aircraft.html?id=ah-1-cobra"
-      },
       {
         "id": "ah-64-apache",
         "name": "Boeing AH-64 Apache",
         "url": "aircraft.html?id=ah-64-apache"
       },
       {
-        "id": "uh-1-iroquois",
-        "name": "Bell UH-1 Iroquois",
-        "url": "aircraft.html?id=uh-1-iroquois"
+        "id": "ah-1-cobra",
+        "name": "Bell AH-1 Cobra",
+        "url": "aircraft.html?id=ah-1-cobra"
       },
       {
-        "id": "uh-60-black-hawk",
-        "name": "Sikorsky UH-60 Black Hawk",
-        "url": "aircraft.html?id=uh-60-black-hawk"
+        "id": "mi-24",
+        "name": "Mil Mi-24 Hind",
+        "url": "aircraft.html?id=mi-24"
+      },
+      {
+        "id": "ka-52",
+        "name": "Kamov Ka-52 Alligator",
+        "url": "aircraft.html?id=ka-52"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 35,
+      "operator_entries": 4,
+      "variant_entries": 5,
+      "external_article_sources": 4
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-airbus-tiger",
+        "title": "Tiger — The combat-proven attack helicopter",
+        "url": "https://www.airbus.com/en/products-services/helicopters/military-helicopters/tiger",
+        "publisher": "Airbus",
+        "note": "Manufacturer page used for mission roles, cockpit, avionics, survivability, MTR390-family engine wording, operational-deployment examples, and Tiger HAD Block 2 context."
+      },
+      {
+        "id": "fn-airbus-mark-iii",
+        "title": "Sharpening its claws: the Tiger gets ready for future battles",
+        "url": "https://www.airbus.com/en/newsroom/stories/2026-06-sharpening-its-claws-the-tiger-gets-ready-for-future-battles",
+        "publisher": "Airbus",
+        "note": "Manufacturer newsroom context for Mark III modernization; used only for broad upgrade framing."
+      },
+      {
+        "id": "fn-wikipedia-tiger",
         "title": "Eurocopter Tiger",
         "url": "https://en.wikipedia.org/wiki/Eurocopter_Tiger",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "note": "Supplementary orientation source for public specification figures, dates, operator/variant names, and terminology; cross-check before using for sensitive or date-dependent claims."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "id": "fn-helis-tiger",
+        "title": "Eurocopter / Airbus Tiger helicopter history",
+        "url": "http://www.helis.com/Since80s/h_aetg.php",
+        "publisher": "Helis.com",
+        "note": "Supplementary aviation reference retained from the generated entry for production and operator-history orientation."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.helis.com/Since80s/h_aetg.php",
-        "publisher": "helis.com",
-        "note": "External source for Eurocopter Tiger."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.defenseindustrydaily.com/2005/12/france-spain-order-new-eurocopter-tiger-had-variant-updated/index.php",
-        "publisher": "defenseindustrydaily.com",
-        "note": "External source for Eurocopter Tiger."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.defence.gov.au/dmo/asd/air87/main.cfm",
-        "publisher": "defence.gov.au",
-        "note": "External source for Eurocopter Tiger."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
+        "id": "fn-airbus-tiger",
+        "title": "Tiger — The combat-proven attack helicopter",
+        "url": "https://www.airbus.com/en/products-services/helicopters/military-helicopters/tiger",
+        "publisher": "Airbus",
+        "note": "Manufacturer page used for mission roles, cockpit, avionics, survivability, MTR390-family engine wording, operational-deployment examples, and Tiger HAD Block 2 context."
+      },
+      {
+        "id": "fn-airbus-mark-iii",
+        "title": "Sharpening its claws: the Tiger gets ready for future battles",
+        "url": "https://www.airbus.com/en/newsroom/stories/2026-06-sharpening-its-claws-the-tiger-gets-ready-for-future-battles",
+        "publisher": "Airbus",
+        "note": "Manufacturer newsroom context for Mark III modernization; used only for broad upgrade framing."
+      },
+      {
+        "id": "fn-wikipedia-tiger",
+        "title": "Eurocopter Tiger",
+        "url": "https://en.wikipedia.org/wiki/Eurocopter_Tiger",
+        "publisher": "Wikipedia",
+        "note": "Supplementary orientation source for public specification figures, dates, operator/variant names, and terminology; cross-check before using for sensitive or date-dependent claims."
+      },
+      {
+        "id": "fn-helis-tiger",
+        "title": "Eurocopter / Airbus Tiger helicopter history",
         "url": "http://www.helis.com/Since80s/h_aetg.php",
-        "publisher": "helis.com",
-        "note": "External source for Eurocopter Tiger."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.defenseindustrydaily.com/2005/12/france-spain-order-new-eurocopter-tiger-had-variant-updated/index.php",
-        "publisher": "defenseindustrydaily.com",
-        "note": "External source for Eurocopter Tiger."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.defence.gov.au/dmo/asd/air87/main.cfm",
-        "publisher": "defence.gov.au",
-        "note": "External source for Eurocopter Tiger."
+        "publisher": "Helis.com",
+        "note": "Supplementary aviation reference retained from the generated entry for production and operator-history orientation."
       }
     ],
     "article_sections": [
@@ -69301,65 +69346,86 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Eurocopter Tiger is an Attack helicopter from France/Germany. Manufacturer: Eurocopter / Airbus Helicopters. First flight: 1991. Introduction: 2003. Status: Active.",
+            "text": "The Eurocopter EC665 Tiger is a European attack helicopter developed by the Franco-German Eurocopter partnership and now supported by Airbus Helicopters. It is a two-seat, twin-engine battlefield helicopter intended for armed reconnaissance, escort, close support, air-to-air self-defense, and anti-armor missions rather than heavy-lift or utility transport work.",
             "refs": [
-              "fn-main"
+              "fn-airbus-tiger"
             ]
           },
           {
-            "text": "Eurocopter Tiger is a helicopter. Primary role: attack helicopter. Country of origin: France/Germany. Manufacturer: Eurocopter / Airbus Helicopters.",
+            "text": "Compared with older attack helicopters, the Tiger emphasized a narrow composite airframe, a tandem glass cockpit, high agility, reduced visual/radar/infrared signatures, and survivability features such as ballistic protection, crashworthiness, self-sealing tanks, and segregated redundant systems.",
             "refs": [
-              "fn-wikidata"
+              "fn-airbus-tiger"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Public data can be confusing because French HAP/HAD, German UHT, Spanish HAD, and Australian ARH aircraft differ in sensors, cannon fit, anti-tank missiles, communications, and upgrade status. This page therefore treats performance and weapons figures as representative unless a national variant is named.",
             "refs": [
-              "fn-method"
+              "fn-method",
+              "fn-wikipedia-tiger"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Attack helicopter"
+            "text": "Attack / armed reconnaissance helicopter"
           },
           {
-            "title": "Designer or builder",
-            "text": "Eurocopter / Airbus Helicopters"
-          },
-          {
-            "title": "Major origin",
-            "text": "France, Germany"
+            "title": "Crew",
+            "text": "2 in tandem cockpit"
           },
           {
             "title": "Propulsion",
-            "text": "Turboshaft"
+            "text": "Twin MTR390-family turboshafts"
+          },
+          {
+            "title": "Main operators",
+            "text": "France, Germany, Spain, Australia"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Eurocopter Tiger first flew in 1991. Introduction date: 2003. Era: Modern.",
+            "text": "The Tiger grew from a French and West German Cold War requirement for an advanced anti-tank helicopter. After the Cold War ended, the program continued but broadened toward multi-role attack and support missions rather than a single Warsaw Pact armor threat.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia-tiger"
             ]
           },
           {
-            "text": "Producer: Eurocopter / Airbus Helicopters. Development context: attack helicopter, turboshaft propulsion, subsonic speed category, Modern era.",
+            "text": "The first Tiger prototype flew on 27 April 1991, and the type entered service in the early 2000s. Eurocopter later became Airbus Helicopters, which continues to market and support the aircraft under the Airbus Tiger name.",
             "refs": [
-              "fn-wikidata"
+              "fn-wikipedia-tiger",
+              "fn-airbus-tiger"
+            ]
+          },
+          {
+            "text": "National requirements produced distinct versions: France initially emphasized escort and support, Germany emphasized anti-tank reconnaissance with different sighting and gun arrangements, Spain adopted the HAD attack standard, and Australia fielded the ARH armed reconnaissance version.",
+            "refs": [
+              "fn-wikipedia-tiger",
+              "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing lift, survivability, vibration, hot-and-high performance, and battlefield maintainability.",
+            "text": "Cold War origin: advanced Franco-German anti-tank helicopter requirement.",
             "refs": [
-              "fn-method"
+              "fn-wikipedia-tiger"
+            ]
+          },
+          {
+            "text": "Post-Cold War shift: broader armed reconnaissance, escort, ground-support, and peacekeeping missions.",
+            "refs": [
+              "fn-airbus-tiger"
+            ]
+          },
+          {
+            "text": "Upgrade path: Airbus describes Tiger Mark III work as a modernization of avionics and weaponry for future battlefield networking.",
+            "refs": [
+              "fn-airbus-mark-iii"
             ]
           }
         ]
@@ -69369,27 +69435,73 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 2. Propulsion: Turboshaft. Speed category: Subsonic.",
+            "text": "The Tiger has a tandem-seat glass cockpit. Airbus states that both crew members can manage weapon systems and primary flight controls, with multifunction displays, helmet-mounted display functions, and sensor information presented to support rapid role sharing.",
             "refs": [
-              "fn-main"
+              "fn-airbus-tiger"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Airbus describes the Tiger HAD with a 13-meter four-bladed hingeless main rotor and enhanced MTR390 turboshaft engines. The aircraft uses digital battlefield-management and map systems, integrated radios, satellite communications/data links, IFF equipment, and a four-axis digital automatic flight-control system.",
             "refs": [
-              "fn-method"
+              "fn-airbus-tiger"
             ]
           },
           {
-            "text": "Eurocopter Tiger uses turboshaft propulsion. Engine model field: Not listed.",
+            "text": "Targeting equipment varies by version. Airbus describes a roof-mounted sight for Tiger HAD with TV camera, thermal imager, laser rangefinder/designator, and laser spot tracker; German UHT aircraft are commonly associated with mast-mounted sight arrangements.",
             "refs": [
-              "fn-main"
+              "fn-airbus-tiger",
+              "fn-wikipedia-tiger"
             ]
           },
           {
-            "text": "Armament field: Cannon, rockets, and guided missiles. Exact weapon list: Not listed.",
+            "text": "Armament should be read by national standard. Cannon-equipped HAP/HAD/ARH aircraft are not the same as German UHT aircraft, and anti-tank missile clearances such as Hellfire, Spike, PARS 3 LR, or HOT depend on country, block, and period.",
             "refs": [
-              "fn-main"
+              "fn-method",
+              "fn-wikipedia-tiger"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Rotor",
+            "text": "13 m four-bladed hingeless main rotor (Tiger HAD description)"
+          },
+          {
+            "title": "Avionics",
+            "text": "EUROGRID/digital map, radios/data links, IFF, 4-axis AFCS"
+          },
+          {
+            "title": "Sensors",
+            "text": "TV/thermal/laser sighting systems, variant-dependent"
+          },
+          {
+            "title": "Survivability",
+            "text": "Narrow composite shape, reduced signatures, armor, self-sealing tanks"
+          }
+        ]
+      },
+      {
+        "id": "specifications",
+        "title": "Specifications",
+        "paragraphs": [
+          {
+            "text": "Representative public specification figures normally describe the Tiger HAD or a closely related production standard. Actual values vary with sight fit, external tanks, weapons, armor, temperature, altitude, and national modifications.",
+            "refs": [
+              "fn-method",
+              "fn-wikipedia-tiger"
+            ]
+          },
+          {
+            "text": "Commonly cited Tiger HAD figures include crew of two; fuselage length about 13.85 m; height about 3.84 m without top-mounted sensors; main-rotor diameter about 13 m; maximum takeoff weight about 6,600 kg; and two MTR390-family turboshaft engines.",
+            "refs": [
+              "fn-wikipedia-tiger",
+              "fn-airbus-tiger"
+            ]
+          },
+          {
+            "text": "Representative performance figures include maximum speed around 290 km/h with mast/roof sight equipment, cruise speed around 271 km/h, armed combat range around 740 km with standard fuel, ferry range around 1,130 km with external tanks, service ceiling around 4,000 m, and climb rate around 10.7 m/s.",
+            "refs": [
+              "fn-wikipedia-tiger"
             ]
           }
         ],
@@ -69399,77 +69511,20 @@
             "text": "2"
           },
           {
-            "title": "Engine class",
-            "text": "Turboshaft"
+            "title": "Max takeoff weight",
+            "text": "About 6,600 kg"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Maximum speed",
+            "text": "About 290 km/h, configuration-dependent"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Combat/ferry range",
+            "text": "About 740 km armed / 1,130 km ferry (public HAD figures)"
           },
           {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Eurocopter Tiger status: Active. Conflict entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: 0 entries.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Eurocopter Tiger named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Service ceiling",
+            "text": "About 4,000 m"
           }
         ]
       },
@@ -69478,41 +69533,43 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Eurocopter Tiger variant-family entries: 4. Variant families: Eurocopter Tiger baseline production model; Eurocopter Tiger upgraded avionics or weapons-capable model; Eurocopter Tiger two-seat trainer or conversion model; Eurocopter Tiger utility, attack, naval, or export model.",
+            "text": "Tiger variants are best understood as national mission standards rather than a simple single production block. The same airframe family can carry very different sensors, cannon arrangements, missile types, radios, and software depending on the customer.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-method",
+              "fn-wikipedia-tiger"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Eurocopter Tiger baseline production model",
+            "text": "Tiger HAP — French support-and-protection version for escort, fire support, and air-to-air self-defense.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia-tiger"
             ]
           },
           {
-            "text": "Eurocopter Tiger upgraded avionics or weapons-capable model",
+            "text": "Tiger HAD — multi-role attack standard for France and Spain with improved engines, communications, and anti-tank missile integration; Airbus describes Block 2 as Navy-capable for maritime environments.",
             "refs": [
-              "fn-main"
+              "fn-airbus-tiger"
             ]
           },
           {
-            "text": "Eurocopter Tiger two-seat trainer or conversion model",
+            "text": "Tiger UHT/KHT — German anti-tank/support configuration with a distinct sight and weapons arrangement; cannon and missile assumptions from HAP/HAD should not be copied directly.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia-tiger",
+              "fn-method"
             ]
           },
           {
-            "text": "Eurocopter Tiger utility, attack, naval, or export model",
+            "text": "Tiger ARH — Australian armed reconnaissance version adapted to Australian requirements; being replaced by AH-64E Apache.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia-tiger"
+            ]
+          },
+          {
+            "text": "Tiger Mark III — modernization path for future avionics, communications, and weapons; participation and delivery status are date-sensitive.",
+            "refs": [
+              "fn-airbus-mark-iii"
             ]
           }
         ]
@@ -69522,45 +69579,66 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: France, Germany. Eurocopter Tiger has 2 designer or builder country entry.",
+            "text": "The principal Tiger operators have been France, Germany, Spain, and Australia. Current fleet totals should be checked against recent national releases because Australia is replacing Tiger ARH and Germany has announced replacement plans rather than a full long-term Tiger modernization.",
             "refs": [
-              "fn-wikidata"
+              "fn-wikipedia-tiger",
+              "fn-method"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Airbus cites operational deployments in Afghanistan, the Central African Republic, Libya, and Mali as evidence of the type’s combat use and maintainability in expeditionary conditions.",
             "refs": [
-              "fn-method"
+              "fn-airbus-tiger"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "France — French Army Light Aviation Tigre HAP/HAD force, with expeditionary combat deployments.",
             "refs": [
-              "fn-main"
+              "fn-airbus-tiger"
             ]
           },
           {
-            "text": "Major designer or builder entries: France, Germany.",
+            "text": "Germany — German Army UHT force, configured differently from cannon-equipped HAP/HAD aircraft.",
             "refs": [
-              "fn-wikidata"
+              "fn-wikipedia-tiger"
+            ]
+          },
+          {
+            "text": "Spain — FAMET Tiger HAD operator with Spanish mission equipment and anti-armor fit.",
+            "refs": [
+              "fn-airbus-tiger",
+              "fn-wikipedia-tiger"
+            ]
+          },
+          {
+            "text": "Australia — Tiger ARH armed reconnaissance operator; replacement by AH-64E makes current status time-sensitive.",
+            "refs": [
+              "fn-wikipedia-tiger",
+              "fn-method"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 2, propulsion type Turboshaft, maximum speed category Subsonic, first flight 1991, introduction 2003.",
+            "text": "The Tiger’s combat record is tied mainly to expeditionary armed reconnaissance, escort, and close-support deployments rather than massed tank warfare. Airbus specifically names Afghanistan, the Central African Republic, Libya, and Mali among operational deployments.",
             "refs": [
-              "fn-main"
+              "fn-airbus-tiger"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "The type’s operational value rests on a combination of sensors, agility, survivability, and networked avionics. Airbus emphasizes maintainability in field conditions, including reduced need for heavy infrastructure during deployed maintenance tasks.",
+            "refs": [
+              "fn-airbus-tiger"
+            ]
+          },
+          {
+            "text": "Operational judgments should remain cautious: different operators used different versions, fleet availability has varied, and several countries have chosen replacement or modernization paths at different times.",
             "refs": [
               "fn-method"
             ]
@@ -69568,11 +69646,119 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "comparison",
+        "title": "Comparison",
         "paragraphs": [
           {
-            "text": "Eurocopter Tiger similar-development links: 4.",
+            "text": "Against the AH-64 Apache, the Tiger is generally a lighter European attack helicopter with strong reconnaissance/escort emphasis and national weapon fits; the Apache is larger, more widely exported, and has a deeper U.S.-led upgrade ecosystem.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Against older attack helicopters such as the AH-1 Cobra or Mi-24, the Tiger reflects a later design generation with extensive composite structure, glass cockpit integration, reduced signatures, and digital battlefield systems.",
+            "refs": [
+              "fn-airbus-tiger",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The Tiger should not be compared as a troop-carrying gunship like the Mi-24: it is a tandem two-seat attack helicopter, not an assault transport helicopter.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include agility, a small/narrow silhouette, reduced signatures, modern crew displays, flexible mission sensors, and survivability features designed for battlefield exposure.",
+            "refs": [
+              "fn-airbus-tiger"
+            ]
+          },
+          {
+            "text": "Limitations and caveats include smaller production numbers than the AH-64, variant-specific weapons integration, changing operator commitment, and the need to distinguish public manufacturer claims from measured combat effectiveness.",
+            "refs": [
+              "fn-method",
+              "fn-wikipedia-tiger"
+            ]
+          },
+          {
+            "text": "The aircraft’s capabilities improve significantly with software, sensors, missiles, and communications upgrades, so older HAP/UHT/ARH descriptions may not match newer HAD Block 2 or Mark III discussions.",
+            "refs": [
+              "fn-airbus-tiger",
+              "fn-airbus-mark-iii"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1980s — France and West Germany define a new advanced anti-tank helicopter requirement.",
+            "refs": [
+              "fn-wikipedia-tiger"
+            ]
+          },
+          {
+            "text": "27 April 1991 — First Tiger prototype flight.",
+            "refs": [
+              "fn-wikipedia-tiger"
+            ]
+          },
+          {
+            "text": "2003 — Initial service-entry period.",
+            "refs": [
+              "fn-wikipedia-tiger"
+            ]
+          },
+          {
+            "text": "2000s–2010s — Deployments and operational use by European operators in Afghanistan, Libya, Mali, and the Central African Republic.",
+            "refs": [
+              "fn-airbus-tiger"
+            ]
+          },
+          {
+            "text": "2020s — Airbus promotes Tiger modernization and Mark III work while some operators pursue replacement plans.",
+            "refs": [
+              "fn-airbus-mark-iii",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Airbus was used for manufacturer descriptions of mission roles, cockpit, avionics, survivability, deployments, and upgrade context. Wikipedia and Helis.com were retained only as supplementary orientation for dates, variant names, public specifications, and operator status.",
+            "refs": [
+              "fn-airbus-tiger",
+              "fn-wikipedia-tiger",
+              "fn-helis-tiger"
+            ]
+          },
+          {
+            "text": "Exact fleet totals, current service status, and weapon clearances are date-sensitive and should be verified against national procurement or service releases before being treated as final.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages place the Tiger beside other attack helicopters and armed rotorcraft for comparison.",
             "refs": [
               "fn-method"
             ]
@@ -69580,20 +69766,24 @@
         ],
         "links": [
           {
-            "label": "Bell AH-1 Cobra",
-            "url": "aircraft.html?id=ah-1-cobra"
-          },
-          {
             "label": "Boeing AH-64 Apache",
             "url": "aircraft.html?id=ah-64-apache"
           },
           {
-            "label": "Bell UH-1 Iroquois",
-            "url": "aircraft.html?id=uh-1-iroquois"
+            "label": "Bell AH-1 Cobra",
+            "url": "aircraft.html?id=ah-1-cobra"
           },
           {
-            "label": "Sikorsky UH-60 Black Hawk",
-            "url": "aircraft.html?id=uh-60-black-hawk"
+            "label": "Mil Mi-24 Hind",
+            "url": "aircraft.html?id=mi-24"
+          },
+          {
+            "label": "Kamov Ka-52 Alligator",
+            "url": "aircraft.html?id=ka-52"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }
