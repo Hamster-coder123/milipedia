@@ -57576,34 +57576,106 @@
   {
     "id": "mirage-f1",
     "name": "Dassault Mirage F1",
-    "alternative_names": [],
+    "alternative_names": [
+      "Mirage F1C",
+      "Mirage F1CR",
+      "Mirage F1CT",
+      "Mirage F1B",
+      "Mirage F1AZ",
+      "Mirage F1E"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "France",
     "manufacturer": "Dassault Aviation",
-    "role": "Fighter",
-    "aircraft_type": "Fighter",
-    "era": "Cold War",
-    "first_flight": "1966",
+    "role": "Interceptor / multirole fighter and attack aircraft",
+    "aircraft_type": "Single-engine supersonic combat aircraft",
+    "era": "Cold War / late 20th century",
+    "first_flight": "23 December 1966",
     "introduction_date": "1973",
-    "retirement_date": null,
-    "status": "Active/retired by operator",
-    "number_built": "Not listed",
-    "crew": "1",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "retirement_date": "Retired by the French Air Force in 2014; limited use and private aggressor service continued by some operators",
+    "status": "Out of French service; active/retired by operator",
+    "number_built": "About 725-726 aircraft, depending on source counting of prototypes/trainers",
+    "crew": "1 (2 in Mirage F1B trainers)",
+    "engine_type": "Turbojet",
+    "engines": "1 × SNECMA Atar 9K-50 afterburning turbojet, 70.6 kN (15,872 lbf) with afterburner",
+    "max_speed": "About Mach 2.0+ / 2,350 km/h (1,460 mph) at altitude",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Dassault Mirage F1: Fighter. Manufacturer: Dassault Aviation. First flight: 1966. Introduction: 1973.",
-    "short_summary": "Dassault Mirage F1: Fighter. Origin: France. Manufacturer: Dassault Aviation. First flight: 1966. Introduction: 1973. Status: Active/retired by operator.",
+    "range": "About 850 km clean/typical published range; ferry range varied with tanks and configuration",
+    "combat_range": "Mission radius varied strongly by fuel, weapons, tanks, altitude profile, and reconnaissance or strike fit",
+    "service_ceiling": "18,500-19,995 m (about 60,700-65,600 ft), depending on source and configuration",
+    "rate_of_climb": "Public sources vary; private operators cite over 47,000 ft/min for clean Mirage F1B-type aircraft",
+    "armament": "Two 30 mm DEFA cannon plus variant- and operator-dependent air-to-air missiles, unguided/laser-guided bombs, rockets, reconnaissance pods, external tanks, and anti-ship or precision stores where integrated.",
+    "hardpoints": "Multiple external stations; exact load, adapters, and weapon clearances varied by F1C/F1A/F1E/F1CR/F1CT and national upgrade standard.",
+    "variants": [
+      {
+        "name": "Mirage F1C",
+        "description": "Basic single-seat all-weather air-defense interceptor for the French Air Force, later including F1C-200 aircraft with a fixed refuelling probe."
+      },
+      {
+        "name": "Mirage F1A / F1AZ",
+        "description": "Simplified day attack/export version with reduced interceptor avionics and additional fuel; the F1AZ was built for South Africa."
+      },
+      {
+        "name": "Mirage F1B",
+        "description": "Two-seat operational conversion trainer, initially developed for Kuwait and also acquired by France."
+      },
+      {
+        "name": "Mirage F1E",
+        "description": "Multirole export family with avionics and weapons integration tailored for air-to-ground missions and longer firing ranges."
+      },
+      {
+        "name": "Mirage F1CR / F1R",
+        "description": "Reconnaissance versions; the F1CR served France while the F1R designation covered export reconnaissance aircraft."
+      },
+      {
+        "name": "Mirage F1CT",
+        "description": "French tactical-attack conversion of former F1C aircraft, used after the Mirage IIIE generation aged out."
+      },
+      {
+        "name": "National upgrades",
+        "description": "Modernization programs such as Spain’s F1M and other operator-specific radar, navigation, communication, and weapons updates changed cockpit and armament details substantially."
+      }
+    ],
+    "operators": [
+      {
+        "country": "France",
+        "service": "French Air Force / Armée de l’Air",
+        "notes": "Original operator. Mirage F1C interceptors entered service in the 1970s; F1CR reconnaissance and F1CT strike aircraft served until French retirement in 2014."
+      },
+      {
+        "country": "Spain",
+        "service": "Spanish Air Force",
+        "notes": "Major European export user of Mirage F1CE/EE/BE aircraft and later Mirage F1M upgrades before retirement."
+      },
+      {
+        "country": "Morocco",
+        "service": "Royal Moroccan Air Force",
+        "notes": "Operated Mirage F1CH/EH aircraft and later upgraded aircraft; used the type in regional service."
+      },
+      {
+        "country": "South Africa",
+        "service": "South African Air Force",
+        "notes": "Operated Mirage F1AZ attack and F1CZ interceptor versions, including combat use during the Border War era."
+      },
+      {
+        "country": "Iraq",
+        "service": "Iraqi Air Force",
+        "notes": "Large export customer; Iraqi Mirage F1EQ/BQ aircraft were used in the Iran-Iraq War and Gulf War era. Individual claims and losses should be treated cautiously."
+      },
+      {
+        "country": "Greece, Kuwait, Libya, Ecuador, Jordan, Qatar and others",
+        "service": "National air forces",
+        "notes": "Dassault lists Mirage F1 export service with these countries; aircraft status and upgrade standard differed by operator and date."
+      },
+      {
+        "country": "United States (private contractor use)",
+        "service": "Airborne Tactical Advantage Company and other adversary-support users",
+        "notes": "Former military Mirage F1 aircraft have been used in private adversary/aggressor training after retirement from front-line air forces."
+      }
+    ],
+    "combat_history": "Used by several export operators in regional wars and crisis deployments, including Moroccan, South African, Iraqi, Ecuadorian, Libyan, and French operations; claims and losses vary by conflict and source.",
+    "development_history": "Dassault developed the Mirage F1 as a smaller swept-wing successor to the Mirage III/5 line, emphasizing Mach 2 interception, shorter takeoff and landing distances, improved low-speed handling, and export affordability.",
+    "short_summary": "French Mach 2 swept-wing Mirage-family fighter that replaced early Mirage III interceptors, added better runway performance than the delta-wing Mirages, and became a widely exported air-defense, attack, and reconnaissance platform.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -57614,50 +57686,7 @@
         "license": "Verify original file license before reuse."
       }
     ],
-    "sources": [
-      {
-        "id": "fn-main",
-        "title": "Dassault Mirage F1",
-        "url": "https://en.wikipedia.org/wiki/Dassault_Mirage_F1",
-        "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
-      },
-      {
-        "id": "fn-method",
-        "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
-        "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://fas.org/man/dod-101/sys/ac/row/mirage-f1.htm",
-        "publisher": "fas.org",
-        "note": "External source for Dassault Mirage F1."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.ambafrance-us.org/atoz/defense/defense24.asp",
-        "publisher": "ambafrance-us.org",
-        "note": "External source for Dassault Mirage F1."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.lemonde.fr/web/article/0,1-0@2-3216,36-982104@51-907647,0.html",
-        "publisher": "lemonde.fr",
-        "note": "External source for Dassault Mirage F1."
-      }
-    ],
+    "sources": [],
     "country_flags": [
       {
         "label": "France",
@@ -57671,18 +57700,31 @@
       "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
       "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
     ],
-    "wars_used_in": [],
+    "wars_used_in": [
+      "Western Sahara War",
+      "South African Border War",
+      "Iran-Iraq War",
+      "Gulf War",
+      "Cenepa War",
+      "Chadian-Libyan conflict",
+      "2011 Libya intervention",
+      "French overseas crisis deployments"
+    ],
     "variant_families": [
-      "Dassault Mirage F1 baseline production model",
-      "Dassault Mirage F1 upgraded avionics or weapons-capable model",
-      "Dassault Mirage F1 export or locally modernized model"
+      "Mirage F1C/F1C-200 air-defence interceptor family",
+      "Mirage F1B two-seat conversion trainer",
+      "Mirage F1A/F1AZ simplified day-attack/export family",
+      "Mirage F1E multirole export family",
+      "Mirage F1CR/F1R reconnaissance family",
+      "Mirage F1CT French tactical-attack conversion",
+      "National modernizations such as the Spanish Mirage F1M and Moroccan/other upgrade standards"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "France"
       ],
-      "major_user_note": "Dassault Mirage F1 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Original French operator with broad export use across Europe, the Middle East, Africa, and Latin America.",
+      "all_operators_status": "Operator status varies; France and Spain retired the type, while some airframes continued in limited state or private adversary use."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -57695,18 +57737,27 @@
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Dassault Mirage F1 uses jet propulsion."
+      "model": "SNECMA Atar 9K-50",
+      "type": "afterburning turbojet",
+      "thrust": "70.6 kN / 15,872 lbf with afterburner",
+      "notes": "Prototype aircraft initially used interim Atar 9K-31 power before production-standard Atar 9K-50 aircraft."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "guns": "2 × 30 mm DEFA cannon on fighter/attack variants",
+      "air_to_air": "Matra R.530/Super 530, Magic-family, Sidewinder or other operator-integrated missiles depending on national standard",
+      "air_to_ground": "Conventional bombs, rockets, tanks, reconnaissance pods and some precision/anti-ship stores where integrated",
+      "caution": "Mirage F1 weapons fits are highly variant- and operator-specific; public sources should not be read as universal clearance for every airframe."
     },
     "similar_development": [
       {
-        "id": "f-4-phantom-ii",
-        "name": "McDonnell Douglas F-4 Phantom II",
-        "url": "aircraft.html?id=f-4-phantom-ii"
+        "id": "mirage-iii",
+        "name": "Dassault Mirage III",
+        "url": "aircraft.html?id=mirage-iii"
+      },
+      {
+        "id": "mirage-2000",
+        "name": "Dassault Mirage 2000",
+        "url": "aircraft.html?id=mirage-2000"
       },
       {
         "id": "f-5-freedom-fighter-tiger-ii",
@@ -57714,87 +57765,87 @@
         "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
       },
       {
-        "id": "f-8-crusader",
-        "name": "Vought F-8 Crusader",
-        "url": "aircraft.html?id=f-8-crusader"
+        "id": "f-4-phantom-ii",
+        "name": "McDonnell Douglas F-4 Phantom II",
+        "url": "aircraft.html?id=f-4-phantom-ii"
       },
       {
-        "id": "f-14-tomcat",
-        "name": "Grumman F-14 Tomcat",
-        "url": "aircraft.html?id=f-14-tomcat"
+        "id": "sepecat-jaguar",
+        "name": "SEPECAT Jaguar",
+        "url": "aircraft.html?id=sepecat-jaguar"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 35,
+      "operator_entries": 7,
+      "variant_entries": 7,
+      "external_article_sources": 4
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-dassault",
+        "title": "Mirage F1: origins, characteristics and performance data",
+        "url": "https://www.dassault-aviation.com/en/passion/aircraft/military-dassault-aircraft/mirage-f1/",
+        "publisher": "Dassault Aviation",
+        "note": "Primary manufacturer source for development narrative, prototype dates, French production-service context, variants, export customers, and datasheet values."
+      },
+      {
+        "id": "fn-flugzeuginfo",
+        "title": "Dassault Mirage F1 - Specifications",
+        "url": "http://www.flugzeuginfo.net/acdata_php/acdata_miragef1_en.php",
+        "publisher": "flugzeuginfo.net",
+        "note": "Supplementary public technical data for Mirage F1C; values are treated as representative because equipment and loads varied."
+      },
+      {
+        "id": "fn-atac",
+        "title": "Mirage F1",
+        "url": "https://www.atacusa.com/mirage-f1",
+        "publisher": "Airborne Tactical Advantage Company",
+        "note": "Supplementary private-operator context for retained adversary-training aircraft and performance envelope; exact values may reflect ATAC aircraft fit."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Dassault Mirage F1",
         "url": "https://en.wikipedia.org/wiki/Dassault_Mirage_F1",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for broad service history and conflict lists; used cautiously and cross-checked against manufacturer/specification sources."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://fas.org/man/dod-101/sys/ac/row/mirage-f1.htm",
-        "publisher": "fas.org",
-        "note": "External source for Dassault Mirage F1."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.ambafrance-us.org/atoz/defense/defense24.asp",
-        "publisher": "ambafrance-us.org",
-        "note": "External source for Dassault Mirage F1."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.lemonde.fr/web/article/0,1-0@2-3216,36-982104@51-907647,0.html",
-        "publisher": "lemonde.fr",
-        "note": "External source for Dassault Mirage F1."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://fas.org/man/dod-101/sys/ac/row/mirage-f1.htm",
-        "publisher": "fas.org",
-        "note": "External source for Dassault Mirage F1."
+        "id": "fn-dassault",
+        "title": "Mirage F1: origins, characteristics and performance data",
+        "url": "https://www.dassault-aviation.com/en/passion/aircraft/military-dassault-aircraft/mirage-f1/",
+        "publisher": "Dassault Aviation",
+        "note": "Manufacturer history, prototype chronology, production-service summary, variants, export users, and datasheet."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.ambafrance-us.org/atoz/defense/defense24.asp",
-        "publisher": "ambafrance-us.org",
-        "note": "External source for Dassault Mirage F1."
+        "id": "fn-flugzeuginfo",
+        "title": "Dassault Mirage F1 - Specifications",
+        "url": "http://www.flugzeuginfo.net/acdata_php/acdata_miragef1_en.php",
+        "publisher": "flugzeuginfo.net",
+        "note": "Supplementary specification table for Mirage F1C dimensions, weights, engine, speed, ceiling, range, and production count."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.lemonde.fr/web/article/0,1-0@2-3216,36-982104@51-907647,0.html",
-        "publisher": "lemonde.fr",
-        "note": "External source for Dassault Mirage F1."
+        "id": "fn-atac",
+        "title": "Mirage F1",
+        "url": "https://www.atacusa.com/mirage-f1",
+        "publisher": "Airborne Tactical Advantage Company",
+        "note": "Supplementary current/private aggressor-service performance context; used cautiously where accessible public data overlaps."
+      },
+      {
+        "id": "fn-wikipedia",
+        "title": "Dassault Mirage F1",
+        "url": "https://en.wikipedia.org/wiki/Dassault_Mirage_F1",
+        "publisher": "Wikipedia",
+        "note": "Supplementary orientation for operator/conflict overview and cross-checking; not used as the sole source for key specifications."
       }
     ],
     "article_sections": [
@@ -57803,72 +57854,86 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Dassault Mirage F1 is a Fighter from France. Manufacturer: Dassault Aviation. First flight: 1966. Introduction: 1973. Status: Active/retired by operator.",
+            "text": "The Dassault Mirage F1 is a French single-engine supersonic fighter and attack aircraft developed as a swept-wing successor to the Mirage III/5 family. It kept the compact Mirage concept but traded the earlier delta wing for a high-mounted swept wing and conventional tail, giving better low-speed handling, shorter runway requirements, and more useful internal fuel for interceptor and export missions.",
             "refs": [
-              "fn-main"
+              "fn-dassault"
             ]
           },
           {
-            "text": "Dassault Mirage F1 is a fighter. Primary role: fighter. Country of origin: France. Manufacturer: Dassault Aviation.",
+            "text": "The first prototype flew on 23 December 1966, production aircraft entered French service in the 1970s, and the type became one of Dassault’s notable Cold War exports. Dassault states that 473 aircraft equipped export air forces including South Africa, Spain, Greece, Kuwait, Libya, Morocco, Ecuador, Iraq, Jordan and Qatar; total production is commonly listed at about 725-726 aircraft depending on counting method.",
             "refs": [
-              "fn-wikidata"
+              "fn-dassault",
+              "fn-flugzeuginfo",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Although conceived around all-weather interception, the Mirage F1 family grew into reconnaissance, tactical attack, training, and nationally modernized multirole variants. Exact radar, cockpit, weapons, and stores capability should be read by variant and operator rather than as a single universal Mirage F1 standard.",
             "refs": [
+              "fn-dassault",
               "fn-method"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Primary role",
-            "text": "Fighter"
+            "title": "Role",
+            "text": "Interceptor, attack, reconnaissance and export multirole fighter"
           },
           {
-            "title": "Designer or builder",
+            "title": "Manufacturer",
             "text": "Dassault Aviation"
           },
           {
-            "title": "Major origin",
-            "text": "France"
+            "title": "First flight",
+            "text": "23 December 1966"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Powerplant",
+            "text": "1 × SNECMA Atar 9K-50 afterburning turbojet"
+          },
+          {
+            "title": "Top speed",
+            "text": "Mach 2+ class"
+          },
+          {
+            "title": "Production",
+            "text": "About 725-726 aircraft; 473 exported according to Dassault"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Dassault Mirage F1 first flew in 1966. Introduction date: 1973. Era: Cold War.",
+            "text": "Dassault began small Mach 2 fighter studies in the mid-1960s as an affordable way to replace early Mirage III aircraft and preserve export prospects after larger projects became uncertain. French Air Force requirements emphasized all-weather interception, secondary penetration capability, use of shorter or rougher runways, and a lower approach speed than delta-wing Mirages.",
             "refs": [
-              "fn-main"
+              "fn-dassault"
             ]
           },
           {
-            "text": "Producer: Dassault Aviation. Development context: fighter, jet propulsion, supersonic speed category, Cold War era.",
+            "text": "The Mirage F1 01 prototype flew at Melun-Villaroche with René Bigand at the controls on 23 December 1966 and reached Mach 2 on its fourth flight. The first prototype was later lost to flutter during a high-speed low-altitude pass, but France ordered additional pre-production aircraft and continued the program.",
             "refs": [
-              "fn-wikidata"
+              "fn-dassault"
+            ]
+          },
+          {
+            "text": "Pre-production aircraft introduced the Atar 9K-50 engine and production avionics. The first production model flew from Mérignac on 15 February 1973 and was delivered to the French Air Force on 14 March 1974, beginning the operational F1C interceptor line.",
+            "refs": [
+              "fn-dassault"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "Design goal: a compact Mirage-family fighter with Mach 2 interception capability and improved runway performance."
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "Major change from Mirage III: high swept wing, conventional tail, leading-edge devices, and double-slotted flaps."
+          },
+          {
+            "text": "Production aircraft gained outer-wing leading-edge slats, improving maximum angle of attack compared with prototypes."
           }
         ]
       },
@@ -57877,177 +57942,46 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The Mirage F1 used a shoulder-mounted swept wing rather than the Mirage III delta. Dassault highlighted its ability to fly over Mach 2 while landing at about 125 knots, a key improvement for dispersed or less-developed airfields.",
             "refs": [
-              "fn-main"
+              "fn-dassault"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Power came from a single SNECMA Atar 9K-50 afterburning turbojet rated at 70.6 kN in the manufacturer and specification sources. The aircraft remained compact: Dassault lists an 8.40 m span and 15 m length, with a representative empty weight of 7,400 kg.",
             "refs": [
+              "fn-dassault",
+              "fn-flugzeuginfo"
+            ]
+          },
+          {
+            "text": "Baseline F1C aircraft were optimized for all-weather air defence; later F1E, F1CR, F1CT and national upgrade programs expanded air-to-ground, reconnaissance, navigation, and weapons integration. Because many export users modernized aircraft locally, avionics and weapons descriptions should be treated as family-level rather than universal.",
+            "refs": [
+              "fn-dassault",
               "fn-method"
-            ]
-          },
-          {
-            "text": "Dassault Mirage F1 uses jet propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "1"
+            "title": "Configuration",
+            "text": "Single-seat, single-engine swept-wing fighter (two seats in F1B)"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Engine",
+            "text": "SNECMA Atar 9K-50, 70.6 kN / 15,872 lbf with afterburner"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Wing and landing",
+            "text": "High swept wing, leading-edge devices and double-slotted flaps for lower approach speed"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Ceiling",
+            "text": "About 18,500 m / 60,700 ft in Dassault datasheet"
           },
           {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Dassault Mirage F1 status: Active/retired by operator. Conflict entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: 0 entries.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Dassault Mirage F1 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "variants",
-        "title": "Variants",
-        "paragraphs": [
-          {
-            "text": "Dassault Mirage F1 variant-family entries: 3. Variant families: Dassault Mirage F1 baseline production model; Dassault Mirage F1 upgraded avionics or weapons-capable model; Dassault Mirage F1 export or locally modernized model.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Dassault Mirage F1 baseline production model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Dassault Mirage F1 upgraded avionics or weapons-capable model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Dassault Mirage F1 export or locally modernized model",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "operators",
-        "title": "Operators",
-        "paragraphs": [
-          {
-            "text": "Designer or builder countries: France. Dassault Mirage F1 has 1 designer or builder country entry.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "All operators status: 0 operator entries listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Major designer or builder entries: France.",
-            "refs": [
-              "fn-wikidata"
-            ]
+            "title": "Armament caution",
+            "text": "Two 30 mm cannon plus variant/operator-specific missiles, bombs, pods and tanks"
           }
         ]
       },
@@ -58056,25 +57990,223 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Supersonic, first flight 1966, introduction 1973.",
+            "text": "Representative Mirage F1C-family figures are shown because public data differs by source, subvariant, fuel load, stores, and upgrade standard. Dassault’s datasheet gives the core configuration and Flugzeuginfo provides a useful supplemental Mirage F1C table.",
             "refs": [
-              "fn-main"
+              "fn-dassault",
+              "fn-flugzeuginfo"
             ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Crew",
+            "text": "1; F1B trainers seat 2"
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "15.00 m / 49 ft 3 in"
+          },
+          {
+            "title": "Wingspan",
+            "text": "8.40 m / 27 ft 7 in"
+          },
+          {
+            "title": "Height",
+            "text": "4.50 m / 14 ft 9 in (Flugzeuginfo)"
+          },
+          {
+            "title": "Empty weight",
+            "text": "7,400 kg / 16,314 lb"
+          },
+          {
+            "title": "Maximum takeoff weight",
+            "text": "15,200 kg / 33,510 lb (Flugzeuginfo)"
+          },
+          {
+            "title": "Engine",
+            "text": "1 × SNECMA Atar 9K-50 afterburning turbojet"
+          },
+          {
+            "title": "Maximum speed",
+            "text": "Mach 2+; about 2,350 km/h / 1,460 mph in Flugzeuginfo table"
+          },
+          {
+            "title": "Range",
+            "text": "About 850 km in a representative published table; ferry/mission radius varied"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "18,500 m / 60,700 ft (Dassault practical ceiling); some tables list higher values"
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "variants",
+        "title": "Variants",
         "paragraphs": [
           {
-            "text": "Dassault Mirage F1 similar-development links: 4.",
+            "text": "The Mirage F1 line was unusually broad for a compact fighter, with interceptor, attack, reconnaissance, trainer, export, and modernization branches. Dassault’s manufacturer history identifies the main F1C, F1A, F1B, F1R/F1CR and F1E families, while later national upgrades changed cockpit and weapons details.",
+            "refs": [
+              "fn-dassault",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Mirage F1C / F1C-200 — French all-weather air-defence fighter; F1C-200 aircraft added a refuelling probe and fuselage change."
+          },
+          {
+            "text": "Mirage F1A / F1AZ — simplified day-attack/export aircraft, notably the South African F1AZ, with additional fuel and reduced air-defence avionics."
+          },
+          {
+            "text": "Mirage F1B — two-seat conversion trainer developed for Kuwait and also used by France."
+          },
+          {
+            "text": "Mirage F1E — export multirole family with avionics better suited to air-to-ground missions and longer firing ranges."
+          },
+          {
+            "text": "Mirage F1CR / F1R — reconnaissance versions; F1CR served France while F1R covered export reconnaissance aircraft."
+          },
+          {
+            "text": "Mirage F1CT — French tactical-attack conversion used after older Mirage IIIE aircraft aged out."
+          },
+          {
+            "text": "Mirage F1M and other national upgrades — operator-specific modernization packages for radar, navigation, cockpit, communications, and weapons compatibility."
+          }
+        ]
+      },
+      {
+        "id": "operators",
+        "title": "Operators",
+        "paragraphs": [
+          {
+            "text": "France was the original operator and used the Mirage F1 as an interceptor, reconnaissance aircraft, and later tactical-attack platform before retiring its last examples in 2014. Dassault’s export list shows the aircraft served widely with air forces in Europe, Africa, the Middle East, and Latin America.",
+            "refs": [
+              "fn-dassault",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Some former military Mirage F1 airframes later moved into private adversary/aggressor training, where their supersonic performance and older fighter handling remain useful for dissimilar-air-combat training. Current status is date-sensitive and varies by operator.",
+            "refs": [
+              "fn-atac",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "France",
+            "text": "Original F1C/F1CR/F1CT/F1B operator; retired the type after Mirage 2000/Rafale replacement."
+          },
+          {
+            "title": "Spain",
+            "text": "Major European user and later F1M modernization operator before retirement."
+          },
+          {
+            "title": "Morocco and South Africa",
+            "text": "Important African export users; South Africa operated F1AZ and F1CZ versions."
+          },
+          {
+            "title": "Iraq, Kuwait, Qatar, Jordan and Libya",
+            "text": "Middle Eastern and North African export users with variant-specific service histories."
+          },
+          {
+            "title": "Ecuador and Greece",
+            "text": "Additional export operators listed in Dassault and public service summaries."
+          },
+          {
+            "title": "Private adversary use",
+            "text": "Retired airframes used by contractors for training support in the United States."
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "In French service, the Mirage F1 began as an air-defence replacement for early Mirage III interceptors, then expanded into reconnaissance and tactical attack as F1CR and F1CT aircraft arrived. Its combination of Mach 2 speed, lower landing speed, and export-friendly cost made it attractive to countries that needed a capable fighter without a heavy twin-engine support burden.",
+            "refs": [
+              "fn-dassault"
+            ]
+          },
+          {
+            "text": "Export aircraft saw combat with several operators, including South African, Moroccan, Iraqi, Ecuadorian, Libyan, and French deployments. Public accounts of air-to-air victories, losses, and weapons effectiveness are uneven, conflict-dependent, and sometimes politically contested, so the article avoids converting broad conflict lists into precise score tables.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "French Air Force: air-defence, reconnaissance, tactical attack, overseas deployments, and final retirement in 2014."
+          },
+          {
+            "text": "South African service: F1AZ/F1CZ aircraft used during the Border War era."
+          },
+          {
+            "text": "Iraqi service: major wartime use during the Iran-Iraq War and Gulf War period, including specialized export weapons fits."
+          },
+          {
+            "text": "Ecuadorian and Moroccan service: regional combat or crisis use reported in public histories."
+          },
+          {
+            "text": "Private aggressor service: retired airframes used for adversary training rather than front-line national air defence."
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The Mirage F1’s key strengths were its compact size, Mach 2-class performance, improved runway handling compared with delta-wing Mirages, and adaptability to interceptor, strike, reconnaissance, and export configurations. It gave many air forces a modern radar fighter that was less complex than heavier twin-engine aircraft.",
+            "refs": [
+              "fn-dassault"
+            ]
+          },
+          {
+            "text": "Limitations reflected its generation: a single Atar turbojet, modest internal volume, analogue-era avionics on early aircraft, and widely differing national upgrade standards. By the 2000s, modern fighters with pulse-Doppler radar, beyond-visual-range networking, and higher payload growth potential had largely replaced it in first-line service.",
+            "refs": [
+              "fn-method",
+              "fn-wikipedia"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Strength",
+            "text": "Shorter approach and landing speeds than earlier Mirage delta-wing fighters"
+          },
+          {
+            "title": "Strength",
+            "text": "Broad export adaptability and many national weapon/cockpit upgrades"
+          },
+          {
+            "title": "Limitation",
+            "text": "Older single-engine turbojet and limited growth margin by modern fighter standards"
+          },
+          {
+            "title": "Limitation",
+            "text": "Capabilities varied so much by operator that generic loadout claims can be misleading"
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Role Context",
+        "paragraphs": [
+          {
+            "text": "Compared with the Mirage III, the Mirage F1 was not just a new radar nose on the same concept: the swept wing and high-lift devices were central to its runway and handling improvements. Compared with the later Mirage 2000, it was a transitional design between classic analogue Mirages and the newer fly-by-wire delta fighter generation.",
+            "refs": [
+              "fn-dassault"
+            ]
+          },
+          {
+            "text": "The Mirage F1 occupied a similar export-fighter tier to aircraft such as the F-5 and later upgraded older F-4s: affordable, fast, adaptable, and often modernized locally. It was smaller and simpler than heavy twin-engine fighters, but that also limited payload, radar growth, and long-term upgrade potential.",
             "refs": [
               "fn-method"
             ]
@@ -58082,20 +58214,108 @@
         ],
         "links": [
           {
-            "label": "McDonnell Douglas F-4 Phantom II",
-            "url": "aircraft.html?id=f-4-phantom-ii"
+            "label": "Dassault Mirage III",
+            "url": "aircraft.html?id=mirage-iii"
+          },
+          {
+            "label": "Dassault Mirage 2000",
+            "url": "aircraft.html?id=mirage-2000"
           },
           {
             "label": "Northrop F-5",
             "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
           },
           {
-            "label": "Vought F-8 Crusader",
-            "url": "aircraft.html?id=f-8-crusader"
+            "label": "McDonnell Douglas F-4 Phantom II",
+            "url": "aircraft.html?id=f-4-phantom-ii"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1963 — French Air Force requirements emphasize all-weather interception, short-field operation, and lower approach speed."
           },
           {
-            "label": "Grumman F-14 Tomcat",
-            "url": "aircraft.html?id=f-14-tomcat"
+            "text": "Mid-1964 — Dassault begins design work on a small Mach 2 successor to the Mirage III/5 family."
+          },
+          {
+            "text": "23 December 1966 — Mirage F1 01 makes its first flight at Melun-Villaroche."
+          },
+          {
+            "text": "7 January 1967 — Prototype reaches Mach 2 on its fourth flight, according to Dassault."
+          },
+          {
+            "text": "1969-1970 — Pre-production aircraft with Atar 9K-50 engine and production avionics enter flight testing."
+          },
+          {
+            "text": "15 February 1973 — First production Mirage F1 flies at Mérignac."
+          },
+          {
+            "text": "14 March 1974 — First production aircraft is delivered to the French Air Force."
+          },
+          {
+            "text": "1970s-1990s — Export and specialized F1A, F1B, F1E, F1CR/F1R and F1CT families spread through numerous air forces."
+          },
+          {
+            "text": "2014 — France retires its last Mirage F1 aircraft; some export/private use continues by operator."
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Primary development, production, variant, export-user, and datasheet information comes from Dassault Aviation’s Mirage F1 history page. Flugzeuginfo provides supplemental Mirage F1C technical figures; Wikipedia is used only for broad orientation and conflict/operator cross-checks.",
+            "refs": [
+              "fn-dassault",
+              "fn-flugzeuginfo",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Uncertainties intentionally left cautious include exact total production count, current operator status, detailed wartime claims, and universal weapons compatibility. Mirage F1 data is most accurate when tied to a specific subvariant, country, date, and modernization package.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages place the Mirage F1 between the earlier Mirage III family and the later Mirage 2000, and compare it with other Cold War export fighters and attack aircraft."
+          }
+        ],
+        "links": [
+          {
+            "label": "Dassault Mirage III",
+            "url": "aircraft.html?id=mirage-iii"
+          },
+          {
+            "label": "Dassault Mirage 2000",
+            "url": "aircraft.html?id=mirage-2000"
+          },
+          {
+            "label": "Northrop F-5",
+            "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
+          },
+          {
+            "label": "McDonnell Douglas F-4 Phantom II",
+            "url": "aircraft.html?id=f-4-phantom-ii"
+          },
+          {
+            "label": "SEPECAT Jaguar",
+            "url": "aircraft.html?id=sepecat-jaguar"
+          },
+          {
+            "label": "Back to Aircraft Database",
+            "url": "aircraft.html"
           }
         ]
       }

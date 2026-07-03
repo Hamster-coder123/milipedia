@@ -5619,3 +5619,81 @@ Record the result of:
 * Commit hash cannot be embedded in the committed change log without changing the commit hash; the final hash is reported in the scheduled-run response.
 * Exact Su-7 fleet counts, detailed combat-loss totals, some export-user statuses, and universal weapons clearances were intentionally omitted or grouped because public sources vary by variant, operator, and date.
 * The Su-7 page is rendered through data/aircraft.json rather than the bespoke static F-16 HTML, so the formatting match is structural and density-based rather than identical markup.
+
+### Run 74 — 2026-07-03 16:02:16 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Dassault Mirage F1 (id: mirage-f1)
+* Reason selected: It was the shortest unedited aircraft entry after excluding pages already substantially updated by Hermes, with zero operator entries, zero concrete variant entries, placeholder specification fields, generic article sections, and no F-16-style development/design/operators/service/timeline coverage.
+* Previous condition: Sparse generated record with 0 operator entries, 0 variant entries, generic fighter armament text, missing engine/range/ceiling/production details, placeholder overview/design/service sections, and source records that were not integrated into a detailed article.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense lead overview; F-16-like section order from overview through development history, design, specifications, variants, operators, operational history, strengths/limitations, comparison, timeline, sources/notes, and related pages; concise sourced paragraphs; card-style key technical facts; cautious variant/operator caveats; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the Dassault Mirage F1 entry from a sparse generated page into a fuller Milipedia article record.
+* Added alternative names/variant labels, country/manufacturer/role/status details, first-flight date, introduction date, retirement-status caveat, production count caveat, crew, engine, maximum speed, range, service ceiling, rate-of-climb caveat, armament, hardpoints, development history, combat-history summary, and short summary.
+* Replaced generic fighter armament wording with Mirage F1-specific two 30 mm DEFA cannon and variant/operator-dependent missile, bomb, rocket, pod, tank, anti-ship, and precision-store wording.
+* Added reliable source coverage from Dassault Aviation and Flugzeuginfo, with ATAC and Wikipedia retained as cautious supplementary context plus local Milipedia accuracy rules.
+* Added detailed article sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Comparison and Role Context, Timeline, Sources and Notes, and Related Pages.
+* Added representative technical data for the SNECMA Atar 9K-50 engine, Mach 2+ speed class, 15.00 m length, 8.40 m span, 4.50 m height, 7,400 kg empty weight, 15,200 kg maximum takeoff weight, 850 km representative range, and 18,500-19,995 m ceiling range.
+* Added variants for Mirage F1C/F1C-200, F1A/F1AZ, F1B, F1E, F1CR/F1R, F1CT, and national modernization programs such as F1M.
+* Added grouped operator coverage for France, Spain, Morocco, South Africa, Iraq, Greece/Kuwait/Libya/Ecuador/Jordan/Qatar and others, plus later private adversary/aggressor use.
+* Added operational-history context for French service, export combat use, and caveats around contested wartime claims and loss figures.
+* Added comparison context linking Mirage F1 to Mirage III, Mirage 2000, F-5, F-4 Phantom II, and SEPECAT Jaguar pages.
+* Omitted exact current fleet counts, detailed score/loss tables, universal weapons-clearance lists, and operator-specific modernized avionics tables because those facts are variant-, country-, and date-sensitive.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded and corrected only the Dassault Mirage F1 aircraft entry.
+* hermes-change-log.md — Appended this cumulative Run 74 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were modified and staged.
+2. git diff — Reviewed diff/stat; data/aircraft.json changes were limited to the mirage-f1 entry and hermes-change-log.md appended Run 74.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool and reviewed the Mirage F1 sections, source IDs, variants, operators, specifications, armament caveats, and related metadata.
+4. F-16 style comparison — Inspected data/f16-template.html and matched its dense overview, technical cards, development/design/specifications/variants/operators/service/comparison/timeline/source/related-page structure within the JSON-rendered article system.
+5. Internal link check — Verified aircraft.html?id=mirage-iii, aircraft.html?id=mirage-2000, aircraft.html?id=f-5-freedom-fighter-tiger-ii, aircraft.html?id=f-4-phantom-ii, and aircraft.html?id=sepecat-jaguar target existing aircraft IDs; aircraft.html is the intentional database return link.
+6. Secret/token check — Ran credential-focused scans over the intended/staged diff; no credential material, private keys, auth tokens, or cloud access keys were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, focused one-entry aircraft change, intended files only, no direct main edit, complete change-log entry, and no formatting errors from git diff --check.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Dassault Mirage F1
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash; the final hash is reported in the scheduled-run response.
+* Exact production totals differ slightly between public sources (725 vs. 726), so the page uses an approximate range rather than a single hard figure.
+* Current operator status, detailed combat/loss claims, and exact weapons/avionics fits were intentionally caveated or omitted because Mirage F1 capabilities vary significantly by subvariant, national upgrade, and date.
+* The Mirage F1 page is rendered through data/aircraft.json rather than the bespoke static F-16 HTML, so the formatting match is structural and density-based rather than identical markup.
