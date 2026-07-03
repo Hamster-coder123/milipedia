@@ -33145,34 +33145,85 @@
   {
     "id": "mig-17",
     "name": "Mikoyan-Gurevich MiG-17",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "alternative_names": [
+      "MiG-17 Fresco",
+      "Fresco-C (MiG-17F)",
+      "Lim-5 (Polish-built MiG-17F family)",
+      "Shenyang J-5 (Chinese-built derivative)"
+    ],
+    "nato_reporting_name": "Fresco",
     "country_of_origin": "Soviet Union",
-    "manufacturer": "Mikoyan-Gurevich",
-    "role": "Jet fighter",
+    "manufacturer": "Mikoyan-Gurevich Design Bureau",
+    "role": "Transonic jet fighter and fighter-bomber",
     "aircraft_type": "Fighter",
     "era": "Cold War",
-    "first_flight": "1950",
+    "first_flight": "January 1950 prototype flight",
     "introduction_date": "1952",
-    "retirement_date": "Not listed",
-    "status": "Retired",
-    "number_built": "Not listed",
+    "retirement_date": "Retired from most major air forces; limited secondary use persisted in some countries",
+    "status": "Retired from front-line service in most operators",
+    "number_built": "About 10,824 across Soviet, Polish, Czechoslovak, and Chinese production according to Pima; some sources separate Soviet production at roughly 6,000",
     "crew": "1",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Subsonic/transonic",
+    "engine_type": "Afterburning turbojet",
+    "engines": "One Klimov VK-1F turbojet, 7,452 lbf thrust with afterburner on MiG-17F; Polish Lim variants used the related Lis-5",
+    "max_speed": "711 mph (1,144 km/h) for representative MiG-17F museum specifications",
     "speed_category": "Subsonic/transonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Mikoyan-Gurevich MiG-17: Jet fighter. Manufacturer: Mikoyan-Gurevich. First flight: 1950. Introduction: 1952.",
-    "short_summary": "Mikoyan-Gurevich MiG-17: Jet fighter. Origin: Soviet Union. Manufacturer: Mikoyan-Gurevich. First flight: 1950. Introduction: 1952. Status: Retired.",
+    "range": "510 miles; up to about 1,160 miles with external fuel tanks for MiG-17F museum specifications",
+    "combat_range": "Mission radius varied with stores, altitude profile, and external tanks; public museum pages emphasize short-range point-defense use rather than a single combat-radius figure",
+    "service_ceiling": "57,000 ft for representative MiG-17F museum specifications",
+    "rate_of_climb": "Not consistently listed in official museum sources; omitted rather than mixing variant-specific estimates",
+    "armament": "Typical MiG-17F gun armament was one 37 mm cannon and two 23 mm cannons; underwing pods could carry rockets or up to about 1,100 lb of bombs. Later and license-built variants could add missiles, radar, reconnaissance cameras, or attack equipment.",
+    "hardpoints": "Two underwing stations on common MiG-17F attack fits; exact stores and wiring varied by variant and national modification",
+    "variants": [
+      {
+        "name": "MiG-17",
+        "description": "Initial day-fighter production model derived from the MiG-15; operational aircraft appeared in 1952 after the Korean War."
+      },
+      {
+        "name": "MiG-17F Fresco-C",
+        "description": "Afterburning model with the VK-1F turbojet. Museum sources highlight it as the first afterburner-equipped Soviet fighter in service and list representative speed, ceiling, range, and cannon/rocket/bomb armament."
+      },
+      {
+        "name": "MiG-17P/PF Fresco-D",
+        "description": "Radar-equipped interceptor branch; Pima notes the MiG-17P was the Soviet Union’s first true all-weather radar interceptor and the PF combined radar with the afterburning engine."
+      },
+      {
+        "name": "Lim-5 / Lim-6",
+        "description": "Polish-built MiG-17F-family aircraft. Pima and Hill museum examples describe Lim-5 fighters and later Lim-6M/Lim-6MR attack or reconnaissance conversions."
+      },
+      {
+        "name": "Shenyang J-5",
+        "description": "Chinese-built MiG-17 family derivative, also flown by North Vietnam according to the USAF museum."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Soviet Union",
+        "note": "Originating air arm and principal early user; Soviet production was followed by license and derivative production abroad."
+      },
+      {
+        "country": "North Vietnam / Vietnam People’s Air Force",
+        "note": "Created its first MiG-17 unit, the 921st Fighter Regiment, in February 1964 after pilot training in China; used MiG-17 and J-5 aircraft in Southeast Asia."
+      },
+      {
+        "country": "Poland",
+        "note": "Built and operated Lim-5 and Lim-6 variants; Pima museum aircraft histories document Polish fighter, attack, and reconnaissance service."
+      },
+      {
+        "country": "Egypt",
+        "note": "An Egyptian Air Force MiG-17F was presented to the National Museum of the U.S. Air Force in 1986."
+      },
+      {
+        "country": "China",
+        "note": "Produced and operated the Shenyang J-5 derivative; Chinese-built examples were also supplied to other users."
+      },
+      {
+        "country": "Other Cold War operators",
+        "note": "Museum sources summarize service with at least 20 nations, including Afghanistan, Cuba, Syria, Sudan, Uganda, and others; exact fleet numbers are omitted pending country-specific verification."
+      }
+    ],
+    "combat_history": "The MiG-17 was flown by North Vietnam in the Vietnam War and by many other Cold War air arms. The USAF museum states that USAF F-105s and F-4s downed 61 MiG-17s between 10 July 1965 and 14 February 1968; individual claims and losses should be treated as campaign-specific rather than universal aircraft performance data.",
+    "development_history": "The MiG-17 was a redesigned development of the MiG-15, with sharper wing sweep, a longer fuselage, higher speed, improved handling, and on the MiG-17F an afterburning turbojet. It reached operational service after the Korean War and became a widely exported Cold War fighter.",
+    "short_summary": "The Mikoyan-Gurevich MiG-17 was a transonic Soviet jet fighter derived from the MiG-15. It combined heavy cannon armament, compact size, and strong close-in maneuverability with limited radar, range, and modern avionics by later standards.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -33185,18 +33236,46 @@
     ],
     "sources": [
       {
+        "id": "fn-nmusaf",
+        "title": "Mikoyan-Gurevich MiG-17F",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196057/mikoyan-gurevich-mig-17f",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Official museum fact sheet used for MiG-17F background, Vietnam War context, armament, engine, dimensions, speed, range, ceiling, and weight."
+      },
+      {
+        "id": "fn-pima-f",
+        "title": "Mikoyan-Gurevich MiG-17F (LIM-5) Fresco-C",
+        "url": "https://pimaair.org/museum-aircraft/mig-17f",
+        "publisher": "Pima Air & Space Museum",
+        "note": "Museum aircraft page used for MiG-17F/Lim-5 production, service-history, and specification cross-checks."
+      },
+      {
+        "id": "fn-pima-pf",
+        "title": "Mikoyan-Gurevich MiG-17PF (LIM-6MR) Fresco-D",
+        "url": "https://pimaair.org/museum-aircraft/mig-17pf",
+        "publisher": "Pima Air & Space Museum",
+        "note": "Museum aircraft page used for the radar-equipped MiG-17P/PF and Polish Lim-6MR reconnaissance/attack conversion context."
+      },
+      {
+        "id": "fn-hill",
+        "title": "Mikoyan-Gurevich MiG-17F",
+        "url": "https://www.aerospaceutah.org/museum/our-collections/aircraft-collection/mig-17f",
+        "publisher": "Hill Aerospace Museum",
+        "note": "Museum page used for MiG-17F production, afterburning engine, international operators, and representative specifications."
+      },
+      {
+        "id": "fn-museum-aviation",
+        "title": "MiG-17 Fresco",
+        "url": "https://museumofaviation.org/portfolio/mig-17-fresco",
+        "publisher": "Museum of Aviation Foundation",
+        "note": "Museum page used for general MiG-17 development, five-version summary, Vietnam War context, and museum aircraft background."
+      },
+      {
         "id": "fn-main",
         "title": "Mikoyan-Gurevich MiG-17",
         "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-17",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source only; official and museum pages above were preferred for article facts."
       },
       {
         "id": "fn-method",
@@ -33204,27 +33283,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.globalaircraft.org/planes/mig-17_fresco.pl",
-        "publisher": "globalaircraft.org",
-        "note": "External source for Mikoyan-Gurevich MiG-17."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.danshistory.com/mig17.html",
-        "publisher": "danshistory.com",
-        "note": "External source for Mikoyan-Gurevich MiG-17."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://urrib2000.narod.ru/EqMiG17-e.html",
-        "publisher": "urrib2000.narod.ru",
-        "note": "External source for Mikoyan-Gurevich MiG-17."
       }
     ],
     "country_flags": [
@@ -33234,140 +33292,176 @@
       }
     ],
     "designers": [
-      "Mikoyan-Gurevich"
+      "Mikoyan-Gurevich Design Bureau"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability."
+      "Improving the MiG-15 family for safer high-subsonic/transonic handling without turning it into a large long-range fighter.",
+      "Keeping heavy cannon armament and close-in agility while jets such as the F-4 and F-105 emphasized speed, radar, missile carriage, and range.",
+      "Adapting a day fighter into radar-equipped, reconnaissance, ground-attack, and license-built national variants."
     ],
     "wars_used_in": [
       {
         "name": "Vietnam War",
-        "note": "Mikoyan-Gurevich MiG-17 used in Vietnam War."
+        "note": "North Vietnamese MiG-17/J-5 units used the type in air combat against U.S. aircraft; the 921st Fighter Regiment was formed in February 1964 according to the USAF museum."
+      },
+      {
+        "name": "Second Taiwan Strait Crisis",
+        "note": "Often cited as an early combat use of the MiG-17 family; included here with caution because this run prioritized museum sources over a campaign-level source."
+      },
+      {
+        "name": "Cold War regional conflicts",
+        "note": "The type served in at least 20 national air arms, so country-specific combat histories should be checked against local sources before adding detailed claims."
       }
     ],
     "variant_families": [
-      "Mikoyan-Gurevich MiG-17 baseline production model",
-      "Mikoyan-Gurevich MiG-17 upgraded avionics or weapons-capable model",
-      "Mikoyan-Gurevich MiG-17 export or locally modernized model"
+      "MiG-17 day fighter",
+      "MiG-17F afterburning fighter",
+      "MiG-17P/PF radar-equipped interceptor",
+      "Lim-5 and Lim-6 Polish-built attack/reconnaissance variants",
+      "Shenyang J-5 Chinese-built derivative"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "Soviet Union"
       ],
-      "major_user_note": "Mikoyan-Gurevich MiG-17 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Museum sources describe service with at least 20 nations, including North Vietnam, China/J-5 users, Poland/Lim aircraft, Egypt, Afghanistan, Cuba, Syria, Sudan, Uganda, and other Cold War operators.",
+      "all_operators_status": "Representative operators are listed; a complete country-by-country inventory requires separate verification."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "VPAF MiG-17 units, especially the 921st Fighter Regiment formed in February 1964, became central to the aircraft’s Vietnam War reputation."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "The USAF museum notes USAF F-105 and F-4 crews downed 61 MiG-17s from 10 July 1965 to 14 February 1968; the figure is retained as a source-specific museum statement."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Mikoyan-Gurevich MiG-17 uses jet propulsion."
+      "type": "Afterburning turbojet",
+      "summary": "The MiG-17F used the Klimov VK-1F afterburning turbojet; Polish Lim aircraft used related Lis-5 engines. The afterburner was a major difference from the earlier MiG-15 family."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Common MiG-17F armament combined one 37 mm cannon with two 23 mm cannons; underwing pods could carry rockets or about 1,100 lb of bombs.",
+      "caution": "Missiles, radar, cameras, and attack stores depended on variant and national modification; the article avoids treating all MiG-17s as identically armed."
     },
     "similar_development": [
+      {
+        "id": "mig-15",
+        "name": "Mikoyan-Gurevich MiG-15",
+        "url": "aircraft.html?id=mig-15"
+      },
+      {
+        "id": "mig-19",
+        "name": "Mikoyan-Gurevich MiG-19",
+        "url": "aircraft.html?id=mig-19"
+      },
+      {
+        "id": "mig-21",
+        "name": "Mikoyan-Gurevich MiG-21",
+        "url": "aircraft.html?id=mig-21"
+      },
       {
         "id": "f-4-phantom-ii",
         "name": "McDonnell Douglas F-4 Phantom II",
         "url": "aircraft.html?id=f-4-phantom-ii"
       },
       {
-        "id": "f-5-freedom-fighter-tiger-ii",
-        "name": "Northrop F-5",
-        "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
-      },
-      {
-        "id": "f-8-crusader",
-        "name": "Vought F-8 Crusader",
-        "url": "aircraft.html?id=f-8-crusader"
-      },
-      {
-        "id": "f-14-tomcat",
-        "name": "Grumman F-14 Tomcat",
-        "url": "aircraft.html?id=f-14-tomcat"
+        "id": "f-105-thunderchief",
+        "name": "Republic F-105 Thunderchief",
+        "url": "aircraft.html?id=f-105-thunderchief"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 64,
+      "operator_entries": 6,
+      "variant_entries": 5,
+      "external_article_sources": 5
     },
     "footnotes": [
+      {
+        "id": "fn-nmusaf",
+        "title": "Mikoyan-Gurevich MiG-17F",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196057/mikoyan-gurevich-mig-17f",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Official museum fact sheet used for MiG-17F background, Vietnam War context, armament, engine, dimensions, speed, range, ceiling, and weight."
+      },
+      {
+        "id": "fn-pima-f",
+        "title": "Mikoyan-Gurevich MiG-17F (LIM-5) Fresco-C",
+        "url": "https://pimaair.org/museum-aircraft/mig-17f",
+        "publisher": "Pima Air & Space Museum",
+        "note": "Museum aircraft page used for MiG-17F/Lim-5 production, service-history, and specification cross-checks."
+      },
+      {
+        "id": "fn-pima-pf",
+        "title": "Mikoyan-Gurevich MiG-17PF (LIM-6MR) Fresco-D",
+        "url": "https://pimaair.org/museum-aircraft/mig-17pf",
+        "publisher": "Pima Air & Space Museum",
+        "note": "Museum aircraft page used for the radar-equipped MiG-17P/PF and Polish Lim-6MR reconnaissance/attack conversion context."
+      },
+      {
+        "id": "fn-hill",
+        "title": "Mikoyan-Gurevich MiG-17F",
+        "url": "https://www.aerospaceutah.org/museum/our-collections/aircraft-collection/mig-17f",
+        "publisher": "Hill Aerospace Museum",
+        "note": "Museum page used for MiG-17F production, afterburning engine, international operators, and representative specifications."
+      },
+      {
+        "id": "fn-museum-aviation",
+        "title": "MiG-17 Fresco",
+        "url": "https://museumofaviation.org/portfolio/mig-17-fresco",
+        "publisher": "Museum of Aviation Foundation",
+        "note": "Museum page used for general MiG-17 development, five-version summary, Vietnam War context, and museum aircraft background."
+      },
       {
         "id": "fn-main",
         "title": "Mikoyan-Gurevich MiG-17",
         "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-17",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source only; official and museum pages above were preferred for article facts."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.globalaircraft.org/planes/mig-17_fresco.pl",
-        "publisher": "globalaircraft.org",
-        "note": "External source for Mikoyan-Gurevich MiG-17."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.danshistory.com/mig17.html",
-        "publisher": "danshistory.com",
-        "note": "External source for Mikoyan-Gurevich MiG-17."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://urrib2000.narod.ru/EqMiG17-e.html",
-        "publisher": "urrib2000.narod.ru",
-        "note": "External source for Mikoyan-Gurevich MiG-17."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.globalaircraft.org/planes/mig-17_fresco.pl",
-        "publisher": "globalaircraft.org",
-        "note": "External source for Mikoyan-Gurevich MiG-17."
+        "id": "fn-nmusaf",
+        "title": "Mikoyan-Gurevich MiG-17F",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196057/mikoyan-gurevich-mig-17f",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Official museum fact sheet used for MiG-17F background, Vietnam War context, armament, engine, dimensions, speed, range, ceiling, and weight."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.danshistory.com/mig17.html",
-        "publisher": "danshistory.com",
-        "note": "External source for Mikoyan-Gurevich MiG-17."
+        "id": "fn-pima-f",
+        "title": "Mikoyan-Gurevich MiG-17F (LIM-5) Fresco-C",
+        "url": "https://pimaair.org/museum-aircraft/mig-17f",
+        "publisher": "Pima Air & Space Museum",
+        "note": "Museum aircraft page used for MiG-17F/Lim-5 production, service-history, and specification cross-checks."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://urrib2000.narod.ru/EqMiG17-e.html",
-        "publisher": "urrib2000.narod.ru",
-        "note": "External source for Mikoyan-Gurevich MiG-17."
+        "id": "fn-pima-pf",
+        "title": "Mikoyan-Gurevich MiG-17PF (LIM-6MR) Fresco-D",
+        "url": "https://pimaair.org/museum-aircraft/mig-17pf",
+        "publisher": "Pima Air & Space Museum",
+        "note": "Museum aircraft page used for the radar-equipped MiG-17P/PF and Polish Lim-6MR reconnaissance/attack conversion context."
+      },
+      {
+        "id": "fn-hill",
+        "title": "Mikoyan-Gurevich MiG-17F",
+        "url": "https://www.aerospaceutah.org/museum/our-collections/aircraft-collection/mig-17f",
+        "publisher": "Hill Aerospace Museum",
+        "note": "Museum page used for MiG-17F production, afterburning engine, international operators, and representative specifications."
+      },
+      {
+        "id": "fn-museum-aviation",
+        "title": "MiG-17 Fresco",
+        "url": "https://museumofaviation.org/portfolio/mig-17-fresco",
+        "publisher": "Museum of Aviation Foundation",
+        "note": "Museum page used for general MiG-17 development, five-version summary, Vietnam War context, and museum aircraft background."
       }
     ],
     "article_sections": [
@@ -33376,20 +33470,23 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-17 is a Jet fighter from Soviet Union. Manufacturer: Mikoyan-Gurevich. First flight: 1950. Introduction: 1952. Status: Retired.",
+            "text": "The Mikoyan-Gurevich MiG-17, NATO reporting name Fresco, was a compact Soviet transonic fighter developed from the MiG-15. It kept the MiG-15 family’s heavy cannon armament but introduced sharper wing sweep, a longer fuselage, and on the MiG-17F an afterburning engine for better speed and handling.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf",
+              "fn-museum-aviation"
             ]
           },
           {
-            "text": "Mikoyan-Gurevich MiG-17 is a fighter. Primary role: jet fighter. Country of origin: Soviet Union. Manufacturer: Mikoyan-Gurevich.",
+            "text": "Operational MiG-17s appeared in 1952, too late for large-scale Korean War use, but the type became one of the most widely exported Cold War fighters. Museum sources describe service with at least 20 nations, including North Vietnam, Egypt, Poland, China, Cuba, Syria, Afghanistan, Sudan, Uganda, and others.",
             "refs": [
-              "fn-wikidata"
+              "fn-nmusaf",
+              "fn-hill"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The aircraft’s reputation rests less on raw speed than on a favorable mix of small size, high agility, rugged cannon armament, and simple field support. Those traits made it a dangerous close-range opponent even after faster radar-and-missile fighters entered service.",
             "refs": [
+              "fn-nmusaf",
               "fn-method"
             ]
           }
@@ -33397,44 +33494,63 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Jet fighter"
+            "text": "Transonic jet fighter / fighter-bomber"
           },
           {
-            "title": "Designer or builder",
-            "text": "Mikoyan-Gurevich"
-          },
-          {
-            "title": "Major origin",
+            "title": "Origin",
             "text": "Soviet Union"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "First flight",
+            "text": "January 1950 prototype flight"
+          },
+          {
+            "title": "Introduced",
+            "text": "1952"
+          },
+          {
+            "title": "NATO name",
+            "text": "Fresco"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-17 first flew in 1950. Introduction date: 1952. Era: Cold War.",
+            "text": "The MiG-17 was designed to replace and improve the MiG-15 rather than to create an entirely new class of fighter. The USAF museum describes its more sharply swept wings, longer fuselage, afterburner, and improved speed and handling characteristics as the main visible steps beyond the Korean War-era MiG-15.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf"
             ]
           },
           {
-            "text": "Producer: Mikoyan-Gurevich. Development context: jet fighter, jet propulsion, subsonic/transonic speed category, Cold War era.",
+            "text": "A prototype first flew in January 1950, production began in late 1951, and operational aircraft appeared in 1952. The timing meant the MiG-17 did not arrive in sufficient numbers for the Korean War, but it entered the Cold War fighter market just as many states wanted affordable jet interceptors.",
             "refs": [
-              "fn-wikidata"
+              "fn-nmusaf",
+              "fn-museum-aviation"
+            ]
+          },
+          {
+            "text": "Production and license-building produced a large international family. Pima cites about 10,824 aircraft built in Russia, Poland, Czechoslovakia, and China, while Hill notes roughly 6,000 Soviet-built MiG-17s before the Soviet line ended and license production continued as types such as the Polish Lim-5.",
+            "refs": [
+              "fn-pima-f",
+              "fn-hill"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "Design emphasis: improve high-subsonic safety and maneuverability while retaining simple fighter construction.",
             "refs": [
-              "fn-method"
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "Production emphasis: spread the design through license and derivative production for Warsaw Pact, Chinese, and export users.",
+            "refs": [
+              "fn-pima-f",
+              "fn-hill"
             ]
           }
         ]
@@ -33444,27 +33560,26 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Subsonic/transonic.",
+            "text": "The MiG-17 remained a single-seat, nose-intake jet with a swept wing and a compact fuselage. Its strengths were agility and close-range gun combat, not long range, sophisticated sensors, or large weapon loads.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf",
+              "fn-hill"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Representative MiG-17F specifications list one Klimov VK-1F turbojet with 7,452 lbf thrust, maximum speed of 711 mph, range of 510 miles or about 1,160 miles with external tanks, and a 57,000 ft ceiling. Polish-built Lim variants used related Lis-5 engines and show slightly different museum-listed figures.",
             "refs": [
+              "fn-nmusaf",
+              "fn-pima-f",
+              "fn-pima-pf"
+            ]
+          },
+          {
+            "text": "Typical MiG-17F armament was one 37 mm cannon and two 23 mm cannons, with underwing rocket pods or about 1,100 lb of bombs. Radar-equipped, reconnaissance, attack, and national variants differed enough that this page avoids presenting one universal weapons fit for every MiG-17.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-hill",
               "fn-method"
-            ]
-          },
-          {
-            "text": "Mikoyan-Gurevich MiG-17 uses jet propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
@@ -33474,84 +33589,60 @@
             "text": "1"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Engine",
+            "text": "Klimov VK-1F afterburning turbojet on MiG-17F"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic/transonic"
+            "title": "Max speed",
+            "text": "711 mph representative MiG-17F figure"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Ceiling",
+            "text": "57,000 ft"
           },
           {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Armament",
+            "text": "1 × 37 mm cannon, 2 × 23 mm cannon; rockets or bombs on common MiG-17F fits"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-17 status: Retired. Conflict entries: 1.",
+            "text": "Specifications below use a representative MiG-17F/Fresco-C baseline because public museum figures are most consistent for that afterburning model. Other versions, including MiG-17P/PF radar interceptors, Polish Lim-5/Lim-6 aircraft, and Chinese J-5 derivatives, can differ in weight, equipment, and stores.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: Vietnam War.",
-            "refs": [
-              "fn-method"
+              "fn-nmusaf",
+              "fn-pima-f",
+              "fn-pima-pf"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Vietnam War: Mikoyan-Gurevich MiG-17 used in Vietnam War.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Mikoyan-Gurevich MiG-17 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Wingspan",
+            "text": "31 ft 7 in (USAF/Hill MiG-17F figure)"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "36 ft 5 in (USAF/Hill MiG-17F figure)"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Height",
+            "text": "12 ft 6 in (USAF/Hill MiG-17F figure)"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum weight",
+            "text": "13,380 lb maximum (USAF/Hill MiG-17F figure)"
+          },
+          {
+            "title": "Range",
+            "text": "510 miles; 1,160 miles with external tanks"
+          },
+          {
+            "title": "Ceiling",
+            "text": "57,000 ft"
           }
         ]
       },
@@ -33560,34 +33651,45 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-17 variant-family entries: 3. Variant families: Mikoyan-Gurevich MiG-17 baseline production model; Mikoyan-Gurevich MiG-17 upgraded avionics or weapons-capable model; Mikoyan-Gurevich MiG-17 export or locally modernized model.",
+            "text": "Museum sources summarize the MiG-17 family as five principal versions, but the larger family also includes license-built and nationally modified aircraft. The most important distinction for readers is between the early day fighter, the afterburning MiG-17F, radar-equipped MiG-17P/PF interceptors, and Polish or Chinese derivatives.",
             "refs": [
+              "fn-nmusaf",
+              "fn-pima-pf",
               "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Mikoyan-Gurevich MiG-17 baseline production model",
+            "text": "MiG-17: initial day fighter, entering operational service in 1952.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf"
             ]
           },
           {
-            "text": "Mikoyan-Gurevich MiG-17 upgraded avionics or weapons-capable model",
+            "text": "MiG-17F: afterburning VK-1F model and the common museum reference baseline for Fresco-C performance figures.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf",
+              "fn-hill"
             ]
           },
           {
-            "text": "Mikoyan-Gurevich MiG-17 export or locally modernized model",
+            "text": "MiG-17P/PF: radar-equipped interceptor branch; Pima identifies the MiG-17P as the Soviet Union’s first true all-weather radar-equipped interceptor and the PF as adding the afterburning engine.",
             "refs": [
+              "fn-pima-pf"
+            ]
+          },
+          {
+            "text": "Lim-5/Lim-6: Polish-built fighter, attack, and reconnaissance developments, including Lim-6M and camera-equipped Lim-6MR conversions.",
+            "refs": [
+              "fn-pima-f",
+              "fn-pima-pf"
+            ]
+          },
+          {
+            "text": "Shenyang J-5: Chinese-built derivative associated with Chinese service and supplied to other operators, including North Vietnam.",
+            "refs": [
+              "fn-nmusaf",
               "fn-main"
             ]
           }
@@ -33598,45 +33700,225 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Soviet Union. Mikoyan-Gurevich MiG-17 has 1 designer or builder country entry.",
+            "text": "The MiG-17 was operated by at least 20 national air arms. This page lists representative users that are directly supported by the sources reviewed for this run rather than attempting an exhaustive inventory.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
+              "fn-nmusaf",
+              "fn-hill",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Soviet Union: design origin and early operator before production and license-building spread abroad.",
             "refs": [
-              "fn-main"
+              "fn-hill"
             ]
           },
           {
-            "text": "Major designer or builder entries: Soviet Union.",
+            "text": "North Vietnam: formed the 921st Fighter Regiment in February 1964 after training in China and flew both MiG-17s and Chinese-built J-5s.",
             "refs": [
-              "fn-wikidata"
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "Poland: built and operated Lim-5 and Lim-6 family aircraft, including attack and reconnaissance conversions documented by Pima.",
+            "refs": [
+              "fn-pima-f",
+              "fn-pima-pf"
+            ]
+          },
+          {
+            "text": "Egypt: presented the MiG-17F now displayed by the National Museum of the U.S. Air Force.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "Other operators: Hill lists examples including China, Afghanistan, Cuba, Egypt, Sudan, Syria, Uganda, and Vietnam; country-specific fleet counts are left for later verification.",
+            "refs": [
+              "fn-hill"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Subsonic/transonic, first flight 1950, introduction 1952.",
+            "text": "The MiG-17 became best known in Western writing through the Vietnam War. The National Museum of the U.S. Air Force states that North Vietnam created the 921st Fighter Regiment in February 1964 and that VPAF pilots also flew Chinese-built J-5s.",
             "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "Against faster U.S. aircraft such as the F-105 and F-4, MiG-17 pilots exploited small size, tight turning performance, and cannon armament in close-range engagements. The USAF museum notes that U.S. fighter pilots tried to use their speed advantage against the more maneuverable MiG-17.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "The type’s combat record should not be reduced to Vietnam alone. Its broad export footprint means that individual aircraft histories include regional wars, air-defense service, training, and later adversary or research use, but detailed country-by-country claims require additional sources.",
+            "refs": [
+              "fn-hill",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "notable-events",
+        "title": "Notable Events and Museum Aircraft",
+        "paragraphs": [
+          {
+            "text": "The USAF museum’s MiG-17F was presented by the Egyptian Air Force in 1986 and painted to represent a VPAF MiG-17. The museum fact sheet also states that USAF F-105s and F-4s downed 61 MiG-17s between 10 July 1965 and 14 February 1968.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "Pima documents former Polish-built Lim aircraft that later came to the United States, including examples used by civilian contractors for Defense Test and Evaluation Support Agency research at Kirtland AFB before museum display. Those histories show how Cold War adversary aircraft later became research and educational artifacts.",
+            "refs": [
+              "fn-pima-f",
+              "fn-pima-pf"
+            ]
+          },
+          {
+            "text": "Hill’s MiG-17F is also a Polish-built Lim-5. The museum notes it served the Polish Air Force, passed through private ownership and Davis-Monthan storage, and joined Hill Aerospace Museum for display in 2002.",
+            "refs": [
+              "fn-hill"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths included close-in maneuverability, heavy cannon firepower, a small visual target, simple construction, and adaptability into fighter, interceptor, attack, reconnaissance, and license-built forms.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-pima-pf"
+            ]
+          },
+          {
+            "text": "Limitations included short range compared with larger Western fighters, limited avionics on day-fighter versions, variant-dependent radar and missile capability, and a design optimized for transonic rather than sustained supersonic flight.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The MiG-17’s best-known tactical lesson is that speed and missiles did not remove the need to respect a well-flown gun fighter in close combat. That lesson is useful historically, but it should not be overstated into a claim that the MiG-17 was superior in every mission.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Compared with the MiG-15, the MiG-17 added sharper sweep, a longer fuselage, improved handling, and in the MiG-17F an afterburner. Compared with the later MiG-19 and MiG-21, it was simpler and less advanced but easier to maintain and still dangerous at close range.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-hill"
+            ]
+          },
+          {
+            "text": "Compared with U.S. Vietnam-era aircraft such as the F-4 Phantom II and F-105 Thunderchief, the MiG-17 lacked radar-missile sophistication and range, but its agility and guns could punish opponents forced into turning fights.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "MiG-15",
+            "url": "aircraft.html?id=mig-15"
+          },
+          {
+            "label": "MiG-19",
+            "url": "aircraft.html?id=mig-19"
+          },
+          {
+            "label": "MiG-21",
+            "url": "aircraft.html?id=mig-21"
+          },
+          {
+            "label": "F-4 Phantom II",
+            "url": "aircraft.html?id=f-4-phantom-ii"
+          },
+          {
+            "label": "F-105 Thunderchief",
+            "url": "aircraft.html?id=f-105-thunderchief"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "1950: MiG-17 prototype first flight in January.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "Late 1951: production begins.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "1952: first operational MiG-17s appear.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "1953: MiG-17F production begins according to Hill’s museum history.",
+            "refs": [
+              "fn-hill"
+            ]
+          },
+          {
+            "text": "February 1964: North Vietnam creates its first MiG-17 unit, the 921st Fighter Regiment.",
+            "refs": [
+              "fn-nmusaf"
+            ]
+          },
+          {
+            "text": "1970s-1980s: Polish Lim-5P aircraft are rebuilt into Lim-6M/Lim-6MR attack and reconnaissance forms, with Pima’s example withdrawn from Polish service in 1987.",
+            "refs": [
+              "fn-pima-pf"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Primary factual anchors for this update were the National Museum of the U.S. Air Force, Pima Air & Space Museum, Hill Aerospace Museum, and the Museum of Aviation Foundation. Wikipedia was retained only as a supplementary orientation source and not as the main authority for specifications.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-pima-f",
+              "fn-pima-pf",
+              "fn-hill",
+              "fn-museum-aviation",
               "fn-main"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Where sources vary by variant—especially weight, exact range, radar fit, and stores—the article labels figures as representative MiG-17F values and avoids applying them to every MiG-17 derivative.",
             "refs": [
               "fn-method"
             ]
@@ -33644,11 +33926,11 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "related-pages",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-17 similar-development links: 4.",
+            "text": "Related Milipedia pages include the MiG-15 predecessor, MiG-19 and MiG-21 successors, and Vietnam-era U.S. opponents such as the F-4 Phantom II and F-105 Thunderchief.",
             "refs": [
               "fn-method"
             ]
@@ -33656,29 +33938,37 @@
         ],
         "links": [
           {
+            "label": "Mikoyan-Gurevich MiG-15",
+            "url": "aircraft.html?id=mig-15"
+          },
+          {
+            "label": "Mikoyan-Gurevich MiG-19",
+            "url": "aircraft.html?id=mig-19"
+          },
+          {
+            "label": "Mikoyan-Gurevich MiG-21",
+            "url": "aircraft.html?id=mig-21"
+          },
+          {
             "label": "McDonnell Douglas F-4 Phantom II",
             "url": "aircraft.html?id=f-4-phantom-ii"
           },
           {
-            "label": "Northrop F-5",
-            "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
+            "label": "Republic F-105 Thunderchief",
+            "url": "aircraft.html?id=f-105-thunderchief"
           },
           {
-            "label": "Vought F-8 Crusader",
-            "url": "aircraft.html?id=f-8-crusader"
-          },
-          {
-            "label": "Grumman F-14 Tomcat",
-            "url": "aircraft.html?id=f-14-tomcat"
+            "label": "Back to Aircraft Database",
+            "url": "aircraft.html"
           }
         ]
       }
     ],
     "event_gallery": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg/960px-U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg",
-        "caption": "Vietnam War",
-        "source_url": "https://en.wikipedia.org/wiki/Vietnam_War"
+        "url": "https://media.defense.gov/2014/Apr/24/2000856709/1200/1200/0/140424-F-IO108-017.JPG",
+        "caption": "MiG-17F displayed in the Southeast Asia War Gallery at the National Museum of the U.S. Air Force.",
+        "source_url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196057/mikoyan-gurevich-mig-17f"
       }
     ]
   },
