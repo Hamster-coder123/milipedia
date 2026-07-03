@@ -51233,34 +51233,123 @@
   {
     "id": "mi-8",
     "name": "Mil Mi-8",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "alternative_names": [
+      "Mi-8 Hip",
+      "V-8 prototype family",
+      "Mi-8T",
+      "Mi-8P"
+    ],
+    "nato_reporting_name": "Hip",
     "country_of_origin": "Soviet Union",
-    "manufacturer": "Mil",
-    "role": "Utility helicopter",
-    "aircraft_type": "Helicopter",
+    "manufacturer": "Mil Moscow Helicopter Plant; Kazan Helicopter Plant; Ulan-Ude Aviation Plant",
+    "role": "Medium twin-turbine utility and transport helicopter",
+    "aircraft_type": "Medium utility helicopter",
     "era": "Cold War/Modern",
-    "first_flight": "1961",
-    "introduction_date": "1967",
+    "first_flight": "24 June 1961 (V-8 prototype); 17 September 1962 for the two-engine prototype",
+    "introduction_date": "1967-1968 (early Soviet service, depending on source)",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "3",
+    "status": "Active with many military, government, and civil operators",
+    "number_built": "More than 13,000 Mi-8/17-family helicopters delivered",
+    "crew": "3 typical flight crew; cabin configured for passengers, cargo, stretchers, or mission equipment",
     "engine_type": "Turboshaft",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engines": "2 × Klimov TV2-117/TV3-117-family turboshafts depending on variant",
+    "max_speed": "About 250-260 km/h for representative Mi-8/early Mi-8T data",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Utility helicopter weapons not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Mil Mi-8: Utility helicopter. Manufacturer: Mil. First flight: 1961. Introduction: 1967.",
-    "short_summary": "Mil Mi-8: Utility helicopter. Origin: Soviet Union. Manufacturer: Mil. First flight: 1961. Introduction: 1967. Status: Active.",
+    "range": "About 500 km for a representative Mi-8; ferry range and later variants vary",
+    "combat_range": "Mission-dependent; affected by payload, fuel tanks, hot-and-high conditions, and armament fit",
+    "service_ceiling": "About 4,500 m for representative Mi-8 data",
+    "rate_of_climb": "Variant- and weight-dependent; public figures vary",
+    "armament": "Basic transport Mi-8s are unarmed; military variants may carry door guns, rocket pods, gun pods, bombs, or anti-tank weapons depending on version and operator.",
+    "hardpoints": "Optional outriggers/stub pylons on armed transport variants; basic passenger/cargo aircraft may have none",
+    "variants": [
+      {
+        "name": "V-8 / V-8A",
+        "description": "Prototype line. The first V-8 flew in 1961 with a single adapted engine; the V-8A two-engine prototype followed in 1962 with purpose-designed helicopter turboshafts."
+      },
+      {
+        "name": "Mi-8P",
+        "description": "Passenger transport version. Russian Helicopters publicity identifies it as one of the first production designations."
+      },
+      {
+        "name": "Mi-8T",
+        "description": "Transport and landing/cargo version used for troops, freight, medical evacuation, and utility missions."
+      },
+      {
+        "name": "Mi-8TV / Mi-8TB",
+        "description": "Armed transport variants with external weapons provision; weapon fits vary by operator and upgrade state."
+      },
+      {
+        "name": "Mi-8S",
+        "description": "Salon/VIP transport with a remodeled passenger compartment, noted by the Czech Ministry of Defence page."
+      },
+      {
+        "name": "Mi-8PPA / Mi-9",
+        "description": "Electronic-warfare, command-post, or communications-specialist family members rather than standard troop transports."
+      },
+      {
+        "name": "Mi-8MT / Mi-17",
+        "description": "Improved/export family with more powerful engines and many civil, military, assault-transport, and special-mission subvariants."
+      },
+      {
+        "name": "Mi-171 / Mi-172 and Mi-171A2 family",
+        "description": "Later export/civil derivatives with updated engines, rotors, avionics, payload capability, and customer-specific equipment."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Russia / Soviet Union",
+        "service": "Soviet and Russian military, government, and civil users",
+        "notes": "Original operator base and continuing major user; exact current fleet totals and variant mix are date-sensitive."
+      },
+      {
+        "country": "Czech Republic / former Czechoslovakia",
+        "service": "Czech Air Force and predecessor users",
+        "notes": "The Czech Ministry of Defence publishes a Mi-8 overview and describes the type as a medium multipurpose helicopter used with Mi-17-family aircraft."
+      },
+      {
+        "country": "Ukraine",
+        "service": "Ukrainian military and state aviation users",
+        "notes": "Operates Mi-8/Mi-17-family helicopters; current numbers and losses are conflict-sensitive."
+      },
+      {
+        "country": "India",
+        "service": "Indian military/government operators",
+        "notes": "Longstanding Mi-8/Mi-17-family user; specific Mi-8 versus Mi-17 fleet composition varies by period."
+      },
+      {
+        "country": "Afghanistan",
+        "service": "Afghan/Soviet-era and later government users",
+        "notes": "The family became strongly associated with Afghan mountain transport and assault-support missions."
+      },
+      {
+        "country": "Poland",
+        "service": "Polish military/government operators",
+        "notes": "Representative Warsaw Pact/NATO-era operator; many European air arms used Mi-8 derivatives after Cold War realignments."
+      },
+      {
+        "country": "Germany / former East Germany",
+        "service": "East German and later German military/museum examples",
+        "notes": "Former Warsaw Pact Mi-8s appear in German service histories and museum/photographic records."
+      },
+      {
+        "country": "Finland",
+        "service": "Finnish military/government users",
+        "notes": "Representative non-Warsaw Pact European Mi-8 operator."
+      },
+      {
+        "country": "UN and humanitarian/government contractors",
+        "service": "Civil, government, and contracted utility operators",
+        "notes": "Mi-8/17-family aircraft are widely used for remote-region logistics, medical evacuation, firefighting support, and humanitarian transport."
+      },
+      {
+        "country": "Other international users",
+        "service": "More than 80 countries have received Mi-8/17-family aircraft according to Russian Helicopters publicity",
+        "notes": "The family is too broadly operated for a complete static list in this one update; current operator counts should be checked against up-to-date fleet registers."
+      }
+    ],
+    "combat_history": "Mi-8/Mi-17-family helicopters have been used in Soviet, Russian, Warsaw Pact, post-Soviet, Middle Eastern, African, Asian, and UN/government operations, including Afghanistan and Ukraine.",
+    "development_history": "Developed by Mil as a turbine-powered successor to the Mi-4. Early V-8 prototypes flew in 1961, the two-engine V-8A followed in 1962, serial production began in 1965, and the family expanded into passenger, transport, assault, ambulance, command-post, electronic-warfare, and export versions.",
+    "short_summary": "The Mil Mi-8 \"Hip\" is one of the most widely produced and widely used helicopters ever built: a Soviet-origin medium twin-turbine transport family that became a global utility, assault-support, medical, VIP, and special-mission platform.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -51273,18 +51362,39 @@
     ],
     "sources": [
       {
+        "id": "fn-czech-mod",
+        "title": "Mil Mi-8 - NATO code: HIP",
+        "url": "https://www.mo.gov.cz/scripts/detail.php?id=6304",
+        "publisher": "Ministry of Defence of the Czech Republic",
+        "note": "Official operator/government overview used for design description, cabin dimensions, engine output, payload, production start, and Mi-8/Mi-17 international-use context."
+      },
+      {
+        "id": "fn-russian-helicopters-60",
+        "title": "Russian Helicopters celebrates 60 years since first flight of Mi-8 helicopter",
+        "url": "https://www.businessairnews.com/hb_news_story.html?release=79676",
+        "publisher": "Business Air News / Russian Helicopters press release",
+        "note": "Russian Helicopters release used for V-8 prototype history, first-flight date, production plants, over-13,000-delivery figure, variant breadth, and Mi-8/17 family market context."
+      },
+      {
+        "id": "fn-flugzeuginfo",
+        "title": "Mil Mi-8 - Specifications - Technical Data / Description",
+        "url": "http://www.flugzeuginfo.net/acdata_php/acdata_mi8_en.php",
+        "publisher": "flugzeuginfo.net",
+        "note": "Technical data source used for representative Mi-8 dimensions, weights, engines, speed, range, ceiling, and variant list; values are treated as representative because Mi-8-family variants differ."
+      },
+      {
         "id": "fn-main",
         "title": "Mil Mi-8",
         "url": "https://en.wikipedia.org/wiki/Mil_Mi-8",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "note": "Supplementary orientation source for broad family structure and cross-checking; not used as the sole source for key technical claims."
       },
       {
         "id": "fn-wikidata",
         "title": "Wikidata Query Service",
         "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "publisher": "Wikidata",
+        "note": "Structured-data source retained for identifiers and relationship checks."
       },
       {
         "id": "fn-method",
@@ -51292,27 +51402,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://scalemodels.ru/modules/photo/viewcat_cid_87.html",
-        "publisher": "scalemodels.ru",
-        "note": "External source for Mil Mi-8."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://scalemodels.ru/modules/photo/viewcat_cid_135.html",
-        "publisher": "scalemodels.ru",
-        "note": "External source for Mil Mi-8."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.helicopter-database.net/photo.php",
-        "publisher": "helicopter-database.net",
-        "note": "External source for Mil Mi-8."
       }
     ],
     "country_flags": [
@@ -51325,58 +51414,70 @@
       "Mil"
     ],
     "development_tensions": [
-      "Balancing lift, survivability, vibration, hot-and-high performance, and battlefield maintainability."
+      "Replacing piston-era Mi-4 capability with turbine power while keeping a rugged, maintainable transport helicopter.",
+      "Balancing troop/cargo lift, cabin accessibility, hot-and-high performance, field maintainability, and later military survivability upgrades.",
+      "Managing a very large variant family whose engines, avionics, armament, and mission equipment differ greatly by production period and customer."
     ],
     "wars_used_in": [
       {
-        "name": "Soviet–Afghan War",
-        "note": "Mil Mi-8 used in Soviet–Afghan War."
+        "name": "Soviet-Afghan War",
+        "note": "Used extensively for transport, air assault, casualty evacuation, resupply, and armed support in difficult mountain and desert environments."
+      },
+      {
+        "name": "Post-Soviet and regional conflicts",
+        "note": "Mi-8/Mi-17-family aircraft have appeared in numerous post-Soviet, Middle Eastern, African, and Asian conflicts; exact variant and operator details require case-by-case sourcing."
       },
       {
         "name": "Russo-Ukrainian War",
-        "note": "Mil Mi-8 used in Russo-Ukrainian War."
+        "note": "Both Russian and Ukrainian forces have used Mi-8/Mi-17-family helicopters; public loss and mission claims are date-sensitive and should be treated cautiously."
       }
     ],
     "variant_families": [
-      "Mil Mi-8 baseline production model",
-      "Mil Mi-8 upgraded avionics or weapons-capable model",
-      "Mil Mi-8 utility, attack, naval, or export model"
+      "V-8 / V-8A prototypes",
+      "Mi-8P passenger and VIP transports",
+      "Mi-8T military/cargo transport",
+      "Mi-8TV/TB armed transport variants",
+      "Mi-8S salon/VIP variant",
+      "Mi-8PPA and Mi-9 command/electronic-warfare variants",
+      "Mi-8MT / Mi-17 export and upgraded family",
+      "Mi-171 / Mi-172 and later civil/military export derivatives"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
-        "Soviet Union"
+        "Soviet Union",
+        "Russia"
       ],
-      "major_user_note": "Mil Mi-8 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Russian Helicopters publicity stated that Mi-8/17-family helicopters had been delivered to more than 80 countries; the Czech Ministry of Defence page notes Mi-8/Mi-17 service in 49 countries at the time of its article.",
+      "all_operators_status": "Representative operators are listed because exact current fleet totals change frequently and many Mi-8/17-family aircraft are civil, government, or paramilitary rather than front-line military only."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "The V-8 prototype crew was commanded by test pilot Boris Zemskov during the first hover/flight noted in Russian Helicopters publicity.",
+        "The type is commonly nicknamed a \"hundred professions\" helicopter because of its many transport, medical, agricultural, command, EW, firefighting, and military uses."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "The family has a large accident and combat-loss history because of its huge production run and decades of use; individual incidents were not tabulated in this safe one-run update.",
+        "Loss claims in active conflicts are date-sensitive and were intentionally not converted into fixed totals."
       ]
     },
     "engine_details": {
-      "type": "Turboshaft",
-      "summary": "Mil Mi-8 uses turboshaft propulsion."
+      "type": "Twin turboshaft",
+      "summary": "Early Mi-8 data commonly lists two TV2-117A turboshafts; later Mi-8MT/Mi-17/171 derivatives use TV3-117 or newer VK-2500-family engines depending on version and modernization standard."
     },
     "armament_details": {
-      "summary": "Utility helicopter weapons not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "The core airframe is a transport helicopter, not a dedicated attack helicopter. Armed variants can use door guns, rockets, gun pods, bombs, and other stores on external pylons, while civil/passenger/cargo aircraft normally fly without weapons.",
+      "caution": "Weapon fit varies by Mi-8/Mi-17 variant, national upgrade, and mission. The article avoids assigning a single fixed weapons list to all Mi-8s."
     },
     "similar_development": [
       {
-        "id": "ah-1-cobra",
-        "name": "Bell AH-1 Cobra",
-        "url": "aircraft.html?id=ah-1-cobra"
+        "id": "mi-24",
+        "name": "Mil Mi-24 Hind",
+        "url": "aircraft.html?id=mi-24"
       },
       {
-        "id": "ah-64-apache",
-        "name": "Boeing AH-64 Apache",
-        "url": "aircraft.html?id=ah-64-apache"
+        "id": "mi-26",
+        "name": "Mil Mi-26 Halo",
+        "url": "aircraft.html?id=mi-26"
       },
       {
         "id": "uh-1-iroquois",
@@ -51387,79 +51488,91 @@
         "id": "uh-60-black-hawk",
         "name": "Sikorsky UH-60 Black Hawk",
         "url": "aircraft.html?id=uh-60-black-hawk"
+      },
+      {
+        "id": "ch-53-sea-stallion",
+        "name": "Sikorsky CH-53 Sea Stallion",
+        "url": "aircraft.html?id=ch-53-sea-stallion"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 35,
+      "operator_entries": 10,
+      "variant_entries": 8,
+      "external_article_sources": 5
     },
     "footnotes": [
+      {
+        "id": "fn-czech-mod",
+        "title": "Mil Mi-8 - NATO code: HIP",
+        "url": "https://www.mo.gov.cz/scripts/detail.php?id=6304",
+        "publisher": "Ministry of Defence of the Czech Republic",
+        "note": "Official operator/government overview used for design description, cabin dimensions, engine output, payload, production start, and Mi-8/Mi-17 international-use context."
+      },
+      {
+        "id": "fn-russian-helicopters-60",
+        "title": "Russian Helicopters celebrates 60 years since first flight of Mi-8 helicopter",
+        "url": "https://www.businessairnews.com/hb_news_story.html?release=79676",
+        "publisher": "Business Air News / Russian Helicopters press release",
+        "note": "Russian Helicopters release used for V-8 prototype history, first-flight date, production plants, over-13,000-delivery figure, variant breadth, and Mi-8/17 family market context."
+      },
+      {
+        "id": "fn-flugzeuginfo",
+        "title": "Mil Mi-8 - Specifications - Technical Data / Description",
+        "url": "http://www.flugzeuginfo.net/acdata_php/acdata_mi8_en.php",
+        "publisher": "flugzeuginfo.net",
+        "note": "Technical data source used for representative Mi-8 dimensions, weights, engines, speed, range, ceiling, and variant list; values are treated as representative because Mi-8-family variants differ."
+      },
       {
         "id": "fn-main",
         "title": "Mil Mi-8",
         "url": "https://en.wikipedia.org/wiki/Mil_Mi-8",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "note": "Supplementary orientation source for broad family structure and cross-checking; not used as the sole source for key technical claims."
       },
       {
         "id": "fn-wikidata",
         "title": "Wikidata Query Service",
         "url": "https://query.wikidata.org/",
         "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Structured-data source retained for identifiers and relationship checks."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://scalemodels.ru/modules/photo/viewcat_cid_87.html",
-        "publisher": "scalemodels.ru",
-        "note": "External source for Mil Mi-8."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://scalemodels.ru/modules/photo/viewcat_cid_135.html",
-        "publisher": "scalemodels.ru",
-        "note": "External source for Mil Mi-8."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.helicopter-database.net/photo.php",
-        "publisher": "helicopter-database.net",
-        "note": "External source for Mil Mi-8."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://scalemodels.ru/modules/photo/viewcat_cid_87.html",
-        "publisher": "scalemodels.ru",
-        "note": "External source for Mil Mi-8."
+        "id": "fn-czech-mod",
+        "title": "Mil Mi-8 - NATO code: HIP",
+        "url": "https://www.mo.gov.cz/scripts/detail.php?id=6304",
+        "publisher": "Ministry of Defence of the Czech Republic",
+        "note": "Official operator/government overview used for design description, cabin dimensions, engine output, payload, production start, and Mi-8/Mi-17 international-use context."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://scalemodels.ru/modules/photo/viewcat_cid_135.html",
-        "publisher": "scalemodels.ru",
-        "note": "External source for Mil Mi-8."
+        "id": "fn-russian-helicopters-60",
+        "title": "Russian Helicopters celebrates 60 years since first flight of Mi-8 helicopter",
+        "url": "https://www.businessairnews.com/hb_news_story.html?release=79676",
+        "publisher": "Business Air News / Russian Helicopters press release",
+        "note": "Russian Helicopters release used for V-8 prototype history, first-flight date, production plants, over-13,000-delivery figure, variant breadth, and Mi-8/17 family market context."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.helicopter-database.net/photo.php",
-        "publisher": "helicopter-database.net",
-        "note": "External source for Mil Mi-8."
+        "id": "fn-flugzeuginfo",
+        "title": "Mil Mi-8 - Specifications - Technical Data / Description",
+        "url": "http://www.flugzeuginfo.net/acdata_php/acdata_mi8_en.php",
+        "publisher": "flugzeuginfo.net",
+        "note": "Technical data source used for representative Mi-8 dimensions, weights, engines, speed, range, ceiling, and variant list; values are treated as representative because Mi-8-family variants differ."
+      },
+      {
+        "id": "fn-main",
+        "title": "Mil Mi-8",
+        "url": "https://en.wikipedia.org/wiki/Mil_Mi-8",
+        "publisher": "Wikipedia",
+        "note": "Supplementary orientation source for broad family structure and cross-checking; not used as the sole source for key technical claims."
       }
     ],
     "article_sections": [
@@ -51468,63 +51581,86 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Mil Mi-8 is an Utility helicopter from Soviet Union. Manufacturer: Mil. First flight: 1961. Introduction: 1967. Status: Active.",
+            "text": "The Mil Mi-8, NATO reporting name Hip, is a Soviet-origin medium twin-turbine helicopter family designed by Mil and produced in very large numbers at Kazan and Ulan-Ude. It began as the V-8 program to replace the Mi-4 with turbine power and evolved into one of the most common utility helicopters in the world.",
             "refs": [
-              "fn-main"
+              "fn-russian-helicopters-60",
+              "fn-czech-mod"
             ]
           },
           {
-            "text": "Mil Mi-8 is a helicopter. Primary role: utility helicopter. Country of origin: Soviet Union. Manufacturer: Mil.",
+            "text": "Unlike a dedicated attack helicopter, the Mi-8 is primarily a transport and utility machine: a crew of about three can carry passengers, cargo, stretchers, mission equipment, or external loads. Armed versions exist, but weapons and sensors vary widely by variant and operator.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Exact structured fact fields: 15.",
-            "refs": [
+              "fn-czech-mod",
               "fn-method"
+            ]
+          },
+          {
+            "text": "Russian Helicopters publicity described more than 13,000 Mi-8/17-family deliveries to more than 80 countries; the Czech Ministry of Defence page similarly emphasizes the type’s worldwide use with the related Mi-17. Those figures are family-level claims and should not be read as a current Mi-8-only active inventory.",
+            "refs": [
+              "fn-russian-helicopters-60",
+              "fn-czech-mod"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Utility helicopter"
+            "text": "Medium utility, transport, assault-support, medical, VIP, and special-mission helicopter"
           },
           {
-            "title": "Designer or builder",
-            "text": "Mil"
+            "title": "Origin and designer",
+            "text": "Soviet Union; Mil Moscow Helicopter Plant"
           },
           {
-            "title": "Major origin",
-            "text": "Soviet Union"
+            "title": "Production family",
+            "text": "Mi-8 / Mi-17 / Mi-171 family, with more than 13,000 delivered according to Russian Helicopters publicity"
           },
           {
-            "title": "Propulsion",
-            "text": "Turboshaft"
+            "title": "NATO reporting name",
+            "text": "Hip"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Mil Mi-8 first flew in 1961. Introduction date: 1967. Era: Cold War/Modern.",
+            "text": "Mil began work in the late 1950s after the Mi-4 showed the value of a rugged troop-and-cargo helicopter but turbine engines promised better performance and efficiency. The first V-8 prototype used an adapted Ivchenko AI-24 aircraft engine while dedicated helicopter turbines were still being developed.",
             "refs": [
-              "fn-main"
+              "fn-russian-helicopters-60"
             ]
           },
           {
-            "text": "Producer: Mil. Development context: utility helicopter, turboshaft propulsion, subsonic speed category, Cold War/Modern era.",
+            "text": "The first V-8 flew/hovered on 24 June 1961 in the Russian Helicopters account, while the Czech Ministry of Defence page gives 9 June 1961 and notes a two-engine prototype flight on 17 September 1962. This page records the date discrepancy rather than forcing a false precision.",
             "refs": [
-              "fn-wikidata"
+              "fn-russian-helicopters-60",
+              "fn-czech-mod"
+            ]
+          },
+          {
+            "text": "Serial production began in 1965 at Kazan Helicopter Plant; production also began at Ulan-Ude in 1970. Early production designations included the Mi-8P passenger version and Mi-8T transport/landing version.",
+            "refs": [
+              "fn-russian-helicopters-60",
+              "fn-czech-mod"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing lift, survivability, vibration, hot-and-high performance, and battlefield maintainability.",
+            "text": "Design goal: a turbine-powered successor to the Mi-4 with better payload, cabin access, and long-term growth potential.",
+            "refs": [
+              "fn-russian-helicopters-60"
+            ]
+          },
+          {
+            "text": "The production family expanded into passenger, cargo, ambulance, agricultural, command-post, electronic-warfare, minelaying, armed-transport, and export derivatives.",
+            "refs": [
+              "fn-russian-helicopters-60"
+            ]
+          },
+          {
+            "text": "Later Mi-8MT/Mi-17/Mi-171 derivatives are related but often have different engines, avionics, payload ratings, and customer equipment.",
             "refs": [
               "fn-method"
             ]
@@ -51532,124 +51668,91 @@
         ]
       },
       {
-        "id": "design",
+        "id": "design-capabilities",
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 3. Propulsion: Turboshaft. Speed category: Subsonic.",
+            "text": "The Mi-8 uses a classic helicopter arrangement with a five-blade main rotor, three-blade tail rotor, non-retractable tricycle landing gear, and a light-alloy fuselage. A large sliding door on the left side and clamshell rear loading doors support troop, cargo, and stretcher loading.",
             "refs": [
-              "fn-main"
+              "fn-czech-mod",
+              "fn-flugzeuginfo"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "The Czech Ministry of Defence gives a cargo compartment about 5.34 m long, 2.32 m wide, and 1.8 m high, with capacity for up to 24 personnel, about 4,000 kg internal cargo, 12 stretcher patients, and an external sling load up to about 3,000 kg for the basic transport version.",
             "refs": [
+              "fn-czech-mod"
+            ]
+          },
+          {
+            "text": "Early Mi-8 data commonly lists two TV2-117A turboshafts around 1,120-1,251 kW each. Later Mi-8MT/Mi-17/171 aircraft use more powerful engines and updated rotors, avionics, defensive aids, and mission systems depending on production standard.",
+            "refs": [
+              "fn-czech-mod",
+              "fn-flugzeuginfo",
+              "fn-russian-helicopters-60"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Rotor layout",
+            "text": "Five-blade main rotor; three-blade tail rotor"
+          },
+          {
+            "title": "Representative payload",
+            "text": "Up to 24 troops, 12 stretchers, about 4,000 kg internal cargo, or about 3,000 kg sling load for basic transport data"
+          },
+          {
+            "title": "Powerplant caveat",
+            "text": "TV2-117 on early Mi-8s; TV3-117/VK-2500-family engines on many later derivatives"
+          },
+          {
+            "title": "Weapons caveat",
+            "text": "Unarmed in civil/basic transport form; armed kits differ by variant and operator"
+          }
+        ]
+      },
+      {
+        "id": "specifications",
+        "title": "Specifications",
+        "paragraphs": [
+          {
+            "text": "Representative Mi-8 data: crew 3; two Klimov TV2-117A-family turboshafts; main rotor diameter about 21.29 m; tail rotor diameter about 3.91 m; overall length about 25.24 m; height about 5.65 m.",
+            "refs": [
+              "fn-flugzeuginfo",
+              "fn-czech-mod"
+            ]
+          },
+          {
+            "text": "Representative performance data: maximum speed about 259 km/h, service ceiling about 4,500 m, range about 500 km, empty weight about 6,800 kg, and maximum takeoff weight about 12,000 kg. These figures are for a baseline Mi-8-style data set and should not be applied to every Mi-17/171 derivative.",
+            "refs": [
+              "fn-flugzeuginfo",
               "fn-method"
             ]
           },
           {
-            "text": "Mil Mi-8 uses turboshaft propulsion. Engine model field: Not listed.",
+            "text": "The Czech Ministry of Defence lists two TV2-117A engines producing 1,120 kW each, briefly up to 1,250 kW, and additional side fuel tanks totaling about 1,830 litres. Public figures vary because sources use different variants and units.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Utility helicopter weapons not listed. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-czech-mod"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "3"
+            "text": "3 typical flight crew"
           },
           {
-            "title": "Engine class",
-            "text": "Turboshaft"
+            "title": "Main rotor diameter",
+            "text": "21.29 m / 69 ft 10 in (representative Mi-8)"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Maximum takeoff weight",
+            "text": "About 12,000 kg / 26,455 lb (representative Mi-8)"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Mil Mi-8 status: Active. Conflict entries: 2.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: Soviet–Afghan War, Russo-Ukrainian War.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Soviet–Afghan War: Mil Mi-8 used in Soviet–Afghan War.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Russo-Ukrainian War: Mil Mi-8 used in Russo-Ukrainian War.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Mil Mi-8 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Range and ceiling",
+            "text": "About 500 km and 4,500 m for representative Mi-8 data"
           }
         ]
       },
@@ -51658,35 +51761,52 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Mil Mi-8 variant-family entries: 3. Variant families: Mil Mi-8 baseline production model; Mil Mi-8 upgraded avionics or weapons-capable model; Mil Mi-8 utility, attack, naval, or export model.",
+            "text": "The Mi-8 family is too broad for a single definitive variant list: nearly 100 configurations have been described across passenger, transport, armed, medical, agricultural, command, electronic-warfare, and export roles. Milipedia therefore groups the main families and flags variant-dependent claims.",
             "refs": [
-              "fn-main"
+              "fn-russian-helicopters-60",
+              "fn-method"
             ]
           },
           {
-            "text": "Complete variant entries listed: 0.",
+            "text": "Early production included the Mi-8P passenger aircraft and Mi-8T transport/landing version. Later branches included armed transport versions, Mi-8S VIP/salon aircraft, Mi-8PPA electronic-warfare aircraft, Mi-9 command-post helicopters, and the improved Mi-8MT/Mi-17 export family.",
             "refs": [
-              "fn-method"
+              "fn-russian-helicopters-60",
+              "fn-czech-mod",
+              "fn-flugzeuginfo"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Mil Mi-8 baseline production model",
+            "text": "V-8 / V-8A — prototype line leading from single-engine test aircraft to the two-engine configuration.",
             "refs": [
-              "fn-main"
+              "fn-russian-helicopters-60"
             ]
           },
           {
-            "text": "Mil Mi-8 upgraded avionics or weapons-capable model",
+            "text": "Mi-8P and Mi-8T — early passenger and transport/landing production versions.",
             "refs": [
-              "fn-main"
+              "fn-russian-helicopters-60"
             ]
           },
           {
-            "text": "Mil Mi-8 utility, attack, naval, or export model",
+            "text": "Mi-8TV/TB and armed transports — external stores and weapons provisions vary by operator and upgrade.",
             "refs": [
-              "fn-main"
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Mi-8PPA / Mi-9 — electronic-warfare and command/communications roles rather than ordinary troop transport.",
+            "refs": [
+              "fn-czech-mod",
+              "fn-flugzeuginfo"
+            ]
+          },
+          {
+            "text": "Mi-8MT / Mi-17 / Mi-171 — later export and upgraded families with different engines, avionics, and mission kits.",
+            "refs": [
+              "fn-russian-helicopters-60",
+              "fn-method"
             ]
           }
         ]
@@ -51696,13 +51816,14 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Soviet Union. Mil Mi-8 has 1 designer or builder country entry.",
+            "text": "The Mi-8/17 family is a global helicopter system rather than a single-country fleet. Russian Helicopters publicity states that more than 13,000 machines had been delivered to more than 80 countries, and the Czech Ministry of Defence page notes Mi-8/Mi-17 service in 49 countries.",
             "refs": [
-              "fn-wikidata"
+              "fn-russian-helicopters-60",
+              "fn-czech-mod"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Representative users include Soviet/Russian forces, post-Soviet states, former Warsaw Pact countries, India, Afghanistan-related users, and many civil/government operators. Exact current inventories are omitted because active fleets, losses, storage status, and civil registrations change frequently.",
             "refs": [
               "fn-method"
             ]
@@ -51710,31 +51831,59 @@
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Original and continuing core users: Soviet and Russian military, government, and civil aviation organizations.",
             "refs": [
-              "fn-main"
+              "fn-russian-helicopters-60"
             ]
           },
           {
-            "text": "Major designer or builder entries: Soviet Union.",
+            "text": "European users include former Warsaw Pact operators and countries that inherited or purchased Mi-8/Mi-17-family aircraft.",
             "refs": [
-              "fn-wikidata"
+              "fn-czech-mod"
+            ]
+          },
+          {
+            "text": "Civil/government use includes remote-region transport, medical evacuation, firefighting support, VIP transport, resource-industry logistics, and humanitarian operations.",
+            "refs": [
+              "fn-russian-helicopters-60"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 3, propulsion type Turboshaft, maximum speed category Subsonic, first flight 1961, introduction 1967.",
+            "text": "Operationally, the Mi-8 is known less for one specific battle than for decades of routine utility work: moving troops, supplies, casualties, officials, relief cargo, and maintenance teams in regions where road access or runway infrastructure is limited.",
             "refs": [
-              "fn-main"
+              "fn-russian-helicopters-60",
+              "fn-czech-mod"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "In Afghanistan the Mi-8/Mi-17 family became a standard mountain transport and assault-support platform. Its ability to carry soldiers or cargo and to accept weapons on some versions made it useful, but also exposed it to ground fire and harsh hot-and-high operating conditions.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The family has also appeared in post-Soviet conflicts, UN and humanitarian missions, and the Russo-Ukrainian War. Current wartime loss counts and mission claims are deliberately omitted because they change rapidly and often depend on partisan reporting.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Core missions: troop transport, cargo lift, casualty evacuation, command/support, liaison, VIP transport, and special-mission work.",
+            "refs": [
+              "fn-czech-mod"
+            ]
+          },
+          {
+            "text": "Armed-use caution: Mi-8 armed transports are not equivalent to dedicated Mi-24 or Ka-52 attack helicopters.",
             "refs": [
               "fn-method"
             ]
@@ -51742,11 +51891,128 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "comparison-strengths-limitations",
+        "title": "Comparison, Strengths, and Limitations",
         "paragraphs": [
           {
-            "text": "Mil Mi-8 similar-development links: 4.",
+            "text": "Compared with smaller utility helicopters such as the UH-1, the Mi-8 offers a larger cabin and heavier payload. Compared with heavy-lift aircraft such as the Mi-26, it is smaller and easier to operate in large numbers. Compared with the UH-60, it is generally a roomier medium transport but reflects a different Soviet design philosophy and a much broader civil/military variant spread.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Strengths include ruggedness, cabin volume, large production base, adaptability, and global maintenance familiarity. Limitations include older baseline avionics on many airframes, high acoustic and infrared signatures, limited speed compared with fixed-wing transports, and vulnerability when used in contested airspace without adequate escort, tactics, or defensive equipment.",
+            "refs": [
+              "fn-czech-mod",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: unusually broad mission set and worldwide spares/operator knowledge.",
+            "refs": [
+              "fn-russian-helicopters-60"
+            ]
+          },
+          {
+            "text": "Strength: useful cargo compartment, rear loading doors, and external-sling capability.",
+            "refs": [
+              "fn-czech-mod"
+            ]
+          },
+          {
+            "text": "Limitation: public specifications are variant-sensitive; baseline Mi-8, Mi-17, Mi-171, and Mi-171A2 values should not be mixed without noting the version.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: a transport helicopter in combat zones must manage air-defense threats, landing-zone security, payload/range tradeoffs, and survivability upgrades.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "Late 1950s — Mil begins development of a turbine-powered Mi-4 successor.",
+            "refs": [
+              "fn-russian-helicopters-60"
+            ]
+          },
+          {
+            "text": "24 June 1961 — Russian Helicopters account records the first V-8 flight/hover; another official-source date discrepancy is noted in the development section.",
+            "refs": [
+              "fn-russian-helicopters-60",
+              "fn-czech-mod"
+            ]
+          },
+          {
+            "text": "17 September 1962 — Czech Ministry of Defence page notes the first flight of the final two-engine prototype configuration.",
+            "refs": [
+              "fn-czech-mod"
+            ]
+          },
+          {
+            "text": "1965 — serial production begins at Kazan Helicopter Plant.",
+            "refs": [
+              "fn-russian-helicopters-60",
+              "fn-czech-mod"
+            ]
+          },
+          {
+            "text": "1967-1968 — early operational introduction period, depending on source and service definition.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "1970 — Ulan-Ude Aviation Plant begins production, broadening the family’s manufacturing base.",
+            "refs": [
+              "fn-russian-helicopters-60"
+            ]
+          },
+          {
+            "text": "2021 — Russian Helicopters marks 60 years since the first Mi-8 flight and states more than 13,000 Mi-8/17-family deliveries.",
+            "refs": [
+              "fn-russian-helicopters-60"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "This page prioritizes the Czech Ministry of Defence official overview for concrete airframe and payload details, a Russian Helicopters press-release text for development and production-family context, flugzeuginfo.net for representative technical values, and Wikipedia only as a supplementary orientation source.",
+            "refs": [
+              "fn-czech-mod",
+              "fn-russian-helicopters-60",
+              "fn-flugzeuginfo",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Because the Mi-8/Mi-17/171 family spans many decades and roles, exact current operators, weapon fits, sensor packages, and performance values should be verified against a specific variant, customer, and date before reuse in technical or operational analysis.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages include Soviet/Russian helicopters, comparable utility helicopters, and larger or more specialized rotorcraft.",
             "refs": [
               "fn-method"
             ]
@@ -51754,12 +52020,12 @@
         ],
         "links": [
           {
-            "label": "Bell AH-1 Cobra",
-            "url": "aircraft.html?id=ah-1-cobra"
+            "label": "Mil Mi-24 Hind",
+            "url": "aircraft.html?id=mi-24"
           },
           {
-            "label": "Boeing AH-64 Apache",
-            "url": "aircraft.html?id=ah-64-apache"
+            "label": "Mil Mi-26 Halo",
+            "url": "aircraft.html?id=mi-26"
           },
           {
             "label": "Bell UH-1 Iroquois",
@@ -51768,15 +52034,16 @@
           {
             "label": "Sikorsky UH-60 Black Hawk",
             "url": "aircraft.html?id=uh-60-black-hawk"
+          },
+          {
+            "label": "Sikorsky CH-53 Sea Stallion",
+            "url": "aircraft.html?id=ch-53-sea-stallion"
+          },
+          {
+            "label": "Back to Aircraft Database",
+            "url": "aircraft.html"
           }
         ]
-      }
-    ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Mortar_attack_on_Shigal_Tarna_garrison%2C_Kunar_Province%2C_87.jpg/960px-Mortar_attack_on_Shigal_Tarna_garrison%2C_Kunar_Province%2C_87.jpg",
-        "caption": "Soviet–Afghan War",
-        "source_url": "https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War"
       }
     ]
   },

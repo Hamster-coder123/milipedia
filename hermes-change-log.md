@@ -5232,3 +5232,83 @@ Record the result of:
 * Exact current worldwide production and active-fleet numbers were intentionally not asserted because they change by delivery, retirement, and contract status.
 * Special-mission and armed-kit capabilities vary by customer; the page avoids implying that every C-27J has MC-27J, ISR, ASW, or firefighting equipment.
 * The final commit hash cannot be embedded in the same committed log entry without changing the hash; the authoritative hash is reported in the scheduled-run response.
+
+### Run 69 — 2026-07-03 11:03:47 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Mil Mi-8 (id: mi-8)
+* Reason selected: The Mi-8 entry was the shortest unedited aircraft record remaining in the repository candidate scan, with placeholder-like generated text, no operator entries, no variant entries, missing representative dimensions/weights/range/ceiling data, and only generic external links rather than article-quality sources.
+* Previous condition: Sparse generated page with 15 exact fact fields, 0 operator entries, 0 variant entries, generic utility-helicopter armament wording, short generated article sections, incomplete specifications, and a stale conflict event gallery.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview and quick-fact style; development/design/specifications/variants/operators/operational-history/comparison/timeline/sources/related-pages ordering; cautious source-backed paragraphs; card-style key facts; internal aircraft.html?id=... related-link style; explicit caveats for variant-dependent weapons, sensors, operators, and public performance data.
+
+#### Changes Made
+
+* Expanded the Mil Mi-8 entry in data/aircraft.json from a sparse generated record into a fuller Milipedia aircraft article data record.
+* Added the NATO reporting name Hip, broader alternative names, more precise manufacturer/production framing, and a medium twin-turbine utility/transport role description.
+* Added sourced development history covering the V-8/V-8A prototypes, first-flight date discrepancy between public official-style sources, serial production at Kazan, production expansion to Ulan-Ude, and early Mi-8P/Mi-8T designations.
+* Added design and capability detail for the five-blade main rotor, three-blade tail rotor, cargo/passenger cabin, sliding and rear loading doors, non-retractable landing gear, external fuel tanks, troop/cargo/stretcher capacity, and sling-load role.
+* Added representative technical specifications for early Mi-8 data, including TV2-117-family engines, main/tail rotor diameters, length, height, empty and maximum takeoff weights, speed, range, and service ceiling, with caveats that Mi-8MT/Mi-17/Mi-171 derivatives differ.
+* Replaced generic armament wording with transport-helicopter-specific wording: basic/civil Mi-8s are unarmed, while armed variants may carry door guns, rocket pods, gun pods, bombs, or other stores depending on version and operator.
+* Added variant coverage for V-8/V-8A, Mi-8P, Mi-8T, Mi-8TV/TB, Mi-8S, Mi-8PPA/Mi-9, Mi-8MT/Mi-17, and Mi-171/Mi-172/Mi-171A2 families.
+* Added representative operator coverage for Soviet/Russian, Czech/former Czechoslovak, Ukrainian, Indian, Afghan, Polish, German/former East German, Finnish, UN/humanitarian, civil/government, and other international users without freezing unstable current fleet totals.
+* Added operational-history, comparison, strengths/limitations, timeline, sources/notes, and related-pages sections in the same JSON-rendered article style used by recent Milipedia Hermes updates.
+* Added reliable sources from the Czech Ministry of Defence, a Russian Helicopters press-release text carried by Business Air News, flugzeuginfo.net technical data, Wikipedia as supplementary orientation, Wikidata, and local Milipedia accuracy rules.
+* Updated internal related links to existing Milipedia IDs for Mi-24, Mi-26, UH-1, UH-60, and CH-53.
+* Removed the stale Soviet-Afghan War event gallery from the Mi-8 entry because it was generic generated metadata rather than a curated Mi-8 article gallery.
+* Omitted exact current fleet counts, detailed loss totals, and a single universal weapons table because those facts are variant-, customer-, mission-, and date-dependent.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded the Mil Mi-8 aircraft page data, sections, specifications, sources, variants, operators, and related links.
+* hermes-change-log.md — Appended the cumulative Run 69 log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were modified and intended for staging.
+2. git diff — Reviewed the working diff and diffstat; data/aircraft.json changed only the Mi-8 entry and hermes-change-log.md gained this cumulative entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the Mi-8 entry sections, sources, variant/operator arrays, and top-level generated metadata cleanup.
+4. F-16 style comparison — Inspected data/f16-template.html and followed its dense overview, development/design/specifications/variants/operators/operational-history/comparison/timeline/sources/related-pages pattern within the JSON-rendered page format.
+5. Internal link check — Verified aircraft.html?id=mi-24, mi-26, uh-1-iroquois, uh-60-black-hawk, and ch-53-sea-stallion point to existing aircraft IDs; aircraft.html was retained as the database return link.
+6. Secret/token check — Ran credential-pattern scans over the intended/staged diff; no credentials or private data were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, one-entry aircraft change, intended file list, formatting checks, and the cumulative log entry before committing.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Mil Mi-8
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Public sources disagree on the exact first-flight date wording for the Mi-8/V-8 prototype; the page records the discrepancy instead of forcing false precision.
+* Mi-8/Mi-17/Mi-171-family specifications, weapons, sensors, and current operators vary greatly by variant and customer, so representative baseline data and caveats were used.
+* Current combat loss totals and active inventory counts were intentionally omitted because they are date-sensitive and often contested.
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
