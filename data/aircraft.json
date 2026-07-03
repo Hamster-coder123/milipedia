@@ -28839,58 +28839,142 @@
   {
     "id": "ch-53-sea-stallion",
     "name": "Sikorsky CH-53 Sea Stallion",
-    "alternative_names": [],
+    "alternative_names": [
+      "Sikorsky S-65",
+      "CH-53A/D Sea Stallion",
+      "Yasur (Israeli service name)"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
-    "manufacturer": "Sikorsky",
-    "role": "Heavy-lift helicopter",
+    "manufacturer": "Sikorsky Aircraft",
+    "role": "Shipboard heavy-lift assault transport helicopter",
     "aircraft_type": "Helicopter",
     "era": "Cold War/Modern",
-    "first_flight": "1964",
-    "introduction_date": "1966",
-    "retirement_date": null,
-    "status": "Active/retired by operator",
-    "number_built": "Not listed",
-    "crew": "3-5",
+    "first_flight": "14 October 1964",
+    "introduction_date": "1966-1967",
+    "retirement_date": "2012 for U.S. Marine Corps CH-53A/D service; later by operator",
+    "status": "Retired by the U.S. Marine Corps; limited legacy service and derivatives by operator",
+    "number_built": "More than 140 CH-53A plus later CH-53D/RH-53D/S-65 export and derivative airframes; exact totals vary by model family",
+    "crew": "Usually 3 or more: two pilots plus crew chief/loadmasters; mission dependent",
     "engine_type": "Turboshaft",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engines": "Two General Electric T64-family turboshafts on CH-53A/D; three T64-family engines on CH-53E/MH-53E derivatives",
+    "max_speed": "About 170 kt / 195 mph for representative CH-53A/D public figures",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Utility helicopter weapons not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Sikorsky CH-53 Sea Stallion: Heavy-lift helicopter. Manufacturer: Sikorsky. First flight: 1964. Introduction: 1966.",
-    "short_summary": "Sikorsky CH-53 Sea Stallion: Heavy-lift helicopter. Origin: United States. Manufacturer: Sikorsky. First flight: 1964. Introduction: 1966. Status: Active/retired by operator.",
-    "carrier_capable": false,
+    "range": "About 280 miles for representative CH-53A museum figures; longer ferry/range figures apply to some variants and fuel fits",
+    "combat_range": "Original HHX requirement: 8,000 lb payload over a 100 nmi radius at about 150 kt",
+    "service_ceiling": "About 16,700-18,500 ft in public CH-53A/D references, depending on variant and source",
+    "rate_of_climb": "Variant dependent; not standardized here because public figures conflict",
+    "armament": "Normally a transport helicopter with defensive door/ramp guns when fitted; cargo, troop, medevac, recovery, and minesweeping equipment varied by version",
+    "hardpoints": "External cargo hook and mission fittings; not a fixed-wing-style hardpoint aircraft",
+    "variants": [
+      {
+        "name": "YCH-53A",
+        "description": "Prototype S-65/CH-53 aircraft ordered after Sikorsky was selected for the Marine heavy shipboard helicopter requirement; first flew on 14 October 1964."
+      },
+      {
+        "name": "CH-53A",
+        "description": "Initial Marine Corps Sea Stallion heavy-lift assault transport. Built around two T64 turboshafts, a six-blade main rotor, rear-loading cargo cabin, and shipboard heavy-lift missions."
+      },
+      {
+        "name": "CH-53D",
+        "description": "Improved Marine Corps model with more powerful engines/transmission changes and the principal later two-engine U.S. Marine Sea Stallion standard."
+      },
+      {
+        "name": "RH-53A/RH-53D",
+        "description": "U.S. Navy minesweeping and airborne mine-countermeasures versions adapted from the Sea Stallion family."
+      },
+      {
+        "name": "HH-53B/C and MH-53 Pave Low",
+        "description": "U.S. Air Force combat-search-and-rescue and special-operations branches of the S-65 family, developed separately from the Marine assault-transport mission."
+      },
+      {
+        "name": "CH-53G/GS/GE/GA",
+        "description": "German CH-53D-derived aircraft, including license-built and upgraded German-service variants."
+      },
+      {
+        "name": "S-65C-3 Yasur",
+        "description": "Israeli CH-53/S-65C-3 service family, later upgraded through national Yasur modernization programs."
+      },
+      {
+        "name": "CH-53E Super Stallion / MH-53E Sea Dragon",
+        "description": "Larger three-engine development with a wider role and heavier lift; visually related but treated as a distinct follow-on family in many references."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "U.S. Marine Corps, U.S. Navy, and U.S. Air Force derivatives",
+        "notes": "Original customer family. The Marine Corps used CH-53A/D aircraft for assault transport, cargo, aircraft recovery, personnel movement, and medevac; the Navy used RH-53 minesweeping versions; the Air Force operated HH/MH-53 rescue and special-operations derivatives."
+      },
+      {
+        "country": "Germany",
+        "service": "German Army/German Air Force CH-53G family",
+        "notes": "Received Sikorsky-built aircraft and license-built kits, then operated upgraded CH-53G/GS/GE/GA fleets for heavy transport."
+      },
+      {
+        "country": "Israel",
+        "service": "Israeli Air Force S-65C-3 Yasur family",
+        "notes": "Operated the S-65C-3/CH-53 family under the Yasur name with national upgrade programs and long service in heavy-lift and special-mission roles."
+      },
+      {
+        "country": "Iran",
+        "service": "Imperial Iranian / Iranian service RH-53D family",
+        "notes": "Operated RH-53D/Sea Stallion-family aircraft; public status and exact fleet condition should be treated cautiously."
+      },
+      {
+        "country": "Mexico",
+        "service": "Mexican Air Force legacy CH-53 use",
+        "notes": "Listed in public references as a former Sea Stallion operator."
+      }
+    ],
+    "combat_history": "Used extensively for Vietnam-era Marine heavy lift and recovery work, later for minesweeping, rescue, special-operations derivatives, and heavy transport by export operators. Exact mission records differ by national fleet and variant.",
+    "development_history": "The CH-53 Sea Stallion began as Sikorsky's S-65 answer to a 1962 Bureau of Naval Weapons request for a Marine shipboard heavy helicopter able to lift an 8,000 lb payload over a 100 nmi radius. The YCH-53A first flew on 14 October 1964 and production/service introduction followed in the mid-1960s.",
+    "short_summary": "The Sikorsky CH-53 Sea Stallion is the two-engine S-65 heavy-lift helicopter family developed for U.S. Marine Corps ship-to-shore assault transport, cargo movement, aircraft recovery, personnel transport, and medical evacuation. It spawned Navy minesweeping, Air Force rescue/special-operations, German, Israeli, and larger three-engine CH-53E/MH-53E branches.",
+    "carrier_capable": true,
     "stealth": false,
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/CH-53D_Sea_Stallion_of_HMH-362_in_Afghanistan_on_26_May_2012.jpg/330px-CH-53D_Sea_Stallion_of_HMH-362_in_Afghanistan_on_26_May_2012.jpg",
-        "caption": "Sikorsky CH-53 Sea Stallion",
-        "credit": "Wikimedia/Wikipedia thumbnail source",
+        "caption": "A U.S. Marine Corps CH-53D Sea Stallion in Afghanistan, 2012.",
+        "credit": "Wikimedia Commons / U.S. Marine Corps image via Wikipedia thumbnail source",
         "license": "Verify original file license before reuse."
       }
     ],
     "sources": [
       {
+        "id": "fn-sikorsky-archives",
+        "title": "Sikorsky S-65",
+        "url": "https://sikorskyarchives.com/home/sikorsky-product-history/helicopter-innovation-era/sikorsky-s-65",
+        "publisher": "Igor I. Sikorsky Historical Archives",
+        "note": "Primary source for S-65/CH-53 development background, original BuWeps requirement, first flight, propulsion, load, and variant-family designations."
+      },
+      {
+        "id": "fn-fort-worth",
+        "title": "CH-53 Sea Stallion",
+        "url": "https://fortworthaviationmuseum.com/ch-53-sea-stallion",
+        "publisher": "Fort Worth Aviation Museum",
+        "note": "Museum reference for Marine Corps requirement, Vietnam service, production notes, CH-53A representative dimensions and performance, and preserved aircraft history."
+      },
+      {
+        "id": "fn-flying-leathernecks",
+        "title": "CH-53A Sea Stallion",
+        "url": "https://www.flyingleathernecks.org/aircraft-collection/ch-53a-sea-stallion",
+        "publisher": "Flying Leatherneck Aviation Museum",
+        "note": "Museum reference for CH-53A combat-assault mission, service dates, capacity, Marine squadron use, and later retirement context."
+      },
+      {
+        "id": "fn-globalaircraft",
+        "title": "CH-53 Sea Stallion",
+        "url": "https://www.globalaircraft.org/planes/ch-53_sea_stallion.pl",
+        "publisher": "GlobalAircraft.org",
+        "note": "Supplementary public specification reference, especially for CH-53D/three-engine-data caveats. Used cautiously where figures differ by variant."
+      },
+      {
         "id": "fn-main",
         "title": "Sikorsky CH-53 Sea Stallion",
         "url": "https://en.wikipedia.org/wiki/Sikorsky_CH-53_Sea_Stallion",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for broad operator and variant cross-checks; not used as the sole basis for technical claims."
       },
       {
         "id": "fn-method",
@@ -28898,27 +28982,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.deagel.com/pandora/ch-53d-sea-stallion_opm0002001.aspx",
-        "publisher": "deagel.com",
-        "note": "External source for Sikorsky CH-53 Sea Stallion."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.globalaircraft.org/planes/ch-53_sea_stallion.pl",
-        "publisher": "globalaircraft.org",
-        "note": "External source for Sikorsky CH-53 Sea Stallion."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.history.navy.mil/planes/ch53.htm",
-        "publisher": "history.navy.mil",
-        "note": "External source for Sikorsky CH-53 Sea Stallion."
       }
     ],
     "country_flags": [
@@ -28928,135 +28991,155 @@
       }
     ],
     "designers": [
-      "Sikorsky"
+      "Sikorsky Aircraft"
     ],
     "development_tensions": [
-      "Balancing lift, survivability, vibration, hot-and-high performance, and battlefield maintainability."
+      "Meeting Marine shipboard heavy-lift requirements without the downwash and deck-handling issues that worried planners about tilt-wing alternatives.",
+      "Balancing lift, cabin volume, rotor diameter, folding features, vibration, hot-and-high performance, and maintainability in an assault-support helicopter.",
+      "Keeping variant data separate because two-engine CH-53A/D, minesweeping RH-53, Air Force HH/MH-53, export CH-53G/S-65C, and three-engine CH-53E/MH-53E aircraft differ substantially."
     ],
-    "wars_used_in": [],
+    "wars_used_in": [
+      "Vietnam War",
+      "Middle East conflicts by operator",
+      "Afghanistan War by late U.S. Marine CH-53D units"
+    ],
     "variant_families": [
-      "Sikorsky CH-53 Sea Stallion baseline production model",
-      "Sikorsky CH-53 Sea Stallion upgraded avionics or weapons-capable model",
-      "Sikorsky CH-53 Sea Stallion utility, attack, naval, or export model"
+      "Two-engine CH-53A/D Sea Stallion assault transport",
+      "RH-53 mine-countermeasures aircraft",
+      "HH/MH-53 rescue and special-operations derivatives",
+      "German CH-53G and Israeli Yasur export/service families",
+      "Three-engine CH-53E/MH-53E follow-on family"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Sikorsky CH-53 Sea Stallion has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Primary U.S. users were the Marine Corps, Navy, and Air Force derivatives; Germany and Israel became major long-term export operators.",
+      "all_operators_status": "Representative operators listed; exact current status varies by country and upgrade program."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "Fort Worth Aviation Museum CH-53A/D composite aircraft \"Patches\" preserves visible Vietnam combat-damage repairs.",
+        "YCH-53A first flight on 14 October 1964 marked the start of the S-65 heavy-lift family."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Public accident and combat-loss records are extensive but variant- and operator-specific; this page avoids unsourced incident tables."
       ]
     },
     "engine_details": {
       "type": "Turboshaft",
-      "summary": "Sikorsky CH-53 Sea Stallion uses turboshaft propulsion."
+      "summary": "Baseline CH-53A aircraft used two General Electric T64-GE-6/T64-family turboshafts, while later CH-53D, German, Israeli, and three-engine E/MH-53E derivatives used different T64-family ratings and transmissions."
     },
     "armament_details": {
-      "summary": "Utility helicopter weapons not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "The Sea Stallion was not designed as a gunship. Defensive window, door, or ramp guns could be installed depending on operator and mission, while cargo hooks, minesweeping gear, medevac fittings, troop seats, or recovery equipment defined many missions.",
+      "caution": "Do not treat CH-53A/D, RH-53D, HH/MH-53, CH-53G, S-65C-3, CH-53E, and MH-53E equipment fits as interchangeable."
     },
     "similar_development": [
       {
-        "id": "ah-1-cobra",
-        "name": "Bell AH-1 Cobra",
-        "url": "aircraft.html?id=ah-1-cobra"
+        "id": "ch-47-chinook",
+        "name": "Boeing CH-47 Chinook",
+        "url": "aircraft.html?id=ch-47-chinook"
       },
       {
-        "id": "ah-64-apache",
-        "name": "Boeing AH-64 Apache",
-        "url": "aircraft.html?id=ah-64-apache"
-      },
-      {
-        "id": "uh-1-iroquois",
-        "name": "Bell UH-1 Iroquois",
-        "url": "aircraft.html?id=uh-1-iroquois"
+        "id": "v-22-osprey",
+        "name": "Bell Boeing V-22 Osprey",
+        "url": "aircraft.html?id=v-22-osprey"
       },
       {
         "id": "uh-60-black-hawk",
         "name": "Sikorsky UH-60 Black Hawk",
         "url": "aircraft.html?id=uh-60-black-hawk"
+      },
+      {
+        "name": "Sikorsky CH-53E Super Stallion",
+        "url": "https://en.wikipedia.org/wiki/Sikorsky_CH-53E_Super_Stallion"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 39,
+      "operator_entries": 5,
+      "variant_entries": 8,
+      "external_article_sources": 5
     },
     "footnotes": [
+      {
+        "id": "fn-sikorsky-archives",
+        "title": "Sikorsky S-65",
+        "url": "https://sikorskyarchives.com/home/sikorsky-product-history/helicopter-innovation-era/sikorsky-s-65",
+        "publisher": "Igor I. Sikorsky Historical Archives",
+        "note": "Primary source for S-65/CH-53 development background, original BuWeps requirement, first flight, propulsion, load, and variant-family designations."
+      },
+      {
+        "id": "fn-fort-worth",
+        "title": "CH-53 Sea Stallion",
+        "url": "https://fortworthaviationmuseum.com/ch-53-sea-stallion",
+        "publisher": "Fort Worth Aviation Museum",
+        "note": "Museum reference for Marine Corps requirement, Vietnam service, production notes, CH-53A representative dimensions and performance, and preserved aircraft history."
+      },
+      {
+        "id": "fn-flying-leathernecks",
+        "title": "CH-53A Sea Stallion",
+        "url": "https://www.flyingleathernecks.org/aircraft-collection/ch-53a-sea-stallion",
+        "publisher": "Flying Leatherneck Aviation Museum",
+        "note": "Museum reference for CH-53A combat-assault mission, service dates, capacity, Marine squadron use, and later retirement context."
+      },
+      {
+        "id": "fn-globalaircraft",
+        "title": "CH-53 Sea Stallion",
+        "url": "https://www.globalaircraft.org/planes/ch-53_sea_stallion.pl",
+        "publisher": "GlobalAircraft.org",
+        "note": "Supplementary public specification reference, especially for CH-53D/three-engine-data caveats. Used cautiously where figures differ by variant."
+      },
       {
         "id": "fn-main",
         "title": "Sikorsky CH-53 Sea Stallion",
         "url": "https://en.wikipedia.org/wiki/Sikorsky_CH-53_Sea_Stallion",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for broad operator and variant cross-checks; not used as the sole basis for technical claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.deagel.com/pandora/ch-53d-sea-stallion_opm0002001.aspx",
-        "publisher": "deagel.com",
-        "note": "External source for Sikorsky CH-53 Sea Stallion."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.globalaircraft.org/planes/ch-53_sea_stallion.pl",
-        "publisher": "globalaircraft.org",
-        "note": "External source for Sikorsky CH-53 Sea Stallion."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.history.navy.mil/planes/ch53.htm",
-        "publisher": "history.navy.mil",
-        "note": "External source for Sikorsky CH-53 Sea Stallion."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.deagel.com/pandora/ch-53d-sea-stallion_opm0002001.aspx",
-        "publisher": "deagel.com",
-        "note": "External source for Sikorsky CH-53 Sea Stallion."
+        "id": "fn-sikorsky-archives",
+        "title": "Sikorsky S-65",
+        "url": "https://sikorskyarchives.com/home/sikorsky-product-history/helicopter-innovation-era/sikorsky-s-65",
+        "publisher": "Igor I. Sikorsky Historical Archives",
+        "note": "Primary source for S-65/CH-53 development background, original BuWeps requirement, first flight, propulsion, load, and variant-family designations."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.globalaircraft.org/planes/ch-53_sea_stallion.pl",
-        "publisher": "globalaircraft.org",
-        "note": "External source for Sikorsky CH-53 Sea Stallion."
+        "id": "fn-fort-worth",
+        "title": "CH-53 Sea Stallion",
+        "url": "https://fortworthaviationmuseum.com/ch-53-sea-stallion",
+        "publisher": "Fort Worth Aviation Museum",
+        "note": "Museum reference for Marine Corps requirement, Vietnam service, production notes, CH-53A representative dimensions and performance, and preserved aircraft history."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.history.navy.mil/planes/ch53.htm",
-        "publisher": "history.navy.mil",
-        "note": "External source for Sikorsky CH-53 Sea Stallion."
+        "id": "fn-flying-leathernecks",
+        "title": "CH-53A Sea Stallion",
+        "url": "https://www.flyingleathernecks.org/aircraft-collection/ch-53a-sea-stallion",
+        "publisher": "Flying Leatherneck Aviation Museum",
+        "note": "Museum reference for CH-53A combat-assault mission, service dates, capacity, Marine squadron use, and later retirement context."
+      },
+      {
+        "id": "fn-globalaircraft",
+        "title": "CH-53 Sea Stallion",
+        "url": "https://www.globalaircraft.org/planes/ch-53_sea_stallion.pl",
+        "publisher": "GlobalAircraft.org",
+        "note": "Supplementary public specification reference, especially for CH-53D/three-engine-data caveats. Used cautiously where figures differ by variant."
+      },
+      {
+        "id": "fn-main",
+        "title": "Sikorsky CH-53 Sea Stallion",
+        "url": "https://en.wikipedia.org/wiki/Sikorsky_CH-53_Sea_Stallion",
+        "publisher": "Wikipedia",
+        "note": "Supplementary orientation source for broad operator and variant cross-checks; not used as the sole basis for technical claims."
       }
     ],
     "article_sections": [
@@ -29065,20 +29148,23 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Sikorsky CH-53 Sea Stallion is a Heavy-lift helicopter from United States. Manufacturer: Sikorsky. First flight: 1964. Introduction: 1966. Status: Active/retired by operator.",
+            "text": "The Sikorsky CH-53 Sea Stallion is a U.S. heavy-lift helicopter family designed around Marine Corps ship-to-shore assault transport rather than the attack-helicopter role. It carried troops, vehicles, artillery, cargo, litter patients, and recovery loads from ships and forward bases.",
             "refs": [
-              "fn-main"
+              "fn-sikorsky-archives",
+              "fn-fort-worth"
             ]
           },
           {
-            "text": "Sikorsky CH-53 Sea Stallion is a helicopter. Primary role: heavy-lift helicopter. Country of origin: United States. Manufacturer: Sikorsky.",
+            "text": "Sikorsky developed the S-65 after the Marine Corps rejected a tilt-wing solution as unsuitable for shipboard work and asked for a heavy helicopter able to lift an 8,000 lb payload over a 100 nmi radius. The first YCH-53A flew on 14 October 1964, and early production aircraft reached Marine units and Vietnam in the mid-to-late 1960s.",
             "refs": [
-              "fn-wikidata"
+              "fn-sikorsky-archives",
+              "fn-fort-worth"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "This page emphasizes the two-engine CH-53A/D Sea Stallion family. The larger CH-53E Super Stallion, MH-53E Sea Dragon, Air Force HH/MH-53 rescue family, German CH-53G, and Israeli Yasur are closely related but have important engine, transmission, mission-equipment, and performance differences.",
             "refs": [
+              "fn-sikorsky-archives",
               "fn-method"
             ]
           }
@@ -29086,154 +29172,176 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Heavy-lift helicopter"
+            "text": "Shipboard heavy-lift assault transport"
           },
           {
-            "title": "Designer or builder",
-            "text": "Sikorsky"
+            "title": "Manufacturer",
+            "text": "Sikorsky Aircraft"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "First flight",
+            "text": "YCH-53A on 14 October 1964"
           },
           {
-            "title": "Propulsion",
-            "text": "Turboshaft"
+            "title": "Baseline power",
+            "text": "Twin General Electric T64-family turboshafts"
+          },
+          {
+            "title": "Typical payload target",
+            "text": "8,000 lb over 100 nmi in the original Marine requirement"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Sikorsky CH-53 Sea Stallion first flew in 1964. Introduction date: 1966. Era: Cold War/Modern.",
+            "text": "The Sea Stallion traces to a Marine Corps heavy-helicopter requirement issued through the Bureau of Naval Weapons on 7 March 1962. The requirement sought a ship-based helicopter for ship-to-shore transport, downed-aircraft recovery, personnel transport, and medical evacuation after the Marines judged the XC-142A tilt-wing unsuitable for their shipboard downwash and operating needs.",
             "refs": [
-              "fn-main"
+              "fn-sikorsky-archives",
+              "fn-fort-worth"
             ]
           },
           {
-            "text": "Producer: Sikorsky. Development context: heavy-lift helicopter, turboshaft propulsion, subsonic speed category, Cold War/Modern era.",
+            "text": "Sikorsky proposed the S-65, drawing on the S-56/CH-37, S-64/CH-54, and S-61R design experience. Sikorsky was selected in July 1962 and received a September 1962 contract for a mock-up, static test airframe, and two YCH-53A prototypes.",
             "refs": [
-              "fn-wikidata"
+              "fn-sikorsky-archives"
+            ]
+          },
+          {
+            "text": "The first YCH-53A flew on 14 October 1964. The CH-53A entered Marine squadron use soon afterward, and the more powerful CH-53D followed from the late 1960s. The family then split into Navy mine-countermeasures aircraft, Air Force rescue and special-operations versions, German and Israeli service families, and the much larger three-engine CH-53E/MH-53E line.",
+            "refs": [
+              "fn-sikorsky-archives",
+              "fn-fort-worth",
+              "fn-main"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing lift, survivability, vibration, hot-and-high performance, and battlefield maintainability.",
+            "text": "7 March 1962: Bureau of Naval Weapons issued the Marine heavy shipboard helicopter request.",
             "refs": [
-              "fn-method"
+              "fn-sikorsky-archives"
+            ]
+          },
+          {
+            "text": "September 1962: Sikorsky received the YCH-53A development contract.",
+            "refs": [
+              "fn-sikorsky-archives"
+            ]
+          },
+          {
+            "text": "14 October 1964: first YCH-53A flight.",
+            "refs": [
+              "fn-sikorsky-archives"
+            ]
+          },
+          {
+            "text": "1966-1967: production CH-53A deliveries and early Marine operational use began.",
+            "refs": [
+              "fn-fort-worth",
+              "fn-flying-leathernecks"
+            ]
+          },
+          {
+            "text": "1969 onward: CH-53D and export/derivative branches expanded the S-65 family.",
+            "refs": [
+              "fn-fort-worth",
+              "fn-sikorsky-archives"
             ]
           }
         ]
       },
       {
-        "id": "design",
+        "id": "design-and-capabilities",
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 3-5. Propulsion: Turboshaft. Speed category: Subsonic.",
+            "text": "The S-65 used a large six-blade fully articulated main rotor, four-blade tail rotor, rear cargo loading arrangement, external fuel sponsons, and twin T64 turboshaft power. Shipboard operation drove the need for folding rotors/tail features, compact deck handling, and robust lift from amphibious ships.",
             "refs": [
-              "fn-main"
+              "fn-sikorsky-archives",
+              "fn-flying-leathernecks"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Internal capacity was central to the design: public museum references describe 38 fully equipped troops or 24 litter patients plus attendants, while the original requirement and museum aircraft data emphasize 8,000 lb internal cargo and heavier external-hook loads.",
             "refs": [
+              "fn-sikorsky-archives",
+              "fn-fort-worth"
+            ]
+          },
+          {
+            "text": "Armament was defensive and mission dependent. Marine CH-53s could carry door or ramp guns, but the helicopter was primarily a transport, recovery, medevac, and logistics platform. Minesweeping, CSAR, and special-operations versions carried specialized equipment not shared by every Sea Stallion.",
+            "refs": [
+              "fn-flying-leathernecks",
               "fn-method"
             ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Rotor system",
+            "text": "Six-blade main rotor and four-blade tail rotor on the S-65 baseline"
           },
           {
-            "text": "Sikorsky CH-53 Sea Stallion uses turboshaft propulsion. Engine model field: Not listed.",
+            "title": "Cargo layout",
+            "text": "Large rear-loaded cabin with internal cargo and external-hook capability"
+          },
+          {
+            "title": "Troop/medevac capacity",
+            "text": "Representative references cite 38 troops or 24 litters plus attendants"
+          },
+          {
+            "title": "Defensive weapons",
+            "text": "Door/ramp guns when fitted; not a dedicated attack helicopter"
+          },
+          {
+            "title": "Shipboard features",
+            "text": "Designed for Marine amphibious operations and compact deck handling"
+          }
+        ]
+      },
+      {
+        "id": "specifications",
+        "title": "Specifications",
+        "paragraphs": [
+          {
+            "text": "Representative CH-53A museum data: length about 88 ft 6 in, six-blade rotor about 72 ft diameter, maximum takeoff weight about 42,000 lb, two 2,850 shp General Electric T64-GE-6 turboshafts, maximum speed about 195 mph, cruise about 173 mph, service ceiling about 16,700 ft, and range about 280 miles.",
             "refs": [
-              "fn-main"
+              "fn-fort-worth",
+              "fn-sikorsky-archives"
             ]
           },
           {
-            "text": "Armament field: Utility helicopter weapons not listed. Exact weapon list: Not listed.",
+            "text": "CH-53D, RH-53D, German CH-53G, Israeli S-65C/Yasur, Air Force HH/MH-53, and three-engine CH-53E/MH-53E aircraft use different engines, fuel arrangements, weights, sensors, and mission equipment. Specification tables should therefore identify the baseline before comparing figures.",
             "refs": [
-              "fn-main"
+              "fn-globalaircraft",
+              "fn-sikorsky-archives",
+              "fn-method"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "3-5"
+            "text": "Usually two pilots plus crew chief/loadmaster personnel"
           },
           {
-            "title": "Engine class",
-            "text": "Turboshaft"
+            "title": "Engines",
+            "text": "Two GE T64-family turboshafts on CH-53A/D"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Main rotor",
+            "text": "Approximately 72 ft class on CH-53A; larger on CH-53E family"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Payload reference",
+            "text": "8,000 lb internal cargo target; about 13,000 lb external cited for S-65 baseline"
           },
           {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Sikorsky CH-53 Sea Stallion status: Active/retired by operator. Conflict entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: 0 entries.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Sikorsky CH-53 Sea Stallion named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Caution",
+            "text": "Do not mix CH-53A, CH-53D, CH-53E, and MH-53E specifications"
           }
         ]
       },
@@ -29242,35 +29350,56 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Sikorsky CH-53 Sea Stallion variant-family entries: 3. Variant families: Sikorsky CH-53 Sea Stallion baseline production model; Sikorsky CH-53 Sea Stallion upgraded avionics or weapons-capable model; Sikorsky CH-53 Sea Stallion utility, attack, naval, or export model.",
+            "text": "The Sea Stallion name covers a family rather than one fixed configuration. The Marine CH-53A established the baseline, the CH-53D improved power and service capability, the Navy RH-53 family adapted the aircraft for airborne mine countermeasures, and the Air Force HH/MH-53 branch emphasized rescue and special operations.",
             "refs": [
+              "fn-sikorsky-archives",
               "fn-main"
             ]
           },
           {
-            "text": "Complete variant entries listed: 0.",
+            "text": "Export and service variants became important in Germany and Israel. German CH-53G-family aircraft were license-built or upgraded locally, while Israeli S-65C-3 Yasur helicopters received national modernization programs over long service.",
             "refs": [
+              "fn-sikorsky-archives",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "The CH-53E Super Stallion and MH-53E Sea Dragon are best treated as follow-on three-engine developments: they share lineage and some visual cues with the Sea Stallion but have substantially greater size, lift, rotor system, and mission differences.",
+            "refs": [
+              "fn-sikorsky-archives",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Sikorsky CH-53 Sea Stallion baseline production model",
+            "text": "CH-53A: initial Marine two-engine assault transport.",
             "refs": [
-              "fn-main"
+              "fn-sikorsky-archives"
             ]
           },
           {
-            "text": "Sikorsky CH-53 Sea Stallion upgraded avionics or weapons-capable model",
+            "text": "CH-53D: improved Marine version and later two-engine Sea Stallion standard.",
             "refs": [
-              "fn-main"
+              "fn-fort-worth"
             ]
           },
           {
-            "text": "Sikorsky CH-53 Sea Stallion utility, attack, naval, or export model",
+            "text": "RH-53A/D: Navy mine-countermeasures versions.",
             "refs": [
-              "fn-main"
+              "fn-sikorsky-archives"
+            ]
+          },
+          {
+            "text": "HH/MH-53: Air Force rescue and special-operations derivatives.",
+            "refs": [
+              "fn-sikorsky-archives"
+            ]
+          },
+          {
+            "text": "CH-53G and S-65C-3 Yasur: German and Israeli long-service families.",
+            "refs": [
+              "fn-sikorsky-archives"
             ]
           }
         ]
@@ -29280,45 +29409,135 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Sikorsky CH-53 Sea Stallion has 1 designer or builder country entry.",
+            "text": "The United States was the original operator family: Marine Corps CH-53A/D aircraft served in assault-support and heavy-lift roles, Navy RH-53 aircraft performed mine-countermeasures work, and Air Force HH/MH-53 aircraft developed into rescue and special-operations platforms.",
             "refs": [
-              "fn-wikidata"
+              "fn-sikorsky-archives",
+              "fn-fort-worth"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Germany and Israel became the most prominent long-term non-U.S. users. Public sources also list Iranian RH-53D and former Mexican CH-53 use, but exact current status and airworthiness should be checked against contemporary national sources before presenting fleet counts.",
             "refs": [
+              "fn-sikorsky-archives",
+              "fn-main",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "United States: Marine Corps CH-53A/D, Navy RH-53, and Air Force HH/MH-53 branches.",
             "refs": [
-              "fn-main"
+              "fn-sikorsky-archives"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "Germany: CH-53G-family heavy transport fleet, including license-built/upgraded aircraft.",
             "refs": [
-              "fn-wikidata"
+              "fn-sikorsky-archives"
+            ]
+          },
+          {
+            "text": "Israel: S-65C-3 Yasur family with national upgrade programs.",
+            "refs": [
+              "fn-sikorsky-archives"
+            ]
+          },
+          {
+            "text": "Iran and Mexico: publicly listed legacy operators; verify current status before using fleet counts.",
+            "refs": [
+              "fn-main",
+              "fn-method"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 3-5, propulsion type Turboshaft, maximum speed category Subsonic, first flight 1964, introduction 1966.",
+            "text": "Marine CH-53As deployed to Vietnam soon after entering service and quickly became valuable for heavy resupply, aircraft recovery, personnel transport, and medevac. Fort Worth Aviation Museum's preserved aircraft \"Patches\" records one such Vietnam-era machine with visible repairs from enemy rocket damage near Da Nang.",
             "refs": [
-              "fn-main"
+              "fn-fort-worth",
+              "fn-flying-leathernecks"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "The aircraft family later served across mine countermeasures, combat search and rescue, special operations, disaster relief, and national heavy-transport missions. The U.S. Marine Corps retired its legacy CH-53D fleet as MV-22 and CH-53E/CH-53K plans took over different parts of the assault-support and heavy-lift mission.",
+            "refs": [
+              "fn-flying-leathernecks",
+              "fn-fort-worth",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Because losses, combat incidents, and special missions are numerous and variant-specific, this page avoids a detailed incident list without a separate source pass.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Vietnam",
+            "text": "Early Marine CH-53A/D heavy lift, recovery, and resupply use"
+          },
+          {
+            "title": "Mine countermeasures",
+            "text": "RH-53A/D branch for Navy airborne minesweeping"
+          },
+          {
+            "title": "Rescue / special operations",
+            "text": "HH/MH-53 branch in Air Force service"
+          },
+          {
+            "title": "Legacy transition",
+            "text": "U.S. Marine CH-53D retired as replacement and follow-on aircraft assumed missions"
+          }
+        ]
+      },
+      {
+        "id": "strengths-and-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The Sea Stallion's strengths were lift, cabin size, external-load flexibility, shipboard utility, and ability to move heavy equipment that smaller utility helicopters could not handle. Its rear-loading cabin and cargo hook made it useful for artillery, vehicles, recovery loads, and humanitarian logistics.",
+            "refs": [
+              "fn-sikorsky-archives",
+              "fn-fort-worth"
+            ]
+          },
+          {
+            "text": "Its limitations were typical of large rotorcraft: high maintenance demand, rotor and deck footprint, vulnerability during low-altitude transport work, and variant-sensitive performance in hot-and-high conditions. Later CH-53E and CH-53K programs addressed heavier-lift needs that exceeded the original two-engine Sea Stallion design margin.",
+            "refs": [
+              "fn-method",
+              "fn-sikorsky-archives"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: heavy internal and external cargo for amphibious and expeditionary forces.",
+            "refs": [
+              "fn-sikorsky-archives"
+            ]
+          },
+          {
+            "text": "Strength: adaptable to troop transport, medevac, recovery, minesweeping, and rescue derivatives.",
+            "refs": [
+              "fn-fort-worth",
+              "fn-sikorsky-archives"
+            ]
+          },
+          {
+            "text": "Limitation: large helicopter footprint and maintenance burden compared with medium-lift types.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: public performance figures vary sharply by model and should not be mixed across CH-53A/D/E/MH-53E families.",
             "refs": [
               "fn-method"
             ]
@@ -29326,11 +29545,66 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "timeline",
+        "title": "Timeline",
         "paragraphs": [
           {
-            "text": "Sikorsky CH-53 Sea Stallion similar-development links: 4.",
+            "text": "The CH-53 timeline moves from the 1962 Marine heavy-helicopter requirement through first flight in 1964, Vietnam service, D-model and export growth, and eventual U.S. Marine legacy retirement.",
+            "refs": [
+              "fn-sikorsky-archives",
+              "fn-fort-worth",
+              "fn-flying-leathernecks"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1962: Marine/BuWeps heavy shipboard helicopter request and Sikorsky S-65 selection.",
+            "refs": [
+              "fn-sikorsky-archives"
+            ]
+          },
+          {
+            "text": "1964: YCH-53A first flight.",
+            "refs": [
+              "fn-sikorsky-archives"
+            ]
+          },
+          {
+            "text": "1966-1967: early Marine service and Vietnam deployment period begins.",
+            "refs": [
+              "fn-fort-worth",
+              "fn-flying-leathernecks"
+            ]
+          },
+          {
+            "text": "1969: CH-53D deliveries and derivative expansion.",
+            "refs": [
+              "fn-fort-worth",
+              "fn-sikorsky-archives"
+            ]
+          },
+          {
+            "text": "1970s-1980s: RH-53, HH/MH-53, CH-53G, Yasur, and CH-53E branches mature.",
+            "refs": [
+              "fn-sikorsky-archives"
+            ]
+          },
+          {
+            "text": "2012: U.S. Marine CH-53D service ends according to museum service-date summaries; export and derivative aircraft continue on different timelines.",
+            "refs": [
+              "fn-flying-leathernecks",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages compare the Sea Stallion with other heavy or medium lift rotorcraft and its eventual assault-support replacement context.",
             "refs": [
               "fn-method"
             ]
@@ -29338,20 +29612,20 @@
         ],
         "links": [
           {
-            "label": "Bell AH-1 Cobra",
-            "url": "aircraft.html?id=ah-1-cobra"
+            "label": "Boeing CH-47 Chinook",
+            "url": "aircraft.html?id=ch-47-chinook"
           },
           {
-            "label": "Boeing AH-64 Apache",
-            "url": "aircraft.html?id=ah-64-apache"
-          },
-          {
-            "label": "Bell UH-1 Iroquois",
-            "url": "aircraft.html?id=uh-1-iroquois"
+            "label": "Bell Boeing V-22 Osprey",
+            "url": "aircraft.html?id=v-22-osprey"
           },
           {
             "label": "Sikorsky UH-60 Black Hawk",
             "url": "aircraft.html?id=uh-60-black-hawk"
+          },
+          {
+            "label": "Return to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }

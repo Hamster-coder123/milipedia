@@ -5774,3 +5774,81 @@ Record the result of:
 * Public Su-30 details vary substantially by branch and operator, especially Su-30MKI, Su-30SM, Su-30MKK/MK2, Su-30MKM, and Su-30MKA configurations, so this update uses source-qualified representative values rather than one universal table.
 * HAL's official Su-30MKI page was identified but automated extraction failed in this run; HAL was retained as an official reference while technical claims were based on extractable Airforce Technology pages and cautious supplementary orientation.
 * Current inventory totals, loss claims, radar/electronic-warfare fits, and national weapons clearances were intentionally omitted or caveated because they are date-sensitive or disputed.
+
+### Run 76 — 2026-07-03 18:02:01 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Sikorsky CH-53 Sea Stallion (id: ch-53-sea-stallion)
+* Reason selected: It was the shortest unedited aircraft entry after excluding pages already substantially updated by Hermes, with zero operator entries, zero concrete variant entries, placeholder specifications, generic utility-helicopter armament wording, and sparse generated article sections far below the F-16 reference density.
+* Previous condition: Sparse generated record with 0 operator entries, 0 variant entries, no detailed CH-53A/D/RH-53/HH-MH-53/export-family context, no useful specifications beyond generic fields, and no sourced development/design/operators/service/timeline structure.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview; F-16-like section order from overview through development history, design/capabilities, specifications, variants, operators, operational history, strengths/limitations, timeline, sources, and related pages; concise source-qualified paragraphs; card-style technical facts; cautious variant/operator caveats; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the Sikorsky CH-53 Sea Stallion entry in data/aircraft.json into a fuller Milipedia article record while preserving the existing JSON-rendered page system.
+* Updated top-level facts for alternative names, manufacturer, role, first-flight date, service-introduction/retirement caveats, status, production-count caveat, crew, engine family, speed, range, combat-radius requirement, ceiling, armament, hardpoints, development history, combat-history summary, and short summary.
+* Replaced generic utility-helicopter weapon wording with CH-53-specific defensive door/ramp-gun and mission-equipment wording, emphasizing transport/recovery/medevac/minesweeping roles and variant-dependent fits.
+* Added reliable source coverage from the Igor I. Sikorsky Historical Archives, Fort Worth Aviation Museum, Flying Leatherneck Aviation Museum, GlobalAircraft.org, supplementary Wikipedia orientation, and Milipedia local accuracy rules.
+* Added detailed sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Timeline, and Related Pages.
+* Added representative technical details for the original Marine HHX requirement, YCH-53A first flight on 14 October 1964, two General Electric T64-family engines, six-blade rotor, 38-troop/24-litter capacity references, 8,000 lb internal payload target, 13,000 lb external baseline citation, approximate CH-53A dimensions/weights/performance, and variant-sensitive specification caveats.
+* Added variant coverage for YCH-53A, CH-53A, CH-53D, RH-53A/RH-53D, HH-53B/C and MH-53 Pave Low, German CH-53G/GS/GE/GA, Israeli S-65C-3 Yasur, and the distinct follow-on CH-53E/MH-53E family.
+* Added representative operator coverage for the United States, Germany, Israel, Iran, and Mexico with caution around current status and fleet counts.
+* Added operational-history context for Vietnam-era Marine heavy lift and the preserved “Patches” aircraft, plus mine-countermeasures, rescue, special-operations, and legacy-transition context.
+* Added internal related links to Boeing CH-47 Chinook, Bell Boeing V-22 Osprey, and Sikorsky UH-60 Black Hawk, with the CH-53E Super Stallion retained as an external related link because no local Milipedia page ID exists.
+* Omitted detailed accident/loss tables, exact current fleet counts, and universal weapons/equipment lists because those facts are variant-, operator-, and date-sensitive.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded and corrected only the Sikorsky CH-53 Sea Stallion aircraft entry.
+* hermes-change-log.md — Appended the cumulative record for Run 76.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed the diff/stat; data/aircraft.json changed only the ch-53-sea-stallion entry, and hermes-change-log.md gained this cumulative Run 76 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the CH-53 entry section list, sources, variants, operators, armament wording, article-quality fields, and stale placeholder metadata replacement.
+4. F-16 style comparison — Inspected data/f16-template.html and matched its dense overview, sourced paragraphs, specifications, variants/operators, operational-history, strengths/limitations, timeline, source-note, and related-link ordering within the JSON article renderer.
+5. Internal link check — Verified internal aircraft.html?id= links for CH-47 Chinook, V-22 Osprey, and UH-60 Black Hawk point to existing aircraft IDs; aircraft.html is the intentional database return link, and the CH-53E related link is intentionally external because no local CH-53E ID exists.
+6. Secret/token check — Ran a credential-focused scan over the intended/staged diff for private keys, access/auth credentials, and cloud credential material; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, only intended files staged, exactly one aircraft entry changed, internal links valid, git diff --check clean, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Sikorsky CH-53 Sea Stallion
+* Commit hash: Pending until commit is created; final hash is reported in the scheduled-run response.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* Public CH-53 facts differ across CH-53A, CH-53D, RH-53D, HH/MH-53, German CH-53G, Israeli Yasur, CH-53E, and MH-53E branches, so the page uses representative CH-53A/D values and warns against mixing variant specifications.
+* Exact current operator status, fleet counts, loss/incident tables, and equipment fits were intentionally omitted or caveated because they are date-sensitive or require a narrower source pass.
+* The CH-53 page is rendered through data/aircraft.json rather than the bespoke static F-16 HTML, so the formatting match is structural and density-based rather than identical markup.
