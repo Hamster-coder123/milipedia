@@ -25508,34 +25508,119 @@
   {
     "id": "ah-1-cobra",
     "name": "Bell AH-1 Cobra",
-    "alternative_names": [],
+    "alternative_names": [
+      "AH-1 HueyCobra",
+      "Huey Cobra",
+      "Cobra",
+      "Snake",
+      "Bell Model 209"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
     "manufacturer": "Bell Helicopter",
-    "role": "Attack helicopter",
-    "aircraft_type": "Helicopter",
-    "era": "Cold War/Modern",
-    "first_flight": "1965",
+    "role": "Attack helicopter and armed escort helicopter",
+    "aircraft_type": "Single-engine attack helicopter",
+    "era": "Cold War / Vietnam War to early 21st century",
+    "first_flight": "7 September 1965",
     "introduction_date": "1967",
-    "retirement_date": null,
-    "status": "Active/retired by operator",
-    "number_built": "Not listed",
-    "crew": "2",
+    "retirement_date": "U.S. Army active service in 1999; U.S. Army Reserve in 2001",
+    "status": "Retired from U.S. Army service; evolved twin-engine Cobra variants continued with the U.S. Marine Corps and export users",
+    "number_built": "About 1,116 AH-1G aircraft for the U.S. Army; later upgrades and twin-engine derivatives formed a wider Cobra family",
+    "crew": "2: pilot and co-pilot/gunner in tandem seats",
     "engine_type": "Turboshaft",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
-    "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Cannon, rockets, and guided missiles.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Bell AH-1 Cobra: Attack helicopter. Manufacturer: Bell Helicopter. First flight: 1965. Introduction: 1967.",
-    "short_summary": "Bell AH-1 Cobra: Attack helicopter. Origin: United States. Manufacturer: Bell Helicopter. First flight: 1965. Introduction: 1967. Status: Active/retired by operator.",
+    "engines": "One Lycoming/Avco Lycoming T53-series turboshaft; AH-1F/AH-1S sources commonly list the T53-L-703 at about 1,800 shp",
+    "max_speed": "About 149 knots (171-172 mph) for AH-1/AH-1F representative data; variant and loadout dependent",
+    "speed_category": "Subsonic helicopter",
+    "range": "About 274-310 nautical miles / 315-357 miles depending on AH-1 variant and source baseline",
+    "combat_range": "Mission-dependent; influenced by rocket, gun, missile, fuel, altitude, and escort profile",
+    "service_ceiling": "About 11,400-12,200 ft for representative AH-1/AH-1F/AH-1S data",
+    "rate_of_climb": "About 1,230-1,620 ft/min in representative public AH-1/AH-1F data",
+    "armament": "M28 turret with 7.62 mm Minigun and/or M129 40 mm grenade launcher on early Cobras; later AH-1E/F configurations used M197 20 mm cannon, 2.75 in/Hydra rockets, TOW missiles, pods, and other fit-dependent stores",
+    "hardpoints": "Four stub-wing stations on many AH-1 variants; weapons fit varies by model and upgrade",
+    "variants": [
+      {
+        "name": "Bell 209",
+        "description": "Prototype/private-venture attack helicopter that combined UH-1 dynamic components with a narrow tandem-seat fuselage."
+      },
+      {
+        "name": "AH-1G Huey Cobra",
+        "description": "Initial U.S. Army production gunship used in Vietnam, typically associated with turret weapons and 2.75-inch rocket pods."
+      },
+      {
+        "name": "TH-1G",
+        "description": "Dual-control training conversion used for Cobra conversion and proficiency training."
+      },
+      {
+        "name": "AH-1Q",
+        "description": "TOW-capable upgrade with the M65 missile subsystem and sighting equipment for anti-armor missions."
+      },
+      {
+        "name": "AH-1S / AH-1P",
+        "description": "Upgraded single-engine Cobra family with stronger T53-L-703 powerplant and production improvements; designation details changed during later standardization."
+      },
+      {
+        "name": "AH-1E",
+        "description": "Upgunned Cobra variant associated with the M197 20 mm cannon and improved rocket-management equipment."
+      },
+      {
+        "name": "AH-1F",
+        "description": "Modernized U.S. Army Cobra incorporating AH-1S improvements plus laser rangefinder/tracker, infrared countermeasures, and exhaust suppression features."
+      },
+      {
+        "name": "AH-1J/T/W/Z SeaCobra, SuperCobra, and Viper family",
+        "description": "Twin-engine Marine Corps derivatives that share Cobra lineage but differ enough in engines, systems, and service life to require separate variant-specific treatment."
+      },
+      {
+        "name": "Firewatch Cobra / Fire Snake conversions",
+        "description": "Surplus AH-1 airframes adapted for firefighting, observation, and civil support roles after military retirement."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "U.S. Army",
+        "notes": "Original and largest AH-1 operator; used Cobras in Vietnam, Grenada, Panama, the Gulf War, Somalia, Haiti, and other operations before active retirement in 1999 and reserve retirement in 2001."
+      },
+      {
+        "country": "United States",
+        "service": "U.S. Marine Corps",
+        "notes": "Adopted twin-engine Cobra derivatives beginning with AH-1J/SuperCobra lineage; the AH-1W and AH-1Z are related but not identical to Army single-engine AH-1G/S/F aircraft."
+      },
+      {
+        "country": "Japan",
+        "service": "Japan Self-Defense Forces",
+        "notes": "Listed by public summaries as a primary Cobra-family user; exact model counts and current status vary by date and source."
+      },
+      {
+        "country": "South Korea",
+        "service": "Republic of Korea Army",
+        "notes": "Longtime Cobra-family operator; public status and replacement progress should be checked against current force listings."
+      },
+      {
+        "country": "Israel",
+        "service": "Israeli Air Force",
+        "notes": "Public sources identify Israel as a Cobra operator; operational details and retirement dates vary by source and are summarized cautiously."
+      },
+      {
+        "country": "Spain",
+        "service": "Spanish Navy",
+        "notes": "Operated Z.14/AH-1G helicopters in a naval role; the Army Aviation Museum notes two returned Spanish Navy examples as rare G-model survivors."
+      },
+      {
+        "country": "United States",
+        "service": "U.S. Forest Service and civil firefighting conversions",
+        "notes": "Surplus AH-1 airframes were converted for wildfire observation and coordination under programs such as Firewatch Cobra."
+      }
+    ],
+    "combat_history": [
+      "Vietnam War: Army AH-1G Cobras provided escort, close fire support, aerial rocket artillery, and hunter-killer support with OH-6 scout helicopters.",
+      "Operation Urgent Fury, Grenada: Army Cobras flew close-support and escort missions in 1983.",
+      "Operation Just Cause, Panama: U.S. Army Cobras participated during the 1989 intervention.",
+      "Operations Desert Shield and Desert Storm: Army AH-1s and Marine Cobra derivatives deployed in support roles; public summaries credit Cobras with engaging Iraqi armor and targets.",
+      "Somalia and Haiti operations in the 1990s: U.S. Cobras supported contingency and humanitarian-intervention operations before Army retirement."
+    ],
+    "development_history": "Bell developed the AH-1 rapidly during the Vietnam War by combining proven UH-1 Huey dynamic components with a much narrower tandem-seat attack-helicopter fuselage. The first Cobra flew on 7 September 1965, production began in 1966, and the type reached U.S. Army combat units in 1967-1968.",
+    "short_summary": "The Bell AH-1 Cobra was the U.S. Army’s first purpose-built attack helicopter, developed quickly from UH-1 Huey components for armed escort and close fire support in Vietnam. Its narrow tandem cockpit, stub wings, turreted weapons, rockets, and later TOW missile capability made it the backbone of Army attack aviation until the AH-64 Apache replaced it.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -25548,18 +25633,46 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-army-aviation-museum",
+        "title": "Vietnam-era AH-1 Cobra ushered in modern attack fleet",
+        "url": "https://www.armyaviationmuseum.org/vietnam-era-ah-1-cobra-ushered-in-modern-attack-fleet",
+        "publisher": "Army Aviation Museum",
+        "note": "Used for Vietnam-era development context, Huey commonality, narrow fuselage design, early G-model armament, Vietnam service, and Apache replacement context."
+      },
+      {
+        "id": "fn-pima-ah1s",
+        "title": "Bell AH-1S Cobra",
+        "url": "https://pimaair.org/museum-aircraft/bell-ah-1s",
+        "publisher": "Pima Air & Space Museum",
+        "note": "Used for AH-1S representative dimensions, loaded weight, engine, range, speed, ceiling, crew, production/start-service summary, and Army retirement date."
+      },
+      {
+        "id": "fn-rocketcenter-ah1",
+        "title": "Aircraft: AH-1 Cobra",
+        "url": "https://www.rocketcenter.com/tour/ac/AH1Cobra",
+        "publisher": "U.S. Space & Rocket Center",
+        "note": "Used for mission set, crew arrangement, weapon examples, first-flight date, Vietnam hunter-killer use, delivered/lost totals, and Army retirement dates."
+      },
+      {
+        "id": "fn-march-ah1f",
+        "title": "AH-1F Cobra",
+        "url": "https://www.marchfield.org/ah-1f-cobra",
+        "publisher": "March Field Air Museum",
+        "note": "Used for AH-1F development narrative, Bell 209/AH-1G context, Gulf War service, AH-1F representative specifications, and powerplant details."
+      },
+      {
+        "id": "fn-maps-ah1",
+        "title": "Bell AH-1 Cobra",
+        "url": "https://mapsairmuseum.org/wp-content/uploads/2024/02/AH-1-Cobra.pdf",
+        "publisher": "MAPS Air Museum",
+        "note": "Supplementary museum PDF used for variant family, production total, representative AH-1/AH-1F specifications, armament options, and combat chronology."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Bell AH-1 Cobra",
         "url": "https://en.wikipedia.org/wiki/Bell_AH-1_Cobra",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source only; museum and official-style references above are preferred for article claims."
       },
       {
         "id": "fn-method",
@@ -25567,20 +25680,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.fs.fed.us/r5/newslog/september2004/roundup/firewatch.html",
-        "publisher": "fs.fed.us",
-        "note": "External source for Bell AH-1 Cobra."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.fs.fed.us/r5/shastatrinity/documents/st-main/news/fact-sheets/cobra.pdf",
-        "publisher": "fs.fed.us",
-        "note": "External source for Bell AH-1 Cobra."
       }
     ],
     "country_flags": [
@@ -25607,13 +25706,7 @@
       "Bell AH-1 Cobra two-seat trainer or conversion model",
       "Bell AH-1 Cobra utility, attack, naval, or export model"
     ],
-    "operator_summary": {
-      "major_designer_or_builder": [
-        "United States"
-      ],
-      "major_user_note": "Bell AH-1 Cobra has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
-    },
+    "operator_summary": "Original U.S. Army attack-helicopter fleet backbone, later replaced by the AH-64 Apache; related Cobra-family aircraft served with the U.S. Marine Corps, export militaries, museums, and civil firefighting conversions.",
     "notable": {
       "notable_pilots_or_aircraft": [
         "Named pilots listed: 0.",
@@ -25624,93 +25717,100 @@
         "Loss claims listed: 0."
       ]
     },
-    "engine_details": {
-      "type": "Turboshaft",
-      "summary": "Bell AH-1 Cobra uses turboshaft propulsion."
-    },
-    "armament_details": {
-      "summary": "Cannon, rockets, and guided missiles.",
-      "caution": "Exact weapon list: Not listed."
-    },
+    "engine_details": "Single Lycoming/Avco Lycoming T53-series turboshaft. Early AH-1G aircraft used T53-L-13-family power; upgraded AH-1S/AH-1F references commonly list the T53-L-703 at about 1,800 shp.",
+    "armament_details": "Early AH-1G aircraft used turreted Minigun/grenade-launcher combinations, 2.75-inch rockets, and optional pods; TOW-capable variants added anti-armor missiles, and AH-1E/F aircraft introduced 20 mm cannon fits. Exact loads depend on variant, mission, and period.",
     "similar_development": [
-      {
-        "id": "ah-64-apache",
-        "name": "Boeing AH-64 Apache",
-        "url": "aircraft.html?id=ah-64-apache"
-      },
-      {
-        "id": "uh-1-iroquois",
-        "name": "Bell UH-1 Iroquois",
-        "url": "aircraft.html?id=uh-1-iroquois"
-      },
-      {
-        "id": "uh-60-black-hawk",
-        "name": "Sikorsky UH-60 Black Hawk",
-        "url": "aircraft.html?id=uh-60-black-hawk"
-      },
-      {
-        "id": "ch-47-chinook",
-        "name": "Boeing CH-47 Chinook",
-        "url": "aircraft.html?id=ch-47-chinook"
-      }
+      "Bell UH-1 Iroquois",
+      "Boeing AH-64 Apache",
+      "Bell AH-1 SuperCobra / AH-1Z Viper"
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 2
+      "exact_fact_count": 43,
+      "operator_entries": 7,
+      "variant_entries": 9,
+      "external_article_sources": 6
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-army-aviation-museum",
+        "title": "Vietnam-era AH-1 Cobra ushered in modern attack fleet",
+        "url": "https://www.armyaviationmuseum.org/vietnam-era-ah-1-cobra-ushered-in-modern-attack-fleet",
+        "publisher": "Army Aviation Museum",
+        "note": "Used for Vietnam-era development context, Huey commonality, narrow fuselage design, early G-model armament, Vietnam service, and Apache replacement context."
+      },
+      {
+        "id": "fn-pima-ah1s",
+        "title": "Bell AH-1S Cobra",
+        "url": "https://pimaair.org/museum-aircraft/bell-ah-1s",
+        "publisher": "Pima Air & Space Museum",
+        "note": "Used for AH-1S representative dimensions, loaded weight, engine, range, speed, ceiling, crew, production/start-service summary, and Army retirement date."
+      },
+      {
+        "id": "fn-rocketcenter-ah1",
+        "title": "Aircraft: AH-1 Cobra",
+        "url": "https://www.rocketcenter.com/tour/ac/AH1Cobra",
+        "publisher": "U.S. Space & Rocket Center",
+        "note": "Used for mission set, crew arrangement, weapon examples, first-flight date, Vietnam hunter-killer use, delivered/lost totals, and Army retirement dates."
+      },
+      {
+        "id": "fn-march-ah1f",
+        "title": "AH-1F Cobra",
+        "url": "https://www.marchfield.org/ah-1f-cobra",
+        "publisher": "March Field Air Museum",
+        "note": "Used for AH-1F development narrative, Bell 209/AH-1G context, Gulf War service, AH-1F representative specifications, and powerplant details."
+      },
+      {
+        "id": "fn-maps-ah1",
+        "title": "Bell AH-1 Cobra",
+        "url": "https://mapsairmuseum.org/wp-content/uploads/2024/02/AH-1-Cobra.pdf",
+        "publisher": "MAPS Air Museum",
+        "note": "Supplementary museum PDF used for variant family, production total, representative AH-1/AH-1F specifications, armament options, and combat chronology."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Bell AH-1 Cobra",
         "url": "https://en.wikipedia.org/wiki/Bell_AH-1_Cobra",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source only; museum and official-style references above are preferred for article claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.fs.fed.us/r5/newslog/september2004/roundup/firewatch.html",
-        "publisher": "fs.fed.us",
-        "note": "External source for Bell AH-1 Cobra."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.fs.fed.us/r5/shastatrinity/documents/st-main/news/fact-sheets/cobra.pdf",
-        "publisher": "fs.fed.us",
-        "note": "External source for Bell AH-1 Cobra."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.fs.fed.us/r5/newslog/september2004/roundup/firewatch.html",
-        "publisher": "fs.fed.us",
-        "note": "External source for Bell AH-1 Cobra."
+        "title": "Vietnam-era AH-1 Cobra ushered in modern attack fleet",
+        "url": "https://www.armyaviationmuseum.org/vietnam-era-ah-1-cobra-ushered-in-modern-attack-fleet",
+        "publisher": "Army Aviation Museum"
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.fs.fed.us/r5/shastatrinity/documents/st-main/news/fact-sheets/cobra.pdf",
-        "publisher": "fs.fed.us",
-        "note": "External source for Bell AH-1 Cobra."
+        "title": "Bell AH-1S Cobra",
+        "url": "https://pimaair.org/museum-aircraft/bell-ah-1s",
+        "publisher": "Pima Air & Space Museum"
+      },
+      {
+        "title": "Aircraft: AH-1 Cobra",
+        "url": "https://www.rocketcenter.com/tour/ac/AH1Cobra",
+        "publisher": "U.S. Space & Rocket Center"
+      },
+      {
+        "title": "AH-1F Cobra",
+        "url": "https://www.marchfield.org/ah-1f-cobra",
+        "publisher": "March Field Air Museum"
+      },
+      {
+        "title": "Bell AH-1 Cobra",
+        "url": "https://mapsairmuseum.org/wp-content/uploads/2024/02/AH-1-Cobra.pdf",
+        "publisher": "MAPS Air Museum"
+      },
+      {
+        "title": "Bell AH-1 Cobra",
+        "url": "https://en.wikipedia.org/wiki/Bell_AH-1_Cobra",
+        "publisher": "Wikipedia"
       }
     ],
     "article_sections": [
@@ -25719,20 +25819,23 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Bell AH-1 Cobra is an Attack helicopter from United States. Manufacturer: Bell Helicopter. First flight: 1965. Introduction: 1967. Status: Active/retired by operator.",
+            "text": "The Bell AH-1 Cobra was a single-engine American attack helicopter created by Bell Helicopter from the proven UH-1 Huey dynamic system. It became the U.S. Army’s first purpose-built attack helicopter and one of the defining rotary-wing combat aircraft of the Vietnam War.",
             "refs": [
-              "fn-main"
+              "fn-army-aviation-museum",
+              "fn-rocketcenter-ah1"
             ]
           },
           {
-            "text": "Bell AH-1 Cobra is a helicopter. Primary role: attack helicopter. Country of origin: United States. Manufacturer: Bell Helicopter.",
+            "text": "The Cobra replaced the Huey gunship’s broad transport fuselage with a narrow tandem cockpit, stub wings, turret weapons, and a dedicated weapons-operator position. That shape reduced frontal area, improved speed, and gave Army airmobile forces an escort and fire-support helicopter that could better keep pace with troop-carrying Hueys.",
             "refs": [
-              "fn-wikidata"
+              "fn-army-aviation-museum",
+              "fn-march-ah1f"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Milipedia treats this page as the single-engine AH-1G/S/E/F Army Cobra family. Twin-engine Marine Corps SeaCobra, SuperCobra, and AH-1Z Viper aircraft share lineage but have different engines, systems, and service histories, so broad statements about performance and weapons are labeled carefully.",
             "refs": [
+              "fn-pima-ah1s",
               "fn-method"
             ]
           }
@@ -25740,237 +25843,126 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Attack helicopter"
+            "text": "Attack helicopter, close air support, escort, armed reconnaissance"
           },
           {
-            "title": "Designer or builder",
-            "text": "Bell Helicopter"
+            "title": "First flight",
+            "text": "7 September 1965"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Crew",
+            "text": "Two in tandem: pilot and co-pilot/gunner"
           },
           {
-            "title": "Propulsion",
-            "text": "Turboshaft"
+            "title": "Powerplant",
+            "text": "One Lycoming/Avco Lycoming T53 turboshaft; later AH-1S/F references list T53-L-703 at about 1,800 shp"
+          },
+          {
+            "title": "Army service",
+            "text": "Introduced in 1967; U.S. Army active retirement in 1999 and reserve retirement in 2001"
+          },
+          {
+            "title": "Lineage",
+            "text": "Developed from Bell UH-1 Iroquois components; replaced in Army attack units by AH-64 Apache"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Bell AH-1 Cobra first flew in 1965. Introduction date: 1967. Era: Cold War/Modern.",
+            "text": "Army experience in Vietnam showed that armed UH-1 gunships were useful but too wide, draggy, and slow when heavily loaded with weapons. Bell responded with the Model 209, retaining the Huey’s engine, transmission, rotor system, and other proven parts while building a slim attack fuselage around tandem seats.",
             "refs": [
-              "fn-main"
+              "fn-army-aviation-museum",
+              "fn-march-ah1f"
             ]
           },
           {
-            "text": "Producer: Bell Helicopter. Development context: attack helicopter, turboshaft propulsion, subsonic speed category, Cold War/Modern era.",
+            "text": "The first Cobra flew on 7 September 1965. Production followed quickly, and Army AH-1G Huey Cobras reached Vietnam during 1967-1968. The “G” designation reflected the aircraft’s early administrative relationship to the H-1/Huey line rather than a clean-sheet helicopter family.",
             "refs": [
-              "fn-wikidata"
+              "fn-rocketcenter-ah1",
+              "fn-maps-ah1"
+            ]
+          },
+          {
+            "text": "Bell and the Army then evolved the Cobra through missile, engine, armament, and survivability upgrades. TOW-capable AH-1Q/S versions added anti-armor reach, the AH-1E introduced a 20 mm cannon installation, and the AH-1F combined modernized sights and defensive/exhaust-suppression features for late Army service.",
+            "refs": [
+              "fn-maps-ah1",
+              "fn-march-ah1f"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing lift, survivability, vibration, hot-and-high performance, and battlefield maintainability.",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "1965: Bell’s first AH-1 prototype flew on 7 September."
+          },
+          {
+            "text": "1966-1967: AH-1G production began and the first aircraft reached U.S. Army units."
+          },
+          {
+            "text": "1968-1973: Cobras served heavily in Vietnam as escorts, fire-support aircraft, and hunter-killer team partners."
+          },
+          {
+            "text": "1970s-1980s: AH-1Q/S/E/F upgrades improved anti-armor weapons, engine power, cannon armament, sights, and survivability equipment."
+          },
+          {
+            "text": "1990s-2001: U.S. Army Cobras were phased out as AH-64 Apaches replaced the type in front-line and reserve units."
           }
         ]
       },
       {
-        "id": "design",
+        "id": "design-and-capabilities",
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 2. Propulsion: Turboshaft. Speed category: Subsonic.",
+            "text": "The Cobra’s most visible design feature is its narrow fuselage, which the Army Aviation Museum describes as roughly 36 inches wide in the cockpit area. Tandem seating placed the pilot behind and above the co-pilot/gunner, giving both crew members flight controls while letting the front seat concentrate on weapons employment.",
             "refs": [
-              "fn-main"
+              "fn-army-aviation-museum",
+              "fn-rocketcenter-ah1"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Early Cobras were armed for suppressive fire and escort: 7.62 mm Miniguns, M129 40 mm grenade launchers, and 2.75-inch rocket pods were common Vietnam-era equipment. Later variants added TOW anti-tank missiles and, in AH-1E/F-family configurations, 20 mm M197 cannon fits and updated fire-control equipment.",
             "refs": [
+              "fn-army-aviation-museum",
+              "fn-rocketcenter-ah1",
+              "fn-maps-ah1"
+            ]
+          },
+          {
+            "text": "Representative AH-1F/AH-1S public data should not be applied to every Cobra. Museums list loaded weights near 10,000 lb, rotor diameter about 44 ft, length just over 53 ft with rotors turning, speed around 149 knots for AH-1/AH-1F data, and service ceilings around 11,400-12,200 ft depending on baseline.",
+            "refs": [
+              "fn-pima-ah1s",
+              "fn-march-ah1f",
               "fn-method"
-            ]
-          },
-          {
-            "text": "Bell AH-1 Cobra uses turboshaft propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Cannon, rockets, and guided missiles. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "2"
+            "title": "Airframe",
+            "text": "Slim tandem-seat attack-helicopter fuselage using UH-1-derived dynamic components"
           },
           {
-            "title": "Engine class",
-            "text": "Turboshaft"
+            "title": "Main rotor",
+            "text": "Two-blade main rotor; representative sources list about 44 ft diameter"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Weapons stations",
+            "text": "Nose turret plus stub-wing stations for rockets, pods, and later TOW missiles"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Representative speed",
+            "text": "About 149 knots / 171-172 mph in AH-1/AH-1F public data"
           },
           {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Bell AH-1 Cobra status: Active/retired by operator. Conflict entries: 1.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Representative range",
+            "text": "About 274-310 nmi / 315-357 mi depending on variant/source"
           },
           {
-            "text": "Conflicts: Vietnam War.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Vietnam War: Bell AH-1 Cobra used in Vietnam War.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Bell AH-1 Cobra named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "variants",
-        "title": "Variants",
-        "paragraphs": [
-          {
-            "text": "Bell AH-1 Cobra variant-family entries: 4. Variant families: Bell AH-1 Cobra baseline production model; Bell AH-1 Cobra upgraded avionics or weapons-capable model; Bell AH-1 Cobra two-seat trainer or conversion model; Bell AH-1 Cobra utility, attack, naval, or export model.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Bell AH-1 Cobra baseline production model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Bell AH-1 Cobra upgraded avionics or weapons-capable model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Bell AH-1 Cobra two-seat trainer or conversion model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Bell AH-1 Cobra utility, attack, naval, or export model",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "operators",
-        "title": "Operators",
-        "paragraphs": [
-          {
-            "text": "Designer or builder countries: United States. Bell AH-1 Cobra has 1 designer or builder country entry.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "All operators status: 0 operator entries listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Major designer or builder entries: United States.",
-            "refs": [
-              "fn-wikidata"
-            ]
+            "title": "Limitations",
+            "text": "Single engine, limited payload and growth margin compared with later twin-engine attack helicopters"
           }
         ]
       },
@@ -25979,13 +25971,306 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 2, propulsion type Turboshaft, maximum speed category Subsonic, first flight 1965, introduction 1967.",
+            "text": "The figures below are representative public AH-1/AH-1F/AH-1S values from museum sources, not a universal specification for every Cobra variant. Early AH-1G, TOW-upgraded AH-1Q/S, AH-1E, AH-1F, and twin-engine Marine derivatives differ in engine, weapons, equipment, and weight.",
             "refs": [
-              "fn-main"
+              "fn-pima-ah1s",
+              "fn-march-ah1f",
+              "fn-maps-ah1",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Crew",
+            "text": "2: pilot and co-pilot/gunner"
+          },
+          {
+            "title": "Length",
+            "text": "About 53 ft with rotors turning; AH-1F fuselage length often listed around 44 ft 7 in"
+          },
+          {
+            "title": "Rotor diameter",
+            "text": "44 ft"
+          },
+          {
+            "title": "Height",
+            "text": "About 13 ft 5-6 in"
+          },
+          {
+            "title": "Loaded / max weight",
+            "text": "About 10,000 lb for AH-1S/F representative museum data"
+          },
+          {
+            "title": "Engine",
+            "text": "One Lycoming/Avco Lycoming T53; AH-1F/S representative T53-L-703 at 1,800 shp"
+          },
+          {
+            "title": "Maximum speed",
+            "text": "About 149 knots / 171-172 mph for AH-1/AH-1F data"
+          },
+          {
+            "title": "Range",
+            "text": "About 274-310 nmi, or roughly 315-357 miles, depending on source baseline"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "About 11,400-12,200 ft in representative public data"
+          },
+          {
+            "title": "Armament",
+            "text": "Turret guns/grenade launcher, rockets, TOW missiles, cannon, and pods depending on variant"
+          }
+        ]
+      },
+      {
+        "id": "variants",
+        "title": "Variants",
+        "paragraphs": [
+          {
+            "text": "The Cobra family developed rapidly from the original AH-1G into a sequence of Army upgrade standards. Public naming can be confusing because some pre-1988 designations treated several improvements as AH-1S sub-variants before later AH-1P/E/F labels became standard.",
+            "refs": [
+              "fn-maps-ah1",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "AH-1G: initial Army Huey Cobra gunship used heavily in Vietnam."
+          },
+          {
+            "text": "AH-1Q / AH-1S: TOW missile and powerplant/sighting upgrades for anti-armor missions."
+          },
+          {
+            "text": "AH-1P: production-standard improved AH-1S with composite rotors and cockpit changes for nap-of-earth flight."
+          },
+          {
+            "text": "AH-1E: upgunned variant with M197 20 mm cannon and rocket-management updates."
+          },
+          {
+            "text": "AH-1F: modernized Army Cobra with combined earlier upgrades, laser rangefinder/tracker, infrared countermeasures, and exhaust suppression."
+          },
+          {
+            "text": "AH-1J/T/W/Z: twin-engine Marine Corps Cobra lineage; related but technically distinct from the single-engine Army AH-1 page focus."
+          }
+        ]
+      },
+      {
+        "id": "operators",
+        "title": "Operators",
+        "paragraphs": [
+          {
+            "text": "The United States Army was the original AH-1 operator and used the single-engine Cobra as its attack-helicopter backbone from Vietnam through the 1990s. Export and naval users operated Cobra-family aircraft, while Marine Corps twin-engine derivatives continued the line after Army retirement.",
+            "refs": [
+              "fn-rocketcenter-ah1",
+              "fn-maps-ah1"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "United States Army",
+            "text": "Original AH-1G/S/E/F operator; active retirement in 1999 and reserve retirement in 2001 after AH-64 Apache replacement."
+          },
+          {
+            "title": "United States Marine Corps",
+            "text": "Operated twin-engine Cobra derivatives such as AH-1J, AH-1W, and AH-1Z for escort and attack missions."
+          },
+          {
+            "title": "Japan",
+            "text": "Public summaries list the Japan Self-Defense Forces as a Cobra-family operator."
+          },
+          {
+            "title": "South Korea",
+            "text": "Republic of Korea Army Cobra-family service is widely cited; current status should be checked by date."
+          },
+          {
+            "title": "Israel",
+            "text": "Israeli Air Force Cobra use is listed in public references; details vary by period."
+          },
+          {
+            "title": "Spain",
+            "text": "Spanish Navy Z.14/AH-1G aircraft are noted in museum accounts."
+          },
+          {
+            "title": "Civil conversions",
+            "text": "Surplus AH-1 airframes were adapted for firefighting observation and coordination."
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "In Vietnam, Cobras escorted troop helicopters, provided close fire support, and worked with OH-6 scout helicopters in hunter-killer teams. Public museum summaries credit Cobras with more than a million operational hours in Vietnam and note that roughly 300 were lost to combat and accidents.",
+            "refs": [
+              "fn-rocketcenter-ah1",
+              "fn-maps-ah1"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "After Vietnam, Army Cobras remained in service for contingency operations and anti-armor missions. They appeared in Grenada in 1983, Panama in 1989, the Gulf War in 1990-1991, and later 1990s operations before the AH-64 Apache fully displaced the type from Army units.",
+            "refs": [
+              "fn-maps-ah1",
+              "fn-march-ah1f"
+            ]
+          },
+          {
+            "text": "The Marine Corps’ twin-engine Cobra derivatives continued the family’s escort and attack mission after the single-engine Army AH-1 retired. Those aircraft should be treated as related development rather than identical AH-1G/F machines.",
+            "refs": [
+              "fn-rocketcenter-ah1",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Vietnam War",
+            "text": "Escort, close air support, aerial rocket artillery, and hunter-killer teaming with OH-6 scouts."
+          },
+          {
+            "title": "Grenada, 1983",
+            "text": "Close-support and helicopter-escort missions during Operation Urgent Fury."
+          },
+          {
+            "title": "Panama, 1989",
+            "text": "Army Cobra participation during Operation Just Cause."
+          },
+          {
+            "title": "Gulf War, 1990-1991",
+            "text": "Army AH-1s and Marine Cobra derivatives deployed from forward desert bases in support roles."
+          },
+          {
+            "title": "1990s operations",
+            "text": "Cobras supported Somalia, Haiti, and other contingency operations before Army retirement."
+          }
+        ]
+      },
+      {
+        "id": "strengths-and-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The AH-1’s strength was rapid fielding of a dedicated attack helicopter using familiar UH-1 components. It was narrower and faster than improvised Huey gunships, carried turreted and wing-mounted weapons, and gave airmobile forces a purpose-built escort during the Vietnam War.",
+            "refs": [
+              "fn-army-aviation-museum",
+              "fn-march-ah1f"
+            ]
+          },
+          {
+            "text": "Its limitations became clearer as attack-helicopter requirements grew. The single-engine Cobra had less survivability redundancy, payload, sensor growth margin, and fire-control sophistication than later twin-engine designs such as the AH-64 Apache, which Army Aviation Museum accounts describe as fixing many of the Cobra’s shortcomings.",
+            "refs": [
+              "fn-army-aviation-museum",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: small frontal profile, proven Huey-derived components, and rapid wartime production."
+          },
+          {
+            "text": "Strength: effective escort and fire-support platform for airmobile operations."
+          },
+          {
+            "text": "Strength: upgrade path from gun/rocket fire support to TOW anti-armor employment."
+          },
+          {
+            "text": "Limitation: single engine and limited growth compared with later twin-engine attack helicopters."
+          },
+          {
+            "text": "Limitation: variant-specific weapons and sensors make one-size-fits-all specifications misleading."
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "The AH-1 sits between improvised UH-1 gunships and later purpose-built attack helicopters. It borrowed heavily from the Huey to reach combat quickly, but its narrow attack fuselage, tandem cockpit, and missile/cannon upgrades made it a different battlefield tool.",
+            "refs": [
+              "fn-army-aviation-museum",
+              "fn-march-ah1f"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Compared with UH-1 gunships",
+            "text": "Much narrower, faster, and purpose-built for escort/fire support, but based on many Huey dynamic components."
+          },
+          {
+            "title": "Compared with AH-64 Apache",
+            "text": "Earlier, lighter, and simpler; the Apache brought twin engines, more advanced sensors, fire control, survivability, and growth margin."
+          },
+          {
+            "title": "Compared with Marine AH-1W/Z",
+            "text": "Army single-engine AH-1G/F data should not be confused with twin-engine SeaCobra/SuperCobra/Viper variants."
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "cards": [
+          {
+            "title": "1965",
+            "text": "First AH-1 prototype flight on 7 September."
+          },
+          {
+            "title": "1966",
+            "text": "Production began as Bell and the Army moved rapidly from Model 209 prototype to AH-1G."
+          },
+          {
+            "title": "1967-1968",
+            "text": "Early AH-1G Huey Cobras reached Army combat units in Vietnam."
+          },
+          {
+            "title": "1970s",
+            "text": "TOW-capable and improved-power AH-1Q/S family upgrades expanded anti-armor use."
+          },
+          {
+            "title": "1983",
+            "text": "Cobras flew support and escort missions during Operation Urgent Fury in Grenada."
+          },
+          {
+            "title": "1989",
+            "text": "Army Cobras participated in Operation Just Cause in Panama."
+          },
+          {
+            "title": "1990-1991",
+            "text": "Army and Marine Cobra-family aircraft deployed during Desert Shield and Desert Storm."
+          },
+          {
+            "title": "1999",
+            "text": "U.S. Army active-component AH-1 service ended."
+          },
+          {
+            "title": "2001",
+            "text": "U.S. Army Reserve AH-1 retirement completed the Army transition to Apache attack helicopters."
+          }
+        ]
+      },
+      {
+        "id": "sources-and-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "This page prioritizes museum and official-style public references from the Army Aviation Museum, Pima Air & Space Museum, U.S. Space & Rocket Center, March Field Air Museum, and MAPS Air Museum. Wikipedia is retained only as an orientation source.",
+            "refs": [
+              "fn-army-aviation-museum",
+              "fn-pima-ah1s",
+              "fn-rocketcenter-ah1",
+              "fn-march-ah1f",
+              "fn-maps-ah1",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Exact Cobra performance, weapon loads, avionics, and retirement status vary by variant and operator. The page avoids treating AH-1G Vietnam gunships, AH-1F modernized Army aircraft, and twin-engine Marine Corps Cobra derivatives as identical.",
             "refs": [
               "fn-method"
             ]
@@ -25993,11 +26278,11 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "related-pages",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "Bell AH-1 Cobra similar-development links: 4.",
+            "text": "Related Milipedia entries include the UH-1 Huey source helicopter and the AH-64 Apache replacement attack helicopter. Twin-engine Cobra derivatives are noted as related development where a dedicated local page is not available.",
             "refs": [
               "fn-method"
             ]
@@ -26005,31 +26290,21 @@
         ],
         "links": [
           {
-            "label": "Boeing AH-64 Apache",
-            "url": "aircraft.html?id=ah-64-apache"
-          },
-          {
             "label": "Bell UH-1 Iroquois",
             "url": "aircraft.html?id=uh-1-iroquois"
           },
           {
-            "label": "Sikorsky UH-60 Black Hawk",
-            "url": "aircraft.html?id=uh-60-black-hawk"
+            "label": "Boeing AH-64 Apache",
+            "url": "aircraft.html?id=ah-64-apache"
           },
           {
-            "label": "Boeing CH-47 Chinook",
-            "url": "aircraft.html?id=ch-47-chinook"
+            "label": "Back to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg/960px-U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg",
-        "caption": "Vietnam War",
-        "source_url": "https://en.wikipedia.org/wiki/Vietnam_War"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "ah-64-apache",

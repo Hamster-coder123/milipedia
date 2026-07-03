@@ -4618,3 +4618,81 @@ Record the result of:
 * Production totals differ between public sources depending on count basis; the article uses a cautious 615-651 range instead of forcing one number.
 * Combat radius, exact radar fit, exact thrust by all variants, and all national weapons clearances were omitted or caveated because they vary by version/source.
 * tools/build-aircraft-data.mjs was not run because the repository README indicates it regenerates starter aircraft data and could overwrite curated entries; JSON validation and targeted consistency checks were used instead.
+
+### Run 61 — 2026-07-03 03:04:34 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Bell AH-1 Cobra (id: ah-1-cobra)
+* Reason selected: The AH-1 Cobra entry was among the shortest unedited aircraft records after previous Hermes runs, with no variants or operators, placeholder specifications, generic generated article sections, stale forestry links, and much less technical/design/operational density than the F-16 reference page.
+* Previous condition: Sparse generated page with 15 exact fact fields, 0 variant entries, 0 operator entries, incomplete engine/range/ceiling/retirement data, generic cannon/rocket/missile wording, no dedicated source notes, and only short placeholder-like sections.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview/key-fact-card style; article order covering overview, development history, design and capabilities, specifications, variants, operators, operational history, strengths/limitations, comparison, timeline, sources/notes, and related pages; source-linked paragraphs; cautious variant-dependent specification wording; internal aircraft.html?id=... related links.
+
+#### Changes Made
+
+* Expanded the Bell AH-1 Cobra entry in data/aircraft.json from a sparse generated page into a fuller Milipedia article record.
+* Added accurate top-level facts for first flight, introduction, U.S. Army retirement, status, AH-1G production total caveat, crew, T53-family engine, representative speed, range, service ceiling, rate of climb, hardpoints, and variant-dependent armament.
+* Added alternative names and lineage terms: AH-1 HueyCobra, Huey Cobra, Cobra, Snake, and Bell Model 209.
+* Replaced placeholder engine, range, combat-range, ceiling, and armament wording with AH-1G/S/E/F-aware public data and caveats that specifications vary by variant, loadout, and source baseline.
+* Added source coverage from the Army Aviation Museum, Pima Air & Space Museum, U.S. Space & Rocket Center, March Field Air Museum, MAPS Air Museum, and Wikipedia as supplementary orientation only.
+* Added variant coverage for Bell 209, AH-1G, TH-1G, AH-1Q, AH-1S/AH-1P, AH-1E, AH-1F, twin-engine Marine Cobra derivatives, and firefighting conversions.
+* Added operator coverage for the U.S. Army, U.S. Marine Corps Cobra-family use, Japan, South Korea, Israel, Spain, and U.S. civil firefighting conversions, with date/status caveats where public sources vary.
+* Added article sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Comparison, Timeline, Sources and Notes, and Related Pages.
+* Added Vietnam War, Grenada, Panama, Gulf War, Somalia, and Haiti operational-history summaries using cautious public-source wording.
+* Added internal links to Bell UH-1 Iroquois, Boeing AH-64 Apache, and the aircraft database return page.
+* Removed the generated event gallery for this entry because the new operational-history and timeline sections provide more relevant AH-1-specific context.
+* Omitted precise current export inventory counts, operator-specific retirement dates, detailed all-variant avionics tables, and universal weapon-clearance lists because they vary by source, date, operator, and Cobra derivative.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Bell AH-1 Cobra aircraft entry with detailed facts, sections, sources, variants, operators, and internal links.
+* hermes-change-log.md — Appended this cumulative run entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — verified branch hermes-agent with only data/aircraft.json and hermes-change-log.md modified before staging.
+2. git diff — reviewed the AH-1 Cobra diff and this log entry; changes were limited to the intended aircraft entry and cumulative log.
+3. File review — validated data/aircraft.json with python3 -m json.tool and reviewed the AH-1 section list, source list, variant/operator counts, representative specification caveats, and removed generic event gallery.
+4. F-16 style comparison — inspected data/f16-template.html and followed its dense overview, section order, key-fact-card/specification density, source-linked paragraphs, cautious claims, and related-link style within the JSON-rendered page format.
+5. Internal link check — script checked aircraft.html?id=... links in the AH-1 Cobra entry against data/aircraft.json ids; no missing internal links found.
+6. Secret/token check — scanned the staged/intended diff for common credential, access-key, auth-secret, private-key, password, and .env patterns; no secrets or credentials were found.
+7. Final review before commit — confirmed hermes-agent branch, JSON validity, one changed aircraft entry, AH-1 Cobra not previously selected by Hermes, intended files only, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Bell AH-1 Cobra
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* AH-1G, AH-1S, AH-1E, AH-1F, and twin-engine Marine Cobra derivatives differ substantially; the article uses representative single-engine AH-1 data and explicitly caveats variant-dependent specifications.
+* Exact current export inventories, operator-specific retirement dates, and all national weapon clearances were omitted because cited public sources are date-sensitive or variant-specific.
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
