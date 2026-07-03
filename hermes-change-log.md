@@ -5078,3 +5078,82 @@ hermes-agent
 * Aerospaceweb lists Afghanistan War use in 1980, while Vertipedia states the Yak-38 was never used in combat; the page records this as a deployment/trial association requiring cautious interpretation rather than confirmed combat employment.
 * Some public sources list first flight as 1971 and others summarize early testing as 1972; the page uses 1971 prototype flight with a note about the discrepancy.
 * Detailed Yak-38M configuration changes and exact combat radius were omitted because the accessible sources were not precise enough for a safe one-run update.
+
+### Run 67 — 2026-07-03 09:01:42 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Mikoyan-Gurevich MiG-21 (id: mig-21)
+* Reason selected: The MiG-21 entry was one of the shortest unedited aircraft pages after excluding prior Hermes selections, with no operators, no variant entries, generic generated text, placeholder specifications such as "Not listed," stale generic sources, and an unrelated generated Vietnam-war event image.
+* Previous condition: Sparse generated fighter page with 15 exact fact fields, 0 operator entries, 0 variant entries, only generic/source-discovery references plus two weak external links, no detailed development/design/specifications/operators/comparison/timeline coverage, and missing variant-sensitive caveats.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview paragraphs; article-section order covering overview, development, design, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, sources, and related pages; concise technical cards; variant-sensitive specifications; neutral source caveats; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Expanded the MiG-21 entry from a sparse generated page into a detailed Milipedia article data record.
+* Added NATO reporting name Fishbed and alternative names for major family variants.
+* Replaced placeholder top-level facts with sourced, caveated values for service period, production scale, crew, engine family, speed, range, ceiling, armament, status, combat history, development history, and summary.
+* Added reliable source entries and footnotes from the National Museum of the U.S. Air Force, Smithsonian National Air and Space Museum, Royal Air Force Museum, Strategic Air Command & Aerospace Museum, and Airforce Technology, while retaining Wikipedia only as supplementary orientation.
+* Added detailed article sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Comparison, Timeline, and Sources and Related Pages.
+* Added variant-family coverage for MiG-21F/F-13, P/PF/PFM/PFS, R, S/M/MF, bis, U/UM trainers, MiG-21 2000/MiG-21-93 upgrades, and license-built or derivative aircraft.
+* Added representative operator coverage for the Soviet Union, India, Vietnam/North Vietnam, Egypt, Syria, Iraq, Warsaw Pact users, and broad export operators without claiming exact current inventories.
+* Added sourced combat-history context for Vietnam, Arab-Israeli wars, the 1971 India-Pakistan War, Iran-Iraq War, Afghanistan-related service, and Desert Storm-era use, with cautions about claim totals.
+* Added variant-sensitive specification caveats using MiG-21PF and MiG-21F-13 museum figures rather than applying one model's data across the entire family.
+* Added strengths/limitations and comparison text against the F-4 Phantom II, earlier MiGs, the MiG-23, and later fighters.
+* Updated internal related links to existing MiG-15, MiG-17, MiG-19, MiG-23, F-4, F-5, and Su-7 pages.
+* Removed the stale generated event_gallery entry that used an unrelated UH-1 Vietnam image.
+* Omitted exact current operator inventories and some disputed production totals where source recency or scope would need more specific national verification.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded the Mikoyan-Gurevich MiG-21 aircraft page data, sources, sections, variants, operators, and related links.
+* hermes-change-log.md — Appended the cumulative Run 67 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files; temporary helper scripts were removed before staging.
+2. git diff — Reviewed the aircraft diff and confirmed only the MiG-21 entry changed in data/aircraft.json; reviewed the cumulative log addition.
+3. File review — Parsed data/aircraft.json successfully, reviewed the selected MiG-21 entry for section structure, source IDs, variant/operator coverage, and stale event-gallery cleanup.
+4. F-16 style comparison — Inspected data/f16-template.html and copied its dense lead, technical-card, source-cited paragraph, specifications, variants, operators, operational-history, comparison, strengths/limitations, timeline, sources, and related-page patterns within the JSON article renderer.
+5. Internal link check — Recursively checked aircraft.html?id=... links in the MiG-21 entry; all local related aircraft IDs resolve to existing data/aircraft.json records.
+6. Secret/token check — Ran credential-specific scans over the intended/staged diff for key, token, password, private-key, and cloud credential patterns; no credentials were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, one-entry aircraft change, intended files only, no main branch edit, no unrelated files, and complete Run 67 change-log entry.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Mikoyan-Gurevich MiG-21
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* MiG-21 first-flight/testing dates and total production counts vary by prototype, production standard, and whether license-built/derivative aircraft are included; the page uses cautious wording rather than one absolute value.
+* Current operator inventories and retirement dates are date-sensitive and were intentionally not listed as exact counts without fresh national-source verification.
+* Specifications are representative of museum-documented MiG-21PF and MiG-21F-13 examples and should not be treated as universal for every MiG-21 subvariant.

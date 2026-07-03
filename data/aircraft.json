@@ -34426,34 +34426,113 @@
   {
     "id": "mig-21",
     "name": "Mikoyan-Gurevich MiG-21",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "alternative_names": [
+      "Fishbed",
+      "MiG-21F-13",
+      "MiG-21PF",
+      "MiG-21bis"
+    ],
+    "nato_reporting_name": "Fishbed",
     "country_of_origin": "Soviet Union",
     "manufacturer": "Mikoyan-Gurevich",
-    "role": "Interceptor/fighter",
+    "role": "Supersonic interceptor and fighter",
     "aircraft_type": "Fighter",
     "era": "Cold War",
-    "first_flight": "1955",
-    "introduction_date": "1959",
-    "retirement_date": null,
-    "status": "Active/retired by operator",
-    "number_built": "Not listed",
-    "crew": "1",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "first_flight": "1955-1956 prototype/testing period; sources differ by prototype and standard cited",
+    "introduction_date": "1959-1960 for early MiG-21F/F-13 service entry",
+    "retirement_date": "Retired by many operators; upgraded examples remained in service with some air arms into the 21st century",
+    "status": "Retired by many operators; limited or modernized service varies by country",
+    "number_built": "More than 10,000 Soviet-built aircraft per NMUSAF; broader family totals vary when license-built and derivative aircraft are included",
+    "crew": "1 in fighter variants; 2 in trainer variants",
+    "engine_type": "Afterburning turbojet",
+    "engines": "Single Tumansky afterburning turbojet family, such as R-11F2-300 on MiG-21PF",
+    "max_speed": "About 1,300 mph for MiG-21PF museum data; Mach-2-class performance varied by variant",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Mikoyan-Gurevich MiG-21: Interceptor/fighter. Manufacturer: Mikoyan-Gurevich. First flight: 1955. Introduction: 1959.",
-    "short_summary": "Mikoyan-Gurevich MiG-21: Interceptor/fighter. Origin: Soviet Union. Manufacturer: Mikoyan-Gurevich. First flight: 1955. Introduction: 1959. Status: Active/retired by operator.",
+    "range": "MiG-21PF museum data: 870 miles, or 1,110 miles with auxiliary tank",
+    "combat_range": "Short-range interceptor; mission radius varied substantially with fuel tanks, weapons, altitude, and variant",
+    "service_ceiling": "MiG-21PF museum data: 62,000 ft",
+    "rate_of_climb": "High climb performance for point-defense interception; exact figure varies by engine and variant",
+    "armament": "Variant-dependent: internal gun on many models, K-13/AA-2 Atoll and other air-to-air missiles, rockets, bombs, pods, and external tanks; some early PF aircraft had no internal gun.",
+    "hardpoints": "Early models typically carried two to four primary external stations; later and upgraded variants carried broader stores fits depending on model",
+    "variants": [
+      {
+        "name": "MiG-21F / MiG-21F-13",
+        "description": "Early day-fighter/interceptor family; F-13 was a key first production and export standard with K-13/AA-2 missile compatibility."
+      },
+      {
+        "name": "MiG-21P / PF / PFM / PFS",
+        "description": "Radar-equipped all-weather interceptor versions with revised intake/nose systems; some early PF aircraft relied on missiles without an internal gun."
+      },
+      {
+        "name": "MiG-21R",
+        "description": "Tactical reconnaissance variant family using specialized sensor equipment or pods."
+      },
+      {
+        "name": "MiG-21S / M / MF",
+        "description": "Later fighter and export families with improved engines, avionics, fuel/stores arrangements, and wider multirole use."
+      },
+      {
+        "name": "MiG-21bis",
+        "description": "Late major production fighter with more powerful R-25 engine family and broad export/upgrade importance."
+      },
+      {
+        "name": "MiG-21U / UM",
+        "description": "Two-seat trainer variants used to support conversion and continuation training for large MiG-21 fleets."
+      },
+      {
+        "name": "MiG-21 2000 / MiG-21-93 and national upgrades",
+        "description": "Modernization packages adding new cockpit displays, navigation, radar, electronic warfare, and modern weapons interfaces."
+      },
+      {
+        "name": "License-built and derivative aircraft",
+        "description": "Indian and Czechoslovak production supported local fleets; China's Chengdu J-7/F-7 family was derived from the MiG-21 but became a separate line."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Soviet Union",
+        "service": "Soviet Air Forces and air-defense forces",
+        "notes": "Original user and principal developer of the MiG-21 family."
+      },
+      {
+        "country": "India",
+        "service": "Indian Air Force",
+        "notes": "One of the largest users and license-production operators, with FL, M, bis, trainer, and upgraded examples over decades."
+      },
+      {
+        "country": "Vietnam / North Vietnam",
+        "service": "Vietnam People's Air Force",
+        "notes": "Combat operator in the Vietnam War; NMUSAF notes North Vietnam had more than 200 MiG-21s."
+      },
+      {
+        "country": "Egypt",
+        "service": "Egyptian Air Force",
+        "notes": "Major Arab-state operator in regional conflicts and later modernization/replacement cycles."
+      },
+      {
+        "country": "Syria",
+        "service": "Syrian Arab Air Force",
+        "notes": "Long-term Arab-state operator with combat use in Middle Eastern wars."
+      },
+      {
+        "country": "Iraq",
+        "service": "Iraqi Air Force",
+        "notes": "Operated MiG-21s in regional conflicts including the Iran-Iraq War era."
+      },
+      {
+        "country": "Warsaw Pact and allied users",
+        "service": "Poland, Czechoslovakia, Bulgaria, East Germany, Romania, and others",
+        "notes": "Widespread European operation for air defense, training, and tactical fighter roles."
+      },
+      {
+        "country": "Other export operators",
+        "service": "Multiple Asian, African, Middle Eastern, and Latin American air arms",
+        "notes": "More than fifty countries used MiG-21 versions according to NMUSAF; exact current status varies by country."
+      }
+    ],
+    "combat_history": "Extensive combat use in Vietnam, Arab-Israeli wars, the 1971 India-Pakistan War, the Iran-Iraq War, Afghanistan-related service, Desert Storm-era encounters, and other regional conflicts; claim totals differ by source.",
+    "development_history": "Developed by Mikoyan-Gurevich as a compact Mach-2-class Soviet fighter/interceptor after the MiG-15, MiG-17, and MiG-19. Early MiG-21F/F-13 aircraft emphasized simple clear-air interception; PF/PFM and later families added radar, stronger engines, multirole stores, trainers, reconnaissance versions, license production, and modernization programs.",
+    "short_summary": "Soviet Mach-2-class Fishbed fighter/interceptor with a compact tailed-delta airframe, broad export service, heavy combat history, and many variants from early day fighters to radar-equipped and upgraded multirole aircraft.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -34466,18 +34545,46 @@
     ],
     "sources": [
       {
+        "id": "fn-nmusaf-mig21pf",
+        "title": "Mikoyan-Gurevich MiG-21PF \"Fishbed-D\"",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195970/mikoyan-gurevich-mig-21pf-fishbed-d",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Official museum fact sheet used for MiG-21PF service context and technical notes."
+      },
+      {
+        "id": "fn-smithsonian-mig21f13",
+        "title": "Mikoyan-Gurevich MIG 21F-13 FISHBED-C",
+        "url": "https://airandspace.si.edu/collection-objects/mikoyan-gurevich-mig-21f-13-fishbed-c/nasm_A19930354000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "note": "Museum collection article used for development, tailed-delta design, variants, export use, and object dimensions."
+      },
+      {
+        "id": "fn-rafmuseum-mig21pf",
+        "title": "Mikoyan-Gurevich MiG 21PF",
+        "url": "https://www.rafmuseum.org.uk/research/collections/mikoyan-gurevich-mig-21pf",
+        "publisher": "Royal Air Force Museum",
+        "note": "Museum article used for PF/PFM variant development, radar intake notes, and combat-use summary."
+      },
+      {
+        "id": "fn-sac-mig21f",
+        "title": "MIG-21F \"Fishbed-C\"",
+        "url": "https://www.sacmuseum.org/visit/exhibit/mig-21f-fishbed-c",
+        "publisher": "Strategic Air Command & Aerospace Museum",
+        "note": "Museum page used for MiG-21F dimensions and performance figures, with variant-specific caveats."
+      },
+      {
+        "id": "fn-airforce-technology-mig21-2000",
+        "title": "MiG-21 2000 Fishbed Fighter Aircraft",
+        "url": "https://www.airforce-technology.com/projects/mig21",
+        "publisher": "Airforce Technology",
+        "note": "Supplementary source for late-life MiG-21 2000 modernization, cockpit, avionics, radar, and weapons-upgrade context."
+      },
+      {
         "id": "fn-main",
         "title": "Mikoyan-Gurevich MiG-21",
         "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-21",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source only; technical claims are cross-checked against museum or specialist sources where possible."
       },
       {
         "id": "fn-method",
@@ -34485,20 +34592,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.warfare.ru/?lang=&catid=255&linkid=1597",
-        "publisher": "warfare.ru",
-        "note": "External source for Mikoyan-Gurevich MiG-21."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.warbirdalley.com/mig21.htm",
-        "publisher": "warbirdalley.com",
-        "note": "External source for Mikoyan-Gurevich MiG-21."
       }
     ],
     "country_flags": [
@@ -34511,46 +34604,88 @@
       "Mikoyan-Gurevich"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "Balancing Mach-2 speed, climb, radar fit, fuel capacity, weapons load, and low-cost mass production in a compact airframe.",
+      "Small nose intake and limited internal volume constrained radar growth, endurance, and late-life modernization margin.",
+      "Different variants traded cannon, missile load, fuel, radar, and strike capability in different ways."
     ],
     "wars_used_in": [
       {
         "name": "Vietnam War",
-        "note": "Mikoyan-Gurevich MiG-21 used in Vietnam War."
+        "note": "Major North Vietnamese interceptor and U.S. opponent; claim totals vary by source."
+      },
+      {
+        "name": "Arab-Israeli wars",
+        "note": "Used by several Arab air forces in regional conflicts including 1967 and 1973."
+      },
+      {
+        "name": "1971 India-Pakistan War",
+        "note": "Indian MiG-21s encountered Pakistani aircraft, including F-104s, in combat."
+      },
+      {
+        "name": "Iran-Iraq War",
+        "note": "RAF Museum lists MiG-21 combat use in the conflict."
+      },
+      {
+        "name": "Desert Storm",
+        "note": "RAF Museum lists MiG-21 involvement in Desert Storm-era combat."
       }
     ],
     "variant_families": [
-      "Mikoyan-Gurevich MiG-21 baseline production model",
-      "Mikoyan-Gurevich MiG-21 upgraded avionics or weapons-capable model",
-      "Mikoyan-Gurevich MiG-21 export or locally modernized model"
+      "MiG-21F / MiG-21F-13",
+      "MiG-21P / PF / PFM / PFS",
+      "MiG-21R",
+      "MiG-21S / M / MF",
+      "MiG-21bis",
+      "MiG-21U / UM",
+      "MiG-21 2000 / MiG-21-93 and national upgrades",
+      "License-built and derivative aircraft"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "Soviet Union"
       ],
-      "major_user_note": "Mikoyan-Gurevich MiG-21 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "More than fifty countries used various MiG-21 versions according to NMUSAF; operator status is date-sensitive.",
+      "all_operators_status": "Representative operators are listed; exact inventories and retirement dates vary by country."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "NMUSAF's MiG-21PF is painted to represent an aircraft from North Vietnam's 921st Fighter Regiment.",
+        "Smithsonian's MiG-21F-13 was once part of a U.S. Air Force Soviet Awareness display at Bolling Air Force Base."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Vietnam War air-combat claims and losses are source-sensitive; NMUSAF provides one U.S. Air Force count for MiG-21 shootdowns and U.S. losses.",
+        "The type appeared in many regional wars, making single-theater claim totals incomplete for the whole family."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Mikoyan-Gurevich MiG-21 uses jet propulsion."
+      "type": "Afterburning turbojet",
+      "summary": "Single Tumansky turbojet family; NMUSAF lists the MiG-21PF's R-11F2-300 at more than 13,000 lb thrust. Later MiG-21 families used improved Tumansky engines."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Variant-dependent mix of guns, K-13/AA-2 Atoll and other air-to-air missiles, radar-guided missiles on some versions, rockets, bombs, and external tanks.",
+      "caution": "Weapon fit changed by variant and national upgrade; early PF examples could carry missiles but no internal gun, while later models and upgrades had broader stores options."
     },
     "similar_development": [
+      {
+        "id": "mig-15",
+        "name": "Mikoyan-Gurevich MiG-15",
+        "url": "aircraft.html?id=mig-15"
+      },
+      {
+        "id": "mig-17",
+        "name": "Mikoyan-Gurevich MiG-17",
+        "url": "aircraft.html?id=mig-17"
+      },
+      {
+        "id": "mig-19",
+        "name": "Mikoyan-Gurevich MiG-19",
+        "url": "aircraft.html?id=mig-19"
+      },
+      {
+        "id": "mig-23",
+        "name": "Mikoyan-Gurevich MiG-23",
+        "url": "aircraft.html?id=mig-23"
+      },
       {
         "id": "f-4-phantom-ii",
         "name": "McDonnell Douglas F-4 Phantom II",
@@ -34562,73 +34697,103 @@
         "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
       },
       {
-        "id": "f-8-crusader",
-        "name": "Vought F-8 Crusader",
-        "url": "aircraft.html?id=f-8-crusader"
-      },
-      {
-        "id": "f-14-tomcat",
-        "name": "Grumman F-14 Tomcat",
-        "url": "aircraft.html?id=f-14-tomcat"
+        "id": "su-7",
+        "name": "Sukhoi Su-7",
+        "url": "aircraft.html?id=su-7"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 2
+      "exact_fact_count": 45,
+      "operator_entries": 8,
+      "variant_entries": 8,
+      "external_article_sources": 5
     },
     "footnotes": [
+      {
+        "id": "fn-nmusaf-mig21pf",
+        "title": "Mikoyan-Gurevich MiG-21PF \"Fishbed-D\"",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195970/mikoyan-gurevich-mig-21pf-fishbed-d",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Official museum fact sheet used for MiG-21PF service context and technical notes."
+      },
+      {
+        "id": "fn-smithsonian-mig21f13",
+        "title": "Mikoyan-Gurevich MIG 21F-13 FISHBED-C",
+        "url": "https://airandspace.si.edu/collection-objects/mikoyan-gurevich-mig-21f-13-fishbed-c/nasm_A19930354000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "note": "Museum collection article used for development, tailed-delta design, variants, export use, and object dimensions."
+      },
+      {
+        "id": "fn-rafmuseum-mig21pf",
+        "title": "Mikoyan-Gurevich MiG 21PF",
+        "url": "https://www.rafmuseum.org.uk/research/collections/mikoyan-gurevich-mig-21pf",
+        "publisher": "Royal Air Force Museum",
+        "note": "Museum article used for PF/PFM variant development, radar intake notes, and combat-use summary."
+      },
+      {
+        "id": "fn-sac-mig21f",
+        "title": "MIG-21F \"Fishbed-C\"",
+        "url": "https://www.sacmuseum.org/visit/exhibit/mig-21f-fishbed-c",
+        "publisher": "Strategic Air Command & Aerospace Museum",
+        "note": "Museum page used for MiG-21F dimensions and performance figures, with variant-specific caveats."
+      },
+      {
+        "id": "fn-airforce-technology-mig21-2000",
+        "title": "MiG-21 2000 Fishbed Fighter Aircraft",
+        "url": "https://www.airforce-technology.com/projects/mig21",
+        "publisher": "Airforce Technology",
+        "note": "Supplementary source for late-life MiG-21 2000 modernization, cockpit, avionics, radar, and weapons-upgrade context."
+      },
       {
         "id": "fn-main",
         "title": "Mikoyan-Gurevich MiG-21",
         "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-21",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source only; technical claims are cross-checked against museum or specialist sources where possible."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.warfare.ru/?lang=&catid=255&linkid=1597",
-        "publisher": "warfare.ru",
-        "note": "External source for Mikoyan-Gurevich MiG-21."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.warbirdalley.com/mig21.htm",
-        "publisher": "warbirdalley.com",
-        "note": "External source for Mikoyan-Gurevich MiG-21."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.warfare.ru/?lang=&catid=255&linkid=1597",
-        "publisher": "warfare.ru",
-        "note": "External source for Mikoyan-Gurevich MiG-21."
+        "id": "fn-nmusaf-mig21pf",
+        "title": "Mikoyan-Gurevich MiG-21PF \"Fishbed-D\"",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195970/mikoyan-gurevich-mig-21pf-fishbed-d",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Official museum fact sheet used for MiG-21PF service context and technical notes."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.warbirdalley.com/mig21.htm",
-        "publisher": "warbirdalley.com",
-        "note": "External source for Mikoyan-Gurevich MiG-21."
+        "id": "fn-smithsonian-mig21f13",
+        "title": "Mikoyan-Gurevich MIG 21F-13 FISHBED-C",
+        "url": "https://airandspace.si.edu/collection-objects/mikoyan-gurevich-mig-21f-13-fishbed-c/nasm_A19930354000",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "note": "Museum collection article used for development, tailed-delta design, variants, export use, and object dimensions."
+      },
+      {
+        "id": "fn-rafmuseum-mig21pf",
+        "title": "Mikoyan-Gurevich MiG 21PF",
+        "url": "https://www.rafmuseum.org.uk/research/collections/mikoyan-gurevich-mig-21pf",
+        "publisher": "Royal Air Force Museum",
+        "note": "Museum article used for PF/PFM variant development, radar intake notes, and combat-use summary."
+      },
+      {
+        "id": "fn-sac-mig21f",
+        "title": "MIG-21F \"Fishbed-C\"",
+        "url": "https://www.sacmuseum.org/visit/exhibit/mig-21f-fishbed-c",
+        "publisher": "Strategic Air Command & Aerospace Museum",
+        "note": "Museum page used for MiG-21F dimensions and performance figures, with variant-specific caveats."
+      },
+      {
+        "id": "fn-airforce-technology-mig21-2000",
+        "title": "MiG-21 2000 Fishbed Fighter Aircraft",
+        "url": "https://www.airforce-technology.com/projects/mig21",
+        "publisher": "Airforce Technology",
+        "note": "Supplementary source for late-life MiG-21 2000 modernization, cockpit, avionics, radar, and weapons-upgrade context."
       }
     ],
     "article_sections": [
@@ -34637,20 +34802,25 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-21 is an Interceptor/fighter from Soviet Union. Manufacturer: Mikoyan-Gurevich. First flight: 1955. Introduction: 1959. Status: Active/retired by operator.",
+            "text": "The Mikoyan-Gurevich MiG-21, NATO reporting name Fishbed, was a Soviet single-seat supersonic fighter and interceptor that became one of the defining combat aircraft of the Cold War. It paired a simple, compact fuselage with a thin tailed-delta wing and a nose intake, giving many operators a fast Mach-2-class fighter that was comparatively inexpensive to buy, license-build, and maintain.",
             "refs": [
-              "fn-main"
+              "fn-smithsonian-mig21f13",
+              "fn-nmusaf-mig21pf"
             ]
           },
           {
-            "text": "Mikoyan-Gurevich MiG-21 is a fighter. Primary role: interceptor/fighter. Country of origin: Soviet Union. Manufacturer: Mikoyan-Gurevich.",
+            "text": "Early MiG-21F and F-13 aircraft were short-range clear-air interceptors, while radar-equipped PF/PFM, later S/M/MF/bis fighters, reconnaissance models, trainers, license-built derivatives, and modernized aircraft broadened the family into all-weather interception, limited strike, reconnaissance, and training roles. Public figures vary by variant and source, so this page treats MiG-21PF and MiG-21F-13 data as representative rather than universal.",
             "refs": [
-              "fn-wikidata"
+              "fn-smithsonian-mig21f13",
+              "fn-rafmuseum-mig21pf",
+              "fn-method"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The MiG-21 served with more than fifty countries according to the National Museum of the U.S. Air Force, and the Smithsonian notes that more than 6,000 examples of 12 Soviet types flew with Soviet and export air arms over roughly three decades. Later license-built and derivative aircraft, including Indian, Czechoslovak, and Chinese production, make total family counts source-dependent and often reported above 10,000.",
             "refs": [
+              "fn-nmusaf-mig21pf",
+              "fn-smithsonian-mig21f13",
               "fn-method"
             ]
           }
@@ -34658,49 +34828,67 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Interceptor/fighter"
+            "text": "Short-range interceptor, fighter, and later multirole fighter family"
           },
           {
-            "title": "Designer or builder",
-            "text": "Mikoyan-Gurevich"
+            "title": "Configuration",
+            "text": "Single-seat, single-engine tailed-delta jet with nose intake"
           },
           {
-            "title": "Major origin",
-            "text": "Soviet Union"
+            "title": "NATO reporting name",
+            "text": "Fishbed"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Representative speed",
+            "text": "About 1,300 mph for MiG-21PF museum data"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-21 first flew in 1955. Introduction date: 1959. Era: Cold War.",
+            "text": "The MiG-21 followed Soviet experience with the transonic MiG-15 and MiG-17 and the supersonic MiG-19. Soviet designers pursued a compact aircraft that could climb quickly, make high-speed intercepts, and be produced in large numbers, accepting limited fuel volume and a small radar aperture as trade-offs for simplicity and performance.",
             "refs": [
-              "fn-main"
+              "fn-smithsonian-mig21f13",
+              "fn-method"
             ]
           },
           {
-            "text": "Producer: Mikoyan-Gurevich. Development context: interceptor/fighter, jet propulsion, supersonic speed category, Cold War era.",
+            "text": "Testing began in the mid-1950s, with the Smithsonian citing 1956 for MiG-21 testing and the SAC museum citing a first prototype flight on 14 February 1955. The first operational generation entered Soviet service around 1959-1960 as the MiG-21F/F-13 series, giving the Soviet Air Forces a lightweight clear-air interceptor armed with cannon and early K-13/AA-2 Atoll missiles depending on subvariant.",
             "refs": [
-              "fn-wikidata"
+              "fn-smithsonian-mig21f13",
+              "fn-sac-mig21f",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The PF generation introduced an enlarged nose-intake installation for RP-21 radar and a revised forward fuselage, trading the early internal-gun emphasis for missile armament and all-weather interception. RAF Museum notes place MiG-21PF production in 1962-1964, followed by PFM/PFS versions with further systems and handling changes.",
+            "refs": [
+              "fn-rafmuseum-mig21pf",
+              "fn-nmusaf-mig21pf"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
+            "text": "Design bureau: Mikoyan-Gurevich, with Tumansky engine development supporting later power increases.",
             "refs": [
-              "fn-method"
+              "fn-smithsonian-mig21f13"
             ]
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "Production evolved through many Soviet, export, trainer, reconnaissance, and locally modernized variants rather than one fixed standard.",
             "refs": [
+              "fn-smithsonian-mig21f13",
+              "fn-airforce-technology-mig21-2000"
+            ]
+          },
+          {
+            "text": "Key trade-off: excellent speed and climb in a compact airframe, but limited internal fuel, cockpit visibility, radar volume, and early weapons integration.",
+            "refs": [
+              "fn-smithsonian-mig21f13",
               "fn-method"
             ]
           }
@@ -34711,114 +34899,89 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The MiG-21's tailed-delta layout used a very thin delta wing with a conventional tailplane, all-metal construction, and a circular nose intake with a movable centerbody. Smithsonian credits this configuration with giving the aircraft maneuverability, high speed, good medium-altitude performance, and acceptable takeoff and landing characteristics for such a compact fighter.",
             "refs": [
-              "fn-main"
+              "fn-smithsonian-mig21f13"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Power came from a single afterburning Tumansky turbojet family, from R-11 engines in early versions to later R-13 and R-25 families. The National Museum of the U.S. Air Force lists the MiG-21PF's Tumansky R-11F2-300 at more than 13,000 lb thrust and a maximum speed of 1,300 mph, while SAC's MiG-21F display gives similar Mach-2-class maximum-speed figures.",
             "refs": [
-              "fn-method"
+              "fn-nmusaf-mig21pf",
+              "fn-sac-mig21f"
             ]
           },
           {
-            "text": "Mikoyan-Gurevich MiG-21 uses jet propulsion. Engine model field: Not listed.",
+            "text": "Avionics and weapons varied sharply by model. The MiG-21F-13 was a day fighter with simple fire-control equipment, the PF added RP-21 radar for all-weather missile interception, and late modernizations such as MiG-21 2000 added Western-style displays, INS/GPS, helmet-cueing options, improved electronic warfare, and possible pulse-Doppler radar integration.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-rafmuseum-mig21pf",
+              "fn-airforce-technology-mig21-2000"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "1"
+            "text": "1 in fighters; 2 in trainer variants"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Engine",
+            "text": "Single Tumansky afterburning turbojet family"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Radar",
+            "text": "None or limited in early F/F-13; RP-21 class in PF/PFM; modernized radars in upgrade programs"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Armament",
+            "text": "Guns, K-13/Atoll and other air-to-air missiles, rockets, bombs, and pods depending on variant"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-21 status: Active/retired by operator. Conflict entries: 1.",
+            "text": "Representative MiG-21PF technical notes from the National Museum of the U.S. Air Force list one Tumansky R-11F2-300 engine with more than 13,000 lb thrust, a maximum speed of 1,300 mph, range of 870 miles or 1,110 miles with an auxiliary tank, and a ceiling of 62,000 ft. These are PF museum figures and should not be applied mechanically to every MiG-21 variant.",
             "refs": [
-              "fn-main"
+              "fn-nmusaf-mig21pf",
+              "fn-method"
             ]
           },
           {
-            "text": "Conflicts: Vietnam War.",
+            "text": "The Smithsonian MiG-21F-13 object is a single-seat, single-engine fighter and records dimensions of about 40 ft 8 in length without the nose boom, 26 ft 10 in wingspan, and 14 ft 9 in height, with object weight listed near 9,900 lb. SAC's MiG-21F display gives a 51 ft 8 in length including probe, 23 ft 6 in wingspan, 12 ft height, and maximum takeoff weight of 16,700 lb, illustrating how museum measurement conventions and variants differ.",
             "refs": [
+              "fn-smithsonian-mig21f13",
+              "fn-sac-mig21f",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Armament ranged from early cannon-and-missile arrangements to PF aircraft carrying two K-5 Alkali radar-guided or K-13 Atoll heat-seeking missiles and later multirole versions carrying additional air-to-air missiles, rockets, bombs, and external fuel tanks. Many later upgrade packages added modern weapon interfaces rather than changing the basic small-airframe payload limits.",
+            "refs": [
+              "fn-nmusaf-mig21pf",
+              "fn-airforce-technology-mig21-2000",
               "fn-method"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Vietnam War: Mikoyan-Gurevich MiG-21 used in Vietnam War.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Mikoyan-Gurevich MiG-21 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Representative PF maximum speed",
+            "text": "1,300 mph"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Representative PF range",
+            "text": "870 miles; 1,110 miles with auxiliary tank"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Representative PF ceiling",
+            "text": "62,000 ft"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "F-13 display dimensions",
+            "text": "About 40 ft 8 in length without boom; 26 ft 10 in span; 14 ft 9 in height"
           }
         ]
       },
@@ -34827,34 +34990,56 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-21 variant-family entries: 3. Variant families: Mikoyan-Gurevich MiG-21 baseline production model; Mikoyan-Gurevich MiG-21 upgraded avionics or weapons-capable model; Mikoyan-Gurevich MiG-21 export or locally modernized model.",
+            "text": "MiG-21 variant names are complex because production, export standards, local license manufacture, and Western NATO reporting names do not map one-to-one. The list below summarizes major families rather than every subvariant, national designation, or field modification.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-method",
+              "fn-smithsonian-mig21f13"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Mikoyan-Gurevich MiG-21 baseline production model",
+            "text": "MiG-21F / MiG-21F-13: early day-fighter and interceptor models; the F-13 became the first important production/export standard with K-13 missile compatibility.",
+            "refs": [
+              "fn-smithsonian-mig21f13"
+            ]
+          },
+          {
+            "text": "MiG-21P / PF / PFM / PFS: radar-equipped all-weather interceptor families with revised nose/intake systems and, in some early PF aircraft, missile-only armament without an internal gun.",
+            "refs": [
+              "fn-rafmuseum-mig21pf",
+              "fn-nmusaf-mig21pf"
+            ]
+          },
+          {
+            "text": "MiG-21R: reconnaissance versions carrying sensor pods or specialized equipment for tactical reconnaissance tasks.",
+            "refs": [
+              "fn-smithsonian-mig21f13"
+            ]
+          },
+          {
+            "text": "MiG-21S / M / MF / SMT / bis: later fighter and fighter-bomber families with stronger engines, better avionics, more fuel or stores options, and broader export use.",
+            "refs": [
+              "fn-smithsonian-mig21f13",
+              "fn-airforce-technology-mig21-2000"
+            ]
+          },
+          {
+            "text": "MiG-21U / UM trainers: two-seat conversion trainers used by Soviet and export operators to support large MiG-21 fleets.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Mikoyan-Gurevich MiG-21 upgraded avionics or weapons-capable model",
+            "text": "MiG-21 2000, MiG-21-93, and national upgrades: late-life modernization packages adding new cockpit displays, navigation, radar, electronic warfare, and weapons interfaces to existing airframes.",
             "refs": [
-              "fn-main"
+              "fn-airforce-technology-mig21-2000"
             ]
           },
           {
-            "text": "Mikoyan-Gurevich MiG-21 export or locally modernized model",
+            "text": "License-built and derivative aircraft: Indian and Czechoslovak production supported local fleets; China's Chengdu J-7/F-7 family was derived from the MiG-21 but developed along a separate path.",
             "refs": [
+              "fn-smithsonian-mig21f13",
               "fn-main"
             ]
           }
@@ -34865,13 +35050,14 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Soviet Union. Mikoyan-Gurevich MiG-21 has 1 designer or builder country entry.",
+            "text": "The MiG-21 became a standard Soviet and Warsaw Pact fighter and a major export aircraft for Soviet-aligned or non-aligned air forces. The National Museum of the U.S. Air Force says more than 50 countries used various versions, while the Smithsonian emphasizes more than three dozen nations operating the principal Soviet types.",
             "refs": [
-              "fn-wikidata"
+              "fn-nmusaf-mig21pf",
+              "fn-smithsonian-mig21f13"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Operator status is date-sensitive: many countries retired the MiG-21 after replacing it with newer fighters, while others kept upgraded aircraft in service for training, air defense, or secondary strike roles well into the 21st century. This page avoids exact current-inventory counts unless a specific national source is checked.",
             "refs": [
               "fn-method"
             ]
@@ -34879,45 +35065,115 @@
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Soviet Union: principal original operator across Frontal Aviation and air-defense forces.",
             "refs": [
-              "fn-main"
+              "fn-smithsonian-mig21f13"
             ]
           },
           {
-            "text": "Major designer or builder entries: Soviet Union.",
+            "text": "India: one of the largest users and a major license-production operator of MiG-21FL, MiG-21M, and MiG-21bis families.",
             "refs": [
-              "fn-wikidata"
+              "fn-smithsonian-mig21f13"
+            ]
+          },
+          {
+            "text": "Vietnam / North Vietnam: combat operator in the Vietnam War, including the 921st Fighter Regiment represented by the NMUSAF MiG-21PF paint scheme.",
+            "refs": [
+              "fn-nmusaf-mig21pf"
+            ]
+          },
+          {
+            "text": "Arab-state users: Egypt, Syria, Iraq, and others operated MiG-21s in Arab-Israeli and regional wars; exact claims and loss totals vary by source.",
+            "refs": [
+              "fn-smithsonian-mig21f13",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Warsaw Pact and other export users: examples included Poland, Czechoslovakia, Bulgaria, East Germany, Romania, Yugoslavia, Cuba, Finland, and many African and Asian air arms.",
+            "refs": [
+              "fn-nmusaf-mig21pf",
+              "fn-main"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "service",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Supersonic, first flight 1955, introduction 1959.",
+            "text": "The MiG-21 saw combat almost immediately after major export deliveries. Smithsonian notes service in the Six-Day War, the 1973 Yom Kippur War, the 1971 India-Pakistan War, and Vietnam; RAF Museum also lists Vietnam, the Arab-Israeli wars, the Iran-Iraq War, Afghanistan, and Desert Storm among conflicts involving MiG-21s.",
             "refs": [
-              "fn-main"
+              "fn-smithsonian-mig21f13",
+              "fn-rafmuseum-mig21pf"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "In Vietnam, the MiG-21's small size, speed, climb, and agility made it a serious threat to U.S. strike packages, especially in coordinated ground-controlled interception. NMUSAF notes that North Vietnam had more than 200 MiG-21s and that U.S. forces lost about 50 aircraft to North Vietnamese MiG-21s while the U.S. Air Force shot down 68 MiG-21s in air combat; claims from multi-service or opposing sources can differ.",
             "refs": [
+              "fn-nmusaf-mig21pf",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Over time, MiG-21s shifted from front-line Soviet service to export air defense, local modernization, training, and secondary attack tasks. The aircraft's long service life was enabled by rugged construction, large spares pools, and upgrade programs, but constrained by limited range, cockpit ergonomics, small radar aperture, and the difficulty of integrating modern sensors into a compact 1950s airframe.",
+            "refs": [
+              "fn-smithsonian-mig21f13",
+              "fn-airforce-technology-mig21-2000",
               "fn-method"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
         "paragraphs": [
           {
-            "text": "Mikoyan-Gurevich MiG-21 similar-development links: 4.",
+            "text": "Strengths included high speed, rapid climb, small visual signature, low operating cost relative to heavier fighters, and the ability to disperse large numbers across allied air forces. Its simple systems made it attractive to operators that needed a supersonic interceptor more than a long-range multirole fighter.",
             "refs": [
+              "fn-smithsonian-mig21f13",
+              "fn-nmusaf-mig21pf"
+            ]
+          },
+          {
+            "text": "Limitations were equally important: short endurance, modest payload, poor rearward cockpit visibility, limited early radar and navigation equipment, and weapons constraints on early missile-only or simple day-fighter models. Later upgrades reduced some avionics and weapons shortcomings but could not fully change the aircraft's size, fuel, and growth-margin limits.",
+            "refs": [
+              "fn-smithsonian-mig21f13",
+              "fn-airforce-technology-mig21-2000",
               "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Best at",
+            "text": "Point-defense interception, fast slashing attacks, and affordable supersonic air defense"
+          },
+          {
+            "title": "Weakest at",
+            "text": "Long-range patrol, heavy strike loads, large radar/sensor fits, and sustained beyond-visual-range growth"
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Compared with the F-4 Phantom II, the MiG-21 was smaller, simpler, cheaper, and often more agile in close combat, but it carried less fuel, fewer weapons, a smaller radar, and only one pilot. The F-4 offered greater range, payload, radar volume, and two-crew workload sharing, while the MiG-21 emphasized point-defense speed and numbers.",
+            "refs": [
+              "fn-nmusaf-mig21pf",
+              "fn-smithsonian-mig21f13",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Compared with earlier MiG-15, MiG-17, and MiG-19 fighters, the MiG-21 represented the mature Soviet move into Mach-2-class interception. Compared with later MiG-23 and fourth-generation fighters, it lacked variable-geometry range, large radar growth, and modern avionics capacity, but remained useful to many operators because it was familiar, numerous, and upgradeable.",
+            "refs": [
+              "fn-smithsonian-mig21f13",
+              "fn-airforce-technology-mig21-2000"
             ]
           }
         ],
@@ -34927,25 +35183,106 @@
             "url": "aircraft.html?id=f-4-phantom-ii"
           },
           {
-            "label": "Northrop F-5",
-            "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
+            "label": "Mikoyan-Gurevich MiG-19",
+            "url": "aircraft.html?id=mig-19"
           },
           {
-            "label": "Vought F-8 Crusader",
-            "url": "aircraft.html?id=f-8-crusader"
+            "label": "Mikoyan-Gurevich MiG-23",
+            "url": "aircraft.html?id=mig-23"
           },
           {
-            "label": "Grumman F-14 Tomcat",
-            "url": "aircraft.html?id=f-14-tomcat"
+            "label": "Sukhoi Su-7",
+            "url": "aircraft.html?id=su-7"
           }
         ]
-      }
-    ],
-    "event_gallery": [
+      },
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg/960px-U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg",
-        "caption": "Vietnam War",
-        "source_url": "https://en.wikipedia.org/wiki/Vietnam_War"
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1955-1956: MiG-21 prototype/testing period begins; sources differ on whether the key date is the first prototype flight or broader testing start.",
+            "refs": [
+              "fn-sac-mig21f",
+              "fn-smithsonian-mig21f13",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "1959-1960: early MiG-21F/F-13 aircraft enter Soviet service and begin defining the Fishbed family.",
+            "refs": [
+              "fn-smithsonian-mig21f13"
+            ]
+          },
+          {
+            "text": "1962-1964: MiG-21PF production brings radar-equipped all-weather interception to an important early family.",
+            "refs": [
+              "fn-rafmuseum-mig21pf"
+            ]
+          },
+          {
+            "text": "1960s-1970s: heavy combat use in Vietnam, Arab-Israeli wars, and South Asian conflicts demonstrates both the MiG-21's value and its limitations.",
+            "refs": [
+              "fn-nmusaf-mig21pf",
+              "fn-smithsonian-mig21f13"
+            ]
+          },
+          {
+            "text": "1985: NMUSAF notes Soviet MiG-21 production ended after more than 10,000 Soviet-built aircraft.",
+            "refs": [
+              "fn-nmusaf-mig21pf"
+            ]
+          },
+          {
+            "text": "1990s-2000s: upgrade programs such as MiG-21 2000 seek to extend service with modern cockpit, navigation, electronic-warfare, and weapons systems.",
+            "refs": [
+              "fn-airforce-technology-mig21-2000"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-related",
+        "title": "Sources and Related Pages",
+        "paragraphs": [
+          {
+            "text": "Principal sources for this entry are official or museum pages from the National Museum of the U.S. Air Force, Smithsonian National Air and Space Museum, Royal Air Force Museum, and Strategic Air Command & Aerospace Museum, supplemented by Airforce Technology for late modernization context. Wikipedia was retained only as a broad orientation and image/reference-discovery source.",
+            "refs": [
+              "fn-nmusaf-mig21pf",
+              "fn-smithsonian-mig21f13",
+              "fn-rafmuseum-mig21pf",
+              "fn-sac-mig21f",
+              "fn-airforce-technology-mig21-2000",
+              "fn-main"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Mikoyan-Gurevich MiG-15",
+            "url": "aircraft.html?id=mig-15"
+          },
+          {
+            "label": "Mikoyan-Gurevich MiG-17",
+            "url": "aircraft.html?id=mig-17"
+          },
+          {
+            "label": "Mikoyan-Gurevich MiG-19",
+            "url": "aircraft.html?id=mig-19"
+          },
+          {
+            "label": "Mikoyan-Gurevich MiG-23",
+            "url": "aircraft.html?id=mig-23"
+          },
+          {
+            "label": "McDonnell Douglas F-4 Phantom II",
+            "url": "aircraft.html?id=f-4-phantom-ii"
+          },
+          {
+            "label": "Return to aircraft database",
+            "url": "aircraft.html"
+          }
+        ]
       }
     ]
   },
