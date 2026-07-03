@@ -5003,3 +5003,78 @@ Record the result of:
 
 * Exact current fleet counts, live base assignments, missile inventories, and combat-use claims are date-sensitive; this run used cautious wording and omitted unsupported fine detail.
 * Airforce Technology lists differing Tu-95MS and broader Tu-95-family performance figures; the page records both as representative variant-specific public values rather than a single universal number.
+
+### Run 66 — 2026-07-03 08:02:01 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Yakovlev Yak-38 (id: yak-38)
+* Reason selected: The Yak-38 entry was one of the shortest unedited aircraft pages, with no variants, no operators, sparse generated paragraphs, placeholder specifications such as range and service ceiling marked "Not listed", generic armament wording, and only generated source labels despite being much less complete than the F-16 reference page.
+* Previous condition: Placeholder-like generated entry with 15 exact fact fields, 0 operator entries, 0 variant entries, broad subsonic/jet placeholders, missing detailed VTOL powerplant explanation, missing Kiev-class shipboard context, missing useful specifications, and no careful treatment of the conflicting combat-use/deployment statements in public sources.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense quick overview/fact-card style; section order covering overview, development, design, specifications, variants, operators, operational history, strengths/limitations, comparison, timeline, sources, and related pages; concise sourced paragraphs; cautious public-source caveats; internal aircraft links using aircraft.html?id=...
+
+#### Changes Made
+
+* Expanded the Yak-38 data-driven aircraft page from a generated placeholder into a fuller Milipedia article record.
+* Added top-level facts for NATO reporting name, Yak-36M/Forger alternative names, retirement period, production total, three-engine VTOL propulsion, representative speed, range, service ceiling, climb rate, hardpoints, and maximum payload.
+* Replaced generic weapon text with cautious Yak-38-specific external-store wording and noted that exact weapons fits varied by aircraft, mission, and source.
+* Added reliable source coverage from Vertical Flight Society Vertipedia and Aerospaceweb, keeping Wikipedia/Wikidata only as supplementary orientation/identifier sources.
+* Added and expanded article sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Comparison, Timeline, and Related Pages.
+* Added variant entries for Yak-36M, Yak-38 Forger-A, Yak-38U Forger-B, and Yak-38M.
+* Added operator entries for Soviet Naval Aviation and inherited Russian Naval Aviation use.
+* Added Kiev-class carrier context, July 1976 Western public appearance, production-end and retirement timing, and careful treatment of the Afghanistan/combat-use source conflict.
+* Updated related/internal links to Harrier, A-4 Skyhawk, A-7 Corsair II, and F-35 Lightning II, all present in the aircraft database.
+* Omitted unsupported exact combat radius, detailed Yak-38M equipment changes, and universal weapon loadout claims where sources were inconsistent or too general.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded the Yakovlev Yak-38 entry, sources, variants, operators, specifications, article sections, and related links.
+* hermes-change-log.md — Appended the cumulative Run 66 record.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were modified and intended for staging.
+2. git diff — Reviewed the aircraft JSON diff and confirmed the substantive content change is limited to the Yak-38 entry plus this log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool and reviewed the Yak-38 top-level facts, section list, variants, operators, sources, and cautious uncertainty wording.
+4. F-16 style comparison — Inspected data/f16-template.html and matched its dense overview, technical specification emphasis, section order, sourced prose, comparison/timeline coverage, and internal related-link style within the JSON renderer.
+5. Internal link check — Parsed data/aircraft.json and verified all internal aircraft.html?id=... links in the Yak-38 entry target existing aircraft IDs.
+6. Secret/token check — Scanned the staged diff with credential-specific patterns for keys, private credentials, passwords, and auth/access tokens; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, exactly one aircraft entry changed, diff formatting, intended staged files only, and a complete Run 66 change-log entry.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Yakovlev Yak-38
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Aerospaceweb lists Afghanistan War use in 1980, while Vertipedia states the Yak-38 was never used in combat; the page records this as a deployment/trial association requiring cautious interpretation rather than confirmed combat employment.
+* Some public sources list first flight as 1971 and others summarize early testing as 1972; the page uses 1971 prototype flight with a note about the discrepancy.
+* Detailed Yak-38M configuration changes and exact combat radius were omitted because the accessible sources were not precise enough for a safe one-run update.

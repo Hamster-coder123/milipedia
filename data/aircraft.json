@@ -44853,34 +44853,69 @@
   {
     "id": "yak-38",
     "name": "Yakovlev Yak-38",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "alternative_names": [
+      "Yak-36M",
+      "Forger"
+    ],
+    "nato_reporting_name": "Forger",
     "country_of_origin": "Soviet Union",
     "manufacturer": "Yakovlev",
     "role": "Carrier-based VTOL attack aircraft",
-    "aircraft_type": "Attack aircraft",
+    "aircraft_type": "VTOL attack aircraft",
     "era": "Cold War",
-    "first_flight": "1971",
+    "first_flight": "1971 prototype flight; some summaries list 1972 for early testing",
     "introduction_date": "1976",
-    "retirement_date": "Not listed",
+    "retirement_date": "1992-1993 front-line retirement; limited training use briefly afterward",
     "status": "Retired",
-    "number_built": "Not listed",
-    "crew": "1",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "number_built": "231 built according to Vertipedia; other references round to about 230",
+    "crew": "1; Yak-38U trainer: 2",
+    "engine_type": "One cruise/lift turbojet plus two lift jets",
+    "engines": "One Soyuz/Tumansky R-27V-300 main turbojet and two Rybinsk RD-36-35FVR/RD38 lift jets",
+    "max_speed": "About 655 mph at altitude; Aerospaceweb lists 700 mph at sea level",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Yakovlev Yak-38: Carrier-based VTOL attack aircraft. Manufacturer: Yakovlev. First flight: 1971. Introduction: 1976.",
-    "short_summary": "Yakovlev Yak-38: Carrier-based VTOL attack aircraft. Origin: Soviet Union. Manufacturer: Yakovlev. First flight: 1971. Introduction: 1976. Status: Retired.",
+    "range": "Typical range about 270 nmi / 500 km; ferry range about 370 nmi / 670 km",
+    "combat_range": "Short-range carrier attack profile; public sources generally treat radius as highly payload- and takeoff-mode-dependent",
+    "service_ceiling": "About 39,370 ft / 12,000 m",
+    "rate_of_climb": "About 14,765 ft/min / 4,500 m/min",
+    "armament": "Four external hardpoints for bombs, rockets, gun pods, and short-range air-to-air missiles; no fixed internal cannon listed in the cited sources",
+    "hardpoints": "Four external hardpoints; maximum payload about 4,410 lb / 2,000 kg",
+    "variants": [
+      {
+        "name": "Yak-36M",
+        "description": "Prototype and pre-service designation for the operational V/STOL naval attack aircraft that became the Yak-38.",
+        "role": "Prototype / development aircraft"
+      },
+      {
+        "name": "Yak-38 Forger-A",
+        "description": "Single-seat production aircraft operated by Soviet Naval Aviation from Kiev-class aviation cruisers.",
+        "role": "Carrier-based VTOL attack and fleet-support aircraft"
+      },
+      {
+        "name": "Yak-38U Forger-B",
+        "description": "Two-seat trainer used for conversion and proficiency training. Vertipedia notes one or two trainers in a normal Kiev-class air group.",
+        "role": "Operational conversion trainer"
+      },
+      {
+        "name": "Yak-38M",
+        "description": "Late production improved model associated with uprated lift engines and operational refinements; published performance and equipment details vary by source.",
+        "role": "Improved production attack aircraft"
+      }
+    ],
+    "operators": [
+      {
+        "country": "Soviet Union",
+        "service": "Soviet Naval Aviation",
+        "notes": "Original and principal operator; deployed Yak-38 aircraft aboard Kiev-class aviation cruisers."
+      },
+      {
+        "country": "Russia",
+        "service": "Russian Naval Aviation",
+        "notes": "Inherited remaining aircraft after the dissolution of the Soviet Union; front-line service ended in 1992-1993."
+      }
+    ],
+    "combat_history": "Vertipedia states the Yak-38 was never used in combat. Aerospaceweb lists Afghanistan War use in 1980, so the article treats this as trial/deployment history rather than confirmed combat employment.",
+    "development_history": "Yak-38 developed from Yakovlev V/STOL research into the Yak-36M/Yak-38 naval aircraft for Kiev-class aviation cruisers; it entered service in 1976 and was retired from front-line use in 1992-1993.",
+    "short_summary": "The Yakovlev Yak-38, NATO reporting name Forger, was the Soviet Union's first production VTOL combat aircraft and the only operational fixed-wing aircraft carried routinely by Kiev-class Soviet aviation cruisers.",
     "carrier_capable": true,
     "stealth": false,
     "images": [
@@ -44893,46 +44928,32 @@
     ],
     "sources": [
       {
+        "id": "fn-vfs",
+        "title": "Yakovlev Yak-38 Forger",
+        "url": "https://vertidev.vtol.org/aircraft/getAircraft/aircraftID/825",
+        "publisher": "Vertical Flight Society Vertipedia",
+        "note": "Used for VTOL configuration, powerplant layout, Kiev-class deployment, production total, retirement timing, and no-combat-use statement."
+      },
+      {
+        "id": "fn-aerospaceweb",
+        "title": "Yak-38 Forger - Aircraft Museum",
+        "url": "https://aerospaceweb.org/aircraft/fighter/yak38/",
+        "publisher": "Aerospaceweb.org",
+        "note": "Used for dimensions, weights, performance, armament examples, variants, and operator summary; older secondary source with some rounded values."
+      },
+      {
         "id": "fn-main",
         "title": "Yakovlev Yak-38",
         "url": "https://en.wikipedia.org/wiki/Yakovlev_Yak-38",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "note": "Supplementary orientation source for names and reference discovery, not the primary source for key specifications."
       },
       {
         "id": "fn-wikidata",
         "title": "Wikidata Query Service",
         "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
-      },
-      {
-        "id": "fn-method",
-        "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
-        "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.fas.org/man/dod-101/sys/ac/row/yak-38.htm",
-        "publisher": "fas.org",
-        "note": "External source for Yakovlev Yak-38."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.yak.ru/ENG/FIRM/HISTMOD/yak-38.php",
-        "publisher": "yak.ru",
-        "note": "External source for Yakovlev Yak-38."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://scalemodels.ru/modules/photo/viewcat_cid_170.html",
-        "publisher": "scalemodels.ru",
-        "note": "External source for Yakovlev Yak-38."
+        "publisher": "Wikidata",
+        "note": "Open structured-data source used for identifiers and relationship checks."
       }
     ],
     "country_flags": [
@@ -44949,16 +44970,17 @@
     ],
     "wars_used_in": [],
     "variant_families": [
-      "Yakovlev Yak-38 baseline production model",
-      "Yakovlev Yak-38 upgraded avionics or weapons-capable model",
-      "Yakovlev Yak-38 export or locally modernized model"
+      "Yak-36M prototype/pre-service aircraft",
+      "Yak-38 Forger-A single-seat production aircraft",
+      "Yak-38U Forger-B two-seat trainer",
+      "Yak-38M improved late-production aircraft"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "Soviet Union"
       ],
-      "major_user_note": "Yakovlev Yak-38 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Soviet Naval Aviation was the principal operator; Russian Naval Aviation inherited the remaining fleet.",
+      "all_operators_status": "Retired from front-line service in 1992-1993."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -44971,18 +44993,18 @@
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Yakovlev Yak-38 uses jet propulsion."
+      "type": "Vectored-thrust jet plus lift jets",
+      "summary": "The Yak-38 used one R-27V-300 main engine exhausting through swiveling side nozzles and two vertical lift jets behind the cockpit."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Four hardpoints could carry bombs, rocket pods, gun pods, and short-range air-to-air missiles such as K-13/AA-2 or AA-8-class missiles depending fit.",
+      "caution": "Exact weapons fits varied by aircraft, ship, mission, and source; the article avoids treating every listed store as universal."
     },
     "similar_development": [
       {
-        "id": "f-105-thunderchief",
-        "name": "Republic F-105 Thunderchief",
-        "url": "aircraft.html?id=f-105-thunderchief"
+        "id": "harrier",
+        "name": "Hawker Siddeley Harrier",
+        "url": "aircraft.html?id=harrier"
       },
       {
         "id": "a-4-skyhawk",
@@ -44990,87 +45012,66 @@
         "url": "aircraft.html?id=a-4-skyhawk"
       },
       {
-        "id": "a-6-intruder",
-        "name": "Grumman A-6 Intruder",
-        "url": "aircraft.html?id=a-6-intruder"
-      },
-      {
         "id": "a-7-corsair-ii",
         "name": "LTV A-7 Corsair II",
         "url": "aircraft.html?id=a-7-corsair-ii"
+      },
+      {
+        "id": "f-35-lightning-ii",
+        "name": "Lockheed Martin F-35 Lightning II",
+        "url": "aircraft.html?id=f-35-lightning-ii"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 41,
+      "operator_entries": 2,
+      "variant_entries": 4,
+      "external_article_sources": 4
     },
     "footnotes": [
+      {
+        "id": "fn-vfs",
+        "title": "Yakovlev Yak-38 Forger",
+        "url": "https://vertidev.vtol.org/aircraft/getAircraft/aircraftID/825",
+        "publisher": "Vertical Flight Society Vertipedia",
+        "note": "Used for VTOL configuration, powerplant layout, Kiev-class deployment, production total, retirement timing, and no-combat-use statement."
+      },
+      {
+        "id": "fn-aerospaceweb",
+        "title": "Yak-38 Forger - Aircraft Museum",
+        "url": "https://aerospaceweb.org/aircraft/fighter/yak38/",
+        "publisher": "Aerospaceweb.org",
+        "note": "Used for dimensions, weights, performance, armament examples, variants, and operator summary; older secondary source with some rounded values."
+      },
       {
         "id": "fn-main",
         "title": "Yakovlev Yak-38",
         "url": "https://en.wikipedia.org/wiki/Yakovlev_Yak-38",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "note": "Supplementary orientation source for names and reference discovery, not the primary source for key specifications."
       },
       {
         "id": "fn-wikidata",
         "title": "Wikidata Query Service",
         "url": "https://query.wikidata.org/",
         "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
-      },
-      {
-        "id": "fn-method",
-        "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
-        "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.fas.org/man/dod-101/sys/ac/row/yak-38.htm",
-        "publisher": "fas.org",
-        "note": "External source for Yakovlev Yak-38."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.yak.ru/ENG/FIRM/HISTMOD/yak-38.php",
-        "publisher": "yak.ru",
-        "note": "External source for Yakovlev Yak-38."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://scalemodels.ru/modules/photo/viewcat_cid_170.html",
-        "publisher": "scalemodels.ru",
-        "note": "External source for Yakovlev Yak-38."
+        "note": "Open structured-data source used for identifiers and relationship checks."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.fas.org/man/dod-101/sys/ac/row/yak-38.htm",
-        "publisher": "fas.org",
-        "note": "External source for Yakovlev Yak-38."
+        "id": "fn-vfs",
+        "title": "Yakovlev Yak-38 Forger",
+        "url": "https://vertidev.vtol.org/aircraft/getAircraft/aircraftID/825",
+        "publisher": "Vertical Flight Society Vertipedia",
+        "note": "Used for VTOL configuration, powerplant layout, Kiev-class deployment, production total, retirement timing, and no-combat-use statement."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.yak.ru/ENG/FIRM/HISTMOD/yak-38.php",
-        "publisher": "yak.ru",
-        "note": "External source for Yakovlev Yak-38."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://scalemodels.ru/modules/photo/viewcat_cid_170.html",
-        "publisher": "scalemodels.ru",
-        "note": "External source for Yakovlev Yak-38."
+        "id": "fn-aerospaceweb",
+        "title": "Yak-38 Forger - Aircraft Museum",
+        "url": "https://aerospaceweb.org/aircraft/fighter/yak38/",
+        "publisher": "Aerospaceweb.org",
+        "note": "Used for dimensions, weights, performance, armament examples, variants, and operator summary; older secondary source with some rounded values."
       }
     ],
     "article_sections": [
@@ -45079,21 +45080,24 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Yakovlev Yak-38 is a Carrier-based VTOL attack aircraft from Soviet Union. Manufacturer: Yakovlev. First flight: 1971. Introduction: 1976. Status: Retired.",
+            "text": "The Yakovlev Yak-38, NATO reporting name Forger, was a Soviet carrier-based vertical/short takeoff and landing attack aircraft. It was developed from Yakovlev V/STOL research as the Yak-36M and became the Soviet Union's first production vertical-takeoff combat aircraft.",
             "refs": [
-              "fn-main"
+              "fn-vfs",
+              "fn-aerospaceweb"
             ]
           },
           {
-            "text": "Yakovlev Yak-38 is a attack aircraft. Primary role: carrier-based vtol attack aircraft. Country of origin: Soviet Union. Manufacturer: Yakovlev.",
+            "text": "The aircraft served from Kiev-class aviation cruisers rather than from catapult-equipped fleet carriers. Its compact airframe, folding-wing shipboard operation, and three-engine lift/propulsion system gave Soviet Naval Aviation a fixed-wing option at sea, but range and payload were limited compared with conventional carrier strike aircraft.",
             "refs": [
-              "fn-wikidata"
+              "fn-vfs",
+              "fn-aerospaceweb"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Public sources agree that the Yak-38 was retired from front-line service in the early 1990s. Vertipedia lists 231 aircraft built by the end of production in 1988, while Aerospaceweb rounds the total to about 230.",
             "refs": [
-              "fn-method"
+              "fn-vfs",
+              "fn-aerospaceweb"
             ]
           }
         ],
@@ -45103,41 +45107,59 @@
             "text": "Carrier-based VTOL attack aircraft"
           },
           {
-            "title": "Designer or builder",
-            "text": "Yakovlev"
+            "title": "NATO reporting name",
+            "text": "Forger"
           },
           {
-            "title": "Major origin",
-            "text": "Soviet Union"
+            "title": "Shipboard base",
+            "text": "Kiev-class Soviet aviation cruisers"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Production total",
+            "text": "231 / about 230, depending source"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Yakovlev Yak-38 first flew in 1971. Introduction date: 1976. Era: Cold War.",
+            "text": "Yakovlev developed the Yak-38 from the experimental Yak-36 V/STOL research line. Western sources originally associated the design with the Yak-36M or Yak-36MP designation before the operational Yak-38 name became standard.",
             "refs": [
-              "fn-main"
+              "fn-aerospaceweb"
             ]
           },
           {
-            "text": "Producer: Yakovlev. Development context: carrier-based vtol attack aircraft, jet propulsion, subsonic speed category, Cold War era.",
+            "text": "Vertipedia records the first prototype flight in 1971 and states that the type first appeared to Western observers in July 1976 when the aircraft carrier Kiev deployed through the Mediterranean with a developmental squadron of Forger-As.",
             "refs": [
-              "fn-wikidata"
+              "fn-vfs"
+            ]
+          },
+          {
+            "text": "The Yak-38 was intended to give Soviet Naval Aviation a sea-based fixed-wing attack, reconnaissance, and fleet-support capability from ships smaller than Western catapult carriers. It was expected to be superseded by the more advanced Yak-141, but that program was not fielded operationally after Soviet funding collapsed.",
+            "refs": [
+              "fn-aerospaceweb"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Carrier compatibility added structural, landing gear, corrosion, and low-speed handling requirements.",
+            "text": "Prototype and pre-service designation: Yak-36M / Yak-36MP in several Western summaries.",
             "refs": [
-              "fn-method"
+              "fn-aerospaceweb"
+            ]
+          },
+          {
+            "text": "Service entry: 1976, with public Western visibility during Kiev deployments.",
+            "refs": [
+              "fn-vfs"
+            ]
+          },
+          {
+            "text": "Production ended in 1988 according to Vertipedia.",
+            "refs": [
+              "fn-vfs"
             ]
           }
         ]
@@ -45147,107 +45169,103 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Subsonic.",
+            "text": "The Yak-38 used a hybrid VTOL arrangement: one main R-27V-300 turbojet exhausted through two hydraulically actuated swiveling nozzles on the fuselage sides, while two dedicated lift jets sat behind the cockpit for vertical flight.",
             "refs": [
-              "fn-main"
+              "fn-vfs"
             ]
           },
           {
-            "text": "Carrier capable: yes. Stealth: no.",
+            "text": "This configuration let the aircraft operate vertically from a carrier deck, but the lift jets were dead weight in wing-borne flight. That compromise helped explain the type's short range, modest payload, and dependence on mission profile and takeoff mode.",
             "refs": [
-              "fn-method"
+              "fn-vfs",
+              "fn-aerospaceweb"
             ]
           },
           {
-            "text": "Yakovlev Yak-38 uses jet propulsion. Engine model field: Not listed.",
+            "text": "Aerospaceweb lists four external hardpoints and a maximum payload of about 4,410 lb / 2,000 kg. Stores included bombs, rocket pods, gun pods, and short-range air-to-air missiles, but the article treats these as representative fits rather than a universal loadout.",
             "refs": [
-              "fn-main"
+              "fn-aerospaceweb"
             ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Main propulsion",
+            "text": "One R-27V-300 turbojet with swiveling side nozzles"
           },
           {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
+            "title": "Lift system",
+            "text": "Two RD-36-35FVR/RD38-class lift jets behind the cockpit"
+          },
+          {
+            "title": "Hardpoints",
+            "text": "Four external stations"
+          },
+          {
+            "title": "Carrier suitability",
+            "text": "Designed for Kiev-class through-deck aviation cruisers"
+          }
+        ]
+      },
+      {
+        "id": "specifications",
+        "title": "Specifications",
+        "paragraphs": [
+          {
+            "text": "Representative specifications below use Aerospaceweb figures unless noted. Values should be read as baseline public-source data, because Yak-38M, Yak-38U, vertical takeoff, rolling takeoff, and payload conditions could change practical performance.",
             "refs": [
-              "fn-main"
+              "fn-aerospaceweb"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "1"
+            "text": "1 pilot; Yak-38U trainer carried 2"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Length",
+            "text": "50.81 ft / 15.5 m"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Wingspan",
+            "text": "24.00 ft / 7.32 m"
           },
           {
-            "title": "Carrier capable",
-            "text": "Yes"
+            "title": "Height",
+            "text": "14.42 ft / 4.40 m"
           },
           {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Yakovlev Yak-38 status: Retired. Conflict entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Empty weight",
+            "text": "16,500 lb / 7,485 kg"
           },
           {
-            "text": "Conflicts: 0 entries.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Yakovlev Yak-38 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum takeoff weight",
+            "text": "25,795 lb / 11,700 kg"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum payload",
+            "text": "4,410 lb / 2,000 kg"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum speed",
+            "text": "655 mph at altitude; Aerospaceweb lists 700 mph at sea level"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Range",
+            "text": "Typical 270 nmi / 500 km; ferry 370 nmi / 670 km"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "39,370 ft / 12,000 m"
+          },
+          {
+            "title": "Initial climb",
+            "text": "14,765 ft/min / 4,500 m/min"
+          },
+          {
+            "title": "Armament stations",
+            "text": "Four hardpoints for bombs, rockets, gun pods, and short-range missiles"
           }
         ]
       },
@@ -45256,35 +45274,36 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Yakovlev Yak-38 variant-family entries: 3. Variant families: Yakovlev Yak-38 baseline production model; Yakovlev Yak-38 upgraded avionics or weapons-capable model; Yakovlev Yak-38 export or locally modernized model.",
+            "text": "The Yak-38 family was small compared with longer-lived Soviet tactical aircraft families, but it included development aircraft, a single-seat operational model, a two-seat trainer, and an improved late-production standard.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-aerospaceweb",
+              "fn-vfs"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Yakovlev Yak-38 baseline production model",
+            "text": "Yak-36 / Yak-36M: V/STOL research and prototype lineage that led to the operational aircraft.",
             "refs": [
-              "fn-main"
+              "fn-aerospaceweb"
             ]
           },
           {
-            "text": "Yakovlev Yak-38 upgraded avionics or weapons-capable model",
+            "text": "Yak-38 Forger-A: single-seat production model carried aboard Kiev-class ships.",
             "refs": [
-              "fn-main"
+              "fn-vfs"
             ]
           },
           {
-            "text": "Yakovlev Yak-38 export or locally modernized model",
+            "text": "Yak-38U Forger-B: two-seat trainer; Vertipedia notes a normal Kiev-class complement often included one or two trainers.",
             "refs": [
-              "fn-main"
+              "fn-vfs"
+            ]
+          },
+          {
+            "text": "Yak-38M: improved late-production model; public summaries differ on detailed equipment and performance changes.",
+            "refs": [
+              "fn-aerospaceweb"
             ]
           }
         ]
@@ -45294,78 +45313,220 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Soviet Union. Yakovlev Yak-38 has 1 designer or builder country entry.",
+            "text": "Soviet Naval Aviation was the original and principal operator. The aircraft was associated with Kiev-class aviation cruisers, whose normal fixed-wing complement is described by Vertipedia as about a dozen single-seat Forger-As plus one or two Yak-38U trainers.",
             "refs": [
-              "fn-wikidata"
+              "fn-vfs"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Russian Naval Aviation inherited the remaining aircraft after the Soviet breakup. Vertipedia states that the Forger was removed from front-line service in 1992-1993, with a few aircraft retained briefly for limited proficiency training.",
             "refs": [
-              "fn-method"
+              "fn-vfs"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Soviet Union: Soviet Naval Aviation, Kiev-class carrier air groups.",
             "refs": [
-              "fn-main"
+              "fn-vfs",
+              "fn-aerospaceweb"
             ]
           },
           {
-            "text": "Major designer or builder entries: Soviet Union.",
+            "text": "Russia: Russian Naval Aviation inherited residual aircraft and retired the type from front-line service.",
             "refs": [
-              "fn-wikidata"
+              "fn-vfs"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Subsonic, first flight 1971, introduction 1976.",
+            "text": "The Yak-38's operational history centered on shipboard service rather than large combat campaigns. It supplied Soviet through-deck aviation cruisers with a fixed-wing aircraft for fleet defense against shadowing patrol aircraft, reconnaissance, and anti-ship or light-attack tasks.",
             "refs": [
-              "fn-main"
+              "fn-vfs"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Vertipedia states that the type was never used in combat. Aerospaceweb lists Afghanistan War use in 1980, so this update records Afghanistan as a deployment/trial association requiring cautious interpretation rather than a confirmed combat record.",
             "refs": [
-              "fn-method"
+              "fn-vfs",
+              "fn-aerospaceweb"
+            ]
+          },
+          {
+            "text": "By the early 1990s, the retirement of Kiev-class carrier operations and the cancellation or non-fielding of the Yak-141 successor left the Yak-38 without a continuing front-line role.",
+            "refs": [
+              "fn-aerospaceweb",
+              "fn-vfs"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Western public debut",
+            "text": "Kiev Mediterranean deployment, July 1976"
+          },
+          {
+            "title": "Typical ship air group",
+            "text": "About 12 Forger-As plus 1-2 Yak-38U trainers"
+          },
+          {
+            "title": "Front-line retirement",
+            "text": "1992-1993"
+          },
+          {
+            "title": "Combat-use caveat",
+            "text": "No confirmed combat use in Vertipedia; Afghanistan listing treated cautiously"
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The Yak-38's major strength was availability: it gave the Soviet Navy an operational fixed-wing V/STOL aircraft years before a conventional Soviet carrier fighter reached service. It also provided operational experience in deck handling, vertical-jet procedures, and naval aviation logistics.",
+            "refs": [
+              "fn-vfs",
+              "fn-aerospaceweb"
+            ]
+          },
+          {
+            "text": "Its limitations were substantial. Dedicated lift engines reduced useful fuel and payload in forward flight, and published range figures were short. The design was also unpopular in some pilot accounts and was already targeted for replacement by the Yak-141 before the end of the Cold War.",
+            "refs": [
+              "fn-aerospaceweb"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: first Soviet production VTOL combat aircraft and practical Kiev-class fixed-wing complement.",
+            "refs": [
+              "fn-aerospaceweb"
+            ]
+          },
+          {
+            "text": "Limitation: short range and payload compared with conventional carrier attack aircraft.",
+            "refs": [
+              "fn-aerospaceweb"
+            ]
+          },
+          {
+            "text": "Limitation: two lift jets provided vertical thrust but became carried weight in conventional flight.",
+            "refs": [
+              "fn-vfs"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "comparison",
+        "title": "Comparison",
         "paragraphs": [
           {
-            "text": "Yakovlev Yak-38 similar-development links: 4.",
+            "text": "The Yak-38 is often compared with the Hawker Siddeley Harrier because both were operational V/STOL combat aircraft. The designs solved vertical flight differently: the Harrier used one Pegasus vectored-thrust turbofan, while the Yak-38 combined a main vectored-thrust engine with separate lift jets.",
             "refs": [
-              "fn-method"
+              "fn-vfs"
+            ]
+          },
+          {
+            "text": "Within Milipedia, compare the Yak-38 with the Harrier for first-generation VTOL operations, with the A-4 and A-7 for compact carrier attack aircraft, and with the F-35B as a much later STOVL strike-fighter concept.",
+            "refs": [
+              "fn-vfs",
+              "fn-aerospaceweb"
             ]
           }
         ],
         "links": [
           {
-            "label": "Republic F-105 Thunderchief",
-            "url": "aircraft.html?id=f-105-thunderchief"
+            "label": "Hawker Siddeley Harrier",
+            "url": "aircraft.html?id=harrier"
           },
           {
             "label": "Douglas A-4 Skyhawk",
             "url": "aircraft.html?id=a-4-skyhawk"
           },
           {
-            "label": "Grumman A-6 Intruder",
-            "url": "aircraft.html?id=a-6-intruder"
+            "label": "LTV A-7 Corsair II",
+            "url": "aircraft.html?id=a-7-corsair-ii"
+          },
+          {
+            "label": "Lockheed Martin F-35 Lightning II",
+            "url": "aircraft.html?id=f-35-lightning-ii"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "1971: Vertipedia records first flight of the Yak-36M/Yak-38 prototype. 1976: the type entered service and appeared to Western observers during Kiev operations. 1988: production ended after about 231 aircraft. 1992-1993: front-line service ended.",
+            "refs": [
+              "fn-vfs",
+              "fn-aerospaceweb"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1971 - Prototype flight recorded by Vertipedia milestone data.",
+            "refs": [
+              "fn-vfs"
+            ]
+          },
+          {
+            "text": "1976 - Service entry and Mediterranean public exposure aboard Kiev.",
+            "refs": [
+              "fn-vfs"
+            ]
+          },
+          {
+            "text": "1988 - Production end listed by Vertipedia.",
+            "refs": [
+              "fn-vfs"
+            ]
+          },
+          {
+            "text": "1992-1993 - Removed from front-line naval service.",
+            "refs": [
+              "fn-vfs"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages emphasize VTOL/STOVL design choices and compact carrier attack aircraft rather than direct technological lineage.",
+            "refs": [
+              "fn-vfs"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Hawker Siddeley Harrier",
+            "url": "aircraft.html?id=harrier"
+          },
+          {
+            "label": "Douglas A-4 Skyhawk",
+            "url": "aircraft.html?id=a-4-skyhawk"
           },
           {
             "label": "LTV A-7 Corsair II",
             "url": "aircraft.html?id=a-7-corsair-ii"
+          },
+          {
+            "label": "Lockheed Martin F-35 Lightning II",
+            "url": "aircraft.html?id=f-35-lightning-ii"
           }
         ]
       }
