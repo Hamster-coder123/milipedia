@@ -53667,34 +53667,110 @@
   {
     "id": "mi-24",
     "name": "Mil Mi-24",
-    "alternative_names": [],
-    "nato_reporting_name": null,
+    "alternative_names": [
+      "Mi-24 Hind",
+      "Hind",
+      "Mi-25",
+      "Mi-35"
+    ],
+    "nato_reporting_name": "Hind",
     "country_of_origin": "Soviet Union",
-    "manufacturer": "Mil",
+    "manufacturer": "Mil Moscow Helicopter Plant",
     "role": "Attack/transport helicopter",
-    "aircraft_type": "Helicopter",
+    "aircraft_type": "Combat helicopter / armed assault helicopter",
     "era": "Cold War/Modern",
-    "first_flight": "1969",
-    "introduction_date": "1972",
+    "first_flight": "September 1969",
+    "introduction_date": "1972 (early Mi-24A family); later Mi-24D/V/P variants followed",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "2-3",
+    "status": "Active with multiple operators; retired by others",
+    "number_built": "More than 3,500 Mi-24/Mi-35-family helicopters reported by Airforce Technology",
+    "crew": "2 on later gunship variants; cabin for up to 8 troops depending mission",
     "engine_type": "Turboshaft",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engines": "Two TV3-117-family turboshaft engines",
+    "max_speed": "About 208 mph / 324 km/h depending variant and source",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Cannon, rockets, and guided missiles.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Mil Mi-24: Attack/transport helicopter. Manufacturer: Mil. First flight: 1969. Introduction: 1972.",
-    "short_summary": "Mil Mi-24: Attack/transport helicopter. Origin: Soviet Union. Manufacturer: Mil. First flight: 1969. Introduction: 1972. Status: Active.",
+    "range": "About 280 miles / 480 km representative flight range; ferry range up to about 1,050 km in Mi-24P/Mi-35 public data",
+    "combat_range": "Mission-dependent; affected by weapons, fuel, troop/cargo load, altitude, and temperature",
+    "service_ceiling": "About 14,750 ft / 4,599 m in representative public data",
+    "rate_of_climb": "Variant-dependent; not standardized across public sources used here",
+    "armament": "Variant-dependent 12.7 mm nose gun or 23/30 mm cannon, rockets, bombs, gun pods, and anti-tank guided missiles such as Falanga, Shturm, or Ataka.",
+    "hardpoints": "Stub-wing stations and wingtip missile rails vary by variant; public sources describe up to multiple rocket/gun/bomb/ATGM configurations.",
+    "variants": [
+      {
+        "name": "V-24",
+        "description": "Prototype/development aircraft for the Hind concept; ODIN notes one modified A-10 record aircraft derived from early Mi-24 work."
+      },
+      {
+        "name": "Mi-24 / Mi-24A",
+        "description": "Early Hind-A/B production family with greenhouse cockpit and troop-carrying armed assault role."
+      },
+      {
+        "name": "Mi-24D",
+        "description": "Redesigned Hind-D with tandem cockpits and flexible 12.7 mm Yak-B nose gun; a common museum and export reference variant."
+      },
+      {
+        "name": "Mi-24V",
+        "description": "Hind-E version associated with the Shturm anti-tank missile system and improved weapons capability."
+      },
+      {
+        "name": "Mi-24P",
+        "description": "Hind-F cannon-armed version with fixed 30 mm GSh-30-2K cannon."
+      },
+      {
+        "name": "Mi-25 / Mi-35",
+        "description": "Export and derivative designations, including modernized Mi-35M and Mi-35P variants with updated avionics and weapons by customer standard."
+      }
+    ],
+    "operators": [
+      {
+        "country": "Soviet Union",
+        "service": "Soviet Air Forces / Soviet Army Aviation",
+        "notes": "Original operator; early service began in the 1970s and the aircraft became prominent during the Soviet-Afghan War."
+      },
+      {
+        "country": "Russia",
+        "service": "Russian military",
+        "notes": "Post-Soviet user of Mi-24/Mi-35-family aircraft and modernization programs."
+      },
+      {
+        "country": "Czech Republic / former Czechoslovakia",
+        "service": "Czech Air Force and predecessor services",
+        "notes": "Czech Ministry of Defence material documents Mi-24 and Mi-35 service and technical data."
+      },
+      {
+        "country": "Germany / former East Germany",
+        "service": "East German Air Force and reunified German Air Force",
+        "notes": "Pima's Mi-24D served with East Germany, was taken into German service after reunification, and later went to museum use."
+      },
+      {
+        "country": "India",
+        "service": "Indian military",
+        "notes": "Listed among international Mi-24/Mi-35 operators; India also transferred refurbished Mi-24V aircraft to Afghanistan according to Airforce Technology."
+      },
+      {
+        "country": "Iraq",
+        "service": "Iraqi forces",
+        "notes": "Listed Mi-35 recipient in the 2010s in public export summaries."
+      },
+      {
+        "country": "Brazil",
+        "service": "Brazilian Air Force",
+        "notes": "Ordered Mi-35M attack helicopters in 2008 with deliveries completed by 2014 according to Airforce Technology."
+      },
+      {
+        "country": "Venezuela",
+        "service": "Venezuelan military",
+        "notes": "Ordered Mi-35M helicopters in the mid-2000s according to Airforce Technology."
+      },
+      {
+        "country": "Numerous export users",
+        "service": "Multiple national air arms",
+        "notes": "Airforce Technology and Pima describe deployment by roughly 40 countries / more than 30 other countries; exact active status requires current verification."
+      }
+    ],
+    "combat_history": "First combat use is commonly cited in Ethiopia's 1977 war with Somalia; the Mi-24 became especially prominent in the Soviet-Afghan War and has appeared in many later conflicts including Chechnya and recent Russo-Ukrainian War service.",
+    "development_history": "Developed by Mil as an armored attack/transport helicopter using Mi-8-family dynamic components and a dedicated gunship fuselage; early Mi-24A aircraft led to the redesigned Mi-24D, missile-armed Mi-24V, cannon-armed Mi-24P, and export Mi-25/Mi-35 family.",
+    "short_summary": "Soviet/Russian armored attack and assault-transport helicopter combining gunship firepower, anti-armor weapons, and limited troop/cargo carriage.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -53707,194 +53783,190 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-czech-mod-mi24",
+        "title": "Mil Mi-24 - NATO code: HIND",
+        "url": "https://www.mo.gov.cz/scripts/detail.php?id=6298",
+        "publisher": "Ministry of Defence of the Czech Republic",
+        "note": "Used for Mi-24 mission description, prototype first flight in September 1969, Mi-24A/D/V variant distinctions, cargo-compartment dimensions, TV3-117 engine output, wing/rotor arrangement, and representative armament details."
+      },
+      {
+        "id": "fn-pima-mi24d",
+        "title": "MIL Mi-24D HIND-D",
+        "url": "https://pimaair.org/museum-aircraft/mil-mi-24d",
+        "publisher": "Pima Air & Space Museum",
+        "note": "Used for Mi-24D design summary, production/deployment context, first combat-use context, export proliferation, representative Mi-24D dimensions, speed, ceiling, range, engines, and crew/troop capacity."
+      },
+      {
+        "id": "fn-odin-mi24",
+        "title": "Mi-24 (Hind) Russian Attack Helicopter",
+        "url": "https://odin.t2com.army.mil/WEG/Asset/450917c08512fe367579bbf8ffb18bf8",
+        "publisher": "U.S. Army ODIN Worldwide Equipment Guide",
+        "note": "Used for gunship/transport role explanation, Mi-8 dynamic-component lineage, armor and survivability notes, variant descriptions, record-aircraft context, and public weapon-system overview."
+      },
+      {
+        "id": "fn-airforce-technology-mi24",
+        "title": "Mi-24P (Mi-25 and Mi-35) Hind",
+        "url": "https://www.airforce-technology.com/projects/hind",
+        "publisher": "Airforce Technology",
+        "note": "Used for consolidated specifications, production and export summary, Mi-24P/Mi-35 context, avionics and upgrade discussion, weapons, powerplant, speed, range, and service ceiling figures."
+      },
+      {
+        "id": "fn-wikipedia-mi24",
         "title": "Mil Mi-24",
         "url": "https://en.wikipedia.org/wiki/Mil_Mi-24",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source only; museum, government, and technical references above are preferred for article claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.strategypage.com/htmw/htairfo/articles/20071031.aspx",
-        "publisher": "strategypage.com",
-        "note": "External source for Mil Mi-24."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.kommersant.com/p-11581/Combat_helicopter/",
-        "publisher": "kommersant.com",
-        "note": "External source for Mil Mi-24."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.abc.net.au/foreign/content/2000/s229144.htm",
-        "publisher": "abc.net.au",
-        "note": "External source for Mil Mi-24."
+        "note": "Local rules for neutral wording, estimates, variant differences, source citation, and cautious treatment of changing operator data."
       }
     ],
     "country_flags": [
       {
         "label": "Soviet Union",
-        "emoji": "☭"
+        "emoji": "🇸🇺"
+      },
+      {
+        "label": "Russia",
+        "emoji": "🇷🇺"
       }
     ],
     "designers": [
-      "Mil"
+      "Mil Moscow Helicopter Plant"
     ],
     "development_tensions": [
-      "Balancing lift, survivability, vibration, hot-and-high performance, and battlefield maintainability."
+      "Combining armored attack-helicopter firepower with a troop compartment increased flexibility but added weight and complexity.",
+      "High speed, armor, and heavy weapons improved battlefield presence but reduced hover margin compared with lighter helicopters.",
+      "Variant and export upgrades make exact avionics, weapons, and performance figures dependent on operator configuration."
     ],
     "wars_used_in": [
       {
-        "name": "Soviet–Afghan War",
-        "note": "Mil Mi-24 used in Soviet–Afghan War."
+        "name": "Ogaden War",
+        "note": "Pima identifies Ethiopian use against Somalia in 1977 as the first combat use of the Hind."
+      },
+      {
+        "name": "Soviet-Afghan War",
+        "note": "Major Soviet use for attack, escort, and troop-support missions from 1979 to 1989."
+      },
+      {
+        "name": "Chechen wars and later post-Soviet conflicts",
+        "note": "Airforce Technology lists Chechnya among conflicts involving the Mi-24 family; exact aircraft and loss details require source-specific review."
       },
       {
         "name": "Russo-Ukrainian War",
-        "note": "Mil Mi-24 used in Russo-Ukrainian War."
+        "note": "Mi-24-family aircraft have appeared in the current war; loss and claim totals are intentionally omitted because public figures are contested and date-sensitive."
       }
     ],
     "variant_families": [
-      "Mil Mi-24 baseline production model",
-      "Mil Mi-24 upgraded avionics or weapons-capable model",
-      "Mil Mi-24 two-seat trainer or conversion model",
-      "Mil Mi-24 utility, attack, naval, or export model"
+      "V-24",
+      "Mi-24 / Mi-24A",
+      "Mi-24D",
+      "Mi-24V",
+      "Mi-24P",
+      "Mi-25 / Mi-35"
     ],
-    "operator_summary": {
-      "major_designer_or_builder": [
-        "Soviet Union"
-      ],
-      "major_user_note": "Mil Mi-24 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
-    },
+    "operator_summary": "Original Soviet operator, continued Russian service, and broad export use across roughly 40 countries; exact active inventories are date-sensitive.",
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "A modified Mi-24B record aircraft known as A-10 set an absolute helicopter speed record of 368.4 km/h over a 15/25 km course on 21 September 1978 according to ODIN.",
+        "The Pima Air & Space Museum Mi-24D was delivered to East Germany, briefly served with reunified Germany, and later became a museum aircraft."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Specific combat losses and shootdown claims vary by conflict and source and are not summarized as fixed totals here.",
+        "The Soviet-Afghan War drove major Western attention to the Hind and to man-portable air-defense countermeasures."
       ]
     },
-    "engine_details": {
-      "type": "Turboshaft",
-      "summary": "Mil Mi-24 uses turboshaft propulsion."
-    },
-    "armament_details": {
-      "summary": "Cannon, rockets, and guided missiles.",
-      "caution": "Exact weapon list: Not listed."
-    },
+    "engine_details": "Two TV3-117-family turboshaft engines. Czech Ministry of Defence material lists TV3-117 engines with 1,638 kW each; Pima and Airforce Technology list Isotov/TV3-117-family engines around 2,200 shp each for representative Mi-24D/P/Mi-35 data.",
+    "armament_details": "Mi-24D/V aircraft commonly used a Yak-B 12.7 mm nose gun with rockets, bombs, pods, and ATGMs; Mi-24P used a fixed 30 mm cannon; Mi-24VP/modernized aircraft and Mi-35 derivatives can use 23 mm cannon, Shturm/Ataka missiles, rockets, grenade launchers, and newer sighting systems depending upgrade standard.",
     "similar_development": [
-      {
-        "id": "ah-1-cobra",
-        "name": "Bell AH-1 Cobra",
-        "url": "aircraft.html?id=ah-1-cobra"
-      },
-      {
-        "id": "ah-64-apache",
-        "name": "Boeing AH-64 Apache",
-        "url": "aircraft.html?id=ah-64-apache"
-      },
-      {
-        "id": "uh-1-iroquois",
-        "name": "Bell UH-1 Iroquois",
-        "url": "aircraft.html?id=uh-1-iroquois"
-      },
-      {
-        "id": "uh-60-black-hawk",
-        "name": "Sikorsky UH-60 Black Hawk",
-        "url": "aircraft.html?id=uh-60-black-hawk"
-      }
+      "Mil Mi-8",
+      "Bell AH-1 Cobra",
+      "Boeing AH-64 Apache",
+      "Bell UH-1 Iroquois",
+      "Sikorsky UH-60 Black Hawk"
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 36,
+      "operator_entries": 9,
+      "variant_entries": 6,
+      "external_article_sources": 5
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-czech-mod-mi24",
+        "title": "Mil Mi-24 - NATO code: HIND",
+        "url": "https://www.mo.gov.cz/scripts/detail.php?id=6298",
+        "publisher": "Ministry of Defence of the Czech Republic",
+        "note": "Used for Mi-24 mission description, prototype first flight in September 1969, Mi-24A/D/V variant distinctions, cargo-compartment dimensions, TV3-117 engine output, wing/rotor arrangement, and representative armament details."
+      },
+      {
+        "id": "fn-pima-mi24d",
+        "title": "MIL Mi-24D HIND-D",
+        "url": "https://pimaair.org/museum-aircraft/mil-mi-24d",
+        "publisher": "Pima Air & Space Museum",
+        "note": "Used for Mi-24D design summary, production/deployment context, first combat-use context, export proliferation, representative Mi-24D dimensions, speed, ceiling, range, engines, and crew/troop capacity."
+      },
+      {
+        "id": "fn-odin-mi24",
+        "title": "Mi-24 (Hind) Russian Attack Helicopter",
+        "url": "https://odin.t2com.army.mil/WEG/Asset/450917c08512fe367579bbf8ffb18bf8",
+        "publisher": "U.S. Army ODIN Worldwide Equipment Guide",
+        "note": "Used for gunship/transport role explanation, Mi-8 dynamic-component lineage, armor and survivability notes, variant descriptions, record-aircraft context, and public weapon-system overview."
+      },
+      {
+        "id": "fn-airforce-technology-mi24",
+        "title": "Mi-24P (Mi-25 and Mi-35) Hind",
+        "url": "https://www.airforce-technology.com/projects/hind",
+        "publisher": "Airforce Technology",
+        "note": "Used for consolidated specifications, production and export summary, Mi-24P/Mi-35 context, avionics and upgrade discussion, weapons, powerplant, speed, range, and service ceiling figures."
+      },
+      {
+        "id": "fn-wikipedia-mi24",
         "title": "Mil Mi-24",
         "url": "https://en.wikipedia.org/wiki/Mil_Mi-24",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source only; museum, government, and technical references above are preferred for article claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.strategypage.com/htmw/htairfo/articles/20071031.aspx",
-        "publisher": "strategypage.com",
-        "note": "External source for Mil Mi-24."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.kommersant.com/p-11581/Combat_helicopter/",
-        "publisher": "kommersant.com",
-        "note": "External source for Mil Mi-24."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.abc.net.au/foreign/content/2000/s229144.htm",
-        "publisher": "abc.net.au",
-        "note": "External source for Mil Mi-24."
+        "note": "Local rules for neutral wording, estimates, variant differences, source citation, and cautious treatment of changing operator data."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.strategypage.com/htmw/htairfo/articles/20071031.aspx",
-        "publisher": "strategypage.com",
-        "note": "External source for Mil Mi-24."
+        "id": "fn-czech-mod-mi24",
+        "title": "Mil Mi-24 - NATO code: HIND",
+        "url": "https://www.mo.gov.cz/scripts/detail.php?id=6298",
+        "publisher": "Ministry of Defence of the Czech Republic",
+        "note": "Used for Mi-24 mission description, prototype first flight in September 1969, Mi-24A/D/V variant distinctions, cargo-compartment dimensions, TV3-117 engine output, wing/rotor arrangement, and representative armament details."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.kommersant.com/p-11581/Combat_helicopter/",
-        "publisher": "kommersant.com",
-        "note": "External source for Mil Mi-24."
+        "id": "fn-pima-mi24d",
+        "title": "MIL Mi-24D HIND-D",
+        "url": "https://pimaair.org/museum-aircraft/mil-mi-24d",
+        "publisher": "Pima Air & Space Museum",
+        "note": "Used for Mi-24D design summary, production/deployment context, first combat-use context, export proliferation, representative Mi-24D dimensions, speed, ceiling, range, engines, and crew/troop capacity."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.abc.net.au/foreign/content/2000/s229144.htm",
-        "publisher": "abc.net.au",
-        "note": "External source for Mil Mi-24."
+        "id": "fn-odin-mi24",
+        "title": "Mi-24 (Hind) Russian Attack Helicopter",
+        "url": "https://odin.t2com.army.mil/WEG/Asset/450917c08512fe367579bbf8ffb18bf8",
+        "publisher": "U.S. Army ODIN Worldwide Equipment Guide",
+        "note": "Used for gunship/transport role explanation, Mi-8 dynamic-component lineage, armor and survivability notes, variant descriptions, record-aircraft context, and public weapon-system overview."
+      },
+      {
+        "id": "fn-airforce-technology-mi24",
+        "title": "Mi-24P (Mi-25 and Mi-35) Hind",
+        "url": "https://www.airforce-technology.com/projects/hind",
+        "publisher": "Airforce Technology",
+        "note": "Used for consolidated specifications, production and export summary, Mi-24P/Mi-35 context, avionics and upgrade discussion, weapons, powerplant, speed, range, and service ceiling figures."
       }
     ],
     "article_sections": [
@@ -53903,20 +53975,24 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Mil Mi-24 is an Attack/transport helicopter from Soviet Union. Manufacturer: Mil. First flight: 1969. Introduction: 1972. Status: Active.",
+            "text": "The Mil Mi-24, NATO reporting name Hind, is a Soviet/Russian twin-engine combat helicopter that combines attack-helicopter firepower with a small troop or cargo compartment. Unlike dedicated Western attack helicopters such as the AH-64 Apache, the Hind was designed to support ground forces, attack armored targets, escort transports, and carry up to eight troops or casualties when configuration and mission allow.",
             "refs": [
-              "fn-main"
+              "fn-czech-mod-mi24",
+              "fn-odin-mi24"
             ]
           },
           {
-            "text": "Mil Mi-24 is a helicopter. Primary role: attack/transport helicopter. Country of origin: Soviet Union. Manufacturer: Mil.",
+            "text": "Mil developed the Mi-24 from experience with the Mi-8/\"Hip\" transport family and the Soviet study of armed-helicopter combat in Vietnam. The first prototype flew in September 1969, early Mi-24A production appeared in the early 1970s, and later Mi-24D/V/P models gave the family its best-known tandem cockpit, anti-tank guided missiles, heavy gun armament, and export success.",
             "refs": [
-              "fn-wikidata"
+              "fn-czech-mod-mi24",
+              "fn-pima-mi24d",
+              "fn-odin-mi24"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "More than a single aircraft type in practice, \"Mi-24\" covers early Hind-A airframes, the redesigned Mi-24D Hind-D, missile-armed Mi-24V Hind-E, cannon-armed Mi-24P Hind-F, export Mi-25 and Mi-35 versions, and modernized Mi-35M/Mi-35P derivatives. Public specifications vary by variant, so this page treats Mi-24D/V/P figures as representative rather than universal.",
             "refs": [
+              "fn-airforce-technology-mi24",
               "fn-method"
             ]
           }
@@ -53924,167 +54000,172 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Attack/transport helicopter"
+            "text": "Attack/transport helicopter and armed assault helicopter"
           },
           {
-            "title": "Designer or builder",
-            "text": "Mil"
+            "title": "First flight",
+            "text": "September 1969 prototype flight"
           },
           {
-            "title": "Major origin",
-            "text": "Soviet Union"
+            "title": "Troop capacity",
+            "text": "Up to eight troops in the cabin on assault/transport missions"
           },
           {
-            "title": "Propulsion",
-            "text": "Turboshaft"
+            "title": "Defining feature",
+            "text": "Armored gunship firepower combined with limited troop/cargo carriage"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Mil Mi-24 first flew in 1969. Introduction date: 1972. Era: Cold War/Modern.",
+            "text": "Mil's design team pursued a helicopter that could accompany and support mechanized forces rather than only move troops behind the front. The concept used Mi-8-family dynamic components where practical, two turboshaft engines mounted above the cabin, a five-blade main rotor, a three-blade tail rotor, and short stub wings that carry weapons and contribute lift at speed.",
             "refs": [
-              "fn-main"
+              "fn-czech-mod-mi24",
+              "fn-odin-mi24"
             ]
           },
           {
-            "text": "Producer: Mil. Development context: attack/transport helicopter, turboshaft propulsion, subsonic speed category, Cold War/Modern era.",
+            "text": "The first production Mi-24/Mi-24A retained a greenhouse-style cockpit and could carry eight combat troops. The Mi-24D introduced the familiar stepped tandem cockpits under individual canopies, with the gunner in front and pilot/commander behind. The Mi-24V added the Shturm anti-tank missile system, and the Mi-24P replaced the flexible 12.7 mm nose gun with a fixed 30 mm cannon on the fuselage side.",
             "refs": [
-              "fn-wikidata"
+              "fn-czech-mod-mi24",
+              "fn-odin-mi24"
             ]
-          }
-        ],
-        "bullets": [
+          },
           {
-            "text": "Balancing lift, survivability, vibration, hot-and-high performance, and battlefield maintainability.",
+            "text": "Export and modernized versions extended the family beyond Soviet service. Mi-25 and Mi-35 designations were used for export aircraft, while later Mi-35M and Mi-35P programs added modern avionics, night-attack equipment, revised weapons, and other changes. Because upgrade packages differ by country, the article avoids treating one avionics fit as representative of all Hinds.",
             "refs": [
+              "fn-airforce-technology-mi24",
               "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "design",
-        "title": "Design and Capabilities",
-        "paragraphs": [
-          {
-            "text": "Crew: 2-3. Propulsion: Turboshaft. Speed category: Subsonic.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Carrier capable: no. Stealth: no.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Mil Mi-24 uses turboshaft propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Cannon, rockets, and guided missiles. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
         "cards": [
           {
+            "title": "Design lineage",
+            "text": "Mi-8-derived components with a dedicated armored gunship fuselage"
+          },
+          {
+            "title": "Prototype period",
+            "text": "Prototype flight in September 1969; early production/service in the early 1970s"
+          },
+          {
+            "title": "Major redesign",
+            "text": "Mi-24D tandem-cockpit nose became the classic Hind silhouette"
+          },
+          {
+            "title": "Modernized family",
+            "text": "Mi-35 and Mi-35M/P aircraft continue the export and upgrade line"
+          }
+        ]
+      },
+      {
+        "id": "design-and-capabilities",
+        "title": "Design and Capabilities",
+        "paragraphs": [
+          {
+            "text": "The Mi-24 uses a pod-and-boom fuselage, retractable tricycle landing gear, two top-mounted TV3-117-family turboshaft engines, a mid-mounted five-blade main rotor, and short wings with multiple weapon stations. Czech Ministry of Defence material notes that the wings can contribute substantial lift at higher speed while also serving as weapons mounts.",
+            "refs": [
+              "fn-czech-mod-mi24",
+              "fn-airforce-technology-mi24"
+            ]
+          },
+          {
+            "text": "Survivability was central to the design. ODIN describes an armored fuselage, ballistic-resistant cockpit glazing, a titanium armored tub around the crew area, and rotor blades resistant to 12.7 mm fire. These features supported low-altitude attack and escort operations, but they also increased weight and made the aircraft less agile than lighter scout or utility helicopters.",
+            "refs": [
+              "fn-odin-mi24"
+            ]
+          },
+          {
+            "text": "The cabin gives the Hind its unusual dual role. It can carry troops, stretchers, cargo, or extra fuel depending on variant and mission, but sources repeatedly caution that troop carriage was often less useful in combat than the gunship role. In practice, many operators used the Mi-24 primarily for close air support, anti-armor missions, armed escort, and battlefield intimidation.",
+            "refs": [
+              "fn-pima-mi24d",
+              "fn-odin-mi24"
+            ]
+          },
+          {
+            "text": "Armament is variant-sensitive. Mi-24D/V aircraft commonly used a Yak-B 12.7 mm nose gun with rocket pods, bombs, gun pods, and Falanga or Shturm anti-tank guided missiles; Mi-24P aircraft used a fixed 30 mm cannon; later upgrades can employ newer missiles and electro-optical/night systems. Exact loadouts depend on national stocks, pylon fit, upgrade standard, and mission.",
+            "refs": [
+              "fn-czech-mod-mi24",
+              "fn-airforce-technology-mi24",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Powerplant",
+            "text": "Two TV3-117-family turboshaft engines; public sources list about 1,638 kW or 2,200 shp each depending source/variant"
+          },
+          {
+            "title": "Rotor system",
+            "text": "Five-blade main rotor and three-blade tail rotor"
+          },
+          {
             "title": "Crew",
-            "text": "2-3"
+            "text": "Usually two in tandem on Mi-24D/V/P, with troop/cargo space aft"
           },
           {
-            "title": "Engine class",
-            "text": "Turboshaft"
-          },
-          {
-            "title": "Speed class",
-            "text": "Subsonic"
-          },
-          {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Weapon fit",
+            "text": "Gun or cannon plus rockets, bombs, pods, and anti-tank guided missiles by variant"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Mil Mi-24 status: Active. Conflict entries: 2.",
+            "text": "Representative figures below combine Mi-24D and Mi-24P/Mi-35-family public data. They should not be read as a single universal configuration because early Mi-24A, Mi-24D, Mi-24V, Mi-24P, Mi-25, Mi-35, and modernized export aircraft differ in nose armament, avionics, engines, and equipment.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: Soviet–Afghan War, Russo-Ukrainian War.",
-            "refs": [
+              "fn-pima-mi24d",
+              "fn-airforce-technology-mi24",
               "fn-method"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Soviet–Afghan War: Mil Mi-24 used in Soviet–Afghan War.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Crew and passengers",
+            "text": "Two crew on later gunship variants; cabin can carry up to eight troops or four stretchers"
           },
           {
-            "text": "Russo-Ukrainian War: Mil Mi-24 used in Russo-Ukrainian War.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Mil Mi-24 named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Main rotor diameter",
+            "text": "About 56 ft 7 in / 17 m"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "Pima lists 57 ft 4 in for Mi-24D; Airforce Technology lists 16.78 m for Mi-24P/Mi-35 data"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Height",
+            "text": "About 21 ft 3 in / 6.5 m for representative Mi-24D-family aircraft"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Loaded or takeoff weight",
+            "text": "Pima lists 26,500 lb loaded; Airforce Technology lists 11,500 kg maximum takeoff weight"
+          },
+          {
+            "title": "Maximum speed",
+            "text": "About 208 mph / 324 km/h depending source and variant"
+          },
+          {
+            "title": "Range",
+            "text": "Pima lists 280 miles; Airforce Technology lists 480 km flight range and 1,050 km ferry range"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "About 14,750 ft / 4,599 m in representative public data"
+          },
+          {
+            "title": "Powerplant",
+            "text": "Two TV3-117-family turboshafts, about 2,200 shp each in several public references"
+          },
+          {
+            "title": "Armament",
+            "text": "Variant-dependent gun/cannon, rocket pods, bombs, gun pods, and ATGMs such as Falanga, Shturm, or Ataka"
           }
         ]
       },
@@ -54093,41 +54174,60 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Mil Mi-24 variant-family entries: 4. Variant families: Mil Mi-24 baseline production model; Mil Mi-24 upgraded avionics or weapons-capable model; Mil Mi-24 two-seat trainer or conversion model; Mil Mi-24 utility, attack, naval, or export model.",
+            "text": "The Mi-24 family is large, and many designations mix Soviet, Russian, export, and local upgrade standards. The entries below are representative Milipedia-level groupings rather than a complete production block list.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-czech-mod-mi24",
+              "fn-odin-mi24",
+              "fn-airforce-technology-mi24"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Mil Mi-24 baseline production model",
+            "text": "V-24 and early prototypes — development aircraft that established the armed assault-helicopter concept and led to the first production Hinds.",
             "refs": [
-              "fn-main"
+              "fn-odin-mi24"
             ]
           },
           {
-            "text": "Mil Mi-24 upgraded avionics or weapons-capable model",
+            "text": "Mi-24 / Mi-24A Hind-A/B — early production aircraft with greenhouse-style cockpits and troop-carrying assault capability; the Mi-24A entered early Soviet service in the 1970s.",
             "refs": [
-              "fn-main"
+              "fn-czech-mod-mi24",
+              "fn-odin-mi24"
             ]
           },
           {
-            "text": "Mil Mi-24 two-seat trainer or conversion model",
+            "text": "Mi-24D Hind-D — major redesign with tandem cockpits and a flexible Yak-B 12.7 mm nose gun; one of the best-known museum and export forms of the Hind.",
             "refs": [
-              "fn-main"
+              "fn-czech-mod-mi24",
+              "fn-pima-mi24d"
             ]
           },
           {
-            "text": "Mil Mi-24 utility, attack, naval, or export model",
+            "text": "Mi-24V Hind-E — improved anti-tank version associated with the Shturm missile system and later weapons/equipment improvements; ODIN describes it as the most widely produced version.",
             "refs": [
-              "fn-main"
+              "fn-czech-mod-mi24",
+              "fn-odin-mi24"
+            ]
+          },
+          {
+            "text": "Mi-24P Hind-F — cannon-armed gunship variant with a fixed 30 mm GSh-30-2K cannon rather than the earlier flexible 12.7 mm nose turret.",
+            "refs": [
+              "fn-odin-mi24",
+              "fn-airforce-technology-mi24"
+            ]
+          },
+          {
+            "text": "Mi-25 and Mi-35 — export designations and derivatives; later Mi-35M/Mi-35P aircraft add modernized engines, avionics, sighting systems, and weapons depending customer standard.",
+            "refs": [
+              "fn-airforce-technology-mi24"
+            ]
+          },
+          {
+            "text": "Specialized versions — training, NBC reconnaissance, artillery-observation, police/paramilitary, command-post, and local upgrade variants exist; exact equipment can be country-specific.",
+            "refs": [
+              "fn-odin-mi24",
+              "fn-method"
             ]
           }
         ]
@@ -54137,13 +54237,173 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: Soviet Union. Mil Mi-24 has 1 designer or builder country entry.",
+            "text": "The Hind became one of the world's most widely distributed attack helicopters. Airforce Technology states that Mi-24 helicopters have been deployed by about 40 countries and lists many former Soviet, Warsaw Pact, Asian, African, Middle Eastern, and Latin American operators; Pima notes service with Russia and more than 30 other countries after the Soviet Union and Warsaw Pact dissolved.",
             "refs": [
-              "fn-wikidata"
+              "fn-airforce-technology-mi24",
+              "fn-pima-mi24d"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Representative operators include Russia and other ex-Soviet states, Afghanistan, Algeria, Angola, Bulgaria, Cuba, the Czech Republic, former East Germany/Germany, Hungary, India, Indonesia, Iraq, Libya, Mozambique, Nicaragua, North Korea, Peru, Poland, Vietnam, Yemen/South Yemen, Venezuela, Brazil, Mali, Pakistan, Kazakhstan, and Nigeria. Current status varies rapidly because some fleets have retired, transferred, or upgraded aircraft.",
+            "refs": [
+              "fn-airforce-technology-mi24",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Original user",
+            "text": "Soviet Air Forces / Soviet Army Aviation"
+          },
+          {
+            "title": "Post-Soviet user",
+            "text": "Russian military and several ex-Soviet operators"
+          },
+          {
+            "title": "Export reach",
+            "text": "About 40-country deployment cited by Airforce Technology; more than 30 other-country service noted by Pima"
+          },
+          {
+            "title": "Status caution",
+            "text": "Fleet counts and active status differ by country, variant, and recent transfers"
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "The Mi-24's first combat use is commonly associated with Ethiopian operations during the Ogaden War against Somalia in 1977. It became internationally famous during the Soviet-Afghan War, where its armor, speed, firepower, and troop-support role made it a major Soviet battlefield asset and a focus of Afghan anti-aircraft tactics.",
+            "refs": [
+              "fn-pima-mi24d",
+              "fn-odin-mi24"
+            ]
+          },
+          {
+            "text": "Airforce Technology states that the Mi-24 family has appeared in more than 40 wars and conflicts, including Afghanistan and Chechnya. Its service record spans Cold War proxy wars, post-Soviet conflicts, counter-insurgency operations, conventional wars, and civil conflicts. The type's wide export distribution means combat use varies greatly by operator training, maintenance, terrain, and air-defense threat.",
+            "refs": [
+              "fn-airforce-technology-mi24",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The Hind's reputation as a \"flying tank\" reflects both its protection and its limitations. Armor and speed improved survivability against small arms, but shoulder-fired missiles, heavy machine guns, cannon, and modern air-defense systems remain serious threats. Public loss claims in recent conflicts can be politically contested, so this page avoids fixed loss totals without source-specific context.",
+            "refs": [
+              "fn-odin-mi24",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Ogaden War — early combat use by Ethiopia against Somalia, cited by Pima as the Hind's first combat use.",
+            "refs": [
+              "fn-pima-mi24d"
+            ]
+          },
+          {
+            "text": "Soviet-Afghan War — major Soviet use for escort, close air support, attack, and troop support; Stinger and other air-defense threats shaped later perceptions of the aircraft.",
+            "refs": [
+              "fn-pima-mi24d",
+              "fn-odin-mi24"
+            ]
+          },
+          {
+            "text": "Post-Soviet and export conflicts — Chechnya and numerous operator-specific wars are part of the type's broad combat record.",
+            "refs": [
+              "fn-airforce-technology-mi24"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-and-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include speed for a heavily armed helicopter, armor protection, visual intimidation, large weapons load, troop/cargo flexibility, and the ability to operate as an armed escort for transport helicopters. The design fits Soviet doctrine that expected helicopters to support mechanized forces close to the battlefield.",
+            "refs": [
+              "fn-odin-mi24",
+              "fn-czech-mod-mi24"
+            ]
+          },
+          {
+            "text": "Limitations come from the same design compromise. The troop cabin, armor, and weapons make the aircraft heavy; hot-and-high performance, hover margin, maintenance burden, and vulnerability to modern air defenses can constrain operations. Later upgrades improved night attack and targeting, but early aircraft were less capable in poor visibility than modern sensor-rich attack helicopters.",
+            "refs": [
+              "fn-airforce-technology-mi24",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Strength",
+            "text": "Unique gunship-plus-assault-transport configuration"
+          },
+          {
+            "title": "Strength",
+            "text": "Armor and speed gave strong battlefield presence in permissive or lightly defended environments"
+          },
+          {
+            "title": "Limitation",
+            "text": "Heavy airframe and variant age can limit hover performance and modernization margins"
+          },
+          {
+            "title": "Limitation",
+            "text": "Air-defense threats and contested-loss claims require cautious operational-history wording"
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison and Role Context",
+        "paragraphs": [
+          {
+            "text": "The Mi-24 is often compared with the Bell AH-1 Cobra and Boeing AH-64 Apache, but its cabin and assault role make those comparisons imperfect. The Cobra and Apache are dedicated attack helicopters; the Hind was designed to combine attack, escort, and limited troop transport in one armored aircraft.",
+            "refs": [
+              "fn-odin-mi24",
+              "fn-pima-mi24d"
+            ]
+          },
+          {
+            "text": "Compared with the Mi-8 transport family, the Mi-24 sacrifices transport capacity for armor, speed, and weapons. Compared with the UH-1 Iroquois, it is much more heavily armed and protected, but also larger, heavier, and more specialized. Compared with the UH-60 Black Hawk, it is less of a utility transport and more of an armed battlefield helicopter.",
+            "refs": [
+              "fn-odin-mi24",
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Bell AH-1 Cobra",
+            "url": "aircraft.html?id=ah-1-cobra"
+          },
+          {
+            "label": "Boeing AH-64 Apache",
+            "url": "aircraft.html?id=ah-64-apache"
+          },
+          {
+            "label": "Mil Mi-8",
+            "url": "aircraft.html?id=mi-8"
+          },
+          {
+            "label": "Bell UH-1 Iroquois",
+            "url": "aircraft.html?id=uh-1-iroquois"
+          },
+          {
+            "label": "Sikorsky UH-60 Black Hawk",
+            "url": "aircraft.html?id=uh-60-black-hawk"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "Milipedia timeline entries emphasize public milestones rather than every production or upgrade subvariant.",
             "refs": [
               "fn-method"
             ]
@@ -54151,31 +54411,66 @@
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "First half of the 1960s — development work begins using Mi-8-family dynamic components and the armed assault-helicopter concept.",
             "refs": [
-              "fn-main"
+              "fn-czech-mod-mi24"
             ]
           },
           {
-            "text": "Major designer or builder entries: Soviet Union.",
+            "text": "September 1969 — first prototype flight, according to Czech Ministry of Defence material.",
             "refs": [
-              "fn-wikidata"
+              "fn-czech-mod-mi24"
+            ]
+          },
+          {
+            "text": "Early 1970s / 1972 — early Mi-24A service/production period in Soviet use.",
+            "refs": [
+              "fn-czech-mod-mi24",
+              "fn-pima-mi24d"
+            ]
+          },
+          {
+            "text": "1976 — Mi-24D enters operation according to Czech Ministry of Defence material.",
+            "refs": [
+              "fn-czech-mod-mi24"
+            ]
+          },
+          {
+            "text": "1977 — Pima identifies Ethiopian use against Somalia as the Hind's first combat use.",
+            "refs": [
+              "fn-pima-mi24d"
+            ]
+          },
+          {
+            "text": "1979-1989 — Soviet-Afghan War makes the Mi-24 internationally prominent.",
+            "refs": [
+              "fn-pima-mi24d",
+              "fn-odin-mi24"
+            ]
+          },
+          {
+            "text": "2005 onward — modernized Mi-35M and later Mi-35P production/export programs continue the family.",
+            "refs": [
+              "fn-airforce-technology-mi24"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "sources-and-notes",
+        "title": "Sources and Notes",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 2-3, propulsion type Turboshaft, maximum speed category Subsonic, first flight 1969, introduction 1972.",
+            "text": "The Czech Ministry of Defence page is used for official-style Mi-24A/D/V technical and variant detail; Pima Air & Space Museum is used for Mi-24D dimensions and historical context; ODIN is used for U.S. Army public equipment-guide descriptions; Airforce Technology is used for consolidated Mi-24P/Mi-35 specifications and export/upgrade context.",
             "refs": [
-              "fn-main"
+              "fn-czech-mod-mi24",
+              "fn-pima-mi24d",
+              "fn-odin-mi24",
+              "fn-airforce-technology-mi24"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Figures are intentionally phrased as representative because Mi-24A, Mi-24D, Mi-24V, Mi-24P, Mi-25, Mi-35, Mi-35M, and local upgrades differ in equipment. Exact operator inventories, weapons clearances, current readiness, and recent-combat loss totals require date-specific verification.",
             "refs": [
               "fn-method"
             ]
@@ -54183,11 +54478,11 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "related-pages",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "Mil Mi-24 similar-development links: 4.",
+            "text": "Related Milipedia pages help compare the Hind with dedicated attack helicopters, transport helicopters, and Western utility platforms.",
             "refs": [
               "fn-method"
             ]
@@ -54203,23 +54498,25 @@
             "url": "aircraft.html?id=ah-64-apache"
           },
           {
+            "label": "Mil Mi-8",
+            "url": "aircraft.html?id=mi-8"
+          },
+          {
             "label": "Bell UH-1 Iroquois",
             "url": "aircraft.html?id=uh-1-iroquois"
           },
           {
             "label": "Sikorsky UH-60 Black Hawk",
             "url": "aircraft.html?id=uh-60-black-hawk"
+          },
+          {
+            "label": "Back to Aircraft Database",
+            "url": "index.html#database"
           }
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Mortar_attack_on_Shigal_Tarna_garrison%2C_Kunar_Province%2C_87.jpg/960px-Mortar_attack_on_Shigal_Tarna_garrison%2C_Kunar_Province%2C_87.jpg",
-        "caption": "Soviet–Afghan War",
-        "source_url": "https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "mi-26",
