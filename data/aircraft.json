@@ -59062,7 +59062,14 @@
   {
     "id": "bae-hawk",
     "name": "BAE Systems Hawk",
-    "alternative_names": [],
+    "alternative_names": [
+      "Hawker Siddeley Hawk",
+      "British Aerospace Hawk",
+      "Hawk T1",
+      "Hawk T2",
+      "Hawk 128",
+      "Hawk AJT"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United Kingdom",
     "manufacturer": "Hawker Siddeley / BAE Systems",
@@ -59073,23 +59080,93 @@
     "introduction_date": "1976",
     "retirement_date": null,
     "status": "Active",
-    "number_built": "Not listed",
+    "number_built": "More than 1,000 ordered or sold across the Hawk family; operator totals vary by source and date",
     "crew": "2",
     "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engines": "One Rolls-Royce/Turbomeca Adour turbofan; Hawk T2 uses the Adour Mk.951",
+    "max_speed": "555 kt for RAF Hawk T2 data; subsonic/transonic trainer performance depending on variant",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Trainer aircraft; light-attack stores not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "BAE Systems Hawk: Advanced jet trainer. Manufacturer: Hawker Siddeley / BAE Systems. First flight: 1974. Introduction: 1976.",
-    "short_summary": "BAE Systems Hawk: Advanced jet trainer. Origin: United Kingdom. Manufacturer: Hawker Siddeley / BAE Systems. First flight: 1974. Introduction: 1976. Status: Active.",
+    "range": "Ferry range varies by variant and tank fit; not fixed in this article",
+    "combat_range": "Mission radius varies by training, display, or light-attack configuration",
+    "service_ceiling": "42,000 ft for RAF Hawk T2 data",
+    "rate_of_climb": "Not listed in official RAF T2 data used here",
+    "armament": "Normally unarmed in advanced-training service; some T1A, Hawk 100/200, and export light-attack versions can carry gun pods, AIM-9-class missiles, rockets, bombs, or practice stores depending on operator clearance.",
+    "hardpoints": "Variant dependent; Hawk T2 is primarily a trainer, while light-attack and export Hawks use underwing and centerline stations for stores.",
+    "variants": [
+      {
+        "name": "Hawk T1 / T1A",
+        "description": "Original RAF two-seat advanced trainer family. The T1A adaptation added air-defense wiring and AIM-9L Sidewinder capability for wartime point-defense tasks; Red Arrows display aircraft are Hawk T1-family jets."
+      },
+      {
+        "name": "Hawk 50 / 60 series",
+        "description": "Early export two-seat Hawks delivered to customers such as Finland, Indonesia, and others, with equipment and weapons fits varying by user."
+      },
+      {
+        "name": "Hawk 100 series",
+        "description": "Improved two-seat export trainer and light-attack family with updated avionics, revised wing features, and options for weapons training or combat support roles."
+      },
+      {
+        "name": "Hawk 120-series / Lead-In Fighter Trainer",
+        "description": "Advanced training variants including the Australian Hawk 127, South African Hawk 120, Indian Hawk Mk 132, Saudi Hawk 165, Omani Hawk 166, and RAF Hawk 128/T2 lineage, each with national avionics and support differences."
+      },
+      {
+        "name": "Hawk 200",
+        "description": "Single-seat light-combat derivative with a radar nose and expanded weapons role; produced in smaller numbers than the trainer family."
+      },
+      {
+        "name": "Hawk AJT / Hawk T2 / Hawk 128",
+        "description": "Modern advanced jet trainer standard with glass cockpit, embedded/synthetic training functions, simulated radar and weapons, and systems intended to prepare pilots for Typhoon, F-35, and comparable front-line aircraft."
+      },
+      {
+        "name": "T-45 Goshawk derivative",
+        "description": "U.S. Navy carrier-training derivative developed from the Hawk with major navalization changes; related to the Hawk family but normally treated as a separate aircraft type."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United Kingdom",
+        "service": "Royal Air Force",
+        "notes": "Original user. RAF Hawk T2 aircraft provide advanced fast-jet training at RAF Valley, while Hawk T1 aircraft are associated with the Red Arrows display team."
+      },
+      {
+        "country": "India",
+        "service": "Indian Air Force and Indian Navy",
+        "notes": "Operates Hawk Mk 132 aircraft, including licence-built examples from Hindustan Aeronautics Limited; fleet totals and contracts are date-sensitive."
+      },
+      {
+        "country": "Saudi Arabia",
+        "service": "Royal Saudi Air Force",
+        "notes": "Major Hawk and Hawk AJT operator for fast-jet training, with later aircraft forming part of a BAE-supported training system."
+      },
+      {
+        "country": "Australia",
+        "service": "Royal Australian Air Force",
+        "notes": "Operates Hawk 127 Lead-In Fighter aircraft for fast-jet training."
+      },
+      {
+        "country": "South Africa",
+        "service": "South African Air Force",
+        "notes": "Operates Hawk 120-series aircraft for advanced training."
+      },
+      {
+        "country": "Finland",
+        "service": "Finnish Air Force",
+        "notes": "Long-time Hawk operator for jet training; Finnish aircraft include upgraded and second-hand examples."
+      },
+      {
+        "country": "Canada",
+        "service": "Royal Canadian Air Force / NATO Flying Training in Canada legacy use",
+        "notes": "Used CT-155 Hawk aircraft for advanced jet training under contractor-supported arrangements; status is changing as training contracts transition."
+      },
+      {
+        "country": "Other export users",
+        "service": "National air forces in the Middle East, Asia, Europe, and Africa",
+        "notes": "Representative users include Indonesia, Malaysia, Oman, Bahrain, Kuwait, Qatar, the United Arab Emirates, Zimbabwe, and others depending on period and variant."
+      }
+    ],
+    "combat_history": "Primarily a training and display aircraft; some export Hawk variants have been configured for air-defense or light-attack duties, with operational use dependent on national operator and variant.",
+    "development_history": "Developed from Hawker Siddeley P.1182 after the RAF sought a lower-cost advanced jet trainer to replace the Folland Gnat. The Hawk first flew in 1974, entered RAF service in 1976, and evolved through T1/T1A, export Hawk 50/60/100/120-series, single-seat Hawk 200, and modern Hawk AJT/T2 standards.",
+    "short_summary": "The BAE Systems Hawk is a British single-engine, two-seat, subsonic advanced jet trainer developed by Hawker Siddeley and later produced by British Aerospace and BAE Systems. It entered RAF service in 1976, became the Red Arrows display aircraft, and evolved into export training and light-attack families including Hawk 100/120-series, Hawk 200, and Hawk AJT/T2 aircraft.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -59102,18 +59179,39 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-raf-t2",
+        "title": "Hawk T2",
+        "url": "https://www.raf.mod.uk/aircraft/hawk-t2",
+        "publisher": "Royal Air Force",
+        "note": "Official RAF page used for Hawk T2 role, history, avionics description, and technical specifications."
+      },
+      {
+        "id": "fn-bae-hawk-ajt",
+        "title": "Hawk Advanced Jet Trainer",
+        "url": "https://www.baesystems.com/en/product/hawk-ajt",
+        "publisher": "BAE Systems",
+        "note": "Manufacturer page used for Hawk AJT program framing; page extraction was limited, so it is used conservatively with public manufacturer search snippets."
+      },
+      {
+        "id": "fn-bae-ajts",
+        "title": "About Hawk AJTS",
+        "url": "https://www.baesystems.com/en-us/story/about-hawk-ajts",
+        "publisher": "BAE Systems",
+        "note": "Manufacturer story/source for Hawk Advanced Jet Training System specification context; extraction was limited, so exact values are cross-checked against RAF data where possible."
+      },
+      {
+        "id": "fn-ascent-t2",
+        "title": "Aircraft profiles: Hawk T2",
+        "url": "https://ascentflighttraining.com/aircraft-profiles-hawk-t2",
+        "publisher": "Ascent Flight Training",
+        "note": "UKMFTS training context and RAF Valley/Hawk T2 fleet-background source."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "BAE Systems Hawk",
         "url": "https://en.wikipedia.org/wiki/BAE_Systems_Hawk",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation for variant and operator names; not used alone for sensitive or exact claims."
       },
       {
         "id": "fn-method",
@@ -59121,27 +59219,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.raf.mod.uk/equipment/hawk128.html",
-        "publisher": "raf.mod.uk",
-        "note": "External source for BAE Systems Hawk."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.baesystems.com/facts/programmes/airsystems/hawk.htm",
-        "publisher": "baesystems.com",
-        "note": "External source for BAE Systems Hawk."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.yle.fi/uutiset/kotimaa/vasen/id63652.html",
-        "publisher": "yle.fi",
-        "note": "External source for BAE Systems Hawk."
       }
     ],
     "country_flags": [
@@ -59156,34 +59233,35 @@
     "development_tensions": [],
     "wars_used_in": [],
     "variant_families": [
-      "BAE Systems Hawk baseline production model",
-      "BAE Systems Hawk upgraded avionics or weapons-capable model",
-      "BAE Systems Hawk two-seat trainer or conversion model"
+      "Hawk T1/T1A early RAF trainer and display aircraft",
+      "Hawk 50/60 early export trainers",
+      "Hawk 100/120-series advanced trainers and light-attack variants",
+      "Hawk 200 single-seat light-combat derivative",
+      "Hawk AJT / Hawk T2 modern embedded-training standard"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United Kingdom"
       ],
-      "major_user_note": "BAE Systems Hawk has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Hawk-family aircraft have been ordered or delivered to about 18 countries in manufacturer and secondary summaries; current status and exact counts vary by date.",
+      "all_operators_status": "Operators include the RAF, Indian Air Force, Indian Navy, Royal Saudi Air Force, Royal Australian Air Force, South African Air Force, Finnish Air Force, and other export users."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "RAF Red Arrows display Hawks made the type publicly recognizable beyond training units.",
+        "RAF Hawk T2 aircraft at RAF Valley form the core of advanced fast-jet training for RAF pilots."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Individual accident records are not summarized here; operational safety histories are operator-specific and require separate source review."
       ]
     },
     "engine_details": {
       "type": "Jet",
-      "summary": "BAE Systems Hawk uses jet propulsion."
+      "summary": "Single Rolls-Royce/Turbomeca Adour turbofan family; RAF Hawk T2 data lists the Adour Mk.951 at 6,500 lb thrust."
     },
     "armament_details": {
-      "summary": "Trainer aircraft; light-attack stores not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Training versions are normally unarmed or carry practice stores; T1A and some export light-attack versions can carry air-to-air or air-to-ground weapons depending on clearance.",
+      "caution": "Weapons, pods, and pylons are highly variant- and operator-dependent, so this article avoids a universal loadout claim."
     },
     "similar_development": [
       {
@@ -59208,76 +59286,90 @@
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 54,
+      "operator_entries": 8,
+      "variant_entries": 7,
+      "external_article_sources": 6
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-raf-t2",
+        "title": "Hawk T2",
+        "url": "https://www.raf.mod.uk/aircraft/hawk-t2",
+        "publisher": "Royal Air Force",
+        "note": "Official RAF page used for Hawk T2 role, history, avionics description, and technical specifications."
+      },
+      {
+        "id": "fn-bae-hawk-ajt",
+        "title": "Hawk Advanced Jet Trainer",
+        "url": "https://www.baesystems.com/en/product/hawk-ajt",
+        "publisher": "BAE Systems",
+        "note": "Manufacturer page used for Hawk AJT program framing; page extraction was limited, so it is used conservatively with public manufacturer search snippets."
+      },
+      {
+        "id": "fn-bae-ajts",
+        "title": "About Hawk AJTS",
+        "url": "https://www.baesystems.com/en-us/story/about-hawk-ajts",
+        "publisher": "BAE Systems",
+        "note": "Manufacturer story/source for Hawk Advanced Jet Training System specification context; extraction was limited, so exact values are cross-checked against RAF data where possible."
+      },
+      {
+        "id": "fn-ascent-t2",
+        "title": "Aircraft profiles: Hawk T2",
+        "url": "https://ascentflighttraining.com/aircraft-profiles-hawk-t2",
+        "publisher": "Ascent Flight Training",
+        "note": "UKMFTS training context and RAF Valley/Hawk T2 fleet-background source."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "BAE Systems Hawk",
         "url": "https://en.wikipedia.org/wiki/BAE_Systems_Hawk",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation for variant and operator names; not used alone for sensitive or exact claims."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.raf.mod.uk/equipment/hawk128.html",
-        "publisher": "raf.mod.uk",
-        "note": "External source for BAE Systems Hawk."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.baesystems.com/facts/programmes/airsystems/hawk.htm",
-        "publisher": "baesystems.com",
-        "note": "External source for BAE Systems Hawk."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.yle.fi/uutiset/kotimaa/vasen/id63652.html",
-        "publisher": "yle.fi",
-        "note": "External source for BAE Systems Hawk."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.raf.mod.uk/equipment/hawk128.html",
-        "publisher": "raf.mod.uk",
-        "note": "External source for BAE Systems Hawk."
+        "id": "fn-raf-t2",
+        "title": "Hawk T2",
+        "url": "https://www.raf.mod.uk/aircraft/hawk-t2",
+        "publisher": "Royal Air Force",
+        "note": "Official RAF page used for Hawk T2 role, history, avionics description, and technical specifications."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.baesystems.com/facts/programmes/airsystems/hawk.htm",
-        "publisher": "baesystems.com",
-        "note": "External source for BAE Systems Hawk."
+        "id": "fn-bae-hawk-ajt",
+        "title": "Hawk Advanced Jet Trainer",
+        "url": "https://www.baesystems.com/en/product/hawk-ajt",
+        "publisher": "BAE Systems",
+        "note": "Manufacturer page used for Hawk AJT program framing; page extraction was limited, so it is used conservatively with public manufacturer search snippets."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.yle.fi/uutiset/kotimaa/vasen/id63652.html",
-        "publisher": "yle.fi",
-        "note": "External source for BAE Systems Hawk."
+        "id": "fn-bae-ajts",
+        "title": "About Hawk AJTS",
+        "url": "https://www.baesystems.com/en-us/story/about-hawk-ajts",
+        "publisher": "BAE Systems",
+        "note": "Manufacturer story/source for Hawk Advanced Jet Training System specification context; extraction was limited, so exact values are cross-checked against RAF data where possible."
+      },
+      {
+        "id": "fn-ascent-t2",
+        "title": "Aircraft profiles: Hawk T2",
+        "url": "https://ascentflighttraining.com/aircraft-profiles-hawk-t2",
+        "publisher": "Ascent Flight Training",
+        "note": "UKMFTS training context and RAF Valley/Hawk T2 fleet-background source."
+      },
+      {
+        "id": "fn-wikipedia",
+        "title": "BAE Systems Hawk",
+        "url": "https://en.wikipedia.org/wiki/BAE_Systems_Hawk",
+        "publisher": "Wikipedia",
+        "note": "Supplementary orientation for variant and operator names; not used alone for sensitive or exact claims."
       }
     ],
     "article_sections": [
@@ -59286,168 +59378,201 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "BAE Systems Hawk is an Advanced jet trainer from United Kingdom. Manufacturer: Hawker Siddeley / BAE Systems. First flight: 1974. Introduction: 1976. Status: Active.",
+            "text": "The BAE Systems Hawk is a British single-engine, two-seat advanced jet trainer that began as the Hawker Siddeley Hawk and later continued under British Aerospace and BAE Systems. It was designed as a robust, lower-cost advanced trainer for fast-jet pilots and has also been adapted for display flying, weapons training, air-defense alert duties, and export light-attack roles.",
             "refs": [
-              "fn-main"
+              "fn-raf-t2",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "BAE Systems Hawk is a trainer. Primary role: advanced jet trainer. Country of origin: United Kingdom. Manufacturer: Hawker Siddeley / BAE Systems.",
+            "text": "RAF history material traces the Hawk to the Hawker Siddeley P.1182 design after the Jaguar B trainer option proved too expensive. The type first flew in 1974, entered RAF training service in 1976, and replaced the Folland Gnat as the RAF advanced trainer. Later Hawk T2/Hawk 128 aircraft added glass-cockpit and synthetic-training features for pilots progressing to modern combat aircraft.",
             "refs": [
-              "fn-wikidata"
+              "fn-raf-t2"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The Hawk family is important because it bridges basic flying training and front-line fighter conversion. Manufacturer and secondary summaries describe a broad export career, with roughly eighteen national customers and more than one thousand aircraft ordered or sold across multiple variants; exact fleet counts remain date-sensitive.",
             "refs": [
-              "fn-method"
+              "fn-bae-hawk-ajt",
+              "fn-wikipedia"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Advanced jet trainer"
+            "text": "Advanced jet trainer; some variants support weapons training or light attack"
           },
           {
-            "title": "Designer or builder",
-            "text": "Hawker Siddeley / BAE Systems"
-          },
-          {
-            "title": "Major origin",
+            "title": "National origin",
             "text": "United Kingdom"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Crew",
+            "text": "Usually two: student and instructor"
+          },
+          {
+            "title": "Powerplant",
+            "text": "One Rolls-Royce/Turbomeca Adour turbofan"
+          },
+          {
+            "title": "Status",
+            "text": "Active with RAF Hawk T2 and many export users; older T1-family aircraft are retired or display/legacy assets depending on user"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "BAE Systems Hawk first flew in 1974. Introduction date: 1976. Era: Modern.",
+            "text": "The RAF requirement emerged after the Folland Gnat had entered advanced-training service but before a cost-effective successor had been selected. Hawker Siddeley proposed the P.1182 design, and the RAF formalized its need for a purpose-built trainer rather than a more expensive Jaguar-based two-seat solution.",
             "refs": [
-              "fn-main"
+              "fn-raf-t2"
             ]
           },
           {
-            "text": "Producer: Hawker Siddeley / BAE Systems. Development context: advanced jet trainer, jet propulsion, subsonic speed category, Modern era.",
+            "text": "The Hawk first flew in 1974 and entered RAF service in 1976. Its simple single-engine layout, tandem cockpit, and trainer-focused maintainability made it suitable for repeated student sorties and for later aerobatic-display use.",
             "refs": [
-              "fn-wikidata"
+              "fn-raf-t2"
+            ]
+          },
+          {
+            "text": "The design was repeatedly developed for export. Early T1/T1A and Hawk 50/60 aircraft led to Hawk 100-series trainers and light-attack aircraft, the single-seat Hawk 200, and later Hawk 120-series and Hawk AJT standards. The RAF Hawk T2 is the Hawk 128 standard and became fully operational in 2009 under the UK advanced fast-jet training system.",
+            "refs": [
+              "fn-raf-t2",
+              "fn-wikipedia"
             ]
           }
         ],
-        "bullets": []
+        "bullets": [
+          {
+            "text": "1974: Hawk first flight.",
+            "refs": [
+              "fn-raf-t2"
+            ]
+          },
+          {
+            "text": "1976: RAF training-service entry.",
+            "refs": [
+              "fn-raf-t2"
+            ]
+          },
+          {
+            "text": "Late 1970s: RAF T1 aircraft modified for limited air-defense duties with AIM-9L capability as Hawk T1A.",
+            "refs": [
+              "fn-raf-t2"
+            ]
+          },
+          {
+            "text": "2004-2009: Hawk T2/Hawk 128 introduced and made operational for modern glass-cockpit advanced training.",
+            "refs": [
+              "fn-raf-t2"
+            ]
+          }
+        ]
       },
       {
         "id": "design",
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 2. Propulsion: Jet. Speed category: Subsonic.",
+            "text": "The Hawk is a low-wing, fully aerobatic trainer with tandem seating for an instructor and student. The single-turbofan configuration prioritizes training reliability and operating economy rather than fighter-level speed or payload.",
             "refs": [
-              "fn-main"
+              "fn-raf-t2"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "RAF Hawk T2 aircraft use advanced avionics, a glass cockpit, data-link functions, synthetic radar, and simulated sensor and electronic-warfare effects to recreate tactical situations without fitting a front-line fighter radar or full combat sensor suite.",
             "refs": [
+              "fn-raf-t2"
+            ]
+          },
+          {
+            "text": "Hawk T2 recognition features include a modified nose and tail, additional fins, radar warning receiver equipment, and a tail cone that supports a brake parachute. These features distinguish it from earlier RAF Hawk T1-family aircraft.",
+            "refs": [
+              "fn-raf-t2"
+            ]
+          },
+          {
+            "text": "Armament fit is not universal. RAF advanced-training Hawk T2 aircraft are treated here as training jets; Hawk T1A, Hawk 100/200, and some export aircraft may carry missiles, bombs, rockets, guns, or practice stores depending on variant and national integration.",
+            "refs": [
+              "fn-raf-t2",
               "fn-method"
             ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Airframe",
+            "text": "Low-wing, aerobatic, tandem-seat trainer"
           },
           {
-            "text": "BAE Systems Hawk uses jet propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Cockpit",
+            "text": "T2/AJT standards use glass-cockpit and embedded-training features"
           },
           {
-            "text": "Armament field: Trainer aircraft; light-attack stores not listed. Exact weapon list: Not listed.",
+            "title": "Engine",
+            "text": "Adour turbofan; RAF T2 lists the Adour Mk.951"
+          },
+          {
+            "title": "Avionics",
+            "text": "Synthetic radar, data link, sensor simulation, and electronic-warfare training functions on T2"
+          },
+          {
+            "title": "Weapons caution",
+            "text": "Loadouts are variant- and operator-dependent; training versions should not be described with a universal combat load"
+          }
+        ]
+      },
+      {
+        "id": "specifications",
+        "title": "Specifications",
+        "paragraphs": [
+          {
+            "text": "The values below use official RAF Hawk T2 data where available. Older Hawk T1, export Hawk 100/120-series, Hawk 200, and navalized T-45-family derivatives differ in avionics, structure, stores, and performance.",
             "refs": [
-              "fn-main"
+              "fn-raf-t2",
+              "fn-method"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "2"
+            "text": "1 or 2 pilots"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Powerplant",
+            "text": "One Rolls-Royce/Turbomeca Adour Mk.951 turbofan"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Thrust",
+            "text": "6,500 lb, RAF T2 data"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Length",
+            "text": "12.43 m"
           },
           {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "BAE Systems Hawk status: Active. Conflict entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Height",
+            "text": "3.98 m"
           },
           {
-            "text": "Conflicts: 0 entries.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "BAE Systems Hawk named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Wingspan",
+            "text": "9.94 m"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum speed",
+            "text": "555 kt"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum altitude",
+            "text": "42,000 ft"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Role baseline",
+            "text": "Advanced fast-jet training; light-attack capability depends on variant"
           }
         ]
       },
@@ -59456,35 +59581,54 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "BAE Systems Hawk variant-family entries: 3. Variant families: BAE Systems Hawk baseline production model; BAE Systems Hawk upgraded avionics or weapons-capable model; BAE Systems Hawk two-seat trainer or conversion model.",
+            "text": "The Hawk family grew from the RAF trainer into a broad export line. Variant names often reflect national avionics, support contracts, and weapons training requirements, so specifications and stores should be checked by exact mark.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-raf-t2",
+              "fn-wikipedia"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "BAE Systems Hawk baseline production model",
+            "text": "Hawk T1/T1A: original RAF trainer family; T1A aircraft added limited air-defense wiring and AIM-9L capability.",
             "refs": [
-              "fn-main"
+              "fn-raf-t2"
             ]
           },
           {
-            "text": "BAE Systems Hawk upgraded avionics or weapons-capable model",
+            "text": "Hawk 50/60: early export two-seat trainers with national equipment fits.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "BAE Systems Hawk two-seat trainer or conversion model",
+            "text": "Hawk 100: improved two-seat export trainer/light-attack family with updated avionics and combat-training options.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Hawk 120-series: advanced lead-in fighter trainer family including Australian Hawk 127, South African Hawk 120, Indian Hawk Mk 132, and related national variants.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Hawk 128 / T2 / AJT: modern RAF and export advanced-training standard with glass cockpit and embedded training.",
+            "refs": [
+              "fn-raf-t2"
+            ]
+          },
+          {
+            "text": "Hawk 200: single-seat light-combat derivative with radar nose and expanded weapons role.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "T-45 Goshawk: U.S. Navy navalized derivative; related to the Hawk design but substantially modified for carrier training.",
+            "refs": [
+              "fn-wikipedia"
             ]
           }
         ]
@@ -59494,13 +59638,118 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United Kingdom. BAE Systems Hawk has 1 designer or builder country entry.",
+            "text": "Hawk operators span Europe, the Middle East, Asia, Africa, and Oceania. The list below is representative rather than a date-locked fleet inventory because aircraft retirements, licence production, and training-service contracts change over time.",
             "refs": [
-              "fn-wikidata"
+              "fn-bae-hawk-ajt",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "United Kingdom: RAF Hawk T2 advanced training at RAF Valley and Red Arrows Hawk T1 display heritage.",
+            "refs": [
+              "fn-raf-t2",
+              "fn-ascent-t2"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "India: Hawk Mk 132 aircraft for the Indian Air Force and Indian Navy, including HAL-supported/licence-built aircraft.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Saudi Arabia: Hawk and Hawk AJT operator for fast-jet training.",
+            "refs": [
+              "fn-bae-hawk-ajt"
+            ]
+          },
+          {
+            "text": "Australia: Hawk 127 Lead-In Fighter trainer operator.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "South Africa: Hawk 120-series advanced trainer operator.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Finland: long-time Hawk training operator with upgraded aircraft.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Canada: CT-155 Hawk advanced-training service under contractor-supported arrangements, with transition timing changing by contract period.",
+            "refs": [
+              "fn-ascent-t2",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Other export users include Indonesia, Malaysia, Oman, Bahrain, Kuwait, Qatar, the United Arab Emirates, Zimbabwe, and others depending on period and mark.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "In RAF service the Hawk became the main advanced jet trainer after replacing the Gnat. Its high sortie utility and fighter-like handling allowed pilots to learn formation flying, aerobatics, instrument work, weapons procedures, and tactical flying before moving to front-line aircraft.",
+            "refs": [
+              "fn-raf-t2"
+            ]
+          },
+          {
+            "text": "The Hawk T2 modernized this role by adding glass-cockpit, synthetic radar, data-link, and simulated electronic-warfare training so students can rehearse modern combat workflows before conversion to Typhoon, F-35, or other front-line types.",
+            "refs": [
+              "fn-raf-t2"
+            ]
+          },
+          {
+            "text": "The Red Arrows made the Hawk one of the most visible British military aircraft. Export users have employed the family for advanced training, lead-in fighter training, weapons instruction, display flying, and in some cases light-attack or air-defense missions.",
+            "refs": [
+              "fn-raf-t2",
+              "fn-wikipedia"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include a long production and support base, simple single-engine trainer economics, aerobatic handling, tandem instruction, and a large international user community. The T2/AJT standard adds embedded training that lets instructors simulate tactical scenarios without the cost of a front-line fighter sortie.",
+            "refs": [
+              "fn-raf-t2",
+              "fn-bae-hawk-ajt"
+            ]
+          },
+          {
+            "text": "Limitations follow from its trainer origin: the Hawk is subsonic, normally lacks a real fighter radar in training versions, and carries weapons only in variant-specific configurations. It is best described as an advanced trainer and training-system aircraft, not as a universal light fighter.",
+            "refs": [
+              "fn-raf-t2",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "Key dates are kept to major program milestones to avoid implying that every export mark followed the RAF schedule.",
             "refs": [
               "fn-method"
             ]
@@ -59508,43 +59757,55 @@
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "1962: Folland Gnat enters RAF advanced-training service, setting the context for the later Hawk replacement.",
             "refs": [
-              "fn-main"
+              "fn-raf-t2"
             ]
           },
           {
-            "text": "Major designer or builder entries: United Kingdom.",
+            "text": "1974: Hawk first flight.",
             "refs": [
-              "fn-wikidata"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "specifications",
-        "title": "Specifications",
-        "paragraphs": [
-          {
-            "text": "Comparable fields: crew 2, propulsion type Jet, maximum speed category Subsonic, first flight 1974, introduction 1976.",
-            "refs": [
-              "fn-main"
+              "fn-raf-t2"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "1976: RAF Hawk training service begins.",
             "refs": [
-              "fn-method"
+              "fn-raf-t2"
+            ]
+          },
+          {
+            "text": "Late 1970s: RAF Hawk T1 air-defense modification creates T1A capability.",
+            "refs": [
+              "fn-raf-t2"
+            ]
+          },
+          {
+            "text": "Late 1980s-1990s: export Hawk 100 and 120-series lead-in fighter trainer families develop.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "2004: RAF Hawk T2 introduced for advanced fast-jet training.",
+            "refs": [
+              "fn-raf-t2"
+            ]
+          },
+          {
+            "text": "2009: RAF Hawk T2 becomes fully operational under the UK advanced training program.",
+            "refs": [
+              "fn-raf-t2"
             ]
           }
         ]
       },
       {
         "id": "similar-development",
-        "title": "Similar Development",
+        "title": "Related Pages",
         "paragraphs": [
           {
-            "text": "BAE Systems Hawk similar-development links: 4.",
+            "text": "These Milipedia pages provide useful context for advanced jet trainers and lead-in fighter-training aircraft.",
             "refs": [
               "fn-method"
             ]
@@ -59566,6 +59827,21 @@
           {
             "label": "Aermacchi MB-339",
             "url": "aircraft.html?id=mb-339"
+          }
+        ]
+      },
+      {
+        "id": "sources",
+        "title": "Sources",
+        "paragraphs": [
+          {
+            "text": "Primary formatting follows Milipedia aircraft pages and the F-16 reference density pattern. RAF data is preferred for T2 specifications; manufacturer pages are used for program context where accessible; Wikipedia is retained only as a supplementary orientation source for broad variant/operator lists.",
+            "refs": [
+              "fn-raf-t2",
+              "fn-bae-hawk-ajt",
+              "fn-wikipedia",
+              "fn-method"
+            ]
           }
         ]
       }

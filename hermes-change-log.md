@@ -4854,3 +4854,78 @@ Record the result of:
 * Wikipedia was used only as supplementary orientation for prototype chronology, variant naming, and operational-history context; official/museum pages were preferred for central technical claims.
 * Exact combat-radius figures, loss tables, and universal stores configurations were intentionally omitted because they vary by variant, operator, date, and public-source reliability.
 * Commit hash cannot be embedded in the committed change log without changing the hash again; the final hash is reported in the scheduled-run response.
+
+### Run 64 — 2026-07-03 06:02:01 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: BAE Systems Hawk (id: bae-hawk)
+* Reason selected: Candidate scoring found it as the shortest unedited aircraft entry, with generated placeholder prose, no complete variant entries, no operator entries, generic specifications, and sparse design/service coverage compared with the F-16 reference page.
+* Previous condition: The entry had nine generated article sections but relied on short formulaic paragraphs, listed dimensions/range/engine details as not listed, contained zero structured operators and zero complete variants, and used stale/generic external-source labels.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: dense overview-first article flow; development, design, specifications, variants, operators, operational history, strengths/limitations, timeline, sources, and related-page sections; neutral technical tone; cards for compact system/specification facts; bullets for timeline, variants, and operators; cautious variant-dependent wording; explicit source notes.
+
+#### Changes Made
+
+* Expanded the BAE Systems Hawk entry from generated placeholder text into a fuller trainer-aircraft article.
+* Added alternate names for Hawker Siddeley Hawk, British Aerospace Hawk, Hawk T1, Hawk T2, Hawk 128, and Hawk AJT.
+* Replaced missing/generic top-level specifications with RAF Hawk T2 data where publicly verified, including Adour Mk.951 powerplant, 555 kt maximum speed, 42,000 ft maximum altitude, dimensions, and thrust.
+* Added careful armament and hardpoint wording that treats RAF Hawk T2 as a trainer and avoids implying a universal combat loadout across all Hawk marks.
+* Added seven structured variant entries: Hawk T1/T1A, Hawk 50/60, Hawk 100, Hawk 120-series/Lead-In Fighter Trainer, Hawk 200, Hawk AJT/T2/128, and the related T-45 Goshawk derivative.
+* Added eight representative operator entries covering the RAF, India, Saudi Arabia, Australia, South Africa, Finland, Canada, and other export users with date-sensitive caveats.
+* Rebuilt article sections to match the F-16-style order and density for a data-driven page: Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Timeline, Related Pages, and Sources.
+* Replaced stale generic source labels with named RAF, BAE Systems, Ascent Flight Training, Wikipedia-supplementary, and Milipedia-method sources.
+* Preserved existing image and internal related links while confirming local related-page targets exist.
+* Omitted exact fleet counts, accident details, and universal weapons lists where public data is date-sensitive or variant-specific.
+
+#### Files Modified
+
+* data/aircraft.json — expanded only the `bae-hawk` aircraft entry with article content, variants, operators, specifications, sources, and related section cleanup.
+* hermes-change-log.md — appended this cumulative Run 64 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before the log update, only `data/aircraft.json` was modified; after the log update, the intended files were `data/aircraft.json` and `hermes-change-log.md`.
+2. git diff — Reviewed the diff and confirmed it changes only the BAE Systems Hawk JSON entry plus this appended log entry.
+3. File review — `python3 -m json.tool data/aircraft.json >/dev/null` passed; selected entry now has 11 article sections, 7 variants, 8 operators, and 6 named sources.
+4. F-16 style comparison — Compared against `data/f16-template.html`; copied the section order, dense technical tone, card/bullet style, source cautioning, related-page style, and variant/operator structure appropriate for a data-driven JSON page.
+5. Internal link check — Recursive link check found related IDs `t-38-talon`, `t-6-texan-ii`, `yak-130`, and `mb-339`; all exist in `data/aircraft.json`.
+6. Secret/token check — Credential-pattern scan over the staged diff found no private keys, passwords, cloud credential names, or access/auth token assignments.
+7. Final review before commit — Confirmed branch `hermes-agent`, `git diff --check` passed, exactly one aircraft entry changed with the same ID before/after, and only intended files were staged.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand BAE Systems Hawk
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* BAE Systems product pages were difficult to extract directly in this environment, so manufacturer claims were used conservatively and cross-checked against RAF data where exact specifications were included.
+* Exact global fleet totals, retirement status by country, and weapons fits are date-sensitive and variant-specific; the article intentionally uses cautious representative wording rather than exhaustive tables.
