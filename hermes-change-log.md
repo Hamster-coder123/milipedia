@@ -7689,3 +7689,74 @@ Record the result of:
 * No aircraft page was edited because the remaining unedited non-reference page did not meet the sparse/incomplete selection threshold for a safe hourly update.
 * The verification checklist contains page-edit wording; for this log-only run, those items were satisfied by confirming no suitable page was selected and no new page content or links were introduced.
 * The task should likely stop or receive new human direction after this run because the repository appears to have exhausted sparse aircraft-page candidates under the current rules.
+
+### Run 101 — 2026-07-04 19:01:57 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: None — no aircraft page changed in this log-only run.
+* Aircraft/Page: No suitable sparse unedited aircraft page found.
+* Reason selected: No page was selected because the remaining unedited non-reference aircraft entry, Northrop F-5 (id: f-5-freedom-fighter-tiger-ii), remains a complete article-style page rather than a sparse or placeholder page. It already has overview, development, design, specifications, variants, operators, operational history, notable events, comparison, strengths/limitations, public perception, timeline, sources, and related-link coverage.
+* Previous condition: Candidate review found Northrop F-5 already has 13 article sections, 38 section paragraphs, 50 bullets, 10 variants, 10 operator entries, 13 source records, and 12 rendered external article links. The F-16 page remains the required reference/template-backed page and was not considered an editable candidate.
+* Previously edited by Hermes: No for Northrop F-5, but it was not selected because it was not sparse or incomplete enough to justify a forced edit.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Inspected as the density and layout benchmark: single HTML template article structure, dense top overview, technical specification table, development/design/specifications/variants/operators/operational-history/comparison/strengths-limitations/timeline/sources/related-pages ordering, concise source-aware technical tone, and internal aircraft.html?id=... related-link style. No aircraft page was edited because no suitable sparse target remained.
+
+#### Changes Made
+
+* Confirmed repository work was on the hermes-agent branch after fetching and rebasing the latest origin/hermes-agent state.
+* Counted previous Hermes run entries and identified this as Run 101.
+* Inspected the F-16 reference template at data/f16-template.html for the required formatting and density reference.
+* Parsed data/aircraft.json and reviewed remaining unedited non-reference candidate status against prior Hermes change-log selections.
+* Confirmed that the only remaining unedited non-reference candidate, Northrop F-5, is already too complete to meet the sparse/incomplete page-selection threshold.
+* Appended this log-only no-suitable-page entry rather than forcing an unnecessary aircraft content edit.
+
+#### Files Modified
+
+* hermes-change-log.md — Appended this Run 101 log-only entry documenting that no suitable sparse unedited aircraft page remained.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, the only intended modified file was hermes-change-log.md.
+2. git diff — Reviewed the diff; it appends only this Run 101 no-suitable-page log entry and does not alter aircraft content.
+3. File review — Parsed data/aircraft.json and reviewed the remaining Northrop F-5 candidate summary; it is already detailed rather than sparse.
+4. F-16 style comparison — Inspected data/f16-template.html and compared its density/section order with the Northrop F-5 summary; no safe sparse-page target remained.
+5. Internal link check — No aircraft page was changed; no new internal links were introduced.
+6. Secret/token check — Checked the staged diff with credential-specific patterns for private keys, passwords, cloud credentials, and access/auth tokens; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, log-only diff scope, no main-branch edits, and no forced aircraft edit.
+
+#### Commit
+
+* Commit message: Hermes hourly update: log no suitable aircraft page
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* No aircraft page was edited because the remaining unedited non-reference page did not meet the sparse/incomplete selection threshold for a safe hourly update.
+* The verification checklist contains page-edit wording; for this log-only run, those items were satisfied by confirming no suitable page was selected and no new page content or links were introduced.
+* The task should likely stop or receive new human direction because the repository appears to have exhausted sparse aircraft-page candidates under the current rules.
