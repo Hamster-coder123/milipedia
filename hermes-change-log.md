@@ -6788,3 +6788,80 @@ Record the result of:
 
 * Tavily web search/extract returned backend 432 errors, and direct fetching of official USAF/ACC/National Museum pages returned 403 responses in this environment. Official URLs were retained as references, while accessible GlobalSecurity, Airforce Technology, and Wikipedia content were used to cross-check public figures.
 * B-52 weapon carriage and current modernization details are configuration- and date-sensitive; the page intentionally avoids a single universal loadout or classified/current readiness claims.
+
+### Run 89 — 2026-07-04 07:05:13 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: SEPECAT Jaguar (id: sepecat-jaguar)
+* Reason selected: Lowest-scoring unedited sparse aircraft candidate after excluding the F-16 reference page; the entry had generated prose, no concrete variants, no operator entries, missing engine/range/ceiling/specification detail, stale generic external-source labels, and much lower article density than the F-16 reference page.
+* Previous condition: Placeholder-like generated entry with 9 short sections, 0 variants, 0 operators, 3 generic external source labels, mostly “Not listed” technical fields, generic armament wording, and stale conflict/gallery metadata.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview, technical specification cards, development/design/weapons/specifications/variants/operators/operational-history sequence, comparison and timeline sections, cautious variant-specific source wording, renderer-compatible card/bullet/link shapes, and internal `aircraft.html?id=...` related-page links.
+
+#### Changes Made
+
+* Expanded the SEPECAT Jaguar entry from sparse generated text into a fuller article-style record about the British-French supersonic tactical strike aircraft.
+* Updated top-level facts for role, first flight, retirement/status by operator, production total, crew, Adour afterburning turbofan powerplant, speed class, service ceiling, hardpoints, armament, development history, combat-history summary, and operator summary.
+* Added concrete variant entries for Jaguar A, Jaguar E, Jaguar S/GR family, Jaguar B/T family, Jaguar M, Jaguar International, and Indian IS/IB/IM/DARIN branches.
+* Added representative operator entries for India, the United Kingdom, France, Oman, Ecuador, and Nigeria with cautious date/status wording.
+* Added detailed article sections for Overview, Development History, Design and Capabilities, Weapons Systems, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Comparison, Timeline, and Sources and Related Pages.
+* Added renderer-compatible specification cards covering crew, dimensions, maximum takeoff weight, engines, maximum speed, service ceiling, and armament stations while marking figures as variant/configuration dependent.
+* Replaced stale generic source labels with RAF Museum, archived Dassault manufacturer heritage, Wikipedia supplementary orientation, and local Milipedia data-rules references.
+* Updated related internal links to Panavia Tornado, Dassault Mirage F1, Sukhoi Su-17, A-7 Corsair II, and A-4 Skyhawk, and verified the target IDs exist.
+* Removed stale generated event-gallery entries that were not specific enough for the Jaguar article.
+* Omitted exact current Indian fleet counts, detailed combat-loss totals, and operator-specific weapon clearances where public data is date-sensitive or requires human review.
+
+#### Files Modified
+
+* data/aircraft.json — expanded only the `sepecat-jaguar` aircraft entry and cleaned stale generated metadata for that entry.
+* hermes-change-log.md — appended this Run 89 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — before commit, only `data/aircraft.json` and `hermes-change-log.md` were modified/staged.
+2. git diff — reviewed the aircraft JSON diff/stat and this log entry; the aircraft diff changed only the `sepecat-jaguar` entry.
+3. File review — `python3 -m json.tool data/aircraft.json` passed; selected entry showed 12 article sections, 7 variants, 6 operators, 4 source/footnote entries, and cleaned event-gallery metadata.
+4. F-16 style comparison — inspected `data/f16-template.html` and matched its dense overview, specification-card emphasis, section ordering, internal-link style, comparison/timeline coverage, and source/caveat density within the JSON-rendered article system.
+5. Internal link check — recursive check found all `aircraft.html?id=...` links in the Jaguar entry target existing local IDs: `panavia-tornado`, `mirage-f1`, `su-17`, `a-7-corsair-ii`, and `a-4-skyhawk`.
+6. Secret/token check — credential-specific staged-diff scan reported no added private credentials or access/auth tokens.
+7. Final review before commit — branch check confirmed `hermes-agent`; JSON syntax passed; single-entry comparison passed; internal-link check passed; `git diff --check` passed; only intended files were staged.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand SEPECAT Jaguar
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Tavily web search/extract returned backend 432 errors, so this run used direct retrieval of the RAF Museum page, archived Dassault manufacturer page, and Wikipedia API text for source cross-checking.
+* Current Dassault and BAE heritage pages returned Incapsula/blocked pages in this environment; the archived Dassault page was used instead of the live current page.
+* Jaguar specifications and weapons fits vary by French, British, export, and Indian upgrade standards; exact fleet counts, loss totals, and detailed current weapon clearances were intentionally omitted or marked as operator/date-sensitive.
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.

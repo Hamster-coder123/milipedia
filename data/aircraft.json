@@ -61470,30 +61470,103 @@
     "nato_reporting_name": null,
     "country_of_origin": "United Kingdom/France",
     "manufacturer": "SEPECAT",
-    "role": "Attack aircraft",
-    "aircraft_type": "Attack aircraft",
-    "era": "Cold War/Modern",
-    "first_flight": "1968",
+    "role": "Supersonic tactical strike aircraft",
+    "aircraft_type": "Attack aircraft / tactical strike aircraft",
+    "era": "Cold War",
+    "first_flight": "8 September 1968",
     "introduction_date": "1973",
-    "retirement_date": null,
-    "status": "Active/retired by operator",
-    "number_built": "Not listed",
-    "crew": "1 or 2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "retirement_date": "2005 France / 2007 United Kingdom / 2014 Oman; still active with India in public summaries",
+    "status": "Retired by France, the United Kingdom, Oman, Ecuador, and Nigeria; active with India in public summaries",
+    "number_built": "573 reported by archived Dassault heritage page",
+    "crew": "1 or 2 depending on variant",
+    "engine_type": "Afterburning turbofan",
+    "engines": "Two Rolls-Royce/Turbomeca Adour afterburning turbofans",
+    "max_speed": "Supersonic; about Mach 1.6 at altitude for representative clean aircraft",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "SEPECAT Jaguar: Attack aircraft. Manufacturer: SEPECAT. First flight: 1968. Introduction: 1973.",
-    "short_summary": "SEPECAT Jaguar: Attack aircraft. Origin: United Kingdom/France. Manufacturer: SEPECAT. First flight: 1968. Introduction: 1973. Status: Active/retired by operator.",
+    "range": "Variant/load dependent; ferry and combat radius figures vary with tanks and stores",
+    "combat_range": "Configuration-dependent; low-level attack profiles significantly reduced radius",
+    "service_ceiling": "Approximately 46,000 ft / 14,000 m class for representative variants",
+    "rate_of_climb": "Variant and load dependent",
+    "armament": "Two 30 mm cannon on major strike variants plus bombs, rockets, drop tanks, reconnaissance pods, guided weapons, and self-defense missiles depending on operator and upgrade standard.",
+    "hardpoints": "Five external stores stations commonly cited; exact clearances vary by variant and operator",
+    "variants": [
+      {
+        "name": "Jaguar A",
+        "description": "French single-seat tactical-support/strike aircraft.",
+        "role": "Strike / close air support"
+      },
+      {
+        "name": "Jaguar E",
+        "description": "French two-seat trainer and conversion aircraft.",
+        "role": "Training / conversion"
+      },
+      {
+        "name": "Jaguar S / GR.1 / GR.3 family",
+        "description": "RAF single-seat tactical-support aircraft with later avionics and weapons upgrades.",
+        "role": "Strike / reconnaissance / close support"
+      },
+      {
+        "name": "Jaguar B / T.2 family",
+        "description": "RAF two-seat trainer/conversion branch.",
+        "role": "Training / conversion"
+      },
+      {
+        "name": "Jaguar M",
+        "description": "French naval carrier-based project tested but cancelled before operational use.",
+        "role": "Prototype naval strike aircraft"
+      },
+      {
+        "name": "Jaguar International",
+        "description": "Export branch supplied to customers including Oman, Ecuador, Nigeria, and India.",
+        "role": "Export strike aircraft"
+      },
+      {
+        "name": "Jaguar IS / IB / IM and DARIN upgrades",
+        "description": "Indian strike, trainer, maritime, and avionics-upgrade standards including license production by HAL.",
+        "role": "Strike / maritime strike / training"
+      }
+    ],
+    "operators": [
+      {
+        "country": "India",
+        "service": "Indian Air Force",
+        "status": "Current in public summaries",
+        "notes": "Longest-running operator; includes direct-supply and HAL-built aircraft with Indian upgrade standards."
+      },
+      {
+        "country": "United Kingdom",
+        "service": "Royal Air Force",
+        "status": "Former",
+        "notes": "203 delivered to the RAF according to the RAF Museum; retired in April 2007."
+      },
+      {
+        "country": "France",
+        "service": "French Air Force",
+        "status": "Former",
+        "notes": "Original program partner and operator of Jaguar A/E aircraft; retired in 2005 in public summaries."
+      },
+      {
+        "country": "Oman",
+        "service": "Royal Air Force of Oman",
+        "status": "Former",
+        "notes": "Export operator; retirement commonly listed in 2014."
+      },
+      {
+        "country": "Ecuador",
+        "service": "Ecuadorian Air Force",
+        "status": "Former",
+        "notes": "Export operator of Jaguar International aircraft."
+      },
+      {
+        "country": "Nigeria",
+        "service": "Nigerian Air Force",
+        "status": "Former",
+        "notes": "Export operator; exact late-service status requires operator-specific verification."
+      }
+    ],
+    "combat_history": "Used by French, British, Indian, and export operators in strike, reconnaissance, and support roles; public summaries associate Jaguars with operations in Chad, the Gulf War, the Balkans, Mauritania, Iraq, and the 2011 Libya intervention, with specific details varying by operator.",
+    "development_history": "Joint British-French SEPECAT program derived from Breguet Br.121 and BAC participation; first flew at Istres on 8 September 1968 and evolved from an advanced trainer/support concept into a tactical strike aircraft.",
+    "short_summary": "The SEPECAT Jaguar was a British-French twin-engine supersonic tactical strike aircraft built by SEPECAT, introduced in the 1970s, exported to several countries, and kept in long service by the Indian Air Force after European retirement.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -61506,46 +61579,32 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-rafmuseum",
+        "title": "Sepecat Jaguar GR.1",
+        "url": "https://www.rafmuseum.org.uk/research/collections/sepecat-jaguar-gr-1/",
+        "publisher": "Royal Air Force Museum",
+        "note": "Official museum collection page used for RAF service chronology, production/order context, Gulf War use, and retirement dates."
+      },
+      {
+        "id": "fn-dassault-archive",
+        "title": "Military Dassault aircraft: Jaguar",
+        "url": "https://web.archive.org/web/20080620024938/http://www.dassault-aviation.com/en/passion/aircraft/military-dassault-aircraft/jaguar.html?L=1",
+        "publisher": "Dassault Aviation (archived)",
+        "note": "Archived manufacturer heritage page used for program origins, first flight, variant families, production/order totals, and export/license-production context."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "SEPECAT Jaguar",
         "url": "https://en.wikipedia.org/wiki/SEPECAT_Jaguar",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for public variant/operator lists and Jane's-derived specification fields; cross-checked against museum/manufacturer material where possible."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.faqs.org/docs/air/avjag.html",
-        "publisher": "faqs.org",
-        "note": "External source for SEPECAT Jaguar."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.qinetiq.com/home/newsroom/news_releases_homepage/2007/4th_quarter/last_jaguar_flight.html",
-        "publisher": "qinetiq.com",
-        "note": "External source for SEPECAT Jaguar."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.dassault-aviation.com/en/passion/aircraft/military-dassault-aircraft/jaguar.html?L=1",
-        "publisher": "dassault-aviation.com",
-        "note": "External source for SEPECAT Jaguar."
+        "note": "Local rules for neutral wording, variant-sensitive specifications, source citation, and cautious handling of uncertain data."
       }
     ],
     "country_flags": [
@@ -61562,143 +61621,142 @@
       "SEPECAT"
     ],
     "development_tensions": [
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "The program began as a trainer/support aircraft but became a heavier tactical strike platform as national requirements changed.",
+      "French and British versions used different national avionics and weapon systems, so variant-specific claims must be handled carefully.",
+      "Low-level supersonic attack performance created fuel, navigation, and modernization trade-offs."
     ],
     "wars_used_in": [
       {
-        "name": "Kosovo War",
-        "note": "SEPECAT Jaguar used in Kosovo War."
+        "name": "Gulf War",
+        "note": "RAF and French Jaguars flew coalition strike/support missions in 1991; RAF Museum highlights Coltishall Strike Wing attacks against Iraqi artillery and missile positions."
       },
       {
-        "name": "2011 military intervention in Libya",
-        "note": "SEPECAT Jaguar used in 2011 military intervention in Libya."
+        "name": "Chad and African operations",
+        "note": "French Jaguars were used in African expeditionary operations; sortie-level details vary by campaign and source."
+      },
+      {
+        "name": "Kosovo/Balkan operations",
+        "note": "Public summaries associate Jaguars with Balkan operations; details should be checked by national operator."
+      },
+      {
+        "name": "India-Pakistan context",
+        "note": "Indian Jaguars have been associated with strike roles; exact wartime claims should be sourced operator-by-operator."
       }
     ],
     "variant_families": [
-      "SEPECAT Jaguar baseline production model",
-      "SEPECAT Jaguar upgraded avionics or weapons-capable model",
-      "SEPECAT Jaguar two-seat trainer or conversion model",
-      "SEPECAT Jaguar export or locally modernized model"
+      "Jaguar A/E French family",
+      "Jaguar S/GR and B/T RAF family",
+      "Jaguar International export family",
+      "Indian Jaguar IS/IB/IM and DARIN upgrade family"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United Kingdom",
         "France"
       ],
-      "major_user_note": "SEPECAT Jaguar has 2 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "India is the longest-running public active operator; RAF, French, Omani, Ecuadorian, and Nigerian use is historical.",
+      "all_operators_status": "6 representative operator entries listed."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "RAF Museum collection aircraft Jaguar GR.1 XX824 is on display in London."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Carrier-based Jaguar M was abandoned before service; national retirement dates differ by operator."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "SEPECAT Jaguar uses jet propulsion."
+      "type": "Afterburning turbofan",
+      "summary": "Two Rolls-Royce/Turbomeca Adour afterburning turbofans powered production Jaguars; thrust and subvariant details vary by mark."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Two 30 mm cannon on major strike variants plus external stores for bombs, rockets, tanks, reconnaissance pods, guided weapons, and self-defense missiles.",
+      "caution": "Exact weapons, nuclear role, targeting-pod fit, and missile clearances differed by nation, upgrade standard, and date."
     },
     "similar_development": [
       {
-        "id": "f-105-thunderchief",
-        "name": "Republic F-105 Thunderchief",
-        "url": "aircraft.html?id=f-105-thunderchief"
+        "id": "panavia-tornado",
+        "name": "Panavia Tornado",
+        "url": "aircraft.html?id=panavia-tornado"
       },
       {
-        "id": "a-4-skyhawk",
-        "name": "Douglas A-4 Skyhawk",
-        "url": "aircraft.html?id=a-4-skyhawk"
+        "id": "mirage-f1",
+        "name": "Dassault Mirage F1",
+        "url": "aircraft.html?id=mirage-f1"
       },
       {
-        "id": "a-6-intruder",
-        "name": "Grumman A-6 Intruder",
-        "url": "aircraft.html?id=a-6-intruder"
+        "id": "su-17",
+        "name": "Sukhoi Su-17",
+        "url": "aircraft.html?id=su-17"
       },
       {
         "id": "a-7-corsair-ii",
         "name": "LTV A-7 Corsair II",
         "url": "aircraft.html?id=a-7-corsair-ii"
+      },
+      {
+        "id": "a-4-skyhawk",
+        "name": "Douglas A-4 Skyhawk",
+        "url": "aircraft.html?id=a-4-skyhawk"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
+      "exact_fact_count": 42,
+      "operator_entries": 6,
+      "variant_entries": 7,
       "external_article_sources": 3
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-rafmuseum",
+        "title": "Sepecat Jaguar GR.1",
+        "url": "https://www.rafmuseum.org.uk/research/collections/sepecat-jaguar-gr-1/",
+        "publisher": "Royal Air Force Museum",
+        "note": "Official museum collection page used for RAF service chronology, production/order context, Gulf War use, and retirement dates."
+      },
+      {
+        "id": "fn-dassault-archive",
+        "title": "Military Dassault aircraft: Jaguar",
+        "url": "https://web.archive.org/web/20080620024938/http://www.dassault-aviation.com/en/passion/aircraft/military-dassault-aircraft/jaguar.html?L=1",
+        "publisher": "Dassault Aviation (archived)",
+        "note": "Archived manufacturer heritage page used for program origins, first flight, variant families, production/order totals, and export/license-production context."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "SEPECAT Jaguar",
         "url": "https://en.wikipedia.org/wiki/SEPECAT_Jaguar",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for public variant/operator lists and Jane's-derived specification fields; cross-checked against museum/manufacturer material where possible."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.faqs.org/docs/air/avjag.html",
-        "publisher": "faqs.org",
-        "note": "External source for SEPECAT Jaguar."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.qinetiq.com/home/newsroom/news_releases_homepage/2007/4th_quarter/last_jaguar_flight.html",
-        "publisher": "qinetiq.com",
-        "note": "External source for SEPECAT Jaguar."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.dassault-aviation.com/en/passion/aircraft/military-dassault-aircraft/jaguar.html?L=1",
-        "publisher": "dassault-aviation.com",
-        "note": "External source for SEPECAT Jaguar."
+        "note": "Local rules for neutral wording, variant-sensitive specifications, source citation, and cautious handling of uncertain data."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.faqs.org/docs/air/avjag.html",
-        "publisher": "faqs.org",
-        "note": "External source for SEPECAT Jaguar."
+        "id": "fn-rafmuseum",
+        "title": "Sepecat Jaguar GR.1",
+        "url": "https://www.rafmuseum.org.uk/research/collections/sepecat-jaguar-gr-1/",
+        "publisher": "Royal Air Force Museum",
+        "note": "Official museum collection page used for RAF service chronology, production/order context, Gulf War use, and retirement dates."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.qinetiq.com/home/newsroom/news_releases_homepage/2007/4th_quarter/last_jaguar_flight.html",
-        "publisher": "qinetiq.com",
-        "note": "External source for SEPECAT Jaguar."
+        "id": "fn-dassault-archive",
+        "title": "Military Dassault aircraft: Jaguar",
+        "url": "https://web.archive.org/web/20080620024938/http://www.dassault-aviation.com/en/passion/aircraft/military-dassault-aircraft/jaguar.html?L=1",
+        "publisher": "Dassault Aviation (archived)",
+        "note": "Archived manufacturer heritage page used for program origins, first flight, variant families, production/order totals, and export/license-production context."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.dassault-aviation.com/en/passion/aircraft/military-dassault-aircraft/jaguar.html?L=1",
-        "publisher": "dassault-aviation.com",
-        "note": "External source for SEPECAT Jaguar."
+        "id": "fn-wikipedia",
+        "title": "SEPECAT Jaguar",
+        "url": "https://en.wikipedia.org/wiki/SEPECAT_Jaguar",
+        "publisher": "Wikipedia",
+        "note": "Supplementary orientation source for public variant/operator lists and Jane's-derived specification fields; cross-checked against museum/manufacturer material where possible."
       }
     ],
     "article_sections": [
@@ -61707,263 +61765,182 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "SEPECAT Jaguar is an Attack aircraft from United Kingdom/France. Manufacturer: SEPECAT. First flight: 1968. Introduction: 1973. Status: Active/retired by operator.",
+            "text": "The SEPECAT Jaguar was a joint British-French supersonic attack aircraft developed by Breguet and the British Aircraft Corporation through SEPECAT. It began as an advanced trainer and light-support concept but matured into a low-level tactical strike, reconnaissance, and battlefield-interdiction aircraft for the Royal Air Force, French Air Force, and export customers.",
             "refs": [
-              "fn-main"
+              "fn-dassault-archive",
+              "fn-rafmuseum"
             ]
           },
           {
-            "text": "SEPECAT Jaguar is a attack aircraft. Primary role: attack aircraft. Country of origin: United Kingdom/France. Manufacturer: SEPECAT.",
+            "text": "Jaguar service was closely tied to Cold War European strike planning. RAF Germany used the type as an important low-level attack aircraft until Tornado units took over the main Germany-based role, while French and British Jaguars later saw combat in Africa, the Gulf, the Balkans, and other expeditionary operations. India became the longest-running operator and retained upgraded Jaguars after the French, British, and Omani fleets retired.",
             "refs": [
-              "fn-wikidata"
+              "fn-rafmuseum",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The aircraft is best understood as a rugged, fast, low-level strike platform rather than as an air-superiority fighter. Its strengths were weapons carriage, rough-field/low-level strike suitability, and upgrade capacity; its limitations included short endurance at low altitude and avionics that required modernization for precision-attack operations.",
             "refs": [
-              "fn-method"
+              "fn-method",
+              "fn-wikipedia"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Attack aircraft"
+            "text": "Supersonic tactical strike / attack aircraft"
           },
           {
-            "title": "Designer or builder",
-            "text": "SEPECAT"
+            "title": "Program origin",
+            "text": "Joint United Kingdom-France SEPECAT program"
           },
           {
-            "title": "Major origin",
-            "text": "United Kingdom, France"
+            "title": "First flight",
+            "text": "8 September 1968 at Istres"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Production total",
+            "text": "573 aircraft reported by archived Dassault heritage page"
+          },
+          {
+            "title": "Longest-running operator",
+            "text": "Indian Air Force"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "SEPECAT Jaguar first flew in 1968. Introduction date: 1973. Era: Cold War/Modern.",
+            "text": "France originally sought an aircraft to replace training and tactical-support types such as the T-33, Fouga Magister, and Mystere IV, while the RAF was studying a two-seat supersonic trainer to replace Hunter-based training. In 1964 the two governments recognized overlapping requirements, and in May 1965 they signed a cooperative agreement that turned Breguet's Br.121 concept into the Jaguar program.",
             "refs": [
-              "fn-main"
+              "fn-dassault-archive"
             ]
           },
           {
-            "text": "Producer: SEPECAT. Development context: attack aircraft, jet propulsion, supersonic speed category, Cold War/Modern era.",
+            "text": "The requirement changed repeatedly. What had started as a combat trainer with support capability became a much more serious tactical-support aircraft, and the RAF shifted emphasis away from the original trainer role toward strike needs after changes in British procurement priorities. Parallel French and British assembly arrangements and national avionics/weapon preferences produced related but non-identical variants.",
             "refs": [
-              "fn-wikidata"
+              "fn-dassault-archive"
+            ]
+          },
+          {
+            "text": "The first Jaguar flew on 8 September 1968 with Bernard Witt at Istres. The formal British-French order covered 200 aircraft for each nation; later export and Indian license-production orders brought the reported overall production total to 573.",
+            "refs": [
+              "fn-dassault-archive",
+              "fn-rafmuseum"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "SEPECAT stood for Societe Europeenne de Production de l'avion Ecole de Combat et d'Appui Tactique, reflecting the original training-and-support concept.",
             "refs": [
-              "fn-method"
+              "fn-dassault-archive"
+            ]
+          },
+          {
+            "text": "A carrier-based Jaguar M was tested/planned for the French Navy but abandoned in favor of a separate French naval strike solution.",
+            "refs": [
+              "fn-dassault-archive",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Hindustan Aeronautics Limited later built Indian aircraft under license, making the Jaguar an unusually long-lived multinational strike program.",
+            "refs": [
+              "fn-dassault-archive",
+              "fn-wikipedia"
             ]
           }
         ]
       },
       {
-        "id": "design",
+        "id": "design-capabilities",
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1 or 2. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The Jaguar used a compact shoulder-wing layout optimized for fast low-level flight, short-field tactical operations, and heavy external stores. Its narrow fuselage, tandem main landing gear arrangement, and high-mounted wing gave it a distinct strike-aircraft profile rather than the broad radar-and-missile layout of a dedicated interceptor.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Carrier capable: no. Stealth: no.",
-            "refs": [
+              "fn-wikipedia",
               "fn-method"
             ]
           },
           {
-            "text": "SEPECAT Jaguar uses jet propulsion. Engine model field: Not listed.",
+            "text": "Power came from two Rolls-Royce/Turbomeca Adour afterburning turbofans, a joint engine family associated with both the Jaguar and later training aircraft. The twin-engine installation improved survivability over single-engine light-attack designs, but low-level supersonic attack profiles still imposed demanding fuel and navigation requirements.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
+            "text": "British and French versions diverged in avionics and weapons-system details. RAF GR-series aircraft progressively gained improved navigation/attack equipment, laser ranging/marked-target systems, and later precision-attack integration, while French Jaguar A aircraft retained national equipment and were updated along French operational needs.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia",
+              "fn-method"
             ]
           }
         ],
         "cards": [
           {
+            "title": "Airframe focus",
+            "text": "Low-level strike, battlefield interdiction, and tactical support"
+          },
+          {
+            "title": "Powerplant",
+            "text": "Two Rolls-Royce/Turbomeca Adour afterburning turbofans"
+          },
+          {
             "title": "Crew",
-            "text": "1 or 2"
+            "text": "Single-seat strike variants; two-seat trainer/conversion variants"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
-          },
-          {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Navigation/attack fit",
+            "text": "National and upgrade-standard dependent"
           },
           {
             "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "text": "No operational carrier version; Jaguar M was cancelled"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "weapons-systems",
+        "title": "Weapons Systems",
         "paragraphs": [
           {
-            "text": "SEPECAT Jaguar status: Active/retired by operator. Conflict entries: 2.",
+            "text": "Jaguar armament varied by nation, variant, and upgrade period. Typical strike fits included internal cannon, bombs, rockets, reconnaissance stores, drop tanks, and later precision-guided weapons or targeting pods on upgraded aircraft. Some aircraft could carry short-range air-to-air missiles for self-defense rather than dedicated fighter missions.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia",
+              "fn-method"
             ]
           },
           {
-            "text": "Conflicts: Kosovo War, 2011 military intervention in Libya.",
+            "text": "French Jaguar A aircraft were connected to France's pre-strategic nuclear strike planning during part of their career, while British Jaguars were best known for conventional strike, reconnaissance, and close-support tasks. Indian aircraft evolved through DARIN avionics upgrade standards and maritime/strike roles; exact weapon clearances should be treated as operator- and date-specific.",
             "refs": [
+              "fn-wikipedia",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Kosovo War: SEPECAT Jaguar used in Kosovo War.",
+            "text": "Built-in cannon: two 30 mm cannon on major strike variants, with fit differing on some two-seat trainers.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "2011 military intervention in Libya: SEPECAT Jaguar used in 2011 military intervention in Libya.",
+            "text": "External stores: bombs, rockets, drop tanks, reconnaissance pods, and guided weapons depending on operator integration.",
             "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "SEPECAT Jaguar named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
+              "fn-wikipedia",
               "fn-method"
             ]
           },
           {
-            "text": "Named individual aircraft listed: 0.",
+            "text": "Self-defense: some operators used short-range air-to-air missiles; this did not make the Jaguar a dedicated air-superiority fighter.",
             "refs": [
               "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "variants",
-        "title": "Variants",
-        "paragraphs": [
-          {
-            "text": "SEPECAT Jaguar variant-family entries: 4. Variant families: SEPECAT Jaguar baseline production model; SEPECAT Jaguar upgraded avionics or weapons-capable model; SEPECAT Jaguar two-seat trainer or conversion model; SEPECAT Jaguar export or locally modernized model.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "SEPECAT Jaguar baseline production model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "SEPECAT Jaguar upgraded avionics or weapons-capable model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "SEPECAT Jaguar two-seat trainer or conversion model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "SEPECAT Jaguar export or locally modernized model",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "operators",
-        "title": "Operators",
-        "paragraphs": [
-          {
-            "text": "Designer or builder countries: United Kingdom, France. SEPECAT Jaguar has 2 designer or builder country entry.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "All operators status: 0 operator entries listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Major designer or builder entries: United Kingdom, France.",
-            "refs": [
-              "fn-wikidata"
             ]
           }
         ]
@@ -61973,62 +61950,362 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1 or 2, propulsion type Jet, maximum speed category Supersonic, first flight 1968, introduction 1973.",
+            "text": "Representative figures below describe Jaguar A/S-style single-seat aircraft and are not universal across two-seat trainers, Indian upgrade standards, reconnaissance fits, or aircraft carrying heavy external stores. The F-16 reference page uses a dense specification table; this JSON page mirrors that pattern with renderer-compatible specification cards.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Crew",
+            "text": "1 in Jaguar A/S/GR strike variants; 2 in B/E/T trainer variants"
+          },
+          {
+            "title": "Length",
+            "text": "About 16.83 m for A/S single-seat variants; longer on some two-seat aircraft"
+          },
+          {
+            "title": "Wingspan",
+            "text": "About 8.69 m"
+          },
+          {
+            "title": "Height",
+            "text": "About 4.89 m"
+          },
+          {
+            "title": "Maximum takeoff weight",
+            "text": "About 15,700 kg with external stores"
+          },
+          {
+            "title": "Powerplant",
+            "text": "Two Rolls-Royce/Turbomeca Adour afterburning turbofans"
+          },
+          {
+            "title": "Maximum speed",
+            "text": "Supersonic; commonly listed around Mach 1.6 at altitude for clean/representative aircraft"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "Approximately 14,000 m / 46,000 ft class"
+          },
+          {
+            "title": "Armament stations",
+            "text": "Five external stations commonly cited, plus cannon; fit depends on variant and national clearance"
+          }
+        ]
+      },
+      {
+        "id": "variants",
+        "title": "Variants",
+        "paragraphs": [
+          {
+            "text": "The Jaguar family split into French, British, export, and Indian lines. Naming differs by country: French A/E designations, British S/B and later GR/T service marks, and Indian IS/IB/IM standards describe related but not identical aircraft.",
+            "refs": [
+              "fn-dassault-archive",
+              "fn-wikipedia"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Jaguar A: French single-seat tactical-support and strike version; Dassault describes it as one of the French production branches.",
+            "refs": [
+              "fn-dassault-archive",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Jaguar E: French two-seat training/combat version used for conversion and training.",
             "refs": [
+              "fn-dassault-archive",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Jaguar S / GR.1 family: RAF single-seat tactical-support aircraft, later upgraded through GR.1A/GR.3-style avionics and weapons improvements.",
+            "refs": [
+              "fn-rafmuseum",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Jaguar B / T.2 family: RAF two-seat trainer and conversion aircraft, with later upgrade subvariants.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Jaguar M: French naval carrier-based project; evaluated but cancelled before operational service.",
+            "refs": [
+              "fn-dassault-archive",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Jaguar International and export derivatives: aircraft supplied to Oman, Ecuador, Nigeria, and India with customer-specific equipment.",
+            "refs": [
+              "fn-dassault-archive",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Indian Jaguar IS/IB/IM and DARIN upgrades: Indian strike, trainer, and maritime/upgrade standards, including local production and avionics modernization.",
+            "refs": [
+              "fn-wikipedia",
               "fn-method"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "operators",
+        "title": "Operators",
         "paragraphs": [
           {
-            "text": "SEPECAT Jaguar similar-development links: 4.",
+            "text": "The Jaguar served with a smaller but geographically diverse operator base. France and the United Kingdom were the original program nations, India became the main continuing user, and Oman, Ecuador, and Nigeria operated export aircraft. Operator totals and upgrade status changed over time, so the list below is representative rather than a current order of battle.",
+            "refs": [
+              "fn-dassault-archive",
+              "fn-rafmuseum",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "India: Indian Air Force; received direct-supply and license-produced aircraft and remained the primary active operator after European retirement.",
+            "refs": [
+              "fn-dassault-archive",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "United Kingdom: Royal Air Force; 203 Jaguars were delivered to the RAF according to the RAF Museum, with retirement in April 2007.",
+            "refs": [
+              "fn-rafmuseum"
+            ]
+          },
+          {
+            "text": "France: French Air Force; operated Jaguar A/E aircraft and retired the type in 2005 according to public summaries.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Oman: Royal Air Force of Oman; export operator, retired before the mid-2010s according to public summaries.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Ecuador: former export operator of Jaguar International aircraft.",
+            "refs": [
+              "fn-dassault-archive",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Nigeria: former export operator; exact serviceability and retirement details are date-sensitive.",
+            "refs": [
+              "fn-dassault-archive",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "French deliveries began in 1973, and RAF first-line squadrons followed from 1974. RAF Jaguars equipped eight first-line squadrons and formed a significant part of RAF Germany's Cold War low-level air capability until Tornado units assumed the main role in Germany in the mid-1980s.",
+            "refs": [
+              "fn-rafmuseum"
+            ]
+          },
+          {
+            "text": "French Jaguars were used in African operations, including Chad, and coalition operations such as the 1991 Gulf War. RAF Jaguars of the Coltishall Strike Wing flew during Operation Desert Storm, where the RAF Museum notes their attacks against Iraqi artillery and missile positions.",
+            "refs": [
+              "fn-rafmuseum",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Later operations included Balkan deployments and other coalition or national missions depending on operator. Indian Jaguars have been associated with deep-strike and maritime-strike roles, but exact modern readiness, weapons integration, and fleet totals require current operator-specific verification.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1973: French Air Force introduction period.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "1974: RAF front-line service begins according to RAF Museum chronology.",
+            "refs": [
+              "fn-rafmuseum"
+            ]
+          },
+          {
+            "text": "1991: RAF and French Jaguars participated in Gulf War operations.",
+            "refs": [
+              "fn-rafmuseum",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "2005/2007: French and British retirement years are commonly cited; Oman retired later, while India continued operation.",
+            "refs": [
+              "fn-rafmuseum",
+              "fn-wikipedia"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The Jaguar's main strengths were low-level speed, structural robustness, useful external payload, and adaptability to reconnaissance, strike, and maritime tasks. Its multinational design also gave several operators a locally supportable attack aircraft during a period when high-performance strike aircraft were expensive and politically difficult to procure.",
+            "refs": [
+              "fn-rafmuseum",
+              "fn-dassault-archive"
+            ]
+          },
+          {
+            "text": "Limitations were equally important. Early avionics and navigation/targeting systems aged quickly, low-altitude attack profiles consumed fuel rapidly, and national variants complicated simple one-size-fits-all performance claims. Many of the aircraft's later successes depended on avionics and weapons upgrades rather than the original 1960s fit.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Compared with other Cold War attack aircraft, the Jaguar sat between light attack/trainer derivatives and larger interdiction aircraft. It was faster and more strike-specialized than many subsonic light attack types, but smaller and shorter-ranged than Tornado-class deep interdiction aircraft.",
             "refs": [
               "fn-method"
             ]
           }
         ],
+        "cards": [
+          {
+            "title": "Versus A-4 Skyhawk",
+            "text": "Jaguar was a twin-engine supersonic land-based strike aircraft; A-4 was a lighter single-engine naval attack aircraft."
+          },
+          {
+            "title": "Versus A-7 Corsair II",
+            "text": "A-7 emphasized subsonic naval attack efficiency; Jaguar emphasized fast low-level tactical strike from land bases."
+          },
+          {
+            "title": "Versus Panavia Tornado",
+            "text": "Tornado was larger, more complex, and optimized for deeper interdiction; it replaced Jaguar in key RAF Germany roles."
+          },
+          {
+            "title": "Versus Mirage F1",
+            "text": "Mirage F1 was primarily a fighter/interceptor family with attack variants; Jaguar was designed around strike and support missions."
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1964: British and French requirements converged around a cooperative trainer/support aircraft concept.",
+            "refs": [
+              "fn-dassault-archive"
+            ]
+          },
+          {
+            "text": "May 1965: British and French defense ministers signed the cooperative Jaguar agreement.",
+            "refs": [
+              "fn-dassault-archive"
+            ]
+          },
+          {
+            "text": "9 January 1968: official commercial order document signed in London for the initial British-French program.",
+            "refs": [
+              "fn-dassault-archive"
+            ]
+          },
+          {
+            "text": "8 September 1968: first Jaguar flight at Istres.",
+            "refs": [
+              "fn-dassault-archive"
+            ]
+          },
+          {
+            "text": "1973-1974: French and RAF operational introduction period.",
+            "refs": [
+              "fn-rafmuseum",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "1991: Jaguar units flew Gulf War strike missions.",
+            "refs": [
+              "fn-rafmuseum"
+            ]
+          },
+          {
+            "text": "2005 and 2007: France and the United Kingdom retired their Jaguar fleets.",
+            "refs": [
+              "fn-rafmuseum",
+              "fn-wikipedia"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-related-pages",
+        "title": "Sources and Related Pages",
+        "paragraphs": [
+          {
+            "text": "Primary source preference for this update was the RAF Museum for RAF service context and an archived Dassault manufacturer page for program and production history. Wikipedia was used only as a supplementary orientation source for the public variant/operator list and specification fields.",
+            "refs": [
+              "fn-rafmuseum",
+              "fn-dassault-archive",
+              "fn-wikipedia"
+            ]
+          }
+        ],
         "links": [
           {
-            "label": "Republic F-105 Thunderchief",
-            "url": "aircraft.html?id=f-105-thunderchief"
+            "label": "Panavia Tornado",
+            "url": "aircraft.html?id=panavia-tornado"
           },
           {
-            "label": "Douglas A-4 Skyhawk",
-            "url": "aircraft.html?id=a-4-skyhawk"
+            "label": "Dassault Mirage F1",
+            "url": "aircraft.html?id=mirage-f1"
           },
           {
-            "label": "Grumman A-6 Intruder",
-            "url": "aircraft.html?id=a-6-intruder"
+            "label": "Sukhoi Su-17",
+            "url": "aircraft.html?id=su-17"
           },
           {
             "label": "LTV A-7 Corsair II",
             "url": "aircraft.html?id=a-7-corsair-ii"
+          },
+          {
+            "label": "Douglas A-4 Skyhawk",
+            "url": "aircraft.html?id=a-4-skyhawk"
           }
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Bllace_refugee_camp.jpg",
-        "caption": "Kosovo War",
-        "source_url": "https://en.wikipedia.org/wiki/Kosovo_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Coalition_action_against_Libya-en.svg/960px-Coalition_action_against_Libya-en.svg.png",
-        "caption": "2011 military intervention in Libya",
-        "source_url": "https://en.wikipedia.org/wiki/2011_military_intervention_in_Libya"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "panavia-tornado",
