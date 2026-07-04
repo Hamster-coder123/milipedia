@@ -5564,16 +5564,16 @@
     "country_of_origin": "United States",
     "manufacturer": "McDonnell Douglas / Boeing; Northrop major subcontractor",
     "role": "Carrier-capable multirole fighter and attack aircraft",
-    "aircraft_type": "Fighter / attack aircraft",
+    "aircraft_type": "Twin-engine carrier-capable multirole strike fighter",
     "era": "Fourth-generation carrier aviation",
     "first_flight": "November 1978",
-    "introduction_date": "October 1983 with F/A-18A/B; September 1987 with F/A-18C/D",
+    "introduction_date": "October 1983 for F/A-18A/B; September 1987 for F/A-18C/D",
     "retirement_date": "U.S. Navy F/A-18C final active-duty flight: 2 October 2019; still active with some operators",
     "status": "Active with selected operators; retired by U.S. Navy active-duty units and Australia",
     "number_built": "A-D total not used here without a primary production-count source; C/D production ended in 2000",
     "crew": "One in F/A-18A/C; two in F/A-18B/D",
-    "engine_type": "Turbofan",
-    "engines": "Two General Electric F404-GE-402 enhanced-performance turbofan engines",
+    "engine_type": "Afterburning turbofan jet",
+    "engines": "Two General Electric F404-GE-402 enhanced-performance turbofans",
     "max_speed": "Mach 1.7+",
     "speed_category": "Supersonic",
     "range": "Ferry: 1,546 nautical miles / 1,777.9 miles / 2,844 km with two AIM-9s and three 330-gallon tanks",
@@ -5809,12 +5809,14 @@
       ]
     },
     "engine_details": {
-      "type": "Turbofan",
-      "summary": "Two General Electric F404-GE-402 enhanced-performance turbofan engines, each rated by NAVAIR at 17,700 pounds static thrust."
+      "type": "Afterburning turbofan",
+      "summary": "Two General Electric F404-GE-402 enhanced-performance turbofans, each listed by NAVAIR at 17,700 pounds static thrust for the F/A-18 A-D family."
     },
     "armament_details": {
-      "summary": "One 20 mm M61A1/A2 Vulcan cannon plus Sidewinder, Sparrow, AMRAAM, Harpoon, HARM, SLAM/SLAM-ER, Maverick, JSOW, JDAM, laser-guided bombs, general-purpose bombs, mines, and rockets.",
-      "caution": "Exact stores depend on variant, block, operator, mission wiring, rules of engagement, and period."
+      "gun": "One M61A1/A2 Vulcan 20 mm cannon",
+      "air_to_air": "AIM-9 Sidewinder, AIM-7 Sparrow, and AIM-120 AMRAAM depending on variant, operator, and period.",
+      "air_to_surface": "Public NAVAIR armament lists include AGM-84 Harpoon, AGM-88 HARM, AGM-65 Maverick, SLAM/SLAM-ER, JSOW, JDAM, laser-guided bombs, general-purpose bombs, mines, and rockets.",
+      "caution": "Exact loadouts and clearances vary by national operator, aircraft block, upgrade program, mission, and date."
     },
     "similar_development": [
       {
@@ -5844,7 +5846,7 @@
       }
     ],
     "article_quality": {
-      "exact_fact_count": 44,
+      "exact_fact_count": 50,
       "operator_entries": 5,
       "variant_entries": 6,
       "external_article_sources": 12
@@ -6196,6 +6198,24 @@
               "fn-main"
             ]
           }
+        ],
+        "cards": [
+          {
+            "title": "Variant baseline",
+            "text": "F/A-18 A-D legacy Hornet family; not the larger F/A-18E/F Super Hornet."
+          },
+          {
+            "title": "Dimensions",
+            "text": "Length 56 ft; wingspan 40 ft 5 in; height 15 ft 4 in."
+          },
+          {
+            "title": "Powerplant",
+            "text": "Two GE F404-GE-402 turbofans, 17,700 lb static thrust each."
+          },
+          {
+            "title": "Performance",
+            "text": "Mach 1.7+ maximum speed, 50,000+ ft ceiling, and 1,546 nmi listed ferry range."
+          }
         ]
       },
       {
@@ -6509,6 +6529,56 @@
             "refs": [
               "fn-main"
             ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "This page uses NAVAIR and U.S. Navy pages as the main sources for F/A-18 A-D mission, service-entry, specification, variant, and weapons wording. Australian and Canadian government sources are used for national-fleet and modernization details, while professional or public-perception sources are separated from hard technical claims.",
+            "refs": [
+              "fn-main",
+              "fn-navy-fact",
+              "fn-aus-classic",
+              "fn-canada-modernization",
+              "fn-public-perception"
+            ]
+          },
+          {
+            "text": "Legacy Hornet values should not be mixed with F/A-18E/F Super Hornet figures. Public performance, payload, and weapon tables also vary by A/B/C/D model, export configuration, upgrade state, and period, so the article keeps loadout and fleet-status language deliberately cautious.",
+            "refs": [
+              "fn-main",
+              "fn-navy-fact",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Community and simulator references are retained only to document public reputation and enthusiast discussion. They are not used as primary evidence for real-world flight performance, weapons clearance, or readiness.",
+            "refs": [
+              "fn-dcs-forum",
+              "fn-reddit-dcs",
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "NAVAIR F/A-18 A-D Hornet",
+            "url": "https://www.navair.navy.mil/product/FA-18-D-Hornet"
+          },
+          {
+            "label": "U.S. Navy F/A-18 fact file",
+            "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2383479/fa-18a-d-hornet-and-fa-18ef-super-hornet-strike-fighter/"
+          },
+          {
+            "label": "Australian F/A-18A/B Classic Hornet project",
+            "url": "https://www.defence.gov.au/defence-activities/projects/fa-18ab-classic-hornet-weapon-system"
+          },
+          {
+            "label": "Canadian CF-18 modernization release",
+            "url": "https://www.canada.ca/en/news/archive/2010/03/final-phase-ii-modernized-cf-18-hornet-delivered.html"
           }
         ]
       },

@@ -7398,3 +7398,76 @@ Record the result of:
 * The selected page was not a blank placeholder; it was selected because the remaining unedited aircraft pages are late-stage candidates, and this one still had incomplete rendered source integration and sparse card/infobox metadata compared with the F-16 reference.
 * Some T-6 operator status and delivery totals are date-sensitive; the update keeps them manufacturer/source-attributed and avoids unsupported current-fleet counts.
 * No merge was attempted and the hermes-agent branch was not deleted.
+### Run 97 — 2026-07-04 15:02:09 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: McDonnell Douglas F/A-18 Hornet (id: f-a-18-hornet)
+* Reason selected: Among the remaining unedited aircraft records, the legacy Hornet page was the sparsest relative to the F-16 reference. It already had useful article prose, but it lacked a rendered Sources and Notes section, had less complete top-level infobox metadata for aircraft type/introduction/powerplant, and its specification section did not expose card-style quick technical facts comparable to the F-16 page.
+* Previous condition: Late-stage partially complete data-driven page with sections and sources present, but no dedicated source/caveat section before Related Pages, less complete top-level engine/type/introduction metadata, no structured armament-details breakdown, and weaker renderer-compatible specification cards than the F-16 reference pattern.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense lead/infobox-style metadata; section order from overview through development, design, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, public perception, sources, and related pages; source/caveat placement before related links; concise specification cards; cautious variant-dependent weapons and performance wording; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Improved the McDonnell Douglas F/A-18 Hornet entry in data/aircraft.json while preserving the existing JSON-rendered aircraft-page structure.
+* Updated top-level metadata for aircraft type, introduction wording, engine type, and F404-GE-402 powerplant wording so the quick overview/infobox data is closer to the F-16 reference density.
+* Added structured engine_details with source-compatible wording for two General Electric F404-GE-402 enhanced-performance turbofans and NAVAIR's 17,700 lb static thrust figure.
+* Expanded armament_details into gun, air-to-air, air-to-surface, and caution fields so the page separates public weapons lists from variant/operator/date-dependent clearance caveats.
+* Added renderer-compatible specification cards for variant baseline, dimensions, powerplant, and performance.
+* Added a Sources and Notes section immediately before Related Pages, with paragraphs explaining the use of NAVAIR/U.S. Navy primary sources, Australian and Canadian government sources, and the limited role of public-perception/community references.
+* Added source links in the new Sources and Notes section for NAVAIR, the U.S. Navy fact file, the Australian Classic Hornet project page, and the Canadian CF-18 modernization release.
+* Kept existing variant/operator/combat-history text intact and did not add unsupported exact production totals, current fleet totals, or universal weapons-clearance claims.
+
+#### Files Modified
+
+* data/aircraft.json — Improved only the F/A-18 Hornet aircraft page metadata, specification cards, armament details, and rendered source/caveat section.
+* hermes-change-log.md — Appended this Run 97 log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were modified and intended for staging.
+2. git diff — Reviewed the diff; data/aircraft.json changes are limited to the F/A-18 Hornet entry, and hermes-change-log.md appends this Run 97 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the F/A-18 Hornet top-level fields, specification cards, Sources and Notes section, source links, and armament-details caution wording.
+4. F-16 style comparison — Inspected data/f16-template.html and copied its dense metadata, section order, specifications emphasis, source/caveat placement, and related-link style within the data-driven article renderer.
+5. Internal link check — Recursively checked aircraft.html?id=... links in the selected F/A-18 entry against existing data/aircraft.json IDs; all local aircraft links resolved.
+6. Secret/token check — Ran a credential-specific scan over the staged diff for private keys, passwords, access/auth tokens, cloud credential names, and common key assignments; no credentials were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, diff check, single-aircraft-entry change, intended files only, no main-branch edits, and no prior substantial Hermes edit for the F/A-18 Hornet page.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand McDonnell Douglas F/A-18 Hornet
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This is a late-stage improvement rather than a placeholder-to-full-article rewrite: most aircraft pages have already been edited, so the selected page was sparse mainly in rendered source/caveat integration and top-level metadata completeness.
+* The page retains cautious language for exact F/A-18A/B/C/D production totals, current fleet totals, and weapons clearances because those vary by source, operator, upgrade, and date.
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
