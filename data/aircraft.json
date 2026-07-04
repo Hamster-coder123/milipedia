@@ -6626,7 +6626,7 @@
     ],
     "combat_history": "Used by the U.S. Navy in operations over Iraq, Afghanistan, Syria, and the Red Sea; used by Australia in Operation Okra over Iraq.",
     "development_history": "Developed as a larger, more capable successor to the legacy F/A-18C/D and as a low-risk carrier-air-wing replacement for aging F-14, A-6, S-3, and KA-6D mission capacity.",
-    "short_summary": "The Boeing F/A-18E/F Super Hornet is a U.S. carrier-based multirole strike fighter developed from the F/A-18 family. Larger than the legacy Hornet, it entered U.S. Navy fleet service in 1999, reached IOC in September 2001, and became the carrier air wing workhorse for strike, fighter escort, fleet defense, reconnaissance, aerial refueling, and precision-attack missions.",
+    "short_summary": "Carrier-based multirole strike fighter developed as the larger F/A-18C/D successor, with single-seat F/A-18E and two-seat F/A-18F variants, F414 engines, 11 weapons stations, Block II/III avionics growth, and current U.S., Australian, and Kuwaiti service.",
     "carrier_capable": true,
     "stealth": false,
     "images": [
@@ -6774,17 +6774,19 @@
         "United States"
       ],
       "major_user_note": "The U.S. Navy is the principal operator; Australia and Kuwait operate export Super Hornets.",
-      "all_operators_status": "Current national military operators include the United States, Australia, and Kuwait."
+      "all_operators_status": "Current national military operators include the United States Navy, the Royal Australian Air Force, and the Kuwait Air Force; operator and fleet counts are date-sensitive."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Lt. Cmdr. Michael Tremel, U.S. Navy F/A-18E pilot in the 18 June 2017 Su-22 shootdown."
+        "Lt. Cmdr. Michael Tremel, U.S. Navy F/A-18E pilot in the 18 June 2017 Su-22 shootdown.",
+        "Blue Angels Super Hornets, adopted after the team transitioned from the legacy F/A-18C/D."
       ],
       "notable_incidents": [
         "6 November 2002 first combat JDAM use by Super Hornets in Operation Southern Watch.",
         "18 June 2017 Syrian Su-22 shootdown.",
         "December 2024 Red Sea friendly-fire shootdown; both aviators recovered."
-      ]
+      ],
+      "reputation_note": "Known as the U.S. Navy Rhino: a larger, more fuel-rich Hornet derivative that traded stealth and Tomcat-style mystique for carrier suitability, multirole flexibility, and continuous Block II/III upgrades."
     },
     "engine_details": {
       "type": "Afterburning turbofan",
@@ -6820,7 +6822,7 @@
       "exact_fact_count": 72,
       "operator_entries": 3,
       "variant_entries": 5,
-      "external_article_sources": 10
+      "external_article_sources": 6
     },
     "footnotes": [
       {
@@ -6901,7 +6903,38 @@
         "note": "Local rules for units, neutral wording, and source handling."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "F/A-18E/F Super Hornet",
+        "url": "https://www.navair.navy.mil/product/FA-18EF-Super-Hornet",
+        "publisher": "Naval Air Systems Command"
+      },
+      {
+        "title": "F/A-18 Super Hornet & EA-18 Growler",
+        "url": "https://www.boeing.com/defense/fighters-and-bombers/fa-18-super-hornet-and-ea-18-growler",
+        "publisher": "Boeing"
+      },
+      {
+        "title": "Government of Kuwait - F/A-18E/F Super Hornet Aircraft with Support",
+        "url": "https://www.dsca.mil/press-media/major-arms-sales/government-kuwait-fa-18ef-super-hornet-aircraft-support",
+        "publisher": "Defense Security Cooperation Agency"
+      },
+      {
+        "title": "US F/A-18E Shoots Down Syrian Su-22 in Air-to-Air Kill",
+        "url": "https://www.military.com/daily-news/2017/06/18/us-fa-18e-shoots-down-syrian-su-22-air-air-kill.html",
+        "publisher": "Military.com"
+      },
+      {
+        "title": "U.S. Destroyer, Super Hornets Splash Red Sea Attack Drones and Missiles",
+        "url": "https://news.usni.org/2023/12/26/u-s-destroyer-super-hornets-splash-red-sea-attack-drones-and-missiles",
+        "publisher": "USNI News"
+      },
+      {
+        "title": "2 US Navy pilots shot down over Red Sea in apparent friendly-fire incident",
+        "url": "https://apnews.com/article/95a792daae3b0120186bfc6c66e1b6fe",
+        "publisher": "Associated Press"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
@@ -7531,6 +7564,69 @@
             "refs": [
               "fn-ap-red-sea"
             ]
+          }
+        ]
+      },
+      {
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "This page uses NAVAIR and Boeing as the main technical and program sources, with DSCA documentation for Kuwait export context and reputable defense/news reporting for public operational events. Some NAVAIR and DSCA pages may block automated retrieval, so the article keeps source-specific caveats rather than treating every published figure as universal.",
+            "refs": [
+              "fn-navair",
+              "fn-boeing",
+              "fn-dsca-kuwait"
+            ]
+          },
+          {
+            "text": "Specifications are presented as representative public F/A-18E/F values. Real aircraft performance and weapons carriage depend on block, operator, software, stores, mission profile, carrier recovery limits, and tanker or targeting-pod configuration.",
+            "refs": [
+              "fn-navair",
+              "fn-boeing",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Primary program source: Naval Air Systems Command F/A-18E/F Super Hornet page.",
+            "refs": [
+              "fn-navair"
+            ]
+          },
+          {
+            "text": "Manufacturer source: Boeing Super Hornet and EA-18G Growler product page for Block III, networked systems, and carrier suitability claims.",
+            "refs": [
+              "fn-boeing"
+            ]
+          },
+          {
+            "text": "Export context: DSCA Kuwait F/A-18E/F notification; aircraft totals and package details should be read as sale-notification context, not a universal fleet inventory.",
+            "refs": [
+              "fn-dsca-kuwait"
+            ]
+          },
+          {
+            "text": "Operational-event sources are used for specific incidents and should not be generalized into claims about overall combat effectiveness.",
+            "refs": [
+              "fn-military-su22",
+              "fn-usni-red-sea",
+              "fn-ap-red-sea"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "NAVAIR F/A-18E/F Super Hornet",
+            "url": "https://www.navair.navy.mil/product/FA-18EF-Super-Hornet"
+          },
+          {
+            "label": "Boeing F/A-18 Super Hornet & EA-18 Growler",
+            "url": "https://www.boeing.com/defense/fighters-and-bombers/fa-18-super-hornet-and-ea-18-growler"
+          },
+          {
+            "label": "DSCA Kuwait F/A-18E/F notification",
+            "url": "https://www.dsca.mil/press-media/major-arms-sales/government-kuwait-fa-18ef-super-hornet-aircraft-support"
           }
         ]
       },

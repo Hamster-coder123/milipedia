@@ -7173,3 +7173,76 @@ Record the result of:
 * The web search/extract backend returned errors during source lookup. Direct retrieval succeeded for the Museum of Flight and NASA pages, while some Navy history URLs were unavailable or blocked; existing cited Navy/FAS/source metadata was preserved.
 * Exact public service-ceiling and combat-radius values remain variant/loadout-sensitive and were intentionally not forced into a single uncaveated number.
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+
+### Run 94 — 2026-07-04 12:03:07 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Boeing F/A-18E/F Super Hornet (id: f-a-18e-f-super-hornet)
+* Reason selected: Among the remaining aircraft pages not recorded as substantially updated by Hermes, the Super Hornet entry was the lowest-scoring candidate and still incomplete relative to the F-16 reference because its rendered external article list was empty, the source caveats were not exposed as a dedicated article section, and some summary/operator wording needed tightening.
+* Previous condition: Detailed but incomplete data-driven article: 13 article sections, 5 variant entries, 3 operator entries, several footnotes and source records, but 0 rendered external article links and no explicit Sources and Notes section to match the F-16 page's visible reference density.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense lead/overview style, technical infobox-style summary fields, section order ending with source/context notes and related pages, concise caveats for variant-sensitive specifications, internal aircraft.html?id=... related-link style, and visible source/reference presentation.
+
+#### Changes Made
+
+* Added six rendered external article/source links for the Super Hornet page from existing reliable source records: NAVAIR, Boeing, DSCA, Military.com, USNI News, and Associated Press.
+* Added a new Sources and Notes article section before Related Pages, with paragraphs, bullets, and renderer-compatible link objects explaining primary source usage and configuration caveats.
+* Updated the short summary to emphasize the F/A-18E/F variants, F414 engines, 11 weapons stations, Block II/III growth, and current U.S., Australian, and Kuwaiti service.
+* Tightened the operator-status wording to identify the specific services and note that operator/fleet counts are date-sensitive.
+* Expanded the notable metadata while preserving its object structure, adding the Blue Angels transition and a reputation note for the Rhino/workhorse framing.
+* Kept variant-sensitive performance and weapons claims cautious; no unsupported classified capability, universal loadout, or fleet-count claims were added.
+* Attempted live source extraction for NAVAIR, Boeing, and DSCA; Boeing was directly reachable, while web backend extraction failed and NAVAIR/DSCA direct retrieval returned 403, so the update relied on existing cited source records already present in the repository plus conservative caveats.
+
+#### Files Modified
+
+* data/aircraft.json — Updated only the Boeing F/A-18E/F Super Hornet entry with visible external sources, source notes, summary/operator wording, and notable metadata.
+* hermes-change-log.md — Appended this cumulative Run 94 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, intended changes were limited to data/aircraft.json and hermes-change-log.md.
+2. git diff — Reviewed aircraft diff; only the F/A-18E/F Super Hornet entry changed in data/aircraft.json, with visible external sources and a new Sources and Notes section.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool and inspected the selected entry's section order, external_articles count, article_quality metadata, notable object shape, and source-note content.
+4. F-16 style comparison — Inspected data/f16-template.html and matched its dense source/reference treatment, section ordering, related-link style, and careful technical caveats within the JSON-rendered article format.
+5. Internal link check — Recursively checked aircraft.html?id=... links in the selected entry; all internal aircraft IDs resolve.
+6. Secret/token check — Checked the staged diff with credential-specific patterns for private keys, passwords, cloud credential names, and access/auth tokens; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, changed-file scope, one-aircraft-entry change, source caveats, log completeness, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Boeing F/A-18E/F Super Hornet
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* The selected page was not a blank placeholder; it was the most incomplete remaining unselected candidate because its external source list rendered empty and its source caveats were not surfaced in article form.
+* Web extraction/search backend calls returned service errors; direct retrieval reached Boeing but NAVAIR and DSCA returned 403. Existing repository source records were retained and source-specific caveats were added rather than introducing unsupported claims.
+* No merge was attempted and the hermes-agent branch was not deleted.
