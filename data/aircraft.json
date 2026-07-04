@@ -10522,34 +10522,106 @@
   {
     "id": "f-104-starfighter",
     "name": "Lockheed F-104 Starfighter",
-    "alternative_names": [],
+    "alternative_names": [
+      "Starfighter",
+      "Missile With a Man In It"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
     "manufacturer": "Lockheed",
-    "role": "Interceptor",
-    "aircraft_type": "Fighter",
+    "role": "Interceptor and fighter-bomber",
+    "aircraft_type": "Supersonic interceptor / multirole fighter",
     "era": "Cold War",
-    "first_flight": "1954",
-    "introduction_date": "1958",
-    "retirement_date": "Not listed",
-    "status": "Retired",
-    "number_built": "Not listed",
-    "crew": "1 or 2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "first_flight": "4 March 1954 (XF-104)",
+    "introduction_date": "20 February 1958 (USAF)",
+    "retirement_date": "1969 (USAF front-line service); 1975 (US Air National Guard); 2004 (Italian Air Force)",
+    "status": "Retired from military service; a small number survive as museum aircraft and civilian warbirds",
+    "number_built": "2,578",
+    "crew": "1 (F-104A/C/G/S); 2 in trainer variants",
+    "engine_type": "Afterburning turbojet",
+    "engines": "1 × General Electric J79 afterburning turbojet",
+    "max_speed": "Mach 2 / about 1,528 mph (2,459 km/h) for F-104G",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Lockheed F-104 Starfighter: Interceptor. Manufacturer: Lockheed. First flight: 1954. Introduction: 1958.",
-    "short_summary": "Lockheed F-104 Starfighter: Interceptor. Origin: United States. Manufacturer: Lockheed. First flight: 1954. Introduction: 1958. Status: Retired.",
+    "range": "About 1,630 mi (2,620 km) ferry range for F-104G",
+    "combat_range": "About 420 mi (680 km) for F-104G, mission dependent",
+    "service_ceiling": "About 73,000 ft (22,000 m)",
+    "rate_of_climb": "About 48,000 ft/min initially",
+    "armament": "Typically one 20 mm M61 Vulcan cannon plus AIM-9 Sidewinders or up to about 4,000 lb of bombs, rockets, tanks, or reconnaissance stores depending on variant and operator.",
+    "hardpoints": "7 (variant dependent)",
+    "variants": [
+      {
+        "name": "F-104A",
+        "description": "Initial USAF production day-interceptor model; optimized for speed and climb rather than long endurance."
+      },
+      {
+        "name": "F-104C",
+        "description": "Tactical Air Command fighter-bomber version with refueling probe and strike capability."
+      },
+      {
+        "name": "F-104G",
+        "description": "Major NATO/export model with strengthened structure, improved avionics, and multirole fighter-bomber capability."
+      },
+      {
+        "name": "TF-104G",
+        "description": "Two-seat conversion trainer used by several F-104G operators."
+      },
+      {
+        "name": "CF-104",
+        "description": "Canadair-built Canadian version, initially tailored for nuclear strike/reconnaissance before later conventional roles."
+      },
+      {
+        "name": "F-104J / F-104DJ",
+        "description": "Japanese interceptor and two-seat trainer versions built or assembled by Mitsubishi."
+      },
+      {
+        "name": "F-104S",
+        "description": "Italian-developed late variant with uprated systems and missile fits; the last Starfighters left military service in Italy in 2004."
+      },
+      {
+        "name": "NF-104A",
+        "description": "Rocket-augmented aerospace trainer used for high-altitude research and astronaut-style training."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "United States Air Force / Air National Guard / NASA",
+        "notes": "USAF used the F-104A/C primarily as an interceptor and tactical fighter; NASA used several F-104s as research, chase, and pilot-proficiency aircraft."
+      },
+      {
+        "country": "Canada",
+        "service": "Royal Canadian Air Force / Canadian Armed Forces",
+        "notes": "Operated the Canadair-built CF-104 in NATO strike and later conventional attack/reconnaissance roles."
+      },
+      {
+        "country": "West Germany / Germany",
+        "service": "Luftwaffe and Marineflieger",
+        "notes": "One of the largest F-104G users; operated fighter-bomber, reconnaissance, and naval-strike Starfighters with extensive local production and training programs."
+      },
+      {
+        "country": "Italy",
+        "service": "Aeronautica Militare",
+        "notes": "Operated F-104G and F-104S variants for decades and retired the last military Starfighters in 2004."
+      },
+      {
+        "country": "Japan",
+        "service": "Japan Air Self-Defense Force",
+        "notes": "Operated Mitsubishi-built F-104J and F-104DJ interceptors."
+      },
+      {
+        "country": "Netherlands and Belgium",
+        "service": "Royal Netherlands Air Force / Belgian Air Force",
+        "notes": "NATO F-104G operators using locally assembled or consortium-produced aircraft."
+      },
+      {
+        "country": "Turkey, Greece, Taiwan, Pakistan, Denmark, Norway, and Spain",
+        "service": "Various air forces",
+        "notes": "Additional operators used the Starfighter for interception, strike, reconnaissance, and training; exact equipment differed by national variant and period."
+      }
+    ],
+    "combat_history": "USAF F-104s deployed in crises such as the 1958 Taiwan Strait confrontation, the 1961 Berlin Crisis, and the Vietnam War. Allied Starfighters also served with NATO and Asian operators in interceptor, strike, reconnaissance, and training roles.",
+    "development_history": "Kelly Johnson and Lockheed designed the F-104 after Korean War pilot interviews emphasized climb, speed, and altitude over heavy equipment. The aircraft evolved from a day interceptor into export F-104G/S fighter-bomber and all-weather variants.",
+    "short_summary": "A very fast, small-winged Century Series fighter that traded range and low-speed forgiveness for Mach 2 performance, high climb rate, and a long NATO and allied service life.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -10562,18 +10634,25 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-lockheed",
+        "title": "F-104 Starfighter",
+        "url": "https://www.lockheedmartin.com/en-us/news/features/history/f-104.html",
+        "publisher": "Lockheed Martin",
+        "note": "Manufacturer history used for design intent, NATO/export context, licensed production, and international operator framing."
+      },
+      {
+        "id": "fn-nasa-quest",
+        "title": "Quest for Performance: The Evolution of Modern Aircraft",
+        "url": "https://www.hq.nasa.gov/pao/History/SP-468/cover.htm",
+        "publisher": "NASA History",
+        "note": "NASA technical history used for representative F-104G performance/specification figures, accessed via secondary cached text where the NASA page blocked direct retrieval."
+      },
+      {
+        "id": "fn-wiki",
         "title": "Lockheed F-104 Starfighter",
         "url": "https://en.wikipedia.org/wiki/Lockheed_F-104_Starfighter",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for chronology, broad operator list, and variant names; technical claims were treated cautiously."
       },
       {
         "id": "fn-method",
@@ -10581,27 +10660,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.ejectionsite.com/frame_sg.htm",
-        "publisher": "ejectionsite.com",
-        "note": "External source for Lockheed F-104 Starfighter."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.time.com/time/magazine/article/0,9171,914576-2,00.html",
-        "publisher": "time.com",
-        "note": "External source for Lockheed F-104 Starfighter."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.hq.nasa.gov/pao/History/SP-468/cover.htm",
-        "publisher": "hq.nasa.gov",
-        "note": "External source for Lockheed F-104 Starfighter."
       }
     ],
     "country_flags": [
@@ -10617,438 +10675,311 @@
       "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
       "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
     ],
-    "wars_used_in": [],
-    "variant_families": [
-      "Lockheed F-104 Starfighter baseline production model",
-      "Lockheed F-104 Starfighter upgraded avionics or weapons-capable model",
-      "Lockheed F-104 Starfighter two-seat trainer or conversion model",
-      "Lockheed F-104 Starfighter export or locally modernized model"
+    "wars_used_in": [
+      "Vietnam War",
+      "Second Taiwan Strait Crisis",
+      "Cold War NATO service",
+      "Indo-Pakistani conflicts"
     ],
-    "operator_summary": {
-      "major_designer_or_builder": [
-        "United States"
-      ],
-      "major_user_note": "Lockheed F-104 Starfighter has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
-    },
-    "notable": {
-      "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
-      ],
-      "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
-      ]
-    },
-    "engine_details": {
-      "type": "Jet",
-      "summary": "Lockheed F-104 Starfighter uses jet propulsion."
-    },
-    "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
-    },
+    "variant_families": [
+      "F-104A",
+      "F-104C",
+      "F-104G",
+      "TF-104G",
+      "CF-104",
+      "F-104J / F-104DJ",
+      "F-104S",
+      "NF-104A"
+    ],
+    "operator_summary": "Built for the United States but most famous as a NATO and allied export fighter, with major service in Canada, West Germany, Italy, Japan, the Netherlands, Belgium, Turkey, Taiwan, and several other air arms.",
+    "notable": "One of the first operational Mach 2 fighters and the basis for extensive licensed production in Europe, Canada, and Japan.",
+    "engine_details": "The single General Electric J79 gave the F-104 exceptional acceleration and climb for its era, but the airframe had limited internal fuel and relied heavily on external tanks for range.",
+    "armament_details": "Armament varied widely. Early interceptors emphasized the M61 cannon and Sidewinder missiles; F-104G/CF-104/F-104S users added strike, reconnaissance, and later Sparrow-capable or national weapons configurations.",
     "similar_development": [
+      {
+        "id": "f-100-super-sabre",
+        "name": "North American F-100 Super Sabre",
+        "url": "aircraft.html?id=f-100-super-sabre"
+      },
+      {
+        "id": "f-105-thunderchief",
+        "name": "Republic F-105 Thunderchief",
+        "url": "aircraft.html?id=f-105-thunderchief"
+      },
       {
         "id": "f-4-phantom-ii",
         "name": "McDonnell Douglas F-4 Phantom II",
         "url": "aircraft.html?id=f-4-phantom-ii"
       },
       {
-        "id": "f-5-freedom-fighter-tiger-ii",
-        "name": "Northrop F-5",
-        "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
-      },
-      {
-        "id": "f-8-crusader",
-        "name": "Vought F-8 Crusader",
-        "url": "aircraft.html?id=f-8-crusader"
-      },
-      {
-        "id": "f-14-tomcat",
-        "name": "Grumman F-14 Tomcat",
-        "url": "aircraft.html?id=f-14-tomcat"
+        "id": "mirage-iii",
+        "name": "Dassault Mirage III",
+        "url": "aircraft.html?id=mirage-iii"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "status": "expanded-by-hermes",
+      "summary": "Expanded from a generated sparse entry with corrected specifications, variants, operators, operational context, and sourced caveats.",
+      "external_article_sources": 3,
+      "operator_entries": 7,
+      "variant_entries": 8
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-lockheed",
+        "title": "F-104 Starfighter",
+        "url": "https://www.lockheedmartin.com/en-us/news/features/history/f-104.html",
+        "publisher": "Lockheed Martin",
+        "note": "Manufacturer history used for design intent, NATO/export context, licensed production, and international operator framing."
+      },
+      {
+        "id": "fn-nasa-quest",
+        "title": "Quest for Performance: The Evolution of Modern Aircraft",
+        "url": "https://www.hq.nasa.gov/pao/History/SP-468/cover.htm",
+        "publisher": "NASA History",
+        "note": "NASA technical history used for representative F-104G performance/specification figures, accessed via secondary cached text where the NASA page blocked direct retrieval."
+      },
+      {
+        "id": "fn-wiki",
         "title": "Lockheed F-104 Starfighter",
         "url": "https://en.wikipedia.org/wiki/Lockheed_F-104_Starfighter",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for chronology, broad operator list, and variant names; technical claims were treated cautiously."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.ejectionsite.com/frame_sg.htm",
-        "publisher": "ejectionsite.com",
-        "note": "External source for Lockheed F-104 Starfighter."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.time.com/time/magazine/article/0,9171,914576-2,00.html",
-        "publisher": "time.com",
-        "note": "External source for Lockheed F-104 Starfighter."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.hq.nasa.gov/pao/History/SP-468/cover.htm",
-        "publisher": "hq.nasa.gov",
-        "note": "External source for Lockheed F-104 Starfighter."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.ejectionsite.com/frame_sg.htm",
-        "publisher": "ejectionsite.com",
-        "note": "External source for Lockheed F-104 Starfighter."
+        "title": "Lockheed Martin — F-104 Starfighter",
+        "url": "https://www.lockheedmartin.com/en-us/news/features/history/f-104.html",
+        "publisher": "Lockheed Martin"
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.time.com/time/magazine/article/0,9171,914576-2,00.html",
-        "publisher": "time.com",
-        "note": "External source for Lockheed F-104 Starfighter."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.hq.nasa.gov/pao/History/SP-468/cover.htm",
-        "publisher": "hq.nasa.gov",
-        "note": "External source for Lockheed F-104 Starfighter."
+        "title": "NASA History SP-468 — Quest for Performance",
+        "url": "https://www.hq.nasa.gov/pao/History/SP-468/cover.htm",
+        "publisher": "NASA History"
       }
     ],
     "article_sections": [
       {
-        "id": "overview",
         "title": "Overview",
         "paragraphs": [
-          {
-            "text": "Lockheed F-104 Starfighter is an Interceptor from United States. Manufacturer: Lockheed. First flight: 1954. Introduction: 1958. Status: Retired.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Lockheed F-104 Starfighter is a fighter. Primary role: interceptor. Country of origin: United States. Manufacturer: Lockheed.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Exact structured fact fields: 15.",
-            "refs": [
-              "fn-method"
-            ]
-          }
+          "The Lockheed F-104 Starfighter was a single-engine Mach 2 interceptor from the Century Series, designed around the idea that a fighter could win by climbing and accelerating faster than its opponent. Its tiny, very thin trapezoidal wing, long fuselage, and General Electric J79 engine gave it a striking appearance and exceptional high-speed performance.",
+          "Although the original USAF F-104A was a short-ranged day interceptor, the Starfighter became far more important as an export and licensed-production aircraft. The strengthened F-104G and later national variants served as NATO strike fighters, reconnaissance aircraft, interceptors, and trainers across Europe and Asia."
         ],
         "cards": [
           {
-            "title": "Primary role",
-            "text": "Interceptor"
+            "title": "Core idea",
+            "text": "A lightweight fighter optimized for speed, altitude, and rate of climb rather than large wing area or long endurance."
           },
           {
-            "title": "Designer or builder",
-            "text": "Lockheed"
+            "title": "Service pattern",
+            "text": "Brief front-line USAF career but very long allied service, especially with NATO air forces and Italy."
           },
           {
-            "title": "Major origin",
-            "text": "United States"
-          },
-          {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Main caution",
+            "text": "Specifications and weapons varied sharply between F-104A/C, F-104G, CF-104, F-104J, and F-104S aircraft."
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
-          {
-            "text": "Lockheed F-104 Starfighter first flew in 1954. Introduction date: 1958. Era: Cold War.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Producer: Lockheed. Development context: interceptor, jet propulsion, supersonic speed category, Cold War era.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          }
+          "Lockheed designer Clarence “Kelly” Johnson began the Starfighter after interviews with Korean War pilots who wanted better speed, climb, and altitude performance against Soviet-designed fighters. Johnson’s team rejected the trend toward larger, equipment-heavy fighters and instead built the XF-104 around a powerful engine, minimal wing, and low drag.",
+          "The XF-104 first flew on 4 March 1954. Production F-104s entered USAF service in 1958, but the short range and specialized mission of the early models limited their American career. The type found its largest market when Lockheed and European partners adapted the aircraft into the F-104G, a stronger all-weather fighter-bomber for NATO and allied users."
         ],
         "bullets": [
+          "1951–1952: Korean War pilot feedback helps define a fast, high-climb lightweight fighter.",
+          "1954: XF-104 first flight demonstrates the basic high-speed configuration.",
+          "1958: USAF operational entry and early crisis deployment around the Taiwan Strait.",
+          "1960s: F-104G licensed production turns the design into a major NATO standard aircraft."
+        ]
+      },
+      {
+        "title": "Design and Capabilities",
+        "paragraphs": [
+          "The F-104’s thin wing reduced drag at high speed but produced high landing speeds and left little space for fuel or equipment. Fuel, sensors, and weapons therefore depended heavily on fuselage volume, tip tanks, external stores, and national avionics fits. The design rewarded careful energy management and precise flying.",
+          "The single J79 turbojet made the aircraft extremely quick for its generation. In representative F-104G figures, public sources list Mach 2 class speed, a service ceiling around 73,000 ft, and an initial climb rate around 48,000 ft/min. Those figures should be read as variant- and configuration-dependent rather than universal for every Starfighter."
+        ],
+        "cards": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Airframe",
+            "text": "Long fuselage, razor-thin mid-mounted wing, T-tail, and tip-tank provisions produced a low-drag interceptor shape."
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Powerplant",
+            "text": "One General Electric J79 afterburning turbojet; later subvariants differed in equipment and national support arrangements."
+          },
+          {
+            "title": "Avionics",
+            "text": "Early day-fighter systems evolved into all-weather and strike avionics on F-104G/S and other export models."
+          },
+          {
+            "title": "Weapons",
+            "text": "M61 cannon, AIM-9 Sidewinder, bombs, rockets, tanks, reconnaissance pods, and later national missile fits depending on variant."
           }
         ]
       },
       {
-        "id": "design",
-        "title": "Design and Capabilities",
+        "title": "Specifications",
         "paragraphs": [
-          {
-            "text": "Crew: 1 or 2. Propulsion: Jet. Speed category: Supersonic.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Carrier capable: no. Stealth: no.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Lockheed F-104 Starfighter uses jet propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          }
+          "Representative F-104G public figures are used here because the export F-104G was the most widely produced multirole Starfighter family member. Early F-104A/C, two-seat trainers, Canadian CF-104s, Japanese F-104Js, and Italian F-104S aircraft differed in equipment, weights, and weapons."
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "1 or 2"
+            "text": "1 in most fighter variants; 2 in TF-104 trainers."
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Dimensions",
+            "text": "Length about 54 ft 8 in; wingspan about 21 ft 9 in; height about 13 ft 6 in."
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Powerplant",
+            "text": "1 × General Electric J79 afterburning turbojet, often cited at about 15,600 lbf with afterburner for F-104G references."
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Performance",
+            "text": "Mach 2 class maximum speed; about 420 mi combat radius and 1,630 mi ferry range for representative F-104G data."
           },
           {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Ceiling / climb",
+            "text": "About 73,000 ft service ceiling and roughly 48,000 ft/min initial climb in public F-104G figures."
+          },
+          {
+            "title": "Armament",
+            "text": "20 mm M61 cannon and up to about 4,000 lb of external stores; missile and strike fits varied by operator and variant."
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Lockheed F-104 Starfighter status: Retired. Conflict entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: 0 entries.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Lockheed F-104 Starfighter named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "variants",
         "title": "Variants",
         "paragraphs": [
-          {
-            "text": "Lockheed F-104 Starfighter variant-family entries: 4. Variant families: Lockheed F-104 Starfighter baseline production model; Lockheed F-104 Starfighter upgraded avionics or weapons-capable model; Lockheed F-104 Starfighter two-seat trainer or conversion model; Lockheed F-104 Starfighter export or locally modernized model.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
+          "The Starfighter family is best understood as an aircraft that changed substantially after the early USAF interceptor models. The F-104G export standard added structure and mission equipment for NATO strike and all-weather roles, while Canadian, Japanese, and Italian programs created major national branches."
         ],
         "bullets": [
-          {
-            "text": "Lockheed F-104 Starfighter baseline production model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Lockheed F-104 Starfighter upgraded avionics or weapons-capable model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Lockheed F-104 Starfighter two-seat trainer or conversion model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Lockheed F-104 Starfighter export or locally modernized model",
-            "refs": [
-              "fn-main"
-            ]
-          }
+          "F-104A/C: early USAF interceptor and fighter-bomber models.",
+          "F-104G/TF-104G: major NATO multirole and training family.",
+          "CF-104: Canadian-built NATO strike/reconnaissance version.",
+          "F-104J/DJ: Japanese interceptor and trainer versions.",
+          "F-104S: Italian late-production Starfighter with upgraded weapons and avionics."
         ]
       },
       {
-        "id": "operators",
         "title": "Operators",
         "paragraphs": [
-          {
-            "text": "Designer or builder countries: United States. Lockheed F-104 Starfighter has 1 designer or builder country entry.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
+          "More than a dozen air arms flew the Starfighter. The United States introduced it, but the type’s longest and largest operational story was in NATO and allied service, where local production and national modifications kept it relevant well beyond its American front-line retirement."
         ],
         "bullets": [
+          "United States: USAF, Air National Guard, and NASA research/chase aircraft use.",
+          "NATO Europe: West Germany/Germany, Italy, Netherlands, Belgium, Denmark, Norway, Spain, Greece, and Turkey.",
+          "Pacific and Asia: Canada, Japan, Taiwan, and Pakistan among major operators.",
+          "Civilian survivors: a few aircraft remain as warbirds or research/test aircraft after military retirement."
+        ]
+      },
+      {
+        "title": "Operational History",
+        "paragraphs": [
+          "USAF Starfighters deployed early in the Taiwan Strait and Berlin crises and flew combat sorties during the Vietnam War, but American service was relatively short because the aircraft’s range, payload, and all-weather capability were surpassed by larger fighters. The type nevertheless proved valuable as a high-speed interceptor and test/chase platform.",
+          "NATO operators used the F-104G and related models for nuclear strike, conventional attack, reconnaissance, air defense, and maritime strike. The Starfighter’s demanding flight characteristics and accident history became a major part of its reputation, especially in countries that introduced it rapidly into low-level strike training."
+        ],
+        "cards": [
           {
-            "text": "All operators status: 0 operator entries listed.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Strength",
+            "text": "Exceptional acceleration, climb, and high-altitude performance for a mid-1950s fighter."
           },
           {
-            "text": "Major designer or builder entries: United States.",
-            "refs": [
-              "fn-wikidata"
-            ]
+            "title": "Limitation",
+            "text": "Small wing, high landing speed, limited internal fuel, and unforgiving handling compared with larger multirole fighters."
+          },
+          {
+            "title": "Legacy",
+            "text": "A controversial but influential Cold War export fighter whose service life lasted nearly half a century."
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "title": "Comparison",
         "paragraphs": [
-          {
-            "text": "Comparable fields: crew 1 or 2, propulsion type Jet, maximum speed category Supersonic, first flight 1954, introduction 1958.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "similar-development",
-        "title": "Similar Development",
-        "paragraphs": [
-          {
-            "text": "Lockheed F-104 Starfighter similar-development links: 4.",
-            "refs": [
-              "fn-method"
-            ]
-          }
+          "Compared with the F-100 and F-105, the F-104 was smaller and more specialized, emphasizing climb and Mach 2 speed over payload and range. Compared with later multirole aircraft such as the F-4 Phantom II, it had less crew capacity, radar growth, and weapons flexibility, but it remained faster-climbing and simpler in its original interceptor mission."
         ],
         "links": [
+          {
+            "label": "North American F-100 Super Sabre",
+            "url": "aircraft.html?id=f-100-super-sabre"
+          },
+          {
+            "label": "Republic F-105 Thunderchief",
+            "url": "aircraft.html?id=f-105-thunderchief"
+          },
           {
             "label": "McDonnell Douglas F-4 Phantom II",
             "url": "aircraft.html?id=f-4-phantom-ii"
           },
           {
-            "label": "Northrop F-5",
-            "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
+            "label": "Dassault Mirage III",
+            "url": "aircraft.html?id=mirage-iii"
+          }
+        ]
+      },
+      {
+        "title": "Timeline",
+        "bullets": [
+          "1954 — XF-104 first flight.",
+          "1958 — Production F-104 enters USAF service.",
+          "1958–1961 — Early crisis deployments include Taiwan Strait and Berlin-related alerts.",
+          "1960s — F-104G becomes a major NATO licensed-production and export fighter.",
+          "1960s–1970s — USAF, NATO, and allied operators use the type in interceptor, strike, reconnaissance, and training roles.",
+          "2004 — Italy retires the final military Starfighters."
+        ]
+      },
+      {
+        "title": "Sources and Further Reading",
+        "paragraphs": [
+          "Primary wording uses Lockheed Martin manufacturer history and NASA technical-history data where available, with Wikipedia retained only as a supplementary orientation source for broad chronology and variant names."
+        ],
+        "links": [
+          {
+            "label": "Lockheed Martin — F-104 Starfighter",
+            "url": "https://www.lockheedmartin.com/en-us/news/features/history/f-104.html"
           },
           {
-            "label": "Vought F-8 Crusader",
-            "url": "aircraft.html?id=f-8-crusader"
+            "label": "NASA History — Quest for Performance",
+            "url": "https://www.hq.nasa.gov/pao/History/SP-468/cover.htm"
           },
           {
-            "label": "Grumman F-14 Tomcat",
-            "url": "aircraft.html?id=f-14-tomcat"
+            "label": "Wikipedia — Lockheed F-104 Starfighter",
+            "url": "https://en.wikipedia.org/wiki/Lockheed_F-104_Starfighter"
+          }
+        ]
+      },
+      {
+        "title": "Related Pages",
+        "paragraphs": [
+          "Related Milipedia aircraft pages for Century Series fighters, Mach 2 contemporaries, and later multirole replacements."
+        ],
+        "links": [
+          {
+            "label": "North American F-100 Super Sabre",
+            "url": "aircraft.html?id=f-100-super-sabre"
+          },
+          {
+            "label": "Republic F-105 Thunderchief",
+            "url": "aircraft.html?id=f-105-thunderchief"
+          },
+          {
+            "label": "McDonnell Douglas F-4 Phantom II",
+            "url": "aircraft.html?id=f-4-phantom-ii"
+          },
+          {
+            "label": "Convair F-102 Delta Dagger",
+            "url": "aircraft.html?id=f-102-delta-dagger"
           }
         ]
       }
