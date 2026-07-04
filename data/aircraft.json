@@ -14885,34 +14885,83 @@
   {
     "id": "b-52-stratofortress",
     "name": "Boeing B-52 Stratofortress",
-    "alternative_names": [],
+    "alternative_names": [
+      "BUFF",
+      "Stratofortress"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
     "manufacturer": "Boeing",
-    "role": "Strategic bomber",
-    "aircraft_type": "Bomber",
+    "role": "Long-range strategic bomber",
+    "aircraft_type": "Strategic bomber",
     "era": "Cold War/Modern",
-    "first_flight": "1952",
-    "introduction_date": "1955",
+    "first_flight": "15 April 1952",
+    "introduction_date": "1955; B-52H entered service in 1961",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
+    "status": "Active with the United States Air Force",
+    "number_built": "744 total B-52s; 104 B-52H aircraft",
     "crew": "5",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engine_type": "Turbofan",
+    "engines": "Eight Pratt & Whitney TF33-P-3/103 turbofans on B-52H; Rolls-Royce F130 re-engining planned for B-52J modernization",
+    "max_speed": "About 650 mph (Mach 0.86)",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Bombs, missiles, and precision-guided weapons.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Boeing B-52 Stratofortress: Strategic bomber. Manufacturer: Boeing. First flight: 1952. Introduction: 1955.",
-    "short_summary": "Boeing B-52 Stratofortress: Strategic bomber. Origin: United States. Manufacturer: Boeing. First flight: 1952. Introduction: 1955. Status: Active.",
+    "range": "About 8,800 miles unrefueled; greater with aerial refueling",
+    "combat_range": "Mission-dependent; public sources usually cite strategic unrefueled range rather than a single combat radius",
+    "service_ceiling": "About 50,000 ft",
+    "rate_of_climb": "About 31.85 m/s in B-52H reference data; varies with weight and configuration",
+    "armament": "Up to about 70,000 lb of mixed conventional, precision-guided, mine, cruise-missile, and nuclear-capable stores depending on era, clearance, and configuration",
+    "hardpoints": "Internal weapons bay plus under-wing pylons; exact carriage depends on weapon type and upgrade standard",
+    "variants": [
+      {
+        "name": "XB-52 / YB-52",
+        "note": "Prototype and service-test aircraft that established the swept-wing, eight-engine configuration after the early turboprop concepts were abandoned."
+      },
+      {
+        "name": "B-52A",
+        "note": "Initial production-standard aircraft; built in very small numbers for test and evaluation rather than front-line mass service."
+      },
+      {
+        "name": "B-52B / RB-52B",
+        "note": "Early operational bomber and reconnaissance-capable version; entered Strategic Air Command service in the mid-1950s."
+      },
+      {
+        "name": "B-52C/D",
+        "note": "Early production families; the B-52D became strongly associated with Southeast Asia operations after modifications for large conventional bomb loads."
+      },
+      {
+        "name": "B-52E/F/G",
+        "note": "Successive Cold War production blocks with evolving avionics, structure, fuel capacity, and weapons provisions."
+      },
+      {
+        "name": "B-52H",
+        "note": "Final production model, powered by TF33 turbofans and still serving as the USAF's public B-52 fleet baseline."
+      },
+      {
+        "name": "NB-52 / NASA support aircraft",
+        "note": "Modified B-52s used by NASA as launch and test support aircraft, including work connected with experimental research vehicles."
+      },
+      {
+        "name": "B-52J (planned designation)",
+        "note": "Modernized B-52H configuration associated publicly with new F130 engines and wider avionics/weapons updates; details and fielding timing remain program-dependent."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "United States Air Force",
+        "status": "Current",
+        "note": "The USAF remains the combat operator of the B-52H fleet, with aircraft assigned to long-range strike, nuclear deterrence, conventional strike, maritime, and standoff-weapons missions."
+      },
+      {
+        "country": "United States",
+        "service": "NASA",
+        "status": "Former",
+        "note": "NASA operated modified B-52 aircraft as airborne launch and research support platforms from the late 1950s into the 2000s."
+      }
+    ],
+    "combat_history": "B-52s have been used in conventional combat since the Vietnam War and later in the Gulf War, Afghanistan, Iraq, Syria/ISIS-era operations, and other U.S. long-range strike deployments. Nuclear-deterrence tasking has been central to the type since the Cold War, but public operational details vary by period and source.",
+    "development_history": "Boeing's B-52 evolved from postwar heavy-bomber requirements into a swept-wing, eight-engine jet bomber able to carry nuclear or conventional weapons over intercontinental distances. The YB-52 first flew on 15 April 1952, the type entered USAF service in 1955, and the final B-52H model entered service in 1961.",
+    "short_summary": "The Boeing B-52 Stratofortress is a long-range U.S. strategic bomber designed in the early Cold War and still active as a heavy conventional and nuclear-capable standoff-weapons platform. Its endurance, payload capacity, aerial-refueling compatibility, and repeated upgrades have kept it relevant far beyond its original 1950s design era.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -14925,18 +14974,46 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-usaf",
+        "title": "B-52 Stratofortress",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104465/b-52-stratofortress/",
+        "publisher": "U.S. Air Force",
+        "note": "Official USAF fact sheet used for B-52H mission, dimensions, engines, speed, ceiling, range, payload, and current-service framing. Direct extraction was blocked during this run, so public facts were cross-checked with accessible secondary references."
+      },
+      {
+        "id": "fn-acc",
+        "title": "B-52 Stratofortress",
+        "url": "https://www.acc.af.mil/About-Us/Fact-Sheets/Display/Article/199455/b-52-stratofortress/",
+        "publisher": "Air Combat Command",
+        "note": "Command fact sheet retained as an official source for the current bomber mission and representative B-52H specifications."
+      },
+      {
+        "id": "fn-nmusaf-b52d",
+        "title": "Boeing B-52D Stratofortress",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196460/boeing-b-52d-stratofortress/",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Official museum page used for B-52D and Southeast Asia-era historical context; direct extraction was blocked in this run."
+      },
+      {
+        "id": "fn-globalsecurity-specs",
+        "title": "B-52 Stratofortress Specifications",
+        "url": "https://www.globalsecurity.org/wmd/systems/b-52-specs.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Accessible technical reference used to cross-check B-52H dimensions, TF33 engines, speed, ceiling, unrefueled range, and payload figures."
+      },
+      {
+        "id": "fn-airforce-technology",
+        "title": "B-52H Stratofortress Bomber, USA",
+        "url": "https://www.airforce-technology.com/projects/b52/",
+        "publisher": "Airforce Technology",
+        "note": "Secondary source used for B-52H service-entry, 744-aircraft production total, 104 B-52H built, continuing modernization, and B-52J/F130 re-engining context."
+      },
+      {
+        "id": "fn-wiki",
         "title": "Boeing B-52 Stratofortress",
         "url": "https://en.wikipedia.org/wiki/Boeing_B-52_Stratofortress",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source used only after cross-checking key figures against more specialized sources."
       },
       {
         "id": "fn-method",
@@ -14944,27 +15021,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.hq.nasa.gov/pao/History/SP-468/cover.htm",
-        "publisher": "hq.nasa.gov",
-        "note": "External source for Boeing B-52 Stratofortress."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://wstiac.alionscience.com/pdf/eNews_WSMR_041808.pdf",
-        "publisher": "wstiac.alionscience.com",
-        "note": "External source for Boeing B-52 Stratofortress."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.encyclopedia.com/doc/1G1-102677802.html",
-        "publisher": "encyclopedia.com",
-        "note": "External source for Boeing B-52 Stratofortress."
       }
     ],
     "country_flags": [
@@ -14977,54 +15033,58 @@
       "Boeing"
     ],
     "development_tensions": [
-      "Balancing payload, range, survivability, sensor/weapons modernization, and operating cost."
+      "Intercontinental range and heavy payload had to be balanced against takeoff weight, subsonic survivability, and the need for continual defensive, navigation, communications, and weapons upgrades.",
+      "The B-52's longevity depends on modernization rather than stealth: standoff weapons, mission-system upgrades, radar replacement, and planned F130 engines are intended to keep the platform useful in contested environments."
     ],
     "wars_used_in": [
       {
         "name": "Vietnam War",
-        "note": "Boeing B-52 Stratofortress used in Vietnam War."
+        "note": "B-52D and other variants flew large conventional bombing missions, including Arc Light and Linebacker-era operations."
       },
       {
         "name": "Gulf War",
-        "note": "Boeing B-52 Stratofortress used in Gulf War."
-      },
-      {
-        "name": "Iraq War",
-        "note": "Boeing B-52 Stratofortress used in Iraq War."
+        "note": "B-52Gs launched long-range cruise-missile attacks and conventional bombing sorties during Operation Desert Storm."
       },
       {
         "name": "War in Afghanistan (2001–2021)",
-        "note": "Boeing B-52 Stratofortress used in War in Afghanistan (2001–2021)."
+        "note": "B-52s provided long-range strike and close-air-support-style effects with precision-guided weapons; exact loadouts and tasking varied by mission."
+      },
+      {
+        "name": "Iraq War / Operation Inherent Resolve-era operations",
+        "note": "B-52s supported U.S. and coalition strike operations in Iraq/Syria contexts; public summaries should avoid implying a single uniform configuration."
       }
     ],
     "variant_families": [
-      "Boeing B-52 Stratofortress baseline production model",
-      "Boeing B-52 Stratofortress upgraded avionics or weapons-capable model"
+      "XB/YB prototypes",
+      "B-52A through B-52G Cold War production blocks",
+      "B-52H current fleet",
+      "NB-52/NASA test-support aircraft",
+      "B-52J modernization path"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Boeing B-52 Stratofortress has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The United States Air Force is the principal and current combat operator; NASA formerly used modified B-52s for research-support missions.",
+      "all_operators_status": "Current combat operation is U.S.-only in public service records."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "YB-52 first-flight crew included Boeing test pilot Alvin M. 'Tex' Johnston and USAF Lt. Col. Guy M. Townsend.",
+        "NASA NB-52 aircraft became closely associated with air-launch research support."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "B-52 operations include several well-known Cold War accident histories; detailed accident treatment is outside this page's one-run scope and should be sourced carefully before expansion."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Boeing B-52 Stratofortress uses jet propulsion."
+      "type": "Turbofan",
+      "summary": "The surviving B-52H fleet uses eight Pratt & Whitney TF33 turbofans, each publicly listed around the 17,000-lbf thrust class. The planned Commercial Engine Replacement Program introduces Rolls-Royce F130 engines for the B-52J modernization path.",
+      "caution": "Earlier B-52 variants used different J57 turbojet configurations; specifications on this page use the B-52H as the representative active-service baseline unless otherwise stated."
     },
     "armament_details": {
-      "summary": "Bombs, missiles, and precision-guided weapons.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Public references normally describe a maximum mixed ordnance load of about 70,000 lb, carried internally and/or externally. Weapon families have included gravity bombs, mines, precision-guided bombs, cruise missiles, and nuclear-capable weapons depending on period and treaty/configuration status.",
+      "caution": "Exact carriage counts differ by weapon type, rotary launcher or pylon fit, software standard, treaty status, and public-source date; this page avoids presenting a single universal loadout."
     },
     "similar_development": [
       {
@@ -15038,87 +15098,108 @@
         "url": "aircraft.html?id=b-2-spirit"
       },
       {
-        "id": "su-24",
-        "name": "Sukhoi Su-24",
-        "url": "aircraft.html?id=su-24"
+        "id": "tu-95",
+        "name": "Tupolev Tu-95",
+        "url": "aircraft.html?id=tu-95"
       },
       {
-        "id": "su-34",
-        "name": "Sukhoi Su-34",
-        "url": "aircraft.html?id=su-34"
+        "id": "tu-160",
+        "name": "Tupolev Tu-160 Blackjack",
+        "url": "aircraft.html?id=tu-160"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 31,
+      "operator_entries": 2,
+      "variant_entries": 8,
+      "external_article_sources": 5
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-usaf",
+        "title": "B-52 Stratofortress",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104465/b-52-stratofortress/",
+        "publisher": "U.S. Air Force",
+        "note": "Official USAF fact sheet used for B-52H mission, dimensions, engines, speed, ceiling, range, payload, and current-service framing. Direct extraction was blocked during this run, so public facts were cross-checked with accessible secondary references."
+      },
+      {
+        "id": "fn-acc",
+        "title": "B-52 Stratofortress",
+        "url": "https://www.acc.af.mil/About-Us/Fact-Sheets/Display/Article/199455/b-52-stratofortress/",
+        "publisher": "Air Combat Command",
+        "note": "Command fact sheet retained as an official source for the current bomber mission and representative B-52H specifications."
+      },
+      {
+        "id": "fn-nmusaf-b52d",
+        "title": "Boeing B-52D Stratofortress",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196460/boeing-b-52d-stratofortress/",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Official museum page used for B-52D and Southeast Asia-era historical context; direct extraction was blocked in this run."
+      },
+      {
+        "id": "fn-globalsecurity-specs",
+        "title": "B-52 Stratofortress Specifications",
+        "url": "https://www.globalsecurity.org/wmd/systems/b-52-specs.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Accessible technical reference used to cross-check B-52H dimensions, TF33 engines, speed, ceiling, unrefueled range, and payload figures."
+      },
+      {
+        "id": "fn-airforce-technology",
+        "title": "B-52H Stratofortress Bomber, USA",
+        "url": "https://www.airforce-technology.com/projects/b52/",
+        "publisher": "Airforce Technology",
+        "note": "Secondary source used for B-52H service-entry, 744-aircraft production total, 104 B-52H built, continuing modernization, and B-52J/F130 re-engining context."
+      },
+      {
+        "id": "fn-wiki",
         "title": "Boeing B-52 Stratofortress",
         "url": "https://en.wikipedia.org/wiki/Boeing_B-52_Stratofortress",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source used only after cross-checking key figures against more specialized sources."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.hq.nasa.gov/pao/History/SP-468/cover.htm",
-        "publisher": "hq.nasa.gov",
-        "note": "External source for Boeing B-52 Stratofortress."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://wstiac.alionscience.com/pdf/eNews_WSMR_041808.pdf",
-        "publisher": "wstiac.alionscience.com",
-        "note": "External source for Boeing B-52 Stratofortress."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.encyclopedia.com/doc/1G1-102677802.html",
-        "publisher": "encyclopedia.com",
-        "note": "External source for Boeing B-52 Stratofortress."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.hq.nasa.gov/pao/History/SP-468/cover.htm",
-        "publisher": "hq.nasa.gov",
-        "note": "External source for Boeing B-52 Stratofortress."
+        "id": "fn-usaf",
+        "title": "B-52 Stratofortress",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104465/b-52-stratofortress/",
+        "publisher": "U.S. Air Force",
+        "note": "Official USAF fact sheet used for B-52H mission, dimensions, engines, speed, ceiling, range, payload, and current-service framing. Direct extraction was blocked during this run, so public facts were cross-checked with accessible secondary references."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://wstiac.alionscience.com/pdf/eNews_WSMR_041808.pdf",
-        "publisher": "wstiac.alionscience.com",
-        "note": "External source for Boeing B-52 Stratofortress."
+        "id": "fn-acc",
+        "title": "B-52 Stratofortress",
+        "url": "https://www.acc.af.mil/About-Us/Fact-Sheets/Display/Article/199455/b-52-stratofortress/",
+        "publisher": "Air Combat Command",
+        "note": "Command fact sheet retained as an official source for the current bomber mission and representative B-52H specifications."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.encyclopedia.com/doc/1G1-102677802.html",
-        "publisher": "encyclopedia.com",
-        "note": "External source for Boeing B-52 Stratofortress."
+        "id": "fn-nmusaf-b52d",
+        "title": "Boeing B-52D Stratofortress",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196460/boeing-b-52d-stratofortress/",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Official museum page used for B-52D and Southeast Asia-era historical context; direct extraction was blocked in this run."
+      },
+      {
+        "id": "fn-globalsecurity-specs",
+        "title": "B-52 Stratofortress Specifications",
+        "url": "https://www.globalsecurity.org/wmd/systems/b-52-specs.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Accessible technical reference used to cross-check B-52H dimensions, TF33 engines, speed, ceiling, unrefueled range, and payload figures."
+      },
+      {
+        "id": "fn-airforce-technology",
+        "title": "B-52H Stratofortress Bomber, USA",
+        "url": "https://www.airforce-technology.com/projects/b52/",
+        "publisher": "Airforce Technology",
+        "note": "Secondary source used for B-52H service-entry, 744-aircraft production total, 104 B-52H built, continuing modernization, and B-52J/F130 re-engining context."
       }
     ],
     "article_sections": [
@@ -15127,65 +15208,89 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Boeing B-52 Stratofortress is a Strategic bomber from United States. Manufacturer: Boeing. First flight: 1952. Introduction: 1955. Status: Active.",
+            "text": "The Boeing B-52 Stratofortress is a long-range, subsonic strategic bomber built by Boeing and operated by the United States Air Force since the 1950s. Designed for Cold War nuclear deterrence, it has remained useful because the airframe combines very long range, aerial-refueling compatibility, a large weapons bay and external carriage capacity, and space for repeated avionics and weapons upgrades.",
             "refs": [
-              "fn-main"
+              "fn-usaf",
+              "fn-globalsecurity-specs"
             ]
           },
           {
-            "text": "Boeing B-52 Stratofortress is a bomber. Primary role: strategic bomber. Country of origin: United States. Manufacturer: Boeing.",
+            "text": "The active public baseline is the B-52H, the final production version. Public references list eight Pratt & Whitney TF33 turbofans, a maximum speed around 650 mph, a ceiling around 50,000 ft, and an unrefueled range around 8,800 miles. Those figures are representative rather than universal: load, mission profile, modernization state, and aerial refueling can change operational performance.",
             "refs": [
-              "fn-wikidata"
+              "fn-globalsecurity-specs",
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Although conceived before modern low-observable aircraft, the B-52 is not simply a historical bomber. Current USAF planning treats it as a standoff-weapons truck and deterrence platform, with radar, communications, weapons, and engine modernization intended to extend service life into the B-52J era.",
             "refs": [
-              "fn-method"
+              "fn-usaf",
+              "fn-airforce-technology"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Strategic bomber"
+            "text": "Long-range strategic bomber"
           },
           {
-            "title": "Designer or builder",
-            "text": "Boeing"
+            "title": "Current baseline",
+            "text": "B-52H Stratofortress"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Engines",
+            "text": "8 × TF33 turbofans; F130 re-engining planned"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Typical public range",
+            "text": "About 8,800 miles unrefueled"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Boeing B-52 Stratofortress first flew in 1952. Introduction date: 1955. Era: Cold War/Modern.",
+            "text": "The B-52 grew out of U.S. postwar heavy-bomber requirements that demanded intercontinental reach and the ability to carry nuclear weapons. Boeing's design shifted from early turboprop concepts to a swept-wing, eight-jet layout, giving the aircraft enough performance margin to replace older piston and early jet strategic bombers.",
             "refs": [
-              "fn-main"
+              "fn-usaf",
+              "fn-wiki"
             ]
           },
           {
-            "text": "Producer: Boeing. Development context: strategic bomber, jet propulsion, subsonic speed category, Cold War/Modern era.",
+            "text": "The YB-52 first flew on 15 April 1952. B-52 service began in 1955, and the B-52H entered service in 1961. Production ended in the early 1960s after 744 B-52s of all versions, including 104 B-52H aircraft, but upgrades continued because the basic airframe remained adaptable.",
             "refs": [
-              "fn-wikidata"
+              "fn-airforce-technology",
+              "fn-globalsecurity-specs"
+            ]
+          },
+          {
+            "text": "Cold War development focused on nuclear deterrence, high-altitude and later low-altitude penetration, electronic warfare, navigation accuracy, and weapons flexibility. Later upgrades shifted the aircraft toward precision conventional strike, cruise-missile carriage, digital communications, and improved integration with joint forces.",
+            "refs": [
+              "fn-usaf",
+              "fn-airforce-technology"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing payload, range, survivability, sensor/weapons modernization, and operating cost.",
+            "text": "First flight: 15 April 1952, using the YB-52 test aircraft.",
             "refs": [
-              "fn-method"
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "USAF service began in 1955; the B-52H final model entered service in 1961.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "B-52J modernization is publicly associated with the Commercial Engine Replacement Program and broader mission-system updates.",
+            "refs": [
+              "fn-airforce-technology"
             ]
           }
         ]
@@ -15195,27 +15300,23 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 5. Propulsion: Jet. Speed category: Subsonic.",
+            "text": "The B-52 is a large swept-wing bomber with eight engines mounted in four twin pods below the wing. That layout gives the aircraft its distinctive planform and permits heavy fuel and weapon loads, but it also reflects a 1950s design philosophy rather than stealth shaping.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Carrier capable: no. Stealth: no.",
-            "refs": [
+              "fn-globalsecurity-specs",
               "fn-method"
             ]
           },
           {
-            "text": "Boeing B-52 Stratofortress uses jet propulsion. Engine model field: Not listed.",
+            "text": "A five-person crew is normally cited for the B-52H. The aircraft's value comes from range, payload, endurance, and upgrade capacity: it can loiter far from a target area, receive fuel in flight, and release weapons from standoff distances rather than relying on fighter-like maneuvering or low-observable penetration.",
             "refs": [
-              "fn-main"
+              "fn-usaf",
+              "fn-globalsecurity-specs"
             ]
           },
           {
-            "text": "Armament field: Bombs, missiles, and precision-guided weapons. Exact weapon list: Not listed.",
+            "text": "Public B-52H specifications list a length of 159 ft 4 in, wingspan of 185 ft, height of 40 ft 8 in, empty weight around 185,000 lb, and maximum takeoff weight around 488,000 lb. These figures are best treated as representative B-52H data, not as values for every historical variant.",
             "refs": [
-              "fn-main"
+              "fn-globalsecurity-specs"
             ]
           }
         ],
@@ -15225,165 +15326,66 @@
             "text": "5"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Wingspan",
+            "text": "185 ft (56.4 m)"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Ceiling",
+            "text": "About 50,000 ft"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Maximum takeoff weight",
+            "text": "About 488,000 lb"
           },
           {
             "title": "Stealth",
-            "text": "No"
+            "text": "No; survivability depends on tactics, EW, standoff weapons, and force integration"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "powerplant-avionics-weapons",
+        "title": "Powerplant, Avionics, and Weapons",
         "paragraphs": [
           {
-            "text": "Boeing B-52 Stratofortress status: Active. Conflict entries: 4.",
+            "text": "The current B-52H fleet is publicly listed with eight Pratt & Whitney TF33-P-3/103 turbofans. These engines are old but central to the aircraft's operating history; the planned Rolls-Royce F130 replacement is intended to improve maintainability, fuel efficiency, and long-term supportability rather than turn the aircraft into a high-speed bomber.",
             "refs": [
-              "fn-main"
+              "fn-globalsecurity-specs",
+              "fn-airforce-technology"
             ]
           },
           {
-            "text": "Conflicts: Vietnam War, Gulf War, Iraq War, War in Afghanistan (2001–2021).",
+            "text": "Weapons carriage is highly configuration-dependent. Sources commonly cite up to about 70,000 lb of mixed ordnance, but exact counts differ for gravity bombs, mines, cruise missiles, precision-guided bombs, and nuclear-capable weapons. Modern B-52 employment is especially associated with standoff and precision weapons, allowing the bomber to remain outside many short-range threats.",
             "refs": [
-              "fn-method"
+              "fn-usaf",
+              "fn-globalsecurity-specs"
+            ]
+          },
+          {
+            "text": "Avionics modernization is a major reason the B-52 remains active. Public programs include radar replacement, communications and navigation updates, digital weapons integration, and engine replacement; together these changes are usually described as part of the path toward a B-52J designation.",
+            "refs": [
+              "fn-airforce-technology"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Vietnam War: Boeing B-52 Stratofortress used in Vietnam War.",
+            "text": "Representative engine fit: 8 × TF33-P-3/103 turbofans on B-52H.",
             "refs": [
-              "fn-main"
+              "fn-globalsecurity-specs"
             ]
           },
           {
-            "text": "Gulf War: Boeing B-52 Stratofortress used in Gulf War.",
+            "text": "Representative maximum ordnance figure: about 70,000 lb, with exact loadout dependent on era and carriage system.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Iraq War: Boeing B-52 Stratofortress used in Iraq War.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "War in Afghanistan (2001–2021): Boeing B-52 Stratofortress used in War in Afghanistan (2001–2021).",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Boeing B-52 Stratofortress named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
+              "fn-globalsecurity-specs",
               "fn-method"
             ]
           },
           {
-            "text": "Named individual aircraft listed: 0.",
+            "text": "Planned F130 engines apply to modernization of the surviving B-52H fleet, not to historical B-52A–G aircraft.",
             "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "variants",
-        "title": "Variants",
-        "paragraphs": [
-          {
-            "text": "Boeing B-52 Stratofortress variant-family entries: 2. Variant families: Boeing B-52 Stratofortress baseline production model; Boeing B-52 Stratofortress upgraded avionics or weapons-capable model.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Boeing B-52 Stratofortress baseline production model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Boeing B-52 Stratofortress upgraded avionics or weapons-capable model",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "operators",
-        "title": "Operators",
-        "paragraphs": [
-          {
-            "text": "Designer or builder countries: United States. Boeing B-52 Stratofortress has 1 designer or builder country entry.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "All operators status: 0 operator entries listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Major designer or builder entries: United States.",
-            "refs": [
-              "fn-wikidata"
+              "fn-airforce-technology"
             ]
           }
         ]
@@ -15393,25 +15395,216 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 5, propulsion type Jet, maximum speed category Subsonic, first flight 1952, introduction 1955.",
+            "text": "Representative specifications below use the B-52H because it is the active public-service model. Historical B-52A through B-52G variants differed in engines, avionics, fuel capacity, defensive equipment, and weapons provisions.",
             "refs": [
-              "fn-main"
+              "fn-method",
+              "fn-globalsecurity-specs"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Role",
+            "text": "Long-range strategic bomber"
+          },
+          {
+            "title": "Crew",
+            "text": "5"
+          },
+          {
+            "title": "Powerplant",
+            "text": "8 × Pratt & Whitney TF33-P-3/103 turbofans"
+          },
+          {
+            "title": "Maximum speed",
+            "text": "About 650 mph / Mach 0.86"
+          },
+          {
+            "title": "Range",
+            "text": "About 8,800 miles unrefueled"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "About 50,000 ft"
+          },
+          {
+            "title": "Payload",
+            "text": "About 70,000 lb mixed ordnance"
+          },
+          {
+            "title": "Dimensions",
+            "text": "159 ft 4 in length; 185 ft wingspan; 40 ft 8 in height"
+          }
+        ]
+      },
+      {
+        "id": "variants",
+        "title": "Variants",
+        "paragraphs": [
+          {
+            "text": "The B-52 family spans prototypes, early Cold War production blocks, dedicated reconnaissance or test-support aircraft, and the current B-52H fleet. Variant letters should not be treated as interchangeable because engines, mission equipment, defensive systems, and weapons clearances changed substantially over time.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "XB-52/YB-52: prototypes and service-test aircraft for the swept-wing eight-engine configuration.",
+            "refs": [
+              "fn-wiki"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "B-52B/C/D: early operational blocks; the B-52D became prominent in Vietnam-era conventional bombing after modifications.",
+            "refs": [
+              "fn-nmusaf-b52d"
+            ]
+          },
+          {
+            "text": "B-52E/F/G: later Cold War production and upgrade blocks with changing avionics, range, and weapons provisions.",
             "refs": [
               "fn-method"
+            ]
+          },
+          {
+            "text": "B-52H: final production version, current USAF fleet baseline, and basis for major modern upgrades.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "NB-52/NASA aircraft: modified support aircraft used for experimental research and air-launch programs.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "B-52J: planned designation associated with re-engined and modernized B-52H aircraft; public details remain program-dependent.",
+            "refs": [
+              "fn-airforce-technology"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "operators",
+        "title": "Operators",
         "paragraphs": [
           {
-            "text": "Boeing B-52 Stratofortress similar-development links: 4.",
+            "text": "The B-52 is unusual among major combat aircraft because public combat operation is essentially U.S.-only. The USAF has used the aircraft for Strategic Air Command, Air Combat Command, and Air Force Global Strike Command missions, while NASA formerly operated modified aircraft for research support.",
+            "refs": [
+              "fn-usaf",
+              "fn-wiki"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "United States Air Force — current operator of the B-52H fleet for nuclear deterrence, conventional long-range strike, maritime support, and standoff weapons missions.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "NASA — former operator of modified B-52 aircraft for research and air-launch support from 1959 to 2007 according to public summaries.",
+            "refs": [
+              "fn-wiki"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "The B-52 entered service as a nuclear-deterrent bomber during the Cold War, standing alert and supporting Strategic Air Command's long-range mission. Its combat identity broadened during the Vietnam War, when B-52s performed large conventional strikes as well as theater-level bombing missions.",
+            "refs": [
+              "fn-nmusaf-b52d",
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "In the 1991 Gulf War, B-52s demonstrated long-range conventional strike and cruise-missile employment. Later operations in Afghanistan, Iraq, and Syria-era campaigns emphasized precision-guided weapons, persistent presence, and the ability to deliver heavy ordnance without basing close to the battlefield.",
+            "refs": [
+              "fn-usaf",
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Because many nuclear, maritime, and standoff-strike missions are sensitive or date-dependent, this page avoids claiming a single standard loadout or readiness posture. Publicly, the aircraft is best understood as a flexible bomber whose missions changed as weapons and threat environments changed.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Vietnam War: major conventional bombing role, especially for modified B-52D aircraft.",
+            "refs": [
+              "fn-nmusaf-b52d"
+            ]
+          },
+          {
+            "text": "Gulf War: long-range conventional and cruise-missile strike operations.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Post-2001 operations: precision-guided strike and long-endurance support missions in Afghanistan, Iraq, and related theaters.",
+            "refs": [
+              "fn-usaf"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The B-52's strengths are payload, range, endurance, upgrade space, and low risk of rapid obsolescence when paired with standoff weapons. It can carry many weapons, operate from established bomber bases, and remain relevant through changing avionics and weapons packages.",
+            "refs": [
+              "fn-usaf",
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "Its limitations are equally clear: it is large, non-stealthy, subsonic, and maintenance-intensive, with an airframe and engine architecture rooted in the 1950s. Against dense modern air defenses, public discussion generally emphasizes standoff employment, electronic support, escort/force integration, and careful mission planning rather than direct penetration by the bomber alone.",
+            "refs": [
+              "fn-method",
+              "fn-airforce-technology"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Strength",
+            "text": "Large mixed payload and long unrefueled range"
+          },
+          {
+            "title": "Strength",
+            "text": "Highly upgradeable weapons and mission systems"
+          },
+          {
+            "title": "Limitation",
+            "text": "Non-stealthy, subsonic, and very large"
+          },
+          {
+            "title": "Limitation",
+            "text": "Configuration-specific weapons and mission data are easily overstated"
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Compared with the B-1B, the B-52 is older and slower but can remain useful as a lower-speed standoff and payload platform. Compared with the B-2, it lacks low-observable penetration qualities but offers a much larger visible fleet history and an easier path for carrying many conventional weapons. Compared with the Tu-95, it is a similarly long-lived Cold War bomber, but uses eight jet engines rather than four turboprops and has followed a U.S.-specific modernization path.",
             "refs": [
               "fn-method"
             ]
@@ -15427,33 +15620,106 @@
             "url": "aircraft.html?id=b-2-spirit"
           },
           {
-            "label": "Sukhoi Su-24",
-            "url": "aircraft.html?id=su-24"
+            "label": "Tupolev Tu-95",
+            "url": "aircraft.html?id=tu-95"
           },
           {
-            "label": "Sukhoi Su-34",
-            "url": "aircraft.html?id=su-34"
+            "label": "Tupolev Tu-160 Blackjack",
+            "url": "aircraft.html?id=tu-160"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "The B-52 timeline is unusually long for a combat aircraft, stretching from postwar heavy-bomber studies through Cold War deterrence, Vietnam-era conventional bombing, post-Cold-War precision strike, and current modernization planning.",
+            "refs": [
+              "fn-usaf",
+              "fn-airforce-technology"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1940s: U.S. heavy-bomber requirement evolves into Boeing's swept-wing jet design.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "15 April 1952: YB-52 first flight.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "1955: B-52 enters USAF service.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "1961: B-52H enters service; 104 H-model aircraft are built.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "1960s–1970s: B-52s see major Vietnam War conventional use.",
+            "refs": [
+              "fn-nmusaf-b52d"
+            ]
+          },
+          {
+            "text": "1991 onward: Gulf War and later campaigns demonstrate precision and standoff conventional employment.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "2020s: Radar, weapons, communications, and F130 engine upgrades support the planned B-52J path.",
+            "refs": [
+              "fn-airforce-technology"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-related-pages",
+        "title": "Sources and Related Pages",
+        "paragraphs": [
+          {
+            "text": "The most important source caveat is that many B-52 figures are variant- and date-sensitive. This page uses B-52H data for current-service specifications, cites official USAF pages where available, and uses accessible secondary references to cross-check figures when official pages were blocked from direct extraction during the run.",
+            "refs": [
+              "fn-usaf",
+              "fn-globalsecurity-specs",
+              "fn-airforce-technology"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "U.S. Air Force B-52 fact sheet",
+            "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104465/b-52-stratofortress/"
+          },
+          {
+            "label": "B-1 Lancer",
+            "url": "aircraft.html?id=b-1-lancer"
+          },
+          {
+            "label": "B-2 Spirit",
+            "url": "aircraft.html?id=b-2-spirit"
+          },
+          {
+            "label": "Return to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg/960px-U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg",
-        "caption": "Vietnam War",
-        "source_url": "https://en.wikipedia.org/wiki/Vietnam_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg/960px-USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg",
-        "caption": "Gulf War",
-        "source_url": "https://en.wikipedia.org/wiki/Gulf_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/UStanks_baghdad_2003.JPEG/960px-UStanks_baghdad_2003.JPEG",
-        "caption": "Iraq War",
-        "source_url": "https://en.wikipedia.org/wiki/Iraq_War"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "b-1-lancer",

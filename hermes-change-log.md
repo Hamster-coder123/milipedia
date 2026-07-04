@@ -6713,3 +6713,78 @@ Record the result of:
 * National Museum of the U.S. Air Force pages for F-100C/F-100D returned HTTP 403, Boeing/NASA candidate URLs had moved or returned 404, and F-100.org returned HTTP 403; those source-access limitations are noted in the page source notes.
 * The F-100D first-flight date differs across sources (some reference pages list the family/prototype date differently); the update uses year-level wording where exact date was not necessary.
 * Exact fleet counts, detailed combat-loss totals, and operator-specific weapons fits were intentionally omitted or kept general for source-safety.
+
+### Run 88 — 2026-07-04 06:05:27 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Boeing B-52 Stratofortress (id: b-52-stratofortress)
+* Reason selected: The B-52 page was one of the shortest unedited aircraft entries remaining, with only generated prose, no operator entries, no real variant entries, sparse specifications, generic armament wording, stale external-source labels, and a much lower article density than the F-16 reference page.
+* Previous condition: Placeholder-like generated entry with 9 generic sections, 0 operators, 0 variants, 3 stale external article sources, no B-52H representative specification cards, no modernization discussion, no sourced operator/variant coverage, and a stale generic event gallery.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense lead overview; technical fact cards; article-section order covering development, design, powerplant/avionics/weapons, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, sources, and related pages; careful source references; internal aircraft.html?id=... link style; caveats for variant-specific or configuration-sensitive claims.
+
+#### Changes Made
+
+* Expanded the B-52 Stratofortress entry from a sparse generated page into a fuller Milipedia article-style record.
+* Updated top-level facts for role, active-service baseline, first flight, introduction, production totals, B-52H engine fit, speed, range, service ceiling, payload, hardpoints, and current USAF status.
+* Replaced generic weapon wording with configuration-sensitive B-52 armament text covering mixed conventional, precision-guided, cruise-missile, mine, and nuclear-capable stores without claiming a universal loadout.
+* Added sourced references from official USAF/ACC/National Museum pages plus accessible GlobalSecurity and Airforce Technology technical cross-checks; retained Wikipedia only as supplementary orientation.
+* Added variant coverage for prototypes, B-52A through B-52H families, NB-52/NASA support aircraft, and the planned B-52J modernization path.
+* Added operator coverage for the United States Air Force and former NASA research-support operation.
+* Added expanded sections for Overview, Development History, Design and Capabilities, Powerplant/Avionics/Weapons, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Comparison, Timeline, and Sources and Related Pages.
+* Added B-52H representative specification cards modeled on the F-16 density pattern while noting that historical variants differ.
+* Updated related internal links to B-1 Lancer, B-2 Spirit, Tu-95, and Tu-160, and removed stale generated event-gallery items that showed unrelated war imagery.
+* Omitted exact current fleet counts, readiness postures, classified nuclear details, and single definitive weapon carriage counts because those are date-, treaty-, software-, and configuration-sensitive.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded the Boeing B-52 Stratofortress aircraft page data, sources, variants, operators, specifications, and article sections.
+* hermes-change-log.md — Appended the cumulative log entry for this run.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — before commit, only data/aircraft.json and hermes-change-log.md were modified.
+2. git diff — reviewed diff/stat and selected-entry output; the aircraft diff changed only the b-52-stratofortress entry, plus this log entry.
+3. File review — python3 -m json.tool data/aircraft.json passed; selected entry showed 12 article sections, 8 variants, 2 operators, 7 source/footnote entries, and cleaned event-gallery metadata.
+4. F-16 style comparison — Inspected data/f16-template.html and matched its dense overview, technical cards, section ordering, internal-link style, and source/caveat density within the JSON-rendered article system.
+5. Internal link check — recursive check found all aircraft.html?id=... links in the B-52 entry target existing local IDs.
+6. Secret/token check — credential-specific diff scan reported no added private credentials or access/auth tokens.
+7. Final review before commit — branch check confirmed hermes-agent; git diff --check passed; JSON syntax passed; single-entry comparison passed; internal-link check passed; only intended files were prepared for staging.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Boeing B-52 Stratofortress
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Tavily web search/extract returned backend 432 errors, and direct fetching of official USAF/ACC/National Museum pages returned 403 responses in this environment. Official URLs were retained as references, while accessible GlobalSecurity, Airforce Technology, and Wikipedia content were used to cross-check public figures.
+* B-52 weapon carriage and current modernization details are configuration- and date-sensitive; the page intentionally avoids a single universal loadout or classified/current readiness claims.
