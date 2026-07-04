@@ -18923,34 +18923,54 @@
   {
     "id": "kc-135-stratotanker",
     "name": "Boeing KC-135 Stratotanker",
-    "alternative_names": [],
+    "alternative_names": [
+      "KC-135 Stratotanker",
+      "Stratotanker",
+      "Model 717"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
     "manufacturer": "Boeing",
-    "role": "Aerial refueling tanker",
-    "aircraft_type": "Tanker",
-    "era": "Cold War/Modern",
-    "first_flight": "1956",
-    "introduction_date": "1957",
+    "role": "Aerial refueling tanker and strategic air mobility support aircraft",
+    "aircraft_type": "Four-engine aerial refueling tanker and cargo aircraft",
+    "era": "Cold War to modern era",
+    "first_flight": "31 August 1956",
+    "introduction_date": "June 1957",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "3-4",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "status": "Active with the U.S. Air Force and selected export operators; being supplemented by the KC-46A",
+    "number_built": "803 KC-135 tankers; 820 basic C-135-family aircraft often cited",
+    "crew": "3-4 (pilot, co-pilot, boom operator, and mission-dependent navigator)",
+    "engine_type": "Four turbofan engines on KC-135R/T; original KC-135A used J57 turbojets",
+    "engines": "4 CFM International F108-CF-100 turbofans on KC-135R/T, about 21,600 lbf thrust each",
+    "max_speed": "About 504 kt / 580 mph (KC-135R); Mach 0.9 maximum often listed",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Support aircraft; fixed offensive armament not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Boeing KC-135 Stratotanker: Aerial refueling tanker. Manufacturer: Boeing. First flight: 1956. Introduction: 1957.",
-    "short_summary": "Boeing KC-135 Stratotanker: Aerial refueling tanker. Origin: United States. Manufacturer: Boeing. First flight: 1956. Introduction: 1957. Status: Active.",
+    "range": "About 1,300 nmi with 150,000 lb transferable fuel; ferry range about 9,572 nmi",
+    "combat_range": "Mission-dependent; tanker offload and radius vary with fuel load, receiver demand, and basing",
+    "service_ceiling": "50,000 ft",
+    "rate_of_climb": "About 4,900 ft/min",
+    "armament": "Unarmed support aircraft; mission equipment centers on flying-boom refueling, cargo/passenger carriage, and some drogue-adapter configurations.",
+    "hardpoints": "No combat hardpoints; refueling boom and mission-specific hose/drogue adapters or wing pods on some variants.",
+    "variants": [
+      "KC-135A",
+      "KC-135E",
+      "KC-135R",
+      "KC-135T",
+      "KC-135Q",
+      "KC-135D",
+      "C-135F/C-135FR",
+      "NKC-135 test aircraft"
+    ],
+    "operators": [
+      "United States Air Force",
+      "Air National Guard",
+      "Air Force Reserve Command",
+      "Turkish Air Force",
+      "Chilean Air Force",
+      "French Air and Space Force (former C-135FR/KC-135R family operator)"
+    ],
+    "combat_history": "Extensively used as an aerial-refueling force multiplier from Vietnam through Desert Storm, Afghanistan, Iraq, and routine global air-mobility operations.",
+    "development_history": "The KC-135 was developed from Boeing's Dash 80 jet transport demonstrator as the U.S. Air Force's first jet-powered aerial refueling tanker. It entered service in 1957 to replace piston-engine KC-97 tankers and to support Strategic Air Command bombers and later tactical aircraft worldwide.",
+    "short_summary": "The Boeing KC-135 Stratotanker is a U.S. four-engine aerial-refueling tanker derived from Boeing's Dash 80 prototype. Introduced in 1957, it became the USAF's first jet tanker, supported decades of bomber and tactical-air operations, and remains active while KC-46A replacements enter service.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -18963,18 +18983,39 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-usaf",
+        "title": "KC-135 Stratotanker fact sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104524/kc-135-stratotanker/",
+        "publisher": "U.S. Air Force",
+        "note": "Official fact sheet used for mission description, representative KC-135R specifications, crew, fuel-transfer, and operational framing."
+      },
+      {
+        "id": "fn-museum",
+        "title": "Boeing KC-135 Stratotanker",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196676/boeing-kc-135-stratotanker/",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Museum background source for development, first flight, early production, and historical role."
+      },
+      {
+        "id": "fn-flugzeuginfo",
+        "title": "Boeing KC-135 Stratotanker - Specifications",
+        "url": "https://www.flugzeuginfo.net/acdata_php/acdata_kc135_en.php",
+        "publisher": "Flugzeuginfo",
+        "note": "Technical-data cross-check for dimensions, KC-135R F108 engines, range, ceiling, weights, and production-span figures."
+      },
+      {
+        "id": "fn-militaryfactory",
+        "title": "Boeing KC-135 Stratotanker",
+        "url": "https://www.militaryfactory.com/aircraft/detail.php?aircraft_id=53",
+        "publisher": "MilitaryFactory",
+        "note": "Supplementary overview source for production period, airframe role, and general program context."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Boeing KC-135 Stratotanker",
         "url": "https://en.wikipedia.org/wiki/Boeing_KC-135_Stratotanker",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation and reference-discovery source only; date-sensitive operator and future-event claims were not used."
       },
       {
         "id": "fn-method",
@@ -18982,27 +19023,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.defenselink.mil/Releases/Release.aspx?ReleaseID=10463",
-        "publisher": "defenselink.mil",
-        "note": "External source for Boeing KC-135 Stratotanker."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.boeing.com/news/frontiers/archive/2006/july/i_history.pdf",
-        "publisher": "boeing.com",
-        "note": "External source for Boeing KC-135 Stratotanker."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.clubhyper.com/reference/c135jh_2.htm",
-        "publisher": "clubhyper.com",
-        "note": "External source for Boeing KC-135 Stratotanker."
       }
     ],
     "country_flags": [
@@ -19014,143 +19034,153 @@
     "designers": [
       "Boeing"
     ],
-    "development_tensions": [],
+    "development_tensions": [
+      "The KC-135 was selected because Boeing's Dash 80-derived tanker was already flying and could be delivered earlier than competing paper designs.",
+      "It was not simply a Boeing 707 tanker: the KC-135 is shorter, narrower, and structurally distinct from the later 707 airliner.",
+      "Re-engining improved fuel efficiency and offload performance, but the aircraft remains an aging 1950s airframe requiring modernization and sustainment."
+    ],
     "wars_used_in": [
       {
+        "name": "Vietnam War",
+        "note": "KC-135 tankers refueled bombers, fighters, and reconnaissance aircraft during Southeast Asia air operations."
+      },
+      {
         "name": "Gulf War",
-        "note": "Boeing KC-135 Stratotanker used in Gulf War."
+        "note": "KC-135s supported coalition air operations by extending tactical aircraft and bomber endurance."
       },
       {
-        "name": "Iraq War",
-        "note": "Boeing KC-135 Stratotanker used in Iraq War."
-      },
-      {
-        "name": "War in Afghanistan (2001–2021)",
-        "note": "Boeing KC-135 Stratotanker used in War in Afghanistan (2001–2021)."
+        "name": "Afghanistan and Iraq operations",
+        "note": "KC-135s supported long-duration strike, patrol, airlift, and command-and-control missions during post-2001 U.S. and coalition operations."
       }
     ],
     "variant_families": [
-      "Boeing KC-135 Stratotanker baseline production model",
-      "Boeing KC-135 Stratotanker upgraded avionics or weapons-capable model"
+      "KC-135A original J57-powered tanker",
+      "KC-135E TF33 re-engined Air Reserve Component variant, now retired from U.S. service",
+      "KC-135R/T F108-powered modernized tanker family",
+      "KC-135Q/T support for SR-71 JP-7 fuel operations",
+      "C-135F/C-135FR French tanker/cargo derivative",
+      "NKC-135 test and research aircraft"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Boeing KC-135 Stratotanker has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The United States remains the primary KC-135 operator through the active-duty Air Force, Air National Guard, and Air Force Reserve; Turkey, Chile, and France also operated or operate C/KC-135-family tankers.",
+      "all_operators_status": "Current and historical operator status is date-sensitive as KC-46A and A330 MRTT replacements enter service."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "The KC-135 has no single celebrity airframe comparable to a fighter ace aircraft; its significance is cumulative fleet service.",
+        "NKC-135 research aircraft supported NASA and defense test programs, including reduced-gravity and airborne-test missions."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "The 1966 Palomares accident involved a KC-135 and a B-52 during aerial-refueling operations.",
+        "Accident history is substantial because of the fleet size and service duration; this page avoids unsourced incident counts."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Boeing KC-135 Stratotanker uses jet propulsion."
+      "type": "Four underwing jet engines",
+      "summary": "Original KC-135As used Pratt and Whitney J57 turbojets with water injection. KC-135R/T aircraft use CFM International F108-CF-100 turbofans, improving fuel efficiency, noise, takeoff performance, and fuel offload."
     },
     "armament_details": {
-      "summary": "Support aircraft; fixed offensive armament not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "The KC-135 is unarmed. Its mission equipment is aerial-refueling and air-mobility support rather than offensive stores.",
+      "caution": "Some aircraft can use hose-and-drogue adapters or multipoint refueling systems, but those are refueling equipment, not weapons hardpoints."
     },
     "similar_development": [
       {
-        "id": "f-4-phantom-ii",
-        "name": "McDonnell Douglas F-4 Phantom II",
-        "url": "aircraft.html?id=f-4-phantom-ii"
+        "id": "b-52-stratofortress",
+        "name": "Boeing B-52 Stratofortress",
+        "url": "aircraft.html?id=b-52-stratofortress"
       },
       {
-        "id": "f-5-freedom-fighter-tiger-ii",
-        "name": "Northrop F-5",
-        "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
+        "id": "c-130-hercules",
+        "name": "Lockheed C-130 Hercules",
+        "url": "aircraft.html?id=c-130-hercules"
       },
       {
-        "id": "f-8-crusader",
-        "name": "Vought F-8 Crusader",
-        "url": "aircraft.html?id=f-8-crusader"
-      },
-      {
-        "id": "f-14-tomcat",
-        "name": "Grumman F-14 Tomcat",
-        "url": "aircraft.html?id=f-14-tomcat"
+        "id": "p-8-poseidon",
+        "name": "Boeing P-8 Poseidon",
+        "url": "aircraft.html?id=p-8-poseidon"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 31,
+      "operator_entries": 6,
+      "variant_entries": 8,
+      "external_article_sources": 4
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-usaf",
+        "title": "KC-135 Stratotanker fact sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104524/kc-135-stratotanker/",
+        "publisher": "U.S. Air Force",
+        "note": "Official fact sheet used for mission description, representative KC-135R specifications, crew, fuel-transfer, and operational framing."
+      },
+      {
+        "id": "fn-museum",
+        "title": "Boeing KC-135 Stratotanker",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196676/boeing-kc-135-stratotanker/",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Museum background source for development, first flight, early production, and historical role."
+      },
+      {
+        "id": "fn-flugzeuginfo",
+        "title": "Boeing KC-135 Stratotanker - Specifications",
+        "url": "https://www.flugzeuginfo.net/acdata_php/acdata_kc135_en.php",
+        "publisher": "Flugzeuginfo",
+        "note": "Technical-data cross-check for dimensions, KC-135R F108 engines, range, ceiling, weights, and production-span figures."
+      },
+      {
+        "id": "fn-militaryfactory",
+        "title": "Boeing KC-135 Stratotanker",
+        "url": "https://www.militaryfactory.com/aircraft/detail.php?aircraft_id=53",
+        "publisher": "MilitaryFactory",
+        "note": "Supplementary overview source for production period, airframe role, and general program context."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Boeing KC-135 Stratotanker",
         "url": "https://en.wikipedia.org/wiki/Boeing_KC-135_Stratotanker",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation and reference-discovery source only; date-sensitive operator and future-event claims were not used."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.defenselink.mil/Releases/Release.aspx?ReleaseID=10463",
-        "publisher": "defenselink.mil",
-        "note": "External source for Boeing KC-135 Stratotanker."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.boeing.com/news/frontiers/archive/2006/july/i_history.pdf",
-        "publisher": "boeing.com",
-        "note": "External source for Boeing KC-135 Stratotanker."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.clubhyper.com/reference/c135jh_2.htm",
-        "publisher": "clubhyper.com",
-        "note": "External source for Boeing KC-135 Stratotanker."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.defenselink.mil/Releases/Release.aspx?ReleaseID=10463",
-        "publisher": "defenselink.mil",
-        "note": "External source for Boeing KC-135 Stratotanker."
+        "id": "fn-usaf",
+        "title": "KC-135 Stratotanker fact sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104524/kc-135-stratotanker/",
+        "publisher": "U.S. Air Force",
+        "note": "Official fact sheet used for mission description, representative KC-135R specifications, crew, fuel-transfer, and operational framing."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.boeing.com/news/frontiers/archive/2006/july/i_history.pdf",
-        "publisher": "boeing.com",
-        "note": "External source for Boeing KC-135 Stratotanker."
+        "id": "fn-museum",
+        "title": "Boeing KC-135 Stratotanker",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196676/boeing-kc-135-stratotanker/",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Museum background source for development, first flight, early production, and historical role."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.clubhyper.com/reference/c135jh_2.htm",
-        "publisher": "clubhyper.com",
-        "note": "External source for Boeing KC-135 Stratotanker."
+        "id": "fn-flugzeuginfo",
+        "title": "Boeing KC-135 Stratotanker - Specifications",
+        "url": "https://www.flugzeuginfo.net/acdata_php/acdata_kc135_en.php",
+        "publisher": "Flugzeuginfo",
+        "note": "Technical-data cross-check for dimensions, KC-135R F108 engines, range, ceiling, weights, and production-span figures."
+      },
+      {
+        "id": "fn-militaryfactory",
+        "title": "Boeing KC-135 Stratotanker",
+        "url": "https://www.militaryfactory.com/aircraft/detail.php?aircraft_id=53",
+        "publisher": "MilitaryFactory",
+        "note": "Supplementary overview source for production period, airframe role, and general program context."
       }
     ],
     "article_sections": [
@@ -19159,20 +19189,22 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Boeing KC-135 Stratotanker is an Aerial refueling tanker from United States. Manufacturer: Boeing. First flight: 1956. Introduction: 1957. Status: Active.",
+            "text": "The Boeing KC-135 Stratotanker is a four-engine aerial-refueling tanker developed for the U.S. Air Force from Boeing's Dash 80 jet transport demonstrator. It gave Strategic Air Command a jet-speed tanker able to support B-52 bombers and, later, tactical fighters, reconnaissance aircraft, transports, and command-and-control platforms over intercontinental distances.",
             "refs": [
-              "fn-main"
+              "fn-usaf",
+              "fn-museum"
             ]
           },
           {
-            "text": "Boeing KC-135 Stratotanker is a tanker. Primary role: aerial refueling tanker. Country of origin: United States. Manufacturer: Boeing.",
+            "text": "The KC-135 entered USAF service in 1957 and became one of the longest-serving fixed-wing aircraft families in continuous U.S. military operation. The modern KC-135R/T fleet remains active while the KC-46A Pegasus gradually supplements and replaces part of the tanker force.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Unlike combat aircraft, the Stratotanker's value is measured in fuel offload, availability, basing reach, and receiver compatibility. It is unarmed, but its flying boom and optional hose-and-drogue equipment allow fighters, bombers, transports, and special-mission aircraft to stay airborne far beyond their unrefueled endurance.",
             "refs": [
+              "fn-usaf",
               "fn-method"
             ]
           }
@@ -19180,166 +19212,160 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Aerial refueling tanker"
+            "text": "Aerial refueling tanker and air-mobility support aircraft"
           },
           {
-            "title": "Designer or builder",
-            "text": "Boeing"
+            "title": "First flight",
+            "text": "31 August 1956"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Entered service",
+            "text": "June 1957"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Representative engines",
+            "text": "4 CFM International F108-CF-100 turbofans on KC-135R/T"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Boeing KC-135 Stratotanker first flew in 1956. Introduction date: 1957. Era: Cold War/Modern.",
+            "text": "The KC-135 grew out of the need to replace piston-engine KC-97 tankers, which forced jet receivers to slow down during refueling. Boeing's Dash 80 demonstrator was already flying when the USAF moved to a jet tanker, giving Boeing a delivery advantage over competing proposals.",
             "refs": [
-              "fn-main"
+              "fn-museum",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Producer: Boeing. Development context: aerial refueling tanker, jet propulsion, subsonic speed category, Cold War/Modern era.",
+            "text": "Although visually related to the Boeing 707 family, the KC-135 is shorter, narrower, and structurally distinct from the civil airliner. Boeing initially used the Model 717 designation for the tanker program, decades before that number was reused for a different airliner.",
             "refs": [
-              "fn-wikidata"
+              "fn-museum",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Production ran from the mid-1950s to 1965. Public references differ on whether they count only KC-135 tankers or the broader C-135 family, so this page records 803 KC-135 tankers and notes the often-cited 820 C-135-family total rather than forcing a single context-free number.",
+            "refs": [
+              "fn-flugzeuginfo",
+              "fn-militaryfactory",
+              "fn-method"
             ]
           }
         ],
-        "bullets": []
+        "bullets": [
+          {
+            "text": "1954: USAF Strategic Air Command requirement accelerated the move from piston tankers to jet-powered refueling support.",
+            "refs": [
+              "fn-museum"
+            ]
+          },
+          {
+            "text": "31 August 1956: first KC-135 flight.",
+            "refs": [
+              "fn-flugzeuginfo"
+            ]
+          },
+          {
+            "text": "June 1957: early production aircraft delivered for operational USAF service.",
+            "refs": [
+              "fn-usaf",
+              "fn-museum"
+            ]
+          }
+        ]
       },
       {
         "id": "design",
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 3-4. Propulsion: Jet. Speed category: Subsonic.",
+            "text": "The Stratotanker uses a swept-wing, four-engine layout with a refueling boom mounted under the rear fuselage. The boom operator controls fuel transfer to receptacle-equipped receivers; mission kits and selected variants can also support probe-and-drogue receivers.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "The KC-135R/T re-engining program replaced older turbojets or TF33s with CFM International F108 turbofans. The change improved fuel efficiency, takeoff performance, noise, and fuel available for receiver aircraft, helping extend the fleet's service life.",
             "refs": [
+              "fn-usaf",
+              "fn-flugzeuginfo"
+            ]
+          },
+          {
+            "text": "The aircraft can also carry passengers and cargo, making it useful for airlift support when not assigned to tanker tracks. Its limitations are those of an aging non-stealth tanker: it normally operates away from high-threat airspace and depends on basing, escorts, route planning, and command-and-control support.",
+            "refs": [
+              "fn-usaf",
               "fn-method"
-            ]
-          },
-          {
-            "text": "Boeing KC-135 Stratotanker uses jet propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Support aircraft; fixed offensive armament not listed. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "3-4"
+            "text": "Usually 3; navigator or additional crew mission-dependent"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Fuel load",
+            "text": "About 200,000 lb maximum fuel capacity often listed for KC-135R"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Cargo/passengers",
+            "text": "Up to about 83,000 lb cargo or passenger/cargo combinations in public fact sheets"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Armament",
+            "text": "Unarmed; refueling equipment only"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Boeing KC-135 Stratotanker status: Active. Conflict entries: 3.",
+            "text": "Representative public figures below are for the KC-135R configuration. Earlier KC-135A/E aircraft and special-mission derivatives differ in engines, weights, equipment, and performance.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: Gulf War, Iraq War, War in Afghanistan (2001–2021).",
-            "refs": [
+              "fn-usaf",
+              "fn-flugzeuginfo",
               "fn-method"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Gulf War: Boeing KC-135 Stratotanker used in Gulf War.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Length",
+            "text": "136 ft 3 in / 41.53 m"
           },
           {
-            "text": "Iraq War: Boeing KC-135 Stratotanker used in Iraq War.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Wingspan",
+            "text": "130 ft 10 in / 39.88 m"
           },
           {
-            "text": "War in Afghanistan (2001–2021): Boeing KC-135 Stratotanker used in War in Afghanistan (2001–2021).",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Boeing KC-135 Stratotanker named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Height",
+            "text": "41 ft 8 in / about 12.7 m"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum takeoff weight",
+            "text": "322,500 lb / 146,284 kg"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum speed",
+            "text": "About 504 kt / 580 mph; Mach 0.9 maximum cited"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Range/offload",
+            "text": "About 1,300 nmi with 150,000 lb transferable fuel; ferry range about 9,572 nmi"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "50,000 ft"
+          },
+          {
+            "title": "Rate of climb",
+            "text": "About 4,900 ft/min"
           }
         ]
       },
@@ -19348,29 +19374,49 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Boeing KC-135 Stratotanker variant-family entries: 2. Variant families: Boeing KC-135 Stratotanker baseline production model; Boeing KC-135 Stratotanker upgraded avionics or weapons-capable model.",
+            "text": "The KC-135 family is best understood as a long-lived tanker airframe repeatedly adapted for engines, receivers, special fuel, test equipment, and national requirements. Variant counts vary by source because C-135, EC-135, RC-135, and export derivatives are sometimes included or separated.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
+              "fn-wikipedia",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Boeing KC-135 Stratotanker baseline production model",
+            "text": "KC-135A: original J57 turbojet-powered production tanker.",
             "refs": [
-              "fn-main"
+              "fn-museum"
             ]
           },
           {
-            "text": "Boeing KC-135 Stratotanker upgraded avionics or weapons-capable model",
+            "text": "KC-135E: TF33-powered modernization used mainly by Air National Guard and Air Force Reserve units before retirement from U.S. service.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "KC-135R: main F108/CFM56-powered modernized tanker configuration.",
+            "refs": [
+              "fn-usaf",
+              "fn-flugzeuginfo"
+            ]
+          },
+          {
+            "text": "KC-135T: re-engined aircraft descended from KC-135Q support for SR-71 JP-7 fuel operations.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "KC-135D and NKC-135: small-number special, test, or research configurations.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "C-135F/C-135FR: French tanker/cargo derivative, later supplemented or replaced by newer multirole tankers.",
+            "refs": [
+              "fn-wikipedia"
             ]
           }
         ]
@@ -19380,13 +19426,169 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Boeing KC-135 Stratotanker has 1 designer or builder country entry.",
+            "text": "The United States is the primary KC-135 operator, with aircraft distributed across active-duty Air Mobility Command units, the Air National Guard, the Air Force Reserve, training, test, and overseas tanker units. Public fleet totals change as aircraft retire and KC-46A deliveries continue.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf",
+              "fn-method"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "Export and non-U.S. C/KC-135-family use has included Turkey, Chile, and France. Operator counts are treated cautiously because some national fleets have transitioned to Airbus A330 MRTT or other tanker solutions.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "United States: original and largest operator, using KC-135R/T aircraft for global refueling, airlift support, and training.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Turkey: operates KC-135R aircraft for national tanker support.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Chile: operates former KC-135E-family aircraft according to public references.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "France: operated C-135F/C-135FR-family tankers before replacement by newer tanker aircraft.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "The KC-135 was introduced for Strategic Air Command bomber support, but its importance expanded as tactical fighters, reconnaissance aircraft, transports, and command aircraft required long-range refueling. It became a routine enabler of U.S. global airpower rather than a platform associated with a single combat theater.",
+            "refs": [
+              "fn-usaf",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "During the Vietnam War and later operations, KC-135 crews allowed receiver aircraft to remain on station longer, cross oceans, or recover after fuel emergencies. In Desert Storm and post-2001 Afghanistan and Iraq operations, tanker tracks were a central part of air-tasking plans.",
+            "refs": [
+              "fn-usaf",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "The aircraft also supported test and research missions, including NKC-135 work for reduced-gravity and airborne systems testing. These secondary missions reflected the size, payload, and electrical capacity of the basic airframe.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strategic bomber support: extended SAC bomber reach during the Cold War.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Tactical air support: refueled fighters and attack aircraft, including F-4 and F-105-era operations in Southeast Asia.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Modern expeditionary operations: supported air campaigns, patrols, and deployments in Southwest Asia and other theaters.",
+            "refs": [
+              "fn-usaf"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "notable-events",
+        "title": "Notable Events and Milestones",
+        "paragraphs": [
+          {
+            "text": "The KC-135's notable history is mostly programmatic rather than ace- or dogfight-centered. Key milestones involve first flight, entry into service, re-engining, major contingency support, and replacement planning.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "1956",
+            "text": "First flight of the KC-135 tanker."
+          },
+          {
+            "title": "1957",
+            "text": "Initial USAF service entry and delivery to operational tanker units."
+          },
+          {
+            "title": "1965",
+            "text": "End of the main KC-135 production run."
+          },
+          {
+            "title": "1980s onward",
+            "text": "Re-engining and avionics modernization extended service life and improved offload performance."
+          },
+          {
+            "title": "1991",
+            "text": "Large-scale tanker support for Operation Desert Storm."
+          },
+          {
+            "title": "2010s-2020s",
+            "text": "KC-46A deliveries begin supplementing the KC-135 fleet, but KC-135R/T aircraft remain active."
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "The KC-135 sits between World War II-derived piston tankers and modern multirole tanker-transports. Its enduring usefulness comes from availability and global basing rather than modern cockpit, survivability, or cargo efficiency.",
+            "refs": [
+              "fn-usaf",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Compared with KC-97",
+            "text": "Jet speed and jet fuel compatibility made the KC-135 far better suited to bomber and fighter jet operations."
+          },
+          {
+            "title": "Compared with KC-10",
+            "text": "The KC-10 offered larger payload and receiver flexibility, while the KC-135 fleet was far larger and more widely based."
+          },
+          {
+            "title": "Compared with KC-46A",
+            "text": "KC-46A brings newer systems and replacement capacity, but the KC-135 remains essential during the transition."
+          },
+          {
+            "title": "Compared with KC-130",
+            "text": "The KC-130 is a tactical turboprop tanker/transport; the KC-135 is a jet tanker optimized for higher-speed air-refueling tracks."
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Milipedia records strengths and limits separately to avoid treating longevity alone as proof of modern combat survivability.",
             "refs": [
               "fn-method"
             ]
@@ -19394,31 +19596,38 @@
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "Strength: large and well-understood fleet with decades of training, maintenance, and basing infrastructure.",
             "refs": [
-              "fn-main"
+              "fn-usaf"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "Strength: F108-powered KC-135R/T aircraft provide useful fuel offload and efficient high-altitude tanker support.",
             "refs": [
-              "fn-wikidata"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "specifications",
-        "title": "Specifications",
-        "paragraphs": [
-          {
-            "text": "Comparable fields: crew 3-4, propulsion type Jet, maximum speed category Subsonic, first flight 1956, introduction 1957.",
-            "refs": [
-              "fn-main"
+              "fn-usaf",
+              "fn-flugzeuginfo"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Strength: can carry passengers or cargo when configured for airlift support.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "Limitation: aging 1950s airframe requires sustained depot maintenance and modernization.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: non-stealth tanker normally must remain outside defended airspace and depends on protected tanker tracks.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: not as spacious or systems-modern as newer tanker-transports such as KC-46A or A330 MRTT.",
             "refs": [
               "fn-method"
             ]
@@ -19426,11 +19635,92 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "timeline",
+        "title": "Timeline",
         "paragraphs": [
           {
-            "text": "Boeing KC-135 Stratotanker similar-development links: 4.",
+            "text": "A concise timeline helps match the F-16 reference page's development-to-service rhythm while keeping date-sensitive fleet figures out of the main narrative.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1954: USAF orders initial jet tanker aircraft from Boeing.",
+            "refs": [
+              "fn-museum"
+            ]
+          },
+          {
+            "text": "31 August 1956: KC-135 first flight.",
+            "refs": [
+              "fn-flugzeuginfo"
+            ]
+          },
+          {
+            "text": "June 1957: early operational delivery and service entry.",
+            "refs": [
+              "fn-usaf",
+              "fn-museum"
+            ]
+          },
+          {
+            "text": "1965: final KC-135 production deliveries.",
+            "refs": [
+              "fn-flugzeuginfo"
+            ]
+          },
+          {
+            "text": "1980s-1990s: major re-engining programs create KC-135E and KC-135R/T standards.",
+            "refs": [
+              "fn-usaf",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "1991: large-scale use in Operation Desert Storm tanker operations.",
+            "refs": [
+              "fn-usaf"
+            ]
+          },
+          {
+            "text": "2020s: continued KC-135R/T service while KC-46A replacement fielding proceeds.",
+            "refs": [
+              "fn-usaf"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "USAF and National Museum fact sheets were used as the preferred official sources, with Flugzeuginfo and MilitaryFactory used as technical/program cross-checks. Wikipedia was retained for orientation and variant/operator prompts, but unsupported future-event claims and exact current fleet totals were omitted.",
+            "refs": [
+              "fn-usaf",
+              "fn-museum",
+              "fn-flugzeuginfo",
+              "fn-militaryfactory",
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Specifications are representative of the KC-135R and should not be applied blindly to early KC-135A/E aircraft, French C-135 derivatives, or special test aircraft.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia entries connect the KC-135 to aircraft it supported, tanker/cargo aircraft with comparable roles, and later Boeing military aircraft.",
             "refs": [
               "fn-method"
             ]
@@ -19438,41 +19728,25 @@
         ],
         "links": [
           {
-            "label": "McDonnell Douglas F-4 Phantom II",
-            "url": "aircraft.html?id=f-4-phantom-ii"
+            "label": "Boeing B-52 Stratofortress",
+            "url": "aircraft.html?id=b-52-stratofortress"
           },
           {
-            "label": "Northrop F-5",
-            "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
+            "label": "Lockheed C-130 Hercules",
+            "url": "aircraft.html?id=c-130-hercules"
           },
           {
-            "label": "Vought F-8 Crusader",
-            "url": "aircraft.html?id=f-8-crusader"
+            "label": "Boeing P-8 Poseidon",
+            "url": "aircraft.html?id=p-8-poseidon"
           },
           {
-            "label": "Grumman F-14 Tomcat",
-            "url": "aircraft.html?id=f-14-tomcat"
+            "label": "Back to aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg/960px-USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg",
-        "caption": "Gulf War",
-        "source_url": "https://en.wikipedia.org/wiki/Gulf_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/UStanks_baghdad_2003.JPEG/960px-UStanks_baghdad_2003.JPEG",
-        "caption": "Iraq War",
-        "source_url": "https://en.wikipedia.org/wiki/Iraq_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/U.S._Army_firefight_in_Kunar.jpg/960px-U.S._Army_firefight_in_Kunar.jpg",
-        "caption": "War in Afghanistan (2001–2021)",
-        "source_url": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001%E2%80%932021)"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "e-2-hawkeye",
