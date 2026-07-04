@@ -26455,7 +26455,7 @@
       }
     ],
     "article_quality": {
-      "exact_fact_count": 76,
+      "exact_fact_count": 81,
       "operator_entries": 7,
       "variant_entries": 6,
       "external_article_sources": 19
@@ -26611,16 +26611,137 @@
     ],
     "external_articles": [
       {
-        "title": "USAF T-6A Fact Sheet",
-        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104548/t-6a-texan-ii/"
+        "id": "fn-usaf-t6a",
+        "title": "T-6A Texan II",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104548/t-6a-texan-ii/",
+        "publisher": "U.S. Air Force",
+        "note": "Used for T-6A mission, JPPT role, PC-9 Mk II origin, cockpit layout, PT6A-68 engine, climb performance, dimensions, weights, range, ceiling, and armament notes."
       },
       {
-        "title": "U.S. Navy T-6B Fact File",
-        "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2166435/t-6b-texan-ii-turboprop-trainer/"
+        "id": "fn-nmusaf-t6a",
+        "title": "Beechcraft T-6A Texan II",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196344/beechcraft-t-6a-texan-ii/",
+        "publisher": "National Museum of the United States Air Force",
+        "note": "Used for JPATS selection context, 1996 Raytheon contract note, first operational USAF delivery, digital panels, aerobatic training identity, and technical notes."
       },
       {
-        "title": "Local Public Perception Research",
-        "url": "AIRCRAFT%20PUBLIC%20PERCEPTION/T6.txt"
+        "id": "fn-navy-t6b",
+        "title": "T-6B Texan II Turboprop Trainer",
+        "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2166435/t-6b-texan-ii-turboprop-trainer/",
+        "publisher": "U.S. Navy",
+        "note": "Used for T-6B JPATS role, T-34C replacement, avionics upgrade, glass cockpit, Navy inventory, basing, and T-6B IOC timeline."
+      },
+      {
+        "id": "fn-aetc-masterplan",
+        "title": "A Training System for the 21st Century: JPATS and the T-6A USAF Trainer Masterplan",
+        "url": "https://www.aetc.af.mil/Portals/88/Documents/history/AFD-061213-005.pdf?ver=2016-01-12-160013-127",
+        "publisher": "Air Education and Training Command History Office",
+        "note": "Used for JPATS background, official Texan II naming, 15 July 1998 first production flight, Beech Field test profile, and Air Force IOC planning."
+      },
+      {
+        "id": "fn-ntis-case-study",
+        "title": "T-6A Texan II Systems Engineering Case Study",
+        "url": "https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA538810.xhtml",
+        "publisher": "National Technical Reports Library / AFIT case study",
+        "note": "Used for the JPATS system framing: aircraft, ground-based training system, and contractor logistics elements."
+      },
+      {
+        "id": "fn-textron-t6c",
+        "title": "T-6C Texan II",
+        "url": "https://defense.txtav.com/en/t-6c",
+        "publisher": "Textron Aviation Defense",
+        "note": "Used for T-6C specifications, hardpoints, fuel figures, and current manufacturer description."
+      },
+      {
+        "id": "fn-raf-texan",
+        "title": "Texan T1",
+        "url": "https://www.raf.mod.uk/aircraft/texan-t1/",
+        "publisher": "Royal Air Force",
+        "note": "Used for UK Texan T1 role, RAF Valley basing, 72 Squadron, first student graduation in 2020, cockpit features, g limits, and speed/altitude figures."
+      },
+      {
+        "id": "fn-textron-japan",
+        "title": "Japan selects Beechcraft T-6 Texan II Integrated Training System to modernize Japan Air Self-Defense Force pilot training",
+        "url": "https://media.txtav.com/245342-japan-selects-beechcraft-t-6-texan-ii-integrated-training-system-to-modernize-japan-air-self-defense-force-pilot-training/",
+        "publisher": "Textron Aviation Defense",
+        "note": "Used for more than 1,000 deliveries, more than 5 million flight hours, 14 nations and two NATO flight schools, listed operator set, and Japan selection."
+      },
+      {
+        "id": "fn-pacaf-vietnam",
+        "title": "PACAF commander makes historic delivery of T-6C Texan IIs to Vietnam",
+        "url": "https://www.af.mil/News/Article-Display/Article/3975307/pacaf-commander-makes-historic-delivery-of-t-6c-texan-iis-to-vietnam/",
+        "publisher": "U.S. Air Force / Pacific Air Forces",
+        "note": "Used for 20 November 2024 Vietnam delivery ceremony, first three aircraft, Phan Thiet Air Base, and 12-aircraft delivery plan."
+      },
+      {
+        "id": "fn-textron-vietnam",
+        "title": "History-making Beechcraft T-6C Texan II sale supports the U.S.-Vietnam Comprehensive Strategic Partnership",
+        "url": "https://media.txtav.com/244551-history-making-beechcraft-t-6c-texan-ii-sale-supports-the-u-s-vietnam-comprehensive-strategic-partnership-advances-u-s-interests-in-th/",
+        "publisher": "Textron Aviation Defense",
+        "note": "Used for the Vietnam FMS program framing and first five aircraft arrival context."
+      },
+      {
+        "id": "fn-airforcetimes-upe",
+        "title": "Latest wave of hypoxia-like events in T-6 grows to 12",
+        "url": "https://www.airforcetimes.com/news/your-air-force/2018/04/18/latest-wave-of-hypoxia-like-events-in-t-6-grows-to-12/",
+        "publisher": "Air Force Times",
+        "note": "Used for 2018 T-6 unexplained physiological events, February grounding period, and later reported events."
+      },
+      {
+        "id": "fn-military-obogs-fix",
+        "title": "Air Force Announces Fix to Hypoxia Problems in T-6 Aircraft",
+        "url": "https://www.military.com/dodbuzz/2018/09/14/air-force-announces-fix-hypoxia-problems-t-6-aircraft.html",
+        "publisher": "Military.com",
+        "note": "Used for oxygen-system corrective measures, OBOGS maintenance changes, and AETC mitigation reporting."
+      },
+      {
+        "id": "fn-aib-randolph",
+        "title": "T-6A, T/N 05-6209, JBSA-Randolph, Texas Accident Investigation Board Report",
+        "url": "https://www.airandspaceforces.com/app/uploads/2019/05/0918_T6_Randolph.pdf",
+        "publisher": "U.S. Air Force Accident Investigation Board via Air & Space Forces Magazine",
+        "note": "Used for the 18 September 2018 Randolph-area crash facts and report source."
+      },
+      {
+        "id": "fn-navy-foley",
+        "title": "U.S. Navy T-6B Texan II Aircraft Crash, Foley, Alabama",
+        "url": "https://www.navy.mil/Press-Office/Press-Releases/display-pressreleases/Article/2393260/us-navy-t-6b-texan-ii-aircraft-crash-foley-alabama/",
+        "publisher": "U.S. Navy",
+        "note": "Used for the 23 October 2020 Foley, Alabama, T-6B crash and no-civilian-injury update."
+      },
+      {
+        "id": "fn-ap-ejection-seat",
+        "title": "Air Force instructor pilot killed when ejection seat activated at Texas base",
+        "url": "https://apnews.com/article/pilot-ejection-seat-air-force-texas-245af4f7949346feecdd8032a92d031c",
+        "publisher": "Associated Press",
+        "note": "Used for the 13-14 May 2024 Sheppard AFB fatal ground ejection-seat event and 2022 CAD-inspection background."
+      },
+      {
+        "id": "fn-ap-thailand",
+        "title": "Thai Air Force says 2 pilots killed in plane crash during training mission",
+        "url": "https://apnews.com/article/thailand-plane-crash-deaths-ab3958e101692123c90971a7cc328a55",
+        "publisher": "Associated Press",
+        "note": "Used for the 29 January 2026 Royal Thai Air Force AT-6TH Wolverine crash and investigation caveat."
+      },
+      {
+        "id": "fn-public-perception-t6",
+        "title": "Public Perception Research: Beechcraft T-6 Texan II",
+        "url": "AIRCRAFT%20PUBLIC%20PERCEPTION/T6.txt",
+        "publisher": "Milipedia local research file",
+        "note": "Local public-perception research file created for this aircraft expansion; used for social-media reputation, community discussion, myths, and neutral public-perception synthesis."
+      },
+      {
+        "id": "fn-wikimedia-t6a",
+        "title": "File:T-6A Texan II.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:T-6A_Texan_II.jpg",
+        "publisher": "Wikimedia Commons / U.S. Air Force public-domain image",
+        "note": "Used for the primary aircraft image source and license context."
+      },
+      {
+        "id": "fn-wikimedia-navy",
+        "title": "File:T6 Texan II Pensacola Navy.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:T6_Texan_II_Pensacola_Navy.jpg",
+        "publisher": "Wikimedia Commons / U.S. Navy public-domain image",
+        "note": "Used for gallery image source and Navy T-6B caption context."
       }
     ],
     "article_sections": [
@@ -27289,6 +27410,72 @@
         ]
       },
       {
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "This page uses the U.S. Air Force, National Museum of the U.S. Air Force, U.S. Navy, AETC history, AFIT/NTIS systems-engineering study, Textron Aviation Defense, RAF, Canadian/partner-operator context, and selected incident-reporting sources to keep trainer, export, and safety details separated by variant and date.",
+            "refs": [
+              "fn-usaf-t6a",
+              "fn-nmusaf-t6a",
+              "fn-navy-t6b",
+              "fn-aetc-masterplan",
+              "fn-ntis-case-study",
+              "fn-textron-t6c",
+              "fn-raf-texan"
+            ]
+          },
+          {
+            "text": "Performance values are not treated as universal for every Texan II. T-6A, T-6B, T-6C, Texan T1, CT-156, and AT-6-related aircraft differ in avionics, fuel fit, hardpoint provisions, and national equipment, so the article keeps USAF, Navy, RAF, and manufacturer values tied to their source context.",
+            "refs": [
+              "fn-usaf-t6a",
+              "fn-navy-t6b",
+              "fn-raf-texan",
+              "fn-textron-t6c"
+            ]
+          },
+          {
+            "text": "Community and public-perception sources are used only for reputation themes, not as proof of technical performance or safety. Social discussion is deliberately separated from official fact sheets, acquisition records, and accident or incident reporting.",
+            "refs": [
+              "fn-public-perception-t6"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "USAF T-6A Texan II fact sheet",
+            "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104548/t-6a-texan-ii/"
+          },
+          {
+            "label": "National Museum of the USAF T-6A page",
+            "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196344/beechcraft-t-6a-texan-ii/"
+          },
+          {
+            "label": "U.S. Navy T-6B fact file",
+            "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2166435/t-6b-texan-ii-turboprop-trainer/"
+          },
+          {
+            "label": "Textron Aviation Defense T-6C page",
+            "url": "https://defense.txtav.com/en/t-6c"
+          },
+          {
+            "label": "Royal Air Force Texan T1 page",
+            "url": "https://www.raf.mod.uk/aircraft/texan-t1/"
+          },
+          {
+            "label": "AETC JPATS/T-6A history PDF",
+            "url": "https://www.aetc.af.mil/Portals/88/Documents/history/AFD-061213-005.pdf?ver=2016-01-12-160013-127"
+          },
+          {
+            "label": "AFIT T-6A systems-engineering case study",
+            "url": "https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/ADA538810.xhtml"
+          },
+          {
+            "label": "Milipedia local public-perception research",
+            "url": "AIRCRAFT%20PUBLIC%20PERCEPTION/T6.txt"
+          }
+        ]
+      },
+      {
         "id": "related-pages",
         "title": "Related Pages",
         "paragraphs": [
@@ -27340,7 +27527,12 @@
         "credit": "Textron Aviation Defense media center",
         "source_url": "https://media.txtav.com/245342-japan-selects-beechcraft-t-6-texan-ii-integrated-training-system-to-modernize-japan-air-self-defense-force-pilot-training/"
       }
-    ]
+    ],
+    "introduced": "USAF operational delivery began in 2000; Navy T-6B IOC followed in 2010",
+    "produced": "1998-present family production and deliveries, with export selections continuing into the 2020s",
+    "primary_users": "U.S. Air Force, U.S. Navy, Royal Air Force, Royal Canadian Air Force, Hellenic Air Force, Israeli Air Force, and other training operators",
+    "radar": "None on baseline trainer variants; avionics are training, navigation, communications, and glass-cockpit systems rather than fire-control radar",
+    "avionics": "Variant-dependent digital avionics; T-6B/T-6C aircraft use glass-cockpit displays, HUD/HOTAS elements, integrated avionics computers, GPS/inertial navigation, and training-system interfaces"
   },
   {
     "id": "ah-1-cobra",

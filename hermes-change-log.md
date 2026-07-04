@@ -7323,3 +7323,78 @@ Record the result of:
 * Tavily-backed web_search and web_extract returned service errors (HTTP 432), so source discovery/extraction used DuckDuckGo Lite and direct urllib retrieval where possible.
 * Some MB-339 operator/fleet and combat-effect details remain date-sensitive or claim-sensitive; the update deliberately avoided exact current-fleet counts and unsupported strike-effect claims.
 * No merge was attempted and the hermes-agent branch was not deleted.
+
+### Run 96 — 2026-07-04 14:03:46 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Beechcraft T-6 Texan II (id: t-6-texan-ii)
+* Reason selected: Among the few aircraft pages not already substantially updated by Hermes, the T-6 Texan II page still had incomplete rendered source integration: only three external article links were exposed even though the entry already carried many source records, and several top-level metadata fields used by the page card/infobox were empty compared with the F-16 reference density.
+* Previous condition: The page had a full generated article body but was less complete than the F-16 reference in source/reference presentation, with no renderer-compatible Sources and Notes section, a mismatch between the article_quality external source count and the visible external_articles array, and empty top-level introduced/produced/primary users/radar/avionics fields.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview and card-style facts; article-section order ending with source notes and related pages; explicit technical caveats; source/reference emphasis; renderer-compatible links using label/url; internal aircraft links using aircraft.html?id=...; concise notes separating official sources from public-perception material.
+
+#### Changes Made
+
+* Updated only the Beechcraft T-6 Texan II entry in data/aircraft.json.
+* Populated the visible external_articles list from the existing reliable source records so official USAF, National Museum of the USAF, U.S. Navy, AETC, NTIS/AFIT, Textron, RAF, partner-operator, incident-reporting, local public-perception, and image-source references can render consistently.
+* Excluded informal Reddit and Air Warriors discussion records from external_articles while retaining them only where already used as public-perception context.
+* Added a renderer-compatible Sources and Notes section before Related Pages with paragraphs explaining source hierarchy, variant-specific performance cautions, and separation of official/reporting sources from social reputation material.
+* Added direct source links in the Sources and Notes section using the page renderer's label/url shape.
+* Filled sparse top-level metadata for introduced, produced, primary users, radar, and avionics using facts already present and sourced in the article body.
+* Kept T-6A/T-6B/T-6C/Texan T1/CT-156/AT-6 details variant-sensitive and avoided treating any one performance or weapons configuration as universal.
+* Updated article_quality counts so external_article_sources matches the rendered external_articles count and the quality counter reflects the added metadata/source-integration facts.
+* Omitted unsupported exact current fleet counts and any claim that baseline trainer variants have fire-control radar or universal combat armament.
+
+#### Files Modified
+
+* data/aircraft.json — Improved the Beechcraft T-6 Texan II page's source rendering, source notes, top-level metadata, and quality counts.
+* hermes-change-log.md — Appended this cumulative Run 96 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, intended changes were limited to data/aircraft.json and hermes-change-log.md.
+2. git diff — Reviewed aircraft diff; only the T-6 Texan II entry changed in data/aircraft.json, adding visible external source records, a Sources and Notes section, metadata fields, and aligned quality counts.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool and inspected the selected entry's section order, source counts, renderer-compatible link shapes, and top-level metadata.
+4. F-16 style comparison — Inspected data/f16-template.html and matched its dense source/reference treatment, article order, technical caveats, and related-page style within the JSON-rendered article format.
+5. Internal link check — Recursively checked aircraft.html?id=... links in the selected entry; all internal aircraft IDs resolve.
+6. Secret/token check — Checked the staged diff with credential-specific patterns for private keys, passwords, cloud credential names, and access/auth tokens; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, changed-file scope, one-aircraft-entry change, log completeness, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Beechcraft T-6 Texan II
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* The selected page was not a blank placeholder; it was selected because the remaining unedited aircraft pages are late-stage candidates, and this one still had incomplete rendered source integration and sparse card/infobox metadata compared with the F-16 reference.
+* Some T-6 operator status and delivery totals are date-sensitive; the update keeps them manufacturer/source-attributed and avoids unsupported current-fleet counts.
+* No merge was attempted and the hermes-agent branch was not deleted.
