@@ -10989,58 +10989,108 @@
   {
     "id": "f-105-thunderchief",
     "name": "Republic F-105 Thunderchief",
-    "alternative_names": [],
+    "alternative_names": [
+      "F-105",
+      "Thunderchief",
+      "Thud"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
     "manufacturer": "Republic Aviation",
-    "role": "Fighter-bomber",
+    "role": "Supersonic fighter-bomber and strike aircraft",
     "aircraft_type": "Attack aircraft",
     "era": "Cold War",
-    "first_flight": "1955",
-    "introduction_date": "1958",
-    "retirement_date": "Not listed",
+    "first_flight": "22 October 1955",
+    "introduction_date": "27 May 1958",
+    "retirement_date": "25 February 1984",
     "status": "Retired",
-    "number_built": "Not listed",
-    "crew": "1 or 2",
-    "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "number_built": "833",
+    "crew": "1 (F-105D); 2 (F-105F/G)",
+    "engine_type": "Afterburning turbojet",
+    "engines": "1 × Pratt & Whitney J75-P-19W afterburning turbojet",
+    "max_speed": "Mach 2.1 at altitude; about 1,390 mph (2,240 km/h) for F-105D",
     "speed_category": "Supersonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Republic F-105 Thunderchief: Fighter-bomber. Manufacturer: Republic Aviation. First flight: 1955. Introduction: 1958.",
-    "short_summary": "Republic F-105 Thunderchief: Fighter-bomber. Origin: United States. Manufacturer: Republic Aviation. First flight: 1955. Introduction: 1958. Status: Retired.",
+    "range": "Ferry range about 1,917 nmi (2,206 mi / 3,550 km) for F-105D",
+    "combat_range": "About 676 nmi (778 mi / 1,252 km), variant/load dependent",
+    "service_ceiling": "About 48,500 ft (14,800 m)",
+    "rate_of_climb": "About 38,500 ft/min (196 m/s)",
+    "armament": "One 20 mm M61A1 Vulcan cannon and up to about 14,000 lb of bombs, rockets, missiles, or stores; Wild Weasel variants carried anti-radiation missiles.",
+    "hardpoints": "Five principal external stations plus internal weapons bay/fuel installation depending on configuration",
+    "variants": [
+      {
+        "name": "YF-105A",
+        "note": "Prototype/test aircraft that introduced the basic Thunderchief concept before the redesigned production fighters."
+      },
+      {
+        "name": "F-105B",
+        "note": "Initial production fighter-bomber, used operationally and later by Air National Guard units."
+      },
+      {
+        "name": "F-105D",
+        "note": "Definitive all-weather single-seat strike model and the main Vietnam War bombing version."
+      },
+      {
+        "name": "F-105F",
+        "note": "Two-seat trainer and combat conversion; modified aircraft also became early Thunderchief Wild Weasel platforms."
+      },
+      {
+        "name": "F-105G",
+        "note": "Dedicated Wild Weasel suppression-of-enemy-air-defenses version with improved electronic warfare equipment and anti-radiation missile capability."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "United States Air Force",
+        "note": "Primary and only national operator; Tactical Air Command units flew the type in the strike and Wild Weasel roles."
+      },
+      {
+        "country": "United States",
+        "service": "Air Force Reserve and Air National Guard",
+        "note": "Surviving aircraft continued in Reserve and Air National Guard service after withdrawal from Southeast Asia and front-line units."
+      }
+    ],
+    "combat_history": "The F-105 was one of the principal U.S. strike aircraft over North Vietnam. F-105D aircraft flew heavy conventional bombing missions, while F-105F/G Wild Weasel aircraft attacked radar-guided air-defense systems. The type suffered severe losses in high-threat airspace and was progressively replaced in many strike roles by the F-4 Phantom II.",
+    "development_history": "Republic developed the F-105 as a successor to the F-84F Thunderstreak for high-speed, low-altitude nuclear strike. Weight growth, engine changes, and area-rule aerodynamic redesign shaped the production aircraft before the F-105B entered service in 1958 and the F-105D became the definitive all-weather strike model.",
+    "short_summary": "The Republic F-105 Thunderchief was a large Mach 2-class U.S. Air Force fighter-bomber built for fast low-altitude strike missions and later heavily used in Vietnam, including in Wild Weasel defense-suppression variants.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Republic_F-105D-30-RE_%28SN_62-4234%29_in_flight_with_full_bomb_load_060901-F-1234S-013.jpg/330px-Republic_F-105D-30-RE_%28SN_62-4234%29_in_flight_with_full_bomb_load_060901-F-1234S-013.jpg",
-        "caption": "Republic F-105 Thunderchief",
-        "credit": "Wikimedia/Wikipedia thumbnail source",
-        "license": "Verify original file license before reuse."
+        "caption": "Republic F-105D Thunderchief in flight with an external bomb load.",
+        "credit": "Wikimedia Commons / U.S. Air Force image",
+        "license": "Public-domain U.S. Air Force image; verify original file metadata before reuse."
       }
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-nmusaf-f105d",
+        "title": "Republic F-105D Thunderchief",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196048/republic-f-105d-thunderchief/",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Official museum fact sheet used for aircraft identity, role, and preserved-aircraft context; direct retrieval was blocked during this run."
+      },
+      {
+        "id": "fn-aerospaceweb",
+        "title": "Republic F-105 Thunderchief Fighter Bomber",
+        "url": "https://web.archive.org/web/20230911023052/https://aerospaceweb.org/aircraft/bomber/f105/",
+        "publisher": "Aerospaceweb.org via Internet Archive",
+        "note": "Technical and historical overview used for development, design, Vietnam-service, and variant context."
+      },
+      {
+        "id": "fn-thisday",
+        "title": "Republic F-105 Thunderchief",
+        "url": "https://www.thisdayinaviation.com/tag/republic-f-105-thunderchief/",
+        "publisher": "This Day in Aviation",
+        "note": "Supplementary chronology and retirement context for the final U.S. Air Force unit."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Republic F-105 Thunderchief",
         "url": "https://en.wikipedia.org/wiki/Republic_F-105_Thunderchief",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for cross-checking common dates, production count, and F-105D specification figures."
       },
       {
         "id": "fn-method",
@@ -11048,27 +11098,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.burrusspta.org/thud.html",
-        "publisher": "burrusspta.org",
-        "note": "External source for Republic F-105 Thunderchief."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://break-left.org/air/f-105.html",
-        "publisher": "break-left.org",
-        "note": "External source for Republic F-105 Thunderchief."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.aerospaceweb.org/aircraft/bomber/f105/",
-        "publisher": "aerospaceweb.org",
-        "note": "External source for Republic F-105 Thunderchief."
       }
     ],
     "country_flags": [
@@ -11081,55 +11110,56 @@
       "Republic Aviation"
     ],
     "development_tensions": [
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "The original fast nuclear-strike requirement favored speed, internal fuel, and payload over low-speed agility.",
+      "Vietnam War conventional strike missions forced the type into heavily defended environments for which its early nuclear-penetration concept had not been optimized.",
+      "Wild Weasel conversions added sensors, electronic-warfare equipment, and anti-radiation missiles but also placed crews in especially dangerous air-defense suppression missions."
     ],
     "wars_used_in": [
       {
         "name": "Vietnam War",
-        "note": "Republic F-105 Thunderchief used in Vietnam War."
+        "note": "Used extensively for U.S. strike and Wild Weasel missions over Southeast Asia."
       }
     ],
     "variant_families": [
-      "Republic F-105 Thunderchief baseline production model",
-      "Republic F-105 Thunderchief upgraded avionics or weapons-capable model",
-      "Republic F-105 Thunderchief two-seat trainer or conversion model",
-      "Republic F-105 Thunderchief export or locally modernized model"
+      "F-105A/B early development and production aircraft",
+      "F-105D all-weather single-seat strike aircraft",
+      "F-105F two-seat trainer/conversion aircraft",
+      "F-105G Wild Weasel defense-suppression aircraft"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Republic F-105 Thunderchief has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "United States Air Force aircraft, later including Reserve and Air National Guard service.",
+      "all_operators_status": "No export operators are listed for the Thunderchief."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "F-105 crews commonly used the nickname Thud.",
+        "Thunderchief Wild Weasel crews became central to early U.S. Air Force SEAD tactics."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "High Vietnam War loss rates led to withdrawal from the most dangerous combat roles and eventual replacement by newer aircraft."
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "Republic F-105 Thunderchief uses jet propulsion."
+      "type": "Afterburning turbojet",
+      "summary": "The F-105D used a single Pratt & Whitney J75-P-19W afterburning turbojet, a powerful engine suited to high-speed dash performance but fuel-hungry in low-level operations."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Typical F-105D armament included the internal M61A1 Vulcan cannon and a mix of conventional bombs, rockets, AIM-9 Sidewinder self-defense missiles, AGM-12 Bullpup missiles, or nuclear stores depending on period and mission. F-105F/G Wild Weasel aircraft carried anti-radiation weapons such as AGM-45 Shrike and AGM-78 Standard ARM in SEAD service.",
+      "caution": "Exact loadouts varied by variant, mission, theatre rules, aircraft modification state, and external tank fit."
     },
     "similar_development": [
       {
-        "id": "a-4-skyhawk",
-        "name": "Douglas A-4 Skyhawk",
-        "url": "aircraft.html?id=a-4-skyhawk"
+        "id": "f-100-super-sabre",
+        "name": "North American F-100 Super Sabre",
+        "url": "aircraft.html?id=f-100-super-sabre"
       },
       {
-        "id": "a-6-intruder",
-        "name": "Grumman A-6 Intruder",
-        "url": "aircraft.html?id=a-6-intruder"
+        "id": "f-4-phantom-ii",
+        "name": "McDonnell Douglas F-4 Phantom II",
+        "url": "aircraft.html?id=f-4-phantom-ii"
       },
       {
         "id": "a-7-corsair-ii",
@@ -11143,76 +11173,76 @@
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 31,
+      "operator_entries": 2,
+      "variant_entries": 5,
+      "external_article_sources": 4
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-nmusaf-f105d",
+        "title": "Republic F-105D Thunderchief",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196048/republic-f-105d-thunderchief/",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Official museum fact sheet for the F-105D."
+      },
+      {
+        "id": "fn-aerospaceweb",
+        "title": "Republic F-105 Thunderchief Fighter Bomber",
+        "url": "https://web.archive.org/web/20230911023052/https://aerospaceweb.org/aircraft/bomber/f105/",
+        "publisher": "Aerospaceweb.org via Internet Archive",
+        "note": "Archived technical overview and history article."
+      },
+      {
+        "id": "fn-thisday",
+        "title": "Republic F-105 Thunderchief",
+        "url": "https://www.thisdayinaviation.com/tag/republic-f-105-thunderchief/",
+        "publisher": "This Day in Aviation",
+        "note": "Supplementary retirement and loss-count context."
+      },
+      {
+        "id": "fn-wikipedia",
         "title": "Republic F-105 Thunderchief",
         "url": "https://en.wikipedia.org/wiki/Republic_F-105_Thunderchief",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation and specification cross-check source."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.burrusspta.org/thud.html",
-        "publisher": "burrusspta.org",
-        "note": "External source for Republic F-105 Thunderchief."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://break-left.org/air/f-105.html",
-        "publisher": "break-left.org",
-        "note": "External source for Republic F-105 Thunderchief."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.aerospaceweb.org/aircraft/bomber/f105/",
-        "publisher": "aerospaceweb.org",
-        "note": "External source for Republic F-105 Thunderchief."
+        "note": "Local rules for neutral wording, source citation, and variant-sensitive facts."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.burrusspta.org/thud.html",
-        "publisher": "burrusspta.org",
-        "note": "External source for Republic F-105 Thunderchief."
+        "id": "fn-nmusaf-f105d",
+        "title": "Republic F-105D Thunderchief",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196048/republic-f-105d-thunderchief/",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Official museum fact sheet."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://break-left.org/air/f-105.html",
-        "publisher": "break-left.org",
-        "note": "External source for Republic F-105 Thunderchief."
+        "id": "fn-aerospaceweb",
+        "title": "Republic F-105 Thunderchief Fighter Bomber",
+        "url": "https://web.archive.org/web/20230911023052/https://aerospaceweb.org/aircraft/bomber/f105/",
+        "publisher": "Aerospaceweb.org via Internet Archive",
+        "note": "Archived overview with development, design, and specification details."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.aerospaceweb.org/aircraft/bomber/f105/",
-        "publisher": "aerospaceweb.org",
-        "note": "External source for Republic F-105 Thunderchief."
+        "id": "fn-thisday",
+        "title": "Republic F-105 Thunderchief",
+        "url": "https://www.thisdayinaviation.com/tag/republic-f-105-thunderchief/",
+        "publisher": "This Day in Aviation",
+        "note": "Supplementary aviation-history chronology."
+      },
+      {
+        "id": "fn-wikipedia",
+        "title": "Republic F-105 Thunderchief",
+        "url": "https://en.wikipedia.org/wiki/Republic_F-105_Thunderchief",
+        "publisher": "Wikipedia",
+        "note": "Supplementary orientation source."
       }
     ],
     "article_sections": [
@@ -11221,65 +11251,88 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Republic F-105 Thunderchief is a Fighter-bomber from United States. Manufacturer: Republic Aviation. First flight: 1955. Introduction: 1958. Status: Retired.",
+            "text": "The Republic F-105 Thunderchief was a large U.S. Air Force supersonic fighter-bomber built around speed, payload, and low-altitude penetration. It first flew in October 1955, entered service in 1958, and became best known for its intense Vietnam War strike service.",
             "refs": [
-              "fn-main"
+              "fn-aerospaceweb",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Republic F-105 Thunderchief is a attack aircraft. Primary role: fighter-bomber. Country of origin: United States. Manufacturer: Republic Aviation.",
+            "text": "Designed as a nuclear-capable successor to Republic's F-84F Thunderstreak, the Thunderchief evolved into an all-weather conventional attack aircraft. The definitive F-105D carried heavy external loads, while the two-seat F-105F and F-105G became important early Wild Weasel aircraft for suppressing radar-guided air defenses.",
             "refs": [
-              "fn-wikidata"
+              "fn-aerospaceweb"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The aircraft's nickname, Thud, reflected both crew affection and the unforgiving nature of a very large, fast single-engine strike fighter operating in dense air defenses.",
             "refs": [
-              "fn-method"
+              "fn-thisday",
+              "fn-wikipedia"
             ]
           }
         ],
         "cards": [
           {
             "title": "Primary role",
-            "text": "Fighter-bomber"
+            "text": "Supersonic fighter-bomber / strike aircraft"
           },
           {
-            "title": "Designer or builder",
+            "title": "Manufacturer",
             "text": "Republic Aviation"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Main user",
+            "text": "United States Air Force"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Built",
+            "text": "833 aircraft"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Republic F-105 Thunderchief first flew in 1955. Introduction date: 1958. Era: Cold War.",
+            "text": "Republic began the Thunderchief to meet a U.S. Air Force requirement for a high-speed tactical bomber able to carry a nuclear weapon at low level. The design included a large fuselage, internal weapons bay, substantial fuel volume, and a radar-equipped nose rather than the compact proportions of a day fighter.",
             "refs": [
-              "fn-main"
+              "fn-aerospaceweb"
             ]
           },
           {
-            "text": "Producer: Republic Aviation. Development context: fighter-bomber, jet propulsion, supersonic speed category, Cold War era.",
+            "text": "Early prototypes revealed the difficulty of combining Mach-class performance, a heavy weapons load, and acceptable range. Production aircraft incorporated a more powerful Pratt & Whitney J75 engine and an area-ruled fuselage to reduce transonic drag.",
             "refs": [
-              "fn-wikidata"
+              "fn-aerospaceweb",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "The F-105B was the first production version, but the F-105D became the main all-weather strike model. Later two-seat F-105F aircraft and dedicated F-105G Wild Weasels reflected the urgent need to counter surface-to-air missile radars in Southeast Asia.",
+            "refs": [
+              "fn-aerospaceweb"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
+            "text": "First flight: 22 October 1955.",
             "refs": [
-              "fn-method"
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Service introduction: 1958.",
+            "refs": [
+              "fn-aerospaceweb",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Production total commonly cited as 833 aircraft.",
+            "refs": [
+              "fn-thisday",
+              "fn-wikipedia"
             ]
           }
         ]
@@ -11289,42 +11342,38 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1 or 2. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The Thunderchief was one of the largest single-seat combat aircraft of its period. Its swept wing, large fuselage, side intakes, and powerful afterburning turbojet supported high dash speed and heavy ordnance rather than dogfight agility.",
             "refs": [
-              "fn-main"
+              "fn-aerospaceweb"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Although originally intended to carry a nuclear store internally, Vietnam missions usually relied on external conventional bombs and tanks. This made drag, fuel planning, and route selection central to effective F-105 operations.",
             "refs": [
-              "fn-method"
+              "fn-aerospaceweb",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Republic F-105 Thunderchief uses jet propulsion. Engine model field: Not listed.",
+            "text": "The single 20 mm M61A1 Vulcan cannon gave the aircraft a built-in gun, while missiles and bombs were carried according to mission. Wild Weasel aircraft added electronic-warfare equipment and anti-radiation missiles to attack radar emitters.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-aerospaceweb",
+              "fn-wikipedia"
             ]
           }
         ],
         "cards": [
           {
+            "title": "Powerplant",
+            "text": "1 × Pratt & Whitney J75-P-19W afterburning turbojet"
+          },
+          {
             "title": "Crew",
-            "text": "1 or 2"
+            "text": "One in F-105D; two in F-105F/G"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
-          },
-          {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Weapons load",
+            "text": "Up to about 14,000 lb depending on mission"
           },
           {
             "title": "Carrier capable",
@@ -11337,66 +11386,47 @@
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Republic F-105 Thunderchief status: Retired. Conflict entries: 1.",
+            "text": "Representative figures below describe the F-105D and should not be treated as identical for every prototype, trainer, or Wild Weasel conversion.",
             "refs": [
-              "fn-main"
+              "fn-method",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Conflicts: Vietnam War.",
+            "text": "The F-105D is commonly listed with a maximum speed of about Mach 2.1 at altitude, a combat range around 676 nautical miles, ferry range around 1,917 nautical miles, and a service ceiling near 48,500 feet.",
             "refs": [
-              "fn-method"
+              "fn-wikipedia"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Vietnam War: Republic F-105 Thunderchief used in Vietnam War.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Republic F-105 Thunderchief named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Length",
+            "text": "About 64 ft 4.75 in (19.63 m)"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Wingspan",
+            "text": "About 34 ft 11.25 in (10.65 m)"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Height",
+            "text": "About 19 ft 8 in (5.99 m)"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum takeoff weight",
+            "text": "About 54,580 lb (24,760 kg)"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "About 48,500 ft (14,800 m)"
+          },
+          {
+            "title": "Rate of climb",
+            "text": "About 38,500 ft/min (196 m/s)"
           }
         ]
       },
@@ -11405,41 +11435,38 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Republic F-105 Thunderchief variant-family entries: 4. Variant families: Republic F-105 Thunderchief baseline production model; Republic F-105 Thunderchief upgraded avionics or weapons-capable model; Republic F-105 Thunderchief two-seat trainer or conversion model; Republic F-105 Thunderchief export or locally modernized model.",
+            "text": "Thunderchief variants are best understood by role: early production aircraft, the definitive all-weather F-105D strike model, two-seat F-105F conversions, and F-105G Wild Weasel aircraft with specialized electronic-warfare equipment.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-aerospaceweb",
+              "fn-wikipedia"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Republic F-105 Thunderchief baseline production model",
+            "text": "F-105B: initial production aircraft that introduced the type to operational service.",
             "refs": [
-              "fn-main"
+              "fn-aerospaceweb"
             ]
           },
           {
-            "text": "Republic F-105 Thunderchief upgraded avionics or weapons-capable model",
+            "text": "F-105D: main single-seat all-weather fighter-bomber and the principal Vietnam strike version.",
             "refs": [
-              "fn-main"
+              "fn-aerospaceweb"
             ]
           },
           {
-            "text": "Republic F-105 Thunderchief two-seat trainer or conversion model",
+            "text": "F-105F: two-seat aircraft used for training and as the basis for early Wild Weasel conversions.",
             "refs": [
-              "fn-main"
+              "fn-aerospaceweb",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Republic F-105 Thunderchief export or locally modernized model",
+            "text": "F-105G: dedicated Wild Weasel version carrying improved sensors, jamming equipment, and anti-radiation missiles.",
             "refs": [
-              "fn-main"
+              "fn-aerospaceweb",
+              "fn-wikipedia"
             ]
           }
         ]
@@ -11449,57 +11476,135 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Republic F-105 Thunderchief has 1 designer or builder country entry.",
+            "text": "The F-105 was a U.S. Air Force aircraft and was not exported as an operational type. Tactical Air Command wings used it in front-line strike service, and surviving aircraft later served with Reserve and Air National Guard units.",
             "refs": [
-              "fn-wikidata"
+              "fn-aerospaceweb",
+              "fn-thisday"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "The final U.S. Air Force Thunderchief unit was the 419th Tactical Fighter Wing at Hill Air Force Base, which marked the type's withdrawal in 1983 before complete retirement in 1984.",
             "refs": [
-              "fn-method"
+              "fn-thisday",
+              "fn-wikipedia"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "United States Air Force — primary operator for strike, training, and Wild Weasel variants.",
             "refs": [
-              "fn-main"
+              "fn-aerospaceweb"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "Air Force Reserve and Air National Guard — post-front-line service for remaining aircraft.",
             "refs": [
-              "fn-wikidata"
+              "fn-aerospaceweb",
+              "fn-thisday"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "service",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1 or 2, propulsion type Jet, maximum speed category Supersonic, first flight 1955, introduction 1958.",
+            "text": "In Vietnam, F-105Ds carried much of the early U.S. Air Force strike burden against heavily defended targets. The aircraft could haul a large bomb load at high speed, but dense radar-guided defenses, anti-aircraft artillery, MiGs, and demanding mission profiles produced severe attrition.",
             "refs": [
-              "fn-main"
+              "fn-aerospaceweb",
+              "fn-wikipedia"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "F-105F and F-105G Wild Weasel crews flew particularly hazardous missions against surface-to-air missile and radar sites. These missions helped establish U.S. Air Force SEAD tactics that later aircraft continued to develop.",
             "refs": [
-              "fn-method"
+              "fn-aerospaceweb",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Public loss figures differ by source and counting method, but all agree that Thunderchief losses in Southeast Asia were heavy. This page therefore treats exact combat-loss totals cautiously and emphasizes the broader operational impact.",
+            "refs": [
+              "fn-method",
+              "fn-thisday",
+              "fn-wikipedia"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Primary conflict: Vietnam War.",
+            "refs": [
+              "fn-aerospaceweb"
+            ]
+          },
+          {
+            "text": "Roles: conventional strike, interdiction, fighter-bomber operations, and Wild Weasel SEAD.",
+            "refs": [
+              "fn-aerospaceweb",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Replacement pressure increased as losses mounted and F-4 Phantom II units became more available.",
+            "refs": [
+              "fn-aerospaceweb"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
         "paragraphs": [
           {
-            "text": "Republic F-105 Thunderchief similar-development links: 4.",
+            "text": "The F-105's strengths were speed, payload, range for a tactical fighter-bomber, and the ability to absorb a specialized strike mission suite. It could deliver bomb loads that compared favorably with much larger earlier bombers.",
+            "refs": [
+              "fn-aerospaceweb",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Its limitations were also clear: high wing loading, large size, single-engine vulnerability, heavy fuel consumption, and exposure to dense air-defense systems during predictable strike routes. It was not optimized as a close-in dogfighter even though it carried missiles and achieved some air-to-air victories.",
+            "refs": [
+              "fn-aerospaceweb",
+              "fn-wikipedia"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Strength",
+            "text": "Heavy strike load at supersonic speed"
+          },
+          {
+            "title": "Strength",
+            "text": "Adaptable to Wild Weasel SEAD work"
+          },
+          {
+            "title": "Limitation",
+            "text": "High-threat Vietnam missions caused heavy attrition"
+          },
+          {
+            "title": "Limitation",
+            "text": "Less agile than smaller fighter opponents"
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Compared with the F-100 Super Sabre, the F-105 was larger, faster, and more payload-focused. Compared with the F-4 Phantom II that increasingly replaced it, the Thunderchief was more narrowly optimized around single-seat strike and later specialized Wild Weasel roles.",
+            "refs": [
+              "fn-aerospaceweb"
+            ]
+          },
+          {
+            "text": "The A-7 Corsair II later offered an efficient subsonic attack alternative, while the Soviet Su-7 occupied a broadly comparable Cold War niche as a fast fighter-bomber with limited low-speed handling margins.",
             "refs": [
               "fn-method"
             ]
@@ -11507,12 +11612,12 @@
         ],
         "links": [
           {
-            "label": "Douglas A-4 Skyhawk",
-            "url": "aircraft.html?id=a-4-skyhawk"
+            "label": "North American F-100 Super Sabre",
+            "url": "aircraft.html?id=f-100-super-sabre"
           },
           {
-            "label": "Grumman A-6 Intruder",
-            "url": "aircraft.html?id=a-6-intruder"
+            "label": "McDonnell Douglas F-4 Phantom II",
+            "url": "aircraft.html?id=f-4-phantom-ii"
           },
           {
             "label": "LTV A-7 Corsair II",
@@ -11523,13 +11628,110 @@
             "url": "aircraft.html?id=su-7"
           }
         ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "The Thunderchief's timeline runs from a 1950s nuclear-strike design requirement through Vietnam-era conventional bombing and Wild Weasel missions to final Reserve/ANG retirement in the 1980s.",
+            "refs": [
+              "fn-aerospaceweb",
+              "fn-thisday",
+              "fn-wikipedia"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1955 — First flight of the Thunderchief prototype.",
+            "refs": [
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "1958 — F-105 enters U.S. Air Force service.",
+            "refs": [
+              "fn-aerospaceweb",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "1960s — F-105D strike aircraft and F-105F/G Wild Weasels fly major Vietnam War missions.",
+            "refs": [
+              "fn-aerospaceweb"
+            ]
+          },
+          {
+            "text": "1983–1984 — Final Thunderchief units withdraw and the type leaves U.S. service.",
+            "refs": [
+              "fn-thisday",
+              "fn-wikipedia"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "This article uses an official museum page for identity/context when available, an archived Aerospaceweb technical overview for development and design details, This Day in Aviation for retirement context, and Wikipedia only as a supplementary cross-check for common specification figures.",
+            "refs": [
+              "fn-nmusaf-f105d",
+              "fn-aerospaceweb",
+              "fn-thisday",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Variant-specific figures, especially for Wild Weasel aircraft and mission loadouts, should be treated as representative rather than universal.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia aircraft include earlier U.S. supersonic fighters, later Vietnam-era strike aircraft, and broadly comparable fighter-bombers.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "North American F-100 Super Sabre",
+            "url": "aircraft.html?id=f-100-super-sabre"
+          },
+          {
+            "label": "McDonnell Douglas F-4 Phantom II",
+            "url": "aircraft.html?id=f-4-phantom-ii"
+          },
+          {
+            "label": "LTV A-7 Corsair II",
+            "url": "aircraft.html?id=a-7-corsair-ii"
+          },
+          {
+            "label": "Sukhoi Su-7",
+            "url": "aircraft.html?id=su-7"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "aircraft.html"
+          }
+        ]
       }
     ],
     "event_gallery": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg/960px-U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg",
-        "caption": "Vietnam War",
-        "source_url": "https://en.wikipedia.org/wiki/Vietnam_War"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Republic_F-105D-30-RE_%28SN_62-4234%29_in_flight_with_full_bomb_load_060901-F-1234S-013.jpg/960px-Republic_F-105D-30-RE_%28SN_62-4234%29_in_flight_with_full_bomb_load_060901-F-1234S-013.jpg",
+        "caption": "F-105D Thunderchief carrying an external bomb load.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Republic_F-105D-30-RE_(SN_62-4234)_in_flight_with_full_bomb_load_060901-F-1234S-013.jpg"
       }
     ]
   },
