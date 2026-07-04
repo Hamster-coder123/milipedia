@@ -27511,34 +27511,105 @@
   {
     "id": "ah-64-apache",
     "name": "Boeing AH-64 Apache",
-    "alternative_names": [],
+    "alternative_names": [
+      "Apache",
+      "AH-64A",
+      "AH-64D Longbow Apache",
+      "AH-64E Apache Guardian"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
-    "manufacturer": "Hughes / McDonnell Douglas / Boeing",
-    "role": "Attack helicopter",
+    "manufacturer": "Hughes Helicopters / McDonnell Douglas / Boeing",
+    "role": "Twin-turboshaft attack helicopter",
     "aircraft_type": "Helicopter",
     "era": "Modern",
-    "first_flight": "1975",
-    "introduction_date": "1986",
+    "first_flight": "30 September 1975",
+    "introduction_date": "1984",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "2",
+    "status": "Active production and service with U.S. and international operators",
+    "number_built": "More than 2,875 across A through E models (Boeing figure, Nov. 2025)",
+    "crew": "2 (pilot and co-pilot/gunner)",
     "engine_type": "Turboshaft",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engines": "2 × General Electric T700 family turboshafts; AH-64E uses upgraded T700 power/transmission standards",
+    "max_speed": "150+ kt / 279+ km/h maximum level flight speed (AH-64E, Boeing)",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Cannon, rockets, and guided missiles.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Boeing AH-64 Apache: Attack helicopter. Manufacturer: Hughes / McDonnell Douglas / Boeing. First flight: 1975. Introduction: 1986.",
-    "short_summary": "Boeing AH-64 Apache: Attack helicopter. Origin: United States. Manufacturer: Hughes / McDonnell Douglas / Boeing. First flight: 1975. Introduction: 1986. Status: Active.",
+    "range": "Approximately 400 km internal-fuel range; ferry range can approach 1,900 km with external tanks (AH-64A/D-family figures vary by configuration)",
+    "combat_range": "Approximately 480 km cited for AH-64A/D-family profiles; actual radius varies with weapons, fuel, altitude, and environment",
+    "service_ceiling": "20,000 ft / 6,096 m (AH-64E Boeing specification)",
+    "rate_of_climb": "2,800+ ft/min / 853+ m/min (AH-64E Boeing specification)",
+    "armament": "M230 30 mm chain gun; Hellfire/JAGM-class guided missiles; Hydra/APKWS 70 mm rockets; optional air-to-air missiles depending on operator and variant.",
+    "hardpoints": "Four stub-wing weapon stations plus chin-mounted M230 chain gun",
+    "variants": [
+      {
+        "name": "YAH-64",
+        "note": "Prototype/competition aircraft from the Advanced Attack Helicopter program; first flight in 1975."
+      },
+      {
+        "name": "AH-64A",
+        "note": "Initial production Apache, introduced with the U.S. Army in 1984 and equipped for day/night anti-armor attack with the M230 cannon, rockets, and Hellfire missiles."
+      },
+      {
+        "name": "AH-64D Longbow Apache",
+        "note": "Major upgrade with Longbow millimetre-wave fire-control radar, improved avionics, and Longbow Hellfire integration; first delivered to the U.S. Army in 1997."
+      },
+      {
+        "name": "WAH-64 / Apache AH Mk 1",
+        "note": "British licensed/UK-configured Apache with Rolls-Royce/Turbomeca RTM322 engines, folding naval features, and national equipment fits."
+      },
+      {
+        "name": "AH-64E Apache Guardian",
+        "note": "Current production/remanufacture standard with upgraded engines/transmission, digital connectivity, Link 16, improved sensors, and manned-unmanned teaming."
+      },
+      {
+        "name": "Modernized Apache / future AH-64E evolution",
+        "note": "Boeing concept and upgrade path emphasizing open systems, launched effects, improved survivability, and future-network interoperability."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "U.S. Army",
+        "note": "Primary operator; Boeing describes the Apache as the backbone of the U.S. Army attack-helicopter fleet."
+      },
+      {
+        "country": "United Kingdom",
+        "service": "British Army / Army Air Corps",
+        "note": "Operated the licensed Westland/AgustaWestland Apache AH Mk 1 and is transitioning to AH-64E standards."
+      },
+      {
+        "country": "Israel",
+        "service": "Israeli Air Force",
+        "note": "Longstanding export operator using Apache variants for precision attack and armed reconnaissance missions."
+      },
+      {
+        "country": "Netherlands",
+        "service": "Royal Netherlands Air Force",
+        "note": "European Apache operator, with AH-64D aircraft being remanufactured/upgraded to AH-64E standard."
+      },
+      {
+        "country": "Japan",
+        "service": "Japan Ground Self-Defense Force",
+        "note": "Listed by Boeing among Apache customer nations."
+      },
+      {
+        "country": "India",
+        "service": "Indian Air Force / Indian Army",
+        "note": "AH-64E customer; Indian industrial participation includes Apache fuselage production at Hyderabad."
+      },
+      {
+        "country": "Saudi Arabia",
+        "service": "Royal Saudi Land Forces / National Guard services",
+        "note": "Middle Eastern Apache operator; exact force allocations vary by procurement batch."
+      },
+      {
+        "country": "Other customers",
+        "service": "Australia, Egypt, Greece, Indonesia, Kuwait, Morocco, Qatar, Singapore, South Korea, United Arab Emirates and others",
+        "note": "Boeing lists 19 customer countries; public fleet counts are date-sensitive."
+      }
+    ],
+    "combat_history": "Combat-proven in U.S. and allied service, including Panama, the Gulf War, Afghanistan, Iraq, and other national deployments; mission results and loss figures are operator- and conflict-specific.",
+    "development_history": "Developed from the U.S. Army Advanced Attack Helicopter program after the Vietnam-era AH-1 experience, the Apache first flew in 1975, entered U.S. Army service in 1984, evolved through AH-64A, AH-64D Longbow, and AH-64E standards, and is now sustained by Boeing with production and modernization planned into the 2030s.",
+    "short_summary": "The Boeing AH-64 Apache is a two-seat U.S. attack helicopter built around a mast/targeting-sensor, 30 mm cannon, guided missile and rocket armament, and survivable low-altitude battlefield operations. The AH-64E adds stronger engines/transmission, digital connectivity, Link 16, and unmanned-aircraft teaming to the long-running Apache family.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -27551,18 +27622,25 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-boeing-ah64",
+        "title": "AH-64 Apache",
+        "url": "https://www.boeing.com/defense/ah-64-apache/",
+        "publisher": "Boeing",
+        "note": "Manufacturer page for Apache fleet status, AH-64E/Modernized Apache features, specifications, ordnance, and customer list."
+      },
+      {
+        "id": "fn-army-technology-ah64",
+        "title": "Apache Attack Helicopter (AH-64A/D), United States of America",
+        "url": "https://www.army-technology.com/projects/apache/",
+        "publisher": "Army Technology / GlobalData",
+        "note": "Supplementary technical and program history source for AH-64A/D service entry, Longbow development, weapons, sensors, and representative specifications."
+      },
+      {
+        "id": "fn-wikipedia-ah64",
         "title": "Boeing AH-64 Apache",
         "url": "https://en.wikipedia.org/wiki/Boeing_AH-64_Apache",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "General orientation and cross-checking source; preferred article claims use manufacturer and specialist sources where possible."
       },
       {
         "id": "fn-method",
@@ -27570,27 +27648,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.cnn.com/2003/WORLD/meast/03/24/sprj.irq.apache.attack/index.html",
-        "publisher": "cnn.com",
-        "note": "External source for Boeing AH-64 Apache."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.slate.com/id/2081906/",
-        "publisher": "slate.com",
-        "note": "External source for Boeing AH-64 Apache."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.smh.com.au/articles/2003/03/25/1048354604384.html",
-        "publisher": "smh.com.au",
-        "note": "External source for Boeing AH-64 Apache."
       }
     ],
     "country_flags": [
@@ -27600,55 +27657,66 @@
       }
     ],
     "designers": [
-      "Hughes / McDonnell Douglas / Boeing"
+      "Hughes Helicopters",
+      "McDonnell Douglas",
+      "Boeing"
     ],
     "development_tensions": [
-      "Balancing lift, survivability, vibration, hot-and-high performance, and battlefield maintainability."
+      "Replacing the AH-1-era attack-helicopter concept with more night/all-weather sensor reach, survivability, anti-armor firepower, and battlefield maintainability.",
+      "Balancing armor, sensors, weapons, ammunition, fuel, and hot-and-high lift margin within a compact two-seat rotorcraft.",
+      "Keeping a 1980s airframe relevant through Longbow radar, digital avionics, Link 16, unmanned-aircraft control, and open-systems modernization."
     ],
     "wars_used_in": [
       {
+        "name": "Operation Just Cause / Panama",
+        "note": "Apache combat debut is commonly associated with the 1989 U.S. operation in Panama."
+      },
+      {
         "name": "Gulf War",
-        "note": "Boeing AH-64 Apache used in Gulf War."
+        "note": "Used in coalition operations against Iraqi forces, including anti-armor and battlefield interdiction missions."
+      },
+      {
+        "name": "Afghanistan War",
+        "note": "Used extensively for close air support, armed overwatch, and escort roles; sortie details vary by national operator."
       },
       {
         "name": "Iraq War",
-        "note": "Boeing AH-64 Apache used in Iraq War."
+        "note": "Used by U.S. and coalition forces; public accounts include both successful close-support missions and high-risk deep-attack operations."
       },
       {
-        "name": "War in Afghanistan (2001–2021)",
-        "note": "Boeing AH-64 Apache used in War in Afghanistan (2001–2021)."
+        "name": "Other national deployments",
+        "note": "Export operators have used Apaches in national operations; claims and loss figures should be checked against operator-specific sources."
       }
     ],
     "variant_families": [
-      "Boeing AH-64 Apache baseline production model",
-      "Boeing AH-64 Apache upgraded avionics or weapons-capable model",
-      "Boeing AH-64 Apache two-seat trainer or conversion model",
-      "Boeing AH-64 Apache utility, attack, naval, or export model"
+      "YAH-64 prototypes",
+      "AH-64A baseline attack helicopter",
+      "AH-64D Longbow radar/avionics upgrade",
+      "WAH-64 / Apache AH Mk 1 UK configuration",
+      "AH-64E Apache Guardian and Modernized Apache evolution"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Boeing AH-64 Apache has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Boeing lists the Apache as serving with the United States and 18 other customer countries; public numbers change as AH-64D fleets are remanufactured to AH-64E and new E-models are delivered.",
+      "all_operators_status": "Representative operators listed; not every national sub-variant or procurement batch is enumerated."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "No single aircraft or pilot is highlighted here; the Apache is treated as a family-level combat system."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "The 2003 Karbala deep attack is often cited as a cautionary example of helicopter vulnerability in dense air-defense and small-arms environments; detailed loss/damage counts should be verified per source."
       ]
     },
     "engine_details": {
       "type": "Turboshaft",
-      "summary": "Boeing AH-64 Apache uses turboshaft propulsion."
+      "summary": "Twin General Electric T700-family turboshafts drive the main and tail rotors. Boeing describes the AH-64E/Modernized Apache path as using more powerful T700 engines and transmission upgrades for hot-and-high performance and higher gross weight margins."
     },
     "armament_details": {
-      "summary": "Cannon, rockets, and guided missiles.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Standard Apache fit centers on a chin-mounted 30 mm M230 chain gun with up to 1,200 rounds, AGM-114 Hellfire/JAGM-class guided missiles, and 70 mm rocket pods; air-to-air missiles and national weapon fits vary by operator.",
+      "caution": "Weapon carriage is mission-, variant-, and customer-dependent. Do not treat maximum mixed loads as simultaneous standard loadouts for every Apache."
     },
     "similar_development": [
       {
@@ -27673,76 +27741,62 @@
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
+      "exact_fact_count": 34,
+      "operator_entries": 8,
+      "variant_entries": 6,
       "external_article_sources": 3
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-boeing-ah64",
+        "title": "AH-64 Apache",
+        "url": "https://www.boeing.com/defense/ah-64-apache/",
+        "publisher": "Boeing",
+        "note": "Manufacturer page for Apache fleet status, AH-64E/Modernized Apache features, specifications, ordnance, and customer list."
+      },
+      {
+        "id": "fn-army-technology-ah64",
+        "title": "Apache Attack Helicopter (AH-64A/D), United States of America",
+        "url": "https://www.army-technology.com/projects/apache/",
+        "publisher": "Army Technology / GlobalData",
+        "note": "Supplementary technical and program history source for AH-64A/D service entry, Longbow development, weapons, sensors, and representative specifications."
+      },
+      {
+        "id": "fn-wikipedia-ah64",
         "title": "Boeing AH-64 Apache",
         "url": "https://en.wikipedia.org/wiki/Boeing_AH-64_Apache",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "General orientation and cross-checking source; preferred article claims use manufacturer and specialist sources where possible."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.cnn.com/2003/WORLD/meast/03/24/sprj.irq.apache.attack/index.html",
-        "publisher": "cnn.com",
-        "note": "External source for Boeing AH-64 Apache."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.slate.com/id/2081906/",
-        "publisher": "slate.com",
-        "note": "External source for Boeing AH-64 Apache."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.smh.com.au/articles/2003/03/25/1048354604384.html",
-        "publisher": "smh.com.au",
-        "note": "External source for Boeing AH-64 Apache."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.cnn.com/2003/WORLD/meast/03/24/sprj.irq.apache.attack/index.html",
-        "publisher": "cnn.com",
-        "note": "External source for Boeing AH-64 Apache."
+        "id": "fn-boeing-ah64",
+        "title": "AH-64 Apache",
+        "url": "https://www.boeing.com/defense/ah-64-apache/",
+        "publisher": "Boeing",
+        "note": "Manufacturer page for Apache fleet status, AH-64E/Modernized Apache features, specifications, ordnance, and customer list."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.slate.com/id/2081906/",
-        "publisher": "slate.com",
-        "note": "External source for Boeing AH-64 Apache."
+        "id": "fn-army-technology-ah64",
+        "title": "Apache Attack Helicopter (AH-64A/D), United States of America",
+        "url": "https://www.army-technology.com/projects/apache/",
+        "publisher": "Army Technology / GlobalData",
+        "note": "Supplementary technical and program history source for AH-64A/D service entry, Longbow development, weapons, sensors, and representative specifications."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.smh.com.au/articles/2003/03/25/1048354604384.html",
-        "publisher": "smh.com.au",
-        "note": "External source for Boeing AH-64 Apache."
+        "id": "fn-wikipedia-ah64",
+        "title": "Boeing AH-64 Apache",
+        "url": "https://en.wikipedia.org/wiki/Boeing_AH-64_Apache",
+        "publisher": "Wikipedia",
+        "note": "General orientation and cross-checking source; preferred article claims use manufacturer and specialist sources where possible."
       }
     ],
     "article_sections": [
@@ -27751,19 +27805,20 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Boeing AH-64 Apache is an Attack helicopter from United States. Manufacturer: Hughes / McDonnell Douglas / Boeing. First flight: 1975. Introduction: 1986. Status: Active.",
+            "text": "The Boeing AH-64 Apache is a two-seat, twin-turboshaft attack helicopter designed for precision attack, armed reconnaissance, escort, and close support in day, night, and adverse-weather conditions. It began as the Hughes Advanced Attack Helicopter, first flew on 30 September 1975, entered U.S. Army service in 1984, and passed through McDonnell Douglas to Boeing after the 1997 merger.",
             "refs": [
-              "fn-main"
+              "fn-boeing-ah64",
+              "fn-army-technology-ah64"
             ]
           },
           {
-            "text": "Boeing AH-64 Apache is a helicopter. Primary role: attack helicopter. Country of origin: United States. Manufacturer: Hughes / McDonnell Douglas / Boeing.",
+            "text": "Its recognizable configuration combines tandem cockpits, a chin-mounted 30 mm M230 chain gun, stub wings for missiles and rockets, crashworthy/survivable battlefield design, and nose/mast sensor systems. Boeing identifies the Apache as the backbone of the U.S. Army attack-helicopter fleet and states that more than 1,300 aircraft are in operation worldwide with 19 customer countries.",
             "refs": [
-              "fn-wikidata"
+              "fn-boeing-ah64"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The page uses the AH-64E as the principal current-production reference, while noting that AH-64A, AH-64D, UK Apache AH Mk 1, and export aircraft differ in engines, avionics, sensors, weapons clearances, and national equipment.",
             "refs": [
               "fn-method"
             ]
@@ -27772,44 +27827,76 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Attack helicopter"
+            "text": "Attack helicopter / armed reconnaissance"
           },
           {
-            "title": "Designer or builder",
-            "text": "Hughes / McDonnell Douglas / Boeing"
-          },
-          {
-            "title": "Major origin",
+            "title": "Origin",
             "text": "United States"
           },
           {
-            "title": "Propulsion",
-            "text": "Turboshaft"
+            "title": "Current standard",
+            "text": "AH-64E Apache Guardian / Modernized Apache path"
+          },
+          {
+            "title": "Crew",
+            "text": "2: pilot and co-pilot/gunner"
+          },
+          {
+            "title": "Global footprint",
+            "text": "19 customer countries listed by Boeing"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Boeing AH-64 Apache first flew in 1975. Introduction date: 1986. Era: Modern.",
+            "text": "The Apache emerged from U.S. Army efforts to replace and supplement Vietnam-era attack-helicopter capability with a more survivable, night-capable anti-armor platform. Hughes won the Advanced Attack Helicopter competition, and the prototype YAH-64 first flew in 1975.",
             "refs": [
-              "fn-main"
+              "fn-army-technology-ah64",
+              "fn-wikipedia-ah64"
             ]
           },
           {
-            "text": "Producer: Hughes / McDonnell Douglas / Boeing. Development context: attack helicopter, turboshaft propulsion, subsonic speed category, Modern era.",
+            "text": "Production AH-64A aircraft entered U.S. Army service in 1984. McDonnell Douglas later acquired Hughes Helicopters, and Boeing inherited the program when it merged with McDonnell Douglas in 1997. That corporate chain explains why older sources may list Hughes, McDonnell Douglas, or Boeing as manufacturer depending on the period.",
             "refs": [
-              "fn-wikidata"
+              "fn-army-technology-ah64",
+              "fn-boeing-ah64"
+            ]
+          },
+          {
+            "text": "The AH-64D Longbow added the prominent mast-mounted millimetre-wave fire-control radar, improved avionics, and Longbow Hellfire integration. The AH-64E then emphasized stronger engines/transmission, digital connectivity, Link 16, improved sensors, and manned-unmanned teaming; Boeing states E-model production continues into the 2030s.",
+            "refs": [
+              "fn-boeing-ah64",
+              "fn-army-technology-ah64"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing lift, survivability, vibration, hot-and-high performance, and battlefield maintainability.",
+            "text": "1975: YAH-64 first flight.",
             "refs": [
-              "fn-method"
+              "fn-army-technology-ah64"
+            ]
+          },
+          {
+            "text": "1984: Apache enters U.S. Army service.",
+            "refs": [
+              "fn-boeing-ah64",
+              "fn-army-technology-ah64"
+            ]
+          },
+          {
+            "text": "1997: First AH-64D Longbow deliveries and Boeing acquisition of McDonnell Douglas program heritage.",
+            "refs": [
+              "fn-army-technology-ah64"
+            ]
+          },
+          {
+            "text": "2010s-present: AH-64E production/remanufacture becomes the main U.S. and export modernization path.",
+            "refs": [
+              "fn-boeing-ah64"
             ]
           }
         ]
@@ -27819,27 +27906,103 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 2. Propulsion: Turboshaft. Speed category: Subsonic.",
+            "text": "The Apache is built around a narrow, armored tandem cockpit with the pilot normally seated behind and above the co-pilot/gunner. Twin T700-family turboshafts, a four-blade main rotor, and a rugged landing gear support low-altitude operations from austere forward areas.",
             "refs": [
-              "fn-main"
+              "fn-boeing-ah64",
+              "fn-army-technology-ah64"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Sensors and mission systems are central to the aircraft. AH-64D Longbow introduced a mast radar able to scan from behind cover, while AH-64E adds modernized networking, Link 16, and the ability to control unmanned aircraft to extend the crew’s sensor reach.",
             "refs": [
+              "fn-boeing-ah64",
+              "fn-army-technology-ah64"
+            ]
+          },
+          {
+            "text": "The Apache is not a stealth aircraft and is not carrier-designed in the naval-fighter sense. Some national variants have operated from ships or amphibious platforms, but the core design is a land-based attack helicopter optimized for survivability, weapons employment, and maintainability rather than high speed.",
+            "refs": [
+              "fn-army-technology-ah64",
               "fn-method"
             ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Sensors",
+            "text": "Nose sighting systems; Longbow mast radar on D/E radar-equipped aircraft"
           },
           {
-            "text": "Boeing AH-64 Apache uses turboshaft propulsion. Engine model field: Not listed.",
+            "title": "Networking",
+            "text": "AH-64E adds digital connectivity, Link 16, and unmanned-aircraft control"
+          },
+          {
+            "title": "Survivability",
+            "text": "Armored tandem cockpit, redundant systems, and low-altitude tactics"
+          },
+          {
+            "title": "Powerplant",
+            "text": "Twin General Electric T700-family turboshafts"
+          },
+          {
+            "title": "Limitations",
+            "text": "Vulnerable to dense short-range air defenses and heavy small-arms fire if tactics or environment expose the aircraft"
+          }
+        ]
+      },
+      {
+        "id": "weapons",
+        "title": "Weapons and Mission Systems",
+        "paragraphs": [
+          {
+            "text": "The fixed Apache weapon is the Boeing/Alliant Techsystems M230 30 mm chain gun under the forward fuselage, fed by up to 1,200 rounds and slaved to crew sighting systems. Boeing’s AH-64E page lists ordnance capacity as 16 Hellfire missiles, 76 2.75-inch rockets, and 1,200 30 mm rounds, but real mission loads are tailored to fuel, environment, and tasking.",
             "refs": [
-              "fn-main"
+              "fn-boeing-ah64",
+              "fn-army-technology-ah64"
             ]
           },
           {
-            "text": "Armament field: Cannon, rockets, and guided missiles. Exact weapon list: Not listed.",
+            "text": "Typical guided weapons include AGM-114 Hellfire-family missiles and, for AH-64E users with appropriate integration, JAGM. Rocket options include unguided Hydra 70 and guided APKWS-family 70 mm rockets; some operators integrate air-to-air missiles such as Stinger, Sidewinder, Mistral, or national equivalents.",
             "refs": [
-              "fn-main"
+              "fn-army-technology-ah64"
+            ]
+          },
+          {
+            "text": "The Apache’s lethality comes from the integration of sensors, fire-control, datalinks, crew coordination, and standoff weapon employment rather than from raw speed. Radar-equipped Longbow aircraft can rapidly classify and prioritize targets, while newer E-model systems improve cooperative operations with ground and unmanned platforms.",
+            "refs": [
+              "fn-boeing-ah64",
+              "fn-army-technology-ah64"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Gun",
+            "text": "M230 30 mm chain gun, up to 1,200 rounds"
+          },
+          {
+            "title": "Missiles",
+            "text": "Hellfire / Longbow Hellfire / JAGM-class weapons depending on variant"
+          },
+          {
+            "title": "Rockets",
+            "text": "70 mm rockets, including guided APKWS-family options for some users"
+          },
+          {
+            "title": "Stores caution",
+            "text": "Published maximum load combinations are not universal operational loadouts"
+          }
+        ]
+      },
+      {
+        "id": "specifications",
+        "title": "Specifications",
+        "paragraphs": [
+          {
+            "text": "Representative figures below use Boeing’s current AH-64E public specification where available. Older AH-64A/D, UK Apache AH Mk 1, and export aircraft can differ in engine model, gross weight, avionics, and weapon clearances.",
+            "refs": [
+              "fn-boeing-ah64",
+              "fn-method"
             ]
           }
         ],
@@ -27849,93 +28012,51 @@
             "text": "2"
           },
           {
-            "title": "Engine class",
-            "text": "Turboshaft"
+            "title": "Length",
+            "text": "48.2 ft / 14.7 m (AH-64E Boeing)"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Height",
+            "text": "15.5 ft / 4.7 m"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Rotor diameter",
+            "text": "48 ft / 14.6 m"
           },
           {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Boeing AH-64 Apache status: Active. Conflict entries: 3.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Primary mission gross weight",
+            "text": "15,075 lb / 6,838 kg"
           },
           {
-            "text": "Conflicts: Gulf War, Iraq War, War in Afghanistan (2001–2021).",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Gulf War: Boeing AH-64 Apache used in Gulf War.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Maximum operating weight",
+            "text": "23,000 lb / 10,433 kg"
           },
           {
-            "text": "Iraq War: Boeing AH-64 Apache used in Iraq War.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Maximum level speed",
+            "text": "150+ kt / 279+ km/h"
           },
           {
-            "text": "War in Afghanistan (2001–2021): Boeing AH-64 Apache used in War in Afghanistan (2001–2021).",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
+            "title": "Service ceiling",
+            "text": "20,000 ft / 6,096 m"
+          },
           {
-            "text": "Boeing AH-64 Apache named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
+            "title": "Rate of climb",
+            "text": "2,800+ ft/min / 853+ m/min"
+          },
+          {
+            "title": "Ordnance reference",
+            "text": "16 Hellfire missiles, 76 rockets, and 1,200 30 mm rounds listed by Boeing for AH-64E"
           }
         ],
         "bullets": [
           {
-            "text": "Named pilots listed: 0.",
+            "text": "Army Technology lists AH-64A/D-family range as roughly 400 km on internal fuel and up to 1,900 km with internal plus external fuel; these figures should not be applied blindly to every mission profile.",
             "refs": [
-              "fn-method"
+              "fn-army-technology-ah64"
             ]
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
+            "text": "Hot-and-high performance, payload, and endurance vary strongly with temperature, altitude, armor, fuel, and weapon fit.",
             "refs": [
               "fn-method"
             ]
@@ -27947,13 +28068,7 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Boeing AH-64 Apache variant-family entries: 4. Variant families: Boeing AH-64 Apache baseline production model; Boeing AH-64 Apache upgraded avionics or weapons-capable model; Boeing AH-64 Apache two-seat trainer or conversion model; Boeing AH-64 Apache utility, attack, naval, or export model.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
+            "text": "Apache variant names often describe upgrade standards rather than entirely new airframes. Many AH-64A and AH-64D aircraft have been remanufactured or upgraded, while export users may combine U.S. baseline features with national radios, defensive systems, weapons, or engines.",
             "refs": [
               "fn-method"
             ]
@@ -27961,27 +28076,39 @@
         ],
         "bullets": [
           {
-            "text": "Boeing AH-64 Apache baseline production model",
+            "text": "YAH-64 — prototype and evaluation aircraft from the Advanced Attack Helicopter program.",
             "refs": [
-              "fn-main"
+              "fn-wikipedia-ah64"
             ]
           },
           {
-            "text": "Boeing AH-64 Apache upgraded avionics or weapons-capable model",
+            "text": "AH-64A — original production Apache introduced in 1984.",
             "refs": [
-              "fn-main"
+              "fn-army-technology-ah64"
             ]
           },
           {
-            "text": "Boeing AH-64 Apache two-seat trainer or conversion model",
+            "text": "AH-64D Longbow — radar/avionics upgrade with Longbow fire-control radar and Longbow Hellfire integration.",
             "refs": [
-              "fn-main"
+              "fn-army-technology-ah64"
             ]
           },
           {
-            "text": "Boeing AH-64 Apache utility, attack, naval, or export model",
+            "text": "WAH-64 / Apache AH Mk 1 — UK-built/configured Apache with national equipment and RTM322 engines.",
             "refs": [
-              "fn-main"
+              "fn-army-technology-ah64"
+            ]
+          },
+          {
+            "text": "AH-64E Apache Guardian — current production/remanufacture standard with improved propulsion, networking, sensors, and unmanned-aircraft teaming.",
+            "refs": [
+              "fn-boeing-ah64"
+            ]
+          },
+          {
+            "text": "Modernized Apache — Boeing future concept/upgrade path using open systems, launched effects, and enhanced interoperability.",
+            "refs": [
+              "fn-boeing-ah64"
             ]
           }
         ]
@@ -27991,45 +28118,61 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Boeing AH-64 Apache has 1 designer or builder country entry.",
+            "text": "Boeing lists the Apache as used by 19 countries, with more than 1,300 aircraft in operation worldwide. Public inventories are date-sensitive because many aircraft are remanufactured from AH-64D to AH-64E standards or delivered in batches.",
             "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
+              "fn-boeing-ah64",
               "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "United States — U.S. Army; largest and original Apache operator.",
             "refs": [
-              "fn-main"
+              "fn-boeing-ah64"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "United Kingdom — Army Air Corps; Apache AH Mk 1 and AH-64E transition.",
             "refs": [
-              "fn-wikidata"
+              "fn-army-technology-ah64"
+            ]
+          },
+          {
+            "text": "Israel, Netherlands, Japan, India, Saudi Arabia and other partners operate Apache variants with national equipment fits.",
+            "refs": [
+              "fn-boeing-ah64",
+              "fn-army-technology-ah64"
+            ]
+          },
+          {
+            "text": "Boeing customer list also includes Australia, Egypt, Greece, Indonesia, Kuwait, Morocco, Qatar, Singapore, South Korea, and the United Arab Emirates.",
+            "refs": [
+              "fn-boeing-ah64"
             ]
           }
         ]
       },
       {
-        "id": "specifications",
-        "title": "Specifications",
+        "id": "service",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 2, propulsion type Turboshaft, maximum speed category Subsonic, first flight 1975, introduction 1986.",
+            "text": "The Apache has accumulated extensive combat use. Boeing reports more than 5.3 million fleet flight hours, including more than 1.3 million combat hours. Army Technology cites combat use beginning with the 1989 U.S. operation in Panama and continuing through Desert Storm, Afghanistan, Iraq, and other deployments.",
             "refs": [
-              "fn-main"
+              "fn-boeing-ah64",
+              "fn-army-technology-ah64"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "In Desert Storm, Apaches were associated with opening-night attacks on Iraqi radar sites and later anti-armor missions. In Afghanistan and Iraq they provided close air support, armed overwatch, convoy escort, and route-security missions, but also faced the limitations of helicopters operating against prepared ground fire and short-range air defenses.",
+            "refs": [
+              "fn-army-technology-ah64",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Because export customers use the Apache in different political and tactical contexts, this page avoids precise kill claims or loss totals unless tied to a specific operator source.",
             "refs": [
               "fn-method"
             ]
@@ -28037,16 +28180,145 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
         "paragraphs": [
           {
-            "text": "Boeing AH-64 Apache similar-development links: 4.",
+            "text": "Strengths include a mature weapons/sensor ecosystem, heavy battlefield firepower for a helicopter, proven sustainment, and continuous modernization from AH-64A through AH-64E. The platform is especially valuable when cued by ground forces, UAVs, or other aircraft and when terrain allows covered approaches.",
+            "refs": [
+              "fn-boeing-ah64"
+            ]
+          },
+          {
+            "text": "Limitations are those of attack helicopters generally: speed and altitude are modest compared with fixed-wing aircraft, rotorcraft are maintenance-intensive, and survival depends on tactics, terrain masking, electronic/infrared countermeasures, and suppression or avoidance of short-range threats.",
             "refs": [
               "fn-method"
             ]
           }
         ],
+        "cards": [
+          {
+            "title": "Strength",
+            "text": "Integrated night/all-weather sensors, missiles, cannon, and rockets"
+          },
+          {
+            "title": "Strength",
+            "text": "Large global user base and long sustainment pipeline"
+          },
+          {
+            "title": "Limitation",
+            "text": "Low-speed rotorcraft vulnerability in dense air-defense environments"
+          },
+          {
+            "title": "Limitation",
+            "text": "Public performance figures are highly loadout- and environment-dependent"
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Compared with the earlier AH-1 Cobra family, the Apache is heavier, more sensor-driven, and built around a larger anti-armor weapons load and two-engine survivability. Compared with utility helicopters such as the UH-60 Black Hawk, it sacrifices cabin utility for weapons, armor, sensors, and attack-helicopter tactics.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Within its own family, the biggest public leap was the AH-64D Longbow’s radar/sensor integration, followed by the AH-64E’s networked operations, stronger propulsion standard, and unmanned-aircraft teaming.",
+            "refs": [
+              "fn-boeing-ah64",
+              "fn-army-technology-ah64"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Bell AH-1 Cobra",
+            "url": "aircraft.html?id=ah-1-cobra"
+          },
+          {
+            "label": "Sikorsky UH-60 Black Hawk",
+            "url": "aircraft.html?id=uh-60-black-hawk"
+          },
+          {
+            "label": "Boeing CH-47 Chinook",
+            "url": "aircraft.html?id=ch-47-chinook"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1975 — YAH-64 prototype first flight.",
+            "refs": [
+              "fn-army-technology-ah64"
+            ]
+          },
+          {
+            "text": "1984 — Apache enters U.S. Army service.",
+            "refs": [
+              "fn-boeing-ah64"
+            ]
+          },
+          {
+            "text": "1989 — First combat use commonly cited during U.S. operations in Panama.",
+            "refs": [
+              "fn-army-technology-ah64"
+            ]
+          },
+          {
+            "text": "1991 — Major coalition use in the Gulf War.",
+            "refs": [
+              "fn-army-technology-ah64"
+            ]
+          },
+          {
+            "text": "1997 — First AH-64D Longbow delivery to the U.S. Army.",
+            "refs": [
+              "fn-army-technology-ah64"
+            ]
+          },
+          {
+            "text": "2010s — AH-64E becomes the main modernization/production standard.",
+            "refs": [
+              "fn-boeing-ah64"
+            ]
+          },
+          {
+            "text": "2020s-2030s — Boeing describes AH-64E production and Modernized Apache development as continuing for long-term service into the 2060s.",
+            "refs": [
+              "fn-boeing-ah64"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Manufacturer data is used for current AH-64E specifications and fleet-status statements. Army Technology provides supplementary public data for earlier AH-64A/D specifications, weapons, Longbow radar, and program history. Wikipedia is retained only as a general orientation and cross-checking source.",
+            "refs": [
+              "fn-boeing-ah64",
+              "fn-army-technology-ah64",
+              "fn-wikipedia-ah64"
+            ]
+          },
+          {
+            "text": "Exact fleet counts, export inventories, and weapon clearances change over time. Values here should be read as representative public figures, not a complete current order of battle.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related",
+        "title": "Related Pages",
         "links": [
           {
             "label": "Bell AH-1 Cobra",
@@ -28063,27 +28335,15 @@
           {
             "label": "Boeing CH-47 Chinook",
             "url": "aircraft.html?id=ch-47-chinook"
+          },
+          {
+            "label": "Aircraft database",
+            "url": "aircraft.html"
           }
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg/960px-USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg",
-        "caption": "Gulf War",
-        "source_url": "https://en.wikipedia.org/wiki/Gulf_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/UStanks_baghdad_2003.JPEG/960px-UStanks_baghdad_2003.JPEG",
-        "caption": "Iraq War",
-        "source_url": "https://en.wikipedia.org/wiki/Iraq_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/U.S._Army_firefight_in_Kunar.jpg/960px-U.S._Army_firefight_in_Kunar.jpg",
-        "caption": "War in Afghanistan (2001–2021)",
-        "source_url": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001%E2%80%932021)"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "uh-1-iroquois",

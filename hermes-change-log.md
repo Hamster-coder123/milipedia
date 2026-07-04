@@ -6865,3 +6865,80 @@ Record the result of:
 * Current Dassault and BAE heritage pages returned Incapsula/blocked pages in this environment; the archived Dassault page was used instead of the live current page.
 * Jaguar specifications and weapons fits vary by French, British, export, and Indian upgrade standards; exact fleet counts, loss totals, and detailed current weapon clearances were intentionally omitted or marked as operator/date-sensitive.
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+
+### Run 90 — 2026-07-04 08:05:06 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Boeing AH-64 Apache (id: ah-64-apache)
+* Reason selected: Among the remaining unedited aircraft pages, the Apache entry was one of the sparsest: it had generated prose, no variant entries, no operator entries, mostly “Not listed” technical fields, generic source labels, and much lower article density than the F-16 reference page.
+* Previous condition: Placeholder-like generated entry with 9 short sections, 0 variants, 0 operators, 3 stale/generic external-source labels, missing engine/range/ceiling/rate-of-climb/hardpoint details, generic armament wording, and stale conflict-gallery metadata.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview and lead fact groups; development/design/weapons/specifications/variants/operators/operational-history order; specification cards; comparison, strengths/limitations, timeline, sources, and related-page coverage; cautious variant-specific wording; renderer-compatible card/bullet/link shapes; and internal `aircraft.html?id=...` related-page links.
+
+#### Changes Made
+
+* Expanded the AH-64 Apache entry from sparse generated text into a fuller article-style aircraft record.
+* Updated top-level facts for manufacturer lineage, role, first flight, service entry, active production/service status, production total, crew, T700-family powerplant, speed, range, combat radius, service ceiling, climb rate, hardpoints, armament, development history, combat-history summary, and operator summary.
+* Added concrete variant entries for YAH-64, AH-64A, AH-64D Longbow, WAH-64 / Apache AH Mk 1, AH-64E Apache Guardian, and the Modernized Apache upgrade path.
+* Added representative operator entries for the United States, United Kingdom, Israel, Netherlands, Japan, India, Saudi Arabia, and other Boeing-listed customer countries.
+* Added detailed article sections for Overview, Development History, Design and Capabilities, Weapons and Mission Systems, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Comparison, Timeline, Sources and Notes, and Related Pages.
+* Added renderer-compatible specification cards for AH-64E crew, dimensions, rotor diameter, gross weights, maximum speed, service ceiling, climb rate, and Boeing-listed ordnance reference.
+* Replaced stale/generic source labels with Boeing manufacturer, Army Technology / GlobalData, Wikipedia supplementary orientation, and local Milipedia data-rules references.
+* Cleaned stale generated event-gallery entries rather than retaining non-Apache-specific conflict imagery.
+* Added and verified related internal links to AH-1 Cobra, UH-1 Iroquois, UH-60 Black Hawk, and CH-47 Chinook.
+* Omitted exact current fleet counts by country, detailed combat-loss totals, and universal weapon loadouts where public data is date-sensitive, operator-specific, or configuration-dependent.
+
+#### Files Modified
+
+* data/aircraft.json — expanded only the `ah-64-apache` aircraft entry and cleaned stale generated metadata for that entry.
+* hermes-change-log.md — appended this Run 90 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — before commit, only `data/aircraft.json` was modified before the log update; after the log update, only `data/aircraft.json` and `hermes-change-log.md` were intended for staging.
+2. git diff — reviewed the aircraft JSON diff/stat and this log entry; the aircraft diff changed only the `ah-64-apache` entry.
+3. File review — `python3 -m json.tool data/aircraft.json` passed; selected entry showed 13 article sections, 6 variants, 8 operators, 4 source/footnote entries, and cleaned event-gallery metadata.
+4. F-16 style comparison — inspected `data/f16-template.html` and matched its dense overview, development/design/specifications/variants/operators/operational-history sequence, specification-card emphasis, comparison/timeline/source coverage, related links, and caveat density within the JSON-rendered article system.
+5. Internal link check — recursive check found all `aircraft.html?id=...` links in the Apache entry target existing local IDs: `ah-1-cobra`, `uh-1-iroquois`, `uh-60-black-hawk`, and `ch-47-chinook`.
+6. Secret/token check — credential-specific working-diff scan of the aircraft update reported no added private credentials or access/auth tokens; staged scan will be repeated before commit.
+7. Final review before commit — branch check confirmed `hermes-agent`; JSON syntax passed; single-entry comparison passed; internal-link check passed; `git diff --check` passed for the aircraft update; only intended files are prepared for staging.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Boeing AH-64 Apache
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Tavily web search/extract returned backend 432 errors, so this run used direct retrieval of the Boeing manufacturer page and Army Technology page for source cross-checking.
+* AH-64 figures vary by A/D/E standard, national configuration, engines, weapons, fuel, altitude, and environment; the page uses Boeing AH-64E data where available and labels older A/D-family figures as representative.
+* Country-by-country fleet counts, detailed combat-loss totals, and exact national weapon clearances were intentionally omitted or marked as date- and operator-sensitive.
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
