@@ -7835,3 +7835,75 @@ Record the result of:
 * Web extraction for the official/museum/AP sources failed with backend errors, so no new external facts beyond the existing cited source records were introduced.
 * The F-20 Tigershark is related to the F-5 but does not have a local Milipedia aircraft entry; its related link now uses an external URL.
 * The task can continue on the next hourly run, but future runs may find no genuinely sparse unedited aircraft pages unless new pages are added or humans authorize broader cleanup tasks.
+
+### Run 103 — 2026-07-04 23:02:32 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: None — no aircraft page changed in this log-only run.
+* Aircraft/Page: No suitable sparse unedited aircraft page found.
+* Reason selected: No page was selected because all 99 non-reference aircraft entries in data/aircraft.json have now appeared as selected Hermes pages in the cumulative change log; the only aircraft entry not in prior selected-page records is the F-16 Fighting Falcon reference page, which this workflow must inspect but not use as the sparse edit target.
+* Previous condition: Candidate review after Run 102 found 100 aircraft entries total, 99 previously selected non-reference entries, and one unselected reference entry: General Dynamics F-16 Fighting Falcon (id: f-16-fighting-falcon). There is therefore no remaining sparse, incomplete, non-reference aircraft page suitable for a safe one-page expansion under the current rules.
+* Previously edited by Hermes: Yes for every non-reference candidate in the aircraft data set; No for the F-16 reference page, but it is the required formatting reference rather than an editable sparse candidate.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Inspected as the required reference for layout and density: dense top overview, article contents navigation, Overview, Development History, Design, Specifications, Variants, Operators, Operational History, Notable Events, Comparison, Strengths and Limitations, Gallery, Timeline, Public Perception, Sources, and Related Pages; table-based specifications/variants, concise technical prose, internal aircraft.html?id=... links, and source/reference formatting. No aircraft page was edited because no suitable target remained.
+
+#### Changes Made
+
+* Confirmed repository work was on the hermes-agent branch after fetching and rebasing the latest origin/hermes-agent state.
+* Counted previous Hermes run entries and identified this as Run 103.
+* Inspected the F-16 reference template and recorded its article order, specification-table style, source-linking style, and dense technical tone.
+* Parsed the cumulative change log selected-page records and data/aircraft.json candidate set.
+* Confirmed that all 99 non-reference aircraft entries have already been substantially selected by Hermes in previous runs and that the only unselected aircraft entry is the F-16 reference page.
+* Did not edit aircraft content, because forcing another aircraft-page update would violate the sparse-page and previously-edited-page selection requirements.
+* Appended this log-only no-suitable-page entry because Run 102 changed the final remaining non-reference candidate, making the exhausted-candidate state materially different from earlier no-suitable runs.
+
+#### Files Modified
+
+* hermes-change-log.md — Appended this Run 103 log-only entry documenting that no suitable sparse unedited non-reference aircraft page remains.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [ ] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [ ] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before the log update the working tree was clean; after the log update, the only intended modified file was hermes-change-log.md.
+2. git diff — Reviewed the diff; it appends only this Run 103 no-suitable-page log entry and does not alter aircraft content or site code.
+3. File review — Parsed data/aircraft.json candidate coverage with an out-of-repo helper: 100 aircraft entries total, 99 previously selected non-reference entries, and only the F-16 reference page unselected.
+4. F-16 style comparison — Inspected data/f16-template.html for article layout, heading order, specification/variant/operator table style, source references, and related-page link format; no page was changed because no sparse candidate remains.
+5. Internal link check — No aircraft page was changed and no new aircraft.html?id=... links were introduced; the candidate review confirmed the unselected F-16 entry is the reference page.
+6. Secret/token check — Checked the intended staged diff with credential-specific private-key, password-assignment, cloud-credential, and access/auth-token patterns; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, log-only diff scope, git diff --check clean, staged files limited to hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: log no suitable aircraft page
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* No aircraft page was edited because all non-reference aircraft entries have already been selected by Hermes, and the remaining unselected F-16 entry is the mandatory reference page.
+* The page-edit checklist items for a selected sparse page and updated-page style are left unchecked because this was intentionally a log-only no-suitable-page run.
+* Future hourly runs should continue only if new aircraft pages are added or humans authorize broader cleanup, maintenance, or source-integration tasks beyond sparse unedited aircraft-page expansion.
