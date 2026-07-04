@@ -17372,34 +17372,89 @@
   {
     "id": "c-130-hercules",
     "name": "Lockheed C-130 Hercules",
-    "alternative_names": [],
+    "alternative_names": [
+      "C-130",
+      "Hercules",
+      "C-130J Super Hercules"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
     "manufacturer": "Lockheed / Lockheed Martin",
-    "role": "Tactical airlifter",
-    "aircraft_type": "Transport aircraft",
+    "role": "Tactical and theater airlifter",
+    "aircraft_type": "Military transport aircraft",
     "era": "Cold War/Modern",
-    "first_flight": "1954",
+    "first_flight": "23 August 1954",
     "introduction_date": "1956",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "3-5",
+    "status": "Active; C-130J family remains in production and service",
+    "number_built": "2,500+ across the Hercules family (public estimates vary)",
+    "crew": "C-130H commonly 5; C-130J commonly 3 for many missions",
     "engine_type": "Turboprop",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
+    "engines": "Four Allison T56 turboprops on many legacy models; four Rolls-Royce AE 2100D3 turboprops on C-130J",
+    "max_speed": "About 360 kt class for C-130J public figures; variant-dependent",
     "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Support aircraft; fixed offensive armament not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Lockheed C-130 Hercules: Tactical airlifter. Manufacturer: Lockheed / Lockheed Martin. First flight: 1954. Introduction: 1956.",
-    "short_summary": "Lockheed C-130 Hercules: Tactical airlifter. Origin: United States. Manufacturer: Lockheed / Lockheed Martin. First flight: 1954. Introduction: 1956. Status: Active.",
+    "range": "About 2,000+ nmi ferry-range class for representative C-130J public figures; load-dependent",
+    "combat_range": "Mission and payload dependent; theater-airlift radius varies by load, fuel, and profile",
+    "service_ceiling": "About 28,000-33,000 ft class depending on variant and load",
+    "rate_of_climb": "Variant and load dependent",
+    "armament": "Standard transport C-130s are normally unarmed; AC-130 and other special variants differ.",
+    "hardpoints": "Not applicable to standard transport variants; mission kits and special variants vary.",
+    "variants": [
+      {
+        "name": "C-130A/B/E/H",
+        "description": "Early and classic tactical-airlift production families. The C-130A introduced the basic high-wing, rear-ramp Hercules layout; later B, E, and H models added more capable engines, fuel, avionics, and operating-weight improvements."
+      },
+      {
+        "name": "C-130J Super Hercules",
+        "description": "Modern production Hercules with Rolls-Royce AE 2100D3 turboprops, six-bladed composite propellers, digital avionics, and reduced flight-crew requirements compared with earlier models."
+      },
+      {
+        "name": "C-130J-30",
+        "description": "Stretched C-130J variant with a longer cargo compartment for higher-volume troop, pallet, litter, and mission-kit loads."
+      },
+      {
+        "name": "AC-130 family",
+        "description": "Heavily modified gunship derivatives used for armed overwatch and close air support; they share Hercules structure but are special-mission aircraft rather than standard transports."
+      },
+      {
+        "name": "HC-130 / MC-130 / KC-130 families",
+        "description": "Search-and-rescue, special-operations, and tanker derivatives adapted for personnel recovery, aerial refueling, infiltration, and other specialized support missions."
+      },
+      {
+        "name": "L-100 / LM-100J",
+        "description": "Civil and commercial Hercules derivatives used for outsized cargo and austere-field freight operations."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "U.S. Air Force, Air National Guard, Air Force Reserve, Marine Corps, Navy, Coast Guard, and special-mission units",
+        "notes": "Largest and longest-running Hercules user; U.S. aircraft cover tactical airlift, weather reconnaissance, search and rescue, special operations, tanker, and gunship missions."
+      },
+      {
+        "country": "Australia",
+        "service": "Royal Australian Air Force",
+        "notes": "One of the earliest non-U.S. Hercules operators and a long-term tactical-airlift user across C-130A/E/H/J generations."
+      },
+      {
+        "country": "Canada",
+        "service": "Royal Canadian Air Force",
+        "notes": "Long-term Hercules operator for tactical airlift, domestic support, Arctic/logistics tasks, and deployed coalition operations."
+      },
+      {
+        "country": "United Kingdom",
+        "service": "Royal Air Force (legacy operator)",
+        "notes": "Operated Hercules C.1/C.3/C.4/C.5 aircraft for decades; the type was central to RAF tactical airlift before retirement from UK service."
+      },
+      {
+        "country": "Multiple allied and partner air arms",
+        "service": "Global military and civil operators",
+        "notes": "The Hercules family has served with dozens of countries; exact current inventories vary as older C-130B/E/H aircraft retire and C-130J deliveries continue."
+      }
+    ],
+    "combat_history": "Widely used for tactical airlift, airdrop, medevac, humanitarian relief, special operations support, refueling, and other missions from the Cold War through modern coalition operations.",
+    "development_history": "Designed by Lockheed as a rugged four-engine turboprop tactical transport, the C-130 first flew in 1954 and entered U.S. Air Force service in 1956. Successive legacy models and the modern C-130J retained the rear-ramp, rough-field utility concept while adding new engines, avionics, mission kits, and production variants.",
+    "short_summary": "The Lockheed C-130 Hercules is a rugged four-engine turboprop tactical airlifter built around short-field access, rear-ramp cargo handling, and exceptional mission adaptability. First flown in 1954, it remains active worldwide and continues in modern C-130J Super Hercules production.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -17412,18 +17467,39 @@
     ],
     "sources": [
       {
+        "id": "fn-usaf-c130",
+        "title": "C-130 Hercules fact sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104517/c-130-hercules/",
+        "publisher": "U.S. Air Force",
+        "note": "Official public fact sheet for C-130H mission, crew, payload, dimensions, performance, and background."
+      },
+      {
+        "id": "fn-usaf-c130j",
+        "title": "C-130J Super Hercules fact sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104518/c-130j-super-hercules/",
+        "publisher": "U.S. Air Force",
+        "note": "Official public fact sheet for C-130J mission, propulsion, avionics, performance, and modernized Hercules service."
+      },
+      {
+        "id": "fn-lockheed-c130j",
+        "title": "C-130J Super Hercules",
+        "url": "https://www.lockheedmartin.com/en-us/products/c130.html",
+        "publisher": "Lockheed Martin",
+        "note": "Manufacturer page describing C-130J production variants, mission versatility, and current program context."
+      },
+      {
+        "id": "fn-nmusaf-c130e",
+        "title": "Lockheed C-130E Hercules",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196239/lockheed-c-130e-hercules/",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Museum reference for C-130E history and Vietnam-era tactical airlift context."
+      },
+      {
         "id": "fn-main",
         "title": "Lockheed C-130 Hercules",
         "url": "https://en.wikipedia.org/wiki/Lockheed_C-130_Hercules",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for broad family chronology, variants, and operator context; official sources preferred for specifications."
       },
       {
         "id": "fn-method",
@@ -17431,27 +17507,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.doppeladler.com/oebh/luftfahrzeuge/c130.htm",
-        "publisher": "doppeladler.com",
-        "note": "External source for Lockheed C-130 Hercules."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.dasa.mod.uk/natstats/accidents/accdam/acctab2.html",
-        "publisher": "dasa.mod.uk",
-        "note": "External source for Lockheed C-130 Hercules."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.uscost.net/aircraftcharacteristics/acc130.htm",
-        "publisher": "uscost.net",
-        "note": "External source for Lockheed C-130 Hercules."
       }
     ],
     "country_flags": [
@@ -17461,59 +17516,66 @@
       }
     ],
     "designers": [
-      "Lockheed / Lockheed Martin"
+      "Lockheed",
+      "Lockheed Martin"
     ],
     "development_tensions": [
-      "Balancing payload, short-field performance, reliability, strategic reach, and rough-field operation."
+      "Balancing payload, short-field performance, reliability, global maintainability, and rough-field operation.",
+      "Keeping a 1950s tactical-airlift concept relevant through modern engines, avionics, and mission-system updates."
     ],
     "wars_used_in": [
       {
+        "name": "Vietnam War",
+        "note": "C-130s became central tactical-airlift and airdrop aircraft in U.S. and allied service."
+      },
+      {
         "name": "Gulf War",
-        "note": "Lockheed C-130 Hercules used in Gulf War."
+        "note": "Hercules aircraft supported coalition logistics, theater distribution, and special-mission operations."
       },
       {
         "name": "Iraq War",
-        "note": "Lockheed C-130 Hercules used in Iraq War."
+        "note": "Used for airlift, airdrop, medevac, and special-mission support; exact roles varied by variant."
       },
       {
         "name": "War in Afghanistan (2001–2021)",
-        "note": "Lockheed C-130 Hercules used in War in Afghanistan (2001–2021)."
+        "note": "Used for austere-field logistics, airdrop, evacuation, and special-operations support."
       }
     ],
     "variant_families": [
-      "Lockheed C-130 Hercules baseline production model",
-      "Lockheed C-130 Hercules upgraded avionics or weapons-capable model",
-      "Lockheed C-130 Hercules cargo, special mission, or aerial support model"
+      "C-130A/B/E/H",
+      "C-130J Super Hercules",
+      "C-130J-30",
+      "AC-130 family",
+      "HC-130 / MC-130 / KC-130 families",
+      "L-100 / LM-100J"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Lockheed C-130 Hercules has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "The United States is the primary operator, with many international military and civil Hercules users.",
+      "all_operators_status": "Representative operators listed; exact global inventories are date-sensitive."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "Hercules family includes many special-mission aircraft; individual airframe histories require separate source checks."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "A 1958 C-130A-II shootdown near the Turkish-Armenian border is a notable Cold War incident often cited in histories of the type."
       ]
     },
     "engine_details": {
       "type": "Turboprop",
-      "summary": "Lockheed C-130 Hercules uses turboprop propulsion."
+      "summary": "Legacy C-130s commonly use Allison T56 turboprops; C-130J aircraft use Rolls-Royce AE 2100D3 turboprops with six-bladed propellers."
     },
     "armament_details": {
-      "summary": "Support aircraft; fixed offensive armament not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Standard transport Hercules aircraft are normally unarmed.",
+      "caution": "Gunship, special-operations, tanker, rescue, and other derivatives have mission-specific equipment and should not be generalized to all C-130s."
     },
     "similar_development": [
       {
         "id": "c-5-galaxy",
-        "name": "Lockheed C-5 Galaxy",
+        "name": "Lockheed C-5 Galaxy / C-5M Super Galaxy",
         "url": "aircraft.html?id=c-5-galaxy"
       },
       {
@@ -17523,7 +17585,7 @@
       },
       {
         "id": "il-76",
-        "name": "Ilyushin Il-76",
+        "name": "Ilyushin Il-76 Candid",
         "url": "aircraft.html?id=il-76"
       },
       {
@@ -17533,76 +17595,83 @@
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 44,
+      "operator_entries": 5,
+      "variant_entries": 6,
+      "external_article_sources": 4
     },
     "footnotes": [
+      {
+        "id": "fn-usaf-c130",
+        "title": "C-130 Hercules fact sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104517/c-130-hercules/",
+        "publisher": "U.S. Air Force",
+        "note": "Official public fact sheet for C-130H mission, crew, payload, dimensions, performance, and background."
+      },
+      {
+        "id": "fn-usaf-c130j",
+        "title": "C-130J Super Hercules fact sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104518/c-130j-super-hercules/",
+        "publisher": "U.S. Air Force",
+        "note": "Official public fact sheet for C-130J mission, propulsion, avionics, performance, and modernized Hercules service."
+      },
+      {
+        "id": "fn-lockheed-c130j",
+        "title": "C-130J Super Hercules",
+        "url": "https://www.lockheedmartin.com/en-us/products/c130.html",
+        "publisher": "Lockheed Martin",
+        "note": "Manufacturer page describing C-130J production variants, mission versatility, and current program context."
+      },
+      {
+        "id": "fn-nmusaf-c130e",
+        "title": "Lockheed C-130E Hercules",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196239/lockheed-c-130e-hercules/",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Museum reference for C-130E history and Vietnam-era tactical airlift context."
+      },
       {
         "id": "fn-main",
         "title": "Lockheed C-130 Hercules",
         "url": "https://en.wikipedia.org/wiki/Lockheed_C-130_Hercules",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for broad family chronology, variants, and operator context; official sources preferred for specifications."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.doppeladler.com/oebh/luftfahrzeuge/c130.htm",
-        "publisher": "doppeladler.com",
-        "note": "External source for Lockheed C-130 Hercules."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.dasa.mod.uk/natstats/accidents/accdam/acctab2.html",
-        "publisher": "dasa.mod.uk",
-        "note": "External source for Lockheed C-130 Hercules."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.uscost.net/aircraftcharacteristics/acc130.htm",
-        "publisher": "uscost.net",
-        "note": "External source for Lockheed C-130 Hercules."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.doppeladler.com/oebh/luftfahrzeuge/c130.htm",
-        "publisher": "doppeladler.com",
-        "note": "External source for Lockheed C-130 Hercules."
+        "id": "fn-usaf-c130",
+        "title": "C-130 Hercules fact sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104517/c-130-hercules/",
+        "publisher": "U.S. Air Force",
+        "note": "Official public fact sheet for C-130H mission, crew, payload, dimensions, performance, and background."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.dasa.mod.uk/natstats/accidents/accdam/acctab2.html",
-        "publisher": "dasa.mod.uk",
-        "note": "External source for Lockheed C-130 Hercules."
+        "id": "fn-usaf-c130j",
+        "title": "C-130J Super Hercules fact sheet",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104518/c-130j-super-hercules/",
+        "publisher": "U.S. Air Force",
+        "note": "Official public fact sheet for C-130J mission, propulsion, avionics, performance, and modernized Hercules service."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.uscost.net/aircraftcharacteristics/acc130.htm",
-        "publisher": "uscost.net",
-        "note": "External source for Lockheed C-130 Hercules."
+        "id": "fn-lockheed-c130j",
+        "title": "C-130J Super Hercules",
+        "url": "https://www.lockheedmartin.com/en-us/products/c130.html",
+        "publisher": "Lockheed Martin",
+        "note": "Manufacturer page describing C-130J production variants, mission versatility, and current program context."
+      },
+      {
+        "id": "fn-nmusaf-c130e",
+        "title": "Lockheed C-130E Hercules",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196239/lockheed-c-130e-hercules/",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Museum reference for C-130E history and Vietnam-era tactical airlift context."
       }
     ],
     "article_sections": [
@@ -17611,19 +17680,21 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Lockheed C-130 Hercules is a Tactical airlifter from United States. Manufacturer: Lockheed / Lockheed Martin. First flight: 1954. Introduction: 1956. Status: Active.",
+            "text": "The Lockheed C-130 Hercules is a four-engine turboprop tactical airlifter designed around the unusual combination of useful payload, short-field performance, rough-strip operation, and long service life. Its high wing, rear loading ramp, and robust landing gear let it move troops, vehicles, pallets, medevac litters, and relief supplies into airfields that are too short or austere for many larger jet transports.",
             "refs": [
+              "fn-usaf-c130",
               "fn-main"
             ]
           },
           {
-            "text": "Lockheed C-130 Hercules is a transport aircraft. Primary role: tactical airlifter. Country of origin: United States. Manufacturer: Lockheed / Lockheed Martin.",
+            "text": "First flown in 1954 and introduced with the U.S. Air Force in 1956, the Hercules became one of the most widely used military transport aircraft families in history. Later C-130J Super Hercules production keeps the same basic utility-airlifter concept while adding modern turboprops, digital avionics, and production variants for tanker, rescue, special-operations, weather, and civil cargo missions.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf-c130j",
+              "fn-lockheed-c130j"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "This page treats the C-130H and C-130J as representative public baselines. Performance, crew size, avionics, defensive systems, and mission equipment vary substantially across A/B/E/H/J, tanker, gunship, search-and-rescue, special-operations, and civil derivatives.",
             "refs": [
               "fn-method"
             ]
@@ -17632,44 +17703,63 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Tactical airlifter"
+            "text": "Tactical and theater airlift"
           },
           {
-            "title": "Designer or builder",
-            "text": "Lockheed / Lockheed Martin"
+            "title": "First flight",
+            "text": "23 August 1954"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Entered service",
+            "text": "1956 with the U.S. Air Force"
           },
           {
-            "title": "Propulsion",
-            "text": "Turboprop"
+            "title": "Production status",
+            "text": "Active in modern C-130J form"
+          },
+          {
+            "title": "Defining feature",
+            "text": "Rear-ramp cargo aircraft for austere airfields"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Lockheed C-130 Hercules first flew in 1954. Introduction date: 1956. Era: Cold War/Modern.",
+            "text": "The Hercules emerged from a U.S. Air Force requirement for a tactical transport able to carry bulky cargo, operate from short and unimproved runways, and survive heavy peacetime use. Lockheed's design placed four turboprops on a high wing, used a pressurized cargo compartment, and added a full-width rear ramp so vehicles and palletized freight could be loaded directly from the ground.",
             "refs": [
+              "fn-usaf-c130",
               "fn-main"
             ]
           },
           {
-            "text": "Producer: Lockheed / Lockheed Martin. Development context: tactical airlifter, turboprop propulsion, subsonic speed category, Cold War/Modern era.",
+            "text": "The YC-130 prototype first flew in August 1954, and early C-130A deliveries began in the mid-1950s. Subsequent B, E, and H models increased capability through engine, fuel, structural, and avionics changes while keeping the Hercules layout familiar to crews and maintainers worldwide.",
             "refs": [
-              "fn-wikidata"
+              "fn-usaf-c130",
+              "fn-nmusaf-c130e"
+            ]
+          },
+          {
+            "text": "The C-130J program modernized the line with AE 2100D3 engines, six-bladed propellers, new flight-deck systems, and a reduced crew for many missions. Lockheed Martin markets the Super Hercules as a multi-mission production family rather than a single cargo-only aircraft.",
+            "refs": [
+              "fn-usaf-c130j",
+              "fn-lockheed-c130j"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing payload, short-field performance, reliability, strategic reach, and rough-field operation.",
+            "text": "Key design problem: move useful loads into austere forward airfields without needing strategic-airlifter runway length.",
             "refs": [
-              "fn-method"
+              "fn-usaf-c130"
+            ]
+          },
+          {
+            "text": "Longevity came from adaptable structure, many mission kits, and continuous upgrade paths rather than one fixed configuration.",
+            "refs": [
+              "fn-lockheed-c130j"
             ]
           }
         ]
@@ -17679,126 +17769,93 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 3-5. Propulsion: Turboprop. Speed category: Subsonic.",
+            "text": "The Hercules uses a shoulder-mounted wing, four turboprops, large flaps, and a strong tricycle landing gear to support low-speed handling and rough-field work. The boxy fuselage prioritizes cargo volume and access over aerodynamic sleekness, with paratroop doors and a rear ramp/door for airdrop, vehicle loading, and rapid unloading.",
             "refs": [
+              "fn-usaf-c130",
               "fn-main"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Standard transport Hercules aircraft are not fighters and normally carry no fixed offensive armament. Defensive aids, armor, communications suites, rescue equipment, refueling gear, weather sensors, or gunship weapons appear on mission-specific derivatives and should not be assumed for every C-130.",
             "refs": [
-              "fn-method"
+              "fn-method",
+              "fn-lockheed-c130j"
             ]
           },
           {
-            "text": "Lockheed C-130 Hercules uses turboprop propulsion. Engine model field: Not listed.",
+            "text": "The C-130J's digital cockpit and modern propulsion reduced workload and improved performance compared with legacy E/H aircraft, while the stretched C-130J-30 trades some short-field margin for more usable cargo-compartment length.",
             "refs": [
+              "fn-usaf-c130j",
+              "fn-lockheed-c130j"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Airframe",
+            "text": "High-wing rear-ramp cargo aircraft"
+          },
+          {
+            "title": "Powerplant class",
+            "text": "Four turboprops"
+          },
+          {
+            "title": "Cargo method",
+            "text": "Pallet loading, airdrop, vehicles, troops, litters"
+          },
+          {
+            "title": "Armament note",
+            "text": "Unarmed in standard transport form; special variants differ"
+          },
+          {
+            "title": "Runway role",
+            "text": "Designed for short and austere fields"
+          }
+        ]
+      },
+      {
+        "id": "specifications",
+        "title": "Specifications",
+        "paragraphs": [
+          {
+            "text": "Representative C-130H public figures list a crew of five, a 42,000 lb payload class, 97 ft 9 in length, 132 ft 7 in wingspan, 38 ft 3 in height, and four Allison T56 turboprops. Published values differ by model, weight, mission kit, and national modification standard.",
+            "refs": [
+              "fn-usaf-c130",
               "fn-main"
             ]
           },
           {
-            "text": "Armament field: Support aircraft; fixed offensive armament not listed. Exact weapon list: Not listed.",
+            "text": "Representative C-130J figures list four Rolls-Royce AE 2100D3 turboprops driving six-bladed propellers, a maximum speed around 362 knots, a ferry-range class above 2,000 nautical miles, and improved climb and field performance compared with many legacy variants.",
             "refs": [
-              "fn-main"
+              "fn-usaf-c130j",
+              "fn-lockheed-c130j"
             ]
           }
         ],
         "cards": [
           {
             "title": "Crew",
-            "text": "3-5"
+            "text": "C-130H commonly 5; C-130J commonly 3 for many missions"
           },
           {
-            "title": "Engine class",
-            "text": "Turboprop"
+            "title": "Payload class",
+            "text": "About 42,000 lb for representative tactical-airlift loads"
+          },
+          {
+            "title": "C-130H dimensions",
+            "text": "97 ft 9 in length; 132 ft 7 in wingspan; 38 ft 3 in height"
+          },
+          {
+            "title": "Legacy engines",
+            "text": "Four Allison T56 turboprops on many E/H aircraft"
+          },
+          {
+            "title": "C-130J engines",
+            "text": "Four Rolls-Royce AE 2100D3 turboprops"
           },
           {
             "title": "Speed class",
-            "text": "Subsonic"
-          },
-          {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Lockheed C-130 Hercules status: Active. Conflict entries: 3.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: Gulf War, Iraq War, War in Afghanistan (2001–2021).",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Gulf War: Lockheed C-130 Hercules used in Gulf War.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Iraq War: Lockheed C-130 Hercules used in Iraq War.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "War in Afghanistan (2001–2021): Lockheed C-130 Hercules used in War in Afghanistan (2001–2021).",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Lockheed C-130 Hercules named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "Subsonic; about 360 knots maximum in C-130J public figures"
           }
         ]
       },
@@ -17807,35 +17864,48 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Lockheed C-130 Hercules variant-family entries: 3. Variant families: Lockheed C-130 Hercules baseline production model; Lockheed C-130 Hercules upgraded avionics or weapons-capable model; Lockheed C-130 Hercules cargo, special mission, or aerial support model.",
+            "text": "The Hercules is better understood as a family than a single standard aircraft. Tactical airlifters, stretched transports, tankers, search-and-rescue aircraft, special-operations platforms, gunships, weather-reconnaissance aircraft, and civil freighters all share the Hercules lineage but can have very different systems and operating limits.",
             "refs": [
+              "fn-lockheed-c130j",
               "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Lockheed C-130 Hercules baseline production model",
+            "text": "C-130A/B/E/H: Early and classic tactical-airlift production families. The C-130A introduced the basic high-wing, rear-ramp Hercules layout; later B, E, and H models added more capable engines, fuel, avionics, and operating-weight improvements.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Lockheed C-130 Hercules upgraded avionics or weapons-capable model",
+            "text": "C-130J Super Hercules: Modern production Hercules with Rolls-Royce AE 2100D3 turboprops, six-bladed composite propellers, digital avionics, and reduced flight-crew requirements compared with earlier models.",
+            "refs": [
+              "fn-lockheed-c130j"
+            ]
+          },
+          {
+            "text": "C-130J-30: Stretched C-130J variant with a longer cargo compartment for higher-volume troop, pallet, litter, and mission-kit loads.",
+            "refs": [
+              "fn-lockheed-c130j"
+            ]
+          },
+          {
+            "text": "AC-130 family: Heavily modified gunship derivatives used for armed overwatch and close air support; they share Hercules structure but are special-mission aircraft rather than standard transports.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Lockheed C-130 Hercules cargo, special mission, or aerial support model",
+            "text": "HC-130 / MC-130 / KC-130 families: Search-and-rescue, special-operations, and tanker derivatives adapted for personnel recovery, aerial refueling, infiltration, and other specialized support missions.",
             "refs": [
               "fn-main"
+            ]
+          },
+          {
+            "text": "L-100 / LM-100J: Civil and commercial Hercules derivatives used for outsized cargo and austere-field freight operations.",
+            "refs": [
+              "fn-lockheed-c130j"
             ]
           }
         ]
@@ -17845,65 +17915,128 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Lockheed C-130 Hercules has 1 designer or builder country entry.",
+            "text": "C-130s have been operated by the United States and many allied or partner air arms. Operator lists are especially date-sensitive because older C-130B/E/H fleets continue to retire while new C-130J aircraft are delivered or ordered.",
             "refs": [
-              "fn-wikidata"
+              "fn-main",
+              "fn-lockheed-c130j"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "The United States remains the central Hercules user across active-duty, reserve, guard, naval, Marine, Coast Guard, special-operations, weather, and gunship communities. International use ranges from classic tactical airlift to search and rescue, firefighting support, humanitarian relief, and maritime or special-mission work.",
             "refs": [
-              "fn-method"
+              "fn-usaf-c130",
+              "fn-usaf-c130j"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "United States — U.S. Air Force, Air National Guard, Air Force Reserve, Marine Corps, Navy, Coast Guard, and special-mission units: Largest and longest-running Hercules user; U.S. aircraft cover tactical airlift, weather reconnaissance, search and rescue, special operations, tanker, and gunship missions.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "specifications",
-        "title": "Specifications",
-        "paragraphs": [
-          {
-            "text": "Comparable fields: crew 3-5, propulsion type Turboprop, maximum speed category Subsonic, first flight 1954, introduction 1956.",
+            "text": "Australia — Royal Australian Air Force: One of the earliest non-U.S. Hercules operators and a long-term tactical-airlift user across C-130A/E/H/J generations.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "Canada — Royal Canadian Air Force: Long-term Hercules operator for tactical airlift, domestic support, Arctic/logistics tasks, and deployed coalition operations.",
             "refs": [
-              "fn-method"
+              "fn-main"
+            ]
+          },
+          {
+            "text": "United Kingdom — Royal Air Force (legacy operator): Operated Hercules C.1/C.3/C.4/C.5 aircraft for decades; the type was central to RAF tactical airlift before retirement from UK service.",
+            "refs": [
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Multiple allied and partner air arms — Global military and civil operators: The Hercules family has served with dozens of countries; exact current inventories vary as older C-130B/E/H aircraft retire and C-130J deliveries continue.",
+            "refs": [
+              "fn-main"
             ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "operational-history",
+        "title": "Operational History",
         "paragraphs": [
           {
-            "text": "Lockheed C-130 Hercules similar-development links: 4.",
+            "text": "Hercules aircraft have supported airlift, airdrop, evacuation, disaster relief, humanitarian supply, special operations, aerial refueling, and combat-support missions from the Cold War through modern coalition operations. The type's value often lies less in headline speed than in arriving where heavier or more runway-dependent aircraft cannot operate.",
+            "refs": [
+              "fn-usaf-c130",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "In Vietnam-era service the C-130 became a central U.S. tactical-airlift aircraft, moving troops and supplies and performing airdrop missions. Later operations in the Gulf War, Iraq, Afghanistan, disaster relief, and multinational exercises reinforced its reputation as a utility transport rather than a single-mission cargo airplane.",
+            "refs": [
+              "fn-nmusaf-c130e",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "Specialized Hercules derivatives require separate treatment: AC-130 gunships, MC-130 special-operations aircraft, HC-130 rescue aircraft, KC-130 tankers, and WC-130 weather aircraft can share the same broad family name while having very different equipment and operational histories.",
+            "refs": [
+              "fn-method",
+              "fn-lockheed-c130j"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "Strengths include ruggedness, maintainability, short-field utility, a large global support base, and the ability to accept many mission kits. These qualities explain why the basic Hercules configuration has remained useful across multiple generations of engines, avionics, and mission systems.",
+            "refs": [
+              "fn-lockheed-c130j",
+              "fn-usaf-c130"
+            ]
+          },
+          {
+            "text": "Limitations include subsonic speed, vulnerability in high-threat airspace without support, and lower payload/range than strategic jet transports such as the C-17 or C-5. The Hercules is optimized for theater access and versatility, not for maximum intercontinental payload.",
             "refs": [
               "fn-method"
             ]
           }
         ],
+        "cards": [
+          {
+            "title": "Best at",
+            "text": "Austere-field tactical logistics and multi-mission utility"
+          },
+          {
+            "title": "Less suited for",
+            "text": "High-threat unescorted airspace or very heavy strategic payloads"
+          },
+          {
+            "title": "Modern relevance",
+            "text": "C-130J production and upgrades keep the family active"
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Compared with the C-17 Globemaster III, the C-130 carries less payload and flies slower, but it can be more practical for smaller fields, lower-volume routes, and tactical distribution. Compared with the C-5 Galaxy, it is a theater workhorse rather than an outsized strategic hauler. Compared with the An-12 and Il-76, it represents the Western turboprop tactical-airlift line that emphasized rough-field access and long-term upgradeability.",
+            "refs": [
+              "fn-method",
+              "fn-main"
+            ]
+          }
+        ],
         "links": [
           {
-            "label": "Lockheed C-5 Galaxy",
+            "label": "Lockheed C-5 Galaxy / C-5M Super Galaxy",
             "url": "aircraft.html?id=c-5-galaxy"
           },
           {
@@ -17911,7 +18044,7 @@
             "url": "aircraft.html?id=c-17-globemaster-iii"
           },
           {
-            "label": "Ilyushin Il-76",
+            "label": "Ilyushin Il-76 Candid",
             "url": "aircraft.html?id=il-76"
           },
           {
@@ -17919,25 +18052,97 @@
             "url": "aircraft.html?id=an-12"
           }
         ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "bullets": [
+          {
+            "text": "1954 — YC-130 prototype makes its first flight.",
+            "refs": [
+              "fn-usaf-c130"
+            ]
+          },
+          {
+            "text": "1956 — C-130 enters U.S. Air Force service.",
+            "refs": [
+              "fn-usaf-c130"
+            ]
+          },
+          {
+            "text": "1960s — C-130E/H improvements expand range, power, and operating weight over early models.",
+            "refs": [
+              "fn-nmusaf-c130e",
+              "fn-main"
+            ]
+          },
+          {
+            "text": "1990s onward — C-130J Super Hercules introduces new engines, propellers, and digital avionics.",
+            "refs": [
+              "fn-usaf-c130j",
+              "fn-lockheed-c130j"
+            ]
+          },
+          {
+            "text": "2020s — C-130J production and upgrades continue while many older Hercules fleets are modernized, retired, or replaced.",
+            "refs": [
+              "fn-lockheed-c130j"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Official U.S. Air Force and Lockheed Martin sources were used for mission, performance, and modern C-130J program framing. Museum and encyclopedia-style sources were used to cross-check history, variants, and broad operator context. Exact figures should be tied to a named model because Hercules performance and equipment vary widely across the family.",
+            "refs": [
+              "fn-usaf-c130",
+              "fn-usaf-c130j",
+              "fn-lockheed-c130j",
+              "fn-nmusaf-c130e",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia transport-aircraft pages provide scale and mission comparisons for the Hercules family.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Lockheed C-5 Galaxy / C-5M Super Galaxy",
+            "url": "aircraft.html?id=c-5-galaxy"
+          },
+          {
+            "label": "Boeing C-17 Globemaster III",
+            "url": "aircraft.html?id=c-17-globemaster-iii"
+          },
+          {
+            "label": "Ilyushin Il-76 Candid",
+            "url": "aircraft.html?id=il-76"
+          },
+          {
+            "label": "Antonov An-12",
+            "url": "aircraft.html?id=an-12"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "index.html"
+          }
+        ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg/960px-USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg",
-        "caption": "Gulf War",
-        "source_url": "https://en.wikipedia.org/wiki/Gulf_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/UStanks_baghdad_2003.JPEG/960px-UStanks_baghdad_2003.JPEG",
-        "caption": "Iraq War",
-        "source_url": "https://en.wikipedia.org/wiki/Iraq_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/U.S._Army_firefight_in_Kunar.jpg/960px-U.S._Army_firefight_in_Kunar.jpg",
-        "caption": "War in Afghanistan (2001–2021)",
-        "source_url": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001%E2%80%932021)"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "c-5-galaxy",

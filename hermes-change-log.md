@@ -6942,3 +6942,80 @@ Record the result of:
 * AH-64 figures vary by A/D/E standard, national configuration, engines, weapons, fuel, altitude, and environment; the page uses Boeing AH-64E data where available and labels older A/D-family figures as representative.
 * Country-by-country fleet counts, detailed combat-loss totals, and exact national weapon clearances were intentionally omitted or marked as date- and operator-sensitive.
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+
+### Run 91 — 2026-07-04 09:03:07 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Lockheed C-130 Hercules (id: c-130-hercules)
+* Reason selected: Among the remaining pages not previously selected by Hermes, the C-130 entry was the sparsest clear aircraft candidate: only 3 external source records, 0 operators, 0 variants, placeholder specifications, generic generated sections, and stale conflict-gallery material.
+* Previous condition: Sparse generated transport page with no detailed engine, range, ceiling, variants, operators, design, operational-history, comparison, or timeline coverage; specifications were mostly "Not listed" and the page did not match the F-16 reference density.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview lead; specification-card emphasis; article-section ordering from overview through development, design, specifications, variants, operators, operational history, strengths/limitations, comparison, timeline, sources, and related pages; cautious variant-dependent wording; internal aircraft.html?id=... related-link style; concise sourced paragraph tone.
+
+#### Changes Made
+
+* Expanded the Lockheed C-130 Hercules record in data/aircraft.json from a sparse generated entry into a fuller Milipedia article page.
+* Added alternate names, corrected role/type phrasing, first-flight date, production/status summary, engine family wording, speed/range/ceiling caveats, standard-transport armament note, and a substantially fuller short summary.
+* Replaced empty variant/operator arrays with representative Hercules family variants and operator coverage, including C-130A/B/E/H, C-130J, C-130J-30, AC-130, HC/MC/KC-130, L-100/LM-100J, U.S., Australia, Canada, UK, and broad global-operator caveats.
+* Added official/manufacturer/museum-oriented source records for U.S. Air Force C-130 and C-130J fact sheets, Lockheed Martin C-130J, and National Museum of the U.S. Air Force C-130E, while retaining Wikipedia only as supplementary orientation and Milipedia accuracy rules for caveat handling.
+* Added/expanded article sections for Overview, Development History, Design and Capabilities, Specifications, Variants, Operators, Operational History, Strengths and Limitations, Comparison, Timeline, Sources and Notes, and Related Pages.
+* Added representative C-130H/C-130J specification details, including crew caveats, payload class, dimensions, turboprop families, subsonic speed class, and model-dependent range/ceiling notes.
+* Added operational-history context for tactical airlift, airdrop, medevac, humanitarian relief, special operations support, refueling, Vietnam-era service, Gulf War, Iraq, Afghanistan, and special-mission derivatives.
+* Cleaned stale generated event-gallery imagery that used unrelated generic conflict images and could imply unsupported conflict-specific visual evidence.
+* Verified internal links to C-5 Galaxy, C-17 Globemaster III, Il-76, and An-12 all target existing aircraft IDs.
+* Omitted exact current worldwide inventory counts, detailed special-operations/gunship equipment tables, and operator-by-operator fleet counts because they vary by date, mission kit, and national configuration.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded the C-130 Hercules aircraft data entry and removed stale generated conflict-gallery images.
+* hermes-change-log.md — Appended the cumulative Run 91 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed the aircraft diff and final diff/stat; data/aircraft.json changed only the C-130 Hercules entry, and hermes-change-log.md received this run entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool and reviewed the selected C-130 entry, sections, source IDs, variants, operators, and armament caveats.
+4. F-16 style comparison — Inspected data/f16-template.html and followed its dense overview, specification emphasis, variants/operators/service/history/comparison/timeline/source/related-page structure within the JSON-rendered aircraft-page system.
+5. Internal link check — Recursively checked the C-130 entry; aircraft.html?id=c-5-galaxy, aircraft.html?id=c-17-globemaster-iii, aircraft.html?id=il-76, and aircraft.html?id=an-12 all target existing IDs.
+6. Secret/token check — Ran a credential-specific staged-diff scan for private keys, cloud credential names, passwords, and access/auth token patterns; no credentials were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, diff cleanliness, one-entry aircraft change, intended staged files only, and complete change-log entry.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Lockheed C-130 Hercules
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Web search/extract backend calls failed with HTTP 432 during source discovery, so known official/manufacturer URLs were checked with direct retrieval where possible. Lockheed Martin fetched successfully; some official Air Force and museum URLs returned 403 to direct retrieval but remain cited as public reference pages.
+* C-130 figures are highly variant-dependent; representative C-130H and C-130J figures were used with caveats instead of presenting one universal specification table.
+* Exact current operator inventories and special-mission equipment fits were intentionally omitted because they are date-sensitive and variant/nation-specific.
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
