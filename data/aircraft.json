@@ -3169,18 +3169,18 @@
     "aircraft_type": "Fighter",
     "era": "Cold War / late 20th century",
     "first_flight": "21 December 1970",
-    "introduction_date": "1974",
+    "introduction_date": "1974 operational deployment; deliveries began June 1972",
     "retirement_date": "United States Navy: 2006; Iran: reported limited post-U.S. service, exact readiness uncertain",
     "status": "Retired by the U.S. Navy; Iranian status source-sensitive",
     "number_built": "712",
     "crew": "2: pilot and radar intercept officer",
-    "engine_type": "Jet",
-    "engines": "Two Pratt & Whitney TF30-P-414A engines on F-14A; General Electric F110 engines on F-14B/D",
+    "engine_type": "Afterburning turbofan",
+    "engines": "Two Pratt & Whitney TF30-P-414A engines on F-14A; later F-14B/D aircraft used General Electric F110 engines",
     "max_speed": "1,544 mph / over Mach 2 class, variant and conditions dependent",
     "speed_category": "Supersonic",
     "range": "2,400 miles listed for F-14A by the Museum of Flight",
-    "combat_range": "Mission-dependent; not a single fixed value across loads and profiles",
-    "service_ceiling": "Not consistently sourced in this update",
+    "combat_range": "Mission/loadout dependent; omit a single exact public radius without variant-specific sourcing",
+    "service_ceiling": "Public figures vary by variant/source; commonly cited over 50,000 ft class, not used here as a single exact value",
     "rate_of_climb": "Not consistently sourced in this update",
     "armament": "M61A1 20 mm cannon; AIM-54 Phoenix, AIM-7 Sparrow, AIM-9 Sidewinder; later laser-guided bombs and JDAM-era air-to-ground stores",
     "hardpoints": "Stations for Phoenix/Sparrow/Sidewinder missiles and later precision-strike stores, configuration-dependent",
@@ -3253,6 +3253,13 @@
         "url": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-14a-tomcat.html",
         "publisher": "National Naval Aviation Museum",
         "note": "F-111B context, Grumman Model 303, AWG-9 design emphasis, first flight, Navy deliveries, first squadrons, first combat, and 2006 retirement."
+      },
+      {
+        "id": "fn-museum-flight",
+        "title": "Grumman F-14A Tomcat",
+        "url": "https://www.museumofflight.org/exhibits-and-events/aircraft/grumman-f-14a-tomcat",
+        "publisher": "The Museum of Flight",
+        "note": "Museum aircraft page used for F-14A dimensions, TF30 engine thrust, production total, Phoenix/Sparrow/Sidewinder armament, and replacement-by-F/A-18 context."
       },
       {
         "id": "fn-nnam-f14d",
@@ -3337,13 +3344,6 @@
         "url": "https://commons.wikimedia.org/wiki/File:US_Navy_051105-F-5480T-005_An_F-14D_Tomcat_conducts_a_mission_over_the_Persian_Gulf-region.jpg",
         "publisher": "Wikimedia Commons / U.S. Navy",
         "note": "Public-domain U.S. Navy image used for the primary F-14 visual."
-      },
-      {
-        "id": "fn-method",
-        "title": "Milipedia data accuracy rules",
-        "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
-        "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
       }
     ],
     "country_flags": [
@@ -3432,7 +3432,7 @@
       "exact_fact_count": 45,
       "operator_entries": 2,
       "variant_entries": 5,
-      "external_article_sources": 13
+      "external_article_sources": 3
     },
     "footnotes": [
       {
@@ -3448,6 +3448,13 @@
         "url": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-14a-tomcat.html",
         "publisher": "National Naval Aviation Museum",
         "note": "F-111B context, Grumman Model 303, AWG-9 design emphasis, first flight, Navy deliveries, first squadrons, first combat, and 2006 retirement."
+      },
+      {
+        "id": "fn-museum-flight",
+        "title": "Grumman F-14A Tomcat",
+        "url": "https://www.museumofflight.org/exhibits-and-events/aircraft/grumman-f-14a-tomcat",
+        "publisher": "The Museum of Flight",
+        "note": "Museum aircraft page used for F-14A dimensions, TF30 engine thrust, production total, Phoenix/Sparrow/Sidewinder armament, and replacement-by-F/A-18 context."
       },
       {
         "id": "fn-nnam-f14d",
@@ -3541,7 +3548,23 @@
         "note": "Local rules for units, source citation, neutral wording, and estimate labels."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "Grumman F-14A Tomcat",
+        "url": "https://www.museumofflight.org/exhibits-and-events/aircraft/grumman-f-14a-tomcat",
+        "publisher": "The Museum of Flight"
+      },
+      {
+        "title": "F-14 Tomcat",
+        "url": "https://www.nasa.gov/image-article/f-14-tomcat/",
+        "publisher": "NASA"
+      },
+      {
+        "title": "F-14 Tomcat",
+        "url": "https://man.fas.org/dod-101/sys/ac/f-14.htm",
+        "publisher": "Federation of American Scientists"
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
@@ -3568,6 +3591,13 @@
               "fn-iiaf-f14",
               "fn-f14-public-perception"
             ]
+          },
+          {
+            "text": "As a Milipedia article, the Tomcat still benefits from careful variant framing: the early F-14A is the best public baseline for many museum specifications, while the F-14B and F-14D changed the engine and avionics picture enough that single-line performance claims can be misleading.",
+            "refs": [
+              "fn-museum-flight",
+              "fn-method"
+            ]
           }
         ],
         "cards": [
@@ -3586,6 +3616,14 @@
           {
             "title": "Production",
             "text": "712 aircraft produced, 1969-1991"
+          },
+          {
+            "title": "Fleet-defense system",
+            "text": "AWG-9 radar, AIM-54 Phoenix missiles, two-person crew, and variable-sweep wings."
+          },
+          {
+            "title": "Production span",
+            "text": "712 Tomcats produced during 1969-1991 according to The Museum of Flight."
           }
         ]
       },
@@ -3671,6 +3709,13 @@
             "refs": [
               "fn-nasa-vstfe"
             ]
+          },
+          {
+            "text": "The Museum of Flight lists its F-14A with two Pratt & Whitney TF30-P-414A engines rated at 20,900 lb thrust each. Later F-14B and F-14D aircraft replaced the TF30 with General Electric F110 powerplants, a major improvement in acceleration, carrier handling margin, and reliability, so engine descriptions should always identify the variant being discussed.",
+            "refs": [
+              "fn-museum-flight",
+              "fn-fas"
+            ]
           }
         ],
         "cards": [
@@ -3690,6 +3735,28 @@
             "title": "Carrier features",
             "text": "Strong landing gear, arresting hook, naval corrosion and deck handling requirements"
           }
+        ],
+        "bullets": [
+          {
+            "text": "Airframe: carrier aircraft with shoulder-mounted variable-sweep wings, broad lifting fuselage, twin tails, arresting gear, and high-mounted cockpit visibility.",
+            "refs": [
+              "fn-fas",
+              "fn-museum-flight"
+            ]
+          },
+          {
+            "text": "Crew concept: pilot plus radar intercept officer, supporting long-range radar management, Phoenix engagements, reconnaissance pods, and later precision-strike workload.",
+            "refs": [
+              "fn-fas"
+            ]
+          },
+          {
+            "text": "Weapons system: AWG-9 radar and AIM-54 Phoenix combination designed to engage multiple threats far from the carrier force, backed by Sparrow, Sidewinder, and an internal M61A1 cannon.",
+            "refs": [
+              "fn-fas",
+              "fn-museum-flight"
+            ]
+          }
         ]
       },
       {
@@ -3700,6 +3767,13 @@
             "text": "Representative data below describes the F-14A using Museum of Flight values. Exact figures varied by variant, engine, store load, and measurement basis.",
             "refs": [
               "fn-main",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Baseline note: the specification bullets mix F-14A museum values with family-level notes where clearly labeled. Later F-14B/D engine and avionics changes mean these values should not be treated as a universal Tomcat configuration.",
+            "refs": [
+              "fn-museum-flight",
               "fn-method"
             ]
           }
@@ -3748,6 +3822,31 @@
               "fn-main",
               "fn-govexec-bombcat"
             ]
+          },
+          {
+            "text": "F-14A powerplant: two Pratt & Whitney TF30-P-414A engines, 20,900 lb thrust each, as listed for the Museum of Flight aircraft.",
+            "refs": [
+              "fn-museum-flight"
+            ]
+          },
+          {
+            "text": "Museum of Flight dimensions for its F-14A: 64.08 ft wingspan, 63 ft length, 16 ft height, and 565 sq ft wing area.",
+            "refs": [
+              "fn-museum-flight"
+            ]
+          },
+          {
+            "text": "Museum of Flight weights for its F-14A: 40,104 lb empty and 59,714 lb gross.",
+            "refs": [
+              "fn-museum-flight"
+            ]
+          },
+          {
+            "text": "Armament baseline: internal 20 mm M61A1 cannon plus AIM-54 Phoenix, AIM-7 Sparrow, and AIM-9 Sidewinder; later strike-capable Tomcats added guided air-to-ground stores.",
+            "refs": [
+              "fn-museum-flight",
+              "fn-fas"
+            ]
           }
         ]
       },
@@ -3795,6 +3894,19 @@
               "fn-iiaf-f14",
               "fn-f14-public-perception"
             ]
+          },
+          {
+            "text": "Engine caveat: F-14A retained TF30 engines; F-14B/D F110-powered aircraft should not be described with F-14A thrust figures.",
+            "refs": [
+              "fn-museum-flight",
+              "fn-fas"
+            ]
+          },
+          {
+            "text": "Strike caveat: \"Bombcat\" describes late-service strike-capable aircraft and upgrades, not a separate production model.",
+            "refs": [
+              "fn-method"
+            ]
           }
         ]
       },
@@ -3807,6 +3919,14 @@
             "refs": [
               "fn-main",
               "fn-iiaf-f14"
+            ]
+          },
+          {
+            "text": "Only the United States Navy and Iran operated the Tomcat. The U.S. Navy retired the type in 2006 after replacing it with F/A-18E/F Super Hornets; Iranian availability and modernization details remain difficult to verify from public sources and should be handled cautiously.",
+            "refs": [
+              "fn-museum-flight",
+              "fn-iiaf-f14",
+              "fn-method"
             ]
           }
         ],
@@ -3864,6 +3984,13 @@
             "refs": [
               "fn-nnam-f14d",
               "fn-usni-last-catfight"
+            ]
+          },
+          {
+            "text": "The Tomcat also served as a reconnaissance and strike platform late in U.S. Navy service. TARPS-equipped aircraft supplied tactical imagery, while LANTIRN/JDAM-era upgrades enabled precision-attack missions that broadened the aircraft beyond its original fleet-defense identity.",
+            "refs": [
+              "fn-fas",
+              "fn-nnam-f14d"
             ]
           }
         ]
@@ -4010,6 +4137,26 @@
               "fn-iiaf-f14",
               "fn-f14-public-perception"
             ]
+          },
+          {
+            "text": "Strength: very long-range missile system and two-crew workload distribution for fleet-defense missions.",
+            "refs": [
+              "fn-fas",
+              "fn-museum-flight"
+            ]
+          },
+          {
+            "text": "Strength: variable-sweep wing allowed carrier approach handling and high-speed dash in one airframe, at the cost of complexity and maintenance burden.",
+            "refs": [
+              "fn-fas"
+            ]
+          },
+          {
+            "text": "Limitation: F-14A TF30-powered aircraft had a different handling and reliability story from later F110-powered B/D aircraft, so family-level praise should not erase variant differences.",
+            "refs": [
+              "fn-fas",
+              "fn-method"
+            ]
           }
         ]
       },
@@ -4128,6 +4275,18 @@
             "refs": [
               "fn-nnam-f14d",
               "fn-usni-last-catfight"
+            ]
+          },
+          {
+            "text": "1969-1991: production span for 712 Tomcats as summarized by The Museum of Flight.",
+            "refs": [
+              "fn-museum-flight"
+            ]
+          },
+          {
+            "text": "2006: U.S. Navy retirement as Super Hornets replaced Tomcats in carrier air wings.",
+            "refs": [
+              "fn-museum-flight"
             ]
           }
         ]
