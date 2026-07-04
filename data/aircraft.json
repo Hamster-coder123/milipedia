@@ -7461,7 +7461,7 @@
     ],
     "combat_history": "Operation Inherent Resolve over Syria and Iraq; Operation Jagged Knife strikes in Afghanistan; 2023 North American high-altitude balloon/object shootdowns.",
     "development_history": "The F-22 originated in the Advanced Tactical Fighter program. Demonstrator flights began in 1990, Lockheed/Boeing and Pratt & Whitney entered engineering and manufacturing development in 1991, the first EMD aircraft flew in 1997, low-rate initial production began in 2001, and full-rate production was approved in 2005.",
-    "short_summary": "The Lockheed Martin F-22 Raptor is a U.S. fifth-generation stealth air-dominance fighter built by Lockheed Martin and Boeing for the U.S. Air Force. It combines low-observable shaping, supercruise, thrust vectoring, sensor fusion, and internal weapons carriage for air-to-air dominance while retaining limited precision air-to-ground capability.",
+    "short_summary": "The Lockheed Martin F-22 Raptor is a U.S. fifth-generation stealth air-dominance fighter built by Lockheed Martin and Boeing for the U.S. Air Force. It combines low-observable shaping, supercruise, thrust vectoring, sensor fusion, and internal weapons carriage, while its small non-export fleet makes modernization and sustainment a central part of the aircraft's operational story.",
     "carrier_capable": false,
     "stealth": true,
     "images": [
@@ -7472,7 +7472,85 @@
         "license": "U.S. government public-domain image via the U.S. Air Force fact sheet."
       }
     ],
-    "sources": [],
+    "sources": [
+      {
+        "id": "fn-usaf-fact",
+        "title": "F-22 Raptor",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104506/f-22-raptor/",
+        "publisher": "U.S. Air Force",
+        "note": "Used for mission, features, ATF background, engine, dimensions, weapons, IOC, unit cost, and inventory fields."
+      },
+      {
+        "id": "fn-museum",
+        "title": "Lockheed Martin F-22A Raptor",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196040/lockheed-martin-f-22a-raptor/",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Used for air-dominance context, ATF selection, operational delivery, Operation Noble Eagle, and exercise reputation."
+      },
+      {
+        "id": "fn-lockheed-f22",
+        "title": "F-22 Raptor",
+        "url": "https://www.lockheedmartin.com/en-us/products/f-22.html",
+        "publisher": "Lockheed Martin",
+        "note": "Manufacturer page used for sustainment, modernization-line, supply-management, engine-maintenance, and readiness-support context."
+      },
+      {
+        "id": "fn-gao-2018",
+        "title": "F-22 Modernization: Program Faces Cost, Technical, and Sustainment Risks",
+        "url": "https://www.gao.gov/products/gao-18-190",
+        "publisher": "U.S. Government Accountability Office",
+        "note": "Used for modernization risk, sustainment pressure, F-35 relationship, and fleet-training limitations."
+      },
+      {
+        "id": "fn-syria-2018",
+        "title": "F-22 stealth jets got 587 aircraft to back off in their combat surge over Syria",
+        "url": "https://www.airforcetimes.com/news/your-air-force/2018/11/06/f-22-stealth-jets-got-587-aircraft-to-back-off-in-their-combat-surge-over-syria/",
+        "publisher": "Air Force Times",
+        "note": "Used for the 2018 Syria combat surge, sortie count, flight hours, ordnance, and deterrence claims attributed to Pentagon statements."
+      },
+      {
+        "id": "fn-afghanistan-2017",
+        "title": "F-22s conduct first airstrikes in Afghanistan",
+        "url": "https://www.airforcetimes.com/flashpoints/2017/11/20/f-22s-conduct-first-airstrikes-in-afghanistan/",
+        "publisher": "Air Force Times",
+        "note": "Used for Operation Jagged Knife and the first F-22 Afghanistan strike context."
+      },
+      {
+        "id": "fn-dod-balloon",
+        "title": "F-22 Safely Shoots Down Chinese Spy Balloon Off South Carolina Coast",
+        "url": "https://www.defense.gov/News/News-Stories/Article/Article/3288543/f-22-safely-shoots-down-chinese-spy-balloon-off-south-carolina-coast/",
+        "publisher": "U.S. Department of Defense",
+        "note": "Used for the 4 February 2023 Chinese surveillance balloon shootdown, unit, weapon, altitude, and support aircraft."
+      },
+      {
+        "id": "fn-wired-grounding",
+        "title": "Stealth Fighter Fleet Grounded by Oxygen Woes",
+        "url": "https://www.wired.com/2011/05/stealth-fighter-fleet-grounded-by-oxygen-woes/",
+        "publisher": "Wired",
+        "note": "Used for public controversy over oxygen-system concerns and the 2011 fleet grounding."
+      },
+      {
+        "id": "fn-wired-cost",
+        "title": "How Much Does an F-22 Actually Cost?",
+        "url": "https://www.wired.com/2011/12/f-22-real-cost/",
+        "publisher": "Wired",
+        "note": "Used for public debate about F-22 program cost, unit-cost framing, and value criticism."
+      },
+      {
+        "id": "fn-demo-team",
+        "title": "F-22 Raptor Demonstration Team",
+        "url": "https://www.jble.af.mil/About-Us/Units/Langley-AFB/F-22-Demo-Team/",
+        "publisher": "Joint Base Langley-Eustis",
+        "note": "Used for public outreach, demonstration-team role, and airshow reputation."
+      },
+      {
+        "id": "fn-public-perception-f22",
+        "title": "Public Perception Research: Lockheed Martin F-22 Raptor",
+        "url": "AIRCRAFT PUBLIC PERCEPTION/F22.txt",
+        "publisher": "Milipedia local research file",
+        "note": "Local aircraft public-perception research file created for this automation run."
+      }
+    ],
     "country_flags": [
       {
         "label": "United States",
@@ -7561,10 +7639,10 @@
       }
     ],
     "article_quality": {
-      "exact_fact_count": 70,
+      "exact_fact_count": 78,
       "operator_entries": 1,
       "variant_entries": 4,
-      "external_article_sources": 10
+      "external_article_sources": 3
     },
     "footnotes": [
       {
@@ -7580,6 +7658,13 @@
         "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196040/lockheed-martin-f-22a-raptor/",
         "publisher": "National Museum of the U.S. Air Force",
         "note": "Used for air-dominance context, ATF selection, operational delivery, Operation Noble Eagle, and exercise reputation."
+      },
+      {
+        "id": "fn-lockheed-f22",
+        "title": "F-22 Raptor",
+        "url": "https://www.lockheedmartin.com/en-us/products/f-22.html",
+        "publisher": "Lockheed Martin",
+        "note": "Manufacturer page used for sustainment, modernization-line, supply-management, engine-maintenance, and readiness-support context."
       },
       {
         "id": "fn-gao-2018",
@@ -7638,7 +7723,26 @@
         "note": "Local aircraft public-perception research file created for this automation run."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "F-22 Raptor",
+        "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104506/f-22-raptor/",
+        "publisher": "U.S. Air Force",
+        "description": "Official fact sheet for mission, specifications, development history, weapons, and inventory fields."
+      },
+      {
+        "title": "Lockheed Martin F-22 Raptor",
+        "url": "https://www.lockheedmartin.com/en-us/products/f-22.html",
+        "publisher": "Lockheed Martin",
+        "description": "Manufacturer overview for sustainment, modernization, support, and industrial-team context."
+      },
+      {
+        "title": "F-22 Modernization: Program Faces Cost, Technical, and Sustainment Risks",
+        "url": "https://www.gao.gov/products/gao-18-190",
+        "publisher": "U.S. Government Accountability Office",
+        "description": "Oversight report used for modernization and sustainment caveats."
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
@@ -7712,6 +7816,13 @@
           {
             "text": "Upgrades: GAO reported that modernization work faced cost, technical, and sustainment risks because the F-22 fleet is small, high demand limits aircraft availability for testing and training, and the F-35 complements rather than replaces the Raptor in high-end air-superiority missions.",
             "refs": [
+              "fn-gao-2018"
+            ]
+          },
+          {
+            "text": "Sustainment and modernization: Lockheed Martin describes an ongoing support-integrator role covering spares, repairs, depot partnering, supply management, engine-maintenance support, and modernization-line work. This matters because the F-22 fleet is small and no longer in production, so readiness and upgrade capacity are as central to the aircraft's story as original aerodynamic performance.",
+            "refs": [
+              "fn-lockheed-f22",
               "fn-gao-2018"
             ]
           }
@@ -7915,6 +8026,13 @@
               "fn-usaf-fact",
               "fn-demo-team"
             ]
+          },
+          {
+            "text": "Basing and force structure: public USAF material identifies the F-22 with Air Combat Command, Pacific Air Forces, and Air Education and Training Command rather than a broad export customer base. Operational wings at locations such as Langley, Elmendorf, Tyndall, Nellis, and Hickam have shaped the aircraft's homeland-defense, Pacific-deterrence, training, testing, and demonstration roles over time.",
+            "refs": [
+              "fn-usaf-fact",
+              "fn-demo-team"
+            ]
           }
         ],
         "bullets": [
@@ -8076,6 +8194,20 @@
           {
             "title": "F-22 vs Su-57",
             "text": "Public debate treats them as fifth-generation rivals, but many claims are speculative and should avoid unsupported classified-performance assertions."
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Compared with the F-35, the F-22 is more specialized for air dominance and was never exported; the F-35 is a larger international multirole program with stronger strike, sensor-sharing, and sustainment commonality emphasis.",
+            "refs": [
+              "fn-gao-2018"
+            ]
+          },
+          {
+            "text": "Compared with late F-15 variants, the F-22 trades payload volume and production scale for stealth shaping, internal weapons carriage, supercruise, and sensor fusion.",
+            "refs": [
+              "fn-usaf-fact"
+            ]
           }
         ]
       },
@@ -8269,6 +8401,48 @@
         ]
       },
       {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Primary technical and program facts are taken from the U.S. Air Force fact sheet, with the National Museum of the U.S. Air Force used for historical context and Lockheed Martin used for manufacturer sustainment and modernization context.",
+            "refs": [
+              "fn-usaf-fact",
+              "fn-museum",
+              "fn-lockheed-f22"
+            ]
+          },
+          {
+            "text": "Modernization, fleet-size, and readiness caveats are intentionally phrased cautiously because public reports describe cost, technical, and sustainment risk without disclosing every current configuration or software increment.",
+            "refs": [
+              "fn-gao-2018"
+            ]
+          },
+          {
+            "text": "Combat-use notes distinguish official U.S. or public-report claims from independent opponent assessments; detailed classified sensor modes, radar performance, mission data files, and current tactics are omitted.",
+            "refs": [
+              "fn-syria-2018",
+              "fn-afghanistan-2017",
+              "fn-dod-balloon"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "U.S. Air Force F-22 fact sheet",
+            "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104506/f-22-raptor/"
+          },
+          {
+            "label": "Lockheed Martin F-22 page",
+            "url": "https://www.lockheedmartin.com/en-us/products/f-22.html"
+          },
+          {
+            "label": "GAO F-22 modernization report",
+            "url": "https://www.gao.gov/products/gao-18-190"
+          }
+        ]
+      },
+      {
         "id": "related-pages",
         "title": "Related Pages",
         "paragraphs": [
@@ -8322,7 +8496,8 @@
         "source_url": "https://www.defense.gov/News/News-Stories/Article/Article/3288543/f-22-safely-shoots-down-chinese-spy-balloon-off-south-carolina-coast/",
         "credit": "U.S. Air Force photo by Staff Sgt. Marcus M. Bullock"
       }
-    ]
+    ],
+    "summary": "The Lockheed Martin F-22 Raptor is a U.S. fifth-generation stealth air-dominance fighter built by Lockheed Martin and Boeing for the U.S. Air Force. It combines low-observable shaping, supercruise, thrust vectoring, sensor fusion, and internal weapons carriage, while its small non-export fleet makes modernization and sustainment a central part of the aircraft's operational story."
   },
   {
     "id": "f-35-lightning-ii",

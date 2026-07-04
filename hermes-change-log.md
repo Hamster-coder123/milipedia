@@ -7019,3 +7019,80 @@ Record the result of:
 * C-130 figures are highly variant-dependent; representative C-130H and C-130J figures were used with caveats instead of presenting one universal specification table.
 * Exact current operator inventories and special-mission equipment fits were intentionally omitted because they are date-sensitive and variant/nation-specific.
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+
+### Run 92 — 2026-07-04 10:02:09 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Lockheed Martin F-22 Raptor (id: f-22-raptor)
+* Reason selected: Among aircraft pages not previously selected in the Hermes change log, the F-22 entry was the shortest remaining major fighter page and still had incomplete source integration: an empty top-level sources array, no external article links, no dedicated Sources and Notes section, and less sustainment/modernization context than the F-16 reference page's dense source and section flow.
+* Previous condition: Already had useful generated article sections, but it was incomplete compared with the F-16 reference because its source metadata was split into footnotes only, external_articles was empty, manufacturer sustainment detail was thin, operator/force-structure context was brief, and the page lacked a rendered source-notes section.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense lead and technical-summary style; section sequence from overview through development, design, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, sources, and related pages; concise source-backed paragraphs; card/bullet structures supported by the JSON renderer; internal aircraft.html?id=... related-link style; cautious caveats where public details are incomplete or configuration-dependent.
+
+#### Changes Made
+
+* Populated the F-22 top-level sources array with the same citation metadata used by the footnotes so renderers that read sources do not see an empty source list.
+* Added a Lockheed Martin manufacturer source for F-22 sustainment, supply-management, engine-maintenance, and modernization-line context.
+* Added three external article/source links for the USAF fact sheet, Lockheed Martin F-22 page, and GAO F-22 modernization report.
+* Expanded the development history with a sustainment and modernization paragraph tying Lockheed's support-integrator role to GAO's fleet-size and readiness caveats.
+* Expanded the operators section with USAF command/basing and force-structure context while keeping the page clear that there are no foreign military operators.
+* Added comparison bullets contrasting the F-22 with the F-35 and late F-15 variants without making unsupported classified-performance claims.
+* Added a Sources and Notes article section before Related Pages, matching the F-16 reference flow and recording source-use caveats for specifications, modernization, and combat-use claims.
+* Updated the short summary/summary to mention the small non-export fleet and sustainment story.
+* Updated article_quality counts to reflect the new source integration and added source links.
+* Omitted classified radar, sensor-mode, tactics, software-increment, and exact current configuration details because they are not appropriate for public-source expansion.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded and completed only the Lockheed Martin F-22 Raptor page data, source metadata, and supported article sections.
+* hermes-change-log.md — Appended this Run 92 cumulative log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files.
+2. git diff — Reviewed the diff; data/aircraft.json changes are limited to the F-22 Raptor entry, and hermes-change-log.md appends this Run 92 entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; reviewed the F-22 entry's section list, source arrays, external article links, and summary update.
+4. F-16 style comparison — Inspected data/f16-template.html and copied its dense section ordering, source/reference flow, technical caveats, and related-page linking style within the JSON-rendered article system.
+5. Internal link check — Verified recursive aircraft.html?id=... links in the F-22 entry target existing aircraft IDs; external source links remain intentionally external.
+6. Secret/token check — Ran a credential-specific staged-diff scan for private keys, passwords, cloud credential names, and access/auth token patterns; no credentials were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, diff check, one changed aircraft entry, intended files only, F-22 was not previously selected in the Hermes log, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Lockheed Martin F-22 Raptor
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* The remaining unedited aircraft pages are no longer extremely empty; F-22 was selected because it was the shortest remaining unedited major fighter page and still had incomplete source integration rather than because it was a blank placeholder.
+* The web search/extract backend returned errors during source lookup. I used existing official-source metadata in the page and direct retrieval of the Lockheed Martin page for sustainment context; some official government pages returned 403 to direct fetch but remain valid cited references already present in the page.
+* Current F-22 configuration, classified sensor details, radar performance, tactics, and exact software increments were intentionally omitted.
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
