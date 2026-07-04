@@ -6634,3 +6634,82 @@ Record the result of:
 * KC-135 specifications vary by KC-135A/E/R/T, national derivative, mission equipment, fuel load, and period; representative KC-135R figures are marked as configuration-dependent.
 * Exact current fleet totals, operator unit lists, and incident/loss-count reconciliation were intentionally omitted as date-sensitive or requiring human review.
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+
+### Run 87 — 2026-07-04 05:04:56 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: North American F-100 Super Sabre (id: f-100-super-sabre)
+* Reason selected: Lowest-scoring unedited sparse aircraft candidate; the entry had no concrete variants or operators, placeholder specification fields, generic generated article sections, and stale generated Vietnam imagery.
+* Previous condition: Short generated page with 0 operator entries, 0 variant entries, missing dimensions/range/ceiling/engine details, broad armament wording, generic development/service text, and mostly Wikipedia/Wikidata-style placeholder references.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview, article-section sequence, technical specification emphasis, variants/operators/operational-history sections, comparison/timeline/related-pages sections, cautious source notes, internal `aircraft.html?id=...` links, and card/bullet shapes supported by the current renderer.
+
+#### Changes Made
+
+* Expanded the F-100 Super Sabre overview from generated summary text into a fuller Century Series fighter/fighter-bomber article.
+* Added development-history coverage for the Sabre 45/F-86 lineage, YF-100A flight testing, early F-100A stability and inertia-coupling hazards, grounding/modification context, and the shift toward fighter-bomber requirements.
+* Added design/capability coverage for the swept-wing airframe, J57 afterburning turbojet, cockpit/attack-equipment limitations, four M39 cannon, external stores, and Wild Weasel caveats.
+* Filled representative F-100D specification cards for crew, dimensions, weights, speed, range, service ceiling, and engine using Flugzeuginfo data.
+* Added concrete variant entries for YF-100A, F-100A, RF-100A, F-100C, F-100D, F-100F, and related F-107 context.
+* Added representative historic operators for the United States, France, Denmark, Turkey, and Taiwan with cautious notes rather than unsupported fleet counts.
+* Expanded operational-history coverage for Vietnam War close air support/interdiction/FAC/Wild Weasel use, French/other allied service context, and high-level accident/handling limitations.
+* Added strengths/limitations, comparison, timeline, sources, and related-pages sections to more closely match the F-16 article density and section order possible for a JSON-driven page.
+* Updated top-level metadata: number built, engine, speed, range, service ceiling, hardpoints, combat/development summaries, variant/operator quality counts, armament and engine details, wars-used-in notes, and related development links.
+* Removed stale generated Vietnam event-gallery imagery that was not specific to the F-100 page.
+* Replaced placeholder external-source labels with more descriptive source entries and recorded that some existing NASA/F-100.org references need updated/direct-access verification.
+* Omitted exact combat-loss, export fleet-count, and operator-specific weapons claims where source confidence was not sufficient for this safe run.
+
+#### Files Modified
+
+* data/aircraft.json — expanded only the `f-100-super-sabre` aircraft entry and cleaned stale generated metadata for that entry.
+* hermes-change-log.md — appended this Run 87 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — before commit, only `data/aircraft.json` and `hermes-change-log.md` were modified/staged.
+2. git diff — reviewed the aircraft JSON diff and log diff; the aircraft diff changed only the `f-100-super-sabre` entry.
+3. File review — `python3 -m json.tool data/aircraft.json` passed; selected entry showed 12 article sections, 7 variants, and 5 operator entries.
+4. F-16 style comparison — inspected `data/f16-template.html`; copied the broad section order, dense technical tone, source-cautious wording, comparison/timeline/related-links coverage, and supported card/bullet/link JSON shapes.
+5. Internal link check — recursive check found only existing local IDs after replacing an absent F-86 local link with existing related Milipedia pages.
+6. Secret/token check — credential-specific staged-diff scan reported no added private credentials or access/auth tokens.
+7. Final review before commit — `git diff --check` passed, JSON syntax passed, single-entry comparison passed, and only intended files were staged.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand North American F-100 Super Sabre
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Tavily-backed web search/extract failed with HTTP 432 errors during this run, so direct Python retrieval was used where possible.
+* National Museum of the U.S. Air Force pages for F-100C/F-100D returned HTTP 403, Boeing/NASA candidate URLs had moved or returned 404, and F-100.org returned HTTP 403; those source-access limitations are noted in the page source notes.
+* The F-100D first-flight date differs across sources (some reference pages list the family/prototype date differently); the update uses year-level wording where exact date was not necessary.
+* Exact fleet counts, detailed combat-loss totals, and operator-specific weapons fits were intentionally omitted or kept general for source-safety.

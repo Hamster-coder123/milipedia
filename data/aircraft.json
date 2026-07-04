@@ -9268,23 +9268,78 @@
     "introduction_date": "1954",
     "retirement_date": "Not listed",
     "status": "Retired",
-    "number_built": "Not listed",
+    "number_built": "2,294",
     "crew": "1",
     "engine_type": "Jet",
-    "engines": "Not listed",
-    "max_speed": "Supersonic",
+    "engines": "1 × Pratt & Whitney J57 afterburning turbojet",
+    "max_speed": "863 mph (1,389 km/h), approximately Mach 1.3 for F-100D reference data",
     "speed_category": "Supersonic",
-    "range": "Not listed",
+    "range": "601 mi (967 km) for F-100D reference data",
     "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
+    "service_ceiling": "46,000 ft (14,021 m)",
     "rate_of_climb": "Not listed",
     "armament": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "North American F-100 Super Sabre: Fighter-bomber. Manufacturer: North American Aviation. First flight: 1953. Introduction: 1954.",
-    "short_summary": "North American F-100 Super Sabre: Fighter-bomber. Origin: United States. Manufacturer: North American Aviation. First flight: 1953. Introduction: 1954. Status: Retired.",
+    "hardpoints": "Six underwing/centerline external stations, variant and mission dependent",
+    "variants": [
+      {
+        "name": "YF-100A",
+        "note": "Prototype model derived from the Sabre 45 concept; the first YF-100A flew in 1953."
+      },
+      {
+        "name": "F-100A",
+        "note": "Initial day-fighter production model. Early service exposed yaw instability and inertia-coupling issues, leading to grounding and modification work."
+      },
+      {
+        "name": "RF-100A",
+        "note": "Reconnaissance conversions of selected F-100A aircraft."
+      },
+      {
+        "name": "F-100C",
+        "note": "Fighter-bomber development with additional external stores, in-flight refueling provisions, and strengthened structure compared with the F-100A."
+      },
+      {
+        "name": "F-100D",
+        "note": "Definitive single-seat fighter-bomber with broader attack avionics and weapons capability; used here for representative specifications."
+      },
+      {
+        "name": "F-100F",
+        "note": "Two-seat trainer and operational conversion aircraft; some were modified for early Wild Weasel electronic-warfare and defense-suppression missions in Vietnam."
+      },
+      {
+        "name": "F-107",
+        "note": "Related North American derivative developed from F-100/F-100B studies but not adopted for production."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "United States Air Force and Air National Guard",
+        "note": "Primary operator; USAF tactical wings used the type from the 1950s through the Vietnam era, and Air National Guard units retained F-100s after regular USAF withdrawal."
+      },
+      {
+        "country": "France",
+        "service": "Armée de l’Air",
+        "note": "Operated F-100D/F aircraft, including service in the Algerian War and later NATO strike units."
+      },
+      {
+        "country": "Denmark",
+        "service": "Royal Danish Air Force",
+        "note": "NATO operator of F-100D/F aircraft."
+      },
+      {
+        "country": "Turkey",
+        "service": "Turkish Air Force",
+        "note": "Major export operator that used F-100 variants into the later Cold War."
+      },
+      {
+        "country": "Taiwan",
+        "service": "Republic of China Air Force",
+        "note": "Operated F-100A and later related aircraft; sources list ROCAF retirement in the late 1980s."
+      }
+    ],
+    "combat_history": "Vietnam War close air support and strike missions; early Wild Weasel conversions; French service during the Algerian War; Turkish combat use in Cyprus is commonly reported but should be treated as operator-specific context.",
+    "development_history": "North American Aviation developed the F-100 from the F-86 Sabre line as a supersonic successor. The YF-100A first flew in 1953, the F-100A entered USAF service in 1954, and fighter-bomber F-100C/D and two-seat F-100F variants followed after flight-test and stability problems were addressed.",
+    "short_summary": "The North American F-100 Super Sabre was a United States single-engine, supersonic Century Series fighter and fighter-bomber. It was developed from the F-86 Sabre, entered USAF service in 1954, became an important Vietnam War strike and close-air-support aircraft, and was exported to NATO and allied air forces.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -9301,14 +9356,28 @@
         "title": "North American F-100 Super Sabre",
         "url": "https://en.wikipedia.org/wiki/North_American_F-100_Super_Sabre",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "note": "Supplementary overview and reference-discovery source; used with caution for service chronology, variants, and operators."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "id": "fn-flugzeuginfo",
+        "title": "North American F-100 Super Sabre - Specifications / Technical Data",
+        "url": "https://www.flugzeuginfo.net/acdata_php/acdata_f100_en.php",
+        "publisher": "Flugzeuginfo",
+        "note": "Reference data for F-100D dimensions, weights, engine, speed, ceiling, range, production years, and total production."
+      },
+      {
+        "id": "fn-nasa",
+        "title": "NASA SP-468: F-100 research and flying qualities context",
+        "url": "http://www.hq.nasa.gov/pao/History/SP-468/cover.htm",
+        "publisher": "NASA History",
+        "note": "Existing external reference retained for F-100 handling/flying-qualities research context; direct web retrieval may require an archived or updated NASA URL."
+      },
+      {
+        "id": "fn-f100org",
+        "title": "F-100 Super Sabre information",
+        "url": "http://www.f-100.org/",
+        "publisher": "F-100 Super Sabre community reference",
+        "note": "Existing aircraft-specific reference retained for further human review of serials, surviving aircraft, and unit history."
       },
       {
         "id": "fn-method",
@@ -9316,27 +9385,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.hazegray.org/faq/acr3.htm",
-        "publisher": "hazegray.org",
-        "note": "External source for North American F-100 Super Sabre."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.hq.nasa.gov/pao/History/SP-468/cover.htm",
-        "publisher": "hq.nasa.gov",
-        "note": "External source for North American F-100 Super Sabre."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.f-100.org/",
-        "publisher": "f-100.org",
-        "note": "External source for North American F-100 Super Sabre."
       }
     ],
     "country_flags": [
@@ -9349,26 +9397,32 @@
       "North American Aviation"
     ],
     "development_tensions": [
-      "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-      "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling."
+      "The Sabre-derived airframe had to combine supersonic level-flight speed with tactical-fighter range and weapons carriage.",
+      "Early F-100A service revealed yaw stability, handling, and inertia-coupling hazards that required redesign, training, and operating-limit changes.",
+      "Fighter-bomber growth added stores, refueling, navigation, and attack requirements to an airframe originally conceived primarily as a high-performance day fighter."
     ],
     "wars_used_in": [
       {
         "name": "Vietnam War",
-        "note": "North American F-100 Super Sabre used in Vietnam War."
+        "note": "USAF F-100s flew fighter-bomber, close air support, forward-air-controller, and early Wild Weasel missions."
+      },
+      {
+        "name": "Algerian War",
+        "note": "French F-100s are associated with combat service during the Algerian War."
       }
     ],
     "variant_families": [
-      "North American F-100 Super Sabre baseline production model",
-      "North American F-100 Super Sabre upgraded avionics or weapons-capable model",
-      "North American F-100 Super Sabre export or locally modernized model"
+      "YF-100A and F-100A day-fighter/prototype lineage",
+      "F-100C fighter-bomber with in-flight refueling and external-store growth",
+      "F-100D definitive fighter-bomber",
+      "F-100F two-seat trainer and Wild Weasel conversion family"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "North American F-100 Super Sabre has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "United States was the primary user; France, Denmark, Turkey, and Taiwan were major export operators.",
+      "all_operators_status": "Representative historic operators listed; exact fleet counts vary by source and date."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -9381,23 +9435,23 @@
       ]
     },
     "engine_details": {
-      "type": "Jet",
-      "summary": "North American F-100 Super Sabre uses jet propulsion."
+      "type": "Afterburning turbojet",
+      "summary": "Representative F-100D data lists one Pratt & Whitney J57-P-21A afterburning turbojet rated around 10,100 lbf dry and 16,000 lbf with afterburner."
     },
     "armament_details": {
-      "summary": "Gun armament, air-to-air missiles, air-to-ground weapons, and external stores.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "Four 20 mm M39 cannon were standard on the fighter-bomber family; external stores could include AIM-9 Sidewinder missiles, bombs, rockets, external tanks, and special mission equipment depending on variant/operator.",
+      "caution": "External stores and special weapons differed by variant, date, and operator; this page avoids implying every aircraft carried every listed store."
     },
     "similar_development": [
+      {
+        "id": "f-105-thunderchief",
+        "name": "Republic F-105 Thunderchief",
+        "url": "aircraft.html?id=f-105-thunderchief"
+      },
       {
         "id": "f-4-phantom-ii",
         "name": "McDonnell Douglas F-4 Phantom II",
         "url": "aircraft.html?id=f-4-phantom-ii"
-      },
-      {
-        "id": "f-5-freedom-fighter-tiger-ii",
-        "name": "Northrop F-5",
-        "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
       },
       {
         "id": "f-8-crusader",
@@ -9405,16 +9459,16 @@
         "url": "aircraft.html?id=f-8-crusader"
       },
       {
-        "id": "f-14-tomcat",
-        "name": "Grumman F-14 Tomcat",
-        "url": "aircraft.html?id=f-14-tomcat"
+        "id": "f-104-starfighter",
+        "name": "Lockheed F-104 Starfighter",
+        "url": "aircraft.html?id=f-104-starfighter"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 35,
+      "operator_entries": 5,
+      "variant_entries": 7,
+      "external_article_sources": 4
     },
     "footnotes": [
       {
@@ -9422,65 +9476,58 @@
         "title": "North American F-100 Super Sabre",
         "url": "https://en.wikipedia.org/wiki/North_American_F-100_Super_Sabre",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "note": "Supplementary overview and reference-discovery source; used with caution for service chronology, variants, and operators."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "id": "fn-flugzeuginfo",
+        "title": "North American F-100 Super Sabre - Specifications / Technical Data",
+        "url": "https://www.flugzeuginfo.net/acdata_php/acdata_f100_en.php",
+        "publisher": "Flugzeuginfo",
+        "note": "Reference data for F-100D dimensions, weights, engine, speed, ceiling, range, production years, and total production."
+      },
+      {
+        "id": "fn-nasa",
+        "title": "NASA SP-468: F-100 research and flying qualities context",
+        "url": "http://www.hq.nasa.gov/pao/History/SP-468/cover.htm",
+        "publisher": "NASA History",
+        "note": "Existing external reference retained for F-100 handling/flying-qualities research context; direct web retrieval may require an archived or updated NASA URL."
+      },
+      {
+        "id": "fn-f100org",
+        "title": "F-100 Super Sabre information",
+        "url": "http://www.f-100.org/",
+        "publisher": "F-100 Super Sabre community reference",
+        "note": "Existing aircraft-specific reference retained for further human review of serials, surviving aircraft, and unit history."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.hazegray.org/faq/acr3.htm",
-        "publisher": "hazegray.org",
-        "note": "External source for North American F-100 Super Sabre."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.hq.nasa.gov/pao/History/SP-468/cover.htm",
-        "publisher": "hq.nasa.gov",
-        "note": "External source for North American F-100 Super Sabre."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.f-100.org/",
-        "publisher": "f-100.org",
-        "note": "External source for North American F-100 Super Sabre."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.hazegray.org/faq/acr3.htm",
-        "publisher": "hazegray.org",
-        "note": "External source for North American F-100 Super Sabre."
+        "id": "fn-flugzeuginfo",
+        "title": "North American F-100 Super Sabre - Specifications / Technical Data",
+        "url": "https://www.flugzeuginfo.net/acdata_php/acdata_f100_en.php",
+        "publisher": "Flugzeuginfo",
+        "note": "Reference data for F-100D dimensions, weights, engine, speed, ceiling, range, production years, and total production."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
+        "id": "fn-nasa",
+        "title": "NASA SP-468: F-100 research and flying qualities context",
         "url": "http://www.hq.nasa.gov/pao/History/SP-468/cover.htm",
-        "publisher": "hq.nasa.gov",
-        "note": "External source for North American F-100 Super Sabre."
+        "publisher": "NASA History",
+        "note": "Existing external reference retained for F-100 handling/flying-qualities research context; direct web retrieval may require an archived or updated NASA URL."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
+        "id": "fn-f100org",
+        "title": "F-100 Super Sabre information",
         "url": "http://www.f-100.org/",
-        "publisher": "f-100.org",
-        "note": "External source for North American F-100 Super Sabre."
+        "publisher": "F-100 Super Sabre community reference",
+        "note": "Existing aircraft-specific reference retained for further human review of serials, surviving aircraft, and unit history."
       }
     ],
     "article_sections": [
@@ -9489,72 +9536,78 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "North American F-100 Super Sabre is a Fighter-bomber from United States. Manufacturer: North American Aviation. First flight: 1953. Introduction: 1954. Status: Retired.",
+            "text": "The North American F-100 Super Sabre was a single-engine, supersonic fighter and fighter-bomber developed in the United States from the F-86 Sabre family. It became the first operational U.S. Air Force fighter capable of supersonic speed in level flight and opened the Century Series era of American jet fighters.",
+            "refs": [
+              "fn-main",
+              "fn-flugzeuginfo"
+            ]
+          },
+          {
+            "text": "The aircraft first flew in 1953 and entered USAF service in 1954. North American built 2,294 examples between 1953 and 1959 according to Flugzeuginfo reference data, with the F-100D becoming the main fighter-bomber version and the F-100F serving as the two-seat trainer and special-mission derivative.",
+            "refs": [
+              "fn-main",
+              "fn-flugzeuginfo"
+            ]
+          },
+          {
+            "text": "In service the Super Sabre shifted from a day-fighter successor to the F-86 into a tactical nuclear and conventional fighter-bomber, then into a Vietnam War close-air-support and interdiction aircraft before later types such as the F-105, F-4, A-7, and F-111 took over many front-line missions.",
             "refs": [
               "fn-main"
-            ]
-          },
-          {
-            "text": "North American F-100 Super Sabre is a fighter. Primary role: fighter-bomber. Country of origin: United States. Manufacturer: North American Aviation.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Exact structured fact fields: 15.",
-            "refs": [
-              "fn-method"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Primary role",
-            "text": "Fighter-bomber"
+            "title": "Role",
+            "text": "Supersonic fighter and fighter-bomber"
           },
           {
-            "title": "Designer or builder",
+            "title": "Manufacturer",
             "text": "North American Aviation"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "First flight",
+            "text": "1953"
           },
           {
-            "title": "Propulsion",
-            "text": "Jet"
+            "title": "Production",
+            "text": "1953-1959; 2,294 built"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "North American F-100 Super Sabre first flew in 1953. Introduction date: 1954. Era: Cold War.",
+            "text": "North American proposed a higher-performance swept-wing fighter during the early 1950s after the combat success of the F-86 Sabre. The design, initially associated with the Sabre 45 concept, kept a family resemblance to the Sabre but used a larger airframe, afterburning J57 turbojet power, thin swept wings, and an area-ruled style fuselage approach for high-speed flight.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Producer: North American Aviation. Development context: fighter-bomber, jet propulsion, supersonic speed category, Cold War era.",
+            "text": "The YF-100A moved quickly through development and flew in 1953. Early performance met the supersonic objective, but the first production F-100A also exposed dangerous yaw instability and inertia-coupling behavior at high speed and high angle of attack. A series of early accidents led to grounding, structural and aerodynamic modifications, and revised training and operating procedures.",
             "refs": [
-              "fn-wikidata"
+              "fn-main",
+              "fn-nasa"
+            ]
+          },
+          {
+            "text": "Tactical Air Command requirements then pushed the family toward fighter-bomber work. The F-100C added greater stores capability and refueling provisions, the F-100D became the definitive attack-capable production model, and the F-100F provided two seats for training and later Wild Weasel conversions.",
+            "refs": [
+              "fn-main"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing speed, range, radar/weapons integration, maneuverability, maintainability, and export affordability.",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "Design lineage: F-86 Sabre successor, with F-107 developed as a related but unsuccessful follow-on."
           },
           {
-            "text": "High-speed performance created trade-offs in fuel use, inlet design, structural heating, and low-speed handling.",
-            "refs": [
-              "fn-method"
-            ]
+            "text": "Key development problem: making a high-speed swept-wing fighter safe and controllable through transonic and supersonic regimes."
+          },
+          {
+            "text": "Production focus shifted from pure day fighter to fighter-bomber as Cold War tactical requirements changed."
           }
         ]
       },
@@ -9563,184 +9616,41 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1. Propulsion: Jet. Speed category: Supersonic.",
+            "text": "The F-100 used a low-mounted swept wing, single vertical tail, nose intake, and one Pratt & Whitney J57 afterburning turbojet. Representative F-100D data lists the J57-P-21A at about 10,100 lbf dry thrust and 16,000 lbf with afterburner.",
+            "refs": [
+              "fn-flugzeuginfo"
+            ]
+          },
+          {
+            "text": "The cockpit and avionics were far simpler than later multirole fighters. The F-100D added fighter-bomber delivery systems and autopilot/attack equipment for tactical strike work, but the aircraft still depended heavily on pilot skill and visual attack procedures compared with radar- and computer-assisted later aircraft.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Armament normally centered on four 20 mm M39 cannon. External stores varied by variant and operator and could include AIM-9 Sidewinder missiles, bombs, rockets, fuel tanks, and mission pods. Wild Weasel F-100Fs received special equipment for early suppression of enemy air defenses, but those conversions should not be treated as representative of every F-100F.",
             "refs": [
+              "fn-main",
               "fn-method"
-            ]
-          },
-          {
-            "text": "North American F-100 Super Sabre uses jet propulsion. Engine model field: Not listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Gun armament, air-to-air missiles, air-to-ground weapons, and external stores. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "1"
+            "title": "Airframe",
+            "text": "Swept-wing, nose-intake, single-engine fighter-bomber"
           },
           {
-            "title": "Engine class",
-            "text": "Jet"
+            "title": "Powerplant",
+            "text": "One Pratt & Whitney J57 afterburning turbojet"
           },
           {
-            "title": "Speed class",
-            "text": "Supersonic"
+            "title": "Gun armament",
+            "text": "Four 20 mm M39 cannon"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "North American F-100 Super Sabre status: Retired. Conflict entries: 1.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: Vietnam War.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Vietnam War: North American F-100 Super Sabre used in Vietnam War.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "North American F-100 Super Sabre named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "variants",
-        "title": "Variants",
-        "paragraphs": [
-          {
-            "text": "North American F-100 Super Sabre variant-family entries: 3. Variant families: North American F-100 Super Sabre baseline production model; North American F-100 Super Sabre upgraded avionics or weapons-capable model; North American F-100 Super Sabre export or locally modernized model.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "North American F-100 Super Sabre baseline production model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "North American F-100 Super Sabre upgraded avionics or weapons-capable model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "North American F-100 Super Sabre export or locally modernized model",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "operators",
-        "title": "Operators",
-        "paragraphs": [
-          {
-            "text": "Designer or builder countries: United States. North American F-100 Super Sabre has 1 designer or builder country entry.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "All operators status: 0 operator entries listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Major designer or builder entries: United States.",
-            "refs": [
-              "fn-wikidata"
-            ]
+            "title": "Mission fit",
+            "text": "External stores varied by model, operator, and date"
           }
         ]
       },
@@ -9749,25 +9659,289 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 1, propulsion type Jet, maximum speed category Supersonic, first flight 1953, introduction 1954.",
+            "text": "Specifications below use representative F-100D data. Earlier F-100A/C and two-seat F-100F aircraft differed in equipment, weight, and mission fit.",
+            "refs": [
+              "fn-flugzeuginfo",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Crew",
+            "text": "1 for F-100D; 2 for F-100F"
+          },
+          {
+            "title": "Length",
+            "text": "47 ft 1 in (14.36 m)"
+          },
+          {
+            "title": "Wingspan",
+            "text": "38 ft 9 in (11.82 m)"
+          },
+          {
+            "title": "Height",
+            "text": "16 ft 3 in (4.95 m)"
+          },
+          {
+            "title": "Empty weight",
+            "text": "21,000 lb (9,525 kg)"
+          },
+          {
+            "title": "Maximum takeoff weight",
+            "text": "34,800 lb (15,785 kg)"
+          },
+          {
+            "title": "Maximum speed",
+            "text": "863 mph (1,389 km/h), Mach 1.3 listed for F-100D data"
+          },
+          {
+            "title": "Range",
+            "text": "601 mi (967 km)"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "46,000 ft (14,021 m)"
+          },
+          {
+            "title": "Engine",
+            "text": "Pratt & Whitney J57-P-21A afterburning turbojet"
+          }
+        ]
+      },
+      {
+        "id": "variants",
+        "title": "Variants",
+        "paragraphs": [
+          {
+            "text": "The F-100 family moved from early day-fighter production to fighter-bomber and training/special-mission versions. Variant designations are important because performance, equipment, and weapons capability were not identical across the family.",
+            "refs": [
+              "fn-main",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "YF-100A: prototype aircraft used to validate the supersonic Sabre successor concept."
+          },
+          {
+            "text": "F-100A: initial day-fighter production version; early handling issues drove grounding and modification work."
+          },
+          {
+            "text": "RF-100A: reconnaissance conversion of selected F-100A airframes."
+          },
+          {
+            "text": "F-100C: fighter-bomber version with greater external-store and refueling capability."
+          },
+          {
+            "text": "F-100D: definitive single-seat fighter-bomber and the most representative combat model."
+          },
+          {
+            "text": "F-100F: two-seat trainer and conversion aircraft, including early Wild Weasel adaptations in Vietnam."
+          },
+          {
+            "text": "F-107: related North American derivative that did not enter production."
+          }
+        ]
+      },
+      {
+        "id": "operators",
+        "title": "Operators",
+        "paragraphs": [
+          {
+            "text": "The United States was the principal operator, while several allied air forces used F-100s through military aid, NATO modernization, or bilateral procurement. Current fleet counts are not applicable because the type is retired from military front-line service.",
+            "refs": [
+              "fn-main",
+              "fn-flugzeuginfo"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "United States: USAF and Air National Guard tactical fighter, strike, close-support, and training service."
+          },
+          {
+            "text": "France: Armée de l’Air F-100D/F service, including Algerian War context and NATO strike units."
+          },
+          {
+            "text": "Denmark: Royal Danish Air Force F-100D/F NATO service."
+          },
+          {
+            "text": "Turkey: Turkish Air Force F-100 service into the later Cold War."
+          },
+          {
+            "text": "Taiwan: Republic of China Air Force F-100A and related service, with retirement commonly listed in the late 1980s."
+          }
+        ]
+      },
+      {
+        "id": "service",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "USAF F-100s served during Cold War crises and became heavily associated with Southeast Asia. In Vietnam they flew fighter-bomber, interdiction, forward-air-controller support, and close-air-support missions, and the two-seat F-100F formed part of the first Wild Weasel effort against radar-guided air defenses.",
             "refs": [
               "fn-main"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "The type’s high accident rate and demanding handling left a mixed reputation: it delivered valuable supersonic performance and combat payload for its period, but it also required careful training and was gradually replaced in demanding strike roles by aircraft with better range, avionics, payload, or low-speed attack performance.",
+            "refs": [
+              "fn-main",
+              "fn-nasa"
+            ]
+          },
+          {
+            "text": "French, Danish, Turkish, and Taiwanese service gave the Super Sabre a wider Cold War footprint. Operator-specific combat claims and attrition figures vary by source, so this page keeps the operational account at a high level rather than listing unsupported totals.",
             "refs": [
               "fn-method"
             ]
           }
+        ],
+        "bullets": [
+          {
+            "text": "Vietnam: close air support, interdiction, Misty-style fast FAC work, and early Wild Weasel missions."
+          },
+          {
+            "text": "Algerian War: French F-100 service is commonly associated with combat operations."
+          },
+          {
+            "text": "Cold War readiness: NATO and allied operators used the aircraft for strike and tactical fighter duties."
+          }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
         "paragraphs": [
           {
-            "text": "North American F-100 Super Sabre similar-development links: 4.",
+            "text": "The F-100 gave the USAF a genuinely supersonic tactical fighter with heavy gun armament and useful external-load growth. Its limitations were equally important: early stability problems, relatively short range compared with later strike aircraft, modest avionics, and high pilot workload reduced its margin in difficult weather, night, and high-threat missions.",
+            "refs": [
+              "fn-main",
+              "fn-nasa",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: first-generation supersonic speed with practical fighter-bomber payload options."
+          },
+          {
+            "text": "Strength: adaptable airframe that served as fighter, attack aircraft, trainer, reconnaissance platform, and early defense-suppression aircraft."
+          },
+          {
+            "text": "Limitation: early yaw/inertia-coupling hazards and accident history."
+          },
+          {
+            "text": "Limitation: less advanced sensors, navigation, and weapons integration than the F-4, F-105, A-7, and F-111 generation."
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Compared with the F-86 Sabre, the F-100 was larger, faster, and more suitable for supersonic strike work. Compared with the F-105 Thunderchief, it carried a smaller strike load and had less range but appeared earlier and filled much of the USAF tactical fighter-bomber gap before later types arrived. Compared with the F-4 Phantom II, it was simpler and lighter but lacked the Phantom’s two-seat radar-interceptor and multirole avionics growth.",
+            "refs": [
+              "fn-main",
+              "fn-flugzeuginfo"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Republic F-105 Thunderchief",
+            "url": "aircraft.html?id=f-105-thunderchief"
+          },
+          {
+            "label": "McDonnell Douglas F-4 Phantom II",
+            "url": "aircraft.html?id=f-4-phantom-ii"
+          },
+          {
+            "label": "Vought F-8 Crusader",
+            "url": "aircraft.html?id=f-8-crusader"
+          },
+          {
+            "label": "Lockheed F-104 Starfighter",
+            "url": "aircraft.html?id=f-104-starfighter"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "Key dates are rounded to the level supported by general reference data and should be checked against individual serial histories for detailed production batches.",
+            "refs": [
+              "fn-main",
+              "fn-flugzeuginfo"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "1953: YF-100A first flight and start of production-era development."
+          },
+          {
+            "text": "1954: F-100A enters USAF service; early grounding follows accident investigations."
+          },
+          {
+            "text": "1956-1957: F-100C and F-100D fighter-bomber versions become central to the family."
+          },
+          {
+            "text": "1958: F-100F two-seat trainer accepted into USAF service."
+          },
+          {
+            "text": "1960s: Extensive Vietnam War use; first Wild Weasel missions use modified F-100F aircraft."
+          },
+          {
+            "text": "1970s-1980s: Type leaves regular USAF service, continues in Air National Guard/export service, then retires from military use."
+          }
+        ]
+      },
+      {
+        "id": "sources",
+        "title": "Sources",
+        "paragraphs": [
+          {
+            "text": "Primary page expansion used Flugzeuginfo for representative F-100D technical data and Wikipedia as a supplementary overview/reference-discovery source. Existing NASA and F-100.org references were retained for later verification, but direct retrieval in this run was limited by moved or access-blocked pages.",
+            "refs": [
+              "fn-flugzeuginfo",
+              "fn-main",
+              "fn-nasa",
+              "fn-f100org"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Flugzeuginfo F-100 technical data",
+            "url": "https://www.flugzeuginfo.net/acdata_php/acdata_f100_en.php"
+          },
+          {
+            "label": "Wikipedia overview",
+            "url": "https://en.wikipedia.org/wiki/North_American_F-100_Super_Sabre"
+          },
+          {
+            "label": "NASA History reference root",
+            "url": "http://www.hq.nasa.gov/pao/History/SP-468/cover.htm"
+          },
+          {
+            "label": "F-100.org",
+            "url": "http://www.f-100.org/"
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages are chosen for development lineage, replacement context, or comparable Cold War tactical roles.",
             "refs": [
               "fn-method"
             ]
@@ -9775,31 +9949,25 @@
         ],
         "links": [
           {
-            "label": "McDonnell Douglas F-4 Phantom II",
-            "url": "aircraft.html?id=f-4-phantom-ii"
+            "label": "Republic F-105 Thunderchief",
+            "url": "aircraft.html?id=f-105-thunderchief"
           },
           {
-            "label": "Northrop F-5",
-            "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
+            "label": "McDonnell Douglas F-4 Phantom II",
+            "url": "aircraft.html?id=f-4-phantom-ii"
           },
           {
             "label": "Vought F-8 Crusader",
             "url": "aircraft.html?id=f-8-crusader"
           },
           {
-            "label": "Grumman F-14 Tomcat",
-            "url": "aircraft.html?id=f-14-tomcat"
+            "label": "Lockheed F-104 Starfighter",
+            "url": "aircraft.html?id=f-104-starfighter"
           }
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg/960px-U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg",
-        "caption": "Vietnam War",
-        "source_url": "https://en.wikipedia.org/wiki/Vietnam_War"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "f-102-delta-dagger",
