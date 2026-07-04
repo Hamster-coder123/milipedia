@@ -875,6 +875,13 @@
     ],
     "sources": [
       {
+        "id": "fn-main",
+        "title": "Northrop F-5 source bundle",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196074/northrop-yf-5a-freedom-fighter/",
+        "publisher": "National Museum of the United States Air Force / NAVAIR / supporting sources",
+        "note": "Lead-summary reference tying together the F-5's low-cost export-fighter origin, later F-5N/F adversary role, and modernization context from the detailed source list below."
+      },
+      {
         "id": "fn-usaf-yf5a",
         "title": "Northrop YF-5A Freedom Fighter",
         "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196074/northrop-yf-5a-freedom-fighter/",
@@ -1039,7 +1046,7 @@
       {
         "id": "f-20-tigershark",
         "name": "Northrop F-20 Tigershark",
-        "url": "aircraft.html?id=f-20-tigershark"
+        "url": "https://en.wikipedia.org/wiki/Northrop_F-20_Tigershark"
       },
       {
         "id": "f-16-fighting-falcon",
@@ -1063,12 +1070,19 @@
       }
     ],
     "article_quality": {
-      "exact_fact_count": 74,
-      "operator_entries": 12,
+      "exact_fact_count": 86,
+      "operator_entries": 10,
       "variant_entries": 10,
       "external_article_sources": 13
     },
     "footnotes": [
+      {
+        "id": "fn-main",
+        "title": "Northrop F-5 source bundle",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196074/northrop-yf-5a-freedom-fighter/",
+        "publisher": "National Museum of the United States Air Force / NAVAIR / supporting sources",
+        "note": "Lead-summary reference tying together the F-5's low-cost export-fighter origin, later F-5N/F adversary role, and modernization context from the detailed source list below."
+      },
       {
         "id": "fn-usaf-yf5a",
         "title": "Northrop YF-5A Freedom Fighter",
@@ -1162,6 +1176,13 @@
       }
     ],
     "external_articles": [
+      {
+        "id": "fn-main",
+        "title": "Northrop F-5 source bundle",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196074/northrop-yf-5a-freedom-fighter/",
+        "publisher": "National Museum of the United States Air Force / NAVAIR / supporting sources",
+        "note": "Lead-summary reference tying together the F-5's low-cost export-fighter origin, later F-5N/F adversary role, and modernization context from the detailed source list below."
+      },
       {
         "id": "fn-usaf-yf5a",
         "title": "Northrop YF-5A Freedom Fighter",
@@ -1353,6 +1374,58 @@
             "refs": [
               "fn-navair-artemis"
             ]
+          }
+        ]
+      },
+      {
+        "id": "production-upgrades-service-life",
+        "title": "Production, Upgrades, and Service Life",
+        "paragraphs": [
+          {
+            "text": "The F-5's production story is unusually international. The U.S. Air Force procured more than 2,000 F-5 aircraft for allied nations, and the family later spread through licensed production, national assembly, and customer-specific modernization programs rather than one uniform U.S. front-line fleet.",
+            "refs": [
+              "fn-usaf-yf5a",
+              "fn-wikipedia-crosscheck"
+            ]
+          },
+          {
+            "text": "The Freedom Fighter and Tiger II families should not be treated as a single fixed specification. Early F-5A/B aircraft emphasized simple export fighter and trainer missions; F-5E/F Tiger II aircraft added more combat-training value; RF-5 reconnaissance versions, Brazilian F-5EM/FM, Thai F-5TH, Korean KF-5, Canadian CF-5, Spanish SF-5, and other national programs reflected local requirements and budgets.",
+            "refs": [
+              "fn-wikipedia-crosscheck",
+              "fn-f5-public-perception"
+            ]
+          },
+          {
+            "text": "Modern U.S. service is centered on adversary training rather than front-line combat. NAVAIR lists the F-5N/F as an adversary fighter for Navy and Marine Corps units, while ARTEMIS upgrades former Swiss airframes into F-5N+/F+ aircraft with a glass cockpit, avionics suite, and safety improvements for continued threat-representation work.",
+            "refs": [
+              "fn-navair-f5",
+              "fn-navair-artemis"
+            ]
+          },
+          {
+            "text": "Service-life outcomes now vary sharply by country. Some air arms retired the type after decades of fighter, trainer, or reconnaissance work, as Taiwan did in 2025, while others keep upgraded aircraft in niche air-defense, training, or aggressor roles. That split is why Milipedia uses cautious wording for current operators and avoids a single global fleet count without a date-stamped inventory source.",
+            "refs": [
+              "fn-ap-taiwan-retirement",
+              "fn-f5-public-perception"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Export-first production",
+            "text": "More than 2,000 aircraft were procured by the U.S. Air Force for allied nations, with later licensed and national variants."
+          },
+          {
+            "title": "Upgrade pattern",
+            "text": "Modern F-5 capability depends heavily on national avionics, radar, cockpit, and weapons-integration programs."
+          },
+          {
+            "title": "Adversary-service value",
+            "text": "The small airframe remains useful for simulating threat aircraft in visual and tactical fighter training."
+          },
+          {
+            "title": "Retirement caveat",
+            "text": "Some fleets are retired while others remain active; current status must be tied to a dated source."
           }
         ]
       },
@@ -1980,6 +2053,53 @@
         ]
       },
       {
+        "id": "sources-and-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Primary factual anchors are the National Museum of the United States Air Force YF-5A fact sheet for the Freedom Fighter origin and Vietnam evaluation, NAVAIR's F-5 Tiger II page for current U.S. F-5N/F adversary-service specifications, and NAVAIR's ARTEMIS release for F-5N+/F+ modernization. Museum, AP, thesis, and local public-perception sources are used for narrower context rather than universal technical claims.",
+            "refs": [
+              "fn-usaf-yf5a",
+              "fn-navair-f5",
+              "fn-navair-artemis",
+              "fn-ap-taiwan-retirement"
+            ]
+          },
+          {
+            "text": "Variant-sensitive wording is intentional. Published dimensions, speeds, engines, armament, avionics, and operator status differ between YF-5A, F-5A/B, F-5E/F, RF-5, F-5N/F, F-5N+/F+, and national upgrade programs, so the article identifies representative baselines rather than merging them into one impossible universal F-5 specification.",
+            "refs": [
+              "fn-navair-f5",
+              "fn-usaf-yf5a",
+              "fn-f5-public-perception"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Official and museum sources are preferred for design, service-entry, technical, and modernization facts.",
+            "refs": [
+              "fn-usaf-yf5a",
+              "fn-navair-f5",
+              "fn-navair-artemis",
+              "fn-hill-f5e"
+            ]
+          },
+          {
+            "text": "Wikipedia remains a supplementary cross-check and source-discovery aid, not the main authority for the expanded article.",
+            "refs": [
+              "fn-wikipedia-crosscheck"
+            ]
+          },
+          {
+            "text": "Combat and reputation claims are deliberately caveated because F-5 performance depended on variant, pilot training, support, weapons, radar control, and mission conditions.",
+            "refs": [
+              "fn-ogaden-thesis",
+              "fn-f5-public-perception"
+            ]
+          }
+        ]
+      },
+      {
         "id": "related-pages",
         "title": "Related Pages",
         "paragraphs": [
@@ -1997,7 +2117,7 @@
           },
           {
             "label": "Northrop F-20 Tigershark",
-            "url": "aircraft.html?id=f-20-tigershark"
+            "url": "https://en.wikipedia.org/wiki/Northrop_F-20_Tigershark"
           },
           {
             "label": "General Dynamics F-16 Fighting Falcon",
