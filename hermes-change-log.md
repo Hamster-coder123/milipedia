@@ -6241,3 +6241,82 @@ Record the result of:
 * Exact current Tiger fleet totals, German retirement timing, Australian replacement status, and national missile clearances are date-sensitive and should be verified against current national releases before use in procurement-specific contexts.
 * Public specifications vary by Tiger standard and equipment fit; representative Tiger HAD figures were labeled as configuration-dependent.
 * The final commit hash cannot be embedded in the committed log without changing the hash again; the authoritative hash is reported in the run output.
+
+### Run 82 — 2026-07-04 00:02:42 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Airbus A400M Atlas (id: a400m-atlas)
+* Reason selected: Among the remaining unedited aircraft pages, the A400M entry was one of the shortest and most placeholder-like, with no operator entries, no real variant entries, sparse specifications, generic generated article sections, and several stale external-source placeholders despite being a major modern transport aircraft.
+* Previous condition: Generated entry with 15 exact fact fields, 0 operator entries, 0 variant entries, missing engine/range/ceiling/cargo/payload specifics, generic support-aircraft armament wording, no meaningful development/design/operator/mission-configuration coverage, and short boilerplate sections.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview and fact-card style; section order progressing from overview through development, design/capabilities, specifications, variants, operators, operational history, comparison, strengths/limitations, timeline, sources, and related pages; concise sourced paragraphs; cautious caveats for variant/operator-specific facts; internal aircraft.html?id=... related-page links.
+
+#### Changes Made
+
+* Expanded the Airbus A400M Atlas entry in data/aircraft.json from a sparse generated transport-aircraft record into a fuller Milipedia article data entry.
+* Added A400M/Atlas/Atlas C.1 alternative names and refined role, aircraft type, status, development history, and short summary.
+* Added public technical details from Airbus: 37-tonne maximum payload, 340 m³ cargo hold, 4 m × 4 m cargo cross-section, Mach 0.72 maximum speed, 40,000 ft maximum altitude, 20 tonnes to 3,400 nmi payload/range example, Europrop TP400 turboprops, airdrop of multiple loads up to 25 t, and 116 paratroops.
+* Replaced generic missing engine/range/ceiling fields with A400M-specific propulsion and performance wording, with payload/range caveats.
+* Replaced generic support-aircraft wording with unarmed airlifter language and defensive-aids/self-protection caveats.
+* Added representative mission configurations: baseline A400M, RAF Atlas C.1 designation, tanker/receiver, MEDEVAC/humanitarian, aerial-delivery, and paratroop configurations.
+* Added operator/customer coverage for Belgium, France, Germany, Luxembourg, Spain, Turkey, United Kingdom, Malaysia, Indonesia, and Kazakhstan based on Airbus programme text, while avoiding live fleet-count claims.
+* Added expanded article sections for Overview, Development History, Design and Capabilities, Specifications, Variants and Mission Configurations, Operators and Customers, Operational History, Comparison, Strengths and Limitations, Timeline, Sources and Notes, and Related Pages.
+* Added sources from Airbus, the Royal Air Force operator page, supplementary Wikipedia orientation, and Milipedia accuracy rules; removed stale generic external source placeholders from the A400M entry.
+* Added related internal links to C-130 Hercules, C-17 Globemaster III, C-5 Galaxy / C-5M Super Galaxy, and Il-76 Candid.
+* Omitted exact current delivery totals, detailed defensive-aids descriptions, and national mission-system tables because they are date-sensitive and customer-specific.
+* Recorded web_search/web_extract backend failures in Issues or Uncertainties; direct Airbus page retrieval succeeded and was used for core facts.
+
+#### Files Modified
+
+* data/aircraft.json — Expanded only the Airbus A400M Atlas aircraft entry and its sources/sections/metadata.
+* hermes-change-log.md — Appended this Run 82 log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, only data/aircraft.json and hermes-change-log.md were intended modified files after temporary helper scripts were moved outside the repository.
+2. git diff — Reviewed data/aircraft.json diff; it changes only the a400m-atlas entry, and the change log appends this run entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; verified the A400M entry has 12 article sections, 10 operator/customer entries, 5 variant/mission-configuration entries, and 4 source records.
+4. F-16 style comparison — Inspected data/f16-template.html and followed its dense overview, fact-card, section-order, sourced-paragraph, comparison, strengths/limitations, timeline, and related-link patterns within the JSON-rendered article system.
+5. Internal link check — Recursively checked aircraft.html?id=... links in the A400M entry; c-130-hercules, c-17-globemaster-iii, c-5-galaxy, and il-76 all target existing local IDs.
+6. Secret/token check — Staged diff scanned for credential-like key, token, password, and private-key patterns; no secrets or credentials were added.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, one-aircraft-entry change, intended files only, clean diff whitespace, complete log entry, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Airbus A400M Atlas
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* The web_search and web_extract backends returned HTTP 432 errors during source discovery, so direct browser-like retrieval was used for the Airbus manufacturer page.
+* The RAF Atlas C.1 page returned HTTP 403 to direct retrieval in this environment; it is retained as an official operator source link, but detailed specifications were not taken from it during this run.
+* Exact live delivery totals, national defensive-aids fits, mission-system configurations, and current fleet counts were intentionally omitted because they are date-sensitive and operator-specific.
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.

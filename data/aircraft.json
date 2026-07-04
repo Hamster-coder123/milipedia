@@ -67751,34 +67751,55 @@
   {
     "id": "a400m-atlas",
     "name": "Airbus A400M Atlas",
-    "alternative_names": [],
+    "alternative_names": [
+      "A400M",
+      "Atlas",
+      "Atlas C.1"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "Multinational Europe",
     "manufacturer": "Airbus Defence and Space",
-    "role": "Military transport aircraft",
-    "aircraft_type": "Transport aircraft",
+    "role": "Tactical and strategic military airlifter",
+    "aircraft_type": "Four-engine turboprop military transport aircraft",
     "era": "Modern",
-    "first_flight": "2009",
+    "first_flight": "11 December 2009",
     "introduction_date": "2013",
     "retirement_date": null,
-    "status": "Active",
-    "number_built": "Not listed",
-    "crew": "3-4",
+    "status": "Active; deliveries and capability upgrades continue",
+    "number_built": "178 orders from 10 nations reported by Airbus; delivered totals change over time",
+    "crew": "Typically 3-4 depending on mission configuration",
     "engine_type": "Turboprop",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
-    "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Support aircraft; fixed offensive armament not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Airbus A400M Atlas: Military transport aircraft. Manufacturer: Airbus Defence and Space. First flight: 2009. Introduction: 2013.",
-    "short_summary": "Airbus A400M Atlas: Military transport aircraft. Origin: Multinational Europe. Manufacturer: Airbus Defence and Space. First flight: 2009. Introduction: 2013. Status: Active.",
+    "engines": "4 × Europrop International TP400-D6 turboprops with eight-blade propellers",
+    "max_speed": "Mach 0.72 maximum speed reported by Airbus",
+    "speed_category": "Subsonic high-speed turboprop transport",
+    "range": "Airbus cites 20 tonnes to 3,400 nmi; ferry and payload/range figures vary by load",
+    "combat_range": "Not a fighter-style combat-radius aircraft; tactical radius depends on payload, field conditions, and mission profile",
+    "service_ceiling": "40,000 ft maximum altitude reported by Airbus",
+    "rate_of_climb": "Not consistently listed in public sources used here",
+    "armament": "No fixed offensive armament; defensive-aids fit and self-protection equipment vary by customer and mission.",
+    "hardpoints": "Not applicable as a fighter-style hardpoint count; A400M is configured for cargo, paratroop, tanker, medical, and special-mission support roles.",
+    "variants": [
+      "A400M Atlas baseline production airlifter",
+      "Atlas C.1 United Kingdom service designation",
+      "A400M tanker configuration",
+      "A400M medical-evacuation and humanitarian-relief configuration",
+      "A400M aerial-delivery and paratroop configuration"
+    ],
+    "operators": [
+      "Belgium",
+      "France",
+      "Germany",
+      "Luxembourg",
+      "Spain",
+      "Turkey",
+      "United Kingdom",
+      "Malaysia",
+      "Indonesia",
+      "Kazakhstan"
+    ],
+    "combat_history": "Primarily used for military logistics, humanitarian relief, air mobility, medical evacuation, airdrop, and air-to-air-refuelling support; conflict-specific employment should be attributed by operator and date.",
+    "development_history": "Developed by Airbus Defence and Space for a European requirement to bridge tactical and strategic airlift: carrying outsize payloads farther than medium tactical transports while still using short, soft, or unprepared runways. The aircraft first flew in December 2009 and entered service in 2013, with later work focused on maturing tactical capabilities and mission equipment.",
+    "short_summary": "The Airbus A400M Atlas is a multinational European four-engine turboprop airlifter designed to combine strategic payload/range with tactical short- and unpaved-runway access. Airbus describes a 37-tonne maximum payload, a 340 m³ cargo hold, Mach 0.72 maximum speed, 40,000 ft maximum altitude, and 20 tonnes carried to 3,400 nmi.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -67791,18 +67812,25 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-airbus-a400m",
+        "title": "A400M",
+        "url": "https://www.airbus.com/en/products-services/defence/military-aircraft/a400m",
+        "publisher": "Airbus",
+        "note": "Manufacturer page used for A400M role, payload, cargo-hold, altitude, speed, range, tactical-airlift, air-to-air-refuelling, airdrop, operator, and order figures."
+      },
+      {
+        "id": "fn-raf-atlas",
+        "title": "Atlas C.1 (A400M)",
+        "url": "https://www.raf.mod.uk/aircraft/atlas-c1-a400m/",
+        "publisher": "Royal Air Force",
+        "note": "Official operator page retained for Atlas C.1 service context; the page was difficult to fetch in this run, so detailed figures were not taken from it without cross-checking."
+      },
+      {
+        "id": "fn-wiki-a400m",
         "title": "Airbus A400M Atlas",
         "url": "https://en.wikipedia.org/wiki/Airbus_A400M_Atlas",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "note": "Supplementary orientation source for first-flight, service-entry, and broad programme chronology; stronger official sources were preferred where available."
       },
       {
         "id": "fn-method",
@@ -67810,27 +67838,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.airbusmilitary.com/pressrelease.html#182005",
-        "publisher": "airbusmilitary.com",
-        "note": "External source for Airbus A400M Atlas."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.elpais.com/articulo/economia/Rey/estrena/Airbus/400/mayor/avion/militar/fabricacion/europea/elpepueco/20080626elpepueco_12/Tes",
-        "publisher": "elpais.com",
-        "note": "External source for Airbus A400M Atlas."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.iaf.fraunhofer.de/pdf/jahresbericht-2006/sensor.pdf",
-        "publisher": "iaf.fraunhofer.de",
-        "note": "External source for Airbus A400M Atlas."
       }
     ],
     "country_flags": [
@@ -67840,41 +67847,54 @@
       }
     ],
     "designers": [
-      "Airbus Defence and Space"
+      "Airbus Defence and Space",
+      "Europrop International engine consortium"
     ],
     "development_tensions": [
-      "Balancing payload, short-field performance, reliability, strategic reach, and rough-field operation."
+      "Combining outsize-load carriage with tactical short-field and unpaved-runway operation.",
+      "Maturing complex multinational requirements, defensive aids, tanker, airdrop, and mission-system capabilities after service entry.",
+      "Preserving turboprop low-speed and rough-field utility while approaching jet-transport cruise performance."
     ],
-    "wars_used_in": [],
+    "wars_used_in": [
+      {
+        "name": "Humanitarian and disaster-relief operations",
+        "note": "Airbus highlights humanitarian aid and medical-evacuation roles; individual operations vary by national operator."
+      },
+      {
+        "name": "Military air-mobility and expeditionary support",
+        "note": "Used by European and export operators for cargo, personnel, paratroop, tanker, and logistics missions; conflict-specific use requires case-by-case sourcing."
+      }
+    ],
     "variant_families": [
-      "Airbus A400M Atlas baseline production model",
-      "Airbus A400M Atlas upgraded avionics or weapons-capable model",
-      "Airbus A400M Atlas cargo, special mission, or aerial support model"
+      "Baseline A400M Atlas transport",
+      "National service designations such as Atlas C.1",
+      "Tanker and receiver-capable air-to-air-refuelling configurations",
+      "Airdrop, paratroop, MEDEVAC, humanitarian-relief, and emerging special-mission configurations"
     ],
     "operator_summary": {
       "major_designer_or_builder": [
-        "Multinational Europe"
+        "Airbus Defence and Space",
+        "European OCCAR customer nations"
       ],
-      "major_user_note": "Airbus A400M Atlas has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Airbus lists Belgium, France, Germany, Luxembourg, Spain, Turkey, and the United Kingdom as the original OCCAR nations, with Malaysia, Indonesia, and Kazakhstan later joining the programme.",
+      "all_operators_status": "Representative customer/operator list based on Airbus public programme text; delivery status and fleet counts change over time."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "The A400M combines a 37-tonne maximum payload with short/unpaved-runway utility, placing it between medium tactical airlifters and larger strategic jet transports.",
+        "Airbus notes air-to-air refuelling both as tanker and receiver, with contacts involving fighters, other A400Ms, and helicopters."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "A complete accident and programme-delay chronology was outside this single-run update; public claims should be sourced case by case."
       ]
     },
     "engine_details": {
       "type": "Turboprop",
-      "summary": "Airbus A400M Atlas uses turboprop propulsion."
+      "summary": "Four Europrop TP400 turboprops drive eight-blade propellers. Airbus describes the engines as the most powerful turboprops developed in the West and highlights the counter-rotating 'Down Between Engines' propeller arrangement for efficiency, lighter wing structure, and low-speed handling."
     },
     "armament_details": {
-      "summary": "Support aircraft; fixed offensive armament not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "A400M is an airlifter rather than an armed strike aircraft. Public Airbus material emphasizes defensive aids, low-level flight, air-to-air refuelling, airdrop, paratroop carriage, cargo, humanitarian, and MEDEVAC missions rather than fixed offensive weapons.",
+      "caution": "Self-protection, communications, and mission equipment are customer- and upgrade-dependent; do not infer a single standardized defensive suite for all operators."
     },
     "similar_development": [
       {
@@ -67883,92 +67903,78 @@
         "url": "aircraft.html?id=c-130-hercules"
       },
       {
-        "id": "c-5-galaxy",
-        "name": "Lockheed C-5 Galaxy",
-        "url": "aircraft.html?id=c-5-galaxy"
-      },
-      {
         "id": "c-17-globemaster-iii",
         "name": "Boeing C-17 Globemaster III",
         "url": "aircraft.html?id=c-17-globemaster-iii"
       },
       {
+        "id": "c-5-galaxy",
+        "name": "Lockheed C-5 Galaxy / C-5M Super Galaxy",
+        "url": "aircraft.html?id=c-5-galaxy"
+      },
+      {
         "id": "il-76",
-        "name": "Ilyushin Il-76",
+        "name": "Ilyushin Il-76 Candid",
         "url": "aircraft.html?id=il-76"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
+      "exact_fact_count": 47,
+      "operator_entries": 10,
+      "variant_entries": 5,
       "external_article_sources": 3
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-airbus-a400m",
+        "title": "A400M",
+        "url": "https://www.airbus.com/en/products-services/defence/military-aircraft/a400m",
+        "publisher": "Airbus",
+        "note": "Manufacturer page used for A400M role, payload, cargo-hold, altitude, speed, range, tactical-airlift, air-to-air-refuelling, airdrop, operator, and order figures."
+      },
+      {
+        "id": "fn-raf-atlas",
+        "title": "Atlas C.1 (A400M)",
+        "url": "https://www.raf.mod.uk/aircraft/atlas-c1-a400m/",
+        "publisher": "Royal Air Force",
+        "note": "Official operator page retained for Atlas C.1 service context; the page was difficult to fetch in this run, so detailed figures were not taken from it without cross-checking."
+      },
+      {
+        "id": "fn-wiki-a400m",
         "title": "Airbus A400M Atlas",
         "url": "https://en.wikipedia.org/wiki/Airbus_A400M_Atlas",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
-      },
-      {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "note": "Supplementary orientation source for first-flight, service-entry, and broad programme chronology; stronger official sources were preferred where available."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.airbusmilitary.com/pressrelease.html#182005",
-        "publisher": "airbusmilitary.com",
-        "note": "External source for Airbus A400M Atlas."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.elpais.com/articulo/economia/Rey/estrena/Airbus/400/mayor/avion/militar/fabricacion/europea/elpepueco/20080626elpepueco_12/Tes",
-        "publisher": "elpais.com",
-        "note": "External source for Airbus A400M Atlas."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.iaf.fraunhofer.de/pdf/jahresbericht-2006/sensor.pdf",
-        "publisher": "iaf.fraunhofer.de",
-        "note": "External source for Airbus A400M Atlas."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.airbusmilitary.com/pressrelease.html#182005",
-        "publisher": "airbusmilitary.com",
-        "note": "External source for Airbus A400M Atlas."
+        "id": "fn-airbus-a400m",
+        "title": "A400M",
+        "url": "https://www.airbus.com/en/products-services/defence/military-aircraft/a400m",
+        "publisher": "Airbus",
+        "note": "Manufacturer page used for A400M role, payload, cargo-hold, altitude, speed, range, tactical-airlift, air-to-air-refuelling, airdrop, operator, and order figures."
       },
       {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://www.elpais.com/articulo/economia/Rey/estrena/Airbus/400/mayor/avion/militar/fabricacion/europea/elpepueco/20080626elpepueco_12/Tes",
-        "publisher": "elpais.com",
-        "note": "External source for Airbus A400M Atlas."
+        "id": "fn-raf-atlas",
+        "title": "Atlas C.1 (A400M)",
+        "url": "https://www.raf.mod.uk/aircraft/atlas-c1-a400m/",
+        "publisher": "Royal Air Force",
+        "note": "Official operator page retained for Atlas C.1 service context; the page was difficult to fetch in this run, so detailed figures were not taken from it without cross-checking."
       },
       {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.iaf.fraunhofer.de/pdf/jahresbericht-2006/sensor.pdf",
-        "publisher": "iaf.fraunhofer.de",
-        "note": "External source for Airbus A400M Atlas."
+        "id": "fn-wiki-a400m",
+        "title": "Airbus A400M Atlas",
+        "url": "https://en.wikipedia.org/wiki/Airbus_A400M_Atlas",
+        "publisher": "Wikipedia",
+        "note": "Supplementary orientation source for first-flight, service-entry, and broad programme chronology; stronger official sources were preferred where available."
       }
     ],
     "article_sections": [
@@ -67977,20 +67983,21 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Airbus A400M Atlas is a Military transport aircraft from Multinational Europe. Manufacturer: Airbus Defence and Space. First flight: 2009. Introduction: 2013. Status: Active.",
+            "text": "The Airbus A400M Atlas is a multinational European military airlifter built by Airbus Defence and Space to combine strategic reach with tactical access to short, soft, and unprepared landing zones.",
             "refs": [
-              "fn-main"
+              "fn-airbus-a400m"
             ]
           },
           {
-            "text": "Airbus A400M Atlas is a transport aircraft. Primary role: military transport aircraft. Country of origin: Multinational Europe. Manufacturer: Airbus Defence and Space.",
+            "text": "Airbus positions the type between older medium tactical transports and large strategic jet transports: it can move outsize cargo that will not fit in many tactical airlifters, while still delivering loads directly to austere airstrips.",
             "refs": [
-              "fn-wikidata"
+              "fn-airbus-a400m"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "The programme entered service in the 2010s and remains active, with ongoing deliveries, customer-specific equipment, and capability growth. Public figures should be treated as configuration- and date-dependent rather than a single fixed fleet standard.",
             "refs": [
+              "fn-airbus-a400m",
               "fn-method"
             ]
           }
@@ -67998,44 +68005,71 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Military transport aircraft"
+            "text": "Tactical/strategic airlift"
           },
           {
-            "title": "Designer or builder",
-            "text": "Airbus Defence and Space"
+            "title": "Maximum payload",
+            "text": "37 tonnes / 81,600 lb"
           },
           {
-            "title": "Major origin",
-            "text": "Multinational Europe"
+            "title": "Cargo hold",
+            "text": "340 m³; 4 m × 4 m cross-section"
           },
           {
-            "title": "Propulsion",
-            "text": "Turboprop"
+            "title": "Range example",
+            "text": "20 t to 3,400 nmi"
+          },
+          {
+            "title": "Maximum altitude",
+            "text": "40,000 ft"
+          },
+          {
+            "title": "Maximum speed",
+            "text": "Mach 0.72"
           }
         ]
       },
       {
         "id": "development",
-        "title": "Development",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Airbus A400M Atlas first flew in 2009. Introduction date: 2013. Era: Modern.",
+            "text": "The A400M grew from a European requirement for an aircraft able to carry heavy or outsize military and humanitarian loads farther than medium tactical airlifters while retaining tactical runway performance.",
             "refs": [
-              "fn-main"
+              "fn-airbus-a400m"
             ]
           },
           {
-            "text": "Producer: Airbus Defence and Space. Development context: military transport aircraft, turboprop propulsion, subsonic speed category, Modern era.",
+            "text": "Airbus identifies the original OCCAR customer group as Belgium, France, Germany, Luxembourg, Spain, Turkey, and the United Kingdom, with Malaysia, Indonesia, and Kazakhstan later joining the programme.",
             "refs": [
-              "fn-wikidata"
+              "fn-airbus-a400m"
+            ]
+          },
+          {
+            "text": "The first flight occurred in December 2009 and service entry followed in 2013. Subsequent programme work has focused on maturing air-drop, tanker, defensive-aids, low-level, and special-mission capabilities.",
+            "refs": [
+              "fn-wiki-a400m",
+              "fn-airbus-a400m"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing payload, short-field performance, reliability, strategic reach, and rough-field operation.",
+            "text": "Original design problem: bridge the gap between tactical transports and larger strategic airlifters.",
+            "refs": [
+              "fn-airbus-a400m"
+            ]
+          },
+          {
+            "text": "Multinational governance makes configuration, delivery, and upgrade status date-sensitive.",
             "refs": [
               "fn-method"
+            ]
+          },
+          {
+            "text": "Airbus reported 178 orders from 10 nations on the manufacturer page used for this update.",
+            "refs": [
+              "fn-airbus-a400m"
             ]
           }
         ]
@@ -68045,177 +68079,44 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 3-4. Propulsion: Turboprop. Speed category: Subsonic.",
+            "text": "The A400M uses a high-wing, rear-ramp cargo layout with four Europrop TP400 turboprops. Airbus highlights the TP400 as a very powerful Western turboprop and describes the counter-rotating propeller arrangement between engines as improving aerodynamic efficiency and low-speed handling.",
             "refs": [
-              "fn-main"
+              "fn-airbus-a400m"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Its cargo hold is sized for outsize military and relief equipment, with Airbus citing a 4 m by 4 m cross-section and 340 m³ volume. The aircraft is intended to move vehicles, helicopters, engineering equipment, pallets, paratroops, and medical-evacuation loads.",
             "refs": [
-              "fn-method"
+              "fn-airbus-a400m"
             ]
           },
           {
-            "text": "Airbus A400M Atlas uses turboprop propulsion. Engine model field: Not listed.",
+            "text": "Tactical features include short and unpaved runway operation, low-level flight, defensive aids, airdrop of multiple loads, and paratroop carriage. Tanker functionality is also emphasized: the A400M can act as both tanker and receiver when equipped and certified for the mission.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Support aircraft; fixed offensive armament not listed. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-airbus-a400m"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "3-4"
+            "title": "Engines",
+            "text": "4 × Europrop TP400-D6 turboprops"
           },
           {
-            "title": "Engine class",
-            "text": "Turboprop"
+            "title": "Cargo role",
+            "text": "Outsize cargo, vehicles, pallets, troops, relief loads"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Tanker role",
+            "text": "Tanker and receiver capability; fit varies by customer"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
+            "title": "Airdrop",
+            "text": "Airbus cites airdrop of multiple loads up to 25 t and 116 paratroops"
           },
           {
-            "title": "Stealth",
-            "text": "No"
-          }
-        ]
-      },
-      {
-        "id": "service",
-        "title": "Operational History",
-        "paragraphs": [
-          {
-            "text": "Airbus A400M Atlas status: Active. Conflict entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: 0 entries.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": []
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Airbus A400M Atlas named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          },
-          {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "variants",
-        "title": "Variants",
-        "paragraphs": [
-          {
-            "text": "Airbus A400M Atlas variant-family entries: 3. Variant families: Airbus A400M Atlas baseline production model; Airbus A400M Atlas upgraded avionics or weapons-capable model; Airbus A400M Atlas cargo, special mission, or aerial support model.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Airbus A400M Atlas baseline production model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Airbus A400M Atlas upgraded avionics or weapons-capable model",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Airbus A400M Atlas cargo, special mission, or aerial support model",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "operators",
-        "title": "Operators",
-        "paragraphs": [
-          {
-            "text": "Designer or builder countries: Multinational Europe. Airbus A400M Atlas has 1 designer or builder country entry.",
-            "refs": [
-              "fn-wikidata"
-            ]
-          },
-          {
-            "text": "Operator entries listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "All operators status: 0 operator entries listed.",
-            "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Major designer or builder entries: Multinational Europe.",
-            "refs": [
-              "fn-wikidata"
-            ]
+            "title": "Defensive equipment",
+            "text": "Defensive aids and survivability systems are configuration-dependent"
           }
         ]
       },
@@ -68224,13 +68125,265 @@
         "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Comparable fields: crew 3-4, propulsion type Turboprop, maximum speed category Subsonic, first flight 2009, introduction 2013.",
+            "text": "Representative public figures for the A400M Atlas include a 37-tonne maximum payload, a 340 m³ cargo hold, 40,000 ft maximum altitude, Mach 0.72 maximum speed, and 20 tonnes carried to 3,400 nmi. Exact performance depends on payload, fuel, airfield, weather, mission equipment, and national configuration.",
             "refs": [
-              "fn-main"
+              "fn-airbus-a400m",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Crew",
+            "text": "Typically 3-4 depending on mission"
+          },
+          {
+            "title": "Powerplant",
+            "text": "4 × Europrop TP400-D6 turboprops"
+          },
+          {
+            "title": "Maximum payload",
+            "text": "37 tonnes / 81,600 lb"
+          },
+          {
+            "title": "Cargo volume",
+            "text": "340 m³"
+          },
+          {
+            "title": "Maximum speed",
+            "text": "Mach 0.72"
+          },
+          {
+            "title": "Maximum altitude",
+            "text": "40,000 ft"
+          },
+          {
+            "title": "Payload/range example",
+            "text": "20 tonnes to 3,400 nmi"
+          },
+          {
+            "title": "Airdrop/paratroops",
+            "text": "Multiple loads up to 25 t; 116 paratroops cited by Airbus"
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Use payload/range figures carefully: maximum payload, ferry range, and tactical-radius numbers are not interchangeable.",
+            "refs": [
+              "fn-method"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "The public Airbus page used here gives capability examples rather than a complete aircraft flight manual.",
+            "refs": [
+              "fn-airbus-a400m"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "variants",
+        "title": "Variants and Mission Configurations",
+        "paragraphs": [
+          {
+            "text": "Unlike fighter families with many distinct production blocks, the A400M article is best organized around national service designations and mission configurations. The same basic airframe can be fitted or tasked for cargo, paratroop, tanker, MEDEVAC, humanitarian, and special-mission work.",
+            "refs": [
+              "fn-airbus-a400m",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "A400M Atlas: baseline production airlifter name used by Airbus and many operators.",
+            "refs": [
+              "fn-airbus-a400m"
+            ]
+          },
+          {
+            "text": "Atlas C.1: United Kingdom service designation for the RAF A400M fleet.",
+            "refs": [
+              "fn-raf-atlas"
+            ]
+          },
+          {
+            "text": "Tanker configuration: equipped for air-to-air refuelling missions and capable of receiving fuel itself.",
+            "refs": [
+              "fn-airbus-a400m"
+            ]
+          },
+          {
+            "text": "Airdrop/paratroop configuration: public Airbus text cites multiple-load airdrop and 116 paratroops.",
+            "refs": [
+              "fn-airbus-a400m"
+            ]
+          },
+          {
+            "text": "MEDEVAC and humanitarian-relief configurations: roles highlighted by Airbus for crisis-response and disaster-relief operations.",
+            "refs": [
+              "fn-airbus-a400m"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operators",
+        "title": "Operators and Customers",
+        "paragraphs": [
+          {
+            "text": "Airbus lists the seven original OCCAR programme nations as Belgium, France, Germany, Luxembourg, Spain, Turkey, and the United Kingdom. Malaysia, Indonesia, and Kazakhstan later joined the programme, and Airbus reports 178 total orders from 10 nations.",
+            "refs": [
+              "fn-airbus-a400m"
+            ]
+          },
+          {
+            "text": "Fleet counts, acceptance status, and national modification standards change over time, so this page lists representative customers rather than attempting a live inventory.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "European/OCCAR customers: Belgium, France, Germany, Luxembourg, Spain, Turkey, and the United Kingdom.",
+            "refs": [
+              "fn-airbus-a400m"
+            ]
+          },
+          {
+            "text": "Additional programme customers named by Airbus: Malaysia, Indonesia, and Kazakhstan.",
+            "refs": [
+              "fn-airbus-a400m"
+            ]
+          },
+          {
+            "text": "Common public missions include cargo lift, paratroop transport, airdrop, tanker support, MEDEVAC, and humanitarian relief.",
+            "refs": [
+              "fn-airbus-a400m"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "Operational use has centered on air mobility rather than combat attack: moving military cargo and personnel, supplying exercises and expeditionary deployments, supporting disaster relief, and conducting medical evacuation or tanker missions when configured.",
+            "refs": [
+              "fn-airbus-a400m"
+            ]
+          },
+          {
+            "text": "The type's distinguishing operational value is direct delivery of outsize loads to austere or unpaved airstrips. That allows cargo to avoid some intermediate transload steps required when strategic aircraft cannot use forward fields.",
+            "refs": [
+              "fn-airbus-a400m"
+            ]
+          },
+          {
+            "text": "Claims about individual combat-zone operations, special missions, or national modifications should be sourced to the operator and date; this run avoided unsourced mission-specific assertions.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Cargo and outsize-load transport for vehicles, helicopters, engineering equipment, and pallets.",
+            "refs": [
+              "fn-airbus-a400m"
+            ]
+          },
+          {
+            "text": "Humanitarian aid and disaster-relief lift to infrastructure-limited locations.",
+            "refs": [
+              "fn-airbus-a400m"
+            ]
+          },
+          {
+            "text": "Aerial delivery, paratroop, tanker, and MEDEVAC support where national equipment and certifications permit.",
+            "refs": [
+              "fn-airbus-a400m"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Comparison",
+        "paragraphs": [
+          {
+            "text": "Within Milipedia's transport-aircraft set, the A400M sits between the smaller C-130 Hercules and larger C-17/C-5 class transports. It trades maximum jet-transport payload for turboprop efficiency, rough-field access, and tactical delivery closer to the point of need.",
+            "refs": [
+              "fn-airbus-a400m",
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Compared with C-130",
+            "text": "Larger outsize cargo hold and strategic-range emphasis; both emphasize tactical airfield access."
+          },
+          {
+            "title": "Compared with C-17",
+            "text": "Lower maximum payload, but turboprop design and tactical-airlift focus for austere fields."
+          },
+          {
+            "title": "Compared with Il-76",
+            "text": "Both are heavy military transports; A400M emphasizes turboprop rough-field performance and multinational Western support."
+          },
+          {
+            "title": "Compared with C-5",
+            "text": "Much smaller than C-5 strategic-lift class, but designed for more direct tactical delivery."
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The A400M's strengths are strongest where strategic and tactical requirements overlap, but those same requirements make the programme complex and configuration-sensitive.",
+            "refs": [
+              "fn-airbus-a400m",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Strength: 37-tonne maximum payload and outsize cargo hold for loads that exceed many older tactical airlifters.",
+            "refs": [
+              "fn-airbus-a400m"
+            ]
+          },
+          {
+            "text": "Strength: short, soft, and unprepared runway operation for direct delivery near the point of need.",
+            "refs": [
+              "fn-airbus-a400m"
+            ]
+          },
+          {
+            "text": "Strength: multi-role architecture spanning cargo, air-drop, tanker, receiver, paratroop, MEDEVAC, and relief missions.",
+            "refs": [
+              "fn-airbus-a400m"
+            ]
+          },
+          {
+            "text": "Limitation: not a C-17 or C-5 replacement for the heaviest strategic loads.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: mission equipment, defensive aids, tanker equipment, and certification status vary by operator and upgrade state.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Limitation: public payload/range examples should not be read as all-load, all-weather guarantees.",
             "refs": [
               "fn-method"
             ]
@@ -68238,11 +68391,83 @@
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "timeline",
+        "title": "Timeline",
         "paragraphs": [
           {
-            "text": "Airbus A400M Atlas similar-development links: 4.",
+            "text": "Key public programme milestones are summarized below; national delivery and upgrade events should be added only with dated operator sources.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "2009: First A400M flight in December.",
+            "refs": [
+              "fn-wiki-a400m"
+            ]
+          },
+          {
+            "text": "2013: Service introduction period begins.",
+            "refs": [
+              "fn-wiki-a400m"
+            ]
+          },
+          {
+            "text": "2020s: Airbus continues to present the A400M as a tactical/strategic airlifter with maturing tanker, airdrop, low-level, and special-mission capabilities.",
+            "refs": [
+              "fn-airbus-a400m"
+            ]
+          },
+          {
+            "text": "Current Airbus programme text: 178 total orders from 10 nations.",
+            "refs": [
+              "fn-airbus-a400m"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "The manufacturer page was the main source for technical capability figures in this update. Wikipedia was used only as an orientation source for dates and programme chronology where official accessible text was limited.",
+            "refs": [
+              "fn-airbus-a400m",
+              "fn-wiki-a400m",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "This page intentionally avoids exact live fleet totals, detailed defensive-aids descriptions, and national mission-system tables because those details are date-sensitive and customer-specific.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Airbus A400M",
+            "url": "https://www.airbus.com/en/products-services/defence/military-aircraft/a400m"
+          },
+          {
+            "label": "RAF Atlas C.1",
+            "url": "https://www.raf.mod.uk/aircraft/atlas-c1-a400m/"
+          },
+          {
+            "label": "Return to aircraft database",
+            "url": "index.html"
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages emphasize transport-aircraft comparisons and development context rather than fighter-style armament lineage.",
             "refs": [
               "fn-method"
             ]
@@ -68254,15 +68479,15 @@
             "url": "aircraft.html?id=c-130-hercules"
           },
           {
-            "label": "Lockheed C-5 Galaxy",
-            "url": "aircraft.html?id=c-5-galaxy"
-          },
-          {
             "label": "Boeing C-17 Globemaster III",
             "url": "aircraft.html?id=c-17-globemaster-iii"
           },
           {
-            "label": "Ilyushin Il-76",
+            "label": "Lockheed C-5 Galaxy / C-5M Super Galaxy",
+            "url": "aircraft.html?id=c-5-galaxy"
+          },
+          {
+            "label": "Ilyushin Il-76 Candid",
             "url": "aircraft.html?id=il-76"
           }
         ]
