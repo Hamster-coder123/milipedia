@@ -2171,20 +2171,6 @@
         "note": "Used for NASA F-8 Digital Fly-By-Wire gallery image and date/source metadata."
       },
       {
-        "id": "fn-reddit-perception",
-        "title": "Vought F-8 Crusader. The last naval gunfighter...",
-        "url": "https://www.reddit.com/r/navalaviation/comments/1fprhs9/vought_f8_crusader_the_last_naval_gunfighter/",
-        "publisher": "Reddit r/navalaviation",
-        "note": "Used only as an example of enthusiast discussion around the Last Gunfighter, MiG Master, variable-incidence wing, and fan reputation; not used as proof of technical facts."
-      },
-      {
-        "id": "fn-reddit-disputed",
-        "title": "Stop calling the Vought F8 Crusader \"the last gunfighter\"",
-        "url": "https://www.reddit.com/r/unpopularopinion/comments/rxojhw/stop_calling_the_vought_f8_crusader_the_last/",
-        "publisher": "Reddit discussion",
-        "note": "Used only to document public disagreement over the nickname and gunfighter mythology; factual checks rely on USNI and archival sources."
-      },
-      {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
@@ -2272,7 +2258,7 @@
       "exact_fact_count": 58,
       "operator_entries": 5,
       "variant_entries": 7,
-      "external_article_sources": 12
+      "external_article_sources": 10
     },
     "footnotes": [
       {
@@ -2344,20 +2330,6 @@
         "url": "https://commons.wikimedia.org/wiki/File:1972-10-07_VoughtF-8_FlyByWire.jpg",
         "publisher": "Wikimedia Commons / NASA",
         "note": "Used for NASA F-8 Digital Fly-By-Wire gallery image and date/source metadata."
-      },
-      {
-        "id": "fn-reddit-perception",
-        "title": "Vought F-8 Crusader. The last naval gunfighter...",
-        "url": "https://www.reddit.com/r/navalaviation/comments/1fprhs9/vought_f8_crusader_the_last_naval_gunfighter/",
-        "publisher": "Reddit r/navalaviation",
-        "note": "Used only as an example of enthusiast discussion around the Last Gunfighter, MiG Master, variable-incidence wing, and fan reputation; not used as proof of technical facts."
-      },
-      {
-        "id": "fn-reddit-disputed",
-        "title": "Stop calling the Vought F8 Crusader \"the last gunfighter\"",
-        "url": "https://www.reddit.com/r/unpopularopinion/comments/rxojhw/stop_calling_the_vought_f8_crusader_the_last/",
-        "publisher": "Reddit discussion",
-        "note": "Used only to document public disagreement over the nickname and gunfighter mythology; factual checks rely on USNI and archival sources."
       },
       {
         "id": "fn-method",
@@ -2437,20 +2409,6 @@
         "url": "https://commons.wikimedia.org/wiki/File:1972-10-07_VoughtF-8_FlyByWire.jpg",
         "publisher": "Wikimedia Commons / NASA",
         "note": "Used for NASA F-8 Digital Fly-By-Wire gallery image and date/source metadata."
-      },
-      {
-        "id": "fn-reddit-perception",
-        "title": "Vought F-8 Crusader. The last naval gunfighter...",
-        "url": "https://www.reddit.com/r/navalaviation/comments/1fprhs9/vought_f8_crusader_the_last_naval_gunfighter/",
-        "publisher": "Reddit r/navalaviation",
-        "note": "Used only as an example of enthusiast discussion around the Last Gunfighter, MiG Master, variable-incidence wing, and fan reputation; not used as proof of technical facts."
-      },
-      {
-        "id": "fn-reddit-disputed",
-        "title": "Stop calling the Vought F8 Crusader \"the last gunfighter\"",
-        "url": "https://www.reddit.com/r/unpopularopinion/comments/rxojhw/stop_calling_the_vought_f8_crusader_the_last/",
-        "publisher": "Reddit discussion",
-        "note": "Used only to document public disagreement over the nickname and gunfighter mythology; factual checks rely on USNI and archival sources."
       }
     ],
     "article_sections": [
@@ -2963,43 +2921,35 @@
         "title": "Public Perception and Reputation",
         "paragraphs": [
           {
-            "text": "The Crusader's public reputation is unusually nickname-driven. Aviation fans commonly celebrate it as the \"Last of the Gunfighters,\" a phrase tied to its four internal cannon and contrast with the early gunless F-4 Phantom II. Neutral treatment needs to say that this is a reputation label, not a literal summary of its combat record.",
+            "text": "The Crusader's public reputation is unusually nickname-driven. It is widely remembered as the \"Last of the Gunfighters\" because it retained four internal cannon while the early F-4 Phantom II entered fleet service without a gun, but the nickname is best treated as a reputation label rather than a literal summary of Vietnam air combat.",
             "refs": [
               "fn-usni-hot-wars",
-              "fn-reddit-perception"
+              "fn-raes-archive"
             ]
           },
           {
-            "text": "Enthusiast discussions also focus on the variable-incidence wing, the MiG Master Vietnam record, French late service, and NASA fly-by-wire work. These themes are well supported as topics of interest, but social-media praise often compresses different variants and missions into a single heroic image.",
+            "text": "Its enduring appeal also comes from visible engineering and career contrasts: the variable-incidence wing, the MiG Master combat reputation, the RF-8 photo-reconnaissance record in crises, the long French carrier-service tail, and NASA's later digital-fly-by-wire conversion.",
             "refs": [
               "fn-main",
+              "fn-vfp62",
               "fn-nasa-dfbw",
-              "fn-caea-france",
-              "fn-reddit-perception"
+              "fn-caea-france"
             ]
           },
           {
-            "text": "Critics and historically minded commenters often push back on the nickname because USNI and archival sources show that only a small share of confirmed Vietnam Crusader kills came from guns alone. The best neutral wording is that the F-8 is remembered as a gun-era icon even though its most important air-to-air weapon in Vietnam was usually the Sidewinder.",
+            "text": "Balanced wording should keep those themes while avoiding mythmaking. USNI and archival sources indicate that Sidewinder missiles, not guns alone, accounted for most confirmed Crusader MiG victories, and archival scholarship also flags cannon reliability and accident-rate caveats.",
             "refs": [
               "fn-usni-hot-wars",
-              "fn-raes-archive",
-              "fn-reddit-disputed"
+              "fn-raes-archive"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Supporters emphasize speed, looks, gun armament, MiG victories, and the unusual wing.",
+            "text": "Positive memory: speed, carrier suitability, distinctive wing geometry, retained cannon, and Vietnam MiG victories.",
             "refs": [
-              "fn-reddit-perception",
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Critics emphasize the overplayed gunfighter myth, cannon reliability issues, and accident-rate concerns.",
-            "refs": [
-              "fn-reddit-disputed",
-              "fn-raes-archive"
+              "fn-main",
+              "fn-usni-hot-wars"
             ]
           },
           {
@@ -3010,9 +2960,16 @@
             ]
           },
           {
-            "text": "Conflict impact: in Vietnam the F-8 helped Navy and Marine aviation contest MiGs and provide attack/reconnaissance support, but its impact should be described through confirmed kill and mission data rather than fan claims.",
+            "text": "Technical legacy: the NASA F-8 Digital Fly-By-Wire aircraft links the Crusader to later computer-controlled military and civil aircraft.",
             "refs": [
-              "fn-raes-archive"
+              "fn-nasa-dfbw"
+            ]
+          },
+          {
+            "text": "Operational caveat: in Vietnam the F-8 contributed fighter, attack, and reconnaissance work, but its impact should be described through confirmed mission and kill data rather than simplified fan claims.",
+            "refs": [
+              "fn-raes-archive",
+              "fn-usni-hot-wars"
             ]
           }
         ]
@@ -3093,6 +3050,63 @@
             "refs": [
               "fn-caea-france"
             ]
+          }
+        ]
+      },
+      {
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "This page uses a mix of museum, naval-history, NASA, French preservation, and technical-reference sources. Specification values are kept variant-specific because prototype, F-8E, French F-8E(FN)/F-8P, and NASA research-aircraft figures do not describe one interchangeable standard aircraft.",
+            "refs": [
+              "fn-main",
+              "fn-usni-cold-war",
+              "fn-caea-france",
+              "fn-nasa-dfbw"
+            ]
+          },
+          {
+            "text": "The article deliberately separates verified historical themes from popular labels. The \"Last Gunfighter\" nickname is retained as a public-reputation point, while combat and safety claims are tied to USNI and archival analysis rather than unsourced enthusiast summaries.",
+            "refs": [
+              "fn-usni-hot-wars",
+              "fn-raes-archive"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Primary airframe history",
+            "text": "Museum of Flight XF8U-1 Crusader page for prototype chronology, variable-incidence-wing explanation, first flight, Collier Trophy, and John Glenn context."
+          },
+          {
+            "title": "Operational history",
+            "text": "U.S. Naval Institute Naval History articles for Cold War, Vietnam, MiG-kill, fighter-retirement, and RF-8 service context."
+          },
+          {
+            "title": "Research legacy",
+            "text": "NASA Armstrong F-8 Digital Fly-By-Wire source for the 1972 first flight, Apollo-computer basis, 210 flights, and 13-year program."
+          },
+          {
+            "title": "Variant cautions",
+            "text": "French F-8E(FN)/F-8P and GlobalSecurity figures are used as cross-checks, not as a single universal specification set."
+          }
+        ],
+        "links": [
+          {
+            "label": "Museum of Flight — Vought XF8U-1 Crusader",
+            "url": "https://www.museumofflight.org/exhibits-and-events/aircraft/vought-xf-8a-xf8u-1-crusader"
+          },
+          {
+            "label": "U.S. Naval Institute — Not the Last Gunfighter, Cold War",
+            "url": "https://www.usni.org/magazines/naval-history-magazine/2016/april/historic-aircraft-not-last-gunfighter-part-1-cold-war"
+          },
+          {
+            "label": "NASA Armstrong — F-8 Digital Fly-By-Wire",
+            "url": "https://www.nasa.gov/centers-and-facilities/armstrong/flying-with-nasa-digital-fly-by-wire/"
+          },
+          {
+            "label": "CAEA — F-8E(FN) Crusader",
+            "url": "https://www.caea.fr/avions/crusader-f-8efn/"
           }
         ]
       },
