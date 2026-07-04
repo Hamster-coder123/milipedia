@@ -27247,34 +27247,115 @@
   {
     "id": "uh-1-iroquois",
     "name": "Bell UH-1 Iroquois",
-    "alternative_names": [],
+    "alternative_names": [
+      "Huey",
+      "Bell 204/205 military family"
+    ],
     "nato_reporting_name": null,
     "country_of_origin": "United States",
     "manufacturer": "Bell Helicopter",
-    "role": "Utility helicopter",
-    "aircraft_type": "Helicopter",
-    "era": "Cold War/Modern",
-    "first_flight": "1956",
+    "role": "Utility, assault-support, medical-evacuation, and armed escort helicopter",
+    "aircraft_type": "Single-engine utility helicopter",
+    "era": "Cold War / modern legacy service",
+    "first_flight": "20 October 1956 (XH-40 prototype)",
     "introduction_date": "1959",
-    "retirement_date": null,
-    "status": "Active/retired by operator",
-    "number_built": "Not listed",
-    "crew": "1-4",
+    "retirement_date": "Retired by many original operators; legacy and derivative service continues by operator",
+    "status": "Retired from front-line U.S. Army service; retained by some military, government, and civil operators in upgraded or derivative forms",
+    "number_built": "More than 16,000 UH-1-family aircraft (public family-level figure)",
+    "crew": "1-4 crew depending mission; typical utility crew includes pilot, copilot, and crew chief/gunner positions",
     "engine_type": "Turboshaft",
-    "engines": "Not listed",
-    "max_speed": "Subsonic",
-    "speed_category": "Subsonic",
-    "range": "Not listed",
-    "combat_range": "Not listed",
-    "service_ceiling": "Not listed",
-    "rate_of_climb": "Not listed",
-    "armament": "Utility helicopter weapons not listed.",
-    "hardpoints": "Not listed",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Bell UH-1 Iroquois: Utility helicopter. Manufacturer: Bell Helicopter. First flight: 1956. Introduction: 1959.",
-    "short_summary": "Bell UH-1 Iroquois: Utility helicopter. Origin: United States. Manufacturer: Bell Helicopter. First flight: 1956. Introduction: 1959. Status: Active/retired by operator.",
+    "engines": "One Lycoming/Textron Lycoming T53 turboshaft on UH-1A/B/C/D/H family aircraft; later UH-1N/Y derivatives use twin engines",
+    "max_speed": "About 110 knots / 127 mph for UH-1H-class aircraft; variant-dependent",
+    "speed_category": "Subsonic rotorcraft",
+    "range": "About 315 miles for UH-1H-class aircraft; varies with fuel, payload, and mission profile",
+    "combat_range": "Mission-dependent; troop-lift, medevac, gunship, and escort profiles carried different fuel and payload tradeoffs",
+    "service_ceiling": "About 12,600 ft for UH-1H-class aircraft; variant-dependent",
+    "rate_of_climb": "About 1,600 ft/min for UH-1H-class aircraft; load and density-altitude dependent",
+    "armament": "Utility aircraft could be unarmed; Vietnam-era gunship and escort configurations used door guns, machine-gun pods, rocket launchers, grenade launchers, or experimental guided weapons depending variant and unit fit.",
+    "hardpoints": "Mission kits and side-mounted weapon systems on armed variants; transport and medevac aircraft often flew without fixed external stores.",
+    "variants": [
+      {
+        "name": "XH-40 / YH-40",
+        "description": "Prototype and service-test aircraft for the Army's turbine-powered utility-helicopter program; the first XH-40 flew on 20 October 1956."
+      },
+      {
+        "name": "HU-1A / UH-1A",
+        "description": "Initial production model introduced in 1959; redesignated UH-1A under the 1962 U.S. tri-service designation system."
+      },
+      {
+        "name": "UH-1B",
+        "description": "Improved short-cabin version with more power and equipment capacity; widely adapted for escort, fire-support, and utility tasks."
+      },
+      {
+        "name": "UH-1C",
+        "description": "Gunship-oriented improvement with rotor, control, and power changes intended to support heavier weapons and better maneuverability."
+      },
+      {
+        "name": "UH-1D",
+        "description": "Stretched-cabin transport version with a larger cabin and side doors, better suited to troop lift and medevac work."
+      },
+      {
+        "name": "UH-1H",
+        "description": "Improved long-cabin model with T53-L-13-series power; one of the principal Vietnam-era and postwar utility Huey variants."
+      },
+      {
+        "name": "UH-1E / UH-1F / UH-1P",
+        "description": "Marine Corps and Air Force variants tailored for service-specific communications, rescue, base-support, training, and special-mission tasks."
+      },
+      {
+        "name": "UH-1N Twin Huey",
+        "description": "Twin-engine derivative developed from the Bell 212 line and used by U.S. and allied services for utility, command, security, and training roles."
+      },
+      {
+        "name": "UH-1Y Venom",
+        "description": "Modern twin-engine Marine Corps utility helicopter derived from the Huey lineage; substantially new in systems, engines, rotor, and survivability features."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "U.S. Army",
+        "notes": "Original and best-known operator; used the UH-1 for airmobile assault, medevac, command-and-control, resupply, training, and general utility work, especially during the Vietnam War."
+      },
+      {
+        "country": "United States",
+        "service": "U.S. Marine Corps",
+        "notes": "Operated UH-1E and later Huey-family aircraft; modern Marine utility-helicopter service continues through the UH-1Y Venom lineage rather than the original single-engine UH-1."
+      },
+      {
+        "country": "United States",
+        "service": "U.S. Air Force",
+        "notes": "Used UH-1F/P and UH-1N-family helicopters for base support, missile-field security, rescue support, training, and special-mission duties depending era."
+      },
+      {
+        "country": "South Vietnam",
+        "service": "Republic of Vietnam Air Force",
+        "notes": "Major Vietnam War operator supplied with Hueys for troop lift, utility, and combat-support missions."
+      },
+      {
+        "country": "Australia",
+        "service": "Royal Australian Air Force and Australian Army",
+        "notes": "Operated Iroquois helicopters for Vietnam-era and postwar utility, battlefield support, and training tasks."
+      },
+      {
+        "country": "Canada",
+        "service": "Canadian Armed Forces",
+        "notes": "Used the CH-118 and related Bell utility-helicopter family aircraft before later Griffon service."
+      },
+      {
+        "country": "Japan",
+        "service": "Japan Ground Self-Defense Force",
+        "notes": "Operated UH-1-family utility helicopters and license-built or locally supported variants for domestic utility missions."
+      },
+      {
+        "country": "Global",
+        "service": "Military, government, and civil operators",
+        "notes": "The broader Bell 204/205/UH-1 family served worldwide; local model, engine, and weapons fits varied widely."
+      }
+    ],
+    "combat_history": "Iconic U.S. and allied helicopter of the Vietnam War, used for air assault, medical evacuation, command and control, resupply, reconnaissance support, and armed escort/gunship missions; later used globally in military and civil roles.",
+    "development_history": "Bell developed the UH-1 from the Army's turbine-powered utility helicopter requirement. The XH-40 prototype first flew in 1956, the HU-1A entered service in 1959, and the 1962 tri-service designation system changed HU-1 to UH-1. Long-cabin UH-1D/H models became the best-known troop-lift Hueys, while armed UH-1B/C gunships and twin-engine UH-1N/UH-1Y derivatives extended the family.",
+    "short_summary": "The Bell UH-1 Iroquois, universally known as the Huey, is the turbine utility helicopter that made airmobile warfare visually synonymous with the Vietnam War. It combined a turboshaft engine, broad cabin doors, skid landing gear, simple field maintenance, and adaptable mission kits for troop lift, medevac, command and control, resupply, and armed escort.",
     "carrier_capable": false,
     "stealth": false,
     "images": [
@@ -27287,18 +27368,18 @@
     ],
     "sources": [
       {
-        "id": "fn-main",
+        "id": "fn-wiki",
         "title": "Bell UH-1 Iroquois",
         "url": "https://en.wikipedia.org/wiki/Bell_UH-1_Iroquois",
         "publisher": "Wikipedia",
-        "note": "Source page used for overview, image, and reference discovery."
+        "note": "Supplementary orientation for family chronology, variants, and baseline public specifications; cross-check where possible."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "note": "Open structured data source used for aircraft identifiers and relationship checks.",
-        "publisher": "Wikidata"
+        "id": "fn-bell-uh1y",
+        "title": "Bell UH-1Y Venom product page",
+        "url": "https://www.bellflight.com/products/bell-uh-1y",
+        "publisher": "Bell Flight",
+        "note": "Manufacturer source for modern UH-1Y lineage context and current Huey-family mission framing; not used as a direct UH-1H specification source."
       },
       {
         "id": "fn-method",
@@ -27306,27 +27387,6 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.airliners.net/info/stats.main?id=73",
-        "publisher": "airliners.net",
-        "note": "External source for Bell UH-1 Iroquois."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://tri.army.mil/LC/CS/csa/xm26tow.htm",
-        "publisher": "tri.army.mil",
-        "note": "External source for Bell UH-1 Iroquois."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.airforce.forces.gc.ca/equip/historical/iroquoislst_e.asp",
-        "publisher": "airforce.forces.gc.ca",
-        "note": "External source for Bell UH-1 Iroquois."
       }
     ],
     "country_flags": [
@@ -27339,54 +27399,58 @@
       "Bell Helicopter"
     ],
     "development_tensions": [
-      "Balancing lift, survivability, vibration, hot-and-high performance, and battlefield maintainability."
+      "Creating a turbine helicopter that could lift troops and casualties from small landing zones while remaining simple enough for wartime field maintenance.",
+      "Balancing troop-carrying payload, hot-and-high performance, door-gun protection, and vulnerability to ground fire.",
+      "Adapting one basic airframe family for medevac, command-and-control, gunship, training, naval, civil, and twin-engine derivative roles."
     ],
     "wars_used_in": [
       {
         "name": "Vietnam War",
-        "note": "Bell UH-1 Iroquois used in Vietnam War."
+        "note": "Defining UH-1 combat environment, including air assault, medevac, gunship, command-and-control, resupply, and reconnaissance-support missions."
+      },
+      {
+        "name": "Cold War and post-Cold War regional conflicts",
+        "note": "The UH-1 family and derivatives served with many air arms; exact conflict use varied by operator and model."
       }
     ],
     "variant_families": [
-      "Bell UH-1 Iroquois baseline production model",
-      "Bell UH-1 Iroquois upgraded avionics or weapons-capable model",
-      "Bell UH-1 Iroquois utility, attack, naval, or export model"
+      "XH-40 / YH-40 prototypes: turbine utility-helicopter test aircraft that led to production Hueys.",
+      "HU-1A / UH-1A: initial production utility helicopter introduced before the UH-1 designation replaced HU-1.",
+      "UH-1B and UH-1C: improved short-cabin models frequently associated with armed escort and gunship roles in Vietnam.",
+      "UH-1D and UH-1H: stretched-cabin troop-lift and utility models; the UH-1H became one of the most numerous and recognizable Huey versions.",
+      "UH-1E/F/P: service-specific U.S. Marine Corps and U.S. Air Force variants with different equipment and engines.",
+      "UH-1N Twin Huey and UH-1Y Venom: twin-engine descendants that share lineage and mission heritage but are substantially modernized aircraft."
     ],
     "operator_summary": {
       "major_designer_or_builder": [
         "United States"
       ],
-      "major_user_note": "Bell UH-1 Iroquois has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "major_user_note": "Original U.S. Army service made the Huey the emblematic Vietnam War utility helicopter; the family was then exported and adapted worldwide.",
+      "all_operators_status": "Representative operators listed; exact current inventories change frequently and are intentionally not counted here."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
-        "Named pilots listed: 0.",
-        "Named individual aircraft listed: 0."
+        "The UH-1 is more notable as a family and battlefield system than for a single named airframe.",
+        "Its sound, cabin layout, and troop-lift role became part of the visual memory of the Vietnam War."
       ],
       "notable_incidents": [
-        "Notable incidents listed: 0.",
-        "Loss claims listed: 0."
+        "Vietnam War combat losses were substantial, but precise loss totals vary by category, service, and source; this page avoids a single unsupported number.",
+        "Medevac Dustoff missions became one of the type's most visible humanitarian and battlefield roles."
       ]
     },
     "engine_details": {
       "type": "Turboshaft",
-      "summary": "Bell UH-1 Iroquois uses turboshaft propulsion."
+      "summary": "Original single-engine UH-1 models used Lycoming/Textron Lycoming T53 turboshaft engines; T53 subvariants and ratings differed across UH-1A/B/C/D/H models. Twin-engine descendants such as UH-1N and UH-1Y are related but technically distinct."
     },
     "armament_details": {
-      "summary": "Utility helicopter weapons not listed.",
-      "caution": "Exact weapon list: Not listed."
+      "summary": "The basic Huey was a utility helicopter, not a dedicated attack helicopter. Armed versions used flexible door guns and mission kits such as machine guns, miniguns, rocket pods, grenade launchers, and limited guided-weapon trials depending variant and unit.",
+      "caution": "Do not assume every UH-1 carried weapons: medevac, transport, command, and training aircraft often flew unarmed or with only defensive door guns."
     },
     "similar_development": [
       {
         "id": "ah-1-cobra",
         "name": "Bell AH-1 Cobra",
         "url": "aircraft.html?id=ah-1-cobra"
-      },
-      {
-        "id": "ah-64-apache",
-        "name": "Boeing AH-64 Apache",
-        "url": "aircraft.html?id=ah-64-apache"
       },
       {
         "id": "uh-60-black-hawk",
@@ -27397,79 +27461,49 @@
         "id": "ch-47-chinook",
         "name": "Boeing CH-47 Chinook",
         "url": "aircraft.html?id=ch-47-chinook"
+      },
+      {
+        "id": "ah-64-apache",
+        "name": "Boeing AH-64 Apache",
+        "url": "aircraft.html?id=ah-64-apache"
       }
     ],
     "article_quality": {
-      "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 3
+      "exact_fact_count": 26,
+      "operator_entries": 8,
+      "variant_entries": 9,
+      "external_article_sources": 1
     },
     "footnotes": [
       {
-        "id": "fn-main",
+        "id": "fn-wiki",
         "title": "Bell UH-1 Iroquois",
         "url": "https://en.wikipedia.org/wiki/Bell_UH-1_Iroquois",
         "publisher": "Wikipedia",
-        "note": "Source page used for the article overview, page image, and reference discovery."
+        "note": "Supplementary orientation for family chronology, variants, and baseline public specifications; cross-check where possible."
       },
       {
-        "id": "fn-wikidata",
-        "title": "Wikidata Query Service",
-        "url": "https://query.wikidata.org/",
-        "publisher": "Wikidata",
-        "note": "Open structured-data source recommended for automated identifiers, relationships, manufacturers, operators, and dates."
+        "id": "fn-bell-uh1y",
+        "title": "Bell UH-1Y Venom product page",
+        "url": "https://www.bellflight.com/products/bell-uh-1y",
+        "publisher": "Bell Flight",
+        "note": "Manufacturer source for modern UH-1Y lineage context and current Huey-family mission framing; not used as a direct UH-1H specification source."
       },
       {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
-        "note": "Local rules for units, source citation, neutral wording, and estimate labels."
-      },
-      {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.airliners.net/info/stats.main?id=73",
-        "publisher": "airliners.net",
-        "note": "External source for Bell UH-1 Iroquois."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://tri.army.mil/LC/CS/csa/xm26tow.htm",
-        "publisher": "tri.army.mil",
-        "note": "External source for Bell UH-1 Iroquois."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.airforce.forces.gc.ca/equip/historical/iroquoislst_e.asp",
-        "publisher": "airforce.forces.gc.ca",
-        "note": "External source for Bell UH-1 Iroquois."
+        "note": "Local rules for neutral wording, estimates, variant differences, and source handling."
       }
     ],
     "external_articles": [
       {
-        "id": "fn-ext-1",
-        "title": "External source 1",
-        "url": "http://www.airliners.net/info/stats.main?id=73",
-        "publisher": "airliners.net",
-        "note": "External source for Bell UH-1 Iroquois."
-      },
-      {
-        "id": "fn-ext-2",
-        "title": "External source 2",
-        "url": "http://tri.army.mil/LC/CS/csa/xm26tow.htm",
-        "publisher": "tri.army.mil",
-        "note": "External source for Bell UH-1 Iroquois."
-      },
-      {
-        "id": "fn-ext-3",
-        "title": "External source 3",
-        "url": "http://www.airforce.forces.gc.ca/equip/historical/iroquoislst_e.asp",
-        "publisher": "airforce.forces.gc.ca",
-        "note": "External source for Bell UH-1 Iroquois."
+        "id": "fn-bell-uh1y",
+        "title": "Bell UH-1Y Venom product page",
+        "url": "https://www.bellflight.com/products/bell-uh-1y",
+        "publisher": "Bell Flight",
+        "note": "Manufacturer source for modern UH-1Y lineage context and current Huey-family mission framing."
       }
     ],
     "article_sections": [
@@ -27478,20 +27512,22 @@
         "title": "Overview",
         "paragraphs": [
           {
-            "text": "Bell UH-1 Iroquois is an Utility helicopter from United States. Manufacturer: Bell Helicopter. First flight: 1956. Introduction: 1959. Status: Active/retired by operator.",
+            "text": "The Bell UH-1 Iroquois, better known as the Huey, was the turbine utility helicopter that made vertical envelopment practical at large scale for the U.S. Army. It entered service in 1959, became inseparable from Vietnam War air assault and medevac operations, and then spread through military, government, and civil fleets around the world.",
             "refs": [
-              "fn-main"
+              "fn-wiki"
             ]
           },
           {
-            "text": "Bell UH-1 Iroquois is a helicopter. Primary role: utility helicopter. Country of origin: United States. Manufacturer: Bell Helicopter.",
+            "text": "The Huey's importance was less a single performance figure than a combination of broad cabin doors, skid landing gear, a relatively simple T53 turboshaft powerplant, and mission kits that let the same airframe lift troops, evacuate casualties, command units, resupply positions, or carry door guns and rockets.",
             "refs": [
-              "fn-wikidata"
+              "fn-wiki",
+              "fn-method"
             ]
           },
           {
-            "text": "Exact structured fact fields: 15.",
+            "text": "Later twin-engine Huey descendants, including the UH-1N and modern UH-1Y, share the name and mission heritage but should not be treated as identical to Vietnam-era single-engine UH-1D/H aircraft when comparing specifications or weapons fits.",
             "refs": [
+              "fn-bell-uh1y",
               "fn-method"
             ]
           }
@@ -27499,44 +27535,72 @@
         "cards": [
           {
             "title": "Primary role",
-            "text": "Utility helicopter"
+            "text": "Utility, assault-support, medevac, command-and-control, and armed escort depending configuration"
           },
           {
-            "title": "Designer or builder",
-            "text": "Bell Helicopter"
+            "title": "First flight",
+            "text": "20 October 1956, XH-40 prototype"
           },
           {
-            "title": "Major origin",
-            "text": "United States"
+            "title": "Service entry",
+            "text": "1959 as HU-1A / later UH-1A"
           },
           {
-            "title": "Propulsion",
-            "text": "Turboshaft"
+            "title": "Production scale",
+            "text": "More than 16,000 UH-1-family aircraft publicly cited"
+          },
+          {
+            "title": "Signature conflict",
+            "text": "Vietnam War air assault and Dustoff medevac operations"
           }
         ]
       },
       {
-        "id": "development",
-        "title": "Development",
+        "id": "development-history",
+        "title": "Development History",
         "paragraphs": [
           {
-            "text": "Bell UH-1 Iroquois first flew in 1956. Introduction date: 1959. Era: Cold War/Modern.",
+            "text": "Bell's Huey came from the U.S. Army requirement for a turbine-powered utility helicopter that could carry casualties, troops, cargo, and command equipment from confined landing zones. The XH-40 prototype first flew in 1956, and the HU-1A entered service before the 1962 U.S. designation reform changed HU-1 to UH-1.",
             "refs": [
-              "fn-main"
+              "fn-wiki"
             ]
           },
           {
-            "text": "Producer: Bell Helicopter. Development context: utility helicopter, turboshaft propulsion, subsonic speed category, Cold War/Modern era.",
+            "text": "Early UH-1A and UH-1B aircraft proved the basic turbine utility-helicopter concept, while UH-1C improvements addressed the demands of armed escort and gunship operations. The longer-cabin UH-1D and UH-1H shifted the family toward the familiar troop-lift Huey layout with larger doors and better cabin capacity.",
             "refs": [
-              "fn-wikidata"
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Production and rebuild programs produced numerous service-specific and export forms. Because the family spans single-engine Army aircraft, Marine and Air Force variants, civil Bell 204/205 relatives, and later twin-engine descendants, this page treats UH-1H-style figures as representative rather than universal.",
+            "refs": [
+              "fn-method"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Balancing lift, survivability, vibration, hot-and-high performance, and battlefield maintainability.",
+            "text": "1956: XH-40 prototype first flight.",
             "refs": [
-              "fn-method"
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "1959: Initial HU-1A service entry.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "1962: HU-1 became UH-1 under the U.S. tri-service aircraft designation system; the 'Huey' nickname remained.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "1960s: UH-1B/C gunship and UH-1D/H troop-lift families matured under Vietnam War demands.",
+            "refs": [
+              "fn-wiki"
             ]
           }
         ]
@@ -27546,114 +27610,87 @@
         "title": "Design and Capabilities",
         "paragraphs": [
           {
-            "text": "Crew: 1-4. Propulsion: Turboshaft. Speed category: Subsonic.",
+            "text": "The Huey used a conventional single-main-rotor and tail-rotor layout with skid landing gear, a compact fuselage, and large sliding cabin doors. Those doors made rapid boarding, casualty loading, door-gun operation, and sling-load coordination easier than on many earlier piston helicopters.",
             "refs": [
-              "fn-main"
+              "fn-wiki"
             ]
           },
           {
-            "text": "Carrier capable: no. Stealth: no.",
+            "text": "Most classic Army UH-1 models used one Lycoming/Textron Lycoming T53 turboshaft. The turbine engine gave the aircraft a better power-to-weight and maintenance profile than older piston utility helicopters, but hot-and-high conditions, armor, fuel, ammunition, and troop loads still forced careful payload tradeoffs.",
+            "refs": [
+              "fn-wiki",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Avionics and defensive equipment varied by era and operator. Vietnam-era aircraft were comparatively simple; later rebuilt and export Hueys could add radios, navigation aids, armor, crashworthy features, infrared-suppression kits, or modern mission equipment depending budget and mission.",
             "refs": [
               "fn-method"
             ]
           },
           {
-            "text": "Bell UH-1 Iroquois uses turboshaft propulsion. Engine model field: Not listed.",
+            "text": "Armament was mission fit rather than an inherent fixed installation. A transport or Dustoff aircraft might be unarmed or carry door guns, while gunship and escort Hueys could carry flexible machine guns, miniguns, rocket pods, grenade launchers, or limited guided-weapon trials.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Armament field: Utility helicopter weapons not listed. Exact weapon list: Not listed.",
-            "refs": [
-              "fn-main"
+              "fn-wiki",
+              "fn-method"
             ]
           }
         ],
         "cards": [
           {
-            "title": "Crew",
-            "text": "1-4"
+            "title": "Airframe",
+            "text": "Single-main-rotor utility helicopter with tail rotor, skids, and sliding cabin doors"
           },
           {
-            "title": "Engine class",
-            "text": "Turboshaft"
+            "title": "Powerplant",
+            "text": "T53 turboshaft family on classic single-engine models"
           },
           {
-            "title": "Speed class",
-            "text": "Subsonic"
+            "title": "Cabin role",
+            "text": "Troop lift, medevac, command-and-control, cargo, or gunship fit"
           },
           {
-            "title": "Carrier capable",
-            "text": "No"
-          },
-          {
-            "title": "Stealth",
-            "text": "No"
+            "title": "Armament caution",
+            "text": "Weapons varied by mission kit; not all Hueys were armed"
           }
         ]
       },
       {
-        "id": "service",
-        "title": "Operational History",
+        "id": "specifications",
+        "title": "Specifications",
         "paragraphs": [
           {
-            "text": "Bell UH-1 Iroquois status: Active/retired by operator. Conflict entries: 1.",
+            "text": "Representative figures below are for UH-1H-class aircraft where public sources commonly provide a baseline. Earlier UH-1A/B/C aircraft, Marine and Air Force variants, civil Bell 204/205 relatives, and twin-engine UH-1N/Y descendants differed in engine, rotor, dimensions, mission equipment, and performance.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Conflicts: Vietnam War.",
-            "refs": [
+              "fn-wiki",
               "fn-method"
             ]
           }
         ],
-        "bullets": [
+        "cards": [
           {
-            "text": "Vietnam War: Bell UH-1 Iroquois used in Vietnam War.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "notable",
-        "title": "Notable Aircraft, Pilots, and Incidents",
-        "paragraphs": [
-          {
-            "text": "Bell UH-1 Iroquois named pilots: 0. Named individual aircraft: 0. Dated incident entries: 0. Loss-claim entries: 0.",
-            "refs": [
-              "fn-main"
-            ]
-          }
-        ],
-        "bullets": [
-          {
-            "text": "Named pilots listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Crew and capacity",
+            "text": "1-4 crew; approximately 10-14 troops or mission equipment depending fit and conditions"
           },
           {
-            "text": "Named individual aircraft listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Powerplant",
+            "text": "One Lycoming/Textron Lycoming T53 turboshaft on classic UH-1H-class aircraft"
           },
           {
-            "text": "Notable incidents listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Maximum speed",
+            "text": "About 110 knots / 127 mph for UH-1H-class aircraft"
           },
           {
-            "text": "Loss claims listed: 0.",
-            "refs": [
-              "fn-method"
-            ]
+            "title": "Range",
+            "text": "About 315 miles for UH-1H-class aircraft; mission dependent"
+          },
+          {
+            "title": "Service ceiling",
+            "text": "About 12,600 ft for UH-1H-class aircraft"
+          },
+          {
+            "title": "Armament",
+            "text": "Door guns, miniguns, rockets, grenade launchers, or unarmed utility/medevac fit depending mission"
           }
         ]
       },
@@ -27662,35 +27699,48 @@
         "title": "Variants",
         "paragraphs": [
           {
-            "text": "Bell UH-1 Iroquois variant-family entries: 3. Variant families: Bell UH-1 Iroquois baseline production model; Bell UH-1 Iroquois upgraded avionics or weapons-capable model; Bell UH-1 Iroquois utility, attack, naval, or export model.",
+            "text": "The UH-1 family is a chain of related models rather than one standard aircraft. Short-cabin UH-1A/B/C aircraft, long-cabin UH-1D/H transports, service-specific UH-1E/F/P aircraft, and twin-engine UH-1N/Y descendants should be compared carefully.",
             "refs": [
-              "fn-main"
-            ]
-          },
-          {
-            "text": "Complete variant entries listed: 0.",
-            "refs": [
-              "fn-method"
+              "fn-wiki",
+              "fn-bell-uh1y"
             ]
           }
         ],
         "bullets": [
           {
-            "text": "Bell UH-1 Iroquois baseline production model",
+            "text": "XH-40 / YH-40: prototype and service-test aircraft for the turbine utility-helicopter concept.",
             "refs": [
-              "fn-main"
+              "fn-wiki"
             ]
           },
           {
-            "text": "Bell UH-1 Iroquois upgraded avionics or weapons-capable model",
+            "text": "UH-1A/B: early production utility models; UH-1B gained performance and equipment improvements.",
             "refs": [
-              "fn-main"
+              "fn-wiki"
             ]
           },
           {
-            "text": "Bell UH-1 Iroquois utility, attack, naval, or export model",
+            "text": "UH-1C: gunship-oriented short-cabin model with improvements for heavier armed-escort use.",
             "refs": [
-              "fn-main"
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "UH-1D/H: stretched-cabin troop-lift and medevac family, with UH-1H becoming the classic high-production Huey image.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "UH-1E/F/P: U.S. Marine Corps and U.S. Air Force variants with service-specific equipment.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "UH-1N and UH-1Y: twin-engine descendants; the UH-1Y is a modernized Marine Corps utility helicopter rather than a simple UH-1H upgrade.",
+            "refs": [
+              "fn-bell-uh1y"
             ]
           }
         ]
@@ -27700,13 +27750,108 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Designer or builder countries: United States. Bell UH-1 Iroquois has 1 designer or builder country entry.",
+            "text": "The U.S. Army was the defining operator, but UH-1-family helicopters served with U.S. Marine Corps, U.S. Air Force, allied, and export forces. This page lists representative operators rather than a full current-inventory table because many surviving aircraft are rebuilt, transferred, civil-registered, or locally modified.",
             "refs": [
-              "fn-wikidata"
+              "fn-wiki",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "United States Army: original large-scale operator for Vietnam-era air assault, medevac, command, training, and utility missions.",
+            "refs": [
+              "fn-wiki"
             ]
           },
           {
-            "text": "Operator entries listed: 0.",
+            "text": "United States Marine Corps: UH-1E and later Huey-family service, now represented by the modern UH-1Y lineage.",
+            "refs": [
+              "fn-bell-uh1y"
+            ]
+          },
+          {
+            "text": "United States Air Force: UH-1F/P and UH-1N-family aircraft for support, security, rescue-support, and special-mission uses by era.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "South Vietnam, Australia, Canada, Japan, and many other users operated UH-1 or closely related Bell utility-helicopter models.",
+            "refs": [
+              "fn-wiki"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operational-history",
+        "title": "Operational History",
+        "paragraphs": [
+          {
+            "text": "In Vietnam the Huey enabled air assault on a scale unmatched by earlier helicopters. It moved infantry, ammunition, water, radios, commanders, casualties, and reconnaissance teams between firebases, landing zones, ships, and rear areas, often under small-arms and automatic-weapons fire.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Medevac Hueys, commonly associated with Dustoff missions, became one of the type's most important battlefield roles. Their ability to retrieve wounded personnel from small landing zones changed casualty evacuation timelines, although the aircraft and crews remained vulnerable during pickup and departure.",
+            "refs": [
+              "fn-wiki",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Armed UH-1s escorted troop carriers, suppressed landing zones, supported ground units, and tested weapon concepts that helped lead to purpose-built attack helicopters such as the AH-1 Cobra. After Vietnam, surviving Hueys continued in training, reserve, firefighting, police, border, utility, and civil-support roles worldwide.",
+            "refs": [
+              "fn-wiki"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strengths-limitations",
+        "title": "Strengths and Limitations",
+        "paragraphs": [
+          {
+            "text": "The Huey's strengths were adaptability, maintainability, mission flexibility, and the ability to place troops or casualties where roads and runways were unavailable. Its simple layout and huge production base made it easier to train crews and sustain fleets than more specialized aircraft.",
+            "refs": [
+              "fn-wiki",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Its limitations were equally important: limited payload in hot-and-high conditions, vulnerability to ground fire, noise and infrared signature, modest speed and range, and the compromises of using one airframe for both transport and armed escort. Later attack and utility helicopters separated many roles that the Huey had performed with mission kits.",
+            "refs": [
+              "fn-method"
+            ]
+          }
+        ],
+        "cards": [
+          {
+            "title": "Strength",
+            "text": "Highly adaptable utility platform with troop, medevac, cargo, command, and armed configurations"
+          },
+          {
+            "title": "Strength",
+            "text": "Simple, familiar, widely produced family with large global support base"
+          },
+          {
+            "title": "Limitation",
+            "text": "Vulnerable to ground fire and payload/range penalties in difficult conditions"
+          },
+          {
+            "title": "Limitation",
+            "text": "Variant differences make single-number specifications misleading"
+          }
+        ]
+      },
+      {
+        "id": "timeline",
+        "title": "Timeline",
+        "paragraphs": [
+          {
+            "text": "The timeline emphasizes broad family milestones and avoids claiming that every derivative shares the same specification standard.",
             "refs": [
               "fn-method"
             ]
@@ -27714,43 +27859,79 @@
         ],
         "bullets": [
           {
-            "text": "All operators status: 0 operator entries listed.",
+            "text": "1956 — XH-40 prototype first flight.",
             "refs": [
-              "fn-main"
+              "fn-wiki"
             ]
           },
           {
-            "text": "Major designer or builder entries: United States.",
+            "text": "1959 — HU-1A enters U.S. Army service.",
             "refs": [
-              "fn-wikidata"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "specifications",
-        "title": "Specifications",
-        "paragraphs": [
-          {
-            "text": "Comparable fields: crew 1-4, propulsion type Turboshaft, maximum speed category Subsonic, first flight 1956, introduction 1959.",
-            "refs": [
-              "fn-main"
+              "fn-wiki"
             ]
           },
           {
-            "text": "Dimensions: Not listed. Weights: Not listed. Range: Not listed. Combat radius: Not listed. Service ceiling: Not listed. Climb rate: Not listed.",
+            "text": "1962 — UH-1 designation adopted; Huey nickname remains from the earlier HU-1 designation.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "1960s-1970s — UH-1B/C gunships and UH-1D/H troop carriers become central to Vietnam War helicopter operations.",
+            "refs": [
+              "fn-wiki"
+            ]
+          },
+          {
+            "text": "Post-Vietnam — many operators retain, rebuild, export, or civilianize Hueys while newer UH-60-class utility helicopters replace the type in front-line U.S. Army service.",
             "refs": [
               "fn-method"
             ]
+          },
+          {
+            "text": "Modern era — UH-1N and UH-1Y descendants continue the Huey name in twin-engine, substantially upgraded forms.",
+            "refs": [
+              "fn-bell-uh1y"
+            ]
           }
         ]
       },
       {
-        "id": "similar-development",
-        "title": "Similar Development",
+        "id": "sources-notes",
+        "title": "Sources and Notes",
         "paragraphs": [
           {
-            "text": "Bell UH-1 Iroquois similar-development links: 4.",
+            "text": "Specifications, production totals, and current operator status vary by source because the UH-1 label covers prototypes, early short-cabin aircraft, stretched long-cabin aircraft, civil Bell 204/205 relatives, and later twin-engine descendants. Public UH-1H-style data is used here as a representative baseline, not a universal value.",
+            "refs": [
+              "fn-wiki",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The Bell UH-1Y page is used only for modern manufacturer context on the current Huey-named utility-helicopter lineage. It is not treated as a source for original UH-1A/B/C/D/H performance figures.",
+            "refs": [
+              "fn-bell-uh1y",
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Bell UH-1 Iroquois — Wikipedia orientation",
+            "url": "https://en.wikipedia.org/wiki/Bell_UH-1_Iroquois"
+          },
+          {
+            "label": "Bell UH-1Y Venom — Bell Flight",
+            "url": "https://www.bellflight.com/products/bell-uh-1y"
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related Milipedia pages show how the Huey influenced dedicated attack helicopters and later utility/heavy-lift rotorcraft.",
             "refs": [
               "fn-method"
             ]
@@ -27762,16 +27943,20 @@
             "url": "aircraft.html?id=ah-1-cobra"
           },
           {
-            "label": "Boeing AH-64 Apache",
-            "url": "aircraft.html?id=ah-64-apache"
-          },
-          {
             "label": "Sikorsky UH-60 Black Hawk",
             "url": "aircraft.html?id=uh-60-black-hawk"
           },
           {
             "label": "Boeing CH-47 Chinook",
             "url": "aircraft.html?id=ch-47-chinook"
+          },
+          {
+            "label": "Boeing AH-64 Apache",
+            "url": "aircraft.html?id=ah-64-apache"
+          },
+          {
+            "label": "Back to aircraft database",
+            "url": "index.html#database"
           }
         ]
       }
@@ -27779,8 +27964,8 @@
     "event_gallery": [
       {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg/960px-U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg",
-        "caption": "Vietnam War",
-        "source_url": "https://en.wikipedia.org/wiki/Vietnam_War"
+        "caption": "UH-1H Hueys inserting ARVN troops during the Vietnam War, representative of the type's air assault role.",
+        "source_url": "https://en.wikipedia.org/wiki/Bell_UH-1_Iroquois"
       }
     ]
   },
