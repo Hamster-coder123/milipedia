@@ -68341,6 +68341,34 @@
         "url": "https://query.wikidata.org/",
         "publisher": "Wikidata",
         "note": "Structured-data background check for identifiers and relationships."
+      },
+      {
+        "id": "fn-aeronautica-mb339",
+        "title": "MB-339",
+        "url": "https://www.aeronautica.difesa.it/2023/06/01/mb-339/",
+        "publisher": "Aeronautica Militare",
+        "note": "Official Italian Air Force page used for MB-339A/PAN/CD roles, raised rear-seat design, light-attack/CAS wording, CD avionics, HUD/MFD fit, and low-speed/low-altitude air-defence tasking."
+      },
+      {
+        "id": "fn-flugzeuginfo",
+        "title": "Aermacchi M.B.339 - Specifications - Technical Data / Description",
+        "url": "https://www.flugzeuginfo.net/acdata_php/acdata_mb339_en.php",
+        "publisher": "Flugzeuginfo.net",
+        "note": "Independent aircraft-data reference used for MB-339A dimensions, Viper 632 powerplant, speed, range, ceiling, weights, first-flight date, and production-status caveats."
+      },
+      {
+        "id": "fn-globalsecurity",
+        "title": "Aermacchi MB.339",
+        "url": "https://www.globalsecurity.org/military/world/europe/mb-339.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Secondary technical and service-history reference used for MB-326 lineage, training/light-attack role, Frecce Tricolori context, variants, operators, Falklands/Eritrean-Ethiopian combat notes, and weapon-fit caveats."
+      },
+      {
+        "id": "fn-leonardo-m345",
+        "title": "M-345 - Training Aircraft",
+        "url": "https://www.leonardo.com/en/products/m-345",
+        "publisher": "Leonardo",
+        "note": "Manufacturer page for the newer M-345/T-345A training system, used only to frame the MB-339 replacement context rather than MB-339 specifications."
       }
     ],
     "country_flags": [
@@ -68352,8 +68380,15 @@
     "designers": [
       "Aermacchi"
     ],
-    "development_tensions": [],
-    "wars_used_in": [],
+    "development_tensions": [
+      "Low-risk MB-326 derivative design kept costs and training continuity manageable, but limited the MB-339 to subsonic trainer/light-attack performance.",
+      "The raised rear instructor seat improved training visibility, while later MB-339CD aircraft needed digital displays and HUD equipment to remain useful for fighter-track and remotely piloted aircraft training.",
+      "Trainer, display, and light-attack uses create armament ambiguity: pure training/PAN aircraft are normally unarmed, while combat-capable variants depend on national clearances and mission fit."
+    ],
+    "wars_used_in": [
+      "Falklands War",
+      "Eritrean-Ethiopian War"
+    ],
     "variant_families": [
       "MB-339X prototype",
       "MB-339A trainer/light-attack family",
@@ -68362,11 +68397,13 @@
       "MB-339K Veltro II attack demonstrator"
     ],
     "operator_summary": {
-      "major_designer_or_builder": [
-        "Italy"
+      "primary_users": [
+        "Italian Air Force / Aeronautica Militare",
+        "Frecce Tricolori",
+        "Argentine Naval Aviation",
+        "selected export air arms"
       ],
-      "major_user_note": "Aermacchi MB-339 has 1 designer or builder country entry.",
-      "all_operators_status": "0 operator entries listed."
+      "notes": "Italy was the central operator and public face of the MB-339 family; export operators used smaller fleets for training, light attack, display, or later private/adversary-training roles."
     },
     "notable": {
       "notable_pilots_or_aircraft": [
@@ -68491,9 +68528,53 @@
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
         "publisher": "Milipedia",
         "note": "Local rules for neutral wording, units, source handling, and cautious treatment of disputed claims."
+      },
+      {
+        "id": "fn-aeronautica-mb339",
+        "title": "MB-339",
+        "url": "https://www.aeronautica.difesa.it/2023/06/01/mb-339/",
+        "publisher": "Aeronautica Militare",
+        "note": "Official Italian Air Force page used for MB-339A/PAN/CD roles, raised rear-seat design, light-attack/CAS wording, CD avionics, HUD/MFD fit, and low-speed/low-altitude air-defence tasking."
+      },
+      {
+        "id": "fn-flugzeuginfo",
+        "title": "Aermacchi M.B.339 - Specifications - Technical Data / Description",
+        "url": "https://www.flugzeuginfo.net/acdata_php/acdata_mb339_en.php",
+        "publisher": "Flugzeuginfo.net",
+        "note": "Independent aircraft-data reference used for MB-339A dimensions, Viper 632 powerplant, speed, range, ceiling, weights, first-flight date, and production-status caveats."
+      },
+      {
+        "id": "fn-globalsecurity",
+        "title": "Aermacchi MB.339",
+        "url": "https://www.globalsecurity.org/military/world/europe/mb-339.htm",
+        "publisher": "GlobalSecurity.org",
+        "note": "Secondary technical and service-history reference used for MB-326 lineage, training/light-attack role, Frecce Tricolori context, variants, operators, Falklands/Eritrean-Ethiopian combat notes, and weapon-fit caveats."
+      },
+      {
+        "id": "fn-leonardo-m345",
+        "title": "M-345 - Training Aircraft",
+        "url": "https://www.leonardo.com/en/products/m-345",
+        "publisher": "Leonardo",
+        "note": "Manufacturer page for the newer M-345/T-345A training system, used only to frame the MB-339 replacement context rather than MB-339 specifications."
       }
     ],
     "external_articles": [
+      {
+        "title": "Aeronautica Militare MB-339",
+        "url": "https://www.aeronautica.difesa.it/2023/06/01/mb-339/"
+      },
+      {
+        "title": "Flugzeuginfo MB-339 technical data",
+        "url": "https://www.flugzeuginfo.net/acdata_php/acdata_mb339_en.php"
+      },
+      {
+        "title": "GlobalSecurity MB-339 background",
+        "url": "https://www.globalsecurity.org/military/world/europe/mb-339.htm"
+      },
+      {
+        "title": "Leonardo M-345 training aircraft",
+        "url": "https://www.leonardo.com/en/products/m-345"
+      },
       {
         "title": "Ramstein Air Show Disaster Retrospective",
         "url": "https://www.wired.com/2009/08/0828ramstein-air-disaster/"
@@ -68505,6 +68586,10 @@
       {
         "title": "Wikimedia Commons RMAF MB-339 Image",
         "url": "https://commons.wikimedia.org/wiki/File:RMAF_Aermacchi_MB-339.jpg"
+      },
+      {
+        "title": "Aermacchi MB-339 background orientation",
+        "url": "https://en.wikipedia.org/wiki/Aermacchi_MB-339"
       }
     ],
     "article_sections": [
@@ -68515,7 +68600,8 @@
           {
             "text": "The Aermacchi MB-339 is an Italian advanced jet trainer and light-attack aircraft developed from the earlier MB-326 lineage. It first flew on 12 August 1976 and entered service in 1979, giving Italy a domestic jet trainer that could also be adapted for weapons training, light attack, calibration, and display flying.",
             "refs": [
-              "fn-main"
+              "fn-aeronautica-mb339",
+              "fn-flugzeuginfo"
             ]
           },
           {
@@ -68560,7 +68646,8 @@
           {
             "text": "Aermacchi created the MB-339 as a lower-risk replacement for the MB-326 and Fiat G.91T training roles. Rather than a completely clean-sheet aircraft, it carried over much of the earlier MB-326 family logic while changing the forward fuselage and cockpit arrangement to improve instructor visibility.",
             "refs": [
-              "fn-main"
+              "fn-aeronautica-mb339",
+              "fn-globalsecurity"
             ]
           },
           {
@@ -68581,7 +68668,8 @@
           {
             "text": "Background: Italian need to replace aging MB-326 and Fiat G.91T trainers.",
             "refs": [
-              "fn-main"
+              "fn-aeronautica-mb339",
+              "fn-globalsecurity"
             ]
           },
           {
@@ -68612,19 +68700,22 @@
           {
             "text": "The MB-339 is a compact all-metal, low-wing trainer with tricycle landing gear, a single turbojet, side intakes, and tandem seating. The rear instructor seat is raised compared with the student position to improve forward visibility, one of the most important practical changes from the MB-326 lineage.",
             "refs": [
-              "fn-main"
+              "fn-aeronautica-mb339",
+              "fn-globalsecurity"
             ]
           },
           {
             "text": "The MB-339A family used a Rolls-Royce Viper 632-43 turbojet, while later C-family export aircraft used more powerful Viper 680-family engines. The type is subsonic and was intended for training, weapons familiarization, and light-attack work rather than high-performance fighter duties.",
             "refs": [
-              "fn-main"
+              "fn-flugzeuginfo",
+              "fn-globalsecurity"
             ]
           },
           {
             "text": "Combat-capable variants could use six underwing hardpoints for bombs, rockets, gun pods, missiles, or training stores depending on customer fit. Public sources should not treat every weapon listed for one variant as available on every MB-339, because national avionics and clearance standards differed.",
             "refs": [
-              "fn-main",
+              "fn-aeronautica-mb339",
+              "fn-globalsecurity",
               "fn-method"
             ]
           }
@@ -68632,19 +68723,23 @@
         "cards": [
           {
             "title": "Airframe",
-            "text": "Low-wing, all-metal trainer derived from MB-326 lineage"
+            "text": "Low, unswept-wing trainer derived from the MB-326 with tip tanks and side/root intakes"
           },
           {
             "title": "Cockpit",
-            "text": "Tandem seats with raised instructor position"
+            "text": "Tandem seats with a raised rear instructor position for forward visibility"
           },
           {
-            "title": "Engine",
-            "text": "Single Rolls-Royce Viper-family turbojet"
+            "title": "Powerplant",
+            "text": "Single Rolls-Royce Viper-family turbojet; Viper 632 on MB-339A references"
+          },
+          {
+            "title": "Avionics",
+            "text": "MB-339CD introduced HUD and three multifunction colour displays in both cockpits"
           },
           {
             "title": "Weapons",
-            "text": "Six hardpoints on combat-capable variants"
+            "text": "Six hardpoints on combat-capable variants; training and PAN aircraft normally unarmed"
           }
         ]
       },
@@ -68655,27 +68750,28 @@
           {
             "text": "Variant described: MB-339A-family public reference data. Dimensions, weights, and performance differ across MB-339A, PAN, C, CB, CD, CE, and CM aircraft, so these values should be read as common MB-339A-class figures rather than universal limits.",
             "refs": [
-              "fn-main",
+              "fn-flugzeuginfo",
               "fn-method"
             ]
           },
           {
             "text": "Crew: two in tandem. Length: about 10.97 m / 36 ft. Wingspan: about 10.86 to 11.22 m depending on source and tip-tank configuration. Height: about 3.99 m / 13 ft 1 in. Wing area: about 19.3 sq m / 208 sq ft.",
             "refs": [
-              "fn-main"
+              "fn-flugzeuginfo"
             ]
           },
           {
             "text": "Powerplant: one Rolls-Royce Viper 632-43 turbojet on MB-339A references. Maximum speed: about 898 km/h / 558 mph at sea level in MB-339A/PAN references. Ferry range: about 2,110 km / 1,311 mi class. Service ceiling: about 13,700 m / 45,000 ft class.",
             "refs": [
-              "fn-main",
-              "fn-frecce"
+              "fn-flugzeuginfo",
+              "fn-aeronautica-mb339"
             ]
           },
           {
             "text": "Armament: normally unarmed in pure training/display use; light-attack and weapons-training variants could carry external stores on six hardpoints, including gun pods, rockets, bombs, and selected guided weapons where cleared by the operator.",
             "refs": [
-              "fn-main",
+              "fn-aeronautica-mb339",
+              "fn-globalsecurity",
               "fn-method"
             ]
           }
@@ -68739,10 +68835,11 @@
         "title": "Operators",
         "paragraphs": [
           {
-            "text": "Italy was the principal operator, using the MB-339 for jet training and Frecce Tricolori display service. The aircraft remains strongly associated with the Italian Air Force even as training duties move to newer T-345A and M-346 aircraft.",
+            "text": "Italy was the principal operator, using the MB-339A for primary pilot training phases, the MB-339CD for fighter-track and remotely piloted aircraft training, and the MB-339PAN for Frecce Tricolori display service. The aircraft remains strongly associated with the Italian Air Force even as training duties move to newer T-345A and M-346 aircraft.",
             "refs": [
-              "fn-frecce",
-              "fn-main"
+              "fn-aeronautica-mb339",
+              "fn-leonardo-m345",
+              "fn-frecce"
             ]
           },
           {
@@ -68787,9 +68884,9 @@
         "title": "Operational History",
         "paragraphs": [
           {
-            "text": "1979 onward: the MB-339 entered Italian service as a jet trainer and became part of Italy training pipeline. Its design was practical rather than spectacular: a subsonic trainer that could prepare pilots and, in some variants, introduce weapons employment.",
+            "text": "1979 onward: the MB-339 entered Italian service as a jet trainer and became part of Italy's training pipeline. The official Italian Air Force page describes the A, PAN, and CD versions in service: A for training, PAN for Frecce Tricolori display work, and CD for fighter-track and remotely piloted aircraft training with digital cockpit equipment.",
             "refs": [
-              "fn-main"
+              "fn-aeronautica-mb339"
             ]
           },
           {
@@ -68816,8 +68913,9 @@
           {
             "text": "2020s replacement period: Italy began moving training roles to newer Leonardo aircraft, while Frecce Tricolori replacement planning ultimately pointed to the M-346 for the display team. This shift reinforces the MB-339 reputation as a long-serving but aging platform.",
             "refs": [
-              "fn-main",
-              "fn-frecce"
+              "fn-leonardo-m345",
+              "fn-frecce",
+              "fn-main"
             ]
           }
         ]
@@ -68997,6 +69095,12 @@
             ]
           },
           {
+            "text": "Strength: MB-339CD digital avionics, HUD, and multifunction displays kept the family relevant for lead-in and fighter-track training beyond the original A-model era.",
+            "refs": [
+              "fn-aeronautica-mb339"
+            ]
+          },
+          {
             "text": "Strength: strong public-recognition value through Frecce Tricolori.",
             "refs": [
               "fn-frecce",
@@ -69083,6 +69187,46 @@
             "refs": [
               "fn-asn-turin"
             ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "The MB-339 page now prioritizes the official Aeronautica Militare MB-339 page for Italian-service roles, cockpit layout, MB-339CD avionics, and PAN/CD/A version distinctions. Flugzeuginfo is used for compact MB-339A-class specification values, while GlobalSecurity is treated as a secondary cross-check for lineage, variant, operator, and combat-history context.",
+            "refs": [
+              "fn-aeronautica-mb339",
+              "fn-flugzeuginfo",
+              "fn-globalsecurity"
+            ]
+          },
+          {
+            "text": "Wikipedia and Wikimedia records remain in the source list for orientation, image licensing, and event cross-checking, but variant-sensitive performance, armament, and operator claims are phrased cautiously because MB-339A, PAN, CD, CB, CE, CM, and K aircraft differed in equipment and mission fit.",
+            "refs": [
+              "fn-main",
+              "fn-rmaf-commons",
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Aeronautica Militare MB-339",
+            "url": "https://www.aeronautica.difesa.it/2023/06/01/mb-339/"
+          },
+          {
+            "label": "Flugzeuginfo MB-339 technical data",
+            "url": "https://www.flugzeuginfo.net/acdata_php/acdata_mb339_en.php"
+          },
+          {
+            "label": "GlobalSecurity MB-339 background",
+            "url": "https://www.globalsecurity.org/military/world/europe/mb-339.htm"
+          },
+          {
+            "label": "Leonardo M-345 replacement context",
+            "url": "https://www.leonardo.com/en/products/m-345"
           }
         ]
       },

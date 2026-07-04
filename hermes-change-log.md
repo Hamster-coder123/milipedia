@@ -7246,3 +7246,80 @@ Record the result of:
 * The selected page was not a blank placeholder; it was the most incomplete remaining unselected candidate because its external source list rendered empty and its source caveats were not surfaced in article form.
 * Web extraction/search backend calls returned service errors; direct retrieval reached Boeing but NAVAIR and DSCA returned 403. Existing repository source records were retained and source-specific caveats were added rather than introducing unsupported claims.
 * No merge was attempted and the hermes-agent branch was not deleted.
+
+### Run 95 — 2026-07-04 13:11:39 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Aermacchi MB-339 (id: mb-339)
+* Reason selected: Among the remaining unedited aircraft pages, it was the shortest/least complete candidate and had incomplete rendered source integration: only three external links despite fourteen source/footnote records after update, stale generated operator metadata, empty development-tension and war-use metadata, and no renderer-compatible Sources and Notes section.
+* Previous condition: The page already had article sections but was less complete than the F-16 reference in source integration and metadata polish; it relied heavily on Wikipedia/Wikimedia records, had no official Italian Air Force source linked in the article, and did not expose its source caveats in a visible section.
+* Previously edited by Hermes: No
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dense overview-first article flow; section order with design, specifications, variants, operators, operational history, strengths/limitations, timeline, sources/related pages; compact technical cards; cautious variant-sensitive wording; visible source/reference links; internal aircraft.html?id=... related-link style.
+
+#### Changes Made
+
+* Added stronger source coverage for the MB-339 using the official Aeronautica Militare MB-339 page, Flugzeuginfo technical data, GlobalSecurity background, and Leonardo M-345 replacement-context page.
+* Added the new source records to both sources and footnotes so the page can render and cite them consistently.
+* Replaced stale generated operator_summary metadata with actual MB-339 user context.
+* Added development_tensions and wars_used_in metadata for the MB-326-derivative design, trainer/light-attack armament caveats, CD avionics modernization, Falklands War, and Eritrean-Ethiopian War use.
+* Updated overview, development, design, specifications, operators, operational history, and strengths/limitations references to rely more on official/technical sources and less on general orientation sources.
+* Expanded the design cards with airframe, cockpit, powerplant, MB-339CD avionics, and weapons-fit cards using the renderer-compatible title/text shape.
+* Added a renderer-compatible Sources and Notes section before Related Pages, with external links to official/technical source pages and caveats on Wikipedia/Wikimedia use.
+* Expanded external_articles from three to eight rendered source links and aligned article_quality.external_article_sources with the rendered count.
+* Kept variant-sensitive claims cautious; no unsupported universal armament, classified capability, or exact current-fleet claims were added.
+* Recorded web backend search/extraction failures and used direct source retrieval with a browser-like User-Agent for source checking.
+
+#### Files Modified
+
+* data/aircraft.json — Updated only the Aermacchi MB-339 entry with improved sources, visible source notes, metadata cleanup, section references, design cards, and external article links.
+* hermes-change-log.md — Appended this cumulative Run 95 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was relatively empty before editing
+* [x] Page had not already been substantially updated by Hermes
+* [x] F-16 page was used as formatting reference
+* [x] Updated page matches Milipedia style
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Formatting was checked
+* [x] The page was reviewed for missing sections
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before commit, intended changes were limited to data/aircraft.json and hermes-change-log.md.
+2. git diff — Reviewed aircraft diff; only the Aermacchi MB-339 entry changed in data/aircraft.json, adding official/technical sources, source notes, metadata cleanup, and a Sources and Notes section.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool and inspected the selected entry's section order, source counts, rendered external links, metadata fields, and renderer-compatible card/link shapes.
+4. F-16 style comparison — Inspected data/f16-template.html and matched its dense source/reference treatment, section ordering, related-link style, technical-card usage, and careful caveats within the JSON-rendered article format.
+5. Internal link check — Recursively checked aircraft.html?id=... links in the selected entry; all internal aircraft IDs resolve.
+6. Secret/token check — Checked the staged diff with credential-specific patterns for private keys, passwords, cloud credential names, and access/auth tokens; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, JSON validity, changed-file scope, one-aircraft-entry change, source caveats, log completeness, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly update: expand Aermacchi MB-339
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* The selected page was not a blank placeholder; it was the most incomplete remaining unselected candidate because its source integration and metadata were weaker than the F-16 reference despite having article text.
+* Tavily-backed web_search and web_extract returned service errors (HTTP 432), so source discovery/extraction used DuckDuckGo Lite and direct urllib retrieval where possible.
+* Some MB-339 operator/fleet and combat-effect details remain date-sensitive or claim-sensitive; the update deliberately avoided exact current-fleet counts and unsupported strike-effect claims.
+* No merge was attempted and the hermes-agent branch was not deleted.
