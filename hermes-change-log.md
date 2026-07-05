@@ -8118,3 +8118,74 @@ Record the result of:
 
 * This audit did not add unsupported new SR-71 facts; it exposed and caveated existing official/manufacturer-backed source material that was already used by the article text.
 * SR-71 sensor fits, mission details, and some Blackbird-family variant details remain configuration- and period-sensitive, so the page keeps representative wording rather than a single fixed mission-equipment table.
+
+### Run 107 — 2026-07-05 17:00:59 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json (entry id: b-2-spirit)
+* Aircraft/Page: Northrop Grumman B-2 Spirit (id: b-2-spirit)
+* Reason selected: Audit/gap-fill rotation selected a previously updated non-reference page with concrete renderer/source-integration and metadata gaps: the B-2 entry cited the Northrop Grumman overview in article text and source records but did not expose it as a rendered external article, and it retained generated conflict-gallery images that showed generic Gulf War, Iraq War, and Afghanistan scenes rather than B-2-specific source material.
+* Previous condition: The B-2 entry already had dense USAF, Northrop Grumman, and National Museum of the U.S. Air Force-backed prose plus a Sources and Notes section, but one reliable manufacturer source was missing from rendered `external_articles` and the top-level event gallery still contained unrelated placeholder imagery.
+* Previously edited by Hermes: Yes — selected in an earlier sparse-page expansion run; reselected here only for concrete audit/gap-fill corrections.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Used the F-16 template as the style/reference pattern for visible external source links, source-aware notes, cautious variant/specification caveats, and internal aircraft.html?id=... related-link treatment.
+
+#### Changes Made
+
+* Added the existing Northrop Grumman B-2 Spirit overview source to the B-2 `external_articles` array so the fourth reliable source already cited by the article is visible in the renderer.
+* Kept `article_quality.external_article_sources` aligned with the rendered external source count of four official/manufacturer/museum links.
+* Removed stale generated event-gallery images that depicted generic conflict scenes instead of B-2-specific source material.
+* Preserved existing B-2 prose, variants, operators, source records, source notes, related links, specifications, and public caveats; no unsupported new aircraft facts were introduced.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the Northrop Grumman B-2 Spirit entry's rendered external sources and stale gallery metadata.
+* hermes-change-log.md — Appended this Run 107 audit/gap-fill log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was a previously updated non-reference aircraft page
+* [x] A concrete source-rendering/metadata gap was found before editing
+* [x] F-16 page was used as formatting reference
+* [x] Updated page uses renderer-compatible article-section and external-article shapes
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, git status --short showed only data/aircraft.json and hermes-change-log.md modified.
+2. git diff — Reviewed the aircraft diff and confirmed only the B-2 entry changed inside data/aircraft.json, plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; a verification helper confirmed exactly one changed aircraft entry, preserving id b-2-spirit and preserving the total 100-entry count.
+4. F-16 style comparison — data/f16-template.html was inspected as the renderer/style reference for visible source links, source-aware notes, and aircraft.html?id=... related-link treatment.
+5. Internal link check — Recursive selected-entry check found B-2 local links only to existing IDs: b-1-lancer, b-52-stratofortress, f-35-lightning-ii, and tu-160.
+6. Source/ref check — Recursive selected-entry check found no refs pointing to missing source or footnote IDs, and the quality metadata matches the four rendered external article links.
+7. Source retrieval note — The web extraction backend returned extraction errors for the official pages; direct retrieval confirmed the Northrop Grumman overview page was reachable, while the USAF page returned a browser/access restriction. The edit relied on existing source records already cited by the page.
+8. Credential check — Checked the staged diff with credential-specific patterns; no credentials were found.
+9. Final review before commit — Confirmed branch hermes-agent, git diff --check clean, staged files limited to data/aircraft.json and hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Northrop Grumman B-2 Spirit
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This audit did not add unsupported new B-2 facts; it exposed and caveated existing official/manufacturer-backed source material that was already used by the article text.
+* Public B-2 payload, mission-system, low-observable, and modernization details remain source- and classification-sensitive, so the page keeps the existing caveated wording rather than a single uncaveated specification narrative.
