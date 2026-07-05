@@ -7907,3 +7907,72 @@ Record the result of:
 * No aircraft page was edited because all non-reference aircraft entries have already been selected by Hermes, and the remaining unselected F-16 entry is the mandatory reference page.
 * The page-edit checklist items for a selected sparse page and updated-page style are left unchecked because this was intentionally a log-only no-suitable-page run.
 * Future hourly runs should continue only if new aircraft pages are added or humans authorize broader cleanup, maintenance, or source-integration tasks beyond sparse unedited aircraft-page expansion.
+
+### Run 104 — 2026-07-05 14:02:27 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json (entry id: a-6-intruder)
+* Aircraft/Page: Grumman A-6 Intruder (id: a-6-intruder)
+* Reason selected: First audit/gap-fill pass after the sparse-page phase found concrete renderer-integration gaps in a previously selected non-reference page: article-section cards used label/value keys that render as blank cards, and article_quality.external_article_sources overstated the three rendered external article links.
+* Previous condition: The A-6 entry was expanded in an earlier run and already had museum-backed sources plus a Sources and Notes section, but its Overview and Design cards did not use the renderer-compatible title/text shape and its external-source quality count no longer matched the external_articles array.
+* Previously edited by Hermes: Yes — selected in an earlier sparse-page expansion run; reselected here only for a concrete audit/gap-fill correction.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Used the F-16 template as the style and renderer-shape reference for visible cards, source-aware article structure, related aircraft links, and concise technical metadata.
+
+#### Changes Made
+
+* Converted nine A-6 article-section cards from label/value to title/text so the current renderer displays the card headings and body text.
+* Aligned article_quality.external_article_sources with the actual rendered external_articles count: three museum/reference links.
+* Preserved the existing A-6 prose, source records, source notes, section order, variants, operators, and related aircraft links; no new unsupported factual claims were introduced.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the Grumman A-6 Intruder entry's card-key shapes and external-source quality count.
+* hermes-change-log.md — Appended this Run 104 audit/gap-fill log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was a previously updated non-reference aircraft page
+* [x] A concrete renderer/source-count gap was found before editing
+* [x] F-16 page was used as formatting reference
+* [x] Updated page uses renderer-compatible card/link shapes
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, git status --short showed only data/aircraft.json and hermes-change-log.md modified.
+2. git diff — Reviewed the aircraft diff and confirmed only A-6 card-key conversions plus the external-source count alignment changed inside data/aircraft.json.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; a verification helper confirmed exactly one changed aircraft entry, preserving id a-6-intruder and preserving the total 100-entry count.
+4. F-16 style comparison — data/f16-template.html was inspected as the renderer/style reference for visible cards, source-aware notes, and aircraft.html?id=... related-link treatment.
+5. Internal link check — Recursive selected-entry check found A-6 local links only to existing IDs: a-4-skyhawk, a-7-corsair-ii, f-105-thunderchief, f-14-tomcat, f-a-18-hornet, f-a-18e-f-super-hornet, and su-7.
+6. Source/ref check — Recursive selected-entry check found no refs pointing to missing source or footnote IDs, and the quality metadata now matches the three external article links.
+7. Credential check — Checked the staged diff with credential-specific patterns; no credentials were found.
+8. Final review before commit — Confirmed branch hermes-agent, git diff --check clean, staged files limited to data/aircraft.json and hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Grumman A-6 Intruder
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This audit did not add new A-6 facts because the identified gap was renderer/source-count integration rather than missing source-backed content.
+* Several other previously updated pages may still have similar late-stage integration issues; future audit/gap-fill runs should rotate to a different page rather than immediately repeating A-6 unless a new concrete issue is discovered.

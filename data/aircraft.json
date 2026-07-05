@@ -13580,7 +13580,7 @@
       "exact_fact_count": 30,
       "operator_entries": 2,
       "variant_entries": 7,
-      "external_article_sources": 5
+      "external_article_sources": 3
     },
     "footnotes": [
       {
@@ -13619,20 +13619,20 @@
         ],
         "cards": [
           {
-            "label": "Role",
-            "value": "Carrier-based all-weather medium attack"
+            "title": "Role",
+            "text": "Carrier-based all-weather medium attack"
           },
           {
-            "label": "Crew",
-            "value": "2, seated side-by-side"
+            "title": "Crew",
+            "text": "2, seated side-by-side"
           },
           {
-            "label": "First flight",
-            "value": "19 April 1960"
+            "title": "First flight",
+            "text": "19 April 1960"
           },
           {
-            "label": "Retirement",
-            "value": "USMC 1993; USN 1997"
+            "title": "Retirement",
+            "text": "USMC 1993; USN 1997"
           }
         ]
       },
@@ -13660,24 +13660,24 @@
         ],
         "cards": [
           {
-            "label": "Avionics",
-            "value": "DIANE navigation/attack system; A-6E TRAM on upgraded aircraft"
+            "title": "Avionics",
+            "text": "DIANE navigation/attack system; A-6E TRAM on upgraded aircraft"
           },
           {
-            "label": "Powerplant",
-            "value": "Two Pratt & Whitney J52 turbojets"
+            "title": "Powerplant",
+            "text": "Two Pratt & Whitney J52 turbojets"
           },
           {
-            "label": "Stores",
-            "value": "Up to about 18,000 lb on five external stations"
+            "title": "Stores",
+            "text": "Up to about 18,000 lb on five external stations"
           },
           {
-            "label": "Carrier features",
-            "value": "Folding wings, strong landing gear, naval corrosion protection"
+            "title": "Carrier features",
+            "text": "Folding wings, strong landing gear, naval corrosion protection"
           },
           {
-            "label": "Mission focus",
-            "value": "Low-level all-weather strike, interdiction, and tanker support"
+            "title": "Mission focus",
+            "text": "Low-level all-weather strike, interdiction, and tanker support"
           }
         ]
       },
