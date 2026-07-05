@@ -23407,9 +23407,9 @@
     ],
     "article_quality": {
       "exact_fact_count": 55,
-      "operator_entries": 9,
-      "variant_entries": 3,
-      "external_article_sources": 4
+      "operator_entries": 0,
+      "variant_entries": 0,
+      "external_article_sources": 2
     },
     "footnotes": [
       {
@@ -23441,7 +23441,20 @@
         "note": "Local rules for neutral wording, source handling, internal links, and uncertain fact treatment."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "Boeing — P-8 Poseidon",
+        "url": "https://www.boeing.com/defense/maritime-surveillance/p-8-poseidon",
+        "publisher": "Boeing",
+        "description": "Manufacturer overview used for P-8 mission roles, maritime-patrol capabilities, customer/delivery context, 737NG commonality, and representative specification notes."
+      },
+      {
+        "title": "NAVAIR — P-8A Poseidon",
+        "url": "https://www.navair.navy.mil/product/P-8A-Poseidon",
+        "publisher": "Naval Air Systems Command",
+        "description": "Official U.S. Navy program page used for mission, description, crew, sensors, weapons, propulsion, dimensions, gross weight, IOC, and program-status details."
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",

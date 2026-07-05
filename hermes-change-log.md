@@ -8189,3 +8189,74 @@ Record the result of:
 
 * This audit did not add unsupported new B-2 facts; it exposed and caveated existing official/manufacturer-backed source material that was already used by the article text.
 * Public B-2 payload, mission-system, low-observable, and modernization details remain source- and classification-sensitive, so the page keeps the existing caveated wording rather than a single uncaveated specification narrative.
+
+### Run 108 — 2026-07-05 18:02:31 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json (entry id: p-8-poseidon)
+* Aircraft/Page: Boeing P-8 Poseidon (id: p-8-poseidon)
+* Reason selected: Audit/gap-fill rotation selected a previously updated non-reference page with concrete source-rendering and quality-metadata gaps: the P-8 entry had reliable Boeing and NAVAIR source records plus a Sources and Notes section, but `external_articles` was empty, `article_quality.external_article_sources` still counted four source records, and the operator/variant quality counters reported generated section counts despite the actual top-level operator and variant arrays being empty.
+* Previous condition: The P-8 article already had source-aware prose, source records, source notes, and related-page links from its earlier expansion, but its official/manufacturer sources were not visible as rendered external articles and its quality metadata did not match the arrays rendered by the current data model.
+* Previously edited by Hermes: Yes — selected in an earlier sparse-page expansion run; reselected here only for concrete audit/gap-fill source and metadata integration corrections.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Used the F-16 template as the style/reference pattern for visible external source links, source-aware notes, cautious specification caveats, and internal aircraft.html?id=... related-link treatment.
+
+#### Changes Made
+
+* Populated P-8 `external_articles` with the existing reliable Boeing manufacturer page and official NAVAIR P-8A program page already cited by the entry.
+* Updated `article_quality.external_article_sources` from four to two so it matches the two rendered official/manufacturer external article links rather than counting Wikipedia orientation or local method records.
+* Aligned `article_quality.operator_entries` and `article_quality.variant_entries` with the actual top-level `operators` and `variants` arrays, which are currently empty even though the article sections contain prose/bullet summaries.
+* Preserved existing P-8 prose, source records, Sources and Notes section, related links, top-level metadata, and factual claims; no unsupported new aircraft facts were introduced.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the Boeing P-8 Poseidon entry's rendered external sources and quality metadata counts.
+* hermes-change-log.md — Appended this Run 108 audit/gap-fill log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was a previously updated non-reference aircraft page
+* [x] A concrete source-rendering/source-count gap was found before editing
+* [x] F-16 page was used as formatting reference
+* [x] Updated page uses renderer-compatible external-article metadata
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, git status --short showed only data/aircraft.json and hermes-change-log.md modified.
+2. git diff — Reviewed the aircraft diff and confirmed only the P-8 entry changed inside data/aircraft.json, plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; a verification helper confirmed exactly one changed aircraft entry, preserving id p-8-poseidon and preserving the total 100-entry count.
+4. F-16 style comparison — data/f16-template.html was inspected as the renderer/style reference for visible source links, source-aware notes, and aircraft.html?id=... related-link treatment.
+5. Internal link check — Recursive selected-entry check found P-8 local links only to existing IDs: p-3-orion and rq-4-global-hawk; the Boeing 737NG related item remains an intentional external manufacturer link because there is no local 737NG aircraft entry.
+6. Source/ref check — Recursive selected-entry check found no refs pointing to missing source or footnote IDs, and the quality metadata now matches the two rendered external article links plus the actual top-level operator and variant arrays.
+7. Source retrieval note — The web extraction backend returned extraction errors for the official pages; direct header retrieval confirmed the Boeing page redirects to a reachable current Boeing P-8 page, while the NAVAIR page returned an access restriction to this environment. The edit relied on existing source records already cited by the page.
+8. Credential check — Checked the staged diff with credential-specific patterns; no credentials were found.
+9. Final review before commit — Confirmed branch hermes-agent, git diff --check clean, staged files limited to data/aircraft.json and hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Boeing P-8 Poseidon
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This audit did not add unsupported new P-8 facts; it exposed existing official/manufacturer-backed sources and corrected metadata that the renderer and quality summary can consume.
+* The entry still summarizes operators and variants in article prose rather than top-level arrays; this run aligned metadata with the current arrays instead of inventing structured records without a broader schema review.
