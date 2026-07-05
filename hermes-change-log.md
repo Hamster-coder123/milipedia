@@ -8260,3 +8260,74 @@ Record the result of:
 
 * This audit did not add unsupported new P-8 facts; it exposed existing official/manufacturer-backed sources and corrected metadata that the renderer and quality summary can consume.
 * The entry still summarizes operators and variants in article prose rather than top-level arrays; this run aligned metadata with the current arrays instead of inventing structured records without a broader schema review.
+
+### Run 109 — 2026-07-05 19:03:41 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json (entry id: mig-31)
+* Aircraft/Page: Mikoyan MiG-31 (id: mig-31)
+* Reason selected: Audit/gap-fill rotation selected a previously updated non-reference page that had not been recently audited and had a concrete renderer/source-integration gap: the entry cited caveated specialist sources plus a Wikipedia orientation source, but it lacked a renderer-compatible Sources and Notes section and promoted the Wikipedia orientation record as a rendered external article.
+* Previous condition: The MiG-31 entry already had dense development, design, avionics, variants, operators, specifications, strengths/limitations, and related-page prose, but source caveats were present only in source records and inline refs, and the rendered external article list did not distinguish the specialist references from the orientation-only Wikipedia record.
+* Previously edited by Hermes: Yes — selected in an earlier sparse-page expansion run; reselected here only for concrete audit/gap-fill source-rendering and caveat integration corrections.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Used the F-16 template as the style/reference pattern for visible source links, source-aware notes, variant-sensitive specification caveats, and internal aircraft.html?id=... related-link treatment.
+
+#### Changes Made
+
+* Added a renderer-compatible Sources and Notes article section before the MiG-31 related-pages section.
+* Summarized the page's existing source caveats for representative public MiG-31-family specifications, variant-sensitive weapons/payload descriptions, and date-sensitive operator/modernization details.
+* Removed the Wikipedia orientation record from rendered `external_articles` while preserving it in source/footnote records for orientation and cross-checking context.
+* Updated `article_quality.external_article_sources` from three to two so it matches the two rendered specialist external article links.
+* Preserved existing MiG-31 prose, facts, variants, operators, sources, footnotes, specifications, and internal related-page links; no unsupported new aircraft facts were introduced.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the Mikoyan MiG-31 entry's rendered external sources and visible source-caveat section.
+* hermes-change-log.md — Appended this Run 109 audit/gap-fill log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was a previously updated non-reference aircraft page
+* [x] A concrete source-rendering/source-caveat gap was found before editing
+* [x] F-16 page was used as formatting reference
+* [x] Updated page uses renderer-compatible article-section, link, and external-article shapes
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, git status --short showed only data/aircraft.json and hermes-change-log.md modified, with pre-existing untracked package files left unstaged.
+2. git diff — Reviewed the aircraft diff and confirmed only the MiG-31 entry changed inside data/aircraft.json, plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; a verification helper confirmed exactly one changed aircraft entry, preserving id mig-31 and preserving the total 100-entry count.
+4. F-16 style comparison — data/f16-template.html was inspected as the renderer/style reference for visible source links, source-aware notes, and aircraft.html?id=... related-link treatment.
+5. Internal link check — Recursive selected-entry check found MiG-31 local links only to existing IDs: f-15-eagle, mig-25, su-27, and tu-22m.
+6. Source/ref check — Recursive selected-entry check found no refs pointing to missing source or footnote IDs, and the quality metadata now matches the two rendered specialist external article links.
+7. Credential check — Checked the staged diff with credential-specific patterns; no credentials were found.
+8. Final review before commit — Confirmed branch hermes-agent, git diff --check clean, staged files limited to data/aircraft.json and hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Mikoyan MiG-31
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This audit did not add new MiG-31 performance or combat claims; it exposed and caveated the existing source basis already used by the article text.
+* Public MiG-31 specifications, K/I missile-carrier details, modernization status, and operator counts remain variant- and date-sensitive, so the page keeps representative wording rather than a single uncaveated value set.

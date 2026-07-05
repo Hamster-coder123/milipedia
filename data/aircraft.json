@@ -41205,7 +41205,7 @@
       "exact_fact_count": 45,
       "operator_entries": 3,
       "variant_entries": 7,
-      "external_article_sources": 3
+      "external_article_sources": 2
     },
     "footnotes": [
       {
@@ -41249,12 +41249,6 @@
         "url": "https://www.deagel.com/Combat%20Aircraft/Mig-31/a000358",
         "publisher": "Deagel",
         "summary": "Supplementary database-style page listing IOC, production, variants, operators, specifications, gear, radar, and modernization notes."
-      },
-      {
-        "title": "Mikoyan MiG-31",
-        "url": "https://en.wikipedia.org/wiki/Mikoyan_MiG-31",
-        "publisher": "Wikipedia",
-        "summary": "General encyclopedic page used for orientation and cross-checking of dates, NATO reporting name, production totals, and broad variant history."
       }
     ],
     "article_sections": [
@@ -41711,6 +41705,63 @@
             "refs": [
               "fn-method"
             ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "This entry uses specialist aviation references for the MiG-31's development, radar, weapons, variants, operators, and representative performance figures, while keeping variant-sensitive and date-sensitive claims caveated.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-deagel",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Wikipedia remains in the source record only as a broad orientation and cross-checking aid; it is not promoted as a rendered external article source for the page's main technical claims.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Specification values are representative of public MiG-31-family data and can differ between MiG-31, MiG-31B/BS, MiG-31BM, MiG-31K, and other subvariants.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-deagel",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Operator, inventory, and modernization details are date-sensitive; the article avoids treating public estimates as fixed current fleet totals.",
+            "refs": [
+              "fn-deagel",
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Weapon and payload descriptions are framed by variant and mission because interceptor, modernized, and K/I missile-carrier configurations are not interchangeable.",
+            "refs": [
+              "fn-airforce-technology",
+              "fn-deagel",
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Airforce Technology — MiG-31 Foxhound Interceptor Aircraft",
+            "url": "https://www.airforce-technology.com/projects/mig-31/"
+          },
+          {
+            "label": "Deagel — Mig-31",
+            "url": "https://www.deagel.com/Combat%20Aircraft/Mig-31/a000358"
           }
         ]
       },
