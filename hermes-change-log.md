@@ -8545,3 +8545,74 @@ Record the result of:
 
 * This audit did not add new Hawk performance or operator claims; it improves rendered source quality and exposes existing source caveats already used by the article text.
 * Hawk specifications, armed-trainer fit, and operator inventories remain variant- and date-sensitive, so the page keeps representative wording rather than a single uncaveated value set.
+
+### Run 113 — 2026-07-05 23:01:00 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json (entry id: f-104-starfighter)
+* Aircraft/Page: Lockheed F-104 Starfighter (id: f-104-starfighter)
+* Reason selected: Audit/gap-fill rotation selected a previously updated non-reference page that had not been audited in the new phase and had concrete source-rendering gaps: the page rendered only two non-Wikipedia external articles while `article_quality.external_article_sources` still reported three, and its visible source section used the generic Sources and Further Reading title while rendering Wikipedia as an external source despite treating it as orientation-only.
+* Previous condition: The F-104 entry already had dense Lockheed/NASA-backed prose, specifications, variants, operators, operational context, timeline, and related links from its earlier expansion, but the rendered source count and visible source-caveat section did not match the intended non-Wikipedia source basis.
+* Previously edited by Hermes: Yes — selected in an earlier sparse-page expansion run; reselected here only for concrete audit/gap-fill source-rendering and caveat integration corrections.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Used the F-16 template as the style/reference pattern for visible source notes before Related Pages, source-aware caveats, cautious specification caveats, and internal aircraft.html?id=... related-link treatment.
+
+#### Changes Made
+
+* Updated `article_quality.external_article_sources` from three to two so it matches the two rendered non-Wikipedia external article links: Lockheed Martin and NASA History.
+* Renamed the visible source section to Sources and Notes and converted its paragraph to a renderer-compatible source-note object with refs to the existing Lockheed, NASA, Wikipedia, and local data-accuracy source records.
+* Removed the Wikipedia link from the rendered article-section source links while preserving Wikipedia in source and footnote records as supplementary orientation for broad chronology, operators, and variant names.
+* Preserved existing F-104 prose, facts, specifications, variants, operators, related links, top-level external_articles, and top-level metadata; no unsupported new aircraft claims were introduced.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the Lockheed F-104 Starfighter entry's rendered source notes and source-quality count.
+* hermes-change-log.md — Appended this Run 113 audit/gap-fill log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was a previously updated non-reference aircraft page
+* [x] A concrete source-rendering/source-count gap was found before editing
+* [x] F-16 page was used as formatting reference
+* [x] Updated page uses renderer-compatible article-section, link, and external-article shapes
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, git status --short showed only data/aircraft.json and hermes-change-log.md modified, with pre-existing untracked package files left unstaged.
+2. git diff — Reviewed the aircraft diff and confirmed only the F-104 entry changed inside data/aircraft.json, plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; a verification helper confirmed exactly one changed aircraft entry, preserving id f-104-starfighter and preserving the total 100-entry count.
+4. F-16 style comparison — data/f16-template.html was inspected as the renderer/style reference for visible source notes, source-aware caveats, and aircraft.html?id=... related-link treatment.
+5. Internal link check — Recursive selected-entry check found F-104 local links only to existing IDs: f-100-super-sabre, f-102-delta-dagger, f-105-thunderchief, f-4-phantom-ii, and mirage-iii.
+6. Source/ref check — Recursive selected-entry check found no refs pointing to missing source or footnote IDs, and the quality metadata now matches the two rendered non-Wikipedia external article links.
+7. Source retrieval note — The standard web extraction backend returned extraction errors; direct browser-header retrieval confirmed the Lockheed Martin source returned a reachable page, while the NASA History page returned a 403 header consistent with the existing cached-access caveat in the source note.
+8. Credential check — Checked the staged diff with credential-specific patterns; no credentials were found.
+9. Final review before commit — Confirmed branch hermes-agent, git diff --check clean, staged files limited to data/aircraft.json and hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Lockheed F-104 Starfighter
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This audit did not add new F-104 performance, operator, or accident-history claims; it improves rendered source quality and exposes existing source caveats already used by the article text.
+* F-104 specifications, weapons, and mission roles remain variant- and operator-sensitive, so the page keeps representative F-104G wording rather than a single uncaveated value set.

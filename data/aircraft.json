@@ -11566,7 +11566,7 @@
     "article_quality": {
       "status": "expanded-by-hermes",
       "summary": "Expanded from a generated sparse entry with corrected specifications, variants, operators, operational context, and sourced caveats.",
-      "external_article_sources": 3,
+      "external_article_sources": 2,
       "operator_entries": 7,
       "variant_entries": 8
     },
@@ -11786,9 +11786,17 @@
         ]
       },
       {
-        "title": "Sources and Further Reading",
+        "title": "Sources and Notes",
         "paragraphs": [
-          "Primary wording uses Lockheed Martin manufacturer history and NASA technical-history data where available, with Wikipedia retained only as a supplementary orientation source for broad chronology and variant names."
+          {
+            "text": "Primary wording uses Lockheed Martin manufacturer history for design intent, NATO/export context, and licensed-production framing, and NASA technical-history material for representative F-104G performance/specification figures. Wikipedia remains in source and footnote records only as supplementary orientation for broad chronology, operators, and variant names, not as a rendered external article or sole support for exact technical claims.",
+            "refs": [
+              "fn-lockheed",
+              "fn-nasa-quest",
+              "fn-wiki",
+              "fn-method"
+            ]
+          }
         ],
         "links": [
           {
@@ -11798,12 +11806,9 @@
           {
             "label": "NASA History — Quest for Performance",
             "url": "https://www.hq.nasa.gov/pao/History/SP-468/cover.htm"
-          },
-          {
-            "label": "Wikipedia — Lockheed F-104 Starfighter",
-            "url": "https://en.wikipedia.org/wiki/Lockheed_F-104_Starfighter"
           }
-        ]
+        ],
+        "id": "sources"
       },
       {
         "title": "Related Pages",
