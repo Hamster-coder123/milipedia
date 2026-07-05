@@ -65661,7 +65661,7 @@
       "exact_fact_count": 54,
       "operator_entries": 8,
       "variant_entries": 7,
-      "external_article_sources": 6
+      "external_article_sources": 4
     },
     "footnotes": [
       {
@@ -65735,13 +65735,6 @@
         "url": "https://ascentflighttraining.com/aircraft-profiles-hawk-t2",
         "publisher": "Ascent Flight Training",
         "note": "UKMFTS training context and RAF Valley/Hawk T2 fleet-background source."
-      },
-      {
-        "id": "fn-wikipedia",
-        "title": "BAE Systems Hawk",
-        "url": "https://en.wikipedia.org/wiki/BAE_Systems_Hawk",
-        "publisher": "Wikipedia",
-        "note": "Supplementary orientation for variant and operator names; not used alone for sensitive or exact claims."
       }
     ],
     "article_sections": [
@@ -66204,13 +66197,15 @@
       },
       {
         "id": "sources",
-        "title": "Sources",
+        "title": "Sources and Notes",
         "paragraphs": [
           {
-            "text": "Primary formatting follows Milipedia aircraft pages and the F-16 reference density pattern. RAF data is preferred for T2 specifications; manufacturer pages are used for program context where accessible; Wikipedia is retained only as a supplementary orientation source for broad variant/operator lists.",
+            "text": "Primary formatting follows Milipedia aircraft pages and the F-16 reference density pattern. RAF data is preferred for Hawk T2 specifications and current training-role context; BAE Systems and Ascent Flight Training pages provide program and UKMFTS training context where accessible. Wikipedia remains in source and footnote records only as supplementary orientation for broad variant/operator names, not as a rendered external article or sole support for exact claims.",
             "refs": [
               "fn-raf-t2",
               "fn-bae-hawk-ajt",
+              "fn-bae-ajts",
+              "fn-ascent-t2",
               "fn-wikipedia",
               "fn-method"
             ]

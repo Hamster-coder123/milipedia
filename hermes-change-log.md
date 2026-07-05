@@ -8473,3 +8473,75 @@ Record the result of:
 
 * This audit did not add new Yak-38 performance or combat claims; it exposes and caveats the existing source basis already used by the article text.
 * Public Yak-38 range, store loads, and Afghanistan/combat-use details remain variant-, operating-condition-, and source-sensitive, so the page keeps representative wording rather than a single uncaveated value set.
+
+### Run 112 — 2026-07-05 22:02:38 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json (entry id: bae-hawk)
+* Aircraft/Page: BAE Systems Hawk (id: bae-hawk)
+* Reason selected: Audit/gap-fill rotation selected a previously updated non-reference page that had not been audited in the new phase and had concrete source-rendering gaps: the page rendered five external articles including a Wikipedia orientation record, while `article_quality.external_article_sources` reported six, and its visible source caveat section used the generic Sources title instead of the renderer-compatible Sources and Notes title.
+* Previous condition: The Hawk entry already had dense RAF, BAE Systems, and Ascent-backed prose, specifications, variants, operators, timeline, and related links from its earlier expansion, but source-quality metadata and visible source-caveat wording did not match the rendered source list.
+* Previously edited by Hermes: Yes — selected in an earlier sparse-page expansion run; reselected here only for concrete audit/gap-fill source-rendering and caveat integration corrections.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Used the F-16 template as the style/reference pattern for visible external source links, source-aware notes, cautious specification caveats, and internal aircraft.html?id=... related-link treatment.
+
+#### Changes Made
+
+* Removed the Wikipedia orientation record from the BAE Systems Hawk `external_articles` array while preserving it in source and footnote records for orientation and cross-checking context.
+* Updated `article_quality.external_article_sources` from six to four so it matches the four rendered RAF, BAE Systems, and Ascent external article links.
+* Renamed the visible source section to Sources and Notes and expanded its caveat paragraph to explain the preferred RAF T2 specification basis, manufacturer/training-context sources, and orientation-only Wikipedia treatment.
+* Added the existing BAE AJTS and Ascent source IDs to the Sources and Notes refs so the visible caveat section points to all relied-upon non-Wikipedia context sources.
+* Preserved existing Hawk prose, facts, specifications, variants, operators, related links, and top-level metadata; no unsupported new aircraft claims were introduced.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the BAE Systems Hawk entry's rendered external sources, source notes, and source-quality count.
+* hermes-change-log.md — Appended this Run 112 audit/gap-fill log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was a previously updated non-reference aircraft page
+* [x] A concrete source-rendering/source-count gap was found before editing
+* [x] F-16 page was used as formatting reference
+* [x] Updated page uses renderer-compatible article-section, link, and external-article shapes
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, git status --short showed only data/aircraft.json and hermes-change-log.md modified, with pre-existing untracked package files left unstaged.
+2. git diff — Reviewed the aircraft diff and confirmed only the Hawk entry changed inside data/aircraft.json, plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; a verification helper confirmed exactly one changed aircraft entry, preserving id bae-hawk and preserving the total 100-entry count.
+4. F-16 style comparison — data/f16-template.html was inspected as the renderer/style reference for visible source notes, source-aware caveats, and aircraft.html?id=... related-link treatment.
+5. Internal link check — Recursive selected-entry check found Hawk local links only to existing IDs: mb-339, t-6-texan-ii, t-38-talon, and yak-130.
+6. Source/ref check — Recursive selected-entry check found no refs pointing to missing source or footnote IDs, and the quality metadata now matches the four rendered non-Wikipedia external article links.
+7. Source retrieval note — The standard web extraction backend returned extraction errors; direct browser-header retrieval confirmed the RAF, BAE Systems, and Ascent URLs returned reachable pages before relying on the existing source records for source-note integration.
+8. Credential check — Checked the staged diff with credential-specific patterns; no credentials were found.
+9. Final review before commit — Confirmed branch hermes-agent, git diff --check clean, staged files limited to data/aircraft.json and hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in BAE Systems Hawk
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This audit did not add new Hawk performance or operator claims; it improves rendered source quality and exposes existing source caveats already used by the article text.
+* Hawk specifications, armed-trainer fit, and operator inventories remain variant- and date-sensitive, so the page keeps representative wording rather than a single uncaveated value set.
