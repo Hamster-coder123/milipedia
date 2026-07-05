@@ -31087,9 +31087,9 @@
     ],
     "article_quality": {
       "exact_fact_count": 15,
-      "operator_entries": 0,
-      "variant_entries": 0,
-      "external_article_sources": 0
+      "operator_entries": 7,
+      "variant_entries": 9,
+      "external_article_sources": 2
     },
     "footnotes": [
       {
@@ -31114,7 +31114,20 @@
         "note": "Local rules for units, source citation, neutral wording, and estimate labels."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "Boeing — H-47 Chinook",
+        "url": "https://www.boeing.com/defense/military-rotorcraft/h-47-chinook",
+        "publisher": "Boeing",
+        "description": "Manufacturer overview for H-47/CH-47F Block II mission, modernization, customer, and representative specification context."
+      },
+      {
+        "title": "U.S. Army — CH-47 Chinook Helicopter",
+        "url": "https://www.army.mil/article/137584/ch_47_chinook_helicopter",
+        "publisher": "U.S. Army",
+        "description": "Official Army fact sheet for CH-47F mission, cockpit, crew, payload, gross-weight, and sling-load details."
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
@@ -31464,6 +31477,44 @@
         ]
       },
       {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "This CH-47 audit exposes the existing Boeing and U.S. Army source records as rendered external articles, while keeping Wikipedia only as a supplementary orientation source rather than a primary rendered reference.",
+            "refs": [
+              "fn-boeing",
+              "fn-army",
+              "fn-wikipedia"
+            ]
+          },
+          {
+            "text": "Specifications are representative for modern CH-47F / CH-47F Block II public data. Earlier CH-47A/B/C/D aircraft, MH-47 special-operations variants, UK marks, export aircraft, and civil Model 234 Chinooks can differ in engines, avionics, mission equipment, fuel, payload, and defensive fits.",
+            "refs": [
+              "fn-boeing",
+              "fn-army"
+            ]
+          },
+          {
+            "text": "Operator coverage remains representative because Boeing describes the Chinook as serving the U.S. Army, U.S. Special Operations Command, and 20 international customer countries, while exact fleet counts and readiness change by delivery, retirement, and modernization date.",
+            "refs": [
+              "fn-boeing"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Primary rendered sources: Boeing manufacturer page and official U.S. Army fact sheet."
+          },
+          {
+            "text": "Configuration caveat: payload, range, sling-load capability, and defensive equipment vary by variant, aircraft fit, altitude, temperature, and mission."
+          },
+          {
+            "text": "Image caveat: removed generated conflict-gallery images that showed unrelated aircraft, armor, or infantry scenes rather than Chinook-specific source imagery."
+          }
+        ]
+      },
+      {
         "id": "related-pages",
         "title": "Related Pages",
         "paragraphs": [
@@ -31475,44 +31526,28 @@
         "links": [
           {
             "label": "UH-60 Black Hawk",
-            "href": "aircraft.html?id=uh-60-black-hawk"
+            "url": "aircraft.html?id=uh-60-black-hawk"
           },
           {
             "label": "Mi-26",
-            "href": "aircraft.html?id=mi-26"
+            "url": "aircraft.html?id=mi-26"
           },
           {
             "label": "Mi-8",
-            "href": "aircraft.html?id=mi-8"
+            "url": "aircraft.html?id=mi-8"
           },
           {
             "label": "V-22 Osprey",
-            "href": "aircraft.html?id=v-22-osprey"
+            "url": "aircraft.html?id=v-22-osprey"
           },
           {
             "label": "C-130 Hercules",
-            "href": "aircraft.html?id=c-130-hercules"
+            "url": "aircraft.html?id=c-130-hercules"
           }
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg/960px-USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg",
-        "caption": "Gulf War",
-        "source_url": "https://en.wikipedia.org/wiki/Gulf_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/UStanks_baghdad_2003.JPEG/960px-UStanks_baghdad_2003.JPEG",
-        "caption": "Iraq War",
-        "source_url": "https://en.wikipedia.org/wiki/Iraq_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/U.S._Army_firefight_in_Kunar.jpg/960px-U.S._Army_firefight_in_Kunar.jpg",
-        "caption": "War in Afghanistan (2001–2021)",
-        "source_url": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001%E2%80%932021)"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "ch-53-sea-stallion",

@@ -7976,3 +7976,75 @@ Record the result of:
 
 * This audit did not add new A-6 facts because the identified gap was renderer/source-count integration rather than missing source-backed content.
 * Several other previously updated pages may still have similar late-stage integration issues; future audit/gap-fill runs should rotate to a different page rather than immediately repeating A-6 unless a new concrete issue is discovered.
+
+### Run 105 — 2026-07-05 15:03:50 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json (entry id: ch-47-chinook)
+* Aircraft/Page: Boeing CH-47 Chinook (id: ch-47-chinook)
+* Reason selected: Audit/gap-fill rotation after the first audit pass found concrete renderer and metadata gaps in a previously selected non-reference page: Related Pages links used `href` keys that the current renderer does not read, reliable Boeing and U.S. Army source records were not exposed as rendered `external_articles`, article-quality counts still reported zero variants/operators/external sources despite populated arrays, and the entry retained generated conflict-gallery images that did not depict Chinook-specific source material.
+* Previous condition: The CH-47 entry had been expanded in an earlier sparse-page run with Boeing and U.S. Army source records, variants, operators, and sourced paragraphs, but those source and related-link details were not fully integrated with the renderer.
+* Previously edited by Hermes: Yes — selected in an earlier sparse-page expansion run; reselected here only for concrete audit/gap-fill corrections.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Used the F-16 template as the style and renderer-shape reference for visible related links, source-aware article order, source notes before Related Pages, and concise caveats for variant-sensitive specifications.
+
+#### Changes Made
+
+* Converted five CH-47 Related Pages links from renderer-incompatible `href` keys to `url` keys while preserving their existing labels and target aircraft IDs.
+* Populated `external_articles` with the existing reliable Boeing manufacturer page and official U.S. Army CH-47 fact sheet, leaving Wikipedia as supplementary orientation rather than a rendered primary external article.
+* Updated `article_quality.operator_entries`, `article_quality.variant_entries`, and `article_quality.external_article_sources` to match the rendered/operator/variant data now present in the entry.
+* Added a renderer-compatible Sources and Notes section before Related Pages to explain source selection, CH-47F / Block II specification caveats, operator-count date sensitivity, and configuration variability.
+* Removed stale generated event-gallery images that showed unrelated Gulf War, Iraq War, and Afghanistan scenes rather than Chinook-specific source imagery.
+* Preserved existing CH-47 prose, variants, operators, top-level related-aircraft metadata, source records, and factual claims except for the integration/caveat fixes above.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the Boeing CH-47 Chinook entry's renderer links, source rendering, quality counts, source notes, and stale gallery metadata.
+* hermes-change-log.md — Appended this Run 105 audit/gap-fill log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was a previously updated non-reference aircraft page
+* [x] A concrete renderer/source/metadata gap was found before editing
+* [x] F-16 page was used as formatting reference
+* [x] Updated page uses renderer-compatible card/link shapes
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, git status --short showed only data/aircraft.json and hermes-change-log.md modified.
+2. git diff — Reviewed the aircraft diff and confirmed only the CH-47 entry changed inside data/aircraft.json, plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; a verification helper confirmed exactly one changed aircraft entry, preserving id ch-47-chinook and preserving the total 100-entry count.
+4. F-16 style comparison — data/f16-template.html was inspected as the renderer/style reference for visible related links, source-aware notes, and aircraft.html?id=... related-link treatment.
+5. Internal link check — Recursive selected-entry check found CH-47 local links only to existing IDs: ah-1-cobra, ah-64-apache, c-130-hercules, mi-26, mi-8, uh-1-iroquois, uh-60-black-hawk, and v-22-osprey.
+6. Source/ref check — Recursive selected-entry check found no refs pointing to missing source or footnote IDs, and the quality metadata now matches the two rendered external article links, seven operator records, and nine variant records.
+7. Credential check — Checked the staged diff with credential-specific patterns; no credentials were found.
+8. Final review before commit — Confirmed branch hermes-agent, git diff --check clean, staged files limited to data/aircraft.json and hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Boeing CH-47 Chinook
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This audit did not add new unsupported CH-47 facts; it exposed and caveated existing Boeing/U.S. Army-backed source material and fixed renderer-visible metadata.
+* Exact Chinook fleet counts, national upgrade details, and mission-equipment fits remain date- and configuration-sensitive, so the page keeps representative wording rather than fixed current inventory tables.
