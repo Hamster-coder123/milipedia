@@ -8403,3 +8403,73 @@ Record the result of:
 
 * This audit did not rewrite the F-100 narrative or add unsupported performance claims; it improves the rendered source basis using official USAF museum material plus existing specialist references.
 * The F-100 page still treats variant performance, stores, Wild Weasel conversions, and operator histories cautiously because those details remain variant- and date-sensitive.
+
+### Run 111 — 2026-07-05 21:02:26 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json (entry id: yak-38)
+* Aircraft/Page: Yakovlev Yak-38 (id: yak-38)
+* Reason selected: Audit/gap-fill rotation selected a previously updated non-reference page that had not been audited in the new phase and had a concrete source-rendering gap: the page rendered two specialist external articles, but article_quality.external_article_sources still reported four source records and the page lacked a renderer-compatible Sources and Notes section explaining the Wikipedia/Wikidata orientation-only records and the Yak-38 combat-use caveat.
+* Previous condition: The Yak-38 entry already had dense sourced prose, variants, operators, specifications, related links, and specialist external articles from its earlier expansion, but its visible source caveats were not exposed as a dedicated article section and the source-quality count did not match the rendered external article list.
+* Previously edited by Hermes: Yes — selected in an earlier sparse-page expansion run; reselected here only for concrete audit/gap-fill source-count and source-caveat integration corrections.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Used the F-16 template as the style/reference pattern for visible source notes before Related Pages, source-aware caveats, variant-sensitive specification wording, and internal aircraft.html?id=... related-link treatment.
+
+#### Changes Made
+
+* Updated article_quality.external_article_sources from four to two so it matches the two rendered specialist external article links: Vertical Flight Society Vertipedia and Aerospaceweb.
+* Added a renderer-compatible Sources and Notes section before Related Pages explaining the specialist-source basis, Wikipedia/Wikidata orientation-only role, variant-sensitive specifications, Afghanistan deployment/combat-use uncertainty, and representative weapon-load caveats.
+* Preserved existing Yak-38 prose, source records, external_articles, variants, operators, specifications, event-gallery state, and internal related-page links; no unsupported new aircraft facts were introduced.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the Yakovlev Yak-38 entry's rendered source-quality count and visible source/caveat notes.
+* hermes-change-log.md — Appended this Run 111 audit/gap-fill log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was a previously updated non-reference aircraft page
+* [x] A concrete source-rendering/source-count gap was found before editing
+* [x] F-16 page was used as formatting reference
+* [x] Updated page uses renderer-compatible article-section, link, and external-article shapes
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, git status --short showed only data/aircraft.json and hermes-change-log.md modified, with pre-existing untracked package files left unstaged.
+2. git diff — Reviewed the aircraft diff and confirmed only the Yak-38 entry changed inside data/aircraft.json, plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; a verification helper confirmed exactly one changed aircraft entry, preserving id yak-38 and preserving the total 100-entry count.
+4. F-16 style comparison — data/f16-template.html was inspected as the renderer/style reference for visible source notes, source-aware caveats, and aircraft.html?id=... related-link treatment.
+5. Internal link check — Recursive selected-entry check found Yak-38 local links only to existing IDs: a-4-skyhawk, a-7-corsair-ii, f-35-lightning-ii, and harrier.
+6. Source/ref check — Recursive selected-entry check found no refs pointing to missing source or footnote IDs, and the quality metadata now matches the two rendered specialist external article links.
+7. Source retrieval note — The standard web extraction backend returned extraction errors, so the Vertical Flight Society and Aerospaceweb source URLs were checked through direct browser-header retrieval and returned reachable pages before relying on them for source-note integration.
+8. Credential check — Checked the staged diff with credential-specific patterns; no credentials were found.
+9. Final review before commit — Confirmed branch hermes-agent, git diff --check clean, staged files limited to data/aircraft.json and hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Yakovlev Yak-38
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This audit did not add new Yak-38 performance or combat claims; it exposes and caveats the existing source basis already used by the article text.
+* Public Yak-38 range, store loads, and Afghanistan/combat-use details remain variant-, operating-condition-, and source-sensitive, so the page keeps representative wording rather than a single uncaveated value set.

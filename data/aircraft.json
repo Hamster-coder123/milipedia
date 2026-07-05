@@ -49852,7 +49852,7 @@
       "exact_fact_count": 41,
       "operator_entries": 2,
       "variant_entries": 4,
-      "external_article_sources": 4
+      "external_article_sources": 2
     },
     "footnotes": [
       {
@@ -50324,6 +50324,36 @@
               "fn-vfs"
             ]
           }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Vertical Flight Society Vertipedia is used for the core Yak-38 configuration narrative, including the VTOL propulsion layout, Kiev-class carrier deployment context, production total, retirement timing, and its statement that the aircraft was not used in combat.",
+            "refs": [
+              "fn-vfs"
+            ]
+          },
+          {
+            "text": "Aerospaceweb supplies representative public dimensions, weights, performance figures, armament examples, and variant/operator summaries; those values are treated as rounded secondary-source figures rather than a universal specification for every Yak-38 subvariant.",
+            "refs": [
+              "fn-aerospaceweb"
+            ]
+          },
+          {
+            "text": "Wikipedia and Wikidata remain in the source records only for orientation, names, identifiers, and relationship checks. They are not promoted as rendered external article sources because the page relies on the specialist VTOL and aviation-reference sources for its visible technical basis.",
+            "refs": [
+              "fn-main",
+              "fn-wikidata"
+            ]
+          }
+        ],
+        "bullets": [
+          "Yak-36M, Yak-38, Yak-38U, and Yak-38M details remain variant-sensitive, especially for range, stores, and lift-engine operating limits.",
+          "The Afghanistan deployment/combat-use question is intentionally phrased cautiously because public sources disagree on whether 1980 trials constituted combat employment.",
+          "Weapon examples are listed as public, representative fits; exact loads varied by aircraft, shipboard conditions, mission, and source baseline."
         ]
       },
       {
