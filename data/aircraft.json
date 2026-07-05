@@ -25035,7 +25035,7 @@
       "exact_fact_count": 54,
       "operator_entries": 2,
       "variant_entries": 5,
-      "external_article_sources": 5
+      "external_article_sources": 3
     },
     "footnotes": [
       {
@@ -25074,7 +25074,26 @@
         "note": "Local rules for neutral wording, source handling, and uncertain fact treatment."
       }
     ],
-    "external_articles": [],
+    "external_articles": [
+      {
+        "title": "National Museum of the U.S. Air Force — Lockheed SR-71A",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/198054/lockheed-sr-71a",
+        "publisher": "National Museum of the United States Air Force",
+        "description": "Official museum fact sheet used for SR-71A service dates, records, engines, dimensions, range, ceiling, first operational sortie, and retirement context."
+      },
+      {
+        "title": "NASA Dryden — SR-71 Blackbird NASA Facts",
+        "url": "https://www.nasa.gov/wp-content/uploads/2021/09/495839main_fs-030_sr-71.pdf",
+        "publisher": "NASA Dryden Flight Research Center",
+        "description": "NASA factsheet used for Blackbird-family development, Mach 3.2 and 85,000-ft cruise context, titanium construction, inlet behavior, and 1990s research operations."
+      },
+      {
+        "title": "Lockheed Martin — Blackbird: The World's Fastest Plane",
+        "url": "https://www.lockheedmartin.com/en-us/news/features/history/blackbird.html",
+        "publisher": "Lockheed Martin",
+        "description": "Manufacturer history used for Skunk Works context, Mach 3/high-altitude reputation, survivability framing, and public legacy notes."
+      }
+    ],
     "article_sections": [
       {
         "id": "overview",
@@ -25609,6 +25628,49 @@
           {
             "text": "9 October 1999: Final NASA SR-71 flight.",
             "refs": [
+              "fn-nasa"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "This page now exposes the same official and manufacturer references that already support the SR-71 article text as rendered external articles: the National Museum of the United States Air Force SR-71A fact sheet, NASA Dryden SR-71 factsheet, and Lockheed Martin Blackbird history page.",
+            "refs": [
+              "fn-nmusaf",
+              "fn-nasa",
+              "fn-lockheed"
+            ]
+          },
+          {
+            "text": "Wikipedia remains only a supplementary orientation source in the underlying records. Variant counts, final NASA operations, speed/altitude records, and representative specifications are kept source-specific because Blackbird-family aircraft and mission equipment differed by model, period, and operator.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "The article deliberately describes the SR-71 as an unarmed strategic-reconnaissance aircraft; sensor fits, mission routes, and support arrangements are summarized cautiously rather than treated as a single fixed public configuration.",
+            "refs": [
+              "fn-nasa",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Rendered external-source count: three official/manufacturer links; local Milipedia rules and Wikipedia are not counted as primary rendered external articles.",
+            "refs": [
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Specification baseline: public SR-71A / NASA Blackbird figures, not every A-12, YF-12, SR-71B, or SR-71C detail.",
+            "refs": [
+              "fn-nmusaf",
               "fn-nasa"
             ]
           }

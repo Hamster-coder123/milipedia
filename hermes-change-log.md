@@ -8048,3 +8048,73 @@ Record the result of:
 
 * This audit did not add new unsupported CH-47 facts; it exposed and caveated existing Boeing/U.S. Army-backed source material and fixed renderer-visible metadata.
 * Exact Chinook fleet counts, national upgrade details, and mission-equipment fits remain date- and configuration-sensitive, so the page keeps representative wording rather than fixed current inventory tables.
+
+### Run 106 — 2026-07-05 16:02:57 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json (entry id: sr-71-blackbird)
+* Aircraft/Page: Lockheed SR-71 Blackbird (id: sr-71-blackbird)
+* Reason selected: Audit/gap-fill rotation selected an early previously updated non-reference page that had concrete source-rendering gaps: the SR-71 entry had official museum, NASA, and Lockheed source records in footnotes and cited article text, but rendered `external_articles` was empty and `article_quality.external_article_sources` still reported five sources.
+* Previous condition: The SR-71 article already had dense sourced prose, variants, operators, and source refs from its earlier expansion, but its reliable external sources were not visible in the renderer and it lacked a renderer-compatible Sources and Notes section explaining source selection and Blackbird-family caveats.
+* Previously edited by Hermes: Yes — selected in the first sparse-page expansion run; reselected here only for concrete audit/gap-fill source-integration corrections.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Used the F-16 template as the style/reference pattern for visible source links, source notes before Related Pages, cautious variant/specification caveats, and internal aircraft.html?id=... related-link treatment.
+
+#### Changes Made
+
+* Populated SR-71 `external_articles` with the existing reliable National Museum of the U.S. Air Force, NASA Dryden, and Lockheed Martin references already cited by the article text.
+* Updated `article_quality.external_article_sources` from five to three so it matches the three rendered official/manufacturer external article links rather than counting local rules or Wikipedia orientation records.
+* Added a renderer-compatible Sources and Notes section before Related Pages to explain official/manufacturer source selection, Wikipedia's supplementary role, Blackbird-family specification caveats, unarmed reconnaissance wording, and sensor-configuration caution.
+* Preserved existing SR-71 factual prose, variants, operators, related-page links, footnotes, and top-level generated metadata except for the source-rendering integration fixes above.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the Lockheed SR-71 Blackbird entry's rendered external sources, source-count metadata, and source/caveat notes.
+* hermes-change-log.md — Appended this Run 106 audit/gap-fill log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was a previously updated non-reference aircraft page
+* [x] A concrete source-rendering/source-count gap was found before editing
+* [x] F-16 page was used as formatting reference
+* [x] Updated page uses renderer-compatible article-section and external-article shapes
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, git status --short showed only data/aircraft.json and hermes-change-log.md modified.
+2. git diff — Reviewed the aircraft diff and confirmed only the SR-71 entry changed inside data/aircraft.json, plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; a verification helper confirmed exactly one changed aircraft entry, preserving id sr-71-blackbird and preserving the total 100-entry count.
+4. F-16 style comparison — data/f16-template.html was inspected as the renderer/style reference for visible source links, source-aware notes, and aircraft.html?id=... related-link treatment.
+5. Internal link check — Recursive selected-entry check found SR-71 local links only to existing IDs: u-2-dragon-lady.
+6. Source/ref check — Recursive selected-entry check found no refs pointing to missing source or footnote IDs, and the quality metadata now matches the three rendered external article links.
+7. Credential check — Checked the staged diff with credential-specific patterns; no credentials were found.
+8. Final review before commit — Confirmed branch hermes-agent, git diff --check clean, staged files limited to data/aircraft.json and hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Lockheed SR-71 Blackbird
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This audit did not add unsupported new SR-71 facts; it exposed and caveated existing official/manufacturer-backed source material that was already used by the article text.
+* SR-71 sensor fits, mission details, and some Blackbird-family variant details remain configuration- and period-sensitive, so the page keeps representative wording rather than a single fixed mission-equipment table.
