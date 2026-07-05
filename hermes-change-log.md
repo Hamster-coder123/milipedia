@@ -8331,3 +8331,75 @@ Record the result of:
 
 * This audit did not add new MiG-31 performance or combat claims; it exposed and caveated the existing source basis already used by the article text.
 * Public MiG-31 specifications, K/I missile-carrier details, modernization status, and operator counts remain variant- and date-sensitive, so the page keeps representative wording rather than a single uncaveated value set.
+
+### Run 110 — 2026-07-05 20:01:00 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json (entry id: f-100-super-sabre)
+* Aircraft/Page: North American F-100 Super Sabre (id: f-100-super-sabre)
+* Reason selected: Audit/gap-fill rotation selected a previously updated non-reference page that had not been audited in the new phase and had concrete source-rendering gaps: the entry's `article_quality.external_article_sources` counted four rendered sources while only three external articles existed, an informal F-100.org record was being promoted as a rendered external article, and the visible source section was titled generically rather than as renderer-compatible source notes.
+* Previous condition: The F-100 entry already had dense F-16-style prose, specifications, variants, operators, timeline, and related links from its earlier expansion, but official National Museum of the U.S. Air Force support for F-100D configuration and Southeast Asia operations was absent from the rendered external source list.
+* Previously edited by Hermes: Yes — selected in an earlier sparse-page expansion run; reselected here only for concrete audit/gap-fill source-rendering and caveat integration corrections.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Used the F-16 template as the style/reference pattern for visible external source links, source-aware notes, cautious specification caveats, and internal aircraft.html?id=... related-link treatment.
+
+#### Changes Made
+
+* Added two official National Museum of the U.S. Air Force source records for the F-100D fact sheet and F-100 operations in Southeast Asia.
+* Rebuilt `external_articles` to emphasize the official USAF museum pages, Flugzeuginfo technical data, and NASA handling/flying-qualities context while removing the informal F-100.org record from rendered external articles.
+* Updated `article_quality.external_article_sources` so it matches the four rendered external article links.
+* Renamed the visible source section to a renderer-compatible Sources and Notes section and documented why Wikipedia and F-100.org are retained only for orientation/human-review context rather than promoted as rendered external articles.
+* Added the official USAF museum refs to existing overview, design/specification, service-history, and timeline paragraphs without introducing unsupported new aircraft claims.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the North American F-100 Super Sabre entry's rendered external sources, source notes, and source-quality count.
+* hermes-change-log.md — Appended this Run 110 audit/gap-fill log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was a previously updated non-reference aircraft page
+* [x] A concrete source-rendering/source-count gap was found before editing
+* [x] F-16 page was used as formatting reference
+* [x] Updated page uses renderer-compatible article-section, link, and external-article shapes
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, git status --short showed only data/aircraft.json and hermes-change-log.md modified, with pre-existing untracked package files left unstaged.
+2. git diff — Reviewed the aircraft diff and confirmed only the F-100 entry changed inside data/aircraft.json, plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; a verification helper confirmed exactly one changed aircraft entry, preserving id f-100-super-sabre and preserving the total 100-entry count.
+4. F-16 style comparison — data/f16-template.html was inspected as the renderer/style reference for visible source links, source-aware notes, and aircraft.html?id=... related-link treatment.
+5. Internal link check — Recursive selected-entry check found F-100 local links only to existing IDs: f-4-phantom-ii, f-8-crusader, f-104-starfighter, and f-105-thunderchief.
+6. Source/ref check — Recursive selected-entry check found no refs pointing to missing source or footnote IDs, and the quality metadata now matches the four rendered external article links.
+7. Source retrieval note — The standard web extraction backend returned extraction errors, so the official National Museum of the U.S. Air Force pages were verified through an alternate web fetch path before adding them as sources.
+8. Credential check — Checked the staged diff with credential-specific patterns; no credentials were found.
+9. Final review before commit — Confirmed branch hermes-agent, git diff --check clean, staged files limited to data/aircraft.json and hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in North American F-100 Super Sabre
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This audit did not rewrite the F-100 narrative or add unsupported performance claims; it improves the rendered source basis using official USAF museum material plus existing specialist references.
+* The F-100 page still treats variant performance, stores, Wild Weasel conversions, and operator histories cautiously because those details remain variant- and date-sensitive.

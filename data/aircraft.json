@@ -10014,6 +10014,20 @@
         "note": "Existing aircraft-specific reference retained for further human review of serials, surviving aircraft, and unit history."
       },
       {
+        "id": "fn-nmusaf-f100d",
+        "title": "North American F-100D Super Sabre",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195798/north-american-f-100d-super-sabre/",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Official USAF museum fact sheet for F-100D development, production mix, combat-debut summary, armament, engine, and performance figures."
+      },
+      {
+        "id": "fn-nmusaf-sea",
+        "title": "F-100 Super Sabre in Southeast Asia",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/858858/f-100-super-sabre-in-southeast-asia/",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Official USAF museum operational-history page for Southeast Asia deployment timing, mission types, sortie/loss totals, and Wild Weasel/FAC context."
+      },
+      {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
@@ -10134,6 +10148,20 @@
         "note": "Existing aircraft-specific reference retained for further human review of serials, surviving aircraft, and unit history."
       },
       {
+        "id": "fn-nmusaf-f100d",
+        "title": "North American F-100D Super Sabre",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195798/north-american-f-100d-super-sabre/",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Official USAF museum fact sheet for F-100D development, production mix, combat-debut summary, armament, engine, and performance figures."
+      },
+      {
+        "id": "fn-nmusaf-sea",
+        "title": "F-100 Super Sabre in Southeast Asia",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/858858/f-100-super-sabre-in-southeast-asia/",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Official USAF museum operational-history page for Southeast Asia deployment timing, mission types, sortie/loss totals, and Wild Weasel/FAC context."
+      },
+      {
         "id": "fn-method",
         "title": "Milipedia data accuracy rules",
         "url": "MILIPEDIA_PLAN.md#16-data-accuracy-rules",
@@ -10142,6 +10170,20 @@
       }
     ],
     "external_articles": [
+      {
+        "id": "fn-nmusaf-f100d",
+        "title": "North American F-100D Super Sabre",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195798/north-american-f-100d-super-sabre/",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Official museum fact sheet for F-100D production, configuration, armament, engine, and performance context."
+      },
+      {
+        "id": "fn-nmusaf-sea",
+        "title": "F-100 Super Sabre in Southeast Asia",
+        "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/858858/f-100-super-sabre-in-southeast-asia/",
+        "publisher": "National Museum of the U.S. Air Force",
+        "note": "Official museum operational-history page for Southeast Asia mission chronology, Wild Weasel/FAC use, sorties, and losses."
+      },
       {
         "id": "fn-flugzeuginfo",
         "title": "North American F-100 Super Sabre - Specifications / Technical Data",
@@ -10154,14 +10196,7 @@
         "title": "NASA SP-468: F-100 research and flying qualities context",
         "url": "http://www.hq.nasa.gov/pao/History/SP-468/cover.htm",
         "publisher": "NASA History",
-        "note": "Existing external reference retained for F-100 handling/flying-qualities research context; direct web retrieval may require an archived or updated NASA URL."
-      },
-      {
-        "id": "fn-f100org",
-        "title": "F-100 Super Sabre information",
-        "url": "http://www.f-100.org/",
-        "publisher": "F-100 Super Sabre community reference",
-        "note": "Existing aircraft-specific reference retained for further human review of serials, surviving aircraft, and unit history."
+        "note": "Handling and flying-qualities context retained for the F-100's early stability and control issues."
       }
     ],
     "article_sections": [
@@ -10180,7 +10215,8 @@
             "text": "The aircraft first flew in 1953 and entered USAF service in 1954. North American built 2,294 examples between 1953 and 1959 according to Flugzeuginfo reference data, with the F-100D becoming the main fighter-bomber version and the F-100F serving as the two-seat trainer and special-mission derivative.",
             "refs": [
               "fn-main",
-              "fn-flugzeuginfo"
+              "fn-flugzeuginfo",
+              "fn-nmusaf-f100d"
             ]
           },
           {
@@ -10252,7 +10288,8 @@
           {
             "text": "The F-100 used a low-mounted swept wing, single vertical tail, nose intake, and one Pratt & Whitney J57 afterburning turbojet. Representative F-100D data lists the J57-P-21A at about 10,100 lbf dry thrust and 16,000 lbf with afterburner.",
             "refs": [
-              "fn-flugzeuginfo"
+              "fn-flugzeuginfo",
+              "fn-nmusaf-f100d"
             ]
           },
           {
@@ -10296,7 +10333,8 @@
             "text": "Specifications below use representative F-100D data. Earlier F-100A/C and two-seat F-100F aircraft differed in equipment, weight, and mission fit.",
             "refs": [
               "fn-flugzeuginfo",
-              "fn-method"
+              "fn-method",
+              "fn-nmusaf-f100d"
             ]
           }
         ],
@@ -10416,14 +10454,16 @@
           {
             "text": "USAF F-100s served during Cold War crises and became heavily associated with Southeast Asia. In Vietnam they flew fighter-bomber, interdiction, forward-air-controller support, and close-air-support missions, and the two-seat F-100F formed part of the first Wild Weasel effort against radar-guided air defenses.",
             "refs": [
-              "fn-main"
+              "fn-main",
+              "fn-nmusaf-sea"
             ]
           },
           {
             "text": "The type’s high accident rate and demanding handling left a mixed reputation: it delivered valuable supersonic performance and combat payload for its period, but it also required careful training and was gradually replaced in demanding strike roles by aircraft with better range, avionics, payload, or low-speed attack performance.",
             "refs": [
               "fn-main",
-              "fn-nasa"
+              "fn-nasa",
+              "fn-nmusaf-sea"
             ]
           },
           {
@@ -10512,7 +10552,9 @@
             "text": "Key dates are rounded to the level supported by general reference data and should be checked against individual serial histories for detailed production batches.",
             "refs": [
               "fn-main",
-              "fn-flugzeuginfo"
+              "fn-flugzeuginfo",
+              "fn-nmusaf-f100d",
+              "fn-nmusaf-sea"
             ]
           }
         ],
@@ -10538,35 +10580,37 @@
         ]
       },
       {
-        "id": "sources",
-        "title": "Sources",
+        "id": "sources-notes",
+        "title": "Sources and Notes",
         "paragraphs": [
           {
-            "text": "Primary page expansion used Flugzeuginfo for representative F-100D technical data and Wikipedia as a supplementary overview/reference-discovery source. Existing NASA and F-100.org references were retained for later verification, but direct retrieval in this run was limited by moved or access-blocked pages.",
+            "text": "This audit added two official National Museum of the U.S. Air Force references so rendered external sources now include government/museum support for F-100D production, configuration, performance context, and Southeast Asia combat chronology. Flugzeuginfo remains the representative F-100D technical-data cross-check; Wikipedia is retained only as an orientation/reference-discovery source, and F-100.org is kept in footnotes for human review rather than promoted as a rendered external article.",
             "refs": [
+              "fn-nmusaf-f100d",
+              "fn-nmusaf-sea",
               "fn-flugzeuginfo",
               "fn-main",
-              "fn-nasa",
-              "fn-f100org"
+              "fn-f100org",
+              "fn-method"
             ]
           }
         ],
         "links": [
           {
+            "label": "National Museum of the U.S. Air Force F-100D fact sheet",
+            "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195798/north-american-f-100d-super-sabre/"
+          },
+          {
+            "label": "National Museum of the U.S. Air Force F-100 in Southeast Asia",
+            "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/858858/f-100-super-sabre-in-southeast-asia/"
+          },
+          {
             "label": "Flugzeuginfo F-100 technical data",
             "url": "https://www.flugzeuginfo.net/acdata_php/acdata_f100_en.php"
           },
           {
-            "label": "Wikipedia overview",
-            "url": "https://en.wikipedia.org/wiki/North_American_F-100_Super_Sabre"
-          },
-          {
             "label": "NASA History reference root",
             "url": "http://www.hq.nasa.gov/pao/History/SP-468/cover.htm"
-          },
-          {
-            "label": "F-100.org",
-            "url": "http://www.f-100.org/"
           }
         ]
       },
