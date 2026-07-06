@@ -44324,7 +44324,7 @@
       "exact_fact_count": 40,
       "operator_entries": 9,
       "variant_entries": 8,
-      "external_article_sources": 4
+      "external_article_sources": 2
     },
     "footnotes": [
       {
@@ -44377,13 +44377,6 @@
         "url": "https://skybrary.aero/aircraft/su25",
         "publisher": "SKYbrary Aviation Safety",
         "note": "Concise technical and operational description."
-      },
-      {
-        "id": "fn-main",
-        "title": "Sukhoi Su-25",
-        "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-25",
-        "publisher": "Wikipedia",
-        "note": "Supplementary overview and reference discovery."
       }
     ],
     "article_sections": [
@@ -44849,13 +44842,7 @@
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Mortar_attack_on_Shigal_Tarna_garrison%2C_Kunar_Province%2C_87.jpg/960px-Mortar_attack_on_Shigal_Tarna_garrison%2C_Kunar_Province%2C_87.jpg",
-        "caption": "Soviet–Afghan War",
-        "source_url": "https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "su-27",

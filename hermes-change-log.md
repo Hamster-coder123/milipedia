@@ -9749,3 +9749,75 @@ Record the result of:
 
 * This audit did not add new Mi-24 performance, operator, variant, armament, or combat-history claims; it corrects structured quality metadata so it matches the page's visible rendered source list.
 * The ODIN source did not return a command-line HTTP code during a short browser-header check, so it remains an existing specialist source with the page's previous source hierarchy rather than a source for new claims.
+
+### Run 130 — 2026-07-06 16:00:06 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json (entry id: su-25)
+* Aircraft/Page: Sukhoi Su-25 (id: su-25)
+* Reason selected: Audit/gap-fill rotation scanned previously updated non-reference pages and found a concrete source-rendering and stale-metadata gap on an unaudited page: Wikipedia was still promoted in the rendered `external_articles` list even though the Sources and Notes section labels it as supplementary orientation, `article_quality.external_article_sources` overcounted the actual rendered source list, and a generic Soviet-Afghan War mortar-attack image remained in `event_gallery` rather than Su-25-specific media.
+* Previous condition: The Su-25 entry already had dense Airforce Technology and SKYbrary-backed prose, specifications, variants, operators, operational-history caveats, a Sources and Notes section, and renderer-compatible related links from its earlier expansion, but its visible recommended-source list and generated gallery metadata were not aligned with the page's source hierarchy.
+* Previously edited by Hermes: Yes — selected in Run 33 during the sparse-page expansion phase; reselected here only for concrete audit/gap-fill source-rendering and stale-metadata corrections.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Used the F-16 template as the style/reference pattern for source-aware external links, visible source caveats, cautious operational-history presentation, and avoiding unrelated generated media in aircraft pages.
+
+#### Changes Made
+
+* Removed the Wikipedia orientation record from the Su-25 top-level `external_articles` array so only Airforce Technology and SKYbrary render as recommended external article sources.
+* Updated `article_quality.external_article_sources` from four to two so the quality metadata matches the two rendered top-level external article records.
+* Cleared the Su-25 top-level `event_gallery` array so the page no longer renders a generic Soviet-Afghan War mortar-attack image that is not Su-25-specific aircraft media.
+* Preserved the Wikipedia source record for supplementary orientation and existing refs rather than using it as a visible recommended external article.
+* Preserved existing Su-25 prose, facts, specifications, operators, variants, Sources and Notes, related links, and renderer-compatible article-section shapes; no unsupported new aircraft claims were introduced.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the Sukhoi Su-25 entry's rendered external-source list, matching quality metadata, and stale generated `event_gallery` metadata.
+* hermes-change-log.md — Appended this Run 130 audit/gap-fill log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was a previously updated non-reference aircraft page
+* [x] A concrete source-rendering, renderer-metadata, and stale generated-metadata gap was found before editing
+* [x] F-16 page was used as formatting reference
+* [x] Updated page uses renderer-compatible article-section, link, and external-article shapes
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, git status --short showed only data/aircraft.json and hermes-change-log.md modified, with pre-existing untracked package files left unstaged.
+2. git diff — Reviewed the aircraft diff and confirmed only the Su-25 entry changed inside data/aircraft.json, plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; a verification helper confirmed exactly one changed aircraft entry, preserving id su-25 and preserving the total 100-entry count.
+4. F-16 style comparison — data/f16-template.html was inspected as the renderer/style reference for source-aware external links, visible source notes, and avoiding unrelated generated media.
+5. Internal link check — Recursive selected-entry check found Su-25 local links only to existing IDs: a-10-thunderbolt-ii, sepecat-jaguar, su-24, and su-34.
+6. Source/ref and shape check — Recursive selected-entry check found no refs pointing to missing source or footnote IDs, the quality metadata now matches the two rendered top-level external article links, and no article-section href links or label/value cards were present.
+7. Source retrieval note — Direct browser-header retrieval checked the retained rendered external source URLs during this audit; Airforce Technology and SKYbrary both returned HTTP 200.
+8. Credential check — Checked the staged diff with credential-specific patterns; no credentials were found.
+9. Final review before commit — Confirmed branch hermes-agent, git diff --check clean, staged files limited to data/aircraft.json and hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Sukhoi Su-25
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This audit did not add new Su-25 performance, operator, variant, armament, or combat-history claims; it corrects visible source recommendations, structured quality metadata, and stale generated gallery metadata while preserving the existing sourced prose.
+* Wikipedia remains in the source list for orientation refs, but it is no longer rendered as a recommended external article while stronger specialist sources are available.
