@@ -9325,3 +9325,74 @@ Record the result of:
 
 * This audit did not add new Su-27 performance, operator, variant, avionics, or weapons claims; it corrects rendered source quality and structured quality metadata so they match the fields actually displayed by the page.
 * Su-27 baseline, Su-27UB/SK/P and later Flanker-family derivatives remain variant- and operator-sensitive, so the page keeps its existing caveated prose rather than adding unsupported top-level variant cards.
+
+### Run 124 — 2026-07-06 10:03:16 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json (entry id: p-3-orion)
+* Aircraft/Page: Lockheed P-3 Orion (id: p-3-orion)
+* Reason selected: Audit/gap-fill rotation selected a previously updated non-reference page that had not yet been audited in the new phase and had a concrete source-rendering metadata gap: Wikipedia was still promoted in the top-level rendered `external_articles` list even though the page's footnotes label it as supplementary orientation, and `article_quality.external_article_sources` overcounted the visible rendered external article list.
+* Previous condition: The P-3 Orion entry already had dense Lockheed Martin and NASA-backed prose, operators, variants, specifications, and a renderer-compatible Sources and Notes section from its earlier expansion, but its visible recommended-source list still included an orientation-only source.
+* Previously edited by Hermes: Yes — selected in Run 80 during the sparse-page expansion phase; reselected here only for a concrete audit/gap-fill rendered-source correction.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Used the F-16 template as the style/reference pattern for source-aware external links, visible source caveats, and aligning quality metadata with fields actually rendered by the aircraft page.
+
+#### Changes Made
+
+* Removed the Wikipedia orientation record from the P-3 Orion top-level `external_articles` array so only Lockheed Martin and NASA Airborne Science Program pages render as recommended external article sources.
+* Updated `article_quality.external_article_sources` from four to two so the quality metadata matches the actual rendered top-level external article count.
+* Preserved the Wikipedia source and footnote records for supplementary orientation and existing refs rather than using it as a visible recommended external article.
+* Preserved existing P-3 Orion prose, facts, specifications, operators, variants, Sources and Notes, related links, and renderer-compatible article-section shapes; no unsupported new aircraft claims were introduced.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the Lockheed P-3 Orion entry's rendered external-source list and matching quality metadata.
+* hermes-change-log.md — Appended this Run 124 audit/gap-fill log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was a previously updated non-reference aircraft page
+* [x] A concrete source-rendering and renderer-metadata gap was found before editing
+* [x] F-16 page was used as formatting reference
+* [x] Updated page uses renderer-compatible article-section, link, and external-article shapes
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, git status --short showed only data/aircraft.json and hermes-change-log.md modified, with pre-existing untracked package files left unstaged.
+2. git diff — Reviewed the aircraft diff and confirmed only the P-3 Orion entry changed inside data/aircraft.json, plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; a verification helper confirmed exactly one changed aircraft entry, preserving id p-3-orion and preserving the total 100-entry count.
+4. F-16 style comparison — data/f16-template.html was inspected as the renderer/style reference for source-aware external links, visible source notes, and alignment of quality metadata with rendered fields.
+5. Internal link check — Recursive selected-entry check found P-3 Orion local links only to existing IDs: c-130-hercules, p-8-poseidon, and tu-95.
+6. Source/ref and shape check — Recursive selected-entry check found no refs pointing to missing source or footnote IDs, the quality metadata now matches the two rendered top-level external article links, and no article-section href links or label/value cards were present.
+7. Source retrieval note — Direct browser-header retrieval checked the retained rendered external source URLs during this audit; Lockheed Martin and NASA Airborne Science Program both returned HTTP 200.
+8. Credential check — Checked the staged diff with credential-specific patterns; no credentials were found.
+9. Final review before commit — Confirmed branch hermes-agent, git diff --check clean, staged files limited to data/aircraft.json and hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Lockheed P-3 Orion
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This audit did not add new P-3 Orion performance, operator, variant, sensor, MLU, or weapons claims; it corrects rendered source visibility and structured quality metadata so they match the page's reliable source hierarchy.
+* Some older non-rendered source records remain in the entry for historical traceability, but the visible recommended external articles now prioritize the retained manufacturer and official NASA sources.

@@ -22744,7 +22744,7 @@
       "exact_fact_count": 28,
       "operator_entries": 9,
       "variant_entries": 8,
-      "external_article_sources": 4
+      "external_article_sources": 2
     },
     "footnotes": [
       {
@@ -22786,11 +22786,6 @@
         "title": "P-3 Orion",
         "url": "https://airbornescience.nasa.gov/aircraft/P-3_Orion",
         "publisher": "NASA Airborne Science Program"
-      },
-      {
-        "title": "Lockheed P-3 Orion",
-        "url": "https://en.wikipedia.org/wiki/Lockheed_P-3_Orion",
-        "publisher": "Wikipedia"
       }
     ],
     "article_sections": [
