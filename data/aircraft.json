@@ -53419,8 +53419,8 @@
     "article_quality": {
       "exact_fact_count": 44,
       "operator_entries": 5,
-      "variant_entries": 7,
-      "external_article_sources": 4
+      "variant_entries": 8,
+      "external_article_sources": 3
     },
     "footnotes": [
       {
@@ -53480,13 +53480,6 @@
         "url": "https://www.airforce-technology.com/projects/ilyushin-il-76md-90a-il-476-aircraft-russia/",
         "publisher": "Airforce Technology",
         "note": "Reference for the Il-76MD-90A modernization, PS-90A-76 engines, glass cockpit, payload, range, first deliveries, and performance figures."
-      },
-      {
-        "id": "fn-wiki-il76",
-        "title": "Ilyushin Il-76",
-        "url": "https://en.wikipedia.org/wiki/Ilyushin_Il-76",
-        "publisher": "Wikipedia",
-        "note": "Supplementary orientation source for family lineage, broad operator history, dates, and derivative aircraft; detailed claims were checked against stronger sources where possible."
       }
     ],
     "article_sections": [

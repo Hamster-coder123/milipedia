@@ -9821,3 +9821,76 @@ Record the result of:
 
 * This audit did not add new Su-25 performance, operator, variant, armament, or combat-history claims; it corrects visible source recommendations, structured quality metadata, and stale generated gallery metadata while preserving the existing sourced prose.
 * Wikipedia remains in the source list for orientation refs, but it is no longer rendered as a recommended external article while stronger specialist sources are available.
+
+### Run 131 — 2026-07-06 17:01:50 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json (entry id: il-76)
+* Aircraft/Page: Ilyushin Il-76 Candid (id: il-76)
+* Reason selected: Audit/gap-fill rotation selected a previously updated non-reference page that had not yet been audited in the new phase and had concrete source-rendering and metadata-alignment gaps: Wikipedia was still promoted in the rendered `external_articles` list even though the page treats it as supplementary orientation, and `article_quality.variant_entries` still reported seven entries while the rendered `variants` array contains eight.
+* Previous condition: The Il-76 entry already had dense United Aircraft Corporation and Airforce Technology-backed prose, specifications, variants, operators, operational-history caveats, a Sources and Notes section, and renderer-compatible related links from its earlier expansion, but its visible recommended-source list and quality metadata were not fully aligned with the page's source hierarchy and rendered arrays.
+* Previously edited by Hermes: Yes — selected in Run 27 during the sparse-page expansion phase; reselected here only for concrete audit/gap-fill source-rendering and structured metadata corrections.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Used the F-16 template as the style/reference pattern for source-aware external links, visible source caveats, and aligning quality metadata with fields actually rendered by the aircraft page.
+
+#### Changes Made
+
+* Removed the Wikipedia orientation record from the Il-76 top-level `external_articles` array so only United Aircraft Corporation and Airforce Technology records render as recommended external article sources.
+* Updated `article_quality.external_article_sources` from four to three so the quality metadata matches the three rendered top-level external article records.
+* Updated `article_quality.variant_entries` from seven to eight so the quality metadata matches the eight rendered top-level variant records, including the special-mission derivative entry.
+* Preserved the Wikipedia source and footnote records for supplementary orientation and existing refs rather than using it as a visible recommended external article.
+* Preserved existing Il-76 prose, facts, specifications, operators, variants, Sources and Notes, related links, and renderer-compatible article-section shapes; no unsupported new aircraft claims were introduced.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the Ilyushin Il-76 entry's rendered external-source list and matching quality metadata.
+* hermes-change-log.md — Appended this Run 131 audit/gap-fill log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was a previously updated non-reference aircraft page
+* [x] A concrete source-rendering and structured metadata gap was found before editing
+* [x] F-16 page was used as formatting reference
+* [x] Updated page uses renderer-compatible article-section, link, and external-article shapes
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, git status --short showed only data/aircraft.json and hermes-change-log.md modified, with pre-existing untracked package files left unstaged.
+2. git diff — Reviewed the aircraft diff and confirmed only the Il-76 entry changed inside data/aircraft.json, plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; a verification helper confirmed exactly one changed aircraft entry, preserving id il-76 and preserving the total 100-entry count.
+4. F-16 style comparison — data/f16-template.html was inspected as the renderer/style reference for source-aware external links, visible source notes, and alignment of quality metadata with rendered fields.
+5. Internal link check — Recursive selected-entry check found Il-76 local links only to existing IDs: an-12, c-130-hercules, c-17-globemaster-iii, and c-5-galaxy.
+6. Source/ref and shape check — Recursive selected-entry check found no refs pointing to missing source or footnote IDs, the quality metadata now matches the three rendered top-level external article links and eight rendered variant entries, and no article-section href links or label/value cards were present.
+7. Source retrieval note — Direct browser-header retrieval checked the retained rendered external source URLs during this audit; both Airforce Technology URLs returned HTTP 200, while the United Aircraft Corporation page returned no command-line HTTP status during a short check and remains an existing manufacturer source already used by the page.
+8. Credential check — Checked the staged diff with credential-specific patterns; no credentials were found.
+9. Final review before commit — Confirmed branch hermes-agent, git diff --check clean, staged files limited to data/aircraft.json and hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Ilyushin Il-76 Candid
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This audit did not add new Il-76 performance, operator, variant, armament, or combat-history claims; it corrects visible source recommendations and structured quality metadata while preserving the existing sourced prose.
+* Wikipedia remains in the source and footnote lists for orientation refs, but it is no longer rendered as a recommended external article while stronger manufacturer and specialist sources are available.
+* The United Aircraft Corporation source did not return a command-line HTTP code during a short browser-header check, so it remains an existing manufacturer source with the page's previous source hierarchy rather than a source for new claims.
