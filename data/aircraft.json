@@ -55067,7 +55067,7 @@
       "exact_fact_count": 42,
       "operator_entries": 4,
       "variant_entries": 4,
-      "external_article_sources": 5
+      "external_article_sources": 4
     },
     "footnotes": [
       {
@@ -55141,13 +55141,6 @@
         "url": "https://procharter.com/aircraft/aircraft-guide/cargo-aircraft-guide/antonov-an-22",
         "publisher": "ProCharter",
         "note": "Commercial aircraft-guide reference used for cargo-volume, payload, range, runway, cabin, and development-history cross-checks; many narrative details align with Wikipedia, so values are treated as representative rather than definitive."
-      },
-      {
-        "id": "fn-main",
-        "title": "Antonov An-22",
-        "url": "https://en.wikipedia.org/wiki/Antonov_An-22",
-        "publisher": "Wikipedia",
-        "note": "Supplementary orientation source for chronology, production total, designation spellings, variants, and operator history; not used alone for disputed or date-sensitive claims."
       }
     ],
     "article_sections": [
