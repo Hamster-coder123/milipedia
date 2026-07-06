@@ -35476,13 +35476,7 @@
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Bombed_out_vehicles_Aleppo.jpg/960px-Bombed_out_vehicles_Aleppo.jpg",
-        "caption": "Syrian civil war",
-        "source_url": "https://en.wikipedia.org/wiki/Syrian_civil_war"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "mig-15",

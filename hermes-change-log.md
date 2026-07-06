@@ -9894,3 +9894,73 @@ Record the result of:
 * This audit did not add new Il-76 performance, operator, variant, armament, or combat-history claims; it corrects visible source recommendations and structured quality metadata while preserving the existing sourced prose.
 * Wikipedia remains in the source and footnote lists for orientation refs, but it is no longer rendered as a recommended external article while stronger manufacturer and specialist sources are available.
 * The United Aircraft Corporation source did not return a command-line HTTP code during a short browser-header check, so it remains an existing manufacturer source with the page's previous source hierarchy rather than a source for new claims.
+
+### Run 132 — 2026-07-06 18:00:09 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json (entry id: rq-4-global-hawk)
+* Aircraft/Page: Northrop Grumman RQ-4 Global Hawk (id: rq-4-global-hawk)
+* Reason selected: Audit/gap-fill rotation selected a previously updated non-reference page that had not yet been audited in the new phase and had a concrete stale-metadata gap: the page retained a generic Syrian civil war `event_gallery` image rather than RQ-4-specific aircraft media, even though its prose and sources already frame the aircraft as an unarmed ISR and communications-relay platform.
+* Previous condition: The RQ-4 Global Hawk entry already had dense U.S. Air Force and Northrop Grumman-backed prose, specifications, block/variant coverage, operators, operational-history caveats, a Sources and Notes section, external articles, and renderer-compatible related links from its earlier expansion, but stale generated conflict-gallery imagery still rendered unrelated battlefield media.
+* Previously edited by Hermes: Yes — selected in Run 28 during the sparse-page expansion phase; reselected here only for a concrete audit/gap-fill stale-metadata cleanup.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Used the F-16 template as the style/reference pattern for source-aware page data, cautious operational-history wording, and avoiding unrelated generated media in aircraft pages.
+
+#### Changes Made
+
+* Cleared the RQ-4 Global Hawk top-level `event_gallery` array so the page no longer renders a generic Syrian civil war image that is not RQ-4-specific aircraft media.
+* Preserved existing RQ-4 prose, facts, specifications, operators, variants, operational-history caveats, Sources and Notes, external articles, source records, footnotes, and related links; no unsupported new aircraft claims were introduced.
+* Left `wars_used_in` and `combat_history` intact because the existing source-backed wording already frames RQ-4 use as ISR and communications relay rather than weapon delivery.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the Northrop Grumman RQ-4 Global Hawk entry's stale generated `event_gallery` metadata.
+* hermes-change-log.md — Appended this Run 132 audit/gap-fill log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was a previously updated non-reference aircraft page
+* [x] A concrete stale generated-metadata gap was found before editing
+* [x] F-16 page was used as formatting reference
+* [x] Updated page uses renderer-compatible article-section, link, and external-article shapes
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, git status --short showed only data/aircraft.json and hermes-change-log.md modified, with pre-existing untracked package files left unstaged.
+2. git diff — Reviewed the aircraft diff and confirmed only the RQ-4 Global Hawk entry changed inside data/aircraft.json, plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; a verification helper confirmed exactly one changed aircraft entry, preserving id rq-4-global-hawk and preserving the total 100-entry count.
+4. F-16 style comparison — data/f16-template.html was inspected as the renderer/style reference for avoiding unrelated generated media and preserving source-aware page structure.
+5. Internal link check — Recursive selected-entry check found RQ-4 local links only to existing IDs: e-2-hawkeye, mq-1-predator, mq-9-reaper, p-8-poseidon, and u-2-dragon-lady.
+6. Source/ref and shape check — Recursive selected-entry check found no refs pointing to missing source or footnote IDs, the quality metadata still matches the two rendered top-level external article links, and no article-section href links or label/value cards were present.
+7. Source retrieval note — Direct browser-header retrieval checked the retained rendered external source URLs during this audit; Northrop Grumman returned HTTP 200, while the U.S. Air Force fact sheet returned HTTP 403 from the command-line fetch and remains an existing official source already used by the page.
+8. Credential check — Checked the staged diff with credential-specific patterns; no credentials were found.
+9. Final review before commit — Confirmed branch hermes-agent, git diff --check clean, staged files limited to data/aircraft.json and hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Northrop Grumman RQ-4 Global Hawk
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This audit did not add new RQ-4 performance, operator, variant, payload, current-inventory, or operational claims; it removes stale generated conflict-gallery metadata while preserving the existing sourced ISR/relay wording.
+* The U.S. Air Force fact sheet blocked a short command-line header check with HTTP 403, so it remains an existing official source with the page's previous source hierarchy rather than a source for new claims.
