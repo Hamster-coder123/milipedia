@@ -28848,7 +28848,7 @@
       "exact_fact_count": 34,
       "operator_entries": 8,
       "variant_entries": 6,
-      "external_article_sources": 3
+      "external_article_sources": 2
     },
     "footnotes": [
       {
@@ -28894,13 +28894,6 @@
         "url": "https://www.army-technology.com/projects/apache/",
         "publisher": "Army Technology / GlobalData",
         "note": "Supplementary technical and program history source for AH-64A/D service entry, Longbow development, weapons, sensors, and representative specifications."
-      },
-      {
-        "id": "fn-wikipedia-ah64",
-        "title": "Boeing AH-64 Apache",
-        "url": "https://en.wikipedia.org/wiki/Boeing_AH-64_Apache",
-        "publisher": "Wikipedia",
-        "note": "General orientation and cross-checking source; preferred article claims use manufacturer and specialist sources where possible."
       }
     ],
     "article_sections": [

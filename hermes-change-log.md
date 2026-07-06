@@ -10036,3 +10036,74 @@ Record the result of:
 * This audit did not add new Mi-8 performance, operator, variant, armament, or combat-history claims; it corrects visible source recommendations and structured quality metadata while preserving the existing sourced prose.
 * Wikipedia remains in the source and footnote lists for orientation refs, but it is no longer rendered as a recommended external article while stronger official and specialist sources are available.
 * The flugzeuginfo source remains an existing specialist source for representative technical values; because it uses a plain-HTTP URL, this unattended run did not directly fetch it and instead preserved the page's previous source hierarchy without adding new claims.
+
+### Run 134 — 2026-07-06 20:00:09 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json (entry id: ah-64-apache)
+* Aircraft/Page: Boeing AH-64 Apache (id: ah-64-apache)
+* Reason selected: Audit/gap-fill rotation selected a previously updated non-reference page that had not yet been audited in the new phase and had a concrete rendered-source gap: the page rendered Wikipedia as a recommended top-level external article even though stronger Boeing and Army Technology references were already present.
+* Previous condition: The AH-64 Apache entry already had dense AH-64A/D/E prose, specifications, variants, operators, operational-history caveats, a renderer-compatible Sources and Notes section, and reliable source records from its earlier expansion, but its rendered external-article list still included an orientation-only Wikipedia entry and the quality metadata counted that weak rendered recommendation.
+* Previously edited by Hermes: Yes — selected in Run 90 during the sparse-page expansion phase; reselected here only for a concrete audit/gap-fill rendered-source and metadata alignment fix.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Used the F-16 template as the style/reference pattern for source-aware recommendations, source caveats, and preserving renderer-compatible JSON shapes.
+
+#### Changes Made
+
+* Removed the orientation-only Wikipedia record from the AH-64 Apache top-level `external_articles` array so it no longer renders as a recommended external article while stronger manufacturer and specialist sources are available.
+* Preserved the Wikipedia record in `sources` and `footnotes` because existing prose and the Sources and Notes section use it only as a supplementary orientation/cross-check reference.
+* Updated `article_quality.external_article_sources` from 3 to 2 so it matches the two retained rendered external articles.
+* Preserved existing AH-64 prose, facts, specifications, variants, operators, operational-history caveats, source records, footnotes, Sources and Notes section, related links, and metadata from the prior expansion.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the Boeing AH-64 Apache entry's rendered external-source list and source-count metadata.
+* hermes-change-log.md — Appended this Run 134 audit/gap-fill log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was a previously updated non-reference aircraft page
+* [x] A concrete rendered-source/metadata gap was found before editing
+* [x] F-16 page was used as formatting reference
+* [x] Updated page uses renderer-compatible article-section, link, and external-article shapes
+* [x] No unrelated tracked files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, git status --short showed only data/aircraft.json and hermes-change-log.md modified, with pre-existing untracked package files left unstaged.
+2. git diff — Reviewed the aircraft diff and confirmed only the AH-64 Apache entry changed inside data/aircraft.json, plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; a verification helper confirmed exactly one changed aircraft entry, preserving id ah-64-apache and preserving the total 100-entry count.
+4. F-16 style comparison — data/f16-template.html was inspected as the renderer/style reference for source-aware recommendations and preserving renderer-compatible page structure.
+5. Internal link check — Recursive selected-entry check found AH-64 local links only to existing IDs: ah-1-cobra, ch-47-chinook, uh-1-iroquois, and uh-60-black-hawk.
+6. Source/ref and shape check — Recursive selected-entry check found no refs pointing to missing source or footnote IDs, the quality metadata now matches the two rendered top-level external article links, and no article-section href links or label/value cards were present.
+7. Source retrieval note — Direct browser-header retrieval checked the retained rendered external source URLs during this audit; Army Technology returned HTTP 200, and Boeing returned reachable redirect/content headers for its AH-64 page.
+8. Credential check — Checked the staged diff with credential-specific patterns; no credentials were found.
+9. Final review before commit — Confirmed branch hermes-agent, git diff --check clean, staged files limited to data/aircraft.json and hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Boeing AH-64 Apache
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This audit did not add new AH-64 performance, operator, variant, armament, or combat-history claims; it corrects visible source recommendations and structured quality metadata while preserving the existing sourced prose.
+* Wikipedia remains in the source and footnote lists for orientation refs, but it is no longer rendered as a recommended external article while stronger manufacturer and specialist sources are available.
