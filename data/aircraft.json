@@ -68146,7 +68146,7 @@
       "exact_fact_count": 55,
       "operator_entries": 8,
       "variant_entries": 8,
-      "external_article_sources": 5
+      "external_article_sources": 3
     },
     "footnotes": [
       {
@@ -68737,27 +68737,32 @@
           {
             "id": "f-16-fighting-falcon",
             "name": "General Dynamics F-16 Fighting Falcon",
-            "url": "aircraft.html?id=f-16-fighting-falcon"
+            "url": "aircraft.html?id=f-16-fighting-falcon",
+            "label": "General Dynamics F-16 Fighting Falcon"
           },
           {
             "id": "mirage-2000",
             "name": "Dassault Mirage 2000",
-            "url": "aircraft.html?id=mirage-2000"
+            "url": "aircraft.html?id=mirage-2000",
+            "label": "Dassault Mirage 2000"
           },
           {
             "id": "rafale",
             "name": "Dassault Rafale",
-            "url": "aircraft.html?id=rafale"
+            "url": "aircraft.html?id=rafale",
+            "label": "Dassault Rafale"
           },
           {
             "id": "eurofighter-typhoon",
             "name": "Eurofighter Typhoon",
-            "url": "aircraft.html?id=eurofighter-typhoon"
+            "url": "aircraft.html?id=eurofighter-typhoon",
+            "label": "Eurofighter Typhoon"
           },
           {
             "id": "f-a-18-hornet",
             "name": "McDonnell Douglas F/A-18 Hornet",
-            "url": "aircraft.html?id=f-a-18-hornet"
+            "url": "aircraft.html?id=f-a-18-hornet",
+            "label": "McDonnell Douglas F/A-18 Hornet"
           }
         ]
       }

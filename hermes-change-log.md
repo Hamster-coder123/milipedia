@@ -8898,3 +8898,75 @@ Record the result of:
 
 * This audit did not add new J-11 performance, operator, or weapons claims; it corrects rendered source quality so the page recommends specialist sources while retaining Wikipedia only as orientation support.
 * J-11 production totals, avionics standards, engine fit by batch, weapons compatibility, and current inventory details remain date-sensitive and variant-dependent, so the page keeps its existing caveated wording rather than adding a single uncaveated value set.
+
+### Run 118 — 2026-07-06 04:01:02 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json (entry id: jas-39-gripen)
+* Aircraft/Page: Saab JAS 39 Gripen (id: jas-39-gripen)
+* Reason selected: Audit/gap-fill rotation selected a previously updated non-reference page that had not been audited in the new phase and had concrete renderer-integration gaps: `article_quality.external_article_sources` reported five rendered external article sources even though the page exposes three top-level `external_articles` links, and the Related Pages section links had `name`/`url` fields but lacked the `label` field read by the article-section renderer.
+* Previous condition: The Gripen entry already had dense source-aware prose, C/D and E/F variant coverage, operator entries, a renderer-compatible Sources and Notes section, and rendered external links from Saab and Airforce Technology, but its source-quality count still reflected source records rather than the actual rendered external-article array and its related-page article-section links were not fully renderer-compatible.
+* Previously edited by Hermes: Yes — selected in an earlier sparse-page expansion run; reselected here only for concrete audit/gap-fill quality-metadata and related-link renderer corrections.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Used the F-16 template as the style/reference pattern for aligning quality metadata with renderer-visible source links while preserving separate source/footnote records and source caveats.
+
+#### Changes Made
+
+* Updated `article_quality.external_article_sources` from five to three so the quality metadata matches the actual top-level rendered `external_articles` array for the Gripen page.
+* Added renderer-compatible `label` fields to the five Related Pages article-section links while preserving their existing `id`, `name`, and `url` values.
+* Preserved the existing rendered external articles: Saab Gripen E-series, Saab Gripen C-series, and Airforce Technology Gripen profile.
+* Preserved existing source and footnote records, including Swedish Armed Forces records, Wikipedia orientation support, and local method notes; no unsupported new aircraft facts, performance values, operators, or source links were introduced.
+* Preserved existing Gripen prose, specifications, variants, operators, Sources and Notes, and related-link destinations.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the Saab JAS 39 Gripen entry's external-source quality metadata count and article-section related-link labels.
+* hermes-change-log.md — Appended this Run 118 audit/gap-fill log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was a previously updated non-reference aircraft page
+* [x] A concrete renderer-metadata gap was found before editing
+* [x] F-16 page was used as formatting reference
+* [x] Updated page uses renderer-compatible article-section, link, and external-article shapes
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, git status --short showed only data/aircraft.json and hermes-change-log.md modified, with pre-existing untracked package files left unstaged.
+2. git diff — Reviewed the aircraft diff and confirmed only the Gripen entry changed inside data/aircraft.json, plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; a verification helper confirmed exactly one changed aircraft entry, preserving id jas-39-gripen and preserving the total 100-entry count.
+4. F-16 style comparison — data/f16-template.html was inspected as the renderer/style reference for source-aware external links, visible source notes, and alignment of quality metadata with rendered fields.
+5. Internal link check — Recursive selected-entry check found Gripen local links only to existing IDs.
+6. Source/ref and shape check — Recursive selected-entry check found no refs pointing to missing source or footnote IDs, the quality metadata now matches the three rendered top-level external article links, and Related Pages article-section links now include renderer-compatible labels.
+7. Source retrieval note — Direct browser-header retrieval confirmed the Saab Gripen E-series, Saab Gripen C-series, and Airforce Technology Gripen URLs were reachable with HTTP 200 responses during this audit.
+8. Credential check — Checked the staged diff with credential-specific patterns; no credentials were found.
+9. Final review before commit — Confirmed branch hermes-agent, git diff --check clean, staged files limited to data/aircraft.json and hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Saab JAS 39 Gripen
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This audit did not add new Gripen performance, operator, delivery, or weapons claims; it corrects rendered-source quality metadata so the page reports the same external-source count that the renderer displays.
+* Gripen C/D versus E/F performance, sensors, weapons clearances, and operator/delivery status remain variant- and date-sensitive, so the page keeps its existing caveated wording rather than adding a single uncaveated value set.
