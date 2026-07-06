@@ -9041,3 +9041,74 @@ Record the result of:
 
 * This audit did not add new A-4 performance, operator, variant, or weapons claims; it corrects rendered source quality so the page recommends specialist museum/official sources while retaining Wikipedia only as orientation support.
 * A-4 operator lists, combat-use summaries, and variant equipment remain date- and configuration-sensitive, so the page keeps its existing caveated wording rather than adding a single uncaveated value set.
+
+### Run 120 — 2026-07-06 06:02:41 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json (entry id: a-7-corsair-ii)
+* Aircraft/Page: LTV A-7 Corsair II (id: a-7-corsair-ii)
+* Reason selected: Audit/gap-fill rotation selected a previously updated non-reference page that had not been audited in the new phase and had a concrete source-rendering gap: the page's Sources and Notes section identifies Wikipedia as supplementary orientation, but the Wikipedia record was still promoted in the top-level rendered `external_articles` list.
+* Previous condition: The A-7 Corsair II entry already had dense National Museum of the U.S. Air Force and FlightGlobal-backed prose, specifications, variants, operators, Sources and Notes, and related links from its earlier expansion, but its rendered external-source list mixed specialist sources with an orientation-only Wikipedia link.
+* Previously edited by Hermes: Yes — selected in an earlier sparse-page expansion run; reselected here only for a concrete audit/gap-fill source-rendering and source-count correction.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Used the F-16 template as the style/reference pattern for source-aware external links, visible Sources and Notes caveats, cautious public-specification wording, and internal aircraft.html?id=... related-link treatment.
+
+#### Changes Made
+
+* Removed the Wikipedia orientation record from the LTV A-7 Corsair II top-level `external_articles` array so only the National Museum of the U.S. Air Force A-7D page and retained FlightGlobal archive record render as recommended external article sources.
+* Updated `article_quality.external_article_sources` from three to two so the quality metadata matches the actual rendered non-Wikipedia external-article count.
+* Preserved the Wikipedia source and footnote records for supplementary orientation refs already used by broad program chronology, operator, variant, and replacement-context notes.
+* Preserved existing A-7 prose, facts, specifications, variants, operators, Sources and Notes, related links, and renderer-compatible article-section shapes; no unsupported new aircraft claims were introduced.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the LTV A-7 Corsair II entry's rendered external-source list and source-quality count.
+* hermes-change-log.md — Appended this Run 120 audit/gap-fill log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was a previously updated non-reference aircraft page
+* [x] A concrete source-rendering/source-count gap was found before editing
+* [x] F-16 page was used as formatting reference
+* [x] Updated page uses renderer-compatible article-section, link, and external-article shapes
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, git status --short showed only data/aircraft.json and hermes-change-log.md modified, with pre-existing untracked package files left unstaged.
+2. git diff — Reviewed the aircraft diff and confirmed only the A-7 Corsair II entry changed inside data/aircraft.json, plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; a verification helper confirmed exactly one changed aircraft entry, preserving id a-7-corsair-ii and preserving the total 100-entry count.
+4. F-16 style comparison — data/f16-template.html was inspected as the renderer/style reference for source-aware external links, visible source notes, and aircraft.html?id=... related-link treatment.
+5. Internal link check — Recursive selected-entry check found A-7 local links only to existing IDs: a-4-skyhawk, a-6-intruder, f-8-crusader, f-105-thunderchief, f-a-18-hornet, and f-16-fighting-falcon.
+6. Source/ref and shape check — Recursive selected-entry check found no refs pointing to missing source or footnote IDs, the quality metadata now matches the two rendered top-level external article links, and no article-section href links or label/value cards were present.
+7. Source retrieval note — Direct browser-header retrieval checked the retained external source URLs during this audit; the National Museum page returned HTTP 403 from the command-line fetch but remains an existing official museum source, while the HTTPS form of the FlightGlobal archive URL returned HTTP 404 and the original HTTP archive URL was not fetched by command because unattended policy blocks plain-HTTP downloads.
+8. Credential check — Checked the staged diff with credential-specific patterns; no credentials were found.
+9. Final review before commit — Confirmed branch hermes-agent, git diff --check clean, staged files limited to data/aircraft.json and hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in LTV A-7 Corsair II
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This audit did not add new A-7 performance, operator, variant, or weapons claims; it corrects rendered source quality so the page recommends specialist/museum/archive sources while retaining Wikipedia only as orientation support.
+* A-7A/B/D/E/H/K variants, operator lists, weapons clearances, and Southeast Asia service details remain variant- and date-sensitive, so the page keeps its existing caveated wording rather than adding a single uncaveated value set.

@@ -14104,7 +14104,7 @@
       "exact_fact_count": 34,
       "operator_entries": 5,
       "variant_entries": 9,
-      "external_article_sources": 3
+      "external_article_sources": 2
     },
     "footnotes": [
       {
@@ -14150,13 +14150,6 @@
         "url": "http://www.flightglobal.com/pdfarchive/view/1974/1974%20-%201837.html",
         "publisher": "FlightGlobal archive",
         "note": "Period aviation reference retained from the original data record for external-source continuity."
-      },
-      {
-        "id": "fn-main",
-        "title": "LTV A-7 Corsair II",
-        "url": "https://en.wikipedia.org/wiki/LTV_A-7_Corsair_II",
-        "publisher": "Wikipedia",
-        "note": "Supplementary overview source for A-7 program chronology, variant family, operators, and replacement context."
       }
     ],
     "article_sections": [
