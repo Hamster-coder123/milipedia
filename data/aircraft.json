@@ -45053,8 +45053,8 @@
     "article_quality": {
       "exact_fact_count": 38,
       "operator_entries": 4,
-      "variant_entries": 6,
-      "external_article_sources": 3
+      "variant_entries": 0,
+      "external_article_sources": 2
     },
     "footnotes": [
       {
@@ -45096,11 +45096,6 @@
         "title": "Sukhoi SU-27UB “FLANKER-C” Trainer",
         "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/3566120/sukhoi-su-27ub-flanker-c-trainer/",
         "publisher": "National Museum of the U.S. Air Force"
-      },
-      {
-        "title": "Sukhoi Su-27",
-        "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-27",
-        "publisher": "Wikipedia"
       }
     ],
     "article_sections": [
