@@ -38940,7 +38940,7 @@
       "exact_fact_count": 30,
       "operator_entries": 6,
       "variant_entries": 8,
-      "external_article_sources": 5
+      "external_article_sources": 4
     },
     "footnotes": [
       {
@@ -39010,12 +39010,6 @@
         "url": "https://www.airforce-technology.com/projects/mig27/",
         "publisher": "Airforce Technology",
         "summary": "Supplementary specialist reference used only for MiG-27 derivative context and to avoid mixing dedicated MiG-27 ground-attack specifications into the fighter MiG-23 baseline."
-      },
-      {
-        "title": "Mikoyan-Gurevich MiG-23",
-        "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-23",
-        "publisher": "Wikipedia",
-        "summary": "Supplementary orientation source for first-flight date, production total cross-check, broad variant naming, and general service history; official and museum sources are preferred for committed technical wording."
       }
     ],
     "article_sections": [
