@@ -9182,3 +9182,74 @@ Record the result of:
 
 * This audit did not add new JF-17 performance, operator, variant, avionics, or weapons claims; it corrects rendered source quality so the page's metadata matches the specialist/manufacturer external articles it actually renders.
 * JF-17 Block I/II/JF-17B/Block III and export-customer equipment remain block- and customer-sensitive, so the page keeps its existing caveated wording rather than adding a single uncaveated value set.
+
+### Run 122 — 2026-07-06 08:02:35 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json (entry id: an-12)
+* Aircraft/Page: Antonov An-12 (id: an-12)
+* Reason selected: Audit/gap-fill rotation selected a previously updated non-reference page that had not yet been audited in the new phase and had a concrete rendered-source quality gap: Wikipedia was still promoted in the top-level `external_articles` list even though three specialist/manufacturer references were already available.
+* Previous condition: The An-12 entry already had dense Antonov/Air Charter Service/Aviation Zone-backed prose, variants, operators, a Sources and Notes section, and renderer-compatible related links from its earlier expansion, but its visible recommended external articles still included Wikipedia as an orientation source.
+* Previously edited by Hermes: Yes — selected in an earlier sparse-page expansion run; reselected here only for a concrete audit/gap-fill rendered-source correction.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Used the F-16 template as the style/reference pattern for source-aware external links, visible Sources and Notes caveats, cautious public-specification wording, and internal aircraft.html?id=... related-link treatment.
+
+#### Changes Made
+
+* Removed the Wikipedia record from the An-12 top-level `external_articles` array so the rendered recommended source list now shows only the Antonov manufacturer page, Air Charter Service cargo-aircraft reference, and The Aviation Zone aviation reference.
+* Updated `article_quality.external_article_sources` from four to three so the metadata matches the actual rendered top-level external article count.
+* Preserved the Wikipedia source and footnote records for supplementary orientation and existing refs rather than using it as a visible recommended external article.
+* Preserved existing An-12 prose, facts, specifications, variants, operators, Sources and Notes, related links, and renderer-compatible article-section shapes; no unsupported new aircraft claims were introduced.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the Antonov An-12 entry's rendered external-source list and matching quality count.
+* hermes-change-log.md — Appended this Run 122 audit/gap-fill log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was a previously updated non-reference aircraft page
+* [x] A concrete source-rendering/source-count gap was found before editing
+* [x] F-16 page was used as formatting reference
+* [x] Updated page uses renderer-compatible article-section, link, and external-article shapes
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, git status --short showed only data/aircraft.json and hermes-change-log.md modified, with pre-existing untracked package files left unstaged.
+2. git diff — Reviewed the aircraft diff and confirmed only the An-12 entry changed inside data/aircraft.json, plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; a verification helper confirmed exactly one changed aircraft entry, preserving id an-12 and preserving the total 100-entry count.
+4. F-16 style comparison — data/f16-template.html was inspected as the renderer/style reference for source-aware external links, visible source notes, and aircraft.html?id=... related-link treatment.
+5. Internal link check — Recursive selected-entry check found An-12 local links only to existing IDs: an-22, c-130-hercules, il-76, and xian-y-20.
+6. Source/ref and shape check — Recursive selected-entry check found no refs pointing to missing source or footnote IDs, the quality metadata now matches the three rendered top-level external article links, and no article-section href links or label/value cards were present.
+7. Source retrieval note — Direct browser-header retrieval checked the retained rendered external source URLs during this audit; Air Charter Service and The Aviation Zone returned HTTP 200, while the Antonov manufacturer page did not respond within the short command timeout and remains an existing cited manufacturer source already used by the page.
+8. Credential check — Checked the staged diff with credential-specific patterns; no credentials were found.
+9. Final review before commit — Confirmed branch hermes-agent, git diff --check clean, staged files limited to data/aircraft.json and hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Antonov An-12
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This audit did not add new An-12 performance, operator, variant, or service-history claims; it corrects rendered source quality so the page recommends specialist/manufacturer references while retaining Wikipedia only as orientation support.
+* An-12BP/civil freighter and special-mission details remain variant-sensitive, so the page keeps its existing caveated wording rather than adding a single uncaveated value set.

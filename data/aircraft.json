@@ -54296,7 +54296,7 @@
       "exact_fact_count": 42,
       "operator_entries": 5,
       "variant_entries": 6,
-      "external_article_sources": 4
+      "external_article_sources": 3
     },
     "footnotes": [
       {
@@ -54350,11 +54350,6 @@
         "title": "Antonov An-12",
         "url": "https://www.theaviationzone.com/antonov-an-12",
         "publisher": "The Aviation Zone"
-      },
-      {
-        "title": "Antonov An-12",
-        "url": "https://en.wikipedia.org/wiki/Antonov_An-12",
-        "publisher": "Wikipedia"
       }
     ],
     "article_sections": [
