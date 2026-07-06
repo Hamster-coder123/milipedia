@@ -19501,23 +19501,7 @@
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg/960px-USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg",
-        "caption": "Gulf War",
-        "source_url": "https://en.wikipedia.org/wiki/Gulf_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/UStanks_baghdad_2003.JPEG/960px-UStanks_baghdad_2003.JPEG",
-        "caption": "Iraq War",
-        "source_url": "https://en.wikipedia.org/wiki/Iraq_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/U.S._Army_firefight_in_Kunar.jpg/960px-U.S._Army_firefight_in_Kunar.jpg",
-        "caption": "War in Afghanistan (2001–2021)",
-        "source_url": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001%E2%80%932021)"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "c-17-globemaster-iii",

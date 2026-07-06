@@ -9609,3 +9609,73 @@ Record the result of:
 
 * This audit did not add new AH-1 Cobra performance, operator, variant, armament, or combat-history claims; it corrects rendered source visibility and structured quality metadata so they match the page's reliable source hierarchy.
 * The MAPS Air Museum PDF blocked a short command-line fetch with HTTP 403, so it remains an existing museum source with the page's previous source hierarchy rather than a source for new claims.
+
+### Run 128 — 2026-07-06 14:01:07 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json (entry id: c-5-galaxy)
+* Aircraft/Page: Lockheed C-5 Galaxy / C-5M Super Galaxy (id: c-5-galaxy)
+* Reason selected: Audit/gap-fill rotation selected a previously updated non-reference page that had not yet been audited in the new phase and had a concrete stale-metadata gap: the page retained generic Gulf War, Iraq War, and Afghanistan conflict `event_gallery` images rather than C-5-specific media, even though its prose and sources already distinguish strategic airlift support from direct combat imagery.
+* Previous condition: The C-5 Galaxy entry already had dense USAF/Lockheed-backed prose, specifications, variants, operators, operational history, Sources and Notes, external articles, and renderer-compatible related links from its earlier expansion, but stale generated conflict-gallery imagery still rendered unrelated aircraft, tank, and firefight photos.
+* Previously edited by Hermes: Yes — selected in Run 3 during the sparse-page expansion phase; reselected here only for a concrete audit/gap-fill stale-metadata cleanup.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Used the F-16 template as the style/reference pattern for source-aware page data, cautious operational-history wording, and avoiding unrelated generated media in aircraft pages.
+
+#### Changes Made
+
+* Cleared the C-5 top-level `event_gallery` array so the page no longer renders generic Gulf War/Iraq/Afghanistan images that were not C-5-specific aircraft media.
+* Preserved existing C-5 prose, facts, specifications, operators, variants, operational-history caveats, Sources and Notes, external articles, source records, footnotes, and related links; no unsupported new aircraft claims were introduced.
+* Left the existing `wars_used_in` and `combat_history` text intact because the USAF/Lockheed-backed page prose already frames these as strategic airlift/logistics support rather than aircraft combat participation.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the Lockheed C-5 Galaxy / C-5M Super Galaxy entry's stale generated `event_gallery` metadata.
+* hermes-change-log.md — Appended this Run 128 audit/gap-fill log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was a previously updated non-reference aircraft page
+* [x] A concrete stale generated-metadata gap was found before editing
+* [x] F-16 page was used as formatting reference
+* [x] Updated page uses renderer-compatible article-section, link, and external-article shapes
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, git status --short showed only data/aircraft.json and hermes-change-log.md modified, with pre-existing untracked package files left unstaged.
+2. git diff — Reviewed the aircraft diff and confirmed only the C-5 Galaxy entry changed inside data/aircraft.json, plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; a verification helper confirmed exactly one changed aircraft entry, preserving id c-5-galaxy and preserving the total 100-entry count.
+4. F-16 style comparison — data/f16-template.html was inspected as the renderer/style reference for avoiding unrelated generated media and preserving source-aware page structure.
+5. Internal link check — Recursive selected-entry check found C-5 local links only to existing IDs: c-130-hercules, c-17-globemaster-iii, il-76, and kc-135-stratotanker.
+6. Source/ref and shape check — Recursive selected-entry check found no refs pointing to missing source or footnote IDs, the quality metadata still matches the two rendered top-level external article links, and no article-section href links or label/value cards were present.
+7. Source retrieval note — Direct browser-header retrieval checked the retained rendered external source URLs during this audit; Lockheed Martin returned HTTP 200, while the U.S. Air Force fact sheet returned HTTP 403 from the command-line fetch and remains an existing official source already used by the page.
+8. Credential check — Checked the staged diff with credential-specific patterns; no credentials were found.
+9. Final review before commit — Confirmed branch hermes-agent, git diff --check clean, staged files limited to data/aircraft.json and hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Lockheed C-5 Galaxy / C-5M Super Galaxy
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This audit did not add new C-5 performance, operator, variant, current-inventory, or operational claims; it removes stale generated conflict-gallery metadata while preserving the existing sourced airlift-history wording.
+* The U.S. Air Force fact sheet blocked a short command-line header check with HTTP 403, so it remains an existing official source with the page's previous source hierarchy rather than a source for new claims.
