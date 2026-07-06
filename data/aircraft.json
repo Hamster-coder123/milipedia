@@ -12824,7 +12824,7 @@
       "exact_fact_count": 34,
       "operator_entries": 8,
       "variant_entries": 6,
-      "external_article_sources": 4
+      "external_article_sources": 3
     },
     "footnotes": [
       {
@@ -12884,13 +12884,6 @@
         "url": "https://www.museumofflight.org/exhibits-and-events/aircraft/douglas-4f-skyhawk-ii",
         "publisher": "The Museum of Flight",
         "note": "Museum aircraft page with A-4F specifications, Blue Angels service, and production totals."
-      },
-      {
-        "id": "fn-main",
-        "title": "Douglas A-4 Skyhawk",
-        "url": "https://en.wikipedia.org/wiki/Douglas_A-4_Skyhawk",
-        "publisher": "Wikipedia",
-        "note": "Supplementary orientation source for broad operator and conflict context; official and museum sources preferred above."
       }
     ],
     "article_sections": [
