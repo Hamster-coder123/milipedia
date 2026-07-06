@@ -8757,3 +8757,73 @@ Record the result of:
 
 * This audit did not add new J-20 performance, operator, or combat-history claims; it corrects rendered source-quality metadata to match the external links already displayed by the page.
 * J-20 fleet totals, engine standards, weapons clearances, and public specification values remain date-sensitive and variant-dependent, so the page keeps its existing caveated wording rather than a single uncaveated value set.
+
+### Run 116 — 2026-07-06 02:02:10 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json (entry id: mi-26)
+* Aircraft/Page: Mil Mi-26 Halo (id: mi-26)
+* Reason selected: Audit/gap-fill rotation selected a previously updated non-reference page that had not been audited in the new phase and had a concrete rendered-metadata gap: `article_quality.variant_entries` reported seven variant entries even though the renderer-visible top-level `variants` array is empty.
+* Previous condition: The Mi-26 entry already had dense source-aware prose, source notes, operators, related links, and three rendered external article sources from its earlier expansion, but its variant quality count still reflected prose-described variant families rather than actual top-level variant cards.
+* Previously edited by Hermes: Yes — selected in an earlier sparse-page expansion run; reselected here only for a concrete audit/gap-fill quality-metadata correction.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Used the F-16 template as the style/reference pattern for aligning quality metadata with renderer-visible structured arrays and keeping source-aware caveats separate from generated counts.
+
+#### Changes Made
+
+* Updated `article_quality.variant_entries` from seven to zero so the quality metadata matches the actual top-level `variants` array rendered for the Mi-26 page.
+* Preserved the existing Mi-26 variant-family discussion in the article prose and Sources and Notes section; no unsupported new aircraft facts, performance values, operators, or source links were introduced.
+* Preserved existing external articles, source/footnote records, operators, article sections, related links, and event metadata.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the Mil Mi-26 Halo entry's variant-quality metadata count.
+* hermes-change-log.md — Appended this Run 116 audit/gap-fill log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was a previously updated non-reference aircraft page
+* [x] A concrete renderer-metadata gap was found before editing
+* [x] F-16 page was used as formatting reference
+* [x] Updated page uses renderer-compatible article-section, link, and external-article shapes
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, git status --short showed only data/aircraft.json and hermes-change-log.md modified, with pre-existing untracked package files left unstaged.
+2. git diff — Reviewed the aircraft diff and confirmed only the Mi-26 entry changed inside data/aircraft.json, plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; a verification helper confirmed exactly one changed aircraft entry, preserving id mi-26 and preserving the total 100-entry count.
+4. F-16 style comparison — data/f16-template.html was inspected as the renderer/style reference for aligning quality counts with actual rendered structured fields.
+5. Internal link check — Recursive selected-entry check found Mi-26 local links only to existing IDs: an-22, ch-47-chinook, ch-53-sea-stallion, and il-76.
+6. Source/ref check — Recursive selected-entry check found no refs pointing to missing source or footnote IDs, and the variant-quality metadata now matches the zero top-level rendered variant cards.
+7. Source retrieval note — No new external source claims were added in this metadata-only audit; existing source records and rendered external articles were preserved.
+8. Credential check — Checked the staged diff with credential-specific patterns; no credentials were found.
+9. Final review before commit — Confirmed branch hermes-agent, git diff --check clean, staged files limited to data/aircraft.json and hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Mil Mi-26 Halo
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This audit did not add new Mi-26 variant, performance, operator, or combat-history claims; it corrects structured quality metadata so it reflects the fields actually rendered by the page.
+* Mi-26 variant names, modernization standards, fleet totals, and operator inventories remain source- and date-sensitive, so the page keeps its existing caveated prose rather than adding unsupported top-level variant cards.
