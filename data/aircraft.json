@@ -30236,7 +30236,7 @@
       "U.S. Customs and Border Protection Air and Marine Operations",
       "International military and government operators; Lockheed Martin describes the UH-60M as serving the United States and 27 other nations in its UH-60M brochure."
     ],
-    "combat_history": "Not listed",
+    "combat_history": "Documented operational use includes U.S. Army Black Hawk service in Operation Desert Storm, with wider H-60 family rescue, utility, medical-evacuation, civil-security, and special-operations roles varying by derivative and mission kit.",
     "development_history": "The UH-60 Black Hawk was developed from the U.S. Army Utility Tactical Transport Aircraft System requirement for a crashworthy, ballistically tolerant squad carrier. Sikorsky's S-70/YUH-60 design led to UH-60A service entry in 1979, with later UH-60L and UH-60M versions adding power, lift, digital avionics, survivability, and maintainability improvements.",
     "short_summary": "The Sikorsky UH-60 Black Hawk is a U.S. medium-lift utility helicopter family used for air assault, general support, aeromedical evacuation, command and control, search and rescue, special operations support, and civil-agency missions. The modern UH-60M adds digital avionics, T700-GE-701D engines, wide-chord rotor blades, and health-monitoring systems to the long-running Black Hawk platform.",
     "carrier_capable": false,
@@ -30904,6 +30904,42 @@
         ]
       },
       {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Rendered external articles are limited to the manufacturer, Sikorsky Archives, U.S. Air Force, and CBP records used directly for the page. Wikipedia and Wikidata remain orientation-only records for identifiers and cross-checking rather than recommended external reading.",
+            "refs": [
+              "fn-lm-black-hawk",
+              "fn-lm-uh60m-brochure",
+              "fn-sikorsky-archives",
+              "fn-af-hh60g",
+              "fn-cbp-uh60",
+              "fn-main",
+              "fn-wikidata"
+            ]
+          },
+          {
+            "text": "UH-60, HH-60, MH-60, S-70, and export Black Hawk aircraft differ by customer, mission kit, engines, sensors, defensive equipment, and armed or unarmed configuration, so specification and armament statements are treated as representative rather than universal.",
+            "refs": [
+              "fn-method",
+              "fn-lm-uh60m-brochure",
+              "fn-af-hh60g"
+            ]
+          },
+          {
+            "text": "Source reachability was checked during the audit: Lockheed Martin pages responded directly, while some archive/government pages were kept as cited records even when automated extraction or header checks were blocked by the site.",
+            "refs": [
+              "fn-lm-black-hawk",
+              "fn-lm-uh60m-brochure",
+              "fn-sikorsky-archives",
+              "fn-af-hh60g",
+              "fn-cbp-uh60"
+            ]
+          }
+        ]
+      },
+      {
         "id": "similar-development",
         "title": "Related Pages",
         "paragraphs": [
@@ -30934,23 +30970,7 @@
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg/960px-USAF_F-16A_F-15C_F-15E_Desert_Storm_edit2.jpg",
-        "caption": "Gulf War",
-        "source_url": "https://en.wikipedia.org/wiki/Gulf_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/UStanks_baghdad_2003.JPEG/960px-UStanks_baghdad_2003.JPEG",
-        "caption": "Iraq War",
-        "source_url": "https://en.wikipedia.org/wiki/Iraq_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/U.S._Army_firefight_in_Kunar.jpg/960px-U.S._Army_firefight_in_Kunar.jpg",
-        "caption": "War in Afghanistan (2001–2021)",
-        "source_url": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001%E2%80%932021)"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "ch-47-chinook",
