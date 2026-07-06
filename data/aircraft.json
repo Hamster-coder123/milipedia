@@ -28055,7 +28055,7 @@
       "exact_fact_count": 43,
       "operator_entries": 7,
       "variant_entries": 9,
-      "external_article_sources": 6
+      "external_article_sources": 5
     },
     "footnotes": [
       {
@@ -28133,11 +28133,6 @@
         "title": "Bell AH-1 Cobra",
         "url": "https://mapsairmuseum.org/wp-content/uploads/2024/02/AH-1-Cobra.pdf",
         "publisher": "MAPS Air Museum"
-      },
-      {
-        "title": "Bell AH-1 Cobra",
-        "url": "https://en.wikipedia.org/wiki/Bell_AH-1_Cobra",
-        "publisher": "Wikipedia"
       }
     ],
     "article_sections": [
