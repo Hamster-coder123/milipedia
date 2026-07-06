@@ -9679,3 +9679,73 @@ Record the result of:
 
 * This audit did not add new C-5 performance, operator, variant, current-inventory, or operational claims; it removes stale generated conflict-gallery metadata while preserving the existing sourced airlift-history wording.
 * The U.S. Air Force fact sheet blocked a short command-line header check with HTTP 403, so it remains an existing official source with the page's previous source hierarchy rather than a source for new claims.
+
+### Run 129 — 2026-07-06 15:03:03 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json (entry id: mi-24)
+* Aircraft/Page: Mil Mi-24 (id: mi-24)
+* Reason selected: Audit/gap-fill rotation selected a previously updated non-reference page that had not yet been audited in the new phase and had a concrete renderer-metadata gap: `article_quality.external_article_sources` still reported five rendered external article sources even though the top-level `external_articles` array contains four reliable rendered source records.
+* Previous condition: The Mi-24 entry already had dense Czech MOD, museum, ODIN, and Airforce Technology-backed prose, specifications, variants, operators, operational-history caveats, a Sources and Notes section, and renderer-compatible related links from its earlier expansion, but the quality metadata overcounted the visible rendered external-source list.
+* Previously edited by Hermes: Yes — selected in Run 77 during the sparse-page expansion phase; reselected here only for a concrete audit/gap-fill metadata alignment correction.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Used the F-16 template as the style/reference pattern for source-aware external links, visible source caveats, and aligning quality metadata with fields actually rendered by the aircraft page.
+
+#### Changes Made
+
+* Updated the Mi-24 `article_quality.external_article_sources` value from five to four so it matches the four top-level rendered external article records.
+* Preserved the Wikipedia and local methodology source/footnote records as supplementary orientation and citation support rather than counting them as rendered external articles.
+* Preserved existing Mi-24 prose, facts, specifications, operators, variants, Sources and Notes, related links, and renderer-compatible article-section shapes; no unsupported new aircraft claims were introduced.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the Mil Mi-24 entry's rendered external-source quality metadata.
+* hermes-change-log.md — Appended this Run 129 audit/gap-fill log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was a previously updated non-reference aircraft page
+* [x] A concrete renderer-metadata gap was found before editing
+* [x] F-16 page was used as formatting reference
+* [x] Updated page uses renderer-compatible article-section, link, and external-article shapes
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, git status --short showed only data/aircraft.json and hermes-change-log.md modified, with pre-existing untracked package files left unstaged.
+2. git diff — Reviewed the aircraft diff and confirmed only the Mi-24 entry changed inside data/aircraft.json, plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; a verification helper confirmed exactly one changed aircraft entry, preserving id mi-24 and preserving the total 100-entry count.
+4. F-16 style comparison — data/f16-template.html was inspected as the renderer/style reference for source-aware external links, visible source notes, and alignment of quality metadata with rendered fields.
+5. Internal link check — Recursive selected-entry check found Mi-24 local links only to existing IDs.
+6. Source/ref and shape check — Recursive selected-entry check found no refs pointing to missing source or footnote IDs, the quality metadata now matches the four rendered top-level external article links, and no article-section href links or label/value cards were present.
+7. Source retrieval note — Direct browser-header retrieval checked the retained rendered external source URLs during this audit; Czech MOD, Pima Air & Space Museum, and Airforce Technology returned HTTP 200, while the ODIN entry timed out or otherwise returned no command-line HTTP code and remains an existing U.S. Army ODIN source already used by the page.
+8. Credential check — Checked the staged diff with credential-specific patterns; no credentials were found.
+9. Final review before commit — Confirmed branch hermes-agent, git diff --check clean, staged files limited to data/aircraft.json and hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Mil Mi-24
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This audit did not add new Mi-24 performance, operator, variant, armament, or combat-history claims; it corrects structured quality metadata so it matches the page's visible rendered source list.
+* The ODIN source did not return a command-line HTTP code during a short browser-header check, so it remains an existing specialist source with the page's previous source hierarchy rather than a source for new claims.
