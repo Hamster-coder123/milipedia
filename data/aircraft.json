@@ -60770,7 +60770,7 @@
       "exact_fact_count": 38,
       "operator_entries": 7,
       "variant_entries": 7,
-      "external_article_sources": 3
+      "external_article_sources": 2
     },
     "footnotes": [
       {
@@ -60812,11 +60812,6 @@
         "title": "A3 – Dassault Mirage III",
         "url": "https://www.airforce.gov.au/sites/default/files/2023-07/A3-Dassault%20Mirrage%20III-%20%20pp418-423.pdf",
         "publisher": "Royal Australian Air Force"
-      },
-      {
-        "title": "Dassault Mirage III",
-        "url": "https://en.wikipedia.org/wiki/Dassault_Mirage_III",
-        "publisher": "Wikipedia"
       }
     ],
     "article_sections": [
