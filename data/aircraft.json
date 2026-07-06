@@ -70875,7 +70875,7 @@
       "exact_fact_count": 47,
       "operator_entries": 10,
       "variant_entries": 5,
-      "external_article_sources": 3
+      "external_article_sources": 2
     },
     "footnotes": [
       {
@@ -70921,13 +70921,6 @@
         "url": "https://www.raf.mod.uk/aircraft/atlas-c1-a400m/",
         "publisher": "Royal Air Force",
         "note": "Official operator page retained for Atlas C.1 service context; the page was difficult to fetch in this run, so detailed figures were not taken from it without cross-checking."
-      },
-      {
-        "id": "fn-wiki-a400m",
-        "title": "Airbus A400M Atlas",
-        "url": "https://en.wikipedia.org/wiki/Airbus_A400M_Atlas",
-        "publisher": "Wikipedia",
-        "note": "Supplementary orientation source for first-flight, service-entry, and broad programme chronology; stronger official sources were preferred where available."
       }
     ],
     "article_sections": [
