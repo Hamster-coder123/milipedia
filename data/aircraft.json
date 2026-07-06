@@ -55967,7 +55967,7 @@
       "exact_fact_count": 35,
       "operator_entries": 10,
       "variant_entries": 8,
-      "external_article_sources": 5
+      "external_article_sources": 3
     },
     "footnotes": [
       {
@@ -56034,13 +56034,6 @@
         "url": "http://www.flugzeuginfo.net/acdata_php/acdata_mi8_en.php",
         "publisher": "flugzeuginfo.net",
         "note": "Technical data source used for representative Mi-8 dimensions, weights, engines, speed, range, ceiling, and variant list; values are treated as representative because Mi-8-family variants differ."
-      },
-      {
-        "id": "fn-main",
-        "title": "Mil Mi-8",
-        "url": "https://en.wikipedia.org/wiki/Mil_Mi-8",
-        "publisher": "Wikipedia",
-        "note": "Supplementary orientation source for broad family structure and cross-checking; not used as the sole source for key technical claims."
       }
     ],
     "article_sections": [
