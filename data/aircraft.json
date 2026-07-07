@@ -70042,7 +70042,7 @@
       "exact_fact_count": 34,
       "operator_entries": 10,
       "variant_entries": 6,
-      "external_article_sources": 4
+      "external_article_sources": 3
     },
     "footnotes": [
       {
@@ -70102,13 +70102,6 @@
         "url": "https://www.dcms.uscg.mil/Our-Organization/Assistant-Commandant-for-Acquisitions-CG-9/Programs/Air-Programs/MRS-HC-144-C27J/C-27J-Program-Profile",
         "publisher": "U.S. Coast Guard",
         "note": "Official U.S. Coast Guard program source for the transfer and missionization of 14 former U.S. Air Force C-27Js into the medium range surveillance fleet; page availability may vary, but the program fact is also indexed in public USCG snippets."
-      },
-      {
-        "id": "fn-wiki",
-        "title": "Alenia C-27J Spartan",
-        "url": "https://en.wikipedia.org/wiki/Alenia_C-27J_Spartan",
-        "publisher": "Wikipedia",
-        "note": "Supplementary orientation source for first flight date, G.222 lineage, broad variant names, and international operator list; official and manufacturer sources are preferred where available."
       }
     ],
     "article_sections": [
