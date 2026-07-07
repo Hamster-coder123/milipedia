@@ -10536,3 +10536,77 @@ Record the result of:
 
 * This audit did not add new B-1 performance, operator, variant, armament, or combat-history claims; it corrects visible source recommendations and stale generated gallery metadata while preserving the existing sourced prose.
 * Wikipedia remains in the source and footnote lists for orientation refs, but it is no longer rendered as a recommended external article while stronger official, manufacturer, museum, and aviation-publication sources are available.
+
+### Run 141 — 2026-07-07 03:01:29 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json (entry id: tu-22m)
+* Aircraft/Page: Tupolev Tu-22M (id: tu-22m)
+* Reason selected: Audit/gap-fill rotation selected a previously updated non-reference page that had not yet been audited in the new phase and had concrete renderer/source-integration metadata gaps: Wikipedia was still promoted in the top-level `external_articles` list despite the page's Sources and Notes section labeling it as supplementary orientation, and the structured article-quality counts no longer matched renderer-visible operator, variant, and external-source arrays.
+* Previous condition: The Tu-22M entry already had dense sourced prose, representative specifications, variants, operators, operational-history caveats, a Sources and Notes section, and renderer-compatible related links from its earlier expansion, but its visible source recommendations and quality metadata needed cleanup.
+* Previously edited by Hermes: Yes — selected in Run 37 during the sparse-page expansion phase; reselected here only for concrete audit/gap-fill source-rendering and metadata corrections.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Used the F-16 template as the style/reference pattern for source-aware external links, visible source caveats, and aligning quality metadata with fields actually rendered by the aircraft page.
+
+#### Changes Made
+
+* Removed the Wikipedia orientation record from the Tu-22M top-level `external_articles` array so Airforce Technology, SKYbrary, and airwar.ru remain the rendered external article sources.
+* Updated `article_quality.external_article_sources` from four to three so the quality metadata matches the actual rendered top-level external article count.
+* Updated `article_quality.operator_entries` from three to four so it matches the four top-level rendered operator entries: Russian Aerospace Forces, Soviet Air Forces, Soviet Naval Aviation, and Ukrainian Air Force.
+* Updated `article_quality.variant_entries` from six to zero so it matches the current top-level rendered `variants` array; the six variant notes remain as prose bullets in the Variants article section rather than top-level variant cards.
+* Preserved the Wikipedia source and footnote records for supplementary orientation and existing refs rather than using it as a visible recommended external article.
+* Preserved existing Tu-22M prose, facts, specifications, operators, variant-section bullets, Sources and Notes, related links, and renderer-compatible article-section shapes; no unsupported new aircraft claims were introduced.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the Tupolev Tu-22M entry's rendered external-source list and matching quality metadata.
+* hermes-change-log.md — Appended this Run 141 audit/gap-fill log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was a previously updated non-reference aircraft page
+* [x] A concrete source-rendering and renderer-metadata gap was found before editing
+* [x] F-16 page was used as formatting reference
+* [x] Updated page uses renderer-compatible article-section, link, and external-article shapes
+* [x] No unrelated tracked files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, git status --short showed only data/aircraft.json and hermes-change-log.md modified, with pre-existing untracked package files left unstaged.
+2. git diff — Reviewed the aircraft diff and confirmed only the Tu-22M entry changed inside data/aircraft.json, plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; a verification helper confirmed exactly one changed aircraft entry, preserving id tu-22m and preserving the total 100-entry count.
+4. F-16 style comparison — data/f16-template.html was inspected as the renderer/style reference for source-aware recommendations and preserving renderer-compatible page structure.
+5. Internal link check — Recursive selected-entry check found Tu-22M local links only to existing IDs: b-1-lancer, su-24, tu-160, and tu-95.
+6. Source/ref and shape check — Recursive selected-entry check found no refs pointing to missing source or footnote IDs, the quality metadata now matches the three rendered top-level external article links, the four top-level operator entries, and the zero top-level variant entries, and no article-section href links or label/value cards were present.
+7. Source retrieval note — Web extraction/search backends returned errors during this audit, so direct browser-header checks were used for retained HTTPS sources; Airforce Technology redirected to its trailing-slash URL and returned HTTP 200, SKYbrary returned HTTP 200, and the Wikipedia orientation URL also returned HTTP 200. The existing plain-HTTP airwar.ru source was preserved without a new unattended fetch.
+8. Credential check — Checked the staged diff with credential-specific patterns; no credentials were found.
+9. Final review before commit — Confirmed branch hermes-agent, git diff --check clean, staged files limited to data/aircraft.json and hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Tupolev Tu-22M
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This audit did not add new Tu-22M performance, operator, variant, armament, or combat-history claims; it corrects visible source recommendations and structured quality metadata while preserving the existing sourced prose.
+* Wikipedia remains in the source and footnote lists for orientation refs, but it is no longer rendered as a recommended external article while stronger aviation-reference and specialist sources are available.
+* The six variant notes currently render as article-section bullets, not top-level variant cards; the audit aligned metadata to that actual renderer-visible top-level array rather than restructuring the page.

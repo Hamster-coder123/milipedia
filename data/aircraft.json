@@ -52017,9 +52017,9 @@
     ],
     "article_quality": {
       "exact_fact_count": 28,
-      "operator_entries": 3,
-      "variant_entries": 6,
-      "external_article_sources": 4
+      "operator_entries": 4,
+      "variant_entries": 0,
+      "external_article_sources": 3
     },
     "footnotes": [
       {
@@ -52068,11 +52068,6 @@
         "title": "TUPOLEV Tu-22M",
         "url": "https://skybrary.aero/aircraft/t22m",
         "publisher": "SKYbrary Aviation Safety"
-      },
-      {
-        "title": "Tupolev Tu-22M",
-        "url": "https://en.wikipedia.org/wiki/Tupolev_Tu-22M",
-        "publisher": "Wikipedia"
       },
       {
         "title": "Tu-22M3",
