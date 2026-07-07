@@ -10322,3 +10322,74 @@ Record the result of:
 * This audit did not add new MiG-23 performance, operator, variant, armament, or combat-history claims; it corrects visible source recommendations and structured quality metadata while preserving the existing sourced prose.
 * Wikipedia remains in the source and footnote lists for orientation refs, but it is no longer rendered as a recommended external article while stronger museum and specialist sources are available.
 * The two National Museum of the U.S. Air Force pages blocked short command-line checks with HTTP 403, so they remain existing official museum sources with the page's previous source hierarchy rather than sources for new claims.
+
+### Run 138 — 2026-07-07 00:04:32 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json (entry id: su-34)
+* Aircraft/Page: Sukhoi Su-34 (id: su-34)
+* Reason selected: Audit/gap-fill rotation selected a previously updated non-reference page that had not yet been audited in the new phase and had a concrete rendered-source gap: Wikipedia was still promoted in the top-level `external_articles` list even though the page's Sources and Notes section labels it as supplementary orientation and stronger specialist source records are already available for visible recommendations.
+* Previous condition: The Su-34 entry already had dense Airforce Technology and Deagel-backed prose, specifications, variants, operators, operational-history caveats, a Sources and Notes section, and renderer-compatible related links from its earlier expansion, but its rendered external-source list still included an orientation-only source.
+* Previously edited by Hermes: Yes — selected in Run 32 during the sparse-page expansion phase; reselected here only for a concrete audit/gap-fill rendered-source correction.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Used the F-16 template as the style/reference pattern for source-aware external links, visible source caveats, and aligning quality metadata with fields actually rendered by the aircraft page.
+
+#### Changes Made
+
+* Removed the Wikipedia orientation record from the Su-34 top-level `external_articles` array so only Airforce Technology and Deagel records render as recommended external article sources.
+* Updated `article_quality.external_article_sources` from three to two so the quality metadata matches the actual rendered top-level external article count.
+* Preserved the Wikipedia source and footnote records for supplementary orientation and existing refs rather than using it as a visible recommended external article.
+* Preserved existing Su-34 prose, facts, specifications, operators, variants, Sources and Notes, related links, and renderer-compatible article-section shapes; no unsupported new aircraft claims were introduced.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the Sukhoi Su-34 entry's rendered external-source list and matching quality metadata.
+* hermes-change-log.md — Appended this Run 138 audit/gap-fill log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was a previously updated non-reference aircraft page
+* [x] A concrete source-rendering and renderer-metadata gap was found before editing
+* [x] F-16 page was used as formatting reference
+* [x] Updated page uses renderer-compatible article-section, link, and external-article shapes
+* [x] No unrelated tracked files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, git status --short showed only data/aircraft.json and hermes-change-log.md modified, with pre-existing untracked package files left unstaged.
+2. git diff — Reviewed the aircraft diff and confirmed only the Su-34 entry changed inside data/aircraft.json, plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; a verification helper confirmed exactly one changed aircraft entry, preserving id su-34 and preserving the total 100-entry count.
+4. F-16 style comparison — data/f16-template.html was inspected as the renderer/style reference for source-aware recommendations and preserving renderer-compatible page structure.
+5. Internal link check — Recursive selected-entry check found Su-34 local links only to existing IDs: su-24, su-27, su-35, and tu-22m.
+6. Source/ref and shape check — Recursive selected-entry check found no refs pointing to missing source or footnote IDs, the quality metadata now matches the two rendered top-level external article links, and no article-section href links or label/value cards were present.
+7. Source retrieval note — Direct browser-header retrieval checked the retained rendered external source URLs and the orientation Wikipedia URL during this audit; Airforce Technology, Deagel, and Wikipedia returned HTTP 200.
+8. Credential check — Checked the staged diff with credential-specific patterns; no credentials were found.
+9. Final review before commit — Confirmed branch hermes-agent, git diff --check clean, staged files limited to data/aircraft.json and hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Sukhoi Su-34
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This audit did not add new Su-34 performance, operator, variant, armament, or combat-history claims; it corrects visible source recommendations and structured quality metadata while preserving the existing sourced prose.
+* Wikipedia remains in the source and footnote lists for orientation refs, but it is no longer rendered as a recommended external article while stronger specialist sources are available.

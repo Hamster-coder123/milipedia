@@ -47553,7 +47553,7 @@
       "exact_fact_count": 42,
       "operator_entries": 2,
       "variant_entries": 4,
-      "external_article_sources": 3
+      "external_article_sources": 2
     },
     "footnotes": [
       {
@@ -47599,13 +47599,6 @@
         "url": "https://www.deagel.com/Combat%20Aircraft/Su-34/a000181",
         "publisher": "Deagel",
         "note": "Supplementary technical/source cross-check."
-      },
-      {
-        "id": "fn-wikipedia",
-        "title": "Sukhoi Su-34",
-        "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-34",
-        "publisher": "Wikipedia",
-        "note": "Supplementary orientation only."
       }
     ],
     "article_sections": [
