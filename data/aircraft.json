@@ -16356,13 +16356,14 @@
         ]
       },
       {
-        "id": "sources-related-pages",
-        "title": "Sources and Related Pages",
+        "id": "sources-notes",
+        "title": "Sources and Notes",
         "paragraphs": [
           {
-            "text": "The most important source caveat is that many B-52 figures are variant- and date-sensitive. This page uses B-52H data for current-service specifications, cites official USAF pages where available, and uses accessible secondary references to cross-check figures when official pages were blocked from direct extraction during the run.",
+            "text": "The most important source caveat is that many B-52 figures are variant- and date-sensitive. This page uses B-52H data for current-service specifications, cites official USAF pages where available, and uses accessible specialist references to cross-check figures when official pages block automated extraction.",
             "refs": [
               "fn-usaf",
+              "fn-acc",
               "fn-globalsecurity-specs",
               "fn-airforce-technology"
             ]
@@ -16372,6 +16373,14 @@
           {
             "label": "U.S. Air Force B-52 fact sheet",
             "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104465/b-52-stratofortress/"
+          },
+          {
+            "label": "Air Combat Command B-52 fact sheet",
+            "url": "https://www.acc.af.mil/About-Us/Fact-Sheets/Display/Article/199455/b-52-stratofortress/"
+          },
+          {
+            "label": "National Museum B-52D fact sheet",
+            "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196460/boeing-b-52d-stratofortress/"
           },
           {
             "label": "B-1 Lancer",
@@ -16384,6 +16393,30 @@
           {
             "label": "Return to aircraft database",
             "url": "aircraft.html"
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Official USAF, Air Combat Command, and National Museum fact sheets are retained as primary source records for mission, current-service framing, and B-52D historical context; automated browser-header checks for those three official pages returned HTTP 403 in this audit, matching the earlier extraction caveat rather than disproving the sources.",
+            "refs": [
+              "fn-usaf",
+              "fn-acc",
+              "fn-nmusaf-b52d"
+            ]
+          },
+          {
+            "text": "GlobalSecurity and Airforce Technology remain rendered external articles because they were reachable in this audit and cross-check public B-52H specifications, production totals, modernization context, and representative performance figures.",
+            "refs": [
+              "fn-globalsecurity-specs",
+              "fn-airforce-technology"
+            ]
+          },
+          {
+            "text": "Wikipedia remains only as a supplementary orientation record in the source and footnote lists; it is not promoted in the rendered external-article recommendations while official, museum, and aviation-reference sources are available.",
+            "refs": [
+              "fn-wiki",
+              "fn-method"
+            ]
           }
         ]
       }

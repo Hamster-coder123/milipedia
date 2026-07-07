@@ -10610,3 +10610,77 @@ Record the result of:
 * This audit did not add new Tu-22M performance, operator, variant, armament, or combat-history claims; it corrects visible source recommendations and structured quality metadata while preserving the existing sourced prose.
 * Wikipedia remains in the source and footnote lists for orientation refs, but it is no longer rendered as a recommended external article while stronger aviation-reference and specialist sources are available.
 * The six variant notes currently render as article-section bullets, not top-level variant cards; the audit aligned metadata to that actual renderer-visible top-level array rather than restructuring the page.
+
+### Run 142 — 2026-07-07 04:01:46 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json (entry id: b-52-stratofortress)
+* Aircraft/Page: Boeing B-52 Stratofortress (id: b-52-stratofortress)
+* Reason selected: Audit/gap-fill rotation selected a previously updated non-reference page that had not yet been audited in the new phase and had a concrete source-integration gap: its source caveats were in a mixed "Sources and Related Pages" section rather than the renderer-compatible "Sources and Notes" pattern used by late-stage audited pages, leaving official-source reachability and orientation-source caveats less clearly exposed.
+* Previous condition: The B-52 entry already had dense sourced prose, representative B-52H specifications, variants, operators, operational-history caveats, rendered external articles, and renderer-compatible link/card shapes from its earlier expansion, but its final source section needed standardization and clearer caveats for official sources that block automated extraction.
+* Previously edited by Hermes: Yes — selected in Run 88 during the sparse-page expansion phase; reselected here only for concrete audit/gap-fill source-note integration.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Used the F-16 template as the style/reference pattern for source-aware notes, source caveats, related-link handling, and preserving renderer-compatible article-section links/cards within the JSON aircraft-page renderer.
+
+#### Changes Made
+
+* Renamed the B-52 final article section from `Sources and Related Pages` to renderer-standard `Sources and Notes` and changed its section id to `sources-notes`.
+* Expanded the section's source caveats to identify that official USAF, Air Combat Command, and National Museum source records are retained for mission/current-service and B-52D historical context despite returning HTTP 403 to this automated audit check.
+* Added source-note bullets explaining that GlobalSecurity and Airforce Technology remained reachable during this audit and continue to cross-check representative public B-52H specifications, production, and modernization context.
+* Added an explicit note that Wikipedia remains only as supplementary orientation in sources/footnotes and is not promoted as a rendered external-article recommendation while stronger official, museum, and aviation-reference sources are available.
+* Added renderer-compatible section links for the Air Combat Command and National Museum source records while preserving the existing related B-1/B-2/database links.
+* Preserved existing B-52 prose, facts, specifications, operators, variants, wars-used-in metadata, similar-development links, rendered external-article count, and article-quality metadata; no unsupported new aircraft claims were introduced.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the Boeing B-52 Stratofortress entry's source-note section title/id, caveat bullets, refs, and renderer-compatible source links.
+* hermes-change-log.md — Appended this Run 142 audit/gap-fill log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was a previously updated non-reference aircraft page
+* [x] A concrete source-note integration gap was found before editing
+* [x] F-16 page was used as formatting reference
+* [x] Updated page uses renderer-compatible article-section, link, and external-article shapes
+* [x] No unrelated tracked files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, git status --short showed only data/aircraft.json and hermes-change-log.md modified, with pre-existing untracked package files left unstaged.
+2. git diff — Reviewed the aircraft diff and confirmed only the B-52 Stratofortress entry changed inside data/aircraft.json, plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; a verification helper confirmed exactly one changed aircraft entry, preserving id b-52-stratofortress and preserving the total 100-entry count.
+4. F-16 style comparison — data/f16-template.html was inspected as the renderer/style reference for source-aware notes and preserving renderer-compatible page structure.
+5. Internal link check — Recursive selected-entry check found B-52 local links only to existing IDs: b-1-lancer, b-2-spirit, tu-160, and tu-95.
+6. Source/ref and shape check — Recursive selected-entry check found no refs pointing to missing source or footnote IDs, the quality metadata still matches the five rendered top-level external article links, and no article-section href links or label/value cards were present.
+7. Source retrieval note — Direct browser-header retrieval checked retained source URLs during this audit; GlobalSecurity and Airforce Technology returned HTTP 200, while the retained USAF, Air Combat Command, and National Museum official pages returned HTTP 403 to this automated check and were kept with explicit caveats rather than replaced.
+8. Credential check — Checked the staged diff with credential-specific patterns; no credentials were found.
+9. Final review before commit — Confirmed branch hermes-agent, git diff --check clean, staged files limited to data/aircraft.json and hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Boeing B-52 Stratofortress
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This audit did not add new B-52 performance, operator, variant, armament, or combat-history claims; it standardizes the page's visible source-note integration and caveats while preserving the existing sourced prose.
+* Official USAF, Air Combat Command, and National Museum links returned HTTP 403 to automated checks but are retained as authoritative cited records with explicit caveats.
+* Wikipedia remains in the source and footnote lists for orientation refs, but it is not rendered as a recommended external article while stronger official, museum, and aviation-reference sources are available.
