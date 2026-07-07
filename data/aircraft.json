@@ -76183,7 +76183,7 @@
       "exact_fact_count": 35,
       "operator_entries": 3,
       "variant_entries": 7,
-      "external_article_sources": 4
+      "external_article_sources": 2
     },
     "footnotes": [
       {
@@ -76236,13 +76236,6 @@
         "url": "https://www.globalsecurity.org/military/world/china/h-6k.htm",
         "publisher": "GlobalSecurity.org",
         "note": "Used for H-6K modernization context, redesigned nose, enlarged intakes, radar/sensor/data-link/EW notes, six hardpoints, and cautious range/radius context."
-      },
-      {
-        "id": "fn-main",
-        "title": "Xi'an H-6",
-        "url": "https://en.wikipedia.org/wiki/Xi%27an_H-6",
-        "publisher": "Wikipedia",
-        "note": "Supplementary orientation source for lineage, broad variant/operator context, and reference discovery; not used alone for sensitive current claims."
       }
     ],
     "article_sections": [
