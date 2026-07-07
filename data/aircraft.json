@@ -31868,7 +31868,7 @@
       "exact_fact_count": 39,
       "operator_entries": 5,
       "variant_entries": 8,
-      "external_article_sources": 5
+      "external_article_sources": 4
     },
     "footnotes": [
       {
@@ -31942,13 +31942,6 @@
         "url": "https://www.globalaircraft.org/planes/ch-53_sea_stallion.pl",
         "publisher": "GlobalAircraft.org",
         "note": "Supplementary public specification reference, especially for CH-53D/three-engine-data caveats. Used cautiously where figures differ by variant."
-      },
-      {
-        "id": "fn-main",
-        "title": "Sikorsky CH-53 Sea Stallion",
-        "url": "https://en.wikipedia.org/wiki/Sikorsky_CH-53_Sea_Stallion",
-        "publisher": "Wikipedia",
-        "note": "Supplementary orientation source for broad operator and variant cross-checks; not used as the sole basis for technical claims."
       }
     ],
     "article_sections": [
@@ -32406,6 +32399,46 @@
               "fn-method"
             ]
           }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          "The rendered external-article recommendations prioritize the Sikorsky Archives, Fort Worth Aviation Museum, Flying Leatherneck Aviation Museum, and GlobalAircraft records. The Wikipedia CH-53 record remains only as supplementary orientation in the source and footnote lists and is not promoted as a recommended external article while stronger specialist and museum sources are available.",
+          "Public CH-53 data varies by S-65 branch: two-engine CH-53A/D, minesweeping RH-53 aircraft, Air Force HH/MH-53 derivatives, German CH-53G upgrades, Israeli Yasur upgrades, and the larger three-engine CH-53E/MH-53E family are not interchangeable baselines. Specifications and operator notes should be read as representative unless a variant is named."
+        ],
+        "bullets": [
+          "Sikorsky Archives is used for original S-65/CH-53 development lineage, first-flight context, propulsion/load notes, and variant-family designations.",
+          "Fort Worth Aviation Museum and Flying Leatherneck Aviation Museum provide museum cross-checks for CH-53A/Marine Corps mission, Vietnam-era service, and preserved-aircraft historical details.",
+          "GlobalAircraft remains a supplementary public specification reference and is used cautiously where figures differ between CH-53A/D, HH/MH-53, and CH-53E-family aircraft.",
+          "Wikipedia is retained only for broad orientation and cross-checking; precise claims prefer the specialist or museum records listed above."
+        ],
+        "links": [
+          {
+            "label": "Sikorsky Archives — S-65",
+            "url": "https://sikorskyarchives.com/home/sikorsky-product-history/helicopter-innovation-era/sikorsky-s-65"
+          },
+          {
+            "label": "Fort Worth Aviation Museum — CH-53 Sea Stallion",
+            "url": "https://fortworthaviationmuseum.com/ch-53-sea-stallion"
+          },
+          {
+            "label": "Flying Leatherneck Aviation Museum — CH-53A Sea Stallion",
+            "url": "https://www.flyingleathernecks.org/aircraft-collection/ch-53a-sea-stallion"
+          },
+          {
+            "label": "GlobalAircraft — CH-53 Sea Stallion",
+            "url": "https://www.globalaircraft.org/planes/ch-53_sea_stallion.pl"
+          }
+        ],
+        "refs": [
+          "fn-sikorsky-archives",
+          "fn-fort-worth",
+          "fn-flying-leathernecks",
+          "fn-globalaircraft",
+          "fn-main",
+          "fn-method"
         ]
       },
       {

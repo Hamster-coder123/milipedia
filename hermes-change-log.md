@@ -10756,3 +10756,77 @@ Record the result of:
 * This audit did not add new C-27J performance, operator, variant, armament, or service-history claims; it corrects visible source recommendations and structured quality metadata while preserving the existing sourced prose.
 * Wikipedia remains in the source and footnote lists for orientation refs, but it is no longer rendered as a recommended external article while stronger manufacturer, operator, and government program sources are available.
 * The Royal Australian Air Force and U.S. Coast Guard official pages were retained despite automated retrieval timeouts or access restrictions because they were existing authoritative source records and this audit only cleaned rendered source promotion.
+
+### Run 144 — 2026-07-07 06:02:48 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json (entry id: ch-53-sea-stallion)
+* Aircraft/Page: Sikorsky CH-53 Sea Stallion (id: ch-53-sea-stallion)
+* Reason selected: Audit/gap-fill rotation selected a previously updated non-reference page that had not yet been audited in the new phase and had concrete source-rendering gaps: Wikipedia was still promoted in the top-level `external_articles` list despite stronger specialist and museum sources already being available, and the page lacked a renderer-compatible Sources and Notes section to expose source caveats and CH-53 family baseline cautions.
+* Previous condition: The CH-53 Sea Stallion entry already had dense sourced prose, representative specifications, variants, operators, operational-history context, and valid related links from its earlier expansion, but its visible external article recommendations and source-note integration needed cleanup.
+* Previously edited by Hermes: Yes — selected in Run 76 during the sparse-page expansion phase; reselected here only for concrete audit/gap-fill source-rendering and source-note integration fixes.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Used the F-16 template as the style/reference pattern for source-aware external links, visible source caveats, variant-baseline caution, and renderer-compatible article-section links/cards within the JSON aircraft-page renderer.
+
+#### Changes Made
+
+* Removed the Wikipedia orientation record from the CH-53 top-level `external_articles` array so Sikorsky Archives, Fort Worth Aviation Museum, Flying Leatherneck Aviation Museum, and GlobalAircraft remain the rendered external article sources.
+* Updated `article_quality.external_article_sources` from five to four so the quality metadata matches the actual rendered top-level external article count.
+* Added a renderer-compatible `Sources and Notes` section before Related Pages explaining that Wikipedia remains only as supplementary orientation in sources/footnotes while specialist and museum records are preferred for precise claims.
+* Added source-note bullets and links for the Sikorsky Archives, Fort Worth Aviation Museum, Flying Leatherneck Aviation Museum, and GlobalAircraft records.
+* Added a CH-53 family caveat that two-engine CH-53A/D, RH-53, HH/MH-53, German CH-53G upgrades, Israeli Yasur upgrades, and larger CH-53E/MH-53E-family aircraft are not interchangeable baselines.
+* Preserved existing CH-53 prose, facts, specifications, operators, variants, event-gallery state, similar-development links, and renderer-compatible article-section shapes; no unsupported new aircraft claims were introduced.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the Sikorsky CH-53 Sea Stallion entry's rendered external-source list, quality metadata, and visible Sources and Notes section.
+* hermes-change-log.md — Appended this Run 144 audit/gap-fill log entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Selected page was a previously updated non-reference aircraft page
+* [x] A concrete source-rendering and source-note integration gap was found before editing
+* [x] F-16 page was used as formatting reference
+* [x] Updated page uses renderer-compatible article-section, link, and external-article shapes
+* [x] No unrelated tracked files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, git status --short showed only data/aircraft.json and hermes-change-log.md modified, with pre-existing untracked package files left unstaged.
+2. git diff — Reviewed the aircraft diff and confirmed only the CH-53 Sea Stallion entry changed inside data/aircraft.json, plus this change-log entry.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; a verification helper confirmed exactly one changed aircraft entry, preserving id ch-53-sea-stallion and preserving the total 100-entry count.
+4. F-16 style comparison — data/f16-template.html was inspected as the renderer/style reference for source-aware recommendations, source caveats, and preserving renderer-compatible page structure.
+5. Internal link check — Recursive selected-entry check found CH-53 local links only to existing IDs: ch-47-chinook, uh-60-black-hawk, and v-22-osprey.
+6. Source/ref and shape check — Recursive selected-entry check found no refs pointing to missing source or footnote IDs, the quality metadata now matches the four rendered top-level external article links, and no article-section href links or label/value cards were present.
+7. Source retrieval note — Direct browser-header retrieval checked retained HTTPS sources during this audit; Flying Leatherneck Aviation Museum and GlobalAircraft returned HTTP 200, while Sikorsky Archives and Fort Worth Aviation Museum returned redirects to canonical URLs and were retained as existing specialist/museum source records.
+8. Credential check — Checked the staged diff with credential-specific patterns; no credentials were found.
+9. Final review before commit — Confirmed branch hermes-agent, git diff --check clean, staged files limited to data/aircraft.json and hermes-change-log.md, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Sikorsky CH-53 Sea Stallion
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This audit did not add new CH-53 performance, operator, variant, armament, or service-history claims; it corrects visible source recommendations and source-note integration while preserving the existing sourced prose.
+* Wikipedia remains in the source and footnote lists for orientation refs, but it is no longer rendered as a recommended external article while stronger specialist and museum sources are available.
+* Public CH-53 facts vary by family branch and national upgrade standard, so the new source note cautions readers against treating all S-65/CH-53/CH-53E derivatives as one universal baseline.
