@@ -64003,7 +64003,7 @@
       "exact_fact_count": 44,
       "operator_entries": 4,
       "variant_entries": 6,
-      "external_article_sources": 4
+      "external_article_sources": 3
     },
     "footnotes": [
       {
@@ -64057,11 +64057,6 @@
         "title": "Tornado GR4",
         "url": "https://www.baesystems.com/en/product/tornado-gr4",
         "publisher": "BAE Systems"
-      },
-      {
-        "title": "Panavia Tornado",
-        "url": "https://en.wikipedia.org/wiki/Panavia_Tornado",
-        "publisher": "Wikipedia"
       }
     ],
     "article_sections": [
@@ -64540,18 +64535,6 @@
             "url": "aircraft.html?id=f-16-fighting-falcon"
           }
         ]
-      }
-    ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Bllace_refugee_camp.jpg",
-        "caption": "Kosovo War",
-        "source_url": "https://en.wikipedia.org/wiki/Kosovo_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Coalition_action_against_Libya-en.svg/960px-Coalition_action_against_Libya-en.svg.png",
-        "caption": "2011 military intervention in Libya",
-        "source_url": "https://en.wikipedia.org/wiki/2011_military_intervention_in_Libya"
       }
     ]
   },
