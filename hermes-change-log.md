@@ -10975,3 +10975,84 @@ Record the result of:
 * This audit did not add new Panavia Tornado performance, operator, variant, armament, production, or combat-history claims; it corrects visible source recommendations and stale generated metadata while preserving the existing sourced prose.
 * Wikipedia remains in the source and footnote lists for orientation refs, but it is no longer rendered as a recommended external article while stronger manufacturer and aviation-reference sources are available.
 * The BAE Systems GR4 page remains an existing manufacturer source, but automated retrieval returned HTTP 403 from this environment; the already-existing caveat about limited extracted page data was preserved.
+
+### Run 147 — 2026-07-09 22:01:53 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Dassault Mirage 2000 (id: mirage-2000)
+* Reason selected: Audit/gap-fill rotation selected a previously expanded non-reference page that had not yet been audited in the new phase. The page still rendered a Wikipedia orientation link in top-level `external_articles` even though reliable Dassault manufacturer and Airforce Technology sources were already present.
+* Previous condition: Rendered external source list contained 3 links, including orientation-only Wikipedia; `article_quality.external_article_sources` matched that stale rendered count instead of the two specialist/official rendered links retained for readers.
+* Previously edited by Hermes: Yes — originally expanded in Run 42; this pass is an audit/gap-fill correction, not a sparse-page expansion.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Dense sourced article structure, specialist/official source preference, renderer-compatible external article list, source caveat separation in Sources and Notes, and internal aircraft.html?id=... link style.
+
+#### Gap Found
+
+* Top-level `external_articles` rendered Wikipedia as a recommended external article despite the page already citing Dassault Aviation and Airforce Technology as stronger sources.
+* The quality metadata needed to stay aligned with the actual rendered top-level external-link count after removing the orientation-only rendered link.
+
+#### Changes Made
+
+* Removed the Wikipedia overview from the Mirage 2000 top-level `external_articles` so the rendered recommended-source list now prefers the existing Dassault Aviation manufacturer support page and Airforce Technology technical article.
+* Preserved Wikipedia in `sources`/`footnotes` as supplementary orientation for existing refs and context instead of using it as a rendered recommended article.
+* Updated `article_quality.external_article_sources` from 3 to 2 to match the actual renderer-visible top-level external articles.
+* Left article prose, source records, event-gallery metadata, related aircraft links, variants, operators, and specifications unchanged because this audit found a concrete source-rendering gap only.
+
+#### Sources Used
+
+* Dassault Aviation — existing manufacturer support page for Mirage 2000 program and technical support context; header check reached the HTTPS page via a same-site trailing-slash redirect.
+* Airforce Technology — existing Mirage 2000 technical article; header check returned HTTP 200.
+* Wikipedia — retained only as an orientation/cross-check record in source metadata, not as a rendered recommended external article.
+
+#### Files Modified
+
+* data/aircraft.json — Updated only the Dassault Mirage 2000 aircraft entry's rendered external-article list and aligned source-count metadata.
+* hermes-change-log.md — Appended this Run 147 audit/gap-fill record.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used rather than searching for never-updated sparse pages
+* [x] F-16 page was checked as formatting/reference guidance
+* [x] Exactly one aircraft entry was changed and its id stayed `mirage-2000`
+* [x] JSON validity was checked
+* [x] Renderer-visible external article count now matches article_quality metadata
+* [x] Existing refs still point to retained source or footnote IDs
+* [x] Internal aircraft.html?id=... links in the selected entry were checked
+* [x] Formatting was checked
+* [x] Credential check found no credentials in the staged diff
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Confirmed the working branch is hermes-agent and only the intended tracked files were staged; pre-existing untracked package files were left unstaged.
+2. JSON validity — Parsed data/aircraft.json successfully with python3 -m json.tool.
+3. One-entry aircraft diff — Compared HEAD:data/aircraft.json to the working file and confirmed exactly one changed aircraft entry: mirage-2000 -> mirage-2000.
+4. Selected-entry review — Verified Mirage 2000 now has two top-level external_articles and article_quality.external_article_sources is 2.
+5. Source/ref check — Verified refs in the selected entry still resolve to retained source/footnote IDs after keeping Wikipedia as orientation metadata.
+6. Internal link check — Recursively checked aircraft.html?id=... links in the selected Mirage 2000 entry against data/aircraft.json IDs.
+7. Formatting check — Ran git diff --check successfully after normalizing log EOF.
+8. Credential check — Checked credential-specific patterns over the staged diff; no credentials were found.
+9. Final review before commit — Confirmed intended staged files only, no main-branch edit, and no unrelated site redesign or renderer changes.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Dassault Mirage 2000
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in this committed change-log entry without changing the hash again; the final hash is reported in the scheduled-run result.
+* This audit intentionally made a focused source-rendering/metadata correction and did not rewrite Mirage 2000 prose, variants, or operator sections without a separate source-backed gap.

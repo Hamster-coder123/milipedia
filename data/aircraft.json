@@ -62337,7 +62337,7 @@
       "exact_fact_count": 36,
       "operator_entries": 6,
       "variant_entries": 7,
-      "external_article_sources": 3
+      "external_article_sources": 2
     },
     "footnotes": [
       {
@@ -62384,10 +62384,6 @@
       {
         "label": "Airforce Technology Mirage 2000 technical article",
         "url": "https://www.airforce-technology.com/projects/mirage/"
-      },
-      {
-        "label": "Wikipedia overview",
-        "url": "https://en.wikipedia.org/wiki/Dassault_Mirage_2000"
       }
     ],
     "article_sections": [
