@@ -11056,3 +11056,84 @@ Record the result of:
 
 * Commit hash cannot be embedded in this committed change-log entry without changing the hash again; the final hash is reported in the scheduled-run result.
 * This audit intentionally made a focused source-rendering/metadata correction and did not rewrite Mirage 2000 prose, variants, or operator sections without a separate source-backed gap.
+
+### Run 148 — 2026-07-09 23:02:16 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: General Atomics MQ-9 Reaper (id: mq-9-reaper)
+* Reason selected: Audit/gap-fill rotation selected a previously expanded non-reference page that had not yet been audited in the new phase. The page still carried a generated `event_gallery` with broad conflict images from Gulf War, Iraq War, and Afghanistan pages rather than MQ-9-specific media or source-backed article context.
+* Previous condition: The MQ-9 article already had official U.S. Air Force and GA-ASI sources, aligned rendered external articles, a Sources and Notes section, and cautious operational-history text, but stale top-level generated conflict imagery remained and could imply event-specific visual evidence not supported by the article's focused source framing.
+* Previously edited by Hermes: Yes — originally expanded in Run 43; this pass is an audit/gap-fill correction, not a sparse-page expansion.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Dense sourced article structure, official/manufacturer source preference, cautious operational-history caveats, renderer-compatible source notes, and avoiding generic generated metadata that is not specifically supported by the selected aircraft page.
+
+#### Gap Found
+
+* The MQ-9 Reaper entry retained a generated `event_gallery` containing generic Gulf War, Iraq War, and Afghanistan images sourced from broad Wikipedia conflict pages.
+* Those gallery images were not MQ-9-specific and were weaker than the article's existing text-only operational-history caveats, so leaving them rendered could overstate conflict/event specificity.
+
+#### Changes Made
+
+* Removed the stale generated `event_gallery` from the MQ-9 Reaper entry.
+* Preserved the existing official/manufacturer external articles, source records, Sources and Notes section, variants, operators, specifications, related links, and cautious operational-history prose.
+* Left `article_quality` unchanged because rendered external articles, top-level operator entries, and top-level variant entries were already aligned with the page data.
+
+#### Sources Used
+
+* U.S. Air Force — existing MQ-9 Reaper fact sheet retained for mission, system, weapons, specification, and inventory context; automated HTTPS header check returned 403, treated as a source-reachability caveat rather than a reason to remove the established official citation.
+* General Atomics Aeronautical Systems — existing MQ-9A Reaper page retained for manufacturer development, payload, endurance, and customer context; HTTPS header check returned HTTP 200.
+* Wikipedia — broad conflict gallery links were removed from rendered metadata; the existing MQ-9 article source remains supplementary orientation only.
+
+#### Files Modified
+
+* data/aircraft.json — Updated only the General Atomics MQ-9 Reaper aircraft entry by removing stale generated event-gallery metadata.
+* hermes-change-log.md — Appended this Run 148 audit/gap-fill record.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used rather than searching for never-updated sparse pages
+* [x] F-16 page was checked as formatting/reference guidance
+* [x] Exactly one aircraft entry was changed and its id stayed `mq-9-reaper`
+* [x] JSON validity was checked
+* [x] Existing article-quality counts remained aligned with renderer-visible arrays
+* [x] Existing refs still point to retained source or footnote IDs
+* [x] Internal aircraft.html?id=... links in the selected entry were checked
+* [x] Formatting was checked
+* [x] Credential check found no credentials in the staged diff
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Confirmed the working branch is hermes-agent and only the intended tracked files were staged; pre-existing untracked package files were left unstaged.
+2. JSON validity — Parsed data/aircraft.json successfully with python3 -m json.tool.
+3. One-entry aircraft diff — Compared HEAD:data/aircraft.json to the working file and confirmed exactly one changed aircraft entry: mq-9-reaper -> mq-9-reaper.
+4. Selected-entry review — Verified MQ-9 Reaper no longer has top-level event_gallery metadata while retaining two rendered external_articles, six top-level operators, and five top-level variants.
+5. Source/ref check — Verified refs in the selected entry still resolve to retained source/footnote IDs.
+6. Internal link check — Recursively checked aircraft.html?id=... links in the selected MQ-9 entry against data/aircraft.json IDs.
+7. Formatting check — Ran git diff --check successfully.
+8. Credential check — Checked credential-specific patterns over the staged diff; no credentials were found.
+9. Final review before commit — Confirmed intended staged files only, no main-branch edit, and no unrelated site redesign or renderer changes.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in General Atomics MQ-9 Reaper
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in this committed change-log entry without changing the hash again; the final hash is reported in the scheduled-run result.
+* The USAF fact-sheet URL returned an automated HTTP 403 to the header check from this environment; because it is an existing official citation and the edit only removes stale gallery metadata, it was preserved with this reachability caveat.
+* This audit intentionally made a focused metadata cleanup and did not rewrite MQ-9 prose, variants, or operator sections without a separate source-backed gap.
