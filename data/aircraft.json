@@ -21732,6 +21732,52 @@
         ]
       },
       {
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Primary article claims are anchored to the U.S. Navy fact file and Northrop Grumman E-2D manufacturer material. The Navy URL returned an automated HTTP 403 to this environment's short header check, so the existing official citation is retained with a reachability caveat rather than replaced by weaker sources.",
+            "refs": [
+              "fn-navy",
+              "fn-northrop"
+            ]
+          },
+          {
+            "text": "Wikipedia and repository-local accuracy rules are retained as supplementary orientation for historic variant/operator context and for conservative wording where E-2 family details vary by variant, upgrade standard, operator, and date; they are not rendered as recommended external articles.",
+            "refs": [
+              "fn-wikipedia",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Rendered external articles remain limited to the existing official U.S. Navy and Northrop Grumman records.",
+            "refs": [
+              "fn-navy",
+              "fn-northrop"
+            ]
+          },
+          {
+            "text": "Specifications are representative public Hawkeye-family values unless the prose identifies an E-2D-specific capability such as aerial refueling or modernized mission systems.",
+            "refs": [
+              "fn-navy",
+              "fn-northrop",
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "U.S. Navy E-2 Hawkeye fact file",
+            "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/2382134/e-2-hawkeye-airborne-command-and-control-aircraft"
+          },
+          {
+            "label": "Northrop Grumman E-2D Advanced Hawkeye",
+            "url": "https://www.northropgrumman.com/what-we-do/aircraft/e-2d-advanced-hawkeye"
+          }
+        ]
+      },
+      {
         "id": "similar-development",
         "title": "Related Pages",
         "paragraphs": [

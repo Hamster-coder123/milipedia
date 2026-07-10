@@ -11137,3 +11137,89 @@ Record the result of:
 * Commit hash cannot be embedded in this committed change-log entry without changing the hash again; the final hash is reported in the scheduled-run result.
 * The USAF fact-sheet URL returned an automated HTTP 403 to the header check from this environment; because it is an existing official citation and the edit only removes stale gallery metadata, it was preserved with this reachability caveat.
 * This audit intentionally made a focused metadata cleanup and did not rewrite MQ-9 prose, variants, or operator sections without a separate source-backed gap.
+
+### Run 149 — 2026-07-10 00:02:08 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Grumman E-2 Hawkeye (id: e-2-hawkeye)
+* Reason selected: Audit/gap-fill rotation selected a previously expanded non-reference page that had not yet been audited in the new phase. The E-2 page already had reliable Navy and Northrop Grumman source records and aligned rendered external articles, but it lacked a renderer-compatible Sources and Notes section to expose source caveats and orientation-source limits.
+* Previous condition: The entry had official/manufacturer external articles and source metadata, but source caveats were only stored in metadata and not visible in the rendered article body; Wikipedia and repository-local rules were retained for orientation refs without a clear rendered caveat section.
+* Previously edited by Hermes: Yes — originally expanded in Run 50; this pass is an audit/gap-fill correction, not a sparse-page expansion.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Dense sourced article structure, source-note placement before Related Pages, official/manufacturer source preference, cautious variant/operator/specification caveats, renderer-compatible article-section links, and internal aircraft.html?id=... related-page style.
+
+#### Gap Found
+
+* The E-2 Hawkeye entry lacked a renderer-compatible Sources and Notes section despite relying on official, manufacturer, orientation, and repository-local source records with caveats that should be visible to readers.
+* The top-level rendered external articles were already limited to the official U.S. Navy and Northrop Grumman records, but the article body did not explain that Wikipedia and local accuracy rules were retained only for orientation/cautionary refs.
+
+#### Changes Made
+
+* Added a Sources and Notes article section immediately before Related Pages in the E-2 Hawkeye entry.
+* Documented that primary claims are anchored to the existing U.S. Navy fact file and Northrop Grumman E-2D manufacturer material.
+* Added rendered caveats that Wikipedia and repository-local accuracy rules are supplementary orientation/caution sources rather than recommended external articles.
+* Added renderer-compatible links to the two retained official/manufacturer sources using label/url shape.
+* Preserved the existing external_articles array, article_quality counts, sources, footnotes, variants, operators, specifications, related links, event metadata, and prose because the concrete gap was the missing rendered source-note section.
+
+#### Sources Used
+
+* U.S. Navy — existing E-2 Hawkeye fact file retained for mission, history, variant, operational-history, and specification context; automated HTTPS header check returned 403, treated as a reachability caveat for the existing official citation.
+* Northrop Grumman — existing E-2D Advanced Hawkeye manufacturer page retained for modernization, sensor, interoperability, and international-community context; HTTPS header check returned HTTP 200.
+* Wikipedia — retained only as an orientation/cross-check record in source metadata and refs, not as a rendered recommended external article.
+* Milipedia data accuracy rules — retained for conservative wording where family, variant, operator, inventory, or current-status details vary.
+
+#### Files Modified
+
+* data/aircraft.json — Updated only the Grumman E-2 Hawkeye aircraft entry by adding a renderer-compatible Sources and Notes section.
+* hermes-change-log.md — Appended this Run 149 audit/gap-fill record.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used rather than searching for never-updated sparse pages
+* [x] F-16 page was checked as formatting/reference guidance
+* [x] Exactly one aircraft entry was changed and its id stayed `e-2-hawkeye`
+* [x] JSON validity was checked
+* [x] Renderer-visible external article count remained aligned with article_quality metadata
+* [x] Existing refs still point to retained source or footnote IDs
+* [x] Internal aircraft.html?id=... links in the selected entry were checked
+* [x] Article-section card/link renderer shapes were checked
+* [x] Formatting was checked
+* [x] Credential check found no credentials in the staged diff
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Confirmed the working branch is hermes-agent and only the intended tracked files were staged; pre-existing untracked package files were left unstaged.
+2. JSON validity — Parsed data/aircraft.json successfully with python3 -m json.tool.
+3. One-entry aircraft diff — Compared HEAD:data/aircraft.json to the working file and confirmed exactly one changed aircraft entry: e-2-hawkeye -> e-2-hawkeye.
+4. Selected-entry review — Verified E-2 Hawkeye now has a Sources and Notes section before Related Pages while retaining two rendered external_articles and aligned article_quality.external_article_sources.
+5. Source/ref check — Verified refs in the selected entry resolve to retained source/footnote IDs.
+6. Internal link check — Recursively checked aircraft.html?id=... links in the selected E-2 entry against data/aircraft.json IDs.
+7. Renderer-shape check — Verified article-section cards use title/text and links use label/url.
+8. Formatting check — Ran git diff --check successfully.
+9. Credential check — Checked credential-specific patterns over the staged diff; no credentials were found.
+10. Final review before commit — Confirmed intended staged files only, no main-branch edit, and no unrelated site redesign or renderer changes.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Grumman E-2 Hawkeye
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in this committed change-log entry without changing the hash again; the final hash is reported in the scheduled-run result.
+* The web extraction backend returned errors for both checked source URLs; direct header checks reached Northrop Grumman with HTTP 200 while the Navy fact file returned automated HTTP 403. Because the Navy record is an existing official source and the edit only exposes source caveats, it was preserved with this reachability note.
+* This audit intentionally made a focused rendered-source-note addition and did not rewrite E-2 prose, variants, or operator sections without a separate source-backed gap.
