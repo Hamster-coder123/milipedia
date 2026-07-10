@@ -11704,3 +11704,76 @@ Record the result of:
 * The official National Naval Aviation Museum F-14A page failed automated certificate validation from this environment, so this audit did not add new factual claims from a live fetch; it exposed an already-cited official source and added caveat text instead.
 * Event-gallery images were reviewed and left intact because they are F-14-specific Navy/NASA images rather than unrelated generated conflict imagery.
 * The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.
+
+### Run 156 — 2026-07-10 07:00:39 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Northrop F-5 Freedom Fighter / Tiger II (id: f-5-freedom-fighter-tiger-ii)
+* Reason selected: Audit/gap-fill rotation found this previously expanded, not-yet-audited non-reference page still rendered Wikipedia as a top-level external article even though reliable official, government, museum, and specialist source records were already present.
+* Previous condition: The page's Sources and Notes section already described Wikipedia as a supplementary cross-check only, but external_articles still exposed it beside National Museum of the U.S. Air Force, NAVAIR, Hill Aerospace Museum, AP, and other retained sources; article_quality.external_article_sources counted the orientation link as a rendered source.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Keep source caveats in a renderer-compatible Sources and Notes section; reserve rendered external articles for reliable official/specialist sources; keep article-quality source counts aligned with the renderer-visible external_articles array; preserve intentional external related links when no local aircraft id exists.
+
+#### Changes Made
+
+* Removed the Wikipedia orientation record from the F-5 top-level external_articles array while preserving the fn-wikipedia-crosscheck source and footnote records for existing cross-check refs.
+* Aligned article_quality.external_article_sources from 13 to 12 so it matches the twelve retained renderer-visible external articles.
+* Retained official and specialist rendered sources, including National Museum of the U.S. Air Force, NAVAIR, Hill Aerospace Museum, Associated Press, thesis/specialist context sources, and image-source records already used by the page.
+* Reviewed the existing F-20 related-page link and left it as an intentional external link because no local f-20-tigershark aircraft id exists in data/aircraft.json.
+
+#### Files Modified
+
+* data/aircraft.json — Cleaned the F-5 rendered external source list and aligned the external-source quality count.
+* hermes-change-log.md — Appended this audit/gap-fill Run 156 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used rather than sparse-page selection
+* [x] F-16 page was used as formatting/source-integration reference
+* [x] Exactly one aircraft entry was changed and its id stayed f-5-freedom-fighter-tiger-ii
+* [x] Renderer-visible external article count matches article_quality.external_article_sources
+* [x] Source refs were checked against existing sources/footnotes
+* [x] Internal aircraft.html?id=... links were checked
+* [x] Article-section card/link renderer shapes were checked
+* [x] Formatting was checked
+* [x] No unrelated tracked files were changed
+* [x] No credentials were added
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Pre-existing untracked package files/node_modules remain unstaged; intended tracked modifications are data/aircraft.json and hermes-change-log.md only.
+2. JSON validation — Parsed data/aircraft.json successfully.
+3. One-entry check — Compared HEAD:data/aircraft.json to the working file and confirmed exactly one aircraft entry changed, preserving id f-5-freedom-fighter-tiger-ii.
+4. Selected-entry review — Confirmed F-5 now has twelve rendered external_articles and article_quality.external_article_sources is 12.
+5. Source/ref review — Verified F-5 refs continue to point to existing source or footnote IDs after removing only the rendered Wikipedia external-article card.
+6. Internal link check — Recursively checked F-5 aircraft.html?id=... links against data/aircraft.json IDs and confirmed the F-20 link is external because no local F-20 id exists.
+7. Renderer-shape check — Verified article-section cards use title/text and links use label/url.
+8. Source reachability check — Direct HTTPS header checks showed Hill Aerospace Museum reachable; National Museum of the U.S. Air Force and NAVAIR returned automated HTTP 403 and were retained as established official cited sources without adding new factual claims.
+9. Credential check — Checked credential-specific patterns over the staged diff; no credentials were found.
+10. Final review before commit — Confirmed branch hermes-agent, git diff --check success, intended staged files only, and no direct main-branch edit.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Northrop F-5
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* The official museum and NAVAIR pages blocked automated header checks with HTTP 403 from this environment, so this audit did not add new factual claims from those pages; it only corrected rendered-source integration around existing records.
+* Wikipedia remains retained as a non-rendered orientation/source record because existing Sources and Notes caveats and refs still use it for cross-checking.
+* Event-gallery images were reviewed and left intact because they are F-5-specific aircraft images rather than unrelated generated conflict imagery.
+* The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.

@@ -1073,7 +1073,7 @@
       "exact_fact_count": 86,
       "operator_entries": 10,
       "variant_entries": 10,
-      "external_article_sources": 13
+      "external_article_sources": 12
     },
     "footnotes": [
       {
@@ -1245,13 +1245,6 @@
         "url": "https://www.swissinfo.ch/eng/society/netherlands-accident_pilot-error-caused-2016-collision-between-two-swiss-jets/44857536",
         "publisher": "Swissinfo",
         "note": "Used for the Patrouille Suisse F-5 collision and public display-team risk context."
-      },
-      {
-        "id": "fn-wikipedia-crosscheck",
-        "title": "Northrop F-5",
-        "url": "https://en.wikipedia.org/wiki/Northrop_F-5",
-        "publisher": "Wikipedia",
-        "note": "Used only for background cross-checking and source discovery, not as the main authority for the expanded article."
       },
       {
         "id": "fn-commons-brazil-image",
