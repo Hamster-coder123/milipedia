@@ -12143,3 +12143,76 @@ hermes-agent
 
 * The Su-24 page still uses existing public-source caveats for variant and operator details because fleet status, upgrades, wartime losses, and national weapons integrations are date-sensitive.
 * The final commit hash cannot be embedded in the committed change log without making it stale; the authoritative hash is reported in the scheduled-run output.
+
+### Run 162 — 2026-07-10 13:01:58 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* Aircraft/Page: Saab 35 Draken (id: saab-35-draken)
+* Audit mode: Gap-fill/source-rendering audit of a previously updated non-reference aircraft page.
+* Reason selected: This page had not been audited in the new gap-fill phase and showed a concrete rendered-source integration issue: Wikipedia was still exposed as a top-level external article even though museum sources were available, while `article_quality.external_article_sources` reported 4 despite only 3 rendered entries.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: reliable rendered external sources, source caveats in a renderer-compatible Sources and Notes section, and aligned article-quality metadata.
+
+#### Gap Found
+
+* The Draken entry already preserved Wikipedia as an orientation-only source in `sources` and the Sources and Notes caveat, but it was also rendered as a recommended top-level external article.
+* The top-level rendered external-article count was stale (`article_quality.external_article_sources: 4`) and did not match the visible `external_articles` array.
+
+#### Changes Made
+
+* Removed the orientation-only Wikipedia record from the top-level `external_articles` array while preserving the underlying source record and caveat refs for orientation/cross-checking context.
+* Kept the Pima Air & Space Museum and Polish Aviation Museum records as the two rendered reader-facing external articles.
+* Aligned `article_quality.external_article_sources` to 2, matching the actual rendered external-article count.
+
+#### Sources Used
+
+* Pima Air & Space Museum — SAAB RF 35 Draken; direct HTTPS header check returned HTTP 200.
+* Polish Aviation Museum — SAAB J 35J Draken; direct HTTPS header check returned HTTP 200.
+* Existing Wikipedia source retained only as an orientation/cross-checking source, not as a rendered external article.
+
+#### Files Modified
+
+* data/aircraft.json — Updated only the Saab 35 Draken aircraft entry.
+* hermes-change-log.md — Recorded this audit/gap-fill run.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit candidate was a previously selected non-reference aircraft page
+* [x] F-16 page was kept as the reference/template page and not edited
+* [x] Exactly one aircraft entry changed and the aircraft id stayed the same
+* [x] JSON syntax was validated
+* [x] Rendered external-article count matches article-quality metadata
+* [x] Source refs were checked against existing source ids
+* [x] Internal aircraft links were checked against existing aircraft ids
+* [x] Renderer link/card shapes were checked
+* [x] No unrelated files were staged
+* [x] Credential-specific staged-diff check found no credentials
+* [x] git diff --check passed
+
+#### Verification Steps Completed
+
+1. `git branch --show-current` — confirmed `hermes-agent`.
+2. `python3 -m json.tool data/aircraft.json >/dev/null` — JSON parsed successfully.
+3. Single-entry comparison — confirmed only `saab-35-draken` changed and the id was unchanged.
+4. Source/rendering audit — confirmed two top-level rendered external articles remain and `article_quality.external_article_sources` is now 2.
+5. Ref check — recursively checked refs in the selected entry against its `sources` and `footnotes` ids.
+6. Internal link check — recursively checked `aircraft.html?id=...` links in the selected entry against existing aircraft ids.
+7. Renderer shape check — checked article-section cards for `title`/`text` and links for `label`/`url`.
+8. `git diff --check` — passed after EOF normalization.
+9. Credential check — checked credential-specific patterns in the staged diff; no credentials were found.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Saab 35 Draken
+* Commit hash: Pending until commit is created; final hash is reported in the run output.

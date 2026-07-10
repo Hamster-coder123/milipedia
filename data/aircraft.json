@@ -66443,7 +66443,7 @@
       "exact_fact_count": 42,
       "operator_entries": 5,
       "variant_entries": 10,
-      "external_article_sources": 4
+      "external_article_sources": 2
     },
     "footnotes": [
       {
@@ -66469,11 +66469,6 @@
         "title": "SAAB J 35J Draken",
         "url": "https://muzeumlotnictwa.pl/en/exhibits/saab-j-35j-draken-2",
         "publisher": "Polish Aviation Museum"
-      },
-      {
-        "title": "Saab 35 Draken",
-        "url": "https://en.wikipedia.org/wiki/Saab_35_Draken",
-        "publisher": "Wikipedia"
       }
     ],
     "article_sections": [
