@@ -12709,3 +12709,78 @@ hermes-agent
 #### Issues or Uncertainties
 
 * The authoritative final commit hash is reported in the scheduled-run response because embedding it in this entry before commit would make it stale.
+
+### Run 170 — 2026-07-10 21:01:54 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Tupolev Tu-95 (id: tu-95)
+* Reason selected: Audit/gap-fill rotation favored a previously updated non-reference aircraft page that had not yet been audited in the new phase. The page still rendered Wikipedia as a top-level external article even though stronger Airforce Technology, SKYbrary, and Smithsonian source records were already available and the Sources and Notes section already treated Wikipedia as orientation-only.
+* Previous condition: `external_articles` exposed five rendered links including an orientation-only Wikipedia record, and `article_quality.external_article_sources` counted that orientation source.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Reliable-source-first external article rendering, source caveats in a dedicated Sources and Notes section, and source-count metadata aligned with renderer-visible external source cards.
+
+#### Changes Made
+
+* Removed the orientation-only Wikipedia record from the Tu-95 top-level `external_articles` array while preserving it in `sources` and `footnotes` for existing supplementary orientation refs.
+* Aligned `article_quality.external_article_sources` from 5 to 4 so it matches the actual rendered external article cards.
+* Clarified the Sources and Notes caveat that Wikipedia remains retained only for orientation/cross-check refs and is no longer rendered as a reader-facing external article.
+* Left the bomber specifications, variants, operators, operational-history caveats, related-aircraft links, and other top-level metadata unchanged because they were already source-aligned and renderer-compatible.
+
+#### Sources Used
+
+* Airforce Technology — existing Tu-95MS technical profile retained; direct HTTPS check returned HTTP 200.
+* Airforce Technology — existing Tu-95 Bear family profile retained; direct HTTPS check returned HTTP 200.
+* SKYbrary Aviation Safety — existing Tu-95 type summary retained; direct HTTPS check returned HTTP 200.
+* Smithsonian Air & Space Magazine — existing Cold War intercept context source retained; direct HTTPS check returned HTTP 200.
+* Existing Wikipedia orientation record — preserved only for broad orientation refs and removed from rendered external-source surfaces.
+
+#### Files Modified
+
+* data/aircraft.json — Cleaned Tu-95 rendered source integration and aligned source-count metadata.
+* hermes-change-log.md — Recorded this audit/gap-fill run.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used instead of looking for never-updated sparse pages
+* [x] F-16 reference/template page was inspected for source-note style
+* [x] Exactly one aircraft entry was changed in data/aircraft.json
+* [x] Selected aircraft id remained tu-95 before and after the edit
+* [x] JSON syntax validation passed
+* [x] Internal aircraft.html?id=... links were checked against existing aircraft IDs
+* [x] Source refs were checked against existing source/footnote IDs
+* [x] Renderer-compatible article-section link/card shapes were checked
+* [x] git diff --check passed
+* [x] Credential check — checked credential-specific patterns in the staged diff; no credentials were found
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+1. `git branch --show-current` confirmed `hermes-agent`.
+2. `python3 -m json.tool data/aircraft.json >/dev/null` confirmed valid JSON.
+3. A one-entry verification helper compared `git show HEAD:data/aircraft.json` to the working file and reported only `tu-95` changed, with the same aircraft id before and after.
+4. Recursive selected-entry checks found no broken local `aircraft.html?id=...` links, no missing refs against the entry's source/footnote IDs, and no malformed article-section `links` or `cards` shapes.
+5. Source checks returned HTTP 200 for both Airforce Technology pages, SKYbrary, and Smithsonian; no new factual claims were added beyond source-rendering metadata cleanup.
+6. `git diff --check` passed after normalizing the change log to exactly one trailing newline.
+7. The staged diff was scanned with credential-specific patterns; no credentials were found.
+8. `git status --short` was reviewed so only `data/aircraft.json` and `hermes-change-log.md` were staged; pre-existing untracked package files and node_modules were left unstaged.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Tupolev Tu-95
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* The authoritative final commit hash is reported in the scheduled-run response because embedding it in this entry before commit would make it stale.

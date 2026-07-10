@@ -51321,7 +51321,7 @@
       "exact_fact_count": 40,
       "operator_entries": 3,
       "variant_entries": 6,
-      "external_article_sources": 5
+      "external_article_sources": 4
     },
     "footnotes": [
       {
@@ -51395,13 +51395,6 @@
         "url": "https://www.smithsonianmag.com/air-space-magazine/eye-eye-bear-bomber-180953363/",
         "publisher": "Smithsonian Air & Space Magazine",
         "note": "Used for Cold War intercept context, NATO Bear designation, NK-12 contra-rotating propeller description, noise, and surveillance-patrol role."
-      },
-      {
-        "id": "fn-wikipedia-tu95",
-        "title": "Tupolev Tu-95",
-        "url": "https://en.wikipedia.org/wiki/Tupolev_Tu-95",
-        "publisher": "Wikipedia",
-        "note": "Supplementary orientation source for variant names and broad chronology; technical statements were cross-checked against more specialized references where possible."
       }
     ],
     "article_sections": [
@@ -51881,7 +51874,7 @@
         "title": "Sources and Notes",
         "paragraphs": [
           {
-            "text": "This page uses Airforce Technology for detailed Tu-95/Tu-95MS technical data, SKYbrary for independent type summary and dimensional checks, Smithsonian Air & Space for Cold War intercept context, and Wikipedia only as supplementary orientation for family naming. Exact aircraft counts, current base assignments, missile inventories, and combat-use claims should be rechecked against contemporary official or specialist sources before adding finer detail.",
+            "text": "This page uses Airforce Technology for detailed Tu-95/Tu-95MS technical data, SKYbrary for independent type summary and dimensional checks, Smithsonian Air & Space for Cold War intercept context, and Wikipedia only as a retained supplementary orientation source for family naming. The Wikipedia record remains available for existing orientation refs but is not rendered as a reader-facing external article while stronger specialist sources are available. Exact aircraft counts, current base assignments, missile inventories, and combat-use claims should be rechecked against contemporary official or specialist sources before adding finer detail.",
             "refs": [
               "fn-aft-tu95ms",
               "fn-aft-tu95bear",
