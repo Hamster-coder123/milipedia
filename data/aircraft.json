@@ -4655,7 +4655,7 @@
       "exact_fact_count": 28,
       "operator_entries": 7,
       "variant_entries": 7,
-      "external_article_sources": 3
+      "external_article_sources": 2
     },
     "footnotes": [
       {
@@ -4697,11 +4697,6 @@
         "title": "F-15EX",
         "url": "https://www.boeing.com/defense/f-15ex/",
         "publisher": "Boeing"
-      },
-      {
-        "title": "McDonnell Douglas F-15 Eagle",
-        "url": "https://en.wikipedia.org/wiki/McDonnell_Douglas_F-15_Eagle",
-        "publisher": "Wikipedia"
       }
     ],
     "article_sections": [

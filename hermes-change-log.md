@@ -11777,3 +11777,74 @@ Record the result of:
 * Wikipedia remains retained as a non-rendered orientation/source record because existing Sources and Notes caveats and refs still use it for cross-checking.
 * Event-gallery images were reviewed and left intact because they are F-5-specific aircraft images rather than unrelated generated conflict imagery.
 * The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.
+
+### Run 157 — 2026-07-10 08:02:54 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: McDonnell Douglas F-15 Eagle (id: f-15-eagle)
+* Reason selected: Audit/gap-fill rotation found this previously expanded, not-yet-audited non-reference page still rendered Wikipedia as a top-level external article even though official USAF and Boeing source records were already present.
+* Previous condition: The page's Sources and Notes section already described Wikipedia as supplementary orientation only, but external_articles still exposed it beside the official U.S. Air Force F-15 Eagle and Boeing F-15EX rendered sources; article_quality.external_article_sources counted the orientation link as a rendered source.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Reserve rendered external articles for reliable official/specialist sources, keep orientation-only sources available for refs/cross-checking, and keep article-quality source counts aligned with the renderer-visible external_articles array.
+
+#### Changes Made
+
+* Removed the Wikipedia orientation record from the F-15 top-level external_articles array while preserving the Wikipedia source and footnote records for existing orientation/cross-check refs.
+* Aligned article_quality.external_article_sources from 3 to 2 so it matches the two retained renderer-visible external articles.
+* Retained the official U.S. Air Force F-15 Eagle and Boeing F-15EX rendered source links; no new factual claims were added.
+
+#### Files Modified
+
+* data/aircraft.json — Cleaned the F-15 rendered external source list and aligned the external-source quality count.
+* hermes-change-log.md — Appended this audit/gap-fill Run 157 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used rather than sparse-page selection
+* [x] F-16 page was used as formatting/source-integration reference
+* [x] Exactly one aircraft entry was changed and its id stayed f-15-eagle
+* [x] Renderer-visible external article count matches article_quality.external_article_sources
+* [x] Source refs were checked against existing sources/footnotes
+* [x] Internal aircraft.html?id=... links were checked
+* [x] Article-section card/link renderer shapes were checked
+* [x] Formatting was checked
+* [x] No unrelated tracked files were changed
+* [x] No credentials were added
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Pre-existing untracked package files/node_modules remain unstaged; intended tracked modifications are data/aircraft.json and hermes-change-log.md only.
+2. JSON validation — Parsed data/aircraft.json successfully.
+3. One-entry check — Compared HEAD:data/aircraft.json to the working file and confirmed exactly one aircraft entry changed, preserving id f-15-eagle.
+4. Selected-entry review — Confirmed F-15 now has two rendered external_articles and article_quality.external_article_sources is 2.
+5. Source/ref review — Verified F-15 refs continue to point to existing source or footnote IDs after removing only the rendered Wikipedia external-article card.
+6. Internal link check — Recursively checked F-15 aircraft.html?id=... links against data/aircraft.json IDs.
+7. Renderer-shape check — Verified article-section cards use title/text and links use label/url.
+8. Source reachability check — Direct HTTPS header checks showed Boeing redirect/reachable behavior and an automated HTTP 403 for the official USAF page; both were retained as established official cited sources without adding new factual claims.
+9. Credential check — Checked credential-specific patterns over the staged diff; no credentials were found.
+10. Final review before commit — Confirmed branch hermes-agent, git diff --check success, intended staged files only, and no direct main-branch edit.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in McDonnell Douglas F-15 Eagle
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* The official USAF page blocked automated header checks with HTTP 403 from this environment, so this audit did not add new factual claims from that page; it only corrected rendered-source integration around existing records.
+* Wikipedia remains retained as a non-rendered orientation/source record because existing Sources and Notes caveats and refs still use it for cross-checking.
+* The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.
