@@ -37235,7 +37235,7 @@
       "exact_fact_count": 28,
       "operator_entries": 7,
       "variant_entries": 7,
-      "external_article_sources": 3
+      "external_article_sources": 2
     },
     "footnotes": [
       {
@@ -37277,11 +37277,6 @@
         "title": "MiG-19 Farmer",
         "url": "https://www.marchfield.org/mig-19-farmer",
         "publisher": "March Field Air Museum"
-      },
-      {
-        "title": "Mikoyan-Gurevich MiG-19",
-        "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-19",
-        "publisher": "Wikipedia"
       }
     ],
     "article_sections": [
@@ -37800,7 +37795,8 @@
               "fn-wiki-orientation",
               "fn-method"
             ]
-          }
+          },
+          "Wikipedia remains retained only as a supplementary orientation footnote for broad chronology and variant terminology; the rendered reader-facing source cards emphasize the National Museum of the U.S. Air Force and March Field Air Museum references."
         ],
         "links": [
           {
@@ -37810,10 +37806,6 @@
           {
             "label": "March Field Air Museum — MiG-19 Farmer",
             "url": "https://www.marchfield.org/mig-19-farmer"
-          },
-          {
-            "label": "Wikipedia — Mikoyan-Gurevich MiG-19",
-            "url": "https://en.wikipedia.org/wiki/Mikoyan-Gurevich_MiG-19"
           }
         ]
       },
