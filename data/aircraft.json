@@ -72395,7 +72395,7 @@
       "exact_fact_count": 35,
       "operator_entries": 4,
       "variant_entries": 5,
-      "external_article_sources": 4
+      "external_article_sources": 3
     },
     "footnotes": [
       {
@@ -72448,13 +72448,6 @@
         "url": "https://www.airbus.com/en/newsroom/stories/2026-06-sharpening-its-claws-the-tiger-gets-ready-for-future-battles",
         "publisher": "Airbus",
         "note": "Manufacturer newsroom context for Mark III modernization; used only for broad upgrade framing."
-      },
-      {
-        "id": "fn-wikipedia-tiger",
-        "title": "Eurocopter Tiger",
-        "url": "https://en.wikipedia.org/wiki/Eurocopter_Tiger",
-        "publisher": "Wikipedia",
-        "note": "Supplementary orientation source for public specification figures, dates, operator/variant names, and terminology; cross-check before using for sensitive or date-dependent claims."
       },
       {
         "id": "fn-helis-tiger",
