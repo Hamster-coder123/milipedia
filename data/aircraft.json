@@ -42860,7 +42860,7 @@
       "exact_fact_count": 36,
       "operator_entries": 7,
       "variant_entries": 8,
-      "external_article_sources": 5
+      "external_article_sources": 4
     },
     "footnotes": [
       {
@@ -42934,13 +42934,6 @@
         "url": "https://www.airtattoo.com/riat-2023/aircraft/sukhoi-su-22m-fitter-poland",
         "publisher": "Royal International Air Tattoo",
         "note": "Airshow profile used for Polish Su-22M4 service context and the Su-22 export/Su-17M4 relationship."
-      },
-      {
-        "id": "fn-main",
-        "title": "Sukhoi Su-17",
-        "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-17",
-        "publisher": "Wikipedia",
-        "note": "Supplementary orientation source for broad nomenclature, dates, and operator cross-checking; not used as the sole source for technical claims."
       }
     ],
     "article_sections": [
@@ -43358,7 +43351,7 @@
             ]
           },
           {
-            "text": "Wikipedia was retained only for broad orientation and cross-checking because the page itself flags some sourcing issues. Exact active inventories, loss claims, nuclear-store details, and country-specific modernization states require current specialist verification before being stated as definitive.",
+            "text": "Wikipedia is retained only for broad orientation and cross-checking because the page itself flags some sourcing issues; it is no longer rendered as a reader-facing external article while stronger museum and specialist references are available. Exact active inventories, loss claims, nuclear-store details, and country-specific modernization states require current specialist verification before being stated as definitive.",
             "refs": [
               "fn-main",
               "fn-method"
