@@ -3566,7 +3566,7 @@
       "exact_fact_count": 45,
       "operator_entries": 2,
       "variant_entries": 5,
-      "external_article_sources": 3
+      "external_article_sources": 4
     },
     "footnotes": [
       {
@@ -3687,6 +3687,11 @@
         "title": "Grumman F-14A Tomcat",
         "url": "https://www.museumofflight.org/exhibits-and-events/aircraft/grumman-f-14a-tomcat",
         "publisher": "The Museum of Flight"
+      },
+      {
+        "title": "F-14A Tomcat",
+        "url": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-14a-tomcat.html",
+        "publisher": "National Naval Aviation Museum"
       },
       {
         "title": "F-14 Tomcat",
@@ -4422,6 +4427,57 @@
             "refs": [
               "fn-museum-flight"
             ]
+          }
+        ]
+      },
+      {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "The rendered external-source list now includes the National Naval Aviation Museum F-14A page in addition to the Museum of Flight, NASA, and FAS references already used by the article. The NNAM page is retained as an official museum source even though an automated HTTPS header check from this environment failed certificate validation; no insecure TLS bypass was used.",
+            "refs": [
+              "fn-nnam-f14a",
+              "fn-museum-flight",
+              "fn-nasa-vstfe",
+              "fn-fas"
+            ]
+          },
+          {
+            "text": "Specification values are representative F-14A or clearly labeled family values. F-14B and F-14D engine, avionics, and strike-upgrade differences should not be collapsed into a single universal Tomcat configuration, and Iranian fleet-status claims remain source-sensitive.",
+            "refs": [
+              "fn-main",
+              "fn-govexec-bombcat",
+              "fn-iiaf-f14",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Public-perception and combat-claim material is treated separately from hard technical data: TOPGUN-era cultural sources explain reputation, while open-source Iranian air-to-air claims and Phoenix-missile stories should be described with attribution rather than as settled counts.",
+            "refs": [
+              "fn-smithsonian-topgun",
+              "fn-northrop-topgun",
+              "fn-f14-public-perception",
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "National Naval Aviation Museum — F-14A Tomcat",
+            "url": "https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/f-14a-tomcat.html"
+          },
+          {
+            "label": "The Museum of Flight — Grumman F-14A Tomcat",
+            "url": "https://www.museumofflight.org/exhibits-and-events/aircraft/grumman-f-14a-tomcat"
+          },
+          {
+            "label": "NASA — F-14 variable-sweep research image article",
+            "url": "https://www.nasa.gov/image-article/f-14/"
+          },
+          {
+            "label": "FAS — F-14 Tomcat system page",
+            "url": "https://man.fas.org/dod-101/sys/ac/f-14.htm"
           }
         ]
       },

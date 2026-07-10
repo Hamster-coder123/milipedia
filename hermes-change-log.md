@@ -11633,3 +11633,74 @@ Record the result of:
 * The official museum page blocked automated header checks with HTTP 403, so this audit did not add new factual claims from that page; it only corrected rendered-source integration around existing records.
 * Wikipedia remains retained as a non-rendered orientation/source record because existing source caveats and refs still use it for cross-checking.
 * The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.
+
+### Run 155 — 2026-07-10 06:02:16 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Grumman F-14 Tomcat (id: f-14-tomcat)
+* Reason selected: Audit/gap-fill rotation found this previously expanded, not-yet-audited non-reference page had reliable official source records that were not fully exposed to the renderer and lacked a renderer-compatible Sources and Notes section despite several source caveats.
+* Previous condition: The page rendered only three external articles and jumped from Timeline to Related Pages, leaving the National Naval Aviation Museum source and variant/claim caveats available only in source metadata rather than in-page notes.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Keep external articles aligned with the quality count, place source caveats in a Sources and Notes section before Related Pages, and use renderer-compatible article-section link objects with label/url.
+
+#### Changes Made
+
+* Added the official National Naval Aviation Museum F-14A page to the top-level external_articles list so a reliable cited museum source is renderer-visible.
+* Updated article_quality.external_article_sources from 3 to 4 to match the rendered external_articles array.
+* Added a renderer-compatible Sources and Notes section before Related Pages, documenting the official-source reachability caveat, F-14A-vs-F-14B/D specification boundaries, and caution around public-perception and disputed combat-claim material.
+
+#### Files Modified
+
+* data/aircraft.json — Updated only the F-14 Tomcat aircraft entry with source-rendering and Sources and Notes integration.
+* hermes-change-log.md — Appended this audit/gap-fill Run 155 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used rather than sparse-page selection
+* [x] F-16 page was used as formatting/source-integration reference
+* [x] Exactly one aircraft entry was changed and its id stayed f-14-tomcat
+* [x] Renderer-visible external article count matches article_quality.external_article_sources
+* [x] Source refs were checked against existing sources/footnotes
+* [x] Internal aircraft.html?id=... links were checked
+* [x] Article-section card/link renderer shapes were checked
+* [x] Formatting was checked
+* [x] No unrelated tracked files were changed
+* [x] No credentials were added
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Pre-existing untracked package files/node_modules remain unstaged; intended tracked modifications are data/aircraft.json and hermes-change-log.md only.
+2. JSON validation — Parsed data/aircraft.json successfully.
+3. One-entry check — Compared HEAD:data/aircraft.json to the working file and confirmed exactly one aircraft entry changed, preserving id f-14-tomcat.
+4. Selected-entry review — Confirmed F-14 now has four rendered external_articles and article_quality.external_article_sources is 4.
+5. Source/ref review — Verified F-14 refs continue to point to existing source or footnote IDs.
+6. Internal link check — Recursively checked F-14 aircraft.html?id=... links against data/aircraft.json IDs.
+7. Renderer-shape check — Verified article-section cards use title/text and links use label/url.
+8. Source reachability check — Direct HTTPS header checks showed Museum of Flight, NASA, and FAS reachable; the National Naval Aviation Museum HTTPS check failed local certificate validation and was retained as an official cited source without using insecure TLS bypass.
+9. Credential check — Checked credential-specific patterns over the staged diff; no credentials were found.
+10. Final review before commit — Confirmed branch hermes-agent, git diff --check success, intended staged files only, and no direct main-branch edit.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Grumman F-14 Tomcat
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* The official National Naval Aviation Museum F-14A page failed automated certificate validation from this environment, so this audit did not add new factual claims from a live fetch; it exposed an already-cited official source and added caveat text instead.
+* Event-gallery images were reviewed and left intact because they are F-14-specific Navy/NASA images rather than unrelated generated conflict imagery.
+* The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.
