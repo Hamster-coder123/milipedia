@@ -2371,7 +2371,7 @@
       "exact_fact_count": 58,
       "operator_entries": 5,
       "variant_entries": 7,
-      "external_article_sources": 10
+      "external_article_sources": 8
     },
     "footnotes": [
       {
@@ -2508,20 +2508,6 @@
         "url": "https://www.globalsecurity.org/military/systems/aircraft/f-8-specs.htm",
         "publisher": "GlobalSecurity.org",
         "note": "Used for specification cross-checks including J57-P-4A entry, Mach 1.5+ speed summary, tactical range, weights, and early armament summary."
-      },
-      {
-        "id": "fn-commons-f8",
-        "title": "F-8 Crusader media gallery",
-        "url": "https://commons.wikimedia.org/wiki/F-8_Crusader",
-        "publisher": "Wikimedia Commons",
-        "note": "Used for image discovery and Commons source-page links; images should be checked on their file pages for exact license and attribution."
-      },
-      {
-        "id": "fn-commons-dfbw",
-        "title": "1972-10-07 VoughtF-8 FlyByWire.jpg",
-        "url": "https://commons.wikimedia.org/wiki/File:1972-10-07_VoughtF-8_FlyByWire.jpg",
-        "publisher": "Wikimedia Commons / NASA",
-        "note": "Used for NASA F-8 Digital Fly-By-Wire gallery image and date/source metadata."
       }
     ],
     "article_sections": [

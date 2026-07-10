@@ -12350,3 +12350,65 @@ Record the result of:
 
 * Commit message: Hermes hourly audit: fill gaps in SEPECAT Jaguar
 * Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+### Run 165 — 2026-07-10 16:00:00 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Vought F-8 Crusader (id: f-8-crusader)
+* Reason selected: Audit/gap-fill rotation found a concrete source-rendering gap on a previously updated non-reference aircraft page that had not yet been audited in the new phase: the page still promoted Wikimedia Commons media records as top-level rendered external articles alongside stronger Museum of Flight, U.S. Naval Institute, NASA, CAEA, RAeS, and GlobalSecurity sources.
+* Previous condition: The F-8 Crusader page had 10 rendered external articles, including two media/image-discovery records intended for image attribution rather than reader-facing article sources, and `article_quality.external_article_sources` counted those media records.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Reliable-source-first external article rendering; image/media records preserved for citations or attribution without being promoted as top-level article sources; source-count metadata aligned with the rendered external article array.
+
+#### Changes Made
+
+* Removed the Wikimedia Commons F-8 Crusader media gallery and NASA F-8 Digital Fly-By-Wire image-file records from the F-8 Crusader top-level `external_articles` array.
+* Preserved both Commons records in `sources` so existing image metadata and citation context remain available without rendering them as recommended external articles.
+* Aligned `article_quality.external_article_sources` with the eight retained rendered sources: Museum of Flight, U.S. Naval Institute, RAeS, NASA, VFP-62, CAEA, and GlobalSecurity records.
+* Performed direct HTTPS header checks for representative retained official/specialist sources; Museum of Flight and NASA returned HTTP 200, while the U.S. Naval Institute page returned automated HTTP 403 and was retained as an established cited source without adding new claims.
+
+#### Files Modified
+
+* data/aircraft.json — Cleaned F-8 Crusader rendered external-article sources and aligned source-count metadata.
+* hermes-change-log.md — Recorded this audit/gap-fill run.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used instead of looking for never-updated sparse pages
+* [x] F-16 page was used as formatting reference
+* [x] Exactly one aircraft entry was changed and its id stayed f-8-crusader
+* [x] JSON validity was checked
+* [x] Internal aircraft.html?id=... links were checked against existing aircraft ids
+* [x] Source refs were checked against existing source and footnote ids
+* [x] Renderer-compatible article-section link and card shapes were checked
+* [x] Formatting was checked with git diff --check
+* [x] Credential-specific staged diff check found no credentials
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+1. `git branch --show-current` — Confirmed `hermes-agent`.
+2. `python3 -m json.tool data/aircraft.json >/dev/null` — JSON parsed successfully.
+3. One-entry diff verification — Compared HEAD data to the working file and confirmed exactly one aircraft entry changed: f-8-crusader -> f-8-crusader.
+4. Source/ref/link verification — Recursively checked the selected entry; article refs resolved to existing source or footnote ids, internal `aircraft.html?id=...` links targeted existing local ids, and section cards/links used renderer-compatible shapes.
+5. Source reachability — Direct HTTPS header checks returned HTTP 200 for Museum of Flight and NASA, and automated HTTP 403 for the established U.S. Naval Institute page; no new factual claims were added from the 403 source.
+6. `git diff --check` — Passed.
+7. Credential check — Checked credential-specific patterns in the staged diff; no credentials were found.
+8. `git status --short` — Only data/aircraft.json and hermes-change-log.md were staged for commit; pre-existing untracked package files were left unstaged.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Vought F-8 Crusader
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
