@@ -42110,7 +42110,7 @@
       "exact_fact_count": 31,
       "operator_entries": 7,
       "variant_entries": 7,
-      "external_article_sources": 3
+      "external_article_sources": 2
     },
     "footnotes": [
       {
@@ -42156,13 +42156,6 @@
         "url": "https://www.globalsecurity.org/military/world/russia/su-7.htm",
         "publisher": "GlobalSecurity.org",
         "note": "Used for development chronology, armament summary, production totals, export framing, replacement by Su-17/MiG-27, and design details."
-      },
-      {
-        "id": "fn-main",
-        "title": "Sukhoi Su-7",
-        "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-7",
-        "publisher": "Wikipedia",
-        "note": "Supplementary orientation source for variant names, operator context, and service-history cross-checks."
       }
     ],
     "article_sections": [
@@ -42564,7 +42557,7 @@
         "title": "Sources and Notes",
         "paragraphs": [
           {
-            "text": "Flugzeuginfo was used for the representative Su-7B specification table; GlobalSecurity for development, production, armament, and replacement context; Wikipedia only as a supplementary orientation source for variant and operator cross-checks.",
+            "text": "Flugzeuginfo was used for the representative Su-7B specification table; GlobalSecurity for development, production, armament, and replacement context; Wikipedia is retained only as a supplementary orientation source for variant and operator cross-check refs, not as a rendered external article.",
             "refs": [
               "fn-flug",
               "fn-gs",
