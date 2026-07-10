@@ -12006,7 +12006,7 @@
       "exact_fact_count": 31,
       "operator_entries": 2,
       "variant_entries": 5,
-      "external_article_sources": 4
+      "external_article_sources": 3
     },
     "footnotes": [
       {
@@ -12066,13 +12066,6 @@
         "url": "https://www.thisdayinaviation.com/tag/republic-f-105-thunderchief/",
         "publisher": "This Day in Aviation",
         "note": "Supplementary aviation-history chronology."
-      },
-      {
-        "id": "fn-wikipedia",
-        "title": "Republic F-105 Thunderchief",
-        "url": "https://en.wikipedia.org/wiki/Republic_F-105_Thunderchief",
-        "publisher": "Wikipedia",
-        "note": "Supplementary orientation source."
       }
     ],
     "article_sections": [

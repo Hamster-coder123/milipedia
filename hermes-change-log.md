@@ -11564,3 +11564,72 @@ Record the result of:
 * Commit hash cannot be embedded in this committed change-log entry without changing the hash again; the final hash is reported in the scheduled-run result.
 * The official museum source returned automated HTTP 403 from this environment, and the retained Aerospaceweb source uses a plain-HTTP stored URL that was not refetched in unattended mode. Because this audit only removes a weaker rendered orientation link and adds no new facts, the established source records were preserved.
 * This audit intentionally made a focused rendered-source cleanup and did not rewrite F-102 prose, variants, or operator sections without a separate source-backed gap.
+
+### Run 154 — 2026-07-10 05:02:25 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Republic F-105 Thunderchief (id: f-105-thunderchief)
+* Reason selected: Audit/gap-fill rotation found this previously expanded, not-yet-audited non-reference page still rendered Wikipedia as a top-level external article even though reliable official and specialist sources were already present.
+* Previous condition: Sources and Notes correctly described Wikipedia as a supplementary cross-check only, but external_articles still exposed it beside National Museum of the U.S. Air Force, archived Aerospaceweb, and This Day in Aviation links; article_quality.external_article_sources counted the orientation link as a rendered source.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Keep source caveats in a Sources and Notes section; reserve rendered external articles for reliable official/specialist sources; keep article-quality source counts aligned with the renderer-visible external_articles array.
+
+#### Changes Made
+
+* Removed the Wikipedia orientation record from the F-105 top-level external_articles array while preserving the fn-wikipedia source record and existing Sources and Notes caveat for refs/cross-checking.
+* Aligned article_quality.external_article_sources from 4 to 3 so it matches the three retained renderer-visible external articles.
+* Retained the National Museum of the U.S. Air Force, archived Aerospaceweb, and This Day in Aviation rendered source links.
+
+#### Files Modified
+
+* data/aircraft.json — Cleaned the F-105 rendered external source list and aligned the external-source quality count.
+* hermes-change-log.md — Appended this audit/gap-fill Run 154 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used rather than sparse-page selection
+* [x] F-16 page was used as formatting/source-integration reference
+* [x] Exactly one aircraft entry was changed and its id stayed f-105-thunderchief
+* [x] Renderer-visible external article count matches article_quality.external_article_sources
+* [x] Source refs were checked against existing sources/footnotes
+* [x] Internal aircraft.html?id=... links were checked
+* [x] Formatting was checked
+* [x] No unrelated tracked files were changed
+* [x] No credentials were added
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Pre-existing untracked package files/node_modules remain unstaged; intended tracked modifications are data/aircraft.json and hermes-change-log.md only.
+2. JSON validation — Parsed data/aircraft.json successfully.
+3. One-entry check — Compared HEAD:data/aircraft.json to the working file and confirmed exactly one aircraft entry changed, preserving id f-105-thunderchief.
+4. Source/ref review — Verified the F-105 refs continue to point to existing source or footnote IDs after removing only the rendered Wikipedia external-article card.
+5. Rendered-source review — Confirmed the F-105 external_articles array now has 3 entries and article_quality.external_article_sources is 3.
+6. Internal link check — Recursively checked F-105 aircraft.html?id=... links against data/aircraft.json IDs.
+7. Source reachability check — Web extraction returned backend errors; direct HTTPS header checks showed the archived Aerospaceweb and This Day in Aviation links reachable, while the official museum URL returned automated HTTP 403 and was retained as an existing official source without adding new claims.
+8. Credential check — Checked credential-specific patterns over the staged diff; no credentials were found.
+9. Final review before commit — Confirmed branch hermes-agent, git diff --check success, intended staged files only, and no direct main-branch edit.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Republic F-105 Thunderchief
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* The official museum page blocked automated header checks with HTTP 403, so this audit did not add new factual claims from that page; it only corrected rendered-source integration around existing records.
+* Wikipedia remains retained as a non-rendered orientation/source record because existing source caveats and refs still use it for cross-checking.
+* The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.
