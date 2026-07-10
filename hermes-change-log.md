@@ -11848,3 +11848,75 @@ Record the result of:
 * The official USAF page blocked automated header checks with HTTP 403 from this environment, so this audit did not add new factual claims from that page; it only corrected rendered-source integration around existing records.
 * Wikipedia remains retained as a non-rendered orientation/source record because existing Sources and Notes caveats and refs still use it for cross-checking.
 * The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.
+
+### Run 158 — 2026-07-10 09:00:40 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Mikoyan-Gurevich MiG-21 (id: mig-21)
+* Reason selected: Audit/gap-fill rotation found this previously expanded, not-yet-audited non-reference page with a mixed "Sources and Related Pages" section that prevented a clean renderer-compatible Sources and Notes section from appearing separately from related links.
+* Previous condition: The page already had reliable rendered external articles and aligned source counts, but its source caveat paragraph and related aircraft links were combined in one section rather than using the F-16-style separation between source notes and related pages.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Keep source caveats in a renderer-compatible Sources and Notes section, keep related aircraft links in a separate Related Pages section, preserve article-section link objects as label/url, and avoid changing factual claims when the gap is rendering/source-integration structure only.
+
+#### Changes Made
+
+* Split the MiG-21 article's combined Sources and Related Pages section into a renderer-compatible Sources and Notes section followed by a separate Related Pages section.
+* Preserved the existing source caveat paragraph and refs to National Museum of the U.S. Air Force, Smithsonian National Air and Space Museum, Royal Air Force Museum, Strategic Air Command & Aerospace Museum, Airforce Technology, and Wikipedia orientation records.
+* Preserved the existing related aircraft links and kept their article-section link shape as label/url.
+* Confirmed article_quality.external_article_sources already matches the five rendered external articles, so no source-count change was needed.
+
+#### Files Modified
+
+* data/aircraft.json — Split the MiG-21 source-note and related-link section into renderer-compatible sections.
+* hermes-change-log.md — Appended this audit/gap-fill Run 158 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used rather than sparse-page selection
+* [x] F-16 page was used as formatting/source-integration reference
+* [x] Exactly one aircraft entry was changed and its id stayed mig-21
+* [x] Renderer-visible external article count matches article_quality.external_article_sources
+* [x] Source refs were checked against existing sources/footnotes
+* [x] Internal aircraft.html?id=... links were checked
+* [x] Article-section card/link renderer shapes were checked
+* [x] Formatting was checked
+* [x] No unrelated tracked files were changed
+* [x] No credentials were added
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Pre-existing untracked package files/node_modules remain unstaged; intended tracked modifications are data/aircraft.json and hermes-change-log.md only.
+2. JSON validation — Parsed data/aircraft.json successfully.
+3. One-entry check — Compared HEAD:data/aircraft.json to the working file and confirmed exactly one aircraft entry changed, preserving id mig-21.
+4. Selected-entry review — Confirmed MiG-21 now has separate Sources and Notes and Related Pages sections; external_articles remains five and article_quality.external_article_sources remains 5.
+5. Source/ref review — Verified MiG-21 refs continue to point to existing source or footnote IDs.
+6. Internal link check — Recursively checked MiG-21 aircraft.html?id=... links against data/aircraft.json IDs.
+7. Renderer-shape check — Verified article-section cards use title/text and links use label/url; no href-only article links were found.
+8. Source reachability check — Direct HTTPS header checks showed Smithsonian, RAF Museum, Strategic Air Command & Aerospace Museum, and Airforce Technology reachable; the official USAF museum source returned automated HTTP 403 and was retained as an established official cited source without adding new factual claims.
+9. Credential check — Checked credential-specific patterns over the staged diff; no credentials were found.
+10. Final review before commit — Confirmed branch hermes-agent, git diff --check success, intended staged files only, and no direct main-branch edit.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Mikoyan-Gurevich MiG-21
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* The official USAF museum page blocked automated header checks with HTTP 403 from this environment, so this audit did not add new factual claims from that page; it only corrected renderer-compatible source/related-section structure around existing records.
+* Wikipedia remains retained as a non-rendered orientation/source record because the existing source caveat and refs use it for cross-checking.
+* The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.

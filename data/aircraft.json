@@ -38687,8 +38687,8 @@
         ]
       },
       {
-        "id": "sources-related",
-        "title": "Sources and Related Pages",
+        "id": "sources-notes",
+        "title": "Sources and Notes",
         "paragraphs": [
           {
             "text": "Principal sources for this entry are official or museum pages from the National Museum of the U.S. Air Force, Smithsonian National Air and Space Museum, Royal Air Force Museum, and Strategic Air Command & Aerospace Museum, supplemented by Airforce Technology for late modernization context. Wikipedia was retained only as a broad orientation and image/reference-discovery source.",
@@ -38700,6 +38700,15 @@
               "fn-airforce-technology-mig21-2000",
               "fn-main"
             ]
+          }
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
+        "paragraphs": [
+          {
+            "text": "Related MiG-family fighters, contemporaries, and export-era comparisons represented in Milipedia are linked below."
           }
         ],
         "links": [
