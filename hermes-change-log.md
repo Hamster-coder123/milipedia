@@ -11920,3 +11920,75 @@ Record the result of:
 * The official USAF museum page blocked automated header checks with HTTP 403 from this environment, so this audit did not add new factual claims from that page; it only corrected renderer-compatible source/related-section structure around existing records.
 * Wikipedia remains retained as a non-rendered orientation/source record because the existing source caveat and refs use it for cross-checking.
 * The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.
+
+### Run 159 — 2026-07-10 10:02:06 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Hawker Siddeley Harrier (id: harrier)
+* Reason selected: Audit/gap-fill rotation found this previously expanded, not-yet-audited non-reference page with an orientation-only Wikipedia record still exposed as a renderer-visible external article.
+* Previous condition: The page already had a renderer-compatible Sources and Notes section and reliable RAF Museum/Flugzeuginfo source records, but article_quality.external_article_sources counted three rendered links because Wikipedia was still displayed alongside stronger sources rather than retained only as an orientation/cross-check footnote.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Keep source caveats in Sources and Notes, prefer official/museum/specialist sources for rendered external articles, preserve orientation-only sources for refs/caveats when still used, and keep article_quality source counts aligned with renderer-visible external_articles.
+
+#### Changes Made
+
+* Removed the Hawker Siddeley Harrier Wikipedia record from top-level external_articles so it no longer renders as a recommended external article.
+* Preserved the existing Wikipedia footnote/source caveat for orientation and cross-check refs already used by the article.
+* Updated article_quality.external_article_sources from 3 to 2 to match the two retained rendered external articles: Royal Air Force Museum and Flugzeuginfo.
+* Made no factual-prose changes and added no new claims; this audit only corrected source-rendering integration.
+
+#### Files Modified
+
+* data/aircraft.json — Cleaned Harrier rendered external articles and aligned source-count metadata.
+* hermes-change-log.md — Appended this audit/gap-fill Run 159 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used rather than sparse-page selection
+* [x] F-16 page was used as formatting/source-integration reference
+* [x] Exactly one aircraft entry was changed and its id stayed harrier
+* [x] Renderer-visible external article count matches article_quality.external_article_sources
+* [x] Source refs were checked against existing sources/footnotes
+* [x] Internal aircraft.html?id=... links were checked
+* [x] Article-section card/link renderer shapes were checked
+* [x] Formatting was checked
+* [x] No unrelated tracked files were changed
+* [x] No credentials were added
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Pre-existing untracked package files/node_modules remain unstaged; intended tracked modifications are data/aircraft.json and hermes-change-log.md only.
+2. JSON validation — Parsed data/aircraft.json successfully.
+3. One-entry check — Compared HEAD:data/aircraft.json to the working file and confirmed exactly one aircraft entry changed, preserving id harrier.
+4. Selected-entry review — Confirmed Harrier now has two rendered external articles and article_quality.external_article_sources is 2; Wikipedia remains only as an orientation footnote/source record used by existing refs and caveats.
+5. Source/ref review — Verified Harrier refs continue to point to existing source or footnote IDs.
+6. Internal link check — Recursively checked Harrier aircraft.html?id=... links against data/aircraft.json IDs.
+7. Renderer-shape check — Verified article-section cards use title/text and links use label/url; no href-only article links were found.
+8. Source reachability check — Direct HTTPS header checks showed the RAF Museum and Wikipedia orientation page reachable; the retained Flugzeuginfo source is an existing plain-HTTP specialist source and was not refetched in this unattended run.
+9. Credential check — Checked credential-specific patterns over the staged diff; no credentials were found.
+10. Final review before commit — Confirmed branch hermes-agent, git diff --check success, intended staged files only, and no direct main-branch edit.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Hawker Siddeley Harrier
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Wikipedia remains retained as a non-rendered orientation/source record because the existing source caveat and refs use it for cross-checking.
+* The Flugzeuginfo source is an established specialist reference but uses a plain-HTTP URL in the existing data; this unattended audit did not refetch it or add new claims from it.
+* The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.

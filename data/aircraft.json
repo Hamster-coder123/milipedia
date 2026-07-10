@@ -64763,7 +64763,7 @@
       "exact_fact_count": 35,
       "operator_entries": 5,
       "variant_entries": 8,
-      "external_article_sources": 3
+      "external_article_sources": 2
     },
     "footnotes": [
       {
@@ -64805,11 +64805,6 @@
         "title": "Hawker Siddeley / British Aerospace Harrier GR.1/GR.3",
         "url": "http://www.flugzeuginfo.net/acdata_php/acdata_harrier_en.php",
         "publisher": "Flugzeuginfo.net"
-      },
-      {
-        "title": "Hawker Siddeley Harrier",
-        "url": "https://en.wikipedia.org/wiki/Hawker_Siddeley_Harrier",
-        "publisher": "Wikipedia"
       }
     ],
     "article_sections": [
