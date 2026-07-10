@@ -12287,3 +12287,66 @@ hermes-agent
 
 * Commit message: Hermes hourly audit: fill gaps in Eurofighter Typhoon
 * Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+### Run 164 — 2026-07-10 15:00:42 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: SEPECAT Jaguar (id: sepecat-jaguar)
+* Reason selected: Audit/gap-fill rotation found a concrete renderer/source-integration gap on a previously updated non-reference aircraft page: the page still rendered Wikipedia as a top-level external article despite having stronger RAF Museum and archived Dassault sources, and it combined source caveats and related aircraft links in one `Sources and Related Pages` section rather than the renderer-compatible `Sources and Notes` plus `Related Pages` structure.
+* Previous condition: The page had 3 rendered external articles including an orientation-only Wikipedia record, `article_quality.external_article_sources` counted all 3, and source caveats were mixed with related-page links in one combined section.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Dedicated Sources and Notes section before Related Pages; reliable-source-first external article rendering; concise source caveats that preserve refs without promoting orientation-only links as recommended sources.
+
+#### Changes Made
+
+* Removed the orientation-only Wikipedia record from the SEPECAT Jaguar top-level `external_articles` array while preserving it in `sources` and refs for orientation/cross-check caveats.
+* Aligned `article_quality.external_article_sources` with the two retained rendered sources: the RAF Museum page and archived Dassault manufacturer heritage page.
+* Split the combined `Sources and Related Pages` article section into renderer-compatible `Sources and Notes` and `Related Pages` sections, preserving the existing source-caveat paragraph, refs, and internal aircraft links.
+* Verified the retained RAF Museum and archived Dassault source URLs with direct HTTPS header checks after web extraction returned backend errors.
+
+#### Files Modified
+
+* data/aircraft.json — Cleaned SEPECAT Jaguar rendered source integration and article-section structure.
+* hermes-change-log.md — Recorded this audit/gap-fill run.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used instead of looking for never-updated sparse pages
+* [x] F-16 page was used as formatting reference
+* [x] Exactly one aircraft entry was changed and its id stayed sepecat-jaguar
+* [x] JSON validity was checked
+* [x] Internal aircraft.html?id=... links were checked against existing aircraft ids
+* [x] Source refs were checked against existing source and footnote ids
+* [x] Renderer-compatible article-section link and card shapes were checked
+* [x] Formatting was checked with git diff --check
+* [x] Credential-specific staged diff check found no credentials
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git branch --show-current — Confirmed `hermes-agent`.
+2. python3 -m json.tool data/aircraft.json >/dev/null — JSON parsed successfully.
+3. One-entry diff verification — Compared HEAD data to the working file and confirmed exactly one aircraft entry changed: sepecat-jaguar -> sepecat-jaguar.
+4. Source/ref/link verification — Recursively checked the selected entry; article refs resolved to existing source or footnote ids, internal `aircraft.html?id=...` links targeted existing local ids, and section cards/links used renderer-compatible shapes.
+5. Source reachability — Direct HTTPS header checks returned HTTP 200 for the RAF Museum source and the archived Dassault source; Tavily/web extraction returned backend 432 errors, so no new factual claims were added from those failed extracts.
+6. git diff --check — Passed after normalizing the change log to one trailing newline.
+7. Credential check — Checked credential-specific patterns in the staged diff; no credentials were found.
+8. git status --short — Only data/aircraft.json and hermes-change-log.md were staged for commit; pre-existing untracked package files were left unstaged.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in SEPECAT Jaguar
+* Commit hash: Pending until commit is created; final hash is reported in the run output.

@@ -63216,7 +63216,7 @@
       "exact_fact_count": 42,
       "operator_entries": 6,
       "variant_entries": 7,
-      "external_article_sources": 3
+      "external_article_sources": 2
     },
     "footnotes": [
       {
@@ -63262,13 +63262,6 @@
         "url": "https://web.archive.org/web/20080620024938/http://www.dassault-aviation.com/en/passion/aircraft/military-dassault-aircraft/jaguar.html?L=1",
         "publisher": "Dassault Aviation (archived)",
         "note": "Archived manufacturer heritage page used for program origins, first flight, variant families, production/order totals, and export/license-production context."
-      },
-      {
-        "id": "fn-wikipedia",
-        "title": "SEPECAT Jaguar",
-        "url": "https://en.wikipedia.org/wiki/SEPECAT_Jaguar",
-        "publisher": "Wikipedia",
-        "note": "Supplementary orientation source for public variant/operator lists and Jane's-derived specification fields; cross-checked against museum/manufacturer material where possible."
       }
     ],
     "article_sections": [
@@ -63781,8 +63774,8 @@
         ]
       },
       {
-        "id": "sources-related-pages",
-        "title": "Sources and Related Pages",
+        "id": "sources-notes",
+        "title": "Sources and Notes",
         "paragraphs": [
           {
             "text": "Primary source preference for this update was the RAF Museum for RAF service context and an archived Dassault manufacturer page for program and production history. Wikipedia was used only as a supplementary orientation source for the public variant/operator list and specification fields.",
@@ -63792,7 +63785,11 @@
               "fn-wikipedia"
             ]
           }
-        ],
+        ]
+      },
+      {
+        "id": "related-pages",
+        "title": "Related Pages",
         "links": [
           {
             "label": "Panavia Tornado",
