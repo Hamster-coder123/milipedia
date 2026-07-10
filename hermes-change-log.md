@@ -12216,3 +12216,74 @@ hermes-agent
 
 * Commit message: Hermes hourly audit: fill gaps in Saab 35 Draken
 * Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+### Run 163 — 2026-07-10 14:02:04 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* Aircraft/Page: Eurofighter Typhoon (id: eurofighter-typhoon)
+* Audit mode: Gap-fill audit of a previously updated non-reference aircraft page.
+* Reason selected: The Eurofighter page was among the least-recently-audited previously selected pages and retained stale generated metadata: `combat_history` still said `Not listed` despite sourced operational-history content, and `event_gallery` showed generic conflict imagery including a Kosovo War refugee-camp image unrelated to Typhoon service.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: cautious operational-history summaries, avoiding conflict-gallery imagery that implies unsupported aircraft-specific evidence, and preserving source caveats near the end of the article.
+
+#### Gap Found
+
+* Metadata gap: top-level `combat_history` contradicted the article's sourced operational-history section, which already describes Libya, Operation Shader, QRA, and NATO air-policing use.
+* Stale generated-gallery gap: `event_gallery` contained generic conflict images rather than Eurofighter-specific aircraft/event media; the Kosovo War image was especially stale because Typhoon was not yet in operational service during that conflict.
+
+#### Changes Made
+
+* Replaced the stale top-level `combat_history: Not listed` value with a concise summary aligned to the existing sourced operational-history section.
+* Cleared the stale generated `event_gallery` array so the page no longer renders generic conflict images as Eurofighter event media.
+* Left existing external articles, source records, source caveats, variants, operators, and article-quality counts unchanged because they were already aligned with rendered data.
+
+#### Sources Used
+
+* Royal Air Force — Typhoon FGR4: existing official source retained for operational-history wording; automated direct retrieval returned HTTP 403, so no new RAF-only claims were added beyond existing cited prose.
+* Airforce Technology — Eurofighter Typhoon Multirole Combat Fighter: existing rendered technical/programme source; direct HTTPS check returned HTTP 200.
+* MTU Aero Engines — EJ200: existing rendered engine source; direct HTTPS check returned HTTP 200.
+
+#### Files Modified
+
+* data/aircraft.json — Updated only the Eurofighter Typhoon aircraft entry.
+* hermes-change-log.md — Recorded this audit/gap-fill run.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit candidate was a previously selected non-reference aircraft page
+* [x] F-16 page was kept as the reference/template page and not edited
+* [x] Exactly one aircraft entry changed and the aircraft id stayed the same
+* [x] JSON syntax was validated
+* [x] Internal aircraft links were checked against existing aircraft ids
+* [x] Source refs were checked against existing source ids
+* [x] Renderer link/card shapes were checked
+* [x] git diff --check passed
+* [x] Credential-specific staged-diff check found no credentials
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+1. `git branch --show-current` — confirmed `hermes-agent`.
+2. `python3 -m json.tool data/aircraft.json >/dev/null` — JSON parsed successfully.
+3. Single-entry comparison — confirmed only `eurofighter-typhoon` changed and the id was unchanged.
+4. Metadata review — confirmed `combat_history` now matches the existing operational-history section and stale generic `event_gallery` metadata was cleared.
+5. Source reachability — checked existing RAF, Airforce Technology, and MTU URLs; RAF returned automated HTTP 403 while the other two returned HTTP 200.
+6. Ref/link verification — recursively checked refs, internal aircraft links, and renderer-compatible link/card shapes in the selected entry.
+7. `git diff --check` — passed after EOF normalization.
+8. Credential check — checked credential-specific patterns in the staged diff; no credentials were found.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Eurofighter Typhoon
+* Commit hash: Pending until commit is created; final hash is reported in the run output.

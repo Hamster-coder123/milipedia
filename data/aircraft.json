@@ -59006,7 +59006,7 @@
         "notes": "Export customer and partner in a joint UK-Qatari RAF squadron; delivery and operational status are date-sensitive."
       }
     ],
-    "combat_history": "Not listed",
+    "combat_history": "RAF Typhoons first saw combat during the 2011 Libya intervention and have also supported Operation Shader, while partner fleets routinely use the type for QRA and NATO air-policing missions.",
     "development_history": "The Eurofighter Typhoon grew from European Combat Fighter, Agile Combat Aircraft and European Fighter Aircraft studies into a four-nation consortium fighter. Development aircraft began flying in 1994, type acceptance occurred in 2003, and incremental Tranche and enhancement programmes expanded the aircraft from air-defence emphasis to full swing-role service.",
     "short_summary": "Eurofighter Typhoon is a multinational European swing-role fighter built around a canard-delta airframe, EJ200 engines, advanced radar/IRST sensors and continuously upgraded air-to-air and precision-strike weapons. It is active with the original partner air forces and several export operators.",
     "carrier_capable": false,
@@ -59772,18 +59772,7 @@
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Bllace_refugee_camp.jpg",
-        "caption": "Kosovo War",
-        "source_url": "https://en.wikipedia.org/wiki/Kosovo_War"
-      },
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Coalition_action_against_Libya-en.svg/960px-Coalition_action_against_Libya-en.svg.png",
-        "caption": "2011 military intervention in Libya",
-        "source_url": "https://en.wikipedia.org/wiki/2011_military_intervention_in_Libya"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "rafale",
