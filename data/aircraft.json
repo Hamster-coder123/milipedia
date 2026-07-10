@@ -72154,6 +72154,63 @@
         ]
       },
       {
+        "id": "sources-notes",
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "Primary NH90 programme, variant, and capability statements are anchored to NHIndustries manufacturer pages, Leonardo technical/product material, and the Bundeswehr equipment page. These sources are preferred over orientation summaries because NH90 equipment, mission kits, and fleet status vary by national configuration and date.",
+            "refs": [
+              "fn-nhi-home",
+              "fn-nhi-tth",
+              "fn-nhi-nfh",
+              "fn-leonardo",
+              "fn-bundeswehr"
+            ]
+          },
+          {
+            "text": "The Airforce Technology record is retained as a secondary technical reference for NFH mission-system and ASW/ASuW context. The Milipedia data-accuracy rules are retained for conservative wording where operator status, engine fit, weapons, range, endurance, and mission equipment depend on variant or customer.",
+            "refs": [
+              "fn-airforce-tech",
+              "fn-method"
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "text": "Rendered external articles are limited to the existing manufacturer, official military, partner-company, and specialist technical sources; no orientation-only Wikipedia or Wikidata record is rendered as a recommended external article.",
+            "refs": [
+              "fn-nhi-home",
+              "fn-leonardo",
+              "fn-bundeswehr",
+              "fn-method"
+            ]
+          },
+          {
+            "text": "Published NH90 specifications should be read as representative, not universal, because TTH, NFH, NTH Sea Lion, and national subvariants differ in mission equipment, engine installations, naval fittings, defensive aids, and weapons integration.",
+            "refs": [
+              "fn-leonardo",
+              "fn-nhi-tth",
+              "fn-nhi-nfh",
+              "fn-method"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "NHIndustries NH90 programme",
+            "url": "https://www.nhindustries.com/"
+          },
+          {
+            "label": "Leonardo NH90 product page",
+            "url": "https://helicopters.leonardo.com/en/products/nh90"
+          },
+          {
+            "label": "Bundeswehr NATO Helicopter 90 page",
+            "url": "https://www.bundeswehr.de/en/organization/equipment/armaments-projects/nato-helicopter-90-nh90-"
+          }
+        ]
+      },
+      {
         "id": "similar-development",
         "title": "Related Pages",
         "paragraphs": [

@@ -11307,3 +11307,90 @@ Record the result of:
 * Commit hash cannot be embedded in this committed change-log entry without changing the hash again; the final hash is reported in the scheduled-run result.
 * The retained Helis.com rendered source uses a plain-HTTP URL from the existing page data and was not directly refetched in this unattended run; the focused edit removes only the weaker Wikipedia rendered source while preserving established source metadata for refs.
 * This audit intentionally made a focused rendered-source cleanup and did not rewrite Tiger prose, variants, or operator sections without a separate source-backed gap.
+
+### Run 151 — 2026-07-10 02:02:42 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: NHIndustries NH90 (id: nh90)
+* Reason selected: Audit/gap-fill rotation selected a previously expanded non-reference page that had not yet been audited in the new phase. The NH90 page already had reliable manufacturer, partner-company, official military, and specialist source records rendered as external articles, but it lacked a renderer-compatible Sources and Notes section to expose source caveats and variant/configuration limits.
+* Previous condition: The entry had aligned external_articles and article_quality counts, renderer-compatible related links, and existing source metadata, but the article body jumped from Timeline directly to Related Pages without explaining source hierarchy, date sensitivity, or TTH/NFH/national-configuration caveats.
+* Previously edited by Hermes: Yes — originally expanded in Run 45; this pass is an audit/gap-fill correction, not a sparse-page expansion.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Dense sourced article structure, source-note placement before Related Pages, official/manufacturer source preference, cautious variant/operator/specification caveats, renderer-compatible article-section links, and internal aircraft.html?id=... related-page style.
+
+#### Gap Found
+
+* The NH90 entry lacked a renderer-compatible Sources and Notes section despite relying on several source records with important caveats about national variants, mission kits, engine fits, operator status, and representative specifications.
+* The page rendered six strong external articles, but readers had no in-article note explaining that manufacturer/official/partner-company sources are primary while the specialist source and Milipedia method record provide secondary/cautionary support.
+
+#### Changes Made
+
+* Added a Sources and Notes article section immediately before Related Pages in the NH90 entry.
+* Documented that core programme, TTH/NFH capability, technical, and operational statements are anchored to NHIndustries, Leonardo, and Bundeswehr sources.
+* Added rendered caveats that Airforce Technology is a secondary technical reference and that specifications, mission equipment, engine installations, defensive aids, weapons, and fleet/operator status vary by variant and national configuration.
+* Added renderer-compatible links to the retained NHIndustries, Leonardo, and Bundeswehr sources using label/url shape.
+* Preserved the existing external_articles array, article_quality counts, sources, footnotes, variants, operators, specifications, related links, event metadata, and prose because the concrete gap was the missing rendered source-note section.
+
+#### Sources Used
+
+* NHIndustries — existing programme and TTH/NFH manufacturer pages retained for consortium, delivery/flight-hour/operator, tactical-transport, naval-mission, survivability, cabin, and mission-system context; direct HTTPS header checks returned HTTP 200.
+* Leonardo Helicopters — existing partner-company NH90 product page retained for technical data, capacity, speed, range, endurance, and TTH/NFH descriptions; direct HTTPS header check returned HTTP 200.
+* Bundeswehr — existing official NATO Helicopter 90 page retained for programme history, founding nations, German TTH/Sea Lion service, deployments, and dimensions; direct HTTPS header check returned HTTP 200.
+* Airforce Technology — existing specialist technical reference retained for NFH avionics/sensors/mission-system context.
+* Milipedia data accuracy rules — retained for conservative wording where family, variant, operator, inventory, or current-status details vary.
+
+#### Files Modified
+
+* data/aircraft.json — Updated only the NHIndustries NH90 aircraft entry by adding a renderer-compatible Sources and Notes section.
+* hermes-change-log.md — Appended this Run 151 audit/gap-fill record.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used rather than searching for never-updated sparse pages
+* [x] F-16 page was checked as formatting/reference guidance
+* [x] Exactly one aircraft entry was changed and its id stayed `nh90`
+* [x] JSON validity was checked
+* [x] Renderer-visible external article count remained aligned with article_quality metadata
+* [x] Existing refs still point to retained source or footnote IDs
+* [x] Internal aircraft.html?id=... links in the selected entry were checked
+* [x] Article-section card/link renderer shapes were checked
+* [x] Formatting was checked
+* [x] Credential check found no credentials in the staged diff
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Confirmed the working branch is hermes-agent and only the intended tracked files were staged; pre-existing untracked package files were left unstaged.
+2. JSON validity — Parsed data/aircraft.json successfully with python3 -m json.tool.
+3. One-entry aircraft diff — Compared HEAD:data/aircraft.json to the working file and confirmed exactly one changed aircraft entry: nh90 -> nh90.
+4. Selected-entry review — Verified NH90 now has a Sources and Notes section before Related Pages while retaining six rendered external_articles and aligned article_quality.external_article_sources.
+5. Source/ref check — Verified refs in the selected entry resolve to retained source/footnote IDs.
+6. Internal link check — Recursively checked aircraft.html?id=... links in the selected NH90 entry against data/aircraft.json IDs.
+7. Renderer-shape check — Verified article-section cards use title/text and links use label/url.
+8. Formatting check — Ran git diff --check successfully.
+9. Credential check — Checked credential-specific patterns over the staged diff; no credentials were found.
+10. Final review before commit — Confirmed intended staged files only, no main-branch edit, and no unrelated site redesign or renderer changes.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in NHIndustries NH90
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in this committed change-log entry without changing the hash again; the final hash is reported in the scheduled-run result.
+* The web extraction backend returned errors for the checked source URLs, so direct HTTPS header checks were used for existing NHIndustries, Leonardo, and Bundeswehr sources instead.
+* This audit intentionally made a focused rendered-source-note addition and did not rewrite NH90 prose, variants, or operator sections without a separate source-backed gap.
