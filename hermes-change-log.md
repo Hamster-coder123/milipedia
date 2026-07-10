@@ -12485,3 +12485,77 @@ hermes-agent
 * The official NMUSAF page returned an automated HTTP 403 to the header check, so the existing official museum citation was retained without adding new live-fetched claims.
 * March Field responded with an HTTPS redirect to the trailing-slash form; the existing source remains appropriate for the rendered external-source card.
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the authoritative final hash is reported in the scheduled-run response.
+
+### Run 167 — 2026-07-10 18:00:44 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Dassault Mirage F1 (id: mirage-f1)
+* Reason selected: Audit/gap-fill rotation favored a previously updated non-reference aircraft page that had not yet been audited in the new phase. The page still rendered Wikipedia as a top-level external article even though stronger Dassault manufacturer, Flugzeuginfo technical, and ATAC operator-context sources were already present.
+* Previous condition: `external_articles` exposed four rendered links including an orientation-only Wikipedia record, and `article_quality.external_article_sources` counted that orientation source.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Reliable-source-first external article rendering, source caveats in a dedicated Sources and Notes section, and source-count metadata aligned with renderer-visible external source cards.
+
+#### Changes Made
+
+* Removed the orientation-only Wikipedia record from the Mirage F1 top-level `external_articles` array while preserving it in the page footnotes for supplementary orientation refs.
+* Aligned `article_quality.external_article_sources` from 4 to 3 so it matches the actual rendered external article cards.
+* Clarified the Sources and Notes caveat that Wikipedia remains retained only for broad orientation/cross-check refs and is not rendered as a reader-facing source card.
+
+#### Sources Used
+
+* Dassault Aviation — existing manufacturer Mirage F1 history/datasheet source retained; direct HTTPS header check returned HTTP 200.
+* Flugzeuginfo — existing Mirage F1 technical-data source retained; HTTPS variant returned HTTP 200 and the existing source URL remains as recorded.
+* ATAC — existing private adversary-service context source retained; automated header check did not return a short status in this environment, so no new factual claims were added from it.
+* Existing Wikipedia orientation record — preserved only for broad orientation refs and removed from rendered external-source surfaces.
+
+#### Files Modified
+
+* data/aircraft.json — Cleaned Mirage F1 rendered source integration and aligned source-count metadata.
+* hermes-change-log.md — Recorded this audit/gap-fill run.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used instead of looking for never-updated sparse pages
+* [x] F-16 reference/template page was inspected for source-note style
+* [x] Exactly one aircraft entry was changed in data/aircraft.json
+* [x] Selected aircraft id remained mirage-f1 before and after the edit
+* [x] JSON syntax validation passed
+* [x] Internal aircraft.html?id=... links were checked against existing aircraft IDs
+* [x] Source refs were checked against existing source/footnote IDs
+* [x] Renderer-compatible article-section link/card shapes were checked
+* [x] git diff --check passed
+* [x] Credential check — checked credential-specific patterns in the staged diff; no credentials were found
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+1. `git branch --show-current` confirmed `hermes-agent`.
+2. `python3 -m json.tool data/aircraft.json >/dev/null` confirmed valid JSON.
+3. A one-entry verification helper compared `git show HEAD:data/aircraft.json` to the working file and reported only `mirage-f1` changed, with the same aircraft id before and after.
+4. Recursive selected-entry checks found no broken local `aircraft.html?id=...` links, no missing refs against the entry's source/footnote IDs, and no malformed article-section `links` or `cards` shapes.
+5. Source checks returned HTTP 200 for the Dassault manufacturer source and the Flugzeuginfo HTTPS endpoint; ATAC did not return a short automated header status, so it was retained as an established source without adding new claims.
+6. `git diff --check` passed after normalizing the change log to exactly one trailing newline.
+7. The staged diff was scanned with credential-specific patterns; no credentials were found.
+8. `git status --short` was reviewed so only `data/aircraft.json` and `hermes-change-log.md` were staged; pre-existing untracked package files and node_modules were left unstaged.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Dassault Mirage F1
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* The ATAC source did not produce a concise automated header status during this run; the existing page record was retained without introducing new live-fetched claims.
+* The authoritative final commit hash is reported in the scheduled-run response because embedding it in this entry before commit would make it stale.

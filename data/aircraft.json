@@ -61588,7 +61588,7 @@
       "exact_fact_count": 35,
       "operator_entries": 7,
       "variant_entries": 7,
-      "external_article_sources": 4
+      "external_article_sources": 3
     },
     "footnotes": [
       {
@@ -61648,13 +61648,6 @@
         "url": "https://www.atacusa.com/mirage-f1",
         "publisher": "Airborne Tactical Advantage Company",
         "note": "Supplementary current/private aggressor-service performance context; used cautiously where accessible public data overlaps."
-      },
-      {
-        "id": "fn-wikipedia",
-        "title": "Dassault Mirage F1",
-        "url": "https://en.wikipedia.org/wiki/Dassault_Mirage_F1",
-        "publisher": "Wikipedia",
-        "note": "Supplementary orientation for operator/conflict overview and cross-checking; not used as the sole source for key specifications."
       }
     ],
     "article_sections": [
@@ -62078,7 +62071,7 @@
         "title": "Sources and Notes",
         "paragraphs": [
           {
-            "text": "Primary development, production, variant, export-user, and datasheet information comes from Dassault Aviation’s Mirage F1 history page. Flugzeuginfo provides supplemental Mirage F1C technical figures; Wikipedia is used only for broad orientation and conflict/operator cross-checks.",
+            "text": "Primary development, production, variant, export-user, and datasheet information comes from Dassault Aviation’s Mirage F1 history page. Flugzeuginfo provides supplemental Mirage F1C technical figures; Wikipedia is retained only for broad orientation and conflict/operator cross-check refs and is not rendered as a reader-facing external source card.",
             "refs": [
               "fn-dassault",
               "fn-flugzeuginfo",
