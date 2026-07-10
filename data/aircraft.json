@@ -69040,7 +69040,7 @@
       "exact_fact_count": 60,
       "operator_entries": 7,
       "variant_entries": 8,
-      "external_article_sources": 8
+      "external_article_sources": 6
     },
     "footnotes": [
       {
@@ -69173,14 +69173,6 @@
       {
         "title": "Aviation Safety Network Turin-Caselle MB-339 Occurrence",
         "url": "https://aviation-safety.net/wikibase/345619"
-      },
-      {
-        "title": "Wikimedia Commons RMAF MB-339 Image",
-        "url": "https://commons.wikimedia.org/wiki/File:RMAF_Aermacchi_MB-339.jpg"
-      },
-      {
-        "title": "Aermacchi MB-339 background orientation",
-        "url": "https://en.wikipedia.org/wiki/Aermacchi_MB-339"
       }
     ],
     "article_sections": [

@@ -11992,3 +11992,76 @@ Record the result of:
 * Wikipedia remains retained as a non-rendered orientation/source record because the existing source caveat and refs use it for cross-checking.
 * The Flugzeuginfo source is an established specialist reference but uses a plain-HTTP URL in the existing data; this unattended audit did not refetch it or add new claims from it.
 * The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.
+
+### Run 160 — 2026-07-10 11:00:40 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Aermacchi MB-339 (id: mb-339)
+* Reason selected: Audit/gap-fill rotation found this previously expanded non-reference page with orientation/media records still exposed as renderer-visible external articles while stronger official, specialist, accident, and manufacturer sources were already available.
+* Previous condition: article_quality.external_article_sources counted eight rendered links because Wikipedia and Wikimedia Commons were displayed alongside actual article/reference sources, even though those records are retained only for orientation or image-licensing refs.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Prefer official/museum/manufacturer/specialist links for rendered external articles, keep orientation-only records available for refs/caveats, preserve Sources and Notes caveat structure, and keep article_quality source counts aligned with renderer-visible external_articles.
+
+#### Changes Made
+
+* Removed the Aermacchi MB-339 Wikipedia background-orientation link from top-level external_articles so it no longer renders as a recommended external article.
+* Removed the Wikimedia Commons image-licensing page from top-level external_articles while preserving the existing source/footnote record for image licensing and refs.
+* Updated article_quality.external_article_sources from 8 to 6 to match the six retained rendered external articles: Aeronautica Militare, Flugzeuginfo, GlobalSecurity, Leonardo, Wired, and Aviation Safety Network.
+* Made no factual-prose changes and added no new claims; this audit only corrected source-rendering integration.
+
+#### Files Modified
+
+* data/aircraft.json — Cleaned MB-339 rendered external articles and aligned source-count metadata.
+* hermes-change-log.md — Appended this audit/gap-fill Run 160 entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used rather than sparse-page selection
+* [x] F-16 page was used as formatting/source-integration reference
+* [x] Exactly one aircraft entry was changed and its id stayed mb-339
+* [x] Renderer-visible external article count matches article_quality.external_article_sources
+* [x] Source refs were checked against existing sources/footnotes
+* [x] Internal aircraft.html?id=... links were checked
+* [x] Article-section card/link renderer shapes were checked
+* [x] Formatting was checked
+* [x] No unrelated tracked files were changed
+* [x] No credentials were added
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Pre-existing untracked package files/node_modules remain unstaged; intended tracked modifications are data/aircraft.json and hermes-change-log.md only.
+2. JSON validation — Parsed data/aircraft.json successfully.
+3. One-entry check — Compared HEAD:data/aircraft.json to the working file and confirmed exactly one aircraft entry changed, preserving id mb-339.
+4. Selected-entry review — Confirmed MB-339 now has six rendered external articles and article_quality.external_article_sources is 6; Wikipedia and Wikimedia Commons remain only as source/footnote records for orientation or image-licensing refs.
+5. Source/ref review — Verified MB-339 refs continue to point to existing source or footnote IDs.
+6. Internal link check — Recursively checked MB-339 aircraft.html?id=... links against data/aircraft.json IDs.
+7. Renderer-shape check — Verified article-section cards use title/text and links use label/url; no href-only article links were found.
+8. Source reachability check — Direct HTTPS header checks showed Flugzeuginfo, GlobalSecurity, Leonardo, Wired, and Aviation Safety Network reachable; the official Aeronautica Militare source timed out from this environment and was retained as an established official cited source without adding new factual claims.
+9. Credential check — Checked credential-specific patterns over the staged diff; no credentials were found.
+10. Final review before commit — Confirmed branch hermes-agent, git diff --check success, intended staged files only, and no direct main-branch edit.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Aermacchi MB-339
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Wikipedia remains retained as a non-rendered orientation/source record because the existing source caveat and refs use it for cross-checking.
+* Wikimedia Commons remains retained as a non-rendered source/footnote record because the existing image metadata uses it for licensing and caption refs.
+* The official Aeronautica Militare page timed out during automated header checking from this environment, so this audit did not add new factual claims from it; it only corrected renderer-visible source selection around existing records.
+* The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.
