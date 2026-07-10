@@ -26798,7 +26798,7 @@
       "exact_fact_count": 81,
       "operator_entries": 7,
       "variant_entries": 6,
-      "external_article_sources": 19
+      "external_article_sources": 17
     },
     "footnotes": [
       {
@@ -27068,20 +27068,6 @@
         "url": "AIRCRAFT%20PUBLIC%20PERCEPTION/T6.txt",
         "publisher": "Milipedia local research file",
         "note": "Local public-perception research file created for this aircraft expansion; used for social-media reputation, community discussion, myths, and neutral public-perception synthesis."
-      },
-      {
-        "id": "fn-wikimedia-t6a",
-        "title": "File:T-6A Texan II.jpg",
-        "url": "https://commons.wikimedia.org/wiki/File:T-6A_Texan_II.jpg",
-        "publisher": "Wikimedia Commons / U.S. Air Force public-domain image",
-        "note": "Used for the primary aircraft image source and license context."
-      },
-      {
-        "id": "fn-wikimedia-navy",
-        "title": "File:T6 Texan II Pensacola Navy.jpg",
-        "url": "https://commons.wikimedia.org/wiki/File:T6_Texan_II_Pensacola_Navy.jpg",
-        "publisher": "Wikimedia Commons / U.S. Navy public-domain image",
-        "note": "Used for gallery image source and Navy T-6B caption context."
       }
     ],
     "article_sections": [
