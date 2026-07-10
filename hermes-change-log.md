@@ -11394,3 +11394,89 @@ Record the result of:
 * Commit hash cannot be embedded in this committed change-log entry without changing the hash again; the final hash is reported in the scheduled-run result.
 * The web extraction backend returned errors for the checked source URLs, so direct HTTPS header checks were used for existing NHIndustries, Leonardo, and Bundeswehr sources instead.
 * This audit intentionally made a focused rendered-source-note addition and did not rewrite NH90 prose, variants, or operator sections without a separate source-backed gap.
+
+### Run 152 — 2026-07-10 03:00:40 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: McDonnell Douglas F/A-18 Hornet (id: f-a-18-hornet)
+* Reason selected: Audit/gap-fill rotation selected a previously expanded non-reference page that had not yet been audited in the new phase. The F/A-18 Hornet entry had a concrete rendered-source integration gap: two informal community/social sources were exposed as top-level external articles even though the page already marked them as public-perception-only caveats.
+* Previous condition: The page had a renderer-compatible Sources and Notes section and strong official/government sources, but its top-level external_articles still rendered the DCS community forum and Reddit discussion alongside official sources, and article_quality.external_article_sources counted those informal links.
+* Previously edited by Hermes: Yes — originally expanded in the sparse-page phase; this pass is an audit/gap-fill correction, not a sparse-page expansion.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Dense sourced article structure, official-source preference, separate source caveats, renderer-compatible article-section links, and internal aircraft.html?id=... related-page style.
+
+#### Gap Found
+
+* Informal community/social references were being rendered in top-level external_articles, which made them appear equivalent to official or professional source links.
+* The existing article prose and Sources and Notes section already limited those records to public-perception evidence, so they should remain in source/footnote metadata for refs but not be displayed as recommended external article sources.
+* article_quality.external_article_sources consequently overcounted the rendered reliable-source list.
+
+#### Changes Made
+
+* Removed the DCS forum and Reddit discussion records from the F/A-18 Hornet top-level external_articles array while preserving them in sources and footnotes for the existing public-perception caveat refs.
+* Updated article_quality.external_article_sources from 12 to 10 to match the actual rendered external_articles count.
+* Preserved the existing Sources and Notes section, source caveat paragraphs, official/government/professional rendered sources, variants, operators, specifications, related links, event metadata, and article prose.
+
+#### Sources Used
+
+* Naval Air Systems Command — existing official F/A-18 A-D product page retained as the primary mission, service-entry, variant, specification, and armament source; automated direct header check returned HTTP 403, so the established citation was preserved without adding new claims.
+* United States Navy — existing official F/A-18 fact-file record retained for Navy fact-file wording, customer context, and F/A-18E/F comparison; automated direct header check returned HTTP 403, so the established citation was preserved without adding new claims.
+* NAVAIR Libya combat article — existing official record retained for first-combat-Hornet context; automated direct header check returned HTTP 403, so the established citation was preserved without adding new claims.
+* Australian Department of Defence and Government of Canada — existing government records retained for Classic Hornet and CF-18 modernization context; short automated header checks did not complete successfully in this environment, so no new factual claims were added.
+* Existing DCS forum and Reddit records — retained only as non-rendered public-perception/source-caveat records and not used as proof of real aircraft performance.
+
+#### Files Modified
+
+* data/aircraft.json — Updated only the McDonnell Douglas F/A-18 Hornet aircraft entry by cleaning rendered external articles and aligning the source-count quality field.
+* hermes-change-log.md — Appended this Run 152 audit/gap-fill record.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used rather than searching for never-updated sparse pages
+* [x] F-16 page was checked as formatting/reference guidance
+* [x] Exactly one aircraft entry was changed and its id stayed `f-a-18-hornet`
+* [x] JSON validity was checked
+* [x] Renderer-visible external article count was aligned with article_quality metadata
+* [x] Existing refs still point to retained source or footnote IDs
+* [x] Internal aircraft.html?id=... links in the selected entry were checked
+* [x] Article-section card/link renderer shapes were checked
+* [x] Formatting was checked
+* [x] Credential check found no credentials in the staged diff
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Confirmed the working branch is hermes-agent and only the intended tracked files were staged; pre-existing untracked package files were left unstaged.
+2. JSON validity — Parsed data/aircraft.json successfully with python3 -m json.tool.
+3. One-entry aircraft diff — Compared HEAD:data/aircraft.json to the working file and confirmed exactly one changed aircraft entry: f-a-18-hornet -> f-a-18-hornet.
+4. Selected-entry review — Verified F/A-18 Hornet now has 10 rendered external_articles, with informal community/social references retained only in source/footnote metadata for public-perception caveats.
+5. Source/ref check — Verified refs in the selected entry resolve to retained source/footnote IDs.
+6. Internal link check — Recursively checked aircraft.html?id=... links in the selected F/A-18 entry against data/aircraft.json IDs.
+7. Renderer-shape check — Verified article-section cards use title/text and links use label/url.
+8. Formatting check — Ran git diff --check successfully.
+9. Credential check — Checked credential-specific patterns over the staged diff; no credentials were found.
+10. Final review before commit — Confirmed intended staged files only, no main-branch edit, and no unrelated site redesign or renderer changes.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in McDonnell Douglas F/A-18 Hornet
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in this committed change-log entry without changing the hash again; the final hash is reported in the scheduled-run result.
+* Automated source-header checks for several existing official/government URLs returned HTTP 403 or did not complete successfully from this environment, so this audit made only the source-rendering cleanup and did not add new facts.
+* This audit intentionally made a focused rendered-source cleanup and did not rewrite F/A-18 prose, variants, or operator sections without a separate source-backed gap.

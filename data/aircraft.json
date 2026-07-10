@@ -5983,7 +5983,7 @@
       "exact_fact_count": 50,
       "operator_entries": 5,
       "variant_entries": 6,
-      "external_article_sources": 12
+      "external_article_sources": 10
     },
     "footnotes": [
       {
@@ -6134,20 +6134,6 @@
         "url": "https://www.popularmechanics.com/military/aviation/a24538/f-a-18-badass-plane/",
         "publisher": "Popular Mechanics",
         "note": "Used as aviation-publication reputation context for Blue Angels visibility, early combat profile, Desert Storm reputation, and common range/acceleration complaints."
-      },
-      {
-        "id": "fn-dcs-forum",
-        "title": "DCS F/A-18 Hornet worth the buy and is good simulation of the jet?",
-        "url": "https://forum.dcs.world/topic/278054-dcs-fa-18-hornet-worth-the-buy-and-is-good-simulation-of-the-jet/",
-        "publisher": "Eagle Dynamics community forum",
-        "note": "Used only for simulation-community public perception: beginner-friendly, versatile, carrier operations, and broad mission coverage. Not used as proof of real aircraft performance."
-      },
-      {
-        "id": "fn-reddit-dcs",
-        "title": "Reddit discussion: F-18 praise and criticism in DCS",
-        "url": "https://www.reddit.com/r/dcs/comments/17o3wxv/im_not_sure_what_all_the_hate_towards_the_f18_is/",
-        "publisher": "Reddit r/dcs",
-        "note": "Used only as social-media perception evidence for all-rounder praise, ease-of-use opinions, computerized/boring criticism, and F-16 comparison arguments."
       },
       {
         "id": "fn-commons-gallery",
