@@ -46863,7 +46863,7 @@
       "exact_fact_count": 39,
       "operator_entries": 4,
       "variant_entries": 5,
-      "external_article_sources": 4
+      "external_article_sources": 3
     },
     "footnotes": [
       {
@@ -46923,13 +46923,6 @@
         "url": "https://www.militaryfactory.com/aircraft/detail.php?aircraft_id=196",
         "publisher": "Military Factory",
         "note": "Supplementary reference used for carrier-specific structural changes, avionics description, weapons examples, and limited-production context; values treated cautiously where dates differ from other sources."
-      },
-      {
-        "id": "fn-main",
-        "title": "Sukhoi Su-33",
-        "url": "https://en.wikipedia.org/wiki/Sukhoi_Su-33",
-        "publisher": "Wikipedia",
-        "note": "Supplementary orientation source for nomenclature, first-flight/service-date cross-checking, production total, and the Su-27K-to-Su-33 designation change; not used as the only source for technical claims."
       }
     ],
     "article_sections": [
@@ -47389,7 +47382,7 @@
         "title": "Sources and Notes",
         "paragraphs": [
           {
-            "text": "Airforce Technology supplies the main technical specification baseline. GlobalSecurity and Military Factory provide supplementary design, armament, and carrier-operation context. Wikipedia is used for orientation and cross-checking but not as the sole support for technical specifications.",
+            "text": "Airforce Technology supplies the main technical specification baseline. GlobalSecurity and Military Factory provide supplementary design, armament, and carrier-operation context. Wikipedia is retained only for orientation and cross-checking refs and is not rendered as a reader-facing external source card.",
             "refs": [
               "fn-airforce-tech",
               "fn-globalsecurity",
