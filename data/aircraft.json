@@ -10842,7 +10842,7 @@
       "exact_fact_count": 38,
       "operator_entries": 4,
       "variant_entries": 6,
-      "external_article_sources": 4
+      "external_article_sources": 3
     },
     "footnotes": [
       {
@@ -10902,13 +10902,6 @@
         "url": "http://www.aerospaceweb.org/aircraft/fighter/f102/",
         "publisher": "Aerospaceweb.org",
         "note": "Supplementary reference retained for specifications and development cross-checking; public extraction was not available during this run, so facts were not uniquely dependent on it."
-      },
-      {
-        "id": "fn-wikipedia-f102",
-        "title": "Convair F-102 Delta Dagger",
-        "url": "https://en.wikipedia.org/wiki/Convair_F-102_Delta_Dagger",
-        "publisher": "Wikipedia",
-        "note": "Supplementary orientation for variant names, operator overview, timeline, and references; official/museum and technical sources were preferred where available."
       }
     ],
     "article_sections": [

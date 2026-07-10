@@ -11480,3 +11480,87 @@ Record the result of:
 * Commit hash cannot be embedded in this committed change-log entry without changing the hash again; the final hash is reported in the scheduled-run result.
 * Automated source-header checks for several existing official/government URLs returned HTTP 403 or did not complete successfully from this environment, so this audit made only the source-rendering cleanup and did not add new facts.
 * This audit intentionally made a focused rendered-source cleanup and did not rewrite F/A-18 prose, variants, or operator sections without a separate source-backed gap.
+
+### Run 153 — 2026-07-10 04:01:48 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Convair F-102 Delta Dagger (id: f-102-delta-dagger)
+* Reason selected: Audit/gap-fill rotation selected a previously expanded non-reference page that had not yet been audited in the new phase. The F-102 entry still rendered Wikipedia as a top-level recommended external article even though stronger museum and aviation-reference sources were already present.
+* Previous condition: The page already had a Sources and Notes section and retained Wikipedia only as supplementary orientation in source notes, but the top-level `external_articles` array still displayed that orientation record beside more appropriate recommended sources.
+* Previously edited by Hermes: Yes — originally expanded in the sparse-page phase; this pass is an audit/gap-fill correction, not a sparse-page expansion.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Dense sourced article structure, official/museum source preference, source-note caveats, renderer-compatible external articles, and internal aircraft.html?id=... related-page style.
+
+#### Gap Found
+
+* The F-102 page rendered Wikipedia as a recommended top-level external article despite already having National Museum of the United States Air Force, GlobalAircraft, and Aerospaceweb records available.
+* `article_quality.external_article_sources` counted that orientation-only rendered record, so it needed to be aligned with the retained recommended-source list after cleanup.
+
+#### Changes Made
+
+* Removed the Wikipedia record from the F-102 top-level `external_articles` array while preserving it in `sources` and `footnotes` for existing orientation/cross-check refs.
+* Updated `article_quality.external_article_sources` from 4 to 3 so the metadata matches the actual renderer-visible external article count.
+* Preserved the existing Sources and Notes section, source caveat paragraphs, museum/technical rendered sources, variants, operators, specifications, related links, event metadata, and article prose.
+
+#### Sources Used
+
+* National Museum of the United States Air Force — existing official museum F-102A fact sheet retained as the primary role, historical-context, and aircraft-background source; automated direct header check returned HTTP 403, so the established citation was preserved without adding new claims.
+* GlobalAircraft.org — existing technical F-102 Delta Dagger reference retained as a rendered external article; direct HTTPS header check returned HTTP 200.
+* Aerospaceweb.org — existing supplementary technical reference retained as a rendered external article; the stored URL is plain HTTP, so it was not refetched in this unattended run.
+* Wikipedia — removed from rendered external articles and retained only as supplementary orientation/cross-check metadata for existing refs.
+
+#### Files Modified
+
+* data/aircraft.json — Updated only the Convair F-102 Delta Dagger aircraft entry by cleaning rendered external articles and aligning the source-count quality field.
+* hermes-change-log.md — Appended this Run 153 audit/gap-fill record.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used rather than searching for never-updated sparse pages
+* [x] F-16 page was checked as formatting/reference guidance
+* [x] Exactly one aircraft entry was changed and its id stayed `f-102-delta-dagger`
+* [x] JSON validity was checked
+* [x] Renderer-visible external article count was aligned with article_quality metadata
+* [x] Existing refs still point to retained source or footnote IDs
+* [x] Internal aircraft.html?id=... links in the selected entry were checked
+* [x] Article-section card/link renderer shapes were checked
+* [x] Formatting was checked
+* [x] Credential check found no credentials in the staged diff
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Confirmed the working branch is hermes-agent and only the intended tracked files were staged; pre-existing untracked package files were left unstaged.
+2. JSON validity — Parsed data/aircraft.json successfully with python3 -m json.tool.
+3. One-entry aircraft diff — Compared HEAD:data/aircraft.json to the working file and confirmed exactly one changed aircraft entry: f-102-delta-dagger -> f-102-delta-dagger.
+4. Selected-entry review — Verified F-102 now has three rendered external_articles, with Wikipedia retained only in source/footnote metadata for orientation refs.
+5. Source/ref check — Verified refs in the selected entry resolve to retained source/footnote IDs.
+6. Internal link check — Recursively checked aircraft.html?id=... links in the selected F-102 entry against data/aircraft.json IDs.
+7. Renderer-shape check — Verified article-section cards use title/text and links use label/url.
+8. Formatting check — Ran git diff --check successfully.
+9. Credential check — Checked credential-specific patterns over the staged diff; no credentials were found.
+10. Final review before commit — Confirmed intended staged files only, no main-branch edit, and no unrelated site redesign or renderer changes.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Convair F-102 Delta Dagger
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in this committed change-log entry without changing the hash again; the final hash is reported in the scheduled-run result.
+* The official museum source returned automated HTTP 403 from this environment, and the retained Aerospaceweb source uses a plain-HTTP stored URL that was not refetched in unattended mode. Because this audit only removes a weaker rendered orientation link and adds no new facts, the established source records were preserved.
+* This audit intentionally made a focused rendered-source cleanup and did not rewrite F-102 prose, variants, or operator sections without a separate source-backed gap.
