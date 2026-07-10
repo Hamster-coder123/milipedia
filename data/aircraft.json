@@ -44128,6 +44128,28 @@
         ]
       },
       {
+        "title": "Sources and Notes",
+        "paragraphs": [
+          {
+            "text": "The rendered external articles for this page are the Airforce Technology Su-24M profile and the Aerospaceweb Su-24 reference; both were reachable over HTTPS during this audit. Wikipedia and Wikidata remain retained as orientation and identifier records rather than top-level recommended external articles.",
+            "refs": [
+              "fn-aft",
+              "fn-aero",
+              "fn-main",
+              "fn-wikidata"
+            ]
+          },
+          {
+            "text": "Variant, operator, performance, and combat-history statements are intentionally caveated because Su-24, Su-24M, Su-24MK, Su-24MR, Su-24MP, Su-24M2, and national upgrade standards differ, while current inventories and wartime loss claims are date-sensitive.",
+            "refs": [
+              "fn-aft",
+              "fn-aero",
+              "fn-method"
+            ]
+          }
+        ]
+      },
+      {
         "id": "comparison",
         "title": "Comparison and Related Pages",
         "paragraphs": [
@@ -44164,13 +44186,6 @@
             "url": "aircraft.html"
           }
         ]
-      }
-    ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Mortar_attack_on_Shigal_Tarna_garrison%2C_Kunar_Province%2C_87.jpg/960px-Mortar_attack_on_Shigal_Tarna_garrison%2C_Kunar_Province%2C_87.jpg",
-        "caption": "Soviet–Afghan War",
-        "source_url": "https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War"
       }
     ]
   },

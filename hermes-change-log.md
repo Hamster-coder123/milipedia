@@ -12065,3 +12065,81 @@ Record the result of:
 * Wikimedia Commons remains retained as a non-rendered source/footnote record because the existing image metadata uses it for licensing and caption refs.
 * The official Aeronautica Militare page timed out during automated header checking from this environment, so this audit did not add new factual claims from it; it only corrected renderer-visible source selection around existing records.
 * The final commit hash cannot be embedded in the committed change log without changing the commit; it is reported in the scheduled-run response.
+
+### Run 161 — 2026-07-10 12:02:09 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Sukhoi Su-24 (id: su-24)
+* Audit mode: Previously updated non-reference aircraft page selected for gap-fill rotation.
+* Reason selected: Among least-recently-audited previously selected pages, the Su-24 entry had reliable rendered external sources and source caveats in prose, but no renderer-compatible `Sources and Notes` section; it also retained stale generated event-gallery metadata using a generic Soviet-Afghan War image rather than a Su-24-specific aircraft event.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: source/caveat section placement near the end of the article, cautious variant/operator wording, and separate related-page links.
+
+#### Concrete Gap Found
+
+* Source integration gap: Airforce Technology and Aerospaceweb were already exposed as top-level rendered external articles, while Wikipedia/Wikidata were retained as orientation/identifier records, but the page lacked a visible Sources and Notes section explaining that distinction and the variant/operator/date-sensitivity caveats.
+* Metadata gap: the remaining `event_gallery` item showed a generic Soviet-Afghan War mortar-attack image, not a Su-24-specific image or aircraft event, so it could imply unsupported aircraft-specific evidence.
+
+#### Changes Made
+
+* Added a renderer-compatible `Sources and Notes` article section before the comparison/related section.
+* Documented that Airforce Technology and Aerospaceweb are the rendered external article sources, while Wikipedia and Wikidata remain orientation/identifier records rather than top-level recommended readings.
+* Added a source caveat covering Su-24/Su-24M/Su-24MK/Su-24MR/Su-24MP/Su-24M2 and national-upgrade differences plus date-sensitive operator and combat-history claims.
+* Removed the stale generic `event_gallery` metadata from the Su-24 entry.
+
+#### Sources Used
+
+* Airforce Technology — Su-24M Fencer Bomber: existing rendered technical source, reachable over HTTPS during this audit.
+* Aerospaceweb.org — Su-24 Fencer aircraft reference: existing rendered supplemental technical source, reachable over HTTPS during this audit.
+* Existing Wikipedia/Wikidata records were preserved as orientation/identifier refs, not promoted as top-level external articles.
+
+#### Files Modified
+
+* data/aircraft.json — Updated only the Sukhoi Su-24 entry.
+* hermes-change-log.md — Appended this Run 161 audit/gap-fill entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] F-16 page was inspected as the style reference
+* [x] Exactly one aircraft entry changed, and the aircraft id remained `su-24`
+* [x] JSON syntax was validated
+* [x] Internal `aircraft.html?id=...` links in the selected entry target existing aircraft ids
+* [x] Source refs in the selected entry point to existing source or footnote ids
+* [x] Article-section cards and links were checked for renderer-compatible shapes
+* [x] External article source count remains aligned with the rendered top-level external articles
+* [x] Formatting was checked with git diff --check
+* [x] Credential-specific staged diff check found no credentials
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+1. Branch check — confirmed `git branch --show-current` returned `hermes-agent`.
+2. JSON validation — ran `python3 -m json.tool data/aircraft.json >/dev/null` successfully.
+3. Single-entry verification — compared `HEAD:data/aircraft.json` with the working file and confirmed only `su-24` changed with the same id before and after.
+4. Link/ref verification — recursively checked the Su-24 entry for local aircraft links, source refs, and renderer link/card shapes.
+5. Source reachability — checked the existing Airforce Technology and Aerospaceweb HTTPS URLs with direct header requests; both returned HTTP 200.
+6. Diff hygiene — ran `git diff --check` successfully after normalizing the change log EOF.
+7. Staged-file review — staged only `data/aircraft.json` and `hermes-change-log.md`; pre-existing untracked package files and node_modules were left unstaged.
+8. Credential check — scanned the staged diff with credential-specific patterns; no credentials were found.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Sukhoi Su-24
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* The Su-24 page still uses existing public-source caveats for variant and operator details because fleet status, upgrades, wartime losses, and national weapons integrations are date-sensitive.
+* The final commit hash cannot be embedded in the committed change log without making it stale; the authoritative hash is reported in the scheduled-run output.
