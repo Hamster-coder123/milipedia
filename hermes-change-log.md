@@ -13723,3 +13723,75 @@ Record the result of:
 
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * This was a structural renderer/link fix only; no new J-10 technical or operational claims were added.
+
+### Run 184 — 2026-07-11 11:01:50 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Embraer EMB 314 Super Tucano (id: embraer-emb-314-super-tucano)
+* Reason selected: Audit/gap-fill rotation preferred pages least recently audited in the new audit phase. The Super Tucano entry had not yet been audited since its original Hermes expansion and contained a renderer-visible Related Pages return link with `url: "aircraft.html"` instead of a valid database anchor or an `aircraft.html?id=...` aircraft target.
+* Previous condition: The Super Tucano page otherwise had aligned rendered external-source counts, a Sources and Notes section, and renderer-compatible related-aircraft links, but the final "Back to aircraft database" link could route to the aircraft detail page without an aircraft id.
+* Previously edited by Hermes: Yes — expanded in Run 47; this is its first audit/gap-fill pass in the new phase.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Related-page link conventions, renderer-compatible article-section link objects using `label`/`url`, and internal aircraft links using `aircraft.html?id=...` only when the target is an actual aircraft entry.
+
+#### Changes Made
+
+* Updated exactly one Super Tucano article-section link: the Related Pages "Back to aircraft database" target now points to `index.html#database` instead of bare `aircraft.html`.
+* Preserved the existing Super Tucano article prose, sources, external articles, variants, operators, specifications, operational-history wording, source caveats, and related aircraft links.
+* Confirmed the existing Embraer, Airforce Technology, Sierra Nevada Corporation, and Air & Space Forces Magazine rendered external articles remain aligned with `article_quality.external_article_sources`.
+
+#### Sources Used
+
+* Existing Super Tucano source records from Embraer, Airforce Technology, Sierra Nevada Corporation, and Air & Space Forces Magazine were retained; no new factual claims were added in this link-structure audit.
+* The Milipedia renderer convention was checked against the F-16 template and existing aircraft-page related-link patterns.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the Embraer EMB 314 Super Tucano Related Pages database-return link.
+* hermes-change-log.md — Appended this audit/gap-fill run entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used instead of searching for never-updated sparse pages
+* [x] F-16 page was kept as the reference/template page and was not edited
+* [x] Exactly one aircraft entry changed and the id stayed `embraer-emb-314-super-tucano`
+* [x] JSON validity was checked
+* [x] Internal `aircraft.html?id=...` links in the selected entry were checked against existing aircraft ids
+* [x] Source refs in the selected entry were checked against existing source or footnote ids
+* [x] Renderer link/card shapes in the selected entry were checked
+* [x] Credential check used credential-specific patterns; no credentials were found
+* [x] Only intended files were staged
+* [x] Formatting was checked with git diff --check
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Pre-existing untracked package files remained unstaged; only data/aircraft.json and hermes-change-log.md were intended for commit.
+2. JSON parse — data/aircraft.json parsed successfully with python3 -m json.tool.
+3. Single-entry check — Compared HEAD:data/aircraft.json with the working file and confirmed only Embraer EMB 314 Super Tucano changed, with the same id before and after.
+4. Link/ref check — Recursively verified selected-entry `aircraft.html?id=...` links point to existing aircraft ids; the database-return link now uses `index.html#database` and no missing refs were found.
+5. Renderer-shape check — Confirmed article-section links use `label`/`url` and article-section cards use `title`/`text` in the selected entry.
+6. Diff review — Reviewed the focused data diff showing only the bare Super Tucano database-return URL replacement plus this log entry.
+7. Credential check — Checked staged changes with credential-specific patterns; no credentials were found.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Embraer EMB 314 Super Tucano
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* This was a structural renderer/link fix only; no new Super Tucano technical or operational claims were added.
