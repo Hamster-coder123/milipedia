@@ -13299,3 +13299,70 @@ hermes-agent
 
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * This run did not add new factual claims; it only corrected which already-cited sources render as reader-facing external article cards.
+
+### Run 178 — 2026-07-11 05:02:00 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Douglas A-4 Skyhawk (id: a-4-skyhawk)
+* Reason selected: Audit rotation found a concrete stale generated-metadata gap: the A-4 page still carried a generic Vietnam War event_gallery image of U.S. Army UH-1H helicopters inserting ARVN troops, which is not an A-4 Skyhawk image and was unrelated to the page's aircraft-specific rendered content.
+* Previous condition: The A-4 entry already had aligned rendered external sources and a Sources and Notes section, but its top-level event_gallery exposed an unrelated helicopter/troop-insertion image sourced to the general Vietnam War article.
+* Previously edited by Hermes: Yes — expanded in Run 30 and audited in Run 119.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Top-level event/gallery metadata should be aircraft-specific and should not promote generic conflict imagery when no aircraft-specific caption/source relationship is present.
+
+#### Changes Made
+
+* Cleared the stale A-4 event_gallery array so the page no longer renders an unrelated UH-1H/Vietnam War image as A-4 page metadata.
+* Left A-4 article prose, sources, external_articles, article_quality, operators, variants, specifications, combat-history summary, and Sources and Notes unchanged because the focused gap was stale generated gallery metadata rather than missing article content.
+
+#### Files Modified
+
+* data/aircraft.json — Cleaned only the Douglas A-4 Skyhawk top-level event_gallery metadata.
+* hermes-change-log.md — Appended this Run 178 audit/gap-fill entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used instead of looking for never-updated sparse pages
+* [x] F-16 page was used as formatting reference
+* [x] Exactly one aircraft entry changed and its id was unchanged
+* [x] JSON syntax was validated
+* [x] Internal aircraft.html?id=... links were checked recursively
+* [x] Article refs were checked against existing source and footnote IDs
+* [x] Renderer link/card shapes were checked for the selected entry
+* [x] Formatting was checked with git diff --check
+* [x] Credential check used specific patterns; no credentials were found
+* [x] Only intended files were staged
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+1. Branch check — Confirmed the active branch is hermes-agent.
+2. JSON validity — Parsed data/aircraft.json successfully after the edit.
+3. Single-entry check — Compared HEAD:data/aircraft.json to the working file and confirmed only a-4-skyhawk changed, with the same id before and after.
+4. Source/ref check — Verified the selected entry's refs resolve against source or footnote IDs; no refs were removed or added.
+5. Internal link check — Recursively checked local aircraft.html?id=... links in the selected entry; local links target existing aircraft ids.
+6. Renderer-shape check — Checked article-section links for label/url and cards for title/text shapes.
+7. Diff review — Reviewed the diff/stat and confirmed data/aircraft.json changes are limited to the A-4 entry plus this log entry.
+8. Credential check — Checked credential-specific patterns in the staged diff; no credentials were found.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Douglas A-4 Skyhawk
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* This run did not add new factual claims; it only removed unrelated generated gallery metadata while preserving the existing source-backed A-4 article content.
