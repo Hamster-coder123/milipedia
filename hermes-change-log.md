@@ -13006,3 +13006,76 @@ hermes-agent
 #### Issues or Uncertainties
 
 * The authoritative final commit hash is reported in the scheduled-run response because embedding it in this entry before commit would make it stale.
+
+### Run 174 — 2026-07-11 01:02:10 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Sukhoi Su-35 (id: su-35)
+* Reason selected: Audit/gap-fill rotation favored the least-recently audited previously updated non-reference page with a concrete stale metadata gap. The Su-35 entry had a detailed source-caveated Operational History section and Russo-Ukrainian War metadata, but the top-level `combat_history` field still rendered as the sparse placeholder `Not listed`.
+* Previous condition: Renderer-visible top-level combat-history metadata understated the already sourced operational-history coverage and conflicted with the entry's own broad conflict-use caveats.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Dense top-level overview metadata, source-caveated operational-history wording, dedicated Sources and Notes section, and renderer-compatible article-section cards/links.
+
+#### Changes Made
+
+* Replaced the Su-35 top-level `combat_history` placeholder with a concise Su-35S-specific operational summary aligned with the existing Operational History section.
+* Preserved the existing cautious wording: Russian service and broad Russo-Ukrainian War association are noted, while sortie roles, losses, and victory claims remain caveated as date-sensitive and contested.
+* Left rendered external articles, Sources and Notes, article-section refs, variants, operators, related links, and quality-count metadata unchanged because they were already source-aligned and renderer-compatible.
+
+#### Sources Used
+
+* Rosoboronexport Su-35 export-catalog page — existing official source retained; direct HTTPS header check returned HTTP 200.
+* Mitchell Institute Su-35 page — existing aviation-reference source retained; direct HTTPS header check followed a trailing-slash redirect and returned HTTP 200.
+* Existing Wikipedia orientation record — preserved only as supplementary orientation for chronology/operator context and not used as a main rendered external article.
+* Milipedia data accuracy rules — existing local source retained for neutral wording, estimate labels, and conflict-claim caveats.
+
+#### Files Modified
+
+* data/aircraft.json — Replaced the stale Su-35 top-level combat-history placeholder with source-caveated operational metadata.
+* hermes-change-log.md — Recorded this audit/gap-fill run.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used instead of looking for never-updated sparse pages
+* [x] F-16 reference/template page was inspected for metadata and source-note style
+* [x] Exactly one aircraft entry was changed in data/aircraft.json
+* [x] Selected aircraft id remained su-35 before and after the edit
+* [x] JSON syntax validation passed
+* [x] Internal aircraft.html?id=... links were checked against existing aircraft IDs
+* [x] Source refs were checked against existing source/footnote IDs
+* [x] Renderer-compatible article-section link/card shapes were checked
+* [x] git diff --check passed
+* [x] Credential check — checked credential-specific patterns in the staged diff; no credentials were found
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+1. `git branch --show-current` confirmed `hermes-agent`.
+2. `python3 -m json.tool data/aircraft.json >/dev/null` confirmed valid JSON.
+3. A one-entry verification helper compared `git show HEAD:data/aircraft.json` to the working file and reported only `su-35` changed, with the same aircraft id before and after.
+4. Recursive selected-entry checks found no broken local `aircraft.html?id=...` links, no missing refs against the entry's source/footnote IDs, and no malformed article-section `links` or `cards` shapes.
+5. Source checks returned HTTP 200 for Rosoboronexport and Mitchell Institute; the Wikipedia orientation page also returned HTTP 200 but remains non-primary.
+6. `git diff --check` passed before staging.
+7. The staged diff was scanned with credential-specific patterns; no credentials were found.
+8. `git status --short` was reviewed so only `data/aircraft.json` and `hermes-change-log.md` were staged; pre-existing untracked package files and node_modules were left unstaged.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Sukhoi Su-35
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* The authoritative final commit hash is reported in the scheduled-run response because embedding it in this entry before commit would make it stale.
