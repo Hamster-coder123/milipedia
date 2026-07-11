@@ -13231,3 +13231,71 @@ hermes-agent
 #### Issues or Uncertainties
 
 * The authoritative final commit hash is reported in the scheduled-run response because embedding it in this entry before commit would make it stale.
+
+### Run 177 — 2026-07-11 04:02:12 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Northrop F-5 Freedom Fighter / Tiger II (id: f-5-freedom-fighter-tiger-ii)
+* Reason selected: Audit rotation found a concrete rendered-source integration gap: two Wikimedia Commons image-attribution records were still exposed as top-level external article cards even though the page already keeps those records in sources/footnotes for image and gallery attribution.
+* Previous condition: The F-5 entry had 12 rendered external article sources and article_quality.external_article_sources set to 12; two of those rendered sources were media-file records rather than reader-facing aircraft references.
+* Previously edited by Hermes: Yes — expanded in Run 102 and audited in Run 156.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Rendered external article cards should prioritize official, museum, manufacturer, military/government, or reputable aviation references; media/licensing pages can remain as source or image-attribution records without being promoted as top-level external articles.
+
+#### Changes Made
+
+* Removed the two Wikimedia Commons image-file records from the F-5 entry's top-level external_articles array while preserving the same records in sources and footnotes for image attribution and refs.
+* Updated article_quality.external_article_sources from 12 to 10 so it matches the actual rendered external_articles count.
+* Left article prose, sources, footnotes, event_gallery, and F-20 external related link unchanged because those records are either aircraft-specific, attribution-only, or intentionally external where no local Milipedia aircraft id exists.
+
+#### Files Modified
+
+* data/aircraft.json — Cleaned only the Northrop F-5 rendered external article list and aligned the source-count metadata.
+* hermes-change-log.md — Appended this Run 177 audit/gap-fill entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used instead of looking for never-updated sparse pages
+* [x] F-16 page was used as formatting reference
+* [x] Exactly one aircraft entry changed and its id was unchanged
+* [x] JSON syntax was validated
+* [x] Internal aircraft.html?id=... links were checked recursively
+* [x] Article refs were checked against existing source and footnote IDs
+* [x] Renderer link/card shapes were checked for the selected entry
+* [x] Formatting was checked with git diff --check
+* [x] Credential check used specific patterns; no credentials were found
+* [x] Only intended files were staged
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+1. Branch check — Confirmed the active branch is hermes-agent.
+2. JSON validity — Parsed data/aircraft.json successfully after the edit.
+3. Single-entry check — Compared HEAD:data/aircraft.json to the working file and confirmed only f-5-freedom-fighter-tiger-ii changed, with the same id before and after.
+4. Source/ref check — Verified the selected entry's refs resolve against source or footnote IDs; the removed media records remain available in sources/footnotes for attribution.
+5. Internal link check — Recursively checked local aircraft.html?id=... links in the selected entry; local links target existing aircraft ids, and the F-20 Tigershark related link remains external because no local F-20 id exists.
+6. Renderer-shape check — Checked article-section links for label/url and cards for title/text shapes.
+7. Diff review — Reviewed the diff/stat and confirmed data/aircraft.json changes are limited to the F-5 entry plus this log entry.
+8. Credential check — Checked credential-specific patterns in the staged diff; no credentials were found.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Northrop F-5
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* This run did not add new factual claims; it only corrected which already-cited sources render as reader-facing external article cards.

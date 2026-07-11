@@ -1073,7 +1073,7 @@
       "exact_fact_count": 86,
       "operator_entries": 10,
       "variant_entries": 10,
-      "external_article_sources": 12
+      "external_article_sources": 10
     },
     "footnotes": [
       {
@@ -1245,20 +1245,6 @@
         "url": "https://www.swissinfo.ch/eng/society/netherlands-accident_pilot-error-caused-2016-collision-between-two-swiss-jets/44857536",
         "publisher": "Swissinfo",
         "note": "Used for the Patrouille Suisse F-5 collision and public display-team risk context."
-      },
-      {
-        "id": "fn-commons-brazil-image",
-        "title": "Northrop F-5 (Forca Aerea Brasileira) Seguranca Rio 2016 (3).jpg",
-        "url": "https://commons.wikimedia.org/wiki/File:Northrop_F-5_(Forca_Aerea_Brasileira)_Seguran%C3%A7a_Rio_2016_(3).jpg",
-        "publisher": "Wikimedia Commons / Agencia Brasil",
-        "note": "Image source for Brazilian F-5EM gallery entry."
-      },
-      {
-        "id": "fn-commons-swiss-image",
-        "title": "Northrop F-5E Tiger II, Switzerland - Air Force JP6568409.jpg",
-        "url": "https://commons.wikimedia.org/wiki/File:Northrop_F-5E_Tiger_II,_Switzerland_-_Air_Force_JP6568409.jpg",
-        "publisher": "Wikimedia Commons / Peter Bakema",
-        "note": "Image source for Swiss Air Force F-5E gallery entry."
       }
     ],
     "article_sections": [
