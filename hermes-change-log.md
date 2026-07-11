@@ -12931,3 +12931,78 @@ hermes-agent
 #### Issues or Uncertainties
 
 * The authoritative final commit hash is reported in the scheduled-run response because embedding it in this entry before commit would make it stale.
+
+### Run 173 — 2026-07-11 00:02:09 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Lockheed SR-71 Blackbird (id: sr-71-blackbird)
+* Reason selected: Audit/gap-fill rotation favored the least-recently audited previously updated non-reference page with a concrete renderer metadata gap. The SR-71 entry had detailed variants and operators in article-section bullets, but the top-level renderer-visible `variants` and `operators` arrays were empty while `article_quality.variant_entries` and `article_quality.operator_entries` already claimed five variants and two operators.
+* Previous condition: Top-level variant/operator cards rendered as empty despite source-backed article prose, and the top-level `combat_history` / `development_history` fields still contained sparse generated wording.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Renderer-visible top-level variant/operator cards, concise source-backed metadata fields, source caveats in a dedicated Sources and Notes section, and quality-count metadata aligned with renderer-visible arrays.
+
+#### Changes Made
+
+* Added five renderer-visible top-level SR-71/Blackbird-family variant entries: A-12 Oxcart, YF-12A, SR-71A, SR-71B, and SR-71C, matching the existing article-section variant coverage and the existing `article_quality.variant_entries` count.
+* Added two renderer-visible top-level operator entries for U.S. Air Force reconnaissance service and NASA Dryden research operations, matching the existing article-section operator coverage and the existing `article_quality.operator_entries` count.
+* Replaced sparse generated top-level `combat_history` and `development_history` strings with concise SR-71-specific summaries already supported by the page's official/museum/manufacturer sources.
+* Left rendered external articles, Sources and Notes, related links, footnotes, specifications, and image/gallery metadata unchanged because they were already source-aligned and renderer-compatible.
+
+#### Sources Used
+
+* National Museum of the U.S. Air Force SR-71A fact sheet — existing official museum source retained; automated direct check returned HTTP 403, so no new facts were added from the check.
+* NASA Dryden SR-71 Blackbird NASA Facts PDF — existing official source retained; direct HTTPS header check returned HTTP 200.
+* Lockheed Martin Blackbird history page — existing manufacturer source retained; direct HTTPS header check returned HTTP 200.
+* Existing Wikipedia orientation record — preserved only as a supplementary orientation/source record and not used as a main rendered external article.
+
+#### Files Modified
+
+* data/aircraft.json — Filled SR-71 renderer-visible variant/operator metadata and replaced sparse top-level history summaries.
+* hermes-change-log.md — Recorded this audit/gap-fill run.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used instead of looking for never-updated sparse pages
+* [x] F-16 reference/template page was inspected for source-note style
+* [x] Exactly one aircraft entry was changed in data/aircraft.json
+* [x] Selected aircraft id remained sr-71-blackbird before and after the edit
+* [x] JSON syntax validation passed
+* [x] Internal aircraft.html?id=... links were checked against existing aircraft IDs
+* [x] Source refs were checked against existing source/footnote IDs
+* [x] Renderer-compatible article-section link/card shapes were checked
+* [x] git diff --check passed
+* [x] Credential check — checked credential-specific patterns in the staged diff; no credentials were found
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+1. `git branch --show-current` confirmed `hermes-agent`.
+2. `python3 -m json.tool data/aircraft.json >/dev/null` confirmed valid JSON.
+3. A one-entry verification helper compared `git show HEAD:data/aircraft.json` to the working file and reported only `sr-71-blackbird` changed, with the same aircraft id before and after.
+4. Recursive selected-entry checks found no broken local `aircraft.html?id=...` links, no missing refs against the entry's source/footnote IDs, and no malformed article-section `links` or `cards` shapes.
+5. The selected entry now reports five top-level variants and two top-level operators, matching `article_quality.variant_entries` and `article_quality.operator_entries`; rendered external-source count remains aligned at three.
+6. Source checks returned HTTP 200 for NASA and Lockheed Martin; the National Museum of the U.S. Air Force page returned automated HTTP 403 and was retained as an existing official source without adding new claims from the check.
+7. `git diff --check` passed before staging.
+8. The staged diff was scanned with credential-specific patterns; no credentials were found.
+9. `git status --short` was reviewed so only `data/aircraft.json` and `hermes-change-log.md` were staged; pre-existing untracked package files and node_modules were left unstaged.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Lockheed SR-71 Blackbird
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* The authoritative final commit hash is reported in the scheduled-run response because embedding it in this entry before commit would make it stale.

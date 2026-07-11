@@ -24988,10 +24988,42 @@
     "rate_of_climb": "Not listed",
     "armament": "None; reconnaissance sensors and defensive speed/altitude profile rather than weapons",
     "hardpoints": "None for weapons in normal SR-71 reconnaissance service",
-    "variants": [],
-    "operators": [],
-    "combat_history": "Not listed",
-    "development_history": "Lockheed SR-71 Blackbird: Strategic reconnaissance aircraft. Manufacturer: Lockheed. First flight: 1964. Introduction: 1966.",
+    "variants": [
+      {
+        "name": "A-12 Oxcart",
+        "description": "CIA single-seat reconnaissance predecessor in the Blackbird family; included for lineage context rather than as an SR-71 production variant."
+      },
+      {
+        "name": "YF-12A",
+        "description": "Interceptor derivative of the Blackbird family publicly announced in 1964; related to, but operationally distinct from, the SR-71 reconnaissance aircraft."
+      },
+      {
+        "name": "SR-71A",
+        "description": "Main two-seat U.S. Air Force strategic reconnaissance version and the representative baseline for the public SR-71A specifications used on this page."
+      },
+      {
+        "name": "SR-71B",
+        "description": "Trainer version; NASA later operated a loaned SR-71B alongside research aircraft in the 1990s."
+      },
+      {
+        "name": "SR-71C",
+        "description": "Rare hybrid trainer aircraft, noted cautiously because it was not a normal production reconnaissance variant."
+      }
+    ],
+    "operators": [
+      {
+        "country": "United States",
+        "service": "U.S. Air Force",
+        "notes": "Primary operational reconnaissance user, including Beale-based strategic reconnaissance service, overseas detachments, regular fleet retirement in 1990, and limited 1990s reactivation context."
+      },
+      {
+        "country": "United States",
+        "service": "NASA Dryden Flight Research Center",
+        "notes": "Operated loaned SR-71 aircraft as high-speed and high-altitude research platforms during the 1990s before the final NASA SR-71 flight in October 1999."
+      }
+    ],
+    "combat_history": "Strategic reconnaissance service with the U.S. Air Force from 1966 until regular fleet retirement in 1990, followed by limited 1990s reactivation and NASA high-speed research operations through the final NASA SR-71 flight in 1999.",
+    "development_history": "Lockheed Skunk Works Blackbird-family reconnaissance aircraft evolved from the A-12 and YF-12 lineage into the two-seat SR-71, with first flight in 1964 and operational service beginning in 1966.",
     "short_summary": "Lockheed SR-71 Blackbird: Strategic reconnaissance aircraft. Origin: United States. Manufacturer: Lockheed. First flight: 1964. Introduction: 1966. Status: Retired.",
     "carrier_capable": false,
     "stealth": false,
