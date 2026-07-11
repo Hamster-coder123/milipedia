@@ -14008,3 +14008,74 @@ hermes-agent
 
 * The audit did not add new KC-135 factual claims; the only concrete gap found and fixed was renderer/navigation related.
 * Final commit hash cannot be embedded in this committed change log entry without changing the hash again; the final hash is reported in the scheduled-run response.
+
+### Run 188 — 2026-07-11 15:01:45 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Mikoyan-Gurevich MiG-17 (id: mig-17)
+* Mode: Audit/gap-fill of a previously updated non-reference aircraft page.
+* Reason selected: The MiG-17 page was among the least-recently audited previously updated non-reference pages and still contained a renderer/navigation gap in Related Pages: the database-return link used bare `aircraft.html` instead of the project database anchor.
+* Gap found: A bare `aircraft.html` Related Pages URL can open the aircraft detail shell without an aircraft id, rather than returning users to the aircraft database index.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Related-page navigation conventions, renderer-compatible article-section links using `label`/`url`, and internal aircraft links using `aircraft.html?id=...` only for actual aircraft detail targets.
+
+#### Changes Made
+
+* Updated exactly one Related Pages link in the MiG-17 entry from bare `aircraft.html` to `index.html#database`.
+* Preserved the existing MiG-17 prose, sources, external article cards, article-quality counts, variants, operators, similar-development links, event-gallery state, and metadata.
+* Added no new factual claims; this was a focused renderer/navigation audit fix.
+
+#### Sources Used
+
+* Existing MiG-17 source records were retained for context only; no new factual source claims were introduced by this navigation-only fix.
+* The Milipedia renderer convention was checked against the F-16 template and existing aircraft-page related-link patterns.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed the MiG-17 Related Pages database-return link.
+* hermes-change-log.md — Recorded this audit/gap-fill run.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit candidate was selected from previously updated non-reference aircraft pages, excluding the F-16 reference page
+* [x] Exactly one aircraft entry was changed and the aircraft id remained unchanged
+* [x] Internal `aircraft.html?id=...` links were checked against existing aircraft ids
+* [x] Bare database-return `aircraft.html` link was converted to `index.html#database`
+* [x] Source refs were checked against existing source/footnote ids
+* [x] JSON formatting was validated
+* [x] Renderer link/card shapes were checked for the selected entry
+* [x] git diff --check passed
+* [x] Credential check used credential-specific patterns; no credentials were found
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+1. Branch check — Confirmed `git branch --show-current` returned `hermes-agent`.
+2. JSON validation — Ran `python3 -m json.tool data/aircraft.json >/dev/null` after the edit.
+3. Single-entry check — Compared `git show HEAD:data/aircraft.json` with the working file and confirmed only `mig-17` changed, with the same id before and after.
+4. Link/ref check — Recursively checked the selected MiG-17 entry for internal `aircraft.html?id=...` targets, missing source refs, renderer shape mistakes, and remaining bare `aircraft.html` URLs.
+5. Diff hygiene — Ran `git diff --check` before commit.
+6. Credential check — Scanned the staged diff with credential-specific patterns; no credentials were found.
+7. Staging review — Confirmed only `data/aircraft.json` and `hermes-change-log.md` were staged.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Mikoyan-Gurevich MiG-17
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* The audit did not add new MiG-17 factual claims; the only concrete gap found and fixed was renderer/navigation related.
+* Final commit hash cannot be embedded in this committed change log entry without changing the hash again; the final hash is reported in the scheduled-run response.
