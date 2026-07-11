@@ -21994,11 +21994,6 @@
         "id": "kc-135-stratotanker",
         "name": "Boeing KC-135 Stratotanker",
         "url": "aircraft.html?id=kc-135-stratotanker"
-      },
-      {
-        "id": "c-135-family",
-        "name": "Boeing 707/C-135 family context",
-        "url": "aircraft.html?id=kc-135-stratotanker"
       }
     ],
     "article_quality": {
@@ -22583,7 +22578,7 @@
           },
           {
             "label": "Return to aircraft database",
-            "url": "aircraft.html"
+            "url": "index.html#database"
           }
         ]
       }
