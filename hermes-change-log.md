@@ -13156,3 +13156,78 @@ hermes-agent
 #### Issues or Uncertainties
 
 * The authoritative final commit hash is reported in the scheduled-run response because embedding it in this entry before commit would make it stale.
+
+### Run 176 — 2026-07-11 03:02:11 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Bell UH-1 Iroquois (id: uh-1-iroquois)
+* Reason selected: Audit/gap-fill rotation favored a previously updated non-reference page that had not yet been audited in the new phase and still exposed a Wikipedia orientation page as a visible Sources and Notes link while only rendering one manufacturer external article.
+* Previous condition: The entry preserved a useful Sources and Notes section, but its reader-facing source surface relied on a weak orientation link for UH-1 service/history context instead of a museum/government-style source already available for the Huey, and the rendered external-source count needed to reflect the added reader-facing source.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Reliable reader-facing external sources, source caveats in a dedicated Sources and Notes section, rendered-source count metadata, and renderer-compatible article-section link/card shapes.
+
+#### Changes Made
+
+* Added a Smithsonian National Museum of American History UH-1/Huey record to the UH-1 entry's source and footnote lists for service-introduction, Vietnam War role, production-scale, and representative-airframe context.
+* Added the Smithsonian record to top-level `external_articles` so the page renders a reliable museum source alongside the existing Bell Flight UH-1Y manufacturer source.
+* Replaced the visible Wikipedia orientation link in the Sources and Notes section with the Smithsonian museum link, while preserving the Wikipedia record as non-rendered orientation context where it already existed.
+* Updated the first Sources and Notes caveat refs to use the Smithsonian museum source plus the Milipedia method note, and aligned `article_quality.external_article_sources` from 1 to 2.
+* Left UH-1 variants, operators, specifications, combat-history text, gallery metadata, related local links, and other article content unchanged because the audit fix was limited to source-surface reliability and metadata alignment.
+
+#### Sources Used
+
+* Smithsonian National Museum of American History Huey Helicopter 091 record — used as a museum source for UH-1/Huey service introduction, Vietnam War roles, production scale, and representative airframe history; Exa retrieval returned page content, while a short direct header check returned HTTP 403, so no extra unsupported claims were added from the header check.
+* Bell Flight UH-1Y Venom product page — existing manufacturer source retained for modern Huey-family lineage and UH-1Y context; short direct header check returned HTTP 200.
+* Wikipedia UH-1 orientation record — retained in sources/footnotes for cross-checking/orientation only, but removed from the visible Sources and Notes link list and not added as a rendered external article.
+
+#### Files Modified
+
+* data/aircraft.json — Added the Smithsonian UH-1 source to rendered external articles, replaced the visible Wikipedia source link, and aligned source-count metadata.
+* hermes-change-log.md — Recorded this audit/gap-fill run.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used instead of looking for never-updated sparse pages
+* [x] F-16 reference/template page was inspected for source-note style
+* [x] Exactly one aircraft entry was changed in data/aircraft.json
+* [x] Selected aircraft id remained uh-1-iroquois before and after the edit
+* [x] JSON syntax validation passed
+* [x] Internal aircraft.html?id=... links were checked against existing aircraft IDs
+* [x] Source refs were checked against existing source/footnote IDs
+* [x] Renderer-compatible article-section link/card shapes were checked
+* [x] git diff --check passed
+* [x] Credential check — checked credential-specific patterns in the staged diff; no credentials were found
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+1. `git branch --show-current` confirmed `hermes-agent`.
+2. `python3 -m json.tool data/aircraft.json >/dev/null` confirmed valid JSON.
+3. A one-entry verification helper compared `git show HEAD:data/aircraft.json` to the working file and reported only `uh-1-iroquois` changed, with the same aircraft id before and after.
+4. Recursive selected-entry checks found no broken local `aircraft.html?id=...` links, no missing refs against the entry's source/footnote IDs, and no malformed article-section `links` or `cards` shapes.
+5. The selected entry now renders two top-level external articles, matching `article_quality.external_article_sources`; the visible Sources and Notes links now point to Smithsonian and Bell rather than Wikipedia.
+6. Source checks found the Bell Flight page reachable with HTTP 200; the Smithsonian source was retrievable through Exa content extraction but returned HTTP 403 to a short direct header check, so it was used conservatively for existing museum-summary context.
+7. `git diff --check` passed before staging.
+8. The staged diff was scanned with credential-specific patterns; no credentials were found.
+9. `git status --short` was reviewed so only `data/aircraft.json` and `hermes-change-log.md` were staged; pre-existing untracked package files and node_modules were left unstaged.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Bell UH-1 Iroquois
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* The authoritative final commit hash is reported in the scheduled-run response because embedding it in this entry before commit would make it stale.

@@ -29635,6 +29635,13 @@
         "note": "Supplementary orientation for family chronology, variants, and baseline public specifications; cross-check where possible."
       },
       {
+        "id": "fn-smithsonian-nmah-uh1",
+        "title": "Huey Helicopter 091, (Bell UH-1 Iroquois)",
+        "url": "https://americanhistory.si.edu/collections/object/nmah_1273452",
+        "publisher": "Smithsonian National Museum of American History",
+        "note": "Museum source for UH-1/Huey service introduction, Vietnam War mission roles, production scale, and representative airframe history."
+      },
+      {
         "id": "fn-bell-uh1y",
         "title": "Bell UH-1Y Venom product page",
         "url": "https://www.bellflight.com/products/bell-uh-1y",
@@ -29732,7 +29739,7 @@
       "exact_fact_count": 26,
       "operator_entries": 8,
       "variant_entries": 9,
-      "external_article_sources": 1
+      "external_article_sources": 2
     },
     "footnotes": [
       {
@@ -29741,6 +29748,13 @@
         "url": "https://en.wikipedia.org/wiki/Bell_UH-1_Iroquois",
         "publisher": "Wikipedia",
         "note": "Supplementary orientation for family chronology, variants, and baseline public specifications; cross-check where possible."
+      },
+      {
+        "id": "fn-smithsonian-nmah-uh1",
+        "title": "Huey Helicopter 091, (Bell UH-1 Iroquois)",
+        "url": "https://americanhistory.si.edu/collections/object/nmah_1273452",
+        "publisher": "Smithsonian National Museum of American History",
+        "note": "Museum source for UH-1/Huey service introduction, Vietnam War mission roles, production scale, and representative airframe history."
       },
       {
         "id": "fn-bell-uh1y",
@@ -29758,6 +29772,13 @@
       }
     ],
     "external_articles": [
+      {
+        "id": "fn-smithsonian-nmah-uh1",
+        "title": "Huey Helicopter 091, (Bell UH-1 Iroquois)",
+        "url": "https://americanhistory.si.edu/collections/object/nmah_1273452",
+        "publisher": "Smithsonian National Museum of American History",
+        "note": "Museum source for UH-1/Huey service introduction, Vietnam War roles, production scale, and a representative UH-1H airframe history."
+      },
       {
         "id": "fn-bell-uh1y",
         "title": "Bell UH-1Y Venom product page",
@@ -30163,7 +30184,7 @@
           {
             "text": "Specifications, production totals, and current operator status vary by source because the UH-1 label covers prototypes, early short-cabin aircraft, stretched long-cabin aircraft, civil Bell 204/205 relatives, and later twin-engine descendants. Public UH-1H-style data is used here as a representative baseline, not a universal value.",
             "refs": [
-              "fn-wiki",
+              "fn-smithsonian-nmah-uh1",
               "fn-method"
             ]
           },
@@ -30177,8 +30198,8 @@
         ],
         "links": [
           {
-            "label": "Bell UH-1 Iroquois — Wikipedia orientation",
-            "url": "https://en.wikipedia.org/wiki/Bell_UH-1_Iroquois"
+            "label": "Huey Helicopter 091 — Smithsonian National Museum of American History",
+            "url": "https://americanhistory.si.edu/collections/object/nmah_1273452"
           },
           {
             "label": "Bell UH-1Y Venom — Bell Flight",
