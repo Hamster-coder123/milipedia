@@ -14571,3 +14571,74 @@ hermes-agent
 
 * This was a navigation-only audit fix; no new factual claims were added, so no new source retrieval was required.
 * Commit hash cannot be embedded in the committed change log without changing the hash again; the final hash is reported in the scheduled-run response.
+
+### Run 196 — 2026-07-11 23:01:53 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Chengdu J-20 (id: chengdu-j-20)
+* Reason selected: Audit/gap-fill rotation found a concrete renderer/navigation issue on a least-recently audited previously expanded non-reference page: the Related Pages section still used a bare `aircraft.html` database-return URL.
+* Previous condition: The page already had source integration, rendered external article cards, and a renderer-compatible Sources and Notes section, but its database return link could open the aircraft-detail shell without an aircraft id instead of returning to the database index.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: The reference/template navigation keeps aircraft detail links distinct from database navigation; data-driven Related Pages should use `aircraft.html?id=...` only for specific aircraft and `index.html#database` for the database return.
+
+#### Changes Made
+
+* Updated exactly one J-20 article-section Related Pages link: `Back to aircraft database` now points to `index.html#database` instead of bare `aircraft.html`.
+* Preserved all J-20 factual prose, source records, external articles, article-quality counts, Sources and Notes caveats, variants, operators, similar-development links, and top-level metadata.
+* Added no new factual claims; this was a focused renderer/navigation audit fix.
+
+#### Sources Used
+
+* Existing J-20 page source records were reviewed for context only; no new factual source-dependent aircraft details were added in this navigation-only fix.
+* The Milipedia renderer/navigation convention was checked against the F-16 template and existing aircraft-page related-link patterns.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed the J-20 database-return Related Pages URL.
+* hermes-change-log.md — Recorded this audit/gap-fill run.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] F-16 page was inspected as the style/navigation reference
+* [x] Audit candidate was selected from previously updated non-reference aircraft pages, excluding the F-16 reference page
+* [x] Exactly one aircraft entry was changed and its id stayed `chengdu-j-20`
+* [x] JSON syntax was validated
+* [x] Internal `aircraft.html?id=...` links were checked against existing aircraft ids
+* [x] Bare database-return `aircraft.html` link was converted to `index.html#database`
+* [x] Source refs were checked against existing source/footnote ids
+* [x] Renderer link/card shapes were checked for the selected entry
+* [x] Formatting was checked with git diff --check
+* [x] Credential-specific staged diff scan found no credentials
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+1. Branch check — Confirmed `git branch --show-current` returned `hermes-agent`.
+2. JSON check — Ran `python3 -m json.tool data/aircraft.json >/dev/null` successfully after the edit.
+3. One-entry check — Compared HEAD and working `data/aircraft.json`; exactly one entry changed, `chengdu-j-20` to `chengdu-j-20`.
+4. Link/ref/shape check — Recursively checked the selected J-20 entry: all `aircraft.html?id=...` links target existing ids, the database return uses `index.html#database`, refs resolve to existing source/footnote ids, article-section links use `label`/`url`, and cards use `title`/`text`.
+5. Diff check — Ran `git diff --check` successfully after normalizing the change-log EOF.
+6. Credential check — Checked credential-specific patterns in the staged diff; no credentials were found.
+7. Staging check — Confirmed only `data/aircraft.json` and `hermes-change-log.md` were staged for commit.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Chengdu J-20
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This was a navigation-only audit fix; no new factual claims were added, so no new source retrieval was required.
+* Commit hash cannot be embedded in the committed change log without changing the hash again; the final hash is reported in the scheduled-run response.
