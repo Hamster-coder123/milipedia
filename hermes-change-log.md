@@ -13079,3 +13079,80 @@ hermes-agent
 #### Issues or Uncertainties
 
 * The authoritative final commit hash is reported in the scheduled-run response because embedding it in this entry before commit would make it stale.
+
+### Run 175 — 2026-07-11 02:02:02 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: McDonnell Douglas F/A-18 Hornet (id: f-a-18-hornet)
+* Reason selected: Audit/gap-fill rotation favored a previously updated non-reference page with a concrete rendered-source integration gap. The F/A-18 Hornet entry still exposed a Wikimedia Commons gallery record and a local public-perception research file as top-level `external_articles`, even though those records are better retained only for image attribution or internal/source-note context.
+* Previous condition: The visible external-article cards mixed official/government/aviation references with media/licensing and local-research records, and `article_quality.external_article_sources` still counted all ten rendered records.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Reliable reader-facing external sources, source caveats in a dedicated Sources and Notes section, rendered-source count metadata, and renderer-compatible article-section link/card shapes.
+
+#### Changes Made
+
+* Removed `fn-commons-gallery` and `fn-public-perception` from the F/A-18 Hornet top-level `external_articles` array so those non-reader-facing records no longer render as recommended external article cards.
+* Preserved the underlying source/footnote records, image/gallery metadata, public-perception caveats, and article-section refs so attribution and existing context remain available where they are actually used.
+* Aligned `article_quality.external_article_sources` from 10 to 8 so it matches the actual rendered external-article cards after the cleanup.
+* Left official/government and aviation-publication rendered sources, Sources and Notes, related links, variants, operators, combat-history metadata, and other article content unchanged because the audit fix was limited to source-surface cleanup.
+
+#### Sources Used
+
+* Naval Air Systems Command F/A-18 A-D Hornet page — existing official source retained; automated direct check returned HTTP 403, so no new claims were added from the check.
+* United States Navy F/A-18 fact file — existing official source retained; automated direct check returned HTTP 403, so no new claims were added from the check.
+* Naval Air Systems Command first-combat Hornet article — existing official source retained; automated direct check returned HTTP 403, so no new claims were added from the check.
+* United States Navy final active-duty F/A-18C flight release — existing official source retained; automated direct check returned HTTP 403, so no new claims were added from the check.
+* Australian Department of Defence Classic Hornet project page and Government of Canada CF-18 modernization release — existing government sources retained; short automated checks did not return concise HTTP status before timeout, so no new claims were added from those checks.
+* Wikimedia Commons gallery and Milipedia local public-perception research records — preserved as source/footnote records where already referenced, but removed from the rendered top-level external-article surface.
+
+#### Files Modified
+
+* data/aircraft.json — Cleaned F/A-18 Hornet rendered external-article integration and aligned source-count metadata.
+* hermes-change-log.md — Recorded this audit/gap-fill run.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used instead of looking for never-updated sparse pages
+* [x] F-16 reference/template page was inspected for source-note style
+* [x] Exactly one aircraft entry was changed in data/aircraft.json
+* [x] Selected aircraft id remained f-a-18-hornet before and after the edit
+* [x] JSON syntax validation passed
+* [x] Internal aircraft.html?id=... links were checked against existing aircraft IDs
+* [x] Source refs were checked against existing source/footnote IDs
+* [x] Renderer-compatible article-section link/card shapes were checked
+* [x] git diff --check passed
+* [x] Credential check — checked credential-specific patterns in the staged diff; no credentials were found
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+1. `git branch --show-current` confirmed `hermes-agent`.
+2. `python3 -m json.tool data/aircraft.json >/dev/null` confirmed valid JSON.
+3. A one-entry verification helper compared `git show HEAD:data/aircraft.json` to the working file and reported only `f-a-18-hornet` changed, with the same aircraft id before and after.
+4. Recursive selected-entry checks found no broken local `aircraft.html?id=...` links, no missing refs against the entry's source/footnote IDs, and no malformed article-section `links` or `cards` shapes.
+5. The selected entry now renders eight top-level external articles, matching `article_quality.external_article_sources`; the removed Commons and local public-perception records remain available in `sources`/`footnotes` for existing refs.
+6. Source checks returned automated HTTP 403 for retained U.S. Navy/NAVAIR pages and short-check timeouts for the retained Australian and Canadian government pages; those established sources were preserved without adding new factual claims.
+7. `git diff --check` passed before staging.
+8. The staged diff was scanned with credential-specific patterns; no credentials were found.
+9. `git status --short` was reviewed so only `data/aircraft.json` and `hermes-change-log.md` were staged; pre-existing untracked package files and node_modules were left unstaged.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in McDonnell Douglas F/A-18 Hornet
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* The authoritative final commit hash is reported in the scheduled-run response because embedding it in this entry before commit would make it stale.

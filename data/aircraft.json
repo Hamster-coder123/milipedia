@@ -6013,7 +6013,7 @@
       "exact_fact_count": 50,
       "operator_entries": 5,
       "variant_entries": 6,
-      "external_article_sources": 10
+      "external_article_sources": 8
     },
     "footnotes": [
       {
@@ -6164,20 +6164,6 @@
         "url": "https://www.popularmechanics.com/military/aviation/a24538/f-a-18-badass-plane/",
         "publisher": "Popular Mechanics",
         "note": "Used as aviation-publication reputation context for Blue Angels visibility, early combat profile, Desert Storm reputation, and common range/acceleration complaints."
-      },
-      {
-        "id": "fn-commons-gallery",
-        "title": "F/A-18 Hornet gallery",
-        "url": "https://commons.wikimedia.org/wiki/F/A-18_Hornet",
-        "publisher": "Wikimedia Commons",
-        "note": "Used for image discovery and source-page links; individual file pages should be checked for exact attribution and license."
-      },
-      {
-        "id": "fn-public-perception",
-        "title": "Public Perception Research: McDonnell Douglas F/A-18 Hornet",
-        "url": "AIRCRAFT%20PUBLIC%20PERCEPTION/F18.txt",
-        "publisher": "Milipedia local research file",
-        "note": "Local public-perception synthesis covering official facts, aviation-community reputation, simulation/social-media opinions, common comparisons, myths, and source cautions."
       }
     ],
     "article_sections": [
