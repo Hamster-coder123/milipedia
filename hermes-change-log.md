@@ -14642,3 +14642,58 @@ hermes-agent
 
 * This was a navigation-only audit fix; no new factual claims were added, so no new source retrieval was required.
 * Commit hash cannot be embedded in the committed change log without changing the hash again; the final hash is reported in the scheduled-run response.
+
+### Run 197 — 2026-07-12 00:01:49 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Mil Mi-26 Halo (id: mi-26)
+* Reason selected: Audit/gap-fill rotation selected a least-recently audited non-reference aircraft page with a concrete renderer/navigation gap: the Related Pages section still used a bare `aircraft.html` database-return URL.
+* Previous condition: The Mi-26 article content and rendered source counts were already integrated, but its "Back to aircraft database" Related Pages link pointed at the aircraft detail shell instead of the database anchor.
+* Previously edited by Hermes: Yes — expanded in Run 6 and audited in Run 116.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Related Pages navigation should use explicit renderer-compatible link objects, while aircraft detail links retain `aircraft.html?id=...` URLs and database-return links should route to the database anchor.
+
+#### Audit Gap Found
+
+* Found one bare `aircraft.html` link in the Mi-26 Related Pages section.
+* This is a navigation/rendering gap, not a factual-content issue: it can send users back to an empty aircraft-detail route rather than the aircraft database.
+
+#### Changes Made
+
+* Updated the Mi-26 "Back to aircraft database" Related Pages link from `aircraft.html` to `index.html#database`.
+* Preserved all Mi-26 factual prose, sources, footnotes, external articles, variants, operators, and aircraft-detail related links.
+
+#### Sources Used
+
+* Existing Mi-26 data record and renderer-compatible link conventions from the F-16 reference/template page.
+* No new factual claims were added; no new external source was required for this navigation-only fix.
+
+#### Files Changed
+
+* data/aircraft.json
+* hermes-change-log.md
+
+#### Verification
+
+* Branch check — confirmed current branch is `hermes-agent`.
+* JSON validation — `python3 -m json.tool data/aircraft.json >/dev/null` passed.
+* Single-entry check — confirmed exactly one aircraft entry changed and the ID remained `mi-26`.
+* Recursive link check — confirmed Mi-26 internal `aircraft.html?id=...` links target existing aircraft IDs and no bare `aircraft.html` links remain in the selected entry.
+* Reference check — confirmed Mi-26 article refs resolve against existing source/footnote IDs.
+* Renderer-shape check — confirmed Mi-26 article-section links use `label`/`url`, article-section cards use `title`/`text`, and related-development local URLs remain valid.
+* Diff hygiene — `git diff --check` passed.
+* Credential check — checked staged changes with credential-specific patterns; no credentials were found.
+* Staging check — only `data/aircraft.json` and `hermes-change-log.md` were staged.
+
+#### Commit
+
+Pending until commit is created; final hash is reported in the run output.
