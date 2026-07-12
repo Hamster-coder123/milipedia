@@ -15288,3 +15288,36 @@ Record the result of:
 
 * This was a navigation-only audit fix; no new factual claims or source changes were made.
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+
+### Run 206 — Xi'an H-6 audit/gap-fill
+
+#### Selected Page
+* Aircraft/Page: Xi'an H-6 (id: xian-h-6)
+* Mode: audit/gap-fill of a previously selected non-reference aircraft page.
+* Selection rationale: least-recently-audited candidate scan found a concrete renderer/navigation gap: the Related Pages section still used a bare database-return `aircraft.html` URL instead of a stable database anchor.
+
+#### Gap Found
+* The `Back to aircraft database` Related Pages link used `url: "aircraft.html"`, which is a bare aircraft-detail route rather than a valid aircraft ID link or database-return target.
+* This was a navigation/renderer integration issue only; factual prose, sources, variants, operators, and external-source metadata were preserved.
+
+#### Changes Made
+* Updated the Xi'an H-6 Related Pages database-return link from `aircraft.html` to `index.html#database`.
+* Left all source records, refs, `external_articles`, article-quality counts, and factual content unchanged.
+
+#### Sources Used
+* No new factual claims were added. Existing H-6 source metadata was inspected only to confirm this was a navigation-only fix.
+
+#### Files Changed
+* `data/aircraft.json`
+* `hermes-change-log.md`
+
+#### Verification
+* Branch check — confirmed working branch is `hermes-agent`.
+* JSON validation — `python3 -m json.tool data/aircraft.json >/dev/null` passed.
+* Single-entry check — exactly one aircraft entry changed, and the ID remained `xian-h-6`.
+* Internal-link check — recursive selected-entry scan found no broken `aircraft.html?id=...` links and no remaining bare `aircraft.html` URLs.
+* Reference check — selected-entry refs resolve against the entry's source/footnote IDs.
+* Renderer-shape check — article-section links use `label`/`url`, cards use `title`/`text`, and top-level related-development links preserve their existing shape.
+* Whitespace check — `git diff --check` passed after EOF normalization.
+* Credential check — checked staged diff with credential-specific patterns; no credentials were found.
+* Commit hash — Pending until commit is created; final hash is reported in the run output.
