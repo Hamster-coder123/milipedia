@@ -14759,3 +14759,65 @@ hermes-agent
 
 * This was a navigation-only audit fix; no new factual claims were added, so no new source retrieval was required.
 * Commit hash cannot be embedded in the committed change log without changing the hash again; the final hash is reported in the scheduled-run response.
+
+### Run 199 — 2026-07-12 02:01:59 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Antonov An-12 (id: an-12)
+* Reason selected: Audit/gap-fill rotation selected a least-recently audited previously expanded non-reference aircraft page with a concrete renderer/navigation gap: the Related Pages section still used a bare `aircraft.html` database-return URL.
+* Previous condition: The An-12 page already had source integration, rendered external article cards, and a renderer-compatible Sources and Notes section, but its "Back to Aircraft Database" Related Pages link pointed at the aircraft detail shell instead of the database anchor.
+* Previously edited by Hermes: Yes — expanded in Run 20 and audited in Run 122.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Related Pages navigation should use explicit renderer-compatible link objects; aircraft-detail links retain `aircraft.html?id=...` URLs, while database-return links should route to `index.html#database`.
+
+#### Audit Gap Found
+
+* Found one bare `aircraft.html` link in the An-12 Related Pages section.
+* This was a navigation/rendering gap rather than a factual-content issue: the link could send users to an aircraft-detail route without an aircraft id instead of returning to the aircraft database.
+
+#### Changes Made
+
+* Updated the An-12 "Back to Aircraft Database" Related Pages link from `aircraft.html` to `index.html#database`.
+* Preserved all An-12 factual prose, sources, footnotes, external articles, article-quality counts, variants, operators, similar-development records, and aircraft-detail related links.
+* Added no new factual claims; this was a focused renderer/navigation audit fix.
+
+#### Sources Used
+
+* Existing An-12 data record and renderer-compatible link conventions from the F-16 reference/template page.
+* No new factual source-dependent aircraft details were added, so no new external source retrieval was required.
+
+#### Files Changed
+
+* data/aircraft.json
+* hermes-change-log.md
+
+#### Verification
+
+* Branch check — confirmed current branch is `hermes-agent`.
+* JSON validation — `python3 -m json.tool data/aircraft.json >/dev/null` passed.
+* Single-entry check — confirmed exactly one aircraft entry changed and the ID remained `an-12`.
+* Recursive link check — confirmed An-12 internal `aircraft.html?id=...` links target existing aircraft IDs and no bare `aircraft.html` links remain in the selected entry.
+* Reference check — confirmed An-12 article refs resolve against existing source/footnote IDs.
+* Renderer-shape check — confirmed An-12 article-section links use `label`/`url`, article-section cards use `title`/`text`, and related-development local URLs remain valid.
+* Diff hygiene — `git diff --check` passed.
+* Credential check — checked staged changes with credential-specific patterns; no credentials were found.
+* Staging check — only `data/aircraft.json` and `hermes-change-log.md` were staged.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Antonov An-12
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This was a navigation-only audit fix; no new factual claims were added, so no new source retrieval was required.
+* Commit hash cannot be embedded in the committed change log without changing the hash again; the final hash is reported in the scheduled-run response.
