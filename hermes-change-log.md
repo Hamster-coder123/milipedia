@@ -14889,3 +14889,82 @@ Record the result of:
 
 * This was a navigation-only audit fix; no new factual claims or source changes were made.
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+
+### Run 201 — 2026-07-12 04:02:07 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Mikoyan MiG-31 (id: mig-31)
+* Reason selected: Audit/gap-fill rotation selected the least-recently audited previously updated non-reference page with a concrete metadata gap: the top-level `combat_history` field still contained the generated placeholder `Not listed` even though the article already included sourced operational-history prose.
+* Previous condition: The MiG-31 page already had rendered external article sources, a Sources and Notes section, variants, operators, and caveated operational-history paragraphs, but its top-level combat-history summary remained a stale placeholder.
+* Previously edited by Hermes: Yes — expanded in Run 18 and audited in Run 109.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: concise top-level metadata summaries should agree with the rendered article text; contested or date-sensitive combat claims should remain caveated rather than turned into hard kill/loss claims.
+
+#### Audit Gap Found
+
+* Found `combat_history: "Not listed"` in the MiG-31 top-level metadata.
+* This conflicted with the existing Operational History article section, which already describes Soviet/Russian air-defence service, post-Soviet modernization, specialized missile-carrier use, and cautious treatment of Ukraine-related claims.
+
+#### Changes Made
+
+* Updated only the MiG-31 `combat_history` top-level field from the generated placeholder to a concise summary aligned with existing article-section prose and refs.
+* Preserved all MiG-31 factual sections, sources, footnotes, external articles, variants, operators, article-quality counts, and related links.
+* Added no new hard factual claims; this was a focused metadata integration fix based on already-present source-backed article content.
+
+#### Sources Used
+
+* Existing MiG-31 data record, especially the Operational History and Sources and Notes sections.
+* Existing Airforce Technology, Deagel, Wikipedia-orientation, and Milipedia method refs already present in the page; no new external retrieval was required because no new factual detail was added.
+
+#### Files Modified
+
+* data/aircraft.json — Replaced the MiG-31 stale top-level combat-history placeholder.
+* hermes-change-log.md — Appended this audit/gap-fill run entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] A previously updated non-reference aircraft page was audited
+* [x] A concrete stale metadata gap was found
+* [x] Exactly one aircraft entry was changed
+* [x] The aircraft id remained unchanged
+* [x] Internal aircraft.html?id=... links were checked
+* [x] Source refs were checked
+* [x] Renderer-compatible link/card shapes were checked
+* [x] JSON syntax was checked
+* [x] Diff whitespace was checked
+* [x] Credential-specific staged diff scan found no credentials
+* [x] Only intended files were staged
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Untracked package files were present before this run and left unstaged; only data/aircraft.json and hermes-change-log.md were intended/staged.
+2. JSON syntax — Parsed data/aircraft.json successfully with python3 -m json.tool.
+3. One-entry verification — Compared HEAD:data/aircraft.json with the working file and confirmed exactly one aircraft entry changed: mig-31, with the same id before and after.
+4. Link/ref/shape verification — Recursively checked the MiG-31 entry: local aircraft.html?id=... links target existing ids, refs point to available source/footnote ids, article-section links use label/url, cards use title/text, and no bare aircraft.html links exist in the selected entry.
+5. Diff check — git diff --check passed after normalizing the change log to a single trailing newline.
+6. Credential check — Checked credential-specific patterns over the staged diff; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, intended staged files only, focused MiG-31 diff, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Mikoyan MiG-31
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This was a metadata-only audit fix; no new hard factual claims or new source records were added.
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
