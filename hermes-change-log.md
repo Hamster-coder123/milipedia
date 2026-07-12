@@ -15401,3 +15401,83 @@ Record the result of:
 
 * This was a navigation-only audit fix; no new factual claims or source changes were made.
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+
+### Run 208 — 2026-07-12 11:02:16 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Leonardo C-27J Spartan (id: c-27j-spartan)
+* Reason selected: Audit/gap-fill rotation selected the least-recently audited previously updated non-reference page with a concrete renderer/navigation gap: the Related Pages section still used a bare `aircraft.html` URL for the database return link.
+* Previous condition: The C-27J page already had reliable rendered sources, a Sources and Notes section, local aircraft comparison links, variant/operator metadata, and source-count alignment, but its database return link rendered as an aircraft-detail URL without an aircraft id instead of returning to the database index.
+* Previously edited by Hermes: Yes — expanded in Run 143.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Related Pages/database-return navigation pattern, renderer-compatible article-section links using `label` and `url`, and focused audit edits that preserve factual/source metadata when only a navigation gap is being fixed.
+
+#### Audit Gap Found
+
+* Found one bare `aircraft.html` link in the C-27J Related Pages section.
+* This was a navigation/rendering gap rather than a factual-content issue: the link could send users to an aircraft-detail route without an aircraft id instead of returning to the aircraft database.
+
+#### Changes Made
+
+* Updated only the Leonardo C-27J Spartan entry in data/aircraft.json.
+* Converted the "Back to aircraft database" Related Pages link from the bare `aircraft.html` URL to `index.html#database`.
+* Preserved all C-27J factual prose, sources, footnotes, external articles, article-quality counts, variants, operators, similar-development records, and aircraft-detail related links.
+* Added no new factual claims; this was a focused renderer/navigation audit fix.
+
+#### Sources Used
+
+* Existing C-27J data record and renderer-compatible link conventions from the F-16 reference/template page.
+* No new factual source-dependent aircraft details were added, so no new external source retrieval was required.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed the C-27J database-return URL.
+* hermes-change-log.md — Appended this audit/gap-fill run entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] A previously updated non-reference aircraft page was audited
+* [x] A concrete renderer/navigation gap was found
+* [x] Exactly one aircraft entry was changed
+* [x] The aircraft id remained unchanged
+* [x] Internal aircraft.html?id=... links were checked
+* [x] Source refs were checked
+* [x] Renderer-compatible link/card shapes were checked
+* [x] JSON syntax was checked
+* [x] Diff whitespace was checked
+* [x] Credential-specific staged diff scan found no credentials
+* [x] Only intended files were staged
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Untracked package files were present before this run and left unstaged; only data/aircraft.json and hermes-change-log.md were intended/staged.
+2. JSON syntax — Parsed data/aircraft.json successfully with python3 -m json.tool.
+3. One-entry verification — Compared HEAD:data/aircraft.json with the working file and confirmed exactly one aircraft entry changed: c-27j-spartan, with the same id before and after.
+4. Link/ref/shape verification — Recursively checked the C-27J entry: local aircraft.html?id=... links target existing ids, refs point to available source/footnote ids, article-section links use label/url, cards use title/text, and no bare aircraft.html links remain in the selected entry.
+5. Diff check — git diff --check passed after normalizing the change log to a single trailing newline.
+6. Credential check — Checked credential-specific patterns over the staged diff; no credentials were found.
+7. Final review before commit — Confirmed branch hermes-agent, intended staged files only, focused C-27J diff, and no main-branch edits.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Leonardo C-27J Spartan
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This was a navigation-only audit fix; no new factual claims or source changes were made.
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
