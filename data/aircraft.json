@@ -52139,18 +52139,22 @@
     },
     "similar_development": [
       {
+        "id": "tu-160",
         "name": "Tupolev Tu-160",
         "url": "aircraft.html?id=tu-160"
       },
       {
+        "id": "tu-95",
         "name": "Tupolev Tu-95",
         "url": "aircraft.html?id=tu-95"
       },
       {
+        "id": "su-24",
         "name": "Sukhoi Su-24",
         "url": "aircraft.html?id=su-24"
       },
       {
+        "id": "b-1-lancer",
         "name": "Rockwell B-1 Lancer",
         "url": "aircraft.html?id=b-1-lancer"
       }

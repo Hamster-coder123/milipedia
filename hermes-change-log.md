@@ -16939,3 +16939,81 @@ hermes-agent
 
 * F-117 is not currently represented as a local Milipedia aircraft id, so the B-2 page intentionally keeps it as an external related-development link.
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+
+### Run 228 — 2026-07-13 07:01:07 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Tupolev Tu-22M (id: tu-22m)
+* Reason selected: Audit/gap-fill scan found the least-recently audited concrete renderer-shape issue: the top-level `similar_development` local links used `name`/`url` but omitted matching `id` fields for represented local aircraft.
+* Previous condition: The Tu-22M page's source counts, refs, Sources and Notes section, and local link URLs were otherwise aligned, but top-level related-development objects did not fully preserve the renderer-compatible `id`/`name`/`url` shape used by other audited pages.
+* Audit mode: Previously expanded page; focused related-link metadata cleanup only.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: top-level `similar_development` objects should preserve `id`/`name`/`url` shape for local aircraft, while article-section links use `label`/`url`; local `aircraft.html?id=...` URLs must target existing aircraft ids.
+
+#### Concrete Gap Found
+
+* Four Tu-22M top-level related-development links pointed to valid local aircraft URLs but lacked the matching `id` fields, reducing consistency with the renderer-compatible local-link shape and making future audits harder to validate.
+
+#### Changes Made
+
+* Added `id: "tu-160"` to the Tupolev Tu-160 related-development object.
+* Added `id: "tu-95"` to the Tupolev Tu-95 related-development object.
+* Added `id: "su-24"` to the Sukhoi Su-24 related-development object.
+* Added `id: "b-1-lancer"` to the Rockwell B-1 Lancer related-development object.
+* Preserved all factual prose, source metadata, footnotes, external articles, variants, operators, article sections, event-gallery metadata, and article-quality counts.
+* Added no new factual aircraft claims; this was a focused renderer-shape/local-link metadata fix.
+
+#### Sources Used
+
+* Existing Tu-22M data record and local aircraft ids in data/aircraft.json.
+* Renderer-compatible related-link conventions from the F-16 reference/template page and prior audit notes.
+
+#### Files Modified
+
+* data/aircraft.json — Added matching local `id` fields to only the Tu-22M entry's top-level related-development objects.
+* hermes-change-log.md — Appended this audit/gap-fill run entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used instead of sparse-page selection
+* [x] F-16 page was checked as formatting reference
+* [x] Exactly one aircraft JSON entry was changed and the id stayed `tu-22m`
+* [x] JSON syntax was checked
+* [x] Source refs were checked against existing source/footnote IDs
+* [x] Internal aircraft.html?id=... links were checked
+* [x] Renderer link/card shapes were checked
+* [x] Formatting was checked with git diff --check
+* [x] Credential-specific staged-diff scan found no credentials
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+1. Branch check — Confirmed `git branch --show-current` is `hermes-agent`.
+2. JSON validity — Ran `python3 -m json.tool data/aircraft.json >/dev/null` successfully.
+3. Single-entry diff check — Compared `git show HEAD:data/aircraft.json` to the working file and confirmed exactly one aircraft entry changed, with id `tu-22m` before and after.
+4. Entry integrity check — Recursively verified selected-entry refs against source/footnote IDs, internal `aircraft.html?id=...` links against data/aircraft.json IDs, no bare `aircraft.html` URLs, matching top-level related-development id/url pairs, and renderer-compatible article-section card/link shapes.
+5. Diff hygiene — Ran `git diff --check` successfully after normalizing the change-log EOF.
+6. Credential check — Checked credential-specific patterns over the staged diff; no credentials were found.
+7. Staging check — Confirmed only `data/aircraft.json` and `hermes-change-log.md` were staged, leaving unrelated package files unstaged.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Tupolev Tu-22M
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* This run made a renderer-shape/local-link metadata fix only; it did not add new source-backed prose claims.
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
