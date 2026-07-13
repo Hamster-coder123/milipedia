@@ -16863,3 +16863,79 @@ hermes-agent
 
 * F-106 and F-101 are not currently represented as local Milipedia aircraft ids, so the F-102 page intentionally keeps them as external related-development links.
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+
+### Run 227 — 2026-07-13 06:03:14 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Northrop Grumman B-2 Spirit (id: b-2-spirit)
+* Reason selected: Audit/gap-fill scan found a remaining rendered top-level related-development link for the absent local F-117 Nighthawk page that still pointed to Wikipedia even though an official Lockheed Martin page is available.
+* Previous condition: The B-2 page already had aligned source counts, a Sources and Notes section, and a corrected Related Pages F-117 external link from an earlier audit, but `similar_development` still exposed the orientation-only Wikipedia URL.
+* Audit mode: Previously expanded page; focused rendered-link/source-quality cleanup only.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: top-level `similar_development` shape using `id`/`name`/`url`, official/manufacturer sources preferred over orientation-only Wikipedia, and local aircraft links preserved for represented aircraft ids.
+
+#### Concrete Gap Found
+
+* The B-2 entry rendered Wikipedia as the top-level related-development target for Lockheed F-117 Nighthawk. Because F-117 is not represented as a local aircraft id, an external related link is intentional, but the visible target should prefer the official manufacturer page.
+
+#### Changes Made
+
+* Replaced only the top-level F-117 related-development URL with the official Lockheed Martin F-117 Nighthawk history page.
+* Preserved all factual prose, local aircraft links, sources, footnotes, external articles, article-section Related Pages links, variants, operators, event-gallery metadata, and article-quality counts.
+* Added no new factual aircraft claims; this was a focused rendered-link quality fix.
+
+#### Sources Used
+
+* Lockheed Martin — F-117 Nighthawk official history page, found via Exa and checked with a direct HTTPS header request returning HTTP 200.
+* Existing B-2 data record and renderer-compatible link conventions from the F-16 reference/template page.
+
+#### Files Modified
+
+* data/aircraft.json — Replaced only the B-2 entry's top-level rendered F-117 related-development URL.
+* hermes-change-log.md — Appended this audit/gap-fill run entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used instead of sparse-page selection
+* [x] F-16 page was checked as formatting reference
+* [x] Exactly one aircraft JSON entry was changed and the id stayed `b-2-spirit`
+* [x] JSON syntax was checked
+* [x] Source refs were checked against existing source/footnote IDs
+* [x] Internal aircraft.html?id=... links were checked
+* [x] Renderer link/card shapes were checked
+* [x] Formatting was checked with git diff --check
+* [x] Credential-specific staged-diff scan found no credentials
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+1. Branch check — Confirmed `git branch --show-current` is `hermes-agent`.
+2. JSON validity — Ran `python3 -m json.tool data/aircraft.json >/dev/null` successfully.
+3. Source reachability — Checked the Lockheed Martin F-117 page with a direct HTTPS header request and received HTTP 200.
+4. Single-entry diff check — Compared `git show HEAD:data/aircraft.json` to the working file and confirmed exactly one aircraft entry changed, with id `b-2-spirit` before and after.
+5. Entry integrity check — Recursively verified selected-entry refs against source/footnote IDs, internal `aircraft.html?id=...` links against data/aircraft.json IDs, no bare `aircraft.html` URLs, and renderer-compatible article-section card/link shapes.
+6. Diff hygiene — Ran `git diff --check` successfully after normalizing the change-log EOF.
+7. Credential check — Checked credential-specific patterns over the staged diff; no credentials were found.
+8. Staging check — Confirmed only `data/aircraft.json` and `hermes-change-log.md` were staged, leaving unrelated package files unstaged.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Northrop Grumman B-2 Spirit
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* F-117 is not currently represented as a local Milipedia aircraft id, so the B-2 page intentionally keeps it as an external related-development link.
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
