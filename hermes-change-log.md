@@ -16710,3 +16710,78 @@ hermes-agent
 
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * The NAVAIR MV-22B page is used for dated Marine MV-22 operational milestones. Detailed mishap/readiness analysis and full current inventory accounting remain intentionally omitted because they require dedicated dated safety and readiness sources.
+
+### Run 225 — 2026-07-13 04:03:38 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Northrop F-5 (id: f-5-freedom-fighter-tiger-ii)
+* Reason selected: Audit/gap-fill rotation found a remaining rendered Related Pages link for the absent local F-20 Tigershark page that still pointed to Wikipedia even though a more appropriate museum page exists.
+* Previous condition: F-5 source counts, refs, and top-level data were otherwise aligned, but the Related Pages section rendered an orientation-only Wikipedia link for Northrop F-20 Tigershark.
+* Audit mode: Previously expanded page; focused rendered-link/source-quality cleanup only.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: renderer-compatible related-link shape using `label`/`url`, official/museum sources preferred over orientation-only Wikipedia, and internal aircraft links preserved for represented local IDs.
+
+#### Concrete Gap Found
+
+* The F-5 Related Pages section linked Northrop F-20 Tigershark to Wikipedia. Since F-20 is not represented as a local aircraft id, the external related link is intentional, but Wikipedia should not be the visible rendered source when a reliable museum page is available.
+
+#### Changes Made
+
+* Replaced the F-20 Related Pages URL with the California Science Center F-20 Tigershark page.
+* Preserved the visible label, all local aircraft detail links, factual prose, sources, footnotes, external articles, variants, operators, event-gallery metadata, and article-quality counts.
+* Added no new factual claims; this was a focused rendered-link quality fix.
+
+#### Sources Used
+
+* California Science Center — F-20 Tigershark page, retrieved via Exa, documenting the last remaining F-20 prototype and the type's Northrop development context.
+* Existing F-5 data record and renderer-compatible link conventions from the F-16 reference/template page.
+
+#### Files Modified
+
+* data/aircraft.json — Replaced only the F-5 entry's rendered F-20 related-link URL.
+* hermes-change-log.md — Appended this audit/gap-fill run entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used instead of sparse-page selection
+* [x] F-16 page was checked as formatting reference
+* [x] Exactly one aircraft JSON entry was changed and the id stayed `f-5-freedom-fighter-tiger-ii`
+* [x] JSON syntax was checked
+* [x] Source refs were checked against existing source/footnote IDs
+* [x] Internal aircraft.html?id=... links were checked
+* [x] Renderer link/card shapes were checked
+* [x] Formatting was checked with git diff --check
+* [x] Credential-specific staged-diff scan found no credentials
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+1. Branch check — Confirmed `git branch --show-current` is `hermes-agent`.
+2. JSON validity — Ran `python3 -m json.tool data/aircraft.json >/dev/null` successfully.
+3. Single-entry diff check — Compared `git show HEAD:data/aircraft.json` to the working file and confirmed exactly one aircraft entry changed, with id `f-5-freedom-fighter-tiger-ii` before and after.
+4. Entry integrity check — Recursively verified selected-entry refs against source/footnote IDs, internal `aircraft.html?id=...` links against data/aircraft.json IDs, no bare `aircraft.html` URLs, and renderer-compatible article-section card/link shapes.
+5. Diff hygiene — Ran `git diff --check` successfully after normalizing the change-log EOF.
+6. Credential check — Checked credential-specific patterns over the staged diff; no credentials were found.
+7. Staging check — Confirmed only `data/aircraft.json` and `hermes-change-log.md` were staged, leaving unrelated package files unstaged.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Northrop F-5
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* F-20 is not currently represented as a local Milipedia aircraft id, so the F-5 page intentionally keeps it as an external related link.
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
