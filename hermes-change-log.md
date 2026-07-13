@@ -17017,3 +17017,73 @@ hermes-agent
 
 * This run made a renderer-shape/local-link metadata fix only; it did not add new source-backed prose claims.
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+
+### Run 229 — 2026-07-13 08:02:48 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Sikorsky CH-53 Sea Stallion (id: ch-53-sea-stallion)
+* Reason selected: Audit/gap-fill rotation chose a least-recently audited page with a concrete rendered-link quality issue: the top-level similar_development list still sent the CH-53E Super Stallion related-aircraft link to Wikipedia even though an official NAVAIR CH-53E page is available and the related aircraft is not represented as a local Milipedia aircraft ID.
+* Previous condition: Source counts, Sources and Notes, article-section link shapes, and local CH-47/V-22/UH-60 links were already sound, but one visible top-level related-development URL still used an orientation-only encyclopedia page.
+* Previously edited by Hermes: Yes — initial expansion in Run 76 and audit/gap-fill pass in Run 209.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Related-aircraft links should prefer local aircraft.html?id=... targets when represented locally, and should prefer reliable official/manufacturer/museum URLs over orientation-only encyclopedia pages when a related aircraft is absent from the local aircraft database.
+
+#### Changes Made
+
+* Replaced the CH-53E Super Stallion top-level similar_development URL from Wikipedia with the official NAVAIR CH-53E Super Stallion product page.
+* Preserved the existing external-link shape for CH-53E because there is no local `ch-53e-super-stallion` aircraft ID in data/aircraft.json.
+* Preserved all factual prose, source records, article sections, variants, operators, external_articles, and article_quality counts; this was a navigation/source-quality cleanup only.
+* Cross-checked the replacement NAVAIR page with Exa fetch after the Tavily extract backend returned HTTP 432; the NAVAIR page describes the CH-53E mission, heavy-lift role, Marine use, shipboard fit, specifications, contractor, and inventory status.
+
+#### Files Modified
+
+* data/aircraft.json — Updated only the Sikorsky CH-53 Sea Stallion entry's CH-53E related-development URL.
+* hermes-change-log.md — Appended this cumulative audit/gap-fill run entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] One previously updated non-reference aircraft page was selected for audit/gap-fill
+* [x] A concrete renderer/source-quality gap was fixed
+* [x] F-16 page was used as formatting/reference-link guidance
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Renderer-compatible link/card shapes were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+Record the result of:
+1. git status — Before staging, only data/aircraft.json and hermes-change-log.md were intended modified files; unrelated pre-existing package files remained unstaged.
+2. git diff — Reviewed the aircraft JSON diff; data/aircraft.json changes are limited to the `ch-53-sea-stallion` entry and only replace the CH-53E related-development URL.
+3. File review — Parsed data/aircraft.json with python3 -m json.tool; inspected the selected entry's similar_development, external_articles, article_quality, Sources and Notes, and Related Pages link shapes.
+4. F-16 style comparison — Inspected data/f16-template.html and followed its preference for reliable source-backed related navigation rather than visible orientation-only links where official references exist.
+5. Internal link check — Recursively checked aircraft.html?id=... links in the CH-53 entry and verified local IDs resolve; CH-53E remains an intentional external link because no local CH-53E aircraft ID exists.
+6. Ref/source check — Recursively checked refs against source and footnote IDs; no missing source refs were found.
+7. Secret/token check — Checked the staged diff with credential-specific patterns for private keys, passwords, cloud credential names, and access/auth token patterns; no credentials were found.
+8. Final review before commit — Confirmed branch hermes-agent, JSON validity, one changed aircraft entry with unchanged ID, renderer-compatible shapes, diff cleanliness, intended staged files only, and no direct main-branch edit.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Sikorsky CH-53 Sea Stallion
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Tavily web extraction returned HTTP 432 for the NAVAIR page, so Exa fetch was used to verify the official page content.
+* CH-53E is related to the CH-53 family but is not a separate local Milipedia aircraft entry, so the fix intentionally keeps it as an external official NAVAIR URL rather than fabricating a local aircraft.html?id=... link.
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
