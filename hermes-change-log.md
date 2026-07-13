@@ -17586,3 +17586,75 @@ hermes-agent
 
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * No factual source claims were changed in this audit; the fix is limited to renderer/navigation metadata.
+
+### Run 237 — 2026-07-13 16:01:34 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: IAI Kfir (id: iai-kfir)
+* Reason selected: Audit/gap-fill rotation found the Kfir entry among the least-recently audited non-reference pages with a concrete rendered-navigation gap: its Related Pages section used a generic `index.html` return link for "Back to aircraft database" instead of the database anchor.
+* Previous condition: The page already had aligned rendered external articles, source notes, operators, variants, and valid local aircraft links, but one renderable Related Pages link landed on the site home page rather than the aircraft database anchor.
+* Previously edited by Hermes: Yes; selected here for an audit/gap-fill navigation cleanup, not a sparse-page expansion.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Kept the data-driven article structure and corrected the database-return navigation to the current renderer-friendly `index.html#database` target while preserving the existing article-section `label`/`url` link shape.
+
+#### Changes Made
+
+* Updated only the IAI Kfir entry's Related Pages database-return link from `index.html` to `index.html#database`.
+* Preserved all factual prose, sources, variants, operators, external article cards, and local aircraft related links.
+* Treated this as a focused renderer/navigation integration fix; no new factual claims or new sources were added.
+
+#### Sources Used
+
+* Existing Kfir source set in data/aircraft.json was reviewed for context; this navigation-only fix did not require adding new external factual sources.
+
+#### Files Modified
+
+* data/aircraft.json — Corrected only the IAI Kfir Related Pages database-return URL.
+* hermes-change-log.md — Appended this audit/gap-fill run entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used instead of sparse-page selection
+* [x] F-16 page remained reference-only and was not edited
+* [x] Exactly one aircraft entry changed in data/aircraft.json
+* [x] Selected aircraft id remained iai-kfir before and after the edit
+* [x] JSON validity was checked
+* [x] Internal aircraft.html?id=... links were checked against existing aircraft ids
+* [x] Article refs were checked against existing source/footnote ids
+* [x] Renderer link/card shapes were checked for the selected entry
+* [x] Formatting was checked with git diff --check
+* [x] Credential check used credential-specific staged-diff patterns; no credentials were found
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+Record the result of:
+1. Branch check — `git branch --show-current` returned hermes-agent.
+2. JSON check — `python3 -m json.tool data/aircraft.json >/dev/null` passed.
+3. Single-entry diff check — Compared HEAD data/aircraft.json to the working file and confirmed exactly one aircraft entry changed, with id iai-kfir unchanged.
+4. Link/ref/renderer-shape check — Recursively checked the selected Kfir entry; local aircraft links target existing ids, article refs point to existing sources or footnotes, Related Pages links use label/url, and no stale bare database-return URL remains in the selected entry.
+5. Diff whitespace check — `git diff --check` passed after normalizing the change log to one trailing newline.
+6. Credential check — Checked credential-specific patterns over the staged diff; no credentials were found.
+7. Staging review — Only data/aircraft.json and hermes-change-log.md were staged.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in IAI Kfir
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* This was a navigation-only audit fix. The existing Kfir source and prose content were intentionally preserved because the concrete gap was the rendered database-return target.
