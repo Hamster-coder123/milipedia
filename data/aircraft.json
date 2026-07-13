@@ -35592,7 +35592,7 @@
           },
           {
             "label": "Back to aircraft database",
-            "url": "database.html"
+            "url": "index.html#database"
           }
         ]
       }
