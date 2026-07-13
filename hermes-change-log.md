@@ -16601,3 +16601,38 @@ Record the result of:
 
 * This was a navigation-only audit fix; no new factual claims or source changes were made.
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+
+### Run 223 — C-27J Spartan audit/gap-fill
+
+#### Selected Page
+* Aircraft/Page: Leonardo C-27J Spartan (id: c-27j-spartan)
+* Mode: Audit/gap-fill rotation across previously updated non-reference aircraft pages.
+
+#### Concrete Gap Found
+* The top-level `combat_history` field still contained the generated placeholder `Not listed` even though the article already has sourced operational-history prose for tactical airlift, airdrop, aeromedical evacuation, disaster relief, remote-community support, and configuration-dependent maritime/special-mission roles.
+
+#### Changes Made
+* Replaced the placeholder `combat_history` value with a concise summary aligned to the existing sourced article sections.
+* Preserved factual article prose, source arrays, rendered external articles, variants, operators, event gallery, and related links.
+
+#### Sources Used
+* Existing Leonardo manufacturer source (`fn-leonardo`) for mission flexibility and special-mission configuration context.
+* Existing Royal Australian Air Force source (`fn-raaf`) for remote/austere-field and humanitarian-support role context.
+* Existing U.S. Coast Guard source (`fn-uscg`) for HC-27J medium-range-surveillance context.
+* Existing Milipedia accuracy rules (`fn-method`) for configuration-sensitive wording.
+
+#### Files Changed
+* `data/aircraft.json`
+* `hermes-change-log.md`
+
+#### Verification
+* Branch check — confirmed `hermes-agent`.
+* JSON validation — `python3 -m json.tool data/aircraft.json >/dev/null` passed.
+* Single-entry check — confirmed exactly one aircraft entry changed and the id remained `c-27j-spartan`.
+* Link/ref check — recursively verified selected-entry refs against sources/footnotes and internal `aircraft.html?id=...` links against existing aircraft IDs; no bare database-return `aircraft.html` links remained.
+* Renderer-shape check — selected-entry article cards use `title`/`text`, and article links use `label`/`url`.
+* Diff hygiene — `git diff --check` passed.
+* Credential check — checked credential-specific patterns in the staged diff; no credentials were found.
+
+#### Commit
+* Pending until commit is created; final hash is reported in the run output.
