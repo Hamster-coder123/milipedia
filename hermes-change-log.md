@@ -17241,3 +17241,72 @@ hermes-agent
 
 * This was a metadata-only cleanup: no new source claims were added because the A-7 page already contains source-backed operational-history and combat-association metadata.
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+
+### Run 232 — 2026-07-13 11:03:09 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Mikoyan-Gurevich MiG-15 (id: mig-15)
+* Reason selected: Audit/gap-fill rotation favored unaudited non-reference pages. The MiG-15 entry had a concrete render/navigation gap: a database-return URL pointed to a non-existent database.html page, and the same database-return pseudo-link was also present in top-level similar_development where the renderer expects related aircraft/development links.
+* Previous condition: Source counts, Sources and Notes, refs, and aircraft internal links were otherwise aligned, but the database return link shape could send readers to a missing page and the top-level similar_development list included a non-aircraft database navigation item.
+* Previously edited by Hermes: Yes, expanded in the sparse-page phase; not previously audited in the new gap-fill phase.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Related/development links should stay renderer-compatible; real aircraft links use aircraft.html?id=..., while database-return navigation should use the site database anchor rather than a missing database.html page.
+
+#### Changes Made
+
+* Removed the Back to aircraft database pseudo-link from the MiG-15 top-level similar_development array so the quick overview contains only related aircraft/development items.
+* Updated the MiG-15 article-section Related Pages database-return link from database.html to index.html#database.
+* Preserved all MiG-15 factual prose, source records, footnotes, variants, operators, external_articles, article_quality counts, and aircraft related links.
+
+#### Sources Used
+
+* No new factual claims were added. This was a renderer/navigation audit based on the repository's existing index.html database anchor and the MiG-15 entry's existing source-backed content.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the MiG-15 database-return link surfaces.
+* hermes-change-log.md — Appended this audit/gap-fill run entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] F-16 page was used as formatting reference
+* [x] Exactly one aircraft entry was changed and the id stayed mig-15
+* [x] JSON validity was checked
+* [x] Internal aircraft.html?id=... links were checked against existing aircraft IDs
+* [x] Source refs were checked against existing source/footnote IDs
+* [x] Renderer link/card shapes were checked for the selected entry
+* [x] Formatting was checked
+* [x] Credential-specific staged diff check found no credentials
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+1. git branch --show-current — Confirmed hermes-agent.
+2. python3 -m json.tool data/aircraft.json >/dev/null — Confirmed valid JSON after the edit.
+3. One-entry diff verification — Confirmed data/aircraft.json changed only the mig-15 entry and preserved the same id before/after.
+4. Recursive selected-entry verification — Checked MiG-15 refs against source/footnote IDs, checked aircraft.html?id=... internal targets against the aircraft ID set, confirmed no remaining database.html URL in the selected entry, and checked article-section links/cards plus top-level similar_development shapes.
+5. git diff --check — Passed after EOF normalization.
+6. Credential check — Checked credential-specific patterns over the staged diff; no credentials were found.
+7. Final status review — Confirmed only data/aircraft.json and hermes-change-log.md were staged, with unrelated untracked package files left unstaged.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Mikoyan-Gurevich MiG-15
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* No factual source claims were changed in this audit; the fix is limited to renderer/navigation metadata.

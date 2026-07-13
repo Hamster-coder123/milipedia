@@ -35776,11 +35776,6 @@
         "id": "f-5-freedom-fighter-tiger-ii",
         "name": "Northrop F-5",
         "url": "aircraft.html?id=f-5-freedom-fighter-tiger-ii"
-      },
-      {
-        "id": "database",
-        "name": "Back to aircraft database",
-        "url": "database.html"
       }
     ],
     "article_quality": {
@@ -36330,7 +36325,7 @@
           },
           {
             "label": "Back to aircraft database",
-            "url": "database.html"
+            "url": "index.html#database"
           }
         ]
       }
