@@ -17087,3 +17087,81 @@ Record the result of:
 * Tavily web extraction returned HTTP 432 for the NAVAIR page, so Exa fetch was used to verify the official page content.
 * CH-53E is related to the CH-53 family but is not a separate local Milipedia aircraft entry, so the fix intentionally keeps it as an external official NAVAIR URL rather than fabricating a local aircraft.html?id=... link.
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+
+### Run 230 — 2026-07-13 09:01:06 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Northrop F-5 (id: f-5-freedom-fighter-tiger-ii)
+* Reason selected: Audit/gap-fill scan found the remaining concrete rendered-link quality issue: the top-level similar_development list still sent the Northrop F-20 Tigershark related-aircraft link to Wikipedia even though a museum page for the surviving F-20 exists and the related aircraft is not represented as a local Milipedia aircraft ID.
+* Previous condition: The F-5 page's article-section Related Pages link for the F-20 already used the California Science Center page, but the top-level related-development URL still used an orientation-only encyclopedia page.
+* Previously edited by Hermes: Yes — initial expansion in Run 102 and audit/gap-fill passes in Runs 156, 177, and 225.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns copied: Top-level related-aircraft links should preserve the `id`/`name`/`url` shape, prefer local aircraft.html?id=... targets when represented locally, and prefer reliable museum/manufacturer/government URLs over orientation-only encyclopedia pages when a related aircraft is absent from the local aircraft database.
+
+#### Concrete Gap Found
+
+* The top-level F-20 Tigershark related-development card rendered a Wikipedia URL while the selected entry already had a better California Science Center museum URL for the same absent-local-ID related aircraft in its article-section Related Pages list.
+
+#### Changes Made
+
+* Replaced the top-level Northrop F-20 Tigershark similar_development URL with the California Science Center F-20 Tigershark exhibit page.
+* Preserved the existing external-link shape for F-20 because there is no local `f-20-tigershark` aircraft ID in data/aircraft.json.
+* Preserved all factual prose, sources, footnotes, article sections, external_articles, variants, operators, event-gallery metadata, and article_quality counts; this was a rendered related-link quality cleanup only.
+* Added no new factual aircraft claims.
+
+#### Sources Used
+
+* California Science Center — F-20 Tigershark exhibit page, verified with Exa fetch; it identifies the F-20 as a Northrop-designed fighter, notes that it was never sold or mass-produced, and describes the Science Center aircraft as the last remaining prototype.
+* Existing F-5 data record and renderer-compatible related-link conventions from the F-16 reference/template page.
+
+#### Files Modified
+
+* data/aircraft.json — Updated only the Northrop F-5 entry's top-level F-20 related-development URL.
+* hermes-change-log.md — Appended this cumulative audit/gap-fill run entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] One previously updated non-reference aircraft page was selected for audit/gap-fill
+* [x] A concrete renderer/source-quality gap was fixed
+* [x] F-16 page was used as formatting/reference-link guidance
+* [x] No unrelated files were changed
+* [x] No secrets or credentials were added
+* [x] Internal links were checked
+* [x] Source refs were checked
+* [x] Renderer-compatible link/card shapes were checked
+* [x] Formatting was checked
+* [x] The final diff was reviewed before commit
+* [x] Change log was updated for this run
+
+#### Verification Steps Completed
+
+1. Branch check — Confirmed `git branch --show-current` is `hermes-agent`.
+2. JSON validity — Ran `python3 -m json.tool data/aircraft.json >/dev/null` successfully.
+3. Source verification — Verified the California Science Center F-20 page with Exa fetch after the regular web-search backend returned HTTP 432.
+4. Single-entry diff check — Compared `git show HEAD:data/aircraft.json` to the working file and confirmed exactly one aircraft entry changed, with id `f-5-freedom-fighter-tiger-ii` before and after.
+5. Entry integrity check — Recursively verified selected-entry refs against source/footnote IDs, internal `aircraft.html?id=...` links against data/aircraft.json IDs, no bare `aircraft.html` URLs, no remaining top-level similar-development Wikipedia/Wikimedia links, and renderer-compatible article-section card/link shapes.
+6. Diff hygiene — Ran `git diff --check` successfully after normalizing the change-log EOF.
+7. Credential check — Checked credential-specific patterns over the staged diff; no credentials were found.
+8. Staging check — Confirmed only `data/aircraft.json` and `hermes-change-log.md` were staged, leaving unrelated package files unstaged.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Northrop F-5
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* F-20 Tigershark is related to the F-5 family but is not a separate local Milipedia aircraft entry, so the fix intentionally keeps it as an external museum URL rather than fabricating a local aircraft.html?id=... link.
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
