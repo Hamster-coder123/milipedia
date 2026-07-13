@@ -17448,3 +17448,72 @@ hermes-agent
 
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
 * No factual source claims were changed in this audit; the fix is limited to renderer/navigation metadata.
+
+### Run 235 — 2026-07-13 14:01:20 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Grumman A-6 Intruder (id: a-6-intruder)
+* Reason selected: Audit/gap-fill rotation favored a previously expanded non-reference page that had not yet been audited in the new phase. The A-6 entry had a concrete rendered navigation gap: its Sources and Notes database-return link pointed only to index.html instead of the site database anchor.
+* Previous condition: Source counts, external_articles, Sources and Notes, source refs, aircraft internal links, and top-level similar_development were otherwise aligned; the remaining concrete gap was a database-return link that did not preserve navigation to the database section.
+* Previously edited by Hermes: Yes, expanded in the sparse-page phase; not previously audited in the new gap-fill phase.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: Related/source navigation should keep aircraft links as aircraft.html?id=... and database-return links pointed at the site database anchor rather than a generic page top.
+
+#### Changes Made
+
+* Updated the A-6 Sources and Notes database-return link from index.html to index.html#database.
+* Preserved all A-6 factual prose, source records, footnotes, external_articles, variants, operators, article_quality counts, top-level similar_development, and aircraft related links.
+* Added no new factual aircraft claims.
+
+#### Sources Used
+
+* No new factual claims were added. This was a renderer/navigation audit based on the repository's existing database anchor convention and the A-6 entry's existing source-backed content.
+
+#### Files Modified
+
+* data/aircraft.json — Fixed only the A-6 Sources and Notes database-return URL.
+* hermes-change-log.md — Appended this audit/gap-fill run entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] F-16 page was used as formatting reference
+* [x] Exactly one aircraft entry was changed and the id stayed a-6-intruder
+* [x] JSON validity was checked
+* [x] Internal aircraft.html?id=... links were checked against existing aircraft IDs
+* [x] Source refs were checked against existing source/footnote IDs
+* [x] Renderer link/card shapes were checked for the selected entry
+* [x] Formatting was checked
+* [x] Credential-specific staged diff check found no credentials
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+1. git branch --show-current — Confirmed hermes-agent.
+2. python3 -m json.tool data/aircraft.json >/dev/null — Confirmed valid JSON after the edit.
+3. One-entry diff verification — Confirmed data/aircraft.json changed only the a-6-intruder entry and preserved the same id before/after.
+4. Recursive selected-entry verification — Checked A-6 refs against source/footnote IDs, checked aircraft.html?id=... internal targets against the aircraft ID set, confirmed no remaining stale database-return URL in the selected entry, and checked article-section links/cards plus top-level similar_development shapes.
+5. git diff --check — Passed.
+6. Credential check — Checked credential-specific patterns over the staged diff; no credentials were found.
+7. Final status review — Confirmed only data/aircraft.json and hermes-change-log.md were staged, with unrelated untracked package files left unstaged.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Grumman A-6 Intruder
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* No factual source claims were changed in this audit; the fix is limited to renderer/navigation metadata.
