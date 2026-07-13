@@ -32564,7 +32564,7 @@
       "United States Navy",
       "Japan Ground Self-Defense Force"
     ],
-    "combat_history": "Used for expeditionary assault support, special operations, logistics, casualty evacuation, search and rescue, humanitarian assistance, and disaster relief missions.",
+    "combat_history": "Used for expeditionary assault support, special operations, logistics, casualty evacuation, search and rescue, humanitarian assistance, disaster relief, and Marine MV-22 Iraq deployments; detailed mishap and readiness history remains date-sensitive.",
     "development_history": "The V-22 grew from the U.S. requirement for an aircraft that could take off and land like a helicopter but cruise with the speed and range of a turboprop airplane. The aircraft first flew on 19 March 1989 and entered Marine operational service in 2007 after a long test, redesign, and maturation period.",
     "short_summary": "The Bell Boeing V-22 Osprey is a U.S. joint-service tiltrotor transport that combines vertical takeoff and landing with airplane-mode cruise. MV-22, CV-22, and CMV-22 variants serve assault support, special operations, carrier logistics, search and rescue, medical evacuation, and disaster-relief missions.",
     "carrier_capable": true,
@@ -32593,6 +32593,13 @@
         "note": "Official fact sheet for CV-22 mission, background, deployment date, crew, engines, weights, range, payload, and armament."
       },
       {
+        "id": "fn-navair-mv22",
+        "title": "MV-22B Osprey",
+        "url": "https://www.navair.navy.mil/product/MV-22B-Osprey",
+        "publisher": "Naval Air Systems Command",
+        "note": "Official NAVAIR product page used for Marine Corps MV-22 mission, CH-46E replacement context, June 2007 IOC, Iraq deployments, shipboard deployment, and public specifications."
+      },
+      {
         "id": "fn-main",
         "title": "Bell Boeing V-22 Osprey",
         "url": "https://en.wikipedia.org/wiki/Bell_Boeing_V-22_Osprey",
@@ -32618,7 +32625,16 @@
       "Boeing"
     ],
     "development_tensions": [],
-    "wars_used_in": [],
+    "wars_used_in": [
+      {
+        "name": "Iraq War",
+        "note": "NAVAIR records three successful Marine MV-22 combat deployments in Iraq from October 2007 to April 2009."
+      },
+      {
+        "name": "Expeditionary and humanitarian operations",
+        "note": "Used for assault support, special operations, carrier logistics, search and rescue, medical evacuation, disaster relief, and other missions; exact tasking varies by service and variant."
+      }
+    ],
     "variant_families": [
       "MV-22 assault support family",
       "CV-22 special operations family",
@@ -32671,10 +32687,10 @@
       }
     ],
     "article_quality": {
-      "exact_fact_count": 34,
+      "exact_fact_count": 38,
       "operator_entries": 4,
       "variant_entries": 4,
-      "external_article_sources": 2
+      "external_article_sources": 3
     },
     "footnotes": [
       {
@@ -32690,6 +32706,13 @@
         "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104531/cv-22-osprey/",
         "publisher": "U.S. Air Force",
         "note": "Official CV-22 fact sheet used for Air Force variant background, crew, propulsion, weights, range, payload, and ramp gun information."
+      },
+      {
+        "id": "fn-navair-mv22",
+        "title": "MV-22B Osprey",
+        "url": "https://www.navair.navy.mil/product/MV-22B-Osprey",
+        "publisher": "Naval Air Systems Command",
+        "note": "Official NAVAIR product page used for Marine Corps MV-22 mission, CH-46E replacement context, June 2007 IOC, Iraq deployments, shipboard deployment, and public specifications."
       },
       {
         "id": "fn-main",
@@ -32711,6 +32734,11 @@
         "title": "V-22 Osprey",
         "url": "https://www.boeing.com/defense/v-22-osprey/",
         "publisher": "Boeing"
+      },
+      {
+        "title": "MV-22B Osprey",
+        "url": "https://www.navair.navy.mil/product/MV-22B-Osprey",
+        "publisher": "Naval Air Systems Command"
       },
       {
         "title": "CV-22 Osprey",
@@ -32739,6 +32767,7 @@
           {
             "text": "The family includes Marine MV-22 assault-support aircraft, Air Force CV-22 special-operations aircraft, Navy CMV-22 carrier logistics aircraft, and Japanese MV-22 aircraft. Exact equipment, crew, range, and defensive armament vary by variant and mission configuration.",
             "refs": [
+              "fn-navair-mv22",
               "fn-boeing",
               "fn-usaf",
               "fn-method"
@@ -32776,7 +32805,8 @@
             "text": "The V-22 was developed to satisfy a demanding requirement: vertical assault-support access without giving up the speed and radius needed for long-range operations. The aircraft first flew in 1989 and reached Marine operational service in 2007 after an extended development and test period.",
             "refs": [
               "fn-main",
-              "fn-boeing"
+              "fn-boeing",
+              "fn-navair-mv22"
             ]
           },
           {
@@ -32951,8 +32981,9 @@
         ],
         "bullets": [
           {
-            "text": "MV-22B Osprey — Marine Corps assault-support version used for troop movement, resupply, casualty evacuation, humanitarian assistance, and expeditionary operations.",
+            "text": "MV-22B Osprey — Marine Corps assault-support version for transporting troops, equipment, and supplies from ships and land bases for combat assault and assault support; NAVAIR describes it as the CH-46E Sea Knight replacement.",
             "refs": [
+              "fn-navair-mv22",
               "fn-boeing"
             ]
           },
@@ -33043,6 +33074,13 @@
             "text": "In naval and Marine use, the aircraft extends ship-to-objective and ship-to-shore movement beyond the profile of older assault-support helicopters. The CMV-22B adds a logistics role for carrier strike groups by carrying people, critical parts, and priority cargo.",
             "refs": [
               "fn-boeing"
+            ]
+          },
+          {
+            "text": "NAVAIR records three Marine MV-22 combat deployments in Iraq from October 2007 to April 2009 and the first MV-22 shipboard deployment with the Bataan Ready Group in May 2009 as part of the 22nd Marine Expeditionary Unit. This gives the page a dated official anchor for early Marine operational use without trying to summarize every later deployment.",
+            "refs": [
+              "fn-navair-mv22",
+              "fn-method"
             ]
           },
           {
@@ -33141,9 +33179,22 @@
             ]
           },
           {
-            "text": "2007 — Marine MV-22 operational service noted by Boeing customer summary.",
+            "text": "June 2007 — MV-22B initial operational capability declared; Marine operational service begins in 2007.",
             "refs": [
+              "fn-navair-mv22",
               "fn-boeing"
+            ]
+          },
+          {
+            "text": "October 2007 to April 2009 — NAVAIR records three Marine MV-22 combat deployments in Iraq with VMM-263, VMM-162, and VMM-266.",
+            "refs": [
+              "fn-navair-mv22"
+            ]
+          },
+          {
+            "text": "May 2009 — VMM-263 embarked on the first MV-22 shipboard deployment with the Bataan Ready Group as part of the 22nd Marine Expeditionary Unit.",
+            "refs": [
+              "fn-navair-mv22"
             ]
           },
           {
@@ -33171,11 +33222,20 @@
         "title": "Sources and Notes",
         "paragraphs": [
           {
-            "text": "Primary facts for this page come from Boeing and the U.S. Air Force CV-22 fact sheet. Wikipedia is retained only as supplementary orientation and should not override official or manufacturer data where values differ.",
+            "text": "Primary facts for this page come from Boeing, NAVAIR, and the U.S. Air Force CV-22 fact sheet. Wikipedia is retained only as supplementary orientation and should not override official or manufacturer data where values differ.",
             "refs": [
               "fn-boeing",
+              "fn-navair-mv22",
               "fn-usaf",
               "fn-main"
+            ]
+          },
+          {
+            "text": "The NAVAIR MV-22B page is used as a dated official anchor for Marine Corps mission wording, CH-46E replacement context, 2007 IOC, early Iraq deployments, and shipboard deployment history. CMV-22 and CV-22 details still require variant-specific source context.",
+            "refs": [
+              "fn-navair-mv22",
+              "fn-usaf",
+              "fn-method"
             ]
           },
           {

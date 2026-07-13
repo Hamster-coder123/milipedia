@@ -16636,3 +16636,77 @@ Record the result of:
 
 #### Commit
 * Pending until commit is created; final hash is reported in the run output.
+
+### Run 224 — 2026-07-13 03:04:40 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Bell Boeing V-22 Osprey (id: v-22-osprey)
+* Reason selected: Audit/gap-fill rotation found V-22 among the least-recently audited non-reference pages. The page had sound renderer structure but lacked a rendered official NAVAIR MV-22B source and did not expose the official dated Marine MV-22 Iraq/shipboard deployment milestones already needed for its operational-history caveats.
+* Previous condition: External source cards covered Boeing and the USAF CV-22 fact sheet only; `wars_used_in` was empty despite an official NAVAIR page documenting Marine MV-22 Iraq deployments; Sources and Notes did not explain the new official MV-22 baseline.
+* Audit mode: Previously expanded page; focused gap-fill only.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: dense source-backed overview; article-section ordering; renderer-compatible Sources and Notes; cautious variant/source caveats; internal aircraft.html?id=... related links.
+
+#### Changes Made
+
+* Added the official NAVAIR MV-22B Osprey product page as a source, footnote, and rendered external article.
+* Updated `article_quality.external_article_sources` from 2 to 3 to match the rendered `external_articles` count.
+* Added source-backed operational-history detail for NAVAIR-recorded Marine MV-22 Iraq deployments from October 2007 to April 2009 and the May 2009 Bataan Ready Group shipboard deployment.
+* Populated top-level `wars_used_in` with an Iraq War entry and a broad expeditionary/humanitarian operations caveat instead of leaving the field empty.
+* Expanded Sources and Notes to explain the NAVAIR MV-22B page as the official Marine mission, CH-46E replacement, IOC, and early-deployment baseline while preserving variant-specific CV-22/CMV-22 caveats.
+* Preserved all existing related links, renderer-compatible link/card shapes, variants, operators, and event-gallery state.
+
+#### Sources Used
+
+* Naval Air Systems Command — MV-22B Osprey official product page.
+* Existing Boeing V-22 and U.S. Air Force CV-22 source records retained for family and CV-22-specific context.
+
+#### Files Modified
+
+* data/aircraft.json — Gap-filled only the Bell Boeing V-22 Osprey aircraft entry.
+* hermes-change-log.md — Appended this audit/gap-fill run entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used instead of sparse-page selection
+* [x] F-16 page was checked as formatting reference
+* [x] Exactly one aircraft JSON entry was changed and the id stayed `v-22-osprey`
+* [x] JSON syntax was checked
+* [x] Source refs were checked against existing source/footnote IDs
+* [x] Internal aircraft.html?id=... links were checked
+* [x] Renderer link/card shapes were checked
+* [x] Formatting was checked with git diff --check
+* [x] Credential-specific staged-diff scan found no credentials
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+1. Branch check — Confirmed `git branch --show-current` is `hermes-agent`.
+2. JSON validity — Ran `python3 -m json.tool data/aircraft.json >/dev/null` successfully.
+3. Single-entry diff check — Compared `git show HEAD:data/aircraft.json` to the working file and confirmed exactly one aircraft entry changed, with id `v-22-osprey` before and after.
+4. Entry integrity check — Recursively verified selected-entry refs against source/footnote IDs, internal `aircraft.html?id=...` links against data/aircraft.json IDs, no bare `aircraft.html` URLs, and renderer-compatible article-section card/link shapes.
+5. Diff hygiene — Ran `git diff --check` successfully after normalizing the change-log EOF.
+6. Credential check — Checked credential-specific patterns over the staged diff; no credentials were found.
+7. Staging check — Confirmed only `data/aircraft.json` and `hermes-change-log.md` were staged, leaving unrelated package files unstaged.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Bell Boeing V-22 Osprey
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+* The NAVAIR MV-22B page is used for dated Marine MV-22 operational milestones. Detailed mishap/readiness analysis and full current inventory accounting remain intentionally omitted because they require dedicated dated safety and readiness sources.
