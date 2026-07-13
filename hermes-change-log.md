@@ -16785,3 +16785,81 @@ hermes-agent
 
 * F-20 is not currently represented as a local Milipedia aircraft id, so the F-5 page intentionally keeps it as an external related link.
 * Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
+
+### Run 226 — 2026-07-13 05:04:17 UTC
+
+#### Branch
+
+hermes-agent
+
+#### Selected Page
+
+* File: data/aircraft.json
+* Aircraft/Page: Convair F-102 Delta Dagger (id: f-102-delta-dagger)
+* Reason selected: Audit/gap-fill scan found remaining rendered related-development/Related Pages links for absent local F-106 and F-101 pages that still pointed to Wikipedia even though official museum pages are available.
+* Previous condition: The F-102 source counts, refs, and local aircraft links were otherwise aligned, but visible related links for Convair F-106 Delta Dart and McDonnell F-101 Voodoo used orientation-only Wikipedia URLs.
+* Audit mode: Previously expanded page; focused rendered-link/source-quality cleanup only.
+
+#### Reference Page Used
+
+* F-16 page file path: data/f16-template.html
+* Formatting patterns checked: renderer-compatible related-link shape using `label`/`url`, top-level `similar_development` shape using `id`/`name`/`url`, official/museum sources preferred over orientation-only Wikipedia, and internal aircraft links preserved for represented local IDs.
+
+#### Concrete Gap Found
+
+* The F-102 entry rendered Wikipedia as the external target for F-106 in both `similar_development` and Related Pages, and for F-101 in `similar_development`. Because F-106 and F-101 are not represented as local aircraft ids, external links are intentional, but official museum pages are better visible targets than Wikipedia.
+
+#### Changes Made
+
+* Replaced the top-level F-106 related-development URL with the National Museum of the U.S. Air Force F-106A Delta Dart page.
+* Replaced the top-level F-101 related-development URL with the National Museum of the U.S. Air Force F-101B Voodoo page.
+* Replaced the F-106 Related Pages link URL and label with a National Museum of the U.S. Air Force target.
+* Preserved all factual prose, local aircraft links, sources, footnotes, external articles, variants, operators, event-gallery metadata, and article-quality counts.
+* Added no new factual claims; this was a focused rendered-link quality fix.
+
+#### Sources Used
+
+* National Museum of the U.S. Air Force — Convair F-106A Delta Dart page, retrieved via Exa.
+* National Museum of the U.S. Air Force — McDonnell F-101B Voodoo page, retrieved via Exa.
+* Existing F-102 data record and renderer-compatible link conventions from the F-16 reference/template page.
+
+#### Files Modified
+
+* data/aircraft.json — Replaced only the F-102 entry's rendered F-106/F-101 related-link URLs and the visible F-106 Related Pages label.
+* hermes-change-log.md — Appended this audit/gap-fill run entry.
+
+#### Verification Checklist
+
+* [x] Branch hermes-agent was used
+* [x] Main branch was not edited directly
+* [x] Repository was fetched before edits
+* [x] Audit/gap-fill mode was used instead of sparse-page selection
+* [x] F-16 page was checked as formatting reference
+* [x] Exactly one aircraft JSON entry was changed and the id stayed `f-102-delta-dagger`
+* [x] JSON syntax was checked
+* [x] Source refs were checked against existing source/footnote IDs
+* [x] Internal aircraft.html?id=... links were checked
+* [x] Renderer link/card shapes were checked
+* [x] Formatting was checked with git diff --check
+* [x] Credential-specific staged-diff scan found no credentials
+* [x] Only intended files were staged
+
+#### Verification Steps Completed
+
+1. Branch check — Confirmed `git branch --show-current` is `hermes-agent`.
+2. JSON validity — Ran `python3 -m json.tool data/aircraft.json >/dev/null` successfully.
+3. Single-entry diff check — Compared `git show HEAD:data/aircraft.json` to the working file and confirmed exactly one aircraft entry changed, with id `f-102-delta-dagger` before and after.
+4. Entry integrity check — Recursively verified selected-entry refs against source/footnote IDs, internal `aircraft.html?id=...` links against data/aircraft.json IDs, no bare `aircraft.html` URLs, and renderer-compatible article-section card/link shapes.
+5. Diff hygiene — Ran `git diff --check` successfully after normalizing the change-log EOF.
+6. Credential check — Checked credential-specific patterns over the staged diff; no credentials were found.
+7. Staging check — Confirmed only `data/aircraft.json` and `hermes-change-log.md` were staged, leaving unrelated package files unstaged.
+
+#### Commit
+
+* Commit message: Hermes hourly audit: fill gaps in Convair F-102 Delta Dagger
+* Commit hash: Pending until commit is created; final hash is reported in the run output.
+
+#### Issues or Uncertainties
+
+* F-106 and F-101 are not currently represented as local Milipedia aircraft ids, so the F-102 page intentionally keeps them as external related-development links.
+* Commit hash cannot be embedded in the committed change log without changing the commit hash again; the final hash is reported in the scheduled-run response.
