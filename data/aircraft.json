@@ -14676,13 +14676,7 @@
         ]
       }
     ],
-    "event_gallery": [
-      {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg/960px-U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg",
-        "caption": "Vietnam War",
-        "source_url": "https://en.wikipedia.org/wiki/Vietnam_War"
-      }
-    ]
+    "event_gallery": []
   },
   {
     "id": "a-10-thunderbolt-ii",
